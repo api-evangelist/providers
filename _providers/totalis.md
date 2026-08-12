@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: Manage programmatic access keys for the authenticated user.
@@ -61,6 +61,10 @@ asyncapis:
   name: Totalis WebSocket
   slug: totalis-websocket-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/totalis-rfq-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -175,7 +179,7 @@ overview: 'Totalis publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
   The Totalis catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Totalis'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, FAQ, authentication, and 17 more developer resources.'
+  Totalis'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, FAQ, authentication, and 18 more developer resources.'
 random_paper: 72
 rate_limits:
 - limit_count: 3
@@ -183,13 +187,13 @@ rate_limits:
   slug: totalis-rate-limits
 score:
   band: developing
-  composite: 50.4
-  delta: 0.0
+  composite: 48.9
+  delta: -1.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 69.3
+    contract_quality: 66.8
     developer_ergonomics: 49.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
   previous_composite: 50.4
@@ -208,8 +212,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-08-10'
+  score: 41.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 226
   human_in_the_loop: 20
@@ -347,13 +347,13 @@ overview: 'Nfon publishes 52 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 85
 score:
   band: developing
-  composite: 48.9
-  delta: 0.0
+  composite: 47.9
+  delta: -1.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 59.9
     developer_ergonomics: 47.3
-    discoverability: 74.1
+    discoverability: 63.0
     governance: 20.8
     operational_transparency: 44.7
   previous_composite: 48.9
@@ -373,8 +373,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/screenshots/nfon-2026-08-07T185227.png
 security:

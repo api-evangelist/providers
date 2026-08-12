@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'The core smolagents Python library providing CodeAgent and ToolCallingAgent classes for building AI agents that write Python code or structured JSON to call tools and orchestrate multi-agent systems. '
@@ -36,6 +36,10 @@ apis:
   slug: smolagents-python-library
 artifact_total: 7
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/huggingface/smolagents/blob/main/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -135,7 +139,7 @@ overview: 'smolagents publishes 1 API on the [APIs.io](https://apis.io/) network
   The smolagents catalog on APIs.io includes 1 JSON-LD context.
 
 
-  smolagents'' developer surface includes documentation, engineering blog, changelog, pricing, and 15 more developer resources.'
+  smolagents'' developer surface includes documentation, engineering blog, changelog, pricing, and 16 more developer resources.'
 plans:
 - name: Smolagents Plans Pricing
   plan_count: 5
@@ -157,8 +161,8 @@ score:
     governance: 0.0
     operational_transparency: 68.4
   previous_composite: 31.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smolagents/refs/heads/main/screenshots/smolagents-2026-06-20T194059.png
 security:

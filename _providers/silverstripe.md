@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: 'SilverStripe''s GraphQL API provides a content API layer for getting data in and out of the CMS. It supports schema generation from DataObject models, custom types and queries, and extensible schemas. '
@@ -39,6 +39,10 @@ apis:
   slug: rest-api
 artifact_total: 7
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/silverstripe/silverstripe-restfulserver/blob/3/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -114,7 +118,7 @@ network: true
 overview: 'SilverStripe publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include CMS, Content Management, GraphQL, REST API, and PHP.
 
 
-  SilverStripe''s developer surface includes documentation, API reference, engineering blog, pricing, changelog, and 9 more developer resources.'
+  SilverStripe''s developer surface includes documentation, API reference, engineering blog, pricing, changelog, and 10 more developer resources.'
 plans:
 - name: Silverstripe Plans Pricing
   plan_count: 2
@@ -136,8 +140,8 @@ score:
     governance: 0.0
     operational_transparency: 68.4
   previous_composite: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/silverstripe/refs/heads/main/screenshots/silverstripe-2026-06-20T193925.png
 security:

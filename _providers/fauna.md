@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -233,16 +233,16 @@ rules:
     warn: 5
   slug: fauna-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 43.3
-  delta: 0.0
+  band: thin
+  composite: 34.8
+  delta: -8.5
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 76.4
+    commercial_clarity: 15.8
+    contract_quality: 73.9
     developer_ergonomics: 10.9
     discoverability: 50.0
     governance: 41.7
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 43.3
   provenance:
     agentic_access: derived
@@ -251,9 +251,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/screenshots/fauna-2026-06-20T181057.png
 security:
 - kind: authentication

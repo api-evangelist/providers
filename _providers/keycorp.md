@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -79,6 +79,22 @@ collections:
   name: KeyBank Commercial Banking APIs
   slug: open-keycorp
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/keycorp-originate-ach-payment.md
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://developer.key.com/tos
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.key.com/guides/getting-started
+- group: start
+  title: ''
+  type: Signup
+  url: https://developer.key.com/secure/signup
 - group: agent
   title: ''
   type: AgenticAccess
@@ -133,7 +149,7 @@ common:
   url: mcp/keycorp-tool-crosswalk.yml
 - group: agent
   title: ''
-  type: AgentSkill
+  type: AgentSkills
   url: skills/_index.yml
 - group: other
   title: ''
@@ -189,7 +205,7 @@ overview: 'KeyCorp publishes 10 APIs on the [APIs.io](https://apis.io/) network,
   The KeyCorp catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  KeyCorp''s developer surface includes authentication, sandbox, documentation, support, and 18 more developer resources.'
+  KeyCorp''s developer surface includes getting-started guide, signup flow, authentication, sandbox, documentation, support, and 20 more developer resources.'
 plans:
 - name: Keycorp Plans Pricing
   plan_count: 1
@@ -217,15 +233,15 @@ rate_limits:
   slug: keycorp-rate-limits
 score:
   band: developing
-  composite: 42.7
-  delta: 0.0
+  composite: 43.2
+  delta: 0.5
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 73.6
-    developer_ergonomics: 42.9
+    commercial_clarity: 36.8
+    contract_quality: 70.9
+    developer_ergonomics: 53.8
     discoverability: 72.2
     governance: 11.5
-    operational_transparency: 28.9
+    operational_transparency: 13.2
   previous_composite: 42.7
   provenance:
     agentic_access: derived
@@ -242,9 +258,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 29.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 26.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/screenshots/keycorp-2026-06-20T184017.png
 security:

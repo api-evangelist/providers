@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'PSD2 open-banking platform API: Authentication, General, Payment Initiation (PIS) and Account Information (AIS) services for account-to-account bank payments, card (hybrid) payments, refunds and accou'
@@ -163,8 +163,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 43.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

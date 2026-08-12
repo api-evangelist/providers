@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 3
@@ -61,6 +61,14 @@ apis:
   slug: formant-data-access-api
 artifact_total: 92
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/FormantIO/toolkit/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/FormantIO/toolkit/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -471,7 +479,7 @@ overview: 'Formant publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
   The Formant catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Formant''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, signup flow, tooling, and 67 more developer resources.'
+  Formant''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, signup flow, tooling, and 69 more developer resources.'
 random_paper: 63
 rules:
 - name: Formant API Rules
@@ -492,11 +500,11 @@ rules:
   slug: formant-rules
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 48.4
+  delta: -0.6
   facets:
     commercial_clarity: 23.7
-    contract_quality: 71.3
+    contract_quality: 68.7
     developer_ergonomics: 47.8
     discoverability: 64.8
     governance: 58.3
@@ -509,8 +517,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formant/refs/heads/main/screenshots/formant-2026-06-20T181431.png
 security:

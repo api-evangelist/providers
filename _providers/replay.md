@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: GraphQL API for retrieving workspace and user metadata — replays/recordings, team members, and comments on a replay. POST queries to the endpoint with a Replay API key as a bearer token.
@@ -193,8 +193,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

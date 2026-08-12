@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 57.7
-  scored_at: '2026-08-10'
+  score: 54.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -453,15 +454,15 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.0
-  delta: 0.0
+  composite: 43.0
+  delta: -8.0
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 22.6
+    commercial_clarity: 34.2
+    contract_quality: 21.8
     developer_ergonomics: 50.0
     discoverability: 64.8
     governance: 69.8
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 51.0
   provenance:
     agentic_access: derived
@@ -472,9 +473,9 @@ score:
       marker_coverage: 100.0
       total: 6
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/screenshots/sharepoint-2026-06-20T193748.png
 security:
 - kind: authentication

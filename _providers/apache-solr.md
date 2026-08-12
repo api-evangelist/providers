@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -75,6 +75,22 @@ collections:
   name: Apache Solr HTTP API
   slug: open-apache-solr
 common:
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/apache/solr/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/solr/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/solr/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -180,7 +196,7 @@ network: true
 overview: 'Apache Solr publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Schema API, Collections API, Cluster API, and 4 more. Tagged areas include Enterprise Search, Full-Text Search, Lucene, Search, and SolrCloud.
 
 
-  Apache Solr''s developer surface includes authentication, documentation, developer portal, getting-started guide, release notes, support, engineering blog, and 7 more developer resources.'
+  Apache Solr''s developer surface includes authentication, documentation, developer portal, getting-started guide, release notes, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Apache Solr Plans Pricing
   plan_count: 3
@@ -191,16 +207,16 @@ rate_limits:
   name: Apache Solr Rate Limits
   slug: apache-solr-rate-limits
 score:
-  band: developing
-  composite: 45.9
-  delta: 0.0
+  band: thin
+  composite: 39.0
+  delta: -6.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 51.2
+    commercial_clarity: 26.3
+    contract_quality: 49.3
     developer_ergonomics: 52.2
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 47.4
+    operational_transparency: 34.2
   previous_composite: 45.9
   provenance:
     agentic_access: derived
@@ -209,9 +225,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-solr/refs/heads/main/screenshots/apache-solr-2026-06-20T172145.png
 security:
 - kind: authentication

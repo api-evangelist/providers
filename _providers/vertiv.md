@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -231,16 +231,16 @@ rules:
     warn: 3
   slug: vertiv-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 45.2
-  delta: 0.0
+  band: thin
+  composite: 36.9
+  delta: -8.3
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 74.1
+    commercial_clarity: 13.2
+    contract_quality: 71.4
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 47.9
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 45.2
   provenance:
     agentic_access: derived
@@ -249,9 +249,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 23.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/screenshots/vertiv-2026-06-20T200959.png
 security:
 - kind: authentication

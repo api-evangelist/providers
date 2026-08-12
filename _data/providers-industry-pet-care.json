@@ -4,31 +4,31 @@
  "limit": 1000,
  "bands": [
   {
-   "band": "thin",
-   "label": "Thin",
-   "range": "28 – 41.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 1,
-   "shown": 1,
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "13 – 27.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 2,
+   "shown": 2,
    "providers": [
     {
      "name": "Chewy",
      "slug": "chewy",
      "description": "Chewy, Inc. is a Fortune 500 American online retailer of pet food, pet products, prescription medications, and veterinary services headquartered in Plantation, Florida. Chewy is one of the largest e-commerce pet retailers in the United States and supports a customer-focused operating model centered on subscription Autoship orders, Chewy Pharmacy prescription fulfillment, Connect with a Vet telehealth, and Chewy Health insurance. Chewy provides vendor and supplier integration primarily through the Dsco supplier integration platform rather than a public consumer-facing developer API. The Dsco-based integration supports core EDI transactions for purchase orders, inventory updates, shipment confirmations, and invoices, enabling brands and third-party logistics providers to connect with Chewy's e-commerce marketplace.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/chewy/refs/heads/main/screenshots/chewy-2026-07-25T205222.png",
-     "score": 30.9,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 26.5,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 43.2,
       "governance": 0.0,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 4.3,
-      "commercial_clarity": 50.0
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -55,36 +55,25 @@
       "dry_run_mode": false
      },
      "rank": 1
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "13 – 27.9",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 3,
-   "shown": 3,
-   "providers": [
+    },
     {
      "name": "Zoetis",
      "slug": "zoetis",
      "description": "Zoetis is the world's leading animal health company, dedicated to discovering, developing, manufacturing, and commercializing medicines, vaccines, diagnostics, and technologies for animals. The company operates in over 100 countries and provides digital connectivity solutions that integrate veterinary diagnostics, reference laboratory services, and practice management systems through the Vetscan platform, enabling bidirectional communication between point-of-care analyzers and veterinary practice information management systems (PIMS).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoetis/refs/heads/main/screenshots/zoetis-2026-06-20T201932.png",
-     "score": 20.0,
+     "score": 13.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 31.6,
+      "operational_transparency": 7.9,
       "developer_ergonomics": 10.9,
-      "commercial_clarity": 50.0
+      "commercial_clarity": 26.3
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -111,25 +100,36 @@
       "dry_run_mode": false
      },
      "rank": 2
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 12.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 4,
+   "shown": 4,
+   "providers": [
     {
      "name": "Central Garden and Pet",
      "slug": "central-garden-and-pet",
      "description": "Central Garden and Pet is a major US corporation and Fortune 1000 company. The Central Garden and Pet API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/central-garden-and-pet/refs/heads/main/screenshots/central-garden-and-pet-2026-06-20T174129.png",
-     "score": 14.5,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 9.3,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -154,19 +154,19 @@
      "name": "Petco Animal Supplies",
      "slug": "petco",
      "description": "Petco Animal Supplies is a major US corporation and Fortune 1000 company. The Petco Animal Supplies API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "score": 14.5,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 9.3,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -186,24 +186,13 @@
       "dry_run_mode": false
      },
      "rank": 4
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 12.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 2,
-   "shown": 2,
-   "providers": [
+    },
     {
      "name": "Patterson Companies",
      "slug": "patterson",
      "description": "Patterson Companies is a value-added distributor of dental and animal health products serving the dental, companion-pet veterinarian, and production-animal markets. No public developer API has been identified at this time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/patterson/refs/heads/main/screenshots/patterson-2026-06-20T191445.png",
-     "score": 4.1,
+     "score": 4.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -214,8 +203,15 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -252,8 +248,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -274,7 +270,8 @@
      },
      "rank": 6
     }
-   ]
+   ],
+   "open": true
   }
  ]
 }

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Local developer API for the Double 3 telepresence robot. Commands and events are exchanged as JSON packets over a standard Unix domain socket with the core D3 system service (Ubuntu 18.04, aarch64). A
@@ -39,6 +39,10 @@ apis:
   slug: fleet-rest-api
 artifact_total: 4
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/doublerobotics/d3-sdk/issues
 - group: start
   title: ''
   type: DeveloperPortal
@@ -90,22 +94,22 @@ network: true
 overview: 'Double Robotics publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telepresence, Robotics, Videoconferencing, and Hybrid Work.
 
 
-  Double Robotics'' developer surface includes documentation, authentication, and 8 more developer resources.'
+  Double Robotics'' developer surface includes documentation, authentication, and 9 more developer resources.'
 random_paper: 41
 score:
   band: emerging
-  composite: 20.2
-  delta: 0.0
+  composite: 19.1
+  delta: -1.1
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
     developer_ergonomics: 34.8
-    discoverability: 77.8
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 20.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/double-robotics/refs/heads/main/screenshots/double-robotics-2026-07-25T212319.png
 security:

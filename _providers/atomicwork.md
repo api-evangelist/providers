@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-08-10'
+  score: 40.8
+  scored_at: '2026-08-11'
 api_count: 16
 apis:
 - description: The accessManagement API from Atomicwork — 8 operation(s) for accessmanagement.
@@ -140,7 +140,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/atomicwork-public-api-openapi.yaml
+  url: openapi/_original/atomicwork-public-api-openapi.yaml
 - group: other
   title: ''
   type: Overlay
@@ -220,13 +220,13 @@ overview: 'Atomicwork publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 44
 score:
   band: developing
-  composite: 52.0
-  delta: 0.0
+  composite: 50.5
+  delta: -1.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 52.5
+    contract_quality: 50.6
     developer_ergonomics: 58.2
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 26.3
   previous_composite: 52.0
@@ -239,8 +239,8 @@ score:
       total: 16
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atomicwork/refs/heads/main/screenshots/atomicwork-2026-07-25T201615.png
 security:

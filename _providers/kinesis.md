@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 99
   human_in_the_loop: 4
@@ -2651,15 +2651,15 @@ rules:
   slug: kinesis-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 44.0
+  delta: -8.4
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 58.9
+    commercial_clarity: 23.7
+    contract_quality: 56.7
     developer_ergonomics: 50.0
     discoverability: 50.0
     governance: 58.3
-    operational_transparency: 47.4
+    operational_transparency: 23.7
   previous_composite: 52.4
   provenance:
     agentic_access: derived
@@ -2668,9 +2668,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 99
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/screenshots/kinesis-2026-06-20T184044.png
 security:
 - kind: authentication

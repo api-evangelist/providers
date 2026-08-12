@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -70,6 +70,10 @@ apis:
   slug: ava-protocol-workflows-api
 artifact_total: 14
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ava-protocol-avs-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -209,15 +213,15 @@ network: true
 overview: 'Ava Protocol publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Executions API, Health API, and 7 more. Tagged areas include Company, Fintech, Blockchain, DeFi, and Automation.
 
 
-  Ava Protocol''s developer surface includes authentication, sandbox, CLI, documentation, API reference, getting-started guide, engineering blog, and 24 more developer resources.'
+  Ava Protocol''s developer surface includes authentication, sandbox, CLI, documentation, API reference, getting-started guide, engineering blog, and 25 more developer resources.'
 random_paper: 79
 score:
   band: developing
-  composite: 46.0
-  delta: 0.0
+  composite: 44.5
+  delta: -1.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 55.2
+    contract_quality: 53.1
     developer_ergonomics: 75.5
     discoverability: 81.5
     governance: 11.5
@@ -233,8 +237,14 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 39.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/screenshots/ava-protocol-2026-07-25T201902.png
 security:

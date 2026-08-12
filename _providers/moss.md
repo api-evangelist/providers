@@ -1,9 +1,9 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: flavored
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -11,17 +11,25 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 1.8
-  scored_at: '2026-08-10'
+  score: 17.1
+  scored_at: '2026-08-11'
 api_count: 0
-artifact_total: 3
+artifact_total: 4
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/moss-mcp-integration.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/moss-mcp.yml
 - group: other
   title: ''
   type: AgentCard
@@ -29,6 +37,10 @@ common:
 created: '2026-07-17'
 description: Moss is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 layout: provider
+mcp_servers:
+- description: ''
+  name: moss-mcp.yml
+  slug: moss-mcpyml
 modified: '2026-07-17'
 name: Moss
 nav: Providers
@@ -37,13 +49,13 @@ overview: Moss is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 random_paper: 102
 score:
   band: minimal
-  composite: 6.1
-  delta: 0.0
+  composite: 8.1
+  delta: 2.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 46.3
+    developer_ergonomics: 15.2
+    discoverability: 35.2
     governance: 12.5
     operational_transparency: 0.0
   previous_composite: 6.1
@@ -51,8 +63,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

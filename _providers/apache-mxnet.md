@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'MXNet provides APIs in Python, Scala, Java, C++, R, Julia, and Perl for deep learning model development, with the Gluon high-level API for imperative model building, Symbol/NDArray low-level APIs for '
@@ -36,6 +36,26 @@ apis:
   slug: apache-mxnet
 artifact_total: 26
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apache/mxnet/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/apache/mxnet/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/apache/mxnet/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/mxnet/blob/master/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/mxnet/blob/master/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -123,7 +143,7 @@ network: true
 overview: 'Apache MXNet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Deep Learning, Machine Learning, Neural Networks, and Python.
 
 
-  Apache MXNet''s developer surface includes developer portal and 9 more developer resources.'
+  Apache MXNet''s developer surface includes developer portal and 14 more developer resources.'
 plans:
 - name: Apache Mxnet Plans Pricing
   plan_count: 3
@@ -135,18 +155,18 @@ rate_limits:
   slug: apache-mxnet-rate-limits
 score:
   band: emerging
-  composite: 22.5
-  delta: 0.0
+  composite: 18.1
+  delta: -4.4
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 22.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-mxnet/refs/heads/main/screenshots/apache-mxnet-2026-06-20T172124.png
 security:

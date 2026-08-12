@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -355,16 +355,16 @@ rules:
     warn: 4
   slug: vonage-rules
 score:
-  band: strong
-  composite: 60.1
-  delta: 0.0
+  band: developing
+  composite: 54.9
+  delta: -5.2
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 76.4
+    commercial_clarity: 44.7
+    contract_quality: 73.9
     developer_ergonomics: 69.6
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 47.9
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 60.1
   provenance:
     agentic_access: derived
@@ -379,9 +379,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/screenshots/vonage-2026-06-20T165933.png
 security:
 - kind: authentication

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-10'
+  score: 32.7
+  scored_at: '2026-08-11'
 api_count: 124
 apis:
 - description: AccessPathController Operations able access paths
@@ -405,6 +405,10 @@ apis:
   slug: xsky-volume-dp-block-backup-policy-mappings-api
 artifact_total: 127
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/xsky-xms-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -504,17 +508,17 @@ network: true
 overview: 'XSKY publishes 124 APIs on the [APIs.io](https://apis.io/) network, including access-paths API, access-tokens API, action-logs API, and 121 more. Tagged areas include Storage, Software-Defined Storage, Object Storage, Block Storage, and File Storage.
 
 
-  XSKY''s developer surface includes engineering blog, support, signup flow, authentication, CLI, and 16 more developer resources.'
+  XSKY''s developer surface includes engineering blog, support, signup flow, authentication, CLI, and 17 more developer resources.'
 random_paper: 115
 score:
   band: thin
-  composite: 34.5
-  delta: 0.0
+  composite: 33.0
+  delta: -1.5
   facets:
     commercial_clarity: 23.7
-    contract_quality: 44.6
+    contract_quality: 43.0
     developer_ergonomics: 34.2
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 13.2
   previous_composite: 34.5
@@ -527,8 +531,8 @@ score:
       total: 124
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

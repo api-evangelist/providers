@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: documented
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 43.7
-  scored_at: '2026-08-10'
+  score: 40.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -33,6 +33,10 @@ apis:
   slug: rics-digitalcommunity-api
 artifact_total: 6
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/RICS-Data-Standard/RDS/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -233,7 +237,7 @@ network: true
 overview: 'RICS (Royal Institution of Chartered Surveyors) publishes 1 API on the [APIs.io](https://apis.io/) network: RICS DigitalCommunity API. Tagged areas include Real Estate, United Kingdom, Industry Body, Valuation, and Standards.
 
 
-  RICS (Royal Institution of Chartered Surveyors)''s developer surface includes authentication, changelog, code examples, engineering blog, support, signup flow, pricing, and 39 more developer resources.'
+  RICS (Royal Institution of Chartered Surveyors)''s developer surface includes authentication, changelog, code examples, engineering blog, support, signup flow, pricing, and 40 more developer resources.'
 random_paper: 85
 scopes:
 - name: Rics Scopes
@@ -242,11 +246,11 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 36.5
-  delta: 0.0
+  composite: 36.1
+  delta: -0.4
   facets:
     commercial_clarity: 44.7
-    contract_quality: 41.9
+    contract_quality: 40.3
     developer_ergonomics: 21.2
     discoverability: 87.0
     governance: 11.5
@@ -262,8 +266,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

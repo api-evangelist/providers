@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: 'The Centene FHIR Patient Access API lets members of Centene health plans access their clinical, financial, and formulary data through third-party applications, as required by the CMS Interoperability '
@@ -113,16 +113,16 @@ rate_limits:
   name: Centene Rate Limits
   slug: centene-rate-limits
 score:
-  band: emerging
-  composite: 17.1
-  delta: 0.0
+  band: minimal
+  composite: 11.8
+  delta: -5.3
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 17.1
   regulatory:
     applies: true
@@ -130,9 +130,9 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/screenshots/centene-2026-06-20T174122.png
 security:
 - kind: domain-security

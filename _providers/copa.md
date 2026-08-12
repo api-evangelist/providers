@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The copa command line interface used to patch container images. The core subcommand `copa patch` accepts an image reference and an optional vulnerability report and produces a new tagged image with OS
@@ -42,6 +42,14 @@ apis:
   slug: vex
 artifact_total: 6
 common:
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/project-copacetic/copacetic/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/project-copacetic/copacetic/blob/main/CODE_OF_CONDUCT.md
 - group: company
   title: ''
   type: Website
@@ -89,7 +97,7 @@ network: true
 overview: 'Copa (Project Copacetic) publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include BuildKit, CLI, CNCF Sandbox, Container Patching, and Containers.
 
 
-  Copa (Project Copacetic)''s developer surface includes documentation, changelog, and 6 more developer resources.'
+  Copa (Project Copacetic)''s developer surface includes documentation, changelog, and 8 more developer resources.'
 plans:
 - name: Copa Plans Pricing
   plan_count: 3
@@ -101,19 +109,19 @@ rate_limits:
   slug: copa-rate-limits
 score:
   band: emerging
-  composite: 24.7
-  delta: 0.0
+  composite: 18.3
+  delta: -6.4
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 13.0
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 24.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/copa/refs/heads/main/screenshots/copa-2026-06-20T175009.png
 slug: copa
 tags:

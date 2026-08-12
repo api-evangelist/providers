@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 59.9
-  scored_at: '2026-08-10'
+  score: 56.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 172
   human_in_the_loop: 5
@@ -17200,15 +17201,15 @@ scopes:
   summary_line: 36 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 80.1
-  delta: 0.0
+  composite: 74.3
+  delta: -5.8
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 84.1
+    commercial_clarity: 68.4
+    contract_quality: 81.3
     developer_ergonomics: 78.3
     discoverability: 77.8
     governance: 80.2
-    operational_transparency: 78.9
+    operational_transparency: 55.3
   previous_composite: 80.1
   provenance:
     agentic_access: derived
@@ -17219,9 +17220,9 @@ score:
       marker_coverage: 0.0
       total: 256
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/screenshots/salesforce-2026-06-20T193352.png
 security:
 - kind: authentication

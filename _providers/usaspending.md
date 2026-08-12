@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -113,11 +113,11 @@ rate_limits:
   slug: usaspending-rate-limits
 score:
   band: emerging
-  composite: 25.7
-  delta: 0.0
+  composite: 25.2
+  delta: -0.5
   facets:
     commercial_clarity: 0.0
-    contract_quality: 57.2
+    contract_quality: 55.1
     developer_ergonomics: 8.7
     discoverability: 74.1
     governance: 0.0
@@ -136,8 +136,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

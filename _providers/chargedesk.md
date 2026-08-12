@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -198,11 +198,11 @@ rules:
   slug: chargedesk-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.0
-  delta: 0.0
+  composite: 45.5
+  delta: -0.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.2
+    contract_quality: 62.8
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
@@ -221,8 +221,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargedesk/refs/heads/main/screenshots/chargedesk-2026-06-20T174221.png
 security:

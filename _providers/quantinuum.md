@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 9
 apis:
 - description: Nexus is Quantinuum's all-in-one quantum computing cloud platform. It brokers access to Quantinuum H-Series hardware (H1, H2, Helios) and to partner backends including IBM Quantum and Amazon Braket, m
@@ -207,18 +207,18 @@ overview: 'Quantinuum publishes 9 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 67
 score:
   band: emerging
-  composite: 17.2
-  delta: 0.0
+  composite: 19.8
+  delta: 2.6
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 50.0
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 17.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quantinuum/refs/heads/main/screenshots/quantinuum-2026-06-20T192411.png
 security:

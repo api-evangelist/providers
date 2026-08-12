@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-10'
+  score: 38.1
+  scored_at: '2026-08-11'
 api_count: 10
 apis:
 - description: The Addressbook API from Work Market — 5 operation(s) for addressbook.
@@ -67,6 +67,10 @@ asyncapis:
   name: Work Market Webhooks
   slug: work-market-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/work-market-employer-api-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -232,17 +236,17 @@ overview: 'Work Market publishes 10 APIs on the [APIs.io](https://apis.io/) netw
   The Work Market catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Work Market''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, sandbox, and 22 more developer resources.'
+  Work Market''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, sandbox, and 23 more developer resources.'
 random_paper: 96
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 47.0
+  delta: -1.4
   facets:
     commercial_clarity: 34.2
-    contract_quality: 62.0
+    contract_quality: 59.7
     developer_ergonomics: 66.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 48.4
@@ -261,8 +265,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

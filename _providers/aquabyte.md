@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-10'
+  score: 42.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -51,6 +51,14 @@ apis:
   slug: aquabyte-welfare-api
 artifact_total: 11
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/aquabyte-harvest-planning.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aquabyte-data-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -114,7 +122,7 @@ network: true
 overview: 'Aquabyte publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Behaviour API, Biomass API, Environmental API, and 4 more. Tagged areas include Aquaculture, Fish Farming, Computer Vision, Machine Learning, and Biomass Estimation.
 
 
-  Aquabyte''s developer surface includes documentation, API reference, support, authentication, and 9 more developer resources.'
+  Aquabyte''s developer surface includes documentation, API reference, support, authentication, and 11 more developer resources.'
 random_paper: 48
 rate_limits:
 - limit_count: 1
@@ -122,16 +130,16 @@ rate_limits:
   slug: aquabyte-rate-limits
 score:
   band: thin
-  composite: 39.2
-  delta: 0.6
+  composite: 40.0
+  delta: 0.8
   facets:
     commercial_clarity: 34.2
-    contract_quality: 48.7
-    developer_ergonomics: 30.4
+    contract_quality: 50.6
+    developer_ergonomics: 32.1
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 38.6
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -139,10 +147,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 7
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/screenshots/aquabyte-2026-08-07T161729.png
 security:

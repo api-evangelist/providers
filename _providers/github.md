@@ -12,9 +12,10 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -28,8 +29,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.5
-  scored_at: '2026-08-10'
+  score: 64.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1203
   human_in_the_loop: 31
@@ -4049,26 +4050,26 @@ rules:
   slug: github-spectral-rules
 score:
   band: exemplar
-  composite: 71.3
-  delta: -1.1
+  composite: 66.2
+  delta: -5.1
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 77.2
-    developer_ergonomics: 71.7
-    discoverability: 59.3
+    commercial_clarity: 50.0
+    contract_quality: 79.9
+    developer_ergonomics: 78.3
+    discoverability: 66.7
     governance: 41.7
-    operational_transparency: 92.1
-  previous_composite: 72.4
+    operational_transparency: 68.4
+  previous_composite: 71.3
   provenance:
     agentic_access: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 356
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+      total: 322
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/screenshots/github-2026-06-20T181834.png
 security:
 - kind: authentication

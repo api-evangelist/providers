@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Historical partner/owner REST API used by fleet-management integrators (CarSync, FleetWire, Kitts) to sync bookings onto external calendars, block vehicle availability, generate invoices for professio
@@ -135,7 +135,7 @@ random_paper: 41
 score:
   band: minimal
   composite: 9.7
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -143,9 +143,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 8.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 9.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getaround/refs/heads/main/screenshots/getaround-2026-07-25T215717.png
 security:

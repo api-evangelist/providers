@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Flannel is a simple overlay network that satisfies the Kubernetes networking requirements. It allocates subnet leases to each host and provides a layer 3 IPv4 network between multiple nodes in a clust
@@ -83,19 +83,19 @@ rate_limits:
   slug: flannel-rate-limits
 score:
   band: emerging
-  composite: 22.5
-  delta: 0.0
+  composite: 14.7
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 19.6
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 22.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/flannel/refs/heads/main/screenshots/flannel-2026-06-20T181303.png
 slug: flannel
 tags:

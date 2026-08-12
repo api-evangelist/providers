@@ -22,21 +22,25 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 17.1
-  scored_at: '2026-08-10'
+  score: 16.2
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API over the Lightsprint workspace board — tasks, comments, projects, stacks, and cloud coding agents. Authenticated with OAuth 2.0 authorization-code tokens bound to a single workspace; the repo
   name: Lightsprint API
   slug: lightsprint-api
-artifact_total: 6
+artifact_total: 7
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/lightsprint-mcp.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -161,6 +165,10 @@ created: '2026-07-17'
 description: Lightsprint is an AI-native product-development platform where developers, product managers, and designers plan, build, and ship together against a codebase a team already runs, rather than a greenfield prototype. Its three surfaces are Plan Mode, which turns plain-English requirements into structured, reviewable visual plans; infinite parallel cloud agents that execute those plans on the team's real repository using Anthropic, Cursor, or Codex models in managed cloud infrastructure instead of on a developer's machine; and per-change preview environments that give every pull request a live URL so non-engineers review a running app instead of a diff. Work is tracked on a workspace board of stacks, projects, tasks, and dependencies exposed through an OAuth 2.0 REST API, a `lightsprint` CLI, a set of published Claude Code Agent Skills, and an n8n community node. Lightsprint was founded by Ben Ong, Benedict Chan, and Heng Hong Lee, and went through Y Combinator's Spring 2026 batch.
 image: https://lightsprint.ai/favicon.svg
 layout: provider
+mcp_servers:
+- description: ''
+  name: lightsprint-mcp.yml
+  slug: lightsprint-mcpyml
 modified: '2026-07-19'
 name: Lightsprint
 nav: Providers
@@ -168,7 +176,7 @@ network: true
 overview: 'Lightsprint publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Artificial Intelligence, Agents, and Software Development.
 
 
-  Lightsprint''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, authentication, and 23 more developer resources.'
+  Lightsprint''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, authentication, and 24 more developer resources.'
 plans:
 - name: Lightsprint Plans Pricing
   plan_count: 3
@@ -181,13 +189,13 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: thin
-  composite: 39.6
-  delta: 0.0
+  composite: 39.0
+  delta: -0.6
   facets:
     commercial_clarity: 84.2
     contract_quality: 0.0
-    developer_ergonomics: 65.2
-    discoverability: 87.0
+    developer_ergonomics: 67.4
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 5.3
   previous_composite: 39.6
@@ -195,8 +203,8 @@ score:
     conformance: derived
     mcp: derived
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/screenshots/lightsprint-2026-07-25T225137.png
 security:

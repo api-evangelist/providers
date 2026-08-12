@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 51.8
-  scored_at: '2026-08-10'
+  score: 48.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -63,6 +64,10 @@ asyncapis:
   name: Superlog Webhooks
   slug: superlog-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/superlog-management-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -173,7 +178,7 @@ overview: 'Superlog publishes 4 APIs on the [APIs.io](https://apis.io/) network,
   The Superlog catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Superlog''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 17 more developer resources.'
+  Superlog''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 18 more developer resources.'
 random_paper: 69
 scopes:
 - name: Superlog Scopes
@@ -182,13 +187,13 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.7
-  delta: 0.0
+  composite: 49.0
+  delta: -1.7
   facets:
     commercial_clarity: 28.9
-    contract_quality: 66.7
+    contract_quality: 64.2
     developer_ergonomics: 73.9
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 13.2
   previous_composite: 50.7
@@ -202,8 +207,8 @@ score:
       total: 4
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

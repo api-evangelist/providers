@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,6 +43,10 @@ apis:
   slug: skyhigh-tenant-api
 artifact_total: 7
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/skyhigh-incidents-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -150,7 +154,7 @@ network: true
 overview: 'Skyhigh Security publishes 1 API on the [APIs.io](https://apis.io/) network: Tenant API. Tagged areas include Company, Cybersecurity, Security Service Edge, CASB, and Secure Web Gateway.
 
 
-  Skyhigh Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 17 more developer resources.'
+  Skyhigh Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 18 more developer resources.'
 random_paper: 63
 scopes:
 - name: Skyhigh Scopes
@@ -159,13 +163,13 @@ scopes:
   summary_line: 3 scopes · implicit
 score:
   band: thin
-  composite: 39.7
-  delta: 0.0
+  composite: 38.2
+  delta: -1.5
   facets:
     commercial_clarity: 15.8
-    contract_quality: 45.7
+    contract_quality: 44.0
     developer_ergonomics: 56.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 20.8
     operational_transparency: 21.1
   previous_composite: 39.7
@@ -179,8 +183,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

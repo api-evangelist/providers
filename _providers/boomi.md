@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -167,6 +167,14 @@ collections:
   name: Boomi Platform REST API
   slug: open-boomi-platform-rest-api
 common:
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apiida.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.boomi.com/docs/Atomsphere/Platform/quickstart_guides
 - group: agent
   title: ''
   type: AgenticAccess
@@ -943,7 +951,7 @@ overview: 'Boomi publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
   The Boomi catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Boomi''s developer surface includes authentication, GitHub presence, pricing, engineering blog, training material, documentation, support, and 69 more developer resources.'
+  Boomi''s developer surface includes getting-started guide, authentication, GitHub presence, pricing, engineering blog, training material, documentation, and 71 more developer resources.'
 plans:
 - name: Boomi Plans Pricing
   plan_count: 9
@@ -972,15 +980,15 @@ rules:
   slug: boomi-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 72.4
-  delta: 0.0
+  composite: 66.7
+  delta: -5.7
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 85.3
-    developer_ergonomics: 45.7
-    discoverability: 59.3
+    commercial_clarity: 76.3
+    contract_quality: 82.1
+    developer_ergonomics: 56.5
+    discoverability: 66.7
     governance: 47.9
-    operational_transparency: 78.9
+    operational_transparency: 55.3
   previous_composite: 72.4
   provenance:
     agentic_access: derived
@@ -989,9 +997,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/screenshots/boomi-2026-06-20T173607.png
 security:
 - kind: authentication

@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.6
-  scored_at: '2026-08-10'
+  score: 40.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -55,12 +55,16 @@ apis:
 - description: Servi-specific operations
   name: Bear Robotics Servi API
   slug: bear-robotics-servi-api
-artifact_total: 13
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Bear Robotics Webhooks
   slug: bear-robotics-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/bear-robotics-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -178,6 +182,10 @@ description: 'Bear Robotics builds AI-driven autonomous mobile robots for hospit
   signup.'
 image: http://static1.squarespace.com/static/652cbb3fb1f91809d4610dc0/t/6a3dc3f863ff8c5ce8254bd0/1782432760376/og-bear-robotics-default.webp?format=1500w
 layout: provider
+mcp_servers:
+- description: ''
+  name: bear-robotics-mcp.yml
+  slug: bear-robotics-mcpyml
 modified: '2026-08-06'
 name: Bear Robotics
 nav: Providers
@@ -188,17 +196,17 @@ overview: 'Bear Robotics publishes 8 APIs on the [APIs.io](https://apis.io/) net
   The Bear Robotics catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bear Robotics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, changelog, and 22 more developer resources.'
+  Bear Robotics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, changelog, and 23 more developer resources.'
 random_paper: 48
 score:
   band: developing
-  composite: 50.0
-  delta: 0.0
+  composite: 49.3
+  delta: -0.7
   facets:
     commercial_clarity: 34.2
-    contract_quality: 62.8
-    developer_ergonomics: 60.3
-    discoverability: 92.6
+    contract_quality: 62.7
+    developer_ergonomics: 62.5
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
   previous_composite: 50.0
@@ -209,11 +217,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/screenshots/bear-robotics-2026-08-07T162236.png
 security:

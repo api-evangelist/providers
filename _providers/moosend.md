@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Moosend REST API (v3) enables programmatic access to email marketing and automation capabilities including managing email lists, subscribers, campaigns, segments, and transactional emails. Authent
@@ -131,8 +131,8 @@ rate_limits:
   slug: moosend-rate-limits
 score:
   band: thin
-  composite: 38.7
-  delta: 0.0
+  composite: 36.3
+  delta: -2.4
   facets:
     commercial_clarity: 57.9
     contract_quality: 45.2
@@ -141,8 +141,14 @@ score:
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 38.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 22.2
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/screenshots/moosend-2026-06-20T185801.png
 security:

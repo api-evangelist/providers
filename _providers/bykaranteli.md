@@ -1,24 +1,25 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-10'
+  score: 46.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -26,13 +27,24 @@ agentic_access:
   operation_count: 14
   slug: bykaranteli-agentic-access
   summary_line: 14 operations
-api_count: 1
+api_count: 2
 apis:
-- description: The X402 API from ByKaranteli — 14 operation(s) for x402.
+- description: Per-call priced history and depth endpoints, settled in USDC over the x402 protocol on Solana and Base mainnet through the Coinbase CDP facilitator. 13 priced endpoints plus the free catalog at /api/x
   name: ByKaranteli X402 API
   slug: bykaranteli-x402-api
-artifact_total: 13
+- description: 'The free, no-key public REST surface — 10 endpoints under /api/v1/public/ described by the provider''s own self-describing manifest, plus the /api/public/ index endpoints. Verified 2026-08-11: unauthen'
+  name: ByKaranteli Public API
+  slug: bykaranteli-public-api
+artifact_total: 15
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/bykaranteli-mcp.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://bykaranteli.com/developers
 - group: agent
   title: ''
   type: AgenticAccess
@@ -156,6 +168,10 @@ finops:
   slug: bykaranteli-finops
 image: https://bykaranteli.com/brand/icon-192.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: bykaranteli-mcp.yml
+  slug: bykaranteli-mcpyml
 modified: '2026-08-09'
 name: ByKaranteli
 nav: Providers
@@ -163,7 +179,7 @@ network: true
 overview: 'ByKaranteli publishes 1 API on the [APIs.io](https://apis.io/) network: X402 API. Tagged areas include Cryptocurrency, Crypto Derivatives, Market Data, Funding Rates, and Open Interest.
 
 
-  ByKaranteli''s developer surface includes API reference, getting-started guide, support, pricing, signup flow, changelog, authentication, and 17 more developer resources.'
+  ByKaranteli''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 19 more developer resources.'
 plans:
 - name: Bykaranteli Plans
   plan_count: 5
@@ -175,22 +191,35 @@ rate_limits:
   slug: bykaranteli-rate-limits
 score:
   band: developing
-  composite: 51.7
+  composite: 53.1
+  delta: 1.4
   facets:
     commercial_clarity: 63.2
-    contract_quality: 47.3
-    developer_ergonomics: 47.8
-    discoverability: 87.0
-    governance: 31.3
+    contract_quality: 53.0
+    developer_ergonomics: 60.3
+    discoverability: 75.9
+    governance: 21.9
     operational_transparency: 57.9
+  previous_composite: 51.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Bykaranteli Authentication

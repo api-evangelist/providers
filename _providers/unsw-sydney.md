@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: The front-facing developer portal exposing the UNSW Enterprise API gateway, built on Microsoft Azure API Management. It provides API documentation, an interactive API explorer, and subscription manage
@@ -129,8 +129,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 20.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/screenshots/unsw-sydney-2026-06-20T200413.png
 security:

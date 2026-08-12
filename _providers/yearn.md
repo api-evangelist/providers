@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,6 +55,10 @@ apis:
   slug: yearn-vaults-api
 artifact_total: 14
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/yearn/kong/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -111,11 +115,11 @@ rules:
   slug: yearn-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.1
-  delta: 0.0
+  composite: 37.5
+  delta: -0.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 68.7
+    contract_quality: 66.4
     developer_ergonomics: 0.0
     discoverability: 81.5
     governance: 58.3
@@ -128,8 +132,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yearn/refs/heads/main/screenshots/yearn-2026-06-20T201735.png
 security:

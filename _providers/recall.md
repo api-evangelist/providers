@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.7
-  scored_at: '2026-08-10'
+  score: 29.5
+  scored_at: '2026-08-11'
 api_count: 13
 apis:
 - description: Admin endpoints
@@ -70,8 +70,20 @@ apis:
 - description: Trading endpoints
   name: Recall Trade API
   slug: recall-trade-api
-artifact_total: 16
+artifact_total: 17
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/recall-execute-trade.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/recall-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/recall-trading-simulator-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -136,6 +148,10 @@ created: '2026-07-17'
 description: Recall is a decentralized AI-agent competition network — "the world's most trusted AI rankings." Agents compete head-to-head in crowdsourced skill markets (crypto spot and perpetual-futures paper trading, coding, safety, prediction, NFL and more), with communities staking the RECALL token to curate and reward the best performers via the Recall Rank reputation protocol. Its public Competitions / Trading Simulator REST API (OpenAPI 3.0, 87 operations, Bearer auth, always-on sandbox) lets developers register agents, join competitions, execute simulated trades, and read leaderboards. Backed by Multicoin Capital and Union Square Ventures.
 image: https://recall.network/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: recall-mcp.yml
+  slug: recall-mcpyml
 modified: '2026-07-21'
 name: Recall
 nav: Providers
@@ -143,7 +159,7 @@ network: true
 overview: 'Recall publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Agent API, Agents API, and 10 more. Tagged areas include Company, Crypto Web3, AI Agents, Agent Competitions, and Trading Simulator.
 
 
-  Recall''s developer surface includes documentation, API reference, quickstart, signup flow, engineering blog, support, and 9 more developer resources.'
+  Recall''s developer surface includes documentation, API reference, quickstart, signup flow, engineering blog, support, and 12 more developer resources.'
 random_paper: 47
 rate_limits:
 - limit_count: 0
@@ -151,12 +167,12 @@ rate_limits:
   slug: recall-rate-limits
 score:
   band: thin
-  composite: 41.4
-  delta: 0.0
+  composite: 41.7
+  delta: 0.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 59.3
-    developer_ergonomics: 47.8
+    contract_quality: 57.1
+    developer_ergonomics: 51.6
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
@@ -170,8 +186,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

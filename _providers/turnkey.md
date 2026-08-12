@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -131,11 +131,11 @@ rate_limits:
   slug: turnkey-rate-limits
 score:
   band: thin
-  composite: 39.1
-  delta: 0.0
+  composite: 37.0
+  delta: -2.1
   facets:
     commercial_clarity: 39.5
-    contract_quality: 60.5
+    contract_quality: 58.2
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
@@ -148,8 +148,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 28.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/screenshots/turnkey-2026-06-20T195835.png
 security:

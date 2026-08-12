@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 3
@@ -1087,11 +1087,11 @@ rules:
   slug: rarible-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.7
-  delta: 0.0
+  composite: 52.4
+  delta: 1.7
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 67.4
+    commercial_clarity: 52.6
+    contract_quality: 64.9
     developer_ergonomics: 41.3
     discoverability: 74.1
     governance: 58.3
@@ -1106,12 +1106,12 @@ score:
       total: 18
   regulatory:
     applies: true
-    matched_via: weak_tags
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/screenshots/rarible-2026-06-20T192606.png
 security:

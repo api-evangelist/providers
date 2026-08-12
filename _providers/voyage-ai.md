@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 9
 apis:
 - description: Reranking endpoint that scores a list of candidate documents against a query and returns relevance scores. Powered by the voyage-rerank-2 model family, used downstream of vector search to improve retr
@@ -60,6 +60,10 @@ apis:
   slug: voyage-ai-rerank-api
 artifact_total: 13
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/voyage-ai/voyageai-python/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -119,7 +123,7 @@ network: true
 overview: 'Voyage AI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Contextualized API, Embeddings API, Multimodal API, and 1 more. Tagged areas include Embeddings, Rerankers, RAG, Semantic Search, and AI Models.
 
 
-  Voyage AI''s developer surface includes documentation, GitHub presence, pricing, engineering blog, and 7 more developer resources.'
+  Voyage AI''s developer surface includes documentation, GitHub presence, pricing, engineering blog, and 8 more developer resources.'
 plans:
 - name: Voyage Ai Plans Pricing
   plan_count: 1
@@ -131,24 +135,24 @@ rate_limits:
   slug: voyage-ai-rate-limits
 score:
   band: thin
-  composite: 34.7
-  delta: 3.7
+  composite: 35.1
+  delta: 0.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 55.0
+    contract_quality: 56.7
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 31.0
+  previous_composite: 34.7
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+      total: 4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voyage-ai/refs/heads/main/screenshots/voyage-ai-2026-06-20T201141.png
 security:

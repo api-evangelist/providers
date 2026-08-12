@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -227,13 +227,13 @@ overview: 'Optus publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 107
 score:
   band: developing
-  composite: 55.0
-  delta: 0.0
+  composite: 50.9
+  delta: -4.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 54.1
+    contract_quality: 52.1
     developer_ergonomics: 53.8
-    discoverability: 83.3
+    discoverability: 72.2
     governance: 20.8
     operational_transparency: 57.9
   previous_composite: 55.0
@@ -252,9 +252,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 68.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 50.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/screenshots/optus-2026-08-07T190818.png
 security:

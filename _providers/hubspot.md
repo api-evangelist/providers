@@ -12,9 +12,10 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -28,8 +29,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.3
-  scored_at: '2026-08-10'
+  score: 60.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 181
   human_in_the_loop: 3
@@ -551,6 +552,10 @@ collections:
   name: HubSpot CMS Source Code API
   slug: open-hubspot-source-code-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/HubSpot/mcp-server/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -7911,7 +7916,7 @@ overview: 'HubSpot publishes 57 APIs on the [APIs.io](https://apis.io/) network,
   The HubSpot catalog on APIs.io includes 1 event-driven AsyncAPI specification, 61 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  HubSpot''s developer surface includes authentication, API reference, developer portal, documentation, changelog, support, engineering blog, and 107 more developer resources.'
+  HubSpot''s developer surface includes authentication, API reference, developer portal, documentation, changelog, support, engineering blog, and 108 more developer resources.'
 plans:
 - name: Hubspot Plans Pricing
   plan_count: 4
@@ -7953,15 +7958,15 @@ scopes:
   summary_line: 16 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 77.6
-  delta: 0.0
+  composite: 70.5
+  delta: -7.1
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 86.9
-    developer_ergonomics: 87.0
+    commercial_clarity: 68.4
+    contract_quality: 84.4
+    developer_ergonomics: 93.5
     discoverability: 40.7
     governance: 47.9
-    operational_transparency: 78.9
+    operational_transparency: 55.3
   previous_composite: 77.6
   provenance:
     agentic_access: derived
@@ -7970,9 +7975,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 56
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/screenshots/hubspot-2026-06-20T182920.png
 security:
 - kind: authentication

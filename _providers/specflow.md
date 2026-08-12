@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: SpecFlow is a BDD framework for .NET that bridges the communication gap between domain experts and developers by enabling natural language specifications (Gherkin) to be executed as automated tests. I
@@ -140,20 +140,20 @@ rules:
     warn: 3
   slug: specflow-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 30.3
-  delta: 0.0
+  band: emerging
+  composite: 22.5
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 12.9
     developer_ergonomics: 10.9
     discoverability: 59.3
     governance: 58.3
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 30.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/specflow/refs/heads/main/screenshots/specflow-2026-06-20T194251.png
 security:
 - kind: domain-security

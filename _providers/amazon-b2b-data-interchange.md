@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 31.1
-  scored_at: '2026-08-10'
+  score: 30.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -56,8 +56,16 @@ apis:
 - description: Manage EDI transformers for document conversion
   name: Amazon B2B Data Interchange Transformers API
   slug: amazon-b2b-data-interchange-transformers-api
-artifact_total: 21
+artifact_total: 22
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/amazon-b2b-data-interchange-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-b2b-data-interchange-aws-b2b-data-interchange-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -161,6 +169,10 @@ jsonld:
   property_count: 2
   slug: context
 layout: provider
+mcp_servers:
+- description: ''
+  name: amazon-b2b-data-interchange-mcp.yml
+  slug: amazon-b2b-data-interchange-mcpyml
 modified: '2026-06-20'
 name: Amazon B2B Data Interchange
 nav: Providers
@@ -171,7 +183,7 @@ overview: 'Amazon B2B Data Interchange publishes 6 APIs on the [APIs.io](https:/
   The Amazon B2B Data Interchange catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Amazon B2B Data Interchange''s developer surface includes authentication, CLI, SDKs, pricing, and 12 more developer resources.'
+  Amazon B2B Data Interchange''s developer surface includes authentication, CLI, SDKs, pricing, and 14 more developer resources.'
 random_paper: 45
 rules:
 - name: Amazon B2B Data Interchange API Rules
@@ -184,13 +196,13 @@ rules:
   slug: amazon-b2b-data-interchange-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 47.3
+  delta: -1.2
   facets:
     commercial_clarity: 31.6
-    contract_quality: 79.1
-    developer_ergonomics: 32.6
-    discoverability: 92.6
+    contract_quality: 76.1
+    developer_ergonomics: 34.8
+    discoverability: 81.5
     governance: 69.8
     operational_transparency: 0.0
   previous_composite: 48.5
@@ -209,8 +221,8 @@ score:
     regime: Health
     regime_id: health
     score: 38.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/screenshots/amazon-b2b-data-interchange-2026-07-25T195932.png
 security:

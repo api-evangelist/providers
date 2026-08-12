@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +22,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-08-10'
+  score: 46.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,8 +48,16 @@ apis:
 - description: Operations for managing services within namespaces
   name: Amazon Cloud Map Services API
   slug: amazon-cloud-map-services-api
-artifact_total: 64
+artifact_total: 65
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/amazon-cloud-map-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-cloud-map-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -308,6 +317,10 @@ jsonld:
   property_count: 20
   slug: amazon-cloud-map-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: amazon-cloud-map-mcp.yml
+  slug: amazon-cloud-map-mcpyml
 modified: '2026-06-20'
 name: Amazon Cloud Map
 nav: Providers
@@ -318,7 +331,7 @@ overview: 'Amazon Cloud Map publishes 3 APIs on the [APIs.io](https://apis.io/) 
   The Amazon Cloud Map catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Cloud Map''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 20 more developer resources.'
+  Amazon Cloud Map''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 22 more developer resources.'
 random_paper: 81
 rules:
 - name: Amazon Cloud Map API Rules
@@ -339,12 +352,12 @@ rules:
   slug: amazon-cloud-map-spectral-rules
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 45.8
+  delta: 0.1
   facets:
     commercial_clarity: 42.1
-    contract_quality: 33.3
-    developer_ergonomics: 41.3
+    contract_quality: 32.1
+    developer_ergonomics: 43.5
     discoverability: 83.3
     governance: 80.2
     operational_transparency: 21.1
@@ -358,8 +371,8 @@ score:
       marker_coverage: 100.0
       total: 3
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/screenshots/amazon-cloud-map-2026-07-25T195942.png
 security:

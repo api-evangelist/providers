@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,6 +53,18 @@ collections:
   name: Apache HTTP Server Status API
   slug: open-apache-httpd-status
 common:
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/apache/httpd/blob/trunk/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/httpd/blob/trunk/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -179,7 +191,7 @@ overview: 'Apache HTTP Server publishes 2 APIs on the [APIs.io](https://apis.io/
   The Apache HTTP Server catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache HTTP Server''s developer surface includes documentation, getting-started guide, and 7 more developer resources.'
+  Apache HTTP Server''s developer surface includes documentation, getting-started guide, and 10 more developer resources.'
 plans:
 - name: Apache Httpd Plans Pricing
   plan_count: 3
@@ -207,16 +219,16 @@ rules:
     warn: 7
   slug: apache-httpd-spectral-rules
 score:
-  band: developing
-  composite: 46.3
-  delta: 0.0
+  band: thin
+  composite: 39.3
+  delta: -7.0
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 59.7
+    commercial_clarity: 15.8
+    contract_quality: 57.5
     developer_ergonomics: 19.6
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 23.7
   previous_composite: 46.3
   provenance:
     agentic_access: derived
@@ -225,9 +237,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-httpd/refs/heads/main/screenshots/apache-httpd-2026-06-20T172105.png
 security:
 - kind: domain-security

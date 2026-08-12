@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Core library for creating mock objects and defining expectations in Java tests using an expressive DSL. Supports JUnit 4 and JUnit 5, modern JDK versions, and integrates seamlessly with IDE refactorin
@@ -36,6 +36,14 @@ apis:
   slug: jmock-core-api
 artifact_total: 5
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/jmock-developers/jmock-library/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/jmock-developers/jmock-library/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -71,7 +79,7 @@ network: true
 overview: 'JMock publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Java, Mock Objects, Mocking, TDD, and Testing.
 
 
-  JMock''s developer surface includes documentation and 4 more developer resources.'
+  JMock''s developer surface includes documentation and 6 more developer resources.'
 plans:
 - name: Jmock Plans Pricing
   plan_count: 3
@@ -83,19 +91,19 @@ rate_limits:
   slug: jmock-rate-limits
 score:
   band: emerging
-  composite: 20.4
-  delta: 0.0
+  composite: 14.6
+  delta: -5.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 20.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/jmock/refs/heads/main/screenshots/jmock-2026-06-20T183739.png
 security:
 - kind: domain-security

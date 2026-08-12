@@ -1,6 +1,6 @@
 {
- "total": 21,
- "shown": 21,
+ "total": 22,
+ "shown": 22,
  "limit": 1000,
  "bands": [
   {
@@ -16,20 +16,20 @@
      "slug": "bexio",
      "description": "bexio is a Swiss cloud business-management platform for SMBs and self-employed, covering accounting, invoicing (incl. Swiss QR-bill), contacts, sales orders, projects and time tracking, banking, purchasing, and payroll. The bexio REST API at api.bexio.com/2.0 exposes these modules over HTTPS with JSON, secured by OAuth 2.0 (OpenID Connect) or Personal Access Tokens.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/screenshots/bexio-2026-07-25T202828.png",
-     "score": 67.9,
+     "score": 67.3,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 55.8,
+      "contract_quality": 53.7,
       "governance": 11.5,
       "operational_transparency": 76.3,
       "developer_ergonomics": 66.8,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 52.5,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 48.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -42,7 +42,7 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
@@ -64,27 +64,27 @@
      "name": "Swisscom",
      "slug": "swisscom",
      "description": "Swisscom is Switzerland's largest telecommunications provider and the incumbent mobile network operator, fixed-line carrier and IT services company for the Swiss market, majority-owned by the Swiss Confederation and also operating Fastweb in Italy. In the telecom value chain it is a facilities-based MNO that owns the radio access and core network, sells mobile, broadband, TV and enterprise IT, and monetises network-derived data. Its API posture is unusual for a European incumbent: alongside the expected partner-gated enterprise surface it runs a genuine first-party API marketplace at digital.swisscom.com listing ten productive API products (SMS, SMS token 2FA, inbound SMS, mobility heatmaps, dwell times, origin-destination, NATEL go smart catalogs, AI inference endpoints and a business identity validator) served from a live api.swisscom.com gateway, plus a separately maintained, actively released Swisscom Sign Integration API with a downloadable OpenAPI 3.1 document. The catch is that every API reference, key and spec beyond Swisscom Sign sits behind a Swisscom login and, for several products, a signed service contract — the marketplace is a storefront, not open documentation. On network APIs Swisscom was one of the 21 founding signatories of the GSMA Open Gateway Memorandum of Understanding in February 2023, but it publishes no CAMARA API, no Open Gateway developer portal and no callable network-API endpoint; developers who want SIM-swap or phone-verification signals from the Swisscom network have historically reached them through third-party channels such as IPification rather than from Swisscom directly. Its legacy developer programme (developer.swisscom.com, the Cloud Foundry Application Cloud, the swisscom-developer GitHub SDKs) is dead or redirected, and the older Messaging and Voice APIs are still documented only as RAML-rendered HTML in a GitHub wiki.",
-     "score": 64.3,
+     "score": 62.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 65.0,
+      "contract_quality": 62.6,
       "governance": 20.8,
       "operational_transparency": 55.3,
       "developer_ergonomics": 79.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
       "regime_id": "telecommunications",
-      "score": 81.9,
+      "score": 73.6,
       "matched_via": "tags"
      },
-     "agent_score": 56.5,
+     "agent_score": 52.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -97,7 +97,7 @@
       "rate_limit_signal": false,
       "event_surface_described": true,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
@@ -120,19 +120,19 @@
      "slug": "certifaction",
      "description": "Certifaction is a privacy-first digital signature platform built around a Zero Document Knowledge model: documents are hashed and end-to-end encrypted on the client so they can be signed and verified without Certifaction ever seeing their content. It offers Simple, Advanced, and Qualified Electronic Signatures (SES/AES/QES) compliant with eIDAS, ZertES, UETA and ESIGN, delivered through a client-hosted CLI and Local API plus an Admin API for organization, user, role and team-space management, with EU / Switzerland / on-premises data residency and ISO/IEC 27001:2022 certification.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/screenshots/certifaction-2026-07-25T205000.png",
-     "score": 55.7,
+     "score": 54.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 60.5,
+      "discoverability": 81.5,
+      "contract_quality": 60.4,
       "governance": 20.8,
       "operational_transparency": 28.9,
       "developer_ergonomics": 64.7,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 40.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -158,27 +158,27 @@
      "slug": "six-group",
      "description": "SIX operates the financial market infrastructure of Switzerland and Spain, including SIX Swiss Exchange, BME, and Swiss interbank clearing and securities services, alongside SIX Financial Information, one of the largest global market data vendors. It sells real-time, intraday, end-of-day, and historical pricing, reference data, corporate actions, and regulatory/ESG datasets from more than 900 price sources, delivered via the SIX Web API (REST/JSON, GraphQL, WebSocket), the SIX Bulk API, streaming Market Data Feed, SIX Flex and Valordata Feed files, and Snowflake cloud shares. A public developer portal at developer.six-group.com fronts the bLink open banking platform, the debiX debit card API, and a shared Kong-based API catalog with Swiss interbank clearing and settlement APIs. Financial data access is enterprise and sales-gated with MTLS certificate authentication, while several Swiss payment infrastructure APIs are publicly documented with downloadable OpenAPI.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/screenshots/six-group-2026-07-22T202623.png",
-     "score": 53.6,
+     "score": 51.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 83.3,
-      "contract_quality": 64.0,
+      "contract_quality": 63.8,
       "governance": 20.8,
       "operational_transparency": 47.4,
       "developer_ergonomics": 66.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
-      "score": 55.7,
+      "score": 39.2,
       "matched_via": "tags"
      },
-     "agent_score": 57.4,
+     "agent_score": 53.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -191,7 +191,7 @@
       "rate_limit_signal": "verified",
       "event_surface_described": true,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
@@ -203,19 +203,19 @@
      "slug": "hakuna",
      "description": "hakuna AG is a Swiss digital time-tracking and personnel-management platform for SMEs. The browser- and mobile-based product centralizes workforce administration: time recording with a running timer, absence and vacation management, expense processing, project and client tracking, task categorization, shift planning, personnel records, and compliance monitoring against Swiss labor-law requirements. hakuna is \"100% Swiss\" — all data is stored in Switzerland under Swiss data-protection law (DSG) — and requires no additional hardware terminals or badges. It exposes a token-authenticated REST API (X-Auth-Token) over JSON at app.hakuna.ch/api/v1 covering the timer, time entries, absences, projects, tasks, clients, users, company settings, and an organization-wide presence status endpoint, with admin-only management endpoints and a documented 100 requests/minute rate limit.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/screenshots/hakuna-2026-07-25T220533.png",
-     "score": 46.9,
+     "score": 45.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 62.2,
+      "discoverability": 81.5,
+      "contract_quality": 59.9,
       "governance": 11.5,
       "operational_transparency": 21.1,
       "developer_ergonomics": 45.1,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 41.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -241,19 +241,19 @@
      "slug": "eth-zurich",
      "description": "ETH Zurich (Eidgenössische Technische Hochschule Zürich) is a public science and technology university founded in 1855, ranked #7 in the QS World University Rankings 2025. Its most visible public developer footprint is the ETH Library API Platform, an Apigee-managed developer portal exposing six documented OpenAPI 3.0 REST APIs (Discovery, ETHorama, Geo, Persons, Research Collection, Vector) for the library's open bibliographic, georeferenced, and research-output data. The ETH Zurich Research Collection additionally offers a public OAI-PMH harvesting interface, and the eth-library GitHub organization publishes the OpenAPI specifications and related open-source tooling. All REST APIs require a free one-time registration to obtain an API key.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/screenshots/eth-zurich-2026-06-20T180834.png",
-     "score": 44.7,
+     "score": 44.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 60.3,
+      "contract_quality": 58.1,
       "governance": 68.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 30.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -286,19 +286,19 @@
      "slug": "university-of-basel",
      "description": "The University of Basel (Universität Basel) is the oldest university in Switzerland, founded in 1460, and is ranked #85 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is concentrated in scholarly and research infrastructure rather than a single central developer portal. The university operates \"edoc\", its open-access institutional repository running DSpace-CRIS 7.6.2, which exposes a public DSpace REST API and an OAI-PMH 2.0 metadata interface. The Swiss National Data and Service Center for the Humanities (DaSCH), hosted at the University of Basel, develops and operates the DSP-API, an open-source RDF-based humanities research data API. Library discovery is delivered through the SLSP swisscovery (Alma/Primo) platform, which offers a standards-based SRU search interface for the Basel institution zone. Source code is published across multiple verified GitHub organizations including IT Services (ITS-Unibas) and DaSCH (dasch-swiss).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/screenshots/university-of-basel-2026-06-20T200131.png",
-     "score": 43.0,
+     "score": 42.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 61.7,
+      "contract_quality": 59.4,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -326,27 +326,27 @@
    "label": "Thin",
    "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 5,
-   "shown": 5,
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
      "name": "EPFL",
      "slug": "epfl",
      "description": "EPFL (École Polytechnique Fédérale de Lausanne) is a public research university in Lausanne, Switzerland, ranked #19 in the QS World University Rankings 2025. EPFL exposes several public, documented REST APIs across its digital campus, including the Actu news API and the Memento events API (both with self-service interactive docs), and its Infoscience institutional repository runs on DSpace 7 with a public REST API and OAI-PMH endpoint. Additional EPFL code is published openly across official GitHub organizations such as EPFL-SI (IT systems and infrastructure) and EPFL-ENAC.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/screenshots/epfl-2026-06-20T180750.png",
-     "score": 41.5,
+     "score": 41.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 62.0,
+      "contract_quality": 59.7,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -379,19 +379,19 @@
      "slug": "university-of-lausanne",
      "description": "The University of Lausanne (UNIL) is a public research university in Lausanne, Switzerland, ranked #224 in the QS World University Rankings 2025. With roughly 17,000 students across seven faculties, UNIL maintains an Open Science strategy and a Kong-based internal API gateway underpinning its digital services. Its public developer footprint is modest and research-oriented: the SPICA single-cell spatial atlas exposes a documented JSON API, and the IRIS institutional repository is served by a public DSpace REST API. Most institutional and student-information APIs sit behind the my.unil.ch authentication gateway and are not publicly documented.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/screenshots/university-of-lausanne-2026-06-20T200157.png",
-     "score": 41.0,
+     "score": 40.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 60.9,
+      "contract_quality": 58.6,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -417,19 +417,19 @@
      "slug": "university-of-geneva",
      "description": "The University of Geneva (Université de Genève, UNIGE) is a public research university in Geneva, Switzerland, founded in 1559, and ranked #93 in the QS World University Rankings 2025. Its public developer and API footprint is centered on open science and research infrastructure operated by the Division of Scientific Information (DIS) and the e-Research services: the Archive ouverte UNIGE institutional repository exposes metadata via a live OAI-PMH endpoint, the Yareta research-data-management platform (built on the DLCM stack) offers a REST API for preservation and access, and domain research groups publish specialized services such as the Terminus protein-prediction API. UNIGE maintains a public GitHub organization (dis-unige) for library and data tooling. There is no single unified public developer portal; most APIs are research- or service-specific.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/screenshots/university-of-geneva-2026-06-20T200151.png",
-     "score": 40.4,
+     "score": 39.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 62.0,
+      "contract_quality": 59.7,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 28.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -455,19 +455,19 @@
      "slug": "university-of-zurich",
      "description": "The University of Zurich (UZH) is Switzerland's largest university, founded in 1833, and is ranked #61 in the QS World University Rankings 2025. UZH does not operate a centralized public developer portal; its machine-readable footprint is centered on open scholarship and identity infrastructure. The Zurich Open Repository and Archive (ZORA) exposes the university's research output, the GitHub organization \"uzh\" hosts open-source projects, and federated identity is provided through SWITCH edu-ID (SAML/Shibboleth and OpenID Connect). Most student-facing systems (course catalogue, OLAT LMS, student services) are web/SSO-gated rather than openly documented APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-zurich/refs/heads/main/screenshots/university-of-zurich-2026-06-20T200336.png",
-     "score": 39.5,
+     "score": 39.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 60.5,
+      "contract_quality": 58.2,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -494,51 +494,6 @@
       "dry_run_mode": false
      },
      "rank": 11
-    },
-    {
-     "name": "MindMaze",
-     "slug": "mindmaze",
-     "description": "MindMaze Therapeutics Holding SA (SIX: MMTX) is a Swiss precision-neurotherapeutics company headquartered in Lausanne, with a Geneva holding entity and a US base in Charlotte, North Carolina. Founded in 2012 by Tej Tadi as an EPFL spin-off, MindMaze became Switzerland's first unicorn and in December 2025 its successor entity NeuroX completed a business combination with Relief Therapeutics to form the SIX-listed MindMaze Therapeutics. The company builds digital neurotherapeutics that pair gamified therapy software with proprietary sensors and AI-driven analytics across the continuum of care - in-hospital, outpatient and at home - for stroke, Parkinson's disease and at-risk aging. Its FDA-listed and CE-marked portfolio includes Companion, MindMotion GO, MindPod, the Izar smart hand peripheral, the Physilog 3D motion-analytics platform and TOAP Run, deployed in more than 250 clinics and rehabilitation centers globally. MindMaze is a regulated medical-device and digital-therapeutics vendor rather than a software platform business: as of 2026-08-01 it publishes no developer portal, no API documentation, no SDKs, no CLI and no product API contract, and no API, docs or developer subdomain resolves on its domains. The one machine-readable surface it does serve is the anonymous WordPress REST API behind its corporate site, which carries 450 posts - 309 of them EQS regulatory and investor-relations disclosure for the SIX-listed issuer - 49 pages and 1,070 media records.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/screenshots/mindmaze-2026-08-07T172930.png",
-     "score": 28.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 15.7,
-      "governance": 20.8,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 19.0,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 57.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 38.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 12
     }
    ]
   },
@@ -547,27 +502,27 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 5,
-   "shown": 5,
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
      "name": "Kuehne+Nagel",
      "slug": "kuehne-nagel",
      "description": "Kuehne+Nagel International AG is a Swiss freight forwarder and contract logistics provider headquartered in Schindellegi, Switzerland, and one of the largest forwarders in the world across sea logistics, air logistics, road logistics and contract logistics. As a forwarder it sits in the intermediation layer of the supply chain — between shippers on one side and ocean carriers, airlines, hauliers, terminals and customs authorities on the other — and most of the data it exposes is carrier and terminal data it aggregates rather than originates. Its API posture is honest but conditional: a real WSO2-based developer portal at portal.api.kuehne-nagel.com lists 17 published APIs and serves every OpenAPI definition anonymously, but every subscription is customer-contract gated — a myKN account, a Kuehne+Nagel customer ID (CID) and an account manager who completes the \"customer setup\" are stated pre-requisites, so nobody outside a commercial relationship can call the gateway. Underneath the REST veneer the company's own connectivity page still advertises EDIFACT, ANSI X.12, Tradacoms, RosettaNet, iDOC, GS1 and CargoImp over AS2, OFTP-2, (S)FTP and VAN as the primary integration path, and its one customs \"EDI\" API is an unschematized pass-through. One surface — OceanEventInbox v1 — is explicitly built to the DCSA equipment-event standard, which makes Kuehne+Nagel a non-member implementer of a carrier standards body; the other sixteen APIs are proprietary Kuehne+Nagel contracts.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kuehne-nagel/refs/heads/main/screenshots/kuehne-nagel-2026-08-07T171345.png",
-     "score": 26.8,
+     "score": 26.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 54.2,
+      "contract_quality": 52.2,
       "governance": 0.0,
       "operational_transparency": 5.3,
       "developer_ergonomics": 17.4,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 26.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -586,6 +541,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 12
+    },
+    {
+     "name": "MindMaze",
+     "slug": "mindmaze",
+     "description": "MindMaze Therapeutics Holding SA (SIX: MMTX) is a Swiss precision-neurotherapeutics company headquartered in Lausanne, with a Geneva holding entity and a US base in Charlotte, North Carolina. Founded in 2012 by Tej Tadi as an EPFL spin-off, MindMaze became Switzerland's first unicorn and in December 2025 its successor entity NeuroX completed a business combination with Relief Therapeutics to form the SIX-listed MindMaze Therapeutics. The company builds digital neurotherapeutics that pair gamified therapy software with proprietary sensors and AI-driven analytics across the continuum of care - in-hospital, outpatient and at home - for stroke, Parkinson's disease and at-risk aging. Its FDA-listed and CE-marked portfolio includes Companion, MindMotion GO, MindPod, the Izar smart hand peripheral, the Physilog 3D motion-analytics platform and TOAP Run, deployed in more than 250 clinics and rehabilitation centers globally. MindMaze is a regulated medical-device and digital-therapeutics vendor rather than a software platform business: as of 2026-08-01 it publishes no developer portal, no API documentation, no SDKs, no CLI and no product API contract, and no API, docs or developer subdomain resolves on its domains. The one machine-readable surface it does serve is the anonymous WordPress REST API behind its corporate site, which carries 450 posts - 309 of them EQS regulatory and investor-relations disclosure for the SIX-listed issuer - 49 pages and 1,070 media records.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/screenshots/mindmaze-2026-08-07T172930.png",
+     "score": 22.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 15.1,
+      "governance": 8.3,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 21.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 31.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 40.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 13
     },
     {
@@ -593,19 +593,19 @@
      "slug": "climeworks",
      "description": "Climeworks AG is a Swiss carbon dioxide removal company founded in 2009 as an ETH Zurich spin-off by Christoph Gebald and Jan Wurzbacher. It designs, builds and operates direct air capture (DAC) plants that filter CO2 out of ambient air through an adsorption-desorption cycle and then permanently mineralize it underground with storage partners such as Carbfix in Iceland - the Orca and Mammoth facilities. Through Climeworks Solutions it also sells risk-mitigated carbon removal portfolios that blend its own DAC removals with certified third-party suppliers, delivered within seven years of purchase and tracked by corporate buyers in an online customer platform. Climeworks is a supplier of carbon removal rather than a software vendor: it publishes no public developer portal, no API documentation and no machine-readable API contract, and its removals reach programmatic buyers through third-party carbon marketplaces instead.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/climeworks/refs/heads/main/screenshots/climeworks-2026-08-07T163453.png",
-     "score": 20.2,
+     "score": 19.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 12.5,
       "operational_transparency": 5.3,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -649,8 +649,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -687,8 +687,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -721,20 +721,20 @@
      "slug": "kitro",
      "description": "KITRO is a Swiss company founded in 2017 in Zurich that helps professional kitchens measure and reduce food waste through AI-powered automation. Its KITRO TARE device pairs an IoT scale with a camera and computer vision to automatically identify, weigh and categorize discarded food with no change to kitchen workflow, feeding a cloud analytics dashboard that surfaces waste trends by time, item and station, compares performance across properties, and exports reports for sustainability and EU food-waste compliance reporting. KITRO serves hotel groups and resorts, hospitals and care homes, corporate canteens, universities and schools, and river and ocean cruise operators in 20+ countries, with customers including Marriott, Hyatt, TUI BLUE, Pestana, 25hours Hotels and Sydney Opera Bar. KITRO publishes no public developer API, SDKs or developer portal — the only customer-facing software surface is the authenticated dashboard at my.kitro.ch — but it does publish an llms.txt agent-readable company description at www.kitro.ch/llms.txt.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kitro/refs/heads/main/screenshots/kitro-2026-07-25T223912.png",
-     "score": 15.0,
+     "score": 13.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.6,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -747,7 +747,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -780,8 +780,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -824,8 +824,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -868,8 +868,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -905,8 +905,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -933,6 +933,22 @@
       "dry_run_mode": false
      },
      "rank": 21
+    }
+   ]
+  },
+  {
+   "band": "unrated",
+   "label": "Not Yet Rated",
+   "range": "",
+   "blurb": "Providers we have not scored yet — unknown, not zero.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "CUTISS",
+     "slug": "cutiss",
+     "description": "CUTISS AG is a Swiss late-stage clinical TechBio company headquartered at the Bio-Technopark in Schlieren, Zurich, founded in 2017 as a spin-off of the Tissue Biology Research Unit (TBRU) at the University of Zurich and the University Children's Hospital Zurich, and accelerated through Wyss Zurich. Its lead product, denovoSkin, is a first-in-class bioengineered, personalized dermo-epidermal skin graft grown from a small biopsy of a patient's own skin to treat large and deep skin defects in children and adults; it holds Orphan Drug Designation for burns from Swissmedic, the EMA and the FDA and is in late-stage clinical development. With CSEM the company built denovoCast, described as the world's first machine for automated production of personalized human skin tissue, funded in part by Innosuisse and EU Horizon 2020. CUTISS has raised roughly CHF 50 million and employs around 50 people. It is a therapeutics manufacturer, not a software vendor: it publishes no product API, no developer portal, no SDKs and no pricing. The only machine-readable API on its public host is the WordPress REST API behind cutiss.swiss, which serves the newsroom, blog, corporate pages, team directory, teams taxonomy and media library as JSON, read-only without credentials.",
+     "rank": 22
     }
    ]
   }

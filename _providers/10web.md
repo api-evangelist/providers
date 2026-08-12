@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 29.5
-  scored_at: '2026-08-10'
+  score: 28.6
+  scored_at: '2026-08-11'
 api_count: 13
 apis:
 - description: Operations for managing account-level resources
@@ -70,12 +70,20 @@ apis:
 - description: Operations for DNS zone management
   name: 10Web Zone API
   slug: 10web-zone-api
-artifact_total: 16
+artifact_total: 17
 asyncapis:
 - description: ''
   name: 10Web Webhooks
   slug: 10web-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/10web-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/10web-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -156,6 +164,10 @@ created: '2026-07-17'
 description: 10Web is an AI-powered website builder platform that generates, hosts, and manages full WordPress websites on managed infrastructure, powering more than two million websites. Its public REST API — the 10Web Website Builder API (V1) — lets SaaS, agency, and hosting platforms embed 10Web's AI website generation, WordPress hosting, domains, DNS, SSL, backups, and staging as a white-label solution. The API exposes 69 operations across websites, AI/Vibe Coding content generation, domains and DNS zones, SSL certificates, backups, cache and PHP management, subdomains, the page builder, and signed webhooks, all authenticated with an x-api-key header against https://api.10web.io. Originally added to the API Evangelist network as a Sierra Ventures portfolio lead, this profile has been enriched from 10Web's public developer surface.
 image: https://10web.io/wp-content/uploads/2025/03/OG-img4.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: 10web-mcp.yml
+  slug: 10web-mcpyml
 modified: '2026-07-17'
 name: 10Web
 nav: Providers
@@ -166,17 +178,17 @@ overview: '10Web publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
   The 10Web catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  10Web''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 12 more developer resources.'
+  10Web''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 14 more developer resources.'
 random_paper: 67
 score:
   band: developing
-  composite: 46.7
-  delta: 0.0
+  composite: 45.5
+  delta: -1.2
   facets:
     commercial_clarity: 44.7
-    contract_quality: 59.1
-    developer_ergonomics: 42.9
-    discoverability: 92.6
+    contract_quality: 56.9
+    developer_ergonomics: 45.1
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 46.7
@@ -189,8 +201,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/10web/refs/heads/main/screenshots/10web-2026-07-25T181101.png
 security:

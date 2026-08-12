@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 1
@@ -202,11 +202,11 @@ overview: 'BurstIQ publishes 21 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 82
 score:
   band: thin
-  composite: 32.5
-  delta: 0.0
+  composite: 32.1
+  delta: -0.4
   facets:
     commercial_clarity: 10.5
-    contract_quality: 48.8
+    contract_quality: 47.0
     developer_ergonomics: 45.1
     discoverability: 81.5
     governance: 11.5
@@ -228,8 +228,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/screenshots/burstiq-2026-07-25T204112.png
 security:

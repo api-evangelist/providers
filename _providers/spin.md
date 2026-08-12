@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: The Spin HTTP Trigger API handles incoming HTTP requests and routes them to the appropriate Spin component. Components receive an HTTP request object and return an HTTP response. Supported via the Spi
@@ -48,6 +48,10 @@ apis:
   slug: spin-variables-api
 artifact_total: 15
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/fermyon/spin/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -147,7 +151,7 @@ overview: 'Spin publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tag
   The Spin catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spin''s developer surface includes documentation, getting-started guide, release notes, engineering blog, and 12 more developer resources.'
+  Spin''s developer surface includes documentation, getting-started guide, release notes, engineering blog, and 13 more developer resources.'
 plans:
 - name: Spin Plans Pricing
   plan_count: 3
@@ -176,19 +180,19 @@ rules:
   slug: spin-rules
 score:
   band: thin
-  composite: 37.7
-  delta: 0.0
+  composite: 29.9
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 12.9
     developer_ergonomics: 26.1
     discoverability: 55.6
     governance: 68.8
-    operational_transparency: 57.9
+    operational_transparency: 34.2
   previous_composite: 37.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spin/refs/heads/main/screenshots/spin-2026-06-20T194314.png
 security:
 - kind: domain-security

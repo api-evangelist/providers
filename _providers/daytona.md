@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 9
@@ -102,6 +102,14 @@ collections:
   name: Daytona
   slug: open-daytona
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/daytonaio/daytona/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/daytonaio/daytona/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -173,7 +181,7 @@ network: true
 overview: 'Daytona publishes 19 APIs on the [APIs.io](https://apis.io/) network, including admin API, api-keys API, audit API, and 16 more. Tagged areas include Sandboxes, Secure Execution, AI Agents, Coding Agents, and Code Interpreter.
 
 
-  Daytona''s developer surface includes authentication, documentation, engineering blog, pricing, signup flow, and 9 more developer resources.'
+  Daytona''s developer surface includes authentication, documentation, engineering blog, pricing, signup flow, and 11 more developer resources.'
 plans:
 - name: Daytona Plans Pricing
   plan_count: 1
@@ -184,16 +192,16 @@ rate_limits:
   name: Daytona Rate Limits
   slug: daytona-rate-limits
 score:
-  band: thin
-  composite: 40.9
-  delta: 0.0
+  band: developing
+  composite: 45.1
+  delta: 4.2
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 48.1
+    commercial_clarity: 81.6
+    contract_quality: 46.3
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 42.1
   previous_composite: 40.9
   provenance:
     agentic_access: derived
@@ -202,8 +210,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daytona/refs/heads/main/screenshots/daytona-2026-06-20T175735.png
 security:

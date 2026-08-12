@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -497,11 +497,11 @@ rules:
   slug: aserto-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.9
-  delta: 0.0
+  composite: 42.5
+  delta: -0.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 57.9
+    contract_quality: 55.7
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
@@ -520,8 +520,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/screenshots/aserto-2026-06-20T172456.png
 security:

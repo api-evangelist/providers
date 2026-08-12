@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 23.9
-  scored_at: '2026-08-10'
+  score: 20.3
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Partner REST API for reading and writing a consenting user's food and exercise diary, body measurements, and profile, plus webhook subscriptions for data-change notifications. OAuth 2.0 authorization-
@@ -135,8 +135,8 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.8
-  delta: 0.0
+  composite: 39.1
+  delta: 1.3
   facets:
     commercial_clarity: 44.7
     contract_quality: 49.4
@@ -149,8 +149,14 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 46.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/myfitnesspal/refs/heads/main/screenshots/myfitnesspal-2026-08-07T184519.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Open source distributed load testing tool. Tests are written in Python by defining User classes and tasks; tests can be run from a web UI, the command line, or embedded as a library.
@@ -36,6 +36,22 @@ apis:
   slug: locust
 artifact_total: 5
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/locustio/locust/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/locustio/locust/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/locustio/locust/blob/master/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/locustio/locust/blob/master/.github/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -79,7 +95,7 @@ network: true
 overview: 'Locust publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Load Testing, Performance Testing, Open Source, Python, and Testing.
 
 
-  Locust''s developer surface includes documentation and 6 more developer resources.'
+  Locust''s developer surface includes documentation and 10 more developer resources.'
 plans:
 - name: Locust Plans Pricing
   plan_count: 3
@@ -91,18 +107,18 @@ rate_limits:
   slug: locust-rate-limits
 score:
   band: emerging
-  composite: 20.4
-  delta: 0.0
+  composite: 16.7
+  delta: -3.7
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 20.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/locust/refs/heads/main/screenshots/locust-2026-06-20T184648.png
 security:

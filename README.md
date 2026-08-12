@@ -38,6 +38,31 @@ python3 scripts/build-listing.py
 This site is static — there is no API backend. The listing is generated at build
 time from local repositories and deployed as plain HTML + a static `apis.json` feed.
 
+## Editing `_data/` — read this first
+
+Jekyll does **not** parse `_data/*.json` with a JSON parser. It hands them to
+SafeYAML → Psych, and YAML is stricter than JSON: it accepts `\uXXXX` only for the
+Basic Multilingual Plane and rejects the surrogate-pair escapes JSON uses for
+anything above U+FFFF. A file can be perfectly valid JSON and still kill the entire
+Pages build before one page renders — which is what a single emoji in one provider
+description, written by a bare `json.dump`, did on 2026-08-11.
+
+So: **anything that rewrites a file under `_data/` must go through `dump_json()` in
+`scripts/build-listing.py`**, which desurrogates and writes `ensure_ascii=False`.
+Never a bare `json.dump` (its default `ensure_ascii=True` is the trap).
+
+Two guards enforce this:
+
+```bash
+ruby scripts/check-data.rb        # parse every data file the way Pages will
+git config core.hooksPath .githooks   # run that check automatically pre-commit
+```
+
+The second line is **required once per clone** — `core.hooksPath` lives in
+`.git/config` and is not versioned. `.github/workflows/validate-data.yml` is the
+backstop if it was never run; it reports in ~1 minute instead of the ~25 the Pages
+build takes to tell you.
+
 ## Properties
 
 - [GitHubRepository](https://github.com/api-evangelist/providers)

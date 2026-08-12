@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The Score Specification (score.yaml) is a declarative, platform-agnostic workload definition format that captures containers, service ports, and resource dependencies in a single file. Reference CLI i
@@ -42,6 +42,10 @@ apis:
   slug: score-k8s
 artifact_total: 10
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/score-spec/spec/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -104,7 +108,7 @@ overview: 'Score publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
   The Score catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Score''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
+  Score''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
 plans:
 - name: Score Plans Pricing
   plan_count: 3
@@ -116,19 +120,19 @@ rate_limits:
   slug: score-rate-limits
 score:
   band: emerging
-  composite: 25.8
-  delta: 0.0
+  composite: 18.0
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 12.9
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 10.4
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 25.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/score/refs/heads/main/screenshots/score-2026-06-20T193541.png
 security:
 - kind: domain-security

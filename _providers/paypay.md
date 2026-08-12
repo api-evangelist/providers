@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-08-10'
+  score: 48.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/paypay-opa-openapi-original.json
+  url: openapi/_original/paypay-opa-openapi-original.json
 - group: other
   title: ''
   type: Overlay
@@ -184,11 +184,11 @@ overview: 'PayPay publishes 2 APIs on the [APIs.io](https://apis.io/) network: P
 random_paper: 80
 score:
   band: developing
-  composite: 43.2
-  delta: 0.0
+  composite: 42.7
+  delta: -0.5
   facets:
     commercial_clarity: 13.2
-    contract_quality: 60.9
+    contract_quality: 58.6
     developer_ergonomics: 66.8
     discoverability: 87.0
     governance: 11.5
@@ -210,8 +210,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paypay/refs/heads/main/screenshots/paypay-2026-08-07T191649.png
 security:

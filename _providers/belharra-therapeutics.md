@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-08-10'
+  score: 33.1
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: Belharra's three custom post types — press-release (4 items), company-news (21 items) and multimedia-file (10 items).
@@ -47,6 +47,10 @@ apis:
   slug: belharra-therapeutics-taxonomy-api
 artifact_total: 10
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/belharra-therapeutics-content-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -171,30 +175,36 @@ network: true
 overview: 'Belharra Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Custom Types API, Discovery API, Media API, and 5 more. Tagged areas include Company, biotechnology, pharmaceuticals, chemoproteomics, and drug-discovery.
 
 
-  Belharra Therapeutics'' developer surface includes product news, authentication, and 26 more developer resources.'
+  Belharra Therapeutics'' developer surface includes product news, authentication, and 27 more developer resources.'
 random_paper: 87
 score:
   band: thin
-  composite: 32.3
-  delta: -0.5
+  composite: 31.5
+  delta: -0.8
   facets:
     commercial_clarity: 21.1
-    contract_quality: 56.9
+    contract_quality: 58.5
     developer_ergonomics: 12.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 32.8
+  previous_composite: 32.3
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 8
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 31.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/belharra-therapeutics/refs/heads/main/screenshots/belharra-therapeutics-2026-08-07T162258.png
 security:

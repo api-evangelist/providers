@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Legacy REST API previously documented at api-explorer.khanacademy.org (now redirects). Some endpoints under https://www.khanacademy.org/api/v1/ remain accessible for content topic trees and exercise d
@@ -103,19 +103,19 @@ rate_limits:
   slug: khan-academy-rate-limits
 score:
   band: emerging
-  composite: 26.4
-  delta: 0.0
+  composite: 21.2
+  delta: -5.2
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 13.2
     contract_quality: 43.2
     developer_ergonomics: 2.2
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 26.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/khan-academy/refs/heads/main/screenshots/khan-academy-2026-06-20T184025.png
 security:
 - kind: domain-security

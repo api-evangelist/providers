@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +12,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-08-10'
+  score: 49.3
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: 'Read and write the ESG data core of the Measurabl platform: portfolios, buildings, spaces, funds, energy and water meters and their readings and bills, waste meters and readings, green building certif'
@@ -36,8 +37,12 @@ apis:
 - description: 'Partner-facing surface for integration partners acting on behalf of a Measurabl customer: list portfolios, list the buildings in a portfolio, and read monthly utility data for a building.'
   name: Measurabl Partner API
   slug: measurabl-partner-api
-artifact_total: 11
+artifact_total: 12
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/measurabl-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -167,6 +172,10 @@ description: 'Measurabl is an ESG (environmental, social and governance) data an
   and building-level datasets; and a Partner API for partner-side portfolio, building and monthly utility data access. Every API is OpenAPI 3.0.1, secured with OAuth 2.0 client credentials, and returns JSON:API (application/vnd.api+json) documents.'
 image: https://www.measurabl.com/wp-content/uploads/2019/06/cropped-measurabl_icon-1-192x192.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: measurabl-mcp.yml
+  slug: measurabl-mcpyml
 modified: '2026-08-01'
 name: Measurabl
 nav: Providers
@@ -174,7 +183,7 @@ network: true
 overview: 'Measurabl publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Core API, ESGx Buildings API, ESGx Securities API, and 2 more. Tagged areas include esg, real-estate, sustainability, carbon-accounting, and energy-management.
 
 
-  Measurabl''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 24 more developer resources.'
+  Measurabl''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 25 more developer resources.'
 random_paper: 28
 rate_limits:
 - limit_count: 3
@@ -187,12 +196,12 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.7
-  delta: 0.0
+  composite: 50.1
+  delta: 1.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 46.8
-    developer_ergonomics: 58.2
+    contract_quality: 45.1
+    developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 52.6
@@ -206,8 +215,14 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 58.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/screenshots/measurabl-2026-08-07T172304.png
 security:

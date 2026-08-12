@@ -1,33 +1,33 @@
 {
- "total": 88,
- "shown": 88,
+ "total": 89,
+ "shown": 89,
  "limit": 1000,
  "bands": [
   {
-   "band": "exemplar",
-   "label": "Exemplar",
-   "range": "66+",
-   "blurb": "Reference-quality API operations across every facet.",
-   "count": 1,
-   "shown": 1,
+   "band": "strong",
+   "label": "Strong",
+   "range": "56 – 65.9",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
      "name": "Pennylane",
      "slug": "pennylane",
      "description": "Pennylane is a French financial and accounting operating system for SMEs and accounting firms. The Company API (v2) lets companies, firms, and integration partners access and sync invoicing, accounting, banking, and financial data over a REST interface, and automate end-to-end workflows. V2 is the stable version; V1 is deprecated. All amounts are in EUR and the platform is built around French accounting (FEC exports, Plateforme Agréée e-invoicing, SEPA/GoCardless mandates).",
-     "score": 66.8,
-     "band": "exemplar",
-     "band_label": "Exemplar",
+     "score": 65.4,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 57.4,
+      "discoverability": 75.9,
+      "contract_quality": 55.3,
       "governance": 20.8,
       "operational_transparency": 76.3,
       "developer_ergonomics": 66.8,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -35,7 +35,7 @@
       "score": 67.1,
       "matched_via": "tags"
      },
-     "agent_score": 55.6,
+     "agent_score": 52.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -48,42 +48,31 @@
       "rate_limit_signal": "verified",
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
      "rank": 1
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "strong",
-   "label": "Strong",
-   "range": "56 – 65.9",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 4,
-   "shown": 4,
-   "providers": [
+    },
     {
      "name": "Fintecture",
      "slug": "fintecture",
      "description": "Fintecture is a French Open Banking payments platform and ACPR-authorised payment institution (#17248). Its API stack covers PSD2 Payment Initiation (Immediate Transfer, Smart Transfer, Request To Pay, Buy Now Pay Later, Verified Payout, Immediate Refund), PSD2 Account Information (accounts, holders, transactions, identity verification), Customers, E-Mandates, and a beta Organisation Access Credentials surface for managing multi-tenant enterprise estates. Clients include Auchan, Bricoman, Pluxee, PMU, and Edenred, with 2M+ end payers served. Plug-and-play modules for PrestaShop, Magento, Shopify, WordPress, Odoo, Intershop, and Oasis sit on top of official JavaScript, Python, PHP, and Ruby SDKs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/screenshots/fintecture-2026-06-20T181225.png",
-     "score": 62.8,
+     "score": 64.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 71.5,
+      "contract_quality": 68.9,
       "governance": 58.3,
       "operational_transparency": 68.4,
       "developer_ergonomics": 71.7,
-      "commercial_clarity": 71.1
+      "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -112,68 +101,23 @@
      "rank": 2
     },
     {
-     "name": "Lifen",
-     "slug": "lifen",
-     "description": "Lifen (Honestica SAS, Paris) is a French digital-health company whose Lifen Platform exposes FHIR R4 APIs that let e-health applications exchange health data with French hospital information systems and with healthcare professionals over the national MSSanté secure-messaging network. The platform is organised as API Services: Hospital API Services (an Identity & Encounter service giving secure access to patient administrative, coverage, encounter and appointment data inside a given hospital, and a Send-documents-to-EHR service that pushes medical documents into hospital Electronic Health Records), and National API Services (the MSS service for sending medical documents to healthcare professionals via MSSanté). Access is machine-to-machine over OAuth 2.0 client credentials, scoped by functional scopes and bound to a healthcare organisation through a database_reference. Lifen also ships an SSO/OIDC API and a signed webhook surface for patient and encounter events. The company is ISO 27001 certified and an HDS (Hebergeur de Donnees de Sante) certified health-data host.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/screenshots/lifen-2026-07-25T225040.png",
-     "score": 61.0,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 67.3,
-      "governance": 20.8,
-      "operational_transparency": 76.3,
-      "developer_ergonomics": 66.8,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 65.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 51.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 3
-    },
-    {
      "name": "Qobuz",
      "slug": "qobuz",
      "description": "Qobuz is a French hi-res audio streaming and download platform founded in 2007 and operated by Xandrie SA. It offers lossless FLAC streaming up to 24-bit/192 kHz and a hi-res download store covering over 100 million tracks across all genres. The Qobuz REST API (v0.2) is a partner-only interface that enables third-party applications — hi-fi hardware manufacturers, DAPs, music players, and streaming integrators — to search the catalog, retrieve album and artist metadata, generate authenticated streaming URLs, manage user playlists and favorites, and process purchases from the hi-res download store. API access requires contacting Qobuz directly at api@qobuz.com to obtain an app_id and app_secret. Consumer subscription plans (Studio Solo, Studio Duo, Studio Family, Sublime) provide the underlying access entitlement; partners and integrators are subject to the Qobuz API Terms of Use governed by French law. The service is deployed across France, Germany, and Canada infrastructure nodes monitored via a public status page.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/screenshots/qobuz-2026-06-20T192346.png",
-     "score": 57.8,
+     "score": 59.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 69.8,
+      "contract_quality": 67.2,
       "governance": 58.3,
       "operational_transparency": 52.6,
       "developer_ergonomics": 34.8,
-      "commercial_clarity": 60.5
+      "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -192,52 +136,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 4
+     "rank": 3
     },
     {
-     "name": "ETSI",
-     "slug": "etsi",
-     "description": "ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a European Standards Organisation. With over 900 member organisations from more than 60 countries it standardises ICT across mobile, fixed, broadcast, IoT, security and emerging technologies, and it hosts the 3GPP Mobile Competence Centre. In the telecom value chain ETSI sits upstream of every operator and vendor: it does not run a network or sell connectivity, it writes the specifications that the network is built from. Its API posture is unusually open for a standards body. Every ETSI deliverable is downloadable free of charge without login from etsi.org/deliver, and the machine-readable API artefacts are published as BSD-3-Clause OpenAPI on two public GitLab instances, forge.etsi.org and labs.etsi.org, both of which serve an anonymous REST API. From those ETSI publishes the ISG MEC edge service APIs, the NFV SOL lifecycle and orchestration APIs, the ISG CIM NGSI-LD context information API, and open-source implementations including OpenCAPIF for 3GPP CAPIF, OpenSlice for TM Forum Open APIs, and an Operator Platform Open Exposure Gateway that exposes northbound CAMARA APIs. What is member-gated is participation, not publication: portal.etsi.org, working documents, drafting and voting sit behind ETSI membership, while the finished standards and their OpenAPI are open to anyone. ETSI itself is not a GSMA Open Gateway operator and not a CAMARA member organisation; it reaches CAMARA through liaison and through its own open-source code.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/screenshots/etsi-2026-08-07T165027.png",
-     "score": 57.3,
+     "name": "Lifen",
+     "slug": "lifen",
+     "description": "Lifen (Honestica SAS, Paris) is a French digital-health company whose Lifen Platform exposes FHIR R4 APIs that let e-health applications exchange health data with French hospital information systems and with healthcare professionals over the national MSSanté secure-messaging network. The platform is organised as API Services: Hospital API Services (an Identity & Encounter service giving secure access to patient administrative, coverage, encounter and appointment data inside a given hospital, and a Send-documents-to-EHR service that pushes medical documents into hospital Electronic Health Records), and National API Services (the MSS service for sending medical documents to healthcare professionals via MSSanté). Access is machine-to-machine over OAuth 2.0 client credentials, scoped by functional scopes and bound to a healthcare organisation through a database_reference. Lifen also ships an SSO/OIDC API and a signed webhook surface for patient and encounter events. The company is ISO 27001 certified and an HDS (Hebergeur de Donnees de Sante) certified health-data host.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/screenshots/lifen-2026-07-25T225040.png",
+     "score": 59.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 77.8,
-      "contract_quality": 55.7,
-      "governance": 11.5,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 75.5,
-      "commercial_clarity": 44.7
+      "discoverability": 92.6,
+      "contract_quality": 64.8,
+      "governance": 20.8,
+      "operational_transparency": 76.3,
+      "developer_ergonomics": 66.8,
+      "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 81.9,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 58.8,
       "matched_via": "tags"
      },
-     "agent_score": 52.5,
+     "agent_score": 47.5,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
-      "mcp_server": true,
+      "mcp_server": "derived",
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": "derived",
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
+     "rank": 4
     }
    ],
    "open": true
@@ -251,23 +195,75 @@
    "shown": 3,
    "providers": [
     {
+     "name": "ETSI",
+     "slug": "etsi",
+     "description": "ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a European Standards Organisation. With over 900 member organisations from more than 60 countries it standardises ICT across mobile, fixed, broadcast, IoT, security and emerging technologies, and it hosts the 3GPP Mobile Competence Centre. In the telecom value chain ETSI sits upstream of every operator and vendor: it does not run a network or sell connectivity, it writes the specifications that the network is built from. Its API posture is unusually open for a standards body. Every ETSI deliverable is downloadable free of charge without login from etsi.org/deliver, and the machine-readable API artefacts are published as BSD-3-Clause OpenAPI on two public GitLab instances, forge.etsi.org and labs.etsi.org, both of which serve an anonymous REST API. From those ETSI publishes the ISG MEC edge service APIs, the NFV SOL lifecycle and orchestration APIs, the ISG CIM NGSI-LD context information API, and open-source implementations including OpenCAPIF for 3GPP CAPIF, OpenSlice for TM Forum Open APIs, and an Operator Platform Open Exposure Gateway that exposes northbound CAMARA APIs. What is member-gated is participation, not publication: portal.etsi.org, working documents, drafting and voting sit behind ETSI membership, while the finished standards and their OpenAPI are open to anyone. ETSI itself is not a GSMA Open Gateway operator and not a CAMARA member organisation; it reaches CAMARA through liaison and through its own open-source code.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/screenshots/etsi-2026-08-07T165027.png",
+     "score": 54.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 77.8,
+      "contract_quality": 53.6,
+      "governance": 11.5,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 75.5,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 66.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 48.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 5
+    },
+    {
      "name": "Defacto",
      "slug": "defacto",
      "description": "Defacto is an ACPR-authorized French fintech providing instant, embedded financing for small and medium-sized businesses across Europe. Through a single REST API, partners (marketplaces, neobanks, B2B SaaS, e-invoicing platforms) can onboard borrowers, test eligibility and credit limits, share business and bank-transaction data, create invoices, request and manage loans, handle repayments and recollection, issue credit cards, bill fees, and subscribe to webhooks. Defacto has powered over EUR 1B in financing for 12K+ SMBs through 15+ partners, with products spanning receivables, payables, pay-later, cash-in-now, and wallet financing. This profile was enriched by the API Evangelist pipeline from Defacto's public developer portal (developers.getdefacto.com).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/defacto/refs/heads/main/screenshots/defacto-2026-07-25T211617.png",
-     "score": 55.2,
+     "score": 52.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 68.9,
+      "discoverability": 81.5,
+      "contract_quality": 66.4,
       "governance": 20.8,
       "operational_transparency": 28.9,
       "developer_ergonomics": 62.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 46.9,
+      "matched_via": "tags"
+     },
      "agent_score": 44.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -293,19 +289,19 @@
      "slug": "la-poste",
      "description": "La Poste is the French national postal service, offering a developer platform called Okapi that exposes REST APIs for parcel tracking, address validation, geolocation, registered letter ordering, certified document exchange (Digiposte), and open data access (dataNOVA). APIs require an X-Okapi-Key obtained by registering a free developer account.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/la-poste/refs/heads/main/screenshots/la-poste-2026-06-20T184234.png",
-     "score": 45.4,
+     "score": 45.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 51.6,
+      "contract_quality": 49.6,
       "governance": 58.3,
       "operational_transparency": 5.3,
       "developer_ergonomics": 43.5,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -332,25 +328,36 @@
       "dry_run_mode": false
      },
      "rank": 7
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "28 – 41.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 7,
+   "shown": 7,
+   "providers": [
     {
      "name": "École Normale Supérieure de Paris",
      "slug": "ens-paris",
      "description": "École Normale Supérieure de Paris (ENS, rue d'Ulm) is a leading French grande école and constituent member of Université PSL (Paris Sciences & Lettres), ranked #86 in the QS World University Rankings 2025. ENS operates 15 departments, 35 research laboratories and a network of libraries. ENS does not publish a first-party developer portal or documented institutional API; its programmatic surface is reached indirectly via national French research and higher-education open infrastructure. Researcher output is deposited in the HAL-ENS open archive, which is harvestable through the national HAL OAI-PMH endpoint and the HAL REST/Search API, and ENS establishment data is exposed through the Ministry of Higher Education (MESR) open-data platform's Opendatasoft Explore API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ens-paris/refs/heads/main/screenshots/ens-paris-2026-06-20T180723.png",
-     "score": 42.4,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 41.8,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 76.8,
+      "contract_quality": 73.9,
       "governance": 58.3,
       "operational_transparency": 21.1,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -377,35 +384,25 @@
       "dry_run_mode": false
      },
      "rank": 8
-    }
-   ]
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "28 – 41.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 5,
-   "shown": 5,
-   "providers": [
+    },
     {
      "name": "Orange Business",
      "slug": "orange-business",
      "description": "Orange Business is the B2B, telco-cloud, and developer arm of Orange S.A. — France's leading telecommunications group operating across Europe, the Middle East, and Africa. The company markets itself as \"an operator, integrator, and platform player\" and serves 30,000+ enterprise customers across 65 countries with cloud, cybersecurity, SD-WAN/SASE, 5G, IoT, data, AI, and digital-workplace services. Orange's developer surface is split across two tracks. The Orange Developer portal (developer.orange.com) publishes the Orange Open Gateway — Orange's implementation of GSMA Open Gateway / CAMARA standardised network APIs (Number Verification, SIM Swap, Device Swap, KYC Match, Device Location, Geofencing, Device Status, Quality on Demand, Population Density Data) — alongside Orange-specific APIs for IoT (Live Objects, IoT Global Connectivity), payments (Orange Money WebPay, Pay With Orange Bill, carrier billing across Orange Africa), communications (Voice, SMS MEA, Business Talk, Contact Everyone), cloud (Cloud Avenue sovereign IaaS, Evolution Platform), and identity (Live Identity Verify, Live Identity Captcha). The Orange Business Services portfolio adds a B2B TM Forum–aligned API track for ordering, billing, incident management, eligibility, and order tracking. The Orange-OpenSource GitHub org backs the developer ecosystem with 427+ repos including Hurl (the popular Rust HTTP testing CLI with 18K+ stars), the Boosted accessible Bootstrap framework, the OUDS Orange Unified Design System for iOS / Android / Flutter, and 5G Kubernetes Helm charts. Orange has also stood up Orange LiveNet, a business unit dedicated to commercialising programmable network capabilities, and is one of the founding operators of the GSMA Open Gateway initiative with the CAMARA Linux Foundation project.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/screenshots/orange-business-2026-06-20T191153.png",
-     "score": 35.8,
+     "score": 37.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 59.4,
+      "contract_quality": 57.2,
       "governance": 0.0,
       "operational_transparency": 5.3,
       "developer_ergonomics": 50.0,
-      "commercial_clarity": 21.1
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -437,25 +434,25 @@
      "name": "La Ruche qui dit Oui!",
      "slug": "la-ruche-qui-dit-oui",
      "description": "La Ruche qui dit Oui! is a French direct-from-farmer food marketplace, founded in Paris in 2010 and known in English-speaking markets as The Food Assembly. It connects members with local and European producers through neighbourhood assemblies (\"ruches\" / hives) and, since a May 2025 merger with CrowdFarming, through direct home delivery of seasonal boxes, subscriptions and harvest \"adoptions\" in which a member reserves the output of a specific tree, hive or plot for a season. The company operated a public member-facing REST API documented as the Food Assembly API — OAuth 2 token issuance, assembly membership, distribution product and offer listings, and the basket/order payment flow — published as an API Blueprint in the lrqdo/developer repository. That developer documentation has not been updated since 2017, and there is no current developer portal, but the API host remains live behind bearer authentication.",
-     "score": 35.1,
+     "score": 33.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 61.0,
+      "discoverability": 81.5,
+      "contract_quality": 58.7,
       "governance": 11.5,
       "operational_transparency": 5.3,
-      "developer_ergonomics": 19.0,
+      "developer_ergonomics": 21.2,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 39.9,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 42.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
-      "mcp_server": false,
+      "mcp_server": "derived",
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": "verified",
@@ -471,36 +468,37 @@
      "rank": 10
     },
     {
-     "name": "Revyze",
-     "slug": "revyze",
-     "description": "Revyze is a French EdTech mobile learning application that helps secondary and baccalaureate-level students revise by scrolling short-form educational videos and playing quizzes created by a community of young content creators. The app covers all school subjects and is oriented around exam preparation for the French brevet and baccalaureate, reporting more than two million users, a 4.8/5 app-store rating, and 15,000+ videos, all offered free of charge. Revyze is a portfolio company of Speedinvest. This profile also captures the app's publicly reachable backend at api.revyze.fr — a FastAPI service that fronts a GraphQL API, an AI study-coach streaming endpoint, and subscription/content-moderation webhooks — discovered and harvested by the API Evangelist enrichment pipeline. It is the application's own backend rather than a documented public developer program.",
-     "score": 31.0,
+     "name": "Pasqal",
+     "slug": "pasqal",
+     "description": "Pasqal is a French neutral-atom quantum computing company headquartered in Palaiseau, France and co-founded in 2019 by 2022 Physics Nobel Laureate Alain Aspect. Pasqal builds commercial-grade neutral-atom quantum processors (the Fresnel QPU family) that use arrays of laser-trapped Rydberg atoms to run both analog and digital quantum programs, and packages them as on-premise systems and as Pasqal Cloud Services — a pay-as-you-go quantum computing platform also distributed through Google Cloud, Microsoft Azure Quantum, OVHcloud, and AWS partners. The developer surface is anchored by Pulser, the open-source (Apache-2.0) Python library for pulse-level/analog programming of neutral-atom devices, the pasqal-cloud Python SDK for submitting Pulser sequences and workloads to QPUs and emulators, and the Pasqal Cloud Services REST API (with Auth0-based authentication and v1/v2 endpoints for batches, jobs, devices, workloads, projects, members, billing, and OVH integrations). The broader ecosystem includes Qadence (digital-analog programming), Pulser Studio (no-code visual programming), the EMU-MPS and EMU-SV GPU-accelerated emulators, and quantum application libraries — QEK (Quantum Evolution Kernel for graph ML), QUBO-Solver, Maximum-Independent-Set, and QoolQit (Rydberg analog algorithm development). Pasqal serves 35+ commercial engagements across energy, finance, logistics, automotive, and pharma — including BMW, Thales, Capgemini, Sumitomo, Aramco, CMA CGM, and KAIST — and partners with NVIDIA (CUDA-Q), IBM, Google, and Microsoft. In May 2026 Pasqal demonstrated logical qubits outperforming physical qubits on differential equations, and in March 2026 announced 340M+ euros of new financing ahead of going public via business combination with Bleichroeder Acquisition Corp II.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pasqal/refs/heads/main/screenshots/pasqal-2026-06-20T191430.png",
+     "score": 30.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 53.3,
-      "governance": 8.3,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 21.1
+      "discoverability": 64.8,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 33.8,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 9.0,
      "agent_band": "agent-aware",
      "agent_dims": {
-      "spec_presence": true,
+      "spec_presence": false,
       "agentic_access": false,
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": "documented",
+      "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "event_surface_described": "derived",
+      "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -522,8 +520,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -552,23 +550,60 @@
      "rank": 12
     },
     {
+     "name": "Revyze",
+     "slug": "revyze",
+     "description": "Revyze is a French EdTech mobile learning application that helps secondary and baccalaureate-level students revise by scrolling short-form educational videos and playing quizzes created by a community of young content creators. The app covers all school subjects and is oriented around exam preparation for the French brevet and baccalaureate, reporting more than two million users, a 4.8/5 app-store rating, and 15,000+ videos, all offered free of charge. Revyze is a portfolio company of Speedinvest. This profile also captures the app's publicly reachable backend at api.revyze.fr — a FastAPI service that fronts a GraphQL API, an AI study-coach streaming endpoint, and subscription/content-moderation webhooks — discovered and harvested by the API Evangelist enrichment pipeline. It is the application's own backend rather than a documented public developer program.",
+     "score": 29.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 51.3,
+      "governance": 8.3,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 30.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 13
+    },
+    {
      "name": "Devialet",
      "slug": "devialet",
      "description": "Devialet is a French high-end audio company founded and headquartered in Paris, known for the Phantom active loudspeaker range, the Dione soundbar, the Mania portable speaker, the Gemini earbuds, and the Expert Pro amplifier line, and for patented acoustic technologies including ADH (Analog Digital Hybrid), SAM (Speaker Active Matching), and the EVO embedded platform. Its developer-facing surface is the Devialet IP Control API — an unauthenticated HTTP API served by the speakers themselves on the local network under the /ipcontrol/v1 path, introduced with DOS 2.14 firmware and documented by Devialet as a PDF reference for system integrators. It exposes device, system, and group state plus playback, volume, equalizer, night mode, Bluetooth pairing, and power and factory-reset commands, with mDNS/DNS-SD discovery. Devialet also ships certified home-automation drivers for Crestron and Control4 alongside the raw API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/screenshots/devialet-2026-08-07T164327.png",
-     "score": 29.3,
+     "score": 28.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 13.3,
+      "discoverability": 81.5,
+      "contract_quality": 13.8,
       "governance": 11.5,
       "operational_transparency": 21.1,
       "developer_ergonomics": 34.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 42.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -587,7 +622,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 14
     }
    ]
   },
@@ -596,27 +631,33 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 35,
-   "shown": 35,
+   "count": 34,
+   "shown": 34,
    "providers": [
     {
-     "name": "Pasqal",
-     "slug": "pasqal",
-     "description": "Pasqal is a French neutral-atom quantum computing company headquartered in Palaiseau, France and co-founded in 2019 by 2022 Physics Nobel Laureate Alain Aspect. Pasqal builds commercial-grade neutral-atom quantum processors (the Fresnel QPU family) that use arrays of laser-trapped Rydberg atoms to run both analog and digital quantum programs, and packages them as on-premise systems and as Pasqal Cloud Services — a pay-as-you-go quantum computing platform also distributed through Google Cloud, Microsoft Azure Quantum, OVHcloud, and AWS partners. The developer surface is anchored by Pulser, the open-source (Apache-2.0) Python library for pulse-level/analog programming of neutral-atom devices, the pasqal-cloud Python SDK for submitting Pulser sequences and workloads to QPUs and emulators, and the Pasqal Cloud Services REST API (with Auth0-based authentication and v1/v2 endpoints for batches, jobs, devices, workloads, projects, members, billing, and OVH integrations). The broader ecosystem includes Qadence (digital-analog programming), Pulser Studio (no-code visual programming), the EMU-MPS and EMU-SV GPU-accelerated emulators, and quantum application libraries — QEK (Quantum Evolution Kernel for graph ML), QUBO-Solver, Maximum-Independent-Set, and QoolQit (Rydberg analog algorithm development). Pasqal serves 35+ commercial engagements across energy, finance, logistics, automotive, and pharma — including BMW, Thales, Capgemini, Sumitomo, Aramco, CMA CGM, and KAIST — and partners with NVIDIA (CUDA-Q), IBM, Google, and Microsoft. In May 2026 Pasqal demonstrated logical qubits outperforming physical qubits on differential equations, and in March 2026 announced 340M+ euros of new financing ahead of going public via business combination with Bleichroeder Acquisition Corp II.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pasqal/refs/heads/main/screenshots/pasqal-2026-06-20T191430.png",
-     "score": 27.4,
+     "name": "SideCare",
+     "slug": "sidecare",
+     "description": "SideCare is a French insurtech and HR-benefits platform (operated by Hoggo) that helps companies build, deploy, and manage their employee health policy. It brokers and administers collective health insurance (mutuelle) and disability cover (prévoyance), comparing more than 15,500 contracts, and adds a free SIRH/HR and quality-of-life (QVT) layer, a digital clinic with telemedicine, and the SideCard prepaid health-expense card that advances up to €1,500/month. Over 7,800 companies and 100,000+ insured individuals use the platform. SideCare runs a \"Sign in with SideCare\" OpenID Connect identity provider and integrates with payroll/HRIS tools such as PayFit, Lucca, and Nibelis. Backed by Partech.",
+     "score": 23.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 64.8,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 69.6,
-      "commercial_clarity": 31.6
+      "governance": 12.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 63.6,
+      "matched_via": "tags"
+     },
      "agent_score": 9.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -635,119 +676,30 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
-    },
-    {
-     "name": "SideCare",
-     "slug": "sidecare",
-     "description": "SideCare is a French insurtech and HR-benefits platform (operated by Hoggo) that helps companies build, deploy, and manage their employee health policy. It brokers and administers collective health insurance (mutuelle) and disability cover (prévoyance), comparing more than 15,500 contracts, and adds a free SIRH/HR and quality-of-life (QVT) layer, a digital clinic with telemedicine, and the SideCard prepaid health-expense card that advances up to €1,500/month. Over 7,800 companies and 100,000+ insured individuals use the platform. SideCare runs a \"Sign in with SideCare\" OpenID Connect identity provider and integrates with payroll/HRIS tools such as PayFit, Lucca, and Nibelis. Backed by Partech.",
-     "score": 24.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 61.1,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 17.4,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 63.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 12.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
      "rank": 15
     },
     {
      "name": "La Fraise Pro",
      "slug": "la-fraise-pro",
      "description": "La Fraise (LA FRAISE PRO SAS) is a French SaaS platform that digitizes the administrative patient journey for dental practices and dental centers: interactive treatment quotes (devis), patient-education video, informed consent, mutual-insurer coverage requests, and compliant electronic signature, all handled remotely. The product integrates natively with the French dental practice-management market — LOGOSw, Julie, Veasy, CS Trophy, Visiodent, Ardion, WeClever, Desmos, Galaxie and Effigie — with real-time bidirectional sync for LOGOSw, Veasy and Desmos. More than 3,500 dentists are equipped. Patient data is hosted on HDS-certified AWS infrastructure in the European Union, in line with article L.1111-8 of the French Code de la sante publique, and electronic signature follows Agence du Numerique en Sante (ANS) norms. La Fraise publishes no public developer API; practice-management integrations are provisioned by its own technical team.",
-     "score": 23.9,
+     "score": 21.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 12.5,
       "operational_transparency": 5.3,
       "developer_ergonomics": 8.7,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
-      "score": 38.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.6,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 16
-    },
-    {
-     "name": "Lassie",
-     "slug": "lassie",
-     "description": "Lassie is a Swedish insurtech that sells preventive digital pet insurance for dogs and cats. Founded in Stockholm in 2020, the company pairs veterinary-care cover with an app-based prevention programme: owners take courses designed by animal experts and earn up to SEK 500 a year off their premium. Cover includes unlimited digital vet consultations through FirstVet, 24-hour claims handling, direct settlement with clinics, no breed or age restrictions and no lock-in period. Lassie AB is an insurance intermediary supervised by Finansinspektionen under the Swedish Insurance Distribution Act (2018:1219); policies are underwritten by Dina Forsakring AB. The company operates in Sweden, Germany and France with 100+ staff and more than one million insured animals, and is backed by a16z and Balderton Capital. Lassie publishes no public developer API - its GraphQL backend at api.lassie.co is private to its own apps - but it does publish a per-market llms.txt, making it an early example of a consumer insurer building an agent-readable surface without an API programme.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lassie/refs/heads/main/screenshots/lassie-2026-07-25T224549.png",
-     "score": 23.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.3,
-      "commercial_clarity": 52.6
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 47.0,
+      "score": 30.0,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -768,30 +720,69 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 16
     },
     {
-     "name": "Yampa",
-     "slug": "yampa",
-     "description": "Yampa is a Paris-based B2B platform for deploying and operating fleets of autonomous AI agents that handle customer service end-to-end across voice, chat, email, ticketing, and messaging channels. Its Y.core orchestration platform provides a visual workflow builder, guardrails, a knowledge layer, multichannel orchestration, QA and auditing tools, and observability, with connectors to CRMs, helpdesks, and telephony systems (Salesforce, Zendesk, Intercom, Twilio, Genesys, and others). Founded in 2024 by Marin Huet, Baptiste Saintot, and Patrice Mazoyer, Yampa raised a ~EUR 3M seed led by Partech and emphasizes sovereign EU-hosted infrastructure with GDPR and SOC 2 aligned security. Developer documentation at docs.yampa.ai is gated behind an access code; the public status page lists an API component alongside chat, email, calls, and console services.",
-     "score": 22.5,
+     "name": "École Normale Supérieure de Lyon",
+     "slug": "ens-lyon",
+     "description": "École Normale Supérieure de Lyon (ENS de Lyon) is a French public research and higher-education institution in Lyon, ranked #187 in the QS World University Rankings 2025. Its primary public, machine-readable developer footprint is its open-access institutional repository, HAL-ENS-LYON (ens-lyon.hal.science), which is part of the national HAL (Hyper Articles en Ligne) open archive. That platform exposes the publication metadata of ENS de Lyon through HAL's shared, well-documented APIs — an OAI-PMH endpoint scoped to the ens-lyon collection plus HAL's Search, Reference, and SWORD deposit APIs hosted at api.archives-ouvertes.fr. ENS de Lyon does not publish its own dedicated, branded developer portal; the institutional GitHub organization exists but currently has no public repositories.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ens-lyon/refs/heads/main/screenshots/ens-lyon-2026-06-20T180729.png",
+     "score": 21.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
+      "discoverability": 74.1,
+      "contract_quality": 12.9,
       "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 50.0
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 17
+    },
+    {
+     "name": "Lassie",
+     "slug": "lassie",
+     "description": "Lassie is a Swedish insurtech that sells preventive digital pet insurance for dogs and cats. Founded in Stockholm in 2020, the company pairs veterinary-care cover with an app-based prevention programme: owners take courses designed by animal experts and earn up to SEK 500 a year off their premium. Cover includes unlimited digital vet consultations through FirstVet, 24-hour claims handling, direct settlement with clinics, no breed or age restrictions and no lock-in period. Lassie AB is an insurance intermediary supervised by Finansinspektionen under the Swedish Insurance Distribution Act (2018:1219); policies are underwritten by Dina Forsakring AB. The company operates in Sweden, Germany and France with 100+ staff and more than one million insured animals, and is backed by a16z and Balderton Capital. Lassie publishes no public developer API - its GraphQL backend at api.lassie.co is private to its own apps - but it does publish a per-market llms.txt, making it an early example of a consumer insurer building an agent-readable surface without an API programme.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lassie/refs/heads/main/screenshots/lassie-2026-07-25T224549.png",
+     "score": 21.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 26.4,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 36.4,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -815,23 +806,23 @@
      "rank": 18
     },
     {
-     "name": "École Normale Supérieure de Lyon",
-     "slug": "ens-lyon",
-     "description": "École Normale Supérieure de Lyon (ENS de Lyon) is a French public research and higher-education institution in Lyon, ranked #187 in the QS World University Rankings 2025. Its primary public, machine-readable developer footprint is its open-access institutional repository, HAL-ENS-LYON (ens-lyon.hal.science), which is part of the national HAL (Hyper Articles en Ligne) open archive. That platform exposes the publication metadata of ENS de Lyon through HAL's shared, well-documented APIs — an OAI-PMH endpoint scoped to the ens-lyon collection plus HAL's Search, Reference, and SWORD deposit APIs hosted at api.archives-ouvertes.fr. ENS de Lyon does not publish its own dedicated, branded developer portal; the institutional GitHub organization exists but currently has no public repositories.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ens-lyon/refs/heads/main/screenshots/ens-lyon-2026-06-20T180729.png",
-     "score": 21.6,
+     "name": "Sorbonne University",
+     "slug": "sorbonne",
+     "description": "Sorbonne University (Sorbonne Université) is a public research university in Paris, France, formed in 2018 from the merger of Paris-Sorbonne and Pierre et Marie Curie universities. It serves roughly 53,000 students across faculties of Arts & Humanities, Health Sciences, and Science & Engineering, and is ranked #81 in the QS World University Rankings 2025. Sorbonne University does not operate a centralized public developer portal; its programmatic surface is delivered through open-science infrastructure: the HAL Sorbonne Université open archive (harvestable via the standards-based OAI-PMH and HAL search APIs) and a Sorbonne University collection on the national Recherche Data Gouv Dataverse, which exposes a live Dataverse Native REST API. An official GitHub organization exists but currently hosts no public repositories.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sorbonne/refs/heads/main/screenshots/sorbonne-2026-06-20T194214.png",
+     "score": 21.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 12.9,
+      "contract_quality": 17.7,
       "governance": 0.0,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 8.7,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -853,22 +844,22 @@
      "rank": 19
     },
     {
-     "name": "Casavo",
-     "slug": "casavo",
-     "description": "Casavo Management S.p.A. is an Italian proptech company founded in Milan in 2017 by Giorgio Tinacci that operates a digital residential real estate platform across Italy, Spain, France and Portugal. It began as an iBuyer — instantly valuing, buying, renovating and reselling homes — and has since shifted to a marketplace and brokerage model that connects sellers, buyers and partner estate agents, wrapping the transaction in mortgage brokerage, document management and renovation services. Casavo's developer-facing surface is not its consumer marketplace but the virtual-tour platform it acquired, Realisti.co (marketed as Casavo Virtual Tools): a versioned REST API at editor.realisti.co that lets partner agencies and property-management software create virtual tours, retrieve tour URLs, and activate or deactivate a tour at the end of a mandate. The company also runs a public GitHub organization of DevOps tooling, Helm charts, Terraform modules and the Habitat design system, and an engineering blog.",
-     "score": 21.1,
+     "name": "Yampa",
+     "slug": "yampa",
+     "description": "Yampa is a Paris-based B2B platform for deploying and operating fleets of autonomous AI agents that handle customer service end-to-end across voice, chat, email, ticketing, and messaging channels. Its Y.core orchestration platform provides a visual workflow builder, guardrails, a knowledge layer, multichannel orchestration, QA and auditing tools, and observability, with connectors to CRMs, helpdesks, and telephony systems (Salesforce, Zendesk, Intercom, Twilio, Genesys, and others). Founded in 2024 by Marin Huet, Baptiste Saintot, and Patrice Mazoyer, Yampa raised a ~EUR 3M seed led by Partech and emphasizes sovereign EU-hosted infrastructure with GDPR and SOC 2 aligned security. Developer documentation at docs.yampa.ai is gated behind an access code; the public status page lists an API component alongside chat, email, calls, and console services.",
+     "score": 20.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 87.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
-      "governance": 12.5,
+      "governance": 0.0,
       "operational_transparency": 21.1,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 34.2
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -890,24 +881,23 @@
      "rank": 20
     },
     {
-     "name": "Sorbonne University",
-     "slug": "sorbonne",
-     "description": "Sorbonne University (Sorbonne Université) is a public research university in Paris, France, formed in 2018 from the merger of Paris-Sorbonne and Pierre et Marie Curie universities. It serves roughly 53,000 students across faculties of Arts & Humanities, Health Sciences, and Science & Engineering, and is ranked #81 in the QS World University Rankings 2025. Sorbonne University does not operate a centralized public developer portal; its programmatic surface is delivered through open-science infrastructure: the HAL Sorbonne Université open archive (harvestable via the standards-based OAI-PMH and HAL search APIs) and a Sorbonne University collection on the national Recherche Data Gouv Dataverse, which exposes a live Dataverse Native REST API. An official GitHub organization exists but currently hosts no public repositories.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sorbonne/refs/heads/main/screenshots/sorbonne-2026-06-20T194214.png",
-     "score": 21.0,
+     "name": "Casavo",
+     "slug": "casavo",
+     "description": "Casavo Management S.p.A. is an Italian proptech company founded in Milan in 2017 by Giorgio Tinacci that operates a digital residential real estate platform across Italy, Spain, France and Portugal. It began as an iBuyer — instantly valuing, buying, renovating and reselling homes — and has since shifted to a marketplace and brokerage model that connects sellers, buyers and partner estate agents, wrapping the transaction in mortgage brokerage, document management and renovation services. Casavo's developer-facing surface is not its consumer marketplace but the virtual-tour platform it acquired, Realisti.co (marketed as Casavo Virtual Tools): a versioned REST API at editor.realisti.co that lets partner agencies and property-management software create virtual tours, retrieve tour URLs, and activate or deactivate a tour at the end of a mandate. The company also runs a public GitHub organization of DevOps tooling, Helm charts, Terraform modules and the Habitat design system, and an engineering blog.",
+     "score": 20.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 17.7,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.2,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -917,7 +907,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -943,8 +933,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -973,23 +963,23 @@
      "rank": 22
     },
     {
-     "name": "Lalilo",
-     "slug": "lalilo",
-     "description": "Lalilo is an adaptive reading and literacy web application for primary-school classrooms, founded in Paris in 2016 and acquired by Renaissance (Wisconsin Rapids, USA) in 2021. It delivers roughly 90,000 interactive phonics, fluency and comprehension exercises that adapt in real time to each student, uses speech recognition to assess oral reading aloud, and gives teachers a dashboard for tracking progress and running differentiated small-group instruction. It is used by around 40,000 teachers and 400,000 students a year in France across cycles 2 and 3, with explicit support for DYS, allophone, ULIS, SEGPA and IME learners. Lalilo publishes no public API, developer portal or API documentation: the product is consumed through the teacher and student web applications at app.lalilo.com, and integration or rostering questions are handled through Renaissance support rather than a self-serve developer program.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lalilo/refs/heads/main/screenshots/lalilo-2026-07-25T224440.png",
-     "score": 17.8,
+     "name": "Graneet",
+     "slug": "graneet",
+     "description": "Graneet is a French vertical-SaaS ERP for the construction and public-works (BTP) sector, built for small and mid-sized contractors (roughly EUR 2M to 100M in revenue) to protect project profitability from the office to the job site. It unifies cost estimating and quotations, progress (situation) invoicing, purchase and supplier-invoice management, project planning and labor tracking, cash and bank reconciliation, and real-time margin dashboards, with a companion mobile app and prebuilt integrations to accounting tools such as Sage 100 and Pennylane. The product is delivered as a cloud application (app.graneet.com) backed by internal Main, BFF, and Quotation APIs; there is no public developer API or OpenAPI at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/graneet/refs/heads/main/screenshots/graneet-2026-07-25T220223.png",
+     "score": 17.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 15.8,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1011,23 +1001,23 @@
      "rank": 23
     },
     {
-     "name": "Graneet",
-     "slug": "graneet",
-     "description": "Graneet is a French vertical-SaaS ERP for the construction and public-works (BTP) sector, built for small and mid-sized contractors (roughly EUR 2M to 100M in revenue) to protect project profitability from the office to the job site. It unifies cost estimating and quotations, progress (situation) invoicing, purchase and supplier-invoice management, project planning and labor tracking, cash and bank reconciliation, and real-time margin dashboards, with a companion mobile app and prebuilt integrations to accounting tools such as Sage 100 and Pennylane. The product is delivered as a cloud application (app.graneet.com) backed by internal Main, BFF, and Quotation APIs; there is no public developer API or OpenAPI at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/graneet/refs/heads/main/screenshots/graneet-2026-07-25T220223.png",
-     "score": 17.3,
+     "name": "Lalilo",
+     "slug": "lalilo",
+     "description": "Lalilo is an adaptive reading and literacy web application for primary-school classrooms, founded in Paris in 2016 and acquired by Renaissance (Wisconsin Rapids, USA) in 2021. It delivers roughly 90,000 interactive phonics, fluency and comprehension exercises that adapt in real time to each student, uses speech recognition to assess oral reading aloud, and gives teachers a dashboard for tracking progress and running differentiated small-group instruction. It is used by around 40,000 teachers and 400,000 students a year in France across cycles 2 and 3, with explicit support for DYS, allophone, ULIS, SEGPA and IME learners. Lalilo publishes no public API, developer portal or API documentation: the product is consumed through the teacher and student web applications at app.lalilo.com, and integration or rostering questions are handled through Renaissance support rather than a self-serve developer program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lalilo/refs/heads/main/screenshots/lalilo-2026-07-25T224440.png",
+     "score": 16.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 15.8,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1049,82 +1039,6 @@
      "rank": 24
     },
     {
-     "name": "HostnFly",
-     "slug": "hostnfly",
-     "description": "HostnFly is a French short-term-rental (Airbnb) concierge and property-management company, founded in 2016 and headquartered in Paris. It manages the full lifecycle of short-stay rentals on behalf of property owners: listing creation and optimization, multi-platform distribution (Airbnb, Booking.com, Abritel), guest screening and 24/7 communication, check-in/check-out and key handling, hotel-grade housekeeping and linen, maintenance, short-term-rental insurance, and dynamic revenue optimization. HostnFly operates on a commission-only model (from ~20% of nightly revenue, no fixed fees) and covers 340+ cities across metropolitan France and Corsica. It is a Partech portfolio company. HostnFly publishes an llms.txt agent-discovery file but does not expose a public developer API, SDKs, or OpenAPI at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hostnfly/refs/heads/main/screenshots/hostnfly-2026-07-25T221450.png",
-     "score": 17.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.6,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 25
-    },
-    {
-     "name": "Evaneos",
-     "slug": "evaneos",
-     "description": "Evaneos is a French online marketplace for tailor-made travel, founded in 2009 and headquartered in Paris. It connects travelers directly with a curated, continuously-evaluated network of 600+ expert local travel agencies across 160+ destinations, who design fully customized itineraries. A certified B Corp since 2022, Evaneos champions an ethical model in which at least 85% of each trip's cost benefits local economies, and it has served more than 800,000 travelers at a 97% satisfaction rate. Backed by Partech, the company runs a coordinated vulnerability disclosure program but publishes no public product API; its GitHub organization hosts internal DevOps, security, and AI tooling.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/evaneos/refs/heads/main/screenshots/evaneos-2026-07-25T213708.png",
-     "score": 16.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 61.1,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 26
-    },
-    {
      "name": "Montpellier Open Data",
      "slug": "data-montpellier3m-fr",
      "description": "Montpellier Open Data is a municipal government open-data portal for France running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 0 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
@@ -1140,8 +1054,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1167,7 +1081,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 25
     },
     {
      "name": "Faks",
@@ -1185,8 +1099,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1212,69 +1126,26 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 26
     },
     {
-     "name": "Trezy",
-     "slug": "trezy",
-     "description": "Trezy is a Franco-Dutch fintech SaaS (Trezy SAS, founded 2021 in Paris by Quentin Lacointa) offering AI-driven cash flow management for small and medium businesses across Europe, the US, and Canada. It connects to 2,000+ banks via PSD2/Open Banking to deliver real-time cash position, automatic AI transaction categorization, 95%-accurate 12-month cash flow forecasting, real-time P&L, 27+ financial KPIs, supplier cost analysis, and OCR-based document management from a single platform starting at a free tier. Trezy also offers dedicated plans for external CFOs (DAF) and accounting firms, and integrates with QuickBooks Online and Pennylane. Backed by Seedcamp and Playfair Capital (with Kima Ventures and Discovery Ventures) in a €3M seed round. Trezy publishes an llms.txt corpus and an /.well-known/ai-plugin.json manifest but does not expose a public developer API.",
-     "score": 16.1,
+     "name": "HostnFly",
+     "slug": "hostnfly",
+     "description": "HostnFly is a French short-term-rental (Airbnb) concierge and property-management company, founded in 2016 and headquartered in Paris. It manages the full lifecycle of short-stay rentals on behalf of property owners: listing creation and optimization, multi-platform distribution (Airbnb, Booking.com, Abritel), guest screening and 24/7 communication, check-in/check-out and key handling, hotel-grade housekeeping and linen, maintenance, short-term-rental insurance, and dynamic revenue optimization. HostnFly operates on a commission-only model (from ~20% of nightly revenue, no fixed fees) and covers 340+ cities across metropolitan France and Corsica. It is a Partech portfolio company. HostnFly publishes an llms.txt agent-discovery file but does not expose a public developer API, SDKs, or OpenAPI at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hostnfly/refs/heads/main/screenshots/hostnfly-2026-07-25T221450.png",
+     "score": 16.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 15.2,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 12.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.6,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 29
-    },
-    {
-     "name": "Tulyp",
-     "slug": "tulyp",
-     "description": "Tulyp is a SaaS treasury platform from French company SmarTrade SAS that gives CFOs and treasurers of SMEs and mid-caps (10-200M euro revenue) real-time visibility into their foreign-exchange (FX) exposure. The platform aggregates financial data from connected ERPs, accounting software, and banks, calculates net currency exposure by type and timeframe, translates currency movements into impact on revenue, margins, and EBITDA, and alerts when exposure crosses risk-policy thresholds. Backed by Speedinvest. Tulyp publishes no public developer API; it does publish an llms.txt content index for AI systems.",
-     "score": 15.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1293,52 +1164,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
-    },
-    {
-     "name": "Luko",
-     "slug": "luko",
-     "description": "Luko is an online home, travel, and auto insurance provider founded in France in 2016 and now operating as Luko by Allianz Direct after its acquisition by the Allianz group. It sells rental, owner-occupied, non-occupant-owner (PNO), student, and co-housing home policies from around EUR 5 per month, plus travel and Eurofil-partnered auto cover, with sub-two-minute online subscription, instant attestations, digital claims declaration through a customer account portal, and 24/7 emergency support. Originally a VC-backed insurtech (Accel, Speedinvest), Luko today runs as a consumer insurance brand with no public developer API, SDK, or API documentation surface; this profile captures its verifiable security and identity footprint.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/luko/refs/heads/main/screenshots/luko-2026-07-25T225651.png",
-     "score": 15.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 61.1,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 30.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 31
+     "rank": 27
     },
     {
      "name": "Papernest",
@@ -1356,8 +1182,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1383,7 +1209,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 28
     },
     {
      "name": "Sumeria",
@@ -1400,8 +1226,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1427,26 +1253,235 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 29
+    },
+    {
+     "name": "Evaneos",
+     "slug": "evaneos",
+     "description": "Evaneos is a French online marketplace for tailor-made travel, founded in 2009 and headquartered in Paris. It connects travelers directly with a curated, continuously-evaluated network of 600+ expert local travel agencies across 160+ destinations, who design fully customized itineraries. A certified B Corp since 2022, Evaneos champions an ethical model in which at least 85% of each trip's cost benefits local economies, and it has served more than 800,000 travelers at a 97% satisfaction rate. Backed by Partech, the company runs a coordinated vulnerability disclosure program but publishes no public product API; its GitHub organization hosts internal DevOps, security, and AI tooling.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/evaneos/refs/heads/main/screenshots/evaneos-2026-07-25T213708.png",
+     "score": 15.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 2.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 30
+    },
+    {
+     "name": "Trezy",
+     "slug": "trezy",
+     "description": "Trezy is a Franco-Dutch fintech SaaS (Trezy SAS, founded 2021 in Paris by Quentin Lacointa) offering AI-driven cash flow management for small and medium businesses across Europe, the US, and Canada. It connects to 2,000+ banks via PSD2/Open Banking to deliver real-time cash position, automatic AI transaction categorization, 95%-accurate 12-month cash flow forecasting, real-time P&L, 27+ financial KPIs, supplier cost analysis, and OCR-based document management from a single platform starting at a free tier. Trezy also offers dedicated plans for external CFOs (DAF) and accounting firms, and integrates with QuickBooks Online and Pennylane. Backed by Seedcamp and Playfair Capital (with Kima Ventures and Discovery Ventures) in a €3M seed round. Trezy publishes an llms.txt corpus and an /.well-known/ai-plugin.json manifest but does not expose a public developer API.",
+     "score": 15.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 15.2,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 12.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 31
+    },
+    {
+     "name": "Tulyp",
+     "slug": "tulyp",
+     "description": "Tulyp is a SaaS treasury platform from French company SmarTrade SAS that gives CFOs and treasurers of SMEs and mid-caps (10-200M euro revenue) real-time visibility into their foreign-exchange (FX) exposure. The platform aggregates financial data from connected ERPs, accounting software, and banks, calculates net currency exposure by type and timeframe, translates currency movements into impact on revenue, margins, and EBITDA, and alerts when exposure crosses risk-policy thresholds. Backed by Speedinvest. Tulyp publishes no public developer API; it does publish an llms.txt content index for AI systems.",
+     "score": 14.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 32
+    },
+    {
+     "name": "Luko",
+     "slug": "luko",
+     "description": "Luko is an online home, travel, and auto insurance provider founded in France in 2016 and now operating as Luko by Allianz Direct after its acquisition by the Allianz group. It sells rental, owner-occupied, non-occupant-owner (PNO), student, and co-housing home policies from around EUR 5 per month, plus travel and Eurofil-partnered auto cover, with sub-two-minute online subscription, instant attestations, digital claims declaration through a customer account portal, and 24/7 emergency support. Originally a VC-backed insurtech (Accel, Speedinvest), Luko today runs as a consumer insurance brand with no public developer API, SDK, or API documentation surface; this profile captures its verifiable security and identity footprint.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/luko/refs/heads/main/screenshots/luko-2026-07-25T225651.png",
+     "score": 14.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 30.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 33
+    },
+    {
+     "name": "Dalma",
+     "slug": "dalma",
+     "description": "Dalma is a French insurtech offering pet health insurance for dogs and cats, reimbursing veterinary bills (up to 100%, no deductible, EUR 2,500 annual ceiling) with fast payouts (50% within 30 seconds) and unlimited teleconsultations with veterinarians via its mobile app. Founded in Paris and backed by Northzone, Dalma insures 60,000+ pets across France and has expanded to Germany. It is a direct-to-consumer insurance brand with a member app (app.dalma.co) and a quote/subscription funnel; it publishes no public developer API, OpenAPI definition, SDK, or developer portal at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dalma/refs/heads/main/screenshots/dalma-2026-07-25T211146.png",
+     "score": 14.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 21.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 34
     },
     {
      "name": "Doctolib",
      "slug": "doctolib",
      "description": "Doctolib is a European e-health company founded in 2013 and headquartered in Levallois-Perret, France, operating across France, Germany, Italy and the Netherlands. It provides an online medical appointment-booking platform and practice-management software used by patients and by hundreds of thousands of healthcare professionals and facilities. Its product surface spans appointment booking, telehealth/video consultation, patient messaging, clinical software, patient billing, and the Doctolib Connect integration and single-sign-on layer. Doctolib exposes a partner/integration API via an authentication-gated developer portal (developers.doctolib.com); it publishes an RFC 9116 security.txt and runs a public YesWeHack bug-bounty program, an Atlassian Statuspage, and an open-source GitHub organization, but does not publish a public OpenAPI specification, first-party API SDK, or hosted MCP server.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/doctolib/refs/heads/main/screenshots/doctolib-2026-07-25T212221.png",
-     "score": 15.3,
+     "score": 14.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 31.6,
       "developer_ergonomics": 8.7,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1454,8 +1489,8 @@
       "score": 15.0,
       "matched_via": "tags"
      },
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
+     "agent_score": 2.7,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
@@ -1467,45 +1502,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 34
-    },
-    {
-     "name": "DoorFeed",
-     "slug": "doorfeed",
-     "description": "DoorFeed is a technology-led residential real estate investment platform, founded in 2021 and headquartered in Paris, that helps institutional investors, funds, and family offices source and manage single-family rental portfolios at scale across the UK and France. The platform ingests roughly 150,000 new property listings and over 1,000,000 property images every day, structuring market data, comparable transactions, valuation signals, and energy-performance data into a single acquisition and asset-management workflow that takes investors from market screening to investment decision in minutes. DoorFeed is backed by HV Capital, Seedcamp, and Motive Partners. This profile was added to the API Evangelist network as a portfolio-company lead and enriched by the pipeline; DoorFeed publishes no public API or developer program at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/doorfeed/refs/heads/main/screenshots/doorfeed-2026-07-25T212303.png",
-     "score": 15.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 61.1,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 4.3,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
@@ -1513,23 +1510,30 @@
      "rank": 35
     },
     {
-     "name": "Epsor",
-     "slug": "epsor",
-     "description": "Epsor is a French fintech, founded in 2017, that manages employee savings and retirement plans (épargne salariale et retraite) for companies and helps them turn that benefit into an HR lever. A certified B Corp and mission-driven company, Epsor ranks among the top 10 employee-savings and retirement providers in France and serves more than 2,500 corporate clients. It targets HR, Compensation & Benefits, and Finance teams at mid-size and large French firms, combining a pedagogical, personalized saver experience, an open-architecture fund range (40+ funds from 15+ asset managers, with a strong ESG/SRI focus), and year-round support to run and promote the plan. Epsor is neither an asset manager nor a bank: it is the single point of contact for companies and their employees, and delegates account-keeping to Société Générale Securities Services (SGSS). Products span PEE, PER Collectif (PERECO), PER Obligatoire, intéressement, participation, abondement, and employee share ownership. Epsor exposes no public developer API; this profile captures its public identity and security posture for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/epsor/refs/heads/main/screenshots/epsor-2026-07-25T213527.png",
-     "score": 15.0,
+     "name": "Orus",
+     "slug": "orus",
+     "description": "Orus is a French online insurance broker (\"l'assurance professionnelle en ligne\") offering professional-liability and business insurance to independent professionals and small businesses across France. Products include RC Pro (professional liability), Multirisque Professionnelle, Assurance Décennale (ten-year construction liability), Assurance Bureau (office insurance), Mutuelle Santé TNS (self-employed health), and Prévoyance TNS (income protection), serving sectors from consultants and construction to hospitality, retail, and wellness. Backed by Partech and Speedinvest, Orus operates a self-service quote-and-buy app (app.orus.eu) but publishes no public developer API, SDK, or integration surface at this time. This profile was added to the API Evangelist network as a portfolio lead and enriched via public web and domain probes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/orus/refs/heads/main/screenshots/orus-2026-08-07T190958.png",
+     "score": 14.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 21.2,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1551,60 +1555,29 @@
      "rank": 36
     },
     {
-     "name": "Selency",
-     "slug": "selency",
-     "description": "Selency is the leading European online marketplace for vintage furniture and second-hand home decor. Founded in Paris in 2014 (formerly Brocante Lab), it connects individual sellers and professional antique dealers with buyers around a curated catalog of more than 300,000 unique pieces: Scandinavian, art deco, mid-century, 20th-century and contemporary design, lighting, mirrors, rugs and decorative objects. Selency acts as a trusted third party, editorially validating each listing and arranging specialized furniture delivery across Europe. It is a B Corp certified consumer marketplace with French, UK and Netherlands storefronts. No public developer API is offered.",
-     "score": 15.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.6,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 37
-    },
-    {
-     "name": "Agryco",
-     "slug": "agriconomie",
-     "description": "Agryco — trading as Agriconomie until its September 2024 rebrand — is a French online marketplace and e-commerce platform that sells agricultural supplies direct to farmers: mineral, organic and foliar fertilizers, conventional and organic seeds, phytosanitary products, animal nutrition and livestock equipment, plus tractor, spraying, harvesting and soil-working spare parts. Founded in 2014 by Clement Le Fournis, Dinh Nguyen and Paolin Pascot, the company operates a one-stop procurement site for professional farmers across France, Belgium, Germany, Spain and Italy, wrapping the catalog in advisory services (agronomy experts on the phone six days a week), fertilizer blending, equipment valuation and 60-day payment terms. It raised a EUR 60 million Series B in 2022 co-led by Treis Group, Temasek and Aliment Capital with Eurazeo participating, and publishes the Agrycomag technical magazine at agryco.com/blog. Agryco is an end-user commerce product: as of this profile it publishes no public developer program, API reference, SDK or machine-readable specification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/agriconomie/refs/heads/main/screenshots/agriconomie-2026-08-07T161046.png",
+     "name": "Plus Simple",
+     "slug": "plus-simple",
+     "description": "+Simple (Plus Simple) is a French digital insurance underwriting agency (agence de souscription) founded in 2015 and headquartered in Marseille. Operating as one of France's largest wholesale insurance brokers, it runs a fully digital extranet platform that lets partner insurance brokers prospect, price, underwrite, issue, and manage professional insurance contracts across more than 1,200 covered activities and 30+ niche product lines, including RC Décennale (ten-year construction liability) coverage. +Simple distributes on a 100% brokerage model in partnership with carriers such as Hiscox, Allianz, Wakam, QBE and Beazley, serving a network of 8,000+ partner brokers. The company is backed by Anthemis and Speedinvest and was added to the API Evangelist network as a venture-portfolio lead; it publishes no public API or developer surface at this time (its broker and insured portals are authenticated web applications, not open APIs).",
      "score": 14.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 61.1,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 21.2,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1623,14 +1596,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 37
+    },
+    {
+     "name": "DoorFeed",
+     "slug": "doorfeed",
+     "description": "DoorFeed is a technology-led residential real estate investment platform, founded in 2021 and headquartered in Paris, that helps institutional investors, funds, and family offices source and manage single-family rental portfolios at scale across the UK and France. The platform ingests roughly 150,000 new property listings and over 1,000,000 property images every day, structuring market data, comparable transactions, valuation signals, and energy-performance data into a single acquisition and asset-management workflow that takes investors from market screening to investment decision in minutes. DoorFeed is backed by HV Capital, Seedcamp, and Motive Partners. This profile was added to the API Evangelist network as a portfolio-company lead and enriched by the pipeline; DoorFeed publishes no public API or developer program at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/doorfeed/refs/heads/main/screenshots/doorfeed-2026-07-25T212303.png",
+     "score": 14.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 2.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 38
     },
     {
-     "name": "Dalma",
-     "slug": "dalma",
-     "description": "Dalma is a French insurtech offering pet health insurance for dogs and cats, reimbursing veterinary bills (up to 100%, no deductible, EUR 2,500 annual ceiling) with fast payouts (50% within 30 seconds) and unlimited teleconsultations with veterinarians via its mobile app. Founded in Paris and backed by Northzone, Dalma insures 60,000+ pets across France and has expanded to Germany. It is a direct-to-consumer insurance brand with a member app (app.dalma.co) and a quote/subscription funnel; it publishes no public developer API, OpenAPI definition, SDK, or developer portal at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dalma/refs/heads/main/screenshots/dalma-2026-07-25T211146.png",
-     "score": 14.3,
+     "name": "Joko",
+     "slug": "joko",
+     "description": "Joko is a French fintech company operating a consumer cashback, rewards, and savings application that connects shoppers with more than 3,500 partner brands online and in physical stores. Users earn cashback and automatically apply promo codes through the Joko iOS and Android apps and browser extensions (Chrome, Firefox, Safari), while also managing budgets, loyalty cards, gift cards, and split (3x installment) payments. Joko also runs a business solution offering brand partnerships and consumer market research. Backed by Partech, Joko is tracked in the API Evangelist network as a company profile; it publishes no public developer API, developer portal, or API documentation at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/joko/refs/heads/main/screenshots/joko-2026-07-25T223229.png",
+     "score": 14.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -1638,16 +1649,16 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
+      "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 21.2,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 21.9,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -1671,30 +1682,23 @@
      "rank": 39
     },
     {
-     "name": "Orus",
-     "slug": "orus",
-     "description": "Orus is a French online insurance broker (\"l'assurance professionnelle en ligne\") offering professional-liability and business insurance to independent professionals and small businesses across France. Products include RC Pro (professional liability), Multirisque Professionnelle, Assurance Décennale (ten-year construction liability), Assurance Bureau (office insurance), Mutuelle Santé TNS (self-employed health), and Prévoyance TNS (income protection), serving sectors from consultants and construction to hospitality, retail, and wellness. Backed by Partech and Speedinvest, Orus operates a self-service quote-and-buy app (app.orus.eu) but publishes no public developer API, SDK, or integration surface at this time. This profile was added to the API Evangelist network as a portfolio lead and enriched via public web and domain probes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/orus/refs/heads/main/screenshots/orus-2026-08-07T190958.png",
-     "score": 14.3,
+     "name": "Epsor",
+     "slug": "epsor",
+     "description": "Epsor is a French fintech, founded in 2017, that manages employee savings and retirement plans (épargne salariale et retraite) for companies and helps them turn that benefit into an HR lever. A certified B Corp and mission-driven company, Epsor ranks among the top 10 employee-savings and retirement providers in France and serves more than 2,500 corporate clients. It targets HR, Compensation & Benefits, and Finance teams at mid-size and large French firms, combining a pedagogical, personalized saver experience, an open-architecture fund range (40+ funds from 15+ asset managers, with a strong ESG/SRI focus), and year-round support to run and promote the plan. Epsor is neither an asset manager nor a bank: it is the single point of contact for companies and their employees, and delegates account-keeping to Société Générale Securities Services (SGSS). Products span PEE, PER Collectif (PERECO), PER Obligatoire, intéressement, participation, abondement, and employee share ownership. Epsor exposes no public developer API; this profile captures its public identity and security posture for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/epsor/refs/heads/main/screenshots/epsor-2026-07-25T213527.png",
+     "score": 13.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 21.2,
-      "matched_via": "tags"
-     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1716,29 +1720,22 @@
      "rank": 40
     },
     {
-     "name": "Plus Simple",
-     "slug": "plus-simple",
-     "description": "+Simple (Plus Simple) is a French digital insurance underwriting agency (agence de souscription) founded in 2015 and headquartered in Marseille. Operating as one of France's largest wholesale insurance brokers, it runs a fully digital extranet platform that lets partner insurance brokers prospect, price, underwrite, issue, and manage professional insurance contracts across more than 1,200 covered activities and 30+ niche product lines, including RC Décennale (ten-year construction liability) coverage. +Simple distributes on a 100% brokerage model in partnership with carriers such as Hiscox, Allianz, Wakam, QBE and Beazley, serving a network of 8,000+ partner brokers. The company is backed by Anthemis and Speedinvest and was added to the API Evangelist network as a venture-portfolio lead; it publishes no public API or developer surface at this time (its broker and insured portals are authenticated web applications, not open APIs).",
-     "score": 14.3,
+     "name": "Selency",
+     "slug": "selency",
+     "description": "Selency is the leading European online marketplace for vintage furniture and second-hand home decor. Founded in Paris in 2014 (formerly Brocante Lab), it connects individual sellers and professional antique dealers with buyers around a curated catalog of more than 300,000 unique pieces: Scandinavian, art deco, mid-century, 20th-century and contemporary design, lighting, mirrors, rugs and decorative objects. Selency acts as a trusted third party, editorially validating each listing and arranging specialized furniture delivery across Europe. It is a B Corp certified consumer marketplace with French, UK and Netherlands storefronts. No public developer API is offered.",
+     "score": 13.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 21.2,
-      "matched_via": "tags"
-     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1760,11 +1757,10 @@
      "rank": 41
     },
     {
-     "name": "Joko",
-     "slug": "joko",
-     "description": "Joko is a French fintech company operating a consumer cashback, rewards, and savings application that connects shoppers with more than 3,500 partner brands online and in physical stores. Users earn cashback and automatically apply promo codes through the Joko iOS and Android apps and browser extensions (Chrome, Firefox, Safari), while also managing budgets, loyalty cards, gift cards, and split (3x installment) payments. Joko also runs a business solution offering brand partnerships and consumer market research. Backed by Partech, Joko is tracked in the API Evangelist network as a company profile; it publishes no public developer API, developer portal, or API documentation at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/joko/refs/heads/main/screenshots/joko-2026-07-25T223229.png",
-     "score": 14.1,
+     "name": "RockFi",
+     "slug": "rockfi",
+     "description": "RockFi is a French private wealth management firm positioning itself as a modern family office, pairing experienced private-banking advisors with technology to serve high-net-worth entrepreneurs, executives, athletes, and independent professionals. Its fixed-fee model offers life insurance (France and Luxembourg), structured funds, private equity, SCPI real estate, PEA and securities accounts, customized investment mandates, and consolidated real-time portfolio monitoring, tax optimization, and wealth-transmission planning. Registered with ORIAS (23004556) under ACPR and AMF oversight. Backed by Partech. No public developer API is currently published; this profile has been enriched from the public site.",
+     "score": 13.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -1772,16 +1768,16 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.3,
+      "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 21.9,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 17.7,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -1820,8 +1816,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1864,8 +1860,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1894,10 +1890,10 @@
      "rank": 44
     },
     {
-     "name": "Flease",
-     "slug": "flease",
-     "description": "Flease is a French vehicle-leasing marketplace offering flexible long-term (LLD, 24-50 month) and medium-term (LMD, 1-12 month) car and utility-vehicle rental to SMEs and small businesses. It sources quasi-new vehicles (under two years old, fewer than 30,000 km), delivers within a week for LMD and a month for LLD, and bundles a fleet-management web application (webapp.flease.fr) for tracking mileage, drivers, maintenance, contracts, and invoices. Flease positions on transparent pricing and a roughly 20% lower total cost of ownership versus traditional leasing, with a circular-economy angle of redeploying used vehicles. Backed by Partech. No public developer API or documentation is published; the customer-facing webapp is a Vue single-page app authenticated with AWS Cognito.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flease/refs/heads/main/screenshots/flease-2026-07-25T214726.png",
+     "name": "Agryco",
+     "slug": "agriconomie",
+     "description": "Agryco — trading as Agriconomie until its September 2024 rebrand — is a French online marketplace and e-commerce platform that sells agricultural supplies direct to farmers: mineral, organic and foliar fertilizers, conventional and organic seeds, phytosanitary products, animal nutrition and livestock equipment, plus tractor, spraying, harvesting and soil-working spare parts. Founded in 2014 by Clement Le Fournis, Dinh Nguyen and Paolin Pascot, the company operates a one-stop procurement site for professional farmers across France, Belgium, Germany, Spain and Italy, wrapping the catalog in advisory services (agronomy experts on the phone six days a week), fertilizer blending, equipment valuation and 60-day payment terms. It raised a EUR 60 million Series B in 2022 co-led by Treis Group, Temasek and Aliment Capital with Eurazeo participating, and publishes the Agrycomag technical magazine at agryco.com/blog. Agryco is an end-user commerce product: as of this profile it publishes no public developer program, API reference, SDK or machine-readable specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/agriconomie/refs/heads/main/screenshots/agriconomie-2026-08-07T161046.png",
      "score": 13.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1909,8 +1905,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1932,9 +1928,10 @@
      "rank": 45
     },
     {
-     "name": "Regular Finance",
-     "slug": "regular-finance",
-     "description": "Regular Finance (Regular) is a French fintech offering a consumer digital-asset yield account. Customers deposit euros by bank transfer and earn roughly 5.50% annual interest paid daily, backed by regulated stablecoins such as EURC and USDC placed into on-chain liquidity pools and yield protocols. Withdrawals are free at any time and no crypto knowledge is required. Regular is a Techstars-backed company headquartered in France; the product is entirely consumer-facing (web and mobile app at app.regular.eu) and publishes no public developer API, SDK, MCP server, or technical documentation surface at this time.",
+     "name": "Flease",
+     "slug": "flease",
+     "description": "Flease is a French vehicle-leasing marketplace offering flexible long-term (LLD, 24-50 month) and medium-term (LMD, 1-12 month) car and utility-vehicle rental to SMEs and small businesses. It sources quasi-new vehicles (under two years old, fewer than 30,000 km), delivers within a week for LMD and a month for LLD, and bundles a fleet-management web application (webapp.flease.fr) for tracking mileage, drivers, maintenance, contracts, and invoices. Flease positions on transparent pricing and a roughly 20% lower total cost of ownership versus traditional leasing, with a circular-economy angle of redeploying used vehicles. Backed by Partech. No public developer API or documentation is published; the customer-facing webapp is a Vue single-page app authenticated with AWS Cognito.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flease/refs/heads/main/screenshots/flease-2026-07-25T214726.png",
      "score": 13.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1946,8 +1943,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1969,9 +1966,9 @@
      "rank": 46
     },
     {
-     "name": "RockFi",
-     "slug": "rockfi",
-     "description": "RockFi is a French private wealth management firm positioning itself as a modern family office, pairing experienced private-banking advisors with technology to serve high-net-worth entrepreneurs, executives, athletes, and independent professionals. Its fixed-fee model offers life insurance (France and Luxembourg), structured funds, private equity, SCPI real estate, PEA and securities accounts, customized investment mandates, and consolidated real-time portfolio monitoring, tax optimization, and wealth-transmission planning. Registered with ORIAS (23004556) under ACPR and AMF oversight. Backed by Partech. No public developer API is currently published; this profile has been enriched from the public site.",
+     "name": "Regular Finance",
+     "slug": "regular-finance",
+     "description": "Regular Finance (Regular) is a French fintech offering a consumer digital-asset yield account. Customers deposit euros by bank transfer and earn roughly 5.50% annual interest paid daily, backed by regulated stablecoins such as EURC and USDC placed into on-chain liquidity pools and yield protocols. Withdrawals are free at any time and no crypto knowledge is required. Regular is a Techstars-backed company headquartered in France; the product is entirely consumer-facing (web and mobile app at app.regular.eu) and publishes no public developer API, SDK, MCP server, or technical documentation surface at this time.",
      "score": 13.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1983,8 +1980,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2021,8 +2018,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2050,8 +2047,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 40,
-   "shown": 40,
+   "count": 41,
+   "shown": 41,
    "providers": [
     {
      "name": "Kartable",
@@ -2069,8 +2066,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2100,15 +2097,22 @@
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 18.9,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2145,8 +2149,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2183,9 +2187,9 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 12.6,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 9.0,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -2198,7 +2202,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -2206,23 +2210,23 @@
      "rank": 52
     },
     {
-     "name": "Shippingbo",
-     "slug": "shippingbo",
-     "description": "Shippingbo is a Toulouse, France-based e-commerce logistics SaaS founded in 2016 by Marc Hericher and Romain Parent. The platform unifies an Order Management System (OMS), Warehouse Management System (WMS), and Transport Management System (TMS) behind a single REST API so that merchants, DNVBs, 3PLs, wholesalers, manufacturers, and marketplaces can centralize multi-channel orders, pilot warehouse picking and packing, and execute multi-carrier shipments from one back office. Shippingbo claims 5,000+ active users, 80 million orders, and EUR 5 billion in merchandise handled in 2024, with 2,500+ warehouses equipped across France and Europe. The Shippingbo Developer Portal (powered by Stoplight) exposes a public REST/JSON API covering orders, products, stocks, shipments, customers, pickings, and source connectors, secured by OAuth 2.0 through the oauth.shippingbo.com authorization server. Shippingbo additionally offers a dedicated TMS API for multi-carrier label generation and a webhook channel for order state changes, stock changes, and shipment events. Reported developer-facing scale includes 500+ developers, 10+ million orders processed through the APIs, 500+ million webhook deliveries, and 40+ pre-integrated carriers. Shippingbo is a French Tech company backed by IRDI Capital Investissement and GSO Innovation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shippingbo/refs/heads/main/screenshots/shippingbo-2026-06-20T193820.png",
-     "score": 12.0,
+     "name": "Karnott",
+     "slug": "karnott",
+     "description": "Karnott is a French agricultural technology company based in Lille that builds connected tracking devices and a digital management platform for farms, equipment cooperatives (CUMA), agricultural contractors (ETA), and wine growers. Its beacon automatically records equipment usage and field interventions without manual data entry, enabling real-time fleet and equipment monitoring, fuel-cost tracking, parcel mapping, and precise billing and regulatory documentation. Karnott is a portfolio company of Partech. This profile was added to the API Evangelist network for enrichment; no public developer API, OpenAPI, or developer portal was found on the provider's public surface as of this pass.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/karnott/refs/heads/main/screenshots/karnott-2026-07-25T223511.png",
+     "score": 11.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 10.5
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2244,24 +2248,31 @@
      "rank": 53
     },
     {
-     "name": "Karnott",
-     "slug": "karnott",
-     "description": "Karnott is a French agricultural technology company based in Lille that builds connected tracking devices and a digital management platform for farms, equipment cooperatives (CUMA), agricultural contractors (ETA), and wine growers. Its beacon automatically records equipment usage and field interventions without manual data entry, enabling real-time fleet and equipment monitoring, fuel-cost tracking, parcel mapping, and precise billing and regulatory documentation. Karnott is a portfolio company of Partech. This profile was added to the API Evangelist network for enrichment; no public developer API, OpenAPI, or developer portal was found on the provider's public surface as of this pass.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/karnott/refs/heads/main/screenshots/karnott-2026-07-25T223511.png",
-     "score": 11.7,
+     "name": "Grace",
+     "slug": "grace",
+     "description": "Grace (Grâce) is a Paris-based insurtech that lets luxury maisons offer their clients complimentary, embedded protection against theft, loss, and damage for high-value goods such as watches, jewelry, and accessories. Founded in 2022 and backed by Speedinvest and FinTech Collective, Grace pairs a top-tier underwriter with a technology platform that handles instant coverage, fraud detection, claims processing, and logistics through the Grace app, and integrates into a brand's existing purchase journeys via a customizable API. The company raised a €5.9M seed round in 2025 and operates across Europe and beyond. Grace publishes no public developer portal or API specification; its API is a private, partner-facing integration offered to luxury brands.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/grace/refs/heads/main/screenshots/grace-2026-07-25T220153.png",
+     "score": 11.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 61.1,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 6.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 15.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2274,7 +2285,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -2282,23 +2293,30 @@
      "rank": 54
     },
     {
-     "name": "La Vie",
-     "slug": "la-vie",
-     "description": "La Vie Foods is a Paris-based plant-based food company that makes vegan alternatives to pork products, including bacon, smoked lardons, ham, salami sticks, croquettes and meatballs, sold across French and UK retail and foodservice. Its stated mission is to move people from animal to vegetable fat without compromising on taste, citing 88% less CO2, 82% less water and 74% less land use than conventional pork. Its products are stocked by retailers including Tesco, Sainsbury's, Waitrose, Whole Foods Market and Planet Organic, and used by restaurant partners such as Burger King. The company was surfaced as a portfolio company of partech. La Vie Foods operates as a consumer packaged-goods brand rather than an API provider: it publishes no public developer portal, OpenAPI, SDKs, CLI, packages or programmatic API surface, and exposes no /.well-known/ discovery documents. This profile therefore captures the company's real public web, legal, press and domain-security surface rather than developer artifacts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/la-vie/refs/heads/main/screenshots/la-vie-2026-07-25T224407.png",
-     "score": 11.6,
+     "name": "Shippingbo",
+     "slug": "shippingbo",
+     "description": "Shippingbo is a Toulouse, France-based e-commerce logistics SaaS founded in 2016 by Marc Hericher and Romain Parent. The platform unifies an Order Management System (OMS), Warehouse Management System (WMS), and Transport Management System (TMS) behind a single REST API so that merchants, DNVBs, 3PLs, wholesalers, manufacturers, and marketplaces can centralize multi-channel orders, pilot warehouse picking and packing, and execute multi-carrier shipments from one back office. Shippingbo claims 5,000+ active users, 80 million orders, and EUR 5 billion in merchandise handled in 2024, with 2,500+ warehouses equipped across France and Europe. The Shippingbo Developer Portal (powered by Stoplight) exposes a public REST/JSON API covering orders, products, stocks, shipments, customers, pickings, and source connectors, secured by OAuth 2.0 through the oauth.shippingbo.com authorization server. Shippingbo additionally offers a dedicated TMS API for multi-carrier label generation and a webhook channel for order state changes, stock changes, and shipment events. Reported developer-facing scale includes 500+ developers, 10+ million orders processed through the APIs, 500+ million webhook deliveries, and 40+ pre-integrated carriers. Shippingbo is a French Tech company backed by IRDI Capital Investissement and GSO Innovation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shippingbo/refs/heads/main/screenshots/shippingbo-2026-06-20T193820.png",
+     "score": 11.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 61.1,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 8.3,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2320,51 +2338,6 @@
      "rank": 55
     },
     {
-     "name": "Grace",
-     "slug": "grace",
-     "description": "Grace (Grâce) is a Paris-based insurtech that lets luxury maisons offer their clients complimentary, embedded protection against theft, loss, and damage for high-value goods such as watches, jewelry, and accessories. Founded in 2022 and backed by Speedinvest and FinTech Collective, Grace pairs a top-tier underwriter with a technology platform that handles instant coverage, fraud detection, claims processing, and logistics through the Grace app, and integrates into a brand's existing purchase journeys via a customizable API. The company raised a €5.9M seed round in 2025 and operates across Europe and beyond. Grace publishes no public developer portal or API specification; its API is a private, partner-facing integration offered to luxury brands.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/grace/refs/heads/main/screenshots/grace-2026-07-25T220153.png",
-     "score": 11.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 61.1,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 23.7
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 15.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 56
-    },
-    {
      "name": "Tengo",
      "slug": "tengo",
      "description": "Tengo is an AI-powered public procurement platform that helps companies find, evaluate, and respond to public tenders in one place. Founded in 2023 in France by Hugues Renou and Yoann Gauthier, Tengo covers the full tender lifecycle — sourcing and targeting relevant opportunities, drafting and writing proposals with AI, and managing responses and performance analytics — serving SMEs, mid-sized companies, and large corporations. Tengo raised a €3M round led by Point Nine in 2024. It operates a business-user SaaS with a request-a-demo onboarding and no public developer API surface.",
@@ -2379,8 +2352,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2406,7 +2379,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 56
     },
     {
      "name": "Kelvin",
@@ -2424,8 +2397,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2451,7 +2424,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 57
     },
     {
      "name": "Kerys",
@@ -2469,8 +2442,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2489,7 +2462,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 58
     },
     {
      "name": "Happytal",
@@ -2507,8 +2480,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2534,26 +2507,64 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
+     "rank": 59
     },
     {
-     "name": "Finres",
-     "slug": "finres",
-     "description": "Finres (finres SAS) is a French climate-risk analytics company building a decision platform for agriculture. It translates climate hazards into economic consequences for farms, agricultural value chains and territories, combining agronomic, pedological, climate and market data with AI models that are peer-reviewed and validated against published research. Two productized offerings sit on top of the platform - a farm-level economic and climate viability diagnostic (DPEC, currently in beta, seeded from a grower's TelePAC parcel file and reference datasets such as Agreste, IPPAP and RICA) and bespoke territorial or sector studies. Finres was founded by Florent Baarsch, previously with the World Bank, the United Nations and climate research institutes, and its customers include the French government, the World Bank, the Green Climate Fund, IFAD and the FAO. The company markets high-resolution data delivery into customer decision systems, but as of this enrichment pass publishes no public developer portal, API reference, machine-readable specification or SDK - access is arranged through a sales demo.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/finres/refs/heads/main/screenshots/finres-2026-07-25T214543.png",
-     "score": 10.8,
+     "name": "Asap Work",
+     "slug": "asap-work",
+     "description": "Asap.work is a next-generation temporary staffing, permanent placement, and freelance recruitment platform for the French construction and skilled-trades sector (BTP - Batiment et Travaux Publics). It connects tradespeople with short-term missions, permanent roles, and freelance projects through a mobile app and a network of consultants, and layers on worker benefits such as housing assistance, medical consultations, training via asap.academy, and wage advances. The company is backed by speedinvest and is expanding toward the United States. Asap.work publishes no public developer API, developer portal, or API documentation; this profile was added to the API Evangelist network as a portfolio-lead stub and, on enrichment, was confirmed to have no machine-readable API surface (searched 2026-07-18).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/asap-work/refs/heads/main/screenshots/asap-work-2026-07-25T201356.png",
+     "score": 10.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 6.5,
-      "commercial_clarity": 13.2
+      "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 60
+    },
+    {
+     "name": "Gourmey",
+     "slug": "gourmey",
+     "description": "Gourmey is a Paris-based cultivated meat company producing sustainable, cell-cultured meat delights — starting with cultivated foie gras — for an uncompromising and conscious generation. Founded in France and backed by Partech and Point Nine, Gourmey grows real meat directly from animal cells without raising or slaughtering animals, aiming for a lower environmental footprint across the food and agritech sectors. It was added to the API Evangelist network as a venture-portfolio company profile; Gourmey operates a consumer and corporate website but does not publish a public developer API, documentation, or SDK surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gourmey/refs/heads/main/screenshots/gourmey-2026-07-25T220125.png",
+     "score": 10.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2575,10 +2586,10 @@
      "rank": 61
     },
     {
-     "name": "Asap Work",
-     "slug": "asap-work",
-     "description": "Asap.work is a next-generation temporary staffing, permanent placement, and freelance recruitment platform for the French construction and skilled-trades sector (BTP - Batiment et Travaux Publics). It connects tradespeople with short-term missions, permanent roles, and freelance projects through a mobile app and a network of consultants, and layers on worker benefits such as housing assistance, medical consultations, training via asap.academy, and wage advances. The company is backed by speedinvest and is expanding toward the United States. Asap.work publishes no public developer API, developer portal, or API documentation; this profile was added to the API Evangelist network as a portfolio-lead stub and, on enrichment, was confirmed to have no machine-readable API surface (searched 2026-07-18).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/asap-work/refs/heads/main/screenshots/asap-work-2026-07-25T201356.png",
+     "name": "La Vie",
+     "slug": "la-vie",
+     "description": "La Vie Foods is a Paris-based plant-based food company that makes vegan alternatives to pork products, including bacon, smoked lardons, ham, salami sticks, croquettes and meatballs, sold across French and UK retail and foodservice. Its stated mission is to move people from animal to vegetable fat without compromising on taste, citing 88% less CO2, 82% less water and 74% less land use than conventional pork. Its products are stocked by retailers including Tesco, Sainsbury's, Waitrose, Whole Foods Market and Planet Organic, and used by restaurant partners such as Burger King. The company was surfaced as a portfolio company of partech. La Vie Foods operates as a consumer packaged-goods brand rather than an API provider: it publishes no public developer portal, OpenAPI, SDKs, CLI, packages or programmatic API surface, and exposes no /.well-known/ discovery documents. This profile therefore captures the company's real public web, legal, press and domain-security surface rather than developer artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/la-vie/refs/heads/main/screenshots/la-vie-2026-07-25T224407.png",
      "score": 10.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2590,8 +2601,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2613,11 +2624,11 @@
      "rank": 62
     },
     {
-     "name": "Gourmey",
-     "slug": "gourmey",
-     "description": "Gourmey is a Paris-based cultivated meat company producing sustainable, cell-cultured meat delights — starting with cultivated foie gras — for an uncompromising and conscious generation. Founded in France and backed by Partech and Point Nine, Gourmey grows real meat directly from animal cells without raising or slaughtering animals, aiming for a lower environmental footprint across the food and agritech sectors. It was added to the API Evangelist network as a venture-portfolio company profile; Gourmey operates a consumer and corporate website but does not publish a public developer API, documentation, or SDK surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gourmey/refs/heads/main/screenshots/gourmey-2026-07-25T220125.png",
-     "score": 10.5,
+     "name": "Demander Justice",
+     "slug": "demander-justice",
+     "description": "Demander Justice (demanderjustice.com) is a French legal-technology company that lets everyday people (justiciables) resolve disputes and take a matter to court without hiring a lawyer. Through simplified, guided online procedures it helps users send formal notices (mise en demeure), file injonctions de payer, and bring cases before the relevant French courts across consumer, housing, telecom, travel, banking, neighbor, and small-claims disputes. The service combines legal information fiches with a step-by-step document-generation and court-filing workflow. Backed by Partech; profiled in the API Evangelist network under the Consumer sector. No public developer/API surface was found at enrichment time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/demander-justice/refs/heads/main/screenshots/demander-justice-2026-07-25T211706.png",
+     "score": 10.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2625,11 +2636,11 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
+      "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2651,23 +2662,23 @@
      "rank": 63
     },
     {
-     "name": "Demander Justice",
-     "slug": "demander-justice",
-     "description": "Demander Justice (demanderjustice.com) is a French legal-technology company that lets everyday people (justiciables) resolve disputes and take a matter to court without hiring a lawyer. Through simplified, guided online procedures it helps users send formal notices (mise en demeure), file injonctions de payer, and bring cases before the relevant French courts across consumer, housing, telecom, travel, banking, neighbor, and small-claims disputes. The service combines legal information fiches with a step-by-step document-generation and court-filing workflow. Backed by Partech; profiled in the API Evangelist network under the Consumer sector. No public developer/API surface was found at enrichment time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/demander-justice/refs/heads/main/screenshots/demander-justice-2026-07-25T211706.png",
-     "score": 10.1,
+     "name": "Quandela",
+     "slug": "quandela",
+     "description": "Quandela is a Paris-region (Massy, France) photonic quantum computing company building modular, scalable, and energy-efficient quantum systems driven by deterministic single-photon sources. Its hardware lineup includes Ascella (its first deployed cloud-accessible system), Belenos (a 12-qubit second-generation machine), Canopus (its latest state-of-the-art system), and Mosaiq (its flagship prototyping platform), alongside Prometheus single-photon sources and the Entropy quantum random number generator. Quandela develops Perceval, an open-source Python framework for programming photonic quantum computers, distributed via PyPI as perceval-quandela, and operates a cloud platform at cloud.quandela.com where users authenticate with a token and submit jobs to simulators and QPUs (e.g. \"sim:altair\", \"qpu:altair\") through Perceval's RemoteProcessor. The company also runs a Quantum Acceleration Program for enterprise pilots in cybersecurity, pharma, chemistry, logistics, finance, energy, and aerospace. There is no public REST/HTTP OpenAPI specification — the cloud surface is abstracted entirely behind the Perceval Python SDK and its companion perceval-interop bridges to Qiskit, QuTiP, cQASM, and myQLM.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/screenshots/quandela-2026-06-20T192405.png",
+     "score": 10.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.3,
-      "commercial_clarity": 21.1
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2689,32 +2700,25 @@
      "rank": 64
     },
     {
-     "name": "Alan",
-     "slug": "alan-com",
-     "description": "Alan is a Paris-based digital health insurance and wellness company founded in 2016 by Jean-Charles Samuelian-Werve and Charles Gorintin. It was the first independent health insurance provider licensed in France in over fifty years and offers an integrated product combining complementary health insurance (\"mutuelle\"), prevention, and care delivery through a single mobile and web experience. Alan's product surface includes group and individual health plans (Alan Santé), retirement plans (Alan Dolce Vita), public-sector and self-employed offerings, an HR/benefits admin dashboard for employers, an in-house telehealth and chat-care service (Clinique Alan) staffed by salaried clinicians, a gamified prevention and step-tracking program (Alan Play / Alan Mind), and vision/optical benefits with zero out-of-pocket pricing. The company reports over one million members and roughly 33,000 client businesses, operates in France, Belgium, and Spain, and reached a reported €5B valuation in its 2026 Series F round. Engineering and product practice is documented publicly on the Alan Product and Technical Blog at medium.com/alan, and a small portfolio of internal-tools and design assets (most notably react-native-fast-shadow and the Alan Sans typeface) is open-sourced on github.com/alan-eu. Alan does not publish a public-facing developer API, OpenAPI specification, or SDK; all member and employer interactions happen through Alan's first-party apps and the HR/benefits dashboard.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alan-com/refs/heads/main/screenshots/alan-com-2026-06-20T171458.png",
-     "score": 10.0,
+     "name": "Finres",
+     "slug": "finres",
+     "description": "Finres (finres SAS) is a French climate-risk analytics company building a decision platform for agriculture. It translates climate hazards into economic consequences for farms, agricultural value chains and territories, combining agronomic, pedological, climate and market data with AI models that are peer-reviewed and validated against published research. Two productized offerings sit on top of the platform - a farm-level economic and climate viability diagnostic (DPEC, currently in beta, seeded from a grower's TelePAC parcel file and reference datasets such as Agreste, IPPAP and RICA) and bespoke territorial or sector studies. Finres was founded by Florent Baarsch, previously with the World Bank, the United Nations and climate research institutes, and its customers include the French government, the World Bank, the Green Climate Fund, IFAD and the FAO. The company markets high-resolution data delivery into customer decision systems, but as of this enrichment pass publishes no public developer portal, API reference, machine-readable specification or SDK - access is arranged through a sales demo.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/finres/refs/heads/main/screenshots/finres-2026-07-25T214543.png",
+     "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 61.1,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 0.0
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 18.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
@@ -2726,31 +2730,31 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
      "rank": 65
     },
     {
-     "name": "Quandela",
-     "slug": "quandela",
-     "description": "Quandela is a Paris-region (Massy, France) photonic quantum computing company building modular, scalable, and energy-efficient quantum systems driven by deterministic single-photon sources. Its hardware lineup includes Ascella (its first deployed cloud-accessible system), Belenos (a 12-qubit second-generation machine), Canopus (its latest state-of-the-art system), and Mosaiq (its flagship prototyping platform), alongside Prometheus single-photon sources and the Entropy quantum random number generator. Quandela develops Perceval, an open-source Python framework for programming photonic quantum computers, distributed via PyPI as perceval-quandela, and operates a cloud platform at cloud.quandela.com where users authenticate with a token and submit jobs to simulators and QPUs (e.g. \"sim:altair\", \"qpu:altair\") through Perceval's RemoteProcessor. The company also runs a Quantum Acceleration Program for enterprise pilots in cybersecurity, pharma, chemistry, logistics, finance, energy, and aerospace. There is no public REST/HTTP OpenAPI specification — the cloud surface is abstracted entirely behind the Perceval Python SDK and its companion perceval-interop bridges to Qiskit, QuTiP, cQASM, and myQLM.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/screenshots/quandela-2026-06-20T192405.png",
-     "score": 10.0,
+     "name": "Inmemori",
+     "slug": "inmemori",
+     "description": "Inmemori is a French funeral services company (\"pompes funebres\") that organizes and manages personalized funeral arrangements with an emphasis on transparency, fair pricing, and full handling of legal and administrative procedures. Available 24/7 across agencies in Paris, Bordeaux, Nantes, and Lyon, Inmemori supports families through burial and cremation, secular and religious ceremonies (Christian, Jewish, Muslim, Buddhist), coffins, urns and floral arrangements, funeral pre-planning, and online memorial tribute pages. Backed by Partech, the company operates in the consumer end-of-life services sector. This profile was added to the API Evangelist network as a portfolio-company lead; Inmemori publishes a consumer website and blog but no public developer API surface was found during enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/inmemori/refs/heads/main/screenshots/inmemori-2026-07-25T222450.png",
+     "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 0.0
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2772,11 +2776,10 @@
      "rank": 66
     },
     {
-     "name": "Inmemori",
-     "slug": "inmemori",
-     "description": "Inmemori is a French funeral services company (\"pompes funebres\") that organizes and manages personalized funeral arrangements with an emphasis on transparency, fair pricing, and full handling of legal and administrative procedures. Available 24/7 across agencies in Paris, Bordeaux, Nantes, and Lyon, Inmemori supports families through burial and cremation, secular and religious ceremonies (Christian, Jewish, Muslim, Buddhist), coffins, urns and floral arrangements, funeral pre-planning, and online memorial tribute pages. Backed by Partech, the company operates in the consumer end-of-life services sector. This profile was added to the API Evangelist network as a portfolio-company lead; Inmemori publishes a consumer website and blog but no public developer API surface was found during enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/inmemori/refs/heads/main/screenshots/inmemori-2026-07-25T222450.png",
-     "score": 9.7,
+     "name": "Showroomprive.com",
+     "slug": "showroomprivecom",
+     "description": "Showroomprive.com is a French online private-sales (flash-sales) e-commerce platform operated by Showroomprive.com SAS, a subsidiary of SRP Groupe SA, based in La Plaine Saint-Denis. It sells discounted apparel, beauty, home, sports, and travel products from major brands, and also runs a third-party seller marketplace. The company exposes a private marketplace / seller API reached through partner onboarding and surfaced by third-party integration platforms such as ChannelEngine and Commercium, but it publishes no public developer portal, API documentation, or OpenAPI. Added to the API Evangelist network as an Accel portfolio lead.",
+     "score": 9.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2784,11 +2787,11 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2810,23 +2813,31 @@
      "rank": 67
     },
     {
-     "name": "Showroomprive.com",
-     "slug": "showroomprivecom",
-     "description": "Showroomprive.com is a French online private-sales (flash-sales) e-commerce platform operated by Showroomprive.com SAS, a subsidiary of SRP Groupe SA, based in La Plaine Saint-Denis. It sells discounted apparel, beauty, home, sports, and travel products from major brands, and also runs a third-party seller marketplace. The company exposes a private marketplace / seller API reached through partner onboarding and surfaced by third-party integration platforms such as ChannelEngine and Commercium, but it publishes no public developer portal, API documentation, or OpenAPI. Added to the API Evangelist network as an Accel portfolio lead.",
-     "score": 9.2,
+     "name": "Alan",
+     "slug": "alan-com",
+     "description": "Alan is a Paris-based digital health insurance and wellness company founded in 2016 by Jean-Charles Samuelian-Werve and Charles Gorintin. It was the first independent health insurance provider licensed in France in over fifty years and offers an integrated product combining complementary health insurance (\"mutuelle\"), prevention, and care delivery through a single mobile and web experience. Alan's product surface includes group and individual health plans (Alan Santé), retirement plans (Alan Dolce Vita), public-sector and self-employed offerings, an HR/benefits admin dashboard for employers, an in-house telehealth and chat-care service (Clinique Alan) staffed by salaried clinicians, a gamified prevention and step-tracking program (Alan Play / Alan Mind), and vision/optical benefits with zero out-of-pocket pricing. The company reports over one million members and roughly 33,000 client businesses, operates in France, Belgium, and Spain, and reached a reported €5B valuation in its 2026 Series F round. Engineering and product practice is documented publicly on the Alan Product and Technical Blog at medium.com/alan, and a small portfolio of internal-tools and design assets (most notably react-native-fast-shadow and the Alan Sans typeface) is open-sourced on github.com/alan-eu. Alan does not publish a public-facing developer API, OpenAPI specification, or SDK; all member and employer interactions happen through Alan's first-party apps and the HR/benefits dashboard.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alan-com/refs/heads/main/screenshots/alan-com-2026-06-20T171458.png",
+     "score": 9.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 21.1
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 18.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.7,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2840,7 +2851,7 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
+      "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
@@ -2862,8 +2873,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2885,23 +2896,30 @@
      "rank": 69
     },
     {
-     "name": "Stem AI",
-     "slug": "stem",
-     "description": "StemAI (Stem AI SAS) is a Paris-based accelerator and early-stage investment program for founders building LLM-powered products. Its stated thesis is that large language models are already capable enough to build great products today, so the program backs product and user experience rather than research breakthroughs. Each accepted company receives a $250,000 SAFE investment, $350,000 in partner cloud credits, recurring checkpoints with AI advisors, help accessing follow-on funding, and a founder summit hosted in Paris. The program is led by Nicolas Granatino, with a board that includes Mehdi Ghissassi (AI71) and Severine Gregoire (Zebox Ventures), and advisors in residence drawn from Hugging Face, Datadog, InstaDeep, Dust, Photoroom, Helsing, Nabla, QuantHouse and Parrot. StemAI is a private company whose shares are quoted on the secondary markets (Forge, Hiive, EquityZen). It publishes no API, SDK, developer portal or machine-readable specification of any kind.",
-     "score": 8.8,
+     "name": "CorWave",
+     "slug": "corwave",
+     "description": "CorWave SA is a French clinical-stage medical device company, incorporated in 2012 by the startup studio MD Start and headquartered in Clichy, France, that develops implantable cardiac assist pumps for patients with advanced heart failure. Its patented wave membrane technology — a biomimetic polymer membrane driven by an electromagnetic actuator, inspired by the undulating movement of marine animals — produces truly pulsatile, physiological blood flow, differentiating the CorWave LVAS and Nemo pumps from commercially available rotary-pump LVADs. The company has raised more than EUR 80 million, operates an urban manufacturing facility in Clichy, employs more than 90 people, and announced the first in-human implantation of its Left Ventricular Assist System in 2025. CorWave LVAS remains an investigational device and is not approved for commercial use in any country. CorWave publishes no public API, SDK, developer portal, or machine-readable specification.",
+     "score": 8.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 61.1,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 13.2
+      "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 12.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2911,7 +2929,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -2920,51 +2938,6 @@
       "dry_run_mode": false
      },
      "rank": 70
-    },
-    {
-     "name": "Lydia",
-     "slug": "lydia",
-     "description": "Lydia is a French fintech, founded in 2013, that built one of Europe's most popular mobile peer-to-peer payments apps, letting users send money, split bills, and pay merchants from their phone. Backed by Accel, Tencent and others, the company evolved into a full mobile banking and financial services provider. In 2024 it split its consumer banking product into a new brand, Sumeria (sumeria.eu), while the Lydia name continues for the P2P payments experience. Lydia publishes a security.txt bug-bounty contact but no longer exposes a public developer API or portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lydia/refs/heads/main/screenshots/lydia-2026-07-25T225745.png",
-     "score": 8.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 61.1,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 15.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 71
     },
     {
      "name": "Amblea",
@@ -2982,8 +2955,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3009,25 +2982,70 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 71
     },
     {
-     "name": "ValueCo",
-     "slug": "valueco",
-     "description": "ValueCo (ValueCo Metrics SAS) is a Paris-based fintech building an objective ESG market view from the proprietary ESG scores of asset managers and institutional investors. Its platform aggregates investor-side scoring into a consensus view so listed and non-listed companies can understand how the market actually perceives their ESG performance and improve their strategies. A Techstars portfolio company, ValueCo serves asset managers, institutional investors, enterprises, and ESG contributors; it currently publishes no public API or developer program.",
-     "score": 6.9,
+     "name": "Lydia",
+     "slug": "lydia",
+     "description": "Lydia is a French fintech, founded in 2013, that built one of Europe's most popular mobile peer-to-peer payments apps, letting users send money, split bills, and pay merchants from their phone. Backed by Accel, Tencent and others, the company evolved into a full mobile banking and financial services provider. In 2024 it split its consumer banking product into a new brand, Sumeria (sumeria.eu), while the Lydia name continues for the P2P payments experience. Lydia publishes a security.txt bug-bounty contact but no longer exposes a public developer API or portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lydia/refs/heads/main/screenshots/lydia-2026-07-25T225745.png",
+     "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 15.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 72
+    },
+    {
+     "name": "Stem AI",
+     "slug": "stem",
+     "description": "StemAI (Stem AI SAS) is a Paris-based accelerator and early-stage investment program for founders building LLM-powered products. Its stated thesis is that large language models are already capable enough to build great products today, so the program backs product and user experience rather than research breakthroughs. Each accepted company receives a $250,000 SAFE investment, $350,000 in partner cloud credits, recurring checkpoints with AI advisors, help accessing follow-on funding, and a founder summit hosted in Paris. The program is led by Nicolas Granatino, with a board that includes Mehdi Ghissassi (AI71) and Severine Gregoire (Zebox Ventures), and advisors in residence drawn from Hugging Face, Datadog, InstaDeep, Dust, Photoroom, Helsing, Nabla, QuantHouse and Parrot. StemAI is a private company whose shares are quoted on the secondary markets (Forge, Hiive, EquityZen). It publishes no API, SDK, developer portal or machine-readable specification of any kind.",
+     "score": 7.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3064,8 +3082,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3102,8 +3120,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3125,6 +3143,43 @@
      "rank": 75
     },
     {
+     "name": "ValueCo",
+     "slug": "valueco",
+     "description": "ValueCo (ValueCo Metrics SAS) is a Paris-based fintech building an objective ESG market view from the proprietary ESG scores of asset managers and institutional investors. Its platform aggregates investor-side scoring into a consensus view so listed and non-listed companies can understand how the market actually perceives their ESG performance and improve their strategies. A Techstars portfolio company, ValueCo serves asset managers, institutional investors, enterprises, and ESG contributors; it currently publishes no public API or developer program.",
+     "score": 5.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 76
+    },
+    {
      "name": "Ornikar",
      "slug": "ornikar",
      "description": "Ornikar is a French online driving school and insurance company that guides consumers from earning their driving permit through to car, home, and pet insurance. Founded in France, it offers highway-code (code de la route) training, driving lessons, accelerated permit programs, point-recovery courses, and corporate road-safety training, alongside auto, home, and pet insurance products and CPF financing. Surfaced as a portfolio company of Partech and added to the API Evangelist network as a stub for enrichment. Sector: Consumer. No public developer API surface was found during the enrichment pass; only domain-security signals were probed.",
@@ -3140,8 +3195,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3167,7 +3222,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 77
     },
     {
      "name": "8sec",
@@ -3184,46 +3239,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 77
-    },
-    {
-     "name": "Alassio",
-     "slug": "alassio",
-     "description": "Alassio is a French financial-technology company building a next-generation payroll software platform (logiciel de paie nouvelle generation) for businesses. Alassio positions itself as offering the functional depth expected of a specialist payroll and HR tool, with added transparency and control for finance and people teams. The company is backed by venture-capital firm Partech and operates from France, serving the French and European payroll, compensation, and human-resources market. As of this profile the company publishes only a marketing landing page and a legal notice; no public API, developer documentation, SDK, or integration surface has been located. This profile is maintained in the API Evangelist network as a portfolio-lead stub awaiting a public developer surface to enrich.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alassio/refs/heads/main/screenshots/alassio-2026-07-25T195535.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3245,10 +3262,10 @@
      "rank": 78
     },
     {
-     "name": "Gens de confiance",
-     "slug": "gens-de-confiance",
-     "description": "Gens de confiance is a French online classified-ads marketplace built around trust rather than anonymity. Members reach listings and other members through the communities and networks they already belong to and their mutual connections, so buyers and sellers of goods, housing, jobs, services, and holiday rentals transact with people vouched for by a shared circle instead of strangers. The company operates a consumer web and mobile marketplace and is backed by Partech. No public developer program, API documentation, or machine-readable API surface was found during enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gens-de-confiance/refs/heads/main/screenshots/gens-de-confiance-2026-07-25T215632.png",
+     "name": "Alassio",
+     "slug": "alassio",
+     "description": "Alassio is a French financial-technology company building a next-generation payroll software platform (logiciel de paie nouvelle generation) for businesses. Alassio positions itself as offering the functional depth expected of a specialist payroll and HR tool, with added transparency and control for finance and people teams. The company is backed by venture-capital firm Partech and operates from France, serving the French and European payroll, compensation, and human-resources market. As of this profile the company publishes only a marketing landing page and a legal notice; no public API, developer documentation, SDK, or integration surface has been located. This profile is maintained in the API Evangelist network as a portfolio-lead stub awaiting a public developer surface to enrich.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alassio/refs/heads/main/screenshots/alassio-2026-07-25T195535.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3260,8 +3277,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3283,9 +3300,10 @@
      "rank": 79
     },
     {
-     "name": "Qapa",
-     "slug": "qapa",
-     "description": "Qapa (qapa.fr) is a Paris-based French online recruitment and temporary-work (interim) marketplace that matched companies with job seekers for permanent and temp placements. Backed by Index Ventures and Partech, it was majority-acquired by the Adecco Group. The qapa.fr web property is now gated behind an Azure Application Gateway (HTTP 403) and exposes no public developer, API, or documentation surface; this profile is retained as an API Evangelist network record.",
+     "name": "Gens de confiance",
+     "slug": "gens-de-confiance",
+     "description": "Gens de confiance is a French online classified-ads marketplace built around trust rather than anonymity. Members reach listings and other members through the communities and networks they already belong to and their mutual connections, so buyers and sellers of goods, housing, jobs, services, and holiday rentals transact with people vouched for by a shared circle instead of strangers. The company operates a consumer web and mobile marketplace and is backed by Partech. No public developer program, API documentation, or machine-readable API surface was found during enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gens-de-confiance/refs/heads/main/screenshots/gens-de-confiance-2026-07-25T215632.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3297,8 +3315,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3320,9 +3338,9 @@
      "rank": 80
     },
     {
-     "name": "StarOfService",
-     "slug": "starofservice",
-     "description": "StarOfService is an online local-services marketplace that connects consumers with vetted service professionals across home improvement, events, wellness, lessons, and business services. Headquartered in France and operating across multiple European markets, the platform matches customer project requests to nearby providers and facilitates quotes and messaging between them. Surfaced as a portfolio company of Point Nine and profiled in the API Evangelist network; the company exposes a consumer web marketplace and has no public developer API surface at this time.",
+     "name": "Qapa",
+     "slug": "qapa",
+     "description": "Qapa (qapa.fr) is a Paris-based French online recruitment and temporary-work (interim) marketplace that matched companies with job seekers for permanent and temp placements. Backed by Index Ventures and Partech, it was majority-acquired by the Adecco Group. The qapa.fr web property is now gated behind an Azure Application Gateway (HTTP 403) and exposes no public developer, API, or documentation surface; this profile is retained as an API Evangelist network record.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3334,8 +3352,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3357,9 +3375,9 @@
      "rank": 81
     },
     {
-     "name": "Toasty",
-     "slug": "toasty",
-     "description": "Toasty (toasty.family, published by Wenose) is a French consumer mobile application for responsible, sustainable, and ethical shopping. The app curates committed brands and makes conscious consumption engaging through a gamified experience of daily private sales, quizzes, challenges, gifts, and rewards. It reports a 4.9-star rating across the app stores and more than 400,000 downloads. Toasty is a business-to-consumer mobile product with no public developer program, API, or documentation surface at this time; it was surfaced as a Techstars portfolio company and added to the API Evangelist network as a lead. This profile captures its public identity and a live domain-security probe.",
+     "name": "StarOfService",
+     "slug": "starofservice",
+     "description": "StarOfService is an online local-services marketplace that connects consumers with vetted service professionals across home improvement, events, wellness, lessons, and business services. Headquartered in France and operating across multiple European markets, the platform matches customer project requests to nearby providers and facilitates quotes and messaging between them. Surfaced as a portfolio company of Point Nine and profiled in the API Evangelist network; the company exposes a consumer web marketplace and has no public developer API surface at this time.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3371,8 +3389,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3394,22 +3412,22 @@
      "rank": 82
     },
     {
-     "name": "Outils De Gestion Des Risques",
-     "slug": "outils-de-gestion-des-risques",
-     "description": "Outils de Gestion des Risques refers to risk management tools and services used in French-speaking business and regulatory environments, covering risk assessment, monitoring, mitigation, reporting, and compliance. No verifiable public APIs are currently documented for this category.",
-     "score": 4.1,
+     "name": "Toasty",
+     "slug": "toasty",
+     "description": "Toasty (toasty.family, published by Wenose) is a French consumer mobile application for responsible, sustainable, and ethical shopping. The app curates committed brands and makes conscious consumption engaging through a gamified experience of daily private sales, quizzes, challenges, gifts, and rewards. It reports a 4.9-star rating across the app stores and more than 400,000 downloads. Toasty is a business-to-consumer mobile product with no public developer program, API, or documentation surface at this time; it was surfaced as a Techstars portfolio company and added to the API Evangelist network as a lead. This profile captures its public identity and a live domain-security probe.",
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3431,6 +3449,43 @@
      "rank": 83
     },
     {
+     "name": "Outils De Gestion Des Risques",
+     "slug": "outils-de-gestion-des-risques",
+     "description": "Outils de Gestion des Risques refers to risk management tools and services used in French-speaking business and regulatory environments, covering risk assessment, monitoring, mitigation, reporting, and compliance. No verifiable public APIs are currently documented for this category.",
+     "score": 4.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 84
+    },
+    {
      "name": "Outil Achats",
      "slug": "outil-achats",
      "description": "Outil Achats refers to French procurement and purchasing tools used by public and private sector organizations for managing tenders, suppliers, and contracts. No verifiable public APIs are currently documented for this category.",
@@ -3445,8 +3500,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3472,7 +3527,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 84
+     "rank": 85
     },
     {
      "name": "Outils De Tarification",
@@ -3489,45 +3544,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 85
-    },
-    {
-     "name": "Outils De Transfert",
-     "slug": "outils-de-transfert",
-     "description": "Outils de Transfert refers to file transfer and data transfer tools used in French-speaking business environments.",
-     "score": 3.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 31.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3549,9 +3567,9 @@
      "rank": 86
     },
     {
-     "name": "Outils De Travail Digitaux",
-     "slug": "outils-de-travail-digitaux",
-     "description": "Outils de Travail Digitaux refers to digital workplace tools and collaboration platforms used in French-speaking business environments.",
+     "name": "Outils De Transfert",
+     "slug": "outils-de-transfert",
+     "description": "Outils de Transfert refers to file transfer and data transfer tools used in French-speaking business environments.",
      "score": 3.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3563,8 +3581,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3586,9 +3604,9 @@
      "rank": 87
     },
     {
-     "name": "Outils Digitaux",
-     "slug": "outils-digitaux",
-     "description": "Outils Digitaux refers to digital tools and resources for developers, designers, and digital professionals in French-speaking environments.",
+     "name": "Outils De Travail Digitaux",
+     "slug": "outils-de-travail-digitaux",
+     "description": "Outils de Travail Digitaux refers to digital workplace tools and collaboration platforms used in French-speaking business environments.",
      "score": 3.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3600,8 +3618,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3621,6 +3639,43 @@
       "dry_run_mode": false
      },
      "rank": 88
+    },
+    {
+     "name": "Outils Digitaux",
+     "slug": "outils-digitaux",
+     "description": "Outils Digitaux refers to digital tools and resources for developers, designers, and digital professionals in French-speaking environments.",
+     "score": 3.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 31.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 89
     }
    ]
   }

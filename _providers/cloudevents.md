@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -84,6 +84,18 @@ collections:
   name: CloudEvents Subscriptions API
   slug: open-cloudevents-subscriptions
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/cloudevents/spec/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/cloudevents/spec/blob/main/docs/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/cloudevents/spec/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -186,7 +198,7 @@ overview: 'CloudEvents publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
   The CloudEvents catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  CloudEvents'' developer surface includes documentation, getting-started guide, engineering blog, changelog, and 10 more developer resources.'
+  CloudEvents'' developer surface includes documentation, getting-started guide, engineering blog, changelog, and 13 more developer resources.'
 plans:
 - name: Cloudevents Plans Pricing
   plan_count: 1
@@ -222,16 +234,16 @@ rules:
     warn: 6
   slug: cloudevents-rules
 score:
-  band: developing
-  composite: 42.9
-  delta: 0.0
+  band: thin
+  composite: 41.9
+  delta: -1.0
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 74.3
+    commercial_clarity: 13.2
+    contract_quality: 71.9
     developer_ergonomics: 28.3
     discoverability: 72.2
     governance: 41.7
-    operational_transparency: 42.1
+    operational_transparency: 26.3
   previous_composite: 42.9
   provenance:
     agentic_access: derived
@@ -240,14 +252,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 15.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudevents/refs/heads/main/screenshots/cloudevents-2026-06-20T174548.png
 security:

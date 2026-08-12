@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 62.8
-  scored_at: '2026-08-10'
+  score: 59.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 109
   human_in_the_loop: 0
@@ -327,11 +327,11 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: strong
-  composite: 57.7
-  delta: 0.0
+  composite: 57.1
+  delta: -0.6
   facets:
     commercial_clarity: 36.8
-    contract_quality: 71.2
+    contract_quality: 68.5
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 20.8
@@ -353,8 +353,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

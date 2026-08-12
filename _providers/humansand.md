@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +71,7 @@ random_paper: 31
 score:
   band: minimal
   composite: 10.4
-  delta: 5.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -79,10 +79,10 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: rising
+  previous_composite: 10.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humansand/refs/heads/main/screenshots/humansand-2026-07-25T221721.png
 security:
 - kind: domain-security

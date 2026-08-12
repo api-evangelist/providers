@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 228
   human_in_the_loop: 226
@@ -725,11 +725,11 @@ rules:
   slug: thingsboard-rules
 score:
   band: strong
-  composite: 59.5
-  delta: 0.0
+  composite: 61.5
+  delta: 2.0
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 72.9
+    commercial_clarity: 63.2
+    contract_quality: 70.2
     developer_ergonomics: 71.7
     discoverability: 59.3
     governance: 68.8
@@ -742,8 +742,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 58
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/screenshots/thingsboard-2026-06-20T195300.png
 security:

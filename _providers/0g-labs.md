@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 50.5
-  scored_at: '2026-08-10'
+  score: 46.8
+  scored_at: '2026-08-11'
 api_count: 9
 apis:
 - description: Ethereum-compatible JSON-RPC endpoint for the 0G Chain mainnet ("Aristotle", chain ID 16661), an AI-focused Layer 1 with sub-second finality. Standard EVM methods (eth_chainId, eth_call, eth_sendRawTr
@@ -50,6 +50,18 @@ apis:
   slug: 0g-labs-service-types-api
 artifact_total: 13
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/0gfoundation/0g-da-client/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/0gfoundation/0g-da-client/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/0gfoundation/0g-da-client/blob/main/contributing.md
 - group: company
   title: ''
   type: Website
@@ -226,7 +238,7 @@ network: true
 overview: '0G Labs publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, API Key API, Inference API, and 3 more. Tagged areas include artificial-intelligence, ai-inference, llm, gpu-compute, and decentralized-compute.
 
 
-  0G Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 33 more developer resources.'
+  0G Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 36 more developer resources.'
 random_paper: 34
 rate_limits:
 - limit_count: 0
@@ -234,27 +246,27 @@ rate_limits:
   slug: 0g-labs-rate-limits
 score:
   band: developing
-  composite: 51.3
-  delta: -1.3
+  composite: 50.3
+  delta: -1.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 51.6
+    contract_quality: 51.9
     developer_ergonomics: 80.4
-    discoverability: 83.3
+    discoverability: 72.2
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 52.6
+  previous_composite: 51.3
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 6
     mcp: derived
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/screenshots/0g-labs-2026-08-07T160641.png
 security:

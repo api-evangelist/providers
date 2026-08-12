@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Software Engineering Daily provides RSS podcast feeds for its main episode stream as well as topic-specific feeds. These standard podcast RSS feeds are compatible with all major podcast clients includ
@@ -42,6 +42,10 @@ apis:
   slug: mobile-app
 artifact_total: 12
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/SoftwareEngineeringDaily/software-engineering-daily-api/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -137,7 +141,7 @@ overview: 'Software Engineering Daily publishes 3 APIs on the [APIs.io](https://
   The Software Engineering Daily catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Software Engineering Daily''s developer surface includes pricing, documentation, and 13 more developer resources.'
+  Software Engineering Daily''s developer surface includes pricing, documentation, and 14 more developer resources.'
 plans:
 - name: Software Engineering Daily Plans Pricing
   plan_count: 3
@@ -158,19 +162,19 @@ rules:
   slug: software-engineering-daily-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.4
-  delta: 0.0
+  composite: 30.6
+  delta: -7.8
   facets:
-    commercial_clarity: 71.1
+    commercial_clarity: 47.4
     contract_quality: 12.9
     developer_ergonomics: 8.7
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 38.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/software-engineering-daily/refs/heads/main/screenshots/software-engineering-daily-2026-06-20T194137.png
 security:
 - kind: domain-security

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
@@ -174,13 +174,13 @@ overview: 'Nova Scotia Power is profiled on the [APIs.io](https://apis.io/) netw
 random_paper: 102
 score:
   band: emerging
-  composite: 21.7
-  delta: 0.0
+  composite: 20.7
+  delta: -1.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 34.8
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 12.5
     operational_transparency: 0.0
   previous_composite: 21.7
@@ -192,8 +192,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nova-scotia-power/refs/heads/main/screenshots/nova-scotia-power-2026-08-07T185604.png
 security:

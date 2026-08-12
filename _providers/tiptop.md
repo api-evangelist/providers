@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Server-side order-management endpoints for the Tiptop Direct integration: request capture, void (full or partial), and refund (full or partial) of orders created through the tiptop.js checkout, addres'
@@ -127,13 +127,13 @@ overview: 'Tiptop publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 92
 score:
   band: emerging
-  composite: 21.5
-  delta: 0.0
+  composite: 20.6
+  delta: -0.9
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 54.3
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 5.3
   previous_composite: 21.5
@@ -146,8 +146,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

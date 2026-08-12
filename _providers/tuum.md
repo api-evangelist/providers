@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-10'
+  score: 34.7
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Tuum's modular, API-first core banking platform. Per-module REST APIs (auth, person, employee, account, payment, card, loan, deposit, data-import, notification) versioned independently in the URL path
@@ -134,13 +134,13 @@ overview: 'Tuum publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 111
 score:
   band: thin
-  composite: 38.1
-  delta: 0.0
+  composite: 37.1
+  delta: -1.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 51.6
     developer_ergonomics: 58.7
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 15.8
   previous_composite: 38.1
@@ -152,8 +152,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

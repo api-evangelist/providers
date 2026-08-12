@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -82,6 +82,30 @@ apis:
   slug: academy-software-foundation-shows-api
 artifact_total: 80
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/AcademySoftwareFoundation/openexr/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/AcademySoftwareFoundation/openexr/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/AcademySoftwareFoundation/openexr/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/AcademySoftwareFoundation/openexr/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/AcademySoftwareFoundation/openexr/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/AcademySoftwareFoundation/openexr/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -302,7 +326,7 @@ overview: 'Academy Software Foundation publishes 4 APIs on the [APIs.io](https:/
   The Academy Software Foundation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Academy Software Foundation''s developer surface includes documentation, engineering blog, getting-started guide, and 9 more developer resources.'
+  Academy Software Foundation''s developer surface includes documentation, engineering blog, getting-started guide, and 15 more developer resources.'
 plans:
 - name: Academy Software Foundation Plans Pricing
   plan_count: 0
@@ -331,15 +355,15 @@ rules:
   slug: academy-software-foundation-spectral-rules
 score:
   band: thin
-  composite: 32.2
-  delta: 0.0
+  composite: 35.4
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
-    contract_quality: 26.6
+    contract_quality: 25.6
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 5.3
+    operational_transparency: 31.6
   previous_composite: 32.2
   provenance:
     agentic_access: derived
@@ -348,8 +372,8 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/screenshots/academy-software-foundation-2026-06-20T163501.png
 security:

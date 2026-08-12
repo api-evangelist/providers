@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 9.0
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: Run queries against data ingested into Devo. Supports synchronous JSON/CSV/TSV responses and asynchronous job-based delivery to repositories (HDFS, Amazon S3, Kafka). Job requests start, stop, check s
@@ -166,20 +166,20 @@ overview: 'Devo publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 82
 score:
   band: thin
-  composite: 34.5
-  delta: 0.0
+  composite: 33.4
+  delta: -1.1
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 65.2
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 12.5
     operational_transparency: 5.3
   previous_composite: 34.5
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devo/refs/heads/main/screenshots/devo-2026-07-25T211822.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -86,6 +86,26 @@ collections:
   name: Lunar.dev Gateway Proxy API
   slug: open-lunar-gateway-proxy
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/TheLunarCompany/lunar/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/TheLunarCompany/lunar/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/TheLunarCompany/lunar/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/TheLunarCompany/lunar/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/TheLunarCompany/lunar/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -276,7 +296,7 @@ overview: 'Lunar publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
   The Lunar catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Lunar''s developer surface includes documentation, engineering blog, pricing, signup flow, YouTube channel, product news, FAQ, and 21 more developer resources.'
+  Lunar''s developer surface includes documentation, engineering blog, pricing, signup flow, YouTube channel, product news, FAQ, and 26 more developer resources.'
 plans:
 - name: Lunar Plans Pricing
   plan_count: 3
@@ -297,26 +317,26 @@ rules:
   slug: lunar-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 57.0
-  delta: 10.7
+  composite: 59.5
+  delta: 2.5
   facets:
     commercial_clarity: 84.2
-    contract_quality: 59.7
+    contract_quality: 61.2
     developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 36.8
-  previous_composite: 46.3
+    operational_transparency: 52.6
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: rising
+      total: 8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lunar/refs/heads/main/screenshots/lunar-2026-06-20T184803.png
 security:
 - kind: domain-security

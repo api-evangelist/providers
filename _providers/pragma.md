@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Public external REST API for FirstLook, Pragma's playtest and community platform. Uses scoped API tokens to query players, look up or find-or-create a player, record analytics events (sessions, counte
@@ -169,8 +169,8 @@ score:
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

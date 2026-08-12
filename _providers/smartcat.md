@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-10'
+  score: 38.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 8
@@ -131,6 +131,10 @@ asyncapis:
   name: Smartcat Callbacks Webhooks
   slug: smartcat-callbacks-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/smartcat-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -265,17 +269,17 @@ overview: 'Smartcat publishes 29 APIs on the [APIs.io](https://apis.io/) network
   The Smartcat catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Smartcat''s developer surface includes changelog, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 22 more developer resources.'
+  Smartcat''s developer surface includes changelog, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 23 more developer resources.'
 random_paper: 51
 score:
   band: developing
-  composite: 53.0
-  delta: 0.0
+  composite: 51.4
+  delta: -1.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 51.2
+    contract_quality: 49.3
     developer_ergonomics: 58.2
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
   previous_composite: 53.0
@@ -289,8 +293,8 @@ score:
       total: 29
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

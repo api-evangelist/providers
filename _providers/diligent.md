@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: Customer Due Diligence
@@ -55,6 +55,10 @@ asyncapis:
   name: Diligent Webhooks
   slug: diligent-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/diligent-api-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -189,17 +193,17 @@ overview: 'Diligent publishes 6 APIs on the [APIs.io](https://apis.io/) network,
   The Diligent catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Diligent''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 22 more developer resources.'
+  Diligent''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 23 more developer resources.'
 random_paper: 36
 score:
   band: developing
-  composite: 53.9
-  delta: 0.0
+  composite: 52.2
+  delta: -1.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.3
+    contract_quality: 64.8
     developer_ergonomics: 66.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 23.7
   previous_composite: 53.9
@@ -212,8 +216,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/screenshots/diligent-2026-07-25T212039.png
 security:

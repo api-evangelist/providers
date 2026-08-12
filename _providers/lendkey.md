@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 15
 apis:
 - description: Endpoints for creating and managing loan application contracts
@@ -82,6 +83,10 @@ asyncapis:
   name: Lendkey Webhooks
   slug: lendkey-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lendkey-esign-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -192,7 +197,7 @@ overview: 'LendKey publishes 15 APIs on the [APIs.io](https://apis.io/) network,
   The LendKey catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  LendKey''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, sandbox, and 16 more developer resources.'
+  LendKey''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, sandbox, and 17 more developer resources.'
 random_paper: 52
 scopes:
 - name: Lendkey Scopes
@@ -201,11 +206,11 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 46.5
+  delta: -3.2
   facets:
     commercial_clarity: 34.2
-    contract_quality: 69.9
+    contract_quality: 67.3
     developer_ergonomics: 51.6
     discoverability: 92.6
     governance: 11.5
@@ -225,9 +230,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 70.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 53.2
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/screenshots/lendkey-2026-07-25T224904.png
 security:

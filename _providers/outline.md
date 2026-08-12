@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 1
@@ -95,6 +95,10 @@ apis:
   slug: outline-views-api
 artifact_total: 178
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/outline/openapi/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -638,7 +642,7 @@ overview: 'Outline publishes 18 APIs on the [APIs.io](https://apis.io/) network,
   The Outline catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Outline''s developer surface includes authentication, documentation, changelog, status page, pricing, engineering blog, and 10 more developer resources.'
+  Outline''s developer surface includes authentication, documentation, changelog, status page, pricing, engineering blog, and 11 more developer resources.'
 plans:
 - name: Outline Plans Pricing
   plan_count: 4
@@ -664,11 +668,11 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.2
-  delta: 0.0
+  composite: 49.5
+  delta: -0.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.6
+    contract_quality: 68.0
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
@@ -681,8 +685,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/screenshots/outline-2026-06-20T191231.png
 security:

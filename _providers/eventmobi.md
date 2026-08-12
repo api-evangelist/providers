@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Read and update the events an Organizer manages. Confirmed request patterns include GET and PATCH on the events collection and nested resources such as /events/{event_id}/images/. Each API key is scop
@@ -121,8 +121,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 22.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventmobi/refs/heads/main/screenshots/eventmobi-2026-07-25T213712.png
 security:

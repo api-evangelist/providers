@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -77,6 +77,22 @@ collections:
   name: Eventbrite Platform API
   slug: open-eventbrite
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/eventbrite/eventbrite-sdk-python/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/eventbrite/eventbrite-sdk-python/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/eventbrite/eventbrite-sdk-python/blob/master/CONTRIBUTING.rst
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/eventbrite/eventbrite-sdk-python/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -152,19 +168,19 @@ network: true
 overview: 'Eventbrite publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Attendees API, Categories API, Events API, and 5 more. Tagged areas include Events, Event Technology, Ticketing, and Marketplace.
 
 
-  Eventbrite''s developer surface includes authentication, documentation, support, engineering blog, and 12 more developer resources.'
+  Eventbrite''s developer surface includes authentication, documentation, support, engineering blog, and 16 more developer resources.'
 random_paper: 36
 score:
   band: thin
-  composite: 35.8
-  delta: 0.0
+  composite: 37.3
+  delta: 1.5
   facets:
     commercial_clarity: 42.1
-    contract_quality: 57.9
+    contract_quality: 55.8
     developer_ergonomics: 34.8
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 15.8
   previous_composite: 35.8
   provenance:
     agentic_access: derived
@@ -173,8 +189,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventbrite/refs/heads/main/screenshots/eventbrite-2026-06-20T180900.png
 security:

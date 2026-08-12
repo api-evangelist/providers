@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 57.4
-  scored_at: '2026-08-10'
+  score: 53.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -140,6 +140,10 @@ asyncapis:
   name: Lobcom Webhooks
   slug: lobcom-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lobcom-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -290,20 +294,20 @@ overview: 'Lob.com publishes 32 APIs on the [APIs.io](https://apis.io/) network,
   The Lob.com catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lob.com''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
+  Lob.com''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 random_paper: 56
 score:
   band: developing
-  composite: 54.8
-  delta: -3.3
+  composite: 53.6
+  delta: -1.2
   facets:
     commercial_clarity: 44.7
-    contract_quality: 67.8
+    contract_quality: 67.5
     developer_ergonomics: 69.0
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 58.1
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -311,11 +315,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 30
+      total: 32
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lobcom/refs/heads/main/screenshots/lobcom-2026-07-25T225441.png
 security:

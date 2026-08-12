@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Seed API connects a vending operator's POS and machine fleet to Cantaloupe's cashless gateway and reporting cloud. It compiles transactions, fees, and payments into a single bill across vending, micro
@@ -99,15 +99,15 @@ rate_limits:
   slug: cantaloupe-seed-api-rate-limits
 score:
   band: emerging
-  composite: 27.2
-  delta: 0.0
+  composite: 20.6
+  delta: -6.6
   facets:
-    commercial_clarity: 68.4
+    commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 15.2
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 27.2
   regulatory:
     applies: true
@@ -115,9 +115,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cantaloupe-seed-api/refs/heads/main/screenshots/cantaloupe-seed-api-2026-06-20T173927.png
 security:
 - kind: domain-security

@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-08-10'
+  score: 39.4
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: The Catalog API from Hydrosat — 2 operation(s) for catalog.
@@ -46,8 +46,16 @@ apis:
 - description: The Search API from Hydrosat — 1 operation(s) for search.
   name: Hydrosat Search API
   slug: hydrosat-search-api
-artifact_total: 7
+artifact_total: 8
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/hydrosat-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/hydrosat-stac-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -120,6 +128,10 @@ created: '2026-07-17'
 description: Hydrosat delivers thermal infrared satellite data and analytics for monitoring resources and detecting change, combining thermal-infrared imaging, proprietary algorithms, and field-tested expertise to support food security, water security, and industrial monitoring across 60+ countries. Its Discovery platform exposes a STAC-compliant (SpatioTemporal Asset Catalog) API at stac.hydrosat.com serving VZ-1 (Van Zyl-01) thermal and VNIR imagery at processing levels L1A, L1B, and L2, accessible via the Discovery Portal web app, direct download, or the OAuth2-protected STAC API. Products include the IrriWatch irrigation-planning tool and water/crop management solutions.
 image: https://hydrosat.com/wp-content/uploads/2024/06/Field-Irrigation-Planning-2.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: hydrosat-mcp.yml
+  slug: hydrosat-mcpyml
 modified: '2026-07-19'
 name: Hydrosat
 nav: Providers
@@ -127,17 +139,17 @@ network: true
 overview: 'Hydrosat publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Collections API, Items API, and 2 more. Tagged areas include Company, Satellite Imagery, Thermal Infrared, Geospatial, and Earth Observation.
 
 
-  Hydrosat''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 10 more developer resources.'
+  Hydrosat''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 12 more developer resources.'
 random_paper: 66
 score:
   band: developing
-  composite: 43.5
-  delta: 0.0
+  composite: 42.4
+  delta: -1.1
   facets:
     commercial_clarity: 23.7
-    contract_quality: 50.4
-    developer_ergonomics: 53.8
-    discoverability: 92.6
+    contract_quality: 48.5
+    developer_ergonomics: 56.0
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
   previous_composite: 43.5
@@ -150,8 +162,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/screenshots/hydrosat-2026-07-25T221835.png
 security:

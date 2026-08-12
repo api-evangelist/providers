@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -125,8 +125,8 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 23.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alkera-ai/refs/heads/main/screenshots/alkera-ai-2026-07-25T195631.png
 security:

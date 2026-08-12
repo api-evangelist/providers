@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 9
@@ -3010,16 +3010,16 @@ rules:
   slug: amazon-workmail-spectral-rules
 score:
   band: strong
-  composite: 64.2
-  delta: -2.5
+  composite: 56.9
+  delta: -7.3
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 72.1
+    commercial_clarity: 57.9
+    contract_quality: 69.4
     developer_ergonomics: 43.5
     discoverability: 50.0
     governance: 68.8
-    operational_transparency: 52.6
-  previous_composite: 66.7
+    operational_transparency: 28.9
+  previous_composite: 64.2
   provenance:
     agentic_access: derived
     contracts:
@@ -3033,9 +3033,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 70.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/screenshots/amazon-workmail-2026-06-20T171848.png
 security:
 - kind: authentication

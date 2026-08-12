@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -200,16 +200,16 @@ rules:
     warn: 12
   slug: stanley-black-and-decker-rules
 score:
-  band: developing
-  composite: 47.6
-  delta: 0.0
+  band: thin
+  composite: 41.7
+  delta: -5.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 71.3
+    commercial_clarity: 34.2
+    contract_quality: 68.7
     developer_ergonomics: 21.7
     discoverability: 50.0
     governance: 58.3
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 47.6
   provenance:
     agentic_access: derived
@@ -218,9 +218,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/screenshots/stanley-black-and-decker-2026-06-20T194505.png
 security:
 - kind: authentication

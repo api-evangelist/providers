@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API and Python SDK for managing annotation projects, datasets, folders, items, annotations, annotation classes, exports, custom metadata, subsets, images, and team operations on the SuperAnnotate
@@ -141,8 +141,8 @@ score:
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 30.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superannotate/refs/heads/main/screenshots/superannotate-2026-06-20T194708.png
 security:

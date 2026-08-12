@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Undocumented internal oEmbed endpoint backing the Nfinite applications. Returns embeddable representations of product visuals. Requires an opaque `token` query parameter plus a resource `url`; there i
@@ -85,8 +85,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 14.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nfinite/refs/heads/main/screenshots/nfinite-2026-08-07T185225.png
 security:

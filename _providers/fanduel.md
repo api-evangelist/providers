@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 5
 common:
@@ -95,19 +95,19 @@ rate_limits:
   name: Fanduel Rate Limits
   slug: fanduel-rate-limits
 score:
-  band: emerging
-  composite: 14.2
-  delta: 0.0
+  band: minimal
+  composite: 9.7
+  delta: -4.5
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 14.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fanduel/refs/heads/main/screenshots/fanduel-2026-06-20T181034.png
 security:

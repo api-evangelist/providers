@@ -27,10 +27,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/ratify-project/ratify/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -70,12 +74,12 @@ network: true
 overview: 'Ratify is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artifact Verification, CNCF, Cloud Native, Container Security, and Kubernetes.
 
 
-  Ratify''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
+  Ratify''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
 random_paper: 75
 score:
   band: minimal
-  composite: 7.9
-  delta: 0.0
+  composite: 8.1
+  delta: 0.2
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -84,8 +88,14 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 7.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 9.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ratify/refs/heads/main/screenshots/ratify-2026-06-20T192607.png
 security:

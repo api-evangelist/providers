@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Carlyle Direct Lending operates a dedicated investor portal for clients of Carlyle's direct lending funds and BDC vehicles. The portal supports modern web browsers and is used for reporting, distribut
@@ -143,19 +143,19 @@ rate_limits:
   slug: carlyle-group-rate-limits
 score:
   band: emerging
-  composite: 21.3
-  delta: 0.0
+  composite: 16.1
+  delta: -5.2
   facets:
-    commercial_clarity: 63.2
+    commercial_clarity: 47.4
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 5.3
   previous_composite: 21.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/carlyle-group/refs/heads/main/screenshots/carlyle-group-2026-06-20T174007.png
 security:
 - kind: domain-security

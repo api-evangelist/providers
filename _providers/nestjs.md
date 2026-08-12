@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: NestJS is a progressive Node.js framework for building efficient, reliable, and scalable server-side applications. Built with TypeScript and inspired by Angular, it provides an out-of-the-box applicat
@@ -36,6 +36,30 @@ apis:
   slug: nestjs
 artifact_total: 8
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/nestjs/nest/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/nestjs/nest/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/nestjs/nest/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/nestjs/nest/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/nestjs/nest/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/nestjs/nest/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -106,7 +130,7 @@ overview: 'NestJS publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
   The NestJS catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  NestJS''s developer surface includes documentation, getting-started guide, engineering blog, and 8 more developer resources.'
+  NestJS''s developer surface includes documentation, getting-started guide, engineering blog, and 14 more developer resources.'
 plans:
 - name: Nestjs Plans Pricing
   plan_count: 3
@@ -127,18 +151,18 @@ rules:
   slug: nestjs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.4
-  delta: 0.0
+  composite: 29.6
+  delta: -2.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 9.7
-    developer_ergonomics: 21.7
-    discoverability: 59.3
+    developer_ergonomics: 26.1
+    discoverability: 66.7
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 32.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nestjs/refs/heads/main/screenshots/nestjs-2026-06-20T190137.png
 security:

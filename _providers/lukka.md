@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 60.8
-  scored_at: '2026-08-10'
+  score: 57.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -100,6 +101,10 @@ asyncapis:
   name: Lukka Market Data Streaming API
   slug: lukka-market-data-streaming-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lukka-analytics-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -442,7 +447,7 @@ overview: 'Lukka publishes 21 APIs on the [APIs.io](https://apis.io/) network, i
   The Lukka catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lukka''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 30 more developer resources.'
+  Lukka''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 31 more developer resources.'
 random_paper: 72
 rate_limits:
 - limit_count: 1
@@ -455,16 +460,16 @@ scopes:
   summary_line: 9 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 62.1
-  delta: -0.4
+  composite: 61.4
+  delta: -0.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 66.4
+    contract_quality: 67.5
     developer_ergonomics: 71.7
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 52.6
-  previous_composite: 62.5
+  previous_composite: 62.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -472,7 +477,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 20
     mcp: first-party
     skills: first-party
   regulatory:
@@ -481,8 +486,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/screenshots/lukka-2026-08-07T171825.png
 security:

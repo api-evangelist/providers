@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -187,16 +187,16 @@ rules:
     warn: 5
   slug: ubuntu-rules
 score:
-  band: developing
-  composite: 46.2
-  delta: 0.0
+  band: thin
+  composite: 38.7
+  delta: -7.5
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 72.9
+    commercial_clarity: 15.8
+    contract_quality: 70.1
     developer_ergonomics: 10.9
     discoverability: 81.5
     governance: 58.3
-    operational_transparency: 21.1
+    operational_transparency: 5.3
   previous_composite: 46.2
   provenance:
     agentic_access: derived
@@ -205,9 +205,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/screenshots/ubuntu-2026-06-20T195936.png
 security:
 - kind: authentication

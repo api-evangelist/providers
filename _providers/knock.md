@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 3
@@ -185,15 +185,15 @@ rules:
   slug: knock-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 37.3
-  delta: 0.0
+  composite: 32.9
+  delta: -4.4
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 68.4
+    commercial_clarity: 13.2
+    contract_quality: 65.8
     developer_ergonomics: 10.9
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 41.7
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 37.3
   provenance:
     agentic_access: derived
@@ -208,8 +208,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knock/refs/heads/main/screenshots/knock-2026-06-20T184119.png
 security:

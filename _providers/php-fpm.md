@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,6 +52,10 @@ collections:
   name: PHP-FPM Status and Ping Endpoints
   slug: open-php-fpm
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/php/php-src/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -95,15 +99,15 @@ network: true
 overview: 'PHP-FPM publishes 2 APIs on the [APIs.io](https://apis.io/) network: Ping API and Status API. Tagged areas include PHP, FastCGI, Process Manager, Web Server, and Application Server.
 
 
-  PHP-FPM''s developer surface includes documentation and 7 more developer resources.'
+  PHP-FPM''s developer surface includes documentation and 8 more developer resources.'
 random_paper: 0
 score:
   band: emerging
-  composite: 21.8
-  delta: 0.0
+  composite: 21.3
+  delta: -0.5
   facets:
     commercial_clarity: 0.0
-    contract_quality: 54.3
+    contract_quality: 52.2
     developer_ergonomics: 8.7
     discoverability: 64.8
     governance: 0.0
@@ -116,8 +120,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/php-fpm/refs/heads/main/screenshots/php-fpm-2026-06-20T191655.png
 security:

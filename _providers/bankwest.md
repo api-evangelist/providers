@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -173,13 +173,13 @@ scopes:
   summary_line: 5 scopes
 score:
   band: thin
-  composite: 41.2
-  delta: 0.0
+  composite: 39.8
+  delta: -1.4
   facets:
     commercial_clarity: 21.1
-    contract_quality: 54.3
+    contract_quality: 52.2
     developer_ergonomics: 42.9
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
   previous_composite: 41.2
@@ -199,8 +199,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/screenshots/bankwest-2026-07-21T114718.png
 security:

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 1
@@ -104,6 +105,10 @@ asyncapis:
   name: Shoplazza Webhooks
   slug: shoplazza-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/shoplazza-admin-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -258,7 +263,7 @@ overview: 'Shoplazza publishes 20 APIs on the [APIs.io](https://apis.io/) networ
   The Shoplazza catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Shoplazza''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, signup flow, and 27 more developer resources.'
+  Shoplazza''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, signup flow, and 28 more developer resources.'
 random_paper: 60
 rate_limits:
 - limit_count: 4
@@ -271,11 +276,11 @@ scopes:
   summary_line: 29 scopes
 score:
   band: developing
-  composite: 55.6
-  delta: 0.0
+  composite: 55.1
+  delta: -0.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 68.7
+    contract_quality: 66.1
     developer_ergonomics: 66.8
     discoverability: 81.5
     governance: 11.5
@@ -297,8 +302,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-10'
+  score: 0.0
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
@@ -94,13 +94,13 @@ overview: 'Tilda Research is profiled on the [APIs.io](https://apis.io/) network
 random_paper: 62
 score:
   band: emerging
-  composite: 19.0
-  delta: 0.0
+  composite: 18.1
+  delta: -0.9
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 19.0
@@ -110,8 +110,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-10'
+  score: 41.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -86,8 +86,12 @@ arazzos:
 - description: Reconstruct why Alberta's price cleared where it did — the offer stack, the units directed online, the outages that removed supply, and the resulting system marginal and pool prices.
   name: AESO price formation trace
   slug: aeso-price-formation
-artifact_total: 23
+artifact_total: 24
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/aeso-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -230,6 +234,10 @@ description: 'The Alberta Electric System Operator (AESO) is the independent, no
   parameter). The one real friction is legal rather than technical: AESO''s site terms permit non-commercial, personal or educational use only, and any other use requires written permission.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aeso.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: aeso-mcp.yml
+  slug: aeso-mcpyml
 modified: '2026-07-27'
 name: AESO
 nav: Providers
@@ -237,7 +245,7 @@ network: true
 overview: 'AESO publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Pool Price Report API, System Marginal Price Report API, Current Supply Demand API (v2), and 11 more. Tagged areas include Energy, Canada, Alberta, Electricity, and Energy Markets.
 
 
-  AESO''s developer surface includes authentication, documentation, signup flow, support, engineering blog, API reference, getting-started guide, and 27 more developer resources.'
+  AESO''s developer surface includes authentication, documentation, signup flow, support, engineering blog, API reference, getting-started guide, and 28 more developer resources.'
 plans:
 - name: Aeso Plans
   plan_count: 1
@@ -245,13 +253,13 @@ plans:
 random_paper: 76
 score:
   band: thin
-  composite: 40.2
-  delta: 0.0
+  composite: 37.9
+  delta: -2.3
   facets:
     commercial_clarity: 55.3
-    contract_quality: 14.5
-    developer_ergonomics: 60.3
-    discoverability: 92.6
+    contract_quality: 14.0
+    developer_ergonomics: 62.5
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
   previous_composite: 40.2
@@ -270,9 +278,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 44.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 33.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/screenshots/aeso-2026-08-07T161010.png
 security:

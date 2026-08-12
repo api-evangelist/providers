@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-08-10'
+  score: 43.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,6 +59,10 @@ collections:
   name: Amadeus Hotel Content Hotels API
   slug: postman-amadeus-media-hotels-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amadeus-media-hotel-content-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -371,7 +375,7 @@ overview: 'Amadeus Media publishes 3 APIs on the [APIs.io](https://apis.io/) net
   The Amadeus Media catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amadeus Media''s developer surface includes authentication, developer portal, getting-started guide, signup flow, pricing, engineering blog, FAQ, and 22 more developer resources.'
+  Amadeus Media''s developer surface includes authentication, developer portal, getting-started guide, signup flow, pricing, engineering blog, FAQ, and 23 more developer resources.'
 random_paper: 17
 rules:
 - name: Amadeus Media API Rules
@@ -392,13 +396,13 @@ rules:
   slug: amadeus-media-spectral-rules
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 49.0
+  delta: -1.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 32.6
+    contract_quality: 31.3
     developer_ergonomics: 58.7
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 80.2
     operational_transparency: 21.1
   previous_composite: 50.5
@@ -411,8 +415,8 @@ score:
       marker_coverage: 100.0
       total: 3
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-media/refs/heads/main/screenshots/amadeus-media-2026-07-25T195903.png
 security:

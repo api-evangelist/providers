@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 73.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 5
@@ -177,6 +177,18 @@ collections:
   name: Grid Agent Management Transactions API
   slug: postman-lightspark-transactions-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lightspark-grid-overlay.yaml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/lightsparkdev/grid-api/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/lightsparkdev/grid-api/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -359,7 +371,7 @@ overview: 'Lightspark publishes 22 APIs on the [APIs.io](https://apis.io/) netwo
   The Lightspark catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Lightspark''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 34 more developer resources.'
+  Lightspark''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 37 more developer resources.'
 random_paper: 37
 rules:
 - name: Lightspark API Rules
@@ -372,11 +384,11 @@ rules:
   slug: lightspark-grid-spectral
 score:
   band: exemplar
-  composite: 67.4
-  delta: 0.0
+  composite: 66.8
+  delta: -0.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 75.5
+    contract_quality: 72.7
     developer_ergonomics: 86.4
     discoverability: 92.6
     governance: 47.9
@@ -398,8 +410,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/screenshots/lightspark-2026-07-25T225132.png
 security:

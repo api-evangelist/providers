@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: Core gRPC-based API for the XMTP decentralized messaging network. Provides operations for sending and retrieving encrypted group messages, managing MLS key packages, publishing identity updates, and s
@@ -125,8 +125,8 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 31.0
-  delta: 0.0
+  composite: 31.4
+  delta: 0.4
   facets:
     commercial_clarity: 60.5
     contract_quality: 32.3
@@ -138,11 +138,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 19.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Payments
+    regime_id: payments
+    score: 21.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xmtp/refs/heads/main/screenshots/xmtp-2026-06-20T201710.png
 security:

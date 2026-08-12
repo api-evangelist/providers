@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-08-10'
+  score: 50.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -217,11 +217,11 @@ scopes:
   summary_line: 5 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 58.2
-  delta: 0.0
+  composite: 57.7
+  delta: -0.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 61.4
+    contract_quality: 59.1
     developer_ergonomics: 75.5
     discoverability: 87.0
     governance: 20.8
@@ -243,8 +243,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/screenshots/dailypay-2026-08-07T164026.png
 security:

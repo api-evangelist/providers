@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 2
@@ -215,13 +215,13 @@ rate_limits:
   slug: vast-ai-rate-limits
 score:
   band: developing
-  composite: 52.9
-  delta: 0.0
+  composite: 53.1
+  delta: 0.2
   facets:
     commercial_clarity: 81.6
-    contract_quality: 64.8
+    contract_quality: 62.7
     developer_ergonomics: 47.8
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 52.9
@@ -232,8 +232,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/screenshots/vast-ai-2026-06-20T200827.png
 security:

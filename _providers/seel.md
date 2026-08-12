@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 26.4
-  scored_at: '2026-08-10'
+  score: 25.5
+  scored_at: '2026-08-11'
 api_count: 9
 apis:
 - description: The Bill API from Seel — 3 operation(s) for bill.
@@ -58,12 +58,20 @@ apis:
 - description: The Quote API from Seel — 2 operation(s) for quote.
   name: Seel Quote API
   slug: seel-quote-api
-artifact_total: 12
+artifact_total: 13
 asyncapis:
 - description: Seel delivers webhook notifications to a merchant-configured HTTPS endpoint when protection contract and claim lifecycle events occur. Each notification is a Notification object with id, created_ts, t
   name: Seel Webhooks
   slug: seel-webhooks-asyncapi
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/seel-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/seel-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -120,6 +128,10 @@ created: '2026-07-17'
 description: Seel is a post-purchase protection and e-commerce insurance platform that helps online merchants offer Worry-Free Purchase coverage, Extended Warranty, and return, fulfillment, and price-drop protection to their shoppers. Its API lets merchants request protection Quotes for a cart, bind coverage to Orders (creating Contracts), manage Products, Fulfillments, Claims, and Bills, and emit Events, with contract and claim lifecycle changes delivered via webhooks. Seel serves 5,000+ merchants and has protected 24M+ orders. Backed by Lightspeed Venture Partners and Techstars.
 image: https://seel.com/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: seel-mcp.yml
+  slug: seel-mcpyml
 modified: '2026-07-21'
 name: Seel
 nav: Providers
@@ -130,17 +142,17 @@ overview: 'Seel publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
   The Seel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Seel''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 9 more developer resources.'
+  Seel''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 11 more developer resources.'
 random_paper: 77
 score:
   band: thin
-  composite: 37.9
-  delta: 0.0
+  composite: 36.8
+  delta: -1.1
   facets:
     commercial_clarity: 21.1
-    contract_quality: 69.8
-    developer_ergonomics: 42.9
-    discoverability: 92.6
+    contract_quality: 67.2
+    developer_ergonomics: 45.1
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 37.9
@@ -159,8 +171,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

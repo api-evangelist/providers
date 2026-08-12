@@ -1,9 +1,9 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: flavored
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.4
-  scored_at: '2026-08-10'
+  score: 35.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,8 +43,20 @@ apis:
 - description: Webinar and event registrations.
   name: Tano Events API
   slug: tano-events-api
-artifact_total: 8
+artifact_total: 9
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/tano-agents.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/tano-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tano-openapi-overlay.yaml
 - group: other
   title: ''
   type: AgentCard
@@ -56,6 +68,10 @@ common:
 created: '2026-07-17'
 description: Tano is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 layout: provider
+mcp_servers:
+- description: ''
+  name: tano-mcp.yml
+  slug: tano-mcpyml
 modified: '2026-07-17'
 name: Tano
 nav: Providers
@@ -64,13 +80,13 @@ overview: Tano publishes 5 APIs on the [APIs.io](https://apis.io/) network, incl
 random_paper: 86
 score:
   band: emerging
-  composite: 21.2
-  delta: 0.0
+  composite: 21.6
+  delta: 0.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 58.5
-    developer_ergonomics: 0.0
-    discoverability: 51.9
+    contract_quality: 56.3
+    developer_ergonomics: 10.3
+    discoverability: 40.7
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 21.2
@@ -84,8 +100,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

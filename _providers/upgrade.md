@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Marketing Offers API
@@ -42,6 +42,10 @@ apis:
   slug: upgrade-transactions-api
 artifact_total: 8
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/upgrade-flexpay-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -173,17 +177,17 @@ network: true
 overview: 'Upgrade publishes 3 APIs on the [APIs.io](https://apis.io/) network: Marketing Offers API, Orders API, and Transactions API. Tagged areas include Company, Fintech, Lending, Buy Now Pay Later, and Payments.
 
 
-  Upgrade''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 23 more developer resources.'
+  Upgrade''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 24 more developer resources.'
 random_paper: 48
 score:
   band: developing
-  composite: 52.0
-  delta: 0.0
+  composite: 52.2
+  delta: 0.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 58.4
+    contract_quality: 56.2
     developer_ergonomics: 66.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 26.3
   previous_composite: 52.0
@@ -199,11 +203,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 45.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Payments
+    regime_id: payments
+    score: 56.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 56.8
-  scored_at: '2026-08-10'
+  score: 53.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 224
   human_in_the_loop: 8
@@ -2511,15 +2512,15 @@ scopes:
   summary_line: 24 scopes
 score:
   band: exemplar
-  composite: 75.0
-  delta: 0.0
+  composite: 68.1
+  delta: -6.9
   facets:
-    commercial_clarity: 89.5
-    contract_quality: 73.4
+    commercial_clarity: 65.8
+    contract_quality: 73.3
     developer_ergonomics: 71.7
     discoverability: 68.5
     governance: 83.3
-    operational_transparency: 57.9
+    operational_transparency: 42.1
   previous_composite: 75.0
   provenance:
     agentic_access: derived
@@ -2530,9 +2531,9 @@ score:
       marker_coverage: 2.9
       total: 68
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/screenshots/avalara-2026-06-20T172715.png
 security:
 - kind: authentication

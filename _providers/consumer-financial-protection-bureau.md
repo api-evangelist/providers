@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -71,6 +71,22 @@ collections:
   name: CFPB HMDA Institutions API
   slug: open-cfpb-hmda-institutions
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/cfpb/ccdb5-api/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/cfpb/ccdb5-api/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/cfpb/ccdb5-api/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/cfpb/ccdb5-api/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -165,7 +181,7 @@ overview: 'Consumer Financial Protection Bureau publishes 7 APIs on the [APIs.io
   The Consumer Financial Protection Bureau catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Consumer Financial Protection Bureau''s developer surface includes engineering blog and 15 more developer resources.'
+  Consumer Financial Protection Bureau''s developer surface includes engineering blog and 19 more developer resources.'
 plans:
 - name: Consumer Financial Protection Bureau Plans Pricing
   plan_count: 3
@@ -193,16 +209,16 @@ rules:
     warn: 2
   slug: consumer-financial-protection-bureau-rules
 score:
-  band: developing
-  composite: 42.7
-  delta: 0.0
+  band: thin
+  composite: 39.0
+  delta: -3.7
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 56.9
+    commercial_clarity: 36.8
+    contract_quality: 54.8
     developer_ergonomics: 2.2
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 42.7
   provenance:
     agentic_access: derived
@@ -214,11 +230,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 24.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Government & Public Sector
+    regime_id: government
+    score: 35.2
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/consumer-financial-protection-bureau/refs/heads/main/screenshots/consumer-financial-protection-bureau-2026-06-20T174916.png
 security:

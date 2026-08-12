@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 10
 apis:
 - description: Versioned external REST API introduced in Sourcegraph 7.0 and intended as the stable integration surface going forward. Each Sourcegraph instance exposes its own /api-reference path where the live Ope
@@ -63,6 +63,10 @@ apis:
   slug: src-cli
 artifact_total: 37
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/sourcegraph/cody-public-snapshot/blob/main/LICENSE
 - group: auth
   title: ''
   type: TrustCenter
@@ -184,7 +188,7 @@ network: true
 overview: 'Sourcegraph publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Code Intelligence, Code Search, Cody, Amp, and AI Coding Agent.
 
 
-  Sourcegraph''s developer surface includes developer portal, documentation, API reference, engineering blog, CLI, pricing, support, and 10 more developer resources.'
+  Sourcegraph''s developer surface includes developer portal, documentation, API reference, engineering blog, CLI, pricing, support, and 11 more developer resources.'
 plans:
 - name: Sourcegraph Plans Pricing
   plan_count: 1
@@ -206,8 +210,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 28.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourcegraph/refs/heads/main/screenshots/sourcegraph-2026-06-20T194223.png
 security:

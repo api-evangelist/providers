@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 9.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The JSON API behind the Arbital Health adjudication platform at platform.arbitalhealth.com. Observed live and returning JSON, but every resource path answers 401 {"error":"Unauthorized"} to an anonymo
@@ -152,8 +152,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 74.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arbital-health/refs/heads/main/screenshots/arbital-health-2026-08-07T161614.png
 security:

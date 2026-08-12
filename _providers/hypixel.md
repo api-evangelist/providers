@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,6 +60,18 @@ collections:
   name: Hypixel Public API
   slug: open-hypixel-public-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/HypixelDev/PublicAPI/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/HypixelDev/PublicAPI/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/HypixelDev/PublicAPI/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -251,7 +263,7 @@ overview: 'Hypixel publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
   The Hypixel catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Hypixel''s developer surface includes authentication and 17 more developer resources.'
+  Hypixel''s developer surface includes authentication and 20 more developer resources.'
 plans:
 - name: Hypixel Plans Pricing
   plan_count: 2
@@ -280,15 +292,15 @@ rules:
   slug: hypixel-spectral-rules
 score:
   band: developing
-  composite: 51.7
-  delta: 0.0
+  composite: 53.0
+  delta: 1.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 74.6
+    contract_quality: 71.8
     developer_ergonomics: 19.6
     discoverability: 81.5
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 52.6
   previous_composite: 51.7
   provenance:
     agentic_access: derived
@@ -297,8 +309,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hypixel/refs/heads/main/screenshots/hypixel-2026-07-25T221929.png
 security:

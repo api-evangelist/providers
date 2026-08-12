@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Manage traceability entities - Pixels (tags), assets, categories, asset types, locations, zones, metadata and events - scoped per owner.
@@ -154,8 +154,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

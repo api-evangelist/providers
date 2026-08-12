@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 65.1
-  scored_at: '2026-08-10'
+  score: 61.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -119,7 +119,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/korbit-openapi.yml
+  url: openapi/_original/korbit-openapi.yml
 - group: docs
   title: ''
   type: AsyncAPI
@@ -214,13 +214,13 @@ rate_limits:
   slug: korbit-rate-limits
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 48.1
+  delta: -1.5
   facets:
     commercial_clarity: 13.2
-    contract_quality: 74.7
+    contract_quality: 72.3
     developer_ergonomics: 77.7
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
   previous_composite: 49.6
@@ -240,8 +240,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/screenshots/korbit-2026-07-25T224221.png
 security:

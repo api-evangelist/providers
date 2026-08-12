@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-10'
+  score: 0.0
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: On-device HTTP/JSON control API for Insta360 consumer 360 cameras (ONE X/X2/X3/X4/X5, ONE R/RS), implemented on Google's Open Spherical Camera (OSC) standard. The camera runs a built-in HTTP server re
@@ -97,20 +97,20 @@ overview: 'Insta360 publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 random_paper: 0
 score:
   band: emerging
-  composite: 16.0
-  delta: 0.0
+  composite: 14.9
+  delta: -1.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 77.8
+    discoverability: 66.7
     governance: 12.5
     operational_transparency: 5.3
   previous_composite: 16.0
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insta360/refs/heads/main/screenshots/insta360-2026-07-25T222554.png
 security:

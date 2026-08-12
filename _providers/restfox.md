@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Restfox is a lightweight, offline-first web HTTP client for testing REST APIs, similar to Postman but browser-based. It supports HTTP, WebSocket, and GraphQL protocols, with features including environ
@@ -36,6 +36,10 @@ apis:
   slug: restfox
 artifact_total: 12
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/flawiddsouza/Restfox/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -102,7 +106,7 @@ overview: 'Restfox publishes 1 API on the [APIs.io](https://apis.io/) network. T
   The Restfox catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Restfox''s developer surface includes documentation, release notes, and 4 more developer resources.'
+  Restfox''s developer surface includes documentation, release notes, and 5 more developer resources.'
 plans:
 - name: Restfox Plans Pricing
   plan_count: 3
@@ -122,20 +126,20 @@ rules:
     warn: 3
   slug: restfox-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 35.1
-  delta: 0.0
+  band: emerging
+  composite: 27.2
+  delta: -7.9
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 22.6
     developer_ergonomics: 8.7
     discoverability: 59.3
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 35.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/restfox/refs/heads/main/screenshots/restfox-2026-06-20T193021.png
 security:
 - kind: domain-security

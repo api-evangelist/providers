@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -221,18 +221,6 @@ common:
   title: ''
   type: FinOps
   url: finops/new-york-times-company-finops.yml
-- group: design
-  title: ''
-  type: CapabilityWorkflow
-  url: capabilities/newsroom-monitoring.yaml
-- group: design
-  title: ''
-  type: CapabilityWorkflow
-  url: capabilities/archive-research.yaml
-- group: design
-  title: ''
-  type: CapabilityWorkflow
-  url: capabilities/culture-discovery.yaml
 - group: agent
   title: ''
   type: LlmsText
@@ -320,7 +308,7 @@ overview: 'The New York Times Company publishes 15 APIs on the [APIs.io](https:/
   The The New York Times Company catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  The New York Times Company''s developer surface includes authentication, signup flow, FAQ, engineering blog, GitHub presence, and 25 more developer resources.'
+  The New York Times Company''s developer surface includes authentication, signup flow, FAQ, engineering blog, GitHub presence, and 22 more developer resources.'
 plans:
 - name: New York Times Company Plans Pricing
   plan_count: 1
@@ -349,13 +337,13 @@ rules:
   slug: new-york-times-rules
 score:
   band: developing
-  composite: 49.3
-  delta: 0.0
+  composite: 52.1
+  delta: 2.8
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 65.9
+    commercial_clarity: 52.6
+    contract_quality: 63.4
     developer_ergonomics: 21.7
-    discoverability: 75.9
+    discoverability: 83.3
     governance: 68.8
     operational_transparency: 36.8
   previous_composite: 49.3
@@ -366,8 +354,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/screenshots/new-york-times-company-2026-06-20T190234.png
 security:

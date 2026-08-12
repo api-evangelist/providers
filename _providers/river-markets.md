@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -193,11 +193,11 @@ overview: 'River Markets publishes 13 APIs on the [APIs.io](https://apis.io/) ne
 random_paper: 80
 score:
   band: thin
-  composite: 40.5
-  delta: 0.0
+  composite: 39.9
+  delta: -0.6
   facets:
     commercial_clarity: 13.2
-    contract_quality: 74.4
+    contract_quality: 71.6
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
@@ -219,8 +219,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

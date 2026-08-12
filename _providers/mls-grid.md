@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'MLS Grid''s RESO Web API — a replication-oriented OData v4 surface over listing data normalized to the RESO Data Dictionary and pooled from the participating MLSs. Documented entity sets are Property, '
@@ -201,20 +201,20 @@ rate_limits:
   slug: mls-grid-rate-limits
 score:
   band: thin
-  composite: 33.7
-  delta: 0.0
+  composite: 32.6
+  delta: -1.1
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
     developer_ergonomics: 34.8
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 22.9
     operational_transparency: 52.6
   previous_composite: 33.7
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mls-grid/refs/heads/main/screenshots/mls-grid-2026-08-07T183841.png
 security:

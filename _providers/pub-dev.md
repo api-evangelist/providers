@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Search for packages, retrieve package metadata, version details, publisher information, and scoring data from the official Dart and Flutter package registry.
@@ -36,6 +36,10 @@ apis:
   slug: pubdev-packages-api
 artifact_total: 6
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/dart-lang/pub-dev/blob/master/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -87,7 +91,7 @@ network: true
 overview: 'pub.dev publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Dart, Flutter, Package Registry, Package Management, and Open Source.
 
 
-  pub.dev''s developer surface includes documentation and 8 more developer resources.'
+  pub.dev''s developer surface includes documentation and 9 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
@@ -109,8 +113,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 20.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pub-dev/refs/heads/main/screenshots/pub-dev-2026-06-20T192237.png
 security:

@@ -1,10 +1,11 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 66.7
-  scored_at: '2026-08-10'
+  score: 52.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,6 +82,10 @@ apis:
   slug: caplight-trade-history-api
 artifact_total: 22
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/caplight-rest-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -207,26 +212,39 @@ network: true
 overview: 'Caplight publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Company API, Company Details API, and 13 more. Tagged areas include private-markets, secondary-market, market-data, venture-capital, and company-data.
 
 
-  Caplight''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 20 more developer resources.'
+  Caplight''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 21 more developer resources.'
 random_paper: 32
 score:
   band: developing
-  composite: 46.8
+  composite: 46.2
+  delta: -0.6
   facets:
     commercial_clarity: 34.2
-    contract_quality: 52.4
-    developer_ergonomics: 69.6
+    contract_quality: 57.9
+    developer_ergonomics: 64.7
     discoverability: 92.6
-    governance: 20.8
+    governance: 11.5
     operational_transparency: 15.8
+  previous_composite: 46.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Caplight Authentication

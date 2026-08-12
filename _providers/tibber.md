@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -91,6 +91,10 @@ collections:
   name: Tibber GraphQL API
   slug: open-tibber-graphql-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/tibber/Tibber.SDK.NET/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -388,7 +392,7 @@ overview: 'Tibber publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
   The Tibber catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tibber''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, changelog, and 38 more developer resources.'
+  Tibber''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, changelog, and 39 more developer resources.'
 plans:
 - name: Tibber Plans Pricing
   plan_count: 4
@@ -421,12 +425,12 @@ scopes:
   slug: tibber-scopes
   summary_line: 11 scopes · authorizationCode
 score:
-  band: strong
-  composite: 65.8
-  delta: 0.0
+  band: exemplar
+  composite: 67.4
+  delta: 1.6
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 78.3
+    commercial_clarity: 84.2
+    contract_quality: 75.4
     developer_ergonomics: 52.2
     discoverability: 74.1
     governance: 68.8
@@ -445,8 +449,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/screenshots/tibber-2026-06-20T195331.png
 security:

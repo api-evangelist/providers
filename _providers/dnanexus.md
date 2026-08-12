@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 27.3
-  scored_at: '2026-08-10'
+  score: 23.6
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The DNAnexus Platform API is a JSON-over-HTTPS API of roughly 206 documented methods. Each method is invoked with an HTTP POST to a route of the form /class-xxxx/method (for example /file-xxxx/describ
@@ -232,8 +232,8 @@ score:
     regime: Health
     regime_id: health
     score: 66.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dnanexus/refs/heads/main/screenshots/dnanexus-2026-08-07T164443.png
 security:

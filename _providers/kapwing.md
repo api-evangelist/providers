@@ -27,10 +27,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/kapwing/plugin-helpers/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/kapwing/plugin-helpers/releases
 - group: company
   title: ''
   type: Website
@@ -90,22 +98,22 @@ network: true
 overview: 'Kapwing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Video, Video Editing, and Content Creation.
 
 
-  Kapwing''s developer surface includes pricing, engineering blog, support, and 9 more developer resources.'
+  Kapwing''s developer surface includes pricing, engineering blog, support, and 11 more developer resources.'
 random_paper: 57
 score:
   band: emerging
-  composite: 15.3
-  delta: 0.0
+  composite: 17.4
+  delta: 2.1
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
     developer_ergonomics: 13.0
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 15.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kapwing/refs/heads/main/screenshots/kapwing-2026-07-25T223515.png
 security:

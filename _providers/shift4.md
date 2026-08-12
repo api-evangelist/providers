@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 62.4
-  scored_at: '2026-08-10'
+  score: 58.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -69,6 +69,14 @@ asyncapis:
 common:
 - group: agent
   title: ''
+  type: AgentSkill
+  url: skills/shift4-authorize-and-capture.md
+- group: build
+  title: ''
+  type: SDKs
+  url: https://docs.shift4.com/sdks/ios
+- group: agent
+  title: ''
   type: AgenticAccess
   url: agentic-access/shift4-agentic-access.yml
 - group: auth
@@ -101,7 +109,7 @@ common:
   url: https://docs.shift4.com/guides/quickstart
 - group: build
   title: ''
-  type: Postman
+  type: PostmanCollection
   url: https://docs.shift4.com/tools/postman
 - group: operate
   title: ''
@@ -169,7 +177,7 @@ common:
   url: lifecycle/shift4-lifecycle.yml
 - group: operate
   title: ''
-  type: Deprecation
+  type: DeprecationPolicy
   url: https://docs.shift4.com/guides/deprecated/legacy-card-tokens
 - group: start
   title: ''
@@ -201,7 +209,7 @@ common:
   url: components/shift4-components.yml
 - group: agent
   title: ''
-  type: AgentSkill
+  type: AgentSkills
   url: skills/_index.yml
 created: '2026-07-24'
 description: 'Shift4 (NYSE: FOUR) is a US-based integrated payments and commerce technology company headquartered in Center Valley, Pennsylvania, and a Fortune 1000 business serving restaurants, hospitality, retail, gaming, stadiums, e-commerce, and nonprofit verticals. It operates as an end-to-end acquirer-processor, owning the full stack from its own gateway and card acquiring through in-person SkyTab POS hardware, online checkout, and alternative payment methods, and has expanded internationally through acquisitions including Finaro (Credorax), Global Blue, and others. Its public developer surface is genuinely API-native: a Redocly-powered developer portal at docs.shift4.com publishes the Shift4 Payment API, a single downloadable OpenAPI 3.1 definition (v1.7.57, 70 paths) covering card transactions, tokenization, gift cards, devices/terminals, ACH, QR and PayPal alternative payments, 3D Secure, payment links, checkout sessions, OCT payouts, and reporting, authenticated with a header AccessToken
@@ -222,15 +230,15 @@ overview: 'Shift4 publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
   The Shift4 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Shift4''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, sandbox, and 27 more developer resources.'
+  Shift4''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, sandbox, and 29 more developer resources.'
 random_paper: 14
 score:
   band: developing
-  composite: 54.7
-  delta: 0.0
+  composite: 50.8
+  delta: -3.9
   facets:
     commercial_clarity: 7.9
-    contract_quality: 74.8
+    contract_quality: 72.0
     developer_ergonomics: 77.7
     discoverability: 92.6
     governance: 20.8
@@ -251,9 +259,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 56.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 34.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

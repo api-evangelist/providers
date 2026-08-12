@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The Apache Beam SDK provides the programming model for constructing data processing pipelines. Available in Java, Python, and Go, it provides PCollections, PTransforms, and Runners for batch and strea
@@ -39,6 +39,26 @@ apis:
   slug: apache-beam-job-service
 artifact_total: 30
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apache/beam/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/apache/beam/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/beam/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/beam/blob/master/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -150,7 +170,7 @@ network: true
 overview: 'Apache Beam publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Batch Processing, Data Pipeline, ETL, and Open Source.
 
 
-  Apache Beam''s developer surface includes documentation, getting-started guide, support, changelog, engineering blog, and 10 more developer resources.'
+  Apache Beam''s developer surface includes documentation, getting-started guide, support, changelog, engineering blog, and 15 more developer resources.'
 plans:
 - name: Apache Beam Plans Pricing
   plan_count: 3
@@ -161,20 +181,20 @@ rate_limits:
   name: Apache Beam Rate Limits
   slug: apache-beam-rate-limits
 score:
-  band: thin
-  composite: 31.0
-  delta: 0.0
+  band: emerging
+  composite: 23.2
+  delta: -7.8
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 41.3
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 31.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-beam/refs/heads/main/screenshots/apache-beam-2026-06-20T172044.png
 security:
 - kind: domain-security

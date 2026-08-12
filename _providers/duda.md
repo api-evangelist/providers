@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -71,6 +71,18 @@ apis:
   slug: duda-webhooks-api
 artifact_total: 16
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/DudaDev/partner-api/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/DudaDev/partner-api/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/DudaDev/partner-api/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -142,7 +154,7 @@ network: true
 overview: 'Duda publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, Blog API, and 7 more. Tagged areas include Website Builder, Agencies, White Label, SaaS, and eCommerce.
 
 
-  Duda''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  Duda''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Duda Plans Pricing
   plan_count: 5
@@ -154,15 +166,15 @@ rate_limits:
   slug: duda-rate-limits
 score:
   band: developing
-  composite: 43.4
-  delta: 0.0
+  composite: 44.9
+  delta: 1.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 64.9
+    contract_quality: 62.4
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 42.1
+    operational_transparency: 57.9
   previous_composite: 43.4
   provenance:
     agentic_access: derived
@@ -171,8 +183,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duda/refs/heads/main/screenshots/duda-2026-06-20T180313.png
 security:

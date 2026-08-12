@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST Assured is a Java DSL library for testing and validating RESTful APIs using a fluent, BDD-style syntax with given-when-then patterns. It supports HTTP methods, JSON/XML validation, authentication
@@ -36,6 +36,10 @@ apis:
   slug: rest-assured
 artifact_total: 12
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/rest-assured/rest-assured/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -105,7 +109,7 @@ overview: 'REST Assured publishes 1 API on the [APIs.io](https://apis.io/) netwo
   The REST Assured catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  REST Assured''s developer surface includes documentation, support, and 5 more developer resources.'
+  REST Assured''s developer surface includes documentation, support, and 6 more developer resources.'
 plans:
 - name: Rest Assured Plans Pricing
   plan_count: 3
@@ -126,19 +130,19 @@ rules:
   slug: rest-assured-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.9
-  delta: 0.0
+  composite: 30.1
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 33.9
     developer_ergonomics: 13.0
     discoverability: 59.3
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 37.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rest-assured/refs/heads/main/screenshots/rest-assured-2026-06-20T192958.png
 security:
 - kind: domain-security

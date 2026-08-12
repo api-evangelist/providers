@@ -8,27 +8,27 @@
    "label": "Exemplar",
    "range": "66+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 2,
-   "shown": 2,
+   "count": 1,
+   "shown": 1,
    "providers": [
     {
      "name": "parcelLab",
      "slug": "parcellab",
      "description": "parcelLab is a Munich-headquartered post-purchase experience platform (parcelLab GmbH) used by retailers including IKEA, Hugo Boss, Dyson, Puma, and John Lewis to turn delivery and returns into a branded, revenue-generating part of the customer journey. The platform spans four modules — Convert (pre-checkout delivery promise), Engage (multichannel post-purchase communications), Retain (Returns Portal and returns experience), and Insights (analytics, benchmarking, control tower) — layered with AI agents (WISMO/R, Insights, Fraud & Abuse) and exposed via the parcelLab API v4 Enhanced. Global, EU, and US regional endpoints are available; the same data backs a Model Context Protocol server at agents.parcellab.com/mcp/ for agentic clients.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/screenshots/parcellab-2026-06-20T191411.png",
-     "score": 67.5,
+     "score": 69.5,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 74.5,
+      "contract_quality": 71.7,
       "governance": 68.8,
       "operational_transparency": 42.1,
       "developer_ergonomics": 78.3,
-      "commercial_clarity": 60.5
+      "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 34.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -49,25 +49,43 @@
      },
      "tier": "Tracking Aggregators",
      "rank": 1
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "strong",
+   "label": "Strong",
+   "range": "56 – 65.9",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 2,
+   "shown": 2,
+   "providers": [
     {
      "name": "Sendcloud",
      "slug": "sendcloud",
      "description": "Sendcloud is Europe's leading shipping platform for e-commerce, headquartered in Eindhoven, Netherlands. The platform connects 30,000+ merchants to 160+ carriers (DHL, DPD, UPS, GLS, FedEx, PostNL, bpost, La Poste, Royal Mail, Hermes, and many more) and 100+ commerce / WMS / marketplace integrations across the UK, Netherlands, Belgium, France, Germany, Austria, Italy, and Spain. The Sendcloud APIs cover the full fulfillment lifecycle — Orders, Ship an Order, Shipments, Service Points, Parcel Tracking, Parcel Documents, Returns, Event Subscriptions, Webhooks, Integrations, Analytics, and Reporting — over a versioned v2 / v3 REST surface on https://panel.sendcloud.sc, authenticated with HTTP Basic (public + private key) or OAuth 2.0 client credentials.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/screenshots/sendcloud-2026-06-20T193651.png",
-     "score": 67.0,
-     "band": "exemplar",
-     "band_label": "Exemplar",
+     "score": 65.1,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 83.7,
+      "discoverability": 75.9,
+      "contract_quality": 80.6,
       "governance": 68.8,
       "operational_transparency": 52.6,
       "developer_ergonomics": 63.0,
       "commercial_clarity": 57.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 54.2,
+      "matched_via": "tags"
+     },
      "agent_score": 53.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -88,36 +106,25 @@
      },
      "tier": "Shipping API Aggregators",
      "rank": 2
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "strong",
-   "label": "Strong",
-   "range": "56 – 65.9",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 4,
-   "shown": 4,
-   "providers": [
+    },
     {
      "name": "Sendle",
      "slug": "sendle",
      "description": "Sendle is a 100%-carbon-neutral parcel shipping service built for small businesses, offering door-to-door delivery in Australia, the United States, and Canada plus international shipping from AU and US to ~180 countries. The Sendle API exposes quoting, order creation, label retrieval, tracking, USPS SCAN-Form shipping manifests, and per-parcel tracking webhooks via HTTP Basic Authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/screenshots/sendle-2026-06-20T193655.png",
-     "score": 62.6,
+     "score": 61.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 86.6,
+      "contract_quality": 83.4,
       "governance": 31.3,
       "operational_transparency": 68.4,
       "developer_ergonomics": 54.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 35.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -138,27 +145,38 @@
      },
      "tier": "Parcel Integrators",
      "rank": 3
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "42 – 55.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 6,
+   "shown": 6,
+   "providers": [
     {
-     "name": "ShipStation",
-     "slug": "shipstation",
-     "description": "ShipStation is a leading shipping platform for ecommerce businesses providing APIs to integrate shipping workflows into applications. The ShipStation API enables developers to automate order management, create shipments, generate labels, track packages, manage warehouses, and connect to multiple carriers. ShipStation offers both V1 (ssapi.shipstation.com) and V2 (ShipEngine-powered) API versions.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shipstation/refs/heads/main/screenshots/shipstation-2026-06-20T193826.png",
-     "score": 58.9,
-     "band": "strong",
-     "band_label": "Strong",
+     "name": "Australia Post",
+     "slug": "australia-post",
+     "description": "Australia Post is Australia's primary postal operator, offering a developer platform with REST APIs for e-commerce merchants, logistics providers, and delivery partners. APIs cover shipping label creation, parcel tracking, postage calculation, parcel locker and post office location lookup, delivery choice and scheduling, and delivery partner event reporting for an integrated end-to-end fulfilment ecosystem.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/screenshots/australia-post-2026-06-20T172603.png",
+     "score": 55.5,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 89.2,
-      "governance": 41.7,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 47.8,
-      "commercial_clarity": 60.5
+      "discoverability": 74.1,
+      "contract_quality": 57.9,
+      "governance": 58.3,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 39.1,
+      "commercial_clarity": 63.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 32.0,
-     "agent_band": "agent-aware",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 36.9,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
@@ -166,16 +184,16 @@
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
-      "openapi_examples": false,
+      "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Shipping API Aggregators",
+     "tier": "Postal Operators",
      "rank": 4
     },
     {
@@ -183,19 +201,19 @@
      "slug": "shippo",
      "description": "Shippo provides a robust shipping API architecture that helps developers drive efficiency at scale. The Shippo API covers the complete shipping lifecycle from pre-purchase rate shopping across 80+ carriers to label generation, package tracking, and returns management. SDKs are available for Python, JavaScript, PHP, Java, Ruby, and Node.js.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/screenshots/shippo-2026-06-20T193822.png",
-     "score": 56.4,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 52.6,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 86.5,
+      "discoverability": 72.2,
+      "contract_quality": 83.7,
       "governance": 41.7,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 52.2,
-      "commercial_clarity": 47.4
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 58.7,
+      "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 36.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -218,25 +236,25 @@
      "rank": 5
     },
     {
-     "name": "Australia Post",
-     "slug": "australia-post",
-     "description": "Australia Post is Australia's primary postal operator, offering a developer platform with REST APIs for e-commerce merchants, logistics providers, and delivery partners. APIs cover shipping label creation, parcel tracking, postage calculation, parcel locker and post office location lookup, delivery choice and scheduling, and delivery partner event reporting for an integrated end-to-end fulfilment ecosystem.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/screenshots/australia-post-2026-06-20T172603.png",
-     "score": 56.1,
-     "band": "strong",
-     "band_label": "Strong",
+     "name": "ShipStation",
+     "slug": "shipstation",
+     "description": "ShipStation is a leading shipping platform for ecommerce businesses providing APIs to integrate shipping workflows into applications. The ShipStation API enables developers to automate order management, create shipments, generate labels, track packages, manage warehouses, and connect to multiple carriers. ShipStation offers both V1 (ssapi.shipstation.com) and V2 (ShipEngine-powered) API versions.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shipstation/refs/heads/main/screenshots/shipstation-2026-06-20T193826.png",
+     "score": 52.1,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 60.1,
-      "governance": 58.3,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 39.1,
-      "commercial_clarity": 63.2
+      "discoverability": 72.2,
+      "contract_quality": 86.3,
+      "governance": 41.7,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 47.8,
+      "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 36.9,
-     "agent_band": "agent-ready",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 32.0,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
@@ -244,47 +262,36 @@
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
-      "openapi_examples": "verified",
+      "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "event_surface_described": false,
+      "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Postal Operators",
+     "tier": "Shipping API Aggregators",
      "rank": 6
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "developing",
-   "label": "Developing",
-   "range": "42 – 55.9",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 6,
-   "shown": 6,
-   "providers": [
+    },
     {
      "name": "Easyship",
      "slug": "easyship",
      "description": "Easyship is a comprehensive all-in-one shipping platform headquartered in Hong Kong that provides e-commerce businesses with a one-stop solution for their shipping needs. From comparing rates and services across 250+ couriers to managing orders, generating labels, scheduling pickups, calculating duties and taxes, and tracking shipments, Easyship streamlines cross-border and domestic logistics for businesses of all sizes. The Easyship REST API exposes the same shipping engine that powers the Easyship dashboard and platform integrations to developers building custom commerce, fulfillment, and logistics workflows.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/screenshots/easyship-2026-06-20T180405.png",
-     "score": 55.7,
+     "score": 50.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 77.0,
+      "discoverability": 81.5,
+      "contract_quality": 74.5,
       "governance": 58.3,
-      "operational_transparency": 52.6,
+      "operational_transparency": 28.9,
       "developer_ergonomics": 26.1,
-      "commercial_clarity": 50.0
+      "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -311,19 +318,26 @@
      "slug": "17track",
      "description": "Package tracking REST API supporting 3,300+ global carriers for real-time shipment tracking, status updates, and delivery notifications via webhook push mechanism.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/17track/refs/heads/main/screenshots/17track-2026-06-20T162321.png",
-     "score": 50.1,
+     "score": 49.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 72.5,
+      "contract_quality": 69.8,
       "governance": 58.3,
       "operational_transparency": 0.0,
       "developer_ergonomics": 23.9,
-      "commercial_clarity": 71.1
+      "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 34.7,
+      "matched_via": "tags"
+     },
      "agent_score": 33.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -350,19 +364,19 @@
      "slug": "royal-mail",
      "description": "Royal Mail provides a suite of REST APIs for businesses to integrate shipping, tracking, label generation, barcode allocation, and Click & Drop order management directly into their fulfilment systems. APIs cover domestic and international shipment creation, label printing, manifest submission, pre-allocated tracking numbers, offline barcode ranges, local collect options, and delivery office lookup.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/screenshots/royal-mail-2026-06-20T193236.png",
-     "score": 47.3,
+     "score": 46.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 56.9,
+      "contract_quality": 54.8,
       "governance": 58.3,
       "operational_transparency": 0.0,
       "developer_ergonomics": 43.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -383,25 +397,81 @@
      },
      "tier": "Postal Operators",
      "rank": 9
+    }
+   ]
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "28 – 41.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 8,
+   "shown": 8,
+   "providers": [
+    {
+     "name": "Packlink",
+     "slug": "packlink",
+     "description": "Packlink is a multi-carrier shipping comparison and management platform for e-commerce, founded in Spain and backed by Accel. It lets individuals and businesses compare courier services (UPS, DPD, DHL, Evri, Royal Mail and more) and send parcels nationally and internationally at negotiated rates. Its Packlink PRO product adds a business shipping dashboard with marketplace and e-commerce integrations (Shopify, WooCommerce, Magento, PrestaShop, Amazon, eBay). The Packlink PRO Shipping API (api.packlink.com) exposes service comparison, shipment creation, label printing, parcel tracking, warehouse management, customs invoicing, and integration management, and Packlink maintains open-source e-commerce integration modules on GitHub.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/screenshots/packlink-2026-08-07T191246.png",
+     "score": 40.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 65.7,
+      "governance": 11.5,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 36.4,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 34.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 36.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Shipping API Aggregators",
+     "rank": 10
     },
     {
      "name": "UPS",
      "slug": "ups",
      "description": "UPS, or United Parcel Service, is a Fortune 500 global logistics company that specializes in package delivery and supply chain management services. UPS provides a comprehensive REST API platform with OAuth 2.0 authentication covering shipping, tracking, rating, address validation, pickup scheduling, paperless international documents, and time-in-transit estimation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/screenshots/ups-2026-06-20T200507.png",
-     "score": 45.8,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 40.0,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 70.9,
+      "contract_quality": 68.6,
       "governance": 58.3,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 30.4,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -421,26 +491,26 @@
       "dry_run_mode": false
      },
      "tier": "Parcel Integrators",
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "EasyPost",
      "slug": "easypost",
      "description": "EasyPost is a multi-carrier shipping API platform for the United States and international markets. It exposes a REST API spanning shipments, rating, labels, tracking, addresses, parcels, insurance, claims, pickups, scan forms, refunds, batches, end-shippers, reports, customs info, carrier accounts, and webhooks. EasyPost integrates 100+ carriers including USPS, UPS, FedEx, DHL, Canada Post, and Royal Mail.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/screenshots/easypost-2026-07-25T212719.png",
-     "score": 43.8,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 38.2,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 66.2,
+      "discoverability": 81.5,
+      "contract_quality": 64.1,
       "governance": 47.9,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 21.7,
-      "commercial_clarity": 47.4
+      "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -467,114 +537,26 @@
       "dry_run_mode": false
      },
      "tier": "Shipping API Aggregators",
-     "rank": 11
-    },
-    {
-     "name": "Packlink",
-     "slug": "packlink",
-     "description": "Packlink is a multi-carrier shipping comparison and management platform for e-commerce, founded in Spain and backed by Accel. It lets individuals and businesses compare courier services (UPS, DPD, DHL, Evri, Royal Mail and more) and send parcels nationally and internationally at negotiated rates. Its Packlink PRO product adds a business shipping dashboard with marketplace and e-commerce integrations (Shopify, WooCommerce, Magento, PrestaShop, Amazon, eBay). The Packlink PRO Shipping API (api.packlink.com) exposes service comparison, shipment creation, label printing, parcel tracking, warehouse management, customs invoicing, and integration management, and Packlink maintains open-source e-commerce integration modules on GitHub.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/screenshots/packlink-2026-08-07T191246.png",
-     "score": 42.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 68.2,
-      "governance": 11.5,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 36.4,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 36.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Shipping API Aggregators",
      "rank": 12
-    }
-   ]
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "28 – 41.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 5,
-   "shown": 5,
-   "providers": [
-    {
-     "name": "DHL",
-     "slug": "dhl",
-     "description": "DHL is a global logistics company that provides a wide range of services, including express delivery, freight transportation, supply chain solutions, and e-commerce services. As one of the largest logistics companies in the world, DHL operates in over 220 countries and territories, connecting businesses and individuals with seamless and reliable shipping solutions. The DHL API Developer Portal exposes APIs across the company's business divisions including DHL eCommerce, DHL Express, DHL Global Forwarding, DHL Freight, DHL Supply Chain, and Post and Parcel Germany.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/screenshots/dhl-2026-06-20T180001.png",
-     "score": 38.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 60.1,
-      "governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 34.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Parcel Integrators",
-     "rank": 13
     },
     {
      "name": "FedEx",
      "slug": "fedex",
      "description": "FedEx is a logistics company that provides shipping and delivery services worldwide. They offer a range of solutions for individuals and businesses, including express shipping, freight services, and e-commerce fulfillment. FedEx publishes a suite of REST APIs covering tracking, shipping, rating, address validation, pickup, locator, trade documents, and post-shipment visibility through their developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fedex/refs/heads/main/screenshots/fedex-2026-06-20T181131.png",
-     "score": 38.1,
+     "score": 35.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 64.4,
+      "contract_quality": 62.3,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 30.4,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 26.3
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -594,26 +576,26 @@
       "dry_run_mode": false
      },
      "tier": "Parcel Integrators",
-     "rank": 14
+     "rank": 13
     },
     {
      "name": "Lufthansa Cargo",
      "slug": "lufthansa-cargo",
      "description": "Lufthansa Cargo AG is the air freight arm of the Lufthansa Group, headquartered in Frankfurt, Germany. It sells and operates belly capacity across the Lufthansa passenger fleet plus its own Boeing 777F freighters, and runs the Frankfurt Cargo Center hub, so it sits in the chain as the airline carrier between the freight forwarder and the destination handling agent. Its API posture is real but two-speed: a live Apigee developer portal at developer.lufthansa-cargo.com publishes four OpenAPI 3.0 contracts anonymously downloadable without a login (Routing Offer, Shipment Tracking, Shipment Tracking Subscribe, Station Information), while six further API products in the same portfolio - smartBooking, Truck PreAdvice, ULD Status, AirMail, CargoXML and CargoIMP - are published only as info-block stubs carrying the sentence that access is granted upon prior approval and agreement. Registration is reviewed by Lufthansa Cargo API managers before keys are issued and production access requires successful test-environment validation, so this is application-approval, not self-serve. The published REST surface is a proprietary Lufthansa Cargo shape, but it carries open air-cargo vocabulary inside it - IATA AWB prefix 020 plus 8-digit AWB numbers, 3-letter IATA station codes and the IATA cargo status code set (RCS, MAN, DEP, ARR, RCF, NFD, DLV) - while the legacy Cargo-IMP and Cargo-XML EDI message sets remain in the portfolio as gated products and IATA ONE Record went live in July 2026 through the IBS Software ONE Record server rather than as anything Lufthansa Cargo publishes itself.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lufthansa-cargo/refs/heads/main/screenshots/lufthansa-cargo-2026-08-07T171824.png",
-     "score": 33.6,
+     "score": 33.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 55.8,
+      "contract_quality": 53.7,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -633,53 +615,53 @@
       "dry_run_mode": false
      },
      "tier": "Air Cargo Carriers",
-     "rank": 15
+     "rank": 14
     },
     {
-     "name": "GLS Group",
-     "slug": "gls-group",
-     "description": "GLS Group (General Logistics Systems B.V.) is a European ground-based parcel and freight carrier headquartered in Amsterdam-Duivendrecht, Netherlands, and owned by International Distributions Services plc. It operates a road network of more than 120 hubs and roughly 1,600 depots across some 50 countries in Europe, the United States and Canada, moving B2B and B2C parcels up to about 32 kg plus a freight/LTL and express line, with an out-of-home ParcelShop and locker network. In the supply chain it is a last-mile and middle-mile parcel integrator: the party a shipper, e-commerce platform or shipping-API aggregator hands a consignment to for pickup, linehaul, customs clearance and delivery. Its API posture is federated and contract-bound rather than unified. The GLS Group developer portal (dev-portal.gls-group.net, run by GLS IT Services GmbH on Apigee) allows self-serve account and app registration with API keys or OAuth 2.0, but its API catalog is only visible after sign-in and \"restricted\" APIs additionally require approval by a local GLS representative. National units run their own portals — GLS Netherlands publishes an Azure API Management portal at api-portal.gls.nl whose OpenAPI 3.0.1 definitions for the Label API and the Track & Trace API are anonymously readable, but calling them still requires MyGLS credentials issued to a contracted shipper. The group-wide GLS ShipIT REST/SOAP web services are fully documented in public Doxygen reference pages, yet the base URL itself is handed out only with credentials by a customer's primary GLS contact. No industry data standard — GS1/EPCIS, UPU, DCSA, IATA ONE Record, UN/EDIFACT or ANSI X12 — is referenced anywhere in the artifacts GLS publishes; every identifier and event vocabulary is GLS-proprietary.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gls-group/refs/heads/main/screenshots/gls-group-2026-08-07T165749.png",
-     "score": 30.1,
+     "name": "DHL",
+     "slug": "dhl",
+     "description": "DHL is a global logistics company that provides a wide range of services, including express delivery, freight transportation, supply chain solutions, and e-commerce services. As one of the largest logistics companies in the world, DHL operates in over 220 countries and territories, connecting businesses and individuals with seamless and reliable shipping solutions. The DHL API Developer Portal exposes APIs across the company's business divisions including DHL eCommerce, DHL Express, DHL Global Forwarding, DHL Freight, DHL Supply Chain, and Post and Parcel Germany.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/screenshots/dhl-2026-06-20T180001.png",
+     "score": 30.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 53.1,
+      "discoverability": 75.9,
+      "contract_quality": 58.2,
       "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 17.4,
-      "commercial_clarity": 34.2
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 29.7,
-     "agent_band": "agent-aware",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 34.2,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": false,
+      "agentic_access": "derived",
       "mcp_server": false,
-      "auth_clarity": false,
+      "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
      "tier": "Parcel Integrators",
-     "rank": 16
+     "rank": 15
     },
     {
      "name": "Canada Post",
      "slug": "canada-post",
      "description": "Canada Post is the primary postal operator in Canada, offering a developer platform with REST and SOAP web services for e-commerce merchants and solution providers. APIs cover shipping label generation, rate calculation, parcel tracking, address validation (AddressComplete), parcel pickup scheduling, returns management, post office location lookup, and service information.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/canada-post/refs/heads/main/screenshots/canada-post-2026-06-20T173916.png",
-     "score": 29.0,
+     "score": 29.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -687,11 +669,11 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 31.6,
-      "developer_ergonomics": 34.8,
+      "developer_ergonomics": 39.1,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -711,6 +693,45 @@
       "dry_run_mode": false
      },
      "tier": "Postal Operators",
+     "rank": 16
+    },
+    {
+     "name": "GLS Group",
+     "slug": "gls-group",
+     "description": "GLS Group (General Logistics Systems B.V.) is a European ground-based parcel and freight carrier headquartered in Amsterdam-Duivendrecht, Netherlands, and owned by International Distributions Services plc. It operates a road network of more than 120 hubs and roughly 1,600 depots across some 50 countries in Europe, the United States and Canada, moving B2B and B2C parcels up to about 32 kg plus a freight/LTL and express line, with an out-of-home ParcelShop and locker network. In the supply chain it is a last-mile and middle-mile parcel integrator: the party a shipper, e-commerce platform or shipping-API aggregator hands a consignment to for pickup, linehaul, customs clearance and delivery. Its API posture is federated and contract-bound rather than unified. The GLS Group developer portal (dev-portal.gls-group.net, run by GLS IT Services GmbH on Apigee) allows self-serve account and app registration with API keys or OAuth 2.0, but its API catalog is only visible after sign-in and \"restricted\" APIs additionally require approval by a local GLS representative. National units run their own portals — GLS Netherlands publishes an Azure API Management portal at api-portal.gls.nl whose OpenAPI 3.0.1 definitions for the Label API and the Track & Trace API are anonymously readable, but calling them still requires MyGLS credentials issued to a contracted shipper. The group-wide GLS ShipIT REST/SOAP web services are fully documented in public Doxygen reference pages, yet the base URL itself is handed out only with credentials by a customer's primary GLS contact. No industry data standard — GS1/EPCIS, UPU, DCSA, IATA ONE Record, UN/EDIFACT or ANSI X12 — is referenced anywhere in the artifacts GLS publishes; every identifier and event vocabulary is GLS-proprietary.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gls-group/refs/heads/main/screenshots/gls-group-2026-08-07T165749.png",
+     "score": 29.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 51.1,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 29.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Parcel Integrators",
      "rank": 17
     }
    ]
@@ -720,15 +741,15 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 6,
-   "shown": 6,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "USPS",
      "slug": "usps",
      "description": "The United States Postal Service (USPS) provides a modern suite of RESTful APIs for address validation, domestic and international pricing, shipping label creation and cancellation, tracking, and service standards through its developer portal. The APIs replace the legacy Web Tools platform and use OAuth 2.0 Client Credentials for authentication. The platform supports both production and TEM (Testing Environment for Mailers) endpoints for developing and validating shipping integrations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/screenshots/usps-2026-06-20T200718.png",
-     "score": 23.2,
+     "score": 25.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -737,10 +758,10 @@
       "governance": 0.0,
       "operational_transparency": 5.3,
       "developer_ergonomics": 21.7,
-      "commercial_clarity": 0.0
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 16.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -767,19 +788,19 @@
      "slug": "cargoai",
      "description": "CargoAi is a Singapore-headquartered air cargo technology company that operates CargoMART, a digital marketplace where freight forwarders search routes, schedules, capacity and rates across 680+ airlines, book them, transmit the electronic air waybill, and track the shipment end to end. It sits in the middle of the air cargo chain as an aggregator between forwarders and their TMS vendors on one side and airline reservation and messaging systems on the other. Its API posture is genuinely public in documentation and sales-gated in access - the CargoCONNECT developer portal at cargoai.readme.io is open to anyone with no login and publishes a real OpenAPI 3.1 definition per operation, but an x-api-key is issued only after a commercial conversation with the CargoAi enterprise team. The published contract is a proprietary REST shape rather than an IATA ONE Record interface, though the payloads it carries are IATA-native - AWB numbers with airline prefixes, IATA airport and airline codes, Special Handling Codes, IATA cargo status event codes, FWB and FHL message content, and CO2 figures computed per IATA Recommended Practice 1678.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cargoai/refs/heads/main/screenshots/cargoai-2026-08-07T163015.png",
-     "score": 22.6,
+     "score": 22.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 15.2,
+      "contract_quality": 14.6,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 26.1,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 22.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -802,45 +823,6 @@
      "rank": 19
     },
     {
-     "name": "IATA",
-     "slug": "iata",
-     "description": "The International Air Transport Association (IATA) is the global trade association representing and serving the airline industry. IATA sets standards for the aviation industry, promotes cooperation among airlines, and operates an Open API Hub providing access to airline-published APIs for flight status, destinations, baggage, ticket validation, cargo, digital identity, and related aviation data services.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/iata/refs/heads/main/screenshots/iata-2026-06-20T183109.png",
-     "score": 21.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 15.2,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 4.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Industry Bodies & Standards",
-     "rank": 20
-    },
-    {
      "name": "Freightos",
      "slug": "freightos",
      "description": "Freightos (NASDAQ CRGO) operates a global freight booking marketplace and, through WebCargo by Freightos, a rate-management and eBooking platform used by freight forwarders and carriers to price and book air, ocean, and trucking shipments in real time across 55+ carriers. Freightos publishes a developer portal (developers.freightos.com / developer.freightos.com) with freight-rate estimation, HS-code duties classification, and CO2 emissions APIs, plus the public Shipping Calculator on the marketplace. Bookable live rates, eBooking, and shipment tracking are offered to forwarder, carrier, and TMS/ERP partners under commercial agreements. Most developer-portal APIs are documented as beta and provided as-is, and full access is provisioned per partner rather than via open self-service signup.",
@@ -856,8 +838,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -877,7 +859,7 @@
       "dry_run_mode": false
      },
      "tier": "Air Cargo Marketplaces",
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "Emirates SkyCargo",
@@ -895,8 +877,8 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -916,27 +898,27 @@
       "dry_run_mode": false
      },
      "tier": "Air Cargo Carriers",
-     "rank": 22
+     "rank": 21
     },
     {
-     "name": "AfterShip",
-     "slug": "aftership",
-     "description": "AfterShip is an e-commerce shipment tracking and post-purchase platform. APIs cover trackings, couriers, notifications, returns, and email.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/screenshots/aftership-2026-06-20T165736.png",
-     "score": 14.8,
+     "name": "IATA",
+     "slug": "iata",
+     "description": "The International Air Transport Association (IATA) is the global trade association representing and serving the airline industry. IATA sets standards for the aviation industry, promotes cooperation among airlines, and operates an Open API Hub providing access to airline-published APIs for flight status, destinations, baggage, ticket validation, cargo, digital identity, and related aviation data services.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/iata/refs/heads/main/screenshots/iata-2026-06-20T183109.png",
+     "score": 13.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 64.8,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 36.8
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 15.2,
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.2,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 4.7,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -945,7 +927,7 @@
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
-      "openapi_examples": false,
+      "openapi_examples": "documented",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -954,8 +936,8 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Tracking Aggregators",
-     "rank": 23
+     "tier": "Industry Bodies & Standards",
+     "rank": 22
     }
    ]
   },
@@ -964,8 +946,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 3,
-   "shown": 3,
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
      "name": "Cargolux",
@@ -983,8 +965,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1004,7 +986,7 @@
       "dry_run_mode": false
      },
      "tier": "Air Cargo Carriers",
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "Evri",
@@ -1022,8 +1004,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1043,6 +1025,45 @@
       "dry_run_mode": false
      },
      "tier": "Parcel Integrators",
+     "rank": 24
+    },
+    {
+     "name": "AfterShip",
+     "slug": "aftership",
+     "description": "AfterShip is an e-commerce shipment tracking and post-purchase platform. APIs cover trackings, couriers, notifications, returns, and email.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/screenshots/aftership-2026-06-20T165736.png",
+     "score": 9.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Tracking Aggregators",
      "rank": 25
     },
     {
@@ -1061,8 +1082,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

@@ -3,22 +3,22 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: false
     idempotency: documented
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 65.8
-  scored_at: '2026-08-10'
+  score: 54.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -31,8 +31,12 @@ apis:
 - description: Geração de fatura/recibo em PDF
   name: FaturaPDF — Brazilian Invoice & Receipt PDF API Documents API
   slug: faturapdf-brazilian-invoice-receipt-pdf-api-documents-api
-artifact_total: 10
+artifact_total: 11
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/faturapdf-brazilian-invoice-receipt-pdf-api-mcp.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -175,6 +179,10 @@ examples:
   slug: faturapdf-brazilian-invoice-receipt-pdf-api-generate-receipt-example
 image: https://faturapdf.com/og-cover.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: faturapdf-brazilian-invoice-receipt-pdf-api-mcp.yml
+  slug: faturapdf-brazilian-invoice-receipt-pdf-api-mcpyml
 modified: '2026-08-09'
 name: FaturaPDF — Brazilian Invoice & Receipt PDF API
 nav: Providers
@@ -182,7 +190,7 @@ network: true
 overview: 'FaturaPDF — Brazilian Invoice & Receipt PDF API publishes 1 API on the [APIs.io](https://apis.io/) network: Documents API. Tagged areas include Invoices, Receipts, PDF Generation, Documents, and Brazil.
 
 
-  FaturaPDF — Brazilian Invoice & Receipt PDF API''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 25 more developer resources.'
+  FaturaPDF — Brazilian Invoice & Receipt PDF API''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 26 more developer resources.'
 plans:
 - name: Faturapdf Brazilian Invoice Receipt Pdf Api Plans
   plan_count: 4
@@ -194,16 +202,29 @@ rate_limits:
   slug: faturapdf-brazilian-invoice-receipt-pdf-api-rate-limits
 score:
   band: strong
-  composite: 61.7
+  composite: 61.0
+  delta: -0.7
   facets:
     commercial_clarity: 76.3
-    contract_quality: 60.5
-    developer_ergonomics: 63.0
+    contract_quality: 64.2
+    developer_ergonomics: 60.3
     discoverability: 87.0
-    governance: 20.8
+    governance: 11.5
     operational_transparency: 57.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 61.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Faturapdf Brazilian Invoice Receipt Pdf Api Authentication

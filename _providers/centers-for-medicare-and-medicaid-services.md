@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -177,15 +177,15 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 39.8
-  delta: 0.0
+  composite: 32.6
+  delta: -7.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 64.3
+    commercial_clarity: 26.3
+    contract_quality: 61.9
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 39.8
   provenance:
     agentic_access: derived
@@ -200,9 +200,9 @@ score:
     regime: Health
     regime_id: health
     score: 41.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/centers-for-medicare-and-medicaid-services/refs/heads/main/screenshots/centers-for-medicare-and-medicaid-services-2026-06-20T174129.png
 security:
 - kind: authentication

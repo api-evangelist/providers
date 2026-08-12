@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The Tez DAG API provides a Java programming model for defining and submitting directed-acyclic-graph (DAG) computation jobs to Apache YARN. It allows building DAGs composed of Vertex (processing units
@@ -39,6 +39,14 @@ apis:
   slug: apache-tez-ui-rest-api
 artifact_total: 19
 common:
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/tez/blob/master/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -102,7 +110,7 @@ network: true
 overview: 'Apache Tez publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Big Data, DAG, Execution Engine, Hadoop, and YARN.
 
 
-  Apache Tez''s developer surface includes documentation, developer portal, release notes, and 4 more developer resources.'
+  Apache Tez''s developer surface includes documentation, developer portal, release notes, and 6 more developer resources.'
 plans:
 - name: Apache Tez Plans Pricing
   plan_count: 3
@@ -114,19 +122,19 @@ rate_limits:
   slug: apache-tez-rate-limits
 score:
   band: emerging
-  composite: 25.6
-  delta: 0.0
+  composite: 17.8
+  delta: -7.8
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 17.4
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 47.4
+    operational_transparency: 23.7
   previous_composite: 25.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-tez/refs/heads/main/screenshots/apache-tez-2026-06-20T172151.png
 security:
 - kind: domain-security

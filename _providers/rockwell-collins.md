@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -69,6 +69,10 @@ collections:
   name: AeroAPI
   slug: open-flightaware-aeroapi
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/flightaware/aeroapps/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -172,7 +176,7 @@ overview: 'Rockwell Collins publishes 7 APIs on the [APIs.io](https://apis.io/) 
   The Rockwell Collins catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Rockwell Collins'' developer surface includes authentication, developer portal, documentation, support, and 13 more developer resources.'
+  Rockwell Collins'' developer surface includes authentication, developer portal, documentation, support, and 14 more developer resources.'
 plans:
 - name: Rockwell Collins Plans Pricing
   plan_count: 3
@@ -217,15 +221,15 @@ rules:
   slug: rockwell-collins-rules
 score:
   band: developing
-  composite: 51.4
-  delta: 0.0
+  composite: 43.0
+  delta: -8.4
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 69.0
+    commercial_clarity: 15.8
+    contract_quality: 66.4
     developer_ergonomics: 32.6
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 51.4
   provenance:
     agentic_access: derived
@@ -234,9 +238,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/screenshots/rockwell-collins-2026-06-20T193203.png
 security:
 - kind: authentication

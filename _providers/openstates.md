@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -61,6 +61,10 @@ apis:
   slug: openstates-people-api
 artifact_total: 21
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/openstates/api-v3/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -152,7 +156,7 @@ overview: 'Open States publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
   The Open States catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Open States'' developer surface includes documentation, engineering blog, pricing, and 8 more developer resources.'
+  Open States'' developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
 plans:
 - name: Openstates Plans Pricing
   plan_count: 4
@@ -173,11 +177,11 @@ rules:
   slug: openstates-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.2
-  delta: 0.0
+  composite: 37.8
+  delta: -0.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 56.3
+    contract_quality: 54.5
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 58.3
@@ -196,8 +200,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/screenshots/openstates-2026-06-20T191040.png
 security:

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-08-10'
+  score: 47.1
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Public Api API from Contra — 3 operation(s) for public api.
@@ -36,6 +37,10 @@ apis:
   slug: contra-public-api-api
 artifact_total: 5
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/contra-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -143,7 +148,7 @@ network: true
 overview: 'Contra publishes 1 API on the [APIs.io](https://apis.io/) network: Public Api API. Tagged areas include Company, Future Of Work, Freelance Marketplace, Talent, and Hiring.
 
 
-  Contra''s developer surface includes documentation, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
+  Contra''s developer surface includes documentation, engineering blog, pricing, signup flow, authentication, and 19 more developer resources.'
 random_paper: 67
 scopes:
 - name: Contra Scopes
@@ -152,13 +157,13 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 39.7
-  delta: 0.0
+  composite: 38.3
+  delta: -1.4
   facets:
     commercial_clarity: 44.7
-    contract_quality: 36.4
+    contract_quality: 35.1
     developer_ergonomics: 38.6
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 20.8
     operational_transparency: 21.1
   previous_composite: 39.7
@@ -171,8 +176,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contra/refs/heads/main/screenshots/contra-2026-07-25T210337.png
 security:

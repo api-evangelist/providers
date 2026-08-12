@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 54.5
-  scored_at: '2026-08-10'
+  score: 50.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -665,11 +666,11 @@ scopes:
   summary_line: 97 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 72.9
-  delta: 0.0
+  composite: 74.8
+  delta: 1.9
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 74.4
+    commercial_clarity: 92.1
+    contract_quality: 71.6
     developer_ergonomics: 67.4
     discoverability: 77.8
     governance: 69.8
@@ -684,8 +685,8 @@ score:
       marker_coverage: 0.0
       total: 19
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/screenshots/socket-dev-2026-06-20T194122.png
 security:

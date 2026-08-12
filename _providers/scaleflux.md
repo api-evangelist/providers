@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -104,21 +104,21 @@ overview: 'ScaleFlux is profiled on the [APIs.io](https://apis.io/) network. Tag
   ScaleFlux''s developer surface includes CLI, engineering blog, product news, FAQ, support, and 12 more developer resources.'
 random_paper: 39
 score:
-  band: emerging
-  composite: 13.1
-  delta: 0.0
+  band: minimal
+  composite: 11.9
+  delta: -1.2
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
     developer_ergonomics: 13.0
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 12.5
     operational_transparency: 0.0
   previous_composite: 13.1
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

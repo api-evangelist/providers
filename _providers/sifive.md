@@ -11,21 +11,25 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-10'
+  score: 23.4
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The OAuth 2.0 authorization server that fronts the SiFive Cloud Services (SCS) portal at scs.sifive.com, where SiFive Core Designer and the rest of the SiFive development tooling are delivered. It pub
   name: SiFive Cloud Services OAuth 2.0
   slug: sifive-cloud-services-oauth
-artifact_total: 6
+artifact_total: 7
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/sifive-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -147,6 +151,10 @@ json_schemas:
   property_count: 0
   slug: sifive-duh
 layout: provider
+mcp_servers:
+- description: ''
+  name: sifive-mcp.yml
+  slug: sifive-mcpyml
 modified: '2026-08-05'
 name: SiFive
 nav: Providers
@@ -154,7 +162,7 @@ network: true
 overview: 'SiFive publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, RISC-V, Processor IP, and Chip Design.
 
 
-  SiFive''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, authentication, CLI, and 21 more developer resources.'
+  SiFive''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, authentication, CLI, and 22 more developer resources.'
 random_paper: 66
 scopes:
 - name: Sifive Scopes
@@ -163,12 +171,12 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 30.8
-  delta: 0.0
+  composite: 32.6
+  delta: 1.8
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 58.7
+    developer_ergonomics: 67.4
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 15.8
@@ -176,8 +184,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

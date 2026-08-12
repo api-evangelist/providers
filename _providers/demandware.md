@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The modern Salesforce Commerce API (SCAPI) — Shopper APIs (products, search, baskets, orders, customers), Admin APIs, and the Shopper Login and API Access Service (SLAS). Published as OpenAPI, secured
@@ -205,8 +205,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demandware/refs/heads/main/screenshots/demandware-2026-07-25T211712.png
 security:

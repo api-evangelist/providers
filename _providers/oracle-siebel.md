@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 16
 apis:
 - description: SOAP-based web services for enterprise integration with Siebel CRM, supporting complex business operations and workflows. Siebel provides both inbound web services for external clients to access Siebe
@@ -215,25 +215,25 @@ rules:
   slug: oracle-siebel-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 63.6
-  delta: -1.0
+  composite: 56.1
+  delta: -7.5
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 63.6
+    commercial_clarity: 50.0
+    contract_quality: 64.9
     developer_ergonomics: 50.0
     discoverability: 64.8
     governance: 52.1
-    operational_transparency: 78.9
-  previous_composite: 64.6
+    operational_transparency: 55.3
+  previous_composite: 63.6
   provenance:
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+      total: 10
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/screenshots/oracle-siebel-2026-06-20T191147.png
 security:
 - kind: domain-security

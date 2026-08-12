@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-10'
+  score: 38.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -189,13 +189,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 40.2
-  delta: 0.0
+  composite: 39.1
+  delta: -1.1
   facets:
     commercial_clarity: 34.2
-    contract_quality: 15.5
+    contract_quality: 14.9
     developer_ergonomics: 56.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 42.1
   previous_composite: 40.2
@@ -215,8 +215,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/screenshots/bitfinder-2026-07-25T203146.png
 security:

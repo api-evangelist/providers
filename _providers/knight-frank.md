@@ -27,10 +27,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-10'
+  score: 34.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -202,11 +202,11 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 31.6
-  delta: 0.0
+  composite: 31.3
+  delta: -0.3
   facets:
     commercial_clarity: 21.1
-    contract_quality: 33.3
+    contract_quality: 32.1
     developer_ergonomics: 21.2
     discoverability: 87.0
     governance: 11.5
@@ -228,8 +228,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 58.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/screenshots/knight-frank-2026-08-07T171255.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 1
@@ -213,6 +213,34 @@ collections:
   name: Increase API
   slug: open-increase
 common:
+- group: start
+  title: ''
+  type: Sandbox
+  url: https://increase.com/documentation/sandbox
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://increase.com/documentation/api/overview
+- group: auth
+  title: ''
+  type: Security
+  url: https://increase.com/security
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://increase.com/documentation/compliance-overview
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.increase.com
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://increase.com/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://increase.com/terms
 - group: agent
   title: ''
   type: AgenticAccess
@@ -276,7 +304,7 @@ network: true
 overview: 'Increase publishes 56 APIs on the [APIs.io](https://apis.io/) network, including Account Numbers API, Account Statements API, Account Transfers API, and 53 more. Tagged areas include Fintech, Banking, Payments, ACH, and Wires.
 
 
-  Increase''s developer surface includes authentication, engineering blog, and 10 more developer resources.'
+  Increase''s developer surface includes sandbox, API reference, authentication, engineering blog, and 15 more developer resources.'
 plans:
 - name: Increase Plans Pricing
   plan_count: 1
@@ -288,15 +316,15 @@ rate_limits:
   slug: increase-rate-limits
 score:
   band: thin
-  composite: 31.6
-  delta: 0.0
+  composite: 39.4
+  delta: 7.8
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 59.6
-    developer_ergonomics: 13.0
-    discoverability: 64.8
+    commercial_clarity: 42.1
+    contract_quality: 57.4
+    developer_ergonomics: 26.1
+    discoverability: 66.7
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 36.8
   previous_composite: 31.6
   provenance:
     agentic_access: derived
@@ -310,10 +338,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 22.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+    score: 39.2
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/increase/refs/heads/main/screenshots/increase-2026-06-20T183309.png
 security:
 - kind: authentication

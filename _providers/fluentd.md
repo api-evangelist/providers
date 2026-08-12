@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -57,6 +57,30 @@ collections:
   name: Fluentd HTTP Input API
   slug: open-fluentd-http-input
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/fluent/fluentd/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/fluent/fluentd/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/fluent/fluentd/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/fluent/fluentd/blob/master/code-of-conduct.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/fluent/fluentd/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/fluent/fluentd/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -144,7 +168,7 @@ overview: 'Fluentd publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
   The Fluentd catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Fluentd''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, and 10 more developer resources.'
+  Fluentd''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, and 16 more developer resources.'
 plans:
 - name: Fluentd Plans Pricing
   plan_count: 3
@@ -172,16 +196,16 @@ rules:
     warn: 4
   slug: fluentd-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 47.7
-  delta: 0.0
+  band: thin
+  composite: 41.5
+  delta: -6.2
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 67.6
+    commercial_clarity: 15.8
+    contract_quality: 65.4
     developer_ergonomics: 26.1
-    discoverability: 46.3
+    discoverability: 53.7
     governance: 52.1
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 47.7
   provenance:
     agentic_access: derived
@@ -190,9 +214,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluentd/refs/heads/main/screenshots/fluentd-2026-06-20T181334.png
 security:
 - kind: domain-security

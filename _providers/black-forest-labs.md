@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -128,15 +128,15 @@ rate_limits:
   slug: black-forest-labs-rate-limits
 score:
   band: thin
-  composite: 35.5
-  delta: 0.0
+  composite: 29.8
+  delta: -5.7
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 58.4
+    commercial_clarity: 13.2
+    contract_quality: 56.2
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 35.5
   provenance:
     agentic_access: derived
@@ -145,9 +145,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/black-forest-labs/refs/heads/main/screenshots/black-forest-labs-2026-06-20T173409.png
 security:
 - kind: authentication

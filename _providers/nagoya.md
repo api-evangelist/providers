@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: OAI-PMH 2.0 metadata harvesting interface for the NAGOYA Repository, the Nagoya University institutional repository running on the NII WEKO3 / JAIRO Cloud platform. Supports the standard OAI-PMH verbs
@@ -129,8 +129,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 21.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nagoya/refs/heads/main/screenshots/nagoya-2026-06-20T185937.png
 security:

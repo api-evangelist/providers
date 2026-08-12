@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-10'
+  score: 39.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 3
@@ -56,8 +56,16 @@ apis:
 - description: Operations for configuring Audit Manager settings
   name: Amazon Audit Manager Settings API
   slug: amazon-audit-manager-settings-api
-artifact_total: 225
+artifact_total: 226
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/amazon-audit-manager-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-audit-manager-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -674,6 +682,10 @@ jsonld:
   property_count: 0
   slug: amazon-audit-manager-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: amazon-audit-manager-mcp.yml
+  slug: amazon-audit-manager-mcpyml
 modified: '2026-06-20'
 name: Amazon Audit Manager
 nav: Providers
@@ -684,7 +696,7 @@ overview: 'Amazon Audit Manager publishes 6 APIs on the [APIs.io](https://apis.i
   The Amazon Audit Manager catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Audit Manager''s developer surface includes authentication and 5 more developer resources.'
+  Amazon Audit Manager''s developer surface includes authentication and 7 more developer resources.'
 random_paper: 30
 rules:
 - name: Amazon Audit Manager API Rules
@@ -705,12 +717,12 @@ rules:
   slug: amazon-audit-manager-spectral-rules
 score:
   band: thin
-  composite: 37.7
-  delta: 0.0
+  composite: 37.4
+  delta: -0.3
   facets:
     commercial_clarity: 0.0
-    contract_quality: 79.1
-    developer_ergonomics: 10.9
+    contract_quality: 76.1
+    developer_ergonomics: 13.0
     discoverability: 74.1
     governance: 69.8
     operational_transparency: 0.0
@@ -724,8 +736,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/screenshots/amazon-audit-manager-2026-07-25T195931.png
 security:

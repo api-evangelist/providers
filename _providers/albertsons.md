@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -270,15 +270,15 @@ rules:
   slug: albertsons-spectral-rules
 score:
   band: thin
-  composite: 40.7
-  delta: 0.0
+  composite: 35.1
+  delta: -5.6
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 33.3
+    commercial_clarity: 34.2
+    contract_quality: 32.1
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 21.1
+    operational_transparency: 5.3
   previous_composite: 40.7
   provenance:
     agentic_access: derived
@@ -287,9 +287,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 security:
 - kind: authentication
   name: Albertsons Authentication

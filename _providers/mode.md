@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -73,6 +73,10 @@ apis:
   slug: mode-verify-api
 artifact_total: 15
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mode-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -184,15 +188,15 @@ network: true
 overview: 'Mode publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Account API, Audit Logs API, Data Sources API, and 8 more. Tagged areas include Company, Enterprise, Business Intelligence, Analytics, and Data.
 
 
-  Mode''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 17 more developer resources.'
+  Mode''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 18 more developer resources.'
 random_paper: 73
 score:
   band: developing
-  composite: 47.6
-  delta: 0.0
+  composite: 47.1
+  delta: -0.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 60.9
+    contract_quality: 58.6
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
@@ -208,8 +212,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/screenshots/mode-2026-08-07T183917.png
 security:

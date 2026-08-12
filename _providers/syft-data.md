@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-08-10'
+  score: 40.8
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The Export API from Syft Data — 1 operation(s) for export.
@@ -43,6 +43,10 @@ asyncapis:
   name: Syft Data Webhooks
   slug: syft-data-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/syft-data-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -153,7 +157,7 @@ overview: 'Syft Data publishes 2 APIs on the [APIs.io](https://apis.io/) network
   The Syft Data catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Syft Data''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
+  Syft Data''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
 random_paper: 97
 scopes:
 - name: Syft Data Scopes
@@ -162,13 +166,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 54.2
-  delta: 0.0
+  composite: 52.3
+  delta: -1.9
   facets:
     commercial_clarity: 44.7
-    contract_quality: 82.2
+    contract_quality: 79.1
     developer_ergonomics: 64.7
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 13.2
   previous_composite: 54.2
@@ -181,8 +185,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

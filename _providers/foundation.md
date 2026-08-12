@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: GraphQL API powered by The Graph protocol that indexes all Foundation NFT marketplace activity on Ethereum mainnet. Supports queries for NFTs, creators, collectors, auctions, bids, offers, buy-now lis
@@ -39,6 +39,10 @@ apis:
   slug: foundation-smart-contract-api
 artifact_total: 8
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/f8n/fnd-protocol/releases
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -90,7 +94,7 @@ network: true
 overview: 'Foundation publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include NFT, Digital Art, Marketplace, Ethereum, and Web3.
 
 
-  Foundation''s developer surface includes engineering blog and 7 more developer resources.'
+  Foundation''s developer surface includes engineering blog and 8 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
@@ -102,18 +106,18 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 33.6
-  delta: 0.0
+  composite: 35.7
+  delta: 2.1
   facets:
     commercial_clarity: 60.5
     contract_quality: 43.2
     developer_ergonomics: 2.2
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 42.1
   previous_composite: 33.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/foundation/refs/heads/main/screenshots/foundation-2026-06-20T181453.png
 security:

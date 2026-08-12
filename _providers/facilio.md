@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 0
@@ -297,11 +298,11 @@ scopes:
   summary_line: 7 scopes · authorizationCode/password
 score:
   band: developing
-  composite: 49.4
-  delta: 0.0
+  composite: 48.9
+  delta: -0.5
   facets:
     commercial_clarity: 52.6
-    contract_quality: 56.5
+    contract_quality: 54.4
     developer_ergonomics: 58.2
     discoverability: 92.6
     governance: 20.8
@@ -317,8 +318,8 @@ score:
       total: 35
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/screenshots/facilio-2026-07-25T214135.png
 security:

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-10'
+  score: 46.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 2
@@ -801,11 +802,11 @@ rules:
   slug: amazon-appflow-spectral-rules
 score:
   band: developing
-  composite: 48.7
-  delta: 0.0
+  composite: 48.4
+  delta: -0.3
   facets:
     commercial_clarity: 42.1
-    contract_quality: 33.3
+    contract_quality: 32.1
     developer_ergonomics: 47.8
     discoverability: 87.0
     governance: 80.2
@@ -820,8 +821,8 @@ score:
       marker_coverage: 100.0
       total: 3
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/screenshots/amazon-appflow-2026-07-25T195916.png
 security:

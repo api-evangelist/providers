@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-08-10'
+  score: 40.8
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Health, APY, NAV, and price series
@@ -163,13 +163,13 @@ overview: 'Re publishes 5 APIs on the [APIs.io](https://apis.io/) network, inclu
 random_paper: 99
 score:
   band: thin
-  composite: 41.6
-  delta: 0.0
+  composite: 40.3
+  delta: -1.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 55.0
+    contract_quality: 53.0
     developer_ergonomics: 60.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 3.1
     operational_transparency: 0.0
   previous_composite: 41.6
@@ -188,8 +188,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

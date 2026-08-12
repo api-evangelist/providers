@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 0
@@ -195,6 +196,10 @@ collections:
   name: Coval Agents Widgets API
   slug: postman-coval-widgets-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/coval-agents-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -341,17 +346,17 @@ overview: 'Coval publishes 25 APIs on the [APIs.io](https://apis.io/) network, i
   The Coval catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Coval''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 25 more developer resources.'
+  Coval''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 26 more developer resources.'
 random_paper: 69
 score:
   band: strong
-  composite: 63.3
-  delta: 0.0
+  composite: 61.5
+  delta: -1.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 75.1
+    contract_quality: 72.3
     developer_ergonomics: 79.9
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
   previous_composite: 63.3
@@ -365,8 +370,8 @@ score:
       total: 25
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/screenshots/coval-2026-07-25T210531.png
 security:

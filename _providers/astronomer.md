@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-08-10'
+  score: 46.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 2
@@ -85,6 +86,10 @@ apis:
   slug: astronomer-workspace-api
 artifact_total: 21
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/astronomer-astro-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -216,17 +221,17 @@ network: true
 overview: 'Astronomer publishes 15 APIs on the [APIs.io](https://apis.io/) network, including AgentToken API, AllowedIpAddressRange API, ApiToken API, and 12 more. Tagged areas include Company, Data Orchestration, Apache Airflow, Data Pipelines, and Data Engineering.
 
 
-  Astronomer''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, CLI, changelog, and 22 more developer resources.'
+  Astronomer''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, CLI, changelog, and 23 more developer resources.'
 random_paper: 54
 score:
   band: strong
-  composite: 57.9
-  delta: 0.0
+  composite: 56.2
+  delta: -1.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 60.2
+    contract_quality: 57.9
     developer_ergonomics: 64.7
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 55.3
   previous_composite: 57.9
@@ -240,8 +245,8 @@ score:
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/astronomer/refs/heads/main/screenshots/astronomer-2026-07-25T201511.png
 security:

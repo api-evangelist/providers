@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
@@ -170,8 +170,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 10.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hudl/refs/heads/main/screenshots/hudl-2026-06-20T182923.png
 security:

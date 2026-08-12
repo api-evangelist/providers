@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 23.4
-  scored_at: '2026-08-10'
+  score: 19.8
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: 'The Cardless partner API surface used by brands to embed a co-branded credit card program: partner authentication (Basic-auth exchange of a partner-signed JWT for a bearer access token), application s'
@@ -152,8 +152,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardless/refs/heads/main/screenshots/cardless-2026-08-07T162953.png
 security:

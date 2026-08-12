@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Centralized HKUST API platform run by the IT Services Office on Azure API Management. Departments publish application APIs to the portal, where users can discover APIs, read documentation, try them in
@@ -42,6 +42,26 @@ apis:
   slug: open-data-platform
 artifact_total: 8
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/IQSS/dataverse/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/IQSS/dataverse/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/IQSS/dataverse/blob/develop/.github/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/IQSS/dataverse/blob/develop/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/IQSS/dataverse/blob/develop/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -106,15 +126,15 @@ rate_limits:
   slug: hkust-rate-limits
 score:
   band: emerging
-  composite: 20.0
-  delta: 0.0
+  composite: 22.9
+  delta: 2.9
   facets:
     commercial_clarity: 28.9
     contract_quality: 12.9
     developer_ergonomics: 8.7
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 47.4
   previous_composite: 20.0
   regulatory:
     applies: true
@@ -122,8 +142,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/screenshots/hkust-2026-06-20T182813.png
 security:

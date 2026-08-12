@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: JSON REST API for backlink/referring-domain lookups, indexed Common Crawl release listing, and async competitor gap analysis. Bearer auth (cg_live_ keys); API access requires the $99 lifetime tier.
@@ -56,8 +56,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 6.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crawlgraph/refs/heads/main/screenshots/crawlgraph-2026-07-25T210652.png
 slug: crawlgraph

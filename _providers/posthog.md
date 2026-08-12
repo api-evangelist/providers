@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 927
   human_in_the_loop: 18
@@ -5860,15 +5860,15 @@ rules:
   slug: posthog-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 63.7
-  delta: 0.0
+  composite: 56.1
+  delta: -7.6
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 58.3
+    commercial_clarity: 68.4
+    contract_quality: 56.4
     developer_ergonomics: 54.3
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 41.7
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 63.7
   provenance:
     agentic_access: derived
@@ -5877,9 +5877,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 131
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/posthog/refs/heads/main/screenshots/posthog-2026-06-20T192012.png
 security:
 - kind: authentication

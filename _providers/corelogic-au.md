@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +12,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-10'
+  score: 49.3
+  scored_at: '2026-08-11'
 api_count: 26
 apis:
 - description: OAuth 2.0 token service for every Cotality Australia and New Zealand API. Issues JWT access tokens via client_credentials, authorization_code and refresh_token grants. The developer portal documents P
@@ -99,12 +100,16 @@ apis:
 - description: Cordell Sum Sure — building and contents rebuild-cost estimation, the calculator Australian insurers and brokers use for sum-insured adequacy. Named and hosted in the environment-details guide with se
   name: CoreLogic Australia Cordell Sum Sure API
   slug: corelogic-au-cordell-sum-sure-api
-artifact_total: 32
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Corelogic Au Psx Webhooks
   slug: corelogic-au-psx-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/corelogic-au-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -306,6 +311,10 @@ description: 'CoreLogic Australia — trading as Cotality since the 2025 global 
   and self-serve creation of sandbox OAuth clients against a deliberately restricted evaluation dataset with request quotas, while every production API host in the *.api.cotality.com.au family answers 401 "Access token is missing" and requires a signed commercial data licence. Australia has no MLS and no RESO mandate — CoreLogic''s RESO Web API and Data Dictionary certifications belong to Trestle, its United States MLS platform, not to this Australian surface. The Australian APIs are proprietary REST/JSON over an Apigee gateway with OAuth 2.0 client credentials; no OData $metadata, no RESO endpoint, and no RESO Universal Property Identifier appears anywhere in the Australian developer portal.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/corelogic-au.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: corelogic-au-mcp.yml
+  slug: corelogic-au-mcpyml
 modified: '2026-07-26'
 name: CoreLogic Australia
 nav: Providers
@@ -316,7 +325,7 @@ overview: 'CoreLogic Australia publishes 10 APIs on the [APIs.io](https://apis.i
   The CoreLogic Australia catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  CoreLogic Australia''s developer surface includes documentation, getting-started guide, signup flow, authentication, sandbox, support, FAQ, and 42 more developer resources.'
+  CoreLogic Australia''s developer surface includes documentation, getting-started guide, signup flow, authentication, sandbox, support, FAQ, and 43 more developer resources.'
 random_paper: 50
 rate_limits:
 - limit_count: 0
@@ -329,13 +338,13 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials/implicit
 score:
   band: developing
-  composite: 45.9
-  delta: 0.0
+  composite: 46.6
+  delta: 0.7
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
-    developer_ergonomics: 64.7
-    discoverability: 83.3
+    developer_ergonomics: 73.4
+    discoverability: 72.2
     governance: 12.5
     operational_transparency: 26.3
   previous_composite: 45.9
@@ -343,8 +352,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corelogic-au/refs/heads/main/screenshots/corelogic-au-2026-07-27T125335.png
 security:

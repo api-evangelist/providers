@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: flavored
     agent_skills: true
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 64.0
-  scored_at: '2026-08-10'
+  score: 60.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 7
@@ -122,6 +123,10 @@ asyncapis:
   name: Duvoai Webhooks
   slug: duvoai-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/duvoai-openapi-overlay.yaml
 - group: other
   title: ''
   type: AgentCard
@@ -252,7 +257,7 @@ overview: 'duvo.ai publishes 26 APIs on the [APIs.io](https://apis.io/) network,
   The duvo.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  duvo.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 21 more developer resources.'
+  duvo.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 22 more developer resources.'
 random_paper: 68
 scopes:
 - name: Duvoai Scopes
@@ -261,11 +266,11 @@ scopes:
   summary_line: 8 scopes
 score:
   band: developing
-  composite: 50.7
-  delta: 0.0
+  composite: 50.1
+  delta: -0.6
   facets:
     commercial_clarity: 31.6
-    contract_quality: 69.1
+    contract_quality: 66.5
     developer_ergonomics: 73.9
     discoverability: 92.6
     governance: 11.5
@@ -281,8 +286,8 @@ score:
       total: 26
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duvoai/refs/heads/main/screenshots/duvoai-2026-07-25T212701.png
 security:

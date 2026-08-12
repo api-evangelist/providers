@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Core REST API for managing QRadar SIEM functionality including offenses, assets, rules, and searches.
@@ -105,20 +105,20 @@ rate_limits:
   name: Qradar Rate Limits
   slug: qradar-rate-limits
 score:
-  band: thin
-  composite: 28.0
-  delta: 0.0
+  band: emerging
+  composite: 20.2
+  delta: -7.8
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 23.9
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 47.4
+    operational_transparency: 23.7
   previous_composite: 28.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/qradar/refs/heads/main/screenshots/qradar-2026-06-20T192355.png
 security:
 - kind: domain-security

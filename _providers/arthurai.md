@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-08-10'
+  score: 44.8
+  scored_at: '2026-08-11'
 api_count: 68
 apis:
 - description: The Agent Discovery API from ArthurAI — 2 operation(s) for agent discovery.
@@ -384,11 +384,11 @@ scopes:
   summary_line: 191 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 50.3
+  delta: -0.6
   facets:
     commercial_clarity: 34.2
-    contract_quality: 64.4
+    contract_quality: 62.0
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
@@ -403,8 +403,8 @@ score:
       total: 68
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/screenshots/arthurai-2026-07-25T201328.png
 security:

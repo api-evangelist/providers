@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,6 +59,14 @@ apis:
   slug: best-buy-stores-api
 artifact_total: 64
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/BestBuyAPIs/api-documentation/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/BestBuyAPIs/api-documentation/blob/master/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -269,7 +277,7 @@ overview: 'Best Buy publishes 3 APIs on the [APIs.io](https://apis.io/) network:
   The Best Buy catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Best Buy''s developer surface includes authentication, documentation, getting-started guide, signup flow, engineering blog, and 11 more developer resources.'
+  Best Buy''s developer surface includes authentication, documentation, getting-started guide, signup flow, engineering blog, and 13 more developer resources.'
 plans:
 - name: Best Buy Plans Pricing
   plan_count: 1
@@ -314,15 +322,15 @@ rules:
   slug: best-buy-spectral-rules
 score:
   band: thin
-  composite: 40.1
-  delta: 0.0
+  composite: 37.3
+  delta: -2.8
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 31.6
+    commercial_clarity: 26.3
+    contract_quality: 30.6
     developer_ergonomics: 41.3
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 40.1
   provenance:
     agentic_access: derived
@@ -331,8 +339,8 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/screenshots/best-buy-2026-06-20T173159.png
 security:

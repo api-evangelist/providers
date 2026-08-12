@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 9
 apis:
 - description: 'Unified task API for all Tripo generative 3D operations. A single POST creates an asynchronous task keyed by task_type (text_to_model, image_to_model, multiview_to_model, texture_model, refine_model, '
@@ -60,6 +60,10 @@ apis:
   slug: triposr
 artifact_total: 13
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/VAST-AI-Research/tripo-python-sdk/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -111,7 +115,7 @@ network: true
 overview: 'Tripo AI publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Generative AI, 3D Modeling, Text to 3D, and Image to 3D.
 
 
-  Tripo AI''s developer surface includes documentation, signup flow, pricing, GitHub presence, engineering blog, and 4 more developer resources.'
+  Tripo AI''s developer surface includes documentation, signup flow, pricing, GitHub presence, engineering blog, and 5 more developer resources.'
 plans:
 - name: Tripo Ai Plans Pricing
   plan_count: 1
@@ -123,18 +127,18 @@ rate_limits:
   slug: tripo-ai-rate-limits
 score:
   band: emerging
-  composite: 20.3
-  delta: 0.0
+  composite: 23.8
+  delta: 3.5
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 52.6
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 15.2
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 20.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tripo-ai/refs/heads/main/screenshots/tripo-ai-2026-06-20T195733.png
 security:

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-08-10'
+  score: 44.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -79,6 +79,10 @@ apis:
   slug: tradeverifyd-verifiable-credentials-api
 artifact_total: 18
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tradeverifyd-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -186,7 +190,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/tradeverifyd-transparency-service-openapi.yaml
+  url: openapi/_original/tradeverifyd-transparency-service-openapi.yaml
 created: '2026-07-17'
 description: Tradeverifyd is a supply chain intelligence platform, formed by the combination of Transmute and mesur.io and backed by Techstars, that screens suppliers against 200+ global data sources, maps multi-tier supplier relationship graphs, monitors global risk events, and issues W3C Verifiable Credentials that can be presented to US Customs (CBP). Its coverage spans UFLPA, EU CSDDD, UK Modern Slavery Act, OFAC, EU/UN sanctions, NDAA, and EUDR. The v1 REST API exposes entity search and resolution, relationship graphs, flags, risk events, reports, shipments, supplier information requests, and verifiable-credential issuance, authenticated with an ocp-apim-subscription-key header.
 image: https://app.tradeverifyd.com/tradeverifyd_logo.svg
@@ -202,17 +206,17 @@ network: true
 overview: 'Tradeverifyd publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Entity API, Flags API, and 10 more. Tagged areas include Supply Chain, Trade Compliance, Risk Management, Verifiable Credentials, and Customs.
 
 
-  Tradeverifyd''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, code examples, authentication, and 20 more developer resources.'
+  Tradeverifyd''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, code examples, authentication, and 21 more developer resources.'
 random_paper: 13
 score:
   band: developing
-  composite: 48.7
-  delta: 0.0
+  composite: 47.5
+  delta: -1.2
   facets:
     commercial_clarity: 42.1
-    contract_quality: 66.3
+    contract_quality: 66.1
     developer_ergonomics: 51.6
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 48.7
@@ -226,8 +230,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 39.9
-  scored_at: '2026-08-10'
+  score: 36.3
+  scored_at: '2026-08-11'
 api_count: 9
 apis:
 - description: Comment collection. Registered and reachable, but empty — no post on this deployment carries comments.
@@ -50,6 +50,10 @@ apis:
   slug: star-therapeutics-taxonomy-api
 artifact_total: 11
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/star-therapeutics-content-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -158,30 +162,36 @@ network: true
 overview: 'Star Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Custom Types API, Discovery API, and 6 more. Tagged areas include Company, biotechnology, pharmaceuticals, hematology, and immunology.
 
 
-  Star Therapeutics'' developer surface includes product news, authentication, and 22 more developer resources.'
+  Star Therapeutics'' developer surface includes product news, authentication, and 23 more developer resources.'
 random_paper: 44
 score:
   band: thin
-  composite: 31.5
+  composite: 30.9
   delta: -0.6
   facets:
     commercial_clarity: 21.1
-    contract_quality: 56.6
+    contract_quality: 58.2
     developer_ergonomics: 12.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 32.1
+  previous_composite: 31.5
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 9
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 31.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

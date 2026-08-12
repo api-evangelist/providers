@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: The FAA NOTAM API provides access to Notices to Air Missions (NOTAMs), which are time-critical aeronautical information that could affect a pilot's decision to make a flight. The API allows developers
@@ -97,20 +97,26 @@ rate_limits:
   name: Federal Aviation Administration Rate Limits
   slug: federal-aviation-administration-rate-limits
 score:
-  band: emerging
-  composite: 20.0
-  delta: 0.0
+  band: minimal
+  composite: 12.0
+  delta: -8.0
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 55.6
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 20.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 11.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-aviation-administration/refs/heads/main/screenshots/federal-aviation-administration-2026-06-20T181109.png
 security:
 - kind: domain-security

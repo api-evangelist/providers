@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Columbia Sportswear's partner-facing API platform hosted on Microsoft Azure API Management. The portal organizes APIs across Order Management (B2B and DTC orders), Consumer Management (loyalty, profil
@@ -140,19 +140,19 @@ rate_limits:
   slug: columbia-sportswear-rate-limits
 score:
   band: emerging
-  composite: 24.3
-  delta: 0.0
+  composite: 19.1
+  delta: -5.2
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 34.2
     contract_quality: 12.9
     developer_ergonomics: 8.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 24.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/columbia-sportswear/refs/heads/main/screenshots/columbia-sportswear-2026-06-20T174800.png
 security:
 - kind: domain-security

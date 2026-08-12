@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 65.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -130,6 +130,10 @@ collections:
   name: Kita Capture Applications Webhooks API
   slug: postman-kita-webhooks-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kita-capture-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -309,7 +313,7 @@ overview: 'Kita publishes 14 APIs on the [APIs.io](https://apis.io/) network, in
   The Kita catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kita''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 33 more developer resources.'
+  Kita''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 34 more developer resources.'
 plans:
 - name: Kita Plans
   plan_count: 3
@@ -321,11 +325,11 @@ rate_limits:
   slug: kita-rate-limits
 score:
   band: strong
-  composite: 64.5
-  delta: 0.0
+  composite: 64.0
+  delta: -0.5
   facets:
     commercial_clarity: 92.1
-    contract_quality: 72.8
+    contract_quality: 70.1
     developer_ergonomics: 79.9
     discoverability: 92.6
     governance: 11.5
@@ -347,8 +351,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/screenshots/kita-2026-07-25T223855.png
 security:

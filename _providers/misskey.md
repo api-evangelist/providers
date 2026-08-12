@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 412
   human_in_the_loop: 6
@@ -137,6 +137,30 @@ apis:
   slug: misskey-webhooks-api
 artifact_total: 162
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/misskey-dev/misskey/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/misskey-dev/misskey/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/misskey-dev/misskey/blob/develop/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/misskey-dev/misskey/blob/develop/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/misskey-dev/misskey/blob/develop/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/misskey-dev/misskey/blob/develop/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -585,7 +609,7 @@ overview: 'Misskey publishes 32 APIs on the [APIs.io](https://apis.io/) network,
   The Misskey catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Misskey''s developer surface includes authentication, documentation, getting-started guide, support, and 10 more developer resources.'
+  Misskey''s developer surface includes authentication, documentation, getting-started guide, support, and 16 more developer resources.'
 plans:
 - name: Misskey Plans Pricing
   plan_count: 3
@@ -606,15 +630,15 @@ rules:
   slug: misskey-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 54.4
+  delta: 2.8
   facets:
     commercial_clarity: 39.5
-    contract_quality: 71.0
+    contract_quality: 68.3
     developer_ergonomics: 41.3
     discoverability: 59.3
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 63.2
   previous_composite: 51.6
   provenance:
     agentic_access: derived
@@ -623,8 +647,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/screenshots/misskey-2026-06-20T185633.png
 security:

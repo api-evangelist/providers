@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -244,11 +244,11 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 34.7
-  delta: 0.0
+  composite: 34.5
+  delta: -0.2
   facets:
     commercial_clarity: 31.6
-    contract_quality: 29.6
+    contract_quality: 28.5
     developer_ergonomics: 19.6
     discoverability: 81.5
     governance: 68.8
@@ -261,8 +261,8 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

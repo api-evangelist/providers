@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 9.0
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The ad-request surface Doceree publisher partners call to fetch an HCP-targeted advertisement. It is the endpoint behind the Doceree Publisher Tag, the first-party Prebid.js header-bidding adapter (bi
@@ -29,6 +29,22 @@ apis:
   slug: tracking
 artifact_total: 5
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/prebid/Prebid.js/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/prebid/Prebid.js/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/prebid/Prebid.js/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/prebid/Prebid.js/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -133,19 +149,19 @@ network: true
 overview: 'Doceree publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Advertising, Healthcare, Marketing, AdTech, and Programmatic.
 
 
-  Doceree''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 18 more developer resources.'
+  Doceree''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 22 more developer resources.'
 random_paper: 31
 score:
   band: thin
-  composite: 32.8
-  delta: 0.0
+  composite: 33.3
+  delta: 0.5
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 47.8
     discoverability: 87.0
     governance: 12.5
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 32.8
   provenance:
     conformance: first-party
@@ -154,9 +170,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 46.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 37.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doceree/refs/heads/main/screenshots/doceree-2026-08-07T164451.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -121,6 +121,22 @@ collections:
   name: Backpack Exchange API
   slug: open-backpack-exchange
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/coral-xyz/backpack/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/coral-xyz/backpack/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/coral-xyz/backpack/blob/master/SECURITY.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/coral-xyz/backpack/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -365,7 +381,7 @@ overview: 'Backpack publishes 14 APIs on the [APIs.io](https://apis.io/) network
   The Backpack catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Backpack''s developer surface includes developer portal, documentation, signup flow, engineering blog, support, FAQ, authentication, and 32 more developer resources.'
+  Backpack''s developer surface includes developer portal, documentation, signup flow, engineering blog, support, FAQ, authentication, and 36 more developer resources.'
 plans:
 - name: Backpack Plans Pricing
   plan_count: 5
@@ -402,15 +418,15 @@ rules:
   slug: backpack-rules
 score:
   band: strong
-  composite: 59.3
-  delta: 0.0
+  composite: 62.0
+  delta: 2.7
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 82.1
+    commercial_clarity: 73.7
+    contract_quality: 79.0
     developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 68.4
+    operational_transparency: 78.9
   previous_composite: 59.3
   provenance:
     agentic_access: derived
@@ -425,8 +441,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/screenshots/backpack-2026-06-20T172915.png
 security:

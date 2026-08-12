@@ -22,14 +22,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-10'
+  score: 41.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ arazzos:
 - description: List a team's channels and read the recent messages in a chosen channel.
   name: Microsoft Teams Review Channel Conversation
   slug: microsoft-teams-review-channel-conversation-workflow
-artifact_total: 106
+artifact_total: 107
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the asynchronous event surface for Microsoft Teams. Two distinct delivery channels are modeled: 1. Microsoft Graph change notifications - HTTPS webhook deliveries that Micr'
   name: Microsoft Teams Event Surface
@@ -128,6 +128,14 @@ collections:
   name: Microsoft Graph Teams API
   slug: postman-microsoft-teams-graph-api
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/microsoft-teams-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/microsoft-teams-graph-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -480,6 +488,10 @@ jsonld:
   property_count: 22
   slug: microsoft-teams-graph-api-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: microsoft-teams-mcp.yml
+  slug: microsoft-teams-mcpyml
 modified: '2026-06-20'
 name: Microsoft Teams
 nav: Providers
@@ -490,7 +502,7 @@ overview: 'Microsoft Teams publishes 9 APIs on the [APIs.io](https://apis.io/) n
   The Microsoft Teams catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Microsoft Teams'' developer surface includes authentication, changelog, CLI, sandbox, getting-started guide, engineering blog, support, and 37 more developer resources.'
+  Microsoft Teams'' developer surface includes authentication, changelog, CLI, sandbox, getting-started guide, engineering blog, support, and 39 more developer resources.'
 plans:
 - name: Microsoft Teams Plans Pricing
   plan_count: 3
@@ -532,15 +544,15 @@ scopes:
   summary_line: 10 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.3
-  delta: 0.0
+  composite: 56.6
+  delta: -6.7
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 49.2
-    developer_ergonomics: 60.9
+    commercial_clarity: 44.7
+    contract_quality: 47.8
+    developer_ergonomics: 63.0
     discoverability: 92.6
     governance: 69.8
-    operational_transparency: 57.9
+    operational_transparency: 42.1
   previous_composite: 63.3
   provenance:
     agentic_access: derived
@@ -551,9 +563,9 @@ score:
       marker_coverage: 100.0
       total: 8
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/screenshots/microsoft-teams-2026-08-07T172844.png
 security:
 - kind: authentication

@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: documented
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-10'
+  score: 34.2
+  scored_at: '2026-08-11'
 api_count: 17
 apis:
 - description: Officially published AI-related investigations, orders, fines and remedies with separate procedural stages and exact technology evidence.
@@ -72,8 +72,12 @@ apis:
 - description: Inspectable system profiles and source-evidenced links to repositories and technical inventories only.
   name: i6eal Open AI Data API Public AI System Evidence Pass API
   slug: i6eal-open-ai-data-api-public-ai-system-evidence-pass-api
-artifact_total: 22
+artifact_total: 23
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/i6eal-open-ai-data-api-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -182,6 +186,10 @@ jsonld:
   property_count: 0
   slug: i6eal-open-ai-data-api-dcat
 layout: provider
+mcp_servers:
+- description: ''
+  name: i6eal-open-ai-data-api-mcp.yml
+  slug: i6eal-open-ai-data-api-mcpyml
 modified: '2026-08-09'
 name: i6eal Open AI Data API
 nav: Providers
@@ -192,26 +200,38 @@ overview: 'i6eal Open AI Data API publishes 17 APIs on the [APIs.io](https://api
   The i6eal Open AI Data API catalog on APIs.io includes 1 JSON-LD context.
 
 
-  i6eal Open AI Data API''s developer surface includes documentation, API reference, support, engineering blog, authentication, code examples, and 17 more developer resources.'
+  i6eal Open AI Data API''s developer surface includes documentation, API reference, support, engineering blog, authentication, code examples, and 18 more developer resources.'
 random_paper: 33
 score:
   band: thin
-  composite: 41.1
+  composite: 39.6
+  delta: -1.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 55.8
-    developer_ergonomics: 47.8
-    discoverability: 92.6
-    governance: 20.8
+    contract_quality: 59.7
+    developer_ergonomics: 45.1
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 5.3
+  previous_composite: 41.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: I6Eal Open Ai Data Api Authentication

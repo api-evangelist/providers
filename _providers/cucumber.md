@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Java/JVM implementation of Cucumber supporting Java, Kotlin, Scala, and other JVM languages. Distributed via Maven Central under the io.cucumber group.
@@ -48,6 +48,26 @@ apis:
   slug: cucumber-messages
 artifact_total: 12
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/cucumber/cucumber-jvm/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/cucumber/cucumber-jvm/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/cucumber/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/cucumber/cucumber-jvm/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/cucumber/cucumber-jvm/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -131,7 +151,7 @@ overview: 'Cucumber publishes 5 APIs on the [APIs.io](https://apis.io/) network.
   The Cucumber catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Cucumber''s developer surface includes documentation, tooling, YouTube channel, engineering blog, and 10 more developer resources.'
+  Cucumber''s developer surface includes documentation, tooling, YouTube channel, engineering blog, and 15 more developer resources.'
 plans:
 - name: Cucumber Plans Pricing
   plan_count: 3
@@ -152,19 +172,19 @@ rules:
   slug: cucumber-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.6
-  delta: 0.0
+  composite: 31.6
+  delta: -5.0
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 22.6
-    developer_ergonomics: 17.4
+    developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 36.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cucumber/refs/heads/main/screenshots/cucumber-2026-06-20T175327.png
 security:
 - kind: domain-security

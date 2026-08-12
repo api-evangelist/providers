@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -241,16 +241,16 @@ scopes:
   slug: azure-synapse-scopes
   summary_line: 1 scope · implicit
 score:
-  band: developing
-  composite: 49.7
-  delta: 0.0
+  band: thin
+  composite: 41.7
+  delta: -8.0
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 20.5
+    commercial_clarity: 36.8
+    contract_quality: 19.8
     developer_ergonomics: 50.0
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 49.7
   provenance:
     agentic_access: derived
@@ -259,9 +259,9 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-synapse/refs/heads/main/screenshots/azure-synapse-2026-06-20T172913.png
 security:
 - kind: authentication

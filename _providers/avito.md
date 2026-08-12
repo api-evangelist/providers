@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 57.0
-  scored_at: '2026-08-10'
+  score: 53.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 173
   human_in_the_loop: 2
@@ -445,13 +446,13 @@ scopes:
   summary_line: 26 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 50.6
-  delta: 0.0
+  composite: 47.5
+  delta: -3.1
   facets:
     commercial_clarity: 34.2
-    contract_quality: 60.9
+    contract_quality: 58.6
     developer_ergonomics: 53.8
-    discoverability: 74.1
+    discoverability: 63.0
     governance: 20.8
     operational_transparency: 50.0
   previous_composite: 50.6
@@ -465,14 +466,8 @@ score:
       total: 51
     mcp: derived
     skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 58.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/screenshots/avito-2026-07-25T201949.png
 security:

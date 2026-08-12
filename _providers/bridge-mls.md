@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -320,11 +320,11 @@ rules:
   slug: bridge-mls-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.4
-  delta: 0.0
+  composite: 61.6
+  delta: 0.2
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 71.4
+    commercial_clarity: 73.7
+    contract_quality: 68.7
     developer_ergonomics: 54.3
     discoverability: 74.1
     governance: 58.3
@@ -337,8 +337,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: weak_tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 51.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/screenshots/bridge-mls-2026-06-20T173655.png
 security:

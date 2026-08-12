@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 17
@@ -136,6 +136,30 @@ apis:
   slug: nginx-workers-api
 artifact_total: 236
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/nginx/nginx/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/nginx/nginx/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/nginx/nginx/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/nginx/nginx/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/nginx/nginx/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/nginx/nginx/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -818,7 +842,7 @@ overview: 'NGINX publishes 28 APIs on the [APIs.io](https://apis.io/) network, i
   The NGINX catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  NGINX''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, YouTube channel, Stack Overflow tag, and 18 more developer resources.'
+  NGINX''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, YouTube channel, Stack Overflow tag, and 24 more developer resources.'
 plans:
 - name: Nginx Plans Pricing
   plan_count: 6
@@ -846,16 +870,16 @@ rules:
     warn: 18
   slug: nginx-spectral-rules
 score:
-  band: developing
-  composite: 44.8
-  delta: 0.0
+  band: thin
+  composite: 37.6
+  delta: -7.2
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 19.9
+    commercial_clarity: 15.8
+    contract_quality: 19.1
     developer_ergonomics: 47.8
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 68.8
-    operational_transparency: 63.2
+    operational_transparency: 39.5
   previous_composite: 44.8
   provenance:
     agentic_access: derived
@@ -864,9 +888,9 @@ score:
       derived: 28
       marker_coverage: 100.0
       total: 28
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/screenshots/nginx-2026-06-20T190304.png
 security:
 - kind: domain-security

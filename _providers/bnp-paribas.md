@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: BNP Paribas Corporate and Institutional Banking (CIB) API platform provides programmatic access to capital markets, payment services, securities services, advisory, finance, and treasury solutions for
@@ -102,15 +102,15 @@ rate_limits:
   slug: bnp-paribas-rate-limits
 score:
   band: emerging
-  composite: 20.7
-  delta: 0.0
+  composite: 14.0
+  delta: -6.7
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 21.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 20.7
   regulatory:
     applies: true
@@ -118,9 +118,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bnp-paribas/refs/heads/main/screenshots/bnp-paribas-2026-06-20T173543.png
 security:
 - kind: domain-security

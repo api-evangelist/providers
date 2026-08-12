@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Commerce Bank's corporate API program, published through a registration-gated external developer portal and the CommercePayments developer platform, covering payments, treasury, and embedded-banking i
@@ -26,6 +26,10 @@ apis:
   slug: commerce-developer-apis
 artifact_total: 2
 common:
+- group: start
+  title: ''
+  type: Login
+  url: https://banking.commercebank.com/cbi/login.aspx
 - group: auth
   title: ''
   type: DomainSecurity
@@ -74,14 +78,14 @@ network: true
 overview: 'Commerce Bank publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Regional Bank, and Payments.
 
 
-  Commerce Bank''s developer surface includes engineering blog, support, and 7 more developer resources.'
+  Commerce Bank''s developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 82
 score:
   band: emerging
-  composite: 14.5
-  delta: 0.0
+  composite: 16.7
+  delta: 2.2
   facets:
-    commercial_clarity: 21.1
+    commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 15.2
     discoverability: 66.7
@@ -94,8 +98,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commerce-bancshares/refs/heads/main/screenshots/commerce-bancshares-2026-07-25T210127.png
 security:

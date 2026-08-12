@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 67.8
-  scored_at: '2026-08-10'
+  score: 64.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 207
   human_in_the_loop: 5
@@ -167,6 +168,10 @@ asyncapis:
   name: Kiteworks Pubsub Webhooks
   slug: kiteworks-pubsub-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kiteworks-core-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -325,7 +330,7 @@ overview: 'Kiteworks publishes 41 APIs on the [APIs.io](https://apis.io/) networ
   The Kiteworks catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kiteworks'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+  Kiteworks'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 random_paper: 67
 rate_limits:
 - limit_count: 2
@@ -338,13 +343,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.0
-  delta: 0.0
+  composite: 58.4
+  delta: -1.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 58.0
+    contract_quality: 55.8
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 60.5
   previous_composite: 60.0
@@ -358,8 +363,8 @@ score:
       total: 41
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/screenshots/kiteworks-2026-07-25T223908.png
 security:

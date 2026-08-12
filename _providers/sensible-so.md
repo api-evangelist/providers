@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -427,11 +427,11 @@ rules:
   slug: sensible-so-rules
 score:
   band: exemplar
-  composite: 67.1
-  delta: 0.0
+  composite: 69.0
+  delta: 1.9
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 75.6
+    commercial_clarity: 71.1
+    contract_quality: 72.8
     developer_ergonomics: 69.6
     discoverability: 55.6
     governance: 68.8
@@ -444,8 +444,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sensible-so/refs/heads/main/screenshots/sensible-so-2026-06-20T193703.png
 security:

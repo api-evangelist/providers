@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-10'
+  score: 49.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -196,12 +197,12 @@ overview: 'Harver publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
   Harver''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 20 more developer resources.'
 random_paper: 68
 score:
-  band: developing
-  composite: 42.4
-  delta: 0.0
+  band: thin
+  composite: 41.9
+  delta: -0.5
   facets:
     commercial_clarity: 18.4
-    contract_quality: 61.4
+    contract_quality: 59.1
     developer_ergonomics: 42.9
     discoverability: 92.6
     governance: 20.8
@@ -217,8 +218,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/screenshots/harver-2026-07-25T220747.png
 security:

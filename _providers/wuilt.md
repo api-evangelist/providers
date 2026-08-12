@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Public GraphQL endpoint powering the Wuilt website/e-commerce builder. Introspection is enabled; the schema exposes read queries across sites, pages, sections, menus, forms, form submissions, plans, p
@@ -119,7 +119,7 @@ random_paper: 101
 score:
   band: emerging
   composite: 27.9
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 43.2
@@ -127,9 +127,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 28.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 27.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 slug: wuilt
 tags:

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-08-10'
+  score: 47.5
+  scored_at: '2026-08-11'
 api_count: 27
 apis:
 - description: The Attachments API from COR — 1 operation(s) for attachments.
@@ -114,6 +115,10 @@ apis:
   slug: cor-working-time-api
 artifact_total: 30
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cor-openapi-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -217,17 +222,17 @@ network: true
 overview: 'COR publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Auth API, Brands API, and 24 more. Tagged areas include Company, Agency Management, Project Management, Time Tracking, and Profitability.
 
 
-  COR''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 15 more developer resources.'
+  COR''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 16 more developer resources.'
 random_paper: 92
 score:
   band: developing
-  composite: 46.0
-  delta: 0.0
+  composite: 44.4
+  delta: -1.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 55.8
+    contract_quality: 53.7
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 46.0
@@ -240,8 +245,8 @@ score:
       total: 27
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cor/refs/heads/main/screenshots/cor-2026-07-25T210412.png
 security:

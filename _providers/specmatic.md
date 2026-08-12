@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Specmatic provides contract testing, intelligent service virtualization, and API mocking by transforming API specifications into executable contracts. It supports backward compatibility checking, API '
@@ -160,19 +160,19 @@ rules:
   slug: specmatic-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 33.0
+  delta: -6.5
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 22.6
-    developer_ergonomics: 26.1
+    developer_ergonomics: 32.6
     discoverability: 68.5
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 39.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/specmatic/refs/heads/main/screenshots/specmatic-2026-06-20T194301.png
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 90
 apis:
 - description: The Activity API from Samsara — 1 operation(s) for activity.
@@ -450,16 +450,16 @@ rules:
     warn: 4
   slug: samsara-rules
 score:
-  band: developing
-  composite: 48.1
-  delta: 0.0
+  band: thin
+  composite: 40.5
+  delta: -7.6
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 69.9
+    commercial_clarity: 15.8
+    contract_quality: 67.7
     developer_ergonomics: 19.6
-    discoverability: 57.4
+    discoverability: 64.8
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 48.1
   provenance:
     contracts:
@@ -467,9 +467,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 90
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/samsara/refs/heads/main/screenshots/samsara-2026-06-20T193402.png
 security:
 - kind: domain-security

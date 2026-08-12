@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -174,14 +174,14 @@ scopes:
   slug: coventry-building-society-scopes
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 44.9
-  delta: 0.0
+  band: thin
+  composite: 39.4
+  delta: -5.5
   facets:
     commercial_clarity: 28.9
-    contract_quality: 55.0
+    contract_quality: 53.0
     developer_ergonomics: 36.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 44.9
@@ -200,10 +200,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 87.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+    score: 59.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/screenshots/coventry-building-society-2026-07-25T210542.png
 security:
 - kind: authentication

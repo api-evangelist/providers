@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -79,6 +79,22 @@ apis:
   slug: appium-sessions-api
 artifact_total: 69
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/appium/appium-inspector/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/appium/.github/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/appium/appium-inspector/blob/main/docs/contributing.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/appium/appium-inspector/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -273,7 +289,7 @@ overview: 'Appium publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
   The Appium catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Appium''s developer surface includes getting-started guide, documentation, support, Stack Overflow tag, YouTube channel, changelog, tooling, and 13 more developer resources.'
+  Appium''s developer surface includes getting-started guide, documentation, support, Stack Overflow tag, YouTube channel, changelog, tooling, and 17 more developer resources.'
 plans:
 - name: Appium Plans Pricing
   plan_count: 1
@@ -301,16 +317,16 @@ rules:
     warn: 18
   slug: appium-spectral-rules
 score:
-  band: developing
-  composite: 43.6
-  delta: 0.0
+  band: thin
+  composite: 39.4
+  delta: -4.2
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 29.3
-    developer_ergonomics: 47.8
+    commercial_clarity: 13.2
+    contract_quality: 28.2
+    developer_ergonomics: 54.3
     discoverability: 72.2
     governance: 68.8
-    operational_transparency: 42.1
+    operational_transparency: 26.3
   previous_composite: 43.6
   provenance:
     agentic_access: derived
@@ -319,8 +335,8 @@ score:
       derived: 10
       marker_coverage: 100.0
       total: 10
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/screenshots/appium-2026-06-20T172316.png
 security:

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-10'
+  score: 38.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 225
   human_in_the_loop: 9
@@ -160,6 +160,10 @@ apis:
   slug: laurel-working-timekeepers-api
 artifact_total: 46
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/laurel-identity-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -287,17 +291,17 @@ network: true
 overview: 'Laurel publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Ably API, Activities API, Clients API, and 37 more. Tagged areas include Company, Ai, Timekeeping, Time Tracking, and Legal.
 
 
-  Laurel''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 21 more developer resources.'
+  Laurel''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 22 more developer resources.'
 random_paper: 65
 score:
   band: developing
-  composite: 46.2
-  delta: 0.0
+  composite: 44.6
+  delta: -1.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 43.4
+    contract_quality: 41.8
     developer_ergonomics: 56.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 34.2
   previous_composite: 46.2
@@ -311,8 +315,8 @@ score:
       total: 40
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laurel/refs/heads/main/screenshots/laurel-2026-07-25T224622.png
 security:

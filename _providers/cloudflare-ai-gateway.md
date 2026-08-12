@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -222,14 +222,14 @@ rate_limits:
   name: Cloudflare Ai Gateway Rate Limits
   slug: cloudflare-ai-gateway-rate-limits
 score:
-  band: developing
-  composite: 54.5
-  delta: 0.0
+  band: strong
+  composite: 57.3
+  delta: 2.8
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 58.9
+    commercial_clarity: 52.6
+    contract_quality: 56.7
     developer_ergonomics: 89.1
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 0.0
     operational_transparency: 57.9
   previous_composite: 54.5
@@ -240,8 +240,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-ai-gateway/refs/heads/main/screenshots/cloudflare-ai-gateway-2026-06-20T174550.png
 security:

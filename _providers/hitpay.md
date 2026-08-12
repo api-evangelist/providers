@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 8
@@ -376,13 +377,13 @@ rate_limits:
   slug: hitpay-rate-limits
 score:
   band: exemplar
-  composite: 69.4
-  delta: 0.0
+  composite: 66.5
+  delta: -2.9
   facets:
     commercial_clarity: 100.0
-    contract_quality: 66.1
+    contract_quality: 65.8
     developer_ergonomics: 73.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 50.0
   previous_composite: 69.4
@@ -401,9 +402,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 68.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 56.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hitpay/refs/heads/main/screenshots/hitpay-2026-07-25T221304.png
 security:

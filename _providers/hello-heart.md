@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
@@ -90,13 +90,13 @@ overview: 'Hello Heart is profiled on the [APIs.io](https://apis.io/) network. T
 random_paper: 65
 score:
   band: emerging
-  composite: 18.4
-  delta: 0.0
+  composite: 17.4
+  delta: -1.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 61.1
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 18.4
@@ -106,8 +106,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hello-heart/refs/heads/main/screenshots/hello-heart-2026-07-25T220931.png
 security:

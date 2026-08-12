@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -158,6 +158,30 @@ collections:
   name: Portkey AI Gateway API
   slug: open-ai-gateway
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Portkey-AI/gateway/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Portkey-AI/gateway/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Portkey-AI/gateway/blob/main/.github/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/Portkey-AI/gateway/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Portkey-AI/gateway/blob/main/.github/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Portkey-AI/gateway/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -318,7 +342,7 @@ overview: 'AI Gateway publishes 23 APIs on the [APIs.io](https://apis.io/) netwo
   The AI Gateway catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  AI Gateway''s developer surface includes authentication, code examples, developer portal, engineering blog, and 10 more developer resources.'
+  AI Gateway''s developer surface includes authentication, code examples, developer portal, engineering blog, and 16 more developer resources.'
 random_paper: 73
 rules:
 - name: AI Gateway API Rules
@@ -331,15 +355,15 @@ rules:
   slug: ai-gateway-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.8
-  delta: 0.0
+  composite: 37.6
+  delta: 2.8
   facets:
     commercial_clarity: 0.0
-    contract_quality: 62.8
+    contract_quality: 60.4
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 0.0
+    operational_transparency: 26.3
   previous_composite: 34.8
   provenance:
     agentic_access: derived
@@ -348,8 +372,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/screenshots/ai-gateway-2026-06-20T170650.png
 security:

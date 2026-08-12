@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-10'
+  score: 34.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -165,13 +165,13 @@ overview: 'Casap publishes 2 APIs on the [APIs.io](https://apis.io/) network: Au
 random_paper: 56
 score:
   band: developing
-  composite: 44.2
-  delta: 0.0
+  composite: 42.8
+  delta: -1.4
   facets:
     commercial_clarity: 42.1
-    contract_quality: 54.3
+    contract_quality: 52.2
     developer_ergonomics: 56.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 15.8
   previous_composite: 44.2
@@ -191,8 +191,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/screenshots/casap-2026-07-25T204712.png
 security:

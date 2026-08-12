@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -207,15 +208,15 @@ rate_limits:
   slug: contentful-rate-limits
 score:
   band: developing
-  composite: 53.2
-  delta: 0.0
+  composite: 46.2
+  delta: -7.0
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 61.8
-    developer_ergonomics: 43.5
+    commercial_clarity: 47.4
+    contract_quality: 59.8
+    developer_ergonomics: 50.0
     discoverability: 55.6
     governance: 0.0
-    operational_transparency: 71.1
+    operational_transparency: 47.4
   previous_composite: 53.2
   provenance:
     agentic_access: derived
@@ -224,9 +225,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/contentful/refs/heads/main/screenshots/contentful-2026-06-20T174923.png
 security:
 - kind: authentication

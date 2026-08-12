@@ -18,10 +18,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/precision-neuroscience/layer7-nbme2025/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -118,24 +122,30 @@ network: true
 overview: 'Precision Neuroscience is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, brain-computer-interface, neurotechnology, medical-devices, and neuroscience.
 
 
-  Precision Neuroscience''s developer surface includes product news, engineering blog, and 15 more developer resources.'
+  Precision Neuroscience''s developer surface includes product news, engineering blog, and 16 more developer resources.'
 random_paper: 96
 score:
-  band: minimal
-  composite: 12.6
-  delta: 0.0
+  band: emerging
+  composite: 13.3
+  delta: 0.7
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 3.1
     operational_transparency: 5.3
   previous_composite: 12.6
   provenance:
     conformance: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 23.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

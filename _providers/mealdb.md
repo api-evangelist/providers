@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -177,12 +177,12 @@ rules:
   slug: mealdb-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.0
-  delta: 0.0
+  composite: 46.2
+  delta: 0.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 62.1
-    developer_ergonomics: 8.7
+    contract_quality: 59.8
+    developer_ergonomics: 13.0
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 31.6
@@ -200,8 +200,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 35.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/screenshots/mealdb-2026-06-20T185110.png
 security:

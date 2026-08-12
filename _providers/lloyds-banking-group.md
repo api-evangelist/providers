@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -163,14 +163,14 @@ scopes:
   slug: lloyds-banking-group-scopes
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 45.1
-  delta: 0.0
+  band: thin
+  composite: 40.9
+  delta: -4.2
   facets:
     commercial_clarity: 10.5
-    contract_quality: 65.3
+    contract_quality: 62.8
     developer_ergonomics: 53.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 45.1
@@ -188,9 +188,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 70.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 53.2
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/screenshots/lloyds-banking-group-2026-07-25T225413.png
 security:

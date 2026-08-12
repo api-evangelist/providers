@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 19
 apis:
 - description: Alerts API
@@ -80,6 +80,10 @@ apis:
   slug: bitvore-sentiment-scores-api
 artifact_total: 23
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bitvore-corporate-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -191,7 +195,7 @@ network: true
 overview: 'Bitvore publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Alert API API, Bond API, Corporate News API, and 16 more. Tagged areas include financial-data, market-intelligence, alternative-data, news-api, and nlp.
 
 
-  Bitvore''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, changelog, authentication, and 18 more developer resources.'
+  Bitvore''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, changelog, authentication, and 19 more developer resources.'
 random_paper: 67
 rate_limits:
 - limit_count: 1
@@ -204,27 +208,33 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 45.5
-  delta: 0.1
+  composite: 45.7
+  delta: 0.2
   facets:
     commercial_clarity: 13.2
-    contract_quality: 56.5
+    contract_quality: 54.4
     developer_ergonomics: 51.6
     discoverability: 92.6
     governance: 21.9
     operational_transparency: 50.0
-  previous_composite: 45.4
+  previous_composite: 45.5
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 50.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/screenshots/bitvore-2026-08-07T162558.png
 security:

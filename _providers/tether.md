@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -18,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: The API Keys API from Tether — 2 operation(s) for api keys.
@@ -197,23 +198,23 @@ rate_limits:
   slug: tether-rate-limits
 score:
   band: developing
-  composite: 53.9
-  delta: -0.5
+  composite: 54.0
+  delta: 0.1
   facets:
     commercial_clarity: 34.2
-    contract_quality: 47.3
+    contract_quality: 47.8
     developer_ergonomics: 87.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 54.4
+  previous_composite: 53.9
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 6
     mcp: first-party
     skills: first-party
   regulatory:
@@ -222,8 +223,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 237
   human_in_the_loop: 11
@@ -449,11 +449,11 @@ rules:
   slug: fabric-com-rules
 score:
   band: developing
-  composite: 42.7
-  delta: 0.0
+  composite: 44.4
+  delta: 1.7
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 71.1
+    commercial_clarity: 42.1
+    contract_quality: 68.4
     developer_ergonomics: 34.8
     discoverability: 40.7
     governance: 68.8
@@ -472,8 +472,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fabric-com/refs/heads/main/screenshots/fabric-com-2026-06-20T181000.png
 security:

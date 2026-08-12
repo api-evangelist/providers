@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 71.0
-  scored_at: '2026-08-10'
+  score: 67.4
+  scored_at: '2026-08-11'
 api_count: 18
 apis:
 - description: The Accounts API from Copper.co — 1 operation(s) for accounts.
@@ -81,6 +81,10 @@ asyncapis:
   name: Copper Co Webhooks
   slug: copper-co-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/copper-co-platform-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -227,7 +231,7 @@ overview: 'Copper.co publishes 18 APIs on the [APIs.io](https://apis.io/) networ
   The Copper.co catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Copper.co''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 25 more developer resources.'
+  Copper.co''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 26 more developer resources.'
 random_paper: 92
 rate_limits:
 - limit_count: 4
@@ -235,27 +239,33 @@ rate_limits:
   slug: copper-co-rate-limits
 score:
   band: strong
-  composite: 60.2
-  delta: 0.8
+  composite: 58.4
+  delta: -1.8
   facets:
     commercial_clarity: 47.4
-    contract_quality: 56.5
+    contract_quality: 59.8
     developer_ergonomics: 78.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 78.9
-  previous_composite: 59.4
+  previous_composite: 60.2
   provenance:
     conformance: derived
     contracts:
-      callable: 50.0
+      callable: 94.4
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 18
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 50.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/screenshots/copper-co-2026-08-07T163810.png
 security:

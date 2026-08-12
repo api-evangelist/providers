@@ -15,19 +15,19 @@
      "name": "Sibill",
      "slug": "sibill",
      "description": "Sibill is an Italian fintech platform that centralizes financial and administrative management for small and medium-sized businesses (PMI). It unifies electronic invoicing (submitted to the Agenzia delle Entrate SDI), treasury and cash-flow monitoring, payments, business accounts and debit cards, and AI-assisted reconciliation of bank transactions against invoices and deadlines. The Sibill Integration API exposes companies, bank accounts, categories, counterparts, documents, payment flows, reconciliations, products and transactions over a REST interface secured with Bearer API keys, with cursor pagination, field expansion, and Document/Flow webhooks. Backed by Creandum.",
-     "score": 50.3,
+     "score": 48.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 63.0,
+      "discoverability": 81.5,
+      "contract_quality": 60.6,
       "governance": 11.5,
       "operational_transparency": 44.7,
       "developer_ergonomics": 62.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -35,7 +35,7 @@
       "score": 31.6,
       "matched_via": "tags"
      },
-     "agent_score": 53.8,
+     "agent_score": 50.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -48,7 +48,7 @@
       "rate_limit_signal": "documented",
       "event_surface_described": true,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -71,19 +71,19 @@
      "slug": "politecnico-di-torino",
      "description": "Politecnico di Torino (PoliTO) is Italy's oldest technical university, founded in 1859 in Turin, and a leading European institution for engineering, architecture, and design, ranked #241 in the QS World University Rankings 2025. Its public developer footprint centers on an official OpenAPI specification (polito/api-spec) for the REST API that powers the official students mobile application, plus an institutional open-data portal publishing academic datasets. Code is published openly under the verified @polito GitHub organization, while the production API itself is consumed by official first-party apps and is not offered as a self-service public developer program.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/screenshots/politecnico-di-torino-2026-06-20T191855.png",
-     "score": 39.2,
+     "score": 38.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 62.6,
+      "contract_quality": 60.3,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -116,19 +116,19 @@
      "slug": "university-of-padua",
      "description": "The University of Padua (Università degli Studi di Padova) is a public research university in Padua, Italy, founded in 1222 and ranked #236 in the QS World University Rankings 2025. Its public developer/API footprint is centered on the University Library System (SBA) rather than a single official developer portal: PHAIDRA, the digital-collections platform, exposes a documented REST API (OpenAPI), a IIIF image service, and an OAI-PMH endpoint, while the EPrints-based Padua@Research and Research Data Unipd repositories provide OAI-PMH metadata harvesting. Authentication across university services is delivered through a Shibboleth/SAML Single Sign-On integrated with the IDEM GARR federation and eduGAIN. There is no central institutional GitHub organization for the university as a whole; public code lives in individual lab and department orgs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-padua/refs/heads/main/screenshots/university-of-padua-2026-06-20T200320.png",
-     "score": 38.7,
+     "score": 38.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 63.1,
+      "contract_quality": 60.8,
       "governance": 58.3,
       "operational_transparency": 21.1,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -164,54 +164,9 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 20,
-   "shown": 20,
+   "count": 19,
+   "shown": 19,
    "providers": [
-    {
-     "name": "Bancomat",
-     "slug": "bancomat",
-     "description": "BANCOMAT S.p.A. is Italy's leading payment network operator managing the PagoBancomat debit card scheme, ATM network, and BANCOMAT Pay mobile payment service. Launched in 1983 for ATM withdrawals and expanded in 1986 with PagoBancomat for PIN-based POS payments, the network underpins Italian electronic payment infrastructure. BANCOMAT Pay, introduced in 2019, enables mobile e-commerce and P2P payments linked to bank accounts via phone number and IBAN.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/screenshots/bancomat-2026-06-20T172935.png",
-     "score": 23.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 12.9,
-      "governance": 31.3,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 13.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 4
-    },
     {
      "name": "Politecnico di Milano",
      "slug": "politecnico-di-milano",
@@ -228,8 +183,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -255,25 +210,70 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 4
+    },
+    {
+     "name": "University of Bologna",
+     "slug": "university-of-bologna",
+     "description": "The University of Bologna (Alma Mater Studiorum - Università di Bologna) is the oldest university in the Western world and a leading Italian research institution, ranked #133 in the QS World University Rankings 2025. Its public developer and API footprint centers on open data and open scholarship rather than a unified developer portal: a CKAN-based open data portal at dati.unibo.it exposes a standard CKAN Action API over institutional datasets, and the AlmaDL AMS Acta institutional repository (EPrints) exposes an OAI-PMH metadata-harvesting interface. The university also maintains an official open-source GitHub organization. Most administrative, course, and identity systems require institutional credentials and are not openly documented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-bologna/refs/heads/main/screenshots/university-of-bologna-2026-06-20T200136.png",
+     "score": 20.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 12.9,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 20.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 5
     },
     {
      "name": "Casavo",
      "slug": "casavo",
      "description": "Casavo Management S.p.A. is an Italian proptech company founded in Milan in 2017 by Giorgio Tinacci that operates a digital residential real estate platform across Italy, Spain, France and Portugal. It began as an iBuyer — instantly valuing, buying, renovating and reselling homes — and has since shifted to a marketplace and brokerage model that connects sellers, buyers and partner estate agents, wrapping the transaction in mortgage brokerage, document management and renovation services. Casavo's developer-facing surface is not its consumer marketplace but the virtual-tour platform it acquired, Realisti.co (marketed as Casavo Virtual Tools): a versioned REST API at editor.realisti.co that lets partner agencies and property-management software create virtual tours, retrieve tour URLs, and activate or deactivate a tour at the end of a mandate. The company also runs a public GitHub organization of DevOps tooling, Helm charts, Terraform modules and the Habitat design system, and an engineering blog.",
-     "score": 21.1,
+     "score": 20.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 87.0,
+      "discoverability": 75.9,
       "contract_quality": 0.0,
       "governance": 12.5,
       "operational_transparency": 21.1,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -295,23 +295,23 @@
      "rank": 6
     },
     {
-     "name": "University of Bologna",
-     "slug": "university-of-bologna",
-     "description": "The University of Bologna (Alma Mater Studiorum - Università di Bologna) is the oldest university in the Western world and a leading Italian research institution, ranked #133 in the QS World University Rankings 2025. Its public developer and API footprint centers on open data and open scholarship rather than a unified developer portal: a CKAN-based open data portal at dati.unibo.it exposes a standard CKAN Action API over institutional datasets, and the AlmaDL AMS Acta institutional repository (EPrints) exposes an OAI-PMH metadata-harvesting interface. The university also maintains an official open-source GitHub organization. Most administrative, course, and identity systems require institutional credentials and are not openly documented.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-bologna/refs/heads/main/screenshots/university-of-bologna-2026-06-20T200136.png",
-     "score": 20.9,
+     "name": "Sapienza University of Rome",
+     "slug": "sapienza-university-of-rome",
+     "description": "Sapienza University of Rome (Sapienza Università di Roma) is Italy's largest university and ranked #132 in the QS World University Rankings 2025. Its public machine-readable footprint is centered on research and library data rather than a unified developer portal: the IRIS institutional research catalogue exposes a DSpace OAI-PMH endpoint for harvesting research metadata, and the Sapienza Library System (Sistema Bibliotecario Sapienza) publishes open data and linked data following the 5-star open data model. There is no single official, documented public REST API gateway; identity is federated via the Italian IDEM Shibboleth/SAML federation. A GitHub organization carrying the Sapienza name exists but hosts research and coursework projects rather than official platform APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sapienza-university-of-rome/refs/heads/main/screenshots/sapienza-university-of-rome-2026-06-20T193443.png",
+     "score": 18.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 59.3,
       "contract_quality": 12.9,
       "governance": 0.0,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 8.7,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -340,28 +340,28 @@
      "rank": 7
     },
     {
-     "name": "Sapienza University of Rome",
-     "slug": "sapienza-university-of-rome",
-     "description": "Sapienza University of Rome (Sapienza Università di Roma) is Italy's largest university and ranked #132 in the QS World University Rankings 2025. Its public machine-readable footprint is centered on research and library data rather than a unified developer portal: the IRIS institutional research catalogue exposes a DSpace OAI-PMH endpoint for harvesting research metadata, and the Sapienza Library System (Sistema Bibliotecario Sapienza) publishes open data and linked data following the 5-star open data model. There is no single official, documented public REST API gateway; identity is federated via the Italian IDEM Shibboleth/SAML federation. A GitHub organization carrying the Sapienza name exists but hosts research and coursework projects rather than official platform APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sapienza-university-of-rome/refs/heads/main/screenshots/sapienza-university-of-rome-2026-06-20T193443.png",
-     "score": 18.7,
+     "name": "Bancomat",
+     "slug": "bancomat",
+     "description": "BANCOMAT S.p.A. is Italy's leading payment network operator managing the PagoBancomat debit card scheme, ATM network, and BANCOMAT Pay mobile payment service. Launched in 1983 for ATM withdrawals and expanded in 1986 with PagoBancomat for PIN-based POS payments, the network underpins Italian electronic payment infrastructure. BANCOMAT Pay, introduced in 2019, enables mobile e-commerce and P2P payments linked to bank accounts via phone number and IBAN.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/screenshots/bancomat-2026-06-20T172935.png",
+     "score": 17.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 12.9,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
+      "governance": 31.3,
+      "operational_transparency": 7.9,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 20.4,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 17.2,
       "matched_via": "tags"
      },
      "agent_score": 3.2,
@@ -400,8 +400,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -445,8 +445,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -490,8 +490,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -535,8 +535,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -580,8 +580,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -625,8 +625,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -655,44 +655,6 @@
      "rank": 14
     },
     {
-     "name": "Bending Spoons",
-     "slug": "bending-spoons",
-     "description": "Bending Spoons S.p.A. is a Milan, Italy technology company founded in 2013 that acquires established digital products and operates them for the long term rather than reselling them. Its portfolio spans more than 50 acquisitions and includes AOL, Brightcove, Eventbrite, Evernote, Harvest, Issuu, komoot, Loomly, Meetup, Remini, Splice, StreamYard, Tractive, Vimeo and WeTransfer, serving over 500 million monthly active users and more than 9 million monthly paying customers. The company listed its ordinary shares on the Nasdaq Global Select Market under the ticker BSP on 1 July 2026. Bending Spoons itself publishes no public developer API, API documentation, or developer portal at the holding-company level: every API surface in the group belongs to an individual acquired product, each profiled separately in the API Evangelist network. What the corporate entity does publish is a PGP-signed RFC 9116 security.txt, a compliance hub, a support center, an investor relations site, and a small set of first-party open-source Swift frameworks (Katana, Tempura).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bending-spoons/refs/heads/main/screenshots/bending-spoons-2026-08-07T162309.png",
-     "score": 14.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 3.1,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 18.4
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 15
-    },
-    {
      "name": "Fibraweb, S.p.a.",
      "slug": "fibraweb-spa",
      "description": "Fibraweb S.p.A. is an Italian telecommunications infrastructure operator, founded in 2012 and headquartered in Perugia (Umbria), that designs, builds and operates its own fiber-optic access network for businesses, wholesale operators and public administrations. The company delivers FTTH/FTTB ultra-broadband internet access, dedicated internet access circuits, and local and long-distance voice/telephony services across the Umbria, Marche, Toscana and Lazio regions, with a proprietary network of roughly 1,500 km of fiber reaching 150 industrial zones and the ability to connect over 30,000 companies. Fibraweb is a Battery Ventures portfolio company (investors also include Equiter and GTD Grupo Teleductos) and holds ISO 9001, ISO/IEC 27001 and ISO/IEC 27017 certifications. It was added to the API Evangelist network as a portfolio lead; the company does not currently publish a public developer API, developer portal, or API documentation.",
@@ -708,8 +670,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -735,6 +697,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 15
+    },
+    {
+     "name": "Bending Spoons",
+     "slug": "bending-spoons",
+     "description": "Bending Spoons S.p.A. is a Milan, Italy technology company founded in 2013 that acquires established digital products and operates them for the long term rather than reselling them. Its portfolio spans more than 50 acquisitions and includes AOL, Brightcove, Eventbrite, Evernote, Harvest, Issuu, komoot, Loomly, Meetup, Remini, Splice, StreamYard, Tractive, Vimeo and WeTransfer, serving over 500 million monthly active users and more than 9 million monthly paying customers. The company listed its ordinary shares on the Nasdaq Global Select Market under the ticker BSP on 1 July 2026. Bending Spoons itself publishes no public developer API, API documentation, or developer portal at the holding-company level: every API surface in the group belongs to an individual acquired product, each profiled separately in the API Evangelist network. What the corporate entity does publish is a PGP-signed RFC 9116 security.txt, a compliance hub, a support center, an investor relations site, and a small set of first-party open-source Swift frameworks (Katana, Tempura).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bending-spoons/refs/heads/main/screenshots/bending-spoons-2026-08-07T162309.png",
+     "score": 13.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 3.1,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 18.4
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 2.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 16
     },
     {
@@ -753,8 +753,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -798,8 +798,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -843,8 +843,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -888,8 +888,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -933,8 +933,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -977,8 +977,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -998,27 +998,37 @@
       "dry_run_mode": false
      },
      "rank": 22
-    },
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 12.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 18,
+   "shown": 18,
+   "providers": [
     {
      "name": "Brumbrum",
      "slug": "brumbrum",
      "description": "Brumbrum is an Italian online used-car marketplace, part of the pan-European Aramis Group, that sells certified pre-owned vehicles fully online with home delivery, financing, trade-in (permuta), warranty coverage, a 14-day return trial and a best-price guarantee. Vehicles are inspected and reconditioned at its Reggio Emilia facility (300+ quality checks) with retail presence near Milan. Brumbrum is a consumer e-commerce brand rather than an API provider; it publishes no public developer portal, API documentation, or machine-readable API specification. This profile in the API Evangelist network captures the company's public web identity and the security/discovery signals probed from its domain.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brumbrum/refs/heads/main/screenshots/brumbrum-2026-07-25T204002.png",
-     "score": 13.0,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 11.9,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
-      "discoverability": 61.1,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 10.5,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 2.7,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
@@ -1030,23 +1040,13 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
      "rank": 23
-    }
-   ]
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 12.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 17,
-   "shown": 17,
-   "providers": [
+    },
     {
      "name": "TIM",
      "slug": "tim-com",
@@ -1063,8 +1063,8 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1108,8 +1108,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1153,8 +1153,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1198,8 +1198,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1243,8 +1243,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1288,8 +1288,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1333,8 +1333,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1378,8 +1378,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1423,8 +1423,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1468,8 +1468,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1513,8 +1513,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1558,8 +1558,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1603,8 +1603,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1648,8 +1648,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1693,8 +1693,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1720,20 +1720,20 @@
      "slug": "alba-robot",
      "description": "ALBA Robot is a Turin, Italy based autonomous micro-mobility company building a fleet of self-driving robots for indoor and pedestrian spaces such as airports, hospitals, and large facilities. Its product line includes ALBA One, ALBA Ride, ALBA Ride +, and the ALBA Caddie autonomous baggage transport robot, and it layers digital services such as Digital Twins and Digital Out-of-Home (DOOH) advertising on top of the mobility platform. ALBA Robot runs pilots and deployments with airports including Cagliari, London Gatwick, Dallas, Milan, Turin, and Dubai (with dnata), and operates from Turin with a US presence in Detroit, Michigan. Surfaced as a Techstars portfolio company and added to the API Evangelist network. As of this enrichment pass the company publishes no public API, developer portal, OpenAPI, SDKs, or GitHub organization; it is a hardware/robotics fleet operator rather than an API provider.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/alba-robot/refs/heads/main/screenshots/alba-robot-2026-07-25T195539.png",
-     "score": 8.2,
+     "score": 7.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.6,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1746,7 +1746,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -1768,8 +1768,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

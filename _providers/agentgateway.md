@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -65,6 +65,26 @@ collections:
   name: AgentGateway Admin / Debug API
   slug: open-agentgateway
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/agentgateway/agentgateway/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/agentgateway/agentgateway/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/agentgateway/agentgateway/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/agentgateway/agentgateway/blob/main/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/agentgateway/agentgateway/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -214,7 +234,7 @@ overview: 'AgentGateway publishes 6 APIs on the [APIs.io](https://apis.io/) netw
   The AgentGateway catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  AgentGateway''s developer surface includes developer portal, documentation, getting-started guide, support, engineering blog, and 9 more developer resources.'
+  AgentGateway''s developer surface includes developer portal, documentation, getting-started guide, support, engineering blog, and 14 more developer resources.'
 plans:
 - name: Agentgateway Plans Pricing
   plan_count: 3
@@ -235,15 +255,15 @@ rules:
   slug: agentgateway-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.7
-  delta: 0.0
+  composite: 44.5
+  delta: -4.2
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 53.5
+    commercial_clarity: 15.8
+    contract_quality: 51.5
     developer_ergonomics: 34.8
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 48.7
   provenance:
     agentic_access: derived
@@ -252,8 +272,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/screenshots/agentgateway-2026-06-20T170015.png
 security:

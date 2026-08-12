@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-10'
+  score: 35.8
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: The accounts API from Ceros — 1 operation(s) for accounts.
@@ -39,8 +39,16 @@ apis:
 - description: The oembed API from Ceros — 1 operation(s) for oembed.
   name: Ceros Oembed API
   slug: ceros-oembed-api
-artifact_total: 10
+artifact_total: 11
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/ceros-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ceros-public-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -174,6 +182,10 @@ examples:
   slug: ceros-oembed-response
 image: https://www.ceros.com/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: ceros-mcp.yml
+  slug: ceros-mcpyml
 modified: '2026-08-09'
 name: Ceros
 nav: Providers
@@ -181,20 +193,32 @@ network: true
 overview: 'Ceros publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Embed Codes API, Experience API, and 3 more. Tagged areas include Content Management, Interactive Content, Digital Experience, Embed, and oEmbed.
 
 
-  Ceros'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
+  Ceros'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
 random_paper: 76
 score:
   band: developing
-  composite: 54.1
+  composite: 52.7
+  delta: -1.4
   facets:
     commercial_clarity: 52.6
-    contract_quality: 53.1
-    developer_ergonomics: 65.2
-    discoverability: 92.6
-    governance: 20.8
+    contract_quality: 58.6
+    developer_ergonomics: 62.5
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 42.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 54.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 16.7
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Ceros Authentication

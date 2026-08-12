@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The IATA Open API Hub aggregates airline-published APIs covering flight status, customer flight info, destinations, port lists, ticket validation, baggage claims, pet travel, and verifiable credential
@@ -105,19 +105,19 @@ rate_limits:
   slug: iata-rate-limits
 score:
   band: emerging
-  composite: 21.5
-  delta: 0.0
+  composite: 13.7
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 15.2
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 21.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/iata/refs/heads/main/screenshots/iata-2026-06-20T183109.png
 security:
 - kind: domain-security

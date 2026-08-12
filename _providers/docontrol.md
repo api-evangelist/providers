@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -113,15 +113,15 @@ rate_limits:
   slug: docontrol-rate-limits
 score:
   band: thin
-  composite: 37.5
-  delta: 0.0
+  composite: 29.2
+  delta: -8.3
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 58.9
+    commercial_clarity: 23.7
+    contract_quality: 56.7
     developer_ergonomics: 19.6
     discoverability: 46.3
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 37.5
   provenance:
     agentic_access: derived
@@ -130,9 +130,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/docontrol/refs/heads/main/screenshots/docontrol-2026-06-20T180108.png
 security:
 - kind: authentication

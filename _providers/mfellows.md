@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 9.0
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 3
 common:
@@ -100,13 +100,13 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: emerging
-  composite: 20.9
-  delta: 0.0
+  composite: 19.9
+  delta: -1.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 17.4
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 3.1
     operational_transparency: 0.0
   previous_composite: 20.9
@@ -118,8 +118,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mfellows/refs/heads/main/screenshots/mfellows-2026-08-07T172807.png
 security:

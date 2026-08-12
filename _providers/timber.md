@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 15.3
-  scored_at: '2026-08-10'
+  score: 11.7
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Vector ships with a local gRPC API that lets you interact with a running Vector instance — inspect component topology, read internal metrics and health, and tap live events flowing through the pipelin
@@ -151,21 +151,21 @@ overview: 'Timber publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 63
 score:
   band: emerging
-  composite: 26.4
-  delta: 0.0
+  composite: 25.3
+  delta: -1.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 60.9
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 39.5
   previous_composite: 26.4
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

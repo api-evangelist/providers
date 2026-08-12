@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-08-10'
+  score: 41.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 0
@@ -204,6 +204,10 @@ apis:
   slug: lifemine-wp-v2-api
 artifact_total: 72
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lifemine-careers-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -352,28 +356,28 @@ network: true
 overview: 'LifeMine publishes 58 APIs on the [APIs.io](https://apis.io/) network, including Abilities API, Block Directory API, Block Patterns API, and 55 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Drug Discovery, and Life Sciences.
 
 
-  LifeMine''s developer surface includes engineering blog, product news, support, authentication, and 21 more developer resources.'
+  LifeMine''s developer surface includes engineering blog, product news, support, authentication, and 22 more developer resources.'
 random_paper: 29
 score:
   band: emerging
-  composite: 22.2
-  delta: -1.6
+  composite: 20.0
+  delta: -2.2
   facets:
     commercial_clarity: 10.5
-    contract_quality: 21.5
+    contract_quality: 21.7
     developer_ergonomics: 21.2
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 23.8
+  previous_composite: 22.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 2
+      derived: 58
       marker_coverage: 100.0
-      total: 2
+      total: 58
     mcp: derived
     skills: derived
   regulatory:
@@ -381,9 +385,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 35.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 26.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifemine/refs/heads/main/screenshots/lifemine-2026-08-07T171642.png
 security:

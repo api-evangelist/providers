@@ -22,14 +22,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-10'
+  score: 38.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -209,26 +209,28 @@ rules:
   slug: martian-ai-asyncapi-spectral-rules
 score:
   band: strong
-  composite: 62.3
-  delta: 17.1
+  composite: 59.2
+  delta: -3.1
   facets:
     commercial_clarity: 52.6
-    contract_quality: 72.9
-    developer_ergonomics: 67.4
-    discoverability: 92.6
+    contract_quality: 70.1
+    developer_ergonomics: 60.9
+    discoverability: 81.5
     governance: 33.3
     operational_transparency: 52.6
-  previous_composite: 45.2
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: rising
+    mcp: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/martian-ai/refs/heads/main/screenshots/martian-ai-2026-07-25T230258.png
 security:
 - kind: authentication

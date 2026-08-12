@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The Sliplane Control API is a REST API at https://ctrl.sliplane.io/v0 for programmatically managing organizations, projects, services, deployments, custom domains, registry credentials, servers, volum
@@ -38,6 +38,10 @@ apis:
   slug: mcp
 artifact_total: 4
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/sliplane/mcp/blob/main/LICENSE
 - group: auth
   title: ''
   type: TrustCenter
@@ -146,7 +150,7 @@ network: true
 overview: 'Sliplane publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Container Hosting, Docker Hosting, Container As A Service, Platform As A Service, and Push To Deploy.
 
 
-  Sliplane''s developer surface includes pricing, documentation, API reference, tooling, engineering blog, changelog, status page, and 17 more developer resources.'
+  Sliplane''s developer surface includes pricing, documentation, API reference, tooling, engineering blog, changelog, status page, and 18 more developer resources.'
 random_paper: 44
 score:
   band: emerging
@@ -160,8 +164,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 21.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sliplane/refs/heads/main/screenshots/sliplane-2026-06-20T194030.png
 security:

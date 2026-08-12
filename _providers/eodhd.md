@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 60.8
-  scored_at: '2026-08-10'
+  score: 57.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -327,15 +328,15 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 74.4
-  delta: 0.0
+  composite: 67.3
+  delta: -7.1
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 68.8
+    commercial_clarity: 60.5
+    contract_quality: 66.6
     developer_ergonomics: 84.8
     discoverability: 92.6
     governance: 69.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 74.4
   provenance:
     agentic_access: derived
@@ -353,9 +354,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/screenshots/eodhd-2026-06-20T180745.png
 security:
 - kind: authentication

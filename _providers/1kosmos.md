@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +12,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-08-10'
+  score: 50.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -58,12 +59,16 @@ apis:
 - description: The Workflow API API from 1Kosmos — 2 operation(s) for workflow api.
   name: 1Kosmos Workflow API API
   slug: 1kosmos-workflow-api-api
-artifact_total: 15
+artifact_total: 16
 asyncapis:
 - description: ''
   name: 1Kosmos Idverify Events
   slug: 1kosmos-idverify-events
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/1kosmos-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -196,6 +201,10 @@ created: '2026-08-05'
 description: 1Kosmos is a digital identity company whose BlockID platform combines identity proofing, document and biometric verification, and passwordless / FIDO2 authentication into a single tenant-scoped platform used across workforce, customer and citizen identity. The platform is delivered as a REST API surface (identity verification sessions, identity assurance level lookup, one-time passcodes, user management, access codes, W3C Verifiable Credentials and Verifiable Presentations, IAL2 identity-proofing workflows and reporting/metrics) plus first-party helper SDKs for NodeJS, Java, PHP, .NET, .NET Core and Go, and native Android/iOS mobile SDKs. 1Kosmos is Kantara-approved as a full-service credential service provider conformant with NIST SP 800-63-3 at IAL2/AAL2, is FIDO2 certified, holds SOC 2 Type II and ISO 27001, and holds a FedRAMP High authorization.
 image: https://framerusercontent.com/images/CaZExN3h34OiuPCO41bzrgwhVc.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: 1kosmos-mcp.yml
+  slug: 1kosmos-mcpyml
 modified: '2026-08-05'
 name: 1Kosmos
 nav: Providers
@@ -206,7 +215,7 @@ overview: '1Kosmos publishes 10 APIs on the [APIs.io](https://apis.io/) network,
   The 1Kosmos catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  1Kosmos'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, sandbox, and 25 more developer resources.'
+  1Kosmos'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, sandbox, and 26 more developer resources.'
 random_paper: 21
 scopes:
 - name: 1Kosmos Scopes
@@ -215,16 +224,16 @@ scopes:
   summary_line: 3 scopes · authorizationCode/refreshToken
 score:
   band: developing
-  composite: 53.9
-  delta: -1.0
+  composite: 54.6
+  delta: 0.7
   facets:
     commercial_clarity: 31.6
-    contract_quality: 67.0
-    developer_ergonomics: 71.2
+    contract_quality: 68.2
+    developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 54.9
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -232,11 +241,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/screenshots/1kosmos-2026-08-07T160649.png
 security:

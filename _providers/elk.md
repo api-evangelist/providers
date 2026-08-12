@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Client-side API for Elk, a nimble Mastodon web client providing access to Fediverse social networking functionality.
@@ -36,6 +36,22 @@ apis:
   slug: elk-client-api
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/elk-zone/elk/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/elk-zone/elk/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/elk-zone/elk/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/elk-zone/elk/blob/main/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -71,7 +87,7 @@ network: true
 overview: 'Elk publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fediverse, Mastodon, Open Source, and Social Networking.
 
 
-  Elk''s developer surface includes support and 4 more developer resources.'
+  Elk''s developer surface includes support and 8 more developer resources.'
 plans:
 - name: Elk Plans Pricing
   plan_count: 3
@@ -83,19 +99,19 @@ rate_limits:
   slug: elk-rate-limits
 score:
   band: emerging
-  composite: 19.3
-  delta: 0.0
+  composite: 13.5
+  delta: -5.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 4.3
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 19.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/elk/refs/heads/main/screenshots/elk-2026-06-20T180618.png
 security:
 - kind: domain-security

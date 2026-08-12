@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Server-side REST API for Quadrata Passport: login/access-token authentication, ECDSA-signed privacy data requests, on-chain AML wallet screening, and passport attribute queries. Distributed as the @qu'
@@ -166,8 +166,8 @@ overview: 'Quadrata publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 39
 score:
   band: thin
-  composite: 41.8
-  delta: 0.0
+  composite: 40.3
+  delta: -1.5
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -178,8 +178,14 @@ score:
   previous_composite: 41.8
   provenance:
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 31.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

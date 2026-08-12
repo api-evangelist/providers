@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 27.0
-  scored_at: '2026-08-10'
+  score: 23.4
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Patlytics Patent Search connector — a hosted Model Context Protocol server (Streamable HTTP) that brings concept-level, AI-native patent intelligence into MCP clients such as Claude. Five read-onl
@@ -172,8 +172,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/patlytics/refs/heads/main/screenshots/patlytics-2026-08-07T191555.png
 security:

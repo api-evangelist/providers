@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API for managing rental properties, tenants, leases, maintenance requests, accounting, and online rent payment processing on the TenantCloud platform.
@@ -105,9 +105,9 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 score:
-  band: thin
-  composite: 28.8
-  delta: 0.0
+  band: emerging
+  composite: 25.9
+  delta: -2.9
   facets:
     commercial_clarity: 31.6
     contract_quality: 32.3
@@ -116,8 +116,14 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 28.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 9.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tenantcloud/refs/heads/main/screenshots/tenantcloud-2026-06-20T195109.png
 security:

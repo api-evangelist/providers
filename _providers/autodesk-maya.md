@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: 'Python API for scripting and extending Maya functionality, providing access to Maya''s scene graph and node architecture. Includes Python API 2.0 with a more Pythonic workflow and improved performance '
@@ -48,6 +48,18 @@ apis:
   slug: maya-bifrost-api
 artifact_total: 24
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Autodesk/maya-usd/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Autodesk/maya-usd/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Autodesk/maya-usd/blob/dev/SECURITY.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -121,7 +133,7 @@ network: true
 overview: 'Autodesk Maya publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D Graphics, Animation, Game Development, Modeling, and Rendering.
 
 
-  Autodesk Maya''s developer surface includes developer portal, documentation, support, engineering blog, release notes, and 4 more developer resources.'
+  Autodesk Maya''s developer surface includes developer portal, documentation, support, engineering blog, release notes, and 7 more developer resources.'
 plans:
 - name: Autodesk Maya Plans Pricing
   plan_count: 3
@@ -132,20 +144,20 @@ rate_limits:
   name: Autodesk Maya Rate Limits
   slug: autodesk-maya-rate-limits
 score:
-  band: thin
-  composite: 28.1
-  delta: 0.0
+  band: emerging
+  composite: 21.7
+  delta: -6.4
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 23.9
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 28.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk-maya/refs/heads/main/screenshots/autodesk-maya-2026-06-20T172637.png
 security:
 - kind: domain-security

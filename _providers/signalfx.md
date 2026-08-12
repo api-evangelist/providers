@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 18.0
-  scored_at: '2026-08-10'
+  score: 14.4
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'The SignalFx REST API manages metadata and configuration objects in Splunk Observability Cloud / SignalFx: metrics and dimension metadata, detectors and alert muting rules, charts, dashboards and dash'
@@ -163,21 +163,21 @@ overview: 'SignalFx publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 48
 score:
   band: thin
-  composite: 36.4
-  delta: 0.0
+  composite: 35.3
+  delta: -1.1
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 60.9
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 23.7
   previous_composite: 36.4
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

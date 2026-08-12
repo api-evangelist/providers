@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-08-10'
+  score: 43.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
 - description: U.S. Department of Transportation Airport Status Web Service from U.S. Department of Transportation — 2 path(s) described in OpenAPI.
   name: U.S. Department of Transportation Airport Status Web Service
   slug: us-dot-faa-airport-status-web-service-openapi
-artifact_total: 26
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Us Dot Event Surfaces
@@ -73,6 +73,10 @@ asyncapis:
   name: USDOT ITS JPO Operational Data Environment (ODE) — Kafka event surface
   slug: us-dot-its-jpo-ode-asyncapi
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/us-dot-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -284,6 +288,10 @@ json_schemas:
   property_count: 5
   slug: us-dot-wzdx-4.2-workzonefeed
 layout: provider
+mcp_servers:
+- description: ''
+  name: us-dot-mcp.yml
+  slug: us-dot-mcpyml
 modified: '2026-07-28'
 name: U.S. Department of Transportation
 nav: Providers
@@ -294,17 +302,17 @@ overview: 'U.S. Department of Transportation publishes 5 APIs on the [APIs.io](h
   The U.S. Department of Transportation catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  U.S. Department of Transportation''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 38 more developer resources.'
+  U.S. Department of Transportation''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 39 more developer resources.'
 random_paper: 24
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 48.6
+  delta: -1.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 55.2
-    developer_ergonomics: 53.8
-    discoverability: 92.6
+    contract_quality: 53.1
+    developer_ergonomics: 56.0
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 47.4
   previous_composite: 49.6
@@ -324,8 +332,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

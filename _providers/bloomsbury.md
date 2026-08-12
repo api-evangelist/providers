@@ -24,13 +24,21 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-10'
+  score: 0.0
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/bloomsburyai/cape-webservices/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/bloomsburyai/cape-webservices/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -71,18 +79,18 @@ overview: Bloomsbury is profiled on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 58
 score:
   band: minimal
-  composite: 8.1
-  delta: 0.0
+  composite: 7.0
+  delta: -1.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 61.1
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 8.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomsbury/refs/heads/main/screenshots/bloomsbury-2026-07-25T203411.png
 security:

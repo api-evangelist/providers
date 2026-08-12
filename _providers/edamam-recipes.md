@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -293,11 +293,11 @@ rules:
   slug: edamam-recipes-rules
 score:
   band: developing
-  composite: 48.9
-  delta: 0.0
+  composite: 48.3
+  delta: -0.6
   facets:
     commercial_clarity: 42.1
-    contract_quality: 67.5
+    contract_quality: 65.0
     developer_ergonomics: 32.6
     discoverability: 81.5
     governance: 68.8
@@ -310,8 +310,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/screenshots/edamam-recipes-2026-06-20T180448.png
 security:

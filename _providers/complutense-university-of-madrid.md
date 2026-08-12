@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: DataStore query API of the UniversiDATA open-data platform (DKAN), of which Complutense University of Madrid is a founding participant. Returns the records of published data resources (including UCM d
@@ -132,8 +132,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/complutense-university-of-madrid/refs/heads/main/screenshots/complutense-university-of-madrid-2026-06-20T174834.png
 security:

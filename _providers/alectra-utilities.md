@@ -11,21 +11,25 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.3
-  scored_at: '2026-08-10'
+  score: 20.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Alectra's mandated Green Button Connect My Data service, required of every Ontario electric and gas utility by Ontario Regulation 633/21 (Energy Data) and implemented to the NAESB REQ.21 Energy Servic
   name: Alectra Utilities Green Button Connect My Data (CMD) API
   slug: alectra-green-button-connect-my-data-api
-artifact_total: 4
+artifact_total: 5
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/alectra-utilities-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -104,6 +108,10 @@ description: 'Alectra Utilities Corporation is Ontario''s second-largest municip
   not resolve; /developers, /api, /docs, /data, /openapi.json and /swagger.json all return HTTP 404. Every path on the Green Button portal — including a deliberately invented control path — HTTP 302 redirects to a customer sign-in, so no endpoint could be confirmed. The resulting split is the finding: a mandated consumer-data API that a third party can reach only by completing an application and being approved, and zero open market or grid data of any kind, because in Ontario that layer belongs to the IESO and the OEB rather than to the distributor.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: alectra-utilities-mcp.yml
+  slug: alectra-utilities-mcpyml
 modified: '2026-07-27'
 name: Alectra Utilities
 nav: Providers
@@ -111,7 +119,7 @@ network: true
 overview: 'Alectra Utilities publishes 1 API on the [APIs.io](https://apis.io/) network: Green Button Connect My Data (CMD) API. Tagged areas include Energy, Canada, Utilities, Electricity, and Ontario.
 
 
-  Alectra Utilities'' developer surface includes documentation, developer portal, support, engineering blog, and 14 more developer resources.'
+  Alectra Utilities'' developer surface includes documentation, developer portal, support, engineering blog, and 15 more developer resources.'
 random_paper: 25
 scopes:
 - name: Alectra Utilities Scopes
@@ -120,13 +128,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 25.6
-  delta: 0.0
+  composite: 27.2
+  delta: 1.6
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 12.2
-    developer_ergonomics: 25.5
-    discoverability: 77.8
+    commercial_clarity: 34.2
+    contract_quality: 11.8
+    developer_ergonomics: 27.7
+    discoverability: 66.7
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 25.6
@@ -145,8 +153,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 48.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alectra-utilities/refs/heads/main/screenshots/alectra-utilities-2026-08-07T161155.png
 security:

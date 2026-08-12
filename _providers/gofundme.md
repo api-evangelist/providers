@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 56.5
-  scored_at: '2026-08-10'
+  score: 52.9
+  scored_at: '2026-08-11'
 api_count: 72
 apis:
 - description: GoFundMe Pro's single sign-on service, implemented against OpenID Connect, letting third-party apps register and log people in with their Classy/GoFundMe Pro account. Authorization endpoint at login.c
@@ -243,6 +243,10 @@ asyncapis:
   name: Gofundme Webhooks
   slug: gofundme-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/gofundme-pro-api-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -397,7 +401,7 @@ overview: 'GoFundMe publishes 70 APIs on the [APIs.io](https://apis.io/) network
   The GoFundMe catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  GoFundMe''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+  GoFundMe''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 random_paper: 41
 rate_limits:
 - limit_count: 1
@@ -410,23 +414,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials/password
 score:
   band: strong
-  composite: 63.4
-  delta: -0.6
+  composite: 61.5
+  delta: -1.9
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.1
+    contract_quality: 65.9
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 84.2
-  previous_composite: 64.0
+  previous_composite: 63.4
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 70
     mcp: derived
     skills: derived
   regulatory:
@@ -434,9 +438,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 75.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 62.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gofundme/refs/heads/main/screenshots/gofundme-2026-08-07T165756.png
 security:

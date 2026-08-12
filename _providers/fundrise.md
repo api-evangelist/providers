@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +12,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 51.6
-  scored_at: '2026-08-10'
+  score: 50.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -62,8 +63,16 @@ arazzos:
 - description: 'The primary Fundrise Connect flow, modelled from the sequence Fundrise publishes under the "Workflow Example" tag of its own OpenAPI: create a Client, exchange the issued refresh token for a Client ac'
   name: Fundrise Connect — onboard a Client and place an Investment
   slug: fundrise-onboard-client-and-invest
-artifact_total: 17
+artifact_total: 18
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/fundrise-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/fundrise-connect-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -153,6 +162,10 @@ description: 'Fundrise is a Washington, DC based financial technology company th
   from the Fundrise Connect team — and the API is documented publicly with an OpenAPI 3.1 definition.'
 image: https://fundrise.com/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: fundrise-mcp.yml
+  slug: fundrise-mcpyml
 modified: '2026-08-04'
 name: Fundrise
 nav: Providers
@@ -160,7 +173,7 @@ network: true
 overview: 'Fundrise publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Acknowledgments API, Authentication API, Clients API, and 6 more. Tagged areas include Company, Financial Services, Investing, Real Estate, and Private Credit.
 
 
-  Fundrise''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 15 more developer resources.'
+  Fundrise''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 17 more developer resources.'
 random_paper: 52
 rate_limits:
 - limit_count: 0
@@ -173,16 +186,16 @@ scopes:
   summary_line: 2 scopes
 score:
   band: developing
-  composite: 44.2
-  delta: -0.4
+  composite: 45.0
+  delta: 0.8
   facets:
     commercial_clarity: 34.2
-    contract_quality: 64.3
-    developer_ergonomics: 42.9
+    contract_quality: 65.7
+    developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 44.6
+  previous_composite: 44.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -190,11 +203,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

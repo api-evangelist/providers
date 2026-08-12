@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -75,6 +75,10 @@ collections:
   name: Bread Pay Platform API
   slug: open-bread-pay-platform
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/bppub/breadfinancial-brand-partners-ios/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -271,7 +275,7 @@ overview: 'Alliance Data Systems (Bread Financial Holdings) publishes 5 APIs on 
   The Alliance Data Systems (Bread Financial Holdings) catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Alliance Data Systems (Bread Financial Holdings)''s developer surface includes authentication, engineering blog, and 25 more developer resources.'
+  Alliance Data Systems (Bread Financial Holdings)''s developer surface includes authentication, engineering blog, and 26 more developer resources.'
 plans:
 - name: Alliance Data Systems Plans Pricing
   plan_count: 3
@@ -329,15 +333,15 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 49.6
+  delta: 1.1
   facets:
     commercial_clarity: 39.5
-    contract_quality: 72.4
+    contract_quality: 69.7
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 26.3
+    operational_transparency: 42.1
   previous_composite: 48.5
   provenance:
     agentic_access: derived
@@ -352,8 +356,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 43.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/screenshots/alliance-data-systems-2026-07-25T195654.png
 security:

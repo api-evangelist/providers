@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 231
   human_in_the_loop: 6
@@ -1237,15 +1238,15 @@ rules:
   slug: dropbox-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 44.9
+  delta: -4.1
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 64.4
+    commercial_clarity: 34.2
+    contract_quality: 62.3
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 49.0
   provenance:
     agentic_access: derived
@@ -1254,8 +1255,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/screenshots/dropbox-2026-06-20T180244.png
 security:

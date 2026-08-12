@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 3
@@ -297,6 +297,10 @@ collections:
   name: Fireblocks Workspace Management API
   slug: open-fireblocks-workspace-api
 common:
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://developers.fireblocks.com/changelog
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -653,7 +657,7 @@ overview: 'fireblocks publishes 35 APIs on the [APIs.io](https://apis.io/) netwo
   The fireblocks catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  fireblocks'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, product news, and 66 more developer resources.'
+  fireblocks'' developer surface includes changelog, authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, and 67 more developer resources.'
 plans:
 - name: Fireblocks Plans Pricing
   plan_count: 6
@@ -674,15 +678,15 @@ rules:
   slug: fireblocks-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 67.2
-  delta: 0.0
+  composite: 68.8
+  delta: 1.6
   facets:
     commercial_clarity: 78.9
-    contract_quality: 70.4
+    contract_quality: 67.8
     developer_ergonomics: 67.4
-    discoverability: 64.8
+    discoverability: 66.7
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 68.4
   previous_composite: 67.2
   provenance:
     agentic_access: derived
@@ -691,8 +695,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 35
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fireblocks/refs/heads/main/screenshots/fireblocks-2026-06-20T181228.png
 security:

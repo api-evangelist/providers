@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Partner-gated REST API for submitting buyer and seller leads to HomeLight, submitting Simple Sale cash-offer seller leads, and checking for duplicate leads before submission. Authentication is via a p
@@ -145,8 +145,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 8.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/homelight/refs/heads/main/screenshots/homelight-2026-06-20T182818.png
 security:

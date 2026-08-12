@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: The Control Plane API manages clusters (create / modify / suspend), users, roles, backups, alerts, metrics, and billing. Authentication is Bearer with a Zilliz API key.
@@ -123,25 +123,25 @@ rate_limits:
   slug: zilliz-rate-limits
 score:
   band: thin
-  composite: 35.8
-  delta: 12.3
+  composite: 31.8
+  delta: -4.0
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 55.0
+    commercial_clarity: 31.6
+    contract_quality: 56.7
     developer_ergonomics: 8.7
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 23.5
+    operational_transparency: 10.5
+  previous_composite: 35.8
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: rising
+      total: 3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zilliz/refs/heads/main/screenshots/zilliz-2026-06-20T201901.png
 security:
 - kind: domain-security

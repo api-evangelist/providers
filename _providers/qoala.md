@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 62.4
-  scored_at: '2026-08-10'
+  score: 58.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -197,16 +197,16 @@ overview: 'Qoala publishes 2 APIs on the [APIs.io](https://apis.io/) network: Au
 random_paper: 62
 score:
   band: developing
-  composite: 43.9
-  delta: -2.0
+  composite: 43.3
+  delta: -0.6
   facets:
     commercial_clarity: 23.7
-    contract_quality: 64.7
+    contract_quality: 66.0
     developer_ergonomics: 66.8
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 45.9
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -214,7 +214,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 15
+      total: 2
     mcp: first-party
     skills: derived
   regulatory:
@@ -223,8 +223,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 31.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

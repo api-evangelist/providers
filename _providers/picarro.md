@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-10'
+  score: 31.3
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: 'The first-party gRPC/ProtoBuf interface Picarro publishes for external access to Picarro SAM (semiconductor airborne molecular contamination) systems. The `picarro-edge` server exposes three services '
@@ -239,8 +239,8 @@ scopes:
   summary_line: 9 scopes · authorizationCode/implicit/password/clientCredentials
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 52.8
+  delta: 1.9
   facets:
     commercial_clarity: 60.5
     contract_quality: 49.4
@@ -253,8 +253,14 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 63.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

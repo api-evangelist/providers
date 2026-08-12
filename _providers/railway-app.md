@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 13
 apis:
 - description: GraphQL operations for creating, reading, updating, and deleting Railway projects - the top-level container for services and environments. Queries include project and projects; mutations include proje
@@ -173,8 +173,8 @@ score:
     governance: 41.7
     operational_transparency: 36.8
   previous_composite: 43.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

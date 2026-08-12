@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: 'Akita Software provided an API observability platform that used passive traffic monitoring to automatically discover, map, and model APIs without requiring code changes or proxying. It could generate '
@@ -39,6 +39,18 @@ apis:
   slug: postman-live-insights
 artifact_total: 20
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/postmanlabs/postman-insights-agent/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/postmanlabs/postman-insights-agent/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/postmanlabs/postman-insights-agent/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -104,7 +116,7 @@ network: true
 overview: 'Akita Software publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, API Discovery, API Mapping, API Observability, and Traffic Analysis.
 
 
-  Akita Software''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
+  Akita Software''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
 plans:
 - name: Akita Software Plans Pricing
   plan_count: 3
@@ -116,19 +128,19 @@ rate_limits:
   slug: akita-software-rate-limits
 score:
   band: emerging
-  composite: 20.8
-  delta: 0.0
+  composite: 15.0
+  delta: -5.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 10.9
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 20.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 security:
 - kind: domain-security
   name: Akita Software Domain Security

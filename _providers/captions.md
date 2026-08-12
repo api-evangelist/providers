@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -62,6 +62,10 @@ apis:
   slug: captions-videos-api
 artifact_total: 23
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/captions-mirage-overlay.yaml
 - group: start
   title: ''
   type: Portal
@@ -245,7 +249,7 @@ overview: 'Captions publishes 7 APIs on the [APIs.io](https://apis.io/) network,
   The Captions catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Captions'' developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
+  Captions'' developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
 plans:
 - name: Captions Plans Pricing
   plan_count: 6
@@ -269,29 +273,29 @@ rules:
   slug: captions-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 70.5
-  delta: 17.5
+  composite: 70.8
+  delta: 0.3
   facets:
     commercial_clarity: 92.1
-    contract_quality: 52.4
+    contract_quality: 53.5
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 89.6
     operational_transparency: 68.4
-  previous_composite: 53.0
+  previous_composite: 70.5
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 22.2
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: rising
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/screenshots/captions-2026-07-25T204454.png
 security:
 - kind: authentication

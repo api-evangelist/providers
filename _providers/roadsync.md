@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -94,6 +94,10 @@ apis:
   slug: roadsync-workorders-api
 artifact_total: 22
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/roadsync-client-api-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -213,17 +217,17 @@ network: true
 overview: 'Roadsync publishes 18 APIs on the [APIs.io](https://apis.io/) network, including authenticated API, brokers API, department API, and 15 more. Tagged areas include Company, Financial Services, Payments, Logistics, and Trucking.
 
 
-  Roadsync''s developer surface includes documentation, API reference, authentication, sandbox, support, engineering blog, and 20 more developer resources.'
+  Roadsync''s developer surface includes documentation, API reference, authentication, sandbox, support, engineering blog, and 21 more developer resources.'
 random_paper: 55
 score:
-  band: developing
-  composite: 42.7
-  delta: 0.0
+  band: thin
+  composite: 41.3
+  delta: -1.4
   facets:
     commercial_clarity: 21.1
-    contract_quality: 59.0
+    contract_quality: 56.8
     developer_ergonomics: 58.2
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
   previous_composite: 42.7
@@ -243,8 +247,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

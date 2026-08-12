@@ -1,64 +1,184 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
   public: false
-  source: []
-  trial: false
+  source:
+  - https://weaveapi.dev/pricing/
+  - https://console.weaveapi.dev/register
+  - plans
+  - authentication
+  trial: true
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
-    consent_identity: false
+    auth_clarity: true
+    consent_identity: true
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-10'
-api_count: 1
+  score: 18.5
+  scored_at: '2026-08-11'
+api_count: 2
 apis:
-- description: OpenAI-wire-compatible REST API for chat completions, responses, and model catalog. Authenticated with a bearer API key. Also offers an Anthropic/Claude-compatible Messages route on the api.weaveapi.d
+- description: OpenAI-wire-compatible REST API for chat completions, responses-style requests and the model catalog, authenticated with a bearer API key in the Authorization header. Three endpoints are documented (P
   name: WeaveAPI OpenAI-compatible API
   slug: weaveapi-openai-compatible-api
-artifact_total: 1
+- description: 'Anthropic/Claude-wire-compatible messages route served from the bare api.weaveapi.dev host. The Claude Code setup guide instructs clients to use the host WITHOUT /v1 because Claude-compatible clients '
+  name: WeaveAPI Anthropic-compatible Messages API
+  slug: weaveapi-anthropic-compatible-messages-api
+artifact_total: 6
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://weaveapi.dev/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://console.weaveapi.dev/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://weaveapi.dev/docs/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://weaveapi.dev/docs/#chat-completions
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://weaveapi.dev/docs/#quick-start
+- group: operate
+  title: ''
+  type: Support
+  url: https://weaveapi.dev/support/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://weaveapi.dev/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://console.weaveapi.dev/register
+- group: start
+  title: ''
+  type: Login
+  url: https://console.weaveapi.dev/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://weaveapi.dev/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://weaveapi.dev/privacy/
+- group: company
+  title: ''
+  type: About
+  url: https://weaveapi.dev/about/
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/weaveapi-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/weaveapi-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/weaveapi-error-codes.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/weaveapi-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/weaveapi-plans-pricing.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/weaveapi-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/weaveapi-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/weaveapi-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/weaveapi-llms.txt
+- group: other
+  title: ''
+  type: ContentSignal
+  url: well-known/weaveapi-content-signals.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/weaveapi-domain-security.yml
 created: '2026-07-10'
-description: WeaveAPI is an OpenAI-compatible /v1 gateway for calling supported model families (OpenAI, Anthropic, DeepSeek, Qwen, Kimi, GLM, MiniMax) through a clean OpenAI-compatible API. Keep your SDK, change the base URL, and manage keys, balance, usage, and top-ups in a hosted console. Prepaid pay-as-you-go pricing with a $1 signup credit.
+description: 'WeaveAPI is a hosted, OpenAI-wire-compatible inference gateway: one base URL (https://api.weaveapi.dev/v1) and one bearer API key give access to model routes drawn from several upstream families, while keys, prepaid balance, usage logs and top-ups are managed in a hosted console. The pitch is drop-in substitution — keep an existing OpenAI SDK, change the base URL and the key, and pick a model id from the console Model Marketplace. It also exposes an Anthropic-compatible messages route, and publishes setup guides for Claude Code, Codex, OpenCode, OpenClaw, Claude Desktop and Hermes via CC Switch. Billing is prepaid credits shared across every route, metered per model, with a $1 signup testing credit and no subscription tiers. The gateway runs the open-source New API platform. WeaveAPI publishes no OpenAPI or other machine-readable contract, no SDK of its own, no MCP server, no status page and no changelog.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/weaveapi.png
 layout: provider
-modified: '2026-07-10'
+modified: '2026-08-11'
 name: WeaveAPI - OpenAI-compatible AI API Gateway
 nav: Providers
 network: true
-overview: WeaveAPI - OpenAI-compatible AI API Gateway publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, LLM, AI inference, API gateway, and aggregator.
+overview: 'WeaveAPI - OpenAI-compatible AI API Gateway publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, LLM, AI inference, API gateway, and aggregator.
+
+
+  WeaveAPI - OpenAI-compatible AI API Gateway''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 16 more developer resources.'
+plans:
+- name: Weaveapi Plans Pricing
+  plan_count: 2
+  slug: weaveapi-plans-pricing
 random_paper: 38
+rate_limits:
+- limit_count: 0
+  name: Weaveapi Rate Limits
+  slug: weaveapi-rate-limits
 score:
-  band: minimal
-  composite: 6.3
-  delta: 0.0
+  band: thin
+  composite: 32.3
+  delta: 26.0
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 65.8
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 63.0
-    governance: 0.0
+    developer_ergonomics: 50.0
+    discoverability: 75.9
+    governance: 12.5
     operational_transparency: 0.0
   previous_composite: 6.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: rising
+security:
+- kind: authentication
+  name: Weaveapi Authentication
+  slug: weaveapi-authentication
+  summary_line: apiKey · 0 schemes
+- kind: domain-security
+  name: Weaveapi Domain Security
+  slug: weaveapi-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: weaveapi
 tags:
 - AI
@@ -69,4 +189,9 @@ tags:
 - OpenAI-compatible
 - developer tools
 - model routing
+- LLM gateway
+- prepaid credits
+- agent tools
+- model marketplace
+website: https://weaveapi.dev/
 ---

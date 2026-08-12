@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-10'
+  score: 38.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 0
@@ -318,14 +318,14 @@ overview: 'NationGraph publishes 56 APIs on the [APIs.io](https://apis.io/) netw
   NationGraph''s developer surface includes authentication, documentation, support, engineering blog, API reference, and 18 more developer resources.'
 random_paper: 19
 score:
-  band: developing
-  composite: 42.6
-  delta: 0.0
+  band: thin
+  composite: 41.2
+  delta: -1.4
   facets:
     commercial_clarity: 42.1
-    contract_quality: 52.9
+    contract_quality: 50.9
     developer_ergonomics: 36.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 42.6
@@ -345,8 +345,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 55.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nationgraph/refs/heads/main/screenshots/nationgraph-2026-08-07T184651.png
 security:

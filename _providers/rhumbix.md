@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.5
-  scored_at: '2026-08-10'
+  score: 26.4
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Export Data from Rhumbix
@@ -40,8 +40,20 @@ apis:
 - description: Returns appropriate headers to enable CORS for cross-domain API requests
   name: Rhumbix CORS API
   slug: rhumbix-cors-api
-artifact_total: 5
+artifact_total: 6
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/rhumbix-export-workshifts.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/rhumbix-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/rhumbix-public-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -106,6 +118,10 @@ created: '2026-07-17'
 description: Rhumbix is a field-first workforce management platform for construction that consolidates timekeeping, production tracking, time & materials, change orders, daily field reports, and custom forms into real-time visibility on labor and job costs for trade contractors and general contractors. Rhumbix publishes a REST Public API (Swagger 2.0, x-api-key auth) for batch import of employees and projects and batch export of workshift/timecard data, enabling bidirectional flow between the field and ERP/accounting and project-management systems (Sage, Oracle, SAP, QuickBooks, Viewpoint, CMiC, Procore, Autodesk Construction Cloud). Autodesk has signed a definitive agreement to acquire Rhumbix.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rhumbix.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: rhumbix-mcp.yml
+  slug: rhumbix-mcpyml
 modified: '2026-07-21'
 name: Rhumbix
 nav: Providers
@@ -113,16 +129,16 @@ network: true
 overview: 'Rhumbix publishes 3 APIs on the [APIs.io](https://apis.io/) network: Batch Export API, Batch Import API, and CORS API. Tagged areas include Company, Applications, Construction, Construction Technology, and Workforce Management.
 
 
-  Rhumbix''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, and 9 more developer resources.'
+  Rhumbix''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
 random_paper: 71
 score:
   band: thin
-  composite: 41.2
-  delta: 0.0
+  composite: 41.5
+  delta: 0.3
   facets:
     commercial_clarity: 44.7
-    contract_quality: 55.8
-    developer_ergonomics: 30.4
+    contract_quality: 53.7
+    developer_ergonomics: 34.2
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
@@ -136,8 +152,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

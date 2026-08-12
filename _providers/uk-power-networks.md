@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 54.7
-  scored_at: '2026-08-10'
+  score: 51.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,6 +36,10 @@ apis:
   slug: uk-power-networks-explore-api-v2-0
 artifact_total: 13
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/UKPN-DSO/ukpyn/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -260,7 +264,7 @@ network: true
 overview: 'UK Power Networks publishes 2 APIs on the [APIs.io](https://apis.io/) network: Open Data Explore API v2.1 and Open Data Explore API v2.0. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Grid.
 
 
-  UK Power Networks'' developer surface includes authentication, developer portal, documentation, developer console, signup flow, SDKs, changelog, and 41 more developer resources.'
+  UK Power Networks'' developer surface includes authentication, developer portal, documentation, developer console, signup flow, SDKs, changelog, and 42 more developer resources.'
 random_paper: 24
 rate_limits:
 - limit_count: 1
@@ -268,11 +272,11 @@ rate_limits:
   slug: uk-power-networks-rate-limits
 score:
   band: strong
-  composite: 56.7
-  delta: 0.0
+  composite: 56.2
+  delta: -0.5
   facets:
     commercial_clarity: 42.1
-    contract_quality: 58.9
+    contract_quality: 56.7
     developer_ergonomics: 73.4
     discoverability: 87.0
     governance: 31.3
@@ -289,8 +293,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 48.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

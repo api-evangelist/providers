@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 6.3
-  scored_at: '2026-08-10'
+  score: 2.7
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The SAP SuccessFactors HXM Suite OData API set (OData v2 and v4) provides programmatic access to Employee Central, Recruiting, Onboarding, Performance & Goals, Compensation, Learning, and other HXM en
@@ -98,18 +98,18 @@ overview: 'Successfactors publishes 1 API on the [APIs.io](https://apis.io/) net
 random_paper: 7
 score:
   band: emerging
-  composite: 19.2
-  delta: 0.0
+  composite: 18.1
+  delta: -1.1
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 28.3
-    discoverability: 79.6
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 19.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

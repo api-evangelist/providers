@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Meteor is an open-source JavaScript platform providing a full-stack development environment with real-time data synchronization, server-side rendering, and a package ecosystem (Atmosphere).
@@ -90,20 +90,20 @@ rate_limits:
   name: Meteor Rate Limits
   slug: meteor-rate-limits
 score:
-  band: thin
-  composite: 32.6
-  delta: 0.0
+  band: emerging
+  composite: 25.5
+  delta: -7.1
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 50.6
     developer_ergonomics: 6.5
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 32.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/meteor/refs/heads/main/screenshots/meteor-2026-06-20T185254.png
 security:
 - kind: domain-security

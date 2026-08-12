@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Clients connect to MotherDuck through DuckDB's native protocol using a connection string of the form `md:` plus an access token. Officially supported clients include DuckDB CLI, Python, Node.js, JDBC,
@@ -111,19 +111,19 @@ rate_limits:
   slug: motherduck-rate-limits
 score:
   band: emerging
-  composite: 23.8
-  delta: 0.0
+  composite: 18.0
+  delta: -5.8
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 68.5
+    developer_ergonomics: 17.4
+    discoverability: 75.9
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 23.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/motherduck/refs/heads/main/screenshots/motherduck-2026-06-20T185824.png
 security:
 - kind: domain-security

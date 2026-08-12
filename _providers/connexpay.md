@@ -1,24 +1,25 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 61.3
-  scored_at: '2026-08-10'
+  score: 50.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 3
@@ -145,12 +146,20 @@ apis:
 - description: The Void API from ConnexPay — 1 operation(s) for void.
   name: ConnexPay Void API
   slug: connexpay-void-api
-artifact_total: 43
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Connexpay Webhooks
   slug: connexpay-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/connexpay-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/connexpay-chargebacks-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -279,6 +288,10 @@ created: '2026-08-09'
 description: ConnexPay is a Milwaukee-founded B2B payments platform that combines merchant acquiring and card issuing in one integration, so a company's incoming customer payments directly fund its outgoing supplier payments with no float in between. An inbound Sale (PayIn) returns an Incoming Transaction Code that funds the virtual cards, ACH credits, push-to-card payouts, checks and international bank-to-bank transfers issued against it (PayOuts). The platform is used heavily in leisure and business travel, advertising and media buying, insurance claims, and embedded-payments software, and is delivered through ten REST APIs — Sales, Purchases, Push to Card, Payment Valet payment instructions, Checkout Session, Merchant Payor, Stop Payment, Chargebacks (CMS), and two Reporting surfaces — plus a browser payments SDK, a Hosted Payment Page, the Bridge operator console, and a 51-event webhook surface called CXP Eventing. ConnexPay is a registered ISO/MSP of The Central Trust Bank and MVB Bank.
 image: https://www.connexpay.com/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: connexpay-mcp.yml
+  slug: connexpay-mcpyml
 modified: '2026-08-09'
 name: ConnexPay
 nav: Providers
@@ -289,26 +302,39 @@ overview: 'ConnexPay publishes 39 APIs on the [APIs.io](https://apis.io/) networ
   The ConnexPay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ConnexPay''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 24 more developer resources.'
+  ConnexPay''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 26 more developer resources.'
 random_paper: 53
 score:
-  band: strong
-  composite: 56.2
+  band: developing
+  composite: 54.0
+  delta: -2.2
   facets:
     commercial_clarity: 52.6
-    contract_quality: 63.6
-    developer_ergonomics: 71.7
-    discoverability: 87.0
-    governance: 20.8
+    contract_quality: 71.0
+    developer_ergonomics: 69.0
+    discoverability: 75.9
+    governance: 11.5
     operational_transparency: 23.7
+  previous_composite: 56.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 39
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 62.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 53.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Connexpay Authentication

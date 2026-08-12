@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 37
 apis:
 - description: 1-Click applications are pre-built Droplet images or Kubernetes apps with software, features, and configuration details already set up for you. They can be found in the [DigitalOcean Marketplace](http
@@ -144,6 +144,18 @@ apis:
   slug: digital-ocean-vpcs-api
 artifact_total: 42
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/digitalocean/openapi/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/digitalocean/openapi/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/digitalocean/openapi/blob/main/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -235,7 +247,7 @@ network: true
 overview: 'Digital Ocean publishes 37 APIs on the [APIs.io](https://apis.io/) network, including 1-Click Applications API, Account API, Actions API, and 34 more. Tagged areas include Cloud, Compute, Servers, and Infrastructure.
 
 
-  Digital Ocean''s developer surface includes documentation, support, engineering blog, pricing, GitHub presence, signup flow, and 13 more developer resources.'
+  Digital Ocean''s developer surface includes documentation, support, engineering blog, pricing, GitHub presence, signup flow, and 16 more developer resources.'
 plans:
 - name: Digital Ocean Plans Pricing
   plan_count: 3
@@ -246,16 +258,16 @@ rate_limits:
   name: Digital Ocean Rate Limits
   slug: digital-ocean-rate-limits
 score:
-  band: developing
-  composite: 48.6
-  delta: 0.0
+  band: thin
+  composite: 41.0
+  delta: -7.6
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 64.0
+    commercial_clarity: 60.5
+    contract_quality: 61.6
     developer_ergonomics: 15.2
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 48.6
   provenance:
     contracts:
@@ -263,9 +275,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/digital-ocean/refs/heads/main/screenshots/digital-ocean-2026-06-20T180020.png
 security:
 - kind: domain-security

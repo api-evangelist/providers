@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -87,6 +87,22 @@ collections:
   name: Crossplane Kubernetes API
   slug: open-crossplane-kubernetes-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/crossplane/crossplane/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/crossplane/crossplane/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/crossplane/crossplane/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/crossplane/crossplane/blob/main/CONTRIBUTING.md
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -208,7 +224,7 @@ overview: 'Crossplane publishes 7 APIs on the [APIs.io](https://apis.io/) networ
   The Crossplane catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Crossplane''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, and 17 more developer resources.'
+  Crossplane''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, and 21 more developer resources.'
 plans:
 - name: Crossplane Plans Pricing
   plan_count: 3
@@ -236,16 +252,16 @@ rules:
     warn: 2
   slug: crossplane-kubernetes-api-rules
 score:
-  band: strong
-  composite: 60.3
-  delta: 0.0
+  band: developing
+  composite: 53.1
+  delta: -7.2
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 81.4
+    commercial_clarity: 15.8
+    contract_quality: 78.4
     developer_ergonomics: 47.8
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 60.3
   provenance:
     agentic_access: derived
@@ -254,9 +270,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/screenshots/crossplane-2026-06-20T175248.png
 security:
 - kind: authentication

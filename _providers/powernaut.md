@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 5
@@ -83,6 +83,10 @@ asyncapis:
   name: Powernaut Webhooks
   slug: powernaut-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/powernaut-partner-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -185,17 +189,17 @@ overview: 'Powernaut publishes 13 APIs on the [APIs.io](https://apis.io/) networ
   The Powernaut catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Powernaut''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 15 more developer resources.'
+  Powernaut''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 16 more developer resources.'
 random_paper: 69
 score:
   band: thin
-  composite: 41.5
-  delta: 0.0
+  composite: 40.0
+  delta: -1.5
   facets:
     commercial_clarity: 13.2
-    contract_quality: 72.5
+    contract_quality: 69.8
     developer_ergonomics: 51.6
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 23.7
   previous_composite: 41.5
@@ -215,8 +219,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

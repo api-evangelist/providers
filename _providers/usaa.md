@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 18.5
-  scored_at: '2026-08-10'
+  score: 14.9
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 11
 common:
@@ -162,16 +162,16 @@ rules:
     warn: 3
   slug: usaa-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 32.5
-  delta: 0.0
+  band: emerging
+  composite: 27.1
+  delta: -5.4
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 13.2
     contract_quality: 12.9
     developer_ergonomics: 19.6
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 70.8
-    operational_transparency: 36.8
+    operational_transparency: 21.1
   previous_composite: 32.5
   provenance:
     conformance: first-party
@@ -181,9 +181,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/usaa/refs/heads/main/screenshots/usaa-2026-06-20T200644.png
 security:
 - kind: authentication

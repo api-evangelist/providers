@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 16
 common:
@@ -111,8 +111,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 19.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aeropostale/refs/heads/main/screenshots/aeropostale-2026-06-20T165520.png
 security:

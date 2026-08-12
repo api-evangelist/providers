@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 1
@@ -271,26 +271,26 @@ rate_limits:
   slug: particle-rate-limits
 score:
   band: strong
-  composite: 60.2
-  delta: 6.8
+  composite: 60.4
+  delta: 0.2
   facets:
     commercial_clarity: 71.1
-    contract_quality: 75.4
+    contract_quality: 76.2
     developer_ergonomics: 47.8
     discoverability: 74.1
     governance: 10.4
     operational_transparency: 68.4
-  previous_composite: 53.4
+  previous_composite: 60.2
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 25
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: rising
+      total: 28
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/particle/refs/heads/main/screenshots/particle-2026-06-20T191427.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -59,6 +59,10 @@ asyncapis:
   name: Sail Webhooks
   slug: sail-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sail-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -181,17 +185,17 @@ overview: 'Sail publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
   The Sail catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Sail''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, authentication, and 19 more developer resources.'
+  Sail''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, authentication, and 20 more developer resources.'
 random_paper: 77
 score:
   band: developing
-  composite: 54.9
-  delta: 0.0
+  composite: 53.1
+  delta: -1.8
   facets:
     commercial_clarity: 42.1
-    contract_quality: 71.2
+    contract_quality: 68.5
     developer_ergonomics: 71.2
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 54.9
@@ -205,8 +209,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

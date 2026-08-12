@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 3
@@ -136,6 +136,10 @@ collections:
   name: Mindbody Webhooks API
   slug: postman-mindbody-webhooks-api-openapi-original
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/mindbody/Mindbody-API-SDKs/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -3430,7 +3434,7 @@ overview: 'Mindbody publishes 13 APIs on the [APIs.io](https://apis.io/) network
   The Mindbody catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Mindbody''s developer surface includes authentication, documentation, getting-started guide, signup flow, pricing, support, FAQ, and 33 more developer resources.'
+  Mindbody''s developer surface includes authentication, documentation, getting-started guide, signup flow, pricing, support, FAQ, and 34 more developer resources.'
 plans:
 - name: Mindbody Plans Pricing
   plan_count: 4
@@ -3463,12 +3467,12 @@ scopes:
   slug: mindbody-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: strong
-  composite: 64.1
-  delta: 0.0
+  band: exemplar
+  composite: 66.1
+  delta: 2.0
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 75.7
+    commercial_clarity: 71.1
+    contract_quality: 73.2
     developer_ergonomics: 47.8
     discoverability: 68.5
     governance: 68.8
@@ -3481,8 +3485,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/screenshots/mindbody-2026-06-20T185555.png
 security:

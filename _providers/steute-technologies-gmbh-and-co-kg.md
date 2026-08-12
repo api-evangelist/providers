@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 18
@@ -65,6 +65,10 @@ asyncapis:
   name: steute nexy Sensor Bridge HTTP(S) Notifications
   slug: steute-technologies-gmbh-and-co-kg-webhooks-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/steute-technologies-gmbh-and-co-kg-sensor-bridge-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -167,17 +171,17 @@ overview: 'steute Technologies GmbH & Co. KG publishes 7 APIs on the [APIs.io](h
   The steute Technologies GmbH & Co. KG catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  steute Technologies GmbH & Co. KG''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 14 more developer resources.'
+  steute Technologies GmbH & Co. KG''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 15 more developer resources.'
 random_paper: 68
 score:
   band: thin
-  composite: 41.2
-  delta: 0.0
+  composite: 37.5
+  delta: -3.7
   facets:
     commercial_clarity: 10.5
-    contract_quality: 63.5
+    contract_quality: 61.1
     developer_ergonomics: 47.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 23.7
   previous_composite: 41.2
@@ -191,8 +195,14 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 26.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

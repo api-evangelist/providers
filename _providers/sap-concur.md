@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -141,6 +141,10 @@ collections:
   name: SAP Concur Expense Report API
   slug: open-sap-concur-expense
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/SAP-docs/preview.developer.concur.com/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -711,7 +715,7 @@ overview: 'SAP Concur publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   The SAP Concur catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  SAP Concur''s developer surface includes authentication, support, engineering blog, signup flow, release notes, changelog, and 13 more developer resources.'
+  SAP Concur''s developer surface includes authentication, support, engineering blog, signup flow, release notes, changelog, and 14 more developer resources.'
 plans:
 - name: Sap Concur Plans Pricing
   plan_count: 1
@@ -739,16 +743,16 @@ rules:
     warn: 12
   slug: sap-concur-spectral-rules
 score:
-  band: strong
-  composite: 57.0
-  delta: 0.0
+  band: developing
+  composite: 53.8
+  delta: -3.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 81.5
+    commercial_clarity: 47.4
+    contract_quality: 78.8
     developer_ergonomics: 26.1
     discoverability: 75.9
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 36.8
   previous_composite: 57.0
   provenance:
     agentic_access: derived
@@ -757,8 +761,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-concur/refs/heads/main/screenshots/sap-concur-2026-06-20T193423.png
 security:

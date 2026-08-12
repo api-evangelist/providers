@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Deep-integration Mobility-as-a-Service API for partners to complete full user journeys inside their own apps - register users, discover vehicles by zone, get per-vehicle pricing, start and end rentals
@@ -42,6 +42,10 @@ apis:
   slug: voi-gbfs-api
 artifact_total: 5
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/voiapp/mobility-data-specification/blob/dev/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -185,24 +189,24 @@ network: true
 overview: 'Voi publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Micromobility, E-Scooters, E-Bikes, Mobility-as-a-Service, and Transportation.
 
 
-  Voi''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 26 more developer resources.'
+  Voi''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 27 more developer resources.'
 random_paper: 102
 score:
   band: thin
-  composite: 29.5
-  delta: 1.7
+  composite: 28.4
+  delta: -1.1
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
     developer_ergonomics: 58.7
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 27.8
+  previous_composite: 29.5
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voi/refs/heads/main/screenshots/voi-2026-06-20T201128.png
 security:

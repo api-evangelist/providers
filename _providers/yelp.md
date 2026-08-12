@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -75,6 +75,10 @@ collections:
   name: Yelp Fusion API
   slug: open-yelp
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Yelp/yelp-fusion/blob/master/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -395,7 +399,7 @@ overview: 'Yelp publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
   The Yelp catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Yelp''s developer surface includes authentication, engineering blog, documentation, getting-started guide, API reference, signup flow, developer console, and 28 more developer resources.'
+  Yelp''s developer surface includes authentication, engineering blog, documentation, getting-started guide, API reference, signup flow, developer console, and 29 more developer resources.'
 plans:
 - name: Yelp Plans Pricing
   plan_count: 5
@@ -423,16 +427,16 @@ rules:
     warn: 24
   slug: yelp-spectral-rules
 score:
-  band: exemplar
-  composite: 71.0
-  delta: 0.0
+  band: strong
+  composite: 65.9
+  delta: -5.1
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 86.5
+    commercial_clarity: 50.0
+    contract_quality: 83.7
     developer_ergonomics: 73.9
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 71.0
   provenance:
     agentic_access: derived
@@ -441,9 +445,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/screenshots/yelp-2026-06-20T201740.png
 security:
 - kind: authentication

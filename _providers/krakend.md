@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -59,6 +59,22 @@ collections:
   name: KrakenD Service API
   slug: open-krakend-service-api
 common:
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/krakend/krakend-ce/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/krakend/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/krakend/.github/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/krakend/krakend-ce/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -173,7 +189,7 @@ overview: 'KrakenD publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
   The KrakenD catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  KrakenD''s developer surface includes documentation, getting-started guide, engineering blog, changelog, Stack Overflow tag, and 12 more developer resources.'
+  KrakenD''s developer surface includes documentation, getting-started guide, engineering blog, changelog, Stack Overflow tag, and 16 more developer resources.'
 plans:
 - name: Krakend Plans Pricing
   plan_count: 2
@@ -193,16 +209,16 @@ rules:
     warn: 4
   slug: krakend-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 45.9
-  delta: 0.0
+  band: thin
+  composite: 41.3
+  delta: -4.6
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 58.9
+    commercial_clarity: 13.2
+    contract_quality: 56.7
     developer_ergonomics: 34.8
-    discoverability: 46.3
+    discoverability: 53.7
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 45.9
   provenance:
     agentic_access: derived
@@ -211,8 +227,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/krakend/refs/heads/main/screenshots/krakend-2026-06-20T184150.png
 security:

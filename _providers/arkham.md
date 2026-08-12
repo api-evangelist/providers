@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 25
 apis:
 - description: The Analytics API from Arkham — 2 operation(s) for analytics.
@@ -113,6 +114,10 @@ asyncapis:
   name: Arkham Websocket Webhooks
   slug: arkham-websocket-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/arkham-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -231,7 +236,7 @@ overview: 'Arkham publishes 25 APIs on the [APIs.io](https://apis.io/) network, 
   The Arkham catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Arkham''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, support, and 17 more developer resources.'
+  Arkham''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, support, and 18 more developer resources.'
 plans:
 - name: Arkham Plans
   plan_count: 4
@@ -243,11 +248,11 @@ rate_limits:
   slug: arkham-rate-limits
 score:
   band: developing
-  composite: 51.1
-  delta: 0.0
+  composite: 50.6
+  delta: -0.5
   facets:
     commercial_clarity: 63.2
-    contract_quality: 59.4
+    contract_quality: 57.2
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
@@ -268,8 +273,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/screenshots/arkham-2026-07-25T201211.png
 security:

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-10'
+  score: 42.6
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: Public, unauthenticated OBIE Open Data API listing the location, accessibility, supported currencies, and services of Nationwide ATMs across the UK. Confirmed live (HTTP 200, application/json) at v2.2
@@ -202,12 +202,12 @@ scopes:
   slug: nationwide-building-society-scopes
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 43.8
-  delta: 0.0
+  band: thin
+  composite: 40.8
+  delta: -3.0
   facets:
     commercial_clarity: 13.2
-    contract_quality: 42.1
+    contract_quality: 40.5
     developer_ergonomics: 47.3
     discoverability: 92.6
     governance: 20.8
@@ -227,9 +227,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 68.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 50.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nationwide-building-society/refs/heads/main/screenshots/nationwide-building-society-2026-08-07T184659.png
 security:

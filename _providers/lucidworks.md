@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -245,16 +245,16 @@ rules:
     warn: 3
   slug: lucidworks-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 46.1
-  delta: 0.0
+  band: thin
+  composite: 41.1
+  delta: -5.0
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 59.5
+    commercial_clarity: 21.1
+    contract_quality: 57.3
     developer_ergonomics: 34.8
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 58.3
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 46.1
   provenance:
     agentic_access: derived
@@ -263,9 +263,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/screenshots/lucidworks-2026-06-20T184745.png
 security:
 - kind: authentication

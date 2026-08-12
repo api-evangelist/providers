@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-10'
+  score: 35.4
+  scored_at: '2026-08-11'
 api_count: 11
 apis:
 - description: The Addresses API from Havenly — 1 operation(s) for addresses.
@@ -64,12 +64,20 @@ apis:
 - description: The Vendor Variants API from Havenly — 1 operation(s) for vendor variants.
   name: Havenly Vendor Variants API
   slug: havenly-vendor-variants-api
-artifact_total: 15
+artifact_total: 16
 collections:
 - collection_type: postman
   name: Havenly API
   slug: postman-havenly-api
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/havenly-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/havenly-openapi-overlay.yaml
 - group: auth
   title: ''
   type: OAuthScopes
@@ -134,6 +142,10 @@ created: '2026-07-17'
 description: Havenly is an online interior-design platform that connects clients with professional designers for virtual and in-person home-decorating services. Clients take a style quiz, match with a designer, collaborate on 3D room renderings, and shop curated furniture and decor from partner brands at exclusive prices. Havenly also offers AI-assisted design. The company exposes a REST API (documented publicly via Postman at api-docs.havenly.com) covering users and profiles, addresses, design boards and board products, a vendor product catalog (vendor variants), attribute types, board feedback, and user opinions/likes. Authentication is OAuth2 (password grant) returning a Bearer token; HAL+JSON responses use page/limit pagination and zf-doctrine-querybuilder query filters. Havenly is backed by 500 Global and Foundry Group.
 image: https://havenly.com/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: havenly-mcp.yml
+  slug: havenly-mcpyml
 modified: '2026-07-19'
 name: Havenly
 nav: Providers
@@ -141,7 +153,7 @@ network: true
 overview: 'Havenly publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Attribute Types API, Authentication API, and 8 more. Tagged areas include Company, Interior Design, Home Decor, Furniture, and E-Commerce.
 
 
-  Havenly''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, support, and 9 more developer resources.'
+  Havenly''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, support, and 11 more developer resources.'
 random_paper: 63
 scopes:
 - name: Havenly Scopes
@@ -150,13 +162,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 38.8
-  delta: 0.0
+  composite: 37.6
+  delta: -1.2
   facets:
     commercial_clarity: 44.7
-    contract_quality: 59.8
-    developer_ergonomics: 23.4
-    discoverability: 92.6
+    contract_quality: 57.6
+    developer_ergonomics: 25.5
+    discoverability: 81.5
     governance: 8.3
     operational_transparency: 0.0
   previous_composite: 38.8
@@ -168,8 +180,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/havenly/refs/heads/main/screenshots/havenly-2026-07-25T220807.png
 security:

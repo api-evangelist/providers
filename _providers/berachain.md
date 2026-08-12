@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 10
 apis:
 - description: Public Ethereum-compatible JSON-RPC endpoint for Berachain mainnet (chain ID 80094). Supports the standard eth_* method set used by web3 clients, wallets, and indexers.
@@ -63,6 +63,14 @@ apis:
   slug: deployed-contracts
 artifact_total: 14
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/berachain/beacon-kit/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/berachain/beacon-kit/releases
 - group: auth
   title: ''
   type: DomainSecurity
@@ -150,7 +158,7 @@ network: true
 overview: 'Berachain publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain, Layer 1, EVM, Proof of Liquidity, and DeFi.
 
 
-  Berachain''s developer surface includes documentation, getting-started guide, API reference, GitHub presence, engineering blog, and 13 more developer resources.'
+  Berachain''s developer surface includes documentation, getting-started guide, API reference, GitHub presence, engineering blog, and 15 more developer resources.'
 plans:
 - name: Berachain Plans Pricing
   plan_count: 1
@@ -161,19 +169,19 @@ rate_limits:
   name: Berachain Rate Limits
   slug: berachain-rate-limits
 score:
-  band: emerging
-  composite: 26.5
-  delta: 0.0
+  band: thin
+  composite: 30.1
+  delta: 3.6
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
-    developer_ergonomics: 28.3
-    discoverability: 74.1
+    developer_ergonomics: 32.6
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 42.1
   previous_composite: 26.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/berachain/refs/heads/main/screenshots/berachain-2026-06-20T173147.png
 security:

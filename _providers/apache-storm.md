@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 2
@@ -71,6 +71,22 @@ collections:
   name: Apache Storm UI REST API
   slug: open-apache-storm
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apache/storm/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/apache/storm/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/storm/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -154,7 +170,7 @@ network: true
 overview: 'Apache Storm publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Topology API, Cluster API, Drpc API, and 6 more. Tagged areas include Distributed Computing, Event Processing, Real-Time, Stream Processing, and Open Source.
 
 
-  Apache Storm''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, engineering blog, and 5 more developer resources.'
+  Apache Storm''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, engineering blog, and 9 more developer resources.'
 plans:
 - name: Apache Storm Plans Pricing
   plan_count: 3
@@ -166,15 +182,15 @@ rate_limits:
   slug: apache-storm-rate-limits
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 32.7
+  delta: -6.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 39.5
+    commercial_clarity: 26.3
+    contract_quality: 38.1
     developer_ergonomics: 34.8
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 47.4
+    operational_transparency: 34.2
   previous_composite: 39.5
   provenance:
     agentic_access: derived
@@ -183,9 +199,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/screenshots/apache-storm-2026-06-20T172147.png
 security:
 - kind: domain-security

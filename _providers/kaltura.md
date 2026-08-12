@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1250
   human_in_the_loop: 41
@@ -924,11 +924,11 @@ rules:
   slug: kaltura-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 48.5
+  delta: -0.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.5
+    contract_quality: 61.4
     developer_ergonomics: 21.7
     discoverability: 50.0
     governance: 58.3
@@ -941,8 +941,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 222
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaltura/refs/heads/main/screenshots/kaltura-2026-06-20T183911.png
 security:

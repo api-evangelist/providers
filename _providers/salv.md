@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 56.5
-  scored_at: '2026-08-10'
+  score: 52.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -89,6 +90,10 @@ asyncapis:
   name: Salv Webhooks
   slug: salv-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/salv-aml-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -223,7 +228,7 @@ overview: 'Salv publishes 15 APIs on the [APIs.io](https://apis.io/) network, in
   The Salv catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Salv''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 22 more developer resources.'
+  Salv''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 23 more developer resources.'
 random_paper: 90
 rate_limits:
 - limit_count: 1
@@ -236,11 +241,11 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 51.8
-  delta: 0.0
+  composite: 51.1
+  delta: -0.7
   facets:
     commercial_clarity: 18.4
-    contract_quality: 70.9
+    contract_quality: 68.2
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
@@ -256,8 +261,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

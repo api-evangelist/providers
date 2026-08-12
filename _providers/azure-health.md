@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -120,6 +120,30 @@ collections:
   name: Azure Health Data Services de-identification service Collection Workspaces API
   slug: postman-azure-health-workspaces-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Azure/azure-rest-api-specs/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Azure/azure-rest-api-specs/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Azure/azure-rest-api-specs/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/Azure/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Azure/azure-rest-api-specs/blob/main/.github/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Azure/azure-rest-api-specs/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -285,7 +309,7 @@ overview: 'Microsoft Azure Health Data Services publishes 13 APIs on the [APIs.i
   The Microsoft Azure Health Data Services catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Microsoft Azure Health Data Services'' developer surface includes authentication, documentation, pricing, signup flow, changelog, status page, support, and 18 more developer resources.'
+  Microsoft Azure Health Data Services'' developer surface includes authentication, documentation, pricing, signup flow, changelog, status page, support, and 24 more developer resources.'
 plans:
 - name: Microsoft Azure Health Data Services Plans
   plan_count: 5
@@ -310,16 +334,16 @@ scopes:
   slug: azure-health-scopes
   summary_line: 2 scopes · authorizationCode/implicit
 score:
-  band: developing
-  composite: 53.0
-  delta: 0.0
+  band: strong
+  composite: 56.0
+  delta: 3.0
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 51.1
+    commercial_clarity: 71.1
+    contract_quality: 49.2
     developer_ergonomics: 37.0
     discoverability: 68.5
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 63.2
   previous_composite: 53.0
   provenance:
     agentic_access: derived
@@ -334,8 +358,8 @@ score:
     regime: Health
     regime_id: health
     score: 56.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/screenshots/azure-health-2026-06-20T172859.png
 security:

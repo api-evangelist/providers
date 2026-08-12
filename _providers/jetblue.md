@@ -11,17 +11,21 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 11.7
+  scored_at: '2026-08-11'
 api_count: 0
-artifact_total: 4
+artifact_total: 5
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/jetblue-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -123,6 +127,10 @@ description: 'JetBlue Airways (IATA code B6) is a New York-headquartered low-cos
   no developer or API page. The only published distribution surface is the travel-agent policy section at jetblue.com/travel-agents, including an NDC program page that states JetBlue supplies NDC API documentation, schema and message samples and certification guidelines to onboarded partners only, after business use-case submission, onboarding and certification testing. Selling JetBlue requires ARC accreditation in the U.S. or IATA accreditation plus local BSP participation abroad; JetBlue states it works with only a few OTAs and is not accepting new applications. Public docs, accreditation required, no self-serve access, and no exit path.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: jetblue-mcp.yml
+  slug: jetblue-mcpyml
 modified: '2026-07-28'
 name: JetBlue
 nav: Providers
@@ -130,7 +138,7 @@ network: true
 overview: 'JetBlue is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, United States, Aviation, Airline, and Distribution.
 
 
-  JetBlue''s developer surface includes authentication, documentation, legal docs, support, and 20 more developer resources.'
+  JetBlue''s developer surface includes authentication, documentation, legal docs, support, and 21 more developer resources.'
 random_paper: 51
 scopes:
 - name: Jetblue Scopes
@@ -139,12 +147,12 @@ scopes:
   summary_line: 7 scopes · authorizationCode/implicit/deviceCode
 score:
   band: emerging
-  composite: 18.7
-  delta: 0.0
+  composite: 19.2
+  delta: 0.5
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
-    developer_ergonomics: 23.9
+    developer_ergonomics: 26.1
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 10.5
@@ -152,8 +160,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jetblue/refs/heads/main/screenshots/jetblue-2026-08-07T171000.png
 security:

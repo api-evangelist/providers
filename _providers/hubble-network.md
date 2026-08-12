@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -18,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -301,16 +302,16 @@ scopes:
   summary_line: 16 scopes
 score:
   band: exemplar
-  composite: 72.8
-  delta: -0.1
+  composite: 71.6
+  delta: -1.2
   facets:
     commercial_clarity: 76.3
-    contract_quality: 75.8
+    contract_quality: 75.2
     developer_ergonomics: 78.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 94.7
-  previous_composite: 72.9
+  previous_composite: 72.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -318,11 +319,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 7
     mcp: derived
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/screenshots/hubble-network-2026-08-07T170350.png
 security:

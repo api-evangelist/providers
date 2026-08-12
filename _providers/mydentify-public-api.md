@@ -4,21 +4,21 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: false
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
     event_surface_described: false
     idempotency: verified
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-10'
+  score: 36.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -46,8 +46,16 @@ apis:
 - description: The Product Categories.json API from Mydentify Public API — 1 operation(s) for product categories.json.
   name: Mydentify Public API Product Categories.json API
   slug: mydentify-public-api-product-categories-json-api
-artifact_total: 13
+artifact_total: 14
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/mydentify-public-api-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mydentify-public-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -157,6 +165,10 @@ examples:
   slug: mydentify-public-api-product-categories-response
 image: https://mydentify.com/favicon.svg
 layout: provider
+mcp_servers:
+- description: ''
+  name: mydentify-public-api-mcp.yml
+  slug: mydentify-public-api-mcpyml
 modified: '2026-08-09'
 name: Mydentify Public API
 nav: Providers
@@ -164,20 +176,33 @@ network: true
 overview: 'Mydentify Public API publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Directories API, Directories.json API, Imports API, and 3 more. Tagged areas include product discovery, startup directories, leaderboards, research, and SaaS.
 
 
-  Mydentify Public API''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, engineering blog, and 17 more developer resources.'
+  Mydentify Public API''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, engineering blog, and 19 more developer resources.'
 random_paper: 56
 score:
   band: thin
-  composite: 41.6
+  composite: 41.3
+  delta: -0.3
   facets:
     commercial_clarity: 44.7
-    contract_quality: 39.5
-    developer_ergonomics: 41.3
-    discoverability: 92.6
-    governance: 20.8
+    contract_quality: 45.5
+    developer_ergonomics: 43.5
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 21.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 41.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: first-party
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Mydentify Public Api Authentication

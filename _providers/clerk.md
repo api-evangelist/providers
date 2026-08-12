@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 3
@@ -121,6 +121,30 @@ collections:
   name: Clerk Backend API
   slug: open-clerk
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/clerk/javascript/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/clerk/javascript/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/clerk/javascript/blob/main/docs/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/clerk/javascript/blob/main/docs/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/clerk/javascript/blob/main/docs/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/clerk/javascript/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -195,7 +219,7 @@ overview: 'Clerk publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
   The Clerk catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Clerk''s developer surface includes authentication, documentation, GitHub presence, pricing, changelog, engineering blog, status page, and 6 more developer resources.'
+  Clerk''s developer surface includes authentication, documentation, GitHub presence, pricing, changelog, engineering blog, status page, and 12 more developer resources.'
 plans:
 - name: Clerk Plans Pricing
   plan_count: 1
@@ -216,15 +240,15 @@ rules:
   slug: clerk-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 47.2
-  delta: 0.0
+  composite: 48.8
+  delta: 1.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 68.3
+    contract_quality: 66.3
     developer_ergonomics: 21.7
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 41.7
-    operational_transparency: 42.1
+    operational_transparency: 52.6
   previous_composite: 47.2
   provenance:
     agentic_access: derived
@@ -233,8 +257,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clerk/refs/heads/main/screenshots/clerk-2026-06-20T174506.png
 security:

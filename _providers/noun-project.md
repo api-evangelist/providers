@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -327,11 +327,11 @@ rules:
   slug: noun-project-rules
 score:
   band: developing
-  composite: 43.0
-  delta: 0.0
+  composite: 45.4
+  delta: 2.4
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 24.8
+    commercial_clarity: 73.7
+    contract_quality: 23.9
     developer_ergonomics: 17.4
     discoverability: 81.5
     governance: 68.8
@@ -344,8 +344,8 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/screenshots/noun-project-2026-06-20T190429.png
 security:

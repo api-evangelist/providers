@@ -4,10 +4,10 @@
  "limit": 1000,
  "bands": [
   {
-   "band": "strong",
-   "label": "Strong",
-   "range": "56 – 65.9",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "band": "developing",
+   "label": "Developing",
+   "range": "42 – 55.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 1,
    "shown": 1,
    "providers": [
@@ -16,19 +16,19 @@
      "slug": "volkswagen",
      "description": "Volkswagen is a German automotive company and the parent of the VW Group, manufacturing vehicles under brands including Volkswagen, Audi, SEAT, Skoda, CUPRA, Porsche, Lamborghini, and Bentley. The OKAPI (Open Konfigurator API) provides programmatic access to VW AG product data for vehicle catalog browsing, interactive configuration, buildability validation, WLTP emissions data, configuration images, and order/pricing information across global markets.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/volkswagen/refs/heads/main/screenshots/volkswagen-2026-06-20T201131.png",
-     "score": 56.2,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 47.7,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 79.1,
+      "contract_quality": 76.5,
       "governance": 68.8,
-      "operational_transparency": 36.8,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 26.1,
-      "commercial_clarity": 50.0
+      "commercial_clarity": 26.3
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -53,30 +53,30 @@
    "open": true
   },
   {
-   "band": "developing",
-   "label": "Developing",
-   "range": "42 – 55.9",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 5,
-   "shown": 5,
+   "band": "thin",
+   "label": "Thin",
+   "range": "28 – 41.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 8,
+   "shown": 8,
    "providers": [
     {
      "name": "Visteon",
      "slug": "visteon",
      "description": "Visteon Corporation is a global automotive electronics supplier providing innovative cockpit electronics products and connected car solutions to vehicle manufacturers worldwide. The Visteon Phoenix platform offers a JavaScript API for building HTML5-based automotive infotainment applications covering audio control, phone integration, media playback, navigation, screen management, remote UI, and vehicle data access. Phoenix Studio enables third-party app development targeting Visteon's SmartCore and display audio infotainment systems.",
-     "score": 46.4,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 40.5,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 70.3,
+      "contract_quality": 67.7,
       "governance": 68.8,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 19.6,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -98,23 +98,23 @@
      "rank": 2
     },
     {
-     "name": "Lyft",
-     "slug": "lyft",
-     "description": "Lyft is a transportation network company that develops, markets, and operates a mobile app offering ride-hailing, vehicles for hire, motorized scooters, bicycle-sharing, and food delivery services.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/screenshots/lyft-2026-06-20T184816.png",
-     "score": 45.5,
-     "band": "developing",
-     "band_label": "Developing",
+     "name": "Dana",
+     "slug": "dana",
+     "description": "Dana Incorporated is a global supplier of fully integrated drivetrain and electrified propulsion systems for passenger vehicles, commercial trucks, and off-highway equipment. Dana operates a developer portal at developer.danaaftermarket.com offering eight APIs for aftermarket parts search, availability, pricing, ordering, and shipment tracking across its global distribution network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dana/refs/heads/main/screenshots/dana-2026-06-20T175459.png",
+     "score": 37.9,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 73.0,
-      "governance": 58.3,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 13.0,
-      "commercial_clarity": 39.5
+      "discoverability": 74.1,
+      "contract_quality": 67.9,
+      "governance": 52.1,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -136,23 +136,23 @@
      "rank": 3
     },
     {
-     "name": "Dana",
-     "slug": "dana",
-     "description": "Dana Incorporated is a global supplier of fully integrated drivetrain and electrified propulsion systems for passenger vehicles, commercial trucks, and off-highway equipment. Dana operates a developer portal at developer.danaaftermarket.com offering eight APIs for aftermarket parts search, availability, pricing, ordering, and shipment tracking across its global distribution network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dana/refs/heads/main/screenshots/dana-2026-06-20T175459.png",
-     "score": 43.7,
-     "band": "developing",
-     "band_label": "Developing",
+     "name": "Ryder System",
+     "slug": "ryder-system",
+     "description": "Ryder System, Inc. is a leading provider of supply chain, dedicated transportation, and fleet management solutions. Ryder operates a developer portal offering REST APIs for fleet management and supply chain operations, enabling customers to integrate Ryder services into their business systems. The Fleet Management APIs support customers who lease, rent, and maintain vehicles, while the Supply Chain Solutions APIs support carrier management, load tracking, shipment management, and last-mile delivery operations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/screenshots/ryder-system-2026-06-20T193310.png",
+     "score": 37.9,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 70.5,
-      "governance": 52.1,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 28.9
+      "discoverability": 64.8,
+      "contract_quality": 67.3,
+      "governance": 37.5,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -174,23 +174,23 @@
      "rank": 4
     },
     {
-     "name": "Ryder System",
-     "slug": "ryder-system",
-     "description": "Ryder System, Inc. is a leading provider of supply chain, dedicated transportation, and fleet management solutions. Ryder operates a developer portal offering REST APIs for fleet management and supply chain operations, enabling customers to integrate Ryder services into their business systems. The Fleet Management APIs support customers who lease, rent, and maintain vehicles, while the Supply Chain Solutions APIs support carrier management, load tracking, shipment management, and last-mile delivery operations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/screenshots/ryder-system-2026-06-20T193310.png",
-     "score": 43.7,
-     "band": "developing",
-     "band_label": "Developing",
+     "name": "Lyft",
+     "slug": "lyft",
+     "description": "Lyft is a transportation network company that develops, markets, and operates a mobile app offering ride-hailing, vehicles for hire, motorized scooters, bicycle-sharing, and food delivery services.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/screenshots/lyft-2026-06-20T184816.png",
+     "score": 37.1,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 69.9,
-      "governance": 37.5,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 30.4,
-      "commercial_clarity": 28.9
+      "discoverability": 50.0,
+      "contract_quality": 70.6,
+      "governance": 58.3,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 13.0,
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -215,19 +215,19 @@
      "name": "Tesla",
      "slug": "tesla",
      "description": "Tesla, Inc. is an American electric vehicle and clean energy company founded in 2003. Tesla offers the Fleet API for partners to access Tesla vehicles and energy devices with owner-granted permissions, covering vehicle telemetry, remote commands, charging management, energy site management, and fleet management capabilities.",
-     "score": 42.8,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 36.4,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 60.9,
+      "discoverability": 88.9,
+      "contract_quality": 58.9,
       "governance": 58.3,
-      "operational_transparency": 31.6,
+      "operational_transparency": 7.9,
       "developer_ergonomics": 19.6,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -254,36 +254,25 @@
       "dry_run_mode": false
      },
      "rank": 6
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "28 – 41.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 8,
-   "shown": 8,
-   "providers": [
+    },
     {
      "name": "BMW",
      "slug": "bmw",
      "description": "BMW is a German multinational company specializing in manufacturing luxury vehicles and motorcycles. BMW provides automotive data APIs through the Aftersales Online System (AOS) portal and the BMW Open Data Platform, enabling dealers, repair shops, and developers to access vehicle identification, maintenance, technical campaign, pricing, and diagnostic data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bmw/refs/heads/main/screenshots/bmw-2026-06-20T173545.png",
-     "score": 40.6,
+     "score": 32.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 48.1,
       "governance": 0.0,
-      "operational_transparency": 36.8,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 26.1,
-      "commercial_clarity": 60.5
+      "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -309,19 +298,19 @@
      "slug": "ford",
      "description": "Ford is a multinational automotive company that designs, manufactures, and sells a wide range of vehicles, including cars, trucks, and SUVs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/screenshots/ford-2026-06-20T181414.png",
-     "score": 36.3,
+     "score": 30.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 46.3,
-      "contract_quality": 57.4,
+      "contract_quality": 55.6,
       "governance": 0.0,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 19.6,
-      "commercial_clarity": 50.0
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -347,19 +336,19 @@
      "slug": "goodyear-tire-and-rubber",
      "description": "The Goodyear Tire & Rubber Company is a global tire manufacturer that provides developer APIs for intelligent tire data, fleet management, and commercial truck tire services. Goodyear's SightLine technology and GaaS API platform enable programmatic access to tire telematics, catalogs, work orders, and service tickets.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/goodyear-tire-and-rubber/refs/heads/main/screenshots/goodyear-tire-and-rubber-2026-06-20T181956.png",
-     "score": 33.7,
+     "score": 28.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 59.7,
+      "contract_quality": 57.5,
       "governance": 0.0,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -379,25 +368,36 @@
       "dry_run_mode": false
      },
      "rank": 9
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "13 – 27.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 5,
+   "shown": 5,
+   "providers": [
     {
      "name": "Ford Motor",
      "slug": "ford-motor",
      "description": "Ford Motor Company is a global automotive manufacturer that designs, manufactures, markets, and services a full line of Ford trucks, cars, sport utility vehicles, electrified vehicles, and Lincoln luxury vehicles.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ford-motor/refs/heads/main/screenshots/ford-motor-2026-06-20T181422.png",
-     "score": 33.0,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 27.2,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 53.7,
-      "contract_quality": 65.1,
+      "contract_quality": 62.7,
       "governance": 0.0,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -423,19 +423,19 @@
      "slug": "mercedes-benz",
      "description": "Mercedes-Benz is a renowned luxury automobile manufacturer that produces a wide range of vehicles, from sedans and SUVs to sports cars and electric vehicles. Founded in 1926 in Germany, the company is known for its commitment to innovation, quality, and performance. Mercedes-Benz constantly pushes the boundaries of automotive technology, offering cutting-edge features such as advanced driver-assistance systems and state-of-the-art infotainment systems.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mercedes-benz/refs/heads/main/screenshots/mercedes-benz-2026-06-20T185205.png",
-     "score": 31.9,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 24.8,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
-      "discoverability": 55.6,
+      "discoverability": 63.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 52.6,
+      "operational_transparency": 28.9,
       "developer_ergonomics": 23.9,
-      "commercial_clarity": 73.7
+      "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -461,19 +461,19 @@
      "slug": "rush-enterprises",
      "description": "Rush Enterprises is the largest network of commercial vehicle dealerships in North America, operating Rush Truck Centers with more than 200 locations across the United States. The company offers new and used commercial vehicles, all-makes parts, vehicle technology solutions, collision repair, alternative fuel systems, vehicle and equipment leasing, and financial services. Rush Enterprises provides fleet technology through RushCare, including Service Connect (integrated with OEMs like Peterbilt, International, Hino, and Cummins), Parts Connect, and telematics solutions powered by Geotab.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rush-enterprises/refs/heads/main/screenshots/rush-enterprises-2026-06-20T193300.png",
-     "score": 30.4,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 22.6,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 12.9,
       "governance": 68.8,
-      "operational_transparency": 31.6,
+      "operational_transparency": 7.9,
       "developer_ergonomics": 2.2,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -499,19 +499,19 @@
      "slug": "honda",
      "description": "Honda Motor Co., Ltd. is a Japanese multinational manufacturer known for automobiles, motorcycles, and power equipment. Honda provides APIs for customer satisfaction programs, roadside assistance, vehicle services, and dealer integration.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/honda/refs/heads/main/screenshots/honda-2026-06-20T182819.png",
-     "score": 29.5,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 21.7,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 43.2,
       "governance": 0.0,
-      "operational_transparency": 31.6,
+      "operational_transparency": 7.9,
       "developer_ergonomics": 8.7,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -537,19 +537,19 @@
      "slug": "carvana",
      "description": "Carvana is an e-commerce platform for buying, selling, and financing used cars online, featuring home delivery or pickup at its distinctive car vending machines. Its primary developer-facing integration surface is the Carvana Partner REST API (published on Azure API Management at api-developer.carvana.com) which enables authorized rental companies, wholesalers, and fleet partners to post, update, and manage inventory in Carvana's catalog. A Carvana Collective API (api.collective.carvana.com) supports partner-collective workflows, and Carvana also distributes inventory data via AWS Data Exchange.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/carvana/refs/heads/main/screenshots/carvana-2026-06-20T174028.png",
-     "score": 28.4,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 21.6,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 8.1,
       "governance": 0.0,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 8.7,
-      "commercial_clarity": 73.7
+      "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -573,31 +573,31 @@
    ]
   },
   {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "13 – 27.9",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 5,
-   "shown": 5,
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 12.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 28,
+   "shown": 28,
    "providers": [
     {
      "name": "Hyundai",
      "slug": "hyundai",
      "description": "Hyundai Motor Company is a South Korean multinational automotive manufacturer specializing in designing and producing a wide range of vehicles including cars, SUVs, and commercial vehicles. Hyundai operates a developer portal exposing connected vehicle services, mobility solutions, and partner integration touchpoints.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hyundai/refs/heads/main/screenshots/hyundai-2026-06-20T183205.png",
-     "score": 20.4,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 12.5,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 36.8,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 8.7,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -623,19 +623,19 @@
      "slug": "american-axle-and-manufacturing",
      "description": "American Axle & Manufacturing (AAM), now operating as Dauch Corporation following the February 2026 acquisition of Dowlais Group (GKN Automotive and GKN Powder Metallurgy), is a global Tier 1 automotive supplier designing, engineering, and manufacturing driveline and metal forming technologies for electric, hybrid, and internal combustion vehicles. AAM operates an iSupplier Portal for supplier communication, EDI integration for forecasts and releases, and the Demand AAM aftermarket parts portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-axle-and-manufacturing/refs/heads/main/screenshots/american-axle-and-manufacturing-2026-06-20T171904.png",
-     "score": 17.1,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 11.9,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 8.7,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -660,19 +660,19 @@
      "name": "Asbury Automotive Group",
      "slug": "asbury-automotive",
      "description": "Asbury Automotive Group is one of the largest automotive retailers in the United States, operating new and used vehicle dealerships across multiple states and brands. Headquartered in Duluth, Georgia, Asbury operates approximately 200 dealerships representing 30+ automotive brands including luxury and non-luxury vehicles. The company operates under multiple brand names including Coggin Automotive Group, Crown Automotive Group, Park Place Dealerships, Nalley Automotive Group, and others. Asbury does not expose a public developer API but operates digital retail platforms including Clicklane, their proprietary online vehicle purchase platform.",
-     "score": 17.1,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 11.9,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 8.7,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -694,92 +694,6 @@
      "rank": 17
     },
     {
-     "name": "AutoNation",
-     "slug": "autonation",
-     "description": "AutoNation is the largest automotive retailer in the United States, operating over 250 new and used vehicle franchises along with collision centers, parts and service operations, and AutoNation USA used-vehicle stores. The company sells vehicles across most major OEM brands and provides digital retail, financing, and service scheduling capabilities through its website and mobile applications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autonation/refs/heads/main/screenshots/autonation-2026-06-20T172705.png",
-     "score": 14.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 18
-    },
-    {
-     "name": "Autoliv",
-     "slug": "autoliv",
-     "description": "Autoliv is the world's largest automotive safety supplier, designing, manufacturing, and selling airbags, seatbelts, steering wheels, inflators, pyrotechnic actuators, and related safety electronics for vehicle manufacturers worldwide. The company operates in 25 countries with 13 technology centers and serves all major OEMs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autoliv/refs/heads/main/screenshots/autoliv-2026-06-20T172646.png",
-     "score": 14.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 19
-    }
-   ]
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 12.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 23,
-   "shown": 23,
-   "providers": [
-    {
      "name": "Rivian Automotive",
      "slug": "rivian-automotive",
      "description": "Rivian Automotive is an American electric vehicle manufacturer that designs and builds adventure-oriented electric trucks, SUVs, and commercial delivery vans, along with the charging infrastructure and connected-vehicle software that supports them. While Rivian does not publish a public developer API portal, an unofficial GraphQL API powers the Rivian mobile app and has been reverse-engineered by community projects for vehicle telemetry and control.",
@@ -795,8 +709,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -815,7 +729,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 18
     },
     {
      "name": "Harley-Davidson",
@@ -833,8 +747,84 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 19
+    },
+    {
+     "name": "AutoNation",
+     "slug": "autonation",
+     "description": "AutoNation is the largest automotive retailer in the United States, operating over 250 new and used vehicle franchises along with collision centers, parts and service operations, and AutoNation USA used-vehicle stores. The company sells vehicles across most major OEM brands and provides digital retail, financing, and service scheduling capabilities through its website and mobile applications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autonation/refs/heads/main/screenshots/autonation-2026-06-20T172705.png",
+     "score": 9.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 20
+    },
+    {
+     "name": "Cooper Standard Holdings",
+     "slug": "cooper-standard-holdings",
+     "description": "Cooper Standard Holdings is a global automotive supplier headquartered in Northville, Michigan, that designs, engineers, manufactures, and sells sealing systems, fuel and brake delivery systems, and fluid transfer systems for global automotive original equipment manufacturers including Ford, General Motors, Stellantis, and Volkswagen. The company operates in approximately 20 countries with around 32,000 employees and is publicly traded on the New York Stock Exchange under the ticker CPS. Cooper Standard does not publish a public developer program or REST APIs. Its digital presence centers on corporate, investor, supplier, and careers websites.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cooper-standard-holdings/refs/heads/main/screenshots/cooper-standard-holdings-2026-06-20T175010.png",
+     "score": 9.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -856,24 +846,24 @@
      "rank": 21
     },
     {
-     "name": "Cooper Standard Holdings",
-     "slug": "cooper-standard-holdings",
-     "description": "Cooper Standard Holdings is a global automotive supplier headquartered in Northville, Michigan, that designs, engineers, manufactures, and sells sealing systems, fuel and brake delivery systems, and fluid transfer systems for global automotive original equipment manufacturers including Ford, General Motors, Stellantis, and Volkswagen. The company operates in approximately 20 countries with around 32,000 employees and is publicly traded on the New York Stock Exchange under the ticker CPS. Cooper Standard does not publish a public developer program or REST APIs. Its digital presence centers on corporate, investor, supplier, and careers websites.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cooper-standard-holdings/refs/heads/main/screenshots/cooper-standard-holdings-2026-06-20T175010.png",
-     "score": 9.2,
+     "name": "Autoliv",
+     "slug": "autoliv",
+     "description": "Autoliv is the world's largest automotive safety supplier, designing, manufacturing, and selling airbags, seatbelts, steering wheels, inflators, pyrotechnic actuators, and related safety electronics for vehicle manufacturers worldwide. The company operates in 25 countries with 13 technology centers and serves all major OEMs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autoliv/refs/heads/main/screenshots/autoliv-2026-06-20T172646.png",
+     "score": 9.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 21.1
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -883,7 +873,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -909,8 +899,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -947,8 +937,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -974,7 +964,7 @@
      "slug": "cummins",
      "description": "Cummins is a global power leader that designs, manufactures, distributes, and services diesel and natural gas engines, electric and hybrid powertrains, electrified power systems, components such as filtration, aftertreatment, turbochargers, fuel systems, controls systems, air handling systems, automated transmissions, and electric power generation systems. Cummins serves customers in approximately 190 countries and territories through a network of more than 600 company-owned and independent distributor locations and approximately 7,200 dealer locations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cummins/refs/heads/main/screenshots/cummins-2026-06-20T175336.png",
-     "score": 5.7,
+     "score": 6.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -985,8 +975,15 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1023,8 +1020,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1068,8 +1065,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1106,8 +1103,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1144,8 +1141,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1182,8 +1179,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1219,8 +1216,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1257,8 +1254,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1294,8 +1291,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1331,8 +1328,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1369,8 +1366,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1407,8 +1404,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1445,8 +1442,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1483,8 +1480,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1520,8 +1517,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1557,8 +1554,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1595,8 +1592,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1633,8 +1630,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

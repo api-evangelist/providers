@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-10'
+  score: 41.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -74,8 +74,16 @@ apis:
 - description: The Targets API from Oden Technologies — 2 operation(s) for targets.
   name: Oden Technologies Targets API
   slug: oden-technologies-targets-api
-artifact_total: 15
+artifact_total: 16
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/oden-technologies-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oden-technologies-nexa-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -164,6 +172,10 @@ created: '2026-07-17'
 description: 'Oden Technologies provides AI-powered software for manufacturing optimization, delivering real-time, AI-driven recommendations to front-line factory operators to increase output, improve quality, decrease costs, and reduce downtime. Its platform spans Forge AI agents, Process AI, Factory Analytics, and a Data Engine. The Oden Private Partner API (v2) is a RESTful, JSON-over-HTTPS API for reading, creating, and updating factory data on the Oden Platform: factories, lines, products, production intervals (runs, batches, states), scrap/yield, quality tests, metric groups, targets, dashboards, and the Oden Query Language (OQL). Oden is headquartered in New York with an office in Altrincham, UK, and is backed by EQT Ventures.'
 image: https://oden.io/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: oden-technologies-mcp.yml
+  slug: oden-technologies-mcpyml
 modified: '2026-07-20'
 name: Oden Technologies
 nav: Providers
@@ -171,16 +183,16 @@ network: true
 overview: 'Oden Technologies publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Dashboards API, Intervals API, Machine Groups API, and 9 more. Tagged areas include Company, Manufacturing, Industrial IoT, Analytics, and Artificial Intelligence.
 
 
-  Oden Technologies'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 16 more developer resources.'
+  Oden Technologies'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 18 more developer resources.'
 random_paper: 11
 score:
   band: developing
-  composite: 42.1
-  delta: 0.0
+  composite: 42.0
+  delta: -0.1
   facets:
     commercial_clarity: 34.2
-    contract_quality: 66.0
-    developer_ergonomics: 42.9
+    contract_quality: 63.5
+    developer_ergonomics: 45.1
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
@@ -195,8 +207,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oden-technologies/refs/heads/main/screenshots/oden-technologies-2026-08-07T190003.png
 security:

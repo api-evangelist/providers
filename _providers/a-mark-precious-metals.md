@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: A-Mark's wholesale precious metals trading platform enables dealers and financial institutions to buy and sell gold, silver, platinum, and palladium bullion products. Offers spot, forward, and deferre
@@ -131,16 +131,16 @@ rate_limits:
   name: A Mark Precious Metals Rate Limits
   slug: a-mark-precious-metals-rate-limits
 score:
-  band: emerging
-  composite: 17.2
-  delta: 0.0
+  band: minimal
+  composite: 12.8
+  delta: -4.4
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 5.3
   previous_composite: 17.2
   regulatory:
     applies: true
@@ -148,8 +148,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/a-mark-precious-metals/refs/heads/main/screenshots/a-mark-precious-metals-2026-06-20T162921.png
 security:

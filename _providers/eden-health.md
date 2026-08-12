@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -168,6 +168,10 @@ apis:
   slug: eden-health-grdn-routes-impl-visitor-api
 artifact_total: 45
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/eden-health-grdn-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -212,13 +216,13 @@ overview: Eden Health publishes 43 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 43
 score:
   band: emerging
-  composite: 18.6
-  delta: 0.0
+  composite: 17.4
+  delta: -1.2
   facets:
     commercial_clarity: 0.0
-    contract_quality: 35.1
+    contract_quality: 33.8
     developer_ergonomics: 0.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 18.6
@@ -236,8 +240,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

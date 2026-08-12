@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 5
@@ -774,13 +774,13 @@ scopes:
   summary_line: 7 scopes · clientCredentials
 score:
   band: thin
-  composite: 41.0
-  delta: 0.0
+  composite: 41.5
+  delta: 0.5
   facets:
     commercial_clarity: 28.9
-    contract_quality: 24.5
+    contract_quality: 23.6
     developer_ergonomics: 50.0
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 68.8
     operational_transparency: 44.7
   previous_composite: 41.0
@@ -791,8 +791,8 @@ score:
       derived: 30
       marker_coverage: 100.0
       total: 30
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/screenshots/deliverect-2026-06-20T175855.png
 security:

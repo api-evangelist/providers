@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: REST API for the Cynet 360 SaaS platform (V3). Provides programmatic access to alerts, hosts and host groups, remediation actions, scans, and account/token operations. Authenticated with a tenant-scop
@@ -170,8 +170,8 @@ score:
   previous_composite: 37.1
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cynet/refs/heads/main/screenshots/cynet-2026-07-25T211051.png
 security:

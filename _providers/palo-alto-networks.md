@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 269
   human_in_the_loop: 5
@@ -2588,6 +2589,10 @@ collections:
   name: 'Prisma Cloud: Managed Security Service Provider (MSSP)'
   slug: open-palo-alto-prisma-cloud-mssp-api-openapi-original
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/demisto/content/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -6928,7 +6933,7 @@ overview: 'Palo Alto Networks publishes 780 APIs on the [APIs.io](https://apis.i
   The Palo Alto Networks catalog on APIs.io includes 5 event-driven AsyncAPI specifications, 54 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Palo Alto Networks'' developer surface includes authentication, developer portal, documentation, support, engineering blog, CLI, tooling, and 70 more developer resources.'
+  Palo Alto Networks'' developer surface includes authentication, developer portal, documentation, support, engineering blog, CLI, tooling, and 71 more developer resources.'
 paper_is_own: true
 plans:
 - name: Palo Alto Networks Plans Pricing
@@ -6970,26 +6975,26 @@ scopes:
   slug: palo-alto-networks-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: exemplar
-  composite: 67.7
-  delta: -0.4
+  band: strong
+  composite: 63.1
+  delta: -4.6
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 79.9
+    commercial_clarity: 34.2
+    contract_quality: 82.5
     developer_ergonomics: 69.6
     discoverability: 74.1
     governance: 62.5
-    operational_transparency: 68.4
-  previous_composite: 68.1
+    operational_transparency: 52.6
+  previous_composite: 67.7
   provenance:
     agentic_access: derived
     contracts:
-      callable: 94.9
+      callable: 92.4
       derived: 0
-      marker_coverage: 100.0
-      total: 314
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+      marker_coverage: 81.0
+      total: 621
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/screenshots/palo-alto-networks-2026-06-20T191330.png
 security:

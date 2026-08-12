@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-08-10'
+  score: 39.9
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: A first-party Model Context Protocol tool manifest published by Fullpath for AI assistants. Thirteen tools with real JSON Schema inputSchemas covering consent management, shoppers, audiences, tasks, l
@@ -47,6 +47,10 @@ apis:
   slug: autoleadstar-tasks-api
 artifact_total: 14
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/autoleadstar-fullpath-api-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -159,7 +163,7 @@ network: true
 overview: 'AutoLeadStar publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Appointments API, Audiences API, and 4 more. Tagged areas include Company, Automotive, Customer Data Platform, Marketing Automation, and Dealerships.
 
 
-  AutoLeadStar''s developer surface includes documentation, API reference, engineering blog, support, signup flow, changelog, and 18 more developer resources.'
+  AutoLeadStar''s developer surface includes documentation, API reference, engineering blog, support, signup flow, changelog, and 19 more developer resources.'
 random_paper: 13
 rate_limits:
 - limit_count: 1
@@ -167,27 +171,27 @@ rate_limits:
   slug: autoleadstar-rate-limits
 score:
   band: developing
-  composite: 50.0
-  delta: -0.6
+  composite: 48.9
+  delta: -1.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 62.8
+    contract_quality: 62.7
     developer_ergonomics: 32.1
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 47.4
-  previous_composite: 50.6
+  previous_composite: 50.0
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
-    mcp: unknown
+      total: 7
+    mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/screenshots/autoleadstar-2026-08-07T161958.png
 security:

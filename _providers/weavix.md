@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -68,6 +68,10 @@ asyncapis:
   name: Weavix Webhooks
   slug: weavix-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/weavix-rest-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -191,7 +195,7 @@ overview: 'Weavix publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
   The Weavix catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Weavix''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 19 more developer resources.'
+  Weavix''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 20 more developer resources.'
 random_paper: 80
 score:
   band: developing
@@ -199,9 +203,9 @@ score:
   delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 71.3
+    contract_quality: 68.7
     developer_ergonomics: 49.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 23.7
   previous_composite: 51.8
@@ -215,14 +219,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

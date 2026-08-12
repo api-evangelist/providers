@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 340
   human_in_the_loop: 5
@@ -367,6 +367,10 @@ apis:
   slug: fulcrumpro-workcenter-api
 artifact_total: 113
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/fulcrumpro-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -482,17 +486,17 @@ network: true
 overview: 'Fulcrumpro publishes 109 APIs on the [APIs.io](https://apis.io/) network, including Accounting Code API, Attachment API, Attachment Certification API, and 106 more. Tagged areas include Company, Manufacturing, ERP, MES, and Manufacturing Execution.
 
 
-  Fulcrumpro''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 18 more developer resources.'
+  Fulcrumpro''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 19 more developer resources.'
 random_paper: 59
 score:
   band: developing
-  composite: 47.9
-  delta: 0.0
+  composite: 46.3
+  delta: -1.6
   facets:
     commercial_clarity: 31.6
-    contract_quality: 52.7
+    contract_quality: 50.7
     developer_ergonomics: 62.5
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 44.7
   previous_composite: 47.9
@@ -506,8 +510,8 @@ score:
       total: 109
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fulcrumpro/refs/heads/main/screenshots/fulcrumpro-2026-07-25T215252.png
 security:

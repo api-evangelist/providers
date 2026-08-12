@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -882,15 +882,15 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.5
-  delta: 0.0
+  composite: 57.6
+  delta: -5.9
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 71.4
+    commercial_clarity: 47.4
+    contract_quality: 68.8
     developer_ergonomics: 56.5
     discoverability: 59.3
     governance: 68.8
-    operational_transparency: 57.9
+    operational_transparency: 42.1
   previous_composite: 63.5
   provenance:
     agentic_access: derived
@@ -899,9 +899,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 35
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/screenshots/salesforce-experience-cloud-2026-06-20T193345.png
 security:
 - kind: authentication

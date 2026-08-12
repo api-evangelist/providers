@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 1
@@ -256,6 +256,26 @@ collections:
   name: Netlify Netlify's API documentation accessToken X-Internal API
   slug: postman-netlify-x-internal-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/netlify/open-api/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/netlify/open-api/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/netlify/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/netlify/open-api/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/netlify/open-api/blob/master/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -646,7 +666,7 @@ overview: 'Netlify publishes 35 APIs on the [APIs.io](https://apis.io/) network,
   The Netlify catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Netlify''s developer surface includes authentication, engineering blog, changelog, support, signup flow, developer portal, pricing, and 26 more developer resources.'
+  Netlify''s developer surface includes authentication, engineering blog, changelog, support, signup flow, developer portal, pricing, and 31 more developer resources.'
 plans:
 - name: Netlify Plans Pricing
   plan_count: 4
@@ -680,15 +700,15 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 63.8
-  delta: 0.0
+  composite: 57.1
+  delta: -6.7
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 55.3
+    commercial_clarity: 68.4
+    contract_quality: 53.5
     developer_ergonomics: 65.2
-    discoverability: 59.3
+    discoverability: 48.1
     governance: 41.7
-    operational_transparency: 78.9
+    operational_transparency: 55.3
   previous_composite: 63.8
   provenance:
     agentic_access: derived
@@ -697,9 +717,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 35
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/screenshots/netlify-2026-06-20T190259.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 2
@@ -70,6 +70,18 @@ apis:
   slug: apache-flink-taskmanagers-api
 artifact_total: 436
 common:
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/flink/blob/master/.github/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/flink/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1370,7 +1382,7 @@ overview: 'Apache Flink publishes 9 APIs on the [APIs.io](https://apis.io/) netw
   The Apache Flink catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache Flink''s developer surface includes getting-started guide, engineering blog, support, training material, Stack Overflow tag, and 8 more developer resources.'
+  Apache Flink''s developer surface includes getting-started guide, engineering blog, support, training material, Stack Overflow tag, and 11 more developer resources.'
 plans:
 - name: Apache Flink Plans Pricing
   plan_count: 3
@@ -1398,16 +1410,16 @@ rules:
     warn: 9
   slug: apache-flink-spectral-rules
 score:
-  band: developing
-  composite: 45.6
-  delta: 0.0
+  band: thin
+  composite: 37.3
+  delta: -8.3
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 58.9
+    commercial_clarity: 15.8
+    contract_quality: 56.7
     developer_ergonomics: 17.4
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 45.6
   provenance:
     agentic_access: derived
@@ -1416,9 +1428,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/screenshots/apache-flink-2026-06-20T172057.png
 security:
 - kind: domain-security

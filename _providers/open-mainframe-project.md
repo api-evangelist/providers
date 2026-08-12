@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 12
 apis:
 - description: Zowe is an open source software framework that delivers modern interfaces to interact with z/OS, including a CLI, a web UI (Application Framework), and REST APIs (API Mediation Layer) for jobs, datase
@@ -69,6 +69,10 @@ apis:
   slug: mainframe-open-education
 artifact_total: 16
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/openmainframeproject/feilong/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -124,7 +128,7 @@ network: true
 overview: 'Open Mainframe Project publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Native, Education, Enterprise, IBM Z, and Linux Foundation.
 
 
-  Open Mainframe Project''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
+  Open Mainframe Project''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Open Mainframe Project Plans Pricing
   plan_count: 3
@@ -136,19 +140,19 @@ rate_limits:
   slug: open-mainframe-project-rate-limits
 score:
   band: emerging
-  composite: 21.3
-  delta: 0.0
+  composite: 13.5
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 21.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-mainframe-project/refs/heads/main/screenshots/open-mainframe-project-2026-06-20T190840.png
 security:
 - kind: domain-security

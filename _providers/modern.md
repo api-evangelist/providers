@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-08-10'
+  score: 39.4
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: Franchise dashboards and dashboard types
@@ -55,12 +55,20 @@ apis:
 - description: Service work order lifecycle
   name: Modern Work Orders API
   slug: modern-work-orders-api
-artifact_total: 11
+artifact_total: 12
 collections:
 - collection_type: postman
   name: MODERN Partner API - Documentation
   slug: postman-modern-partner-api
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/modern-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/modern-partner-api-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -101,6 +109,10 @@ created: '2026-07-17'
 description: Modern (modernis.com) is a two-way customer interaction platform for heavy-equipment dealerships, unifying service communications "from intake to invoice" across construction, agriculture, mining, landscaping, and material-handling sectors. It provides two-way text and email messaging, digital repair-order approvals, inspection and warranty documentation, outbound maintenance scheduling, rental tracking, parts-order status, and DMS integration. The MODERN Partner API (docs.modernis.com, base https://connect.modernis.com) lets authorized integrators read dealership dashboards, manage service work orders, post work-order events, send customer notifications, and maintain technicians and notes on a franchise's behalf using 24-hour bearer tokens exchanged from franchise credentials.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/modern.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: modern-mcp.yml
+  slug: modern-mcpyml
 modified: '2026-07-20'
 name: Modern
 nav: Providers
@@ -108,17 +120,17 @@ network: true
 overview: 'Modern publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Dashboards API, Events API, Federation API, and 5 more. Tagged areas include Company, Heavy Equipment, Dealership, Field Service, and Work Orders.
 
 
-  Modern''s developer surface includes documentation, API reference, authentication, and 6 more developer resources.'
+  Modern''s developer surface includes documentation, API reference, authentication, and 8 more developer resources.'
 random_paper: 65
 score:
   band: thin
-  composite: 37.7
-  delta: 0.0
+  composite: 36.5
+  delta: -1.2
   facets:
     commercial_clarity: 23.7
-    contract_quality: 60.3
-    developer_ergonomics: 36.4
-    discoverability: 92.6
+    contract_quality: 58.1
+    developer_ergonomics: 38.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 37.7
@@ -131,8 +143,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modern/refs/heads/main/screenshots/modern-2026-08-07T183934.png
 security:

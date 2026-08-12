@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 10
 apis:
 - description: Property record retrieval for Australian properties — core and extended property detail, images, floorplans, street view, maps, schools, radial searches for nearby sales, rentals, listings, properties
@@ -169,13 +169,13 @@ overview: 'Pricefinder publishes 10 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 3
 score:
   band: thin
-  composite: 37.9
-  delta: 0.0
+  composite: 35.4
+  delta: -2.5
   facets:
     commercial_clarity: 34.2
     contract_quality: 32.3
     developer_ergonomics: 49.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 37.9
@@ -193,9 +193,9 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 51.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 41.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/screenshots/pricefinder-2026-07-27T125408.png
 security:

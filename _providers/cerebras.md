@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -144,13 +144,13 @@ rate_limits:
   slug: cerebras-rate-limits
 score:
   band: developing
-  composite: 42.7
-  delta: 0.0
+  composite: 42.8
+  delta: 0.1
   facets:
     commercial_clarity: 47.4
-    contract_quality: 65.1
+    contract_quality: 62.7
     developer_ergonomics: 30.4
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 42.7
@@ -161,8 +161,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerebras/refs/heads/main/screenshots/cerebras-2026-06-20T174140.png
 security:

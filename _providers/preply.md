@@ -12,7 +12,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: false
     consent_identity: true
@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-10'
+  score: 25.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,6 +42,14 @@ apis:
   slug: preply-chatgpt-openapi-api
 artifact_total: 5
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/preply-find-a-tutor.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/preply-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -121,17 +129,17 @@ network: true
 overview: 'Preply publishes 1 API on the [APIs.io](https://apis.io/) network: Chatgpt Openapi API. Tagged areas include Company, Education, Language Learning, Tutoring, and Marketplace.
 
 
-  Preply''s developer surface includes engineering blog, support, and 14 more developer resources.'
+  Preply''s developer surface includes engineering blog, support, and 16 more developer resources.'
 random_paper: 88
 score:
   band: thin
-  composite: 31.3
-  delta: 0.0
+  composite: 30.0
+  delta: -1.3
   facets:
     commercial_clarity: 21.1
-    contract_quality: 47.3
-    developer_ergonomics: 8.7
-    discoverability: 87.0
+    contract_quality: 45.5
+    developer_ergonomics: 10.3
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 26.3
   previous_composite: 31.3
@@ -145,8 +153,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

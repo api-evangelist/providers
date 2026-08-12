@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: Solidity smart contracts that implement the EigenLayer restaking protocol - StrategyManager, DelegationManager, EigenPodManager, AVSDirectory, and the slasher. Operators register, stakers delegate, an
@@ -58,6 +58,18 @@ asyncapis:
   name: EigenDA Streaming Surface
   slug: eigenlayer-streaming-asyncapi
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Layr-Labs/eigenlayer-contracts/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Layr-Labs/eigenlayer-contracts/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Layr-Labs/eigenlayer-contracts/blob/main/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -104,7 +116,7 @@ overview: 'EigenLayer publishes 1 API on the [APIs.io](https://apis.io/) network
   The EigenLayer catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  EigenLayer''s developer surface includes documentation, GitHub presence, and 5 more developer resources.'
+  EigenLayer''s developer surface includes documentation, GitHub presence, and 8 more developer resources.'
 plans:
 - name: Eigenlayer Plans Pricing
   plan_count: 1
@@ -125,18 +137,18 @@ rules:
   slug: eigenlayer-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 37.0
-  delta: 0.0
+  composite: 39.9
+  delta: 2.9
   facets:
     commercial_clarity: 28.9
     contract_quality: 49.4
-    developer_ergonomics: 8.7
+    developer_ergonomics: 13.0
     discoverability: 74.1
     governance: 52.1
-    operational_transparency: 26.3
+    operational_transparency: 42.1
   previous_composite: 37.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eigenlayer/refs/heads/main/screenshots/eigenlayer-2026-06-20T180610.png
 security:

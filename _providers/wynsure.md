@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: 'RESTful API exposing Wynsure''s core insurance platform capabilities for integration with third-party systems. Provides programmatic access to policy administration, underwriting, billing, claims, and '
@@ -161,16 +161,16 @@ rate_limits:
   name: Wynsure Rate Limits
   slug: wynsure-rate-limits
 score:
-  band: thin
-  composite: 28.9
-  delta: 0.0
+  band: emerging
+  composite: 22.2
+  delta: -6.7
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 28.9
   regulatory:
     applies: true
@@ -178,9 +178,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 30.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wynsure/refs/heads/main/screenshots/wynsure-2026-06-20T201645.png
 security:
 - kind: domain-security

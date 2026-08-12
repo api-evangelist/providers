@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 15.3
-  scored_at: '2026-08-10'
+  score: 11.7
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Programmatic access to Grammarly usage and communication-performance analytics for integration into business-intelligence systems.
@@ -196,8 +196,8 @@ score:
   previous_composite: 39.7
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grammarly/refs/heads/main/screenshots/grammarly-2026-07-25T220215.png
 security:

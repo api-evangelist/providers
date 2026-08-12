@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-10'
+  score: 45.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -279,16 +279,16 @@ rate_limits:
   name: Elasticsearch Rate Limits
   slug: elasticsearch-rate-limits
 score:
-  band: strong
-  composite: 57.6
-  delta: 0.0
+  band: developing
+  composite: 49.2
+  delta: -8.4
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 53.5
+    commercial_clarity: 55.3
+    contract_quality: 51.5
     developer_ergonomics: 52.2
-    discoverability: 90.7
+    discoverability: 79.6
     governance: 11.5
-    operational_transparency: 57.9
+    operational_transparency: 42.1
   previous_composite: 57.6
   provenance:
     agentic_access: derived
@@ -299,9 +299,9 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/screenshots/elasticsearch-2026-06-20T180540.png
 security:
 - kind: authentication

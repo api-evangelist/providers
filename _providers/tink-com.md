@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -473,12 +473,12 @@ rules:
     warn: 3
   slug: tink-rules
 score:
-  band: strong
-  composite: 64.8
-  delta: 0.0
+  band: exemplar
+  composite: 66.5
+  delta: 1.7
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 76.6
+    commercial_clarity: 73.7
+    contract_quality: 73.7
     developer_ergonomics: 56.5
     discoverability: 74.1
     governance: 68.8
@@ -497,8 +497,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 44.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/screenshots/tink-com-2026-06-20T195409.png
 security:

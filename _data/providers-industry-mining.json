@@ -16,19 +16,19 @@
      "slug": "united-states-steel",
      "description": "United States Steel Corporation (U.S. Steel) is an integrated steel producer headquartered in Pittsburgh, Pennsylvania, with major production operations in the United States and Central Europe. The company serves customers in automotive, construction, container, energy, and industrial markets with advanced high-strength steels, coated products, hot-rolled and cold-rolled coils, electrical steel, and tubular products. U.S. Steel provides digital customer tools through the SteelTrack platform for order management, inventory tracking, shipment history, and certified test reporting.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/united-states-steel/refs/heads/main/screenshots/united-states-steel-2026-06-20T200102.png",
-     "score": 38.9,
+     "score": 32.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 33.3,
+      "contract_quality": 32.1,
       "governance": 68.8,
-      "operational_transparency": 31.6,
+      "operational_transparency": 7.9,
       "developer_ergonomics": 28.3,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -60,31 +60,31 @@
    "open": true
   },
   {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "13 – 27.9",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 3,
-   "shown": 3,
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 12.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 19,
+   "shown": 19,
    "providers": [
     {
      "name": "A-Mark Precious Metals",
      "slug": "a-mark-precious-metals",
      "description": "A-Mark Precious Metals is a full-service precious metals trading company that wholesales gold, silver, platinum, and palladium bullion and coins to dealers, financial institutions, and investors. They operate trading desks 17 hours daily across global locations (US, Asia, Vienna) and offer wholesale sales, direct-to-consumer, logistics and storage, minting, and collateralized loans services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/a-mark-precious-metals/refs/heads/main/screenshots/a-mark-precious-metals-2026-06-20T162921.png",
-     "score": 17.2,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 12.8,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 8.7,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -113,31 +113,31 @@
      "rank": 2
     },
     {
-     "name": "Alliance Resource Partners",
-     "slug": "alliance-resource-partners",
-     "description": "Alliance Resource Partners is a major US corporation and Fortune 1000 company. The Alliance Resource Partners API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alliance-resource-partners/refs/heads/main/screenshots/alliance-resource-partners-2026-06-20T171531.png",
-     "score": 13.5,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "name": "Albemarle",
+     "slug": "albemarle",
+     "description": "Albemarle Corporation is a global specialty chemicals company and leading provider of lithium, bromine, and other essential elements. Operating from its global headquarters in Charlotte, NC, Albemarle serves customers in approximately 70 countries with world-class hard-rock and brine lithium resources, state-of-the-art lithium conversion facilities, advanced lithium material and process development, bromine production facilities, and the US's only producing lithium resource in Silver Peak, NV. The company serves critical markets including electric vehicle batteries, energy storage, flame retardants, pharmaceutical ingredients, catalysts, and specialty chemicals, employing approximately 7,800 people and holding over 1,500 active patents worldwide.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/albemarle/refs/heads/main/screenshots/albemarle-2026-06-20T171503.png",
+     "score": 12.5,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
-      "score": 8.1,
+      "score": 18.9,
       "matched_via": "tags"
      },
-     "agent_score": 3.2,
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -147,7 +147,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -158,66 +158,10 @@
      "rank": 3
     },
     {
-     "name": "CONSOL Energy",
-     "slug": "consol-energy",
-     "description": "CONSOL Energy was a Pittsburgh-based coal mining company that produced high-quality bituminous coal from underground mines for sale to electric utilities, steelmakers, and industrial customers. In 2025 CONSOL Energy merged with Arch Resources to form Core Natural Resources, and the consolenergy.com domain now redirects to corenaturalresources.com. The combined company does not publish public developer APIs; its external digital surface is organized around an investor relations site, a suppliers page (with downloadable terms, conditions, and a Supplier Code of Conduct), and corporate sustainability/safety disclosures — all HTML and PDF, with no documented endpoints and no XML feeds (probed 2026-07-25). Those pages are listed below as website surfaces, not as APIs. The only verified programmatic access to this company's data is the SEC's own EDGAR APIs. See the sibling profile arch-coal for the other half of the merger.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/consol-energy/refs/heads/main/screenshots/consol-energy-2026-06-20T174910.png",
-     "score": 13.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 8.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 4
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 12.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 16,
-   "shown": 16,
-   "providers": [
-    {
-     "name": "Albemarle",
-     "slug": "albemarle",
-     "description": "Albemarle Corporation is a global specialty chemicals company and leading provider of lithium, bromine, and other essential elements. Operating from its global headquarters in Charlotte, NC, Albemarle serves customers in approximately 70 countries with world-class hard-rock and brine lithium resources, state-of-the-art lithium conversion facilities, advanced lithium material and process development, bromine production facilities, and the US's only producing lithium resource in Silver Peak, NV. The company serves critical markets including electric vehicle batteries, energy storage, flame retardants, pharmaceutical ingredients, catalysts, and specialty chemicals, employing approximately 7,800 people and holding over 1,500 active patents worldwide.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/albemarle/refs/heads/main/screenshots/albemarle-2026-06-20T171503.png",
+     "name": "Alcoa",
+     "slug": "alcoa",
+     "description": "Alcoa Corporation is a global industry leader in bauxite, alumina, and aluminum production. Founded in 1888, Alcoa operates mines, refineries, and smelters across Australia, Brazil, Canada, Iceland, Norway, Saudi Arabia, and the United States. The company is a Fortune 500 member and one of the world's largest aluminum producers, supplying lightweight, high-strength materials to automotive, aerospace, packaging, construction, and industrial markets. Alcoa is committed to sustainability through low-carbon aluminum production, responsible bauxite mining, and advancing aluminum recycling.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alcoa/refs/heads/main/screenshots/alcoa-2026-06-20T171511.png",
      "score": 11.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -229,8 +173,46 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 4
+    },
+    {
+     "name": "BHP",
+     "slug": "bhp",
+     "description": "BHP is one of the world's largest mining companies, headquartered in Melbourne, Australia. BHP does not publish a public developer portal; integration is delivered through enterprise procurement systems for tier-1 and tier-2 suppliers, charter and shipping data exchanges for commodity logistics, and standard commodity-trading and assay data exchange formats with customers and exchanges (LME, SHFE).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bhp/refs/heads/main/screenshots/bhp-2026-06-20T173224.png",
+     "score": 10.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -252,23 +234,23 @@
      "rank": 5
     },
     {
-     "name": "Alcoa",
-     "slug": "alcoa",
-     "description": "Alcoa Corporation is a global industry leader in bauxite, alumina, and aluminum production. Founded in 1888, Alcoa operates mines, refineries, and smelters across Australia, Brazil, Canada, Iceland, Norway, Saudi Arabia, and the United States. The company is a Fortune 500 member and one of the world's largest aluminum producers, supplying lightweight, high-strength materials to automotive, aerospace, packaging, construction, and industrial markets. Alcoa is committed to sustainability through low-carbon aluminum production, responsible bauxite mining, and advancing aluminum recycling.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alcoa/refs/heads/main/screenshots/alcoa-2026-06-20T171511.png",
-     "score": 11.4,
+     "name": "Steel Dynamics",
+     "slug": "steel-dynamics",
+     "description": "Steel Dynamics, Inc. is one of the largest domestic steel producers and metals recyclers in the United States, with operations spanning steel manufacturing, steel processing, and metals recycling. Founded in 1993 and headquartered in Fort Wayne, Indiana, the company operates steel mills, fabrication operations, and metals recycling facilities. Steel Dynamics is a Fortune 500 company listed on NASDAQ (STLD) and does not offer public developer APIs; data access is available through financial data providers and investor relations communications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/steel-dynamics/refs/heads/main/screenshots/steel-dynamics-2026-06-20T194541.png",
+     "score": 9.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
+      "contract_quality": 12.9,
+      "governance": 10.4,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 21.1
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -290,11 +272,11 @@
      "rank": 6
     },
     {
-     "name": "BHP",
-     "slug": "bhp",
-     "description": "BHP is one of the world's largest mining companies, headquartered in Melbourne, Australia. BHP does not publish a public developer portal; integration is delivered through enterprise procurement systems for tier-1 and tier-2 suppliers, charter and shipping data exchanges for commodity logistics, and standard commodity-trading and assay data exchange formats with customers and exchanges (LME, SHFE).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bhp/refs/heads/main/screenshots/bhp-2026-06-20T173224.png",
-     "score": 10.8,
+     "name": "Cleveland-Cliffs",
+     "slug": "cleveland-cliffs",
+     "description": "Cleveland-Cliffs is North America's largest flat-rolled steel producer and supplier of iron ore pellets, operating an integrated business spanning mining, steelmaking, and downstream finishing for the automotive, infrastructure, and manufacturing markets. Cleveland-Cliffs does not publish a public developer portal or general-purpose REST API surface. Programmatic interaction with the company is limited to investor and customer touchpoints (corporate website, investor relations, customer service, EDI for trading partners).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cleveland-cliffs/refs/heads/main/screenshots/cleveland-cliffs-2026-06-20T174506.png",
+     "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -302,11 +284,11 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -328,11 +310,10 @@
      "rank": 7
     },
     {
-     "name": "Steel Dynamics",
-     "slug": "steel-dynamics",
-     "description": "Steel Dynamics, Inc. is one of the largest domestic steel producers and metals recyclers in the United States, with operations spanning steel manufacturing, steel processing, and metals recycling. Founded in 1993 and headquartered in Fort Wayne, Indiana, the company operates steel mills, fabrication operations, and metals recycling facilities. Steel Dynamics is a Fortune 500 company listed on NASDAQ (STLD) and does not offer public developer APIs; data access is available through financial data providers and investor relations communications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/steel-dynamics/refs/heads/main/screenshots/steel-dynamics-2026-06-20T194541.png",
-     "score": 9.9,
+     "name": "Vulcan Materials Company",
+     "slug": "vulcan-materials",
+     "description": "Vulcan Materials Company is the nation's largest producer of construction aggregates, primarily crushed stone, sand, and gravel, and a major producer of asphalt mix and ready-mixed concrete. Headquartered in Birmingham, Alabama, Vulcan serves all 50 states and operates over 400 quarries and plants. As a Fortune 500 company, Vulcan serves the construction industry with materials critical for roads, bridges, buildings, and infrastructure. Vulcan does not publish a public developer API ecosystem; their digital operations focus on internal ERP systems, supplier portals, and customer order management platforms.",
+     "score": 9.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -340,11 +321,11 @@
       "contract_quality": 12.9,
       "governance": 10.4,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -366,23 +347,23 @@
      "rank": 8
     },
     {
-     "name": "Cleveland-Cliffs",
-     "slug": "cleveland-cliffs",
-     "description": "Cleveland-Cliffs is North America's largest flat-rolled steel producer and supplier of iron ore pellets, operating an integrated business spanning mining, steelmaking, and downstream finishing for the automotive, infrastructure, and manufacturing markets. Cleveland-Cliffs does not publish a public developer portal or general-purpose REST API surface. Programmatic interaction with the company is limited to investor and customer touchpoints (corporate website, investor relations, customer service, EDI for trading partners).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cleveland-cliffs/refs/heads/main/screenshots/cleveland-cliffs-2026-06-20T174506.png",
-     "score": 9.7,
+     "name": "Reliance, Inc.",
+     "slug": "reliance",
+     "description": "Reliance, Inc. (NYSE: RS) is the largest metals service center operator in North America, distributing approximately 100,000 metal products across aluminum, brass, alloy, copper, carbon steel, stainless steel, titanium, and specialty metals to over 125,000 customers including fabricators and manufacturers. Operating under more than 75 distinct brands across 300+ locations in the US, Canada, and internationally, Reliance provides value-added processing services including cutting, shearing, sawing, leveling, stamping, and just-in-time delivery for aerospace, automotive, construction, defense, energy, electronics, and semiconductor end markets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/reliance/refs/heads/main/screenshots/reliance-2026-06-20T192835.png",
+     "score": 9.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 0.0,
+      "contract_quality": 17.7,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 21.1
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -404,23 +385,31 @@
      "rank": 9
     },
     {
-     "name": "Vulcan Materials Company",
-     "slug": "vulcan-materials",
-     "description": "Vulcan Materials Company is the nation's largest producer of construction aggregates, primarily crushed stone, sand, and gravel, and a major producer of asphalt mix and ready-mixed concrete. Headquartered in Birmingham, Alabama, Vulcan serves all 50 states and operates over 400 quarries and plants. As a Fortune 500 company, Vulcan serves the construction industry with materials critical for roads, bridges, buildings, and infrastructure. Vulcan does not publish a public developer API ecosystem; their digital operations focus on internal ERP systems, supplier portals, and customer order management platforms.",
-     "score": 9.5,
+     "name": "Alliance Resource Partners",
+     "slug": "alliance-resource-partners",
+     "description": "Alliance Resource Partners is a major US corporation and Fortune 1000 company. The Alliance Resource Partners API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alliance-resource-partners/refs/heads/main/screenshots/alliance-resource-partners-2026-06-20T171531.png",
+     "score": 9.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 12.9,
-      "governance": 10.4,
-      "operational_transparency": 0.0,
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -430,7 +419,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -441,24 +430,31 @@
      "rank": 10
     },
     {
-     "name": "Reliance, Inc.",
-     "slug": "reliance",
-     "description": "Reliance, Inc. (NYSE: RS) is the largest metals service center operator in North America, distributing approximately 100,000 metal products across aluminum, brass, alloy, copper, carbon steel, stainless steel, titanium, and specialty metals to over 125,000 customers including fabricators and manufacturers. Operating under more than 75 distinct brands across 300+ locations in the US, Canada, and internationally, Reliance provides value-added processing services including cutting, shearing, sawing, leveling, stamping, and just-in-time delivery for aerospace, automotive, construction, defense, energy, electronics, and semiconductor end markets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/reliance/refs/heads/main/screenshots/reliance-2026-06-20T192835.png",
-     "score": 9.4,
+     "name": "CONSOL Energy",
+     "slug": "consol-energy",
+     "description": "CONSOL Energy was a Pittsburgh-based coal mining company that produced high-quality bituminous coal from underground mines for sale to electric utilities, steelmakers, and industrial customers. In 2025 CONSOL Energy merged with Arch Resources to form Core Natural Resources, and the consolenergy.com domain now redirects to corenaturalresources.com. The combined company does not publish public developer APIs; its external digital surface is organized around an investor relations site, a suppliers page (with downloadable terms, conditions, and a Supplier Code of Conduct), and corporate sustainability/safety disclosures — all HTML and PDF, with no documented endpoints and no XML feeds (probed 2026-07-25). Those pages are listed below as website surfaces, not as APIs. The only verified programmatic access to this company's data is the SEC's own EDGAR APIs. See the sibling profile arch-coal for the other half of the merger.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/consol-energy/refs/heads/main/screenshots/consol-energy-2026-06-20T174910.png",
+     "score": 9.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 17.7,
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -468,7 +464,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -494,8 +490,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -532,8 +528,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -570,8 +566,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -608,8 +604,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -646,8 +642,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -684,8 +680,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -729,8 +725,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -767,8 +763,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -805,8 +801,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -827,7 +823,8 @@
      },
      "rank": 20
     }
-   ]
+   ],
+   "open": true
   }
  ]
 }

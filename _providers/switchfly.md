@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-10'
+  score: 35.4
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Describes authentication required (`client_credentials` OAuth 2) and refund requests performed by Switchfly application to 3rd party service to cancel redemption components.
@@ -40,8 +40,16 @@ apis:
 - description: Information about requests performed by Switchfly system to 3rd party service to fetch Loyalty profile data and redeem points from the customer account.
   name: Switchfly Shopping Flow API
   slug: switchfly-shopping-flow-api
-artifact_total: 5
+artifact_total: 6
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/switchfly-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/switchfly-loyalty-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -114,6 +122,10 @@ created: '2026-07-17'
 description: Switchfly is a B2B travel loyalty and commerce technology company that powers white-label travel booking, dynamic packaging, and points-plus-cash redemption for airlines, financial services loyalty programs, and HR/employee-rewards platforms. Its platform connects flights, hotels, cars, and activities to loyalty currencies with real-time pricing, business rules, markups, and 24/7 traveler support, giving partners access to more than 400,000 travel options. Switchfly exposes a REST Loyalty API (v3.4, OpenAPI 3.1) for OAuth2 SSO authentication, traveler-profile retrieval, points redemption, and refunds, plus a family of embeddable travel-search and identity UI widgets with a JavaScript SDK. Headquartered in Denver, Colorado, Switchfly has operated in travel technology for more than twenty years.
 image: https://www.switchfly.com/
 layout: provider
+mcp_servers:
+- description: ''
+  name: switchfly-mcp.yml
+  slug: switchfly-mcpyml
 modified: '2026-07-21'
 name: Switchfly
 nav: Providers
@@ -121,17 +133,17 @@ network: true
 overview: 'Switchfly publishes 3 APIs on the [APIs.io](https://apis.io/) network: Machine to Machine (OAuth2 & Refund) API, OAuth 2 - SSO Authorize API, and Shopping Flow API. Tagged areas include Company, Travel, Loyalty, Travel Technology, and Rewards.
 
 
-  Switchfly''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 11 more developer resources.'
+  Switchfly''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
 random_paper: 61
 score:
   band: thin
-  composite: 39.2
-  delta: 0.0
+  composite: 38.0
+  delta: -1.2
   facets:
     commercial_clarity: 23.7
-    contract_quality: 55.6
-    developer_ergonomics: 49.5
-    discoverability: 92.6
+    contract_quality: 53.5
+    developer_ergonomics: 51.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 39.2
@@ -144,8 +156,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

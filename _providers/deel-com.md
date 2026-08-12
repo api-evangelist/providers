@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -405,11 +405,11 @@ rules:
   slug: deel-com-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.3
-  delta: 0.0
+  composite: 60.7
+  delta: -0.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 74.0
+    contract_quality: 71.6
     developer_ergonomics: 52.2
     discoverability: 68.5
     governance: 58.3
@@ -422,8 +422,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 39
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/screenshots/deel-com-2026-06-20T175806.png
 security:

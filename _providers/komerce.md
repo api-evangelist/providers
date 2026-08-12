@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-08-10'
+  score: 53.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -88,6 +89,10 @@ collections:
   name: Komerce Payment Service Cost Tracking API
   slug: postman-komerce-tracking-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/komerce-payment-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -246,7 +251,7 @@ overview: 'Komerce publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
   The Komerce catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Komerce''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 28 more developer resources.'
+  Komerce''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 29 more developer resources.'
 plans:
 - name: Komerce Plans
   plan_count: 3
@@ -258,11 +263,11 @@ rate_limits:
   slug: komerce-rate-limits
 score:
   band: strong
-  composite: 61.1
-  delta: 0.0
+  composite: 60.6
+  delta: -0.5
   facets:
     commercial_clarity: 76.3
-    contract_quality: 69.2
+    contract_quality: 66.6
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 21.9
@@ -284,8 +289,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/screenshots/komerce-2026-07-25T224133.png
 security:

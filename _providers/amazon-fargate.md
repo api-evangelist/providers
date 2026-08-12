@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -431,15 +431,15 @@ rules:
   slug: amazon-fargate-spectral-rules
 score:
   band: developing
-  composite: 52.8
-  delta: 0.0
+  composite: 47.3
+  delta: -5.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 33.3
+    commercial_clarity: 50.0
+    contract_quality: 32.1
     developer_ergonomics: 45.7
     discoverability: 81.5
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 52.8
   provenance:
     agentic_access: derived
@@ -448,9 +448,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/screenshots/amazon-fargate-2026-06-20T171646.png
 security:
 - kind: authentication

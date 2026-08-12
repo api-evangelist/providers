@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -94,13 +94,13 @@ overview: 'Pay.UK is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 19
 score:
   band: emerging
-  composite: 21.5
-  delta: 0.0
+  composite: 18.6
+  delta: -2.9
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 26.1
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 12.5
     operational_transparency: 0.0
   previous_composite: 21.5
@@ -111,9 +111,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 42.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 29.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pay-uk/refs/heads/main/screenshots/pay-uk-2026-08-07T191623.png
 security:

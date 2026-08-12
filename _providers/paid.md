@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 56.8
-  scored_at: '2026-08-10'
+  score: 53.2
+  scored_at: '2026-08-11'
 api_count: 22
 apis:
 - description: The agents API from Paid — 3 operation(s) for agents.
@@ -103,6 +104,10 @@ asyncapis:
   name: Paid Webhooks
   slug: paid-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/paid-v1-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -233,17 +238,17 @@ overview: 'Paid publishes 22 APIs on the [APIs.io](https://apis.io/) network, in
   The Paid catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Paid''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, authentication, and 21 more developer resources.'
+  Paid''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, authentication, and 22 more developer resources.'
 random_paper: 66
 score:
   band: developing
-  composite: 52.3
-  delta: 0.0
+  composite: 50.8
+  delta: -1.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 67.1
+    contract_quality: 64.6
     developer_ergonomics: 82.6
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
   previous_composite: 52.3
@@ -262,8 +267,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/screenshots/paid-2026-08-07T191309.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 364
   human_in_the_loop: 21
@@ -200,6 +200,14 @@ collections:
   name: ExtremeCloud IQ API
   slug: open-extremecloud-iq
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/extremenetworks/ansible_collections.extreme.exos/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/extremenetworks/ansible_collections.extreme.exos/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -308,15 +316,15 @@ network: true
 overview: 'Extreme Networks publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Account API, Administration API, AFC API, and 42 more. Tagged areas include Networking, Wireless, Wired, Switching, and Wi-Fi.
 
 
-  Extreme Networks'' developer surface includes authentication, API reference, GitHub presence, documentation, support, engineering blog, status page, and 17 more developer resources.'
+  Extreme Networks'' developer surface includes authentication, API reference, GitHub presence, documentation, support, engineering blog, status page, and 19 more developer resources.'
 random_paper: 76
 score:
   band: thin
-  composite: 34.9
-  delta: 0.0
+  composite: 34.3
+  delta: -0.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 60.5
+    contract_quality: 58.2
     developer_ergonomics: 41.3
     discoverability: 50.0
     governance: 0.0
@@ -329,8 +337,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 45
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/screenshots/extreme-networks-2026-06-20T180950.png
 security:

@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-10'
+  score: 46.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 9
@@ -249,13 +250,13 @@ overview: 'Leap publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 58
 score:
   band: developing
-  composite: 52.8
-  delta: 0.0
+  composite: 49.6
+  delta: -3.2
   facets:
     commercial_clarity: 34.2
-    contract_quality: 72.2
+    contract_quality: 69.5
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 47.4
   previous_composite: 52.8
@@ -274,9 +275,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 44.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 33.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/screenshots/leapfrog-power-2026-08-07T171518.png
 security:

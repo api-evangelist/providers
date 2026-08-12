@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-08-10'
+  score: 33.1
+  scored_at: '2026-08-11'
 api_count: 9
 apis:
 - description: Route, type, taxonomy and status discovery documents.
@@ -50,6 +50,10 @@ apis:
   slug: nacuity-pharmaceuticals-taxonomy-api
 artifact_total: 12
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacuity-pharmaceuticals-content-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -194,17 +198,17 @@ overview: 'Nacuity Pharmaceuticals publishes 9 APIs on the [APIs.io](https://api
   The Nacuity Pharmaceuticals catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Nacuity Pharmaceuticals'' developer surface includes product news, support, authentication, and 28 more developer resources.'
+  Nacuity Pharmaceuticals'' developer surface includes product news, support, authentication, and 29 more developer resources.'
 random_paper: 80
 score:
   band: thin
-  composite: 30.3
-  delta: 0.0
+  composite: 29.1
+  delta: -1.2
   facets:
     commercial_clarity: 10.5
-    contract_quality: 56.8
+    contract_quality: 58.4
     developer_ergonomics: 16.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 30.3
@@ -214,10 +218,16 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 9
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 26.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nacuity-pharmaceuticals/refs/heads/main/screenshots/nacuity-pharmaceuticals-2026-08-07T184606.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Flask is a lightweight WSGI web application framework for Python. It is commonly used as a foundation for building HTTP APIs and web services. While Flask itself does not expose an HTTP API, it ships '
@@ -36,6 +36,22 @@ apis:
   slug: flask
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/pallets/flask/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/pallets/flask/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/pallets/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/pallets/flask/blob/main/docs/contributing.rst
 - group: auth
   title: ''
   type: DomainSecurity
@@ -102,7 +118,7 @@ overview: 'Flask publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
   The Flask catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Flask''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 7 more developer resources.'
+  Flask''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 11 more developer resources.'
 plans:
 - name: Flask Plans Pricing
   plan_count: 3
@@ -122,20 +138,20 @@ rules:
     warn: 4
   slug: flask-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 34.4
-  delta: 0.0
+  band: emerging
+  composite: 26.6
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 9.7
     developer_ergonomics: 21.7
     discoverability: 59.3
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 34.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/flask/refs/heads/main/screenshots/flask-2026-06-20T181302.png
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -58,6 +58,10 @@ apis:
   slug: urbanfox-tenants-api
 artifact_total: 11
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/urbanfox-customer-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -165,7 +169,7 @@ network: true
 overview: 'UrbanFox publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Cases API, End User Accounts API, Metrics API, and 3 more. Tagged areas include Fraud Detection, Payment Fraud, Account Takeover, Bot Detection, and Risk Management.
 
 
-  UrbanFox''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 16 more developer resources.'
+  UrbanFox''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 17 more developer resources.'
 random_paper: 57
 scopes:
 - name: Urbanfox Scopes
@@ -174,13 +178,13 @@ scopes:
   summary_line: 13 scopes · clientCredentials
 score:
   band: developing
-  composite: 45.3
-  delta: 0.0
+  composite: 44.3
+  delta: -1.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 68.2
+    contract_quality: 65.7
     developer_ergonomics: 53.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 45.3
@@ -194,8 +198,14 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 48.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

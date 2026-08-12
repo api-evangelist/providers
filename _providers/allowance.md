@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 68.9
-  scored_at: '2026-08-10'
+  score: 65.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -60,6 +60,10 @@ asyncapis:
   name: Allowance Webhooks
   slug: allowance-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/allowance-openapi-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -198,7 +202,7 @@ overview: 'Allowance publishes 3 APIs on the [APIs.io](https://apis.io/) network
   The Allowance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Allowance''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 23 more developer resources.'
+  Allowance''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
 random_paper: 22
 scopes:
 - name: Allowance Scopes
@@ -207,13 +211,13 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 55.5
-  delta: 0.0
+  composite: 53.9
+  delta: -1.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 72.6
+    contract_quality: 69.9
     developer_ergonomics: 73.9
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 23.7
   previous_composite: 55.5
@@ -233,8 +237,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/screenshots/allowance-2026-07-25T195707.png
 security:

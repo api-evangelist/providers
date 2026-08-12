@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-10'
+  score: 40.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -40,8 +40,12 @@ apis:
 - description: 'The Afero Over-the-Air (OTA) Update API lets a partner drive firmware releases from their own CI/CD pipeline instead of the OTA Manager web application. It creates and updates partner firmware types, '
   name: Afero Cloud OTA Firmware API
   slug: ota-api
-artifact_total: 8
+artifact_total: 9
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/afero-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -178,6 +182,10 @@ created: '2026-08-02'
 description: 'Afero, Inc. is a Los Altos, California IoT platform company founded in 2014 by Joe Britt and Shin Matsumura. Afero ships an end-to-end connected-product stack: ASR secure radio modules with a hardware root of trust and an embedded Hardware Security Module, the afLib MCU libraries and Secure Linux Device SDK for firmware, a Bluetooth Low Energy and Wi-Fi onboarding path, the Afero Profile Editor low-code device-modeling tool, Java (Android) and Swift (iOS) mobile SDKs with a Softhub, and the Afero Cloud — a RESTful API at api.afero.io that lists accounts and devices, reports real-time device state, executes attribute read and write actions on connected devices, and drives the over-the-air firmware pipeline. Afero has raised $73.2M from investors including Samsung Catalyst Fund and Crosspoint Capital Partners and reports millions of deployed devices across 200+ product categories in consumer, enterprise and industrial markets.'
 image: https://cdn.afero.io/social/afero_logo_114x114.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: afero-mcp.yml
+  slug: afero-mcpyml
 modified: '2026-08-02'
 name: Afero
 nav: Providers
@@ -185,20 +193,20 @@ network: true
 overview: 'Afero publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Cloud Authentication API, Cloud Users API, Cloud Devices API, and 1 more. Tagged areas include Company, Internet of Things, IoT Platform, Connected Devices, and Device Management.
 
 
-  Afero''s developer surface includes authentication, documentation, API reference, getting-started guide, developer console, support, engineering blog, and 26 more developer resources.'
+  Afero''s developer surface includes authentication, documentation, API reference, getting-started guide, developer console, support, engineering blog, and 27 more developer resources.'
 random_paper: 61
 score:
   band: developing
-  composite: 50.5
-  delta: -0.6
+  composite: 49.0
+  delta: -1.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 62.4
-    developer_ergonomics: 66.8
-    discoverability: 92.6
+    contract_quality: 63.8
+    developer_ergonomics: 69.0
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 51.1
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -209,8 +217,14 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 41.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/screenshots/afero-2026-08-07T161019.png
 security:

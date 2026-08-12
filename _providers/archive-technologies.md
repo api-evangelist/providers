@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 31.3
-  scored_at: '2026-08-10'
+  score: 27.7
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Archive''s public GraphQL API for programmatic access to creator and UGC workspace data — creators, social profiles, items (posts/reels/stories/videos), engagement history, content views, collections, '
@@ -174,8 +174,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/screenshots/archive-technologies-2026-07-25T201038.png
 security:

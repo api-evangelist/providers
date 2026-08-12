@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 27
 apis:
 - description: AP bill payment management operations. Bill payments record payments made to carriers and vendors.
@@ -260,13 +261,13 @@ scopes:
   summary_line: 1 scope
 score:
   band: developing
-  composite: 54.8
-  delta: 0.0
+  composite: 53.2
+  delta: -1.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 75.5
+    contract_quality: 72.7
     developer_ergonomics: 56.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
   previous_composite: 54.8
@@ -285,8 +286,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mvmnt/refs/heads/main/screenshots/mvmnt-2026-08-07T184459.png
 security:

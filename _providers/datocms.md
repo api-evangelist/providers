@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -162,10 +162,6 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/datocms-vocabulary.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/datocms-capabilities.yml
 - group: design
   title: ''
   type: Rules
@@ -201,7 +197,7 @@ overview: 'DatoCMS publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
   The DatoCMS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  DatoCMS''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, GitHub presence, support, and 13 more developer resources.'
+  DatoCMS''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, GitHub presence, support, and 12 more developer resources.'
 plans:
 - name: Datocms Plans Pricing
   plan_count: 3
@@ -229,16 +225,16 @@ rules:
     warn: 2
   slug: datocms-rules
 score:
-  band: strong
-  composite: 57.7
-  delta: 0.0
+  band: developing
+  composite: 50.6
+  delta: -7.1
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 65.9
-    developer_ergonomics: 30.4
+    commercial_clarity: 39.5
+    contract_quality: 63.4
+    developer_ergonomics: 37.0
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 57.7
   provenance:
     agentic_access: derived
@@ -247,9 +243,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/screenshots/datocms-2026-06-20T175706.png
 security:
 - kind: authentication

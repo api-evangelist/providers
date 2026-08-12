@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -7429,15 +7429,15 @@ rules:
   slug: amazon-pinpoint-spectral-rules
 score:
   band: strong
-  composite: 64.7
-  delta: 0.0
+  composite: 60.6
+  delta: -4.1
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 68.0
+    commercial_clarity: 68.4
+    contract_quality: 69.2
     developer_ergonomics: 63.0
     discoverability: 68.5
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 64.7
   provenance:
     agentic_access: derived
@@ -7452,8 +7452,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/screenshots/amazon-pinpoint-2026-06-20T171757.png
 security:

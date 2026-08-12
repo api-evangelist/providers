@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Lightstep API provides programmatic access to observability data including traces, spans, streams, dashboards, alerting conditions, and service health. It enables teams to manage their observabili
@@ -127,20 +127,20 @@ rate_limits:
   name: Lightstep Rate Limits
   slug: lightstep-rate-limits
 score:
-  band: thin
-  composite: 33.0
-  delta: 0.0
+  band: emerging
+  composite: 27.8
+  delta: -5.2
   facets:
-    commercial_clarity: 52.6
+    commercial_clarity: 36.8
     contract_quality: 32.3
     developer_ergonomics: 15.2
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 42.1
+    operational_transparency: 26.3
   previous_composite: 33.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightstep/refs/heads/main/screenshots/lightstep-2026-06-20T184527.png
 security:
 - kind: domain-security

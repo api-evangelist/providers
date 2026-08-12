@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 30
 apis:
 - description: RSS 2.0 feeds for People.com, the flagship celebrity-and-human-interest brand of People Inc. People.com is the largest property in the portfolio (~187M monthly visits per 2025 estimates). Section feed
@@ -123,6 +123,10 @@ apis:
   slug: specialty-marketing-solutions-sms-suite
 artifact_total: 44
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/api-evangelist/meredith/issues
 - group: auth
   title: ''
   type: DomainSecurity
@@ -251,7 +255,7 @@ overview: 'Dotdash Meredith / People Inc publishes 30 APIs on the [APIs.io](http
   The Dotdash Meredith / People Inc catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Dotdash Meredith / People Inc''s developer surface includes developer portal, engineering blog, changelog, pricing, and 16 more developer resources.'
+  Dotdash Meredith / People Inc''s developer surface includes developer portal, engineering blog, changelog, pricing, and 17 more developer resources.'
 plans:
 - name: Meredith Plans Pricing
   plan_count: 8
@@ -280,8 +284,8 @@ rules:
   slug: people-inc-rss-rules
 score:
   band: thin
-  composite: 40.8
-  delta: 0.0
+  composite: 40.1
+  delta: -0.7
   facets:
     commercial_clarity: 78.9
     contract_quality: 22.6
@@ -290,8 +294,14 @@ score:
     governance: 58.3
     operational_transparency: 21.1
   previous_composite: 40.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 36.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

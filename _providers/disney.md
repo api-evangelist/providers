@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,6 +52,18 @@ collections:
   name: Disney API
   slug: open-disney
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/ManuCastrillonM/disney-api/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/ManuCastrillonM/disney-api/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/ManuCastrillonM/disney-api/blob/main/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -215,7 +227,7 @@ overview: 'Disney API publishes 2 APIs on the [APIs.io](https://apis.io/) networ
   The Disney API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Disney API''s developer surface includes documentation, signup flow, code examples, and 23 more developer resources.'
+  Disney API''s developer surface includes documentation, signup flow, code examples, and 26 more developer resources.'
 random_paper: 72
 rate_limits:
 - limit_count: 3
@@ -240,11 +252,11 @@ rules:
   slug: disney-rules
 score:
   band: thin
-  composite: 30.1
-  delta: 0.0
+  composite: 32.5
+  delta: 2.4
   facets:
-    commercial_clarity: 0.0
-    contract_quality: 23.1
+    commercial_clarity: 13.2
+    contract_quality: 22.2
     developer_ergonomics: 8.7
     discoverability: 81.5
     governance: 68.8
@@ -257,8 +269,8 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/screenshots/disney-2026-06-20T180046.png
 security:

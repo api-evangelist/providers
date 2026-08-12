@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -90,6 +90,10 @@ collections:
   name: Google Chrome Management API
   slug: open-google-chrome-management-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/ChromeDevTools/devtools-protocol/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -339,7 +343,7 @@ overview: 'Google Chrome publishes 6 APIs on the [APIs.io](https://apis.io/) net
   The Google Chrome catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Chrome''s developer surface includes authentication, engineering blog, YouTube channel, release notes, changelog, documentation, Stack Overflow tag, and 15 more developer resources.'
+  Google Chrome''s developer surface includes authentication, engineering blog, YouTube channel, release notes, changelog, documentation, Stack Overflow tag, and 16 more developer resources.'
 plans:
 - name: Google Chrome Plans Pricing
   plan_count: 4
@@ -364,16 +368,16 @@ scopes:
   slug: google-chrome-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: strong
-  composite: 56.8
-  delta: 0.0
+  band: developing
+  composite: 48.3
+  delta: -8.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 73.1
+    commercial_clarity: 36.8
+    contract_quality: 70.4
     developer_ergonomics: 30.4
     discoverability: 44.4
     governance: 58.3
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 56.8
   provenance:
     agentic_access: derived
@@ -382,9 +386,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/screenshots/google-chrome-2026-06-20T182034.png
 security:
 - kind: authentication

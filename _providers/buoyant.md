@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Linkerd is a CNCF-graduated service mesh for Kubernetes that transparently adds mutual TLS encryption, latency-aware load balancing, retries, timeouts, circuit breaking, and observability to any Kuber
@@ -39,6 +39,30 @@ apis:
   slug: buoyant-enterprise-linkerd
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/linkerd/linkerd2/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/linkerd/linkerd2/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/linkerd/linkerd2/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/linkerd/linkerd2/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/linkerd/linkerd2/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/linkerd/linkerd2/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -90,7 +114,7 @@ network: true
 overview: 'Buoyant publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Observability, Kubernetes, Linkerd, mTLS, and Observability.
 
 
-  Buoyant''s developer surface includes developer portal, documentation, engineering blog, pricing, and 5 more developer resources.'
+  Buoyant''s developer surface includes developer portal, documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Buoyant Plans Pricing
   plan_count: 3
@@ -102,18 +126,18 @@ rate_limits:
   slug: buoyant-rate-limits
 score:
   band: emerging
-  composite: 25.5
-  delta: 0.0
+  composite: 21.1
+  delta: -4.4
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 23.9
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 25.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buoyant/refs/heads/main/screenshots/buoyant-2026-06-20T173802.png
 security:

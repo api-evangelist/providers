@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 210
   human_in_the_loop: 9
@@ -289,15 +289,15 @@ rules:
   slug: unleash-rules
 score:
   band: developing
-  composite: 51.3
-  delta: 0.0
+  composite: 46.2
+  delta: -5.1
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 66.6
+    commercial_clarity: 23.7
+    contract_quality: 64.1
     developer_ergonomics: 28.3
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 68.8
-    operational_transparency: 42.1
+    operational_transparency: 26.3
   previous_composite: 51.3
   provenance:
     agentic_access: derived
@@ -306,9 +306,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 36
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/unleash/refs/heads/main/screenshots/unleash-2026-06-20T200436.png
 security:
 - kind: authentication

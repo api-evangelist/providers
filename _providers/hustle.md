@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-10'
+  score: 38.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -65,12 +65,24 @@ apis:
 - description: The Webhooks API from Hustle — 3 operation(s) for webhooks.
   name: Hustle Webhooks API
   slug: hustle-webhooks-api
-artifact_total: 15
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Hustle Webhooks
   slug: hustle-webhooks
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/hustle-register-webhook.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/hustle-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/hustle-public-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -139,6 +151,10 @@ created: '2026-07-17'
 description: Hustle is an employee-owned text, video, and voice communications platform that lets organizations engage audiences at scale from a single interface. It combines broadcast texting, peer-to-peer 1:1 conversational texting, video messaging (Hustle Clips, Personalized Clips, and Hustle Stories), and an outbound dialer, and is used by nonprofits, educational institutions, commercial businesses, political campaigns, government agencies, and labor unions to reach people over the channels they already use. The Hustle Public API (v3) exposes a RESTful, OAuth2 client-credentials interface for managing agents, groups, leads, custom fields, tags, organizations, CRM integrations, and webhook registrations. Hustle was added to the API Evangelist network as a portfolio company of GV and Insight Partners and enriched from its public developer surface.
 image: https://hustle.com/wp-content/uploads/2026/05/cropped-ko-Hustle-10-logo-1200px-wide-1.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: hustle-mcp.yml
+  slug: hustle-mcpyml
 modified: '2026-07-19'
 name: Hustle
 nav: Providers
@@ -149,7 +165,7 @@ overview: 'Hustle publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
   The Hustle catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Hustle''s developer surface includes documentation, API reference, signup flow, pricing, and 12 more developer resources.'
+  Hustle''s developer surface includes documentation, API reference, signup flow, pricing, and 15 more developer resources.'
 random_paper: 81
 scopes:
 - name: Hustle Scopes
@@ -158,13 +174,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.9
-  delta: 0.0
+  composite: 45.1
+  delta: -0.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 58.7
-    developer_ergonomics: 28.3
-    discoverability: 92.6
+    contract_quality: 56.6
+    developer_ergonomics: 32.1
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
   previous_composite: 45.9
@@ -184,8 +200,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/screenshots/hustle-2026-07-25T221742.png
 security:

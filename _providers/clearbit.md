@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: 'Person and Company enrichment given an email or domain. Returns firmographic, technographic, and persona data. Endpoints: /person, /company, /combined.'
@@ -119,19 +119,19 @@ rate_limits:
   slug: clearbit-rate-limits
 score:
   band: thin
-  composite: 35.9
-  delta: 0.0
+  composite: 28.1
+  delta: -7.8
   facets:
-    commercial_clarity: 47.4
+    commercial_clarity: 23.7
     contract_quality: 48.1
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 35.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearbit/refs/heads/main/screenshots/clearbit-2026-06-20T174455.png
 security:
 - kind: domain-security

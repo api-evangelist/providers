@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -157,6 +157,10 @@ collections:
   name: Svix API
   slug: open-svix
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/svix/svix-webhooks/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -409,10 +413,6 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/svix
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/
 - group: design
   title: ''
   type: Rules
@@ -539,13 +539,13 @@ rules:
   slug: svix-rules
 score:
   band: exemplar
-  composite: 74.6
-  delta: 0.0
+  composite: 75.7
+  delta: 1.1
   facets:
     commercial_clarity: 100.0
-    contract_quality: 68.1
+    contract_quality: 65.6
     developer_ergonomics: 84.8
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 68.8
     operational_transparency: 78.9
   previous_composite: 74.6
@@ -559,11 +559,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 50.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Payments
+    regime_id: payments
+    score: 56.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/screenshots/svix-2026-06-20T194748.png
 security:

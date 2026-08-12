@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 22.1
-  scored_at: '2026-08-10'
+  score: 22.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -62,8 +62,20 @@ apis:
 - description: Valida los status de vigencia y pago de un documento fiscal
   name: Contalink Status de documentos fiscales API
   slug: contalink-status-de-documentos-fiscales-api
-artifact_total: 11
+artifact_total: 12
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/contalink-post-manual-policy.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/contalink-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/contalink-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -140,6 +152,10 @@ created: '2026-07-17'
 description: 'Contalink is a Mexican cloud accounting and payroll platform ("contabilidad en la nube") built for independent accountants, accounting firms (despachos) and SMEs. It automates repetitive Mexican fiscal work — bulk CFDI download and classification, electronic accounting, DIOT preparation, treasury and bank reconciliation, invoicing (facturación) and payroll (nómina) with digital stamping — across multiple companies and users. Contalink also exposes a REST API that lets external systems read and post accounting data: trial balance (balanza de comprobación), account balances, manual accounting policies (pólizas manuales), invoice reconciliation (conciliación), bank transactions (movimientos bancarios) and CFDI fiscal-document listing, upload and status checks. The API authenticates with a per-company API key sent in the Authorization header. Backed by 500 Global.'
 image: https://www.contalink.com/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: contalink-mcp.yml
+  slug: contalink-mcpyml
 modified: '2026-07-18'
 name: Contalink
 nav: Providers
@@ -147,17 +163,17 @@ network: true
 overview: 'Contalink publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Balanza de comprobación API, Cargar un documento fiscal API, Conciliación API, and 5 more. Tagged areas include Company, Accounting, Bookkeeping, Payroll, and Tax.
 
 
-  Contalink''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
+  Contalink''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 14 more developer resources.'
 random_paper: 35
 score:
-  band: developing
-  composite: 42.1
-  delta: 0.0
+  band: thin
+  composite: 41.2
+  delta: -0.9
   facets:
     commercial_clarity: 34.2
-    contract_quality: 54.3
-    developer_ergonomics: 41.3
-    discoverability: 92.6
+    contract_quality: 52.2
+    developer_ergonomics: 45.1
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 42.1
@@ -171,8 +187,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/screenshots/contalink-2026-07-25T210322.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The primary developer interface - the @raycast/api npm package. A strongly typed TypeScript/Node SDK (installed via `npm i @raycast/api`) providing React UI components (List, Detail, Form, Grid, Actio
@@ -109,18 +109,18 @@ rate_limits:
   slug: raycast-rate-limits
 score:
   band: thin
-  composite: 30.2
-  delta: -0.1
+  composite: 29.9
+  delta: -0.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 31.8
+    contract_quality: 30.6
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 30.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 30.2
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/raycast/refs/heads/main/screenshots/raycast-2026-06-20T192715.png
 security:

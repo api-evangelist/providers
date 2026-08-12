@@ -14,7 +14,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.2
-  scored_at: '2026-08-10'
+  score: 14.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -151,18 +151,25 @@ rate_limits:
   slug: shufti-pro-rate-limits
 score:
   band: thin
-  composite: 33.0
-  delta: 2.1
+  composite: 35.0
+  delta: 2.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 17.7
+    contract_quality: 25.8
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 30.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 33.0
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shufti-pro/refs/heads/main/screenshots/shufti-pro-2026-06-20T193953.png
 security:

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -92,6 +93,10 @@ asyncapis:
   name: Kard Notifications Webhooks
   slug: kard-notifications-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kard-api-reference-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -246,7 +251,7 @@ overview: 'Kard publishes 16 APIs on the [APIs.io](https://apis.io/) network, in
   The Kard catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kard''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, engineering blog, support, and 27 more developer resources.'
+  Kard''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, engineering blog, support, and 28 more developer resources.'
 random_paper: 70
 scopes:
 - name: Kard Scopes
@@ -255,11 +260,11 @@ scopes:
   summary_line: 13 scopes · clientCredentials
 score:
   band: developing
-  composite: 53.5
-  delta: 0.0
+  composite: 53.6
+  delta: 0.1
   facets:
     commercial_clarity: 23.7
-    contract_quality: 69.0
+    contract_quality: 66.4
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 11.5
@@ -275,8 +280,14 @@ score:
       total: 16
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 57.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/screenshots/kard-2026-07-25T223510.png
 security:

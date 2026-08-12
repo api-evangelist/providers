@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -391,15 +391,15 @@ rules:
   slug: crystal-reports-spectral-rules
 score:
   band: thin
-  composite: 37.4
-  delta: 0.0
+  composite: 31.9
+  delta: -5.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 23.7
+    commercial_clarity: 34.2
+    contract_quality: 22.8
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 21.1
+    operational_transparency: 5.3
   previous_composite: 37.4
   provenance:
     agentic_access: derived
@@ -408,9 +408,9 @@ score:
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/screenshots/crystal-reports-2026-06-20T175319.png
 security:
 - kind: authentication

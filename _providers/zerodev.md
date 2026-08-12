@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,6 +47,10 @@ collections:
   name: ZeroDev Bundler & Paymaster RPC
   slug: open-zerodev
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/zerodevapp/sdk/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -98,7 +102,7 @@ network: true
 overview: 'ZeroDev publishes 1 API on the [APIs.io](https://apis.io/) network: JSON-RPC API. Tagged areas include Account Abstraction, Smart Wallets, ERC-4337, EIP-7702, and Paymaster.
 
 
-  ZeroDev''s developer surface includes documentation and 8 more developer resources.'
+  ZeroDev''s developer surface includes documentation and 9 more developer resources.'
 plans:
 - name: Zerodev Plans Pricing
   plan_count: 4
@@ -110,11 +114,11 @@ rate_limits:
   slug: zerodev-rate-limits
 score:
   band: thin
-  composite: 35.8
-  delta: 0.0
+  composite: 31.4
+  delta: -4.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 58.1
+    contract_quality: 56.0
     developer_ergonomics: 8.7
     discoverability: 68.5
     governance: 0.0
@@ -127,8 +131,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 9.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zerodev/refs/heads/main/screenshots/zerodev-2026-06-20T201834.png
 security:

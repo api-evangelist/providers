@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -206,11 +206,11 @@ rules:
   slug: phemex-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.6
-  delta: 0.0
+  composite: 44.0
+  delta: -0.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 64.3
+    contract_quality: 61.9
     developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 68.8
@@ -229,8 +229,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/screenshots/phemex-2026-06-20T191642.png
 security:

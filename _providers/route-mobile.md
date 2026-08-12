@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -18,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 3
@@ -223,14 +224,14 @@ rate_limits:
   name: Route Mobile Rate Limits
   slug: route-mobile-rate-limits
 score:
-  band: strong
-  composite: 56.6
-  delta: 0.0
+  band: developing
+  composite: 52.8
+  delta: -3.8
   facets:
     commercial_clarity: 42.1
-    contract_quality: 74.2
+    contract_quality: 71.4
     developer_ergonomics: 60.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 44.7
   previous_composite: 56.6
@@ -249,9 +250,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 56.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 41.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

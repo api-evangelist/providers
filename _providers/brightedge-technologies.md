@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-08-10'
+  score: 41.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 2
@@ -172,6 +172,10 @@ apis:
   slug: brightedge-technologies-webhook-api
 artifact_total: 48
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/brightedge-technologies-platform-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -267,17 +271,17 @@ network: true
 overview: 'BrightEdge Technologies publishes 44 APIs on the [APIs.io](https://apis.io/) network, including accounts API, ai_catalyst API, autopilot API, and 41 more. Tagged areas include SEO, Content Marketing, Search, Marketing, and Analytics.
 
 
-  BrightEdge Technologies'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 15 more developer resources.'
+  BrightEdge Technologies'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 16 more developer resources.'
 random_paper: 54
 score:
   band: thin
-  composite: 37.5
-  delta: 0.0
+  composite: 35.9
+  delta: -1.6
   facets:
     commercial_clarity: 21.1
-    contract_quality: 51.6
+    contract_quality: 49.7
     developer_ergonomics: 45.1
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 37.5
@@ -291,8 +295,8 @@ score:
       total: 44
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/screenshots/brightedge-technologies-2026-07-25T203841.png
 security:

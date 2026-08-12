@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.1
-  scored_at: '2026-08-10'
+  score: 35.8
+  scored_at: '2026-08-11'
 api_count: 17
 apis:
 - description: The ABC Accounts API from PolySign — 3 operation(s) for abc accounts.
@@ -72,8 +72,16 @@ apis:
 - description: The utility API from PolySign — 5 operation(s) for utility.
   name: PolySign Utility API
   slug: polysign-utility-api
-artifact_total: 20
+artifact_total: 21
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/polysign-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/polysign-abc-proxy-service-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -162,6 +170,10 @@ created: '2026-08-02'
 description: PolySign, Inc. is an Oakland / San Francisco / New York financial technology company building blockchain-enabled infrastructure for institutional digital asset capital markets and payments. Founded by Arthur Britto, David Schwartz and Jack McDonald, PolySign operates a third-generation permissioned blockchain and the AtomicNet settlement network, and was the parent of Standard Custody & Trust Company, the NYDFS-regulated digital asset custody, trading and settlement platform acquired by Ripple in 2024. PolySign publishes three OpenAPI 3.0.3 contracts for AtomicNet — the AtomicNet API Server (node interface for assets, orders, escrow and beneficiary authorizations, settlements, settlement confirmations, book transfers, partners and investors), the AtomicNet Merchant Gate Node, and the AtomicNet ABC Proxy Service (account registration, digest memorialization, signing and testnet faucet) — all authenticated with OAuth 2.0 client credentials issued by a PolySign-hosted token endpoint.
 image: https://www.polysign.io/images/logo.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: polysign-mcp.yml
+  slug: polysign-mcpyml
 modified: '2026-08-02'
 name: PolySign
 nav: Providers
@@ -169,7 +181,7 @@ network: true
 overview: 'PolySign publishes 17 APIs on the [APIs.io](https://apis.io/) network, including ABC Accounts API, ABC Memorials API, ABC Signing API, and 14 more. Tagged areas include digital-assets, blockchain, institutional-custody, settlement, and escrow.
 
 
-  PolySign''s developer surface includes documentation, API reference, support, authentication, sandbox, and 16 more developer resources.'
+  PolySign''s developer surface includes documentation, API reference, support, authentication, sandbox, and 18 more developer resources.'
 random_paper: 73
 scopes:
 - name: Polysign Scopes
@@ -178,18 +190,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 30.6
-  delta: -0.4
+  composite: 30.5
+  delta: -0.1
   facets:
     commercial_clarity: 0.0
-    contract_quality: 41.9
-    developer_ergonomics: 38.6
-    discoverability: 83.3
+    contract_quality: 44.1
+    developer_ergonomics: 40.8
+    discoverability: 72.2
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 31.0
+  previous_composite: 30.6
   provenance:
     conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
     mcp: derived
     skills: derived
   regulatory:
@@ -198,8 +215,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-08-10'
+  score: 46.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -160,6 +161,10 @@ apis:
   slug: alasco-utility-meters-api
 artifact_total: 46
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/alasco-capex-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -299,15 +304,15 @@ network: true
 overview: 'Alasco publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Annual Consumption API, Asset API, Audit Log API, and 37 more. Tagged areas include Company, Ai Enterprise Software, Real Estate, Construction, and PropTech.
 
 
-  Alasco''s developer surface includes documentation, getting-started guide, API reference, changelog, authentication, engineering blog, pricing, and 24 more developer resources.'
+  Alasco''s developer surface includes documentation, getting-started guide, API reference, changelog, authentication, engineering blog, pricing, and 25 more developer resources.'
 random_paper: 47
 score:
   band: developing
-  composite: 52.9
-  delta: 0.0
+  composite: 52.4
+  delta: -0.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 57.1
+    contract_quality: 55.0
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
@@ -323,8 +328,8 @@ score:
       total: 40
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/screenshots/alasco-2026-07-25T195534.png
 security:

@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -12,13 +12,13 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-10'
+  score: 36.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 3
@@ -215,6 +215,30 @@ collections:
   name: Azure Databricks REST API
   slug: open-azure-databricks
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Azure/azure-databricks-client/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Azure/azure-databricks-client/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Azure/azure-databricks-client/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/Azure/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Azure/azure-databricks-client/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Azure/azure-databricks-client/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -386,7 +410,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/azure-databricks-openapi.yml
+  url: openapi/_original/azure-databricks-openapi.yml
 - group: docs
   title: ''
   type: JSONSchema
@@ -828,7 +852,7 @@ overview: 'Azure Databricks publishes 4 APIs on the [APIs.io](https://apis.io/) 
   The Azure Databricks catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Azure Databricks'' developer surface includes authentication, getting-started guide, pricing, CLI, API reference, release notes, changelog, and 42 more developer resources.'
+  Azure Databricks'' developer surface includes authentication, getting-started guide, pricing, CLI, API reference, release notes, changelog, and 48 more developer resources.'
 plans:
 - name: Azure Databricks Plans Pricing
   plan_count: 4
@@ -879,16 +903,16 @@ scopes:
   slug: microsoft-azure-databricks-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: strong
-  composite: 56.5
-  delta: 0.0
+  band: developing
+  composite: 52.6
+  delta: -3.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 58.1
+    commercial_clarity: 26.3
+    contract_quality: 70.9
     developer_ergonomics: 60.9
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 31.3
-    operational_transparency: 73.7
+    operational_transparency: 50.0
   previous_composite: 56.5
   provenance:
     agentic_access: derived
@@ -897,8 +921,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/screenshots/microsoft-azure-databricks-2026-06-20T185410.png
 security:

@@ -15,7 +15,7 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-10'
+  score: 28.4
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'REST API for managing bills, vendors, payment methods, and scheduling payments. Supports ACH transfers, check payments, wire transfers, and international payments. Includes webhook support, a sandbox '
@@ -36,6 +36,10 @@ apis:
   slug: melio-payments-api
 artifact_total: 7
 common:
+- group: other
+  title: ''
+  type: OpenIDConnect
+  url: https://meliopayments.com/.well-known/oauth-authorization-server
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -123,7 +127,7 @@ overview: 'Melio publishes 1 API on the [APIs.io](https://apis.io/) network: Pay
   The Melio catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Melio''s developer surface includes documentation, engineering blog, pricing, and 13 more developer resources.'
+  Melio''s developer surface includes documentation, engineering blog, pricing, and 14 more developer resources.'
 plans:
 - name: Melio Plans Pricing
   plan_count: 5
@@ -135,18 +139,24 @@ rate_limits:
   slug: melio-rate-limits
 score:
   band: thin
-  composite: 38.2
-  delta: 0.0
+  composite: 40.3
+  delta: 2.1
   facets:
     commercial_clarity: 71.1
     contract_quality: 45.2
     developer_ergonomics: 15.2
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 38.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 48.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/melio/refs/heads/main/screenshots/melio-2026-06-20T185133.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: 'A conceptual, API-Evangelist-derived domain model of Ally Financial''s consumer platform spanning deposit accounts (checking, savings, money market, CDs, IRAs), lending (auto, personal, mortgage, home '
@@ -38,6 +38,14 @@ apis:
   slug: ally-invest-api-legacy-retired
 artifact_total: 14
 common:
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.ally.com/help/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.ally.com/privacy/
 - group: company
   title: ''
   type: Website
@@ -82,7 +90,10 @@ modified: '2026-07-23'
 name: Ally Financial
 nav: Providers
 network: true
-overview: Ally Financial publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Auto Finance, Investing, Lending, and Open Finance.
+overview: 'Ally Financial publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Auto Finance, Investing, Lending, and Open Finance.
+
+
+  Ally Financial''s developer surface includes support and 5 more developer resources.'
 press:
 - date: '2026-05-25'
   title: Ally Financial rolls out proprietary AI platform enterprise-wide
@@ -102,12 +113,12 @@ press:
 random_paper: 20
 score:
   band: emerging
-  composite: 17.0
-  delta: 0.0
+  composite: 20.3
+  delta: 3.3
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 10.5
     contract_quality: 48.1
-    developer_ergonomics: 0.0
+    developer_ergonomics: 4.3
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 5.3
@@ -117,9 +128,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 7.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 12.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ally-financial/refs/heads/main/screenshots/ally-financial-2026-06-20T171548.png
 security:

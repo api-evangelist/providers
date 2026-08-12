@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -18,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,6 +46,10 @@ apis:
   slug: artlist-song-api
 artifact_total: 10
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/artlist-download-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -188,7 +193,7 @@ network: true
 overview: 'Artlist publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Album API, Artist API, Downloadable API, and 1 more. Tagged areas include Company, Music, Audio, Media, and Stock Media.
 
 
-  Artlist''s developer surface includes documentation, API reference, developer console, getting-started guide, support, engineering blog, pricing, and 25 more developer resources.'
+  Artlist''s developer surface includes documentation, API reference, developer console, getting-started guide, support, engineering blog, pricing, and 26 more developer resources.'
 random_paper: 75
 rate_limits:
 - limit_count: 3
@@ -196,16 +201,16 @@ rate_limits:
   slug: artlist-rate-limits
 score:
   band: developing
-  composite: 52.1
-  delta: -1.0
+  composite: 52.6
+  delta: 0.5
   facets:
     commercial_clarity: 52.6
-    contract_quality: 45.0
+    contract_quality: 47.0
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 53.1
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -213,11 +218,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/screenshots/artlist-2026-08-07T161743.png
 security:

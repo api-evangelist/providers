@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Beacon PRO+ API provides roofing contractors and integration partners with programmatic access to Beacon's product catalog, real-time inventory and pricing, order management, delivery tracking, ac
@@ -125,19 +125,19 @@ rate_limits:
   slug: beacon-roofing-supply-rate-limits
 score:
   band: emerging
-  composite: 26.9
-  delta: 0.0
+  composite: 21.7
+  delta: -5.2
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 13.2
     contract_quality: 32.3
     developer_ergonomics: 21.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 5.3
   previous_composite: 26.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/screenshots/beacon-roofing-supply-2026-06-20T173105.png
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API (OpenAPI 3.0.1, "Governor External API" v1.0.0) for the self-hosted Synthesized Governor. Trigger TDK masking/generation workflows, list workers, and check health. Authenticated with an X-Acc
@@ -156,8 +156,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

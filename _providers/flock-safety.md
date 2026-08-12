@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -74,6 +74,10 @@ asyncapis:
   name: Flock Safety LPR Hotlist Alerts Webhook
   slug: flock-safety-lpr-alerts-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/flock-safety-api-platform-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -228,7 +232,7 @@ overview: 'Flock Safety publishes 10 APIs on the [APIs.io](https://apis.io/) net
   The Flock Safety catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Flock Safety''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 27 more developer resources.'
+  Flock Safety''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 28 more developer resources.'
 random_paper: 64
 rate_limits:
 - limit_count: 0
@@ -241,13 +245,13 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: developing
-  composite: 54.8
-  delta: 0.0
+  composite: 53.0
+  delta: -1.8
   facets:
     commercial_clarity: 47.4
-    contract_quality: 66.5
+    contract_quality: 64.0
     developer_ergonomics: 56.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 52.6
   previous_composite: 54.8
@@ -261,8 +265,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/screenshots/flock-safety-2026-07-25T214812.png
 security:

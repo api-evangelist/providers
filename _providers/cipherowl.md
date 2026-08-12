@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-08-10'
+  score: 42.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -56,6 +56,10 @@ arazzos:
   slug: cipherowl-srr-investigation
 artifact_total: 11
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cipherowl-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -191,15 +195,15 @@ network: true
 overview: 'CipherOwl publishes 3 APIs on the [APIs.io](https://apis.io/) network: Onchain Service API, Private Data API API, and SRR API API. Tagged areas include Blockchain, Compliance, Crypto, Security, and Risk.
 
 
-  CipherOwl''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
+  CipherOwl''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
 random_paper: 45
 score:
   band: strong
-  composite: 58.8
-  delta: 0.0
+  composite: 58.3
+  delta: -0.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 55.8
+    contract_quality: 53.7
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 20.8
@@ -215,8 +219,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/screenshots/cipherowl-2026-07-25T205400.png
 security:

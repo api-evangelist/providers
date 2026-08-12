@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -167,11 +167,11 @@ rules:
   slug: kimi-moonshot-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 43.1
-  delta: 0.0
+  composite: 42.5
+  delta: -0.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 68.7
+    contract_quality: 66.2
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 41.7
@@ -184,8 +184,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kimi-moonshot/refs/heads/main/screenshots/kimi-moonshot-2026-06-20T184035.png
 security:

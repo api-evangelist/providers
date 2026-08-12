@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -194,11 +194,11 @@ rules:
   slug: bitstamp-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.4
-  delta: 0.0
+  composite: 49.9
+  delta: -0.5
   facets:
     commercial_clarity: 63.2
-    contract_quality: 60.5
+    contract_quality: 58.2
     developer_ergonomics: 17.4
     discoverability: 68.5
     governance: 58.3
@@ -217,8 +217,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 53.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitstamp/refs/heads/main/screenshots/bitstamp-2026-06-20T173325.png
 security:

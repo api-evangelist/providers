@@ -1,24 +1,25 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: true
+    agent_skills: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-10'
+  score: 58.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -49,12 +50,24 @@ apis:
 - description: The Webhooks API from Zillapi — 3 operation(s) for webhooks.
   name: Zillapi Webhooks API
   slug: zillapi-webhooks-api
-artifact_total: 15
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Zillapi Webhooks
   slug: zillapi-webhooks
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/zillapi-get-zestimate.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/zillapi-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zillapi-openapi-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -171,6 +184,10 @@ created: '2026-07-13'
 description: Independent third-party provider of Zillow-sourced U.S. residential property data via a REST API, hosted MCP server, and agent skills. Returns ~300+ fields per property including price, Zestimate, rent Zestimate, photos, schools, taxes, and full price history, plus listing search, building extraction, async batch jobs, and signed webhooks.
 image: https://zillapi.com/og.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: zillapi-mcp.yml
+  slug: zillapi-mcpyml
 modified: '2026-08-09'
 name: Zillapi
 nav: Providers
@@ -181,7 +198,7 @@ overview: 'Zillapi publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
   The Zillapi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Zillapi''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 21 more developer resources.'
+  Zillapi''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 24 more developer resources.'
 plans:
 - name: Zillapi Plans
   plan_count: 4
@@ -198,16 +215,29 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 60.6
+  composite: 65.0
+  delta: 4.4
   facets:
     commercial_clarity: 76.3
-    contract_quality: 64.0
-    developer_ergonomics: 52.2
+    contract_quality: 69.1
+    developer_ergonomics: 67.4
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 55.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 60.6
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Zillapi Authentication

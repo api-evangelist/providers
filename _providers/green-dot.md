@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 17
 apis:
 - description: The Enrollments API is typically the first API used in a partner integration and establishes the initial banking relationship for a new end user. It covers account creation, identity capture, KYC (Kno
@@ -89,6 +89,14 @@ asyncapis:
   name: Green Dot Webhooks
   slug: green-dot-webhooks
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/green-dot-disburse-funds.md
+- group: start
+  title: ''
+  type: Login
+  url: https://secure.greendot.com/greendot/login
 - group: auth
   title: ''
   type: DomainSecurity
@@ -175,7 +183,7 @@ common:
   url: lifecycle/green-dot-lifecycle.yml
 - group: operate
   title: ''
-  type: Deprecation
+  type: DeprecationPolicy
   url: https://developer.greendot.com/embedded-finance/docs/release-notes
 - group: design
   title: ''
@@ -191,7 +199,7 @@ common:
   url: data-model/green-dot-data-model.yml
 - group: agent
   title: ''
-  type: AgentSkill
+  type: AgentSkills
   url: skills/_index.yml
 - group: operate
   title: ''
@@ -215,7 +223,7 @@ overview: 'Green Dot Corporation publishes 17 APIs on the [APIs.io](https://apis
   The Green Dot Corporation catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Green Dot Corporation''s developer surface includes documentation, API reference, authentication, engineering blog, changelog, sandbox, and 21 more developer resources.'
+  Green Dot Corporation''s developer surface includes documentation, API reference, authentication, engineering blog, changelog, sandbox, and 23 more developer resources.'
 plans:
 - name: Green Dot Plans Pricing
   plan_count: 1
@@ -232,15 +240,15 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 48.9
-  delta: 0.0
+  composite: 47.0
+  delta: -1.9
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 47.4
     contract_quality: 51.6
     developer_ergonomics: 45.1
     discoverability: 72.2
     governance: 12.5
-    operational_transparency: 57.9
+    operational_transparency: 42.1
   previous_composite: 48.9
   provenance:
     conformance: first-party
@@ -248,11 +256,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 53.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Payments
+    regime_id: payments
+    score: 54.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/green-dot/refs/heads/main/screenshots/green-dot-2026-06-20T182350.png
 security:

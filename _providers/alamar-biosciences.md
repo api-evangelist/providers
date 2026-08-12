@@ -15,13 +15,25 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-10'
+  score: 3.6
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Alamar-Biosciences/NULISAseqR/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Alamar-Biosciences/NULISAseqR/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Alamar-Biosciences/NULISAseqR/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -69,7 +81,7 @@ network: true
 overview: 'Alamar Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Proteomics, Life Sciences, Biotechnology, and Biomarkers.
 
 
-  Alamar Biosciences'' developer surface includes documentation, changelog, and 7 more developer resources.'
+  Alamar Biosciences'' developer surface includes documentation, changelog, and 10 more developer resources.'
 random_paper: 86
 score:
   band: minimal
@@ -89,8 +101,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alamar-biosciences/refs/heads/main/screenshots/alamar-biosciences-2026-08-07T161140.png
 security:

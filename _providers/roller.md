@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-10'
+  score: 37.8
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: General-purpose real-time REST API for the ROLLER platform. Retrieve products, sessions and availability, and create and manage real-time bookings to power external checkout and booking journeys. Auth
@@ -177,13 +177,13 @@ rate_limits:
   slug: roller-rate-limits
 score:
   band: developing
-  composite: 55.7
-  delta: 0.0
+  composite: 52.9
+  delta: -2.8
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
     developer_ergonomics: 56.5
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 65.8
   previous_composite: 55.7
@@ -194,9 +194,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 59.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 46.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

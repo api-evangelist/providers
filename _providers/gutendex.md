@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,6 +47,14 @@ collections:
   name: Gutendex API
   slug: open-gutendex-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/garethbjohnson/gutendex/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/garethbjohnson/gutendex/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -219,7 +227,7 @@ overview: 'Gutendex publishes 1 API on the [APIs.io](https://apis.io/) network: 
   The Gutendex catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Gutendex''s developer surface includes documentation, pricing, authentication, getting-started guide, tooling, and 14 more developer resources.'
+  Gutendex''s developer surface includes documentation, pricing, authentication, getting-started guide, tooling, and 16 more developer resources.'
 plans:
 - name: Gutendex Plans Pricing
   plan_count: 2
@@ -248,11 +256,11 @@ rules:
   slug: gutendex-rules
 score:
   band: developing
-  composite: 50.8
-  delta: 0.0
+  composite: 50.1
+  delta: -0.7
   facets:
     commercial_clarity: 31.6
-    contract_quality: 76.7
+    contract_quality: 73.9
     developer_ergonomics: 30.4
     discoverability: 68.5
     governance: 68.8
@@ -265,8 +273,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gutendex/refs/heads/main/screenshots/gutendex-2026-06-20T182442.png
 security:

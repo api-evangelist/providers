@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-08-10'
+  score: 47.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -113,6 +114,10 @@ asyncapis:
   name: Nestcoin Webhooks
   slug: nestcoin-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nestcoin-external-gateway-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -223,17 +228,17 @@ overview: 'Nestcoin publishes 23 APIs on the [APIs.io](https://apis.io/) network
   The Nestcoin catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Nestcoin''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, signup flow, authentication, and 16 more developer resources.'
+  Nestcoin''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, signup flow, authentication, and 17 more developer resources.'
 random_paper: 55
 score:
   band: developing
-  composite: 46.9
-  delta: 0.0
+  composite: 45.4
+  delta: -1.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 69.6
+    contract_quality: 67.0
     developer_ergonomics: 58.2
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
   previous_composite: 46.9
@@ -253,8 +258,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/screenshots/nestcoin-2026-08-07T184916.png
 security:

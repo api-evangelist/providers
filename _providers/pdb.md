@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -156,11 +156,11 @@ rate_limits:
   slug: pdb-rate-limits
 score:
   band: thin
-  composite: 31.6
-  delta: 0.0
+  composite: 31.3
+  delta: -0.3
   facets:
     commercial_clarity: 28.9
-    contract_quality: 47.6
+    contract_quality: 46.1
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
@@ -179,8 +179,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pdb/refs/heads/main/screenshots/pdb-2026-06-20T191514.png
 security:

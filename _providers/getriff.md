@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,24 +66,18 @@ overview: 'getriff is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 47
 score:
   band: minimal
-  composite: 12.1
-  delta: 0.0
+  composite: 9.7
+  delta: -2.4
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 61.1
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 12.1
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 19.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getriff/refs/heads/main/screenshots/getriff-2026-07-25T215737.png
 security:

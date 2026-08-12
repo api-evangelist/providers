@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Map an IP to a country
@@ -69,8 +69,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ip-2-country/refs/heads/main/screenshots/ip-2-country-2026-06-20T183535.png
 security:

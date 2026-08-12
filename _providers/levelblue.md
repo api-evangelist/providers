@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +22,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-10'
+  score: 47.1
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: The OTX DirectConnect API provides programmatic access to the LevelBlue Open Threat Exchange, an open community threat-intelligence platform. It exposes indicators (IPs, domains, hostnames, file hashe
@@ -43,12 +44,20 @@ apis:
 - description: Endpoint for OAuth 2.0 functionality.
   name: LevelBlue OAuth API
   slug: levelblue-oauth-api
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Levelblue Usm Anywhere Webhooks
   slug: levelblue-usm-anywhere-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/levelblue-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/levelblue-usm-anywhere-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -173,6 +182,10 @@ created: '2026-07-17'
 description: LevelBlue is a pure-play managed security service provider (MSSP), formed from AT&T Cybersecurity and the AlienVault platform it acquired, delivering managed detection and response, managed cloud and network security, incident readiness and response, cyber advisory, exposure management and email security, backed by SpiderLabs threat intelligence. Its developer surface is the USM Anywhere v2.0 REST API — a per-tenant, OAuth 2.0 client-credentials API over alarms and normalized security events, with HAL pagination and a webhook connector for pushing third-party events into the platform — alongside the LevelBlue Open Threat Exchange (OTX) DirectConnect API for community threat intelligence.
 image: https://www.levelblue.com/hubfs/lb-web/social/metadata.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: levelblue-mcp.yml
+  slug: levelblue-mcpyml
 modified: '2026-07-19'
 name: LevelBlue
 nav: Providers
@@ -183,7 +196,7 @@ overview: 'LevelBlue publishes 3 APIs on the [APIs.io](https://apis.io/) network
   The LevelBlue catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  LevelBlue''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 23 more developer resources.'
+  LevelBlue''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 25 more developer resources.'
 random_paper: 32
 scopes:
 - name: Levelblue Scopes
@@ -192,13 +205,13 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 53.6
-  delta: 0.0
+  composite: 52.2
+  delta: -1.4
   facets:
     commercial_clarity: 31.6
-    contract_quality: 69.4
-    developer_ergonomics: 60.3
-    discoverability: 92.6
+    contract_quality: 66.8
+    developer_ergonomics: 62.5
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 55.3
   previous_composite: 53.6
@@ -211,8 +224,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/levelblue/refs/heads/main/screenshots/levelblue-2026-07-25T224945.png
 security:

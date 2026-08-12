@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: The OTLP gRPC API defines Protocol Buffers service definitions for exporting traces, metrics, and logs over gRPC. It is the primary transport for OpenTelemetry data between SDK instrumentation, the Op
@@ -55,6 +55,10 @@ asyncapis:
   name: OpenTelemetry Protocol (OTLP) Telemetry Events
   slug: opentelemetry-otlp-asyncapi
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/open-telemetry/opentelemetry-proto/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -133,7 +137,7 @@ overview: 'OpenTelemetry publishes 3 APIs on the [APIs.io](https://apis.io/) net
   The OpenTelemetry catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  OpenTelemetry''s developer surface includes documentation, getting-started guide, engineering blog, Stack Overflow tag, changelog, and 10 more developer resources.'
+  OpenTelemetry''s developer surface includes documentation, getting-started guide, engineering blog, Stack Overflow tag, changelog, and 11 more developer resources.'
 plans:
 - name: Opentelemetry Plans Pricing
   plan_count: 3
@@ -154,15 +158,15 @@ rules:
   slug: opentelemetry-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 53.7
-  delta: 0.0
+  composite: 46.0
+  delta: -7.7
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 70.5
+    commercial_clarity: 15.8
+    contract_quality: 67.9
     developer_ergonomics: 32.6
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 58.3
-    operational_transparency: 63.2
+    operational_transparency: 39.5
   previous_composite: 53.7
   provenance:
     contracts:
@@ -170,9 +174,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/screenshots/opentelemetry-2026-06-20T191044.png
 security:
 - kind: domain-security

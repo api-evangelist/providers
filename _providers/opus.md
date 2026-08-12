@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 52.0
-  scored_at: '2026-08-10'
+  score: 48.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 13
@@ -83,6 +84,10 @@ arazzos:
   slug: opus-clip-and-publish
 artifact_total: 20
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/opus-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -250,15 +255,15 @@ network: true
 overview: 'Opus publishes 11 APIs on the [APIs.io](https://apis.io/) network, including brand-templates API, censor-jobs API, clip-project API, and 8 more. Tagged areas include Company, Frontier Tech, Video, AI, and Video Editing.
 
 
-  Opus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+  Opus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
 random_paper: 107
 score:
   band: developing
-  composite: 52.3
-  delta: 0.0
+  composite: 51.8
+  delta: -0.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 51.1
+    contract_quality: 49.2
     developer_ergonomics: 58.2
     discoverability: 92.6
     governance: 11.5
@@ -274,8 +279,8 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/screenshots/opus-2026-08-07T190821.png
 security:

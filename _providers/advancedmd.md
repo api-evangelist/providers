@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -248,12 +248,12 @@ scopes:
   slug: advancedmd-scopes
   summary_line: 128 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 56.1
-  delta: 0.0
+  band: developing
+  composite: 52.2
+  delta: -3.9
   facets:
     commercial_clarity: 52.6
-    contract_quality: 53.9
+    contract_quality: 52.1
     developer_ergonomics: 62.5
     discoverability: 83.3
     governance: 20.8
@@ -274,9 +274,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 82.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 58.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/screenshots/advancedmd-2026-08-07T160939.png
 security:

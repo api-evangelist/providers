@@ -8,27 +8,27 @@
    "label": "Strong",
    "range": "56 – 65.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 2,
-   "shown": 2,
+   "count": 1,
+   "shown": 1,
    "providers": [
     {
      "name": "Bokio",
      "slug": "bokio",
      "description": "Bokio is a Swedish cloud accounting and bookkeeping platform (a Visma company) for small businesses, sole traders and their accountants, combining automated bookkeeping, invoicing, a business bank account and financial reporting. Its public REST API is split into a Company API (journal entries, invoices, credit notes, customers, items, suppliers and supplier invoices, uploads, bank payments, chart of accounts, fiscal years and SIE export) and a General API that handles OAuth 2.0 token issuance and connection management for public multi-tenant integrations. Authentication is OAuth 2.0 (authorization code and client credentials) with 24 fine-grained resource:action scopes; the API uses URI-path versioning (v1), page-number pagination, per-token rate limits and a documented deprecation, brownout and sunset lifecycle.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/screenshots/bokio-2026-07-25T203526.png",
-     "score": 58.5,
+     "score": 58.0,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 66.0,
+      "contract_quality": 63.5,
       "governance": 11.5,
       "operational_transparency": 39.5,
       "developer_ergonomics": 66.8,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -36,7 +36,7 @@
       "score": 71.9,
       "matched_via": "tags"
      },
-     "agent_score": 52.0,
+     "agent_score": 48.4,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -49,35 +49,46 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
      "rank": 1
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "42 – 55.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 3,
+   "shown": 3,
+   "providers": [
     {
      "name": "Telia Company",
      "slug": "telia",
      "description": "Telia Company is the Nordic and Baltic telecommunications group headquartered in Solna, Sweden, operating mobile and fixed networks in Sweden, Finland, Norway, Denmark, Lithuania, Latvia and Estonia, plus a global carrier and IoT business. As a mobile network operator it sits on the connectivity side of the telecom value chain rather than the developer-facing side, and its API posture reflects that split. Telia runs a real first-party developer hub at developer.teliacompany.io that fronts exactly two programmes — LSO Sonata (MEF/Mplify and TM Forum derived wholesale ordering APIs) and CAMARA (GSMA Open Gateway network APIs) — but both catalogs sit on Apigee portals that require an existing commercial agreement with Telia, a whitelisted corporate email domain and manual support approval before any specification or credential is issued. Only one OpenAPI definition is downloadable anonymously across the whole estate. Its CAMARA portal names Quality on Demand and Device Location but publishes nothing callable without login, and Telia reaches network-API developers mainly through Nokia's Network as Code aggregator platform rather than directly. The genuinely open surface is a public Bulk Messaging implementation guide covering an SMPP endpoint and an SMS REST API, and a gRPC audio-forwarding contract for its Telia ACE contact-centre product.",
-     "score": 57.5,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 53.0,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 83.3,
-      "contract_quality": 69.8,
+      "contract_quality": 67.2,
       "governance": 20.8,
       "operational_transparency": 55.3,
       "developer_ergonomics": 75.5,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
       "regime_id": "telecommunications",
-      "score": 81.9,
+      "score": 55.6,
       "matched_via": "tags"
      },
      "agent_score": 53.8,
@@ -99,35 +110,24 @@
       "dry_run_mode": false
      },
      "rank": 2
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "developing",
-   "label": "Developing",
-   "range": "42 – 55.9",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 3,
-   "shown": 3,
-   "providers": [
+    },
     {
      "name": "Safello",
      "slug": "safello",
      "description": "Safello is a Swedish cryptocurrency brokerage founded in 2013, registered with the Swedish Financial Supervisory Authority (Finansinspektionen) and listed on Nasdaq First North Growth Market since 2021. It lets people buy, sell, trade, and store digital assets, and exposes a \"Cryptocurrency as a Service\" (CaaS) Institutional API so third-party organisations can embed crypto buying/selling, BankID customer onboarding, KYC and compliance verification, market data, order management, and wallet balances. The v2 Institutional API (base https://api.safello.com) uses OAuth2 with client-credentials, authorization-code, and a custom Swedish BankID grant, plus a staging environment at api.s4f3.io for testing.",
-     "score": 52.1,
+     "score": 51.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
+      "discoverability": 81.5,
       "contract_quality": 60.8,
       "governance": 20.8,
       "operational_transparency": 15.8,
       "developer_ergonomics": 60.3,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -135,7 +135,7 @@
       "score": 64.1,
       "matched_via": "tags"
      },
-     "agent_score": 45.3,
+     "agent_score": 41.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -148,7 +148,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -160,19 +160,19 @@
      "slug": "stockholm",
      "description": "Stockholm University (Stockholms universitet) is a public research university in Sweden, ranked #128 in the QS World University Rankings 2025. Like most Nordic public universities, it does not operate a single consolidated developer portal; its public, machine-readable footprint is distributed across standards-based and third-party services. Confirmed interfaces include the DiVA institutional repository OAI-PMH metadata endpoint, the Figshare-hosted research data repository (su.figshare.com) backed by the Figshare public REST API, and the public GitHub organization (stockholmuniversity) where IT operations and infrastructure tooling is maintained. Identity is federated through SWAMID/Shibboleth (SAML2), reflected in the org's shib-keygen-api project. No general-purpose open course or student-information API was found publicly documented.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/screenshots/stockholm-2026-06-20T194559.png",
-     "score": 44.0,
+     "score": 43.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 76.7,
+      "contract_quality": 73.9,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 41.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -192,25 +192,36 @@
       "dry_run_mode": false
      },
      "rank": 4
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "28 – 41.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 9,
+   "shown": 9,
+   "providers": [
     {
      "name": "Nmbrs",
      "slug": "nmbrs",
      "description": "Nmbrs (Visma Nmbrs) is cloud HR and payroll software for the Netherlands and Sweden, widely used by employers, accountants, and payroll service providers. Nmbrs exposes its HRIS and payroll data through a public API in two generations. The current, forward-looking interface is a REST API served from https://api.nmbrsapp.com, authenticated with OAuth 2.0 (Authorization Code flow via identityservice.nmbrs.com) plus a per-product subscription key, with granular scopes over companies, employees, employments, salaries, wage components, payruns, and absences. The older SOAP API (api.nmbrs.nl/soap/v3 - EmployeeService, CompanyService, DebtorService) remains available for existing integrations but is deprecated and scheduled to be retired on 1 March 2027, after which REST is the only supported API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/screenshots/nmbrs-2026-08-07T185352.png",
-     "score": 42.2,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 41.6,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 63.6,
+      "contract_quality": 61.2,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -230,36 +241,25 @@
       "dry_run_mode": false
      },
      "rank": 5
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "28 – 41.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 7,
-   "shown": 7,
-   "providers": [
+    },
     {
      "name": "Fortnox",
      "slug": "fortnox",
      "description": "Fortnox is a Swedish cloud accounting, ERP, and business-administration platform for small and medium-sized businesses and accounting bureaus. Its REST API at https://api.fortnox.se/3/ programmatically manages accounting and financial data - invoices, customers, articles, orders, offers, vouchers, accounts, suppliers, supplier invoices, projects, and financial years - authenticated with OAuth2 Authorization Code Flow. Fortnox also publishes a duplex WebSocket event stream at wss://ws.fortnox.se/topics-v1 that pushes minimal change notifications across domains so integrations can react to changes instead of polling.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/screenshots/fortnox-2026-07-25T215012.png",
-     "score": 41.5,
+     "score": 41.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 63.3,
+      "contract_quality": 61.3,
       "governance": 27.1,
       "operational_transparency": 21.1,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 32.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -285,19 +285,19 @@
      "slug": "lund",
      "description": "Lund University is a public research university in Lund, Sweden, founded in 1666 and ranked #74 in the QS World University Rankings 2025. Its public developer and API footprint centers on the Lund University Libraries' research-output and open-metadata services, principally Lund University Publications (LUP), which exposes a JSON Search API, OAI-PMH harvesting, SRU/CQL search, an unAPI discovery service, and RSS feeds. The Lund University Research Portal is an external interface to the LUCRIS research information system built on Elsevier Pure. Administrative, identity (SWAMID/SAML federation), and student-information systems exist but are gated behind institutional affiliation rather than openly self-service.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lund/refs/heads/main/screenshots/lund-2026-06-20T184805.png",
-     "score": 41.1,
+     "score": 40.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 73.6,
+      "contract_quality": 70.9,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -330,19 +330,19 @@
      "slug": "uppsala",
      "description": "Uppsala University (Uppsala universitet) is Sweden's oldest university, founded in 1477, and is ranked #103 in the QS World University Rankings 2025. Its public developer and API footprint is research-driven and decentralized across departments and infrastructures rather than a single developer portal. Confirmed public interfaces include the Uppsala Conflict Data Program (UCDP) RESTful API, the Norse World REST-API, and the DiVA institutional repository OAI-PMH endpoint. The university maintains an official GitHub organization hosting integration and research code.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/screenshots/uppsala-2026-06-20T200453.png",
-     "score": 40.8,
+     "score": 40.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 58.9,
+      "contract_quality": 56.7,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -375,19 +375,19 @@
      "slug": "chalmers-university-of-technology",
      "description": "Chalmers University of Technology (Chalmers tekniska hogskola) is a private technical university in Gothenburg, Sweden, ranked #139 in the QS World University Rankings 2025. Its public, machine-readable footprint is centered on research information and library/repository services rather than a unified developer portal. Confirmed surfaces include the Chalmers Research API (api.research.chalmers.se), OAI-PMH metadata interfaces for the Chalmers Research portal and the Chalmers Open Digital Repository (ODR), and the Chalmers University Library GitHub organization hosting open-source data and metadata tooling. There is no single consolidated, self-service developer portal; access is API/repository specific.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/screenshots/chalmers-university-of-technology-2026-06-20T174208.png",
-     "score": 40.1,
+     "score": 39.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 65.6,
+      "contract_quality": 63.2,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -420,7 +420,7 @@
      "slug": "aduna",
      "description": "Aduna is the Ericsson-led network API joint venture — a 50:50 company owned half by Ericsson (Stockholm, Sweden) and half by twelve global communications service providers including AT&T, Bharti Airtel, Deutsche Telekom, KDDI, Orange, Reliance Jio, Singtel, Telefonica, Telstra, T-Mobile, Verizon and Vodafone, with e& added later as an equity partner. Announced from Stockholm and incorporated as Aduna Global, LLC, it exists to aggregate CAMARA-standardised mobile network APIs from many carriers into one commercial channel so that developers do not have to negotiate operator by operator. Aduna sits in the exposure layer of the telecom value chain: it does not own spectrum and it does not sell to developers directly at scale — it aggregates operator capability and reaches the market through partner platforms (Google Cloud, Infobip, Sinch, Vonage, Microsoft Azure and the Azure Marketplace, Comviva on AWS, Bridge Alliance). Its API posture is honestly partner-gated. The public website documents an API catalogue in prose but publishes no OpenAPI, no sandbox and no self-serve signup; the developer documentation at docs.adunaglobal.com redirects every path to an Auth0 login wall at portal.adunaglobal.com, and the SDK onboarding instruction is to contact Aduna Global. The one genuinely open surface is a small set of source-available first-party SDK repositories on GitHub for CAMARA Number Verification v2, which are the only place Aduna's real endpoints, OAuth scopes and CIBA flow are publicly visible.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aduna/refs/heads/main/screenshots/aduna-2026-08-07T160929.png",
-     "score": 36.5,
+     "score": 35.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -431,16 +431,16 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
       "regime_id": "telecommunications",
-      "score": 75.0,
+      "score": 66.7,
       "matched_via": "tags"
      },
-     "agent_score": 16.2,
+     "agent_score": 12.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -453,7 +453,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -465,19 +465,19 @@
      "slug": "fyndiq",
      "description": "Fyndiq is Sweden's largest online marketplace for bargains and deals, connecting merchants with millions of deal-seeking consumers across categories from electronics and mobile accessories to home, fashion, beauty and children's goods. Merchants list products while Fyndiq handles the storefront, customer relations and payments. Fyndiq exposes a REST Merchant API that lets sellers upload and manage product articles (create, bulk, price, quantity, delete) and retrieve, fulfil and cancel orders. The API is JSON over HTTPS, secured with HTTP Basic Authentication (Base64 merchantID:token), with a self-contained sandbox environment for integration testing and official Magento, PrestaShop and WooCommerce integration modules. Fyndiq is part of the CDON marketplace group and was originally backed by Northzone.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/screenshots/fyndiq-2026-07-25T215343.png",
-     "score": 32.3,
+     "score": 32.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 14.9,
+      "contract_quality": 14.4,
       "governance": 11.5,
       "operational_transparency": 5.3,
       "developer_ergonomics": 60.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 38.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -503,19 +503,19 @@
      "slug": "voi",
      "description": "Voi Technology is a Swedish micromobility company founded in Stockholm in 2018 that operates shared e-scooters and e-bikes in more than 100 cities across Europe. Voi publishes a Mobility-as-a-Service partner surface for deep integrations (register users, start and end rentals, pricing, vehicles, and zone areas at partners.voiapp.io), plus MDS provider and flavored GBFS feeds for cities and mobility partners at mds.voiapp.io.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/voi/refs/heads/main/screenshots/voi-app-2026-06-20T201128.png",
-     "score": 29.5,
+     "score": 28.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 92.6,
+      "discoverability": 81.5,
       "contract_quality": 0.0,
       "governance": 12.5,
       "operational_transparency": 5.3,
       "developer_ergonomics": 58.7,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 12.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -535,35 +535,25 @@
       "dry_run_mode": false
      },
      "rank": 12
-    }
-   ]
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "13 – 27.9",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 9,
-   "shown": 9,
-   "providers": [
+    },
     {
      "name": "Eyevinn Technology",
      "slug": "eyevinn-technology",
      "description": "Eyevinn Technology is a Stockholm, Sweden based video streaming consultancy and open source company specializing in cloud-native video infrastructure, HLS and MPEG-DASH packaging, FAST channels, WebRTC ingest (WHIP/WHEP), server-side ad insertion (SSAI), broadcast intercom, and player analytics. The company operates one of the largest video-focused open source portfolios on GitHub (300+ repositories across the Eyevinn and EyevinnOSC orgs) and runs Eyevinn Open Source Cloud (OSC), a managed multi-tenant SaaS platform that packages 180+ open source projects (databases, media tools, developer tools, AI runtimes, productivity apps) into one-click deployments with a token-based consumption model, a Personal Access Token (PAT) authenticated REST API, and client SDKs for TypeScript, Go, and Terraform. Eyevinn shares OSC revenue with the maintainers of the open source projects hosted on the platform, positioning OSC as a \"Builder Economy\" distribution channel for open source rather than a vendor-lock-in PaaS.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/eyevinn-technology/refs/heads/main/screenshots/eyevinn-technology-2026-06-20T180953.png",
-     "score": 25.3,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 28.2,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 56.5,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 60.9,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 12.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -583,97 +573,17 @@
       "dry_run_mode": false
      },
      "rank": 13
-    },
-    {
-     "name": "KRY | LIVI",
-     "slug": "kry-livi",
-     "description": "KRY International AB is Europe's largest digital-first healthcare provider, founded in Stockholm in 2015 by Johannes Schildt. It delivers primary and specialist care through a mobile and web app — video and chat consultations with doctors, nurses, psychologists and physiotherapists — combined with a network of physical clinics. The company trades as KRY in Sweden, Norway and Germany and as Livi in the United Kingdom and France, and reports more than 14 million patient appointments, 4,000+ healthcare professionals and 60+ clinics. Alongside consumer care it sells digital clinical capacity to public payers (including the NHS and Swedish regions), employers, insurers and Employee Assistance Programmes. KRY publishes no public developer portal, API reference or SDKs; its consumer and partner surfaces are app- and contract-based, and patient authentication in Sweden runs on BankID.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kry-livi/refs/heads/main/screenshots/kry-livi-2026-07-25T224308.png",
-     "score": 23.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 52.6
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 37.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 14
-    },
-    {
-     "name": "Lassie",
-     "slug": "lassie",
-     "description": "Lassie is a Swedish insurtech that sells preventive digital pet insurance for dogs and cats. Founded in Stockholm in 2020, the company pairs veterinary-care cover with an app-based prevention programme: owners take courses designed by animal experts and earn up to SEK 500 a year off their premium. Cover includes unlimited digital vet consultations through FirstVet, 24-hour claims handling, direct settlement with clinics, no breed or age restrictions and no lock-in period. Lassie AB is an insurance intermediary supervised by Finansinspektionen under the Swedish Insurance Distribution Act (2018:1219); policies are underwritten by Dina Forsakring AB. The company operates in Sweden, Germany and France with 100+ staff and more than one million insured animals, and is backed by a16z and Balderton Capital. Lassie publishes no public developer API - its GraphQL backend at api.lassie.co is private to its own apps - but it does publish a per-market llms.txt, making it an early example of a consumer insurer building an agent-readable surface without an API programme.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lassie/refs/heads/main/screenshots/lassie-2026-07-25T224549.png",
-     "score": 23.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.3,
-      "commercial_clarity": 52.6
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 47.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 15
-    },
+    }
+   ]
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "13 – 27.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 8,
+   "shown": 8,
+   "providers": [
     {
      "name": "Juni",
      "slug": "juni",
@@ -689,8 +599,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -716,31 +626,31 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 14
     },
     {
-     "name": "KRY",
-     "slug": "kry",
-     "description": "KRY is a Swedish digital healthcare provider headquartered in Stockholm that operates internationally under the Livi brand. It delivers primary care through video and chat consultations with doctors, nurses, psychologists, physiotherapists, dietitians and midwives via its iOS and Android apps, and also runs physical primary care centres (vardcentraler), child health clinics and midwifery clinics across Sweden. KRY operates as Kry in Sweden (kry.se) and Norway (kry.no) and as Livi in the United Kingdom (livi.co.uk) and France (livi.fr). Services span digital consultations, prescription renewal, medical certificates, vaccination and testing, mental health programmes, occupational health for employers, and regional public healthcare contracts. KRY publishes no public developer program, partner API or SDK surface; the platform is consumer- and clinician-facing, so this profile captures the company identity plus its legal and security surface rather than an API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kry/refs/heads/main/screenshots/kry-2026-07-25T224307.png",
-     "score": 19.4,
+     "name": "KRY | LIVI",
+     "slug": "kry-livi",
+     "description": "KRY International AB is Europe's largest digital-first healthcare provider, founded in Stockholm in 2015 by Johannes Schildt. It delivers primary and specialist care through a mobile and web app — video and chat consultations with doctors, nurses, psychologists and physiotherapists — combined with a network of physical clinics. The company trades as KRY in Sweden, Norway and Germany and as Livi in the United Kingdom and France, and reports more than 14 million patient appointments, 4,000+ healthcare professionals and 60+ clinics. Alongside consumer care it sells digital clinical capacity to public payers (including the NHS and Swedish regions), employers, insurers and Employee Assistance Programmes. KRY publishes no public developer portal, API reference or SDKs; its consumer and partner surfaces are app- and contract-based, and patient authentication in Sweden runs on BankID.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kry-livi/refs/heads/main/screenshots/kry-livi-2026-07-25T224308.png",
+     "score": 23.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
-      "governance": 0.0,
+      "governance": 12.5,
       "operational_transparency": 10.5,
       "developer_ergonomics": 6.5,
-      "commercial_clarity": 44.7
+      "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
-      "score": 25.0,
+      "score": 37.5,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -761,7 +671,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 15
+    },
+    {
+     "name": "Lassie",
+     "slug": "lassie",
+     "description": "Lassie is a Swedish insurtech that sells preventive digital pet insurance for dogs and cats. Founded in Stockholm in 2020, the company pairs veterinary-care cover with an app-based prevention programme: owners take courses designed by animal experts and earn up to SEK 500 a year off their premium. Cover includes unlimited digital vet consultations through FirstVet, 24-hour claims handling, direct settlement with clinics, no breed or age restrictions and no lock-in period. Lassie AB is an insurance intermediary supervised by Finansinspektionen under the Swedish Insurance Distribution Act (2018:1219); policies are underwritten by Dina Forsakring AB. The company operates in Sweden, Germany and France with 100+ staff and more than one million insured animals, and is backed by a16z and Balderton Capital. Lassie publishes no public developer API - its GraphQL backend at api.lassie.co is private to its own apps - but it does publish a per-market llms.txt, making it an early example of a consumer insurer building an agent-readable surface without an API programme.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lassie/refs/heads/main/screenshots/lassie-2026-07-25T224549.png",
+     "score": 21.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 36.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 16
     },
     {
      "name": "University of Gothenburg",
@@ -779,8 +734,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -806,27 +761,35 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 17
     },
     {
-     "name": "Fishbrain",
-     "slug": "fishbrain",
-     "description": "Fishbrain is a Stockholm-based consumer technology company behind the largest social network and mobile app for recreational anglers, with a community of around 20 million fishermen and roughly 14 million logged catch locations. The app blends a social feed, a digital catch logbook with AI-powered species recognition, depth charts (from Garmin), local fishing reports with weather and bait intelligence, an AI-driven fishing-spot prediction map, and a searchable database of fishing regulations covering seasons, bag limits, and size rules. Fishbrain monetizes through a Fishbrain Pro subscription and is backed by Northzone and Seedcamp. It exposes no public developer API — api.fishbrain.com is a private backend for the iOS/Android apps — so this profile captures the company's public security, engineering, and web surface rather than an API.",
-     "score": 15.8,
+     "name": "KRY",
+     "slug": "kry",
+     "description": "KRY is a Swedish digital healthcare provider headquartered in Stockholm that operates internationally under the Livi brand. It delivers primary care through video and chat consultations with doctors, nurses, psychologists, physiotherapists, dietitians and midwives via its iOS and Android apps, and also runs physical primary care centres (vardcentraler), child health clinics and midwifery clinics across Sweden. KRY operates as Kry in Sweden (kry.se) and Norway (kry.no) and as Livi in the United Kingdom (livi.co.uk) and France (livi.fr). Services span digital consultations, prescription renewal, medical certificates, vaccination and testing, mental health programmes, occupational health for employers, and regional public healthcare contracts. KRY publishes no public developer program, partner API or SDK surface; the platform is consumer- and clinician-facing, so this profile captures the company identity plus its legal and security surface rather than an API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kry/refs/heads/main/screenshots/kry-2026-07-25T224307.png",
+     "score": 18.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 61.1,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 15.8,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 6.5,
-      "commercial_clarity": 31.6
+      "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 25.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
@@ -838,7 +801,44 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 18
+    },
+    {
+     "name": "Fishbrain",
+     "slug": "fishbrain",
+     "description": "Fishbrain is a Stockholm-based consumer technology company behind the largest social network and mobile app for recreational anglers, with a community of around 20 million fishermen and roughly 14 million logged catch locations. The app blends a social feed, a digital catch logbook with AI-powered species recognition, depth charts (from Garmin), local fishing reports with weather and bait intelligence, an AI-driven fishing-spot prediction map, and a searchable database of fishing regulations covering seasons, bag limits, and size rules. Fishbrain monetizes through a Fishbrain Pro subscription and is backed by Northzone and Seedcamp. It exposes no public developer API — api.fishbrain.com is a private backend for the iOS/Android apps — so this profile captures the company's public security, engineering, and web surface rather than an API.",
+     "score": 14.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 31.6
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 2.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
@@ -850,19 +850,19 @@
      "slug": "linas-matkasse",
      "description": "Linas Matkasse is a Swedish meal-kit subscription service that delivers pre-portioned ingredients and nutritionally calculated recipes to customers' homes each week. Customers pick from more than 150 weekly recipes across concepts such as Chef's Choice, Family Favorites, Quick & Easy, Calorie-Smart, Vegetarian, Gluten-Free and Lactose-Free, and can change their selection until Tuesday night before a Saturday-to-Monday delivery. The brand is operated by Cheffelo, a Scandinavian meal-kit group listed on Nasdaq First North Growth Market that also runs Godtlevert in Norway and RetNemt in Denmark and delivers roughly 17 million meals a year. Linas Matkasse runs a consumer subscription e-commerce storefront and a \"Mina Sidor\" customer account area; it publishes no public developer portal, API documentation, or SDKs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/linas-matkasse/refs/heads/main/screenshots/linas-matkasse-2026-07-25T225218.png",
-     "score": 15.7,
+     "score": 14.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 5.3,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -899,8 +899,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -954,8 +954,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -988,21 +988,21 @@
      "slug": "matsmart",
      "description": "Matsmart (operating internationally as Motatos) is a Swedish e-commerce company that fights food waste by selling surplus, short-dated, and overstocked groceries and household goods at a discount, with average savings of up to 50%. Its catalog spans pantry staples, beverages, snacks, candy, baby food, health and beauty, cleaning supplies, pet food, and non-food surplus, sourced from manufacturers and retailers and shipped across Sweden and other European markets via partners including Bring, Airmee, and PostNord. The company runs a consumer web storefront and iOS/Android apps. It was surfaced as a portfolio company of Northzone and added to the API Evangelist network; it publishes no public developer API or documentation, so this profile captures its public web, security, and identity surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/matsmart/refs/heads/main/screenshots/matsmart-2026-07-25T230429.png",
-     "score": 12.6,
+     "score": 11.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 61.1,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 10.5,
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 2.7,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
@@ -1014,7 +1014,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
@@ -1037,8 +1037,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1082,8 +1082,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1120,8 +1120,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1157,8 +1157,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1195,8 +1195,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1218,25 +1218,25 @@
      "rank": 28
     },
     {
-     "name": "Mathem",
-     "slug": "mathem",
-     "description": "Mathem is Sweden's largest pure-play online grocery retailer, delivering fresh food, household goods and pantry staples directly to consumers' homes across Sweden. Customers browse and order the full assortment of a physical supermarket through the mathem.se website and native iOS/Android apps, and receive scheduled home delivery. Mathem merged with the Norwegian online grocer Oda to form one of the Nordics' largest online grocery groups, and its security and careers functions are now operated under the shared Oda organization. Payments are handled through Klarna and the major card networks. Mathem operates a consumer e-commerce storefront and mobile apps; it does not publish a public developer API, SDKs, or a developer portal. This API Evangelist profile was created as a SoftBank Vision Fund portfolio lead and enriched via the enrichment pipeline; the substantive public technical surface found is an RFC 9116 security.txt and an invite-only YesWeHack bug-bounty program run through Oda.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mathem/refs/heads/main/screenshots/mathem-2026-07-25T230409.png",
-     "score": 7.5,
+     "name": "Edgeware",
+     "slug": "edgeware",
+     "description": "Edgeware AB was a Swedish video-delivery technology company founded in 2004 and headquartered in Stockholm, known for its TV CDN, origin and media server, and streaming video-delivery products used by telecom operators and broadcasters to run OTT and IPTV services. Backed by Creandum, it listed on Nasdaq Stockholm in 2016 and was acquired by Agile Content (Agile Content S.A.) in 2020. The Edgeware brand has since been consolidated into AgileTV: edgeware.tv now redirects to agiletv.com/edgeware/, and its developer/technical documentation lives under docs.agilecontent.com (AgileTV Origin & Media Server, CDN Solutions, Subtitling). Edgeware no longer operates as an independent company or publishes an independent developer API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/edgeware/refs/heads/main/screenshots/edgeware-2026-07-25T212838.png",
+     "score": 6.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 61.1,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
@@ -1248,30 +1248,38 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
      "rank": 29
     },
     {
-     "name": "Bluebook",
-     "slug": "bluebook",
-     "description": "Bluebook is a Stockholm, Sweden based software company building AI agents for accounting firms, accountants, and CFOs. The platform automates accounting workflows — reconciliations, accruals, accounts payable and receivable, month-end close, reporting, and accounting research — with the stated goal of a \"zero-day close\", and integrates with the general ledgers firms already run on, notably QuickBooks and NetSuite. The product surface is organized around Background Agents, Checklists (tasks, delegation, human-in-the-loop approvals, month-end close), and an Assistant covering FP&A, flux analysis, and accounting research. Founded in 2024 by Philip Andersson (CEO), Jonathan Andersson (COO), and Filip Stål (CTO), Bluebook went through Y Combinator (Winter 2025) and raised a $3M pre-seed led by EQT Ventures with participation from Y Combinator and angel investors from Affirm, OpenAI, and ElevenLabs. Bluebook is a product company, not an API provider: as of this enrichment pass it publishes no public developer program, API documentation, machine-readable specification, or SDKs.",
-     "score": 6.9,
+     "name": "Ericsson",
+     "slug": "ericsson",
+     "description": "Ericsson (Telefonaktiebolaget LM Ericsson) is a Swedish multinational networking and telecommunications equipment vendor headquartered in Kista, Stockholm. Founded in 1876, the company supplies mobile and fixed network infrastructure to communication service providers worldwide and operates across three product areas: Networks (5G RAN, 5G Core, Cloud RAN, transport), Cloud Software & Services (OSS/BSS, orchestration, billing, charging, analytics), and Enterprise Wireless Solutions (private 5G via Cradlepoint). Ericsson holds more than 60,000 granted patents and operates 21 R&D centers, with networks that carry roughly 40 percent of the world's mobile data traffic. In 2024 Ericsson and twelve major operators — AT&T, Bharti Airtel, Deutsche Telekom, KDDI, Orange, Reliance Jio, Singtel, Telefonica, Telstra, T-Mobile, Verizon, and Vodafone — closed Aduna, a 50:50 joint venture that aggregates CAMARA-aligned network APIs (SIM Swap, Number Verification, Quality on Demand, Device Location, Device Reachability, Scam Signal, Call Forwarding Signal, Connectivity Insights, OTP SMS) and exposes them through hyperscaler and CPaaS channel partners (Microsoft Azure Marketplace, Google Cloud, Vonage, Sinch, Infobip). Ericsson also owns Vonage (acquired 2022), which operates the public-facing developer portal for many of these network capabilities, and runs the Ericsson Intelligent Automation Platform (EIAP) for ORAN-aligned rApp development. Ericsson does not publish a single consolidated developer portal or canonical OpenAPI catalog at ericsson.com — its programmable surface is delivered indirectly through Aduna, Vonage, and channel partners, and most of its public GitHub presence is research tooling and infrastructure software (CodeChecker, CodeCompass, ecchronos) rather than developer-facing APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ericsson/refs/heads/main/screenshots/ericsson-2026-06-20T180812.png",
+     "score": 6.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 8.3,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1293,24 +1301,24 @@
      "rank": 30
     },
     {
-     "name": "Edgeware",
-     "slug": "edgeware",
-     "description": "Edgeware AB was a Swedish video-delivery technology company founded in 2004 and headquartered in Stockholm, known for its TV CDN, origin and media server, and streaming video-delivery products used by telecom operators and broadcasters to run OTT and IPTV services. Backed by Creandum, it listed on Nasdaq Stockholm in 2016 and was acquired by Agile Content (Agile Content S.A.) in 2020. The Edgeware brand has since been consolidated into AgileTV: edgeware.tv now redirects to agiletv.com/edgeware/, and its developer/technical documentation lives under docs.agilecontent.com (AgileTV Origin & Media Server, CDN Solutions, Subtitling). Edgeware no longer operates as an independent company or publishes an independent developer API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/edgeware/refs/heads/main/screenshots/edgeware-2026-07-25T212838.png",
-     "score": 6.7,
+     "name": "Mathem",
+     "slug": "mathem",
+     "description": "Mathem is Sweden's largest pure-play online grocery retailer, delivering fresh food, household goods and pantry staples directly to consumers' homes across Sweden. Customers browse and order the full assortment of a physical supermarket through the mathem.se website and native iOS/Android apps, and receive scheduled home delivery. Mathem merged with the Norwegian online grocer Oda to form one of the Nordics' largest online grocery groups, and its security and careers functions are now operated under the shared Oda organization. Payments are handled through Klarna and the major card networks. Mathem operates a consumer e-commerce storefront and mobile apps; it does not publish a public developer API, SDKs, or a developer portal. This API Evangelist profile was created as a SoftBank Vision Fund portfolio lead and enriched via the enrichment pipeline; the substantive public technical surface found is an RFC 9116 security.txt and an invite-only YesWeHack bug-bounty program run through Oda.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mathem/refs/heads/main/screenshots/mathem-2026-07-25T230409.png",
+     "score": 6.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 8.7,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 2.7,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1324,37 +1332,29 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
+      "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
      "rank": 31
     },
     {
-     "name": "Ericsson",
-     "slug": "ericsson",
-     "description": "Ericsson (Telefonaktiebolaget LM Ericsson) is a Swedish multinational networking and telecommunications equipment vendor headquartered in Kista, Stockholm. Founded in 1876, the company supplies mobile and fixed network infrastructure to communication service providers worldwide and operates across three product areas: Networks (5G RAN, 5G Core, Cloud RAN, transport), Cloud Software & Services (OSS/BSS, orchestration, billing, charging, analytics), and Enterprise Wireless Solutions (private 5G via Cradlepoint). Ericsson holds more than 60,000 granted patents and operates 21 R&D centers, with networks that carry roughly 40 percent of the world's mobile data traffic. In 2024 Ericsson and twelve major operators — AT&T, Bharti Airtel, Deutsche Telekom, KDDI, Orange, Reliance Jio, Singtel, Telefonica, Telstra, T-Mobile, Verizon, and Vodafone — closed Aduna, a 50:50 joint venture that aggregates CAMARA-aligned network APIs (SIM Swap, Number Verification, Quality on Demand, Device Location, Device Reachability, Scam Signal, Call Forwarding Signal, Connectivity Insights, OTP SMS) and exposes them through hyperscaler and CPaaS channel partners (Microsoft Azure Marketplace, Google Cloud, Vonage, Sinch, Infobip). Ericsson also owns Vonage (acquired 2022), which operates the public-facing developer portal for many of these network capabilities, and runs the Ericsson Intelligent Automation Platform (EIAP) for ORAN-aligned rApp development. Ericsson does not publish a single consolidated developer portal or canonical OpenAPI catalog at ericsson.com — its programmable surface is delivered indirectly through Aduna, Vonage, and channel partners, and most of its public GitHub presence is research tooling and infrastructure software (CodeChecker, CodeCompass, ecchronos) rather than developer-facing APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ericsson/refs/heads/main/screenshots/ericsson-2026-06-20T180812.png",
-     "score": 6.5,
+     "name": "Bluebook",
+     "slug": "bluebook",
+     "description": "Bluebook is a Stockholm, Sweden based software company building AI agents for accounting firms, accountants, and CFOs. The platform automates accounting workflows — reconciliations, accruals, accounts payable and receivable, month-end close, reporting, and accounting research — with the stated goal of a \"zero-day close\", and integrates with the general ledgers firms already run on, notably QuickBooks and NetSuite. The product surface is organized around Background Agents, Checklists (tasks, delegation, human-in-the-loop approvals, month-end close), and an Assistant covering FP&A, flux analysis, and accounting research. Founded in 2024 by Philip Andersson (CEO), Jonathan Andersson (COO), and Filip Stål (CTO), Bluebook went through Y Combinator (Winter 2025) and raised a $3M pre-seed led by EQT Ventures with participation from Y Combinator and angel investors from Affirm, OpenAI, and ElevenLabs. Bluebook is a product company, not an API provider: as of this enrichment pass it publishes no public developer program, API documentation, machine-readable specification, or SDKs.",
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 2.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 8.3,
-      "matched_via": "tags"
-     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1391,8 +1391,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1428,8 +1428,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1466,8 +1466,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1489,9 +1489,9 @@
      "rank": 35
     },
     {
-     "name": "Norstel",
-     "slug": "norstel",
-     "description": "Norstel AB was a Swedish semiconductor materials company that produced silicon carbide (SiC) wafers for power electronics, high-frequency and high-temperature electronics, and sensors, using its patented High Temperature Chemical Vapor Deposition (HTCVD) crystal-growth technology. Backed by Creandum among other investors, Norstel was acquired by STMicroelectronics in December 2019 and folded into ST's silicon carbide operations; it no longer operates as an independent company. As a hardware and materials manufacturer, Norstel published no developer platform, API, or SDK, so this API Evangelist record is an identity-only profile with no API surface to enrich.",
+     "name": "Tenet Industries",
+     "slug": "tenet-industries",
+     "description": "Tenet Industries is a Swedish defense-technology startup founded in 2026 by Hugo Frisk, Fabian Andersson, and Emil Falk (students from KTH Royal Institute of Technology and the Stockholm School of Economics) building low-cost, mass-producible defense systems. Applying design-for-manufacturing and first-principles engineering, the company starts with strike/attack drones — a kamikaze quadcopter that assembles in two minutes with roughly half the parts of comparable systems — and extends the same hardware/software platform to loitering munitions, jammers, radars, and missile systems. Backed by Y Combinator ($500K). As a defense hardware manufacturer, Tenet Industries currently publishes no public API, SDK, developer portal, or event surface; this profile is maintained as a company record in the API Evangelist network.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1503,8 +1503,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1526,10 +1526,10 @@
      "rank": 36
     },
     {
-     "name": "Tenet Industries",
-     "slug": "tenet-industries",
-     "description": "Tenet Industries is a Swedish defense-technology startup founded in 2026 by Hugo Frisk, Fabian Andersson, and Emil Falk (students from KTH Royal Institute of Technology and the Stockholm School of Economics) building low-cost, mass-producible defense systems. Applying design-for-manufacturing and first-principles engineering, the company starts with strike/attack drones — a kamikaze quadcopter that assembles in two minutes with roughly half the parts of comparable systems — and extends the same hardware/software platform to loitering munitions, jammers, radars, and missile systems. Backed by Y Combinator ($500K). As a defense hardware manufacturer, Tenet Industries currently publishes no public API, SDK, developer portal, or event surface; this profile is maintained as a company record in the API Evangelist network.",
-     "score": 5.0,
+     "name": "Norstel",
+     "slug": "norstel",
+     "description": "Norstel AB was a Swedish semiconductor materials company that produced silicon carbide (SiC) wafers for power electronics, high-frequency and high-temperature electronics, and sensors, using its patented High Temperature Chemical Vapor Deposition (HTCVD) crystal-growth technology. Backed by Creandum among other investors, Norstel was acquired by STMicroelectronics in December 2019 and folded into ST's silicon carbide operations; it no longer operates as an independent company. As a hardware and materials manufacturer, Norstel published no developer platform, API, or SDK, so this API Evangelist record is an identity-only profile with no API surface to enrich.",
+     "score": 4.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1540,8 +1540,15 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 0.0,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

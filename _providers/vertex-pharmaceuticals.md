@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Vertex Pharmaceuticals provides qualified researchers with access to clinical trial data through a formal data request and scientific review process. Researchers can submit proposals to access anonymi
@@ -102,16 +102,16 @@ rate_limits:
   name: Vertex Pharmaceuticals Rate Limits
   slug: vertex-pharmaceuticals-rate-limits
 score:
-  band: emerging
-  composite: 15.3
-  delta: 0.0
+  band: minimal
+  composite: 10.8
+  delta: -4.5
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 10.9
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 5.3
   previous_composite: 15.3
   regulatory:
     applies: true
@@ -119,8 +119,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vertex-pharmaceuticals/refs/heads/main/screenshots/vertex-pharmaceuticals-2026-06-20T200951.png
 security:

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-10'
+  score: 43.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -65,6 +65,10 @@ asyncapis:
   name: Humanapi Notifications Webhooks
   slug: humanapi-notifications-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/humanapi-admin-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -179,17 +183,17 @@ overview: 'HumanAPI publishes 7 APIs on the [APIs.io](https://apis.io/) network,
   The HumanAPI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  HumanAPI''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 19 more developer resources.'
+  HumanAPI''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 20 more developer resources.'
 random_paper: 39
 score:
   band: developing
-  composite: 44.8
-  delta: 0.0
+  composite: 43.3
+  delta: -1.5
   facets:
     commercial_clarity: 23.7
-    contract_quality: 67.5
+    contract_quality: 65.0
     developer_ergonomics: 60.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 44.8
@@ -209,8 +213,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humanapi/refs/heads/main/screenshots/humanapi-2026-07-25T221702.png
 security:

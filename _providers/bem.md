@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -110,6 +110,10 @@ asyncapis:
   name: Bem Webhooks
   slug: bem-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bem-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -252,15 +256,15 @@ overview: 'Bem publishes 22 APIs on the [APIs.io](https://apis.io/) network, inc
   The Bem catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bem''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 24 more developer resources.'
+  Bem''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 25 more developer resources.'
 random_paper: 76
 score:
   band: strong
-  composite: 58.5
-  delta: 0.0
+  composite: 57.9
+  delta: -0.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 67.1
+    contract_quality: 64.6
     developer_ergonomics: 71.2
     discoverability: 81.5
     governance: 20.8
@@ -276,8 +280,8 @@ score:
       total: 22
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bem/refs/heads/main/screenshots/bem-2026-07-25T202722.png
 security:

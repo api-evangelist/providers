@@ -1,24 +1,25 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 71.6
-  scored_at: '2026-08-10'
+  score: 49.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -237,17 +238,30 @@ rate_limits:
   name: Shipfinder Ais Data Api Rate Limits
   slug: shipfinder-ais-data-api-rate-limits
 score:
-  band: strong
-  composite: 59.2
+  band: developing
+  composite: 55.6
+  delta: -3.6
   facets:
     commercial_clarity: 76.3
-    contract_quality: 62.3
-    developer_ergonomics: 71.7
-    discoverability: 92.6
-    governance: 31.3
+    contract_quality: 66.0
+    developer_ergonomics: 60.3
+    discoverability: 81.5
+    governance: 21.9
     operational_transparency: 7.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 59.2
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 14.3
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Shipfinder Ais Data Api Authentication

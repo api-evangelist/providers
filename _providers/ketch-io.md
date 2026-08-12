@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -65,6 +65,30 @@ collections:
   name: Ketch Web API
   slug: open-ketch-io
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/ketch-sdk/ketch-web-api/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/ketch-sdk/ketch-web-api/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/ketch-sdk/ketch-web-api/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/ketch-sdk/ketch-web-api/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/ketch-sdk/ketch-web-api/blob/main/.github/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/ketch-sdk/ketch-web-api/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -112,7 +136,7 @@ network: true
 overview: 'Ketch publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Configuration API, Consent API, Preferences API, and 1 more. Tagged areas include Ketch, Privacy, Consent, Preference Management, and DSR.
 
 
-  Ketch''s developer surface includes documentation, pricing, engineering blog, and 5 more developer resources.'
+  Ketch''s developer surface includes documentation, pricing, engineering blog, and 11 more developer resources.'
 plans:
 - name: Ketch Io Plans Pricing
   plan_count: 1
@@ -124,15 +148,15 @@ rate_limits:
   slug: ketch-io-rate-limits
 score:
   band: thin
-  composite: 32.6
-  delta: 0.0
+  composite: 35.5
+  delta: 2.9
   facets:
     commercial_clarity: 39.5
-    contract_quality: 53.1
+    contract_quality: 51.1
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 47.4
   previous_composite: 32.6
   provenance:
     agentic_access: derived
@@ -141,8 +165,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ketch-io/refs/heads/main/screenshots/ketch-io-2026-06-20T183959.png
 security:

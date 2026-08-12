@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 49.3
-  scored_at: '2026-08-10'
+  score: 45.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 5
@@ -265,16 +265,16 @@ overview: 'Timescale publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 23
 score:
   band: strong
-  composite: 60.6
-  delta: -0.1
+  composite: 60.7
+  delta: 0.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 54.2
+    contract_quality: 54.4
     developer_ergonomics: 90.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 60.7
+  previous_composite: 60.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -282,11 +282,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -181,16 +181,16 @@ rules:
     warn: 4
   slug: remitian-rules
 score:
-  band: developing
-  composite: 45.5
-  delta: 0.0
+  band: thin
+  composite: 38.8
+  delta: -6.7
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 78.3
+    commercial_clarity: 15.8
+    contract_quality: 75.4
     developer_ergonomics: 23.9
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 41.7
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 45.5
   provenance:
     agentic_access: derived
@@ -205,9 +205,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/remitian/refs/heads/main/screenshots/remitian-2026-06-20T192840.png
 security:
 - kind: authentication

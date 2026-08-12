@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-10'
+  score: 25.5
+  scored_at: '2026-08-11'
 api_count: 17
 apis:
 - description: The Care Plans API from Mon Ami — 4 operation(s) for care plans.
@@ -82,12 +82,24 @@ apis:
 - description: The Webhooks API from Mon Ami — 2 operation(s) for webhooks.
   name: Mon Ami Webhooks API
   slug: mon-ami-webhooks-api
-artifact_total: 21
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Mon Ami Webhooks
   slug: mon-ami-webhooks
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/mon-ami-intake-and-enroll-client.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/mon-ami-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mon-ami-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -144,6 +156,10 @@ created: '2026-07-17'
 description: Mon Ami is a modern data-management platform for aging and disability services, unifying case management, billing, evidence-based assessments, reporting, and compliance in one system. It serves State Units on Aging (SUAs), Area Agencies on Aging (AAAs), Intellectual & Developmental Disabilities (I/DD) programs, Long-Term Care Ombudsman offices, Medicaid HCBS providers, and Community Care Hubs. Mon Ami exposes a REST API (clients, care plans, services, copays, documents, programs, people, volunteers, referrals, tasks, visits, and webhooks) and treats interoperability as a design standard with open REST, HL7 FHIR R4, and secure SFTP. The platform is HIPAA and SOC 2 Type II certified and FedRAMP Ready.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mon-ami.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: mon-ami-mcp.yml
+  slug: mon-ami-mcpyml
 modified: '2026-07-20'
 name: Mon Ami
 nav: Providers
@@ -154,16 +170,16 @@ overview: 'Mon Ami publishes 17 APIs on the [APIs.io](https://apis.io/) network,
   The Mon Ami catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Mon Ami''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 9 more developer resources.'
+  Mon Ami''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 12 more developer resources.'
 random_paper: 106
 score:
   band: developing
-  composite: 43.1
-  delta: 0.0
+  composite: 43.2
+  delta: 0.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 69.6
-    developer_ergonomics: 37.0
+    contract_quality: 67.0
+    developer_ergonomics: 40.8
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
@@ -183,8 +199,8 @@ score:
     regime: Health
     regime_id: health
     score: 30.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mon-ami/refs/heads/main/screenshots/mon-ami-2026-08-07T184127.png
 security:

@@ -1,15 +1,18 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: high
+  label: Retired
   onboarding: unknown
   pricing: unknown
   public: false
-  source: []
+  source:
+  - '{''url'': ''https://casetext.com/pricing/'', ''status'': 410}'
+  - '{''url'': ''https://casetext.com/signin/'', ''status'': 410}'
+  - '{''url'': ''https://casetext.com/'', ''status'': 301, ''note'': ''redirects to thomsonreuters.com/en/cocounsel''}'
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,71 +25,47 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: true
+    rate_limit_signal: documented
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-10'
+  score: 3.2
+  scored_at: '2026-08-11'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/casetext-domain-security.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/casetext-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/casetext-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/casetext-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/casetext-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/casetext-rate-limits.yml
 - group: company
   title: ''
   type: Website
   url: https://casetext.com
 - group: other
   title: ''
-  type: CoCounsel
-  url: https://casetext.com/cocounsel/
-- group: other
-  title: ''
-  type: ParallelSearch
-  url: https://casetext.com/parallel-search/
-- group: other
-  title: ''
-  type: AllSearch
-  url: https://casetext.com/allsearch/
-- group: other
-  title: ''
-  type: Compose
-  url: https://compose.law/
-- group: other
-  title: ''
-  type: SmartCite
-  url: https://casetext.com/smartcite/
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://casetext.com/pricing/
-- group: other
-  title: ''
-  type: Customers
-  url: https://casetext.com/customers/
-- group: company
-  title: ''
-  type: About
-  url: https://casetext.com/about/
-- group: company
-  title: ''
-  type: Careers
-  url: https://casetext.com/careers/
-- group: company
-  title: ''
-  type: Blog
-  url: https://casetext.com/blog/
-- group: operate
-  title: ''
-  type: Contact
-  url: https://casetext.com/contact/
-- group: start
-  title: ''
-  type: Login
-  url: https://casetext.com/signin/
+  type: Successor
+  url: https://www.thomsonreuters.com/en/cocounsel
 - group: other
   title: ''
   type: ParentCompany
@@ -94,7 +73,7 @@ common:
 - group: other
   title: ''
   type: Acquisition
-  url: https://www.thomsonreuters.com/en/press-releases/2023/june/thomson-reuters-to-acquire-casetext-an-ai-leader-for-legal-professionals.html
+  url: https://www.thomsonreuters.com/en/press-releases/2023/august/thomson-reuters-completes-acquisition-of-casetext-inc
 - group: build
   title: ''
   type: GitHub
@@ -115,43 +94,64 @@ common:
   title: ''
   type: Wikipedia
   url: https://en.wikipedia.org/wiki/Casetext
-- group: docs
-  title: ''
-  type: GraphQL
-  url: graphql/casetext-graphql.md
+coverage:
+  checked: '2026-08-10'
+  detail: Casetext was absorbed into Thomson Reuters and the standalone platform was shut down on 2025-04-01; casetext.com now 301s to thomsonreuters.com/en/cocounsel and every other path on the domain — including /pricing/, /blog/, /signin/, /robots.txt and every /.well-known/ path — returns HTTP 410 Gone behind a "This service is no longer available" notice, while api., developer., docs. and app.casetext.com no longer resolve.
+  evidence:
+  - status: 301
+    url: https://casetext.com/
+  - status: 410
+    url: https://casetext.com/pricing/
+  - status: 410
+    url: https://casetext.com/graphql
+  - status: 410
+    url: https://casetext.com/openapi.json
+  - status: 410
+    url: https://casetext.com/.well-known/agent-card.json
+  - status: 410
+    url: https://parallelsearch.casetext.com/
+  - status: 404
+    url: https://compose.law/
+  reason: defunct
+  state: none
 created: '2026-05-25'
-description: Casetext is a legal technology company founded in 2013 by Jake Heller, Joanna Huey, and Laurence Pfeffer and headquartered in San Francisco, California. The company built one of the earliest neural-search engines for U.S. case law (Parallel Search) and a broader research platform covering federal and state cases, statutes, regulations, and secondary sources, with citator signals delivered through its SmartCite feature. Casetext is best known for CoCounsel, a generative-AI legal assistant released in March 2023 and originally built on top of OpenAI's GPT-4, that automates document review, deposition preparation, contract analysis, legal research memos, and database queries for law firms and in-house legal teams. Companion products include AllSearch, a private document search tool that lets firms run Parallel Search across their own document collections, and Compose, an automated brief-drafting product. Thomson Reuters acquired Casetext in June 2023 for $650 million in an all-cash
-  deal that closed in August 2023, and CoCounsel has since been integrated across Thomson Reuters' Westlaw, Practical Law, and HighQ product lines as the company's flagship legal-AI assistant. The Casetext platform is sold as a SaaS subscription to law firms, corporate legal departments, and government agencies; there is no public developer API, SDK, or open-source release, and the casetext GitHub organization contains only archived research forks (transformers, ELECTRA, pgvector, FiD) plus a handful of internal infrastructure repos that were archived after the Thomson Reuters acquisition.
-graphqls:
-- description: 'This conceptual GraphQL schema models the Casetext AI legal research platform, including its core legal research capabilities, document analysis tools, and AI-powered features such as CoCounsel, CARA '
-  name: Casetext GraphQL Schema
-  slug: casetext-graphql
+description: 'Casetext is a legal technology company founded in 2013 by Jake Heller, Joanna Huey, and Laurence Pfeffer and headquartered in San Francisco, California. The company built one of the earliest neural-search engines for U.S. case law (Parallel Search) and a broader research platform covering federal and state cases, statutes, regulations, and secondary sources, with citator signals delivered through its SmartCite feature. Casetext is best known for CoCounsel, a generative-AI legal assistant released in March 2023 and originally built on top of OpenAI''s GPT-4, that automates document review, deposition preparation, contract analysis, legal research memos, and database queries for law firms and in-house legal teams. Companion products include AllSearch, a private document search tool that lets firms run Parallel Search across their own document collections, and Compose, an automated brief-drafting product. Thomson Reuters acquired Casetext in June 2023 for $650 million in an all-cash
+  deal that closed on August 17, 2023, and CoCounsel has since been integrated across Thomson Reuters'' Westlaw, Practical Law, and HighQ product lines as the company''s flagship legal-AI assistant. Casetext is now a RETIRED BRAND rather than an active provider: casetext.com began redirecting to a Thomson Reuters CoCounsel page on February 1, 2025, CoCounsel 1.0 access on the Casetext platform ended March 31, 2025, and the standalone platform was shut down on April 1, 2025. As of August 2026 every path on the domain returns HTTP 410 Gone behind a hand-written retirement notice pointing users to Westlaw, and the developer-facing subdomains do not resolve. Casetext never published a public developer API, SDK, or machine-readable specification of any kind; the casetext GitHub organization holds 79 fully archived repositories — research forks (transformers, ELECTRA, pgvector, FiD) and early JavaScript infrastructure utilities — and the 15 npm packages it published are general-purpose libraries
+  rather than API clients, the newest released in June 2018.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/casetext.png
 layout: provider
-modified: '2026-05-25'
+modified: '2026-08-10'
 name: Casetext
 nav: Providers
 network: true
 overview: 'Casetext is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, Legal Tech, Legal Research, Case Law, and Legal AI.
 
 
-  Casetext''s developer surface includes pricing, engineering blog, GitHub presence, and 19 more developer resources.'
+  Casetext''s developer surface includes GitHub presence and 14 more developer resources.'
+plans:
+- name: Casetext Plans Pricing
+  plan_count: 0
+  slug: casetext-plans-pricing
 random_paper: 53
+rate_limits:
+- limit_count: 0
+  name: Casetext Rate Limits
+  slug: casetext-rate-limits
 score:
-  band: emerging
-  composite: 22.9
-  delta: 0.0
+  band: minimal
+  composite: 6.4
+  delta: -16.5
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 48.1
-    developer_ergonomics: 2.2
-    discoverability: 50.0
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 22.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/casetext/refs/heads/main/screenshots/casetext-2026-06-20T174038.png
 security:
 - kind: domain-security

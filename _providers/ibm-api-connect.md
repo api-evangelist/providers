@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: 'The IBM API Connect Management API provides programmatic access to manage APIs, products, catalogs, organizations, and other platform resources in the API Connect platform. It is used to automate API '
@@ -42,6 +42,10 @@ apis:
   slug: ibm-api-connect-v1-api
 artifact_total: 11
 common:
+- group: start
+  title: ''
+  type: Signup
+  url: https://www.ibm.com/account/reg/signup?formid=urx-53961
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -144,7 +148,7 @@ overview: 'IBM API Connect publishes 3 APIs on the [APIs.io](https://apis.io/) n
   The IBM API Connect catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  IBM API Connect''s developer surface includes documentation, getting-started guide, support, pricing, engineering blog, changelog, Stack Overflow tag, and 12 more developer resources.'
+  IBM API Connect''s developer surface includes signup flow, documentation, getting-started guide, support, pricing, engineering blog, changelog, and 13 more developer resources.'
 plans:
 - name: Ibm Api Connect Plans Pricing
   plan_count: 3
@@ -165,19 +169,19 @@ rules:
   slug: ibm-api-connect-rules
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 44.6
+  delta: -5.2
   facets:
-    commercial_clarity: 71.1
+    commercial_clarity: 60.5
     contract_quality: 48.1
     developer_ergonomics: 34.8
     discoverability: 64.8
     governance: 10.4
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 49.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-api-connect/refs/heads/main/screenshots/ibm-api-connect-2026-06-20T183145.png
 security:
 - kind: domain-security

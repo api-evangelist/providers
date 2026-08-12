@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 35.8
-  scored_at: '2026-08-10'
+  score: 34.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,8 +40,12 @@ apis:
 - description: Landgate's customer identity provider, running PingFederate. The OpenID Connect discovery document is served anonymously (HTTP 200, 2026-07-26) at /.well-known/openid-configuration and is saved verbat
   name: MyLandgate OpenID Connect / OAuth 2.0 (PingFederate)
   slug: mylandgate-openid-connect
-artifact_total: 8
+artifact_total: 9
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/landgate-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -163,6 +167,10 @@ description: Landgate is the Western Australian Land Information Authority — t
   and the Data WA CKAN Action API that Landgate operates for the whole WA public sector), while the richer registry and subscription data sits behind SLIP subscription, transaction, publication, broker, distributor and value-added-reseller licences that must be signed and, for bulk downloads, behind a MyLandgate account login. There is no developer portal, no published OpenAPI, no API key self-service, and no RESO involvement of any kind — RESO is a North American MLS standard and is absent from this Australian government registry.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: landgate-mcp.yml
+  slug: landgate-mcpyml
 modified: '2026-07-26'
 name: Landgate
 nav: Providers
@@ -170,7 +178,7 @@ network: true
 overview: 'Landgate publishes 3 APIs on the [APIs.io](https://apis.io/) network: SLIP Public Services (ArcGIS REST), SLIP Public OGC Web Services (WMS / WFS), and Data WA CKAN Action API. Tagged areas include Real Estate, Australia, Land Registry, Title, and Valuation.
 
 
-  Landgate''s developer surface includes documentation, pricing, support, developer portal, authentication, changelog, engineering blog, and 22 more developer resources.'
+  Landgate''s developer surface includes documentation, pricing, support, developer portal, authentication, changelog, engineering blog, and 23 more developer resources.'
 random_paper: 20
 scopes:
 - name: Landgate Scopes
@@ -179,12 +187,12 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 46.7
+  delta: -2.3
   facets:
     commercial_clarity: 44.7
-    contract_quality: 56.1
-    developer_ergonomics: 36.4
+    contract_quality: 54.0
+    developer_ergonomics: 38.6
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
@@ -204,9 +212,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 79.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 64.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/screenshots/landgate-2026-07-27T125338.png
 security:

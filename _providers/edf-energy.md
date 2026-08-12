@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 55.6
-  scored_at: '2026-08-10'
+  score: 52.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -261,12 +261,12 @@ scopes:
   slug: edf-energy-scopes
   summary_line: 111 scopes · authorizationCode/clientCredentials/deviceCode/tokenExchange
 score:
-  band: strong
-  composite: 57.1
-  delta: 0.0
+  band: developing
+  composite: 55.1
+  delta: -2.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 56.7
+    contract_quality: 54.8
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
@@ -287,9 +287,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 67.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 56.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/screenshots/edf-energy-2026-08-07T164723.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Astra's REST API (v1) for embedding instant money movement — accounts, users, cards, transfers, payment instruments, and Routines — authorized via OAuth 2.0 and delivered with webhooks for asynchronou
@@ -142,8 +142,8 @@ overview: 'Astra publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 75
 score:
   band: developing
-  composite: 47.0
-  delta: 0.0
+  composite: 45.1
+  delta: -1.9
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
@@ -159,9 +159,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 59.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 46.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/screenshots/astra-2026-07-25T201458.png
 security:

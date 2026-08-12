@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-10'
+  score: 41.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -37,8 +37,12 @@ apis:
 - description: The consumer-authorised half of the Consumer Data Right energy obligation that Ergon Energy Queensland Pty Ltd is designated to meet as a data holder - electricity service points, usage, distributed e
   name: Ergon Energy Retail CDR Energy Consumer Data API
   slug: ergon-energy-retail-cdr-energy-consumer-data-api
-artifact_total: 8
+artifact_total: 9
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/energy-queensland-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -156,6 +160,10 @@ description: 'Energy Queensland Limited is the Queensland Government-owned corpo
   https://cdr.energymadeeasy.gov.au/ergon, both of which answered HTTP 200 to anonymous, standards-conformant calls on 2026-07-27, returning 36 REGULATED electricity plans and a CDS discovery status of OK. The DISTRIBUTION half - the poles and wires - is not a CDR data holder at all, publishes no developer portal, no open-data API and no machine-readable contract, and has no developer., developers., api., docs. or data. subdomain in DNS on energyq.com.au, ergon.com.au or energex.com.au. Its network data reaches the public as PDF and XLSX planning reports, registration-free but non-programmatic map viewers, and exactly one open-licensed spatial dataset deposited on the Queensland Government''s CKAN portal. The split is the finding: a mandate transplanted from banking produced a real, anonymous, standardised API on the regulated retail side and changed nothing whatsoever on the network side it never touched.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/energy-queensland.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: energy-queensland-mcp.yml
+  slug: energy-queensland-mcpyml
 modified: '2026-07-27'
 name: Energy Queensland
 nav: Providers
@@ -163,7 +171,7 @@ network: true
 overview: 'Energy Queensland publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ergon Energy Retail CDR Energy Product Reference Data API, Ergon Energy Retail CDR Discovery API, and Ergon Energy Retail CDR Energy Consumer Data API. Tagged areas include Energy, Australia, Utilities, Electricity, and Grid.
 
 
-  Energy Queensland''s developer surface includes authentication, changelog, API reference, status page, documentation, and 23 more developer resources.'
+  Energy Queensland''s developer surface includes authentication, changelog, API reference, status page, documentation, and 24 more developer resources.'
 random_paper: 27
 rate_limits:
 - limit_count: 15
@@ -176,13 +184,13 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.1
-  delta: 0.0
+  composite: 42.1
+  delta: -1.0
   facets:
     commercial_clarity: 7.9
-    contract_quality: 54.3
-    developer_ergonomics: 27.7
-    discoverability: 83.3
+    contract_quality: 52.2
+    developer_ergonomics: 29.9
+    discoverability: 72.2
     governance: 20.8
     operational_transparency: 76.3
   previous_composite: 43.1
@@ -202,8 +210,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 52.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/screenshots/energy-queensland-2026-08-07T164903.png
 security:

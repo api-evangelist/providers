@@ -1,9 +1,10 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -11,14 +12,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 57.7
-  scored_at: '2026-08-10'
+  score: 46.2
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: APIs for processing, cleaning and validating data
@@ -44,6 +45,10 @@ apis:
   slug: neutrino-api-www-api
 artifact_total: 16
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/neutrino-api-openapi-3.1-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -239,26 +244,38 @@ network: true
 overview: 'Neutrino API publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Data Tools API, E Commerce API, Geolocation API, and 4 more. Tagged areas include Data Validation, Data Tools, Telephony, Communications, and SMS.
 
 
-  Neutrino API''s developer surface includes authentication, changelog, getting-started guide, pricing, signup flow, support, and 34 more developer resources.'
+  Neutrino API''s developer surface includes authentication, changelog, getting-started guide, pricing, signup flow, support, and 35 more developer resources.'
 random_paper: 83
 score:
   band: developing
-  composite: 52.9
+  composite: 52.1
+  delta: -0.8
   facets:
     commercial_clarity: 52.6
-    contract_quality: 58.5
-    developer_ergonomics: 60.9
+    contract_quality: 63.8
+    developer_ergonomics: 49.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 44.7
+  previous_composite: 52.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Neutrino Api Authentication

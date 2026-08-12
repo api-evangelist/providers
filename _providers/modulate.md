@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 11
 apis:
 - description: The Velma 2 Accent Batch API from Modulate — 1 operation(s) for velma 2 accent batch.
@@ -88,6 +89,10 @@ asyncapis:
   name: Modulate Velma-2 Streaming Server
   slug: modulate-velma-2-streaming-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/modulate-velma-2-batch-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -218,7 +223,7 @@ overview: 'Modulate publishes 11 APIs on the [APIs.io](https://apis.io/) network
   The Modulate catalog on APIs.io includes 7 event-driven AsyncAPI specifications.
 
 
-  Modulate''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
+  Modulate''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
 random_paper: 47
 rate_limits:
 - limit_count: 3
@@ -226,13 +231,13 @@ rate_limits:
   slug: modulate-rate-limits
 score:
   band: strong
-  composite: 59.5
-  delta: 0.0
+  composite: 57.7
+  delta: -1.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 73.6
+    contract_quality: 70.8
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 36.8
   previous_composite: 59.5
@@ -245,8 +250,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/screenshots/modulate-2026-08-07T184031.png
 security:

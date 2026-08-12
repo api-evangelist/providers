@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: Server-side Twirp API for managing rooms, participants, tracks, mute/unmute, and metadata.
@@ -149,25 +149,19 @@ rules:
     warn: 4
   slug: livekit-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 43.5
-  delta: 0.0
+  band: thin
+  composite: 39.9
+  delta: -3.6
   facets:
-    commercial_clarity: 57.9
+    commercial_clarity: 34.2
     contract_quality: 54.3
     developer_ergonomics: 19.6
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 47.9
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 43.5
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 23.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livekit/refs/heads/main/screenshots/livekit-2026-06-20T184644.png
 security:

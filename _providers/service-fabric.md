@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -130,10 +130,6 @@ common:
   title: ''
   type: SpectralRules
   url: rules/service-fabric-rules.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/cluster-management.yaml
 created: '2026-05-02'
 description: Azure Service Fabric is an open-source distributed systems platform for packaging, deploying, and managing scalable and reliable microservices and containers. Service Fabric powers many Microsoft Azure core services, and thousands of services at scale including Azure SQL Database, Azure Cosmos DB, Skype for Business, and Cortana. Service Fabric provides a programming model for building stateful and stateless microservices, reliable collections, and actor-based services. The Service Fabric REST API enables cluster management, application lifecycle, and service configuration.
 examples:
@@ -172,7 +168,7 @@ overview: 'Service Fabric publishes 5 APIs on the [APIs.io](https://apis.io/) ne
   The Service Fabric catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Service Fabric''s developer surface includes GitHub presence, documentation, getting-started guide, changelog, code examples, and 13 more developer resources.'
+  Service Fabric''s developer surface includes GitHub presence, documentation, getting-started guide, changelog, code examples, and 12 more developer resources.'
 plans:
 - name: Service Fabric Plans Pricing
   plan_count: 3
@@ -201,15 +197,15 @@ rules:
   slug: service-fabric-rules
 score:
   band: developing
-  composite: 51.4
-  delta: 0.0
+  composite: 42.9
+  delta: -8.5
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 66.7
+    commercial_clarity: 15.8
+    contract_quality: 64.2
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 51.4
   provenance:
     agentic_access: derived
@@ -218,9 +214,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/screenshots/service-fabric-2026-06-20T193724.png
 security:
 - kind: domain-security

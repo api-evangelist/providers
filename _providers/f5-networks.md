@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -102,6 +102,14 @@ collections:
   name: F5 BIG-IP iControl REST API
   slug: open-bigip-icontrol-rest
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/F5Networks/f5-appsvcs-extension/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/F5Networks/f5-appsvcs-extension/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -536,7 +544,7 @@ overview: 'F5 Networks publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
   The F5 Networks catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  F5 Networks'' developer surface includes authentication, documentation, engineering blog, support, signup flow, YouTube channel, and 13 more developer resources.'
+  F5 Networks'' developer surface includes authentication, documentation, engineering blog, support, signup flow, YouTube channel, and 15 more developer resources.'
 plans:
 - name: F5 Networks Plans Pricing
   plan_count: 5
@@ -565,15 +573,15 @@ rules:
   slug: f5-networks-spectral-rules
 score:
   band: strong
-  composite: 63.3
-  delta: 0.0
+  composite: 56.9
+  delta: -6.4
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 72.5
+    commercial_clarity: 57.9
+    contract_quality: 69.8
     developer_ergonomics: 39.1
     discoverability: 72.2
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 44.7
   previous_composite: 63.3
   provenance:
     agentic_access: derived
@@ -582,9 +590,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/f5-networks/refs/heads/main/screenshots/f5-networks-2026-06-20T180959.png
 security:
 - kind: authentication

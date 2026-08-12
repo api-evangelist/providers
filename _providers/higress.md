@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: Higress is a next-generation cloud-native API gateway that provides intelligent routing, traffic management, authentication, and observability capabilities for microservices architectures.
@@ -45,6 +45,18 @@ apis:
   slug: higress-wasm-plugin-api
 artifact_total: 8
 common:
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/higress-group/higress/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/higress-group/higress/blob/main/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/alibaba/higress/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -104,7 +116,7 @@ network: true
 overview: 'Higress publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Gateway, Cloud Native, Istio, and Kubernetes.
 
 
-  Higress'' developer surface includes documentation, getting-started guide, engineering blog, changelog, and 7 more developer resources.'
+  Higress'' developer surface includes documentation, getting-started guide, engineering blog, changelog, and 10 more developer resources.'
 plans:
 - name: Higress Plans Pricing
   plan_count: 3
@@ -116,19 +128,19 @@ rate_limits:
   slug: higress-rate-limits
 score:
   band: emerging
-  composite: 25.5
-  delta: 0.0
+  composite: 19.8
+  delta: -5.7
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 26.1
-    discoverability: 55.6
+    discoverability: 63.0
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 25.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/higress/refs/heads/main/screenshots/higress-2026-06-20T182735.png
 security:
 - kind: domain-security

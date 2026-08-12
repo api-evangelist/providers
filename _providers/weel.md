@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-10'
+  score: 34.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -149,13 +149,13 @@ overview: 'Weel publishes 1 API on the [APIs.io](https://apis.io/) network: Open
 random_paper: 81
 score:
   band: developing
-  composite: 53.0
-  delta: 0.0
+  composite: 51.5
+  delta: -1.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.2
+    contract_quality: 62.8
     developer_ergonomics: 53.8
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 20.8
     operational_transparency: 26.3
   previous_composite: 53.0
@@ -175,8 +175,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

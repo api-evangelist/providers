@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -259,6 +259,10 @@ collections:
   name: Upvest Investment API
   slug: open-upvest-investment-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/upvestco/httpsignature-proxy/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -929,7 +933,7 @@ overview: 'Upvest publishes 35 APIs on the [APIs.io](https://apis.io/) network, 
   The Upvest catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Upvest''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, signup flow, and 17 more developer resources.'
+  Upvest''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, signup flow, and 18 more developer resources.'
 plans:
 - name: Upvest Plans Pricing
   plan_count: 3
@@ -971,15 +975,15 @@ scopes:
   summary_line: 18 scopes · clientCredentials
 score:
   band: strong
-  composite: 63.2
-  delta: 0.0
+  composite: 58.7
+  delta: -4.5
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 93.8
+    commercial_clarity: 47.4
+    contract_quality: 90.3
     developer_ergonomics: 45.7
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 52.1
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 63.2
   provenance:
     agentic_access: derived
@@ -994,8 +998,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 70.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upvest/refs/heads/main/screenshots/upvest-2026-06-20T200511.png
 security:

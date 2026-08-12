@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,6 +54,18 @@ asyncapis:
   name: Live (WebSocket)
   slug: kotoba-tts-asyncapi
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/kotoba-tech/kotoba-python/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/kotoba-tech/kotoba-python/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/kotoba-tech/kotoba-python/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -199,19 +212,19 @@ overview: 'Kotoba publishes 1 API on the [APIs.io](https://apis.io/) network: tr
   The Kotoba catalog on APIs.io includes 3 event-driven AsyncAPI specifications.
 
 
-  Kotoba''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 25 more developer resources.'
+  Kotoba''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 28 more developer resources.'
 random_paper: 60
 score:
   band: developing
-  composite: 44.2
-  delta: 0.0
+  composite: 47.5
+  delta: 3.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 58.1
+    contract_quality: 56.0
     developer_ergonomics: 69.0
     discoverability: 87.0
     governance: 11.5
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 44.2
   provenance:
     agentic_access: derived
@@ -223,14 +236,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 34.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kotoba/refs/heads/main/screenshots/kotoba-2026-07-25T224316.png
 security:

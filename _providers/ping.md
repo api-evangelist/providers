@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-10'
+  score: 41.7
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Ping++ REST payments API — create and query Charges, Refunds, Transfers (enterprise payouts), Red Envelopes, Orders, Users, Recharges, Withdrawals, Coupons and Royalties across WeChat Pay, Alipay, Uni
@@ -197,8 +197,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

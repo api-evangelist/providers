@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Atlas is Duplo''s global payments API for African and emerging-market businesses: collect payments (checkout, payment links, virtual accounts), disburse funds (single and bulk bank payouts, internation'
@@ -175,13 +175,13 @@ overview: 'Duplo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 84
 score:
   band: developing
-  composite: 53.1
-  delta: 0.0
+  composite: 50.2
+  delta: -2.9
   facets:
     commercial_clarity: 52.6
     contract_quality: 51.6
     developer_ergonomics: 62.5
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 44.7
   previous_composite: 53.1
@@ -194,9 +194,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 59.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 46.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duplo/refs/heads/main/screenshots/duplo-2026-07-25T212511.png
 security:

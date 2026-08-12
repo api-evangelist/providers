@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API for managing customer communications including messaging, reviews, payments, webchat, contacts, automations, and webhooks for local businesses. Base URL is https://api.podium.com/v4/ and uses
@@ -139,8 +139,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 15.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/screenshots/podium-2026-06-20T191840.png
 security:

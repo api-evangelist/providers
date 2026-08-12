@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 0
@@ -350,11 +350,11 @@ rules:
   slug: smokeball-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.6
-  delta: 0.0
+  composite: 49.9
+  delta: -0.7
   facets:
     commercial_clarity: 42.1
-    contract_quality: 73.9
+    contract_quality: 71.2
     developer_ergonomics: 21.7
     discoverability: 68.5
     governance: 58.3
@@ -367,8 +367,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 34
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smokeball/refs/heads/main/screenshots/smokeball-2026-06-20T194100.png
 security:

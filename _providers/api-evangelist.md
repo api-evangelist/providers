@@ -1,10 +1,11 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -13,12 +14,12 @@ agent_readiness:
     idempotency: false
     mcp_server: true
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 59.9
-  scored_at: '2026-08-10'
+  score: 52.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -88,8 +89,12 @@ apis:
 - description: Standalone spotlight on API governance rules — guardrails for API operations delivered as a curated ruleset alongside the rules collection.
   name: Spotlight Rules
   slug: spotlight-rules
-artifact_total: 25
+artifact_total: 28
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/api-evangelist/posts/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -194,6 +199,22 @@ common:
   title: ''
   type: DataModel
   url: data-model/api-evangelist-data-model.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/api-evangelist-spectral-rules.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: https://vocabularies.apievangelist.com
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/api-evangelist-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/api-evangelist-rate-limits.yml
 created: '2024-10-14'
 description: The index of everything available via the API Evangelist developer portal at developer.apievangelist.com — sixteen years of API research served as one REST API, an MCP server for agents, and the static JSON feeds behind each network collection.
 image: https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-butterfly-vertical.png
@@ -212,22 +233,52 @@ network: true
 overview: 'API Evangelist publishes 2 APIs on the [APIs.io](https://apis.io/) network: Network API and Governance & Discovery API. Tagged areas include APIs, API Evangelist, Developer Portal, API Research, and API Governance.
 
 
-  API Evangelist''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, support, pricing, and 19 more developer resources.'
+  The API Evangelist catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  API Evangelist''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, support, pricing, and 24 more developer resources.'
+plans:
+- name: Api Evangelist Plans Pricing
+  plan_count: 4
+  slug: api-evangelist-plans-pricing
 random_paper: 41
+rate_limits:
+- limit_count: 6
+  name: Api Evangelist Rate Limits
+  slug: api-evangelist-rate-limits
+rules:
+- name: API Evangelist API Rules
+  rule_count: 10
+  severity_counts:
+    error: 1
+    hint: 0
+    info: 0
+    warn: 9
+  slug: api-evangelist-spectral-rules
 score:
-  band: developing
-  composite: 48.0
-  delta: 25.4
+  band: strong
+  composite: 64.1
+  delta: 16.1
   facets:
-    commercial_clarity: 44.7
-    contract_quality: 56.3
-    developer_ergonomics: 67.4
+    commercial_clarity: 76.3
+    contract_quality: 58.0
+    developer_ergonomics: 62.5
     discoverability: 83.3
-    governance: 20.8
-    operational_transparency: 5.3
-  previous_composite: 22.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    governance: 72.9
+    operational_transparency: 36.8
+  previous_composite: 48.0
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: rising
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 341
   human_in_the_loop: 2
@@ -3613,15 +3613,15 @@ rules:
   slug: bigcommerce-spectral-rules
 score:
   band: developing
-  composite: 51.8
-  delta: 0.0
+  composite: 44.6
+  delta: -7.2
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 73.0
+    commercial_clarity: 23.7
+    contract_quality: 70.2
     developer_ergonomics: 41.3
     discoverability: 68.5
     governance: 52.1
-    operational_transparency: 44.7
+    operational_transparency: 21.1
   previous_composite: 51.8
   provenance:
     agentic_access: derived
@@ -3636,9 +3636,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/screenshots/bigcommerce-2026-06-20T173231.png
 security:
 - kind: authentication

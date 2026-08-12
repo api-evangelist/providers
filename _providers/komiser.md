@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Open-source cloud cost inspector providing cost visibility, optimization recommendations, security checks, and governance across multi-cloud environments. Distributed as a self-hosted dashboard with G
@@ -36,6 +36,18 @@ apis:
   slug: komiser
 artifact_total: 5
 common:
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/mlabouardy/komiser/blob/develop/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/mlabouardy/komiser/blob/develop/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/mlabouardy/komiser/blob/develop/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -79,7 +91,7 @@ network: true
 overview: 'Komiser publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Cost, FinOps, Governance, Multi-Cloud, and Open Source.
 
 
-  Komiser''s developer surface includes documentation, release notes, and 5 more developer resources.'
+  Komiser''s developer surface includes documentation, release notes, and 8 more developer resources.'
 plans:
 - name: Komiser Plans Pricing
   plan_count: 3
@@ -91,19 +103,19 @@ rate_limits:
   slug: komiser-rate-limits
 score:
   band: emerging
-  composite: 21.7
-  delta: 0.0
+  composite: 15.3
+  delta: -6.4
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 47.4
+    operational_transparency: 34.2
   previous_composite: 21.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/komiser/refs/heads/main/screenshots/komiser-2026-06-20T184121.png
 security:
 - kind: domain-security

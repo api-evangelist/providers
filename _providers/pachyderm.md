@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Pachyderm's platform API, exposed over gRPC/protobuf. Core services are PFS (data versioning — repos, commits, branches, files) and PPS (pipelines — jobs, datums, pipelines, logs), plus an Auth servic
@@ -36,6 +36,10 @@ apis:
   slug: pachyderm-grpc-api
 artifact_total: 2
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/pachyderm/pachyderm/blob/master/LICENSE
 - group: build
   title: ''
   type: GitHubOrganization
@@ -103,7 +107,7 @@ network: true
 overview: 'Pachyderm publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MLOps, Data Versioning, Data Pipelines, and Data Lineage.
 
 
-  Pachyderm''s developer surface includes documentation, API reference, CLI, authentication, changelog, and 9 more developer resources.'
+  Pachyderm''s developer surface includes documentation, API reference, CLI, authentication, changelog, and 10 more developer resources.'
 random_paper: 29
 score:
   band: emerging
@@ -119,8 +123,8 @@ score:
   previous_composite: 18.5
   provenance:
     conformance: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pachyderm/refs/heads/main/screenshots/pachyderm-2026-08-07T191241.png
 security:

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-10'
+  score: 49.3
+  scored_at: '2026-08-11'
 api_count: 21
 apis:
 - description: The Auth API from TrustLayer — 1 operation(s) for auth.
@@ -100,6 +100,10 @@ asyncapis:
   name: Trustlayer Webhooks
   slug: trustlayer-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/trustlayer-platform-v1-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -218,17 +222,17 @@ overview: 'TrustLayer publishes 21 APIs on the [APIs.io](https://apis.io/) netwo
   The TrustLayer catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  TrustLayer''s developer surface includes documentation, API reference, authentication, sandbox, engineering blog, signup flow, and 19 more developer resources.'
+  TrustLayer''s developer surface includes documentation, API reference, authentication, sandbox, engineering blog, signup flow, and 20 more developer resources.'
 random_paper: 75
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 46.8
+  delta: -1.4
   facets:
     commercial_clarity: 42.1
-    contract_quality: 64.3
+    contract_quality: 61.9
     developer_ergonomics: 47.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 31.6
   previous_composite: 48.2
@@ -247,8 +251,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Kitex is a high-performance, extensible RPC framework for building microservices in Go, developed by ByteDance. It supports Thrift and Protocol Buffers serialization, provides built-in service governa
@@ -36,6 +36,26 @@ apis:
   slug: kitex
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/cloudwego/kitex/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/cloudwego/kitex/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/cloudwego/kitex/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/cloudwego/kitex/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/cloudwego/kitex/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -86,7 +106,7 @@ overview: 'Kitex publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
   The Kitex catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Kitex''s developer surface includes documentation, getting-started guide, engineering blog, and 4 more developer resources.'
+  Kitex''s developer surface includes documentation, getting-started guide, engineering blog, and 9 more developer resources.'
 plans:
 - name: Kitex Plans Pricing
   plan_count: 3
@@ -106,20 +126,20 @@ rules:
     warn: 4
   slug: kitex-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 32.4
-  delta: 0.0
+  band: emerging
+  composite: 26.6
+  delta: -5.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 9.7
     developer_ergonomics: 21.7
     discoverability: 59.3
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 32.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/kitex/refs/heads/main/screenshots/kitex-2026-06-20T184050.png
 security:
 - kind: domain-security

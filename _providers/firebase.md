@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 26.1
-  scored_at: '2026-08-10'
+  score: 22.5
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: REST API to programmatically create and manage Firebase projects, apps (Web, Android, Apple), and their configuration.
@@ -205,8 +205,8 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.9
-  delta: 0.0
+  composite: 44.6
+  delta: -3.3
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -217,14 +217,8 @@ score:
   previous_composite: 47.9
   provenance:
     mcp: first-party
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 66.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firebase/refs/heads/main/screenshots/firebase-2026-07-25T214552.png
 security:

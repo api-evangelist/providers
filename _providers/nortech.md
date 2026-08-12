@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-10'
+  score: 42.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -123,7 +123,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/nortech-openapi-original.json
+  url: openapi/_original/nortech-openapi-original.json
 - group: build
   title: ''
   type: Packages
@@ -214,13 +214,13 @@ overview: 'Nortech publishes 12 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 59
 score:
   band: developing
-  composite: 50.2
-  delta: 0.0
+  composite: 48.4
+  delta: -1.8
   facets:
     commercial_clarity: 28.9
-    contract_quality: 75.7
+    contract_quality: 72.9
     developer_ergonomics: 60.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 13.2
   previous_composite: 50.2
@@ -234,8 +234,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nortech/refs/heads/main/screenshots/nortech-2026-08-07T185521.png
 security:

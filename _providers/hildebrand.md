@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 4
@@ -199,13 +199,13 @@ plans:
 random_paper: 109
 score:
   band: developing
-  composite: 54.3
-  delta: 0.0
+  composite: 50.2
+  delta: -4.1
   facets:
     commercial_clarity: 73.7
-    contract_quality: 67.6
+    contract_quality: 65.1
     developer_ergonomics: 47.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 13.2
   previous_composite: 54.3
@@ -224,9 +224,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 52.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 35.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/screenshots/hildebrand-2026-08-07T170207.png
 security:

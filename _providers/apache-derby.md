@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Derby provides a standard JDBC API for database operations in both embedded (org.apache.derby.jdbc.EmbeddedDriver) and client/server (org.apache.derby.jdbc.ClientDriver) modes, supporting full SQL, st
@@ -36,6 +36,14 @@ apis:
   slug: apache-derby
 artifact_total: 29
 common:
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/derby/blob/trunk/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -140,7 +148,7 @@ overview: 'Apache Derby publishes 1 API on the [APIs.io](https://apis.io/) netwo
   The Apache Derby catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Apache Derby''s developer surface includes developer portal, documentation, getting-started guide, Stack Overflow tag, and 5 more developer resources.'
+  Apache Derby''s developer surface includes developer portal, documentation, getting-started guide, Stack Overflow tag, and 7 more developer resources.'
 plans:
 - name: Apache Derby Plans Pricing
   plan_count: 3
@@ -161,19 +169,19 @@ rules:
   slug: apache-derby-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.8
-  delta: 0.0
+  composite: 32.0
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 29.0
     developer_ergonomics: 28.3
     discoverability: 59.3
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 39.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-derby/refs/heads/main/screenshots/apache-derby-2026-06-20T172052.png
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -141,6 +141,10 @@ collections:
   name: AlphaSense Utility APIs
   slug: open-alphasense-utility-api
 common:
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/AlphaSense-Engineering/privatecloud-cli/blob/main/CONTRIBUTING.md
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -376,7 +380,7 @@ overview: 'AlphaSense publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
   The AlphaSense catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AlphaSense''s developer surface includes authentication, documentation, getting-started guide, support, and 18 more developer resources.'
+  AlphaSense''s developer surface includes authentication, documentation, getting-started guide, support, and 19 more developer resources.'
 plans:
 - name: Alphasense Plans Pricing
   plan_count: 6
@@ -409,9 +413,9 @@ score:
   delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 76.7
+    contract_quality: 73.9
     developer_ergonomics: 47.8
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 68.8
     operational_transparency: 36.8
   previous_composite: 58.1
@@ -422,8 +426,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphasense/refs/heads/main/screenshots/alphasense-2026-06-20T171557.png
 security:

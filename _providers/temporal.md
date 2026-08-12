@@ -22,14 +22,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-10'
+  score: 40.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -94,7 +94,7 @@ arazzos:
 - description: Read a Namespace, update its spec using the current resourceVersion, then confirm the change.
   name: Temporal Update a Namespace With Optimistic Concurrency
   slug: temporal-update-namespace-workflow
-artifact_total: 86
+artifact_total: 87
 collections:
 - collection_type: postman
   name: Temporal Cloud Operations API
@@ -103,6 +103,18 @@ collections:
   name: Temporal Cloud Operations API
   slug: open-cloud-ops-api
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/temporal-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/temporal-cloud-ops-api-overlay.yaml
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/temporalio/api/blob/main/LICENSE
 - group: build
   title: ''
   type: Packages
@@ -439,6 +451,10 @@ jsonld:
   property_count: 0
   slug: cloud-ops-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: temporal-mcp.yml
+  slug: temporal-mcpyml
 modified: '2026-06-20'
 name: Temporal
 nav: Providers
@@ -449,7 +465,7 @@ overview: 'Temporal publishes 6 APIs on the [APIs.io](https://apis.io/) network,
   The Temporal catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Temporal''s developer surface includes changelog, CLI, sandbox, authentication, developer portal, documentation, getting-started guide, and 39 more developer resources.'
+  Temporal''s developer surface includes changelog, CLI, sandbox, authentication, developer portal, documentation, getting-started guide, and 42 more developer resources.'
 plans:
 - name: Temporal Plans Pricing
   plan_count: 3
@@ -478,15 +494,15 @@ rules:
   slug: temporal-spectral-rules
 score:
   band: exemplar
-  composite: 73.0
-  delta: 0.0
+  composite: 66.4
+  delta: -6.6
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 65.9
-    developer_ergonomics: 65.2
+    commercial_clarity: 68.4
+    contract_quality: 63.4
+    developer_ergonomics: 73.9
     discoverability: 64.8
     governance: 69.8
-    operational_transparency: 78.9
+    operational_transparency: 55.3
   previous_composite: 73.0
   provenance:
     agentic_access: derived
@@ -497,9 +513,9 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/screenshots/temporal-2026-06-20T195103.png
 security:
 - kind: authentication

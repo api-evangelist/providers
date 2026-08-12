@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/hifi-openapi-original.json
+  url: openapi/_original/hifi-openapi-original.json
 - group: agent
   title: ''
   type: LLMsTxt
@@ -227,13 +227,13 @@ overview: 'Hifi publishes 15 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 68
 score:
   band: developing
-  composite: 48.8
-  delta: 0.0
+  composite: 47.3
+  delta: -1.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 65.7
+    contract_quality: 63.3
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 31.6
   previous_composite: 48.8
@@ -253,8 +253,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/screenshots/hifi-2026-07-25T221141.png
 security:

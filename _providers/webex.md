@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 989
   human_in_the_loop: 84
@@ -13484,16 +13485,16 @@ scopes:
   slug: webex-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: strong
-  composite: 58.9
-  delta: 0.0
+  band: developing
+  composite: 51.6
+  delta: -7.3
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 67.4
+    commercial_clarity: 36.8
+    contract_quality: 64.9
     developer_ergonomics: 56.5
     discoverability: 50.0
     governance: 68.8
-    operational_transparency: 42.1
+    operational_transparency: 26.3
   previous_composite: 58.9
   provenance:
     agentic_access: derived
@@ -13502,15 +13503,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 178
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 58.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/screenshots/webex-2026-06-20T201328.png
 security:
 - kind: authentication

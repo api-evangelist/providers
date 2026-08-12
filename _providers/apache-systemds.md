@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The SystemDS Python API (systemds) provides a Python interface for building end-to-end ML pipelines. It includes Matrix and Frame types for distributed data manipulation, built-in algorithms for prepr
@@ -36,6 +36,18 @@ apis:
   slug: apache-systemds-python-api
 artifact_total: 18
 common:
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/systemds/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/systemds/blob/main/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -103,7 +115,7 @@ network: true
 overview: 'Apache SystemDS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AutoML, Data Science, Distributed Computing, Machine Learning, and Open Source.
 
 
-  Apache SystemDS''s developer surface includes documentation, developer portal, getting-started guide, release notes, and 4 more developer resources.'
+  Apache SystemDS''s developer surface includes documentation, developer portal, getting-started guide, release notes, and 7 more developer resources.'
 plans:
 - name: Apache Systemds Plans Pricing
   plan_count: 3
@@ -115,19 +127,19 @@ rate_limits:
   slug: apache-systemds-rate-limits
 score:
   band: emerging
-  composite: 27.8
-  delta: 0.0
+  composite: 19.9
+  delta: -7.9
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 28.3
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 47.4
+    operational_transparency: 23.7
   previous_composite: 27.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-systemds/refs/heads/main/screenshots/apache-systemds-2026-06-20T172150.png
 security:
 - kind: domain-security

@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-10'
+  score: 32.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 109
   human_in_the_loop: 0
@@ -94,6 +94,10 @@ asyncapis:
   name: Bioflyte Event Surface
   slug: bioflyte-event-surface
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bioflyte-content-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -221,32 +225,32 @@ overview: 'BioFlyte publishes 20 APIs on the [APIs.io](https://apis.io/) network
   The BioFlyte catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  BioFlyte''s developer surface includes authentication, engineering blog, product news, YouTube channel, and 23 more developer resources.'
+  BioFlyte''s developer surface includes authentication, engineering blog, product news, YouTube channel, and 24 more developer resources.'
 random_paper: 50
 score:
   band: emerging
-  composite: 27.5
-  delta: 0.2
+  composite: 26.6
+  delta: -0.9
   facets:
     commercial_clarity: 21.1
-    contract_quality: 37.2
+    contract_quality: 38.0
     developer_ergonomics: 16.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 27.3
+  previous_composite: 27.5
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 50.0
-      derived: 1
-      marker_coverage: 50.0
-      total: 2
+      callable: 54.5
+      derived: 12
+      marker_coverage: 54.5
+      total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/screenshots/bioflyte-2026-08-07T162453.png
 security:

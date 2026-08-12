@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -258,15 +259,15 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 49.9
-  delta: 0.0
+  composite: 45.8
+  delta: -4.1
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 22.9
-    developer_ergonomics: 47.8
+    commercial_clarity: 50.0
+    contract_quality: 22.0
+    developer_ergonomics: 54.3
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 49.9
   provenance:
     agentic_access: derived
@@ -275,8 +276,8 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure/refs/heads/main/screenshots/azure-2026-06-20T172833.png
 security:

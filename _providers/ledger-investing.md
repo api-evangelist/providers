@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-10'
+  score: 34.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -58,6 +58,22 @@ apis:
   slug: ledger-investing-triangles-api
 artifact_total: 12
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ledger-investing-analytics-overlay.yaml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/LedgerInvesting/ledger-analytics/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/LedgerInvesting/ledger-analytics/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/LedgerInvesting/ledger-analytics/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -206,17 +222,17 @@ network: true
 overview: 'Ledger Investing publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Cashflow Models API, Development Models API, Forecast Models API, and 3 more. Tagged areas include Company, Insurance Tech, Insurance, Reinsurance, and Insurance-Linked Securities.
 
 
-  Ledger Investing''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 26 more developer resources.'
+  Ledger Investing''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 30 more developer resources.'
 random_paper: 31
 score:
   band: developing
-  composite: 55.4
-  delta: 0.0
+  composite: 54.0
+  delta: -1.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 60.2
+    contract_quality: 58.0
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 31.6
   previous_composite: 55.4
@@ -236,8 +252,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/screenshots/ledger-investing-2026-07-25T224810.png
 security:

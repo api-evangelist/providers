@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Public and authenticated REST endpoints for spot and margin trading, including order placement, cancellation, order-book queries, trade history, and account balance management.
@@ -48,6 +48,14 @@ apis:
   slug: gate-websocket-api-v4
 artifact_total: 10
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/gateio/gatews/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/gateio/gatews/releases
 - group: auth
   title: ''
   type: DomainSecurity
@@ -119,7 +127,7 @@ overview: 'Gate.io publishes 1 API on the [APIs.io](https://apis.io/) network: G
   The Gate.io catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Gate.io''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
+  Gate.io''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Gate Io Plans Pricing
   plan_count: 5
@@ -131,24 +139,24 @@ rate_limits:
   slug: gate-io-rate-limits
 score:
   band: thin
-  composite: 34.6
-  delta: 0.0
+  composite: 38.1
+  delta: 3.5
   facets:
     commercial_clarity: 50.0
     contract_quality: 45.2
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 68.4
   previous_composite: 34.6
   regulatory:
     applies: true
     matched_via: tags
-    regime: Payments
-    regime_id: payments
-    score: 17.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 28.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gate-io/refs/heads/main/screenshots/gate-io-2026-06-20T181655.png
 security:

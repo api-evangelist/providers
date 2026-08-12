@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.6
-  scored_at: '2026-08-10'
+  score: 26.4
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Advance workflow instances that are paused on an intermediate event.
@@ -37,8 +37,16 @@ apis:
 - description: Start workflow orchestrations and pass context data into them.
   name: Liberate Innovations Workflows API
   slug: liberate-innovations-workflows-api
-artifact_total: 5
+artifact_total: 6
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/liberate-innovations-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/liberate-innovations-orchestration-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -144,6 +152,10 @@ description: Liberate Innovations, Inc. (trading as Liberate) is a Palo Alto, Ca
   Snapsheet, and Microsoft Outlook.
 image: https://cdn.prod.website-files.com/69d93976ca90059d5696cd0b/69d93976ca90059d5696cef7_Webclip.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: liberate-innovations-mcp.yml
+  slug: liberate-innovations-mcpyml
 modified: '2026-07-19'
 name: Liberate Innovations
 nav: Providers
@@ -151,17 +163,17 @@ network: true
 overview: 'Liberate Innovations publishes 2 APIs on the [APIs.io](https://apis.io/) network: Events API and Workflows API. Tagged areas include Company, Insurance, InsurTech, Artificial Intelligence, and Voice AI.
 
 
-  Liberate Innovations'' developer surface includes documentation, API reference, getting-started guide, engineering blog, product news, signup flow, support, and 18 more developer resources.'
+  Liberate Innovations'' developer surface includes documentation, API reference, getting-started guide, engineering blog, product news, signup flow, support, and 20 more developer resources.'
 random_paper: 5
 score:
   band: thin
-  composite: 34.1
-  delta: 0.0
+  composite: 33.3
+  delta: -0.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 17.1
-    developer_ergonomics: 42.9
-    discoverability: 87.0
+    contract_quality: 16.4
+    developer_ergonomics: 45.1
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 15.8
   previous_composite: 34.1
@@ -180,8 +192,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 28.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liberate-innovations/refs/heads/main/screenshots/liberate-innovations-2026-07-25T225018.png
 security:

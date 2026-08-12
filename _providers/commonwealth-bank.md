@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -115,6 +115,10 @@ apis:
   slug: commonwealth-bank-transaction-api-api
 artifact_total: 51
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/commonwealth-bank-cdr-accounts-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -295,7 +299,7 @@ network: true
 overview: 'Commonwealth Bank publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Accounts API API, Balances API API, Banking Account Balances API, and 11 more. Tagged areas include Financial, Banks, Consumer Banking, Business Banking, and Open Banking.
 
 
-  Commonwealth Bank''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 26 more developer resources.'
+  Commonwealth Bank''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 27 more developer resources.'
 random_paper: 11
 scopes:
 - name: Commonwealth Bank Scopes
@@ -303,14 +307,14 @@ scopes:
   slug: commonwealth-bank-scopes
   summary_line: 10 scopes
 score:
-  band: developing
-  composite: 44.2
-  delta: 0.0
+  band: thin
+  composite: 40.6
+  delta: -3.6
   facets:
     commercial_clarity: 42.1
     contract_quality: 13.2
     developer_ergonomics: 56.0
-    discoverability: 77.8
+    discoverability: 66.7
     governance: 20.8
     operational_transparency: 39.5
   previous_composite: 44.2
@@ -329,9 +333,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 77.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 59.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/screenshots/commonwealth-bank-2026-07-21T114720.png
 security:

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-10'
+  score: 34.5
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Aurora Connect (Buf) API for the SEC-registered securities-finance ATS — authentication, company/instrument reference, order management (OMS), venue order book, contract requests, contract lifecyc
@@ -142,8 +142,8 @@ overview: 'Provable publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 47
 score:
   band: developing
-  composite: 44.3
-  delta: 0.0
+  composite: 42.3
+  delta: -2.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 51.6
@@ -158,12 +158,12 @@ score:
     skills: derived
   regulatory:
     applies: true
-    matched_via: weak_tags
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 63.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 50.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -96,11 +96,11 @@ rate_limits:
   slug: kegg-rest-api
 score:
   band: thin
-  composite: 30.1
-  delta: 0.0
+  composite: 29.6
+  delta: -0.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 61.2
+    contract_quality: 59.0
     developer_ergonomics: 0.0
     discoverability: 81.5
     governance: 0.0
@@ -119,8 +119,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/screenshots/kegg-2026-06-20T183941.png
 security:

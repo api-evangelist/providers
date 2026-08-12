@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 58.1
-  scored_at: '2026-08-10'
+  score: 54.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -67,6 +68,10 @@ apis:
   slug: amazon-appsync-types-api
 artifact_total: 265
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-appsync-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -817,7 +822,7 @@ overview: 'Amazon AppSync publishes 9 APIs on the [APIs.io](https://apis.io/) ne
   The Amazon AppSync catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon AppSync''s developer surface includes authentication and 9 more developer resources.'
+  Amazon AppSync''s developer surface includes authentication and 10 more developer resources.'
 random_paper: 65
 rules:
 - name: Amazon AppSync API Rules
@@ -838,11 +843,11 @@ rules:
   slug: amazon-appsync-spectral-rules
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 38.7
+  delta: -0.8
   facets:
     commercial_clarity: 0.0
-    contract_quality: 79.1
+    contract_quality: 76.1
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 69.8
@@ -857,8 +862,8 @@ score:
       marker_coverage: 0.0
       total: 9
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/screenshots/amazon-appsync-2026-07-25T195928.png
 security:

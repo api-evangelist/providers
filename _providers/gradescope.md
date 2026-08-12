@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Gradescope's primary supported integration surface. Implements the 1EdTech LTI 1.3 / LTI Advantage standard, including Names and Role Provisioning Services (NRPS) for roster sync, Assignment and Grade
@@ -111,18 +111,18 @@ rate_limits:
   slug: gradescope-rate-limits
 score:
   band: emerging
-  composite: 27.7
-  delta: -0.1
+  composite: 27.4
+  delta: -0.3
   facets:
     commercial_clarity: 28.9
-    contract_quality: 31.8
+    contract_quality: 30.6
     developer_ergonomics: 8.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 27.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 27.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gradescope/refs/heads/main/screenshots/gradescope-2026-07-25T220156.png
 security:

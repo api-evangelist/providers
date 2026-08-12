@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -18,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -204,16 +205,16 @@ rate_limits:
   slug: 73-strings-rate-limits
 score:
   band: developing
-  composite: 54.7
-  delta: -0.6
+  composite: 53.5
+  delta: -1.2
   facets:
     commercial_clarity: 73.7
-    contract_quality: 62.0
+    contract_quality: 61.9
     developer_ergonomics: 45.1
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 55.3
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -224,8 +225,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/screenshots/73-strings-2026-08-07T160710.png
 security:

@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 57.7
-  scored_at: '2026-08-10'
+  score: 54.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -106,6 +107,30 @@ collections:
   name: GitHub Copilot REST API
   slug: open-github-copilot
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/github/github-mcp-server/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/github/github-mcp-server/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/github/github-mcp-server/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/github/github-mcp-server/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/github/github-mcp-server/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/github/github-mcp-server/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -744,7 +769,7 @@ overview: 'GitHub Copilot publishes 6 APIs on the [APIs.io](https://apis.io/) ne
   The GitHub Copilot catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  GitHub Copilot''s developer surface includes authentication, changelog, CLI, developer portal, getting-started guide, engineering blog, signup flow, and 38 more developer resources.'
+  GitHub Copilot''s developer surface includes authentication, changelog, CLI, developer portal, getting-started guide, engineering blog, signup flow, and 44 more developer resources.'
 plans:
 - name: Github Copilot Plans Pricing
   plan_count: 5
@@ -778,15 +803,15 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 75.0
-  delta: 0.0
+  composite: 70.5
+  delta: -4.5
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 79.8
+    commercial_clarity: 68.4
+    contract_quality: 76.9
     developer_ergonomics: 71.7
     discoverability: 83.3
     governance: 69.8
-    operational_transparency: 63.2
+    operational_transparency: 50.0
   previous_composite: 75.0
   provenance:
     agentic_access: derived
@@ -797,8 +822,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/screenshots/github-copilot-2026-06-20T181939.png
 security:

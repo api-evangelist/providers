@@ -10,12 +10,12 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.1
-  scored_at: '2026-08-10'
+  score: 40.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 279
   human_in_the_loop: 1
@@ -284,6 +284,26 @@ collections:
   name: API Reference
   slug: open-zuora-v1
 common:
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.zuora.com/
+- group: build
+  title: ''
+  type: SDKs
+  url: https://developer.zuora.com/docs/guides/libraries/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.zuora.com/en/release-notes
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.zuora.com/quickstart-guides/integration-tutorials/
+- group: other
+  title: ''
+  type: OpenIDConnect
+  url: https://www.zuora.com/.well-known/oauth-authorization-server
 - group: agent
   title: ''
   type: AgenticAccess
@@ -335,7 +355,7 @@ network: true
 overview: 'Zuora publishes 79 APIs on the [APIs.io](https://apis.io/) network, including Accounting Codes API, Accounting Periods API, Accounts API, and 76 more. Tagged areas include Billing, Finance, Payments, and Subscriptions.
 
 
-  Zuora''s developer surface includes developer portal, documentation, engineering blog, and 6 more developer resources.'
+  Zuora''s developer surface includes support, changelog, getting-started guide, developer portal, documentation, engineering blog, and 8 more developer resources.'
 plans:
 - name: Zuora Plans Pricing
   plan_count: 3
@@ -347,15 +367,15 @@ rate_limits:
   slug: zuora-rate-limits
 score:
   band: thin
-  composite: 30.1
-  delta: 0.0
+  composite: 30.5
+  delta: 0.4
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 52.1
-    developer_ergonomics: 19.6
-    discoverability: 40.7
+    commercial_clarity: 15.8
+    contract_quality: 50.2
+    developer_ergonomics: 41.3
+    discoverability: 48.1
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 30.1
   provenance:
     agentic_access: derived
@@ -369,9 +389,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 9.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 18.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zuora/refs/heads/main/screenshots/zuora-2026-06-20T202000.png
 security:

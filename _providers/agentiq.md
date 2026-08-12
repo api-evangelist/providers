@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
@@ -98,13 +98,13 @@ overview: 'AgentIQ is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 49
 score:
   band: emerging
-  composite: 22.3
-  delta: 0.0
+  composite: 21.3
+  delta: -1.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 23.9
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 12.5
     operational_transparency: 5.3
   previous_composite: 22.3
@@ -116,8 +116,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 25.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentiq/refs/heads/main/screenshots/agentiq-2026-07-25T195233.png
 security:

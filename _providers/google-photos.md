@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -150,15 +150,15 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.8
-  delta: 0.0
+  composite: 43.2
+  delta: -8.6
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 72.9
+    commercial_clarity: 26.3
+    contract_quality: 70.1
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 51.8
   provenance:
     agentic_access: derived
@@ -167,9 +167,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-photos/refs/heads/main/screenshots/google-photos-2026-06-20T182223.png
 security:
 - kind: authentication

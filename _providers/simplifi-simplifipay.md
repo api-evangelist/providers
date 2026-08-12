@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -71,6 +72,10 @@ asyncapis:
   name: SimpliFi Webhooks
   slug: simplifi-simplifipay-webhooks-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/simplifi-simplifipay-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -193,15 +198,15 @@ overview: 'Simplifi/Simplifipay publishes 9 APIs on the [APIs.io](https://apis.i
   The Simplifi/Simplifipay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Simplifi/Simplifipay''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 19 more developer resources.'
+  Simplifi/Simplifipay''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 20 more developer resources.'
 random_paper: 9
 score:
   band: developing
-  composite: 53.1
-  delta: 0.0
+  composite: 50.7
+  delta: -2.4
   facets:
     commercial_clarity: 42.1
-    contract_quality: 75.1
+    contract_quality: 72.3
     developer_ergonomics: 60.3
     discoverability: 81.5
     governance: 20.8
@@ -222,9 +227,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 65.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 53.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

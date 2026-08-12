@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -140,19 +141,19 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/moveworks-content-gateway-openapi.yaml
+  url: openapi/_original/moveworks-content-gateway-openapi.yaml
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/moveworks-identity-gateway-openapi.yaml
+  url: openapi/_original/moveworks-identity-gateway-openapi.yaml
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/moveworks-knowledge-gateway-openapi.yaml
+  url: openapi/_original/moveworks-knowledge-gateway-openapi.yaml
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/moveworks-forms-gateway-openapi.yaml
+  url: openapi/_original/moveworks-forms-gateway-openapi.yaml
 - group: other
   title: ''
   type: Overlay
@@ -287,11 +288,11 @@ overview: 'Moveworks publishes 9 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 77
 score:
   band: strong
-  composite: 59.7
-  delta: 0.0
+  composite: 59.1
+  delta: -0.6
   facets:
     commercial_clarity: 47.4
-    contract_quality: 68.2
+    contract_quality: 65.7
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
@@ -307,8 +308,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/screenshots/moveworks-2026-08-07T184356.png
 security:

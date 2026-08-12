@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: Retrieve a web store's product catalog for building custom catalog and product-detail pages. Documented API 2 methods include GetProductCategoryList (all categories and subcategories in a store with c
@@ -122,8 +122,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 18.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inksoft/refs/heads/main/screenshots/inksoft-2026-07-25T222447.png
 security:

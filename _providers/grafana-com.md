@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 20
 apis:
 - description: The full Grafana HTTP API surface for self-managed Grafana and Grafana Enterprise. Covers dashboards, folders, data sources, organizations, users, teams, service accounts, API keys, access control (RB
@@ -433,18 +433,18 @@ rate_limits:
   slug: grafana-com-rate-limits
 score:
   band: developing
-  composite: 50.0
-  delta: 0.0
+  composite: 52.6
+  delta: 2.6
   facets:
-    commercial_clarity: 78.9
+    commercial_clarity: 92.1
     contract_quality: 32.3
     developer_ergonomics: 56.5
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 68.4
   previous_composite: 50.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grafana-com/refs/heads/main/screenshots/grafana-com-2026-06-20T182343.png
 security:

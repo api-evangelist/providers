@@ -27,10 +27,34 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/bridgecrewio/checkov/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/bridgecrewio/checkov/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/bridgecrewio/checkov/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/bridgecrewio/checkov/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/bridgecrewio/checkov/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/bridgecrewio/checkov/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -86,22 +110,22 @@ network: true
 overview: 'Bridgecrew is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cloud Security, Infrastructure as Code, and DevSecOps.
 
 
-  Bridgecrew''s developer surface includes documentation, getting-started guide, signup flow, CLI, changelog, and 6 more developer resources.'
+  Bridgecrew''s developer surface includes documentation, getting-started guide, signup flow, CLI, changelog, and 12 more developer resources.'
 random_paper: 10
 score:
   band: emerging
-  composite: 17.3
-  delta: 0.0
+  composite: 18.7
+  delta: 1.4
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 34.8
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 31.6
   previous_composite: 17.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridgecrew/refs/heads/main/screenshots/bridgecrew-2026-07-25T203814.png
 security:

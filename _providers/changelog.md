@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: The Changelog podcast RSS feed provides access to all episodes of The Changelog, a weekly podcast covering software development, open source, and the people and projects behind the code. The feed retu
@@ -45,6 +45,14 @@ apis:
   slug: github-platform
 artifact_total: 36
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/thechangelog/changelog.com/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/thechangelog/changelog.com/blob/master/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -151,7 +159,7 @@ network: true
 overview: 'Changelog publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Community, Media, Open Source, and Podcasts.
 
 
-  Changelog''s developer surface includes GitHub presence and 15 more developer resources.'
+  Changelog''s developer surface includes GitHub presence and 17 more developer resources.'
 plans:
 - name: Changelog Plans Pricing
   plan_count: 3
@@ -163,19 +171,19 @@ rate_limits:
   slug: changelog-rate-limits
 score:
   band: emerging
-  composite: 21.3
-  delta: 0.0
+  composite: 13.5
+  delta: -7.8
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 21.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/changelog/refs/heads/main/screenshots/changelog-2026-06-20T174212.png
 security:
 - kind: domain-security

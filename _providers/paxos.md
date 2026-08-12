@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 61.9
-  scored_at: '2026-08-10'
+  score: 58.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 3
@@ -328,11 +328,11 @@ scopes:
   summary_line: 66 scopes · clientCredentials
 score:
   band: developing
-  composite: 54.1
-  delta: 0.0
+  composite: 53.5
+  delta: -0.6
   facets:
     commercial_clarity: 34.2
-    contract_quality: 68.6
+    contract_quality: 66.0
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
@@ -354,8 +354,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paxos/refs/heads/main/screenshots/paxos-2026-08-07T191628.png
 security:

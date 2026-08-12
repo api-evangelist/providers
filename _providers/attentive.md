@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 18
 apis:
 - description: Public applications must authenticate using the OAuth 2.0 specification to use Attentive’s API resources. Attentive uses OAuth 2.0’s authorization code grant flow to issue access tokens on behalf of u
@@ -146,6 +146,10 @@ collections:
   name: Attentive Access Token Webhooks API
   slug: postman-attentive-webhooks-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/attentive-v1-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -312,7 +316,7 @@ overview: 'Attentive publishes 18 APIs on the [APIs.io](https://apis.io/) networ
   The Attentive catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Attentive''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 30 more developer resources.'
+  Attentive''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 31 more developer resources.'
 random_paper: 52
 rate_limits:
 - limit_count: 7
@@ -329,9 +333,9 @@ score:
   delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.5
+    contract_quality: 66.9
     developer_ergonomics: 73.4
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 11.5
     operational_transparency: 86.8
   previous_composite: 63.7
@@ -344,8 +348,14 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 73.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/screenshots/attentive-2026-07-25T201630.png
 security:

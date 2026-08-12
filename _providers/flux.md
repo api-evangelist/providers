@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -66,6 +67,14 @@ collections:
   name: Flux Image Generation API
   slug: open-flux-image-generation
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/black-forest-labs/flux/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/black-forest-labs/flux/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -165,7 +174,7 @@ overview: 'Flux publishes 3 APIs on the [APIs.io](https://apis.io/) network: Edi
   The Flux catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Flux''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, signup flow, and 11 more developer resources.'
+  Flux''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, signup flow, and 13 more developer resources.'
 plans:
 - name: Flux Plans Pricing
   plan_count: 3
@@ -185,16 +194,16 @@ rules:
     warn: 5
   slug: flux-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 60.0
-  delta: 0.0
+  band: developing
+  composite: 54.1
+  delta: -5.9
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 73.6
+    commercial_clarity: 50.0
+    contract_quality: 70.9
     developer_ergonomics: 45.7
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 60.0
   provenance:
     agentic_access: derived
@@ -203,9 +212,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/flux/refs/heads/main/screenshots/flux-2026-06-20T181418.png
 security:
 - kind: authentication

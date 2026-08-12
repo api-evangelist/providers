@@ -27,10 +27,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 0
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/opensouls/opensouls/blob/main/LICENSE
 - group: build
   title: ''
   type: GitHubOrganization
@@ -62,7 +66,7 @@ network: true
 overview: 'Open Souls is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Agents, LLM, Agent Framework, and AI Souls.
 
 
-  Open Souls'' developer surface includes CLI and 4 more developer resources.'
+  Open Souls'' developer surface includes CLI and 5 more developer resources.'
 random_paper: 1
 score:
   band: minimal
@@ -76,8 +80,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 8.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-souls/refs/heads/main/screenshots/open-souls-2026-08-07T190531.png
 slug: open-souls

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -234,15 +234,15 @@ rules:
   slug: apple-pay-spectral-rules
 score:
   band: developing
-  composite: 55.7
-  delta: 0.0
+  composite: 49.7
+  delta: -6.0
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 79.1
+    commercial_clarity: 23.7
+    contract_quality: 76.1
     developer_ergonomics: 39.1
     discoverability: 81.5
     governance: 68.8
-    operational_transparency: 47.4
+    operational_transparency: 23.7
   previous_composite: 55.7
   provenance:
     agentic_access: derived
@@ -257,9 +257,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apple-pay/refs/heads/main/screenshots/apple-pay-2026-06-20T172320.png
 security:
 - kind: authentication

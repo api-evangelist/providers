@@ -4,10 +4,10 @@
  "limit": 1000,
  "bands": [
   {
-   "band": "strong",
-   "label": "Strong",
-   "range": "56 – 65.9",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "band": "developing",
+   "label": "Developing",
+   "range": "42 – 55.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 1,
    "shown": 1,
    "providers": [
@@ -16,19 +16,19 @@
      "slug": "shell",
      "description": "Royal Dutch Shell plc is a global energy company operating across oil, gas, renewable energy, lubricants, aviation fuel, and mobility sectors. The Shell Developer Portal provides APIs for B2B mobility card management, loyalty programs, lubricants ordering, aviation fuel reselling, and fleet management. SDKs are available in Java, .NET, TypeScript, PHP, Python, and Ruby.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/screenshots/shell-2026-06-20T193753.png",
-     "score": 57.8,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 52.7,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 78.0,
+      "contract_quality": 75.1,
       "governance": 68.8,
-      "operational_transparency": 42.1,
+      "operational_transparency": 26.3,
       "developer_ergonomics": 41.3,
-      "commercial_clarity": 50.0
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -60,30 +60,30 @@
    "open": true
   },
   {
-   "band": "developing",
-   "label": "Developing",
-   "range": "42 – 55.9",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 1,
-   "shown": 1,
+   "band": "thin",
+   "label": "Thin",
+   "range": "28 – 41.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 2,
+   "shown": 2,
    "providers": [
     {
      "name": "Tesla",
      "slug": "tesla",
      "description": "Tesla, Inc. is an American electric vehicle and clean energy company founded in 2003. Tesla offers the Fleet API for partners to access Tesla vehicles and energy devices with owner-granted permissions, covering vehicle telemetry, remote commands, charging management, energy site management, and fleet management capabilities.",
-     "score": 42.8,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 36.4,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 60.9,
+      "discoverability": 88.9,
+      "contract_quality": 58.9,
       "governance": 58.3,
-      "operational_transparency": 31.6,
+      "operational_transparency": 7.9,
       "developer_ergonomics": 19.6,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -110,36 +110,32 @@
       "dry_run_mode": false
      },
      "rank": 2
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "28 – 41.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 3,
-   "shown": 3,
-   "providers": [
+    },
     {
      "name": "Baker Hughes",
      "slug": "baker-hughes",
      "description": "Baker Hughes is an energy technology company providing solutions to energy and industrial customers worldwide. Their digital portfolio includes the Cordant industrial software platform for asset performance management, process optimization, and emissions management, along with the BHC3 AI Suite (in alliance with C3.ai) for enterprise AI applications in oil and gas. Baker Hughes operates across oilfield services, industrial equipment, and digital solutions segments globally.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/screenshots/baker-hughes-2026-06-20T172934.png",
-     "score": 33.9,
+     "score": 28.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 12.9,
       "governance": 68.8,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 15.2,
-      "commercial_clarity": 50.0
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 25.7,
+      "matched_via": "tags"
+     },
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -159,25 +155,36 @@
       "dry_run_mode": false
      },
      "rank": 3
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "13 – 27.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 11,
+   "shown": 11,
+   "providers": [
     {
      "name": "Energy Transfer",
      "slug": "energy-transfer",
      "description": "Energy Transfer is one of the largest and most diversified midstream energy companies in North America, owning and operating natural gas, crude oil, NGL, and refined products pipelines, terminals, and storage facilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/energy-transfer/refs/heads/main/screenshots/energy-transfer-2026-06-20T180705.png",
-     "score": 29.9,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 25.0,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 56.6,
+      "contract_quality": 54.5,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -209,19 +216,19 @@
      "name": "Air Products and Chemicals",
      "slug": "air-products-and-chemicals",
      "description": "Air Products and Chemicals, Inc. is a global industrial gases company founded in 1940 and headquartered in Allentown, Pennsylvania. It is one of the largest producers of hydrogen and helium worldwide, supplying atmospheric, process, and specialty gases including nitrogen, oxygen, argon, hydrogen, helium, and carbon dioxide, as well as related equipment and engineering services to customers in manufacturing, healthcare, technology, energy, and other industries. Air Products does not currently provide a public developer API.",
-     "score": 28.8,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 24.3,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 12.9,
       "governance": 58.3,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 17.4,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -248,35 +255,25 @@
       "dry_run_mode": false
      },
      "rank": 5
-    }
-   ]
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "13 – 27.9",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 13,
-   "shown": 13,
-   "providers": [
+    },
     {
      "name": "Southwestern Energy",
      "slug": "southwestern-energy",
      "description": "Southwestern Energy Company (SWN) is one of the largest producers of natural gas in the United States, with exploration and production operations focused primarily on the Marcellus and Haynesville shales. In October 2024, Southwestern Energy completed a merger with Expand Energy Corporation (formerly Chesapeake Energy), though the SWN brand and investor relations infrastructure continues to operate under swn.com. As a Fortune 500 energy company, SWN focuses on responsible development of natural gas resources in the Appalachian Basin and Gulf Coast regions.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/southwestern-energy/refs/heads/main/screenshots/southwestern-energy-2026-06-20T194233.png",
-     "score": 26.9,
+     "score": 22.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 27.4,
       "governance": 68.8,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 2.2,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -309,19 +306,19 @@
      "slug": "enterprise-products-partners",
      "description": "Enterprise Products Partners L.P. is one of the largest publicly traded partnerships and a leading North American provider of midstream energy services, headquartered in Houston, Texas. The company operates more than 50,000 miles of pipeline and over 300 million barrels of liquids storage, providing crude oil and natural gas transportation, NGL processing and fractionation, petrochemical and refined product logistics, storage, and marine transportation services. The company does not publish a public developer API portal but maintains internal and partner-facing integration capabilities for pipeline operations and energy logistics.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/enterprise-products-partners/refs/heads/main/screenshots/enterprise-products-partners-2026-06-20T180729.png",
-     "score": 26.3,
+     "score": 21.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 56.6,
+      "contract_quality": 54.5,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -354,19 +351,19 @@
      "slug": "valero-energy",
      "description": "Valero Energy Corporation is the world's largest independent petroleum refiner and a leading producer of low-carbon transportation fuels. Headquartered in San Antonio, Texas, Valero operates 14 petroleum refineries with 3 million barrels per day capacity, 12 ethanol plants, and renewable diesel production facilities across the US, Canada, and UK. The company trades on NYSE as VLO and is a Fortune 100 company.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/valero-energy/refs/heads/main/screenshots/valero-energy-2026-06-20T200749.png",
-     "score": 25.9,
+     "score": 21.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 8.1,
       "governance": 68.8,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -395,34 +392,34 @@
      "rank": 8
     },
     {
-     "name": "Cheniere Energy",
-     "slug": "cheniere-energy",
-     "description": "Cheniere Energy, Inc. is an international energy company headquartered in Houston, Texas, and is the leading producer and exporter of liquefied natural gas (LNG) in the United States. Cheniere operates the Sabine Pass LNG terminal in Louisiana and the Corpus Christi LNG terminal in Texas, providing full-service LNG solutions including liquefaction, vessel loading, and regasification to customers worldwide. Cheniere does not currently expose a public developer API; supplier and contractor integration is handled through a dedicated portal, and investors and customers are served through corporate, sustainability, and IR channels.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cheniere-energy/refs/heads/main/screenshots/cheniere-energy-2026-06-20T174259.png",
-     "score": 24.1,
+     "name": "Constellation Energy",
+     "slug": "constellation-energy",
+     "description": "Constellation Energy Corporation is a Fortune 500 clean-energy producer and competitive retail electricity and natural gas supplier in the United States, generating power from a fleet of nuclear, hydro, wind, and solar facilities. Constellation does not publish a public developer portal; programmatic interactions are delivered to enterprise and large commercial customers through the Energy Manager platform (account-managed onboarding, no public API specifications) and consumer interactions are handled through the My Constellation account portal. EDI 867 (usage) and 810 (invoice) remain the most common machine-to-machine integration paths and are arranged on a contract-by-contract basis.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/constellation-energy/refs/heads/main/screenshots/constellation-energy-2026-06-20T174911.png",
+     "score": 18.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 32.3,
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 39.5
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
-      "score": 8.1,
+      "score": 18.9,
       "matched_via": "tags"
      },
-     "agent_score": 19.4,
-     "agent_band": "agent-aware",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
      "agent_dims": {
-      "spec_presence": true,
+      "spec_presence": false,
       "agentic_access": false,
       "mcp_server": false,
       "auth_clarity": false,
@@ -444,19 +441,19 @@
      "slug": "aes",
      "description": "The AES Corporation is a Fortune 500 global energy company that generates and distributes electrical power. AES operates a diverse portfolio of renewable, thermal, LNG, and battery storage facilities across multiple countries, serving utilities, industrial facilities, and end users. AES is the largest global supplier of clean energy to corporations in the Americas and operates 34.7 GW globally with $12.2 billion in annual revenue. The company serves 18.7 million household equivalents through utilities in Indiana, Ohio, and El Salvador. AES also co-founded Fluence Energy, a leading energy storage and software platform company.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aes/refs/heads/main/screenshots/aes-2026-06-20T165545.png",
-     "score": 22.8,
+     "score": 18.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 19.6,
-      "commercial_clarity": 50.0
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -485,34 +482,34 @@
      "rank": 10
     },
     {
-     "name": "Antero Resources",
-     "slug": "antero-resources",
-     "description": "Antero Resources is an independent oil and natural gas company engaged in the exploration, development, and production of natural gas, NGLs, and oil properties in the Appalachian Basin (West Virginia and Ohio). It is one of the largest natural gas producers in the United States, with operations focused on the Marcellus and Utica Shale formations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/antero-resources/refs/heads/main/screenshots/antero-resources-2026-06-20T172022.png",
-     "score": 21.3,
+     "name": "Cheniere Energy",
+     "slug": "cheniere-energy",
+     "description": "Cheniere Energy, Inc. is an international energy company headquartered in Houston, Texas, and is the leading producer and exporter of liquefied natural gas (LNG) in the United States. Cheniere operates the Sabine Pass LNG terminal in Louisiana and the Corpus Christi LNG terminal in Texas, providing full-service LNG solutions including liquefaction, vessel loading, and regasification to customers worldwide. Cheniere does not currently expose a public developer API; supplier and contractor integration is handled through a dedicated portal, and investors and customers are served through corporate, sustainability, and IR channels.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cheniere-energy/refs/heads/main/screenshots/cheniere-energy-2026-06-20T174259.png",
+     "score": 17.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 0.0,
+      "contract_quality": 32.1,
       "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 50.0
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
-      "score": 18.9,
+      "score": 8.1,
       "matched_via": "tags"
      },
-     "agent_score": 3.2,
-     "agent_band": "human-only",
+     "agent_score": 19.4,
+     "agent_band": "agent-aware",
      "agent_dims": {
-      "spec_presence": false,
+      "spec_presence": true,
       "agentic_access": false,
       "mcp_server": false,
       "auth_clarity": false,
@@ -530,23 +527,23 @@
      "rank": 11
     },
     {
-     "name": "BWX Technologies",
-     "slug": "bwx-technologies",
-     "description": "BWX Technologies is a manufacturer of nuclear components and provider of nuclear services to the U.S. government and commercial customers worldwide. The company delivers innovative nuclear solutions across naval propulsion, small modular reactors, nuclear fuel, medical isotopes, and complex site operations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bwx-technologies/refs/heads/main/screenshots/bwx-technologies-2026-06-20T173824.png",
-     "score": 21.2,
+     "name": "Antero Resources",
+     "slug": "antero-resources",
+     "description": "Antero Resources is an independent oil and natural gas company engaged in the exploration, development, and production of natural gas, NGLs, and oil properties in the Appalachian Basin (West Virginia and Ohio). It is one of the largest natural gas producers in the United States, with operations focused on the Marcellus and Utica Shale formations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/antero-resources/refs/heads/main/screenshots/antero-resources-2026-06-20T172022.png",
+     "score": 16.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 60.5
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -575,23 +572,23 @@
      "rank": 12
     },
     {
-     "name": "Constellation Energy",
-     "slug": "constellation-energy",
-     "description": "Constellation Energy Corporation is a Fortune 500 clean-energy producer and competitive retail electricity and natural gas supplier in the United States, generating power from a fleet of nuclear, hydro, wind, and solar facilities. Constellation does not publish a public developer portal; programmatic interactions are delivered to enterprise and large commercial customers through the Energy Manager platform (account-managed onboarding, no public API specifications) and consumer interactions are handled through the My Constellation account portal. EDI 867 (usage) and 810 (invoice) remain the most common machine-to-machine integration paths and are arranged on a contract-by-contract basis.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/constellation-energy/refs/heads/main/screenshots/constellation-energy-2026-06-20T174911.png",
-     "score": 18.6,
+     "name": "BWX Technologies",
+     "slug": "bwx-technologies",
+     "description": "BWX Technologies is a manufacturer of nuclear components and provider of nuclear services to the U.S. government and commercial customers worldwide. The company delivers innovative nuclear solutions across naval propulsion, small modular reactors, nuclear fuel, medical isotopes, and complex site operations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bwx-technologies/refs/heads/main/screenshots/bwx-technologies-2026-06-20T173824.png",
+     "score": 14.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 4.3,
-      "commercial_clarity": 50.0
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -620,28 +617,28 @@
      "rank": 13
     },
     {
-     "name": "BP",
-     "slug": "bp",
-     "description": "BP (British Petroleum) is one of the world's largest integrated energy companies, operating in over 70 countries across oil and gas exploration, production, refining, distribution, marketing, petrochemicals, power generation, and renewable energy. BP operates an API Marketplace developer portal (developer.bp.com) enabling seamless integration with BP's digital services, providing API discovery, testing playgrounds, documentation, and billing management for energy sector integrations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/screenshots/bp-2026-07-25T203719.png",
-     "score": 18.5,
+     "name": "Delek US Holdings",
+     "slug": "delek-us-holdings",
+     "description": "Delek US Holdings, Inc. (NYSE: DK) is a diversified downstream energy company headquartered in Brentwood, Tennessee with assets in petroleum refining, logistics, asphalt operations, renewable fuels, and convenience store retailing. Delek operates four refineries in Tyler and Big Spring (Texas), El Dorado (Arkansas), and Krotz Springs (Louisiana) with combined crude throughput capacity of roughly 302,000 barrels per day. Logistics assets are operated through Delek Logistics Partners (NYSE: DKL). The company provides investor relations and ESG reporting on its public website but does not publish a developer API; partner integrations occur through industry-standard EDI, terminal automation, and ticketing systems.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/delek-us-holdings/refs/heads/main/screenshots/delek-us-holdings-2026-08-07T180430.png",
+     "score": 13.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 39.5
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
-      "score": 8.1,
+      "score": 18.9,
       "matched_via": "tags"
      },
      "agent_score": 3.2,
@@ -663,33 +660,43 @@
       "dry_run_mode": false
      },
      "rank": 14
-    },
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 12.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 68,
+   "shown": 68,
+   "providers": [
     {
-     "name": "APA Corporation",
-     "slug": "apa",
-     "description": "APA Corporation is an independent energy company that explores for, develops, and produces natural gas, crude oil, and natural gas liquids, with operations in the United States, Egypt, the United Kingdom, and Suriname. Organized in Delaware and headquartered in Houston, Texas, APA is listed on Nasdaq (APA) and listed on Nasdaq Texas since March 2026.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/screenshots/apa-2026-06-20T172039.png",
-     "score": 18.3,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "name": "Adams Resources & Energy",
+     "slug": "adams-resources-and-energy",
+     "description": "Adams Resources & Energy is a diversified energy company engaged in the marketing, transportation, terminalling, and storage of crude oil and other related petroleum products in select markets across the United States. Through its subsidiaries GulfMark Energy, Firebird Bulk Carriers, Phoenix Oil, and Victoria Express Pipeline, the company purchases approximately 90,000 barrels per day at the wellhead and operates over 260 tractor-trailers and 112 pipeline inventory locations. Adams Resources & Energy serves multiple U.S. petroleum basins including the Gulf Coast, Eagle Ford Shale, Permian Basin, Bakken Shale, and Michigan, with over $1 billion in annual revenues and 400+ employees.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adams-resources-and-energy/refs/heads/main/screenshots/adams-resources-and-energy-2026-06-20T164525.png",
+     "score": 12.2,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 15.2,
-      "commercial_clarity": 39.5
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
-      "score": 8.1,
+      "score": 18.9,
       "matched_via": "tags"
      },
-     "agent_score": 3.2,
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -699,7 +706,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -710,28 +717,28 @@
      "rank": 15
     },
     {
-     "name": "Delek US Holdings",
-     "slug": "delek-us-holdings",
-     "description": "Delek US Holdings, Inc. (NYSE: DK) is a diversified downstream energy company headquartered in Brentwood, Tennessee with assets in petroleum refining, logistics, asphalt operations, renewable fuels, and convenience store retailing. Delek operates four refineries in Tyler and Big Spring (Texas), El Dorado (Arkansas), and Krotz Springs (Louisiana) with combined crude throughput capacity of roughly 302,000 barrels per day. Logistics assets are operated through Delek Logistics Partners (NYSE: DKL). The company provides investor relations and ESG reporting on its public website but does not publish a developer API; partner integrations occur through industry-standard EDI, terminal automation, and ticketing systems.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/delek-us-holdings/refs/heads/main/screenshots/delek-us-holdings-2026-08-07T180430.png",
-     "score": 17.9,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "name": "BP",
+     "slug": "bp",
+     "description": "BP (British Petroleum) is one of the world's largest integrated energy companies, operating in over 70 countries across oil and gas exploration, production, refining, distribution, marketing, petrochemicals, power generation, and renewable energy. BP operates an API Marketplace developer portal (developer.bp.com) enabling seamless integration with BP's digital services, providing API discovery, testing playgrounds, documentation, and billing management for energy sector integrations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/screenshots/bp-2026-07-25T203719.png",
+     "score": 11.9,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 50.0
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
-      "score": 18.9,
+      "score": 8.1,
       "matched_via": "tags"
      },
      "agent_score": 3.2,
@@ -759,19 +766,26 @@
      "slug": "cf-industries-holdings",
      "description": "CF Industries Holdings is a Fortune 500 American manufacturer and distributor of nitrogen-based fertilizers (ammonia, urea, ammonium nitrate, UAN) and clean-energy products serving agricultural and industrial customers worldwide. CF operates one of the largest global ammonia production networks and is scaling clean (blue and green) ammonia for low-carbon energy. CF does not publish a public developer API program; programmatic data access is limited to investor-relations SEC filings feeds, press/news RSS, and partner EDI/B2B integrations with agricultural distributors, rail, terminal, and industrial customers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cf-industries-holdings/refs/heads/main/screenshots/cf-industries-holdings-2026-06-20T174146.png",
-     "score": 16.6,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 11.7,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 13.5,
+      "matched_via": "tags"
+     },
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -793,23 +807,23 @@
      "rank": 17
     },
     {
-     "name": "ConocoPhillips",
-     "slug": "conocophillips",
-     "description": "ConocoPhillips is a leading global exploration and production company, headquartered in Houston, Texas, that is uniquely equipped to deliver reliable, responsibly produced oil and natural gas. The company operates in more than a dozen countries with conventional and unconventional crude oil, natural gas, LNG, and natural gas liquids assets. ConocoPhillips does not publish public developer APIs; its external digital surface is organized around an investor relations portal, a vendor relations portal (powered by third-party platforms such as GEP and Taulia), an LNG technology and licensing program, and a custom sustainability report builder.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/conocophillips/refs/heads/main/screenshots/conocophillips-2026-06-20T174908.png",
-     "score": 13.1,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "name": "APA Corporation",
+     "slug": "apa",
+     "description": "APA Corporation is an independent energy company that explores for, develops, and produces natural gas, crude oil, and natural gas liquids, with operations in the United States, Egypt, the United Kingdom, and Suriname. Organized in Delaware and headquartered in Houston, Texas, APA is listed on Nasdaq (APA) and listed on Nasdaq Texas since March 2026.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/screenshots/apa-2026-06-20T172039.png",
+     "score": 11.6,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 28.9
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 15.2,
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -836,23 +850,13 @@
       "dry_run_mode": false
      },
      "rank": 18
-    }
-   ]
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 12.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 64,
-   "shown": 64,
-   "providers": [
+    },
     {
-     "name": "Adams Resources & Energy",
-     "slug": "adams-resources-and-energy",
-     "description": "Adams Resources & Energy is a diversified energy company engaged in the marketing, transportation, terminalling, and storage of crude oil and other related petroleum products in select markets across the United States. Through its subsidiaries GulfMark Energy, Firebird Bulk Carriers, Phoenix Oil, and Victoria Express Pipeline, the company purchases approximately 90,000 barrels per day at the wellhead and operates over 260 tractor-trailers and 112 pipeline inventory locations. Adams Resources & Energy serves multiple U.S. petroleum basins including the Gulf Coast, Eagle Ford Shale, Permian Basin, Bakken Shale, and Michigan, with over $1 billion in annual revenues and 400+ employees.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adams-resources-and-energy/refs/heads/main/screenshots/adams-resources-and-energy-2026-06-20T164525.png",
-     "score": 12.2,
+     "name": "CHS Inc.",
+     "slug": "chs",
+     "description": "CHS Inc. is a Fortune 500 diversified, integrated, global agricultural cooperative owned by farmers, ranchers, cooperatives, and individual producers. Headquartered in Inver Grove Heights, Minnesota, CHS describes itself as the largest farmer-owned cooperative in the United States, with more than 750 member cooperatives, 75,000+ individual producer-owners, and 20,000+ preferred stockholders. The cooperative serves customers in 65 countries through three primary business divisions: Agriculture (crop nutrients, crop protection, precision agriculture, seed, animal nutrition, and oilseed products), Energy (refined fuels, propane, lubricants, pipelines, terminals, and renewable fuels under the Cenex brand), and Services (hedging, payment solutions, transportation, and capital services). Major brands include Cenex, Allegiant (seed), Payback (animal nutrition), and N-Edge (crop nutrients). CHS does not currently publish a public consumer-facing developer API; partner integrations are provided through digital platforms such as MyCHS (online portal for grain tickets, billing, and payments) and CHS Connect (digital self-service for crop protection and energy wholesale customers).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chs/refs/heads/main/screenshots/chs-2026-06-20T174334.png",
+     "score": 10.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -860,11 +864,11 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 8.7,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -893,10 +897,10 @@
      "rank": 19
     },
     {
-     "name": "CHS Inc.",
-     "slug": "chs",
-     "description": "CHS Inc. is a Fortune 500 diversified, integrated, global agricultural cooperative owned by farmers, ranchers, cooperatives, and individual producers. Headquartered in Inver Grove Heights, Minnesota, CHS describes itself as the largest farmer-owned cooperative in the United States, with more than 750 member cooperatives, 75,000+ individual producer-owners, and 20,000+ preferred stockholders. The cooperative serves customers in 65 countries through three primary business divisions: Agriculture (crop nutrients, crop protection, precision agriculture, seed, animal nutrition, and oilseed products), Energy (refined fuels, propane, lubricants, pipelines, terminals, and renewable fuels under the Cenex brand), and Services (hedging, payment solutions, transportation, and capital services). Major brands include Cenex, Allegiant (seed), Payback (animal nutrition), and N-Edge (crop nutrients). CHS does not currently publish a public consumer-facing developer API; partner integrations are provided through digital platforms such as MyCHS (online portal for grain tickets, billing, and payments) and CHS Connect (digital self-service for crop protection and energy wholesale customers).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chs/refs/heads/main/screenshots/chs-2026-06-20T174334.png",
+     "name": "Kinder Morgan",
+     "slug": "kinder-morgan",
+     "description": "Kinder Morgan is one of the largest energy infrastructure companies in North America, owning and operating pipelines and terminals that transport natural gas, refined petroleum products, crude oil, carbon dioxide, and other commodities. Kinder Morgan publishes pipeline informational postings and capacity data through Electronic Bulletin Board (EBB) portals; no public REST API or developer program has been identified at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kinder-morgan/refs/heads/main/screenshots/kinder-morgan-2026-06-20T184040.png",
      "score": 10.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -908,8 +912,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -938,10 +942,10 @@
      "rank": 20
     },
     {
-     "name": "Kinder Morgan",
-     "slug": "kinder-morgan",
-     "description": "Kinder Morgan is one of the largest energy infrastructure companies in North America, owning and operating pipelines and terminals that transport natural gas, refined petroleum products, crude oil, carbon dioxide, and other commodities. Kinder Morgan publishes pipeline informational postings and capacity data through Electronic Bulletin Board (EBB) portals; no public REST API or developer program has been identified at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kinder-morgan/refs/heads/main/screenshots/kinder-morgan-2026-06-20T184040.png",
+     "name": "NGL Energy Partners",
+     "slug": "ngl-energy-partners",
+     "description": "NGL Energy Partners LP is a diversified midstream master limited partnership providing transportation, storage, blending, and marketing services for crude oil, natural gas liquids, refined products, and water solutions to producers and end-users across the energy industry. The company is publicly traded on the NYSE under the ticker symbol NGL and operates three primary business units: Crude Oil Logistics, Water Solutions, and NGL Liquids.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ngl-energy-partners/refs/heads/main/screenshots/ngl-energy-partners-2026-06-20T190313.png",
      "score": 10.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -953,8 +957,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -983,23 +987,23 @@
      "rank": 21
     },
     {
-     "name": "NGL Energy Partners",
-     "slug": "ngl-energy-partners",
-     "description": "NGL Energy Partners LP is a diversified midstream master limited partnership providing transportation, storage, blending, and marketing services for crude oil, natural gas liquids, refined products, and water solutions to producers and end-users across the energy industry. The company is publicly traded on the NYSE under the ticker symbol NGL and operates three primary business units: Crude Oil Logistics, Water Solutions, and NGL Liquids.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ngl-energy-partners/refs/heads/main/screenshots/ngl-energy-partners-2026-06-20T190313.png",
-     "score": 10.7,
+     "name": "Calumet",
+     "slug": "calumet",
+     "description": "Calumet is a specialty hydrocarbon and renewable fuels company that produces a broad portfolio of branded and customer-formulated specialty products including lubricating oils, white mineral oils, solvents, waxes, and renewable diesel through its Montana Renewables subsidiary. The company serves customers across consumer, industrial, and energy markets globally. Calumet does not publish a public developer API portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/calumet/refs/heads/main/screenshots/calumet-2026-06-20T173915.png",
+     "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 44.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1028,68 +1032,23 @@
      "rank": 22
     },
     {
-     "name": "Liberty Energy",
-     "slug": "liberty-energy",
-     "description": "Liberty Energy is a North American oilfield services company providing hydraulic fracturing, wireline, sand logistics, and power generation services to onshore exploration and production operators. The company also develops technology solutions for energy completion, ESG reporting, and natural gas fueling. Liberty Energy does not publish a public developer API portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/liberty-energy/refs/heads/main/screenshots/liberty-energy-2026-06-20T184456.png",
-     "score": 9.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 35.2,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 18.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 23
-    },
-    {
      "name": "Whiting Petroleum",
      "slug": "whiting-petroleum",
      "description": "Whiting Petroleum was an independent oil and gas company engaged in the exploration, development, and production of crude oil, natural gas, and natural gas liquids primarily in the Williston Basin (Bakken Shale) in North Dakota and Montana. In July 2022, Whiting Petroleum merged with Oasis Petroleum to form Chord Energy Corporation, which trades on NASDAQ under the ticker symbol CHRD.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/whiting-petroleum/refs/heads/main/screenshots/whiting-petroleum-2026-06-20T201444.png",
-     "score": 9.2,
+     "score": 9.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 12.9,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1115,26 +1074,78 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 23
     },
     {
-     "name": "Calumet",
-     "slug": "calumet",
-     "description": "Calumet is a specialty hydrocarbon and renewable fuels company that produces a broad portfolio of branded and customer-formulated specialty products including lubricating oils, white mineral oils, solvents, waxes, and renewable diesel through its Montana Renewables subsidiary. The company serves customers across consumer, industrial, and energy markets globally. Calumet does not publish a public developer API portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/calumet/refs/heads/main/screenshots/calumet-2026-06-20T173915.png",
-     "score": 9.1,
+     "name": "Liberty Energy",
+     "slug": "liberty-energy",
+     "description": "Liberty Energy is a North American oilfield services company providing hydraulic fracturing, wireline, sand logistics, and power generation services to onshore exploration and production operators. The company also develops technology solutions for energy completion, ESG reporting, and natural gas fueling. Liberty Energy does not publish a public developer API portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/liberty-energy/refs/heads/main/screenshots/liberty-energy-2026-06-20T184456.png",
+     "score": 9.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 44.4,
+      "discoverability": 35.2,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 18.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 24
+    },
+    {
+     "name": "ProFrac Holding",
+     "slug": "profrac-holding",
+     "description": "ProFrac Holding Corp. is a vertically integrated, innovation-driven energy services company providing hydraulic fracturing, completion services, and complementary products and services to upstream oil and gas companies engaged in the exploration and production of North American unconventional oil and natural gas resources. The company operates through portfolio brands including ProFrac, Best Pump & Flow, Alpine Silica, IO-TEQ, and Livewire Power. ProFrac Holding does not currently publish a public developer API or documentation portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/profrac-holding/refs/heads/main/screenshots/profrac-holding-2026-06-20T192143.png",
+     "score": 9.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 35.2,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 18.9,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1156,24 +1167,31 @@
      "rank": 25
     },
     {
-     "name": "ProFrac Holding",
-     "slug": "profrac-holding",
-     "description": "ProFrac Holding Corp. is a vertically integrated, innovation-driven energy services company providing hydraulic fracturing, completion services, and complementary products and services to upstream oil and gas companies engaged in the exploration and production of North American unconventional oil and natural gas resources. The company operates through portfolio brands including ProFrac, Best Pump & Flow, Alpine Silica, IO-TEQ, and Livewire Power. ProFrac Holding does not currently publish a public developer API or documentation portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/profrac-holding/refs/heads/main/screenshots/profrac-holding-2026-06-20T192143.png",
-     "score": 8.2,
+     "name": "ConocoPhillips",
+     "slug": "conocophillips",
+     "description": "ConocoPhillips is a leading global exploration and production company, headquartered in Houston, Texas, that is uniquely equipped to deliver reliable, responsibly produced oil and natural gas. The company operates in more than a dozen countries with conventional and unconventional crude oil, natural gas, LNG, and natural gas liquids assets. ConocoPhillips does not publish public developer APIs; its external digital surface is organized around an investor relations portal, a vendor relations portal (powered by third-party platforms such as GEP and Taulia), an LNG technology and licensing program, and a custom sustainability report builder.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/conocophillips/refs/heads/main/screenshots/conocophillips-2026-06-20T174908.png",
+     "score": 8.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 35.2,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 2.2,
-      "commercial_clarity": 21.1
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1183,7 +1201,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -1209,8 +1227,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1254,8 +1272,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1299,8 +1317,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1344,8 +1362,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1389,8 +1407,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1434,8 +1452,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1479,8 +1497,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1524,8 +1542,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1562,8 +1580,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1606,8 +1624,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1651,8 +1669,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1696,8 +1714,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1726,23 +1744,23 @@
      "rank": 38
     },
     {
-     "name": "Global Partners LP",
-     "slug": "global-partners",
-     "description": "Global Partners LP is a leading independent owner, supplier, and operator of liquid energy terminals, fueling locations, and retail experiences. The company distributes gasoline, distillates, residual oil, renewable fuels, crude oil, and propane across the Northeast United States through an integrated network of terminals, gas stations, and convenience stores.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/global-partners/refs/heads/main/screenshots/global-partners-2026-06-20T181914.png",
-     "score": 5.8,
+     "name": "Genesis Energy",
+     "slug": "genesis-energy",
+     "description": "Genesis Energy is a diversified midstream energy master limited partnership with a focus on providing services to refineries, crude oil and natural gas producers, and industrial and commercial enterprises.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/genesis-energy/refs/heads/main/screenshots/genesis-energy-2026-06-20T181731.png",
+     "score": 5.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 48.1,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1771,10 +1789,10 @@
      "rank": 39
     },
     {
-     "name": "Phillips 66",
-     "slug": "phillips-66",
-     "description": "Phillips 66 is a diversified energy manufacturing and logistics company with midstream, chemicals, refining, and marketing and specialties businesses. This repository captures any APIs, developer tools, and machine-readable API artifacts for Phillips 66.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/phillips-66/refs/heads/main/screenshots/phillips-66-2026-06-20T191638.png",
+     "name": "Darling Ingredients",
+     "slug": "darling-ingredients",
+     "description": "Darling Ingredients is a global developer and producer of sustainable natural ingredients from edible and inedible bio-nutrients, creating products for the food, pet food, feed, fuel, bioenergy, and fertilizer industries. Darling operates Diamond Green Diesel as a renewable diesel joint venture with Valero, and brands such as Rousselot (gelatin and collagen), Sonac, CTH, and EnviroFlight. Darling does not publish a public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/darling-ingredients/refs/heads/main/screenshots/darling-ingredients-2026-06-20T175500.png",
      "score": 5.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1786,8 +1804,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1816,11 +1834,11 @@
      "rank": 40
     },
     {
-     "name": "Chesapeake Energy",
-     "slug": "chesapeake-energy",
-     "description": "Chesapeake Energy Corporation was an independent oil and natural gas exploration and production company headquartered in Oklahoma City, Oklahoma, focused on unconventional natural gas and oil fields onshore in the United States. In October 2024, Chesapeake combined with Southwestern Energy to form Expand Energy Corporation, which now operates as the largest natural gas producer in the United States. Chesapeake Energy does not currently expose a public developer API; royalty owners and partners interact through the Owner Online Accounts portal, and investors are served via the Expand Energy investor relations site.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chesapeake-energy/refs/heads/main/screenshots/chesapeake-energy-2026-06-20T174301.png",
-     "score": 5.5,
+     "name": "Global Partners LP",
+     "slug": "global-partners",
+     "description": "Global Partners LP is a leading independent owner, supplier, and operator of liquid energy terminals, fueling locations, and retail experiences. The company distributes gasoline, distillates, residual oil, renewable fuels, crude oil, and propane across the Northeast United States through an integrated network of terminals, gas stations, and convenience stores.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/global-partners/refs/heads/main/screenshots/global-partners-2026-06-20T181914.png",
+     "score": 5.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1828,11 +1846,11 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1861,11 +1879,11 @@
      "rank": 41
     },
     {
-     "name": "Chevron",
-     "slug": "chevron",
-     "description": "Chevron Corporation is one of the world's largest integrated energy companies, with operations across upstream exploration and production, downstream refining and marketing, and the production and transportation of crude oil, natural gas, refined fuels, lubricants, petrochemicals, and renewable fuels. Chevron is headquartered in Houston, Texas, and operates globally under brands including Chevron, Texaco, and Caltex. Chevron does not currently publish a public consumer-facing developer API; supplier and partner integrations are handled through the Chevron Invoice and Payment Status (CIPS) system and the Supplier Relations channels, and investors and stakeholders are served through corporate, sustainability, and IR websites.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chevron/refs/heads/main/screenshots/chevron-2026-06-20T174311.png",
-     "score": 5.5,
+     "name": "Phillips 66",
+     "slug": "phillips-66",
+     "description": "Phillips 66 is a diversified energy manufacturing and logistics company with midstream, chemicals, refining, and marketing and specialties businesses. This repository captures any APIs, developer tools, and machine-readable API artifacts for Phillips 66.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/phillips-66/refs/heads/main/screenshots/phillips-66-2026-06-20T191638.png",
+     "score": 5.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1873,11 +1891,11 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1906,10 +1924,10 @@
      "rank": 42
     },
     {
-     "name": "EQT Corporation",
-     "slug": "eqt",
-     "description": "EQT Corporation is the largest producer of natural gas in the United States, headquartered in Pittsburgh, Pennsylvania. EQT operates in the Appalachian Basin and combines exploration and production technology with environmental stewardship initiatives, including a Scope 1 and Scope 2 net-zero commitment. EQT does not maintain a public developer program or open APIs; data access is limited to investor relations, ESG reporting, and partner-facing portals such as Equitrans Midstream customer services.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eqt/refs/heads/main/screenshots/eqt-2026-06-20T180803.png",
+     "name": "Chesapeake Energy",
+     "slug": "chesapeake-energy",
+     "description": "Chesapeake Energy Corporation was an independent oil and natural gas exploration and production company headquartered in Oklahoma City, Oklahoma, focused on unconventional natural gas and oil fields onshore in the United States. In October 2024, Chesapeake combined with Southwestern Energy to form Expand Energy Corporation, which now operates as the largest natural gas producer in the United States. Chesapeake Energy does not currently expose a public developer API; royalty owners and partners interact through the Owner Online Accounts portal, and investors are served via the Expand Energy investor relations site.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chesapeake-energy/refs/heads/main/screenshots/chesapeake-energy-2026-06-20T174301.png",
      "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1921,8 +1939,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1951,10 +1969,10 @@
      "rank": 43
     },
     {
-     "name": "HF Sinclair",
-     "slug": "hf-sinclair",
-     "description": "HF Sinclair is an independent energy company that produces and markets gasoline, diesel, jet fuel, specialty lubricant products, and renewable diesel fuel through refineries and a brand network of branded fuel stations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hf-sinclair/refs/heads/main/screenshots/hf-sinclair-2026-06-20T182718.png",
+     "name": "Chevron",
+     "slug": "chevron",
+     "description": "Chevron Corporation is one of the world's largest integrated energy companies, with operations across upstream exploration and production, downstream refining and marketing, and the production and transportation of crude oil, natural gas, refined fuels, lubricants, petrochemicals, and renewable fuels. Chevron is headquartered in Houston, Texas, and operates globally under brands including Chevron, Texaco, and Caltex. Chevron does not currently publish a public consumer-facing developer API; supplier and partner integrations are handled through the Chevron Invoice and Payment Status (CIPS) system and the Supplier Relations channels, and investors and stakeholders are served through corporate, sustainability, and IR websites.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chevron/refs/heads/main/screenshots/chevron-2026-06-20T174311.png",
      "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1966,8 +1984,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1996,10 +2014,10 @@
      "rank": 44
     },
     {
-     "name": "Marathon Petroleum",
-     "slug": "marathon-petroleum",
-     "description": "Marathon Petroleum is one of the largest petroleum product refiners, transporters, and marketers in the United States, with operations including refineries, pipelines, terminals, and retail outlets. No public developer APIs have been identified at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/marathon-petroleum/refs/heads/main/screenshots/marathon-petroleum-2026-07-25T230130.png",
+     "name": "EQT Corporation",
+     "slug": "eqt",
+     "description": "EQT Corporation is the largest producer of natural gas in the United States, headquartered in Pittsburgh, Pennsylvania. EQT operates in the Appalachian Basin and combines exploration and production technology with environmental stewardship initiatives, including a Scope 1 and Scope 2 net-zero commitment. EQT does not maintain a public developer program or open APIs; data access is limited to investor relations, ESG reporting, and partner-facing portals such as Equitrans Midstream customer services.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eqt/refs/heads/main/screenshots/eqt-2026-06-20T180803.png",
      "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2011,8 +2029,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2041,10 +2059,10 @@
      "rank": 45
     },
     {
-     "name": "NextEra Energy",
-     "slug": "nextera-energy",
-     "description": "NextEra Energy, Inc. is a Fortune 500 American energy company and one of the largest electric utility holding companies in the United States. It is the world's largest generator of renewable energy from the wind and sun, and a world leader in battery storage. NextEra Energy operates principally through its two subsidiaries, Florida Power & Light (FPL) and NextEra Energy Resources. This repository captures the public-facing digital surface, corporate touchpoints, and any developer or data resources for NextEra Energy. No public REST APIs, developer portal, or machine-readable data feeds have been identified at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nextera-energy/refs/heads/main/screenshots/nextera-energy-2026-06-20T190258.png",
+     "name": "HF Sinclair",
+     "slug": "hf-sinclair",
+     "description": "HF Sinclair is an independent energy company that produces and markets gasoline, diesel, jet fuel, specialty lubricant products, and renewable diesel fuel through refineries and a brand network of branded fuel stations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hf-sinclair/refs/heads/main/screenshots/hf-sinclair-2026-06-20T182718.png",
      "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2056,8 +2074,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2086,10 +2104,10 @@
      "rank": 46
     },
     {
-     "name": "Par Pacific Holdings",
-     "slug": "par-pacific",
-     "description": "Par Pacific Holdings is an entrepreneurial liquid fuels company focused on owning and operating energy and infrastructure businesses in logistically- complex markets. The company operates refining, retail, and logistics businesses across Hawaii, Washington, Wyoming, and Montana, with retail brands including 76, Hele, and nomnom.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/par-pacific/refs/heads/main/screenshots/par-pacific-2026-06-20T191351.png",
+     "name": "Marathon Petroleum",
+     "slug": "marathon-petroleum",
+     "description": "Marathon Petroleum is one of the largest petroleum product refiners, transporters, and marketers in the United States, with operations including refineries, pipelines, terminals, and retail outlets. No public developer APIs have been identified at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/marathon-petroleum/refs/heads/main/screenshots/marathon-petroleum-2026-07-25T230130.png",
      "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2101,8 +2119,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2131,10 +2149,10 @@
      "rank": 47
     },
     {
-     "name": "PBF Energy",
-     "slug": "pbf-energy",
-     "description": "PBF Energy is one of the largest independent petroleum refiners and suppliers of unbranded transportation fuels, heating oils, lubricants, petrochemical feedstocks, and other petroleum products in the United States, operating refineries and a logistics network across the country.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pbf-energy/refs/heads/main/screenshots/pbf-energy-2026-06-20T191510.png",
+     "name": "NextEra Energy",
+     "slug": "nextera-energy",
+     "description": "NextEra Energy, Inc. is a Fortune 500 American energy company and one of the largest electric utility holding companies in the United States. It is the world's largest generator of renewable energy from the wind and sun, and a world leader in battery storage. NextEra Energy operates principally through its two subsidiaries, Florida Power & Light (FPL) and NextEra Energy Resources. This repository captures the public-facing digital surface, corporate touchpoints, and any developer or data resources for NextEra Energy. No public REST APIs, developer portal, or machine-readable data feeds have been identified at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nextera-energy/refs/heads/main/screenshots/nextera-energy-2026-06-20T190258.png",
      "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2146,8 +2164,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2176,10 +2194,10 @@
      "rank": 48
     },
     {
-     "name": "Plains GP Holdings",
-     "slug": "plains-gp",
-     "description": "Plains GP Holdings owns an interest in Plains All American Pipeline, a publicly traded master limited partnership that owns and operates midstream energy infrastructure in the United States and Canada. No public developer API or developer portal has been published; this repository tracks corporate and investor resources.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/plains-gp/refs/heads/main/screenshots/plains-gp-2026-06-20T191746.png",
+     "name": "Par Pacific Holdings",
+     "slug": "par-pacific",
+     "description": "Par Pacific Holdings is an entrepreneurial liquid fuels company focused on owning and operating energy and infrastructure businesses in logistically- complex markets. The company operates refining, retail, and logistics businesses across Hawaii, Washington, Wyoming, and Montana, with retail brands including 76, Hele, and nomnom.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/par-pacific/refs/heads/main/screenshots/par-pacific-2026-06-20T191351.png",
      "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2191,8 +2209,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2221,9 +2239,10 @@
      "rank": 49
     },
     {
-     "name": "Quanta Services",
-     "slug": "quanta-services",
-     "description": "Quanta Services is a Fortune 500 specialty contracting company that delivers infrastructure solutions to the electric power, renewable energy, oil and gas, pipeline, and communications industries throughout North America and Australia.",
+     "name": "PBF Energy",
+     "slug": "pbf-energy",
+     "description": "PBF Energy is one of the largest independent petroleum refiners and suppliers of unbranded transportation fuels, heating oils, lubricants, petrochemical feedstocks, and other petroleum products in the United States, operating refineries and a logistics network across the country.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pbf-energy/refs/heads/main/screenshots/pbf-energy-2026-06-20T191510.png",
      "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2235,8 +2254,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2265,23 +2284,23 @@
      "rank": 50
     },
     {
-     "name": "CNX Resources",
-     "slug": "cnx-resources",
-     "description": "CNX Resources Corporation is one of the largest independent natural gas exploration, development, and production companies in the Appalachian Basin. The company focuses on responsibly developing natural gas, NGL, and condensate resources from the Marcellus and Utica shales. CNX Resources does not currently publish a public developer portal or API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cnx-resources/refs/heads/main/screenshots/cnx-resources-2026-06-20T174638.png",
-     "score": 5.4,
+     "name": "Plains GP Holdings",
+     "slug": "plains-gp",
+     "description": "Plains GP Holdings owns an interest in Plains All American Pipeline, a publicly traded master limited partnership that owns and operates midstream energy infrastructure in the United States and Canada. No public developer API or developer portal has been published; this repository tracks corporate and investor resources.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/plains-gp/refs/heads/main/screenshots/plains-gp-2026-06-20T191746.png",
+     "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 44.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2310,11 +2329,10 @@
      "rank": 51
     },
     {
-     "name": "Darling Ingredients",
-     "slug": "darling-ingredients",
-     "description": "Darling Ingredients is a global developer and producer of sustainable natural ingredients from edible and inedible bio-nutrients, creating products for the food, pet food, feed, fuel, bioenergy, and fertilizer industries. Darling operates Diamond Green Diesel as a renewable diesel joint venture with Valero, and brands such as Rousselot (gelatin and collagen), Sonac, CTH, and EnviroFlight. Darling does not publish a public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/darling-ingredients/refs/heads/main/screenshots/darling-ingredients-2026-06-20T175500.png",
-     "score": 5.4,
+     "name": "Quanta Services",
+     "slug": "quanta-services",
+     "description": "Quanta Services is a Fortune 500 specialty contracting company that delivers infrastructure solutions to the electric power, renewable energy, oil and gas, pipeline, and communications industries throughout North America and Australia.",
+     "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2322,11 +2340,18 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2348,23 +2373,22 @@
      "rank": 52
     },
     {
-     "name": "Permian Resources",
-     "slug": "permian-resources",
-     "description": "Permian Resources Corporation is an independent oil and natural gas company focused on the development of crude oil and related liquids-rich natural gas reserves in the Permian Basin. The company operates assets in the Delaware Basin in West Texas and southeastern New Mexico and is publicly traded. No public developer API or technical documentation portal is currently available.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/permian-resources/refs/heads/main/screenshots/permian-resources-2026-06-20T191608.png",
-     "score": 5.4,
+     "name": "Targa Resources",
+     "slug": "targa-resources",
+     "description": "Targa Resources Corp. is a Fortune 500 and S&P 500 midstream energy infrastructure company and one of the largest independent midstream companies in North America. The company provides midstream services including gathering, compression, treating, processing, and selling of natural gas; fractionating, treating, transporting, and selling of natural gas liquids (NGLs); gathering, storing, terminaling and selling crude oil; and storing and selling refined petroleum products. Targa operates primarily in the Permian Basin, Anadarko Basin, and South Texas production areas, and owns the Grand Prix NGL Pipeline.",
+     "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 44.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2393,10 +2417,10 @@
      "rank": 53
     },
     {
-     "name": "Western Midstream Partners",
-     "slug": "western-midstream-partners",
-     "description": "Western Midstream Partners (WES) is a midstream energy company that owns and operates oil, natural gas, and water gathering systems, natural gas processing plants, oil treating facilities, and crude oil, natural gas, and NGLs pipelines. The company operates primarily in the Delaware Basin and DJ Basin, handling the transportation and processing of hydrocarbons and produced water.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/western-midstream-partners/refs/heads/main/screenshots/western-midstream-partners-2026-06-20T201407.png",
+     "name": "CNX Resources",
+     "slug": "cnx-resources",
+     "description": "CNX Resources Corporation is one of the largest independent natural gas exploration, development, and production companies in the Appalachian Basin. The company focuses on responsibly developing natural gas, NGL, and condensate resources from the Marcellus and Utica shales. CNX Resources does not currently publish a public developer portal or API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cnx-resources/refs/heads/main/screenshots/cnx-resources-2026-06-20T174638.png",
      "score": 5.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2408,8 +2432,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2438,23 +2462,23 @@
      "rank": 54
     },
     {
-     "name": "Genesis Energy",
-     "slug": "genesis-energy",
-     "description": "Genesis Energy is a diversified midstream energy master limited partnership with a focus on providing services to refineries, crude oil and natural gas producers, and industrial and commercial enterprises.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/genesis-energy/refs/heads/main/screenshots/genesis-energy-2026-06-20T181731.png",
-     "score": 5.3,
+     "name": "Permian Resources",
+     "slug": "permian-resources",
+     "description": "Permian Resources Corporation is an independent oil and natural gas company focused on the development of crude oil and related liquids-rich natural gas reserves in the Permian Basin. The company operates assets in the Delaware Basin in West Texas and southeastern New Mexico and is publicly traded. No public developer API or technical documentation portal is currently available.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/permian-resources/refs/heads/main/screenshots/permian-resources-2026-06-20T191608.png",
+     "score": 5.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 44.4,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2483,23 +2507,23 @@
      "rank": 55
     },
     {
-     "name": "Halliburton",
-     "slug": "halliburton",
-     "description": "Halliburton delivers advanced products and services to meet the evolving needs of the global energy industry, driving innovation, reliability, and performance. Halliburton operates enterprise software platforms such as DecisionSpace 365, Landmark, and iEnergy, but does not currently publish a public, openly accessible REST API for general developer use.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/halliburton/refs/heads/main/screenshots/halliburton-2026-06-20T182503.png",
-     "score": 5.3,
+     "name": "Western Midstream Partners",
+     "slug": "western-midstream-partners",
+     "description": "Western Midstream Partners (WES) is a midstream energy company that owns and operates oil, natural gas, and water gathering systems, natural gas processing plants, oil treating facilities, and crude oil, natural gas, and NGLs pipelines. The company operates primarily in the Delaware Basin and DJ Basin, handling the transportation and processing of hydrocarbons and produced water.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/western-midstream-partners/refs/heads/main/screenshots/western-midstream-partners-2026-06-20T201407.png",
+     "score": 5.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 44.4,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2528,10 +2552,10 @@
      "rank": 56
     },
     {
-     "name": "NOV",
-     "slug": "nov",
-     "description": "NOV is a Fortune 500 company providing equipment and components used in oil and gas drilling and production operations, oilfield services, and industrial and renewable energy sectors. This repository captures the APIs, developer tools, and machine-readable API artifacts for NOV.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nov/refs/heads/main/screenshots/nov-2026-06-20T190430.png",
+     "name": "Halliburton",
+     "slug": "halliburton",
+     "description": "Halliburton delivers advanced products and services to meet the evolving needs of the global energy industry, driving innovation, reliability, and performance. Halliburton operates enterprise software platforms such as DecisionSpace 365, Landmark, and iEnergy, but does not currently publish a public, openly accessible REST API for general developer use.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/halliburton/refs/heads/main/screenshots/halliburton-2026-06-20T182503.png",
      "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2543,8 +2567,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2573,23 +2597,23 @@
      "rank": 57
     },
     {
-     "name": "Chart Industries",
-     "slug": "chart-industries",
-     "description": "Chart Industries is a leading global manufacturer of highly engineered equipment servicing multiple market applications in clean energy and industrial gas. The company provides cryogenic equipment, process technologies, and aftermarket services for hydrogen, LNG, biogas, CO2 capture, and traditional industrial gases. Chart Industries does not currently publish a public developer portal or API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chart-industries/refs/heads/main/screenshots/chart-industries-2026-06-20T174228.png",
-     "score": 5.0,
+     "name": "NOV",
+     "slug": "nov",
+     "description": "NOV is a Fortune 500 company providing equipment and components used in oil and gas drilling and production operations, oilfield services, and industrial and renewable energy sectors. This repository captures the APIs, developer tools, and machine-readable API artifacts for NOV.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nov/refs/heads/main/screenshots/nov-2026-06-20T190430.png",
+     "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 44.4,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2618,23 +2642,23 @@
      "rank": 58
     },
     {
-     "name": "Civitas Resources",
-     "slug": "civitas-resources",
-     "description": "Civitas Resources is an independent exploration and production company focused on developing oil and natural gas resources in Colorado's Denver-Julesburg Basin and the Permian Basin. The company emphasizes carbon-neutral operations and sustainable production practices. Civitas Resources does not currently publish a public developer portal or API. The company has announced a merger with SM Energy Company.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/civitas-resources/refs/heads/main/screenshots/civitas-resources-2026-06-20T174431.png",
-     "score": 5.0,
+     "name": "Patterson-UTI Energy",
+     "slug": "patterson-uti-energy",
+     "description": "Patterson-UTI Energy is a leading provider of onshore contract drilling services to exploration and production companies in North America, with land-based drilling rigs and pressure pumping services. No public developer API has been identified at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/patterson-uti-energy/refs/heads/main/screenshots/patterson-uti-energy-2026-06-20T191445.png",
+     "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 44.4,
+      "discoverability": 48.1,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2663,22 +2687,30 @@
      "rank": 59
     },
     {
-     "name": "Targa Resources",
-     "slug": "targa-resources",
-     "description": "Targa Resources Corp. is a Fortune 500 and S&P 500 midstream energy infrastructure company and one of the largest independent midstream companies in North America. The company provides midstream services including gathering, compression, treating, processing, and selling of natural gas; fractionating, treating, transporting, and selling of natural gas liquids (NGLs); gathering, storing, terminaling and selling crude oil; and storing and selling refined petroleum products. Targa operates primarily in the Permian Basin, Anadarko Basin, and South Texas production areas, and owns the Grand Prix NGL Pipeline.",
+     "name": "Chart Industries",
+     "slug": "chart-industries",
+     "description": "Chart Industries is a leading global manufacturer of highly engineered equipment servicing multiple market applications in clean energy and industrial gas. The company provides cryogenic equipment, process technologies, and aftermarket services for hydrogen, LNG, biogas, CO2 capture, and traditional industrial gases. Chart Industries does not currently publish a public developer portal or API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chart-industries/refs/heads/main/screenshots/chart-industries-2026-06-20T174228.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 44.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2700,10 +2732,10 @@
      "rank": 60
     },
     {
-     "name": "Vertex Energy",
-     "slug": "vertex-energy",
-     "description": "Vertex Energy is an energy transition company specializing in producing and marketing high-purity refined products including conventional fuels, renewable diesel, and other specialty products. The company operates refining and processing facilities and is engaged in the recycling and recovery of used motor oil and other petroleum byproducts. No public developer API or technical documentation portal is currently available.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vertex-energy/refs/heads/main/screenshots/vertex-energy-2026-06-20T200959.png",
+     "name": "Civitas Resources",
+     "slug": "civitas-resources",
+     "description": "Civitas Resources is an independent exploration and production company focused on developing oil and natural gas resources in Colorado's Denver-Julesburg Basin and the Permian Basin. The company emphasizes carbon-neutral operations and sustainable production practices. Civitas Resources does not currently publish a public developer portal or API. The company has announced a merger with SM Energy Company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/civitas-resources/refs/heads/main/screenshots/civitas-resources-2026-06-20T174431.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2715,8 +2747,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2745,60 +2777,23 @@
      "rank": 61
     },
     {
-     "name": "Dow",
-     "slug": "dow",
-     "description": "Dow Inc. is a global materials science company headquartered in Midland, Michigan. Dow combines science and technology to develop innovative products and solutions for packaging, infrastructure, mobility, and consumer applications. This entry is an alias of dow-chemical and covers the same parent company.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dow/refs/heads/main/screenshots/dow-2026-06-20T180205.png",
-     "score": 4.8,
+     "name": "Vertex Energy",
+     "slug": "vertex-energy",
+     "description": "Vertex Energy is an energy transition company specializing in producing and marketing high-purity refined products including conventional fuels, renewable diesel, and other specialty products. The company operates refining and processing facilities and is engaged in the recycling and recovery of used motor oil and other petroleum byproducts. No public developer API or technical documentation portal is currently available.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vertex-energy/refs/heads/main/screenshots/vertex-energy-2026-06-20T200959.png",
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 62
-    },
-    {
-     "name": "Diamondback Energy",
-     "slug": "diamondback-energy",
-     "description": "Diamondback Energy is an independent oil and natural gas company focused on the acquisition, development, exploration, and exploitation of unconventional, onshore oil and natural gas reserves in the Permian Basin of West Texas. As a Fortune 500 company in the upstream energy sector, Diamondback does not currently publish a public developer portal or APIs; this repository is maintained as a placeholder for any APIs, developer tools, or machine-readable artifacts that may emerge.",
-     "score": 4.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 40.7,
+      "discoverability": 44.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2824,13 +2819,50 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 62
+    },
+    {
+     "name": "Dow",
+     "slug": "dow",
+     "description": "Dow Inc. is a global materials science company headquartered in Midland, Michigan. Dow combines science and technology to develop innovative products and solutions for packaging, infrastructure, mobility, and consumer applications. This entry is an alias of dow-chemical and covers the same parent company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dow/refs/heads/main/screenshots/dow-2026-06-20T180205.png",
+     "score": 4.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 63
     },
     {
-     "name": "Green Plains",
-     "slug": "green-plains",
-     "description": "Green Plains is a vertically integrated ethanol producer that operates ethanol plants, grain handling and storage facilities, and a cattle-feeding operation. No public APIs are documented.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/green-plains/refs/heads/main/screenshots/green-plains-2026-06-20T182351.png",
+     "name": "Diamondback Energy",
+     "slug": "diamondback-energy",
+     "description": "Diamondback Energy is an independent oil and natural gas company focused on the acquisition, development, exploration, and exploitation of unconventional, onshore oil and natural gas reserves in the Permian Basin of West Texas. As a Fortune 500 company in the upstream energy sector, Diamondback does not currently publish a public developer portal or APIs; this repository is maintained as a placeholder for any APIs, developer tools, or machine-readable artifacts that may emerge.",
      "score": 4.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2842,8 +2874,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2872,10 +2904,10 @@
      "rank": 64
     },
     {
-     "name": "ONEOK",
-     "slug": "oneok",
-     "description": "ONEOK is a Fortune 500 energy company providing midstream services to natural gas and natural gas liquids producers, processors, and customers. This repository captures any APIs, developer tools, and machine-readable API artifacts associated with ONEOK.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/oneok/refs/heads/main/screenshots/oneok-2026-06-20T190714.png",
+     "name": "Green Plains",
+     "slug": "green-plains",
+     "description": "Green Plains is a vertically integrated ethanol producer that operates ethanol plants, grain handling and storage facilities, and a cattle-feeding operation. No public APIs are documented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/green-plains/refs/heads/main/screenshots/green-plains-2026-06-20T182351.png",
      "score": 4.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2887,8 +2919,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2917,10 +2949,10 @@
      "rank": 65
     },
     {
-     "name": "Ovintiv",
-     "slug": "ovintiv",
-     "description": "Ovintiv is a Fortune 500 oil and natural gas exploration and production company headquartered in Denver, Colorado. The company operates across North America with a focus on multi-basin development. This repository captures the APIs, developer tools, and machine-readable API artifacts associated with Ovintiv.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ovintiv/refs/heads/main/screenshots/ovintiv-2026-06-20T191243.png",
+     "name": "ONEOK",
+     "slug": "oneok",
+     "description": "ONEOK is a Fortune 500 energy company providing midstream services to natural gas and natural gas liquids producers, processors, and customers. This repository captures any APIs, developer tools, and machine-readable API artifacts associated with ONEOK.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/oneok/refs/heads/main/screenshots/oneok-2026-06-20T190714.png",
      "score": 4.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2932,8 +2964,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2962,10 +2994,10 @@
      "rank": 66
     },
     {
-     "name": "Patterson-UTI Energy",
-     "slug": "patterson-uti-energy",
-     "description": "Patterson-UTI Energy is a leading provider of onshore contract drilling services to exploration and production companies in North America, with land-based drilling rigs and pressure pumping services. No public developer API has been identified at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/patterson-uti-energy/refs/heads/main/screenshots/patterson-uti-energy-2026-06-20T191445.png",
+     "name": "Ovintiv",
+     "slug": "ovintiv",
+     "description": "Ovintiv is a Fortune 500 oil and natural gas exploration and production company headquartered in Denver, Colorado. The company operates across North America with a focus on multi-basin development. This repository captures the APIs, developer tools, and machine-readable API artifacts associated with Ovintiv.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ovintiv/refs/heads/main/screenshots/ovintiv-2026-06-20T191243.png",
      "score": 4.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2977,8 +3009,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3022,8 +3054,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3067,8 +3099,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3104,8 +3136,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3148,8 +3180,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3192,8 +3224,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3237,8 +3269,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3274,8 +3306,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3312,8 +3344,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3349,8 +3381,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3387,8 +3419,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3424,8 +3456,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3462,8 +3494,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3500,8 +3532,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3538,8 +3570,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3576,8 +3608,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

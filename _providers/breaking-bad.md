@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,6 +55,10 @@ collections:
   name: Breaking Bad API
   slug: open-breaking-bad
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/timbiles/Breaking-Bad--API/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -162,11 +166,11 @@ rules:
   slug: breaking-bad-rules
 score:
   band: emerging
-  composite: 22.9
-  delta: 0.0
+  composite: 22.7
+  delta: -0.2
   facets:
     commercial_clarity: 0.0
-    contract_quality: 29.1
+    contract_quality: 28.0
     developer_ergonomics: 0.0
     discoverability: 74.1
     governance: 68.8
@@ -179,8 +183,8 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breaking-bad/refs/heads/main/screenshots/breaking-bad-2026-06-20T173647.png
 slug: breaking-bad

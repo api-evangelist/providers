@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Archipelago's customer-facing API is a GraphQL API that lets customers access and use their property and SOV data in custom applications. Access is credential-based; Archipelago provisions credentials
@@ -149,8 +149,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archipelago/refs/heads/main/screenshots/archipelago-2026-07-25T201034.png
 security:

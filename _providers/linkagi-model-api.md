@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 39.6
-  scored_at: '2026-08-10'
+  score: 42.6
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Messages-shaped route advertised by the service. The route reaches authentication without a key; authenticated native compatibility has not been verified in the latest evidence set.
@@ -36,8 +36,16 @@ apis:
 - description: Unauthenticated service status and live pricing metadata.
   name: LinkAGI Model API Public metadata API
   slug: linkagi-model-api-public-metadata-api
-artifact_total: 7
+artifact_total: 8
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/linkagi-model-api-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/linkagi-model-api-openapi-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -138,6 +146,10 @@ created: '2026-08-04'
 description: 'LinkAGI is a Chinese third-party AI API relay (中转站) that fronts a pool of upstream model accounts behind a single host, api.linktoagi.com, and re-exposes them on three imitated vendor protocols: OpenAI-compatible Chat Completions and Responses, an Anthropic Messages-shaped route, and a Gemini generateContent-shaped route. It is sold to developers running Codex, Claude Code, Gemini CLI and desktop chat clients who want a CNY, prepaid, pay-as-you-go base-URL swap instead of a foreign card and a vendor account. A token belongs to a group (号池) that decides which models it can address and at what billing ratio; the live model and price table is published unauthenticated at /api/pricing. The service runs the open-source New API gateway and publishes a first-party OpenAPI 3.1, APIs.json, llms.txt and Postman collection, plus an unusually candid evidence boundary that marks its Anthropic and Gemini compatibility as advertised but unverified.'
 image: https://api.linktoagi.com/favicon.svg
 layout: provider
+mcp_servers:
+- description: ''
+  name: linkagi-model-api-mcp.yml
+  slug: linkagi-model-api-mcpyml
 modified: '2026-08-09'
 name: LinkAGI Model API
 nav: Providers
@@ -145,20 +157,32 @@ network: true
 overview: 'LinkAGI Model API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Anthropic-style route API, Discovery API, Gemini-style route API, and 2 more. Tagged areas include AI, LLM, AI API gateway, relay, and OpenAI-compatible.
 
 
-  LinkAGI Model API''s developer surface includes authentication, documentation, getting-started guide, support, engineering blog, GitHub presence, pricing, and 17 more developer resources.'
+  LinkAGI Model API''s developer surface includes authentication, documentation, getting-started guide, support, engineering blog, GitHub presence, pricing, and 19 more developer resources.'
 random_paper: 44
 score:
   band: developing
-  composite: 51.5
+  composite: 51.1
+  delta: -0.4
   facets:
     commercial_clarity: 44.7
-    contract_quality: 58.8
-    developer_ergonomics: 56.5
+    contract_quality: 64.0
+    developer_ergonomics: 53.8
     discoverability: 92.6
-    governance: 20.8
+    governance: 11.5
     operational_transparency: 36.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 51.5
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Linkagi Model Api Authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -267,15 +267,15 @@ rules:
   slug: telefonica-rules
 score:
   band: developing
-  composite: 45.3
-  delta: 0.0
+  composite: 43.1
+  delta: -2.2
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 77.8
+    commercial_clarity: 26.3
+    contract_quality: 74.9
     developer_ergonomics: 30.4
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 58.3
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 45.3
   provenance:
     agentic_access: derived
@@ -290,8 +290,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/screenshots/telefonica-2026-06-20T195129.png
 security:

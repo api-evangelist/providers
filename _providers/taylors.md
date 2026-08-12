@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -203,11 +203,11 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 44.2
-  delta: 0.0
+  composite: 43.7
+  delta: -0.5
   facets:
     commercial_clarity: 28.9
-    contract_quality: 69.8
+    contract_quality: 67.2
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 58.3
@@ -226,8 +226,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 50.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taylors/refs/heads/main/screenshots/taylors-2026-06-20T194940.png
 security:

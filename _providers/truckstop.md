@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: REST API for posting, updating, refreshing, and deleting loads on the Truckstop load board. Includes Load Boost for promoted visibility, pause/unpause for BIN loads, and tender management for booked l
@@ -131,9 +131,9 @@ rate_limits:
   name: Truckstop Rate Limits
   slug: truckstop-rate-limits
 score:
-  band: thin
-  composite: 28.8
-  delta: 0.0
+  band: emerging
+  composite: 27.1
+  delta: -1.7
   facets:
     commercial_clarity: 50.0
     contract_quality: 32.3
@@ -144,12 +144,12 @@ score:
   previous_composite: 28.8
   regulatory:
     applies: true
-    matched_via: weak_tags
-    regime: Securities & Market Data
-    regime_id: securities_market_data
-    score: 20.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 8.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truckstop/refs/heads/main/screenshots/truckstop-2026-06-20T195750.png
 security:

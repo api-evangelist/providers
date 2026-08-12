@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 148
   human_in_the_loop: 1
@@ -902,6 +902,14 @@ collections:
   name: US EPA How's My Waterway
   slug: open-mywaterway
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/USEPA/rExpertQuery/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/USEPA/rExpertQuery/blob/develop/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -6604,7 +6612,7 @@ overview: 'EPA — U.S. Environmental Protection Agency publishes 128 APIs on th
   The EPA — U.S. Environmental Protection Agency catalog on APIs.io includes 23 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  EPA — U.S. Environmental Protection Agency''s developer surface includes authentication, API reference, getting-started guide, documentation, engineering blog, YouTube channel, support, and 19 more developer resources.'
+  EPA — U.S. Environmental Protection Agency''s developer surface includes authentication, API reference, getting-started guide, documentation, engineering blog, YouTube channel, support, and 21 more developer resources.'
 random_paper: 78
 rate_limits:
 - limit_count: 11
@@ -6629,11 +6637,11 @@ rules:
   slug: epa-rules
 score:
   band: strong
-  composite: 57.3
-  delta: 0.0
+  composite: 57.5
+  delta: 0.2
   facets:
     commercial_clarity: 28.9
-    contract_quality: 71.4
+    contract_quality: 72.4
     developer_ergonomics: 56.5
     discoverability: 75.9
     governance: 68.8
@@ -6652,8 +6660,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 55.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epa/refs/heads/main/screenshots/epa-2026-06-20T180747.png
 security:

@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-10'
+  score: 41.7
+  scored_at: '2026-08-11'
 api_count: 32
 apis:
 - description: General system endpoints for the API.
@@ -127,12 +127,16 @@ apis:
 - description: The waiver API from Leo1 — 1 operation(s) for waiver.
   name: Leo1 waiver API
   slug: leo1-waiver-api
-artifact_total: 35
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Leo1 Fees Webhooks
   slug: leo1-fees-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/leo1-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -176,7 +180,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/leo1-leofees-openapi-original.json
+  url: openapi/_original/leo1-leofees-openapi-original.json
 - group: auth
   title: ''
   type: Authentication
@@ -237,6 +241,10 @@ created: '2026-07-17'
 description: LEO1 is a Mumbai-based education fintech founded in 2017 that operates an all-in-one campus and financial platform for Indian educational institutions. The company issues co-branded student and alumni prepaid cards, collects and reconciles institutional fees, and originates fee-financing (education loan) journeys that convert lump-sum tuition into instalments while giving institutes regularized cash flow. LEO1 exposes the LEO1 Fees SDK — a documented server-to-server and web checkout integration that lets an institute ERP start a fee transaction, embed the hosted checkout, and receive payment-gateway and fee-finance webhook notifications — backed by a public OpenAPI 3.0.2 description covering student, fee-due, fee-collection, payment, NACH/eNACH mandate, refund, penalty, waiver, settlement and institute administration operations. Backed by QED Investors, LEO1 reports partnerships with 31+ institution groups serving over half a million students across India.
 image: https://dn9oz5dl4ecgb.cloudfront.net/LEO1_Famous_card.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: leo1-mcp.yml
+  slug: leo1-mcpyml
 modified: '2026-07-19'
 name: Leo1
 nav: Providers
@@ -247,17 +255,17 @@ overview: 'Leo1 publishes 32 APIs on the [APIs.io](https://apis.io/) network, in
   The Leo1 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Leo1''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 19 more developer resources.'
+  Leo1''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 20 more developer resources.'
 random_paper: 21
 score:
-  band: developing
-  composite: 42.7
-  delta: 0.0
+  band: thin
+  composite: 41.6
+  delta: -1.1
   facets:
     commercial_clarity: 21.1
-    contract_quality: 58.8
-    developer_ergonomics: 58.2
-    discoverability: 92.6
+    contract_quality: 56.6
+    developer_ergonomics: 60.3
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
   previous_composite: 42.7
@@ -276,8 +284,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 45.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/screenshots/leo1-2026-07-25T224919.png
 security:

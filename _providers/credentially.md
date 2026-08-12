@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -107,6 +108,10 @@ asyncapis:
   name: Credentially Webhooks
   slug: credentially-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/credentially-gateway-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -241,15 +246,15 @@ overview: 'Credentially publishes 21 APIs on the [APIs.io](https://apis.io/) net
   The Credentially catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Credentially''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
+  Credentially''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
 random_paper: 4
 score:
-  band: strong
-  composite: 56.3
-  delta: 0.0
+  band: developing
+  composite: 54.8
+  delta: -1.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 73.5
+    contract_quality: 70.8
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
@@ -270,9 +275,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 43.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 37.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/screenshots/credentially-2026-07-25T210710.png
 security:

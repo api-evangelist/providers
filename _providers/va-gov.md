@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -426,11 +426,11 @@ scopes:
   summary_line: 35 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 49.1
+  delta: 2.5
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 68.7
+    commercial_clarity: 34.2
+    contract_quality: 69.9
     developer_ergonomics: 52.2
     discoverability: 68.5
     governance: 0.0
@@ -449,8 +449,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 75.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/screenshots/va-gov-2026-06-20T200737.png
 security:

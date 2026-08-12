@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 35.8
-  scored_at: '2026-08-10'
+  score: 32.2
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: Payroll deductions track the costs of plan premiums to employees.
@@ -54,6 +54,10 @@ apis:
   slug: thatch-health-pay-schedules-api
 artifact_total: 11
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/thatch-health-platforms-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -185,15 +189,15 @@ network: true
 overview: 'Thatch Health publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Deductions API, Employees API, Employer onboarding sessions API, and 4 more. Tagged areas include Company, Healthcare, Health Benefits, ICHRA, and Insurance.
 
 
-  Thatch Health''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
+  Thatch Health''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
 random_paper: 35
 score:
   band: developing
-  composite: 51.5
-  delta: 0.0
+  composite: 49.8
+  delta: -1.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 58.3
+    contract_quality: 56.1
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
@@ -211,11 +215,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Insurance
-    regime_id: insurance
-    score: 45.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Health
+    regime_id: health
+    score: 37.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -59,6 +59,26 @@ collections:
   name: Apache Helix REST API
   slug: open-apache-helix-rest
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apache/helix/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/apache/helix/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/apache/helix/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/helix/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -201,7 +221,7 @@ overview: 'Apache Helix publishes 4 APIs on the [APIs.io](https://apis.io/) netw
   The Apache Helix catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache Helix''s developer surface includes documentation, getting-started guide, and 7 more developer resources.'
+  Apache Helix''s developer surface includes documentation, getting-started guide, and 12 more developer resources.'
 plans:
 - name: Apache Helix Plans Pricing
   plan_count: 3
@@ -229,16 +249,16 @@ rules:
     warn: 9
   slug: apache-helix-spectral-rules
 score:
-  band: developing
-  composite: 46.8
-  delta: 0.0
+  band: thin
+  composite: 41.9
+  delta: -4.9
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 62.0
+    commercial_clarity: 15.8
+    contract_quality: 59.7
     developer_ergonomics: 19.6
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 46.8
   provenance:
     agentic_access: derived
@@ -247,8 +267,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-helix/refs/heads/main/screenshots/apache-helix-2026-06-20T172103.png
 security:

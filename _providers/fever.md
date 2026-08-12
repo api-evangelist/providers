@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 59.7
-  scored_at: '2026-08-10'
+  score: 56.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -55,6 +56,10 @@ apis:
   slug: fever-sessions-api
 artifact_total: 10
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/fever-reporting-api-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -154,7 +159,7 @@ network: true
 overview: 'Fever publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, FeverZone API, Order Items API, and 2 more. Tagged areas include Company, Consumer, Live Entertainment, Events, and Ticketing.
 
 
-  Fever''s developer surface includes documentation, API reference, authentication, support, and 17 more developer resources.'
+  Fever''s developer surface includes documentation, API reference, authentication, support, and 18 more developer resources.'
 random_paper: 72
 rate_limits:
 - limit_count: 2
@@ -162,11 +167,11 @@ rate_limits:
   slug: fever-rate-limits
 score:
   band: thin
-  composite: 41.6
-  delta: 0.0
+  composite: 41.0
+  delta: -0.6
   facets:
     commercial_clarity: 21.1
-    contract_quality: 55.5
+    contract_quality: 53.4
     developer_ergonomics: 49.5
     discoverability: 74.1
     governance: 11.5
@@ -182,8 +187,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/screenshots/fever-2026-07-25T214354.png
 security:

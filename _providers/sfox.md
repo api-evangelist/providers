@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 39.6
-  scored_at: '2026-08-10'
+  score: 36.0
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: REST API for trading, order management, RFQ, account balances and transactions, transfers/deposits/withdrawals, custody (sFOX SAFE), staking, post-trade settlement, market data, and reporting. Bearer-
@@ -172,13 +172,13 @@ rate_limits:
   slug: sfox-rate-limits
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 46.1
+  delta: -3.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 54.3
     developer_ergonomics: 60.9
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 3.1
     operational_transparency: 44.7
   previous_composite: 49.1
@@ -190,9 +190,9 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 55.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 41.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

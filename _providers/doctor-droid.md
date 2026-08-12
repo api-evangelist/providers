@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-10'
+  score: 25.2
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The DrDroid platform surface — the hosted Model Context Protocol (MCP) server and DroidAgent investigation API at aiops.drdroid.io, authenticated with a Bearer API key generated from the dashboard (Se
@@ -179,8 +179,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doctor-droid/refs/heads/main/screenshots/doctor-droid-2026-07-25T212214.png
 security:

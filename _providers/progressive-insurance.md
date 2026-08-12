@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Returns an estimated auto insurance rate from consumer-supplied vehicle and driver data; partners embed the quote flow directly inside their own product surfaces and complete the policy purchase end-t
@@ -110,8 +110,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/progressive-insurance/refs/heads/main/screenshots/progressive-insurance-2026-06-20T192148.png
 security:

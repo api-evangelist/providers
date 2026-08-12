@@ -4,10 +4,10 @@
  "limit": 1000,
  "bands": [
   {
-   "band": "developing",
-   "label": "Developing",
-   "range": "42 – 55.9",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "band": "thin",
+   "label": "Thin",
+   "range": "28 – 41.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 1,
    "shown": 1,
    "providers": [
@@ -16,19 +16,19 @@
      "slug": "waste-management",
      "description": "Waste Management (WM) is the largest environmental services company in North America, providing waste collection, transfer, disposal, and recycling services to over 20 million residential, commercial, industrial, and municipal customers across the United States. WM provides RESTful APIs for customers and third-party integrators to access account data including balance, services, invoices, pickup schedules, and ETAs via JWT authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/screenshots/waste-management-2026-06-20T201242.png",
-     "score": 46.3,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 40.5,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 72.2,
-      "contract_quality": 73.6,
+      "contract_quality": 70.9,
       "governance": 68.8,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 19.6,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -65,19 +65,19 @@
      "slug": "stericycle",
      "description": "Stericycle is a Fortune 500 compliance company specializing in regulated medical waste disposal, sharps management, pharmaceutical waste, secure information destruction, and healthcare compliance training. In November 2024, Stericycle was acquired by Waste Management (WM) for approximately $7.2 billion. The company operates as WM Healthcare Solutions division, serving hospitals, clinics, medical offices, dental practices, veterinary facilities, and other healthcare organizations. Stericycle's MyStericycle customer portal enables online account management, scheduling, compliance training, and billing.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/stericycle/refs/heads/main/screenshots/stericycle-2026-06-20T194548.png",
-     "score": 26.0,
+     "score": 21.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 12.9,
       "governance": 58.3,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 17.4,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -121,8 +121,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -170,8 +170,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -197,19 +197,19 @@
      "slug": "veolia",
      "description": "A French multinational corporation and the global leader in environmental services including water management, waste management, and energy services. Operates in nearly 50 countries providing solutions for water treatment, waste recycling, and pollution remediation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/veolia/refs/heads/main/screenshots/veolia-2026-06-20T200919.png",
-     "score": 4.0,
+     "score": 4.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 35.2,
+      "discoverability": 42.6,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

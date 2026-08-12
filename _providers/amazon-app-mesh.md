@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 49.1
-  scored_at: '2026-08-10'
+  score: 48.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -50,8 +50,16 @@ apis:
 - description: The Untag#resourceArn API from Amazon App Mesh — 1 operation(s) for untag#resourcearn.
   name: Amazon App Mesh Untag#resourceArn API
   slug: amazon-app-mesh-untag-resourcearn-api
-artifact_total: 993
+artifact_total: 994
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/amazon-app-mesh-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-app-mesh-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -3083,6 +3091,10 @@ jsonld:
   property_count: 1
   slug: amazon-app-mesh-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: amazon-app-mesh-mcp.yml
+  slug: amazon-app-mesh-mcpyml
 modified: '2026-06-20'
 name: Amazon App Mesh
 nav: Providers
@@ -3093,7 +3105,7 @@ overview: 'Amazon App Mesh publishes 4 APIs on the [APIs.io](https://apis.io/) n
   The Amazon App Mesh catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon App Mesh''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, status page, and 16 more developer resources.'
+  Amazon App Mesh''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, status page, and 18 more developer resources.'
 random_paper: 94
 rules:
 - name: Amazon App Mesh API Rules
@@ -3114,12 +3126,12 @@ rules:
   slug: amazon-app-mesh-spectral-rules
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 51.4
+  delta: -0.2
   facets:
     commercial_clarity: 42.1
-    contract_quality: 70.5
-    developer_ergonomics: 39.1
+    contract_quality: 67.9
+    developer_ergonomics: 41.3
     discoverability: 74.1
     governance: 80.2
     operational_transparency: 5.3
@@ -3133,8 +3145,8 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/screenshots/amazon-app-mesh-2026-07-25T195916.png
 security:

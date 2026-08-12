@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: MINA Core provides a Java NIO-based API for building high-performance network applications with support for TCP and UDP protocols, an event-driven filter chain for protocol codecs, session management,
@@ -42,6 +42,14 @@ apis:
   slug: apache-ftpserver
 artifact_total: 25
 common:
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/mina/blob/trunk/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -123,7 +131,7 @@ network: true
 overview: 'Apache MINA publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Async I/O, Java, Networking, NIO, and Protocol Framework.
 
 
-  Apache MINA''s developer surface includes developer portal and 9 more developer resources.'
+  Apache MINA''s developer surface includes developer portal and 11 more developer resources.'
 plans:
 - name: Apache Mina Plans Pricing
   plan_count: 3
@@ -135,19 +143,19 @@ rate_limits:
   slug: apache-mina-rate-limits
 score:
   band: emerging
-  composite: 23.0
-  delta: 0.0
+  composite: 15.2
+  delta: -7.8
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 23.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-mina/refs/heads/main/screenshots/apache-mina-2026-06-20T172122.png
 security:
 - kind: domain-security

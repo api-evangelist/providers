@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-10'
+  score: 42.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -403,16 +403,16 @@ rules:
     warn: 6
   slug: sendbird-rules
 score:
-  band: exemplar
-  composite: 70.2
-  delta: 0.0
+  band: strong
+  composite: 60.6
+  delta: -9.6
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 77.0
+    commercial_clarity: 55.3
+    contract_quality: 74.5
     developer_ergonomics: 32.6
-    discoverability: 90.7
+    discoverability: 79.6
     governance: 80.2
-    operational_transparency: 76.3
+    operational_transparency: 52.6
   previous_composite: 70.2
   provenance:
     agentic_access: derived
@@ -423,9 +423,9 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/screenshots/sendbird-2026-06-20T193652.png
 security:
 - kind: authentication

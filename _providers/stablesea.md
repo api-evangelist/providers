@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: verified
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-10'
+  score: 31.3
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The Liquidity Providers API from Stablesea — 2 operation(s) for liquidity providers.
@@ -37,8 +37,20 @@ apis:
 - description: The Organizations API from Stablesea — 11 operation(s) for organizations.
   name: Stablesea Organizations API
   slug: stablesea-organizations-api
-artifact_total: 4
+artifact_total: 5
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/stablesea-place-payout-order.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/stablesea-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/stablesea-terminal-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -87,6 +99,10 @@ created: '2026-07-17'
 description: Stable Sea is a financial technology platform providing global cash management and liquidity for companies building in stablecoins. The Stable Sea Terminal lets businesses consolidate on-chain and off-chain accounts, settle money across 40+ countries, run fiat-to-stablecoin on/off-ramps for transactions up to $50M, earn yield through tokenized money-market funds, and hold Bitcoin in insured custody. The Stable Sea Terminal API is a bearer-authenticated REST API (OpenAPI 3.1) for managing organizations, liquidity providers and exchange rates, external payment instruments, offerings, quotes, and payout orders — with idempotent writes on all create operations. Surfaced as a Kindred Ventures portfolio company and enriched into the API Evangelist network.
 image: https://framerusercontent.com/images/Z7eNpaGMVcjn2gmGRb3QxFnqnE.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: stablesea-mcp.yml
+  slug: stablesea-mcpyml
 modified: '2026-07-21'
 name: Stablesea
 nav: Providers
@@ -94,16 +110,16 @@ network: true
 overview: 'Stablesea publishes 2 APIs on the [APIs.io](https://apis.io/) network: Liquidity Providers API and Organizations API. Tagged areas include Company, Stablecoins, Payments, Cash Management, and Treasury.
 
 
-  Stablesea''s developer surface includes documentation, API reference, signup flow, support, engineering blog, and 6 more developer resources.'
+  Stablesea''s developer surface includes documentation, API reference, signup flow, support, engineering blog, and 9 more developer resources.'
 random_paper: 20
 score:
   band: thin
-  composite: 33.8
-  delta: 0.0
+  composite: 34.0
+  delta: 0.2
   facets:
     commercial_clarity: 34.2
-    contract_quality: 55.9
-    developer_ergonomics: 30.4
+    contract_quality: 53.8
+    developer_ergonomics: 34.2
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 0.0
@@ -123,8 +139,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

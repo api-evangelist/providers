@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 59.9
-  scored_at: '2026-08-10'
+  score: 56.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -156,13 +157,13 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.9
-  delta: 0.0
+  composite: 43.2
+  delta: -1.7
   facets:
     commercial_clarity: 13.2
-    contract_quality: 58.9
+    contract_quality: 56.7
     developer_ergonomics: 69.6
-    discoverability: 83.3
+    discoverability: 72.2
     governance: 20.8
     operational_transparency: 21.1
   previous_composite: 44.9
@@ -176,8 +177,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/screenshots/monid-2026-08-07T184201.png
 security:

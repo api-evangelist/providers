@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 419
   human_in_the_loop: 12
@@ -248,11 +249,11 @@ overview: 'Socotra publishes 18 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 67
 score:
   band: developing
-  composite: 48.9
-  delta: 0.0
+  composite: 48.5
+  delta: -0.4
   facets:
     commercial_clarity: 36.8
-    contract_quality: 48.1
+    contract_quality: 46.3
     developer_ergonomics: 82.1
     discoverability: 81.5
     governance: 11.5
@@ -274,8 +275,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

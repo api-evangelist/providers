@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -223,10 +223,6 @@ common:
   title: ''
   type: ContactEmail
   url: mailto:datacustomercare@attomdata.com
-- group: operate
-  title: ''
-  type: ContactPhone
-  url: tel:+18004625125
 - group: commercial
   title: ''
   type: Plans
@@ -305,7 +301,7 @@ overview: 'ATTOM publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
   The ATTOM catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  ATTOM''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, support, GitHub presence, and 27 more developer resources.'
+  ATTOM''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, support, GitHub presence, and 26 more developer resources.'
 plans:
 - name: Attomdata Plans Pricing
   plan_count: 4
@@ -334,11 +330,11 @@ rules:
   slug: attomdata-rules
 score:
   band: developing
-  composite: 51.4
-  delta: 0.0
+  composite: 50.8
+  delta: -0.6
   facets:
     commercial_clarity: 52.6
-    contract_quality: 76.3
+    contract_quality: 73.8
     developer_ergonomics: 54.3
     discoverability: 64.8
     governance: 68.8
@@ -357,8 +353,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/screenshots/attomdata-2026-06-20T172541.png
 security:

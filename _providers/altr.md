@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -18,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 190
   human_in_the_loop: 10
@@ -241,6 +242,14 @@ asyncapis:
   name: Altr Events Webhooks
   slug: altr-events-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/altr-access-tokens-overlay.yaml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/altrsoftware/altr-mcp-server/issues
 - group: auth
   title: ''
   type: TrustCenter
@@ -407,32 +416,32 @@ overview: 'ALTR publishes 66 APIs on the [APIs.io](https://apis.io/) network, in
   The ALTR catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ALTR''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+  ALTR''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
 random_paper: 87
 score:
   band: strong
-  composite: 58.9
-  delta: -1.1
+  composite: 59.1
+  delta: 0.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.8
+    contract_quality: 66.7
     developer_ergonomics: 75.5
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 60.0
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 57.1
+      callable: 86.4
       derived: 0
       marker_coverage: 0.0
-      total: 21
+      total: 66
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/screenshots/altr-2026-08-07T161253.png
 security:

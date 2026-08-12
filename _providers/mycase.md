@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -232,11 +232,11 @@ rules:
   slug: mycase-rules
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 46.2
+  delta: -0.4
   facets:
     commercial_clarity: 44.7
-    contract_quality: 68.9
+    contract_quality: 66.7
     developer_ergonomics: 41.3
     discoverability: 64.8
     governance: 41.7
@@ -255,8 +255,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/screenshots/mycase-2026-06-20T185916.png
 security:

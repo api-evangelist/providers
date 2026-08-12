@@ -20,14 +20,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-10'
+  score: 18.9
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The Branding API from CharacterQuilt — 2 operation(s) for branding.
@@ -36,8 +36,12 @@ apis:
 - description: The Discovery API from CharacterQuilt — 1 operation(s) for discovery.
   name: CharacterQuilt Discovery API
   slug: characterquilt-discovery-api
-artifact_total: 3
+artifact_total: 4
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/characterquilt-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -90,6 +94,10 @@ created: '2026-07-17'
 description: 'CharacterQuilt is an AI-native marketing infrastructure company (Y Combinator Spring 2026) building computer-use agents that design and deploy enterprise marketing campaigns end-to-end. Marketing teams submit a brief and CharacterQuilt''s agents handle audience segmentation, on-brand creative generation, brand validation, and direct deployment into existing tools such as HubSpot, Marketo, WordPress, and LinkedIn — collapsing work that once took multiple agencies, ten tools, and six weeks into roughly an hour. Alongside the product, CharacterQuilt publishes a public, machine-readable brand-profiles data surface at /branding/<slug>.json: colors, typography, logos, components, and personality extracted from thousands of companies'' live websites, intended for agents, designers, and AI tools. Founded by Bhairav Mehta (CEO) and Clint Burgess and based in San Francisco.'
 image: https://cdn.prod.website-files.com/678e847c65f5a9cc363424b0/68d6b1531e1346581672508b_Open%20Graph%20Image.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: characterquilt-mcp.yml
+  slug: characterquilt-mcpyml
 modified: '2026-07-18'
 name: CharacterQuilt
 nav: Providers
@@ -97,17 +105,17 @@ network: true
 overview: 'CharacterQuilt publishes 2 APIs on the [APIs.io](https://apis.io/) network: Branding API and Discovery API. Tagged areas include Company, Marketing, Artificial Intelligence, AI Agents, and Marketing Automation.
 
 
-  CharacterQuilt''s developer surface includes engineering blog, pricing, signup flow, support, and 8 more developer resources.'
+  CharacterQuilt''s developer surface includes engineering blog, pricing, signup flow, support, and 9 more developer resources.'
 random_paper: 108
 score:
   band: thin
-  composite: 35.2
-  delta: 0.0
+  composite: 34.0
+  delta: -1.2
   facets:
     commercial_clarity: 44.7
-    contract_quality: 58.1
-    developer_ergonomics: 15.2
-    discoverability: 87.0
+    contract_quality: 56.0
+    developer_ergonomics: 17.4
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 35.2
@@ -118,8 +126,8 @@ score:
       marker_coverage: 0.0
       total: 2
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/screenshots/characterquilt-2026-07-25T205053.png
 security:

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-10'
+  score: 44.4
+  scored_at: '2026-08-11'
 api_count: 23
 apis:
 - description: The Accounts API from TOP Group (The Open Platform) — 22 operation(s) for accounts.
@@ -106,6 +106,10 @@ asyncapis:
   name: Top Group Tonapi Webhooks
   slug: top-group-tonapi-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/top-group-tonapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -252,7 +256,7 @@ overview: 'TOP Group (The Open Platform) publishes 23 APIs on the [APIs.io](http
   The TOP Group (The Open Platform) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  TOP Group (The Open Platform)''s developer surface includes engineering blog, documentation, API reference, getting-started guide, pricing, signup flow, support, and 24 more developer resources.'
+  TOP Group (The Open Platform)''s developer surface includes engineering blog, documentation, API reference, getting-started guide, pricing, signup flow, support, and 25 more developer resources.'
 random_paper: 13
 rate_limits:
 - limit_count: 2
@@ -260,13 +264,13 @@ rate_limits:
   slug: top-group-rate-limits
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 49.1
+  delta: -1.4
   facets:
     commercial_clarity: 44.7
-    contract_quality: 54.4
+    contract_quality: 52.4
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 42.1
   previous_composite: 50.5
@@ -285,8 +289,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

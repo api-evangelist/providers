@@ -1,10 +1,11 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -17,8 +18,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 61.3
-  scored_at: '2026-08-10'
+  score: 54.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 1
@@ -76,6 +77,10 @@ asyncapis:
   name: Bria Webhooks
   slug: bria-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bria-ad-generation-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -234,7 +239,7 @@ overview: 'Bria publishes 13 APIs on the [APIs.io](https://apis.io/) network, in
   The Bria catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bria''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 28 more developer resources.'
+  Bria''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 29 more developer resources.'
 random_paper: 66
 scopes:
 - name: Bria Scopes
@@ -243,16 +248,29 @@ scopes:
   summary_line: 3 scopes · authorizationCode/deviceCode
 score:
   band: strong
-  composite: 59.1
+  composite: 58.9
+  delta: -0.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 59.1
+    contract_quality: 62.9
     developer_ergonomics: 78.3
     discoverability: 92.6
-    governance: 20.8
+    governance: 11.5
     operational_transparency: 36.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 59.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Bria Authentication

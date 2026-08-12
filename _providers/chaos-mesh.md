@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -69,6 +69,26 @@ collections:
   name: Chaos Mesh Dashboard API
   slug: open-chaos-mesh-dashboard
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/chaos-mesh/chaos-mesh/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/chaos-mesh/chaos-mesh/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/chaos-mesh/chaos-mesh/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/chaos-mesh/chaos-mesh/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/chaos-mesh/chaos-mesh/blob/master/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -215,7 +235,7 @@ overview: 'Chaos Mesh publishes 7 APIs on the [APIs.io](https://apis.io/) networ
   The Chaos Mesh catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Chaos Mesh''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, GitHub presence, and 11 more developer resources.'
+  Chaos Mesh''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, GitHub presence, and 16 more developer resources.'
 plans:
 - name: Chaos Mesh Plans Pricing
   plan_count: 3
@@ -236,15 +256,15 @@ rules:
   slug: chaos-mesh-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.7
-  delta: 0.0
+  composite: 44.7
+  delta: -7.0
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 64.5
+    commercial_clarity: 15.8
+    contract_quality: 62.0
     developer_ergonomics: 37.0
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 51.7
   provenance:
     agentic_access: derived
@@ -253,9 +273,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/chaos-mesh/refs/heads/main/screenshots/chaos-mesh-2026-06-20T174215.png
 security:
 - kind: authentication

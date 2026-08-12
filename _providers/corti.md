@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 37.6
-  scored_at: '2026-08-10'
+  score: 34.0
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: Real-time, bidirectional stateless dictation over WebSocket, returning live transcripts and detected commands.
@@ -257,8 +257,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/screenshots/corti-2026-07-25T210446.png
 security:

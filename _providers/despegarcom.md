@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.9
-  scored_at: '2026-08-10'
+  score: 45.3
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Hotel search, live availability, prebook, payment, booking and static content.
@@ -170,13 +170,13 @@ overview: 'Despegar.com publishes 5 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 2
 score:
   band: thin
-  composite: 40.1
-  delta: 0.0
+  composite: 39.0
+  delta: -1.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 51.6
     developer_ergonomics: 66.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 12.5
     operational_transparency: 23.7
   previous_composite: 40.1
@@ -184,8 +184,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/despegarcom/refs/heads/main/screenshots/despegarcom-2026-07-25T211800.png
 security:

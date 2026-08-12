@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: Create and manage bank accounts and their account holders through the GraphQL Partner API - open accounts, read balances and status, and access the IBAN and BIC distributed to each account. Queries in
@@ -142,8 +142,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

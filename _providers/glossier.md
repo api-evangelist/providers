@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 23.4
-  scored_at: '2026-08-10'
+  score: 19.8
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the Glossier storefront implementing the Universal Commerce Protocol over MCP: catalog search, cart, checkout, and fulfillment with a buyer-approval invariant on paym'
@@ -116,21 +116,21 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 21.4
-  delta: 0.0
+  composite: 20.3
+  delta: -1.1
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 28.3
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 10.5
   previous_composite: 21.4
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glossier/refs/heads/main/screenshots/glossier-2026-07-25T215930.png
 security:

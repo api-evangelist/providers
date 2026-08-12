@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 12
 apis:
 - description: The addresses API from Oumla Ltd — 5 operation(s) for addresses.
@@ -69,6 +69,10 @@ apis:
   slug: oumla-ltd-workflows-api
 artifact_total: 15
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oumla-ltd-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -184,15 +188,15 @@ network: true
 overview: 'Oumla Ltd publishes 12 APIs on the [APIs.io](https://apis.io/) network, including addresses API, assets API, contract-interactions API, and 9 more. Tagged areas include Company, Blockchain, Digital Assets, Wallet Infrastructure, and Custody.
 
 
-  Oumla Ltd''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, support, and 18 more developer resources.'
+  Oumla Ltd''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, support, and 19 more developer resources.'
 random_paper: 99
 score:
   band: developing
-  composite: 49.3
-  delta: 0.0
+  composite: 47.5
+  delta: -1.8
   facets:
     commercial_clarity: 31.6
-    contract_quality: 63.0
+    contract_quality: 60.7
     developer_ergonomics: 69.0
     discoverability: 81.5
     governance: 20.8
@@ -207,8 +211,14 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 40.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/screenshots/oumla-ltd-2026-08-07T191043.png
 security:

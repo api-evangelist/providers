@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The University of Tokyo Academic Assets Archives shared server publishes digitized collections via the International Image Interoperability Framework (IIIF). IIIF Image and Presentation APIs (manifest
@@ -39,6 +39,10 @@ apis:
   slug: repository-oai-pmh
 artifact_total: 7
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/utda/dataset/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -102,7 +106,7 @@ overview: 'University of Tokyo publishes 2 APIs on the [APIs.io](https://apis.io
   The University of Tokyo catalog on APIs.io includes 1 JSON-LD context.
 
 
-  University of Tokyo''s developer surface includes GitHub presence and 9 more developer resources.'
+  University of Tokyo''s developer surface includes GitHub presence and 10 more developer resources.'
 plans:
 - name: University Of Tokyo Plans Pricing
   plan_count: 2
@@ -130,8 +134,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/screenshots/university-of-tokyo-2026-06-20T200308.png
 security:

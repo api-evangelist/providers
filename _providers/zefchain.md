@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: GraphQL API exposed by the Linera node service (run via the linera CLI) that lets web frontends read and mutate the state of the microchains held by a wallet, including GraphQL subscriptions for chain
@@ -35,6 +35,10 @@ apis:
   slug: linera-node-service-graphql
 artifact_total: 2
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/linera-io/linera-protocol/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -106,7 +110,7 @@ network: true
 overview: 'Zefchain publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Web3, Developer Tools, and GraphQL.
 
 
-  Zefchain''s developer surface includes documentation, getting-started guide, API reference, CLI, changelog, and 10 more developer resources.'
+  Zefchain''s developer surface includes documentation, getting-started guide, API reference, CLI, changelog, and 11 more developer resources.'
 random_paper: 28
 score:
   band: emerging
@@ -122,8 +126,8 @@ score:
   previous_composite: 20.3
   provenance:
     conformance: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

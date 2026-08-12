@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: 'API-driven Interac e-Transfer for Canadian money movement, supporting Send Money, Request Money, Receive AutoDeposit, and Receive Question-and-Answer flows so program managers and fintech clients can '
@@ -106,8 +106,8 @@ overview: 'Peoples Group publishes 5 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 86
 score:
   band: emerging
-  composite: 23.3
-  delta: 0.0
+  composite: 21.4
+  delta: -1.9
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -123,9 +123,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 42.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 29.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

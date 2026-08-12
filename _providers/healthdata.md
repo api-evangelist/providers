@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'The Socrata Open Data API (SODA) provides programmatic access to all public datasets hosted on HealthData.gov. Each dataset is accessible through a unique eight-character identifier inserted into the '
@@ -127,8 +127,8 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 37.4
-  delta: 0.0
+  composite: 39.7
+  delta: 2.3
   facets:
     commercial_clarity: 60.5
     contract_quality: 40.3
@@ -140,11 +140,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Health
-    regime_id: health
-    score: 31.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Government & Public Sector
+    regime_id: government
+    score: 46.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthdata/refs/heads/main/screenshots/healthdata-2026-06-20T182600.png
 security:

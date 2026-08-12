@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 2
@@ -111,6 +111,18 @@ collections:
   name: Authsignal Server API
   slug: open-authsignal
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/authsignal/authsignal-node/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/authsignal/authsignal-node/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/authsignal/authsignal-node/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -170,7 +182,7 @@ network: true
 overview: 'Authsignal publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Authenticators API, Challenges API, and 3 more. Tagged areas include Authentication, Passkeys, MFA, Step-Up, and Passwordless.
 
 
-  Authsignal''s developer surface includes authentication, documentation, GitHub presence, status page, pricing, engineering blog, and 5 more developer resources.'
+  Authsignal''s developer surface includes authentication, documentation, GitHub presence, status page, pricing, engineering blog, and 8 more developer resources.'
 plans:
 - name: Authsignal Plans Pricing
   plan_count: 1
@@ -182,15 +194,15 @@ rate_limits:
   slug: authsignal-rate-limits
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 39.9
+  delta: 2.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 58.1
+    contract_quality: 56.0
     developer_ergonomics: 21.7
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 42.1
   previous_composite: 37.6
   provenance:
     agentic_access: derived
@@ -199,8 +211,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/screenshots/authsignal-2026-06-20T172610.png
 security:

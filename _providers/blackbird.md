@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -70,6 +70,10 @@ apis:
   slug: blackbird-users-api
 artifact_total: 15
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/blackbird-flynet-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -189,7 +193,7 @@ network: true
 overview: 'Blackbird publishes 10 APIs on the [APIs.io](https://apis.io/) network, including App API, Challenges API, Check-ins API, and 7 more. Tagged areas include Company, Restaurants, Loyalty, Payments, and Dining.
 
 
-  Blackbird''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 19 more developer resources.'
+  Blackbird''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
 random_paper: 114
 scopes:
 - name: Blackbird Scopes
@@ -198,11 +202,11 @@ scopes:
   summary_line: 9 scopes
 score:
   band: developing
-  composite: 45.2
-  delta: 0.0
+  composite: 44.8
+  delta: -0.4
   facets:
     commercial_clarity: 13.2
-    contract_quality: 61.9
+    contract_quality: 59.6
     developer_ergonomics: 80.4
     discoverability: 81.5
     governance: 11.5
@@ -224,8 +228,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/screenshots/blackbird-2026-07-25T203240.png
 security:

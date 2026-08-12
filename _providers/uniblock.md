@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -148,10 +148,6 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/uniblock-vocabulary.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/blockchain-data.yaml
 - group: agent
   title: ''
   type: LlmsText
@@ -200,7 +196,7 @@ overview: 'Uniblock publishes 7 APIs on the [APIs.io](https://apis.io/) network,
   The Uniblock catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Uniblock''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 15 more developer resources.'
+  Uniblock''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 14 more developer resources.'
 plans:
 - name: Uniblock Plans Pricing
   plan_count: 5
@@ -237,15 +233,15 @@ rules:
   slug: uniblock-rules
 score:
   band: developing
-  composite: 55.3
-  delta: 0.0
+  composite: 47.5
+  delta: -7.8
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 78.7
+    commercial_clarity: 28.9
+    contract_quality: 75.8
     developer_ergonomics: 41.3
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 52.1
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 55.3
   provenance:
     agentic_access: derived
@@ -254,9 +250,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/screenshots/uniblock-2026-06-20T200030.png
 security:
 - kind: authentication

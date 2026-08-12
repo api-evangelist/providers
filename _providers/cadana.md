@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 0
@@ -144,6 +144,10 @@ asyncapis:
   name: Cadana Webhooks
   slug: cadana-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cadana-embedded-consumer-wallets-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -286,17 +290,17 @@ overview: 'Cadana publishes 30 APIs on the [APIs.io](https://apis.io/) network, 
   The Cadana catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cadana''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
+  Cadana''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
 random_paper: 20
 score:
   band: developing
-  composite: 51.5
-  delta: 0.0
+  composite: 50.0
+  delta: -1.5
   facets:
     commercial_clarity: 42.1
-    contract_quality: 72.6
+    contract_quality: 69.9
     developer_ergonomics: 66.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
   previous_composite: 51.5
@@ -316,8 +320,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/screenshots/cadana-2026-07-25T204209.png
 security:

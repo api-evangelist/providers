@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -735,16 +735,16 @@ scopes:
   slug: microsoft-azure-monitor-scopes
   summary_line: 4 scopes · clientCredentials
 score:
-  band: exemplar
-  composite: 70.6
-  delta: 0.0
+  band: strong
+  composite: 62.1
+  delta: -8.5
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 76.0
+    commercial_clarity: 60.5
+    contract_quality: 73.1
     developer_ergonomics: 56.5
     discoverability: 75.9
     governance: 58.3
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 70.6
   provenance:
     agentic_access: derived
@@ -753,9 +753,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/screenshots/microsoft-azure-monitor-2026-06-20T185425.png
 security:
 - kind: authentication

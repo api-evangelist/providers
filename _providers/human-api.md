@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The Health Intelligence Platform (HIP) Admin API for creating and managing Human API users, submitting and managing EHR order types, managing subscriptions, and fetching delivered clinical summary rep
@@ -186,11 +186,11 @@ overview: 'Human API publishes 2 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 84
 score:
   band: developing
-  composite: 49.2
-  delta: 0.0
+  composite: 45.2
+  delta: -4.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 62.4
+    contract_quality: 60.1
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
@@ -210,9 +210,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 55.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 31.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/screenshots/human-api-2026-07-25T221654.png
 security:

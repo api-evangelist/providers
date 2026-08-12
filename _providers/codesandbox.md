@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 2
@@ -71,6 +71,22 @@ apis:
   slug: codesandbox-workspace-api
 artifact_total: 26
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/codesandbox/sandpack/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/codesandbox/sandpack/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/codesandbox/sandpack/blob/main/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/codesandbox/sandpack/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -180,7 +196,7 @@ overview: 'CodeSandbox publishes 8 APIs on the [APIs.io](https://apis.io/) netwo
   The CodeSandbox catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  CodeSandbox''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, and 10 more developer resources.'
+  CodeSandbox''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, and 14 more developer resources.'
 plans:
 - name: Codesandbox Plans Pricing
   plan_count: 4
@@ -201,11 +217,11 @@ rules:
   slug: codesandbox-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.5
-  delta: 0.0
+  composite: 54.8
+  delta: -0.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 75.2
+    contract_quality: 72.4
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 58.3
@@ -218,8 +234,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/screenshots/codesandbox-2026-06-20T174706.png
 security:

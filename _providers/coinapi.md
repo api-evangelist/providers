@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Normalized cryptocurrency market data covering more than 350 exchanges and 28,000+ assets. Provides trades, quotes, order books, OHLCV time series, exchange rates, and derivatives metrics (funding rat
@@ -132,16 +132,16 @@ rules:
     warn: 5
   slug: coinapi-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 47.0
-  delta: 0.0
+  band: thin
+  composite: 41.0
+  delta: -6.0
   facets:
-    commercial_clarity: 71.1
+    commercial_clarity: 47.4
     contract_quality: 50.6
     developer_ergonomics: 10.9
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 41.7
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 47.0
   regulatory:
     applies: true
@@ -149,9 +149,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinapi/refs/heads/main/screenshots/coinapi-2026-06-20T174721.png
 security:
 - kind: domain-security

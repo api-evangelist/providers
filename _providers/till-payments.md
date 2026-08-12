@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -178,11 +178,11 @@ overview: 'Till Payments publishes 2 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 87
 score:
   band: developing
-  composite: 46.1
-  delta: 0.0
+  composite: 42.3
+  delta: -3.8
   facets:
     commercial_clarity: 31.6
-    contract_quality: 65.1
+    contract_quality: 62.6
     developer_ergonomics: 42.9
     discoverability: 72.2
     governance: 11.5
@@ -203,9 +203,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 60.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 39.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

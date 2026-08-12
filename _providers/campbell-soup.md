@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Campbell's Kitchen API exposes the Campbell's Kitchen recipe and product catalog — including thousands of recipes across Campbell's, Swanson, Pace, Prego, and Pepperidge Farm brands — to developer
@@ -118,8 +118,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 9.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/campbell-soup/refs/heads/main/screenshots/campbell-soup-2026-06-20T173906.png
 security:

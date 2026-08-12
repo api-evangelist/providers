@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-10'
+  score: 41.7
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: The APIKeyService API from Akuity — 4 operation(s) for apikeyservice.
@@ -45,12 +45,16 @@ apis:
 - description: The SystemService API from Akuity — 14 operation(s) for systemservice.
   name: Akuity System Service API
   slug: akuity-systemservice-api
-artifact_total: 14
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Akuity Notifications Webhooks
   slug: akuity-notifications-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/akuity-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -203,6 +207,10 @@ created: '2026-08-06'
 description: 'Akuity is the enterprise software delivery company founded by the creators of Argo CD and Kargo. The Akuity Platform is its commercial, fully-managed offering: hosted, enterprise-grade Argo CD control planes for GitOps continuous delivery, managed Kargo for multi-stage progressive promotion, the Akuity Agent for connecting target Kubernetes clusters, and Akuity Intelligence — an AI layer adding multi-cluster insight dashboards, on-call and promotion advisor agents, and AI-assisted remediation. The platform is controlled by a REST API at https://akuity.cloud/api/v1/, an `akuity` CLI, a Terraform provider and a Crossplane provider, all of which speak the same grpc-gateway service surface. Akuity runs on AWS with US and EU data residency and maintains SOC 2 Type II, ISO 27001:2022, PCI DSS 4.0.1, HIPAA-aligned and CSA STAR Level 1 posture.'
 image: https://framerusercontent.com/images/GquIfu25ll0uHAbX9oobc0UUUE.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: akuity-mcp.yml
+  slug: akuity-mcpyml
 modified: '2026-08-06'
 name: Akuity
 nav: Providers
@@ -213,7 +221,7 @@ overview: 'Akuity publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
   The Akuity catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Akuity''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+  Akuity''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
 plans:
 - name: Akuity Plans
   plan_count: 3
@@ -221,27 +229,27 @@ plans:
 random_paper: 83
 score:
   band: exemplar
-  composite: 66.8
-  delta: -0.6
+  composite: 66.5
+  delta: -0.3
   facets:
     commercial_clarity: 92.1
-    contract_quality: 64.3
-    developer_ergonomics: 66.8
-    discoverability: 92.6
+    contract_quality: 65.7
+    developer_ergonomics: 69.0
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 67.4
+  previous_composite: 66.8
   provenance:
     conformance: first-party
     contracts:
-      callable: 60.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/screenshots/akuity-2026-08-07T161137.png
 security:

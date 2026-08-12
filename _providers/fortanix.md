@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-10'
+  score: 37.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 184
   human_in_the_loop: 10
@@ -37,8 +37,12 @@ apis:
 - description: 'REST API covering the Armor and Key Insight components of the Fortanix Data & AI Security Platform: cloud and on-premises cryptographic discovery connections, scans, scan inventory, discovery policies'
   name: Fortanix Armor and Key Insight API
   slug: armor-key-insight
-artifact_total: 9
+artifact_total: 10
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/fortanix-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -183,6 +187,10 @@ created: '2026-08-01'
 description: Fortanix is a data-security company building the Fortanix Data & AI Security Platform, a unified control plane for enterprise cryptography. Its products include Data Security Manager (DSM) — a FIPS 140-2 Level 3 validated key-management, HSM, tokenization and secrets service delivered as SaaS or as on-premises appliances; Confidential Computing Manager (CCM) for enclave conversion, attestation and workload signing on Intel SGX and AWS Nitro; Key Insight for cryptographic discovery, posture and post-quantum readiness across cloud and on-premises estates; and Fortanix Armor. All three products publish public REST APIs with machine-readable OpenAPI/Swagger contracts, and Fortanix ships first-party client SDKs (Java, Python, Go, Rust, C#, PHP, JavaScript), a Python CLI (sdkms-cli), Terraform providers, and legacy cryptographic interfaces (PKCS#11, Microsoft CNG, Java JCE).
 image: https://cdn.aglty.io/fortanix/global-header/fortanix-logo.svg
 layout: provider
+mcp_servers:
+- description: ''
+  name: fortanix-mcp.yml
+  slug: fortanix-mcpyml
 modified: '2026-08-01'
 name: Fortanix
 nav: Providers
@@ -190,7 +198,7 @@ network: true
 overview: 'Fortanix publishes 3 APIs on the [APIs.io](https://apis.io/) network: Data Security Manager REST API, Confidential Computing Manager REST API, and Armor and Key Insight API. Tagged areas include Company, Security, Encryption, Key Management, and Cryptography.
 
 
-  Fortanix''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, developer console, and 28 more developer resources.'
+  Fortanix''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, developer console, and 29 more developer resources.'
 random_paper: 63
 scopes:
 - name: Fortanix Scopes
@@ -199,13 +207,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 55.8
-  delta: 0.0
+  composite: 54.6
+  delta: -1.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 57.4
-    developer_ergonomics: 73.4
-    discoverability: 92.6
+    contract_quality: 55.2
+    developer_ergonomics: 75.5
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 47.4
   previous_composite: 55.8
@@ -219,8 +227,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortanix/refs/heads/main/screenshots/fortanix-2026-08-07T165417.png
 security:

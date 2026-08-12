@@ -27,10 +27,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/balderdashy/sails/blob/master/LICENSE
 - group: auth
   title: ''
   type: Security
@@ -98,22 +102,22 @@ network: true
 overview: 'Sails Co is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Framework, Node.js, MVC, and Web Development.
 
 
-  Sails Co''s developer surface includes documentation, getting-started guide, support, engineering blog, CLI, and 9 more developer resources.'
+  Sails Co''s developer surface includes documentation, getting-started guide, support, engineering blog, CLI, and 10 more developer resources.'
 random_paper: 99
 score:
   band: emerging
-  composite: 17.2
-  delta: 0.0
+  composite: 16.1
+  delta: -1.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 41.3
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 17.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

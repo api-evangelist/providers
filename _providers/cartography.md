@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 11
 apis:
 - description: Python tool that ingests infrastructure data from 30+ providers into a Neo4j graph for cross-provider security analysis.
@@ -66,6 +66,18 @@ apis:
   slug: cloudflare-ingest
 artifact_total: 15
 common:
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/cartography-cncf/cartography/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/cartography-cncf/cartography/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/cartography-cncf/cartography/blob/master/CONTRIBUTING.md
 - group: company
   title: ''
   type: Website
@@ -129,7 +141,7 @@ overview: 'Cartography publishes 11 APIs on the [APIs.io](https://apis.io/) netw
   The Cartography catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Cartography''s developer surface includes documentation, getting-started guide, tutorials, release notes, and 6 more developer resources.'
+  Cartography''s developer surface includes documentation, getting-started guide, tutorials, release notes, and 9 more developer resources.'
 plans:
 - name: Cartography Plans Pricing
   plan_count: 3
@@ -140,20 +152,20 @@ rate_limits:
   name: Cartography Rate Limits
   slug: cartography-rate-limits
 score:
-  band: thin
-  composite: 28.0
-  delta: 0.0
+  band: emerging
+  composite: 21.6
+  delta: -6.4
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 8.1
     developer_ergonomics: 23.9
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 28.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cartography/refs/heads/main/screenshots/cartography-2026-07-25T204658.png
 slug: cartography
 tags:

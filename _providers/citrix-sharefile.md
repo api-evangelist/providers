@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -128,13 +128,13 @@ overview: 'Citrix ShareFile publishes 6 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 27
 score:
   band: thin
-  composite: 30.2
-  delta: 0.0
+  composite: 33.1
+  delta: 2.9
   facets:
-    commercial_clarity: 18.4
-    contract_quality: 57.4
+    commercial_clarity: 31.6
+    contract_quality: 55.2
     developer_ergonomics: 23.9
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 30.2
@@ -145,8 +145,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citrix-sharefile/refs/heads/main/screenshots/citrix-sharefile-2026-06-20T174414.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API for delivery visits, route plans, route optimization, vehicles, drivers, clients, invoices and lifecycle webhooks. Token-header authenticated, JSON over HTTPS, versioned at /v1.
@@ -176,8 +176,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

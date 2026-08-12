@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -83,6 +83,18 @@ collections:
   name: Gusto Embedded Payroll API
   slug: open-gusto
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Gusto/embedded-react-sdk/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Gusto/embedded-react-sdk/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Gusto/embedded-react-sdk/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -186,17 +198,17 @@ network: true
 overview: 'Gusto publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Embedded Payroll API, BankAccounts API, Companies API, and 8 more. Tagged areas include Human Resources, Payroll, Benefits, Enterprise Software, and Embedded Finance.
 
 
-  Gusto''s developer surface includes authentication, documentation, support, engineering blog, and 18 more developer resources.'
+  Gusto''s developer surface includes authentication, documentation, support, engineering blog, and 21 more developer resources.'
 random_paper: 98
 score:
   band: developing
-  composite: 42.3
-  delta: 0.0
+  composite: 42.5
+  delta: 0.2
   facets:
     commercial_clarity: 42.1
-    contract_quality: 68.1
+    contract_quality: 66.1
     developer_ergonomics: 50.0
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 42.3
@@ -207,8 +219,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/screenshots/gusto-2026-06-20T182442.png
 security:

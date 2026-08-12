@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -129,16 +129,16 @@ rate_limits:
   name: Pushwoosh Rate Limits
   slug: pushwoosh-rate-limits
 score:
-  band: thin
-  composite: 28.4
-  delta: 0.0
+  band: emerging
+  composite: 24.2
+  delta: -4.2
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 51.9
+    commercial_clarity: 21.1
+    contract_quality: 50.0
     developer_ergonomics: 2.2
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 28.4
   provenance:
     agentic_access: derived
@@ -153,8 +153,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 15.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pushwoosh/refs/heads/main/screenshots/pushwoosh-2026-06-20T192320.png
 security:

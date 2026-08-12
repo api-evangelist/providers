@@ -3,8 +3,8 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 73.0
-  scored_at: '2026-08-10'
+  score: 59.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -85,6 +85,10 @@ asyncapis:
   name: Bvnk Webhooks
   slug: bvnk-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bvnk-api-endpoints-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -263,7 +267,7 @@ overview: 'BVNK publishes 16 APIs on the [APIs.io](https://apis.io/) network, in
   The BVNK catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  BVNK''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 33 more developer resources.'
+  BVNK''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 34 more developer resources.'
 random_paper: 85
 scopes:
 - name: Bvnk Scopes
@@ -272,22 +276,35 @@ scopes:
   summary_line: 156 scopes · clientCredentials
 score:
   band: strong
-  composite: 62.2
+  composite: 62.9
+  delta: 0.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 61.0
-    developer_ergonomics: 91.3
+    contract_quality: 68.5
+    developer_ergonomics: 86.4
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 52.6
+  previous_composite: 62.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Bvnk Authentication

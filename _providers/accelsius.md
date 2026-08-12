@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: documented
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-10'
+  score: 40.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,8 +58,12 @@ apis:
 - description: Topic terms in the post_tag taxonomy.
   name: Accelsius Tags API
   slug: accelsius-tags-api
-artifact_total: 13
+artifact_total: 14
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/accelsius-mcp.yml
 - group: auth
   title: ''
   type: Authentication
@@ -177,6 +181,10 @@ description: 'Accelsius LLC is an Austin, Texas thermal-management company found
   on its public surface is the WordPress core REST API behind accelsius.com, which serves the company''s own blog, news, white-paper, case-study, podcast and video content anonymously and read-only.'
 image: https://accelsius.com/wp-content/uploads/Accelsius_Logo_Footer-1.svg
 layout: provider
+mcp_servers:
+- description: ''
+  name: accelsius-mcp.yml
+  slug: accelsius-mcpyml
 modified: '2026-08-06'
 name: Accelsius
 nav: Providers
@@ -184,20 +192,20 @@ network: true
 overview: 'Accelsius publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Resources Content API, News API, Pages API, and 7 more. Tagged areas include Company, Data Centers, Liquid Cooling, Thermal Management, and Direct-to-Chip Cooling.
 
 
-  Accelsius'' developer surface includes authentication, support, FAQ, engineering blog, code examples, and 23 more developer resources.'
+  Accelsius'' developer surface includes authentication, support, FAQ, engineering blog, code examples, and 24 more developer resources.'
 random_paper: 28
 score:
   band: thin
-  composite: 31.2
-  delta: -0.9
+  composite: 30.9
+  delta: -0.3
   facets:
     commercial_clarity: 10.5
-    contract_quality: 58.6
-    developer_ergonomics: 19.0
-    discoverability: 92.6
+    contract_quality: 60.1
+    developer_ergonomics: 21.2
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 32.1
+  previous_composite: 31.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,11 +213,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/screenshots/accelsius-2026-08-07T160754.png
 security:

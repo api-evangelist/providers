@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: gRPC bundle-submission interface for searchers. Authenticate with a Solana keypair (challenge-response to Bearer tokens), then submit atomic transaction bundles with revert protection. Backwards-compa
@@ -39,6 +39,10 @@ apis:
   slug: harmonic-validator-api-grpc
 artifact_total: 5
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/harmonic/searcher-protos/issues
 - group: company
   title: ''
   type: Website
@@ -150,17 +154,17 @@ network: true
 overview: 'Harmonic GG publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Solana, Block Building, and MEV.
 
 
-  Harmonic GG''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 17 more developer resources.'
+  Harmonic GG''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 18 more developer resources.'
 random_paper: 56
 score:
   band: emerging
-  composite: 26.6
-  delta: 0.0
+  composite: 25.5
+  delta: -1.1
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
     developer_ergonomics: 60.3
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 5.3
   previous_composite: 26.6
@@ -168,8 +172,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harmonic-gg/refs/heads/main/screenshots/harmonic-gg-2026-07-25T220716.png
 security:

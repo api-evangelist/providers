@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: DVC ships as a CLI plus a Python API (`dvc.api`). It tracks data and model files via pointers stored in Git and pushes payloads to remote storage backends (S3, Azure, GCS, SSH, HDFS, HTTP, etc.). Ther
@@ -36,6 +36,22 @@ apis:
   slug: dvc-cli
 artifact_total: 5
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/iterative/dvc/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/iterative/dvc/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/treeverse/dvc/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/treeverse/dvc/blob/main/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -91,7 +107,7 @@ network: true
 overview: 'DVC publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include ML, MLOps, Versioning, CLI, and Open Source.
 
 
-  DVC''s developer surface includes developer portal, engineering blog, and 8 more developer resources.'
+  DVC''s developer surface includes developer portal, engineering blog, and 12 more developer resources.'
 plans:
 - name: Dvc Plans Pricing
   plan_count: 1
@@ -103,18 +119,18 @@ rate_limits:
   slug: dvc-rate-limits
 score:
   band: emerging
-  composite: 17.6
-  delta: 0.0
+  composite: 14.4
+  delta: -3.2
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 10.9
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 17.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dvc/refs/heads/main/screenshots/dvc-2026-06-20T180328.png
 security:

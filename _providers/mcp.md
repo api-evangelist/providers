@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 17
 apis:
 - description: The authoritative protocol definition for the Model Context Protocol, maintained at modelcontextprotocol.io and in the modelcontextprotocol/ specification GitHub repository. The TypeScript schema (sch
@@ -74,6 +74,26 @@ apis:
   slug: chatgpt-mcp-host
 artifact_total: 66
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/modelcontextprotocol/specification/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/modelcontextprotocol/specification/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/CONTRIBUTING.md
 - group: other
   title: ''
   type: AgentCard
@@ -227,7 +247,7 @@ overview: 'Model Context Protocol (MCP) publishes 17 APIs on the [APIs.io](https
   The Model Context Protocol (MCP) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Model Context Protocol (MCP)''s developer surface includes engineering blog, developer portal, documentation, and 7 more developer resources.'
+  Model Context Protocol (MCP)''s developer surface includes engineering blog, developer portal, documentation, and 12 more developer resources.'
 random_paper: 88
 rules:
 - name: Model Context Protocol (MCP) API Rules
@@ -239,19 +259,19 @@ rules:
     warn: 4
   slug: mcp-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 25.8
-  delta: 0.0
+  band: thin
+  composite: 29.2
+  delta: 3.4
   facets:
     commercial_clarity: 0.0
     contract_quality: 27.4
     developer_ergonomics: 19.6
     discoverability: 61.1
     governance: 68.8
-    operational_transparency: 5.3
+    operational_transparency: 31.6
   previous_composite: 25.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mcp/refs/heads/main/screenshots/mcp-2026-06-20T185104.png
 security:

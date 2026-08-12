@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The Copernicus Marine Toolbox provides the officially supported programmatic interface to the Copernicus Marine Data Store, available as both a Python library and CLI. Core operations include describe
@@ -42,6 +42,18 @@ apis:
   slug: copernicus-marine-csw-catalogue-api
 artifact_total: 8
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/mercator-ocean/copernicus-marine-toolbox/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/mercator-ocean/copernicus-marine-toolbox/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/mercator-ocean/copernicus-marine-toolbox/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -113,7 +125,7 @@ overview: 'Copernicus Marine publishes 3 APIs on the [APIs.io](https://apis.io/)
   The Copernicus Marine catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Copernicus Marine''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
+  Copernicus Marine''s developer surface includes documentation, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Copernicus Marine Plans
   plan_count: 1
@@ -125,15 +137,15 @@ rate_limits:
   slug: copernicus-marine-rate-limits
 score:
   band: emerging
-  composite: 20.2
-  delta: 0.0
+  composite: 24.2
+  delta: 4.0
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 52.6
     contract_quality: 8.1
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 20.2
   regulatory:
     applies: true
@@ -141,8 +153,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/copernicus-marine/refs/heads/main/screenshots/copernicus-marine-2026-06-20T175018.png
 security:

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-10'
+  score: 18.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Prediko''s public REST API for inventory operations: manage orders and deliveries, read SKUs and procurement suggestions, manage bill-of-materials and production consumption, and sync suppliers and war'
@@ -155,21 +155,21 @@ overview: 'Prediko publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 54
 score:
   band: thin
-  composite: 29.6
-  delta: 0.0
+  composite: 28.5
+  delta: -1.1
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 54.3
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 42.1
   previous_composite: 29.6
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

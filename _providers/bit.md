@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Bit is API-first: every aspect exposes a programmatic API that also composes into a GraphQL API used by the CLI, web UI, and Bit Cloud. The hosted GraphQL endpoint is served from api.v2.bit.cloud/grap'
@@ -169,8 +169,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bit/refs/heads/main/screenshots/bit-2026-07-25T203125.png
 security:

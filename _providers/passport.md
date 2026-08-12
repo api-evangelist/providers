@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: The Cart API from Passport — 1 operation(s) for cart.
@@ -174,27 +174,33 @@ overview: 'Passport publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 80
 score:
   band: developing
-  composite: 47.3
-  delta: 0.4
+  composite: 46.4
+  delta: -0.9
   facets:
     commercial_clarity: 42.1
-    contract_quality: 49.2
+    contract_quality: 49.6
     developer_ergonomics: 53.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 46.9
+  previous_composite: 47.3
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 46.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/passport/refs/heads/main/screenshots/passport-2026-08-07T191541.png
 security:

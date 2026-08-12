@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-10'
+  score: 24.3
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface of Aptera Motors' branded merchandise storefront at shop.aptera.us. It is a Model Context Protocol server (protocol 2025-06-18) answering anonymously at /api/mcp with
@@ -145,9 +145,9 @@ scopes:
   slug: aptera-motors-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 24.5
-  delta: 0.0
+  band: thin
+  composite: 29.4
+  delta: 4.9
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -160,8 +160,14 @@ score:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 56.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptera-motors/refs/heads/main/screenshots/aptera-motors-2026-08-07T161526.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -272,16 +272,16 @@ rules:
     warn: 2
   slug: tiktok-rules
 score:
-  band: exemplar
-  composite: 66.7
-  delta: 0.0
+  band: strong
+  composite: 59.1
+  delta: -7.6
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 72.8
-    developer_ergonomics: 52.2
+    commercial_clarity: 50.0
+    contract_quality: 70.5
+    developer_ergonomics: 56.5
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 66.7
   provenance:
     agentic_access: derived
@@ -290,9 +290,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/screenshots/tiktok-2026-06-20T195349.png
 security:
 - kind: authentication

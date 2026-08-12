@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 12
 apis:
 - description: IATA NDC 21.3 AirShopping message. Flight shopping and availability search returning Virgin Atlantic offers, including calendar and multi-city itineraries. Documented publicly on VS NDC Connect; no ba
@@ -237,21 +237,21 @@ overview: 'Virgin Atlantic publishes 12 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 40
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 44.6
+  delta: -2.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
     developer_ergonomics: 60.3
-    discoverability: 83.3
-    governance: 22.9
+    discoverability: 72.2
+    governance: 15.1
     operational_transparency: 28.9
   previous_composite: 46.6
   provenance:
     conformance: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

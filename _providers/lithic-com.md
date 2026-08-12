@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +22,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-10'
+  score: 41.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 109
   human_in_the_loop: 1
@@ -132,7 +132,7 @@ apis:
 - description: The Transfer Limits API from Lithic — 1 operation(s) for transfer limits.
   name: Lithic Transfer Limits API
   slug: lithic-com-transfer-limits-api
-artifact_total: 489
+artifact_total: 490
 collections:
 - collection_type: open
   name: Lithic API
@@ -141,6 +141,30 @@ collections:
   name: Lithic Developer API
   slug: open-lithic
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://docs.lithic.com/docs/mcp
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.lithic.com
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.lithic.com/changelog
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://lithic.com/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://lithic.com/legal/terms
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.lithic.com/docs/Quickstart
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1550,6 +1574,10 @@ json_structures:
   property_count: 0
   slug: lithic-com-structure
 layout: provider
+mcp_servers:
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-08-08'
 name: Lithic
 nav: Providers
@@ -1560,7 +1588,7 @@ overview: 'Lithic publishes 31 APIs on the [APIs.io](https://apis.io/) network, 
   The Lithic catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Lithic''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
+  Lithic''s developer surface includes changelog, getting-started guide, authentication, documentation, engineering blog, and 15 more developer resources.'
 plans:
 - name: Lithic Com Plans Pricing
   plan_count: 4
@@ -1580,17 +1608,17 @@ rules:
     warn: 5
   slug: lithic-com-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 47.4
-  delta: 6.9
+  band: strong
+  composite: 59.8
+  delta: 12.4
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 68.1
-    developer_ergonomics: 21.7
-    discoverability: 68.5
+    commercial_clarity: 68.4
+    contract_quality: 65.8
+    developer_ergonomics: 41.3
+    discoverability: 75.9
     governance: 58.3
-    operational_transparency: 36.8
-  previous_composite: 40.5
+    operational_transparency: 68.4
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1603,9 +1631,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 35.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 48.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/screenshots/lithic-com-2026-07-25T225335.png
 security:

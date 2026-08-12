@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -147,13 +147,13 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 35.5
-  delta: 0.0
+  composite: 35.7
+  delta: 0.2
   facets:
     commercial_clarity: 23.7
-    contract_quality: 62.8
+    contract_quality: 60.8
     developer_ergonomics: 34.8
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 35.5
@@ -164,8 +164,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/screenshots/hootsuite-2026-06-20T182835.png
 security:

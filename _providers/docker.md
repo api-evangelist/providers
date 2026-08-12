@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-10'
+  score: 41.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 4
@@ -331,15 +331,15 @@ rate_limits:
   slug: docker-rate-limits
 score:
   band: developing
-  composite: 48.0
-  delta: 0.0
+  composite: 42.4
+  delta: -5.6
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 43.7
+    commercial_clarity: 60.5
+    contract_quality: 42.1
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 11.5
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 48.0
   provenance:
     agentic_access: derived
@@ -350,9 +350,9 @@ score:
       marker_coverage: 0.0
       total: 15
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/screenshots/docker-2026-06-20T180111.png
 security:
 - kind: domain-security

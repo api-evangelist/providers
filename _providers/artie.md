@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -71,6 +71,10 @@ asyncapis:
   name: Artie Webhooks
   slug: artie-webhooks-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/artie-openapi-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -213,17 +217,17 @@ overview: 'Artie publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
   The Artie catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Artie''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
+  Artie''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 25 more developer resources.'
 random_paper: 69
 score:
   band: developing
-  composite: 54.4
-  delta: 0.0
+  composite: 52.6
+  delta: -1.8
   facets:
     commercial_clarity: 52.6
-    contract_quality: 67.9
+    contract_quality: 65.3
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 54.4
@@ -237,8 +241,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/screenshots/artie-2026-07-25T201330.png
 security:

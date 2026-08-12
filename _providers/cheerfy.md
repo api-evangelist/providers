@@ -9,27 +9,27 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-10'
+  score: 19.4
+  scored_at: '2026-08-11'
 api_count: 0
-artifact_total: 1
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -67,42 +67,118 @@ common:
   title: ''
   type: DomainSecurity
   url: security/cheerfy-domain-security.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.cheerfy.com/es/cheerfy-loyalty/api-cupones
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.en.cheerfy.com/legal/privacy-policy
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.en.cheerfy.com/academy?format=rss
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/cheerfy-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/cheerfy-rate-limits.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/cheerfy-authentication.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/cheerfy-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/cheerfy-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/cheerfy-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/cheerfy-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/cheerfy-lifecycle.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/cheerfy-llms.txt
+coverage:
+  checked: '2026-08-10'
+  detail: Both API reference pages (docs.cheerfy.com/es/cheerfy-loyalty/api-tarjeta-de-fidelizacion and /api-cupones) 307-redirect into the app.gitbook.com JavaScript shell, which serves the same 9,883-byte empty page for every path, so the documented Loyalty Card and Coupons endpoints, their base URL and their parameters are unreadable by any machine — and the published API hostname api.cheerfy.com returns 503 on every path.
+  evidence:
+  - status: 307
+    url: https://docs.cheerfy.com/es/cheerfy-loyalty/api-tarjeta-de-fidelizacion
+  - status: 200
+    url: https://app.gitbook.com/o/FE20ERj3uqOoV8gciG2a/sites/site_WNSZl/es/cheerfy-loyalty/api-cupones
+  - status: 503
+    url: https://api.cheerfy.com/openapi.json
+  - status: 401
+    url: https://webhook.cheerfy.com/
+  reason: js-rendered-docs
+  state: unreadable
 created: '2026-07-17'
 description: Cheerfy is a customer-engagement and digital-experience platform for restaurants and hospitality brands, bringing CRM and loyalty, online ordering, pay-at-table, self-service kiosks, and a multi-brand marketplace together in a single platform. It centralizes customer data from POS, bookings, Wi-Fi and payment systems, then drives automated SMS, email and push marketing, branded loyalty cards and wallet-ready digital coupons, feedback surveys, and real-time analytics. Cheerfy serves 200+ restaurant brands and publishes developer documentation for its Loyalty Card and Coupons APIs. Backed by Techstars, it was added to the API Evangelist network from a Techstars portfolio lead and enriched from its public developer surface.
 image: https://static1.squarespace.com/static/5a5091d4ace86412c1ba7bdb/t/5a807b280852294ef6f2697a/1518369577961/Screen+Shot+2018-02-11+at+18.15.29.png?format=1500w
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-10'
 name: Cheerfy
 nav: Providers
 network: true
 overview: 'Cheerfy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurants, Hospitality, CRM, and Loyalty.
 
 
-  Cheerfy''s developer surface includes documentation, API reference, pricing, engineering blog, support, and 4 more developer resources.'
+  Cheerfy''s developer surface includes documentation, API reference, pricing, engineering blog, support, authentication, changelog, and 14 more developer resources.'
+plans:
+- name: Cheerfy Plans Pricing
+  plan_count: 3
+  slug: cheerfy-plans-pricing
 random_paper: 46
+rate_limits:
+- limit_count: 0
+  name: Cheerfy Rate Limits
+  slug: cheerfy-rate-limits
 score:
-  band: emerging
-  composite: 16.1
-  delta: 0.0
+  band: thin
+  composite: 33.2
+  delta: 17.1
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 76.3
     contract_quality: 0.0
-    developer_ergonomics: 21.7
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
+    developer_ergonomics: 32.6
+    discoverability: 68.5
+    governance: 12.5
+    operational_transparency: 15.8
   previous_composite: 16.1
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 15.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+    score: 39.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cheerfy/refs/heads/main/screenshots/cheerfy-2026-07-25T205137.png
 security:
+- kind: authentication
+  name: Cheerfy Authentication
+  slug: cheerfy-authentication
+  summary_line: http · 1 scheme
 - kind: domain-security
   name: Cheerfy Domain Security
   slug: cheerfy-domain-security

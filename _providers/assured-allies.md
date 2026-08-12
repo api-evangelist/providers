@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-10'
+  score: 3.6
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -121,8 +121,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/assured-allies/refs/heads/main/screenshots/assured-allies-2026-08-07T161807.png
 security:

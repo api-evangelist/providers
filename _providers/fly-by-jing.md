@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 23.4
-  scored_at: '2026-08-10'
+  score: 19.8
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'The live machine surface on the flybyjing.com domain: a Shopify Storefront MCP server for agentic product search and cart/checkout, plus a Shopify Customer Account API secured with OAuth 2.0 / OpenID '
@@ -136,8 +136,8 @@ score:
   previous_composite: 22.1
   provenance:
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fly-by-jing/refs/heads/main/screenshots/fly-by-jing-2026-08-07T165356.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -339,16 +339,16 @@ rules:
   slug: wundergraph-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.8
-  delta: -0.3
+  composite: 46.3
+  delta: -6.5
   facets:
-    commercial_clarity: 89.5
-    contract_quality: 28.5
-    developer_ergonomics: 37.0
+    commercial_clarity: 65.8
+    contract_quality: 28.4
+    developer_ergonomics: 43.5
     discoverability: 72.2
     governance: 58.3
-    operational_transparency: 47.4
-  previous_composite: 53.1
+    operational_transparency: 23.7
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     contracts:
@@ -357,9 +357,9 @@ score:
       marker_coverage: 100.0
       total: 10
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/screenshots/wundergraph-2026-06-20T201655.png
 security:
 - kind: authentication

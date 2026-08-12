@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 2
@@ -1795,15 +1795,15 @@ scopes:
   summary_line: 27 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 51.9
-  delta: 0.0
+  composite: 43.6
+  delta: -8.3
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 58.6
+    commercial_clarity: 15.8
+    contract_quality: 56.4
     developer_ergonomics: 43.5
     discoverability: 68.5
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 51.9
   provenance:
     agentic_access: derived
@@ -1812,9 +1812,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 71
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ebay/refs/heads/main/screenshots/ebay-2026-07-25T212757.png
 security:
 - kind: authentication

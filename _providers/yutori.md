@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -59,6 +60,10 @@ asyncapis:
   name: Yutori Webhooks
   slug: yutori-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/yutori-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -189,15 +194,15 @@ overview: 'Yutori publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
   The Yutori catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Yutori''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, engineering blog, and 21 more developer resources.'
+  Yutori''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, engineering blog, and 22 more developer resources.'
 random_paper: 104
 score:
   band: developing
-  composite: 54.1
-  delta: 0.0
+  composite: 53.5
+  delta: -0.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 67.9
+    contract_quality: 65.4
     developer_ergonomics: 73.9
     discoverability: 92.6
     governance: 11.5
@@ -213,8 +218,8 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

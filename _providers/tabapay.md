@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 61.5
-  scored_at: '2026-08-10'
+  score: 57.9
+  scored_at: '2026-08-11'
 api_count: 16
 apis:
 - description: The 3D Secure API from TabaPay — 3 operation(s) for 3d secure.
@@ -81,6 +81,18 @@ apis:
   slug: tabapay-verification-api
 artifact_total: 20
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/tabapay-3ds-transaction.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tabapay-openapi-overlay.yaml
+- group: build
+  title: ''
+  type: SDKs
+  url: https://developers.tabapay.com/reference/client
 - group: auth
   title: ''
   type: DomainSecurity
@@ -135,7 +147,7 @@ common:
   url: https://clientcentral.tabapay.net/dashboard/authentication/
 - group: build
   title: ''
-  type: Postman
+  type: PostmanCollection
   url: https://www.postman.com/tabapaydevs/workspace/tabapay-developers
 - group: operate
   title: ''
@@ -207,7 +219,7 @@ common:
   url: data-model/tabapay-data-model.yml
 - group: agent
   title: ''
-  type: AgentSkill
+  type: AgentSkills
   url: skills/_index.yml
 created: '2026-07-17'
 description: 'TabaPay is an instant money movement platform for fintechs, banks, and payment companies. One Unified API accepts payments (pull) and sends payouts (push) across debit and credit card networks (Visa, Mastercard, Discover, American Express, Accel, STAR), RTP by The Clearing House, and ACH, with cross-border push-to-card, 3D Secure, account verification (AVS, ANI, OFAC), tokenized card storage, KYB/KYC verifications, ledgers, and real-time transaction monitoring. TabaPay is a PCI DSS Level 1 service provider, SOC 1 and SOC 2 Type II certified, and backed by SoftBank Vision Fund. APIs are not publicly self-serve: clients board through TabaPay and receive a dedicated FQDN plus bearer credentials for sandbox and production.'
@@ -224,21 +236,21 @@ network: true
 overview: 'TabaPay publishes 16 APIs on the [APIs.io](https://apis.io/) network, including 3D Secure API, Account API, Bank API, and 13 more. Tagged areas include Company, Fintech, Payments, Instant Payments, and Money Movement.
 
 
-  TabaPay''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 25 more developer resources.'
+  TabaPay''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 28 more developer resources.'
 random_paper: 42
 rate_limits:
 - limit_count: 2
   name: Tabapay Rate Limits
   slug: tabapay-rate-limits
 score:
-  band: strong
-  composite: 59.1
-  delta: 0.0
+  band: developing
+  composite: 54.5
+  delta: -4.6
   facets:
     commercial_clarity: 42.1
-    contract_quality: 57.7
+    contract_quality: 55.6
     developer_ergonomics: 79.9
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 52.6
   previous_composite: 59.1
@@ -256,9 +268,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 68.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 46.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

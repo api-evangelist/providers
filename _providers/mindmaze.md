@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-10'
+  score: 40.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,8 +31,12 @@ apis:
 - description: The public, anonymous WordPress REST API behind mindmazetherapeutics.com. It is not a MindMaze product, clinical or device API - none exists - but it is a real machine-readable surface, and because Mi
   name: MindMaze Therapeutics Content API
   slug: mindmaze-therapeutics-content-api
-artifact_total: 6
+artifact_total: 7
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/mindmaze-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -181,6 +185,10 @@ examples:
   slug: mindmaze-taxonomies
 image: https://mindmazetherapeutics.com/wp-content/themes/mindmaze/images/mindmazetheraputics.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: mindmaze-mcp.yml
+  slug: mindmaze-mcpyml
 modified: '2026-08-01'
 name: MindMaze
 nav: Providers
@@ -188,18 +196,18 @@ network: true
 overview: 'MindMaze publishes 1 API on the [APIs.io](https://apis.io/) network: Therapeutics Content API. Tagged areas include Company, Digital Therapeutics, Neurotechnology, Neurorehabilitation, and Medical Devices.
 
 
-  MindMaze''s developer surface includes authentication, support, engineering blog, YouTube channel, and 30 more developer resources.'
+  MindMaze''s developer surface includes authentication, support, engineering blog, YouTube channel, and 31 more developer resources.'
 random_paper: 41
 score:
-  band: thin
-  composite: 28.3
-  delta: 0.0
+  band: emerging
+  composite: 22.4
+  delta: -5.9
   facets:
     commercial_clarity: 21.1
-    contract_quality: 15.7
-    developer_ergonomics: 19.0
-    discoverability: 87.0
-    governance: 20.8
+    contract_quality: 15.1
+    developer_ergonomics: 21.2
+    discoverability: 75.9
+    governance: 8.3
     operational_transparency: 0.0
   previous_composite: 28.3
   provenance:
@@ -217,10 +225,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 57.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+    score: 31.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/screenshots/mindmaze-2026-08-07T172930.png
 security:
 - kind: authentication

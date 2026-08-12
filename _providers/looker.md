@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -90,6 +90,22 @@ collections:
   name: Looker API
   slug: open-looker-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/looker-open-source/actions/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/looker-open-source/actions/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/looker-open-source/actions/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/looker-open-source/actions/blob/master/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -483,7 +499,7 @@ overview: 'Looker publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
   The Looker catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Looker''s developer surface includes authentication, support, changelog, release notes, pricing, getting-started guide, and 14 more developer resources.'
+  Looker''s developer surface includes authentication, support, changelog, release notes, pricing, getting-started guide, and 18 more developer resources.'
 plans:
 - name: Looker Plans Pricing
   plan_count: 7
@@ -511,16 +527,16 @@ rules:
     warn: 8
   slug: looker-spectral-rules
 score:
-  band: strong
-  composite: 63.0
-  delta: 0.0
+  band: developing
+  composite: 54.5
+  delta: -8.5
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 69.0
+    commercial_clarity: 47.4
+    contract_quality: 66.4
     developer_ergonomics: 45.7
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 63.0
   provenance:
     agentic_access: derived
@@ -529,9 +545,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/screenshots/looker-2026-06-20T184712.png
 security:
 - kind: authentication

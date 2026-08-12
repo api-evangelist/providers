@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 62.8
-  scored_at: '2026-08-10'
+  score: 59.2
+  scored_at: '2026-08-11'
 api_count: 15
 apis:
 - description: The Agent API from Langdock — 2 operation(s) for agent.
@@ -128,6 +129,10 @@ collections:
   name: Langdock Agent User Management API
   slug: postman-langdock-user-management-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/langdock-api-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -286,7 +291,7 @@ overview: 'Langdock publishes 15 APIs on the [APIs.io](https://apis.io/) network
   The Langdock catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Langdock''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 28 more developer resources.'
+  Langdock''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 29 more developer resources.'
 random_paper: 23
 rate_limits:
 - limit_count: 2
@@ -294,13 +299,13 @@ rate_limits:
   slug: langdock-rate-limits
 score:
   band: strong
-  composite: 64.2
-  delta: 0.0
+  composite: 62.4
+  delta: -1.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.5
+    contract_quality: 66.0
     developer_ergonomics: 66.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 84.2
   previous_composite: 64.2
@@ -313,8 +318,8 @@ score:
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/screenshots/langdock-2026-07-25T224521.png
 security:

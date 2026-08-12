@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The Thrift Interface Definition Language (IDL) is used to define data types and service interfaces in a language-neutral format. A .thrift file defines structs, enums, exceptions, typedefs, constants,
@@ -39,6 +39,22 @@ apis:
   slug: apache-thrift-server-api
 artifact_total: 20
 common:
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/apache/thrift/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/thrift/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/thrift/blob/master/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -117,7 +133,7 @@ overview: 'Apache Thrift publishes 2 APIs on the [APIs.io](https://apis.io/) net
   The Apache Thrift catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Apache Thrift''s developer surface includes documentation, developer portal, getting-started guide, release notes, and 6 more developer resources.'
+  Apache Thrift''s developer surface includes documentation, developer portal, getting-started guide, release notes, and 10 more developer resources.'
 plans:
 - name: Apache Thrift Plans Pricing
   plan_count: 3
@@ -138,19 +154,19 @@ rules:
   slug: apache-thrift-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.5
-  delta: 0.0
+  composite: 32.0
+  delta: -6.5
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 9.7
     developer_ergonomics: 34.8
     discoverability: 59.3
     governance: 58.3
-    operational_transparency: 47.4
+    operational_transparency: 34.2
   previous_composite: 38.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-thrift/refs/heads/main/screenshots/apache-thrift-2026-06-20T172152.png
 security:
 - kind: domain-security

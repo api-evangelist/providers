@@ -10,10 +10,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-10'
+  score: 34.5
+  scored_at: '2026-08-11'
 api_count: 20
 apis:
 - description: The Accounts API from Kanastra — 3 operation(s) for accounts.
@@ -91,7 +91,7 @@ apis:
 - description: The Wallet API from Kanastra — 2 operation(s) for wallet.
   name: Kanastra Wallet API
   slug: kanastra-wallet-api
-artifact_total: 25
+artifact_total: 26
 asyncapis:
 - description: Webhook event surface for Kanastra Banking. Subscribing systems receive JSON payloads for bank slip (boleto) lifecycle and CNAB file-processing events. Captured from the provider-published webhook doc
   name: Kanastra Banking Webhooks
@@ -101,6 +101,18 @@ collections:
   name: Kanastra Banking
   slug: postman-kanastra-banking
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/kanastra-authenticate.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/kanastra-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kanastra-banking-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -133,6 +145,10 @@ created: '2026-07-17'
 description: 'Kanastra is a Brazilian fintech building full-stack infrastructure for banking and the private credit market. Its Banking API offers banking-as-a-service capabilities to financial institutions, funds and securitization vehicles: financial (checking) accounts with balances and transactions, PIX (key registration, transfers, deposits, and static/dynamic QR Codes on the BR Code / EMV-QRCPS standard), boleto (bank slip) issuance with CNAB return-file processing settled via the Nuclea clearing house, TED transfers, wallets, commercial notes (CCB) with guarantees and documents, and issuers. Authentication uses a private_key_jwt (ES512 client-assertion) flow that returns a scoped Bearer JWT, and a webhook surface streams bank slip and CNAB lifecycle events. Kanastra is backed by QED Investors, Kaszek, Valor Capital, Quona Capital, Itau, IFC and F-Prime.'
 image: https://kanastra.com.br/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: kanastra-mcp.yml
+  slug: kanastra-mcpyml
 modified: '2026-07-19'
 name: Kanastra
 nav: Providers
@@ -143,7 +159,7 @@ overview: 'Kanastra publishes 20 APIs on the [APIs.io](https://apis.io/) network
   The Kanastra catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kanastra''s developer surface includes documentation, API reference, authentication, and 4 more developer resources.'
+  Kanastra''s developer surface includes documentation, API reference, authentication, and 7 more developer resources.'
 random_paper: 41
 scopes:
 - name: Kanastra Scopes
@@ -152,13 +168,13 @@ scopes:
   summary_line: 5 scopes
 score:
   band: thin
-  composite: 37.9
-  delta: 0.0
+  composite: 35.9
+  delta: -2.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 68.6
-    developer_ergonomics: 34.8
-    discoverability: 92.6
+    contract_quality: 66.1
+    developer_ergonomics: 38.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
   previous_composite: 37.9
@@ -176,9 +192,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 49.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 41.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/screenshots/kanastra-2026-07-25T223445.png
 security:

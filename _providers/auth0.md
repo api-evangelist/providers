@@ -12,9 +12,10 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -28,8 +29,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-08-10'
+  score: 50.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 272
   human_in_the_loop: 11
@@ -350,6 +351,26 @@ collections:
   name: Auth0 Management API
   slug: open-auth0-management-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/openfga/openfga/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/openfga/openfga/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/openfga/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/openfga/openfga/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/openfga/openfga/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -8323,7 +8344,7 @@ overview: 'Auth0 publishes 73 APIs on the [APIs.io](https://apis.io/) network, i
   The Auth0 catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 5 Spectral governance rulesets.
 
 
-  Auth0''s developer surface includes authentication, documentation, getting-started guide, engineering blog, signup flow, pricing, support, and 43 more developer resources.'
+  Auth0''s developer surface includes authentication, documentation, getting-started guide, engineering blog, signup flow, pricing, support, and 48 more developer resources.'
 plans:
 - name: Auth0 Plans Pricing
   plan_count: 4
@@ -8380,16 +8401,16 @@ scopes:
   slug: auth0-scopes
   summary_line: 221 scopes · clientCredentials
 score:
-  band: exemplar
-  composite: 68.0
-  delta: 0.0
+  band: strong
+  composite: 61.8
+  delta: -6.2
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 67.7
-    developer_ergonomics: 56.5
+    commercial_clarity: 68.4
+    contract_quality: 68.9
+    developer_ergonomics: 63.0
     discoverability: 50.0
     governance: 62.5
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 68.0
   provenance:
     agentic_access: derived
@@ -8398,9 +8419,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 73
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/screenshots/auth0-2026-06-20T172604.png
 security:
 - kind: authentication

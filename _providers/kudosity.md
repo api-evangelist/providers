@@ -13,6 +13,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -30,7 +31,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -59,6 +60,10 @@ collections:
   name: Transmit SMS API
   slug: postman-kudosity-transmit-sms-openapi-original
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/kudosity/mcp/issues
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -272,7 +277,7 @@ overview: 'Kudosity publishes 2 APIs on the [APIs.io](https://apis.io/) network:
   The Kudosity catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kudosity''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 41 more developer resources.'
+  Kudosity''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 42 more developer resources.'
 plans:
 - name: Kudosity Plans
   plan_count: 4
@@ -284,13 +289,13 @@ rate_limits:
   slug: kudosity-rate-limits
 score:
   band: strong
-  composite: 62.4
-  delta: 0.0
+  composite: 61.0
+  delta: -1.4
   facets:
     commercial_clarity: 92.1
-    contract_quality: 63.7
+    contract_quality: 61.4
     developer_ergonomics: 66.8
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 60.5
   previous_composite: 62.4
@@ -305,8 +310,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/screenshots/kudosity-2026-07-27T062805.png
 security:

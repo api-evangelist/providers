@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 62.6
-  scored_at: '2026-08-10'
+  score: 59.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -149,6 +150,22 @@ collections:
   name: AWS Lambda API
   slug: open-aws-lambda-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/awsdocs/aws-lambda-developer-guide/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/awsdocs/.github/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/awsdocs/aws-lambda-developer-guide/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/awsdocs/aws-lambda-developer-guide/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -698,7 +715,7 @@ overview: 'AWS Lambda publishes 8 APIs on the [APIs.io](https://apis.io/) networ
   The AWS Lambda catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  AWS Lambda''s developer surface includes changelog, CLI, authentication, engineering blog, FAQ, and 38 more developer resources.'
+  AWS Lambda''s developer surface includes changelog, CLI, authentication, engineering blog, FAQ, and 42 more developer resources.'
 plans:
 - name: Aws Lambda Plans Pricing
   plan_count: 7
@@ -734,16 +751,16 @@ rules:
     warn: 9
   slug: aws-lambda-spectral-rules
 score:
-  band: exemplar
-  composite: 66.1
-  delta: 0.0
+  band: strong
+  composite: 57.5
+  delta: -8.6
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 86.0
+    commercial_clarity: 52.6
+    contract_quality: 82.8
     developer_ergonomics: 32.6
     discoverability: 83.3
     governance: 69.8
-    operational_transparency: 47.4
+    operational_transparency: 23.7
   previous_composite: 66.1
   provenance:
     agentic_access: derived
@@ -754,9 +771,9 @@ score:
       marker_coverage: 0.0
       total: 8
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/screenshots/aws-lambda-2026-06-20T172758.png
 security:
 - kind: authentication

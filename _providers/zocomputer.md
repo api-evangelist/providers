@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The AI API from Zocomputer — 3 operation(s) for ai.
@@ -58,13 +58,13 @@ overview: 'Zocomputer publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 68
 score:
   band: emerging
-  composite: 20.7
-  delta: 0.0
+  composite: 19.0
+  delta: -1.7
   facets:
     commercial_clarity: 0.0
-    contract_quality: 58.9
+    contract_quality: 56.7
     developer_ergonomics: 0.0
-    discoverability: 59.3
+    discoverability: 48.1
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 20.7
@@ -74,8 +74,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

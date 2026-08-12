@@ -20,14 +20,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-10'
+  score: 31.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -49,8 +49,16 @@ apis:
 - description: Operations for restoring backed-up resources
   name: Amazon Backup Restore Jobs API
   slug: amazon-backup-restore-jobs-api
-artifact_total: 14
+artifact_total: 15
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/amazon-backup-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-backup-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -171,6 +179,10 @@ jsonld:
   property_count: 4
   slug: amazon-backup-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: amazon-backup-mcp.yml
+  slug: amazon-backup-mcpyml
 modified: '2026-06-20'
 name: Amazon Backup
 nav: Providers
@@ -181,7 +193,7 @@ overview: 'Amazon Backup publishes 4 APIs on the [APIs.io](https://apis.io/) net
   The Amazon Backup catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Amazon Backup''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, status page, and 17 more developer resources.'
+  Amazon Backup''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, status page, and 19 more developer resources.'
 random_paper: 45
 rules:
 - name: Amazon Backup API Rules
@@ -194,12 +206,12 @@ rules:
   slug: amazon-backup-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.8
-  delta: 0.0
+  composite: 52.6
+  delta: -0.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 68.2
-    developer_ergonomics: 30.4
+    contract_quality: 65.7
+    developer_ergonomics: 32.6
     discoverability: 92.6
     governance: 69.8
     operational_transparency: 15.8
@@ -213,8 +225,8 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-backup/refs/heads/main/screenshots/amazon-backup-2026-07-25T195935.png
 security:

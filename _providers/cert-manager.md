@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: The cert-manager API extends the Kubernetes API with custom resources including Certificate, Issuer, ClusterIssuer, CertificateRequest, and Order. These resources allow declarative management of TLS c
@@ -51,6 +51,26 @@ apis:
   slug: csi-driver-spiffe
 artifact_total: 14
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/cert-manager/cert-manager/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/cert-manager/cert-manager/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/cert-manager/cert-manager/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/cert-manager/cert-manager/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/cert-manager/cert-manager/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -129,7 +149,7 @@ overview: 'Cert-Manager publishes 6 APIs on the [APIs.io](https://apis.io/) netw
   The Cert-Manager catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Cert-Manager''s developer surface includes documentation, getting-started guide, changelog, and 9 more developer resources.'
+  Cert-Manager''s developer surface includes documentation, getting-started guide, changelog, and 14 more developer resources.'
 plans:
 - name: Cert Manager Plans Pricing
   plan_count: 3
@@ -149,20 +169,20 @@ rules:
     warn: 4
   slug: cert-manager-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 42.3
-  delta: 0.0
+  band: thin
+  composite: 35.8
+  delta: -6.5
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 29.0
     developer_ergonomics: 30.4
     discoverability: 72.2
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 42.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cert-manager/refs/heads/main/screenshots/cert-manager-2026-06-20T174140.png
 security:
 - kind: domain-security

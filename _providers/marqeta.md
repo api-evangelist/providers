@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 204
   human_in_the_loop: 12
@@ -295,6 +295,30 @@ collections:
   name: Marqeta DiVA API
   slug: open-marqeta-diva-api
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.marqeta.com/blog
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.marqeta.com/responsible-disclosure
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.marqeta.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://www.marqeta.com/developer-guides/release-notes/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.marqeta.com/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.marqeta.com/terms
 - group: agent
   title: ''
   type: AgenticAccess
@@ -376,7 +400,7 @@ overview: 'Marqeta publishes 79 APIs on the [APIs.io](https://apis.io/) network,
   The Marqeta catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Marqeta''s developer surface includes authentication and 10 more developer resources.'
+  Marqeta''s developer surface includes engineering blog, changelog, authentication, and 14 more developer resources.'
 plans:
 - name: Marqeta Plans Pricing
   plan_count: 2
@@ -405,15 +429,15 @@ rules:
   slug: marqeta-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.9
-  delta: 0.0
+  composite: 48.5
+  delta: 4.6
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 76.2
-    developer_ergonomics: 10.9
-    discoverability: 68.5
+    commercial_clarity: 42.1
+    contract_quality: 77.0
+    developer_ergonomics: 13.0
+    discoverability: 50.0
     governance: 41.7
-    operational_transparency: 26.3
+    operational_transparency: 52.6
   previous_composite: 43.9
   provenance:
     agentic_access: derived
@@ -427,9 +451,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 43.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 56.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/screenshots/marqeta-2026-06-20T185001.png
 security:

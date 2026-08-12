@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -53,6 +53,18 @@ apis:
   slug: apache-knox-topologies-api
 artifact_total: 49
 common:
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/apache/knox/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/knox/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -210,7 +222,7 @@ overview: 'Apache Knox publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
   The Apache Knox catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Apache Knox''s developer surface includes authentication, documentation, getting-started guide, and 9 more developer resources.'
+  Apache Knox''s developer surface includes authentication, documentation, getting-started guide, and 12 more developer resources.'
 plans:
 - name: Apache Knox Plans Pricing
   plan_count: 3
@@ -239,15 +251,15 @@ rules:
   slug: apache-knox-spectral-rules
 score:
   band: developing
-  composite: 52.8
-  delta: 0.0
+  composite: 45.8
+  delta: -7.0
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 60.7
+    commercial_clarity: 26.3
+    contract_quality: 58.5
     developer_ergonomics: 30.4
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 52.8
   provenance:
     agentic_access: derived
@@ -256,9 +268,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-knox/refs/heads/main/screenshots/apache-knox-2026-06-20T172116.png
 security:
 - kind: authentication

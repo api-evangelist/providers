@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 48
@@ -206,6 +207,10 @@ collections:
   name: Vapi Tools API
   slug: open-vapi-tools-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/vapi-ai-analytics-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -626,7 +631,7 @@ overview: 'Vapi publishes 15 APIs on the [APIs.io](https://apis.io/) network, in
   The Vapi catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Vapi''s developer surface includes changelog, CLI, authentication, developer portal, documentation, getting-started guide, signup flow, and 57 more developer resources.'
+  Vapi''s developer surface includes changelog, CLI, authentication, developer portal, documentation, getting-started guide, signup flow, and 58 more developer resources.'
 plans:
 - name: Vapi Ai Plans Pricing
   plan_count: 4
@@ -663,12 +668,12 @@ rules:
   slug: vapi-ai-rules
 score:
   band: exemplar
-  composite: 75.7
-  delta: 0.0
+  composite: 78.5
+  delta: 2.8
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 79.5
-    developer_ergonomics: 76.1
+    commercial_clarity: 92.1
+    contract_quality: 76.5
+    developer_ergonomics: 80.4
     discoverability: 77.8
     governance: 59.4
     operational_transparency: 76.3
@@ -682,8 +687,8 @@ score:
       marker_coverage: 0.0
       total: 15
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vapi-ai/refs/heads/main/screenshots/vapi-ai-2026-06-20T200922.png
 security:

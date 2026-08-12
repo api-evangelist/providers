@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,6 +65,26 @@ collections:
   name: Nominatim API
   slug: open-nominatim
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/osm-search/Nominatim/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/osm-search/Nominatim/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/osm-search/Nominatim/blob/master/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/osm-search/Nominatim/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/osm-search/Nominatim/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -259,7 +279,7 @@ overview: 'Nominatim publishes 7 APIs on the [APIs.io](https://apis.io/) network
   The Nominatim catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Nominatim''s developer surface includes documentation, tooling, engineering blog, and 21 more developer resources.'
+  Nominatim''s developer surface includes documentation, tooling, engineering blog, and 26 more developer resources.'
 plans:
 - name: Nominatim Plans Pricing
   plan_count: 2
@@ -288,15 +308,15 @@ rules:
   slug: nominatim-rules
 score:
   band: developing
-  composite: 43.4
-  delta: 0.0
+  composite: 46.2
+  delta: 2.8
   facets:
     commercial_clarity: 31.6
-    contract_quality: 71.2
+    contract_quality: 68.6
     developer_ergonomics: 10.9
     discoverability: 81.5
     governance: 68.8
-    operational_transparency: 5.3
+    operational_transparency: 31.6
   previous_composite: 43.4
   provenance:
     agentic_access: derived
@@ -305,8 +325,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/screenshots/nominatim-2026-06-20T190357.png
 security:

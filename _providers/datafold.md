@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -192,11 +192,11 @@ rules:
   slug: datafold-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.6
-  delta: 0.0
+  composite: 50.0
+  delta: -0.6
   facets:
     commercial_clarity: 57.9
-    contract_quality: 70.2
+    contract_quality: 67.6
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
@@ -209,8 +209,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/screenshots/datafold-2026-06-20T175639.png
 security:

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -209,11 +210,11 @@ rate_limits:
   slug: airweave-rate-limits
 score:
   band: strong
-  composite: 57.2
-  delta: 0.0
+  composite: 56.5
+  delta: -0.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 66.7
+    contract_quality: 64.2
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
@@ -229,8 +230,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airweave/refs/heads/main/screenshots/airweave-2026-07-25T195446.png
 security:

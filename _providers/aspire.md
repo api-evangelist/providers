@@ -21,25 +21,29 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-08-10'
+  score: 32.4
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Aspire''s public REST API for business finance automation: payout/transfer operations across 30+ currencies (local and SWIFT), FX quotes, virtual card issuance and controls, and bank-feed/transaction r'
   name: Aspire API
   slug: aspire-api
-artifact_total: 5
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Aspire Webhooks
   slug: aspire-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/aspire-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -104,6 +108,10 @@ created: '2026-07-17'
 description: Aspire is a Singapore-headquartered fintech offering an all-in-one finance platform for growing businesses operating globally. Its products include multi-currency business accounts, corporate cards, global payments and FX, expense and budget management, bill pay, bulk payments, invoice and accounts-receivable management, yield on idle balances, and global payroll. Aspire also exposes a developer API (api.aspireapp.com/public/v1) covering payouts/transfers, card issuance, and bank-feed/transaction reporting, secured with OAuth 2.0 bearer tokens (client-credentials and authorization-code + PKCE flows), idempotency keys, and webhooks. The company serves 50,000+ businesses, is backed by Lightspeed Venture Partners, and is PCI DSS v4.0.1, ISO/IEC 27001:2022, and SOC 2 Type 2 certified.
 image: https://aspireapp.com/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: aspire-mcp.yml
+  slug: aspire-mcpyml
 modified: '2026-07-18'
 name: Aspire
 nav: Providers
@@ -114,7 +122,7 @@ overview: 'Aspire publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
   The Aspire catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Aspire''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, signup flow, and 9 more developer resources.'
+  Aspire''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, signup flow, and 10 more developer resources.'
 random_paper: 64
 scopes:
 - name: Aspire Scopes
@@ -123,12 +131,12 @@ scopes:
   summary_line: 2 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 42.2
-  delta: 0.0
+  composite: 43.7
+  delta: 1.5
   facets:
     commercial_clarity: 52.6
     contract_quality: 51.6
-    developer_ergonomics: 39.1
+    developer_ergonomics: 47.8
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 10.5
@@ -142,8 +150,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 45.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aspire/refs/heads/main/screenshots/aspire-2026-07-25T201432.png
 security:

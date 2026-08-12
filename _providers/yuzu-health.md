@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-10'
+  score: 38.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 34
@@ -201,13 +201,13 @@ overview: 'Yuzu Health publishes 10 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 108
 score:
   band: developing
-  composite: 47.7
-  delta: 0.0
+  composite: 45.2
+  delta: -2.5
   facets:
     commercial_clarity: 42.1
-    contract_quality: 51.3
+    contract_quality: 49.4
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 47.7
@@ -224,11 +224,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Insurance
-    regime_id: insurance
-    score: 45.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Health
+    regime_id: health
+    score: 37.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

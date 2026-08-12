@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: documented
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-10'
+  score: 36.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,8 +31,12 @@ apis:
 - description: The public, read-only WordPress REST API (wp/v2) behind housesigma.com/blog-en, which serves HouseSigma's Canadian housing-market analysis blog as JSON. This is the only anonymously callable, machine-
   name: HouseSigma Blog Content API
   slug: housesigma-blog-content-api
-artifact_total: 9
+artifact_total: 10
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/housesigma-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -171,6 +175,10 @@ examples:
   slug: housesigma-blog-content-listTaxonomies-200
 image: https://housesigma.com/apple-touch-icon.png?v=2
 layout: provider
+mcp_servers:
+- description: ''
+  name: housesigma-mcp.yml
+  slug: housesigma-mcpyml
 modified: '2026-07-26'
 name: HouseSigma
 nav: Providers
@@ -178,17 +186,17 @@ network: true
 overview: 'HouseSigma publishes 1 API on the [APIs.io](https://apis.io/) network: Blog Content API. Tagged areas include Real Estate, Canada, Property Listings, MLS, and Valuation.
 
 
-  HouseSigma''s developer surface includes authentication, engineering blog, code examples, support, FAQ, and 24 more developer resources.'
+  HouseSigma''s developer surface includes authentication, engineering blog, code examples, support, FAQ, and 25 more developer resources.'
 random_paper: 33
 score:
   band: thin
-  composite: 35.1
-  delta: 0.0
+  composite: 33.8
+  delta: -1.3
   facets:
     commercial_clarity: 21.1
-    contract_quality: 65.1
-    developer_ergonomics: 19.0
-    discoverability: 87.0
+    contract_quality: 62.7
+    developer_ergonomics: 21.2
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 35.1
@@ -202,8 +210,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/screenshots/housesigma-2026-08-07T170335.png
 security:

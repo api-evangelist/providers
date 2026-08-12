@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 243
   human_in_the_loop: 1
@@ -689,6 +690,14 @@ collections:
   name: 'Akamai: Site Shield API'
   slug: open-akamai-site-shield
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/akamai/akamai-apis/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/akamai/akamai-apis/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2621,7 +2630,7 @@ overview: 'Akamai publishes 141 APIs on the [APIs.io](https://apis.io/) network,
   The Akamai catalog on APIs.io includes 2 Spectral governance rulesets.
 
 
-  Akamai''s developer surface includes developer portal, documentation, authentication, engineering blog, support, and 7 more developer resources.'
+  Akamai''s developer surface includes developer portal, documentation, authentication, engineering blog, support, and 9 more developer resources.'
 plans:
 - name: Akamai Plans Pricing
   plan_count: 3
@@ -2650,15 +2659,15 @@ rules:
   slug: akamai-spectral-rules
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 42.5
+  delta: -6.5
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 63.1
+    commercial_clarity: 15.8
+    contract_quality: 64.3
     developer_ergonomics: 34.8
     discoverability: 59.3
     governance: 58.3
-    operational_transparency: 42.1
+    operational_transparency: 26.3
   previous_composite: 49.0
   provenance:
     agentic_access: derived
@@ -2667,9 +2676,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 139
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/screenshots/akamai-2026-06-20T171446.png
 security:
 - kind: domain-security

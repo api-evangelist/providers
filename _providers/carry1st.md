@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 54.3
-  scored_at: '2026-08-10'
+  score: 50.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -63,6 +63,10 @@ asyncapis:
   name: Carry1St Pay1St Webhooks
   slug: carry1st-pay1st-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/carry1st-pay1st-gateway-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -193,17 +197,17 @@ overview: 'Carry1st publishes 4 APIs on the [APIs.io](https://apis.io/) network,
   The Carry1st catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Carry1st''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 21 more developer resources.'
+  Carry1st''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 22 more developer resources.'
 random_paper: 13
 score:
   band: developing
-  composite: 48.8
-  delta: 0.0
+  composite: 47.2
+  delta: -1.6
   facets:
     commercial_clarity: 21.1
-    contract_quality: 76.0
+    contract_quality: 73.1
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 31.6
   previous_composite: 48.8
@@ -223,8 +227,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/screenshots/carry1st-2026-07-25T204645.png
 security:

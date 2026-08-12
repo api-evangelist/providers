@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: Real-time and batch insurance eligibility and benefits verification, exchanging X12 270 inquiries and 271 responses to confirm coverage, plan details, copays, deductibles, and service-type benefits be
@@ -125,8 +125,8 @@ rate_limits:
   slug: waystar-rate-limits
 score:
   band: emerging
-  composite: 20.7
-  delta: 0.0
+  composite: 20.3
+  delta: -0.4
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -138,11 +138,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Insurance
-    regime_id: insurance
-    score: 18.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Health
+    regime_id: health
+    score: 15.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

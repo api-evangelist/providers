@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -232,9 +232,9 @@ score:
   delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 76.7
+    contract_quality: 73.9
     developer_ergonomics: 37.0
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 58.3
     operational_transparency: 31.6
   previous_composite: 61.4
@@ -245,8 +245,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/screenshots/email-verifier-api-2026-06-20T180621.png
 security:

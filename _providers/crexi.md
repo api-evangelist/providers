@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 11.7
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The Crexi Exchange API is Crexi's partner-facing REST API, documented in a Theneo-published portal at api-docs.crexi.com (password protected) and fronted by a Swagger UI gateway at exchange.crexi.com.
@@ -30,8 +30,12 @@ apis:
 - description: 'The Crexi Listing API is a one-way data sync that lets qualifying organizations — MLSs and Realtor Boards, large brokerages and franchise networks, and real estate data providers — automatically push '
   name: Crexi Listing API
   slug: crexi-listing-api
-artifact_total: 6
+artifact_total: 7
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/crexi-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -136,6 +140,10 @@ created: '2026-08-01'
 description: 'CREXi (Commercial Real Estate Exchange, Inc.) is a Los Angeles-based commercial real estate marketplace and data platform founded in 2015, operating a sales marketplace, lease marketplace, auction platform, Broker PRO tools and the Crexi Intelligence property-records product. Its API surface is partner-gated rather than self-serve: the Crexi Listing API is a one-way syndication feed that lets MLSs, Realtor Boards, brokerages and data providers push listings into the marketplace (RESO, RETS, WebAPI and XML feeds, synced daily, with Crexi stating 100% compliance with the RESO Data Dictionary and 100+ partner organizations), while the Crexi Exchange API is documented in a password-protected Theneo portal at api-docs.crexi.com and fronted by an API-key-gated Swagger UI at exchange.crexi.com. The platform API host api.crexi.com publishes anonymous OpenID Connect and OAuth 2.0 authorization-server discovery documents.'
 image: https://learn.crexi.com/hubfs/crexi%20logo%20navy%20text.svg
 layout: provider
+mcp_servers:
+- description: ''
+  name: crexi-mcp.yml
+  slug: crexi-mcpyml
 modified: '2026-08-01'
 name: CREXi
 nav: Providers
@@ -143,7 +151,7 @@ network: true
 overview: 'CREXi publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Commercial Real Estate, Marketplace, Property Data, and Listings.
 
 
-  CREXi''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
+  CREXi''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
 random_paper: 75
 scopes:
 - name: Crexi Scopes
@@ -152,12 +160,12 @@ scopes:
   summary_line: 2 scopes · password/refresh_token/switch_user/single_use_token_exchange
 score:
   band: thin
-  composite: 32.0
-  delta: 0.0
+  composite: 32.4
+  delta: 0.4
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
-    developer_ergonomics: 52.2
+    developer_ergonomics: 54.3
     discoverability: 83.3
     governance: 12.5
     operational_transparency: 21.1
@@ -165,8 +173,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crexi/refs/heads/main/screenshots/crexi-2026-08-07T163841.png
 security:

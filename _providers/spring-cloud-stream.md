@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Core programmatic API for building message-driven microservice applications. Provides functional programming model with java.util.function.Function, Consumer and Supplier bindings, binding lifecycle m
@@ -141,25 +141,19 @@ rules:
   slug: spring-cloud-stream-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.7
-  delta: 0.0
+  composite: 30.0
+  delta: -5.7
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 22.6
     developer_ergonomics: 15.2
     discoverability: 81.5
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 35.7
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 23.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-cloud-stream/refs/heads/main/screenshots/spring-cloud-stream-2026-06-20T194411.png
 security:
 - kind: domain-security

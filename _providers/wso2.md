@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 6
@@ -582,6 +582,22 @@ collections:
   name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Workflows (Individual) API
   slug: postman-wso2-workflows-individual-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/wso2/product-apim/blob/master/LICENSE
+- group: build
+  title: ''
+  type: CLI
+  url: https://apim.docs.wso2.com/en/latest/apiops/cli/cicd-using-cli/
+- group: auth
+  title: ''
+  type: Security
+  url: https://wso2.com/security
+- group: start
+  title: ''
+  type: Signup
+  url: https://wso2.com/user/register
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -678,14 +694,6 @@ common:
   title: ''
   type: GitHubRepository
   url: https://github.com/wso2/product-apim
-- group: design
-  title: ''
-  type: SpectralRules
-  url: rules/wso2-rules.yml
-- group: design
-  title: ''
-  type: Vocabulary
-  url: vocabulary/wso2-vocabulary.yaml
 - group: agent
   title: ''
   type: LlmsText
@@ -3414,7 +3422,7 @@ overview: 'WSO2 publishes 90 APIs on the [APIs.io](https://apis.io/) network, in
   The WSO2 catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  WSO2''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, support, changelog, and 20 more developer resources.'
+  WSO2''s developer surface includes CLI, signup flow, authentication, documentation, getting-started guide, engineering blog, pricing, and 22 more developer resources.'
 plans:
 - name: Wso2 Plans Pricing
   plan_count: 14
@@ -3440,15 +3448,15 @@ scopes:
   summary_line: 51 scopes · password
 score:
   band: strong
-  composite: 62.6
-  delta: 0.0
+  composite: 59.0
+  delta: -3.6
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 58.1
-    developer_ergonomics: 41.3
-    discoverability: 68.5
-    governance: 68.8
-    operational_transparency: 68.4
+    commercial_clarity: 68.4
+    contract_quality: 56.0
+    developer_ergonomics: 47.8
+    discoverability: 75.9
+    governance: 58.3
+    operational_transparency: 55.3
   previous_composite: 62.6
   provenance:
     agentic_access: derived
@@ -3457,8 +3465,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 91
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/screenshots/wso2-2026-06-20T201634.png
 security:

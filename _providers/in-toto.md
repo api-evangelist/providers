@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: The in-toto specification defines the metadata format for recording software supply chain steps. It includes layout metadata that defines the expected steps and their authorized functionaries, and lin
@@ -45,6 +45,14 @@ apis:
   slug: in-toto-golang
 artifact_total: 14
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/in-toto/attestation/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/in-toto/attestation/releases
 - group: auth
   title: ''
   type: DomainSecurity
@@ -130,7 +138,7 @@ overview: 'In-Toto publishes 4 APIs on the [APIs.io](https://apis.io/) network. 
   The In-Toto catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  In-Toto''s developer surface includes documentation, getting-started guide, engineering blog, FAQ, and 9 more developer resources.'
+  In-Toto''s developer surface includes documentation, getting-started guide, engineering blog, FAQ, and 11 more developer resources.'
 plans:
 - name: In Toto Plans Pricing
   plan_count: 3
@@ -159,19 +167,19 @@ rules:
   slug: in-toto-rules
 score:
   band: thin
-  composite: 40.6
-  delta: 0.0
+  composite: 34.8
+  delta: -5.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 33.9
     developer_ergonomics: 26.1
     discoverability: 72.2
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 40.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/in-toto/refs/heads/main/screenshots/in-toto-2026-06-20T183303.png
 security:
 - kind: domain-security

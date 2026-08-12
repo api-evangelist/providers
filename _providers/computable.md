@@ -27,10 +27,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 0
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/computablelabs/computable/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/computablelabs/computable/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/computablelabs/computable/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -63,18 +75,18 @@ overview: Computable is profiled on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 24
 score:
   band: minimal
-  composite: 7.0
-  delta: 0.0
+  composite: 9.0
+  delta: 2.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 6.5
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 7.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 slug: computable
 tags:

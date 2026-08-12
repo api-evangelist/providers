@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Cat Digital Marketplace publishes a catalog of Caterpillar APIs spanning asset telematics, fleet management, fuel data, utilization, hours/odometer, and geofencing. Developers subscribe via the Ca
@@ -143,19 +143,19 @@ rate_limits:
   slug: caterpillar-rate-limits
 score:
   band: emerging
-  composite: 25.1
-  delta: 0.0
+  composite: 19.9
+  delta: -5.2
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 21.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 21.1
   previous_composite: 25.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/caterpillar/refs/heads/main/screenshots/caterpillar-2026-06-20T174051.png
 security:
 - kind: domain-security

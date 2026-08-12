@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The LinuxBoot project's build system and tooling for replacing UEFI DXE with a Linux kernel-based boot environment. Includes integrations with coreboot/LinuxBoot and UEFI PEI/LinuxBoot configurations.
@@ -39,6 +39,18 @@ apis:
   slug: u-root
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/linuxboot/linuxboot/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/linuxboot/linuxboot/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/linuxboot/linuxboot/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -70,7 +82,7 @@ network: true
 overview: 'LinuxBoot publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Boot, Firmware, Hardware, Linux Foundation, and u-root.
 
 
-  LinuxBoot''s developer surface includes documentation and 3 more developer resources.'
+  LinuxBoot''s developer surface includes documentation and 6 more developer resources.'
 plans:
 - name: Linuxboot Plans Pricing
   plan_count: 3
@@ -81,20 +93,20 @@ rate_limits:
   name: Linuxboot Rate Limits
   slug: linuxboot-rate-limits
 score:
-  band: emerging
-  composite: 20.4
-  delta: 0.0
+  band: minimal
+  composite: 12.5
+  delta: -7.9
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 20.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/linuxboot/refs/heads/main/screenshots/linuxboot-2026-06-20T184553.png
 security:
 - kind: domain-security

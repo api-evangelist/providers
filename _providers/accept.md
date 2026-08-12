@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 54.7
-  scored_at: '2026-08-10'
+  score: 51.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 17
@@ -113,6 +113,26 @@ asyncapis:
   name: MIDAS External Event Contract
   slug: accept-midas-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/accept-midas-overlay.yaml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/accept-io/midas/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/accept-io/midas/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/accept-io/midas/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/accept-io/midas/blob/main/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -255,17 +275,17 @@ overview: 'Accept publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
   The Accept catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Accept''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, support, and 24 more developer resources.'
+  Accept''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
 random_paper: 44
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 44.7
+  delta: -1.7
   facets:
     commercial_clarity: 0.0
-    contract_quality: 64.7
+    contract_quality: 62.3
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
   previous_composite: 46.4
@@ -279,8 +299,8 @@ score:
       total: 23
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/screenshots/accept-2026-07-25T181433.png
 security:

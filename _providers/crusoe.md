@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 61.0
-  scored_at: '2026-08-10'
+  score: 57.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 4
@@ -402,16 +403,16 @@ overview: 'Crusoe publishes 61 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 77
 score:
   band: strong
-  composite: 59.0
-  delta: -0.1
+  composite: 58.5
+  delta: -0.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 61.2
+    contract_quality: 58.9
     developer_ergonomics: 75.5
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 59.1
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -419,7 +420,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 61
     mcp: first-party
     skills: derived
   regulatory:
@@ -428,8 +429,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 48.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/screenshots/crusoe-2026-08-07T163934.png
 security:

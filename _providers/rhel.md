@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,6 +63,10 @@ collections:
   name: Red Hat Subscription Management API
   slug: open-rhel-subscription-management
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/RedHatOfficial/rhsecapi/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -221,7 +225,7 @@ overview: 'Red Hat Enterprise Linux publishes 5 APIs on the [APIs.io](https://ap
   The Red Hat Enterprise Linux catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Red Hat Enterprise Linux''s developer surface includes authentication, engineering blog, developer portal, documentation, support, and 19 more developer resources.'
+  Red Hat Enterprise Linux''s developer surface includes authentication, engineering blog, developer portal, documentation, support, and 20 more developer resources.'
 plans:
 - name: Rhel Plans Pricing
   plan_count: 7
@@ -255,15 +259,15 @@ scopes:
   summary_line: 1 scope · password
 score:
   band: developing
-  composite: 55.7
-  delta: 0.0
+  composite: 48.3
+  delta: -7.4
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 64.0
+    commercial_clarity: 44.7
+    contract_quality: 61.6
     developer_ergonomics: 34.8
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 55.7
   provenance:
     agentic_access: derived
@@ -272,9 +276,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/screenshots/rhel-2026-06-20T193105.png
 security:
 - kind: authentication

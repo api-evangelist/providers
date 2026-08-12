@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 57.9
-  scored_at: '2026-08-10'
+  score: 54.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/plug-openapi-original.yml
+  url: openapi/_original/plug-openapi-original.yml
 - group: auth
   title: ''
   type: Authentication
@@ -267,11 +267,11 @@ overview: 'Malga publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 92
 score:
   band: developing
-  composite: 52.7
-  delta: 0.0
+  composite: 50.8
+  delta: -1.9
   facets:
     commercial_clarity: 21.1
-    contract_quality: 69.0
+    contract_quality: 66.4
     developer_ergonomics: 71.2
     discoverability: 92.6
     governance: 20.8
@@ -292,9 +292,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 43.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 34.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

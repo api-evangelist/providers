@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Resilience4j is a lightweight fault tolerance library for Java 17+ using functional programming patterns. It provides six core resilience patterns: Circuit Breaker (prevents cascading failures), Rate '
@@ -159,19 +159,19 @@ rules:
   slug: resilience4j-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.8
-  delta: 0.0
+  composite: 31.0
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 29.0
     developer_ergonomics: 19.6
     discoverability: 59.3
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 38.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/resilience4j/refs/heads/main/screenshots/resilience4j-2026-06-20T192943.png
 security:
 - kind: domain-security

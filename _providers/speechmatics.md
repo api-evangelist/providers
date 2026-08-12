@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -181,13 +181,13 @@ rules:
     warn: 5
   slug: speechmatics-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 55.9
-  delta: 0.0
+  band: strong
+  composite: 56.1
+  delta: 0.2
   facets:
     commercial_clarity: 57.9
-    contract_quality: 68.0
-    developer_ergonomics: 30.4
+    contract_quality: 65.4
+    developer_ergonomics: 34.8
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
@@ -199,8 +199,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/screenshots/speechmatics-2026-06-20T194303.png
 security:

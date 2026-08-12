@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: HTTPX is a fully featured HTTP client library for Python 3 with sync and async APIs, HTTP/1.1 and HTTP/2 support. It is consumed as a Python package rather than as a hosted API service.
@@ -36,6 +36,22 @@ apis:
   slug: httpx
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/encode/httpx/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/encode/httpx/blob/master/docs/code_of_conduct.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/encode/httpx/blob/master/.github/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/encode/httpx/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -70,7 +86,7 @@ overview: 'HTTPX publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
   The HTTPX catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  HTTPX''s developer surface includes documentation and 3 more developer resources.'
+  HTTPX''s developer surface includes documentation and 7 more developer resources.'
 plans:
 - name: Httpx Plans Pricing
   plan_count: 3
@@ -91,19 +107,19 @@ rules:
   slug: httpx-rules
 score:
   band: emerging
-  composite: 21.6
-  delta: 0.0
+  composite: 15.8
+  delta: -5.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 59.3
     governance: 10.4
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 21.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/httpx/refs/heads/main/screenshots/httpx-2026-06-20T182917.png
 security:
 - kind: domain-security

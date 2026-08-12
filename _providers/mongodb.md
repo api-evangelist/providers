@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 240
   human_in_the_loop: 9
@@ -334,15 +335,15 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 42.7
+  delta: -7.1
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 57.5
-    developer_ergonomics: 45.7
+    commercial_clarity: 44.7
+    contract_quality: 55.4
+    developer_ergonomics: 52.2
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 49.8
   provenance:
     agentic_access: derived
@@ -351,9 +352,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 51
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/screenshots/mongodb-2026-06-20T185729.png
 security:
 - kind: authentication

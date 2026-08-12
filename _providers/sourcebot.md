@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-08-10'
+  score: 40.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -55,6 +55,10 @@ apis:
   slug: sourcebot-system-api
 artifact_total: 9
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sourcebot-public-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -182,15 +186,15 @@ network: true
 overview: 'Sourcebot publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Enterprise (EE) API, Git API, Repositories API, and 2 more. Tagged areas include Company, Code Search, Code Intelligence, Developer Tools, and Source Code.
 
 
-  Sourcebot''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, pricing, signup flow, and 21 more developer resources.'
+  Sourcebot''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, pricing, signup flow, and 22 more developer resources.'
 random_paper: 54
 score:
   band: developing
-  composite: 51.7
-  delta: 0.0
+  composite: 51.2
+  delta: -0.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 53.3
+    contract_quality: 51.3
     developer_ergonomics: 64.7
     discoverability: 92.6
     governance: 11.5
@@ -206,8 +210,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

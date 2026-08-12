@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 60.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,6 +54,10 @@ apis:
   slug: clozd-programs-program-id-touchpoints-touchpoint-id-api
 artifact_total: 16
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/clozd-data-api-v1-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -192,7 +196,7 @@ network: true
 overview: 'Clozd publishes 7 APIs on the [APIs.io](https://apis.io/) network, including /programs API, /programs/:program Id/competitors API, /programs/:program Id/deals API, and 4 more. Tagged areas include win-loss-analysis, customer-feedback, decision-intelligence, sales-intelligence, and market-research.
 
 
-  Clozd''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 23 more developer resources.'
+  Clozd''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
 random_paper: 76
 scopes:
 - name: Clozd Scopes
@@ -201,28 +205,28 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: developing
-  composite: 50.4
-  delta: -0.6
+  composite: 51.0
+  delta: 0.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 61.8
+    contract_quality: 64.2
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 51.0
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 33.3
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/screenshots/clozd-2026-08-07T163518.png
 security:

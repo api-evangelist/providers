@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -108,17 +108,20 @@ overview: 'Coco Robotics is profiled on the [APIs.io](https://apis.io/) network.
   Coco Robotics'' developer surface includes engineering blog, support, and 12 more developer resources.'
 random_paper: 72
 score:
-  band: emerging
-  composite: 13.1
+  band: minimal
+  composite: 11.9
+  delta: -1.2
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 13.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: domain-security
   name: Coco Domain Security

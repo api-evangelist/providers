@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-10'
+  score: 42.6
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Conjunto de recursos para acompanhar e administrar operações relacionadas ao gerenciamento de baixas - esses recursos incluem criar uma nova baixa, retornar as baixas pelo id da parcela, atualizar par
@@ -36,6 +36,10 @@ apis:
   slug: conta-azul-v1-api
 artifact_total: 5
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/conta-azul-acquittance-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -163,7 +167,7 @@ network: true
 overview: 'Conta Azul publishes 1 API on the [APIs.io](https://apis.io/) network: v1 API. Tagged areas include Company, Fintech, Accounting, ERP, and Brazil.
 
 
-  Conta Azul''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 21 more developer resources.'
+  Conta Azul''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 22 more developer resources.'
 random_paper: 94
 scopes:
 - name: Conta Azul Scopes
@@ -172,13 +176,13 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 50.6
+  delta: -1.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 62.3
+    contract_quality: 60.0
     developer_ergonomics: 56.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 44.7
   previous_composite: 52.1
@@ -197,8 +201,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/screenshots/conta-azul-2026-07-25T210322.png
 security:

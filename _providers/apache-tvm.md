@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The TVM Python API provides a comprehensive interface for model compilation, optimization, and deployment. Key modules include tvm.relay for defining and optimizing computational graphs, tvm.auto_sche
@@ -39,6 +39,18 @@ apis:
   slug: apache-tvm-rpc-api
 artifact_total: 22
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apache/tvm/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/tvm/blob/main/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -118,7 +130,7 @@ network: true
 overview: 'Apache TVM publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Compiler, Deep Learning, Edge Computing, and Model Optimization.
 
 
-  Apache TVM''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, engineering blog, and 4 more developer resources.'
+  Apache TVM''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, engineering blog, and 7 more developer resources.'
 plans:
 - name: Apache Tvm Plans Pricing
   plan_count: 3
@@ -129,20 +141,20 @@ rate_limits:
   name: Apache Tvm Rate Limits
   slug: apache-tvm-rate-limits
 score:
-  band: thin
-  composite: 29.1
-  delta: 0.0
+  band: emerging
+  composite: 21.2
+  delta: -7.9
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 34.8
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 47.4
+    operational_transparency: 23.7
   previous_composite: 29.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-tvm/refs/heads/main/screenshots/apache-tvm-2026-06-20T172156.png
 security:
 - kind: domain-security

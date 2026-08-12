@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -54,6 +54,18 @@ collections:
   name: Dimensions Analytics API
   slug: open-dimensions
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/digital-science/dimcli/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/digital-science/dimcli/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/digital-science/dimcli/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -97,7 +109,7 @@ network: true
 overview: 'Dimensions publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and Query API. Tagged areas include Analytics, Research, Publications, Grants, and Patents.
 
 
-  Dimensions'' developer surface includes authentication, documentation, support, engineering blog, and 3 more developer resources.'
+  Dimensions'' developer surface includes authentication, documentation, support, engineering blog, and 6 more developer resources.'
 plans:
 - name: Dimensions Plans Pricing
   plan_count: 3
@@ -109,15 +121,15 @@ rate_limits:
   slug: dimensions-rate-limits
 score:
   band: thin
-  composite: 38.2
-  delta: 0.0
+  composite: 29.4
+  delta: -8.8
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 54.3
+    commercial_clarity: 15.8
+    contract_quality: 52.2
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 23.7
   previous_composite: 38.2
   provenance:
     agentic_access: derived
@@ -126,9 +138,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 15.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/screenshots/dimensions-2026-06-20T180036.png
 security:
 - kind: authentication

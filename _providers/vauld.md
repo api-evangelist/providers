@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-10'
+  score: 37.8
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Enterprise API for partner organisations covering fiat<>crypto trading on India INR rails (deposits via Cards/UPI/NEFT/IMPS/RTGS), automated KYC verification (Aadhar/PAN/VoterID/Passport), crypto<>cry
@@ -130,8 +130,8 @@ overview: 'Vauld publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 76
 score:
   band: thin
-  composite: 34.3
-  delta: 0.0
+  composite: 34.0
+  delta: -0.3
   facets:
     commercial_clarity: 10.5
     contract_quality: 51.6
@@ -144,12 +144,12 @@ score:
     conformance: derived
   regulatory:
     applies: true
-    matched_via: weak_tags
-    regime: Securities & Market Data
-    regime_id: securities_market_data
-    score: 28.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 26.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

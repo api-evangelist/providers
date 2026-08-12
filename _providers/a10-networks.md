@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: The Thunder Kubernetes Connector (TKC) runs inside Kubernetes and configures upstream Thunder ADC objects automatically as pods are created and scaled. It defines 24 CRDs covering VirtualServer, Virtu
@@ -288,11 +288,11 @@ rules:
   slug: a10-networks-rules
 score:
   band: thin
-  composite: 40.8
-  delta: 0.0
+  composite: 41.2
+  delta: 0.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 62.8
+    contract_quality: 64.2
     developer_ergonomics: 15.2
     discoverability: 64.8
     governance: 58.3
@@ -303,9 +303,9 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+      total: 5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/screenshots/a10-networks-2026-06-20T162934.png
 security:

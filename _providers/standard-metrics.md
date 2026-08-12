@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-10'
+  score: 49.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -82,6 +83,10 @@ apis:
   slug: standard-metrics-whoami-api
 artifact_total: 21
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/standard-metrics-auth-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -213,7 +218,7 @@ network: true
 overview: 'Standard Metrics publishes 14 APIs on the [APIs.io](https://apis.io/) network, including budgets API, cap_table API, companies API, and 11 more. Tagged areas include Company, Venture Capital, Private Equity, Portfolio Management, and Financial Data.
 
 
-  Standard Metrics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 22 more developer resources.'
+  Standard Metrics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 23 more developer resources.'
 random_paper: 29
 rate_limits:
 - limit_count: 2
@@ -226,13 +231,13 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 53.9
-  delta: 0.0
+  composite: 53.2
+  delta: -0.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 55.3
+    contract_quality: 57.0
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 44.7
   previous_composite: 53.9
@@ -246,8 +251,8 @@ score:
       total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -66,6 +66,30 @@ collections:
   name: Cloudflare Queues Consumer Queue API
   slug: postman-cloudflare-queues-queue-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/cloudflare/workers-sdk/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/cloudflare/workers-sdk/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/cloudflare/workers-sdk/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/cloudflare/workers-sdk/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/cloudflare/workers-sdk/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/cloudflare/workers-sdk/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -196,7 +220,7 @@ overview: 'Cloudflare Queues publishes 4 APIs on the [APIs.io](https://apis.io/)
   The Cloudflare Queues catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Cloudflare Queues'' developer surface includes authentication, documentation, getting-started guide, API reference, engineering blog, pricing, changelog, and 14 more developer resources.'
+  Cloudflare Queues'' developer surface includes authentication, documentation, getting-started guide, API reference, engineering blog, pricing, changelog, and 20 more developer resources.'
 plans:
 - name: Cloudflare Queues Plans Pricing
   plan_count: 2
@@ -216,16 +240,16 @@ rules:
     warn: 4
   slug: cloudflare-queues-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 53.6
-  delta: 0.0
+  band: strong
+  composite: 58.2
+  delta: 4.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 70.2
+    contract_quality: 67.6
     developer_ergonomics: 43.5
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 68.4
+    operational_transparency: 78.9
   previous_composite: 53.6
   provenance:
     agentic_access: derived
@@ -234,14 +258,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 31.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/screenshots/cloudflare-queues-2026-06-20T174559.png
 security:

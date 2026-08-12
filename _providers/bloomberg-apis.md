@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -143,16 +143,16 @@ rate_limits:
   name: Bloomberg Apis Rate Limits
   slug: bloomberg-apis-rate-limits
 score:
-  band: developing
-  composite: 44.5
-  delta: 0.0
+  band: thin
+  composite: 37.5
+  delta: -7.0
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 57.1
+    commercial_clarity: 36.8
+    contract_quality: 55.0
     developer_ergonomics: 34.8
     discoverability: 55.6
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 44.5
   provenance:
     agentic_access: derived
@@ -167,9 +167,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 53.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/screenshots/bloomberg-apis-2026-06-20T173407.png
 security:
 - kind: authentication

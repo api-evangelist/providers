@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -146,6 +146,14 @@ collections:
   name: Prometheus Pushgateway API
   slug: open-prometheus-pushgateway-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/prometheus-alertmanager-api-overlay.yaml
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/prometheus/prometheus/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -333,7 +341,7 @@ overview: 'Prometheus publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
   The Prometheus catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Prometheus'' developer surface includes authentication, changelog, CLI, documentation, getting-started guide, engineering blog, Stack Overflow tag, and 32 more developer resources.'
+  Prometheus'' developer surface includes authentication, changelog, CLI, documentation, getting-started guide, engineering blog, Stack Overflow tag, and 34 more developer resources.'
 plans:
 - name: Prometheus Plans Pricing
   plan_count: 1
@@ -362,15 +370,15 @@ rules:
   slug: prometheus-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 45.0
+  delta: -5.9
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 74.5
+    commercial_clarity: 13.2
+    contract_quality: 71.8
     developer_ergonomics: 45.7
     discoverability: 72.2
     governance: 38.5
-    operational_transparency: 42.1
+    operational_transparency: 26.3
   previous_composite: 50.9
   provenance:
     agentic_access: derived
@@ -381,9 +389,9 @@ score:
       marker_coverage: 0.0
       total: 12
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/screenshots/prometheus-2026-06-20T192155.png
 security:
 - kind: authentication

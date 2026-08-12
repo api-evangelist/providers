@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,6 +62,10 @@ collections:
   name: 4chan Read-Only JSON API
   slug: open-4chan-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/4chan/4chan-JS/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -280,7 +284,7 @@ overview: '4chan publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
   The 4chan catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  4chan''s developer surface includes documentation, tooling, and 20 more developer resources.'
+  4chan''s developer surface includes documentation, tooling, and 21 more developer resources.'
 plans:
 - name: 4Chan Plans Pricing
   plan_count: 2
@@ -309,11 +313,11 @@ rules:
   slug: 4chan-rules
 score:
   band: thin
-  composite: 35.4
-  delta: 0.0
+  composite: 35.2
+  delta: -0.2
   facets:
     commercial_clarity: 21.1
-    contract_quality: 23.8
+    contract_quality: 22.9
     developer_ergonomics: 23.9
     discoverability: 74.1
     governance: 68.8
@@ -326,8 +330,8 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/screenshots/4chan-2026-06-20T162723.png
 security:

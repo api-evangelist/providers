@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 33.6
-  scored_at: '2026-08-10'
+  score: 30.0
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: Comment collection. Registered and anonymously reachable, but empty — X-WP-Total is 0.
@@ -47,6 +47,10 @@ apis:
   slug: allay-therapeutics-taxonomy-api
 artifact_total: 10
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/allay-therapeutics-content-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -151,27 +155,27 @@ network: true
 overview: 'Allay Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Discovery API, Media API, and 5 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Pain Management, and Drug Delivery.
 
 
-  Allay Therapeutics'' developer surface includes product news, authentication, and 21 more developer resources.'
+  Allay Therapeutics'' developer surface includes product news, authentication, and 22 more developer resources.'
 random_paper: 17
 score:
   band: thin
-  composite: 30.7
-  delta: 0.7
+  composite: 30.2
+  delta: -0.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 53.1
+    contract_quality: 54.9
     developer_ergonomics: 12.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 30.0
+  previous_composite: 30.7
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 8
     skills: derived
   regulatory:
     applies: true
@@ -179,8 +183,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allay-therapeutics/refs/heads/main/screenshots/allay-therapeutics-2026-08-07T161209.png
 security:

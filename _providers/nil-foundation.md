@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Ethereum-style JSON-RPC 2.0 API exposing the =nil; cluster — blocks, transactions (messages), accounts, contract calls, gas pricing, shard enumeration, tokens, and event filters. Read methods require '
@@ -156,8 +156,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nil-foundation/refs/heads/main/screenshots/nil-foundation-2026-08-07T185257.png
 security:

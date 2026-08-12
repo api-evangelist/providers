@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: xh is a friendly and fast command-line HTTP client written in Rust. It reimplements HTTPie's design with improved performance, HTTP/2 and HTTP/3 support, and a single statically-linked binary. Support
@@ -95,19 +95,19 @@ rate_limits:
   slug: xh-rate-limits
 score:
   band: emerging
-  composite: 21.7
-  delta: 0.0
+  composite: 13.9
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 47.4
+    operational_transparency: 23.7
   previous_composite: 21.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/xh/refs/heads/main/screenshots/xh-2026-06-20T201702.png
 slug: xh
 tags:

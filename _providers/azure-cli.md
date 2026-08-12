@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Azure CLI is the official cross-platform command-line tool for managing Microsoft Azure resources and services from the terminal.
@@ -36,6 +36,30 @@ apis:
   slug: azure-cli
 artifact_total: 24
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Azure/azure-cli/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Azure/azure-cli/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Azure/azure-cli/blob/dev/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/Azure/azure-cli/blob/dev/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Azure/azure-cli/blob/dev/CONTRIBUTING.rst
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Azure/azure-cli/blob/dev/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -111,7 +135,7 @@ network: true
 overview: 'Azure CLI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Provider CLI and Command Line Interface.
 
 
-  Azure CLI''s developer surface includes documentation, getting-started guide, changelog, engineering blog, and 4 more developer resources.'
+  Azure CLI''s developer surface includes documentation, getting-started guide, changelog, engineering blog, and 10 more developer resources.'
 plans:
 - name: Azure Cli Plans Pricing
   plan_count: 3
@@ -123,19 +147,19 @@ rate_limits:
   slug: azure-cli-rate-limits
 score:
   band: emerging
-  composite: 22.5
-  delta: 0.0
+  composite: 16.0
+  delta: -6.5
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 21.7
     discoverability: 40.7
     governance: 0.0
-    operational_transparency: 47.4
+    operational_transparency: 34.2
   previous_composite: 22.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-cli/refs/heads/main/screenshots/azure-cli-2026-06-20T172838.png
 security:
 - kind: domain-security

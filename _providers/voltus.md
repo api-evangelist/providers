@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +12,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-10'
+  score: 49.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 2
@@ -56,12 +57,16 @@ arazzos:
 - description: Submit interval telemetry and controllable load for an enrolled site, then read interval kW back within Voltus's documented limits (10 sites, 90 days, 10,000 points per site).
   name: Report Voltus telemetry and read it back
   slug: voltus-report-and-read-telemetry
-artifact_total: 18
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Voltus Webhooks
   slug: voltus-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/voltus-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -236,6 +241,10 @@ examples:
   slug: voltus-get-webhooks-200
 image: https://api.voltus.co/img/voltus.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: voltus-mcp.yml
+  slug: voltus-mcpyml
 modified: '2026-07-27'
 name: Voltus
 nav: Providers
@@ -246,7 +255,7 @@ overview: 'Voltus publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
   The Voltus catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Voltus'' developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, changelog, support, and 32 more developer resources.'
+  Voltus'' developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, changelog, support, and 33 more developer resources.'
 random_paper: 105
 rate_limits:
 - limit_count: 2
@@ -254,13 +263,13 @@ rate_limits:
   slug: voltus-rate-limits
 score:
   band: developing
-  composite: 53.6
-  delta: 0.0
+  composite: 50.9
+  delta: -2.7
   facets:
     commercial_clarity: 34.2
-    contract_quality: 68.2
-    developer_ergonomics: 60.3
-    discoverability: 92.6
+    contract_quality: 65.7
+    developer_ergonomics: 62.5
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 57.9
   previous_composite: 53.6
@@ -279,9 +288,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 44.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 33.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: The metering API from Gradium — 1 operation(s) for metering.
@@ -78,7 +78,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/gradium-openapi-original.json
+  url: openapi/_original/gradium-openapi-original.json
 - group: agent
   title: ''
   type: LLMsTxt
@@ -220,12 +220,12 @@ overview: 'Gradium publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   Gradium''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, changelog, sandbox, and 29 more developer resources.'
 random_paper: 49
 score:
-  band: strong
-  composite: 56.0
-  delta: 0.0
+  band: developing
+  composite: 55.5
+  delta: -0.5
   facets:
     commercial_clarity: 52.6
-    contract_quality: 60.3
+    contract_quality: 58.1
     developer_ergonomics: 75.5
     discoverability: 81.5
     governance: 11.5
@@ -240,8 +240,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/screenshots/gradium-2026-07-25T220210.png
 security:

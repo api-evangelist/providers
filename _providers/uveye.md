@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +12,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: documented
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-08-10'
+  score: 50.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,12 +44,20 @@ apis:
 - description: Generate and record customer-facing public inspection links.
   name: UVeye Public Links API
   slug: uveye-public-links-api
-artifact_total: 12
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Uveye Merchandise Webhooks
   slug: uveye-merchandise-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/uveye-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/uveye-public-api-v1-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -186,6 +195,10 @@ description: 'UVeye builds AI-powered automated vehicle inspection systems — "
   Tel Aviv and London.'
 image: https://uveye.com/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: uveye-mcp.yml
+  slug: uveye-mcpyml
 modified: '2026-08-02'
 name: UVeye
 nav: Providers
@@ -196,7 +209,7 @@ overview: 'UVeye publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
   The UVeye catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  UVeye''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
+  UVeye''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 28 more developer resources.'
 random_paper: 94
 rate_limits:
 - limit_count: 3
@@ -204,16 +217,16 @@ rate_limits:
   slug: uveye-rate-limits
 score:
   band: strong
-  composite: 62.3
-  delta: -0.8
+  composite: 61.8
+  delta: -0.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 73.3
-    developer_ergonomics: 64.7
-    discoverability: 92.6
+    contract_quality: 74.3
+    developer_ergonomics: 66.8
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 71.1
-  previous_composite: 63.1
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -221,11 +234,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -358,7 +358,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/amazon-shield-api-openapi.yml
+  url: openapi/_original/amazon-shield-api-openapi.yml
 created: '2024-01-15'
 description: AWS Shield is a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS. It provides always-on detection and automatic inline mitigations that minimize application downtime and latency, with two tiers of protection - Shield Standard for automatic defense against common attacks and Shield Advanced for enhanced detection and 24/7 access to the DDoS Response Team.
 examples:
@@ -552,16 +552,16 @@ rules:
     warn: 15
   slug: amazon-shield-spectral-rules
 score:
-  band: strong
-  composite: 62.9
-  delta: 0.0
+  band: developing
+  composite: 54.4
+  delta: -8.5
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 70.5
+    commercial_clarity: 57.9
+    contract_quality: 67.9
     developer_ergonomics: 37.0
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 62.9
   provenance:
     agentic_access: derived
@@ -570,9 +570,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-shield/refs/heads/main/screenshots/amazon-shield-2026-06-20T171822.png
 security:
 - kind: authentication

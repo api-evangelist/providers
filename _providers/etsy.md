@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -188,6 +188,18 @@ collections:
   name: Etsy Open API v3
   slug: postman-etsy-openapi-original
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/etsy/open-api/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/etsy/open-api/blob/main/.github/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/etsy/.github/blob/main/CODE_OF_CONDUCT.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1180,7 +1192,7 @@ overview: 'Etsy publishes 28 APIs on the [APIs.io](https://apis.io/) network, in
   The Etsy catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Etsy''s developer surface includes authentication, documentation, pricing, support, changelog, tooling, and 41 more developer resources.'
+  Etsy''s developer surface includes authentication, documentation, pricing, support, changelog, tooling, and 44 more developer resources.'
 plans:
 - name: Etsy Plans Pricing
   plan_count: 3
@@ -1222,11 +1234,11 @@ scopes:
   summary_line: 20 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.6
-  delta: 0.0
+  composite: 65.0
+  delta: -0.6
   facets:
     commercial_clarity: 71.1
-    contract_quality: 81.8
+    contract_quality: 79.1
     developer_ergonomics: 43.5
     discoverability: 59.3
     governance: 52.1
@@ -1245,8 +1257,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/screenshots/etsy-2026-06-20T180847.png
 security:

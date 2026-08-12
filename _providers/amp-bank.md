@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-10'
+  score: 39.0
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -178,11 +178,11 @@ scopes:
   summary_line: 5 scopes
 score:
   band: developing
-  composite: 43.4
-  delta: 0.0
+  composite: 42.9
+  delta: -0.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 54.3
+    contract_quality: 52.2
     developer_ergonomics: 47.3
     discoverability: 92.6
     governance: 11.5
@@ -203,8 +203,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amp-bank/refs/heads/main/screenshots/amp-bank-2026-07-21T114657.png
 security:

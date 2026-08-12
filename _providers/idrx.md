@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -50,6 +50,10 @@ asyncapis:
   name: Idrx Callback Webhooks
   slug: idrx-callback-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/idrx-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -152,15 +156,15 @@ overview: 'IDRX publishes 2 APIs on the [APIs.io](https://apis.io/) network: Onb
   The IDRX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  IDRX''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, authentication, and 14 more developer resources.'
+  IDRX''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, authentication, and 15 more developer resources.'
 random_paper: 91
 score:
-  band: developing
-  composite: 42.2
-  delta: 0.0
+  band: thin
+  composite: 41.6
+  delta: -0.6
   facets:
     commercial_clarity: 23.7
-    contract_quality: 74.9
+    contract_quality: 72.1
     developer_ergonomics: 53.8
     discoverability: 75.9
     governance: 11.5
@@ -182,8 +186,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/screenshots/idrx-2026-07-25T222044.png
 security:

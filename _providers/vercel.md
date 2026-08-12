@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -398,16 +398,16 @@ rules:
     warn: 6
   slug: vercel-rules
 score:
-  band: exemplar
-  composite: 70.8
-  delta: 0.0
+  band: strong
+  composite: 62.4
+  delta: -8.4
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 76.4
+    commercial_clarity: 68.4
+    contract_quality: 73.9
     developer_ergonomics: 58.7
     discoverability: 55.6
     governance: 47.9
-    operational_transparency: 78.9
+    operational_transparency: 55.3
   previous_composite: 70.8
   provenance:
     agentic_access: derived
@@ -416,9 +416,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/screenshots/vercel-2026-06-20T200923.png
 security:
 - kind: authentication

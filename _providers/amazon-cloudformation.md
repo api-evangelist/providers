@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-10'
+  score: 41.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,6 +52,10 @@ apis:
   slug: amazon-cloudformation-templates-api
 artifact_total: 73
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-cloudformation-openapi-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -338,7 +342,7 @@ overview: 'Amazon CloudFormation publishes 4 APIs on the [APIs.io](https://apis.
   The Amazon CloudFormation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CloudFormation''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 18 more developer resources.'
+  Amazon CloudFormation''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 19 more developer resources.'
 random_paper: 113
 rules:
 - name: Amazon CloudFormation API Rules
@@ -359,11 +363,11 @@ rules:
   slug: amazon-cloudformation-spectral-rules
 score:
   band: strong
-  composite: 61.0
-  delta: 0.0
+  composite: 60.3
+  delta: -0.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 81.4
+    contract_quality: 78.4
     developer_ergonomics: 50.0
     discoverability: 83.3
     governance: 80.2
@@ -378,8 +382,8 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/screenshots/amazon-cloudformation-2026-07-25T195946.png
 security:

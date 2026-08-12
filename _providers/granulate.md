@@ -27,10 +27,34 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/intel/gprofiler/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/intel/gprofiler/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/intel/gprofiler/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/intel/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/intel/gprofiler/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/intel/gprofiler/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -70,22 +94,22 @@ network: true
 overview: 'Granulate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Devops, Performance, Continuous Profiling, and Observability.
 
 
-  Granulate''s developer surface includes documentation, CLI, and 5 more developer resources.'
+  Granulate''s developer surface includes documentation, CLI, and 11 more developer resources.'
 random_paper: 35
 score:
   band: minimal
-  composite: 8.7
-  delta: 0.0
+  composite: 12.1
+  delta: 3.4
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 15.2
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 31.6
   previous_composite: 8.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/granulate/refs/heads/main/screenshots/granulate-2026-07-25T220247.png
 security:

@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -1388,7 +1389,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/oci-compute-api-openapi.yml
+  url: openapi/_scaffold/oci-compute-api-openapi.yml
 - group: docs
   title: ''
   type: JSONSchema
@@ -1821,27 +1822,27 @@ rules:
     warn: 11
   slug: oracle-spectral-rules
 score:
-  band: exemplar
-  composite: 67.3
-  delta: 0.1
+  band: strong
+  composite: 61.4
+  delta: -5.9
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 56.1
-    developer_ergonomics: 78.3
+    commercial_clarity: 60.5
+    contract_quality: 54.4
+    developer_ergonomics: 84.8
     discoverability: 50.0
     governance: 68.8
-    operational_transparency: 57.9
-  previous_composite: 67.2
+    operational_transparency: 42.1
+  previous_composite: 67.3
   provenance:
     agentic_access: derived
     contracts:
-      callable: 8.1
+      callable: 13.7
       derived: 0
-      marker_coverage: 100.0
-      total: 161
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+      marker_coverage: 95.0
+      total: 322
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/screenshots/oracle-2026-06-20T191118.png
 security:
 - kind: authentication

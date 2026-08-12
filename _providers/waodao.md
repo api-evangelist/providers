@@ -3,22 +3,22 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 66.7
-  scored_at: '2026-08-10'
+  score: 44.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -220,16 +220,29 @@ overview: 'WAODAO publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 55
 score:
   band: thin
-  composite: 36.3
+  composite: 34.8
+  delta: -1.5
   facets:
     commercial_clarity: 0.0
-    contract_quality: 53.5
-    developer_ergonomics: 52.2
-    discoverability: 92.6
+    contract_quality: 61.2
+    developer_ergonomics: 40.8
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 5.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 36.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: derived
+    skills: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Waodao Authentication

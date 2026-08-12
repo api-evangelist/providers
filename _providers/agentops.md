@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The AgentOps Python SDK is the primary entry point, installable via pip install agentops and initialized with two lines of code. It auto-instruments supported agent frameworks and LLM providers, suppo
@@ -42,6 +42,22 @@ apis:
   slug: agentops-dashboard
 artifact_total: 35
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/AgentOps-AI/agentops/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/AgentOps-AI/agentops/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/AgentOps-AI/agentops/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/AgentOps-AI/agentops/blob/main/.github/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -157,7 +173,7 @@ network: true
 overview: 'AgentOps publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, Observability, Evaluation, Tracing, and Python SDK.
 
 
-  AgentOps'' developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
+  AgentOps'' developer surface includes documentation, engineering blog, pricing, and 14 more developer resources.'
 plans:
 - name: Agentops Plans Pricing
   plan_count: 1
@@ -169,18 +185,18 @@ rate_limits:
   slug: agentops-rate-limits
 score:
   band: emerging
-  composite: 22.6
-  delta: 0.0
+  composite: 26.3
+  delta: 3.7
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
-    developer_ergonomics: 10.9
-    discoverability: 64.8
+    developer_ergonomics: 15.2
+    discoverability: 72.2
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 42.1
   previous_composite: 22.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentops/refs/heads/main/screenshots/agentops-2026-06-20T170038.png
 security:

@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 6.3
-  scored_at: '2026-08-10'
+  score: 2.7
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
@@ -86,13 +86,13 @@ overview: 'Foundation Medicine is profiled on the [APIs.io](https://apis.io/) ne
 random_paper: 98
 score:
   band: minimal
-  composite: 12.9
-  delta: 0.0
+  composite: 11.9
+  delta: -1.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 12.9
@@ -102,8 +102,8 @@ score:
     regime: Health
     regime_id: health
     score: 20.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/foundation-medicine/refs/heads/main/screenshots/foundation-medicine-2026-07-25T215035.png
 security:

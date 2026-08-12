@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -73,6 +73,10 @@ apis:
   slug: nayya-token-api
 artifact_total: 17
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nayya-accounts-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -192,17 +196,17 @@ network: true
 overview: 'Nayya publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Benefits API, Carriers API, Connections API, and 8 more. Tagged areas include Company, Employee Benefits, Insurance, Insurtech, and Health.
 
 
-  Nayya''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 20 more developer resources.'
+  Nayya''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 21 more developer resources.'
 random_paper: 82
 score:
   band: developing
-  composite: 48.7
-  delta: 0.0
+  composite: 47.4
+  delta: -1.3
   facets:
     commercial_clarity: 36.8
-    contract_quality: 55.9
+    contract_quality: 53.9
     developer_ergonomics: 56.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 26.3
   previous_composite: 48.7
@@ -222,8 +226,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/screenshots/nayya-2026-08-07T184744.png
 security:

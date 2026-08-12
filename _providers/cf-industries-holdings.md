@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'CF Industries exchanges orders, shipments, and invoices with distributors, rail carriers, and industrial customers through traditional EDI transactions and private B2B integrations rather than public '
@@ -119,19 +119,25 @@ rate_limits:
   name: Cf Industries Holdings Rate Limits
   slug: cf-industries-holdings-rate-limits
 score:
-  band: emerging
-  composite: 16.6
-  delta: 0.0
+  band: minimal
+  composite: 11.7
+  delta: -4.9
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 23.7
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 5.3
   previous_composite: 16.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 13.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cf-industries-holdings/refs/heads/main/screenshots/cf-industries-holdings-2026-06-20T174146.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -171,10 +171,6 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/department-of-energy-vocabulary.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/department-of-energy-capabilities.yml
 - group: company
   title: ''
   type: Blog
@@ -202,7 +198,7 @@ overview: 'Department of Energy publishes 13 APIs on the [APIs.io](https://apis.
   The Department of Energy catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Department of Energy''s developer surface includes authentication, product news, engineering blog, and 17 more developer resources.'
+  Department of Energy''s developer surface includes authentication, product news, engineering blog, and 16 more developer resources.'
 plans:
 - name: Department Of Energy Plans Pricing
   plan_count: 3
@@ -214,15 +210,15 @@ rate_limits:
   slug: department-of-energy-rate-limits
 score:
   band: thin
-  composite: 40.7
-  delta: 0.0
+  composite: 33.6
+  delta: -7.1
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 60.5
+    commercial_clarity: 26.3
+    contract_quality: 58.2
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 10.4
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 40.7
   provenance:
     agentic_access: derived
@@ -237,9 +233,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 28.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-energy/refs/heads/main/screenshots/department-of-energy-2026-06-20T175917.png
 security:
 - kind: authentication

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-10'
+  score: 34.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -46,6 +46,10 @@ apis:
   slug: calm-subscriptions-api
 artifact_total: 7
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/calm-partner-api-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -153,7 +157,7 @@ network: true
 overview: 'Calm publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and Subscriptions API. Tagged areas include Company, Mental Health, Wellness, Meditation, and Mindfulness.
 
 
-  Calm''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, sandbox, and 16 more developer resources.'
+  Calm''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, sandbox, and 17 more developer resources.'
 random_paper: 65
 scopes:
 - name: Calm Scopes
@@ -162,13 +166,13 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 44.9
-  delta: 0.0
+  composite: 43.4
+  delta: -1.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 64.0
+    contract_quality: 61.6
     developer_ergonomics: 60.3
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 15.8
   previous_composite: 44.9
@@ -188,8 +192,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/screenshots/calm-2026-07-25T204251.png
 security:

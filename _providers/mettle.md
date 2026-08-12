@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-10'
+  score: 39.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -185,11 +185,11 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 47.0
-  delta: 0.0
+  composite: 42.5
+  delta: -4.5
   facets:
     commercial_clarity: 28.9
-    contract_quality: 41.1
+    contract_quality: 39.6
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 20.8
@@ -210,9 +210,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 87.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 59.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/screenshots/mettle-2026-08-07T172804.png
 security:

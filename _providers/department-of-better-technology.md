@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-10'
+  score: 32.7
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: Upload files referenced by response fields.
@@ -168,11 +168,11 @@ overview: 'Department of Better Technology publishes 8 APIs on the [APIs.io](htt
 random_paper: 22
 score:
   band: thin
-  composite: 32.1
-  delta: 0.0
+  composite: 32.0
+  delta: -0.1
   facets:
     commercial_clarity: 23.7
-    contract_quality: 15.0
+    contract_quality: 14.5
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 11.5
@@ -193,8 +193,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/screenshots/department-of-better-technology-2026-07-25T211725.png
 security:

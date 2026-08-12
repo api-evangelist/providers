@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 21.2
-  scored_at: '2026-08-10'
+  score: 21.4
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: List, retrieve, import and download meetings
@@ -43,12 +43,24 @@ apis:
 - description: Retrieve meeting transcripts
   name: tl;dv Transcripts API
   slug: tl-dv-transcripts-api
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: Webhook events delivered by tl;dv when a meeting finishes processing or a transcript becomes available. Webhooks are configurable at user, team or organization level.
   name: tl;dv Webhooks
   slug: tl-dv-webhooks
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/tl-dv-import-and-retrieve.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/tl-dv-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tl-dv-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -125,6 +137,10 @@ created: '2026-07-17'
 description: tl;dv is an AI meeting notetaker for Zoom, Google Meet and Microsoft Teams that automatically records, transcribes and summarizes meetings in 30+ languages and syncs the resulting insights into CRMs and productivity tools. Its public API (base URL https://pasta.tldv.io, version v1alpha1) gives developers programmatic access to meetings, speaker-attributed transcripts and AI-generated notes, plus meeting import from a URL and webhook delivery of MeetingReady and TranscriptReady events. Authentication is via an x-api-key header issued from account settings.
 image: https://api.tldv.io/assets/images/logo_login.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: tl-dv-mcp.yml
+  slug: tl-dv-mcpyml
 modified: '2026-07-21'
 name: tl;dv
 nav: Providers
@@ -135,17 +151,17 @@ overview: 'tl;dv publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
   The tl;dv catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  tl;dv''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 11 more developer resources.'
+  tl;dv''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 14 more developer resources.'
 random_paper: 23
 score:
   band: developing
-  composite: 50.1
-  delta: 0.0
+  composite: 49.1
+  delta: -1.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 71.1
-    developer_ergonomics: 41.3
-    discoverability: 92.6
+    contract_quality: 68.5
+    developer_ergonomics: 45.1
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 10.5
   previous_composite: 50.1
@@ -158,8 +174,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

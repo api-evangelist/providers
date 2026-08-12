@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 6
@@ -321,6 +321,10 @@ collections:
   name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Workflows API
   slug: postman-soldo-software-and-services-workflows-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/soldo-software-and-services-business-api-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -451,7 +455,7 @@ overview: 'Soldo Software and Services publishes 46 APIs on the [APIs.io](https:
   The Soldo Software and Services catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Soldo Software and Services'' developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, pricing, and 21 more developer resources.'
+  Soldo Software and Services'' developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, pricing, and 22 more developer resources.'
 random_paper: 62
 scopes:
 - name: Soldo Software And Services Scopes
@@ -460,11 +464,11 @@ scopes:
   summary_line: 59 scopes · clientCredentials
 score:
   band: strong
-  composite: 61.3
-  delta: 0.0
+  composite: 57.5
+  delta: -3.8
   facets:
     commercial_clarity: 47.4
-    contract_quality: 70.2
+    contract_quality: 67.6
     developer_ergonomics: 66.8
     discoverability: 81.5
     governance: 20.8
@@ -485,9 +489,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 90.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 68.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

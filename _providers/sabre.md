@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -155,10 +155,6 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/sabre-vocabulary.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/travel-booking.yaml
 created: '2026-03-18'
 description: Sabre Corporation is a leading technology provider for the global travel industry, operating one of the world's largest travel marketplaces through its Global Distribution System (GDS). Sabre provides APIs for air shopping, booking, hotel reservations, car rentals, rail ticketing, and travel agency workflow automation to airlines, hotels, travel agencies, and online travel agencies (OTAs).
 examples:
@@ -297,7 +293,7 @@ overview: 'Sabre publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
   The Sabre catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Sabre''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, and 15 more developer resources.'
+  Sabre''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, and 14 more developer resources.'
 plans:
 - name: Sabre Plans Pricing
   plan_count: 1
@@ -342,15 +338,15 @@ rules:
   slug: sabre-rules
 score:
   band: developing
-  composite: 53.7
-  delta: 0.0
+  composite: 47.9
+  delta: -5.8
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 77.4
+    commercial_clarity: 13.2
+    contract_quality: 74.8
     developer_ergonomics: 52.2
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 53.7
   provenance:
     agentic_access: derived
@@ -359,9 +355,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sabre/refs/heads/main/screenshots/sabre-2026-06-20T193316.png
 security:
 - kind: authentication

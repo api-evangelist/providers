@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,13 +95,13 @@ overview: Vanilla Steel is profiled on the [APIs.io](https://apis.io/) network. 
 random_paper: 53
 score:
   band: emerging
-  composite: 20.9
-  delta: 0.0
+  composite: 20.0
+  delta: -0.9
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 12.5
     operational_transparency: 15.8
   previous_composite: 20.9
@@ -113,8 +113,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

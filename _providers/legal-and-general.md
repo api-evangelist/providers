@@ -18,10 +18,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Legal-and-General/canopy/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Legal-and-General/canopy/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/Legal-and-General/canopy/blob/master/docs/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Legal-and-General/canopy/blob/master/docs/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Legal-and-General/canopy/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -123,17 +143,17 @@ network: true
 overview: 'Legal & General is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United Kingdom, Life Insurance, Health Insurance, and Employee Benefits.
 
 
-  Legal & General''s developer surface includes changelog, engineering blog, support, and 19 more developer resources.'
+  Legal & General''s developer surface includes changelog, engineering blog, support, and 24 more developer resources.'
 random_paper: 24
 score:
   band: emerging
-  composite: 25.2
-  delta: 0.0
+  composite: 24.2
+  delta: -1.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 13.0
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 12.5
     operational_transparency: 39.5
   previous_composite: 25.2
@@ -146,8 +166,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/legal-and-general/refs/heads/main/screenshots/legal-and-general-2026-07-25T224825.png
 security:

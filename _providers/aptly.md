@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -216,11 +217,11 @@ overview: 'Aptly publishes 15 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 90
 score:
   band: developing
-  composite: 49.4
-  delta: 0.0
+  composite: 48.9
+  delta: -0.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 62.3
+    contract_quality: 60.0
     developer_ergonomics: 58.2
     discoverability: 81.5
     governance: 11.5
@@ -236,8 +237,8 @@ score:
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/screenshots/aptly-2026-07-25T200942.png
 security:

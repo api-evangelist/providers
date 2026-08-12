@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-10'
+  score: 45.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -43,8 +43,12 @@ apis:
 - description: The Worklogs API from Appfire — 10 operation(s) for worklogs.
   name: Appfire Worklogs API
   slug: appfire-worklogs-api
-artifact_total: 9
+artifact_total: 10
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/appfire-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -161,6 +165,10 @@ created: '2026-08-06'
 description: 'Appfire is a global software company that builds, acquires, and operates a large portfolio of apps that enhance, extend, and connect the platforms enterprise teams already run on — principally Atlassian Jira, Confluence and Jira Service Management (Cloud and Data Center), plus Microsoft Azure DevOps, monday.com and Salesforce. Its product families cover portfolio and project management (BigPicture, BigGantt, BigTemplate), goal setting (OKR for Jira), time tracking (7pace Timetracker for Jira and for Azure DevOps), document workflow and approvals (Comala Document Management), workflow automation and scripting (Jira Misc Workflow Extensions, Power Scripts), and administration tooling (the Appfire/Atlassian Command Line Interface). Public, machine-readable API surface is per-product rather than company-wide: 7pace Timetracker for Jira publishes OpenAPI 3.0 for its v1 and v2 REST APIs, the OKR app serves an OpenAPI 3.1 document for its public export/update API, and BigPicture publishes
   a hosted API reference for its Cloud and Data Center REST APIs.'
 layout: provider
+mcp_servers:
+- description: ''
+  name: appfire-mcp.yml
+  slug: appfire-mcpyml
 modified: '2026-08-06'
 name: Appfire
 nav: Providers
@@ -168,32 +176,32 @@ network: true
 overview: 'Appfire publishes 4 APIs on the [APIs.io](https://apis.io/) network, including API query methods API, API update methods API, Settings API, and 1 more. Tagged areas include atlassian, jira, confluence, project-portfolio-management, and work-management.
 
 
-  Appfire''s developer surface includes authentication, documentation, API reference, support, engineering blog, CLI, changelog, and 21 more developer resources.'
+  Appfire''s developer surface includes authentication, documentation, API reference, support, engineering blog, CLI, changelog, and 22 more developer resources.'
 random_paper: 47
 score:
   band: developing
-  composite: 46.8
-  delta: -0.3
+  composite: 48.7
+  delta: 1.9
   facets:
     commercial_clarity: 36.8
-    contract_quality: 55.3
-    developer_ergonomics: 56.0
+    contract_quality: 61.1
+    developer_ergonomics: 58.2
     discoverability: 88.9
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 47.1
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 50.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appfire/refs/heads/main/screenshots/appfire-2026-08-07T161502.png
 security:

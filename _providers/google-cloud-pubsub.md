@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -155,15 +155,15 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.5
-  delta: 0.0
+  composite: 43.3
+  delta: -9.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 82.2
+    commercial_clarity: 26.3
+    contract_quality: 79.1
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 47.9
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 52.5
   provenance:
     agentic_access: derived
@@ -172,15 +172,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 55.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-pubsub/refs/heads/main/screenshots/google-cloud-pubsub-2026-06-20T182128.png
 security:
 - kind: authentication

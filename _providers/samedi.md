@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 9.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: OAuth2 / OpenID-Connect secured API to discover bookable resources and book and manage patient appointments for a clinic. Versioned in the URL path (booking v3, auth v2).
@@ -123,14 +123,14 @@ scopes:
   slug: samedi-scopes
   summary_line: 10 scopes · authorizationCode/clientCredentials
 score:
-  band: thin
-  composite: 29.1
-  delta: 0.0
+  band: emerging
+  composite: 26.7
+  delta: -2.4
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 17.4
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 21.1
   previous_composite: 29.1
@@ -141,9 +141,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 62.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 52.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

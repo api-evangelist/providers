@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The core Mockito mocking framework for creating mock objects, stubbing methods, verifying invocations, and writing expressive unit tests in Java. Mockito Core is consumed as a Java library (Maven / Gr
@@ -36,6 +36,14 @@ apis:
   slug: mockito-core
 artifact_total: 5
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/mockito/mockito/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/mockito/mockito/blob/main/SECURITY.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -83,7 +91,7 @@ network: true
 overview: 'Mockito publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Java, Mocking, Testing, Unit Testing, and Open Source.
 
 
-  Mockito''s developer surface includes getting-started guide, release notes, and 6 more developer resources.'
+  Mockito''s developer surface includes getting-started guide, release notes, and 8 more developer resources.'
 plans:
 - name: Mockito Plans Pricing
   plan_count: 3
@@ -95,19 +103,19 @@ rate_limits:
   slug: mockito-rate-limits
 score:
   band: emerging
-  composite: 22.8
-  delta: 0.0
+  composite: 16.4
+  delta: -6.4
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 10.9
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 22.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mockito/refs/heads/main/screenshots/mockito-2026-06-20T185636.png
 security:
 - kind: domain-security

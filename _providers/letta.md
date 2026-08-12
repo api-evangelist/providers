@@ -20,7 +20,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: true
     error_semantics: verified
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-10'
+  score: 45.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 346
   human_in_the_loop: 8
@@ -1501,26 +1501,26 @@ rules:
   slug: letta-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.4
-  delta: 0.4
+  composite: 48.5
+  delta: -6.9
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 87.4
+    commercial_clarity: 39.5
+    contract_quality: 84.1
     developer_ergonomics: 21.7
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 52.1
-    operational_transparency: 26.3
-  previous_composite: 55.0
+    operational_transparency: 10.5
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 40
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+      total: 48
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/letta/refs/heads/main/screenshots/letta-2026-07-25T224937.png
 security:
 - kind: authentication

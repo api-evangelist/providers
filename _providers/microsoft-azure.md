@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 61.3
-  scored_at: '2026-08-10'
+  score: 57.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6530
   human_in_the_loop: 347
@@ -9034,16 +9035,16 @@ scopes:
   slug: microsoft-azure-scopes
   summary_line: 25 scopes · implicit/authorizationCode/clientCredentials
 score:
-  band: exemplar
-  composite: 68.8
-  delta: 0.0
+  band: strong
+  composite: 63.0
+  delta: -5.8
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 57.3
+    commercial_clarity: 68.4
+    contract_quality: 61.1
     developer_ergonomics: 71.7
     discoverability: 68.5
     governance: 61.5
-    operational_transparency: 57.9
+    operational_transparency: 42.1
   previous_composite: 68.8
   provenance:
     agentic_access: derived
@@ -9054,9 +9055,9 @@ score:
       marker_coverage: 0.0
       total: 1659
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/screenshots/microsoft-azure-2026-06-20T185349.png
 security:
 - kind: authentication

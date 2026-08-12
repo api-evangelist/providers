@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -308,12 +308,12 @@ rules:
     warn: 2
   slug: robin-ai-rules
 score:
-  band: developing
-  composite: 55.8
-  delta: 0.0
+  band: strong
+  composite: 57.8
+  delta: 2.0
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 71.9
+    commercial_clarity: 92.1
+    contract_quality: 69.3
     developer_ergonomics: 34.8
     discoverability: 74.1
     governance: 58.3
@@ -326,8 +326,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/screenshots/robin-ai-2026-06-20T193139.png
 security:

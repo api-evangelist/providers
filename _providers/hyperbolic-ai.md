@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -118,6 +118,18 @@ collections:
   name: Hyperbolic Models API
   slug: open-hyperbolic-models-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/HyperbolicLabs/hyperbolic-cli/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/HyperbolicLabs/hyperbolic-cli/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/HyperbolicLabs/hyperbolic-cli/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -420,7 +432,7 @@ overview: 'Hyperbolic publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   The Hyperbolic catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Hyperbolic''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, sandbox, engineering blog, and 53 more developer resources.'
+  Hyperbolic''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, sandbox, engineering blog, and 56 more developer resources.'
 plans:
 - name: Hyperbolic Ai Plans Pricing
   plan_count: 16
@@ -448,16 +460,16 @@ rules:
     warn: 7
   slug: hyperbolic-ai-rules
 score:
-  band: strong
-  composite: 65.0
-  delta: 0.0
+  band: exemplar
+  composite: 69.0
+  delta: 4.0
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 76.1
+    commercial_clarity: 73.7
+    contract_quality: 73.3
     developer_ergonomics: 71.7
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 52.6
   previous_composite: 65.0
   provenance:
     agentic_access: derived
@@ -466,8 +478,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/screenshots/hyperbolic-ai-2026-06-20T183118.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 9
 apis:
 - description: Create new orders and update, cancel, or get information about existing outbound B2C orders. Includes shipment details such as shipping box dimensions, contents, and tracking information.
@@ -159,8 +159,8 @@ rate_limits:
   slug: shipwire-rate-limits
 score:
   band: thin
-  composite: 41.6
-  delta: 0.0
+  composite: 36.6
+  delta: -5.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 48.1
@@ -169,9 +169,15 @@ score:
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 41.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 8.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/shipwire/refs/heads/main/screenshots/shipwire-2026-06-20T193825.png
 security:
 - kind: domain-security

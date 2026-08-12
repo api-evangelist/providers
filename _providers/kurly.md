@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -62,6 +62,10 @@ arazzos:
   slug: kurly-inbound-receiving-flow
 artifact_total: 12
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kurly-auth-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -201,7 +205,7 @@ network: true
 overview: 'Kurly publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, 배송운영 정책 API, and Delivery Tracking (배송추적) API. Tagged areas include Company, Technology, Logistics, Fulfillment, and Supply Chain.
 
 
-  Kurly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, developer console, and 24 more developer resources.'
+  Kurly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, developer console, and 25 more developer resources.'
 random_paper: 103
 rate_limits:
 - limit_count: 0
@@ -209,11 +213,11 @@ rate_limits:
   slug: kurly-rate-limits
 score:
   band: developing
-  composite: 44.1
-  delta: 0.0
+  composite: 43.6
+  delta: -0.5
   facets:
     commercial_clarity: 13.2
-    contract_quality: 57.4
+    contract_quality: 55.2
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 21.9
@@ -229,8 +233,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/screenshots/kurly-2026-07-25T224336.png
 security:

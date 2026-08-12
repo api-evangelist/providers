@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -69,6 +69,26 @@ collections:
   name: Milvus REST API
   slug: open-milvus
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/milvus-io/milvus/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/milvus-io/milvus/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/milvus-io/milvus/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/milvus-io/milvus/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/milvus-io/milvus/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -144,7 +164,7 @@ network: true
 overview: 'Milvus publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Entities API, Indexes API, and 3 more. Tagged areas include Vector Database, AI, Embeddings, Open Source, and Cloud-Native.
 
 
-  Milvus'' developer surface includes authentication, developer portal, engineering blog, and 11 more developer resources.'
+  Milvus'' developer surface includes authentication, developer portal, engineering blog, and 16 more developer resources.'
 plans:
 - name: Milvus Plans Pricing
   plan_count: 1
@@ -156,13 +176,13 @@ rate_limits:
   slug: milvus-rate-limits
 score:
   band: thin
-  composite: 33.9
-  delta: 0.0
+  composite: 31.1
+  delta: -2.8
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 54.7
+    commercial_clarity: 13.2
+    contract_quality: 52.9
     developer_ergonomics: 21.7
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 33.9
@@ -173,8 +193,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/milvus/refs/heads/main/screenshots/milvus-2026-06-20T185554.png
 security:

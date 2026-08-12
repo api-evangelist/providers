@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Customer-facing REST API for the Alcatraz Admin Portal, used by third-party projects and applications to administer Rock devices, users, profiles and events. Access is authorized with an API key gener
@@ -125,8 +125,8 @@ score:
   previous_composite: 22.4
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alcatraz-ai/refs/heads/main/screenshots/alcatraz-ai-2026-08-07T161150.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,6 +62,10 @@ collections:
   name: Grafana Tempo HTTP API
   slug: open-tempo
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/grafana/tempo/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -125,7 +129,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/tempo-openapi.yml
+  url: openapi/_original/tempo-openapi.yml
 - group: design
   title: ''
   type: JSONLD
@@ -184,7 +188,7 @@ overview: 'Tempo publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
   The Tempo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tempo''s developer surface includes documentation, release notes, engineering blog, getting-started guide, and 17 more developer resources.'
+  Tempo''s developer surface includes documentation, release notes, engineering blog, getting-started guide, and 18 more developer resources.'
 plans:
 - name: Tempo Plans Pricing
   plan_count: 3
@@ -213,15 +217,15 @@ rules:
   slug: tempo-rules
 score:
   band: developing
-  composite: 51.9
-  delta: 0.0
+  composite: 43.5
+  delta: -8.4
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 62.6
+    commercial_clarity: 23.7
+    contract_quality: 60.3
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 51.9
   provenance:
     agentic_access: derived
@@ -230,9 +234,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tempo/refs/heads/main/screenshots/tempo-2026-06-20T195059.png
 security:
 - kind: domain-security

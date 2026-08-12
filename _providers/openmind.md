@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Unified chat-completions endpoint that proxies multiple LLM providers (OpenAI, Anthropic via OpenRouter, Google Gemini, X.AI, DeepSeek, NEAR.AI) through a single OpenAI-compatible interface authentica
@@ -172,13 +172,13 @@ rate_limits:
   slug: openmind-rate-limits
 score:
   band: thin
-  composite: 41.7
-  delta: 0.0
+  composite: 40.5
+  delta: -1.2
   facets:
     commercial_clarity: 55.3
     contract_quality: 0.0
     developer_ergonomics: 73.4
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 52.6
   previous_composite: 41.7
@@ -186,8 +186,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openmind/refs/heads/main/screenshots/openmind-2026-08-07T190620.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: GUPEA (Gothenburg University Publications Electronic Archive) is the university's DSpace-based institutional repository. It exposes an OAI-PMH 2.0 metadata harvesting endpoint (repository name "GUPEA"
@@ -122,8 +122,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/screenshots/university-of-gothenburg-2026-06-20T200152.png
 security:

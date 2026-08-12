@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-08-10'
+  score: 41.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -52,6 +52,10 @@ apis:
   slug: incognia-transactions-api
 artifact_total: 9
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/incognia-openapi-overlay.yaml
 - group: auth
   title: ''
   type: OAuthScopes
@@ -175,7 +179,7 @@ network: true
 overview: 'Incognia publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Feedback API, Onboarding API, and 1 more. Tagged areas include Company, Cybersecurity, Fraud Prevention, Device Fingerprinting, and Location Identity.
 
 
-  Incognia''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 21 more developer resources.'
+  Incognia''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 22 more developer resources.'
 random_paper: 28
 scopes:
 - name: Incognia Scopes
@@ -184,13 +188,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.6
-  delta: 0.0
+  composite: 46.9
+  delta: -1.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 62.8
+    contract_quality: 60.4
     developer_ergonomics: 58.2
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 48.6
@@ -204,8 +208,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/screenshots/incognia-2026-07-25T222233.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -85,6 +85,14 @@ collections:
   name: Chick-fil-A BOVINE API
   slug: open-chickfila-bovine
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/chick-fil-a/bovine/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/chick-fil-a/bovine/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -478,7 +486,7 @@ overview: 'Chick-fil-A publishes 9 APIs on the [APIs.io](https://apis.io/) netwo
   The Chick-fil-A catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Chick-fil-A''s developer surface includes signup flow, engineering blog, tooling, code examples, and 13 more developer resources.'
+  Chick-fil-A''s developer surface includes signup flow, engineering blog, tooling, code examples, and 15 more developer resources.'
 random_paper: 114
 rules:
 - name: Chick-fil-A API Rules
@@ -499,11 +507,11 @@ rules:
   slug: chickfila-spectral-rules
 score:
   band: emerging
-  composite: 23.9
-  delta: 0.0
+  composite: 23.7
+  delta: -0.2
   facets:
     commercial_clarity: 13.2
-    contract_quality: 21.7
+    contract_quality: 20.9
     developer_ergonomics: 2.2
     discoverability: 64.8
     governance: 68.8
@@ -516,8 +524,8 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/screenshots/chickfila-2026-06-20T174304.png
 security:

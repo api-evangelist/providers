@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-08-10'
+  score: 44.1
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API for programmatically creating and managing Qwilr pages (proposals, quotes, contracts, reports) from templates and saved blocks, managing quote taxes, listing payment gateways and users, and s
@@ -200,8 +200,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

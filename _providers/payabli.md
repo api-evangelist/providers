@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 2
@@ -422,13 +422,13 @@ overview: 'Payabli publishes 33 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 42
 score:
   band: strong
-  composite: 62.3
-  delta: 0.0
+  composite: 59.0
+  delta: -3.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 59.7
+    contract_quality: 57.5
     developer_ergonomics: 91.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 52.6
   previous_composite: 62.3
@@ -447,9 +447,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 59.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 46.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/screenshots/payabli-2026-08-07T191624.png
 security:

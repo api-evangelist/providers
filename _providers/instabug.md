@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -88,6 +88,14 @@ collections:
   name: Luciq MCP Server
   slug: open-instabug-mcp-server
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Instabug/Instabug-iOS/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Instabug/Instabug-iOS/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -356,7 +364,7 @@ overview: 'Instabug (Luciq) publishes 7 APIs on the [APIs.io](https://apis.io/) 
   The Instabug (Luciq) catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Instabug (Luciq)''s developer surface includes authentication, developer portal, documentation, pricing, changelog, engineering blog, and 32 more developer resources.'
+  Instabug (Luciq)''s developer surface includes authentication, developer portal, documentation, pricing, changelog, engineering blog, and 34 more developer resources.'
 plans:
 - name: Instabug Plans Pricing
   plan_count: 3
@@ -397,12 +405,12 @@ scopes:
   slug: instabug-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: strong
-  composite: 56.0
-  delta: 0.0
+  band: developing
+  composite: 55.4
+  delta: -0.6
   facets:
     commercial_clarity: 63.2
-    contract_quality: 69.6
+    contract_quality: 67.3
     developer_ergonomics: 34.8
     discoverability: 59.3
     governance: 52.1
@@ -415,8 +423,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/screenshots/instabug-2026-06-20T183406.png
 security:

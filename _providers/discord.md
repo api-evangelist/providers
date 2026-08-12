@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 167
   human_in_the_loop: 2
@@ -226,6 +226,18 @@ collections:
   name: Discord Webhook Events API
   slug: open-discord-webhook-events-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/discord/embedded-app-sdk/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/discord/embedded-app-sdk/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/discord/embedded-app-sdk/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1794,7 +1806,7 @@ overview: 'Discord publishes 27 APIs on the [APIs.io](https://apis.io/) network,
   The Discord catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Discord''s developer surface includes authentication, developer portal, engineering blog, documentation, getting-started guide, changelog, support, and 45 more developer resources.'
+  Discord''s developer surface includes authentication, developer portal, engineering blog, documentation, getting-started guide, changelog, support, and 48 more developer resources.'
 plans:
 - name: Discord Plans Pricing
   plan_count: 3
@@ -1827,16 +1839,16 @@ scopes:
   slug: discord-scopes
   summary_line: 33 scopes · implicit/clientCredentials/authorizationCode
 score:
-  band: strong
-  composite: 61.5
-  delta: 0.0
+  band: developing
+  composite: 52.1
+  delta: -9.4
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 76.1
+    commercial_clarity: 36.8
+    contract_quality: 73.6
     developer_ergonomics: 50.0
     discoverability: 55.6
     governance: 41.7
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 61.5
   provenance:
     agentic_access: derived
@@ -1845,15 +1857,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 66.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/screenshots/discord-2026-06-20T180039.png
 security:
 - kind: authentication

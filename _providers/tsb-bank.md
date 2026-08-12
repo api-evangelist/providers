@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-08-10'
+  score: 44.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -173,12 +173,12 @@ scopes:
   slug: tsb-bank-scopes
   summary_line: 9 scopes · implicit
 score:
-  band: developing
-  composite: 44.1
-  delta: 0.0
+  band: thin
+  composite: 39.5
+  delta: -4.6
   facets:
     commercial_clarity: 21.1
-    contract_quality: 46.3
+    contract_quality: 44.6
     developer_ergonomics: 36.4
     discoverability: 92.6
     governance: 20.8
@@ -199,9 +199,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 88.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 60.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

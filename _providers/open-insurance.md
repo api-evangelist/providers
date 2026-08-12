@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-10'
+  score: 49.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -204,11 +205,11 @@ overview: 'Open publishes 1 API on the [APIs.io](https://apis.io/) network: Cert
 random_paper: 55
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 48.1
+  delta: -0.3
   facets:
     commercial_clarity: 42.1
-    contract_quality: 48.8
+    contract_quality: 47.0
     developer_ergonomics: 75.5
     discoverability: 87.0
     governance: 20.8
@@ -225,8 +226,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/screenshots/open-insurance-2026-08-07T190517.png
 security:

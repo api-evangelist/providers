@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Authentication-gated runtime API for the Hunters SOC platform, used for data ingestion (API/webhook collection) and platform automation. No public OpenAPI is published; the developer knowledge base is
@@ -105,18 +105,18 @@ overview: 'Hunters publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 81
 score:
   band: thin
-  composite: 35.3
-  delta: 0.0
+  composite: 34.2
+  delta: -1.1
   facets:
     commercial_clarity: 42.1
     contract_quality: 51.6
     developer_ergonomics: 10.9
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 23.7
   previous_composite: 35.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hunters/refs/heads/main/screenshots/hunters-2026-07-25T221736.png
 security:

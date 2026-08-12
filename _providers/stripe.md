@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: documented
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 59.5
-  scored_at: '2026-08-10'
+  score: 55.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 483
   human_in_the_loop: 2
@@ -952,6 +952,14 @@ collections:
 common:
 - group: agent
   title: ''
+  type: AgentSkill
+  url: skills/stripe-calculate-and-settle-tax.md
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://stripe.com/roadmap
+- group: agent
+  title: ''
   type: AgenticAccess
   url: agentic-access/stripe-agentic-access.yml
 - group: auth
@@ -1440,7 +1448,7 @@ common:
   url: lifecycle/stripe-lifecycle.yml
 - group: operate
   title: ''
-  type: Deprecation
+  type: DeprecationPolicy
   url: https://docs.stripe.com/upgrades
 - group: design
   title: ''
@@ -1452,7 +1460,7 @@ common:
   url: https://docs.stripe.com/security
 - group: agent
   title: ''
-  type: AgentSkill
+  type: AgentSkills
   url: skills/_index.yml
 created: 2024/04/14
 description: Online payment processing for internet businesses. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes.
@@ -1552,7 +1560,7 @@ overview: 'Stripe publishes 159 APIs on the [APIs.io](https://apis.io/) network,
   The Stripe catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Stripe''s developer surface includes authentication, sandbox, changelog, CLI, signup flow, developer portal, documentation, and 119 more developer resources.'
+  Stripe''s developer surface includes authentication, sandbox, changelog, CLI, signup flow, developer portal, documentation, and 121 more developer resources.'
 plans:
 - name: Stripe Plans Pricing
   plan_count: 9
@@ -1594,15 +1602,15 @@ scopes:
   summary_line: 2 scopes
 score:
   band: exemplar
-  composite: 84.7
-  delta: 0.0
+  composite: 75.6
+  delta: -9.1
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 72.9
+    commercial_clarity: 76.3
+    contract_quality: 73.8
     developer_ergonomics: 95.1
     discoverability: 59.3
     governance: 63.5
-    operational_transparency: 94.7
+    operational_transparency: 76.3
   previous_composite: 84.7
   provenance:
     agentic_access: derived
@@ -1619,10 +1627,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 93.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+    score: 71.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/screenshots/stripe-2026-06-20T161306.png
 security:
 - kind: authentication

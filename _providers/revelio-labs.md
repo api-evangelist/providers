@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API for programmatic access to Revelio Labs' workforce intelligence datasets — workforce dynamics, job postings (COSMOS), sentiment, layoffs, and individual-level files — returning standardized c
@@ -108,8 +108,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 19.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -249,6 +249,26 @@ collections:
   name: Llama Platform Agent Data V2 API
   slug: postman-llamaparse-v2-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/run-llama/llama-parse-py/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/run-llama/llama-parse-py/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/run-llama/llama-parse-py/blob/main/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/run-llama/llama-parse-py/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/run-llama/llama-parse-py/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -336,7 +356,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/llamaparse-llamacloud-openapi.yml
+  url: openapi/_original/llamaparse-llamacloud-openapi.yml
 - group: design
   title: ''
   type: Vocabulary
@@ -415,7 +435,7 @@ overview: 'LlamaParse publishes 35 APIs on the [APIs.io](https://apis.io/) netwo
   The LlamaParse catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  LlamaParse''s developer surface includes authentication, documentation, API reference, engineering blog, changelog, pricing, and 18 more developer resources.'
+  LlamaParse''s developer surface includes authentication, documentation, API reference, engineering blog, changelog, pricing, and 23 more developer resources.'
 plans:
 - name: Llamaparse Plans Pricing
   plan_count: 4
@@ -436,15 +456,15 @@ rules:
   slug: llamaparse-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 56.7
-  delta: 0.0
+  composite: 57.5
+  delta: 0.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 62.5
+    contract_quality: 60.2
     developer_ergonomics: 32.6
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 68.4
+    operational_transparency: 78.9
   previous_composite: 56.7
   provenance:
     agentic_access: derived
@@ -453,8 +473,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 33
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/screenshots/llamaparse-2026-06-20T184622.png
 security:

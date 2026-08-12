@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Send messages to Poke programmatically.
@@ -36,6 +36,10 @@ apis:
   slug: the-interaction-company-of-california-messaging-api
 artifact_total: 3
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/the-interaction-company-of-california-poke-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -147,17 +151,17 @@ network: true
 overview: 'The Interaction Company Of California publishes 1 API on the [APIs.io](https://apis.io/) network: Messaging API. Tagged areas include Company, AI Assistant, Artificial Intelligence, Agents, and Messaging.
 
 
-  The Interaction Company Of California''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, changelog, and 18 more developer resources.'
+  The Interaction Company Of California''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, changelog, and 19 more developer resources.'
 random_paper: 109
 score:
   band: thin
-  composite: 40.9
-  delta: 0.0
+  composite: 40.7
+  delta: -0.2
   facets:
     commercial_clarity: 44.7
-    contract_quality: 16.7
+    contract_quality: 16.0
     developer_ergonomics: 64.7
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 44.7
   previous_composite: 40.9
@@ -169,14 +173,8 @@ score:
       marker_coverage: 100.0
       total: 1
     skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 34.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

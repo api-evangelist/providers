@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -147,15 +147,15 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 51.1
-  delta: 0.0
+  composite: 43.4
+  delta: -7.7
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 55.8
+    commercial_clarity: 47.4
+    contract_quality: 53.7
     developer_ergonomics: 45.7
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 51.1
   provenance:
     agentic_access: derived
@@ -164,15 +164,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 51.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-signalr/refs/heads/main/screenshots/microsoft-azure-signalr-2026-06-20T185437.png
 security:
 - kind: authentication

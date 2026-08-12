@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -124,6 +125,10 @@ collections:
   name: WordPress REST API
   slug: open-wordpress-rest-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/wp-cli/wp-cli/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -488,7 +493,7 @@ overview: 'WordPress publishes 14 APIs on the [APIs.io](https://apis.io/) networ
   The WordPress catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  WordPress'' developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 27 more developer resources.'
+  WordPress'' developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 28 more developer resources.'
 plans:
 - name: Wordpress Plans Pricing
   plan_count: 3
@@ -516,16 +521,16 @@ rules:
     warn: 23
   slug: wordpress-spectral-rules
 score:
-  band: strong
-  composite: 59.5
-  delta: 0.0
+  band: developing
+  composite: 52.7
+  delta: -6.8
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 40.5
-    developer_ergonomics: 65.2
+    commercial_clarity: 36.8
+    contract_quality: 39.2
+    developer_ergonomics: 71.7
     discoverability: 57.4
     governance: 68.8
-    operational_transparency: 78.9
+    operational_transparency: 55.3
   previous_composite: 59.5
   provenance:
     agentic_access: derived
@@ -534,9 +539,9 @@ score:
       derived: 14
       marker_coverage: 100.0
       total: 14
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/screenshots/wordpress-2026-06-20T201546.png
 security:
 - kind: authentication

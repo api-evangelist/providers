@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-10'
+  score: 38.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -61,8 +61,16 @@ apis:
 - description: The Users API from Orionis Biosciences — 3 operation(s) for users.
   name: Orionis Biosciences Users API
   slug: orionis-biosciences-users-api
-artifact_total: 14
+artifact_total: 15
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/orionis-biosciences-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/orionis-biosciences-content-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -168,6 +176,10 @@ description: Orionis Biosciences is a privately held biotechnology company headq
   no developer program, no product API and no OpenAPI of its own; the only machine-readable surface on orionisbio.com is the WordPress REST API (wp/v2) that serves the company newsroom, corporate and platform pages, leadership and scientific-team profiles and the media library as anonymously readable JSON, alongside a WordPress Abilities API (wp-abilities/v1) registry that is present but authentication-gated.
 image: https://orionisbio.com/wp-content/uploads/2020/02/cropped-favicon-coast-192x192.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: orionis-biosciences-mcp.yml
+  slug: orionis-biosciences-mcpyml
 modified: '2026-08-04'
 name: Orionis Biosciences
 nav: Providers
@@ -175,28 +187,28 @@ network: true
 overview: 'Orionis Biosciences publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Abilities API, Comments API, Discovery API, and 8 more. Tagged areas include Company, Biotechnology, Life Sciences, Drug Discovery, and Pharmaceuticals.
 
 
-  Orionis Biosciences'' developer surface includes engineering blog, product news, support, authentication, and 21 more developer resources.'
+  Orionis Biosciences'' developer surface includes engineering blog, product news, support, authentication, and 23 more developer resources.'
 random_paper: 3
 score:
   band: emerging
-  composite: 23.5
-  delta: 0.2
+  composite: 23.0
+  delta: -0.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 14.0
-    developer_ergonomics: 19.0
-    discoverability: 92.6
+    contract_quality: 14.4
+    developer_ergonomics: 21.2
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 23.3
+  previous_composite: 23.5
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 11
       marker_coverage: 100.0
-      total: 1
+      total: 11
     mcp: derived
     skills: derived
   regulatory:
@@ -205,8 +217,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orionis-biosciences/refs/heads/main/screenshots/orionis-biosciences-2026-08-07T190940.png
 security:

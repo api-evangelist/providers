@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-10'
+  score: 3.2
+  scored_at: '2026-08-11'
 api_count: 0
-artifact_total: 2
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -67,28 +67,70 @@ common:
   title: ''
   type: DomainSecurity
   url: security/cultfit-domain-security.yml
+- group: start
+  title: ''
+  type: Login
+  url: https://www.cult.fit/login
+- group: build
+  title: ''
+  type: Packages
+  url: packages/cultfit-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/cultfit-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/cultfit-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/cultfit-rate-limits.yml
+coverage:
+  checked: '2026-08-10'
+  detail: 'Cult.fit ships only end-user apps — every spec path (/openapi.json, /swagger.json, /api-docs) 404s on www.cult.fit, api.cure.fit and www.cultsport.com, there is no developer.cult.fit or docs.cult.fit host at all (DNS does not resolve), and the private app backend at api.cure.fit is explicitly walled off by robots.txt "Disallow: /api/".'
+  evidence:
+  - status: 404
+    url: https://api.cure.fit/openapi.json
+  - status: 200
+    url: https://www.cult.fit/robots.txt
+  - status: 404
+    url: https://www.cult.fit/.well-known/agent-card.json
+  - status: 200
+    url: https://www.cultsport.com/llms.txt
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: Cult.fit (Curefit / cure.fit, operated by Diverse Retails Private Limited) is an Indian health and fitness company offering a connected consumer experience across group fitness classes, gyms, at-home workouts, mental well-being and meditation, healthy food, and diagnostics. Its flagship products include CultPass gym and class memberships, sport and fitness centers, live and on-demand digital workouts, and the cult.fit and cure.fit mobile and web apps. Backed by Accel and other investors, the company operates a large consumer platform but does not publish a public developer API program; this API Evangelist profile captures its company identity, corporate web properties, and engineering surface (the curefit GitHub organization and engineering blog).
 image: https://static.cure.fit/assets/images/social/social-share.jpg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-10'
 name: Cult.fit
 nav: Providers
 network: true
 overview: 'Cult.fit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Fitness, Health, and Wellness.
 
 
-  Cult.fit''s developer surface includes engineering blog, support, and 7 more developer resources.'
+  Cult.fit''s developer surface includes engineering blog, support, and 12 more developer resources.'
+plans:
+- name: Cultfit Plans Pricing
+  plan_count: 0
+  slug: cultfit-plans-pricing
 random_paper: 67
+rate_limits:
+- limit_count: 0
+  name: Cultfit Rate Limits
+  slug: cultfit-rate-limits
 score:
   band: emerging
-  composite: 14.4
-  delta: 0.0
+  composite: 17.3
+  delta: 2.9
   facets:
-    commercial_clarity: 21.1
+    commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 14.4
@@ -98,8 +140,8 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cultfit/refs/heads/main/screenshots/cultfit-2026-07-25T210923.png
 security:

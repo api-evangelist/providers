@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Public HTTPS REST API for the Bitnomial exchange — products and contract specs, orders, fills, block trades, indexes, funding rates, and market statistics. HMAC-SHA256 signed authentication; cursor pa
@@ -165,13 +165,13 @@ overview: 'Bitnomial publishes 1 API on the [APIs.io](https://apis.io/) network:
 random_paper: 31
 score:
   band: thin
-  composite: 41.0
-  delta: 0.0
+  composite: 40.0
+  delta: -1.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 49.4
     developer_ergonomics: 73.9
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 31.6
   previous_composite: 41.0
@@ -184,8 +184,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitnomial/refs/heads/main/screenshots/bitnomial-2026-07-25T203158.png
 security:

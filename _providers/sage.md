@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -147,7 +147,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/sage-accounting-openapi.yml
+  url: openapi/_original/sage-accounting-openapi.yml
 - group: docs
   title: ''
   type: AsyncAPI
@@ -180,10 +180,6 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/sage-vocabulary.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/accounting-and-finance.yaml
 created: '2025-03-01'
 description: Sage provides cloud-based ERP, accounting, payroll, and HR software for businesses worldwide. The Sage Developer program provides APIs for integrating with Sage products including Sage Accounting (Business Cloud), Sage Intacct, Sage 200, Sage X3, and Sage 50. APIs support OAuth 2.0 authentication and cover contacts, invoices, payments, ledger accounts, bank accounts, products, and financial reporting. Sage Accounting API v3.1 is the current supported REST version with daily limits of 1,296,000 requests per app.
 examples:
@@ -355,7 +351,7 @@ overview: 'Sage publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
   The Sage catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Sage''s developer surface includes authentication, developer portal, documentation, sandbox, support, engineering blog, and 18 more developer resources.'
+  Sage''s developer surface includes authentication, developer portal, documentation, sandbox, support, engineering blog, and 17 more developer resources.'
 plans:
 - name: Sage Plans Pricing
   plan_count: 1
@@ -397,15 +393,15 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 43.7
+  delta: -6.0
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 77.9
+    commercial_clarity: 13.2
+    contract_quality: 75.0
     developer_ergonomics: 41.3
     discoverability: 64.8
     governance: 52.1
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 49.7
   provenance:
     agentic_access: derived
@@ -414,9 +410,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/screenshots/sage-2026-06-20T193330.png
 security:
 - kind: authentication

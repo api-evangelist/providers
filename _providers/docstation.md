@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -18,18 +18,22 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    rate_limit_signal: documented
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-10'
+  score: 24.8
+  scored_at: '2026-08-11'
 api_count: 0
-artifact_total: 2
+artifact_total: 6
+asyncapis:
+- description: ''
+  name: Docstation Webhooks
+  slug: docstation-webhooks
 common:
 - group: company
   title: ''
@@ -39,6 +43,18 @@ common:
   title: ''
   type: Support
   url: https://help.docstation.co
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.docstation.co/en/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.docstation.co/en/collections/2461790-getting-started-with-docstation
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/DocStation
 - group: company
   title: ''
   type: Blog
@@ -91,30 +107,73 @@ common:
   title: ''
   type: DomainSecurity
   url: security/docstation-domain-security.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/docstation-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/docstation-vulnerability-disclosure.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/docstation-changelog.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/docstation-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/docstation-rate-limits.yml
+coverage:
+  checked: '2026-08-10'
+  detail: DocStation ships only an end-user pharmacy application — there is no api.docstation.co (NXDOMAIN), no developer page in its 217-URL sitemap, and its six named integrations (PioneerRx, Liberty RXQ, DRX, RelayHealth, CPESN, DHS Immunization Gateway) are each enabled from inside the authenticated app with credentials DocStation issues per customer.
+  evidence:
+  - status: 200
+    url: https://docstation.co/sitemap.xml
+  - status: 404
+    url: https://docstation.co/openapi.json
+  - status: 200
+    url: https://help.docstation.co/en/articles/4169699-enabling-integrations
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
 description: DocStation is a unified pharmacy care and medical billing platform that helps community and clinical pharmacies move beyond prescription dispensing to bill insurance for the clinical services they already provide — vaccines, MTM, point-of-care testing, consultations, and DME. The platform consolidates 360-degree patient records, automated medical claims generation and resubmission, smart scheduling with public booking links, connected SMS and organization-to-organization messaging, workflow automation, and live revenue analytics into a single system. It integrates with pharmacy management systems (PioneerRx, Liberty, DRX), 1,000+ health plans, clearinghouses, and state immunization registries. DocStation is HIPAA compliant and SOC 2 Type II audited. Backed by Techstars; added to the API Evangelist network and enriched from its public surface. No public developer API is documented at this time.
 image: https://docstation.co/api/og?title=Pharmacy+Beyond+Pills.&label=DocStation&accent=blue
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-10'
 name: DocStation
 nav: Providers
 network: true
 overview: 'DocStation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmacy, Medical Billing, Healthcare, and Clinical Services.
 
 
-  DocStation''s developer surface includes support, engineering blog, pricing, signup flow, and 11 more developer resources.'
+  The DocStation catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  DocStation''s developer surface includes support, documentation, getting-started guide, engineering blog, pricing, signup flow, changelog, and 16 more developer resources.'
+plans:
+- name: Docstation Plans Pricing
+  plan_count: 3
+  slug: docstation-plans-pricing
 random_paper: 36
+rate_limits:
+- limit_count: 0
+  name: Docstation Rate Limits
+  slug: docstation-rate-limits
 score:
-  band: emerging
-  composite: 23.8
-  delta: 0.0
+  band: developing
+  composite: 48.1
+  delta: 24.3
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 0.0
-    developer_ergonomics: 6.5
+    commercial_clarity: 92.1
+    contract_quality: 51.6
+    developer_ergonomics: 26.1
     discoverability: 57.4
     governance: 12.5
-    operational_transparency: 15.8
+    operational_transparency: 47.4
   previous_composite: 23.8
   provenance:
     conformance: first-party
@@ -123,16 +182,20 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 30.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+    score: 37.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/docstation/refs/heads/main/screenshots/docstation-2026-07-25T212211.png
 security:
 - kind: domain-security
   name: Docstation Domain Security
   slug: docstation-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Docstation Vulnerability Disclosure
+  slug: docstation-vulnerability-disclosure
+  summary_line: contact published
 - kind: trust-center
   name: Docstation Trust Center
   slug: docstation-trust-center

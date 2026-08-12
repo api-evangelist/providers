@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-10'
+  score: 20.0
+  scored_at: '2026-08-11'
 api_count: 16
 apis:
 - description: The Access codes API from Navigate — 1 operation(s) for access codes.
@@ -79,8 +79,20 @@ apis:
 - description: The Work orders API from Navigate — 9 operation(s) for work orders.
   name: Navigate Work orders API
   slug: navigate-work-orders-api
-artifact_total: 18
+artifact_total: 19
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/navigate-capture-to-findings.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/navigate-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/navigate-openapi-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -117,6 +129,10 @@ created: '2026-07-17'
 description: Navigate (NavigateAI) is a proptech company building an AI copilot for the physical world, helping field teams across construction, commercial real estate, homebuilding, data centers, and the trades complete projects faster, at higher quality, and lower cost. Its platform combines AI Capture for mobile visual documentation of project features and quality, AI Insights for on-demand expert coaching and upskilling, and AI Workflows for automating documentation and communication. Co-founded by Eric Wu and David Sinsky, Navigate is backed by Khosla Ventures, Affinity Partners, and Fifth Wall, with strategic investors including Tishman Speyer, Lennar, and Helix Electric. Navigate publishes a real external REST API (OpenAPI 3.1, bearer API-key auth) at https://api.navigateai.co for programmatically managing locations, visits, video captures, scopes, line items, work orders, and vendors.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/navigate.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: navigate-mcp.yml
+  slug: navigate-mcpyml
 modified: '2026-07-20'
 name: Navigate
 nav: Providers
@@ -124,17 +140,17 @@ network: true
 overview: 'Navigate publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Access codes API, Assets API, Lennar API, and 13 more. Tagged areas include Company, Proptech, Construction, Real Estate, and Artificial Intelligence.
 
 
-  Navigate''s developer surface includes support and 7 more developer resources.'
+  Navigate''s developer surface includes support and 10 more developer resources.'
 random_paper: 35
 score:
   band: thin
-  composite: 32.0
-  delta: 0.0
+  composite: 31.2
+  delta: -0.8
   facets:
     commercial_clarity: 34.2
-    contract_quality: 54.6
-    developer_ergonomics: 4.3
-    discoverability: 92.6
+    contract_quality: 52.6
+    developer_ergonomics: 8.2
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 32.0
@@ -147,8 +163,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navigate/refs/heads/main/screenshots/navigate-2026-08-07T184730.png
 security:

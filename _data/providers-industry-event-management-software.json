@@ -16,19 +16,19 @@
      "slug": "cvent",
      "description": "Cvent is a leading meetings, events, and hospitality technology provider with over 4,800 employees and 22,000+ customers worldwide. The Cvent platform spans Event Cloud (event management, registration, mobile event apps, virtual and hybrid events, Attendee Hub, surveys, Diagramming, and analytics) and Hospitality Cloud (Cvent Supplier Network, Passkey, Venue Sourcing, and Sales & Catering). Programmatic access is delivered through the unified Cvent Platform REST API (api-platform.cvent.com) using OAuth 2.0 client credentials, with legacy SOAP, BadgeKit, Jifflenow, and CSN APIs documented for historical integrations. The developer portal at developers.cvent.com hosts API references, guides, OpenAPI downloads, webhooks, SSO, custom widgets, white-label, and integration documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/screenshots/cvent-2026-06-20T175359.png",
-     "score": 52.9,
+     "score": 47.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 55.4,
+      "contract_quality": 53.3,
       "governance": 0.0,
-      "operational_transparency": 78.9,
+      "operational_transparency": 55.3,
       "developer_ergonomics": 32.6,
-      "commercial_clarity": 78.9
+      "commercial_clarity": 68.4
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -57,27 +57,27 @@
    "label": "Thin",
    "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 2,
-   "shown": 2,
+   "count": 1,
+   "shown": 1,
    "providers": [
     {
      "name": "Eventbrite",
      "slug": "eventbrite",
      "description": "A global self-service ticketing and event technology platform for live experiences. Enables creators to plan, promote, and sell tickets for events of all sizes. The Eventbrite Platform exposes a REST API plus webhooks that lets developers manage events, attendees, orders, organizations, ticket classes, and venues.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/eventbrite/refs/heads/main/screenshots/eventbrite-2026-06-20T180900.png",
-     "score": 35.8,
+     "score": 37.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 57.9,
+      "contract_quality": 55.8,
       "governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 15.8,
       "developer_ergonomics": 34.8,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 27.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -97,25 +97,36 @@
       "dry_run_mode": false
      },
      "rank": 2
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "13 – 27.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
     {
      "name": "Live Nation Entertainment",
      "slug": "live-nation-entertainment",
      "description": "Tap into the Ticketmaster open developer network which gives you the flexibility and scale to bring unforgettable live events to fans. It’s our technology – ...",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/live-nation-entertainment/refs/heads/main/screenshots/live-nation-entertainment-2026-06-20T184616.png",
-     "score": 32.5,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 25.2,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 54.3,
+      "contract_quality": 52.2,
       "governance": 0.0,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 13.0,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -136,8 +147,7 @@
      },
      "rank": 3
     }
-   ],
-   "open": true
+   ]
   }
  ]
 }

@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-08-10'
+  score: 37.2
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The Shopify Storefront GraphQL API as deployed on Kate Farms' own host. Anonymous introspection succeeded on 2026-08-04, returning 424 types, 35 root query fields and 41 mutations covering products, c
@@ -185,8 +185,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kate-farms/refs/heads/main/screenshots/kate-farms-2026-08-07T171111.png
 security:

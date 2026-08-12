@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 28.2
-  scored_at: '2026-08-10'
+  score: 24.5
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Single GraphQL endpoint for programmatic access to WisdomAI domains, tables, users, dashboards, and analytics data. Supports queries, mutations, and real-time WebSocket subscriptions. Tenant-scoped: r'
@@ -171,13 +171,13 @@ overview: 'Wisdom AI publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 94
 score:
   band: thin
-  composite: 38.1
-  delta: 0.0
+  composite: 37.0
+  delta: -1.1
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 69.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 31.6
   previous_composite: 38.1
@@ -185,8 +185,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

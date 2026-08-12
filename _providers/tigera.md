@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 57.4
-  scored_at: '2026-08-10'
+  score: 53.8
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: Goldmane is the Calico flow aggregation and network-observability service introduced in Calico Open Source 3.30. It exposes a gRPC API for querying aggregated flow data — List for point-in-time querie
@@ -48,6 +48,10 @@ asyncapis:
   name: Tigera Calico Cloud Webhooks
   slug: tigera-calico-cloud-webhooks
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/projectcalico/calico/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -234,7 +238,7 @@ overview: 'Tigera publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
   The Tigera catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tigera''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
+  Tigera''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
 random_paper: 56
 scopes:
 - name: Tigera Scopes
@@ -242,23 +246,28 @@ scopes:
   slug: tigera-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: strong
-  composite: 56.1
-  delta: -0.9
+  band: developing
+  composite: 55.7
+  delta: -0.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 48.1
+    contract_quality: 46.3
     developer_ergonomics: 75.5
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 57.0
+  previous_composite: 56.1
   provenance:
     conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

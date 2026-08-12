@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-10'
+  score: 34.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -58,6 +58,10 @@ apis:
   slug: qwilt-sites-api
 artifact_total: 11
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/qwilt-certificate-manager-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -189,17 +193,17 @@ network: true
 overview: 'Qwilt publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Certificate Templates API, Certificates API, Origin Allow List API, and 3 more. Tagged areas include Company, Media, CDN, Content Delivery Network, and Edge Computing.
 
 
-  Qwilt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 22 more developer resources.'
+  Qwilt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 23 more developer resources.'
 random_paper: 97
 score:
   band: thin
-  composite: 40.9
-  delta: 0.0
+  composite: 39.7
+  delta: -1.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 14.9
+    contract_quality: 14.4
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 40.9
@@ -213,8 +217,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

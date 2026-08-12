@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-10'
+  score: 49.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -290,14 +291,14 @@ rate_limits:
   name: Faa Rate Limits
   slug: faa-rate-limits
 score:
-  band: strong
-  composite: 57.1
-  delta: 0.0
+  band: developing
+  composite: 55.8
+  delta: -1.3
   facets:
     commercial_clarity: 65.8
-    contract_quality: 55.4
+    contract_quality: 53.4
     developer_ergonomics: 62.5
-    discoverability: 83.3
+    discoverability: 72.2
     governance: 11.5
     operational_transparency: 60.5
   previous_composite: 57.1
@@ -317,8 +318,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/screenshots/faa-2026-08-07T165207.png
 security:

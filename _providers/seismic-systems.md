@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -21,14 +22,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-10'
+  score: 48.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,8 +42,16 @@ apis:
 - description: The tokens API from Seismic Systems — 2 operation(s) for tokens.
   name: Seismic Systems tokens API
   slug: seismic-systems-tokens-api
-artifact_total: 4
+artifact_total: 5
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/seismic-systems-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/seismic-systems-src20-factory-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -123,6 +132,10 @@ created: '2026-07-17'
 description: Seismic Systems Inc. is a fintech company building a privacy-enabled ("encrypted") blockchain — a shielded EVM implementing the "Mercury" specification — that aims to power a complete stablecoin stack. Backed by a $17M seed led by a16z crypto, Seismic lets developers build private tokens (SRC20) whose balances and transfers are hidden from observers, using shielded types in Solidity, TEE-encrypted calldata (ECDH + AES-GCM), and authenticated "signed reads." It ships first-party client SDKs for TypeScript (seismic-viem, seismic-react), Python (seismic-web3), and Rust (seismic-alloy), an sfoundry developer toolchain (sforge/sanvil/ssolc), a public testnet with a faucet and block explorer, published Claude Code agent skills, and a read-only SRC20 Factory REST API for querying deployed tokens.
 image: https://github.com/SeismicSystems.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: seismic-systems-mcp.yml
+  slug: seismic-systems-mcpyml
 modified: '2026-07-21'
 name: Seismic Systems
 nav: Providers
@@ -130,17 +143,17 @@ network: true
 overview: 'Seismic Systems publishes 1 API on the [APIs.io](https://apis.io/) network: tokens API. Tagged areas include Company, Blockchain, Privacy, Encryption, and Stablecoins.
 
 
-  Seismic Systems'' developer surface includes documentation, API reference, getting-started guide, support, CLI, sandbox, authentication, and 12 more developer resources.'
+  Seismic Systems'' developer surface includes documentation, API reference, getting-started guide, support, CLI, sandbox, authentication, and 14 more developer resources.'
 random_paper: 78
 score:
   band: thin
-  composite: 33.7
-  delta: 0.0
+  composite: 32.9
+  delta: -0.8
   facets:
     commercial_clarity: 21.1
-    contract_quality: 14.1
-    developer_ergonomics: 76.1
-    discoverability: 87.0
+    contract_quality: 13.6
+    developer_ergonomics: 78.3
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 33.7
@@ -154,8 +167,8 @@ score:
       total: 1
     mcp: derived
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

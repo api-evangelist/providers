@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -100,6 +100,10 @@ collections:
   name: Docling Serve REST API
   slug: open-docling-serve
 common:
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/docling-project/docling/blob/main/.github/SECURITY.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -276,7 +280,7 @@ overview: 'Docling publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
   The Docling catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Docling''s developer surface includes developer portal, documentation, getting-started guide, CLI, release notes, changelog, engineering blog, and 22 more developer resources.'
+  Docling''s developer surface includes developer portal, documentation, getting-started guide, CLI, release notes, changelog, engineering blog, and 23 more developer resources.'
 random_paper: 40
 rules:
 - name: Docling API Rules
@@ -297,15 +301,15 @@ rules:
   slug: docling-rules
 score:
   band: developing
-  composite: 44.0
-  delta: 0.0
+  composite: 45.6
+  delta: 1.6
   facets:
     commercial_clarity: 0.0
-    contract_quality: 69.4
-    developer_ergonomics: 52.2
+    contract_quality: 66.8
+    developer_ergonomics: 56.5
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 21.1
+    operational_transparency: 31.6
   previous_composite: 44.0
   provenance:
     agentic_access: derived
@@ -314,8 +318,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docling/refs/heads/main/screenshots/docling-2026-06-20T180109.png
 slug: docling

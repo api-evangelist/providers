@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Hurl is an open source command-line tool for running HTTP requests defined in a simple plain text format, with built-in assertions for API testing, response capturing, and request chaining. As a CLI u
@@ -36,6 +36,22 @@ apis:
   slug: hurl
 artifact_total: 5
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Orange-OpenSource/hurl/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Orange-OpenSource/hurl/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Orange-OpenSource/hurl/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Orange-OpenSource/hurl/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -79,7 +95,7 @@ network: true
 overview: 'Hurl publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Command Line Interface and HTTP Client.
 
 
-  Hurl''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
+  Hurl''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Hurl Plans Pricing
   plan_count: 3
@@ -91,19 +107,19 @@ rate_limits:
   slug: hurl-rate-limits
 score:
   band: emerging
-  composite: 18.9
-  delta: 0.0
+  composite: 13.9
+  delta: -5.0
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 40.7
+    discoverability: 48.1
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 18.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/hurl/refs/heads/main/screenshots/hurl-2026-06-20T182953.png
 security:
 - kind: domain-security

@@ -1,9 +1,10 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 63.1
-  scored_at: '2026-08-10'
+  score: 56.1
+  scored_at: '2026-08-11'
 api_count: 44
 apis:
 - description: The original Cobot REST API, still available and still the only surface that carries the webhook subscription API. Documented per-resource on dev.cobot.me/api-docs; Cobot directs new integrations to A
@@ -159,6 +160,10 @@ asyncapis:
   name: Cobot Webhooks
   slug: cobot-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cobot-api2-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -313,7 +318,7 @@ overview: 'Cobot publishes 42 APIs on the [APIs.io](https://apis.io/) network, i
   The Cobot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cobot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+  Cobot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 random_paper: 71
 scopes:
 - name: Cobot Scopes
@@ -322,22 +327,34 @@ scopes:
   summary_line: 60 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.6
+  composite: 57.8
+  delta: -0.8
   facets:
     commercial_clarity: 44.7
-    contract_quality: 67.4
-    developer_ergonomics: 73.9
-    discoverability: 92.6
+    contract_quality: 72.3
+    developer_ergonomics: 69.0
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 44.7
+  previous_composite: 58.6
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 42
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 60.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Cobot Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,8 +79,8 @@ overview: 'United States Capitol Police is profiled on the [APIs.io](https://api
 random_paper: 44
 score:
   band: minimal
-  composite: 8.2
-  delta: 0.0
+  composite: 10.1
+  delta: 1.9
   facets:
     commercial_clarity: 0.0
     contract_quality: 12.9
@@ -89,8 +89,14 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 8.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 20.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-capitol-police/refs/heads/main/screenshots/united-states-capitol-police-2026-06-20T200048.png
 security:

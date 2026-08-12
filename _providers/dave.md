@@ -28,10 +28,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: start
+  title: ''
+  type: Signup
+  url: https://dave.com/register
 - group: company
   title: ''
   type: Website
@@ -80,14 +84,14 @@ network: true
 overview: 'Dave is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Neobank, and Personal Finance.
 
 
-  Dave''s developer surface includes engineering blog, support, pricing, and 6 more developer resources.'
+  Dave''s developer surface includes signup flow, engineering blog, support, pricing, and 6 more developer resources.'
 random_paper: 68
 score:
   band: emerging
-  composite: 14.0
-  delta: 0.0
+  composite: 16.2
+  delta: 2.2
   facets:
-    commercial_clarity: 31.6
+    commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 6.5
     discoverability: 50.0
@@ -100,8 +104,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dave/refs/heads/main/screenshots/dave-2026-07-25T211429.png
 security:

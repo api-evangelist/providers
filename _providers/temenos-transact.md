@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -653,15 +653,15 @@ rules:
   slug: temenos-transact-spectral-rules
 score:
   band: developing
-  composite: 53.4
-  delta: 0.0
+  composite: 50.6
+  delta: -2.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 78.3
+    commercial_clarity: 47.4
+    contract_quality: 75.4
     developer_ergonomics: 50.0
     discoverability: 72.2
     governance: 58.3
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 53.4
   provenance:
     agentic_access: derived
@@ -676,8 +676,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/screenshots/temenos-transact-2026-06-20T195053.png
 security:

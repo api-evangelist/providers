@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,6 +62,14 @@ collections:
   name: Apache ZooKeeper Admin Server API
   slug: open-zookeeper-admin-api
 common:
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/zookeeper/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -160,7 +168,7 @@ overview: 'Apache ZooKeeper publishes 5 APIs on the [APIs.io](https://apis.io/) 
   The Apache ZooKeeper catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Apache ZooKeeper''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 8 more developer resources.'
+  Apache ZooKeeper''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 10 more developer resources.'
 plans:
 - name: Apache Zookeeper Plans Pricing
   plan_count: 3
@@ -180,16 +188,16 @@ rules:
     warn: 3
   slug: apache-zookeeper-spectral-rules
 score:
-  band: developing
-  composite: 47.1
-  delta: 0.0
+  band: thin
+  composite: 38.8
+  delta: -8.3
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 53.5
+    commercial_clarity: 26.3
+    contract_quality: 51.5
     developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 27.1
-    operational_transparency: 47.4
+    operational_transparency: 23.7
   previous_composite: 47.1
   provenance:
     agentic_access: derived
@@ -198,9 +206,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/screenshots/apache-zookeeper-2026-06-20T172200.png
 security:
 - kind: domain-security

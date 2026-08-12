@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-08-10'
+  score: 52.9
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: The Account Linking API from ShopBack — 4 operation(s) for account linking.
@@ -36,12 +36,20 @@ apis:
 - description: The Pre-Auth API from ShopBack — 6 operation(s) for pre-auth.
   name: ShopBack Pre Auth API
   slug: shopback-pre-auth-api
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Shopback Payment Notification Webhooks
   slug: shopback-payment-notification-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/shopback-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/shopback-in-store-payments-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -171,6 +179,10 @@ description: ShopBack is a Singapore-headquartered shopping, rewards and payment
   1.2+, support an X-ShopBack-Idempotent-Id idempotency header, and ship e-commerce plugins for Shopify, WooCommerce, Magento, PrestaShop, EasyStore and Salesforce Commerce Cloud.
 image: https://corporate.shopback.com/opengraph.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: shopback-mcp.yml
+  slug: shopback-mcpyml
 modified: '2026-08-02'
 name: ShopBack
 nav: Providers
@@ -181,27 +193,27 @@ overview: 'ShopBack publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The ShopBack catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ShopBack''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
+  ShopBack''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
 random_paper: 31
 score:
   band: developing
-  composite: 54.4
-  delta: -0.2
+  composite: 52.4
+  delta: -2.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 64.2
-    developer_ergonomics: 64.7
-    discoverability: 92.6
+    contract_quality: 64.1
+    developer_ergonomics: 66.8
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 54.6
+  previous_composite: 54.4
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 0.0
-      total: 2
+      marker_coverage: 80.0
+      total: 5
     mcp: derived
     skills: derived
   regulatory:
@@ -209,9 +221,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 45.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

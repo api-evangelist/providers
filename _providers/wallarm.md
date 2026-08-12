@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -225,15 +225,15 @@ rules:
   slug: wallarm-rules
 score:
   band: developing
-  composite: 54.4
-  delta: 0.0
+  composite: 46.6
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 79.8
+    commercial_clarity: 15.8
+    contract_quality: 76.9
     developer_ergonomics: 41.3
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 54.4
   provenance:
     agentic_access: derived
@@ -242,9 +242,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/screenshots/wallarm-2026-06-20T201213.png
 security:
 - kind: authentication

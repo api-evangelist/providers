@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -55,6 +55,10 @@ apis:
   slug: styra-health-api
 artifact_total: 8
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/styra-enterprise-opa-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -158,15 +162,15 @@ network: true
 overview: 'Styra publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Batch API, Compile API, Data API, and 2 more. Tagged areas include Company, Cybersecurity, Authorization, Policy as Code, and Open Policy Agent.
 
 
-  Styra''s developer surface includes documentation, API reference, authentication, CLI, changelog, and 17 more developer resources.'
+  Styra''s developer surface includes documentation, API reference, authentication, CLI, changelog, and 18 more developer resources.'
 random_paper: 99
 score:
   band: thin
-  composite: 34.1
-  delta: 0.0
+  composite: 31.1
+  delta: -3.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 49.9
+    contract_quality: 48.1
     developer_ergonomics: 51.6
     discoverability: 72.2
     governance: 11.5
@@ -182,8 +186,14 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 16.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

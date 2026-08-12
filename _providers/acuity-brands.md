@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -260,12 +260,12 @@ rules:
     warn: 17
   slug: acuity-brands-spectral-rules
 score:
-  band: developing
-  composite: 42.5
-  delta: 0.0
+  band: thin
+  composite: 38.7
+  delta: -3.8
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 76.0
+    commercial_clarity: 13.2
+    contract_quality: 73.1
     developer_ergonomics: 28.3
     discoverability: 31.5
     governance: 68.8
@@ -278,8 +278,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/screenshots/acuity-brands-2026-06-20T164408.png
 security:

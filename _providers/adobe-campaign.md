@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 3
@@ -105,6 +105,22 @@ asyncapis:
   name: Adobe Campaign Transactional Messaging Events
   slug: adobe-campaign-transactional-messaging-asyncapi-original
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/adobe/acc-js-sdk/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/adobe/acc-js-sdk/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/adobe/acc-js-sdk/blob/master/.github/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/adobe/acc-js-sdk/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -483,7 +499,7 @@ overview: 'Adobe Campaign publishes 17 APIs on the [APIs.io](https://apis.io/) n
   The Adobe Campaign catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Adobe Campaign''s developer surface includes authentication, developer portal, getting-started guide, support, engineering blog, and 8 more developer resources.'
+  Adobe Campaign''s developer surface includes authentication, developer portal, getting-started guide, support, engineering blog, and 12 more developer resources.'
 plans:
 - name: Adobe Campaign Plans Pricing
   plan_count: 2
@@ -520,15 +536,15 @@ rules:
   slug: adobe-campaign-spectral-rules
 score:
   band: developing
-  composite: 55.9
-  delta: 0.0
+  composite: 50.0
+  delta: -5.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 82.4
+    commercial_clarity: 34.2
+    contract_quality: 79.3
     developer_ergonomics: 37.0
     discoverability: 74.1
     governance: 47.9
-    operational_transparency: 36.8
+    operational_transparency: 21.1
   previous_composite: 55.9
   provenance:
     agentic_access: derived
@@ -537,9 +553,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/screenshots/adobe-campaign-2026-06-20T164822.png
 security:
 - kind: authentication

@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 38.7
-  scored_at: '2026-08-10'
+  score: 36.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -34,8 +34,16 @@ apis:
 - description: The Players API from Splitgate — 4 operation(s) for players.
   name: Splitgate Players API
   slug: splitgate-players-api
-artifact_total: 6
+artifact_total: 7
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/splitgate-match-history.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splitgate-third-party-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -120,6 +128,10 @@ created: '2026-08-05'
 description: 'Splitgate is the free-to-play sci-fi arena first-person shooter franchise built by 1047 Games, the Stanford-founded studio behind the portal-plus-FPS formula that shipped as Splitgate (2019), Splitgate 2 (June 2025) and, after a full rebuild, SPLITGATE: Arena Reloaded (December 2025). Beyond the game itself, 1047 Games publishes a small public Third-Party API — an OpenAPI 3.0.1 contract served from the studio''s own GitHub organization with a Swagger UI reference — exposing player search, career and per-mode statistics, competitive ranks, match history and full match details so community stat trackers, esports tooling and leaderboard sites can build against real game data.'
 image: https://lp-cms-prod.images.maverick-rooster.prod.1047games.com/tiny_Rooster_Social_Discord_Banner_960x540_2a5d61e42b.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: splitgate-mcp.yml
+  slug: splitgate-mcpyml
 modified: '2026-08-05'
 name: Splitgate
 nav: Providers
@@ -127,7 +139,7 @@ network: true
 overview: 'Splitgate publishes 2 APIs on the [APIs.io](https://apis.io/) network: Matches API and Players API. Tagged areas include Company, Gaming, Video Games, Esports, and Player Statistics.
 
 
-  Splitgate''s developer surface includes API reference, support, engineering blog, YouTube channel, and 16 more developer resources.'
+  Splitgate''s developer surface includes API reference, support, engineering blog, YouTube channel, and 18 more developer resources.'
 random_paper: 45
 rate_limits:
 - limit_count: 0
@@ -135,16 +147,16 @@ rate_limits:
   slug: splitgate-rate-limits
 score:
   band: thin
-  composite: 32.9
-  delta: -0.6
+  composite: 32.1
+  delta: -0.8
   facets:
     commercial_clarity: 21.1
     contract_quality: 61.2
-    developer_ergonomics: 13.0
-    discoverability: 87.0
+    developer_ergonomics: 14.7
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 33.5
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -152,11 +164,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

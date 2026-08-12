@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 11
 apis:
 - description: The Citi Accounts and Transactions API provides authorized third-party access to retail customer accounts, current and available balances, and transaction histories, enabling account-aggregation and p
@@ -223,15 +223,15 @@ rules:
   slug: citigroup-rules
 score:
   band: thin
-  composite: 37.8
-  delta: 0.0
+  composite: 30.8
+  delta: -7.0
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 34.2
     contract_quality: 12.9
     developer_ergonomics: 34.8
     discoverability: 83.3
     governance: 33.3
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 37.8
   provenance:
     conformance: first-party
@@ -240,10 +240,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 48.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+    score: 31.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/citigroup/refs/heads/main/screenshots/citigroup-2026-06-20T174411.png
 security:
 - kind: authentication

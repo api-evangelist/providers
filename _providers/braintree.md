@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -299,16 +299,16 @@ scopes:
   slug: braintree-scopes
   summary_line: 40 scopes
 score:
-  band: developing
-  composite: 48.9
-  delta: 0.0
+  band: thin
+  composite: 40.5
+  delta: -8.4
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 76.5
+    commercial_clarity: 23.7
+    contract_quality: 74.0
     developer_ergonomics: 17.4
     discoverability: 50.0
     governance: 41.7
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 48.9
   provenance:
     agentic_access: derived
@@ -317,9 +317,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/screenshots/braintree-2026-06-20T173632.png
 security:
 - kind: authentication

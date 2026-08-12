@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -171,15 +171,15 @@ rules:
   slug: restack-rules
 score:
   band: developing
-  composite: 51.5
-  delta: 0.0
+  composite: 43.7
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 76.7
+    commercial_clarity: 15.8
+    contract_quality: 73.9
     developer_ergonomics: 26.1
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 51.5
   provenance:
     agentic_access: derived
@@ -188,9 +188,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/screenshots/restack-2026-06-20T193006.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 94
   human_in_the_loop: 3
@@ -152,6 +152,26 @@ collections:
   name: Pod API
   slug: open-finos-symphony-pod-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/finos/FDC3/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/finos/FDC3/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/finos/FDC3/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/finos/FDC3/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/finos/FDC3/blob/main/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -203,7 +223,7 @@ network: true
 overview: 'FINOS publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Admin API, AppEntitlement API, Application API, and 27 more. Tagged areas include Financial Services, Fintech, Linux Foundation, and Open Source.
 
 
-  FINOS''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
+  FINOS''s developer surface includes documentation, engineering blog, and 12 more developer resources.'
 plans:
 - name: Finos Plans Pricing
   plan_count: 5
@@ -215,15 +235,15 @@ rate_limits:
   slug: finos-rate-limits
 score:
   band: thin
-  composite: 34.0
-  delta: 0.0
+  composite: 29.1
+  delta: -4.9
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 50.7
+    commercial_clarity: 15.8
+    contract_quality: 48.8
     developer_ergonomics: 15.2
     discoverability: 55.6
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 34.0
   provenance:
     agentic_access: derived
@@ -232,8 +252,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 30
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/screenshots/finos-2026-06-20T181222.png
 security:

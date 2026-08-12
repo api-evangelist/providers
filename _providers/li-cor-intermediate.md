@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-10'
+  score: 38.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,6 +46,10 @@ apis:
   slug: li-cor-intermediate-newa-api
 artifact_total: 7
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/li-cor-intermediate-hobolink-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -145,7 +149,7 @@ network: true
 overview: 'LI-COR Intermediate publishes 2 APIs on the [APIs.io](https://apis.io/) network: Data API and Newa API. Tagged areas include Company, Environmental Monitoring, Greenhouse Gas, Climate, and Agriculture.
 
 
-  LI-COR Intermediate''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 16 more developer resources.'
+  LI-COR Intermediate''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 17 more developer resources.'
 random_paper: 46
 rate_limits:
 - limit_count: 1
@@ -153,13 +157,13 @@ rate_limits:
   slug: li-cor-intermediate-rate-limits
 score:
   band: thin
-  composite: 37.1
-  delta: 0.0
+  composite: 35.8
+  delta: -1.3
   facets:
     commercial_clarity: 21.1
-    contract_quality: 52.7
+    contract_quality: 50.7
     developer_ergonomics: 36.4
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 26.3
   previous_composite: 37.1
@@ -179,8 +183,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/screenshots/li-cor-intermediate-2026-07-25T225010.png
 security:

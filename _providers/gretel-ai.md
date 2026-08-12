@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: REST API for Gretel's synthetic data platform. Lets you ingest data, manage projects, train models, run record handlers, and pull artifacts. Used as the backend for the gretel-client Python SDK and CL
@@ -39,6 +39,18 @@ apis:
   slug: python-sdk
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/gretelai/gretel-python-client/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/gretelai/gretel-python-client/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/gretelai/gretel-python-client/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -90,7 +102,7 @@ network: true
 overview: 'Gretel publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Synthetic Data, Privacy Engineering, Tabular, Text, and Time-Series.
 
 
-  Gretel''s developer surface includes documentation, GitHub presence, and 7 more developer resources.'
+  Gretel''s developer surface includes documentation, GitHub presence, and 10 more developer resources.'
 plans:
 - name: Gretel Ai Plans Pricing
   plan_count: 1
@@ -102,18 +114,18 @@ rate_limits:
   slug: gretel-ai-rate-limits
 score:
   band: emerging
-  composite: 17.8
-  delta: 0.0
+  composite: 19.8
+  delta: 2.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 42.1
   previous_composite: 17.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gretel-ai/refs/heads/main/screenshots/gretel-ai-2026-06-20T182404.png
 security:

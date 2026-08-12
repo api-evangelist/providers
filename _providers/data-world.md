@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 0
@@ -288,11 +288,11 @@ rules:
   slug: data-world-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.1
-  delta: 0.0
+  composite: 53.6
+  delta: -0.5
   facets:
     commercial_clarity: 57.9
-    contract_quality: 61.1
+    contract_quality: 58.9
     developer_ergonomics: 41.3
     discoverability: 68.5
     governance: 58.3
@@ -311,8 +311,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 48.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/screenshots/data-world-2026-06-20T175628.png
 security:

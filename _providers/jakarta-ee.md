@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: Jakarta RESTful Web Services (formerly JAX-RS) is the API specification for developing web services that follow the REST architectural pattern. It defines a set of Java APIs and annotations that enabl
@@ -51,6 +51,22 @@ apis:
   slug: jakarta-validation
 artifact_total: 10
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/jakartaee/rest/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/jakartaee/rest/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/jakartaee/.github/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/jakartaee/rest/blob/main/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -106,7 +122,7 @@ network: true
 overview: 'Jakarta EE publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Enterprise, Jakarta EE, Java, and Standards.
 
 
-  Jakarta EE''s developer surface includes documentation, product news, engineering blog, and 7 more developer resources.'
+  Jakarta EE''s developer surface includes documentation, product news, engineering blog, and 11 more developer resources.'
 plans:
 - name: Jakarta Ee Plans Pricing
   plan_count: 3
@@ -118,19 +134,19 @@ rate_limits:
   slug: jakarta-ee-rate-limits
 score:
   band: emerging
-  composite: 21.3
-  delta: 0.0
+  composite: 15.5
+  delta: -5.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 15.2
     discoverability: 55.6
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 21.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/jakarta-ee/refs/heads/main/screenshots/jakarta-ee-2026-06-20T183653.png
 security:
 - kind: domain-security

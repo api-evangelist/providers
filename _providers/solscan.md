@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: Free, lower-rate-limit public API exposing basic account, transaction, and token endpoints used by the Solscan UI.
@@ -117,25 +117,25 @@ rate_limits:
   slug: solscan-rate-limits
 score:
   band: thin
-  composite: 39.0
-  delta: -0.5
+  composite: 32.4
+  delta: -6.6
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 53.5
+    commercial_clarity: 26.3
+    contract_quality: 55.2
     developer_ergonomics: 17.4
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 36.8
-  previous_composite: 39.5
+    operational_transparency: 13.2
+  previous_composite: 39.0
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+      total: 5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/solscan/refs/heads/main/screenshots/solscan-2026-06-20T194154.png
 security:
 - kind: domain-security

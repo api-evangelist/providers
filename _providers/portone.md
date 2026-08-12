@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 34
@@ -348,14 +348,14 @@ rate_limits:
   name: Portone Rate Limits
   slug: portone-rate-limits
 score:
-  band: exemplar
-  composite: 66.3
-  delta: 0.0
+  band: strong
+  composite: 64.8
+  delta: -1.5
   facets:
     commercial_clarity: 71.1
-    contract_quality: 69.4
+    contract_quality: 66.8
     developer_ergonomics: 79.9
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 84.2
   previous_composite: 66.3
@@ -375,8 +375,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 50.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

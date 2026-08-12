@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-10'
+  score: 0.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: RESTful Poka API for building integrations with third-party manufacturing and enterprise systems, plus SCIM for automated user provisioning. Developer/API documentation is delivered per-tenant (behind
@@ -117,21 +117,21 @@ overview: 'Poka publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
   Poka''s developer surface includes getting-started guide, signup flow, support, engineering blog, pricing, and 12 more developer resources.'
 random_paper: 79
 score:
-  band: thin
-  composite: 28.4
-  delta: 0.0
+  band: emerging
+  composite: 27.3
+  delta: -1.1
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 26.1
-    discoverability: 77.8
+    discoverability: 66.7
     governance: 12.5
     operational_transparency: 26.3
   previous_composite: 28.4
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Practice client data-health metrics and activity statistics
@@ -36,6 +36,10 @@ apis:
   slug: dext-clients-api
 artifact_total: 7
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dext-data-health-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -143,7 +147,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/dext-data-health-openapi.yml
+  url: openapi/_original/dext-data-health-openapi.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -167,7 +171,7 @@ network: true
 overview: 'Dext publishes 1 API on the [APIs.io](https://apis.io/) network: Clients API. Tagged areas include Company, Accounting, Bookkeeping, Receipts, and Expense Management.
 
 
-  Dext''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
+  Dext''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
 random_paper: 89
 rate_limits:
 - limit_count: 1
@@ -175,13 +179,13 @@ rate_limits:
   slug: dext-rate-limits
 score:
   band: developing
-  composite: 54.4
-  delta: 0.0
+  composite: 51.5
+  delta: -2.9
   facets:
     commercial_clarity: 60.5
-    contract_quality: 63.6
+    contract_quality: 61.2
     developer_ergonomics: 47.3
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 52.6
   previous_composite: 54.4
@@ -194,8 +198,14 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 45.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/screenshots/dext-2026-07-25T211838.png
 security:

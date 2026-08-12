@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Speechly''s gRPC API surface: Identity (access tokens), SLU (streaming spoken language understanding), WLU (written language understanding), Batch audio processing, Config/Model management, Analytics, '
@@ -36,6 +36,10 @@ apis:
   slug: speechly-api
 artifact_total: 4
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/speechly/api/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -111,12 +115,12 @@ network: true
 overview: 'Speechly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Speech Recognition, Voice, Spoken Language Understanding, and Speech-to-Text.
 
 
-  Speechly''s developer surface includes CLI, authentication, and 13 more developer resources.'
+  Speechly''s developer surface includes CLI, authentication, and 14 more developer resources.'
 random_paper: 49
 score:
   band: emerging
-  composite: 15.3
-  delta: 0.0
+  composite: 13.9
+  delta: -1.4
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -128,14 +132,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 23.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

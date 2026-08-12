@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 16.4
-  scored_at: '2026-08-10'
+  score: 12.8
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The EngFlow cluster gRPC / Protocol Buffers API surface — cluster info, IAM (roles/policies/users/groups), authentication, event store and result store build-event streaming, secret management, and no
@@ -36,6 +36,18 @@ apis:
   slug: engflow-cluster-api-grpc
 artifact_total: 4
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/EngFlow/engflowapis/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/EngFlow/engflowapis/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/EngFlow/engflowapis/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -159,26 +171,26 @@ network: true
 overview: 'EngFlow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Remote Execution, Remote Caching, Build Systems, and Bazel.
 
 
-  EngFlow''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 20 more developer resources.'
+  EngFlow''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
 random_paper: 58
 score:
   band: thin
-  composite: 35.2
-  delta: 0.0
+  composite: 36.2
+  delta: 1.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 69.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 35.2
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engflow/refs/heads/main/screenshots/engflow-2026-07-25T213344.png
 security:

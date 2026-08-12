@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-10'
+  score: 33.3
+  scored_at: '2026-08-11'
 api_count: 10
 apis:
 - description: The Authorization API issues OAuth2 access tokens for the SVB commercial banking platform (now part of First Citizens). Partners exchange client credentials at /v1/security/oauth/token for a bearer to
@@ -68,6 +68,14 @@ asyncapis:
   name: First Citizens Bancshares Webhooks
   slug: first-citizens-bancshares-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.firstcitizens.com/wealth/insights
+- group: start
+  title: ''
+  type: Signup
+  url: https://digitalbanking.firstcitizens.com/FCBTC_AutoEnroll/SignUp.html
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -94,7 +102,7 @@ common:
   url: lifecycle/first-citizens-bancshares-lifecycle.yml
 - group: operate
   title: ''
-  type: Deprecation
+  type: DeprecationPolicy
   url: https://developer.svb.com/apis/commercial-banking-apis/ach-transfers/2.1/ach-transfers-v2-migration-guide
 - group: start
   title: ''
@@ -166,17 +174,17 @@ overview: 'First Citizens BancShares publishes 10 APIs on the [APIs.io](https://
   The First Citizens BancShares catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  First Citizens BancShares'' developer surface includes authentication, sandbox, documentation, support, and 17 more developer resources.'
+  First Citizens BancShares'' developer surface includes engineering blog, signup flow, authentication, sandbox, documentation, support, and 17 more developer resources.'
 random_paper: 13
 score:
   band: thin
-  composite: 38.8
-  delta: 0.0
+  composite: 40.4
+  delta: 1.6
   facets:
-    commercial_clarity: 21.1
+    commercial_clarity: 34.2
     contract_quality: 51.6
-    developer_ergonomics: 39.1
-    discoverability: 92.6
+    developer_ergonomics: 41.3
+    discoverability: 81.5
     governance: 3.1
     operational_transparency: 31.6
   previous_composite: 38.8
@@ -188,8 +196,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-citizens-bancshares/refs/heads/main/screenshots/first-citizens-bancshares-2026-06-20T181238.png
 security:

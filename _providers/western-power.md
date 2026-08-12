@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-10'
+  score: 38.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,8 +40,12 @@ apis:
 - description: Western Power's network asset and capacity spatial data — distribution and transmission overhead powerlines, underground cables, poles, pillars, pits, transformers, enclosures, substations, streetligh
   name: Western Power Public Secure Services (SLIP)
   slug: western-power-public-secure-services-slip
-artifact_total: 11
+artifact_total: 12
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/western-power-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -165,6 +169,10 @@ examples:
   slug: western-power-vacancies-sample
 image: https://www.westernpower.com.au/faviconImages/apple-touch-icon.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: western-power-mcp.yml
+  slug: western-power-mcpyml
 modified: '2026-07-27'
 name: Western Power
 nav: Providers
@@ -172,17 +180,17 @@ network: true
 overview: 'Western Power publishes 3 APIs on the [APIs.io](https://apis.io/) network: Outage Web API, Corporate Web API, and Outage Areas Feature Service. Tagged areas include Energy, Australia, Utilities, Electricity, and Grid.
 
 
-  Western Power''s developer surface includes authentication, support, engineering blog, documentation, developer portal, and 21 more developer resources.'
+  Western Power''s developer surface includes authentication, support, engineering blog, documentation, developer portal, and 22 more developer resources.'
 random_paper: 102
 score:
   band: thin
-  composite: 39.4
-  delta: 0.0
+  composite: 39.0
+  delta: -0.4
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 55.9
-    developer_ergonomics: 36.4
-    discoverability: 92.6
+    commercial_clarity: 34.2
+    contract_quality: 53.8
+    developer_ergonomics: 38.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 39.4
@@ -201,9 +209,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 54.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 43.2
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

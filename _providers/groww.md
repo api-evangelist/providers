@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-08-10'
+  score: 42.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/groww-trade-api-openapi.yml
+  url: openapi/_original/groww-trade-api-openapi.yml
 - group: auth
   title: ''
   type: Authentication
@@ -238,11 +238,11 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.7
-  delta: 0.0
+  composite: 58.2
+  delta: -0.5
   facets:
     commercial_clarity: 65.8
-    contract_quality: 58.9
+    contract_quality: 56.7
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 11.5
@@ -264,8 +264,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/screenshots/groww-2026-07-25T220530.png
 security:

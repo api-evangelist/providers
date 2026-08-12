@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: true
@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 8.1
-  scored_at: '2026-08-10'
+  score: 4.5
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 3
 common:
@@ -110,21 +110,21 @@ overview: 'Adversa AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 61
 score:
   band: emerging
-  composite: 21.3
-  delta: 0.0
+  composite: 20.2
+  delta: -1.1
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 15.2
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 12.5
     operational_transparency: 15.8
   previous_composite: 21.3
   provenance:
     conformance: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adversa-ai/refs/heads/main/screenshots/adversa-ai-2026-07-25T181710.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -158,6 +158,10 @@ collections:
   name: WhatsApp Flows API
   slug: open-whatsapp-flows-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/WhatsApp/WhatsApp-Flows-Tools/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -719,7 +723,7 @@ overview: 'WhatsApp publishes 17 APIs on the [APIs.io](https://apis.io/) network
   The WhatsApp catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  WhatsApp''s developer surface includes authentication, getting-started guide, changelog, engineering blog, support, developer console, Stack Overflow tag, and 40 more developer resources.'
+  WhatsApp''s developer surface includes authentication, getting-started guide, changelog, engineering blog, support, developer console, Stack Overflow tag, and 41 more developer resources.'
 plans:
 - name: Whatsapp Plans Pricing
   plan_count: 2
@@ -756,15 +760,15 @@ rules:
   slug: whatsapp-spectral-rules
 score:
   band: strong
-  composite: 64.5
-  delta: 0.0
+  composite: 57.4
+  delta: -7.1
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 88.8
+    commercial_clarity: 44.7
+    contract_quality: 85.4
     developer_ergonomics: 54.3
     discoverability: 40.7
     governance: 41.7
-    operational_transparency: 78.9
+    operational_transparency: 55.3
   previous_composite: 64.5
   provenance:
     agentic_access: derived
@@ -773,9 +777,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/screenshots/whatsapp-2026-06-20T201434.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -59,6 +59,10 @@ asyncapis:
   name: Notyfi Webhooks
   slug: notyfi-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/notyfi-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -157,17 +161,17 @@ overview: 'Notyfi publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
   The Notyfi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Notyfi''s developer surface includes documentation, API reference, pricing, signup flow, authentication, and 15 more developer resources.'
+  Notyfi''s developer surface includes documentation, API reference, pricing, signup flow, authentication, and 16 more developer resources.'
 random_paper: 85
 score:
   band: developing
-  composite: 46.5
-  delta: 0.0
+  composite: 44.8
+  delta: -1.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 67.6
+    contract_quality: 65.1
     developer_ergonomics: 45.1
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
   previous_composite: 46.5
@@ -181,8 +185,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/screenshots/notyfi-2026-08-07T185550.png
 security:

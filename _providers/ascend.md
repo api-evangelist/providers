@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -113,6 +114,10 @@ asyncapis:
   name: Ascend Webhooks
   slug: ascend-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ascend-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -235,15 +240,15 @@ overview: 'Ascend publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
   The Ascend catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ascend''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, sandbox, and 19 more developer resources.'
+  Ascend''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, sandbox, and 20 more developer resources.'
 random_paper: 42
 score:
   band: developing
-  composite: 51.8
-  delta: 0.0
+  composite: 51.3
+  delta: -0.5
   facets:
     commercial_clarity: 42.1
-    contract_quality: 63.0
+    contract_quality: 60.6
     developer_ergonomics: 60.3
     discoverability: 81.5
     governance: 20.8
@@ -265,8 +270,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/screenshots/ascend-2026-07-25T201401.png
 security:

@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: documented
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-10'
+  score: 42.8
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: 'The Hotmart authorization server. Exchanges a developer credential (client_id/client_secret, presented with HTTP Basic) for a short-lived OAuth 2.0 client_credentials access token, which is then sent '
@@ -45,12 +45,16 @@ apis:
 - description: The smaller documented surfaces — event ticket information and participant lists (/events/api/v1), account information (/accounts/api/v1/info), the authenticated user profile (/user/api/v1/me), and in
   name: Hotmart Events, Account and User API
   slug: hotmart-events-account-and-user-api
-artifact_total: 13
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Hotmart Webhooks
   slug: hotmart-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/hotmart-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -192,6 +196,10 @@ description: 'Hotmart is a Brazilian creator-economy platform for producing, sel
   is prose documentation plus per-endpoint cURL, Node and Java request samples.'
 image: https://hotmart.com/static/app-hotmart-next/images/share--general.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: hotmart-mcp.yml
+  slug: hotmart-mcpyml
 modified: '2026-08-04'
 name: Hotmart
 nav: Providers
@@ -202,7 +210,7 @@ overview: 'Hotmart publishes 8 APIs on the [APIs.io](https://apis.io/) network. 
   The Hotmart catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Hotmart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+  Hotmart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 random_paper: 71
 rate_limits:
 - limit_count: 1
@@ -210,13 +218,13 @@ rate_limits:
   slug: hotmart-rate-limits
 score:
   band: developing
-  composite: 52.7
-  delta: 0.0
+  composite: 52.1
+  delta: -0.6
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
-    developer_ergonomics: 60.3
-    discoverability: 92.6
+    developer_ergonomics: 62.5
+    discoverability: 81.5
     governance: 3.1
     operational_transparency: 76.3
   previous_composite: 52.7
@@ -230,8 +238,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/screenshots/hotmart-2026-08-07T170326.png
 security:

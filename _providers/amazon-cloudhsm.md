@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 9.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: API for creating and managing CloudHSM clusters and HSM instances for dedicated hardware-based cryptographic key management.
@@ -213,8 +213,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudhsm/refs/heads/main/screenshots/amazon-cloudhsm-2026-07-25T195946.png
 security:

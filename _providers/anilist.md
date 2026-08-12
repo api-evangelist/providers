@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,6 +54,10 @@ collections:
   name: AniList GraphQL API v2
   slug: open-anilist
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/AniList/docs/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -477,7 +482,7 @@ overview: 'AniList publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
   The AniList catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AniList''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, developer console, sandbox, and 21 more developer resources.'
+  AniList''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, developer console, sandbox, and 22 more developer resources.'
 random_paper: 60
 rules:
 - name: AniList API Rules
@@ -503,15 +508,15 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.2
-  delta: 0.0
+  composite: 47.0
+  delta: 1.8
   facets:
     commercial_clarity: 44.7
-    contract_quality: 29.6
+    contract_quality: 28.7
     developer_ergonomics: 65.2
     discoverability: 81.5
     governance: 58.3
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 45.2
   provenance:
     agentic_access: derived
@@ -520,8 +525,8 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anilist/refs/heads/main/screenshots/anilist-2026-06-20T172003.png
 security:

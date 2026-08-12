@@ -21,25 +21,29 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-10'
+  score: 40.5
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'The Klaus platform API at api.klausai.com is a tRPC RPC surface used by the first-party @klausai/cli command-line client to manage OpenClaw instances, agents, integrations, models, and chat sessions, '
   name: Klaus Platform API
   slug: klaus-ai-platform-api
-artifact_total: 4
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Klaus Ai Webhooks
   slug: klaus-ai-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/klaus-ai-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -137,6 +141,10 @@ description: Klaus is a managed cloud hosting platform for OpenClaw AI agents, b
   Authentication is by API key or an OAuth 2.0 Device Authorization Grant (RFC 8628).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/klaus-ai.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: klaus-ai-mcp.yml
+  slug: klaus-ai-mcpyml
 modified: '2026-07-19'
 name: Klaus AI
 nav: Providers
@@ -147,16 +155,16 @@ overview: 'Klaus AI publishes 1 API on the [APIs.io](https://apis.io/) network. 
   The Klaus AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Klaus AI''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, CLI, and 16 more developer resources.'
+  Klaus AI''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, CLI, and 17 more developer resources.'
 random_paper: 95
 score:
   band: developing
-  composite: 42.3
-  delta: 0.0
+  composite: 44.1
+  delta: 1.8
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
-    developer_ergonomics: 58.7
+    developer_ergonomics: 60.9
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 7.9
@@ -164,14 +172,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 34.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klaus-ai/refs/heads/main/screenshots/klaus-ai-2026-07-25T223940.png
 security:

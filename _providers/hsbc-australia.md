@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-10'
+  score: 38.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -71,6 +71,10 @@ arazzos:
   slug: hsbc-australia-browse-products
 artifact_total: 15
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/hsbc-australia-cds-banking-products-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -183,7 +187,7 @@ network: true
 overview: 'HSBC Bank Australia publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Data Right.
 
 
-  HSBC Bank Australia''s developer surface includes documentation, getting-started guide, support, authentication, and 20 more developer resources.'
+  HSBC Bank Australia''s developer surface includes documentation, getting-started guide, support, authentication, and 21 more developer resources.'
 random_paper: 35
 scopes:
 - name: Hsbc Australia Scopes
@@ -191,14 +195,14 @@ scopes:
   slug: hsbc-australia-scopes
   summary_line: 10 scopes · authorizationCode
 score:
-  band: developing
-  composite: 44.4
-  delta: 0.0
+  band: thin
+  composite: 40.3
+  delta: -4.1
   facets:
     commercial_clarity: 21.1
-    contract_quality: 54.3
+    contract_quality: 52.2
     developer_ergonomics: 47.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 5.3
   previous_composite: 44.4
@@ -217,9 +221,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 70.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 53.2
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/screenshots/hsbc-australia-2026-07-21T114727.png
 security:

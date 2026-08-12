@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -212,13 +212,13 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 51.1
-  delta: 0.0
+  composite: 48.5
+  delta: -2.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 66.1
+    contract_quality: 63.7
     developer_ergonomics: 66.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
   previous_composite: 51.1
@@ -237,9 +237,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 72.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 64.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/screenshots/nopan-2026-08-07T185510.png
 security:

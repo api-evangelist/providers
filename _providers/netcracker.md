@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 64.2
-  scored_at: '2026-08-10'
+  score: 60.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 36
@@ -42,6 +42,30 @@ apis:
   slug: qubership-dbaas-aggregator-api
 artifact_total: 10
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Netcracker/qubership-apihub-backend/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Netcracker/qubership-apihub-backend/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Netcracker/qubership-apihub-backend/blob/develop/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/Netcracker/qubership-apihub-backend/blob/develop/CODE-OF-CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Netcracker/qubership-apihub-backend/blob/develop/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Netcracker/qubership-apihub-backend/blob/develop/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -218,17 +242,17 @@ network: true
 overview: 'Netcracker publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Qubership APIHUB Registry API, Qubership APIHUB System Administrators API, Qubership MaaS (Messaging as a Service) API, and 1 more. Tagged areas include Telecommunications, United States, BSS, OSS, and Network Vendor.
 
 
-  Netcracker''s developer surface includes authentication, changelog, CLI, sandbox, documentation, getting-started guide, support, and 33 more developer resources.'
+  Netcracker''s developer surface includes authentication, changelog, CLI, sandbox, documentation, getting-started guide, support, and 39 more developer resources.'
 random_paper: 14
 score:
   band: developing
-  composite: 52.2
-  delta: 0.0
+  composite: 49.6
+  delta: -2.6
   facets:
     commercial_clarity: 36.8
-    contract_quality: 58.5
+    contract_quality: 56.3
     developer_ergonomics: 71.2
-    discoverability: 83.3
+    discoverability: 72.2
     governance: 20.8
     operational_transparency: 31.6
   previous_composite: 52.2
@@ -247,9 +271,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 58.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 50.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/screenshots/netcracker-2026-08-07T184931.png
 security:

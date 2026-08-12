@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,24 +74,18 @@ overview: 'Joya Communications is profiled on the [APIs.io](https://apis.io/) ne
 random_paper: 21
 score:
   band: emerging
-  composite: 16.4
-  delta: 0.0
+  composite: 14.8
+  delta: -1.6
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 4.3
-    discoverability: 61.1
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 16.4
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 19.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/joya-communications/refs/heads/main/screenshots/joya-communications-2026-07-25T223248.png
 security:

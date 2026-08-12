@@ -24,13 +24,17 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-10'
+  score: 0.0
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Level-Money/contracts/issues
 - group: company
   title: ''
   type: Website
@@ -111,24 +115,24 @@ network: true
 overview: 'Level is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Stablecoins, DeFi, Cryptocurrency, and Financial Services.
 
 
-  Level''s developer surface includes documentation, getting-started guide, support, and 14 more developer resources.'
+  Level''s developer surface includes documentation, getting-started guide, support, and 15 more developer resources.'
 random_paper: 72
 score:
   band: emerging
-  composite: 20.4
-  delta: 0.0
+  composite: 19.3
+  delta: -1.1
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 23.9
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 12.5
     operational_transparency: 23.7
   previous_composite: 20.4
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/level/refs/heads/main/screenshots/level-2026-07-25T224942.png
 security:

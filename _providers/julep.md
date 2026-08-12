@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.6
-  scored_at: '2026-08-10'
+  score: 22.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -74,8 +74,28 @@ apis:
 - description: The Users API from Julep — 5 operation(s) for users.
   name: Julep Users API
   slug: julep-users-api
-artifact_total: 15
+artifact_total: 16
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/julep-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/julep-openapi-overlay.yaml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/julep-ai/julep/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/julep-ai/julep/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/julep-ai/julep/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -136,6 +156,10 @@ created: '2026-07-17'
 description: Julep is an open-source platform for building stateful AI agents that remember past interactions and execute long-running, multi-step tasks. Its cloud API and self-hostable server expose agents, sessions, tasks, executions, documents (RAG), tools, users, projects, secrets, and files, along with a task-workflow engine that supports decisions, loops, parallel branches, and integrations to external tools and APIs. Official Python and TypeScript SDKs and a command-line interface wrap the REST API; authentication is via API key. Julep is Apache-2.0 licensed and backed by Version One Ventures.
 image: https://avatars.githubusercontent.com/u/112750682?v=4
 layout: provider
+mcp_servers:
+- description: ''
+  name: julep-mcp.yml
+  slug: julep-mcpyml
 modified: '2026-07-19'
 name: Julep
 nav: Providers
@@ -143,16 +167,16 @@ network: true
 overview: 'Julep publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Docs API, Embed API, and 9 more. Tagged areas include Company, AI Agents, LLM, Agents, and Workflows.
 
 
-  Julep''s developer surface includes documentation, API reference, getting-started guide, CLI, changelog, and 9 more developer resources.'
+  Julep''s developer surface includes documentation, API reference, getting-started guide, CLI, changelog, and 14 more developer resources.'
 random_paper: 80
 score:
   band: thin
-  composite: 36.1
-  delta: 0.0
+  composite: 36.0
+  delta: -0.1
   facets:
     commercial_clarity: 0.0
-    contract_quality: 55.8
-    developer_ergonomics: 49.5
+    contract_quality: 53.7
+    developer_ergonomics: 51.6
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
@@ -167,8 +191,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/julep/refs/heads/main/screenshots/julep-2026-07-25T223304.png
 security:

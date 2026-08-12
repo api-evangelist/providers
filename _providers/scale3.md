@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-10'
+  score: 43.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,12 +41,20 @@ apis:
 - description: Node software updates and network intelligence feeds
   name: Scale3 Blockchain Intelligence API
   slug: scale3-blockchain-intelligence-api
-artifact_total: 6
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Scale3 Webhooks
   slug: scale3-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/scale3-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/scale3-blockchain-intelligence-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -159,6 +167,10 @@ created: '2026-07-17'
 description: Scale3 Labs is a modern observability and infrastructure platform for Web3 and generative AI. Its Web3 products (Autopilot, Nodepilot and Blockchain Intelligence) let node operators and validators deploy, monitor, log and alert on blockchain nodes across 40+ chains including Ethereum, Sui, Solana, Cosmos and Polkadot, with a Blockchain Intelligence REST API that surfaces node software updates and network announcements. Scale3 also builds Langtrace, an open-source OpenTelemetry-based observability SDK for LLM applications. The company is SOC 2 Type 1 certified and is backed by Redpoint Ventures.
 image: https://www.scale3labs.com/assets/scale3-opengraph.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: scale3-mcp.yml
+  slug: scale3-mcpyml
 modified: '2026-07-21'
 name: Scale3
 nav: Providers
@@ -169,17 +181,17 @@ overview: 'Scale3 publishes 1 API on the [APIs.io](https://apis.io/) network: Bl
   The Scale3 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Scale3''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 20 more developer resources.'
+  Scale3''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 22 more developer resources.'
 random_paper: 107
 score:
   band: strong
-  composite: 59.0
-  delta: 0.0
+  composite: 57.6
+  delta: -1.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 74.4
-    developer_ergonomics: 66.8
-    discoverability: 87.0
+    contract_quality: 71.6
+    developer_ergonomics: 69.0
+    discoverability: 75.9
     governance: 20.8
     operational_transparency: 28.9
   previous_composite: 59.0
@@ -193,8 +205,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

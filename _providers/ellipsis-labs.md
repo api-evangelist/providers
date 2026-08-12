@@ -27,10 +27,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Ellipsis-Labs/phoenix-v1/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Ellipsis-Labs/phoenix-v1/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Ellipsis-Labs/phoenix-v1/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -98,28 +110,28 @@ network: true
 overview: 'Ellipsis Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defi, Solana, Blockchain, and DEX.
 
 
-  Ellipsis Labs'' developer surface includes documentation, CLI, and 12 more developer resources.'
+  Ellipsis Labs'' developer surface includes documentation, CLI, and 15 more developer resources.'
 random_paper: 56
 score:
   band: emerging
-  composite: 14.8
-  delta: 0.0
+  composite: 16.5
+  delta: 1.7
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 30.4
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 15.8
+    operational_transparency: 31.6
   previous_composite: 14.8
   regulatory:
     applies: true
-    matched_via: weak_tags
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ellipsis-labs/refs/heads/main/screenshots/ellipsis-labs-2026-07-25T213147.png
 security:

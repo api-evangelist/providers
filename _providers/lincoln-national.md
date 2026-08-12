@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -123,16 +123,16 @@ rate_limits:
   name: Lincoln National Rate Limits
   slug: lincoln-national-rate-limits
 score:
-  band: thin
-  composite: 29.1
-  delta: 0.0
+  band: emerging
+  composite: 24.2
+  delta: -4.9
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 59.7
+    commercial_clarity: 13.2
+    contract_quality: 57.5
     developer_ergonomics: 8.7
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 5.3
   previous_composite: 29.1
   provenance:
     agentic_access: derived
@@ -147,8 +147,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lincoln-national/refs/heads/main/screenshots/lincoln-national-2026-06-20T184534.png
 security:

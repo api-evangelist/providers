@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -131,11 +131,11 @@ rate_limits:
   slug: llmwhisperer-rate-limits
 score:
   band: thin
-  composite: 39.7
-  delta: 0.0
+  composite: 39.1
+  delta: -0.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 61.1
+    contract_quality: 58.8
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
@@ -148,8 +148,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/screenshots/llmwhisperer-2026-06-20T184627.png
 security:

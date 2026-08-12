@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -69,6 +69,10 @@ collections:
   name: LALAL.AI API
   slug: open-lalal-ai-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/OmniSaleGmbH/lalalai/issues
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -223,7 +227,7 @@ overview: 'LALAL.AI publishes 4 APIs on the [APIs.io](https://apis.io/) network,
   The LALAL.AI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  LALAL.AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 14 more developer resources.'
+  LALAL.AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 15 more developer resources.'
 plans:
 - name: Lalal Ai Plans Pricing
   plan_count: 9
@@ -252,11 +256,11 @@ rules:
   slug: lalal-ai-rules
 score:
   band: strong
-  composite: 61.4
-  delta: 0.0
+  composite: 60.7
+  delta: -0.7
   facets:
     commercial_clarity: 71.1
-    contract_quality: 74.9
+    contract_quality: 72.1
     developer_ergonomics: 56.5
     discoverability: 74.1
     governance: 58.3
@@ -269,8 +273,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/screenshots/lalal-ai-2026-06-20T184249.png
 security:

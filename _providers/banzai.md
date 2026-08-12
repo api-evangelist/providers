@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 54.7
-  scored_at: '2026-08-10'
+  score: 51.1
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Events, Event Sessions (Dates) and registration.
@@ -207,27 +208,27 @@ rate_limits:
   slug: banzai-rate-limits
 score:
   band: developing
-  composite: 46.6
-  delta: 0.3
+  composite: 45.4
+  delta: -1.2
   facets:
     commercial_clarity: 52.6
-    contract_quality: 24.5
+    contract_quality: 24.2
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 46.3
+  previous_composite: 46.6
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 3
       marker_coverage: 100.0
-      total: 1
+      total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banzai/refs/heads/main/screenshots/banzai-2026-08-07T162131.png
 security:

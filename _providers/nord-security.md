@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 66.7
-  scored_at: '2026-08-10'
+  score: 63.1
+  scored_at: '2026-08-11'
 api_count: 10
 apis:
 - description: Also marketed as the NordStellar Dark Web API. Breach-intelligence data API over malware/infostealer logs, breached databases, credential lists, cookie and password intelligence, and dark web sources,
@@ -53,6 +54,30 @@ apis:
   slug: nordvpn-public-server-api
 artifact_total: 17
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/NordStellar/nordstellar-mcp/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/NordStellar/nordstellar-mcp/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/NordStellar/nordstellar-mcp/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/NordStellar/nordstellar-mcp/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/NordStellar/nordstellar-mcp/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/NordStellar/nordstellar-mcp/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -243,7 +268,7 @@ network: true
 overview: 'Nord Security publishes 5 APIs on the [APIs.io](https://apis.io/) network, including NordStellar Enterprise Data API, NordStellar Company Risk Scoring API, NordStellar Cybersec API, and 2 more. Tagged areas include Cybersecurity, Threat Intelligence, Dark Web Monitoring, Attack Surface Management, and Breach Intelligence.
 
 
-  Nord Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
+  Nord Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 42 more developer resources.'
 random_paper: 92
 rate_limits:
 - limit_count: 0
@@ -251,11 +276,11 @@ rate_limits:
   slug: nord-security-rate-limits
 score:
   band: strong
-  composite: 57.4
-  delta: 0.0
+  composite: 56.9
+  delta: -0.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 54.9
+    contract_quality: 52.8
     developer_ergonomics: 73.9
     discoverability: 92.6
     governance: 11.5
@@ -265,8 +290,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/screenshots/nord-security-2026-08-07T185512.png
 security:

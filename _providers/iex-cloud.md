@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-10'
+  score: 12.2
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Real-time and historical US equity quotes, intraday and historical prices, OHLCV charts, news, dividends, splits, options chains, fundamentals, and corporate actions. Pricing was message-based: each e'
@@ -134,16 +134,16 @@ rate_limits:
   name: Iex Cloud Rate Limits
   slug: iex-cloud-rate-limits
 score:
-  band: thin
-  composite: 33.0
-  delta: 0.0
+  band: emerging
+  composite: 25.4
+  delta: -7.6
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 34.8
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 0.0
-    operational_transparency: 76.3
+    operational_transparency: 52.6
   previous_composite: 33.0
   regulatory:
     applies: true
@@ -151,9 +151,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/iex-cloud/refs/heads/main/screenshots/iex-cloud-2026-06-20T183213.png
 security:
 - kind: authentication

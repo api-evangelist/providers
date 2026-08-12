@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-10'
+  score: 38.1
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: The Address Book API from Utila — 5 operation(s) for address book.
@@ -80,6 +80,10 @@ collections:
   name: Utila Address Book Wallets API
   slug: postman-utila-wallets-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/utila-v2-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -234,17 +238,17 @@ overview: 'Utila publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
   The Utila catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Utila''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 27 more developer resources.'
+  Utila''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 28 more developer resources.'
 random_paper: 79
 score:
   band: strong
-  composite: 58.8
-  delta: 0.0
+  composite: 57.4
+  delta: -1.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.7
+    contract_quality: 64.2
     developer_ergonomics: 73.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 52.6
   previous_composite: 58.8
@@ -263,8 +267,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

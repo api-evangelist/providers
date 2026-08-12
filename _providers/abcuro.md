@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-10'
+  score: 38.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -189,24 +189,24 @@ overview: 'Abcuro publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 56
 score:
   band: emerging
-  composite: 26.8
-  delta: 0.3
+  composite: 25.9
+  delta: -0.9
   facets:
     commercial_clarity: 21.1
-    contract_quality: 15.3
+    contract_quality: 15.7
     developer_ergonomics: 36.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 26.5
+  previous_composite: 26.8
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 12
       marker_coverage: 100.0
-      total: 1
+      total: 12
     mcp: derived
     skills: derived
   regulatory:
@@ -215,8 +215,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abcuro/refs/heads/main/screenshots/abcuro-2026-08-07T160734.png
 security:

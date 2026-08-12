@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 9.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The public OpenID Connect / OAuth 2.0 identity surface that fronts the LightForce Doctor Portal. Published as a live OIDC discovery document at id.lightforceortho.com/.well-known/openid-configuration,
@@ -123,9 +123,9 @@ scopes:
   slug: lightforce-scopes
   summary_line: 14 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 22.8
-  delta: 0.0
+  band: thin
+  composite: 28.2
+  delta: 5.4
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -136,9 +136,15 @@ score:
   previous_composite: 22.8
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 58.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightforce/refs/heads/main/screenshots/lightforce-2026-07-25T225116.png
 security:
 - kind: authentication

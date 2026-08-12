@@ -12,9 +12,10 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -28,8 +29,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-10'
+  score: 46.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 206
   human_in_the_loop: 2
@@ -814,15 +815,15 @@ scopes:
   summary_line: 19 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.2
-  delta: 0.0
+  composite: 59.4
+  delta: -3.8
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 78.9
-    developer_ergonomics: 56.5
-    discoverability: 68.5
+    commercial_clarity: 50.0
+    contract_quality: 76.1
+    developer_ergonomics: 63.0
+    discoverability: 75.9
     governance: 41.7
-    operational_transparency: 63.2
+    operational_transparency: 39.5
   previous_composite: 63.2
   provenance:
     agentic_access: derived
@@ -831,8 +832,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/screenshots/zoom-2026-06-20T165938.png
 security:

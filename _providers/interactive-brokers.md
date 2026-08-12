@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -153,16 +153,16 @@ scopes:
   slug: interactive-brokers-scopes
   summary_line: 18 scopes · authorizationCode
 score:
-  band: developing
-  composite: 48.4
-  delta: 0.0
+  band: thin
+  composite: 41.3
+  delta: -7.1
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 62.0
+    commercial_clarity: 28.9
+    contract_quality: 59.7
     developer_ergonomics: 28.3
     discoverability: 64.8
     governance: 47.9
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 48.4
   provenance:
     agentic_access: derived
@@ -177,9 +177,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 46.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/screenshots/interactive-brokers-2026-06-20T183445.png
 security:
 - kind: authentication

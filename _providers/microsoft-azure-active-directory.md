@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -81,6 +81,22 @@ collections:
   name: Microsoft Graph Identity API
   slug: open-microsoft-graph-identity-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/blob/dev/contributing.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/blob/dev/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -164,7 +180,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/microsoft-graph-identity-api.yml
+  url: openapi/_original/microsoft-graph-identity-api.yml
 - group: docs
   title: ''
   type: JSONSchema
@@ -622,7 +638,7 @@ overview: 'Microsoft Azure Active Directory publishes 4 APIs on the [APIs.io](ht
   The Microsoft Azure Active Directory catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  Microsoft Azure Active Directory''s developer surface includes authentication, developer portal, support, engineering blog, pricing, training material, release notes, and 16 more developer resources.'
+  Microsoft Azure Active Directory''s developer surface includes authentication, developer portal, support, engineering blog, pricing, training material, release notes, and 20 more developer resources.'
 plans:
 - name: Azure Active Directory Plans Pricing
   plan_count: 6
@@ -669,16 +685,16 @@ scopes:
   slug: microsoft-azure-active-directory-scopes
   summary_line: 12 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 58.5
-  delta: 0.0
+  band: developing
+  composite: 50.0
+  delta: -8.5
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 76.2
+    commercial_clarity: 47.4
+    contract_quality: 73.4
     developer_ergonomics: 41.3
     discoverability: 55.6
     governance: 20.8
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 58.5
   provenance:
     agentic_access: derived
@@ -687,9 +703,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-active-directory/refs/heads/main/screenshots/microsoft-azure-active-directory-2026-06-20T185351.png
 security:
 - kind: authentication

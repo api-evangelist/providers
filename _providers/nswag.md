@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: NSwag is an open source .NET toolchain for generating C# and TypeScript API clients and Swagger/OpenAPI specifications from ASP.NET controllers and vice versa. It ships as NuGet packages, MSBuild targ
@@ -36,6 +36,14 @@ apis:
   slug: nswag
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/RicoSuter/NSwag/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/RicoSuter/NSwag/blob/master/CONTRIBUTING.md
 - group: company
   title: ''
   type: Website
@@ -123,7 +131,7 @@ network: true
 overview: 'NSwag publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include .NET, ASP.NET Core, C#, Code Generation, and Developer Tools.
 
 
-  NSwag''s developer surface includes documentation, getting-started guide, support, CLI, changelog, and 12 more developer resources.'
+  NSwag''s developer surface includes documentation, getting-started guide, support, CLI, changelog, and 14 more developer resources.'
 plans:
 - name: Nswag Plans Pricing
   plan_count: 3
@@ -134,22 +142,22 @@ rate_limits:
   name: Nswag Rate Limits
   slug: nswag-rate-limits
 score:
-  band: thin
-  composite: 32.1
-  delta: 0.0
+  band: emerging
+  composite: 23.2
+  delta: -8.9
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 37.0
-    discoverability: 77.8
+    discoverability: 66.7
     governance: 12.5
-    operational_transparency: 57.9
+    operational_transparency: 34.2
   previous_composite: 32.1
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nswag/refs/heads/main/screenshots/nswag-2026-06-20T190459.png
 security:
 - kind: domain-security

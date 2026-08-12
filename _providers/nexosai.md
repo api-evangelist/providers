@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-10'
+  score: 38.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -123,7 +123,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/nexosai-gateway-openapi-original.yml
+  url: openapi/_original/nexosai-gateway-openapi-original.yml
 - group: other
   title: ''
   type: Overlay
@@ -199,13 +199,13 @@ overview: 'nexos.ai publishes 16 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 63
 score:
   band: thin
-  composite: 41.4
-  delta: 0.0
+  composite: 39.7
+  delta: -1.7
   facets:
     commercial_clarity: 15.8
-    contract_quality: 59.9
+    contract_quality: 57.6
     developer_ergonomics: 49.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 41.4
@@ -219,8 +219,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/screenshots/nexosai-2026-08-07T185156.png
 security:

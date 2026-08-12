@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 11
@@ -357,6 +358,10 @@ collections:
   name: API Collection
   slug: open-visa-underwriting-intelligence-solutions
 common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.visa.com/docs
 - group: agent
   title: ''
   type: AgenticAccess
@@ -488,7 +493,7 @@ overview: 'Visa publishes 54 APIs on the [APIs.io](https://apis.io/) network, in
   The Visa catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Visa''s developer surface includes authentication, getting-started guide, support, and 13 more developer resources.'
+  Visa''s developer surface includes authentication, getting-started guide, support, and 14 more developer resources.'
 plans:
 - name: Visa Plans Pricing
   plan_count: 1
@@ -532,16 +537,16 @@ rules:
     warn: 5
   slug: visa-rules
 score:
-  band: developing
-  composite: 42.0
-  delta: 0.0
+  band: thin
+  composite: 40.2
+  delta: -1.8
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 64.5
-    developer_ergonomics: 26.1
+    commercial_clarity: 13.2
+    contract_quality: 65.6
+    developer_ergonomics: 34.8
     discoverability: 59.3
     governance: 68.8
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 42.0
   provenance:
     agentic_access: derived
@@ -553,11 +558,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 26.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Payments
+    regime_id: payments
+    score: 32.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/screenshots/visa-2026-06-20T201042.png
 security:

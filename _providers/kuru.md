@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 52.7
-  scored_at: '2026-08-10'
+  score: 49.1
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The Generate Token API from Kuru — 1 operation(s) for generate token.
@@ -39,6 +40,10 @@ apis:
   slug: kuru-quote-api
 artifact_total: 6
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kuru-flow-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -162,7 +167,7 @@ network: true
 overview: 'Kuru publishes 2 APIs on the [APIs.io](https://apis.io/) network: Generate Token API and Quote API. Tagged areas include Company, DeFi, Decentralized Exchange, Order Book, and Trading.
 
 
-  Kuru''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 20 more developer resources.'
+  Kuru''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 21 more developer resources.'
 random_paper: 107
 rate_limits:
 - limit_count: 1
@@ -170,15 +175,15 @@ rate_limits:
   slug: kuru-rate-limits
 score:
   band: developing
-  composite: 51.4
-  delta: 0.0
+  composite: 48.3
+  delta: -3.1
   facets:
     commercial_clarity: 34.2
-    contract_quality: 62.4
+    contract_quality: 60.1
     developer_ergonomics: 76.1
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 20.8
-    operational_transparency: 42.1
+    operational_transparency: 26.3
   previous_composite: 51.4
   provenance:
     conformance: first-party
@@ -191,12 +196,12 @@ score:
     skills: first-party
   regulatory:
     applies: true
-    matched_via: weak_tags
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 35.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/screenshots/kuru-2026-07-25T224337.png
 security:

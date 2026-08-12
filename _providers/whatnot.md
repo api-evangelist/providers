@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Limited partner-facing endpoints for inventory and order integration with Whatnot. Not a publicly documented developer API; access is contingent on Whatnot Seller approval and partnership.
@@ -91,20 +91,20 @@ rate_limits:
   name: Whatnot Rate Limits
   slug: whatnot-rate-limits
 score:
-  band: emerging
-  composite: 14.2
-  delta: 0.0
+  band: minimal
+  composite: 9.0
+  delta: -5.2
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 14.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/whatnot/refs/heads/main/screenshots/whatnot-2026-06-20T201430.png
 security:
 - kind: domain-security

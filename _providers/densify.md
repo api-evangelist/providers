@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -150,10 +150,6 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/densify-vocabulary.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/densify-capabilities.yml
 - group: agent
   title: ''
   type: LlmsText
@@ -181,7 +177,7 @@ overview: 'Densify publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   The Densify catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Densify''s developer surface includes authentication, developer portal, documentation, engineering blog, pricing, support, and 17 more developer resources.'
+  Densify''s developer surface includes authentication, developer portal, documentation, engineering blog, pricing, support, and 16 more developer resources.'
 plans:
 - name: Densify Plans Pricing
   plan_count: 3
@@ -193,15 +189,15 @@ rate_limits:
   slug: densify-rate-limits
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 44.5
+  delta: -7.6
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 63.7
+    commercial_clarity: 55.3
+    contract_quality: 61.3
     developer_ergonomics: 34.8
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 10.4
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 52.1
   provenance:
     agentic_access: derived
@@ -210,9 +206,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/screenshots/densify-2026-06-20T175916.png
 security:
 - kind: authentication

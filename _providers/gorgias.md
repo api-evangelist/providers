@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -186,13 +186,13 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: thin
-  composite: 39.0
-  delta: 0.0
+  composite: 41.8
+  delta: 2.8
   facets:
-    commercial_clarity: 10.5
-    contract_quality: 61.5
+    commercial_clarity: 23.7
+    contract_quality: 59.5
     developer_ergonomics: 26.1
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 41.7
     operational_transparency: 36.8
   previous_composite: 39.0
@@ -203,8 +203,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/screenshots/gorgias-2026-06-20T182307.png
 security:

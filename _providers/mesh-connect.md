@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -80,6 +81,10 @@ asyncapis:
   name: Mesh Connect Transfers Webhooks
   slug: mesh-connect-transfers-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mesh-connect-admin-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -218,17 +223,17 @@ overview: 'Mesh Connect publishes 12 APIs on the [APIs.io](https://apis.io/) net
   The Mesh Connect catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Mesh Connect''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, changelog, and 23 more developer resources.'
+  Mesh Connect''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, changelog, and 24 more developer resources.'
 random_paper: 60
 score:
   band: developing
-  composite: 55.3
-  delta: 0.0
+  composite: 53.8
+  delta: -1.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 69.4
+    contract_quality: 66.8
     developer_ergonomics: 64.7
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
   previous_composite: 55.3
@@ -248,8 +253,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/screenshots/mesh-connect-2026-08-07T172619.png
 security:

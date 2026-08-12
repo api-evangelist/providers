@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 61.3
-  scored_at: '2026-08-10'
+  score: 57.7
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The Scores API from WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM) — 2 operation(s) for scores.
@@ -32,6 +32,10 @@ apis:
   slug: wealthville-defi-liquidity-pool-scores-api-solana-evm-track-record-api
 artifact_total: 11
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/wealthville-defi-liquidity-pool-scores-api-solana-evm-public-data-overlay.yaml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -161,7 +165,7 @@ network: true
 overview: 'WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM) publishes 3 APIs on the [APIs.io](https://apis.io/) network: Scores API, Signals API, and Track Record API. Tagged areas include DeFi, Liquidity Pools, Blockchain Analytics, Solana, and EVM.
 
 
-  WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM)''s developer surface includes authentication, API reference, support, engineering blog, pricing, and 21 more developer resources.'
+  WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM)''s developer surface includes authentication, API reference, support, engineering blog, pricing, and 22 more developer resources.'
 random_paper: 55
 rate_limits:
 - limit_count: 2
@@ -169,16 +173,28 @@ rate_limits:
   slug: wealthville-defi-liquidity-pool-scores-api-solana-evm-rate-limits
 score:
   band: developing
-  composite: 46.6
+  composite: 45.4
+  delta: -1.2
   facets:
     commercial_clarity: 31.6
-    contract_quality: 51.7
+    contract_quality: 55.7
     developer_ergonomics: 54.3
-    discoverability: 92.6
-    governance: 20.8
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 36.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 46.6
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Wealthville Defi Liquidity Pool Scores Api Solana Evm Authentication

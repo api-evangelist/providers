@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: conformant
     agent_skills: true
@@ -11,14 +12,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-08-10'
+  score: 46.8
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: The common API from Digital Asset — 3 operation(s) for common.
@@ -33,8 +34,12 @@ apis:
 - description: The registry API from Digital Asset — 18 operation(s) for registry.
   name: Digital Asset Registry API
   slug: digital-asset-registry-api
-artifact_total: 8
+artifact_total: 9
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/digital-asset-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -167,6 +172,10 @@ created: '2026-08-04'
 description: 'Digital Asset is the company behind Canton, a privacy-enabled public blockchain built for regulated institutional finance, and Daml, the smart-contract language that runs on it. Its commercial products sit on top of the Canton Network: the DA Registry, a production platform for issuing, minting, burning, transferring and redeeming institutional-grade tokenized assets with credential-based allowlists, blocklists and proof-of-transfer; xReserve, which brings Circle''s USDC onto Canton; and a Covalidation Service for operating validator infrastructure. Its public developer surface is the Utilities (Operator Backend) API plus four Canton Token Standard (CIP-56) off-ledger APIs — token metadata, transfer instruction, allocation and allocation instruction — all published as OpenAPI 3.0 and served across MainNet, TestNet and DevNet environments. Digital Asset also publishes an A2A agent card and a packaged Agent Skill for its Registry workflows.'
 image: https://www.digitalasset.com/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: digital-asset-mcp.yml
+  slug: digital-asset-mcpyml
 modified: '2026-08-04'
 name: Digital Asset
 nav: Providers
@@ -174,31 +183,31 @@ network: true
 overview: 'Digital Asset publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Common API, Operator API, Public API, and 1 more. Tagged areas include Blockchain, Tokenization, Digital Assets, Financial Services, and Distributed Ledger.
 
 
-  Digital Asset''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 25 more developer resources.'
+  Digital Asset''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 26 more developer resources.'
 random_paper: 47
 score:
   band: developing
-  composite: 47.6
-  delta: -0.9
+  composite: 47.0
+  delta: -0.6
   facets:
     commercial_clarity: 26.3
-    contract_quality: 43.5
-    developer_ergonomics: 78.3
-    discoverability: 92.6
+    contract_quality: 43.8
+    developer_ergonomics: 80.4
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 48.5
+  previous_composite: 47.6
   provenance:
     conformance: derived
     contracts:
-      callable: 83.3
+      callable: 75.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 4
     mcp: derived
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digital-asset/refs/heads/main/screenshots/digital-asset-2026-08-07T164342.png
 security:

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 59.7
-  scored_at: '2026-08-10'
+  score: 56.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -86,6 +87,14 @@ asyncapis:
   name: Up Personal Banking Webhooks
   slug: up-bank-webhooks-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/up-bank-cds-banking-products-overlay.yaml
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/up-banking/api/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -241,7 +250,7 @@ overview: 'Up publishes 14 APIs on the [APIs.io](https://apis.io/) network, incl
   The Up catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Up''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, authentication, and 27 more developer resources.'
+  Up''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, authentication, and 29 more developer resources.'
 random_paper: 106
 rate_limits:
 - limit_count: 0
@@ -254,11 +263,11 @@ scopes:
   summary_line: 10 scopes
 score:
   band: developing
-  composite: 53.6
-  delta: 0.0
+  composite: 50.4
+  delta: -3.2
   facets:
     commercial_clarity: 44.7
-    contract_quality: 62.3
+    contract_quality: 60.0
     developer_ergonomics: 49.5
     discoverability: 92.6
     governance: 11.5
@@ -279,9 +288,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 78.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 60.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/screenshots/up-bank-2026-07-21T115740.png
 security:

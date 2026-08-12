@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -78,6 +78,18 @@ collections:
   name: Ambassador Edge Stack API
   slug: open-ambassador
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/datawire/edge-stack/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/datawire/edge-stack/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/datawire/edge-stack/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -564,7 +576,7 @@ overview: 'Ambassador publishes 6 APIs on the [APIs.io](https://apis.io/) networ
   The Ambassador catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Ambassador''s developer surface includes authentication, pricing, engineering blog, FAQ, documentation, support, getting-started guide, and 16 more developer resources.'
+  Ambassador''s developer surface includes authentication, pricing, engineering blog, FAQ, documentation, support, getting-started guide, and 19 more developer resources.'
 plans:
 - name: Ambassador Plans Pricing
   plan_count: 4
@@ -593,15 +605,15 @@ rules:
   slug: ambassador-spectral-rules
 score:
   band: developing
-  composite: 54.2
-  delta: 0.0
+  composite: 49.4
+  delta: -4.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 66.9
+    commercial_clarity: 39.5
+    contract_quality: 64.4
     developer_ergonomics: 37.0
     discoverability: 55.6
     governance: 58.3
-    operational_transparency: 57.9
+    operational_transparency: 42.1
   previous_composite: 54.2
   provenance:
     agentic_access: derived
@@ -610,8 +622,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/screenshots/ambassador-2026-06-20T171959.png
 security:

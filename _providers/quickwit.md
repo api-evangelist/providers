@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -61,6 +61,10 @@ apis:
   slug: quickwit-sources-api
 artifact_total: 12
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/quickwit-oss/quickwit/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -136,7 +140,7 @@ network: true
 overview: 'Quickwit publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Delete Tasks API, Index Templates API, and 4 more. Tagged areas include Search, Log Management, Observability, Full-Text Search, and Cloud Native.
 
 
-  Quickwit''s developer surface includes documentation, engineering blog, YouTube channel, pricing, and 11 more developer resources.'
+  Quickwit''s developer surface includes documentation, engineering blog, YouTube channel, pricing, and 12 more developer resources.'
 plans:
 - name: Quickwit Plans Pricing
   plan_count: 1
@@ -148,12 +152,12 @@ rate_limits:
   slug: quickwit-rate-limits
 score:
   band: thin
-  composite: 35.6
-  delta: 0.0
+  composite: 36.0
+  delta: 0.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 53.5
-    developer_ergonomics: 10.9
+    contract_quality: 51.5
+    developer_ergonomics: 15.2
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
@@ -165,8 +169,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quickwit/refs/heads/main/screenshots/quickwit-2026-06-20T192434.png
 security:

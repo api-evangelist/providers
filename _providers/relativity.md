@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 421
   human_in_the_loop: 21
@@ -326,11 +326,11 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 45.3
-  delta: 0.0
+  composite: 44.8
+  delta: -0.5
   facets:
     commercial_clarity: 57.9
-    contract_quality: 59.8
+    contract_quality: 57.8
     developer_ergonomics: 41.3
     discoverability: 50.0
     governance: 0.0
@@ -343,8 +343,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 53
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/screenshots/relativity-2026-06-20T192818.png
 security:

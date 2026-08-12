@@ -21,17 +21,21 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-10'
+  score: 11.7
+  scored_at: '2026-08-11'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/toit-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -116,6 +120,10 @@ created: '2026-07-17'
 description: Toit builds an open-source, high-level programming language and runtime for microcontrollers, targeting the ESP32 family, together with fleet-management tooling for deploying, monitoring and hot-reloading software across large fleets of connected IoT devices. The Toit language, virtual machine, package registry and the Jaguar (`jag`) live-reload developer CLI are open source and free; Toit also offers a self-hostable fleet broker and paid engineering support. The company previously operated a managed cloud platform exposing a gRPC API (device, pub/sub data, program compilation and organization management) before pivoting to the open-source language stack; those Protobuf definitions were archived in 2023. Toit is backed by Creandum.
 image: https://github.com/toitlang.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: toit-mcp.yml
+  slug: toit-mcpyml
 modified: '2026-07-21'
 name: Toit
 nav: Providers
@@ -123,16 +131,16 @@ network: true
 overview: 'Toit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, IoT, Embedded, and ESP32.
 
 
-  Toit''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, authentication, CLI, and 13 more developer resources.'
+  Toit''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, authentication, CLI, and 14 more developer resources.'
 random_paper: 100
 score:
   band: emerging
-  composite: 24.9
-  delta: 0.0
+  composite: 25.3
+  delta: 0.4
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
-    developer_ergonomics: 58.7
+    developer_ergonomics: 60.9
     discoverability: 57.4
     governance: 3.1
     operational_transparency: 5.3
@@ -140,8 +148,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-10'
+  score: 34.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,6 +49,10 @@ apis:
   slug: clevercarehealthplan-provider-directory-api
 artifact_total: 8
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/clevercarehealthplan-fhir-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -152,7 +156,7 @@ network: true
 overview: 'Clever Care Health Plan publishes 3 APIs on the [APIs.io](https://apis.io/) network: Drug Formulary API, Patient Access API, and Provider Directory API. Tagged areas include Company, Healthcare, Health Insurance, Medicare Advantage, and FHIR.
 
 
-  Clever Care Health Plan''s developer surface includes getting-started guide, documentation, API reference, signup flow, authentication, and 17 more developer resources.'
+  Clever Care Health Plan''s developer surface includes getting-started guide, documentation, API reference, signup flow, authentication, and 18 more developer resources.'
 random_paper: 21
 scopes:
 - name: Clevercarehealthplan Scopes
@@ -161,13 +165,13 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 46.1
+  delta: -4.4
   facets:
     commercial_clarity: 42.1
-    contract_quality: 56.3
+    contract_quality: 54.2
     developer_ergonomics: 49.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
   previous_composite: 50.5
@@ -186,9 +190,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 86.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 66.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clevercarehealthplan/refs/heads/main/screenshots/clevercarehealthplan-2026-07-25T205602.png
 security:

@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-10'
+  score: 12.6
+  scored_at: '2026-08-11'
 api_count: 23
 apis:
 - description: Endpoints for MLS listings data assembled by Anywhere's MLS Data Platform (MDP), which downloads, processes and enriches listings from multiple MLS sources. Returns listings in canonical RESO format e
@@ -268,13 +268,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 39.8
-  delta: 0.0
+  composite: 38.9
+  delta: -0.9
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 52.2
-    discoverability: 83.3
+    discoverability: 72.2
     governance: 12.5
     operational_transparency: 36.8
   previous_composite: 39.8
@@ -286,8 +286,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 66.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anywhere-real-estate/refs/heads/main/screenshots/anywhere-real-estate-2026-08-07T161434.png
 security:

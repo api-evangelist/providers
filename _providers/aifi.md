@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 9.0
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 3
 common:
@@ -118,8 +118,8 @@ scopes:
   summary_line: 10 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: emerging
-  composite: 13.1
-  delta: 0.0
+  composite: 18.4
+  delta: 5.3
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -130,9 +130,15 @@ score:
   previous_composite: 13.1
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 48.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/aifi/refs/heads/main/screenshots/aifi-2026-08-07T161053.png
 security:
 - kind: authentication

@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.0
-  scored_at: '2026-08-10'
+  score: 32.7
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The Auto Drive API API from Autonomys — 25 operation(s) for auto drive api.
@@ -37,12 +37,16 @@ apis:
 - description: The Auto Drive Download Gateway API from Autonomys — 6 operation(s) for auto drive download gateway.
   name: Autonomys Auto Drive Download Gateway API
   slug: autonomys-auto-drive-download-gateway-api
-artifact_total: 4
+artifact_total: 5
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/autonomys-mcp.yml
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/autonomys-auto-drive-openapi.json
+  url: openapi/_original/autonomys-auto-drive-openapi.json
 - group: other
   title: ''
   type: Overlay
@@ -143,6 +147,10 @@ created: '2026-07-17'
 description: Autonomys is a decentralized infrastructure network providing permanent, verifiable, content-addressed data storage and AI-ready blockchain services, secured by a Proof-of-Archival-Storage consensus. Its developer surface centers on Auto Drive — permanent storage exposed through a REST API where objects are addressed by IPFS-style CIDs — and the Auto SDK, a TypeScript toolkit (@autonomys/* npm packages) for consensus, storage, cross-domain messaging, and DAG data. The broader stack adds Auto EVM (an Ethereum- compatible execution domain), Auto Agents (a framework for autonomous on-chain AI agents), and Auto ID (self-sovereign identity). Storage is paid in native AI3 via an on-chain Intents flow. Autonomys was surfaced as a portfolio company of Pantera Capital and has now been enriched from its public developer surface.
 image: https://www.autonomys.xyz/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: autonomys-mcp.yml
+  slug: autonomys-mcpyml
 modified: '2026-07-18'
 name: Autonomys
 nav: Providers
@@ -150,17 +158,17 @@ network: true
 overview: 'Autonomys publishes 2 APIs on the [APIs.io](https://apis.io/) network: Auto Drive API API and Auto Drive Download Gateway API. Tagged areas include Company, Crypto, Blockchain, Web3, and Decentralized Storage.
 
 
-  Autonomys'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 18 more developer resources.'
+  Autonomys'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 19 more developer resources.'
 random_paper: 79
 score:
-  band: developing
-  composite: 43.0
-  delta: 0.0
+  band: thin
+  composite: 41.9
+  delta: -1.1
   facets:
     commercial_clarity: 34.2
-    contract_quality: 45.0
-    developer_ergonomics: 60.3
-    discoverability: 87.0
+    contract_quality: 43.3
+    developer_ergonomics: 62.5
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 43.0
@@ -173,8 +181,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/screenshots/autonomys-2026-07-25T201843.png
 security:

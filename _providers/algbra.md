@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -200,13 +200,13 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 51.9
-  delta: 0.0
+  composite: 47.8
+  delta: -4.1
   facets:
     commercial_clarity: 44.7
-    contract_quality: 62.0
+    contract_quality: 59.7
     developer_ergonomics: 53.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 10.5
   previous_composite: 51.9
@@ -224,9 +224,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 78.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 60.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/screenshots/algbra-2026-07-25T195604.png
 security:

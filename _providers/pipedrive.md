@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 191
   human_in_the_loop: 0
@@ -494,16 +494,16 @@ scopes:
   slug: pipedrive-scopes
   summary_line: 28 scopes · authorizationCode
 score:
-  band: strong
-  composite: 60.6
-  delta: 0.0
+  band: developing
+  composite: 52.9
+  delta: -7.7
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 73.8
+    commercial_clarity: 60.5
+    contract_quality: 71.4
     developer_ergonomics: 37.0
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 41.7
-    operational_transparency: 60.5
+    operational_transparency: 36.8
   previous_composite: 60.6
   provenance:
     agentic_access: derived
@@ -512,9 +512,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 48
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/screenshots/pipedrive-2026-06-20T191725.png
 security:
 - kind: authentication

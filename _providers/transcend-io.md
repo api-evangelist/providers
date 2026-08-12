@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.1
-  scored_at: '2026-08-10'
+  score: 29.5
+  scored_at: '2026-08-11'
 api_count: 11
 apis:
 - description: GraphQL API and Developer Tools wrapper for non-personal data tasks such as creating data silos, account management, and other configuration operations on the Transcend platform.
@@ -274,25 +274,25 @@ rules:
     warn: 6
   slug: transcend-rules
 score:
-  band: developing
-  composite: 52.5
-  delta: -0.8
+  band: strong
+  composite: 56.2
+  delta: 3.7
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 66.2
+    commercial_clarity: 71.1
+    contract_quality: 67.4
     developer_ergonomics: 23.9
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 58.3
     operational_transparency: 47.4
-  previous_composite: 53.3
+  previous_composite: 52.5
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+      total: 8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transcend-io/refs/heads/main/screenshots/transcend-io-2026-06-20T195548.png
 security:

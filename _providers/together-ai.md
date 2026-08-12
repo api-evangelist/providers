@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 2
@@ -233,16 +233,16 @@ rules:
     warn: 8
   slug: together-ai-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 45.8
-  delta: 0.0
+  band: thin
+  composite: 39.0
+  delta: -6.8
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 67.7
+    commercial_clarity: 15.8
+    contract_quality: 68.7
     developer_ergonomics: 21.7
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 41.7
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 45.8
   provenance:
     agentic_access: derived
@@ -251,9 +251,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/screenshots/together-ai-2026-06-20T195434.png
 security:
 - kind: authentication

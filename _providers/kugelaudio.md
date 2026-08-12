@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-10'
+  score: 44.6
+  scored_at: '2026-08-11'
 api_count: 14
 apis:
 - description: The 11labs API from KugelAudio — 6 operation(s) for 11labs.
@@ -73,12 +73,20 @@ apis:
 - description: The Voices API from KugelAudio — 6 operation(s) for voices.
   name: KugelAudio Voices API
   slug: kugelaudio-voices-api
-artifact_total: 17
+artifact_total: 18
 asyncapis:
 - description: API Evangelist description of KugelAudio's documented WebSocket streaming surface. KugelAudio publishes no AsyncAPI document of its own; this file is GENERATED from the provider's own published wire-f
   name: KugelAudio TTS Streaming API
   slug: kugelaudio-tts-asyncapi
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/kugelaudio-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kugelaudio-tts-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -188,6 +196,10 @@ description: KugelAudio is a Y Combinator-backed, Germany-based voice AI company
   Vapi integrations point at KugelAudio without rewrites.
 image: https://www.kugelaudio.com/icon.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: kugelaudio-mcp.yml
+  slug: kugelaudio-mcpyml
 modified: '2026-07-19'
 name: KugelAudio
 nav: Providers
@@ -198,16 +210,16 @@ overview: 'KugelAudio publishes 14 APIs on the [APIs.io](https://apis.io/) netwo
   The KugelAudio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  KugelAudio''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 19 more developer resources.'
+  KugelAudio''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 21 more developer resources.'
 random_paper: 22
 score:
   band: developing
-  composite: 48.0
-  delta: 0.0
+  composite: 50.3
+  delta: 2.3
   facets:
     commercial_clarity: 44.7
-    contract_quality: 57.8
-    developer_ergonomics: 63.0
+    contract_quality: 55.7
+    developer_ergonomics: 65.2
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
@@ -221,14 +233,8 @@ score:
       total: 14
     mcp: derived
     skills: first-party
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 34.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/screenshots/kugelaudio-2026-07-25T224326.png
 security:

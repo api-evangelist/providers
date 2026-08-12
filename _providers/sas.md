@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -253,11 +253,11 @@ scopes:
   summary_line: 1 scope · password
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 51.8
+  delta: -0.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 62.8
+    contract_quality: 60.4
     developer_ergonomics: 47.8
     discoverability: 75.9
     governance: 68.8
@@ -270,8 +270,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/screenshots/sas-2026-06-20T193436.png
 security:

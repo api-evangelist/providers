@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The normative REST binding of the GS1 EPCIS 2.0 standard — the sector's supply chain visibility event interface, describing what happened to an object, when, where and why, using Core Business Vocabul
@@ -29,6 +29,14 @@ apis:
   slug: gs1-digital-link-resolver
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/gs1/EPCIS/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/gs1/EPCIS/blob/master/CODE_OF_CONDUCT.md
 - group: company
   title: ''
   type: Website
@@ -134,17 +142,17 @@ overview: 'GS1 publishes 1 API on the [APIs.io](https://apis.io/) network: EPCIS
   The GS1 catalog on APIs.io includes 1 JSON-LD context.
 
 
-  GS1''s developer surface includes documentation, tooling, and 16 more developer resources.'
+  GS1''s developer surface includes documentation, tooling, and 18 more developer resources.'
 random_paper: 35
 score:
   band: emerging
-  composite: 25.6
-  delta: 0.0
+  composite: 23.9
+  delta: -1.7
   facets:
     commercial_clarity: 0.0
-    contract_quality: 59.6
+    contract_quality: 57.3
     developer_ergonomics: 8.7
-    discoverability: 70.4
+    discoverability: 59.3
     governance: 10.4
     operational_transparency: 5.3
   previous_composite: 25.6
@@ -154,8 +162,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gs1/refs/heads/main/screenshots/gs1-2026-08-07T165851.png
 slug: gs1

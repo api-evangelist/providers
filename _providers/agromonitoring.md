@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -316,16 +316,16 @@ rules:
     warn: 16
   slug: agromonitoring-spectral-rules
 score:
-  band: developing
-  composite: 49.3
-  delta: 0.0
+  band: thin
+  composite: 41.2
+  delta: -8.1
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 30.0
+    commercial_clarity: 47.4
+    contract_quality: 28.9
     developer_ergonomics: 43.5
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 49.3
   provenance:
     agentic_access: derived
@@ -334,9 +334,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/screenshots/agromonitoring-2026-06-20T170453.png
 security:
 - kind: authentication

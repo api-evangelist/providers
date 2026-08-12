@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,8 +74,8 @@ overview: 'Confide * is profiled on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 32
 score:
   band: emerging
-  composite: 15.5
-  delta: 0.0
+  composite: 14.8
+  delta: -0.7
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -84,14 +84,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 15.5
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 19.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confide/refs/heads/main/screenshots/confide-2026-07-25T210247.png
 security:

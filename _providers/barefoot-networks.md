@@ -27,10 +27,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 0
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/barefootnetworks/Open-Tofino/issues
 - group: build
   title: ''
   type: GitHubOrganization
@@ -54,7 +58,7 @@ network: true
 overview: 'Barefoot Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Switches, P4, and Programmable Networking.
 
 
-  Barefoot Networks'' developer surface includes documentation and 2 more developer resources.'
+  Barefoot Networks'' developer surface includes documentation and 3 more developer resources.'
 random_paper: 48
 score:
   band: minimal
@@ -68,8 +72,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 7.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barefoot-networks/refs/heads/main/screenshots/barefoot-networks-2026-07-25T202406.png
 slug: barefoot-networks

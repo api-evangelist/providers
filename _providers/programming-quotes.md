@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Programming Quotes — JWT login / register exchange.
@@ -168,24 +168,24 @@ rules:
   slug: programming-quotes-rules
 score:
   band: emerging
-  composite: 23.6
-  delta: -0.2
+  composite: 23.5
+  delta: -0.1
   facets:
     commercial_clarity: 0.0
-    contract_quality: 31.3
+    contract_quality: 30.7
     developer_ergonomics: 0.0
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 23.8
+  previous_composite: 23.6
   provenance:
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 2
       marker_coverage: 100.0
-      total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+      total: 2
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/programming-quotes/refs/heads/main/screenshots/programming-quotes-2026-06-20T192146.png
 security:

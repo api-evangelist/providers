@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: 'NIP-01 defines the core Nostr protocol: event format (id, pubkey, created_at, kind, tags, content, sig), client-to-relay messages (EVENT, REQ, CLOSE), and relay-to-client messages (EVENT, OK, EOSE, CL'
@@ -49,6 +49,18 @@ asyncapis:
   name: Nostr Relay Protocol
   slug: nostr-asyncapi
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/nbd-wtf/nostr-tools/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/nbd-wtf/nostr-tools/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/nbd-wtf/nostr-tools/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -111,7 +123,7 @@ overview: 'Nostr publishes 2 APIs on the [APIs.io](https://apis.io/) network: Pr
   The Nostr catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Nostr''s developer surface includes getting-started guide and 10 more developer resources.'
+  Nostr''s developer surface includes getting-started guide and 13 more developer resources.'
 plans:
 - name: Nostr Plans Pricing
   plan_count: 1
@@ -132,18 +144,18 @@ rules:
   slug: nostr-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 36.4
-  delta: 0.0
+  composite: 39.2
+  delta: 2.8
   facets:
     commercial_clarity: 28.9
     contract_quality: 50.6
     developer_ergonomics: 10.9
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 41.7
-    operational_transparency: 26.3
+    operational_transparency: 42.1
   previous_composite: 36.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nostr/refs/heads/main/screenshots/nostr-2026-06-20T190421.png
 security:

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-10'
+  score: 44.4
+  scored_at: '2026-08-11'
 api_count: 25
 apis:
 - description: Bulk export API for LeanKit / Planview AgilePlace reporting data — cards, card lane positions, blocked card history, comments, connections, lanes, tags, and user assignments — consumed from Excel, Pow
@@ -185,6 +185,10 @@ collections:
   name: Planview AgilePlace API (LeanKit) v2 account users API
   slug: postman-leankit-users-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/leankit-agileplace-api-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -347,17 +351,17 @@ overview: 'LeanKit publishes 24 APIs on the [APIs.io](https://apis.io/) network,
   The LeanKit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  LeanKit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  LeanKit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 random_paper: 48
 score:
   band: strong
-  composite: 62.6
-  delta: 0.0
+  composite: 60.8
+  delta: -1.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 74.2
+    contract_quality: 71.5
     developer_ergonomics: 66.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 52.6
   previous_composite: 62.6
@@ -370,8 +374,8 @@ score:
       total: 24
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/screenshots/leankit-2026-07-25T224738.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: JWT-authenticated API for partner vendors (drop-off locations, scan events) to exchange an API key for a 24-hour access token and query shipment tracking status and event history.
@@ -58,6 +58,10 @@ asyncapis:
   name: Uniuni Webhooks
   slug: uniuni-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/uniuni-platform-client-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -168,17 +172,17 @@ overview: 'UniUni publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
   The UniUni catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  UniUni''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 16 more developer resources.'
+  UniUni''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
 random_paper: 84
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 48.7
+  delta: -1.8
   facets:
     commercial_clarity: 34.2
-    contract_quality: 74.4
+    contract_quality: 71.6
     developer_ergonomics: 66.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
   previous_composite: 50.5
@@ -191,8 +195,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

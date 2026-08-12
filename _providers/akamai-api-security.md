@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 103
   human_in_the_loop: 0
@@ -1017,15 +1017,15 @@ rules:
   slug: akamai-api-security-spectral-rules
 score:
   band: developing
-  composite: 51.4
-  delta: 0.0
+  composite: 43.1
+  delta: -8.3
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 62.7
+    commercial_clarity: 39.5
+    contract_quality: 60.4
     developer_ergonomics: 15.2
     discoverability: 50.0
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 51.4
   provenance:
     agentic_access: derived
@@ -1034,9 +1034,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 64
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/akamai-api-security/refs/heads/main/screenshots/akamai-api-security-2026-06-20T171447.png
 security:
 - kind: domain-security

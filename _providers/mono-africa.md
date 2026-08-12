@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -134,11 +134,11 @@ rate_limits:
   slug: mono-africa-rate-limits
 score:
   band: emerging
-  composite: 27.2
-  delta: 0.0
+  composite: 27.1
+  delta: -0.1
   facets:
     commercial_clarity: 39.5
-    contract_quality: 15.9
+    contract_quality: 15.3
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
@@ -157,8 +157,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 20.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mono-africa/refs/heads/main/screenshots/mono-africa-2026-08-07T184204.png
 security:

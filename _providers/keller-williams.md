@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-10'
+  score: 40.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,12 +44,16 @@ arazzos:
 - description: Resolve the KW controlled vocabularies, create a KWLS listing, then read it back to confirm it indexed.
   name: Publish a KW Worldwide listing
   slug: keller-williams-publish-listing
-artifact_total: 11
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Keller Williams Marketplace Webhooks
   slug: keller-williams-marketplace-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/keller-williams-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -196,6 +200,10 @@ examples:
   slug: keller-williams-listings-search-examples
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groq.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: keller-williams-mcp.yml
+  slug: keller-williams-mcpyml
 modified: '2026-07-26'
 name: Keller Williams
 nav: Providers
@@ -206,7 +214,7 @@ overview: 'Keller Williams publishes 1 API on the [APIs.io](https://apis.io/) ne
   The Keller Williams catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Keller Williams'' developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, support, product news, and 27 more developer resources.'
+  Keller Williams'' developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, support, product news, and 28 more developer resources.'
 random_paper: 42
 scopes:
 - name: Keller Williams Scopes
@@ -215,12 +223,12 @@ scopes:
   summary_line: 40 scopes · authorizationCode/implicit/clientCredentials/tokenExchange/jwtBearer
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 50.2
+  delta: -0.1
   facets:
     commercial_clarity: 34.2
-    contract_quality: 63.6
-    developer_ergonomics: 53.8
+    contract_quality: 61.2
+    developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 36.8
@@ -236,8 +244,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 58.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/screenshots/keller-williams-2026-08-07T171117.png
 security:

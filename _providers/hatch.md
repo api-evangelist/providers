@@ -21,25 +21,29 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-10'
+  score: 44.8
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The contacts API from Hatch — 1 operation(s) for contacts.
   name: Hatch contacts API
   slug: hatch-contacts-api
-artifact_total: 5
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Hatch Webhooks
   slug: hatch-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/hatch-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -148,6 +152,10 @@ created: '2026-07-17'
 description: Hatch is an AI-powered customer communication platform for service businesses, unifying voice, SMS, and email into a single system with custom AI agents (AI CSRs) that text and call leads and customers to qualify them, book appointments, and drive bottom-line growth without adding headcount. Products include Voice AI, Messaging AI, Journey Builder for multi-channel campaigns, a Knowledge Engine, and a Command Center for performance tracking. For developers, Hatch exposes a public REST API (bearer-token auth) whose primary operation upserts contacts into campaigns, a Bulk Export API for BI/analytics, and an outbound webhook surface (11 event types, EdDSA-signed) for pushing events to downstream systems and Zapier. Backed by Bessemer Venture Partners and True Ventures. Added to the API Evangelist network and enriched from the provider's own public developer surface.
 image: https://cdn.prod.website-files.com/6979136a27d403634304b470/69c2be9beb7874c215169569_hatch-homepage-og-image.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: hatch-mcp.yml
+  slug: hatch-mcpyml
 modified: '2026-07-19'
 name: Hatch
 nav: Providers
@@ -158,7 +166,7 @@ overview: 'Hatch publishes 1 API on the [APIs.io](https://apis.io/) network: con
   The Hatch catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Hatch''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
+  Hatch''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
 random_paper: 56
 rate_limits:
 - limit_count: 1
@@ -166,13 +174,13 @@ rate_limits:
   slug: hatch-rate-limits
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 49.2
+  delta: -1.1
   facets:
     commercial_clarity: 44.7
-    contract_quality: 69.8
-    developer_ergonomics: 53.8
-    discoverability: 87.0
+    contract_quality: 67.2
+    developer_ergonomics: 56.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 44.7
   previous_composite: 50.3
@@ -191,8 +199,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/screenshots/hatch-2026-07-25T220750.png
 security:

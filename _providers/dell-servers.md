@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -184,6 +184,18 @@ collections:
   name: Dell Servers Dell OpenManage Enterprise API
   slug: open-dell-servers-openmanage-enterprise
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/dell/OpenManage-Enterprise/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/dell/OpenManage-Enterprise/blob/main/docs/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/dell/OpenManage-Enterprise/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -428,7 +440,7 @@ overview: 'Dell Servers publishes 19 APIs on the [APIs.io](https://apis.io/) net
   The Dell Servers catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Dell Servers'' developer surface includes authentication, developer portal, getting-started guide, documentation, support, engineering blog, GitHub presence, and 29 more developer resources.'
+  Dell Servers'' developer surface includes authentication, developer portal, getting-started guide, documentation, support, engineering blog, GitHub presence, and 32 more developer resources.'
 plans:
 - name: Dell Servers Plans Pricing
   plan_count: 3
@@ -464,16 +476,16 @@ rules:
     warn: 4
   slug: dell-servers-openmanage-enterprise-rules
 score:
-  band: strong
-  composite: 60.5
-  delta: 0.0
+  band: developing
+  composite: 52.0
+  delta: -8.5
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 69.8
+    commercial_clarity: 50.0
+    contract_quality: 67.2
     developer_ergonomics: 56.5
     discoverability: 59.3
     governance: 52.1
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 60.5
   provenance:
     agentic_access: derived
@@ -482,9 +494,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/screenshots/dell-servers-2026-06-20T175900.png
 security:
 - kind: authentication

@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 16.2
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The CafeX Audit Events API allows the retrieval of audit event data for CafeX tenants. Events can be filtered by a required time range and by optional service, event type, action, user, app, workspace
@@ -126,6 +126,7 @@ random_paper: 105
 score:
   band: thin
   composite: 31.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -133,8 +134,12 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 21.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 31.6
+  provenance:
+    conformance: first-party
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Cafex Communications Authentication

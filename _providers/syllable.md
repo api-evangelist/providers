@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: flavored
     agent_skills: true
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 56.8
-  scored_at: '2026-08-10'
+  score: 53.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -157,6 +158,10 @@ asyncapis:
   name: Syllable Outbound Webhooks
   slug: syllable-outbound-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/syllable-sdk-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -327,20 +332,20 @@ overview: 'Syllable publishes 41 APIs on the [APIs.io](https://apis.io/) network
   The Syllable catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Syllable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+  Syllable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
 random_paper: 44
 score:
   band: strong
-  composite: 60.2
-  delta: 0.2
+  composite: 59.5
+  delta: -0.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.4
+    contract_quality: 66.7
     developer_ergonomics: 87.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 60.0
+  previous_composite: 60.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -348,7 +353,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 41
     mcp: first-party
     skills: first-party
   regulatory:
@@ -357,8 +362,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

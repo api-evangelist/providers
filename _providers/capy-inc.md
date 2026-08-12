@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Server-side CAPTCHA answer verification.
@@ -37,6 +37,10 @@ apis:
   slug: capy-inc-verification-api
 artifact_total: 5
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/capy-inc-captcha-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -156,7 +160,7 @@ network: true
 overview: 'Capy Inc. publishes 1 API on the [APIs.io](https://apis.io/) network: Verification API. Tagged areas include Company, Security, CAPTCHA, Bot Detection, and Bot Prevention.
 
 
-  Capy Inc.''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 19 more developer resources.'
+  Capy Inc.''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 20 more developer resources.'
 plans:
 - name: Capy Inc Plans
   plan_count: 2
@@ -164,11 +168,11 @@ plans:
 random_paper: 92
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 49.3
+  delta: -0.5
   facets:
     commercial_clarity: 65.8
-    contract_quality: 59.7
+    contract_quality: 57.5
     developer_ergonomics: 60.3
     discoverability: 75.9
     governance: 11.5
@@ -183,8 +187,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capy-inc/refs/heads/main/screenshots/capy-inc-2026-07-25T204457.png
 security:

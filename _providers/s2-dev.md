@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -233,11 +233,11 @@ rate_limits:
   slug: s2-dev-rate-limits
 score:
   band: strong
-  composite: 62.4
-  delta: 0.0
+  composite: 61.9
+  delta: -0.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 57.4
+    contract_quality: 55.2
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
@@ -253,8 +253,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

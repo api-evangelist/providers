@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: REST API for admin-side ATS operations including candidates, offers (job openings), placements, departments, requisitions, tags, evaluations, scheduled interviews, mailbox messages, and reports. All e
@@ -112,18 +112,18 @@ overview: 'Recruitee publishes 3 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 40
 score:
   band: emerging
-  composite: 18.2
-  delta: 0.0
+  composite: 21.6
+  delta: 3.4
   facets:
-    commercial_clarity: 18.4
+    commercial_clarity: 31.6
     contract_quality: 0.0
     developer_ergonomics: 21.7
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 18.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/screenshots/recruitee-2026-06-20T192710.png
 security:

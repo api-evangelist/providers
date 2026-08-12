@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 6.3
-  scored_at: '2026-08-10'
+  score: 2.7
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
@@ -86,13 +86,13 @@ overview: 'Kheiron Medical Technologies is profiled on the [APIs.io](https://api
 random_paper: 61
 score:
   band: emerging
-  composite: 14.4
-  delta: 0.0
+  composite: 13.5
+  delta: -0.9
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 4.3
-    discoverability: 61.1
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 14.4
@@ -102,8 +102,8 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kheiron-medical-technologies/refs/heads/main/screenshots/kheiron-medical-technologies-2026-07-25T223710.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -56,6 +56,18 @@ apis:
   slug: gemfury-versions-api
 artifact_total: 23
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/gemfury/gemfury/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/gemfury/gemfury/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/gemfury/gemfury/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -179,7 +191,7 @@ overview: 'Gemfury publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
   The Gemfury catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Gemfury''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, CLI, and 11 more developer resources.'
+  Gemfury''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, CLI, and 14 more developer resources.'
 plans:
 - name: Gemfury Plans Pricing
   plan_count: 14
@@ -200,11 +212,11 @@ rules:
   slug: gemfury-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.6
-  delta: 0.0
+  composite: 54.9
+  delta: -0.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 72.0
+    contract_quality: 69.3
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 58.3
@@ -217,8 +229,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/screenshots/gemfury-2026-06-20T181711.png
 security:

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 55.6
-  scored_at: '2026-08-10'
+  score: 52.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -298,16 +299,16 @@ scopes:
   summary_line: 21 scopes
 score:
   band: strong
-  composite: 63.9
-  delta: 12.0
+  composite: 63.5
+  delta: -0.4
   facets:
     commercial_clarity: 100.0
-    contract_quality: 52.0
+    contract_quality: 50.1
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 50.0
-  previous_composite: 51.9
+  previous_composite: 63.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -315,12 +316,12 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 22
+      total: 26
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: rising
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Puzzle Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 125
   human_in_the_loop: 4
@@ -127,6 +127,10 @@ apis:
   slug: arcee-ai-webhooks-api
 artifact_total: 33
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/arcee-ai-afm-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -226,15 +230,15 @@ network: true
 overview: 'Arcee AI publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Access Profiles API, AFM API API, Analytics API, and 26 more. Tagged areas include Company, Ai, Artificial Intelligence, Machine Learning, and Large Language Models.
 
 
-  Arcee AI''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 14 more developer resources.'
+  Arcee AI''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 15 more developer resources.'
 random_paper: 63
 score:
   band: developing
-  composite: 45.2
-  delta: 0.0
+  composite: 44.7
+  delta: -0.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 53.9
+    contract_quality: 51.9
     developer_ergonomics: 58.2
     discoverability: 81.5
     governance: 11.5
@@ -250,8 +254,8 @@ score:
       total: 29
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/screenshots/arcee-ai-2026-07-25T201012.png
 security:

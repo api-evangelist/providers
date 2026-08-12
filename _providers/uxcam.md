@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-10'
+  score: 43.5
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Custom and automatic events logged during sessions
@@ -42,6 +42,10 @@ apis:
   slug: uxcam-users-api
 artifact_total: 7
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/uxcam-data-access-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -185,15 +189,15 @@ network: true
 overview: 'UXCam publishes 3 APIs on the [APIs.io](https://apis.io/) network: Events API, Sessions API, and Users API. Tagged areas include Company, Product Analytics, Session Replay, Mobile Analytics, and Heatmaps.
 
 
-  UXCam''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+  UXCam''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
 random_paper: 78
 score:
   band: strong
-  composite: 56.7
-  delta: 0.0
+  composite: 56.1
+  delta: -0.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 65.1
+    contract_quality: 62.7
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 11.5
@@ -208,8 +212,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

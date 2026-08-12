@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -124,11 +124,11 @@ rate_limits:
   slug: mailpace-rate-limits
 score:
   band: thin
-  composite: 34.4
-  delta: 0.0
+  composite: 36.9
+  delta: 2.5
   facets:
     commercial_clarity: 28.9
-    contract_quality: 62.5
+    contract_quality: 60.2
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
@@ -141,14 +141,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 16.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailpace/refs/heads/main/screenshots/mailpace-2026-06-20T184903.png
 security:

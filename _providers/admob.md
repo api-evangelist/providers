@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 15.3
-  scored_at: '2026-08-10'
+  score: 11.7
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST/JSON API providing programmatic read-only access to AdMob account data, apps, ad units, mediation configuration, and network/mediation performance reports. Authorized with Google OAuth 2.0.
@@ -178,8 +178,8 @@ score:
     governance: 0.0
     operational_transparency: 39.5
   previous_composite: 35.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/admob/refs/heads/main/screenshots/admob-2026-07-25T181651.png
 security:

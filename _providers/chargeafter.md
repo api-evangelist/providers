@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 67.6
-  scored_at: '2026-08-10'
+  score: 60.6
+  scored_at: '2026-08-11'
 api_count: 12
 apis:
 - description: The Accounts API from ChargeAfter — 10 operation(s) for accounts.
@@ -63,6 +63,10 @@ asyncapis:
   name: Chargeafter Notifications Webhooks
   slug: chargeafter-notifications-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/chargeafter-charge-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -213,26 +217,38 @@ overview: 'ChargeAfter publishes 12 APIs on the [APIs.io](https://apis.io/) netw
   The ChargeAfter catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ChargeAfter''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 26 more developer resources.'
+  ChargeAfter''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 27 more developer resources.'
 random_paper: 104
 score:
   band: developing
-  composite: 52.1
+  composite: 50.1
+  delta: -2.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 64.5
-    developer_ergonomics: 80.4
-    discoverability: 92.6
-    governance: 20.8
+    contract_quality: 68.0
+    developer_ergonomics: 75.5
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 52.6
+  previous_composite: 52.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Chargeafter Authentication

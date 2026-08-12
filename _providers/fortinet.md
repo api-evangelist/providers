@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Fortinet API provides access to platform services and data for enterprise integration and automation.
@@ -90,20 +90,20 @@ rate_limits:
   name: Fortinet Rate Limits
   slug: fortinet-rate-limits
 score:
-  band: emerging
-  composite: 18.3
-  delta: 0.0
+  band: minimal
+  composite: 11.5
+  delta: -6.8
   facets:
-    commercial_clarity: 47.4
+    commercial_clarity: 23.7
     contract_quality: 0.0
     developer_ergonomics: 2.2
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 18.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortinet/refs/heads/main/screenshots/fortinet-2026-06-20T181441.png
 security:
 - kind: domain-security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -51,8 +51,8 @@ overview: cordproject is profiled on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 23
 score:
   band: minimal
-  composite: 5.5
-  delta: 0.0
+  composite: 5.0
+  delta: -0.5
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -61,14 +61,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.5
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 8.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cordproject/refs/heads/main/screenshots/cordproject-2026-07-25T210417.png
 security:

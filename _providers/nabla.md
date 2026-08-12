@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -219,11 +219,11 @@ rate_limits:
   slug: nabla-rate-limits
 score:
   band: thin
-  composite: 41.2
-  delta: 0.0
+  composite: 40.7
+  delta: -0.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 56.6
+    contract_quality: 54.5
     developer_ergonomics: 37.0
     discoverability: 74.1
     governance: 0.0
@@ -242,8 +242,8 @@ score:
     regime: Health
     regime_id: health
     score: 28.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nabla/refs/heads/main/screenshots/nabla-2026-06-20T185922.png
 security:

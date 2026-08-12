@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 0
@@ -135,6 +135,10 @@ collections:
   name: Wingspan Payments 1099 Operations Wingspan Wallet API
   slug: postman-wingspan-wingspan-wallet-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/wingspan-payments-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -285,7 +289,7 @@ overview: 'Wingspan publishes 15 APIs on the [APIs.io](https://apis.io/) network
   The Wingspan catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Wingspan''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 26 more developer resources.'
+  Wingspan''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 27 more developer resources.'
 random_paper: 59
 rate_limits:
 - limit_count: 2
@@ -293,13 +297,13 @@ rate_limits:
   slug: wingspan-rate-limits
 score:
   band: strong
-  composite: 59.8
-  delta: 0.0
+  composite: 58.3
+  delta: -1.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.2
+    contract_quality: 65.7
     developer_ergonomics: 73.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 50.0
   previous_composite: 59.8
@@ -319,8 +323,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

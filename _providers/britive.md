@@ -3,22 +3,22 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 49.1
-  scored_at: '2026-08-10'
+  score: 38.1
+  scored_at: '2026-08-11'
 api_count: 79
 apis:
 - description: The Britive Secret Manager API covers the Britive vault and secrets lifecycle — vault initialization, static and file secrets, secret versions, secret metadata, password policies, secret templates and
@@ -264,6 +264,10 @@ asyncapis:
   name: Britive Events Webhooks
   slug: britive-events-webhooks
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/britive/mcp-server/issues
 - group: company
   title: ''
   type: Website
@@ -402,7 +406,7 @@ overview: 'Britive publishes 78 APIs on the [APIs.io](https://apis.io/) network,
   The Britive catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Britive''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 23 more developer resources.'
+  Britive''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 24 more developer resources.'
 random_paper: 61
 scopes:
 - name: Britive Scopes
@@ -411,16 +415,28 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.8
+  composite: 45.6
+  delta: -3.2
   facets:
     commercial_clarity: 23.7
     contract_quality: 58.1
-    developer_ergonomics: 71.7
-    discoverability: 68.5
-    governance: 20.8
+    developer_ergonomics: 66.8
+    discoverability: 57.4
+    governance: 11.5
     operational_transparency: 44.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 48.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 78
+    mcp: first-party
+    skills: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Britive Authentication

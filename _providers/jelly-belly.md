@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -129,16 +129,16 @@ rate_limits:
   name: Jelly Belly Rate Limits
   slug: jelly-belly-rate-limits
 score:
-  band: thin
-  composite: 35.8
-  delta: 0.0
+  band: emerging
+  composite: 27.5
+  delta: -8.3
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 52.6
+    commercial_clarity: 36.8
+    contract_quality: 50.6
     developer_ergonomics: 0.0
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 35.8
   provenance:
     agentic_access: derived
@@ -147,9 +147,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/jelly-belly/refs/heads/main/screenshots/jelly-belly-2026-06-20T183718.png
 security:
 - kind: domain-security

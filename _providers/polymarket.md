@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -82,6 +82,10 @@ collections:
   name: Polymarket APIs (CLOB and Gamma)
   slug: open-polymarket
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Polymarket/py-clob-client/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -148,7 +152,7 @@ overview: 'Polymarket publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   The Polymarket catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Polymarket''s developer surface includes authentication, documentation, GitHub presence, support, status page, and 7 more developer resources.'
+  Polymarket''s developer surface includes authentication, documentation, GitHub presence, support, status page, and 8 more developer resources.'
 plans:
 - name: Polymarket Plans Pricing
   plan_count: 1
@@ -168,14 +172,14 @@ rules:
     warn: 5
   slug: polymarket-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 43.2
-  delta: 0.0
+  band: thin
+  composite: 41.4
+  delta: -1.8
   facets:
     commercial_clarity: 28.9
-    contract_quality: 67.4
+    contract_quality: 65.2
     developer_ergonomics: 23.9
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 41.7
     operational_transparency: 26.3
   previous_composite: 43.2
@@ -186,8 +190,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 30.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/screenshots/polymarket-2026-06-20T191927.png
 security:

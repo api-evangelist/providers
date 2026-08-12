@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 50.9
-  scored_at: '2026-08-10'
+  score: 47.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -601,16 +602,16 @@ rules:
     warn: 13
   slug: adobe-photoshop-spectral-rules
 score:
-  band: exemplar
-  composite: 67.0
-  delta: 0.0
+  band: strong
+  composite: 60.2
+  delta: -6.8
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 87.6
-    developer_ergonomics: 54.3
+    commercial_clarity: 36.8
+    contract_quality: 84.3
+    developer_ergonomics: 58.7
     discoverability: 92.6
     governance: 38.5
-    operational_transparency: 63.2
+    operational_transparency: 47.4
   previous_composite: 67.0
   provenance:
     agentic_access: derived
@@ -621,9 +622,9 @@ score:
       marker_coverage: 0.0
       total: 10
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/screenshots/adobe-photoshop-2026-06-20T164959.png
 security:
 - kind: authentication

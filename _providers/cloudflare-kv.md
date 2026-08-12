@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,6 +43,22 @@ apis:
   slug: cloudflare-kv-workers-kv-namespace-api
 artifact_total: 36
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/cloudflare/api-schemas/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/cloudflare/.github/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/cloudflare/.github/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/cloudflare/api-schemas/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -240,7 +256,7 @@ overview: 'Cloudflare KV publishes 1 API on the [APIs.io](https://apis.io/) netw
   The Cloudflare KV catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Cloudflare KV''s developer surface includes documentation, getting-started guide, engineering blog, pricing, release notes, and 18 more developer resources.'
+  Cloudflare KV''s developer surface includes documentation, getting-started guide, engineering blog, pricing, release notes, and 22 more developer resources.'
 plans:
 - name: Cloudflare Kv Plans Pricing
   plan_count: 2
@@ -261,11 +277,11 @@ rules:
   slug: cloudflare-kv-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 50.3
+  delta: -0.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 63.6
+    contract_quality: 61.2
     developer_ergonomics: 21.7
     discoverability: 68.5
     governance: 58.3
@@ -278,8 +294,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-kv/refs/heads/main/screenshots/cloudflare-kv-2026-06-20T174555.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Deluxe Corporation API provides access to platform services and data for enterprise integration and automation.
@@ -75,16 +75,16 @@ rate_limits:
   name: Deluxe Rate Limits
   slug: deluxe-rate-limits
 score:
-  band: emerging
-  composite: 13.7
-  delta: 0.0
+  band: minimal
+  composite: 9.9
+  delta: -3.8
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 5.3
   previous_composite: 13.7
   regulatory:
     applies: true
@@ -92,8 +92,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/screenshots/deluxe-2026-06-20T175905.png
 security:

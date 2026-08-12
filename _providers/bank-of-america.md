@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -66,6 +66,10 @@ collections:
   name: Bank of America CashPro API
   slug: open-bank-of-america-cashpro-api
 common:
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.bankofamerica.com/help/overview/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -300,7 +304,7 @@ overview: 'Bank of America publishes 6 APIs on the [APIs.io](https://apis.io/) n
   The Bank of America catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Bank of America''s developer surface includes authentication, documentation, signup flow, engineering blog, and 11 more developer resources.'
+  Bank of America''s developer surface includes support, authentication, documentation, signup flow, engineering blog, and 11 more developer resources.'
 plans:
 - name: Bank Of America Plans Pricing
   plan_count: 1
@@ -350,15 +354,15 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: developing
-  composite: 52.5
-  delta: 0.0
+  composite: 51.0
+  delta: -1.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 72.3
-    developer_ergonomics: 21.7
+    commercial_clarity: 47.4
+    contract_quality: 71.9
+    developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 52.5
   provenance:
     agentic_access: derived
@@ -373,8 +377,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/screenshots/bank-of-america-2026-06-20T172951.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The Jakarta Bean Validation 3.1 specification defines the constraint model, annotation processor, Validator API, method validation, group sequences, cascaded validation, constraint composition, and th
@@ -42,6 +42,26 @@ apis:
   slug: jakarta-validation-api
 artifact_total: 22
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/jakartaee/validation/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/jakartaee/validation/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/jakartaee/.github/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/jakartaee/validation/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/jakartaee/validation/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -105,7 +125,7 @@ network: true
 overview: 'Bean Validation publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Bean Validation, Data Quality, Java, Validation, and Jakarta EE.
 
 
-  Bean Validation''s developer surface includes engineering blog, documentation, and 4 more developer resources.'
+  Bean Validation''s developer surface includes engineering blog, documentation, and 9 more developer resources.'
 plans:
 - name: Bean Validation Plans Pricing
   plan_count: 3
@@ -117,19 +137,19 @@ rate_limits:
   slug: bean-validation-rate-limits
 score:
   band: emerging
-  composite: 23.4
-  delta: 0.0
+  composite: 15.6
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 23.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bean-validation/refs/heads/main/screenshots/bean-validation-2026-06-20T173105.png
 security:
 - kind: domain-security

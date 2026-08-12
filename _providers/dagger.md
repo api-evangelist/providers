@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,6 +60,22 @@ collections:
   name: Dagger HTTP GraphQL API
   slug: open-dagger
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/dagger/dagger/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/dagger/dagger/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/dagger/dagger/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/dagger/dagger/blob/main/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -140,10 +156,6 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/dagger-vocabulary.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/dagger-graphql-capabilities.yml
 - group: agent
   title: ''
   type: LlmsText
@@ -175,7 +187,7 @@ overview: 'Dagger publishes 1 API on the [APIs.io](https://apis.io/) network: Gr
   The Dagger catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Dagger''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, signup flow, YouTube channel, and 15 more developer resources.'
+  Dagger''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, signup flow, YouTube channel, and 18 more developer resources.'
 plans:
 - name: Dagger Plans Pricing
   plan_count: 3
@@ -187,15 +199,15 @@ rate_limits:
   slug: dagger-rate-limits
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 44.7
+  delta: -2.1
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 65.9
-    developer_ergonomics: 39.1
-    discoverability: 64.8
+    commercial_clarity: 39.5
+    contract_quality: 63.4
+    developer_ergonomics: 43.5
+    discoverability: 72.2
     governance: 10.4
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 46.8
   provenance:
     agentic_access: derived
@@ -204,8 +216,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/screenshots/dagger-2026-06-20T175437.png
 security:

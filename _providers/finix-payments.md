@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -169,6 +169,10 @@ collections:
   name: Finix Authorizations Webhooks API
   slug: postman-finix-payments-webhooks-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/finix-payments-openapi-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -339,7 +343,7 @@ overview: 'Finix Payments publishes 19 APIs on the [APIs.io](https://apis.io/) n
   The Finix Payments catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Finix Payments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+  Finix Payments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
 random_paper: 76
 rate_limits:
 - limit_count: 2
@@ -347,13 +351,13 @@ rate_limits:
   slug: finix-payments-rate-limits
 score:
   band: strong
-  composite: 64.7
-  delta: 0.0
+  composite: 59.9
+  delta: -4.8
   facets:
     commercial_clarity: 52.6
-    contract_quality: 69.8
+    contract_quality: 67.2
     developer_ergonomics: 73.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 73.7
   previous_composite: 64.7
@@ -372,9 +376,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 68.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 46.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/screenshots/finix-payments-2026-07-25T214524.png
 security:

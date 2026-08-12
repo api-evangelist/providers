@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -97,6 +97,14 @@ collections:
   name: Mercury API
   slug: open-mercury
 common:
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.mercury.com/changelog
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.mercury.com/docs/getting-started
 - group: agent
   title: ''
   type: AgenticAccess
@@ -167,7 +175,7 @@ overview: 'Mercury publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
   The Mercury catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Mercury''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  Mercury''s developer surface includes changelog, getting-started guide, authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Mercury Plans Pricing
   plan_count: 3
@@ -187,16 +195,16 @@ rules:
     warn: 6
   slug: mercury-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 42.3
-  delta: 0.0
+  band: thin
+  composite: 39.5
+  delta: -2.8
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 67.7
-    developer_ergonomics: 21.7
-    discoverability: 74.1
+    commercial_clarity: 15.8
+    contract_quality: 65.7
+    developer_ergonomics: 32.6
+    discoverability: 81.5
     governance: 47.9
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 42.3
   provenance:
     agentic_access: derived
@@ -211,8 +219,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/screenshots/mercury-2026-06-20T185218.png
 security:

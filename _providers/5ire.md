@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 endpoint for the 5ireChain mainnet (EIP-155 chain ID 995, native currency 5ire, 18 decimals). Serves the standard eth_*, net_* and web3_* method families against the E
@@ -32,6 +32,22 @@ apis:
   slug: 5irechain-native-substrate-rpc
 artifact_total: 5
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/5ire-tech/5ireChain/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/5ire-tech/5ireChain/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/5ire-tech/5ireChain/blob/master/docs/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/5ire-tech/5ireChain/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -140,24 +156,24 @@ network: true
 overview: '5ire publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include blockchain, layer-1, smart-contracts, evm, and web3.
 
 
-  5ire''s developer surface includes documentation, getting-started guide, engineering blog, support, FAQ, sandbox, authentication, and 17 more developer resources.'
+  5ire''s developer surface includes documentation, getting-started guide, engineering blog, support, FAQ, sandbox, authentication, and 21 more developer resources.'
 random_paper: 25
 score:
   band: emerging
-  composite: 24.8
-  delta: 0.0
+  composite: 23.7
+  delta: -1.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 58.7
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 3.1
     operational_transparency: 26.3
   previous_composite: 24.8
   provenance:
     conformance: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: documented
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-10'
+  score: 37.8
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: The Comments API from Life Biosciences — 1 operation(s) for comments.
@@ -193,23 +193,23 @@ overview: 'Life Biosciences publishes 8 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 112
 score:
   band: thin
-  composite: 33.3
-  delta: -0.4
+  composite: 31.5
+  delta: -1.8
   facets:
     commercial_clarity: 21.1
-    contract_quality: 55.8
+    contract_quality: 57.5
     developer_ergonomics: 16.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 33.7
+  previous_composite: 33.3
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 8
     mcp: derived
     skills: derived
   regulatory:
@@ -217,9 +217,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 40.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 31.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/screenshots/life-biosciences-2026-08-07T171618.png
 security:

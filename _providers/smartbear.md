@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -66,6 +66,10 @@ collections:
   name: SmartBear SwaggerHub API
   slug: open-smartbear-swaggerhub
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/SmartBear/swaggerhub-cli/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -199,7 +203,7 @@ overview: 'SmartBear publishes 5 APIs on the [APIs.io](https://apis.io/) network
   The SmartBear catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SmartBear''s developer surface includes authentication, documentation, engineering blog, pricing, and 17 more developer resources.'
+  SmartBear''s developer surface includes authentication, documentation, engineering blog, pricing, and 18 more developer resources.'
 plans:
 - name: Smartbear Plans Pricing
   plan_count: 1
@@ -228,15 +232,15 @@ rules:
   slug: smartbear-rules
 score:
   band: developing
-  composite: 53.2
-  delta: 0.0
+  composite: 47.3
+  delta: -5.9
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 67.3
+    commercial_clarity: 31.6
+    contract_quality: 64.8
     developer_ergonomics: 43.5
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 53.2
   provenance:
     agentic_access: derived
@@ -245,9 +249,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/screenshots/smartbear-2026-06-20T194038.png
 security:
 - kind: authentication

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +22,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-08-10'
+  score: 46.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 1
@@ -68,8 +69,16 @@ apis:
 - description: Wave-based migration orchestration
   name: Amazon Application Migration Service Waves API
   slug: amazon-application-migration-service-waves-api
-artifact_total: 343
+artifact_total: 344
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/amazon-application-migration-service-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-application-migration-service-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1032,6 +1041,10 @@ jsonld:
   property_count: 0
   slug: amazon-application-migration-service-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: amazon-application-migration-service-mcp.yml
+  slug: amazon-application-migration-service-mcpyml
 modified: '2026-06-20'
 name: Amazon Application Migration Service
 nav: Providers
@@ -1042,7 +1055,7 @@ overview: 'Amazon Application Migration Service publishes 10 APIs on the [APIs.i
   The Amazon Application Migration Service catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Application Migration Service''s developer surface includes authentication and 6 more developer resources.'
+  Amazon Application Migration Service''s developer surface includes authentication and 8 more developer resources.'
 random_paper: 80
 rules:
 - name: Amazon Application Migration Service API Rules
@@ -1063,12 +1076,12 @@ rules:
   slug: amazon-application-migration-service-spectral-rules
 score:
   band: thin
-  composite: 38.1
-  delta: 0.0
+  composite: 37.8
+  delta: -0.3
   facets:
     commercial_clarity: 0.0
-    contract_quality: 79.1
-    developer_ergonomics: 10.9
+    contract_quality: 76.1
+    developer_ergonomics: 13.0
     discoverability: 77.8
     governance: 69.8
     operational_transparency: 0.0
@@ -1082,8 +1095,8 @@ score:
       marker_coverage: 0.0
       total: 10
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/screenshots/amazon-application-migration-service-2026-07-25T195925.png
 security:

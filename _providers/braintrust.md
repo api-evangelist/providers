@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 0
@@ -132,6 +132,18 @@ collections:
   name: Braintrust API
   slug: open-braintrust
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/braintrustdata/autoevals/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/braintrustdata/autoevals/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/braintrustdata/autoevals/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -199,7 +211,7 @@ network: true
 overview: 'Braintrust publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Acls API, AiSecrets API, ApiKeys API, and 25 more. Tagged areas include Artificial Intelligence, LLM, Observability, Evaluation, and Experiments.
 
 
-  Braintrust''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 8 more developer resources.'
+  Braintrust''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 11 more developer resources.'
 plans:
 - name: Braintrust Plans Pricing
   plan_count: 1
@@ -211,11 +223,11 @@ rate_limits:
   slug: braintrust-rate-limits
 score:
   band: developing
-  composite: 44.7
-  delta: 0.0
+  composite: 44.2
+  delta: -0.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 61.7
+    contract_quality: 59.4
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
@@ -228,8 +240,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/screenshots/braintrust-2026-06-20T173630.png
 security:

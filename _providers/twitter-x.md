@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 68.0
-  scored_at: '2026-08-10'
+  score: 64.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 3
@@ -177,6 +178,10 @@ collections:
   name: X API v2 Account Activity Webhooks API
   slug: postman-twitter-x-webhooks-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/twitter-x-x-api-v2-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -351,7 +356,7 @@ overview: 'Twitter/X publishes 22 APIs on the [APIs.io](https://apis.io/) networ
   The Twitter/X catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Twitter/X''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 32 more developer resources.'
+  Twitter/X''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 33 more developer resources.'
 random_paper: 24
 rate_limits:
 - limit_count: 18
@@ -363,12 +368,12 @@ scopes:
   slug: twitter-x-scopes
   summary_line: 21 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 66.6
-  delta: 0.0
+  band: strong
+  composite: 65.9
+  delta: -0.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 67.4
+    contract_quality: 64.8
     developer_ergonomics: 89.1
     discoverability: 92.6
     governance: 11.5
@@ -384,8 +389,8 @@ score:
       total: 22
     mcp: first-party
     skills: unknown
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

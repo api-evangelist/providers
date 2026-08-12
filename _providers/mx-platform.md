@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 55
 apis:
 - description: The Account_numbers API from MX Platform — 2 operation(s) for account_numbers.
@@ -316,16 +316,16 @@ rate_limits:
   name: Mx Platform Rate Limits
   slug: mx-platform-rate-limits
 score:
-  band: developing
-  composite: 48.5
-  delta: 0.0
+  band: thin
+  composite: 41.4
+  delta: -7.1
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 62.3
+    commercial_clarity: 57.9
+    contract_quality: 60.0
     developer_ergonomics: 15.2
     discoverability: 66.7
     governance: 0.0
-    operational_transparency: 76.3
+    operational_transparency: 52.6
   previous_composite: 48.5
   provenance:
     contracts:
@@ -339,9 +339,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mx-platform/refs/heads/main/screenshots/mx-platform-2026-06-20T185909.png
 security:
 - kind: domain-security

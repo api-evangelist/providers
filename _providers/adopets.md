@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -86,7 +86,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/adopets-external-openapi.yml
+  url: openapi/_original/adopets-external-openapi.yml
 - group: other
   title: ''
   type: Overlay
@@ -162,11 +162,11 @@ overview: 'Adopets publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 random_paper: 56
 score:
   band: thin
-  composite: 34.5
-  delta: 0.0
+  composite: 34.0
+  delta: -0.5
   facets:
     commercial_clarity: 0.0
-    contract_quality: 63.0
+    contract_quality: 60.7
     developer_ergonomics: 49.5
     discoverability: 81.5
     governance: 11.5
@@ -188,8 +188,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/screenshots/adopets-2026-07-25T181658.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -152,11 +152,11 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 31.7
-  delta: 0.0
+  composite: 33.6
+  delta: 1.9
   facets:
-    commercial_clarity: 10.5
-    contract_quality: 62.8
+    commercial_clarity: 23.7
+    contract_quality: 60.8
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
@@ -175,8 +175,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 40.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/screenshots/pushbullet-2026-06-20T192316.png
 security:

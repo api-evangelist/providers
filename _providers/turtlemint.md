@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST APIs for embedded insurance distribution — lookups/master data, quotes, proposals and payments — built to OpenAPI 3.0 (Swagger), secured with Bearer access tokens, and testable in a sandbox "Deve
@@ -139,13 +139,13 @@ overview: 'Turtlemint publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 68
 score:
   band: thin
-  composite: 32.5
-  delta: 0.0
+  composite: 31.6
+  delta: -0.9
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 67.4
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 7.9
   previous_composite: 32.5
@@ -158,8 +158,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

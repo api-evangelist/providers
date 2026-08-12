@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-10'
+  score: 30.6
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: British Airways' IATA New Distribution Capability API - a direct link into BA's host reservation system for flight shopping, ordering, ticketing and post-booking servicing, operated jointly across IAG
@@ -154,8 +154,8 @@ score:
   previous_composite: 32.2
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/british-airways/refs/heads/main/screenshots/british-airways-2026-08-07T162825.png
 security:

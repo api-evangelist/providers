@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 3
@@ -128,6 +128,10 @@ apis:
   slug: benchmark-email-webhooks-api
 artifact_total: 47
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/BenchmarkEmail/RESTful-API-v3/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -239,7 +243,7 @@ overview: 'Benchmark Email publishes 29 APIs on the [APIs.io](https://apis.io/) 
   The Benchmark Email catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Benchmark Email''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  Benchmark Email''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Benchmark Email Plans Pricing
   plan_count: 3
@@ -260,11 +264,11 @@ rules:
   slug: benchmark-email-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.2
-  delta: 0.0
+  composite: 51.6
+  delta: -0.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 72.1
+    contract_quality: 69.4
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
@@ -277,8 +281,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/screenshots/benchmark-email-2026-06-20T173133.png
 security:

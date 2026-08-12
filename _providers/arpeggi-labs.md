@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Split an audio track into vocal and instrument stems.
@@ -48,6 +48,10 @@ apis:
   slug: arpeggi-labs-voice-models-api
 artifact_total: 9
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/arpeggi-labs-kits-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -159,7 +163,7 @@ network: true
 overview: 'Arpeggi Labs publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Stem Splitter API, Vocal Separation API, Voice Blender API, and 2 more. Tagged areas include Company, Music, Audio, Artificial Intelligence, and Voice.
 
 
-  Arpeggi Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 17 more developer resources.'
+  Arpeggi Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 18 more developer resources.'
 random_paper: 38
 rate_limits:
 - limit_count: 2
@@ -167,11 +171,11 @@ rate_limits:
   slug: arpeggi-labs-rate-limits
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 48.4
+  delta: 1.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 63.6
+    contract_quality: 61.2
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
@@ -186,14 +190,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 34.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/screenshots/arpeggi-labs-2026-07-25T201241.png
 security:

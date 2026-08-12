@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 54.5
-  scored_at: '2026-08-10'
+  score: 50.9
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: RESTful API for managing Cisco Meraki cloud-managed networking devices including wireless access points, switches, security appliances, and cameras. Supports network configuration, monitoring, and aut
@@ -93,7 +94,7 @@ common:
 - group: agent
   title: ''
   type: AgenticAccess
-  url: agentic-access/cisco-agentic-access.yml
+  url: agentic-access/_scaffold/cisco-agentic-access.yml
 - group: build
   title: ''
   type: Packages
@@ -309,23 +310,23 @@ rules:
     warn: 10
   slug: cisco-spectral-rules
 score:
-  band: strong
-  composite: 61.5
-  delta: 0.0
+  band: developing
+  composite: 54.7
+  delta: -6.8
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 36.8
     contract_quality: 53.1
     developer_ergonomics: 65.2
     discoverability: 92.6
     governance: 69.8
-    operational_transparency: 42.1
+    operational_transparency: 26.3
   previous_composite: 61.5
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/screenshots/cisco-2026-07-25T205421.png
 security:
 - kind: authentication

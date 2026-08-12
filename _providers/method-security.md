@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 55.6
-  scored_at: '2026-08-10'
+  score: 52.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 3
@@ -74,6 +75,10 @@ asyncapis:
   name: Method Security Webhooks
   slug: method-security-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/method-security-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -217,17 +222,17 @@ overview: 'Method Security publishes 10 APIs on the [APIs.io](https://apis.io/) 
   The Method Security catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Method Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, CLI, changelog, and 24 more developer resources.'
+  Method Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, CLI, changelog, and 25 more developer resources.'
 random_paper: 66
 score:
   band: developing
-  composite: 55.4
-  delta: 0.0
+  composite: 54.0
+  delta: -1.4
   facets:
     commercial_clarity: 36.8
-    contract_quality: 59.5
+    contract_quality: 57.3
     developer_ergonomics: 71.2
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 39.5
   previous_composite: 55.4
@@ -247,8 +252,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 66.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/screenshots/method-security-2026-08-07T172708.png
 security:

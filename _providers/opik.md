@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 39
 apis:
 - description: Agent configuration management
@@ -150,6 +150,10 @@ apis:
   slug: opik-workspaces-api
 artifact_total: 52
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/comet-ml/opik/blob/main/LICENSE
 - group: auth
   title: ''
   type: TrustCenter
@@ -281,7 +285,7 @@ overview: 'Opik publishes 39 APIs on the [APIs.io](https://apis.io/) network, in
   The Opik catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Opik''s developer surface includes documentation, engineering blog, pricing, changelog, and 18 more developer resources.'
+  Opik''s developer surface includes documentation, engineering blog, pricing, changelog, and 19 more developer resources.'
 plans:
 - name: Opik Plans Pricing
   plan_count: 5
@@ -302,12 +306,12 @@ rules:
   slug: opik-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.6
-  delta: 0.0
+  composite: 53.9
+  delta: 0.3
   facets:
     commercial_clarity: 57.9
-    contract_quality: 61.3
-    developer_ergonomics: 10.9
+    contract_quality: 59.0
+    developer_ergonomics: 15.2
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 68.4
@@ -318,8 +322,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 39
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opik/refs/heads/main/screenshots/opik-2026-06-20T191101.png
 security:

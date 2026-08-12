@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -87,6 +87,18 @@ collections:
   name: HashiCorp Consul HTTP API
   slug: open-consul-http-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/hashicorp/consul/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/hashicorp/.github/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/hashicorp/consul/blob/main/.github/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -193,7 +205,7 @@ overview: 'HashiCorp Consul publishes 14 APIs on the [APIs.io](https://apis.io/)
   The HashiCorp Consul catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  HashiCorp Consul''s developer surface includes authentication, documentation, getting-started guide, changelog, engineering blog, and 14 more developer resources.'
+  HashiCorp Consul''s developer surface includes authentication, documentation, getting-started guide, changelog, engineering blog, and 17 more developer resources.'
 plans:
 - name: Consul Plans Pricing
   plan_count: 3
@@ -222,15 +234,15 @@ rules:
   slug: consul-rules
 score:
   band: developing
-  composite: 54.2
-  delta: 0.0
+  composite: 43.6
+  delta: -10.6
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 57.4
+    commercial_clarity: 36.8
+    contract_quality: 55.2
     developer_ergonomics: 37.0
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 54.2
   provenance:
     agentic_access: derived
@@ -239,9 +251,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 31.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/screenshots/consul-2026-06-20T174916.png
 security:
 - kind: authentication

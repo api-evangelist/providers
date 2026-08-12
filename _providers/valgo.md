@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.2
-  scored_at: '2026-08-10'
+  score: 44.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -64,6 +64,10 @@ apis:
   slug: valgo-v1-api
 artifact_total: 12
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/valgo-humanbaselines-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -167,17 +171,17 @@ network: true
 overview: 'Valgo publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Compute API, Compute Batch API, Compute Depot Route API, and 5 more. Tagged areas include Company, Insurance, Risk Management, Autonomous Vehicles, and Robotics.
 
 
-  Valgo''s developer surface includes authentication, changelog, support, signup flow, engineering blog, and 17 more developer resources.'
+  Valgo''s developer surface includes authentication, changelog, support, signup flow, engineering blog, and 18 more developer resources.'
 random_paper: 73
 score:
   band: thin
-  composite: 38.3
-  delta: 0.0
+  composite: 37.0
+  delta: -1.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 46.7
+    contract_quality: 45.0
     developer_ergonomics: 32.6
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 38.3
@@ -197,8 +201,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

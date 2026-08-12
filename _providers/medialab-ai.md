@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: documented
     rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-10'
+  score: 27.5
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: 'The Genius API exposes the music knowledge community behind genius.com: annotations (crowd-sourced explanations attached to a fragment of a document), referents (the fragments annotations attach to), '
@@ -27,12 +27,16 @@ apis:
 - description: 'The Imgur API (version 3) exposes the Imgur image-sharing and community platform over a RESTful HTTPS interface: image upload and retrieval, albums, the public gallery and its tags, comments, and acco'
   name: Imgur API
   slug: imgur-api
-artifact_total: 8
+artifact_total: 9
 collections:
 - collection_type: postman
   name: Imgur API
   slug: postman-medialab-ai-imgur-api
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/medialab-ai-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -186,6 +190,10 @@ description: MediaLab.AI Inc. is a Santa Monica, California holding company for 
   documented as a public Postman collection.
 image: https://cdn.prod.website-files.com/6434b7d63112666081bedeb0/643591619f8e24bf570e827e_medialab-webclip.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: medialab-ai-mcp.yml
+  slug: medialab-ai-mcpyml
 modified: '2026-08-01'
 name: MediaLab.AI
 nav: Providers
@@ -193,7 +201,7 @@ network: true
 overview: 'MediaLab.AI publishes 1 API on the [APIs.io](https://apis.io/) network: Imgur API. Tagged areas include Company, Media, Social, Advertising, and Content.
 
 
-  MediaLab.AI''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 30 more developer resources.'
+  MediaLab.AI''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 31 more developer resources.'
 random_paper: 18
 rate_limits:
 - limit_count: 3
@@ -205,13 +213,13 @@ scopes:
   slug: medialab-ai-scopes
   summary_line: 4 scopes · authorizationCode/implicit
 score:
-  band: developing
-  composite: 43.8
-  delta: 0.0
+  band: thin
+  composite: 40.2
+  delta: -3.6
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
-    developer_ergonomics: 62.5
+    developer_ergonomics: 64.7
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 71.1
@@ -220,14 +228,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 66.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/screenshots/medialab-ai-2026-08-07T172332.png
 security:

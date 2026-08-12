@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +12,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-08-10'
+  score: 51.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 1
@@ -31,12 +32,16 @@ apis:
 - description: The GetirFood (GetirYemek) partner integration API — a Swagger 2.0 contract with 62 operations across seven tags (auth, restaurants, products, chain-menus, food-orders, payment-methods, changelog, hea
   name: GetirFood API
   slug: getirfood-api
-artifact_total: 6
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Getir Food Webhooks
   slug: getir-food-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/getir-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -142,6 +147,10 @@ description: 'Getir is an Istanbul-based on-demand delivery company, founded in 
   In February 2026 Uber agreed to acquire Getir''s Türkiye delivery business, cleared by the Turkish Competition Authority in June 2026.'
 image: https://developers.getir.com/assets/getir-developers-logo-BbJf7m5Z.svg
 layout: provider
+mcp_servers:
+- description: ''
+  name: getir-mcp.yml
+  slug: getir-mcpyml
 modified: '2026-07-31'
 name: Getir
 nav: Providers
@@ -152,7 +161,7 @@ overview: 'Getir publishes 1 API on the [APIs.io](https://apis.io/) network: Get
   The Getir catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Getir''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, changelog, and 18 more developer resources.'
+  Getir''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, changelog, and 19 more developer resources.'
 random_paper: 75
 rate_limits:
 - limit_count: 3
@@ -160,13 +169,13 @@ rate_limits:
   slug: getir-rate-limits
 score:
   band: developing
-  composite: 46.3
-  delta: 0.0
+  composite: 46.5
+  delta: 0.2
   facets:
     commercial_clarity: 10.5
-    contract_quality: 50.4
-    developer_ergonomics: 58.2
-    discoverability: 87.0
+    contract_quality: 48.5
+    developer_ergonomics: 66.8
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 76.3
   previous_composite: 46.3
@@ -180,8 +189,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/screenshots/getir-2026-08-07T165703.png
 security:

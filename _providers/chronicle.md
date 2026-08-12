@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 34.0
-  scored_at: '2026-08-10'
+  score: 30.4
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Workspace-scoped REST API to list templates, create presentations from templates, generate presentations from a prompt (asynchronous, poll-to-complete), upload reference files to ground generation, fe
@@ -201,8 +201,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chronicle/refs/heads/main/screenshots/chronicle-2026-07-25T205309.png
 security:

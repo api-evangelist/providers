@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -68,6 +68,10 @@ apis:
   slug: triplit-webhooks-api
 artifact_total: 26
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/aspen-cloud/triplit/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -172,7 +176,7 @@ overview: 'Triplit publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   The Triplit catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Triplit''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
+  Triplit''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
 plans:
 - name: Triplit Plans Pricing
   plan_count: 1
@@ -193,11 +197,11 @@ rules:
   slug: triplit-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.7
-  delta: 0.0
+  composite: 44.1
+  delta: -0.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 70.9
+    contract_quality: 68.3
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 58.3
@@ -210,8 +214,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

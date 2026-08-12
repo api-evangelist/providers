@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 50.9
-  scored_at: '2026-08-10'
+  score: 47.3
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Front Core API is a REST API over Front's shared-inbox platform. It exposes conversations, messages, drafts, comments, contacts, accounts, inboxes, channels, tags, teammates, teams, knowledge base
@@ -207,8 +208,8 @@ scopes:
   summary_line: 57 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.3
-  delta: 0.0
+  composite: 56.7
+  delta: -2.6
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -220,14 +221,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 73.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/screenshots/frontapp-2026-07-25T215228.png
 security:

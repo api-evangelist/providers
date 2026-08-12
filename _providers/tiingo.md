@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -231,16 +231,16 @@ rate_limits:
   name: Tiingo Rate Limits
   slug: tiingo-rate-limits
 score:
-  band: strong
-  composite: 64.0
-  delta: 0.0
+  band: developing
+  composite: 55.9
+  delta: -8.1
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 65.9
+    commercial_clarity: 60.5
+    contract_quality: 63.4
     developer_ergonomics: 66.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 64.0
   provenance:
     agentic_access: derived
@@ -258,9 +258,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/screenshots/tiingo-2026-06-20T195345.png
 security:
 - kind: authentication

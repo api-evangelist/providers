@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 23.0
-  scored_at: '2026-08-10'
+  score: 23.2
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: Job openings custom post type.
@@ -55,8 +55,20 @@ apis:
 - description: Categories and tags.
   name: Ascend Advanced Therapies Taxonomy API
   slug: ascend-advanced-therapies-taxonomy-api
-artifact_total: 10
+artifact_total: 11
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/ascend-advanced-therapies-monitor-news-insights.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/ascend-advanced-therapies-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ascend-advanced-therapies-wp-rest-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -114,6 +126,10 @@ description: Ascend Advanced Therapies is a gene-to-GMP contract development and
   API behind its corporate website, captured here for discovery.
 image: https://www.ascend-adv.com/wp-content/uploads/2025/02/cropped-favicon-192x192.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: ascend-advanced-therapies-mcp.yml
+  slug: ascend-advanced-therapies-mcpyml
 modified: '2026-07-19'
 name: Ascend Advanced Therapies
 nav: Providers
@@ -121,17 +137,17 @@ network: true
 overview: 'Ascend Advanced Therapies publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Careers API, Discovery API, Media API, and 5 more. Tagged areas include Company, Biotechnology, Gene Therapy, Cell Therapy, and Contract Manufacturing.
 
 
-  Ascend Advanced Therapies'' developer surface includes engineering blog and 12 more developer resources.'
+  Ascend Advanced Therapies'' developer surface includes engineering blog and 15 more developer resources.'
 random_paper: 63
 score:
-  band: thin
-  composite: 29.0
-  delta: 0.0
+  band: emerging
+  composite: 27.3
+  delta: -1.7
   facets:
     commercial_clarity: 21.1
-    contract_quality: 58.4
-    developer_ergonomics: 2.2
-    discoverability: 92.6
+    contract_quality: 56.2
+    developer_ergonomics: 6.0
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 29.0
@@ -149,9 +165,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 23.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 17.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ascend-advanced-therapies/refs/heads/main/screenshots/ascend-advanced-therapies-2026-07-25T201402.png
 security:

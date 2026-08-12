@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -163,16 +163,16 @@ rules:
     warn: 4
   slug: dmi-open-data-api-rules
 score:
-  band: developing
-  composite: 47.5
-  delta: 0.0
+  band: thin
+  composite: 40.3
+  delta: -7.2
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 71.3
+    commercial_clarity: 15.8
+    contract_quality: 68.7
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 47.5
   provenance:
     agentic_access: derived
@@ -187,9 +187,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 42.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/screenshots/danish-meteorological-institutes-2026-06-20T175450.png
 security:
 - kind: authentication

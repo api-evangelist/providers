@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 66.4
-  scored_at: '2026-08-10'
+  score: 62.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -201,6 +201,10 @@ collections:
   name: Slash Public Account .well Known API
   slug: postman-slash-well-known-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/slash-openapi-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -367,7 +371,7 @@ overview: 'Slash publishes 26 APIs on the [APIs.io](https://apis.io/) network, i
   The Slash catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Slash''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, pricing, and 30 more developer resources.'
+  Slash''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, pricing, and 31 more developer resources.'
 random_paper: 75
 scopes:
 - name: Slash Scopes
@@ -376,11 +380,11 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 62.4
-  delta: 0.0
+  composite: 58.9
+  delta: -3.5
   facets:
     commercial_clarity: 52.6
-    contract_quality: 63.7
+    contract_quality: 61.4
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 20.8
@@ -401,9 +405,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 87.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 67.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

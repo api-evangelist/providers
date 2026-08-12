@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 33.6
-  scored_at: '2026-08-10'
+  score: 40.8
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: Pages, posts, reusable blocks and navigation.
@@ -39,8 +39,16 @@ apis:
 - description: Categories and tags.
   name: Allotex Taxonomy API
   slug: allotex-taxonomy-api
-artifact_total: 9
+artifact_total: 10
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/allotex-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/allotex-content-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -175,6 +183,10 @@ jsonld:
   property_count: 0
   slug: allotex-organization
 layout: provider
+mcp_servers:
+- description: ''
+  name: allotex-mcp.yml
+  slug: allotex-mcpyml
 modified: '2026-08-06'
 name: Allotex
 nav: Providers
@@ -185,31 +197,37 @@ overview: 'Allotex publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   The Allotex catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Allotex''s developer surface includes support, authentication, and 29 more developer resources.'
+  Allotex''s developer surface includes support, authentication, and 31 more developer resources.'
 random_paper: 65
 score:
   band: emerging
-  composite: 20.8
-  delta: 0.4
+  composite: 22.2
+  delta: 1.4
   facets:
     commercial_clarity: 10.5
-    contract_quality: 18.6
-    developer_ergonomics: 16.8
-    discoverability: 92.6
+    contract_quality: 18.8
+    developer_ergonomics: 25.5
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 20.4
+  previous_composite: 20.8
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 6
       marker_coverage: 100.0
-      total: 1
+      total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 26.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allotex/refs/heads/main/screenshots/allotex-2026-08-07T161228.png
 security:

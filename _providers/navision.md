@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -205,6 +205,14 @@ collections:
   name: Dynamics 365 Business Central API v2.0
   slug: open-business-central-api-v2
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/christianbraeunlich/d365bc-api-postman/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/christianbraeunlich/d365bc-api-postman/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1628,7 +1636,7 @@ overview: 'Microsoft Dynamics NAV publishes 38 APIs on the [APIs.io](https://api
   The Microsoft Dynamics NAV catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Microsoft Dynamics NAV''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 47 more developer resources.'
+  Microsoft Dynamics NAV''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 49 more developer resources.'
 plans:
 - name: Navision Plans Pricing
   plan_count: 5
@@ -1661,16 +1669,16 @@ scopes:
   slug: navision-scopes
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
-  band: exemplar
-  composite: 69.5
-  delta: 0.0
+  band: strong
+  composite: 63.7
+  delta: -5.8
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 71.9
+    commercial_clarity: 60.5
+    contract_quality: 69.2
     developer_ergonomics: 63.0
     discoverability: 75.9
     governance: 68.8
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 69.5
   provenance:
     agentic_access: derived
@@ -1679,9 +1687,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 38
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/screenshots/navision-2026-06-20T190101.png
 security:
 - kind: authentication

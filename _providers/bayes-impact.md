@@ -27,10 +27,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/bayesimpact/bob-emploi/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/bayesimpact/bob-emploi/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -82,12 +90,12 @@ network: true
 overview: 'Bayes Impact is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Nonprofit, Artificial Intelligence, Data Science, and Public Services.
 
 
-  Bayes Impact''s developer surface includes engineering blog, support, and 8 more developer resources.'
+  Bayes Impact''s developer surface includes engineering blog, support, and 10 more developer resources.'
 random_paper: 55
 score:
-  band: minimal
-  composite: 11.9
-  delta: 0.0
+  band: emerging
+  composite: 14.0
+  delta: 2.1
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -96,8 +104,14 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 11.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 25.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bayes-impact/refs/heads/main/screenshots/bayes-impact-2026-07-25T202446.png
 security:

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 54.7
-  scored_at: '2026-08-10'
+  score: 51.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -100,6 +101,10 @@ collections:
   name: Nitro PDF Services Public Authentication Transformations API
   slug: postman-gonitro-transformations-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/gonitro-pdf-services-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -262,17 +267,17 @@ overview: 'GoNitro publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
   The GoNitro catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  GoNitro''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  GoNitro''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 random_paper: 74
 score:
   band: strong
-  composite: 61.3
-  delta: 0.0
+  composite: 60.4
+  delta: -0.9
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.9
+    contract_quality: 70.0
     developer_ergonomics: 66.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 52.6
   previous_composite: 61.3
@@ -286,8 +291,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/screenshots/gonitro-2026-07-25T220034.png
 security:

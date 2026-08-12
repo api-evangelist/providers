@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 0
@@ -138,6 +138,10 @@ asyncapis:
   name: Anchorage Webhooks
   slug: anchorage-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/anchorage-v2-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -177,7 +181,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/anchorage-v2-openapi-original.yml
+  url: openapi/_original/anchorage-v2-openapi-original.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -284,21 +288,21 @@ overview: 'Anchorage Digital publishes 28 APIs on the [APIs.io](https://apis.io/
   The Anchorage Digital catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Anchorage Digital''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, changelog, and 25 more developer resources.'
+  Anchorage Digital''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, changelog, and 26 more developer resources.'
 random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Anchorage Rate Limits
   slug: anchorage-rate-limits
 score:
-  band: strong
-  composite: 56.0
-  delta: 0.0
+  band: developing
+  composite: 54.5
+  delta: -1.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 73.1
+    contract_quality: 70.4
     developer_ergonomics: 64.7
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 78.9
   previous_composite: 56.0
@@ -318,8 +322,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/screenshots/anchorage-2026-07-25T200219.png
 security:

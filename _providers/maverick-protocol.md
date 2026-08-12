@@ -12,7 +12,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -20,21 +20,29 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-10'
+  score: 20.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Latest API from Maverick Protocol — 1 operation(s) for latest.
   name: Maverick Protocol Latest API
   slug: maverick-protocol-latest-api
-artifact_total: 3
+artifact_total: 4
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/maverick-protocol-market-tickers.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/maverick-protocol-mcp.yml
 - group: agent
   title: ''
   type: LLMsTxt
@@ -83,6 +91,10 @@ created: '2026-07-17'
 description: Maverick Protocol is a decentralized exchange (DEX) and automated market maker (AMM) for EVM chains, live on Ethereum, Base, zkSync Era and other networks through its dApp at app.mav.xyz. Its Dynamic Distribution AMM lets liquidity providers concentrate and automatically shift liquidity as prices move, and its veFlywheel and Boosted Positions direct MAV token incentives to pools. The core protocol is a set of on-chain V1 and V2 Solidity contracts (Factory, Pool, Router, Quoter, PoolLens, position and reward contracts) documented at docs.mav.xyz, complemented by a public hosted Data API (v2-api.mav.xyz) that returns 24-hour market pricing and volume tickers per chain. Surfaced in the API Evangelist network from the Pantera Capital portfolio.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/maverick-protocol.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: maverick-protocol-mcp.yml
+  slug: maverick-protocol-mcpyml
 modified: '2026-07-20'
 name: Maverick Protocol
 nav: Providers
@@ -90,17 +102,17 @@ network: true
 overview: 'Maverick Protocol publishes 1 API on the [APIs.io](https://apis.io/) network: Latest API. Tagged areas include Company, Crypto, DeFi, DEX, and AMM.
 
 
-  Maverick Protocol''s developer surface includes documentation, API reference, getting-started guide, signup flow, and 7 more developer resources.'
+  Maverick Protocol''s developer surface includes documentation, API reference, getting-started guide, signup flow, and 9 more developer resources.'
 random_paper: 37
 score:
   band: thin
-  composite: 30.8
-  delta: 0.0
+  composite: 30.1
+  delta: -0.7
   facets:
     commercial_clarity: 13.2
-    contract_quality: 56.6
-    developer_ergonomics: 26.1
-    discoverability: 87.0
+    contract_quality: 54.5
+    developer_ergonomics: 29.9
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 30.8
@@ -118,8 +130,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maverick-protocol/refs/heads/main/screenshots/maverick-protocol-2026-08-07T172331.png
 security:

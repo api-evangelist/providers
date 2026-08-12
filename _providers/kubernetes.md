@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-10'
+  score: 38.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -460,15 +460,15 @@ rules:
   slug: kubernetes-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.4
-  delta: 0.0
+  composite: 58.3
+  delta: -7.1
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 85.3
+    commercial_clarity: 28.9
+    contract_quality: 82.1
     developer_ergonomics: 56.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 53.1
-    operational_transparency: 71.1
+    operational_transparency: 47.4
   previous_composite: 65.4
   provenance:
     agentic_access: derived
@@ -479,9 +479,9 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/screenshots/kubernetes-2026-06-20T184206.png
 security:
 - kind: authentication

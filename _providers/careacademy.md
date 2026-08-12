@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: The Compliance Report API from CareAcademy — 1 operation(s) for compliance report.
@@ -48,6 +48,10 @@ apis:
   slug: careacademy-sign-in-url-api
 artifact_total: 8
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/careacademy-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -159,17 +163,17 @@ network: true
 overview: 'CareAcademy publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Compliance Report API, Locations API, Organizations API, and 2 more. Tagged areas include Company, Training, Education, Compliance, and Home Care.
 
 
-  CareAcademy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
+  CareAcademy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
 random_paper: 91
 score:
   band: developing
-  composite: 45.2
-  delta: 0.0
+  composite: 43.8
+  delta: -1.4
   facets:
     commercial_clarity: 44.7
-    contract_quality: 54.0
+    contract_quality: 51.9
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
   previous_composite: 45.2
@@ -188,8 +192,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/screenshots/careacademy-2026-08-07T175428.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -71,6 +71,10 @@ apis:
   slug: processmaker-users-api
 artifact_total: 24
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/ProcessMaker/processmaker/blob/develop/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -182,7 +186,7 @@ overview: 'ProcessMaker publishes 10 APIs on the [APIs.io](https://apis.io/) net
   The ProcessMaker catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ProcessMaker''s developer surface includes authentication, documentation, engineering blog, release notes, pricing, and 12 more developer resources.'
+  ProcessMaker''s developer surface includes authentication, documentation, engineering blog, release notes, pricing, and 13 more developer resources.'
 plans:
 - name: Processmaker Plans Pricing
   plan_count: 3
@@ -203,12 +207,12 @@ rules:
   slug: processmaker-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.9
-  delta: 0.0
+  composite: 48.2
+  delta: 0.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.7
-    developer_ergonomics: 21.7
+    contract_quality: 63.2
+    developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
@@ -220,8 +224,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/processmaker/refs/heads/main/screenshots/processmaker-2026-06-20T192125.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'REST API for ambient clinical documentation: upload audio or open a WebSocket stream, generate structured SOAP / custom-template clinical notes, extract medical codes (ICD-10, CPT, SNOMED), and receiv'
@@ -143,8 +143,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sully-ai/refs/heads/main/screenshots/sully-ai-2026-06-20T194647.png
 security:

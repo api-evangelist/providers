@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.0
-  scored_at: '2026-08-10'
+  score: 32.7
+  scored_at: '2026-08-11'
 api_count: 11
 apis:
 - description: Category terms used to classify posts.
@@ -64,8 +64,16 @@ apis:
 - description: Post authors exposed by the site.
   name: Lish Users API
   slug: lish-users-api
-artifact_total: 13
+artifact_total: 14
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/lish-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lish-wordpress-overlay.yaml
 - group: auth
   title: ''
   type: Authentication
@@ -143,6 +151,10 @@ description: 'Lish is a corporate catering and workplace food service company se
   these are end-user product integrations — Lish operates no developer program and publishes no product API. The only public, self-describing HTTP API is the WordPress REST API behind its marketing site, profiled here.'
 image: https://www.lishfood.com/wp-content/uploads/2024/05/Lish-Hero-Lish_part_two_finals080jpghalf.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: lish-mcp.yml
+  slug: lish-mcpyml
 modified: '2026-07-19'
 name: Lish
 nav: Providers
@@ -150,17 +162,17 @@ network: true
 overview: 'Lish publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Comments API, Media API, and 8 more. Tagged areas include Company, Catering, Food and Beverage, Food Delivery, and Workplace.
 
 
-  Lish''s developer surface includes authentication, engineering blog, support, signup flow, and 14 more developer resources.'
+  Lish''s developer surface includes authentication, engineering blog, support, signup flow, and 16 more developer resources.'
 random_paper: 84
 score:
   band: emerging
-  composite: 25.2
-  delta: 0.0
+  composite: 24.4
+  delta: -0.8
   facets:
     commercial_clarity: 34.2
-    contract_quality: 15.7
-    developer_ergonomics: 19.0
-    discoverability: 92.6
+    contract_quality: 15.1
+    developer_ergonomics: 21.2
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 25.2
@@ -173,8 +185,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lish/refs/heads/main/screenshots/lish-2026-07-25T225325.png
 security:

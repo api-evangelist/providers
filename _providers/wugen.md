@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,6 +51,10 @@ apis:
   slug: wugen-taxonomy-api
 artifact_total: 10
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/wugen-allotera-content-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -183,28 +187,28 @@ network: true
 overview: 'Wugen publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Discovery API, Media API, and 4 more. Tagged areas include Company, Biotechnology, Cell Therapy, Oncology, and Life Sciences.
 
 
-  Wugen''s developer surface includes authentication, code examples, product news, support, and 26 more developer resources.'
+  Wugen''s developer surface includes authentication, code examples, product news, support, and 27 more developer resources.'
 random_paper: 86
 score:
   band: emerging
-  composite: 20.2
-  delta: 0.1
+  composite: 27.2
+  delta: 7.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 12.1
+    contract_quality: 45.0
     developer_ergonomics: 16.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 20.1
+  previous_composite: 20.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 2
-      marker_coverage: 100.0
-      total: 2
+      derived: 1
+      marker_coverage: 14.3
+      total: 7
     skills: derived
   regulatory:
     applies: true
@@ -212,9 +216,9 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: rising
 security:
 - kind: authentication
   name: Wugen Authentication

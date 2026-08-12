@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Appify platform's tenant-facing REST API. Appify's public pricing page lists "REST API access" among the standard capabilities included in a subscription. The API is served from the platform appli
@@ -107,8 +107,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 14.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appify/refs/heads/main/screenshots/appify-2026-08-07T161502.png
 security:

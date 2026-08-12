@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -114,6 +114,26 @@ collections:
   name: Amazon ECS Amazon Elastic Container Service (ECS) API
   slug: open-amazon-ecs
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/aws/amazon-ecs-service-connect-agent/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/aws/amazon-ecs-service-connect-agent/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/aws/amazon-ecs-service-connect-agent/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/aws/amazon-ecs-service-connect-agent/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/aws/amazon-ecs-service-connect-agent/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -687,7 +707,7 @@ overview: 'Amazon ECS publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
   The Amazon ECS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon ECS''s developer surface includes authentication, documentation, pricing, FAQ, getting-started guide, engineering blog, CLI, and 22 more developer resources.'
+  Amazon ECS''s developer surface includes authentication, documentation, pricing, FAQ, getting-started guide, engineering blog, CLI, and 27 more developer resources.'
 plans:
 - name: Amazon Ecs Plans Pricing
   plan_count: 3
@@ -715,16 +735,16 @@ rules:
     warn: 7
   slug: amazon-ecs-spectral-rules
 score:
-  band: exemplar
-  composite: 66.2
-  delta: 0.0
+  band: strong
+  composite: 58.7
+  delta: -7.5
   facets:
-    commercial_clarity: 65.8
-    contract_quality: 76.7
+    commercial_clarity: 42.1
+    contract_quality: 73.9
     developer_ergonomics: 56.5
     discoverability: 66.7
     governance: 58.3
-    operational_transparency: 68.4
+    operational_transparency: 52.6
   previous_composite: 66.2
   provenance:
     agentic_access: derived
@@ -733,9 +753,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/screenshots/amazon-ecs-2026-06-20T171639.png
 security:
 - kind: authentication

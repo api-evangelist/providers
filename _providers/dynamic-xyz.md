@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 208
   human_in_the_loop: 23
@@ -236,15 +236,15 @@ rate_limits:
   slug: dynamic-xyz-rate-limits
 score:
   band: thin
-  composite: 35.6
-  delta: 0.0
+  composite: 29.5
+  delta: -6.1
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 52.5
+    commercial_clarity: 23.7
+    contract_quality: 50.5
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 35.6
   provenance:
     agentic_access: derived
@@ -253,9 +253,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 35.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/dynamic-xyz/refs/heads/main/screenshots/dynamic-xyz-2026-06-20T180335.png
 security:
 - kind: authentication

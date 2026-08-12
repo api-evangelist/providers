@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 9.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Public management API for the Maverics platform, automated with confidential OAuth 2.0 client-credentials API clients (private_key_jwt / JWT client assertion, ES256). Region-specific auth surfaces are
@@ -164,8 +164,8 @@ score:
   previous_composite: 35.5
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

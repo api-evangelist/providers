@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -113,6 +113,18 @@ collections:
   name: Yodlee Core APIs
   slug: open-yodlee-core
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.yodlee.com/company/blog
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.yodlee.com/legal/privacy-notice
+- group: start
+  title: ''
+  type: Signup
+  url: https://developer.yodlee.com/user/register
 - group: agent
   title: ''
   type: AgenticAccess
@@ -180,7 +192,7 @@ network: true
 overview: 'Yodlee publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Account Token API, Accounts API, Auth API, and 18 more. Tagged areas include Financial Data, Data Aggregation, Banking, Fintech, and Open Finance.
 
 
-  Yodlee''s developer surface includes documentation, getting-started guide, and 9 more developer resources.'
+  Yodlee''s developer surface includes engineering blog, signup flow, documentation, getting-started guide, and 10 more developer resources.'
 plans:
 - name: Yodlee Plans Pricing
   plan_count: 1
@@ -192,15 +204,15 @@ rate_limits:
   slug: yodlee-rate-limits
 score:
   band: thin
-  composite: 34.3
-  delta: 0.0
+  composite: 34.6
+  delta: 0.3
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 56.1
-    developer_ergonomics: 34.8
+    commercial_clarity: 36.8
+    contract_quality: 54.2
+    developer_ergonomics: 37.0
     discoverability: 64.8
     governance: 10.4
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 34.3
   provenance:
     agentic_access: derived
@@ -214,9 +226,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 13.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 19.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/screenshots/yodlee-2026-06-20T201752.png
 security:

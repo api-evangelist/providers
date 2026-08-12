@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 69.6
-  scored_at: '2026-08-10'
+  score: 66.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 3
@@ -107,6 +107,14 @@ collections:
   name: Service Status
   slug: postman-cash-app-service-status-openapi
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/cash-app-accept-payment.md
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.cash.app/cash-app-pay-partner-api/api-reference/network-api/list-brands
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -161,7 +169,7 @@ common:
   url: https://status.cash.app
 - group: operate
   title: ''
-  type: Deprecation
+  type: DeprecationPolicy
   url: https://developers.cash.app/cash-app-pay-partner-api/guides/technical-guides/api-fundamentals/requests/api-versioning
 - group: design
   title: ''
@@ -173,11 +181,11 @@ common:
   url: https://developers.cash.app/cash-app-pay-partner-api/guides/pay-kit-sdk/pay-kit-web-overview/getting-started
 - group: start
   title: ''
-  type: SignUp
+  type: Signup
   url: https://developers.cash.app/cash-app-pay-partner-api/guides/partnerships/partner-with-cash-app-pay
 - group: build
   title: ''
-  type: Postman
+  type: PostmanCollection
   url: https://developers.cash.app/cash-app-pay-partner-api/guides/technical-guides/sandbox/postman-collection
 - group: operate
   title: ''
@@ -257,7 +265,7 @@ common:
   url: asyncapi/cash-app-webhooks.yml
 - group: agent
   title: ''
-  type: AgentSkill
+  type: AgentSkills
   url: skills/_index.yml
 - group: other
   title: ''
@@ -294,7 +302,7 @@ overview: 'Cash App publishes 12 APIs on the [APIs.io](https://apis.io/) network
   The Cash App catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cash App''s developer surface includes authentication, documentation, support, getting-started guide, signup flow, changelog, sandbox, and 35 more developer resources.'
+  Cash App''s developer surface includes API reference, authentication, documentation, support, getting-started guide, signup flow, changelog, and 37 more developer resources.'
 random_paper: 85
 scopes:
 - name: Cash App Scopes
@@ -303,12 +311,12 @@ scopes:
   summary_line: 4 scopes
 score:
   band: strong
-  composite: 57.6
-  delta: 0.0
+  composite: 58.9
+  delta: 1.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 64.9
-    developer_ergonomics: 71.2
+    contract_quality: 62.4
+    developer_ergonomics: 77.7
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 63.2
@@ -321,11 +329,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 65.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Payments
+    regime_id: payments
+    score: 70.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/screenshots/cash-app-2026-07-25T204719.png
 security:

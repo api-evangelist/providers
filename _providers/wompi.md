@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 3
@@ -251,11 +251,11 @@ rate_limits:
   slug: wompi-rate-limits
 score:
   band: strong
-  composite: 59.2
-  delta: 0.0
+  composite: 56.7
+  delta: -2.5
   facets:
     commercial_clarity: 68.4
-    contract_quality: 70.0
+    contract_quality: 67.4
     developer_ergonomics: 60.3
     discoverability: 81.5
     governance: 11.5
@@ -276,9 +276,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 62.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 50.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 46.8
-  scored_at: '2026-08-10'
+  score: 43.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -106,6 +106,10 @@ collections:
   name: Microsoft Power Automate Management Connections Flows API
   slug: postman-microsoft-power-automate-flows-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/microsoft-power-automate-management-api-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -374,7 +378,7 @@ overview: 'Microsoft Power Automate publishes 6 APIs on the [APIs.io](https://ap
   The Microsoft Power Automate catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Power Automate''s developer surface includes authentication, changelog, CLI, developer portal, engineering blog, support, training material, and 35 more developer resources.'
+  Microsoft Power Automate''s developer surface includes authentication, changelog, CLI, developer portal, engineering blog, support, training material, and 36 more developer resources.'
 plans:
 - name: Microsoft Power Automate Plans Pricing
   plan_count: 3
@@ -407,16 +411,16 @@ scopes:
   slug: microsoft-power-automate-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: strong
-  composite: 59.5
-  delta: 0.0
+  band: developing
+  composite: 54.4
+  delta: -5.1
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 32.2
+    commercial_clarity: 55.3
+    contract_quality: 31.0
     developer_ergonomics: 39.1
     discoverability: 100.0
     governance: 80.2
-    operational_transparency: 63.2
+    operational_transparency: 39.5
   previous_composite: 59.5
   provenance:
     agentic_access: derived
@@ -427,9 +431,15 @@ score:
       marker_coverage: 100.0
       total: 6
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 71.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/screenshots/microsoft-power-automate-2026-06-20T185521.png
 security:
 - kind: authentication

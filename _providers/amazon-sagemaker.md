@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -99,6 +99,26 @@ collections:
   name: Amazon SageMaker API
   slug: open-amazon-sagemaker
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/aws/sagemaker-core/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/aws/sagemaker-core/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/aws/.github/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/aws/sagemaker-core/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/aws/sagemaker-core/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -457,7 +477,7 @@ overview: 'Amazon SageMaker publishes 4 APIs on the [APIs.io](https://apis.io/) 
   The Amazon SageMaker catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon SageMaker''s developer surface includes developer portal, getting-started guide, documentation, API reference, developer console, signup flow, pricing, and 45 more developer resources.'
+  Amazon SageMaker''s developer surface includes developer portal, getting-started guide, documentation, API reference, developer console, signup flow, pricing, and 50 more developer resources.'
 plans:
 - name: Amazon Sagemaker Plans Pricing
   plan_count: 3
@@ -486,15 +506,15 @@ rules:
   slug: amazon-sagemaker-spectral-rules
 score:
   band: exemplar
-  composite: 73.6
-  delta: 0.0
+  composite: 69.8
+  delta: -3.8
   facets:
-    commercial_clarity: 86.8
-    contract_quality: 76.4
+    commercial_clarity: 76.3
+    contract_quality: 73.9
     developer_ergonomics: 65.2
     discoverability: 75.9
     governance: 68.8
-    operational_transparency: 63.2
+    operational_transparency: 55.3
   previous_composite: 73.6
   provenance:
     agentic_access: derived
@@ -503,8 +523,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/screenshots/amazon-sagemaker-2026-06-20T171815.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Apivault is a free, open-source API directory that serves as a gateway to a world of public APIs. It catalogs APIs across 51 categories with details on authentication method, CORS support, and HTTPS a
@@ -36,6 +36,22 @@ apis:
   slug: apivault
 artifact_total: 14
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Exifly/ApiVault/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Exifly/ApiVault/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/exa-studio/ApiVault/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/exa-studio/ApiVault/blob/main/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -80,20 +96,20 @@ rate_limits:
   name: Apivault Rate Limits
   slug: apivault-rate-limits
 score:
-  band: emerging
-  composite: 17.9
-  delta: 0.0
+  band: minimal
+  composite: 12.2
+  delta: -5.7
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 23.7
   previous_composite: 17.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/screenshots/apivault-2026-06-20T172306.png
 security:
 - kind: domain-security

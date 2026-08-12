@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Login and token refresh for the Nextiva Contact Center platform. Basic authentication generates a JWT bearer token carrying the user's authorities; the token-refresh operation exchanges an existing be
@@ -180,13 +180,13 @@ overview: 'Nextiva publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 71
 score:
   band: developing
-  composite: 55.8
-  delta: 0.0
+  composite: 53.3
+  delta: -2.5
   facets:
     commercial_clarity: 52.6
-    contract_quality: 67.4
+    contract_quality: 64.9
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
   previous_composite: 55.8
@@ -204,9 +204,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 56.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 50.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/screenshots/nextiva-2026-08-07T185215.png
 security:

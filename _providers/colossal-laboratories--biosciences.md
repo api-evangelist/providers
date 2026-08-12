@@ -1,10 +1,10 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-10'
+  score: 28.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -60,6 +60,10 @@ apis:
   slug: colossal-laboratories--biosciences-users-api
 artifact_total: 14
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/colossal-laboratories--biosciences-content-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -180,26 +184,39 @@ network: true
 overview: 'Colossal Laboratories & Biosciences publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Discovery API, Media API, and 6 more. Tagged areas include Company, Biotechnology, Genomics, Genetic Engineering, and Synthetic Biology.
 
 
-  Colossal Laboratories & Biosciences'' developer surface includes engineering blog, product news, authentication, and 23 more developer resources.'
+  Colossal Laboratories & Biosciences'' developer surface includes engineering blog, product news, authentication, and 24 more developer resources.'
 random_paper: 81
 score:
-  band: thin
-  composite: 32.7
+  band: emerging
+  composite: 21.9
+  delta: -10.8
   facets:
     commercial_clarity: 21.1
-    contract_quality: 52.2
-    developer_ergonomics: 19.6
-    discoverability: 92.6
-    governance: 20.8
+    contract_quality: 14.4
+    developer_ergonomics: 14.7
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 0.0
+  previous_composite: 32.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 9
+      marker_coverage: 100.0
+      total: 9
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 security:
 - kind: authentication
   name: Colossal Laboratories  Biosciences Authentication

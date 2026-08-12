@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -66,6 +66,18 @@ collections:
   name: Flashbots Auction & MEV-Share Relay (JSON-RPC)
   slug: open-flashbots
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/flashbots/rpc-endpoint/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/flashbots/rpc-endpoint/blob/main/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/flashbots/rpc-endpoint/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -133,7 +145,7 @@ network: true
 overview: 'Flashbots publishes 1 API on the [APIs.io](https://apis.io/) network: Flashbots Auction & MEV Share Relay (JSON RPC) API. Tagged areas include MEV, Ethereum, Blockchain, JSON-RPC, and Relay.
 
 
-  Flashbots'' developer surface includes authentication, developer portal, documentation, engineering blog, GitHub presence, and 8 more developer resources.'
+  Flashbots'' developer surface includes authentication, developer portal, documentation, engineering blog, GitHub presence, and 11 more developer resources.'
 plans:
 - name: Flashbots Plans Pricing
   plan_count: 1
@@ -144,12 +156,12 @@ rate_limits:
   name: Flashbots Rate Limits
   slug: flashbots-rate-limits
 score:
-  band: developing
-  composite: 42.0
-  delta: 0.0
+  band: thin
+  composite: 41.4
+  delta: -0.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 65.1
+    contract_quality: 62.7
     developer_ergonomics: 34.8
     discoverability: 74.1
     governance: 0.0
@@ -162,8 +174,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flashbots/refs/heads/main/screenshots/flashbots-2026-06-20T181301.png
 security:

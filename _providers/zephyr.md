@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The Zephyr kernel C API exposes scheduling, threading, synchronization, memory management, and timer services for real-time embedded applications. It is the foundation that device drivers and applicat
@@ -42,6 +42,10 @@ apis:
   slug: zephyr-networking-api
 artifact_total: 8
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/zephyrproject-rtos/zephyr/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -118,10 +122,6 @@ common:
   title: ''
   type: Resources
   url: vocabulary/zephyr-vocabulary.yml
-- group: other
-  title: ''
-  type: Resources
-  url: capabilities/zephyr-build.yaml
 created: '2026-03-16'
 description: The Zephyr Project is a Linux Foundation project that delivers a small, scalable, secure, and open-source real-time operating system (RTOS) for resource-constrained embedded devices. Zephyr supports 1000+ boards across ARM Cortex, RISC-V, ARC, x86, Xtensa, and other architectures, ships with a C kernel, device drivers, networking stacks (BLE, Wi-Fi, Thread, Matter), security subsystems, and is supported by a meta-tool (west), an SDK (sdk-ng), and a broad ecosystem of training partners and commercial silicon and module vendors.
 finops:
@@ -157,19 +157,19 @@ rate_limits:
   slug: zephyr-rate-limits
 score:
   band: thin
-  composite: 40.2
-  delta: 0.0
+  composite: 32.4
+  delta: -7.8
   facets:
-    commercial_clarity: 68.4
+    commercial_clarity: 44.7
     contract_quality: 12.9
     developer_ergonomics: 50.0
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 40.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/zephyr/refs/heads/main/screenshots/zephyr-2026-06-20T201826.png
 security:
 - kind: domain-security

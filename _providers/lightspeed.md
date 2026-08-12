@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: REST API for Lightspeed Retail X-Series point-of-sale system enabling integrations for sales operations, product management, inventory updates, loyalty handling, and webhooks for retail merchants.
@@ -139,8 +139,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspeed/refs/heads/main/screenshots/lightspeed-2026-06-20T184527.png
 security:

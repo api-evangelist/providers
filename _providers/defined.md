@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Codex is Defined''s unified GraphQL API for real-time blockchain data: token prices, OHLCV bars, trades, liquidity pools, holders, wallet analytics, prediction markets and launchpad data across 100+ EV'
@@ -186,8 +186,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defined/refs/heads/main/screenshots/defined-2026-07-25T211823.png
 security:

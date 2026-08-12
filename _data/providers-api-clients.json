@@ -16,20 +16,20 @@
      "slug": "postman",
      "description": "Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows, AI Agent Builder, the Postman MCP Server and MCP Generator, API Governance, the Private API Network, Live Collections, Insights, and a public Postman API Network with millions of public workspaces.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/screenshots/postman-2026-06-20T192015.png",
-     "score": 75.8,
+     "score": 69.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 73.0,
+      "discoverability": 83.3,
+      "contract_quality": 70.6,
       "governance": 47.9,
-      "operational_transparency": 78.9,
-      "developer_ergonomics": 69.6,
-      "commercial_clarity": 100.0
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 76.1,
+      "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 53.6,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 58.1,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -41,7 +41,7 @@
       "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": "derived",
-      "agent_skills": false,
+      "agent_skills": true,
       "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
@@ -58,27 +58,27 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 3,
-   "shown": 3,
+   "count": 2,
+   "shown": 2,
    "providers": [
     {
      "name": "Insomnia",
      "slug": "insomnia",
      "description": "Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an Inso CLI for CI/CD integration, cloud-hosted and self-hosted mock servers, OpenAPI spec design tools, and collaborative features with cloud sync, local vault, and Git storage options.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/insomnia/refs/heads/main/screenshots/insomnia-2026-06-20T183403.png",
-     "score": 53.9,
+     "score": 45.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 74.4,
+      "contract_quality": 71.6,
       "governance": 58.3,
-      "operational_transparency": 47.4,
+      "operational_transparency": 23.7,
       "developer_ergonomics": 28.3,
-      "commercial_clarity": 50.0
+      "commercial_clarity": 26.3
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -105,19 +105,19 @@
      "slug": "hoppscotch",
      "description": "Hoppscotch is a lightweight open-source browser-based API client supporting REST, GraphQL, WebSockets, SSE, and MQTT.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hoppscotch/refs/heads/main/screenshots/hoppscotch-2026-06-20T182832.png",
-     "score": 48.0,
+     "score": 43.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 48.1,
       "governance": 0.0,
-      "operational_transparency": 78.9,
+      "operational_transparency": 55.3,
       "developer_ergonomics": 32.6,
-      "commercial_clarity": 71.1
+      "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -138,25 +138,36 @@
      },
      "tier": "Client Platforms",
      "rank": 3
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "28 – 41.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 4,
+   "shown": 4,
+   "providers": [
     {
      "name": "HTTPie",
      "slug": "httpie",
      "description": "HTTPie is a user-friendly command-line and web-based HTTP client designed for testing, debugging, and interacting with APIs and HTTP services. It provides expressive syntax that mirrors actual HTTP requests, formatted and syntax-highlighted output, native JSON support, file uploads, form submissions, persistent sessions, multiple authentication schemes (basic, digest, bearer, .netrc, and an extensible plugin system covering OAuth, AWS, NTLM, and more), download mode similar to wget, HTTPS and proxy support, and cross-platform installation across Linux, macOS, Windows, and FreeBSD. The companion HTTPie web app and Desktop client layer a graphical interface over the same request and response model that the CLI exposes.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/httpie/refs/heads/main/screenshots/httpie-2026-06-20T182915.png",
-     "score": 46.7,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 40.9,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 67.4,
+      "contract_quality": 64.9,
       "governance": 58.3,
-      "operational_transparency": 36.8,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 10.9,
-      "commercial_clarity": 50.0
+      "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -177,36 +188,25 @@
      },
      "tier": "Client Platforms",
      "rank": 4
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "28 – 41.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 9,
-   "shown": 9,
-   "providers": [
+    },
     {
      "name": "Thunder Client",
      "slug": "thunder-client",
      "description": "Thunder Client is a lightweight REST API client extension for Visual Studio Code created by Ranga Vadhineni, providing a clean interface for sending HTTP requests, managing collections, and testing APIs without leaving the editor. With nearly 7 million installs, it pioneered GUI-based API testing in VS Code with 100% local storage, scriptless testing, Git Sync for team collaboration, GraphQL support, and an advanced CLI for CI/CD integration. Thunder Client supports importing collections from Postman, Insomnia, Hoppscotch, and OpenAPI 3.0, and offers pre/post-request scripting and environment variables.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/thunder-client/refs/heads/main/screenshots/thunder-client-2026-06-20T195320.png",
-     "score": 38.1,
+     "score": 30.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 17.7,
       "governance": 68.8,
-      "operational_transparency": 52.6,
+      "operational_transparency": 28.9,
       "developer_ergonomics": 8.7,
-      "commercial_clarity": 50.0
+      "commercial_clarity": 26.3
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -233,19 +233,19 @@
      "slug": "retrofit",
      "description": "Retrofit is a type-safe HTTP client for Android and the JVM (Java and Kotlin) built by Square, turning HTTP API interfaces into callable Java objects with annotation-based configuration and pluggable serialization. Retrofit is built on top of OkHttp and supports synchronous/asynchronous execution, JSON/XML/Protobuf converters, RxJava adapters, and Kotlin coroutines. Current stable version is 3.0.0.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/retrofit/refs/heads/main/screenshots/retrofit-2026-06-20T193038.png",
-     "score": 36.9,
+     "score": 29.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 22.6,
       "governance": 68.8,
-      "operational_transparency": 52.6,
+      "operational_transparency": 28.9,
       "developer_ergonomics": 8.7,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -272,19 +272,19 @@
      "slug": "wget",
      "description": "GNU Wget is a free, open-source command-line utility for non-interactive downloading of files from the web using HTTP, HTTPS, FTP, and FTPS protocols. It supports recursive downloading, resuming aborted downloads, mirroring websites, proxy support, and can be run from scripts and cron jobs. Wget2 is the next-generation successor, written from scratch with multi-threading, HTTP/2, and a plugin API via libwget.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wget/refs/heads/main/screenshots/wget-2026-06-20T201415.png",
-     "score": 36.8,
+     "score": 29.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 29.0,
       "governance": 68.8,
-      "operational_transparency": 36.8,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 8.7,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -305,25 +305,35 @@
      },
      "tier": "CLI Clients & HTTP Libraries",
      "rank": 7
-    },
+    }
+   ]
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "13 – 27.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 20,
+   "shown": 20,
+   "providers": [
     {
      "name": "REST Client",
      "slug": "rest-client",
      "description": "REST Client is a Visual Studio Code extension developed by Huachao Mao that enables developers to send HTTP requests and view responses directly within the VS Code editor. It supports RFC 2616 HTTP request format using .http and .rest files, GraphQL queries, cURL commands, multiple authentication schemes (Basic, Digest, SSL Client Certificates, Azure AD, AWS Signature v4, AWS Cognito), environment and file variables, request chaining, cookie management, code generation to multiple languages, and response saving. The extension is installed via the VS Code Marketplace under the identifier humao.rest-client and is widely used as a lightweight alternative to dedicated API clients like Postman and Insomnia.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rest-client/refs/heads/main/screenshots/rest-client-2026-06-20T193111.png",
-     "score": 35.5,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 27.7,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 27.4,
       "governance": 68.8,
-      "operational_transparency": 36.8,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 8.7,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -350,19 +360,19 @@
      "slug": "requests",
      "description": "Requests is a simple and elegant HTTP library for Python, designed for human beings. Published under the Apache2 license by the Python Software Foundation (PSF), it is one of the most downloaded Python packages with approximately 300 million weekly downloads and over 4 million dependent repositories. Requests abstracts urllib3 to provide idiomatic HTTP method functions (get, post, put, patch, delete, head, options), persistent Sessions with connection pooling, automatic content decompression, TLS/SSL verification, Basic and Digest authentication, cookie persistence, streaming downloads, multipart file uploads, SOCKS proxy support, and configurable timeouts. Current stable version: 2.33.1 (March 2026). Supports Python 3.10+.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/requests/refs/heads/main/screenshots/requests-2026-06-20T192923.png",
-     "score": 35.1,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 27.3,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 17.7,
       "governance": 68.8,
-      "operational_transparency": 52.6,
+      "operational_transparency": 28.9,
       "developer_ergonomics": 8.7,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 4.7,
      "agent_band": "human-only",
      "agent_dims": {
@@ -389,19 +399,19 @@
      "slug": "restfox",
      "description": "Restfox is an offline-first, minimalistic HTTP and socket testing client for the web and desktop. It is an open-source alternative to Postman, supporting HTTP/REST, WebSocket, and GraphQL testing with environment variables, response history, a plugin system, and cross-platform deployment as a web app, desktop client, or Docker container.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/restfox/refs/heads/main/screenshots/restfox-2026-06-20T193021.png",
-     "score": 35.1,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 27.2,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 22.6,
       "governance": 58.3,
-      "operational_transparency": 52.6,
+      "operational_transparency": 28.9,
       "developer_ergonomics": 8.7,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -424,23 +434,23 @@
      "rank": 10
     },
     {
-     "name": "Voiden",
-     "slug": "voiden",
-     "description": "Voiden is an offline-first, Git-native API workspace that unifies API design, testing, and documentation in plain Markdown .void files stored alongside your codebase. It uses composable, reusable blocks (endpoints, auth, headers, params, bodies) that behave like code — inheritable, versionable, and composable — eliminating copy-paste drift across API definitions. Supports REST, GraphQL, WebSocket, and gRPC. Built on Electron (TypeScript), Apache 2.0 licensed.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/voiden/refs/heads/main/screenshots/voiden-2026-06-20T201127.png",
-     "score": 33.0,
-     "band": "thin",
-     "band_label": "Thin",
+     "name": "Bruno",
+     "slug": "bruno",
+     "description": "Bruno is an open-source, Git-native, offline-first API client for exploring and testing APIs. It stores collections directly on the filesystem as plain text files using the Bru markup language, making collections version-controllable alongside code. Bruno supports REST, GraphQL, and gRPC APIs, scripting with JavaScript, environment variables, pre-request and post-response hooks, and CI/CD automation via Bruno CLI. Licensed under the MIT License and available on Mac, Windows, and Linux with 43,000+ GitHub stars.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bruno/refs/heads/main/screenshots/bruno-2026-06-20T173730.png",
+     "score": 25.4,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 22.6,
-      "governance": 68.8,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 39.5
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 15.2,
+      "commercial_clarity": 55.3
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -463,62 +473,23 @@
      "rank": 11
     },
     {
-     "name": "RestSharp",
-     "slug": "restsharp",
-     "description": "RestSharp is a simple REST and HTTP API client library for .NET that wraps HttpClient with a fluent API for making HTTP requests with automatic serialization and deserialization of request and response bodies. Supports JSON, XML, and CSV formats, OAuth1/OAuth2 authentication, async operations, and multi-part form uploads. Available on NuGet as RestSharp (9,800+ GitHub stars, Apache-2.0 license, .NET Foundation project).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/restsharp/refs/heads/main/screenshots/restsharp-2026-06-20T193032.png",
-     "score": 31.4,
-     "band": "thin",
-     "band_label": "Thin",
+     "name": "Voiden",
+     "slug": "voiden",
+     "description": "Voiden is an offline-first, Git-native API workspace that unifies API design, testing, and documentation in plain Markdown .void files stored alongside your codebase. It uses composable, reusable blocks (endpoints, auth, headers, params, bodies) that behave like code — inheritable, versionable, and composable — eliminating copy-paste drift across API definitions. Supports REST, GraphQL, WebSocket, and gRPC. Built on Electron (TypeScript), Apache 2.0 licensed.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/voiden/refs/heads/main/screenshots/voiden-2026-06-20T201127.png",
+     "score": 25.2,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 12.9,
-      "governance": 58.3,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 13.0,
-      "commercial_clarity": 39.5
+      "discoverability": 66.7,
+      "contract_quality": 22.6,
+      "governance": 68.8,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "CLI Clients & HTTP Libraries",
-     "rank": 12
-    },
-    {
-     "name": "Bruno",
-     "slug": "bruno",
-     "description": "Bruno is an open-source, Git-native, offline-first API client for exploring and testing APIs. It stores collections directly on the filesystem as plain text files using the Bru markup language, making collections version-controllable alongside code. Bruno supports REST, GraphQL, and gRPC APIs, scripting with JavaScript, environment variables, pre-request and post-response hooks, and CI/CD automation via Bruno CLI. Licensed under the MIT License and available on Mac, Windows, and Linux with 43,000+ GitHub stars.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bruno/refs/heads/main/screenshots/bruno-2026-06-20T173730.png",
-     "score": 30.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 15.2,
-      "commercial_clarity": 78.9
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -538,36 +509,65 @@
       "dry_run_mode": false
      },
      "tier": "Local-First & Offline-First Clients",
-     "rank": 13
-    }
-   ]
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "13 – 27.9",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 21,
-   "shown": 21,
-   "providers": [
+     "rank": 12
+    },
     {
-     "name": "Fiddler",
-     "slug": "fiddler",
-     "description": "Fiddler by Telerik (Progress Software) is a suite of HTTP debugging proxy tools for capturing, inspecting, modifying, and replaying HTTP and HTTPS traffic between computers. The product family includes Fiddler Everywhere (cross-platform), Fiddler Classic (Windows), and Fiddler Jam (browser-based collaboration tool) for API debugging, performance testing, and web development workflows.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/screenshots/fiddler-2026-06-20T181148.png",
-     "score": 26.9,
+     "name": "RestSharp",
+     "slug": "restsharp",
+     "description": "RestSharp is a simple REST and HTTP API client library for .NET that wraps HttpClient with a fluent API for making HTTP requests with automatic serialization and deserialization of request and response bodies. Supports JSON, XML, and CSV formats, OAuth1/OAuth2 authentication, async operations, and multi-part form uploads. Available on NuGet as RestSharp (9,800+ GitHub stars, Apache-2.0 license, .NET Foundation project).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/restsharp/refs/heads/main/screenshots/restsharp-2026-06-20T193032.png",
+     "score": 23.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 64.8,
+      "discoverability": 59.3,
+      "contract_quality": 12.9,
+      "governance": 58.3,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 13.0,
+      "commercial_clarity": 15.8
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "CLI Clients & HTTP Libraries",
+     "rank": 13
+    },
+    {
+     "name": "API Dash",
+     "slug": "api-dash",
+     "description": "API Dash is a beautiful AI-powered open-source cross-platform API client built with Flutter, available on Desktop (macOS, Windows, Linux) and Mobile. It provides HTTP and GraphQL request creation, response visualization, folder and collection organization, code generation for multiple languages, and support for 40+ MIME types including image, audio, and PDF preview. Developed by the foss42 organization, API Dash is a lightweight alternative to Postman and Insomnia with an active open source community.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/api-dash/refs/heads/main/screenshots/api-dash-2026-06-20T172202.png",
+     "score": 19.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 15.2,
-      "commercial_clarity": 63.2
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 13.0,
+      "commercial_clarity": 26.3
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -590,23 +590,23 @@
      "rank": 14
     },
     {
-     "name": "Charles Proxy",
-     "slug": "charles-proxy",
-     "description": "Charles Proxy is an HTTP proxy and HTTP monitor that enables developers to view all HTTP and SSL/HTTPS traffic between their machine and the Internet, including requests, responses, and HTTP headers. It supports SSL proxying, bandwidth throttling, AJAX debugging, AMF inspection, breakpoints, content rewriting, and traffic recording for API debugging, testing, and development workflows on Windows, macOS, and Linux.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/charles-proxy/refs/heads/main/screenshots/charles-proxy-2026-06-20T174225.png",
-     "score": 25.2,
+     "name": "Fiddler",
+     "slug": "fiddler",
+     "description": "Fiddler by Telerik (Progress Software) is a suite of HTTP debugging proxy tools for capturing, inspecting, modifying, and replaying HTTP and HTTPS traffic between computers. The product family includes Fiddler Everywhere (cross-platform), Fiddler Classic (Windows), and Fiddler Jam (browser-based collaboration tool) for API debugging, performance testing, and web development workflows.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/screenshots/fiddler-2026-06-20T181148.png",
+     "score": 19.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 64.8,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 31.6,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 15.2,
-      "commercial_clarity": 60.5
+      "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -629,23 +629,23 @@
      "rank": 15
     },
     {
-     "name": "Mitmproxy",
-     "slug": "mitmproxy",
-     "description": "mitmproxy is a free and open source interactive HTTPS proxy that allows developers and security researchers to intercept, inspect, modify, and replay HTTP and HTTPS traffic flows. It includes mitmproxy (interactive console), mitmweb (web-based interface), and mitmdump (command-line tool), providing powerful capabilities for debugging, testing, and analyzing API traffic and web applications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mitmproxy/refs/heads/main/screenshots/mitmproxy-2026-06-20T185616.png",
-     "score": 23.4,
+     "name": "Firecamp",
+     "slug": "firecamp",
+     "description": "Firecamp is an open-source API development platform for designing, testing, and documenting REST, GraphQL, and WebSocket APIs. It provides multi-protocol playgrounds (REST, GraphQL, WebSocket, SocketIO), team collaboration in shared workspaces, API collection management, a test runner, and CLI/CI-CD integration. Firecamp does not expose a public consumer API; it is a tooling product for working with other APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/firecamp/refs/heads/main/screenshots/firecamp-2026-06-20T181227.png",
+     "score": 18.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 64.8,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 39.5
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 15.2,
+      "commercial_clarity": 26.3
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -664,27 +664,27 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Local-First & Offline-First Clients",
+     "tier": "Client Platforms",
      "rank": 16
     },
     {
-     "name": "API Dash",
-     "slug": "api-dash",
-     "description": "API Dash is a beautiful AI-powered open-source cross-platform API client built with Flutter, available on Desktop (macOS, Windows, Linux) and Mobile. It provides HTTP and GraphQL request creation, response visualization, folder and collection organization, code generation for multiple languages, and support for 40+ MIME types including image, audio, and PDF preview. Developed by the foss42 organization, API Dash is a lightweight alternative to Postman and Insomnia with an active open source community.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/api-dash/refs/heads/main/screenshots/api-dash-2026-06-20T172202.png",
-     "score": 23.3,
+     "name": "Charles Proxy",
+     "slug": "charles-proxy",
+     "description": "Charles Proxy is an HTTP proxy and HTTP monitor that enables developers to view all HTTP and SSL/HTTPS traffic between their machine and the Internet, including requests, responses, and HTTP headers. It supports SSL proxying, bandwidth throttling, AJAX debugging, AMF inspection, breakpoints, content rewriting, and traffic recording for API debugging, testing, and development workflows on Windows, macOS, and Linux.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/charles-proxy/refs/heads/main/screenshots/charles-proxy-2026-06-20T174225.png",
+     "score": 17.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 13.0,
-      "commercial_clarity": 50.0
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 15.2,
+      "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -707,23 +707,23 @@
      "rank": 17
     },
     {
-     "name": "Firecamp",
-     "slug": "firecamp",
-     "description": "Firecamp is an open-source API development platform for designing, testing, and documenting REST, GraphQL, and WebSocket APIs. It provides multi-protocol playgrounds (REST, GraphQL, WebSocket, SocketIO), team collaboration in shared workspaces, API collection management, a test runner, and CLI/CI-CD integration. Firecamp does not expose a public consumer API; it is a tooling product for working with other APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/firecamp/refs/heads/main/screenshots/firecamp-2026-06-20T181227.png",
-     "score": 22.9,
+     "name": "HTTPX",
+     "slug": "httpx",
+     "description": "HTTPX is a fully featured HTTP client for Python 3 with sync and async APIs, HTTP/1.1 and HTTP/2 support. It is broadly compatible with the popular requests library while adding modern features such as strict timeouts, type annotations, direct WSGI and ASGI transport, SSL verification, cookie persistence, proxy support, and multipart uploads.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/httpx/refs/heads/main/screenshots/httpx-2026-06-20T182917.png",
+     "score": 15.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 50.0
+      "governance": 10.4,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -742,27 +742,27 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Client Platforms",
+     "tier": "CLI Clients & HTTP Libraries",
      "rank": 18
     },
     {
-     "name": "Milkman",
-     "slug": "milkman",
-     "description": "Milkman is an open-source, JavaFx-based, plugin-driven request/response workbench and desktop alternative to Postman and Insomnia. It supports multiple protocols including HTTP/REST, GraphQL, gRPC (with server reflection and streaming), WebSocket, Socket.IO, JDBC/SQL, Cassandra CQL, and Model Context Protocol (MCP).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/milkman/refs/heads/main/screenshots/milkman-2026-06-20T185559.png",
-     "score": 22.4,
+     "name": "Mitmproxy",
+     "slug": "mitmproxy",
+     "description": "mitmproxy is a free and open source interactive HTTPS proxy that allows developers and security researchers to intercept, inspect, modify, and replay HTTP and HTTPS traffic flows. It includes mitmproxy (interactive console), mitmweb (web-based interface), and mitmdump (command-line tool), providing powerful capabilities for debugging, testing, and analyzing API traffic and web applications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mitmproxy/refs/heads/main/screenshots/mitmproxy-2026-06-20T185616.png",
+     "score": 15.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 64.8,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 39.5
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -785,23 +785,23 @@
      "rank": 19
     },
     {
-     "name": "Xh",
-     "slug": "xh",
-     "description": "xh is a friendly and fast command-line HTTP client written in Rust, designed as a modern, high-performance alternative to HTTPie. It reimplements HTTPie's request-item syntax and design with improved startup speed, HTTP/2 and HTTP/3 support, and availability as a single statically-linked binary. xh supports JSON and form data serialization, session management, authentication (basic, bearer, digest), SSL/TLS customization, multipart uploads, proxy configuration, and built-in curl command translation. Installable via Homebrew, Cargo, apt, pacman, and other package managers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xh/refs/heads/main/screenshots/xh-2026-06-20T201702.png",
-     "score": 21.7,
+     "name": "Axios",
+     "slug": "axios",
+     "description": "Axios is a promise-based HTTP client for the browser and Node.js with automatic JSON data transformation and request/response interceptors.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/axios/refs/heads/main/screenshots/axios-2026-06-20T172811.png",
+     "score": 15.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 39.5
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 15.2,
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -824,23 +824,23 @@
      "rank": 20
     },
     {
-     "name": "HTTPX",
-     "slug": "httpx",
-     "description": "HTTPX is a fully featured HTTP client for Python 3 with sync and async APIs, HTTP/1.1 and HTTP/2 support. It is broadly compatible with the popular requests library while adding modern features such as strict timeouts, type annotations, direct WSGI and ASGI transport, SSL verification, cookie persistence, proxy support, and multipart uploads.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/httpx/refs/heads/main/screenshots/httpx-2026-06-20T182917.png",
-     "score": 21.6,
+     "name": "Node-Fetch",
+     "slug": "node-fetch",
+     "description": "node-fetch is a lightweight module that brings the Fetch API to Node.js for making HTTP requests. It is a client library, not an API service, and provides a window.fetch-compatible interface for server-side JavaScript.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/node-fetch/refs/heads/main/screenshots/node-fetch-2026-06-20T190351.png",
+     "score": 15.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
-      "governance": 10.4,
-      "operational_transparency": 36.8,
+      "governance": 0.0,
+      "operational_transparency": 39.5,
       "developer_ergonomics": 8.7,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -863,23 +863,62 @@
      "rank": 21
     },
     {
-     "name": "Got",
-     "slug": "got",
-     "description": "Got is a human-friendly and powerful HTTP request library for Node.js with support for streams, retries, and pagination.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/got/refs/heads/main/screenshots/got-2026-06-20T182254.png",
-     "score": 21.5,
+     "name": "Milkman",
+     "slug": "milkman",
+     "description": "Milkman is an open-source, JavaFx-based, plugin-driven request/response workbench and desktop alternative to Postman and Insomnia. It supports multiple protocols including HTTP/REST, GraphQL, gRPC (with server reflection and streaming), WebSocket, Socket.IO, JDBC/SQL, Cassandra CQL, and Model Context Protocol (MCP).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/milkman/refs/heads/main/screenshots/milkman-2026-06-20T185559.png",
+     "score": 14.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 23.9,
-      "commercial_clarity": 39.5
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Local-First & Offline-First Clients",
+     "rank": 22
+    },
+    {
+     "name": "Hurl",
+     "slug": "hurl",
+     "description": "Hurl is an open source command-line tool for running HTTP requests defined in a simple plain text format with built-in assertions for API testing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hurl/refs/heads/main/screenshots/hurl-2026-06-20T182953.png",
+     "score": 13.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 48.1,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 15.8
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -899,65 +938,26 @@
       "dry_run_mode": false
      },
      "tier": "CLI Clients & HTTP Libraries",
-     "rank": 22
-    },
-    {
-     "name": "HTTP Client",
-     "slug": "http-client",
-     "description": "HTTP Client is JetBrains' built-in tool for creating, editing, and executing HTTP requests directly from the IDE. Requests are stored in .http and .rest files alongside source code, with code highlighting, completion for hosts and methods, code folding, inline documentation, and live templates accelerating composition. The client supports HTTP/1.1 and HTTP/2 requests, gRPC unary and server-streaming calls, WebSocket connections, GraphQL operations, server-sent events, and imports from cURL and Postman collections. Environment files define reusable variables across global, request, and secured scopes; the cookie jar, request history, run/debug configurations, and Services tool window response viewer round out a workflow tightly integrated with the IntelliJ-based IDE family.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/http-client/refs/heads/main/screenshots/http-client-2026-06-20T182910.png",
-     "score": 20.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Local-First & Offline-First Clients",
      "rank": 23
     },
     {
-     "name": "Yaak",
-     "slug": "yaak",
-     "description": "Yaak is an open-source desktop API client for organizing and executing REST, GraphQL, WebSockets, Server Sent Events, and gRPC requests. Built with Tauri, Rust, and React, it is a privacy-first, fast desktop client with no telemetry and no cloud lock-in.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yaak/refs/heads/main/screenshots/yaak-2026-06-20T201717.png",
-     "score": 20.8,
+     "name": "Xh",
+     "slug": "xh",
+     "description": "xh is a friendly and fast command-line HTTP client written in Rust, designed as a modern, high-performance alternative to HTTPie. It reimplements HTTPie's request-item syntax and design with improved startup speed, HTTP/2 and HTTP/3 support, and availability as a single statically-linked binary. xh supports JSON and form data serialization, session management, authentication (basic, bearer, digest), SSL/TLS customization, multipart uploads, proxy configuration, and built-in curl command translation. Installable via Homebrew, Cargo, apt, pacman, and other package managers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xh/refs/heads/main/screenshots/xh-2026-06-20T201702.png",
+     "score": 13.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 39.5
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -976,27 +976,27 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Local-First & Offline-First Clients",
+     "tier": "CLI Clients & HTTP Libraries",
      "rank": 24
     },
     {
-     "name": "cURL",
-     "slug": "curl",
-     "description": "cURL is a command-line tool and library for transferring data with URLs. Originally released in 1997 by Daniel Stenberg, cURL is the de facto standard tool used by developers for testing, automating, and scripting interactions with HTTP, HTTPS, FTP, and many other URL-based protocols. It ships in two primary forms - the curl command-line binary used directly in shells and scripts, and libcurl, a portable C library that powers data transfer features inside thousands of applications, operating systems, devices, and programming languages.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/curl/refs/heads/main/screenshots/curl-2026-06-20T175333.png",
-     "score": 20.6,
+     "name": "Got",
+     "slug": "got",
+     "description": "Got is a human-friendly and powerful HTTP request library for Node.js with support for streams, retries, and pagination.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/got/refs/heads/main/screenshots/got-2026-06-20T182254.png",
+     "score": 13.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 39.5
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 23.9,
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1019,23 +1019,23 @@
      "rank": 25
     },
     {
-     "name": "Kreya",
-     "slug": "kreya",
-     "description": "Kreya is a GUI client for gRPC, REST, GraphQL, WebSocket, and Server-Sent Events APIs. All data is stored in git-diffable files for easy reviews and versioning. Kreya provides automated snapshot and scripted tests, flexible environments, and support for all gRPC streaming modes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kreya/refs/heads/main/screenshots/kreya-2026-06-20T184156.png",
-     "score": 19.9,
+     "name": "Yaak",
+     "slug": "yaak",
+     "description": "Yaak is an open-source desktop API client for organizing and executing REST, GraphQL, WebSockets, Server Sent Events, and gRPC requests. Built with Tauri, Rust, and React, it is a privacy-first, fast desktop client with no telemetry and no cloud lock-in.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yaak/refs/heads/main/screenshots/yaak-2026-06-20T201717.png",
+     "score": 13.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 66.7,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 36.8,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 10.9,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1058,23 +1058,23 @@
      "rank": 26
     },
     {
-     "name": "Axios",
-     "slug": "axios",
-     "description": "Axios is a promise-based HTTP client for the browser and Node.js with automatic JSON data transformation and request/response interceptors.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/axios/refs/heads/main/screenshots/axios-2026-06-20T172811.png",
-     "score": 19.8,
+     "name": "HTTP Client",
+     "slug": "http-client",
+     "description": "HTTP Client is JetBrains' built-in tool for creating, editing, and executing HTTP requests directly from the IDE. Requests are stored in .http and .rest files alongside source code, with code highlighting, completion for hosts and methods, code folding, inline documentation, and live templates accelerating composition. The client supports HTTP/1.1 and HTTP/2 requests, gRPC unary and server-streaming calls, WebSocket connections, GraphQL operations, server-sent events, and imports from cURL and Postman collections. Environment files define reusable variables across global, request, and secured scopes; the cookie jar, request history, run/debug configurations, and Services tool window response viewer round out a workflow tightly integrated with the IntelliJ-based IDE family.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/http-client/refs/heads/main/screenshots/http-client-2026-06-20T182910.png",
+     "score": 13.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 15.2,
-      "commercial_clarity": 39.5
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1093,27 +1093,37 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "CLI Clients & HTTP Libraries",
+     "tier": "Local-First & Offline-First Clients",
      "rank": 27
-    },
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 12.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 8,
+   "shown": 8,
+   "providers": [
     {
-     "name": "Node-Fetch",
-     "slug": "node-fetch",
-     "description": "node-fetch is a lightweight module that brings the Fetch API to Node.js for making HTTP requests. It is a client library, not an API service, and provides a window.fetch-compatible interface for server-side JavaScript.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/node-fetch/refs/heads/main/screenshots/node-fetch-2026-06-20T190351.png",
-     "score": 19.4,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "name": "cURL",
+     "slug": "curl",
+     "description": "cURL is a command-line tool and library for transferring data with URLs. Originally released in 1997 by Daniel Stenberg, cURL is the de facto standard tool used by developers for testing, automating, and scripting interactions with HTTP, HTTPS, FTP, and many other URL-based protocols. It ships in two primary forms - the curl command-line binary used directly in shells and scripts, and libcurl, a portable C library that powers data transfer features inside thousands of applications, operating systems, devices, and programming languages.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/curl/refs/heads/main/screenshots/curl-2026-06-20T175333.png",
+     "score": 12.8,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 39.5
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1136,62 +1146,23 @@
      "rank": 28
     },
     {
-     "name": "Hurl",
-     "slug": "hurl",
-     "description": "Hurl is an open source command-line tool for running HTTP requests defined in a simple plain text format with built-in assertions for API testing.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hurl/refs/heads/main/screenshots/hurl-2026-06-20T182953.png",
-     "score": 18.9,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "name": "Kreya",
+     "slug": "kreya",
+     "description": "Kreya is a GUI client for gRPC, REST, GraphQL, WebSocket, and Server-Sent Events APIs. All data is stored in git-diffable files for easy reviews and versioning. Kreya provides automated snapshot and scripted tests, flexible environments, and support for all gRPC streaming modes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kreya/refs/heads/main/screenshots/kreya-2026-06-20T184156.png",
+     "score": 12.8,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 36.8,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 10.9,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "CLI Clients & HTTP Libraries",
-     "rank": 29
-    },
-    {
-     "name": "Ezy",
-     "slug": "ezy",
-     "description": "ezy is a graphical gRPC and gRPC-Web client for testing and debugging gRPC services with an intuitive desktop interface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ezy/refs/heads/main/screenshots/ezy-2026-06-20T181005.png",
-     "score": 18.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1211,26 +1182,26 @@
       "dry_run_mode": false
      },
      "tier": "Local-First & Offline-First Clients",
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "Grpcurl",
      "slug": "grpcurl",
      "description": "grpcurl is an open source command-line tool for interacting with gRPC servers, like curl for gRPC with support for service reflection and JSON encoding.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/grpcurl/refs/heads/main/screenshots/grpcurl-2026-06-20T182421.png",
-     "score": 18.5,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 12.7,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
       "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 36.8,
+      "operational_transparency": 28.9,
       "developer_ergonomics": 8.7,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1250,6 +1221,45 @@
       "dry_run_mode": false
      },
      "tier": "CLI Clients & HTTP Libraries",
+     "rank": 30
+    },
+    {
+     "name": "Ezy",
+     "slug": "ezy",
+     "description": "ezy is a graphical gRPC and gRPC-Web client for testing and debugging gRPC services with an intuitive desktop interface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ezy/refs/heads/main/screenshots/ezy-2026-06-20T181005.png",
+     "score": 10.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 15.8
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Local-First & Offline-First Clients",
      "rank": 31
     },
     {
@@ -1257,19 +1267,19 @@
      "slug": "nightingale",
      "description": "Nightingale REST Client is a modern, resource-friendly REST API client for Windows.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nightingale/refs/heads/main/screenshots/nightingale-2026-06-20T190322.png",
-     "score": 18.5,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 10.7,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
       "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 36.8,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 8.7,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1296,19 +1306,19 @@
      "slug": "okhttp",
      "description": "OkHttp is an efficient HTTP and HTTP/2 client for Android and Java applications with connection pooling and transparent GZIP.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/okhttp/refs/heads/main/screenshots/okhttp-2026-06-20T190647.png",
-     "score": 18.5,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 10.7,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
       "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 36.8,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 8.7,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1335,19 +1345,19 @@
      "slug": "paw",
      "description": "Paw (now RapidAPI for Mac) is a full-featured HTTP client that lets you test and describe the APIs you build or consume. It provides a native macOS API testing experience with collaboration features.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/paw/refs/heads/main/screenshots/paw-2026-06-20T191447.png",
-     "score": 18.5,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 10.7,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
       "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 36.8,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 8.7,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1368,17 +1378,7 @@
      },
      "tier": "Local-First & Offline-First Clients",
      "rank": 34
-    }
-   ]
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 12.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
+    },
     {
      "name": "ReqBin",
      "slug": "reqbin",
@@ -1395,8 +1395,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

@@ -27,9 +27,9 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 51.4,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 47.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -42,7 +42,7 @@
       "rate_limit_signal": false,
       "event_surface_described": true,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
@@ -54,19 +54,19 @@
      "slug": "przelewy24",
      "description": "Przelewy24 is Poland's leading online payment gateway, providing REST APIs for bank transfer payments, card processing, BLIK mobile payments, and multi-currency payment processing for e-commerce merchants. With 91% brand recognition among Polish online customers, the platform connects merchants to over 165 Polish banks and supports payment methods including online bank transfers, credit and debit cards, BLIK, Google Pay, digital wallets, and prepaid cards. The API supports PLN and EUR currencies and enables transaction registration, payment verification, refunds, and real-time webhook notifications for payment events.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/screenshots/przelewy24-2026-06-20T192230.png",
-     "score": 45.4,
+     "score": 47.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 64.5,
+      "contract_quality": 62.1,
       "governance": 58.3,
       "operational_transparency": 15.8,
       "developer_ergonomics": 41.3,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -99,19 +99,19 @@
      "slug": "university-of-warsaw",
      "description": "The University of Warsaw (Uniwersytet Warszawski) is Poland's largest and highest-ranked university, placed #258 in the QS World University Rankings 2025. Its public developer footprint centers on the USOS API, a documented OAuth-secured REST-like protocol exposing the institution's academic database (courses, grades, exams, users, payments and more), and on the Dane Badawcze UW research data repository, a Dataverse instance that offers a native REST API and an OAI-PMH endpoint for metadata harvesting. Developer access to USOS requires registration for an API key (Consumer Key/Secret) via the USOS developers portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/screenshots/university-of-warsaw-2026-06-20T200305.png",
-     "score": 44.0,
+     "score": 43.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 73.2,
+      "contract_quality": 70.4,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -165,8 +165,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -191,20 +191,20 @@
      "name": "Oferteo",
      "slug": "oferteo",
      "description": "Oferteo (oferteo.pl) is a Polish online services marketplace that connects people and businesses seeking services (Zlecający) with local contractors and service providers (Wykonawcy). Clients post a request across hundreds of categories — construction and renovation, IT, legal, health, events, transport and more — and matched providers respond with competitive quotes. The platform layers on verified reviews, a buyer-protection program (Ochrona Zlecających), and native iOS/Android apps for both sides of the marketplace. Oferteo operates nationwide across Poland and reports tens of millions of submitted requests and offers, millions of registered clients, and hundreds of thousands of registered providers. It was surfaced as a portfolio company of Point Nine and added to the API Evangelist network. No public developer API surface was found during enrichment; this profile currently carries verified identity, website link-properties, and infrastructure/security probes.",
-     "score": 15.9,
+     "score": 14.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 61.1,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 4.3,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.6,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -217,7 +217,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -251,8 +251,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",

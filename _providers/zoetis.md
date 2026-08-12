@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Zoetis Vetscan Connectivity provides bidirectional communication between veterinary practice information management systems (PIMS) and Zoetis point-of-care analyzers and reference laboratory services.
@@ -110,15 +110,15 @@ rate_limits:
   slug: zoetis-rate-limits
 score:
   band: emerging
-  composite: 20.0
-  delta: 0.0
+  composite: 13.3
+  delta: -6.7
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 10.9
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 20.0
   regulatory:
     applies: true
@@ -126,9 +126,9 @@ score:
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoetis/refs/heads/main/screenshots/zoetis-2026-06-20T201932.png
 security:
 - kind: domain-security

@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.6
-  scored_at: '2026-08-10'
+  score: 40.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,12 +41,16 @@ apis:
 - description: The Fleet API from Fleet — 2 operation(s) for fleet.
   name: Fleet Fleet API
   slug: fleet-fleet-api
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Fleet Webhooks
   slug: fleet-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/fleet-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -179,6 +183,10 @@ created: '2026-07-17'
 description: Fleet is an open-source device management platform built on osquery. It provides cross-platform MDM, endpoint telemetry, vulnerability and patch management, software inventory, and GitOps-driven configuration for macOS, Windows, Linux, iOS, and Android fleets. Fleet exposes a versioned REST API (/api/v1/fleet, bearer-token auth), the fleetctl CLI for live queries and config-as-code, and outbound webhook automations. It is developed in the open at github.com/fleetdm/fleet and backed by CRV.
 image: https://avatars.githubusercontent.com/u/70264713?v=4
 layout: provider
+mcp_servers:
+- description: ''
+  name: fleet-mcp.yml
+  slug: fleet-mcpyml
 modified: '2026-07-19'
 name: Fleet
 nav: Providers
@@ -189,17 +197,17 @@ overview: 'Fleet publishes 1 API on the [APIs.io](https://apis.io/) network: Fle
   The Fleet catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Fleet''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+  Fleet''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
 random_paper: 64
 score:
   band: developing
-  composite: 55.9
-  delta: 0.0
+  composite: 54.8
+  delta: -1.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 53.5
-    developer_ergonomics: 60.3
-    discoverability: 87.0
+    contract_quality: 51.5
+    developer_ergonomics: 62.5
+    discoverability: 75.9
     governance: 20.8
     operational_transparency: 55.3
   previous_composite: 55.9
@@ -213,8 +221,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/screenshots/fleet-2026-07-25T214732.png
 security:

@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-10'
+  score: 27.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Alibaba Cloud provides a comprehensive API ecosystem covering all major cloud services including Elastic Compute Service (ECS), Object Storage Service (OSS), Container Service for Kubernetes (ACK), Re
@@ -125,21 +125,21 @@ overview: 'Alibaba publishes 1 API on the [APIs.io](https://apis.io/) network: C
 random_paper: 4
 score:
   band: thin
-  composite: 30.7
-  delta: 0.0
+  composite: 29.6
+  delta: -1.1
   facets:
     commercial_clarity: 23.7
     contract_quality: 32.3
     developer_ergonomics: 34.8
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 5.3
   previous_composite: 30.7
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alibaba/refs/heads/main/screenshots/alibaba-2026-07-25T195614.png
 security:

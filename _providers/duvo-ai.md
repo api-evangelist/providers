@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 62.8
-  scored_at: '2026-08-10'
+  score: 59.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 7
@@ -122,6 +122,10 @@ asyncapis:
   name: Duvo Ai Webhooks
   slug: duvo-ai-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/duvo-ai-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -260,7 +264,7 @@ overview: 'Duvo Ai publishes 26 APIs on the [APIs.io](https://apis.io/) network,
   The Duvo Ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Duvo Ai''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, support, and 23 more developer resources.'
+  Duvo Ai''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, support, and 24 more developer resources.'
 random_paper: 113
 scopes:
 - name: Duvo Ai Scopes
@@ -269,13 +273,13 @@ scopes:
   summary_line: 8 scopes
 score:
   band: developing
-  composite: 53.7
-  delta: 0.0
+  composite: 51.9
+  delta: -1.8
   facets:
     commercial_clarity: 44.7
-    contract_quality: 69.1
+    contract_quality: 66.5
     developer_ergonomics: 75.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
   previous_composite: 53.7
@@ -289,8 +293,8 @@ score:
       total: 26
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/screenshots/duvo-ai-2026-07-25T212653.png
 security:

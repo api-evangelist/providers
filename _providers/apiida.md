@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -66,6 +66,10 @@ collections:
   name: APIIDA API Gateway Manager
   slug: open-apiida-api-gateway-manager
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://boomi.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -162,7 +166,7 @@ overview: 'APIIDA publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The APIIDA catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  APIIDA''s developer surface includes authentication, documentation, support, and 5 more developer resources.'
+  APIIDA''s developer surface includes authentication, documentation, support, and 6 more developer resources.'
 plans:
 - name: Apiida Plans Pricing
   plan_count: 3
@@ -191,15 +195,15 @@ rules:
   slug: apiida-spectral-rules
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 43.1
+  delta: -8.5
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 79.1
+    commercial_clarity: 15.8
+    contract_quality: 76.1
     developer_ergonomics: 23.9
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 51.6
   provenance:
     agentic_access: derived
@@ -208,9 +212,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/screenshots/apiida-2026-06-20T172240.png
 security:
 - kind: authentication

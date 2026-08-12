@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Newton is a Python library and physics simulation engine. It is consumed programmatically via Python (not as an HTTP API), targeting robotics simulation, reinforcement learning, and physics-based AI t
@@ -36,6 +36,30 @@ apis:
   slug: newton
 artifact_total: 4
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/newton-physics/newton/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/newton-physics/newton/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/newton-physics/newton/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/newton-physics/newton/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/newton-physics/newton/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/newton-physics/newton/blob/main/LICENSE
 - group: docs
   title: ''
   type: Documentation
@@ -67,7 +91,7 @@ network: true
 overview: 'Newton publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Linux Foundation, Physics, Simulation, and Robotics.
 
 
-  Newton''s developer surface includes documentation and 3 more developer resources.'
+  Newton''s developer surface includes documentation and 9 more developer resources.'
 plans:
 - name: Newton Plans Pricing
   plan_count: 3
@@ -79,18 +103,18 @@ rate_limits:
   slug: newton-rate-limits
 score:
   band: emerging
-  composite: 20.4
-  delta: 0.0
+  composite: 16.0
+  delta: -4.4
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 20.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newton/refs/heads/main/screenshots/newton-2026-08-07T185136.png
 slug: newton

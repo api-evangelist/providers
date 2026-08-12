@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -194,11 +194,11 @@ rules:
   slug: now-payments-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 46.3
+  delta: -0.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.9
+    contract_quality: 63.5
     developer_ergonomics: 32.6
     discoverability: 74.1
     governance: 58.3
@@ -217,8 +217,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/screenshots/now-payments-2026-06-20T190442.png
 security:

@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -57,6 +58,10 @@ collections:
   name: Graphite Platform
   slug: open-graphite-com
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/withgraphite/agent-skills/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -240,7 +245,7 @@ network: true
 overview: 'Graphite publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, GitHub App API, Merge Queue API, and 1 more. Tagged areas include Code Review, Stacked PRs, Merge Queue, AI Code Review, and Developer Tools.
 
 
-  Graphite''s developer surface includes authentication, documentation, getting-started guide, CLI, changelog, engineering blog, pricing, and 34 more developer resources.'
+  Graphite''s developer surface includes authentication, documentation, getting-started guide, CLI, changelog, engineering blog, pricing, and 35 more developer resources.'
 plans:
 - name: Graphite Com Plans Pricing
   plan_count: 4
@@ -252,13 +257,13 @@ rate_limits:
   slug: graphite-com-rate-limits
 score:
   band: exemplar
-  composite: 68.2
-  delta: 0.0
+  composite: 66.6
+  delta: -1.6
   facets:
     commercial_clarity: 92.1
-    contract_quality: 61.2
+    contract_quality: 59.0
     developer_ergonomics: 67.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 12.5
     operational_transparency: 78.9
   previous_composite: 68.2
@@ -272,8 +277,8 @@ score:
       total: 4
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/screenshots/graphite-com-2026-06-20T182329.png
 security:

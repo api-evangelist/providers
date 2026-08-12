@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -240,15 +240,15 @@ rules:
   slug: nats-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.8
-  delta: 0.0
+  composite: 45.6
+  delta: -7.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 61.5
+    commercial_clarity: 26.3
+    contract_quality: 61.1
     developer_ergonomics: 39.1
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 52.1
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 52.8
   provenance:
     agentic_access: derived
@@ -257,9 +257,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/screenshots/nats-2026-06-20T190052.png
 security:
 - kind: domain-security

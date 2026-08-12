@@ -1,9 +1,9 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-10'
+  score: 44.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -34,8 +34,20 @@ apis:
 - description: Public developer and integration guidance without private API contracts.
   name: Nas Academy Developer discovery API
   slug: nas-academy-developer-discovery-api
-artifact_total: 6
+artifact_total: 7
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/nas-academy-discovery-skill.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/nas-academy-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nas-academy-discovery-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -43,6 +55,10 @@ common:
 created: '2026-07-17'
 description: Nas Academy is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 layout: provider
+mcp_servers:
+- description: ''
+  name: nas-academy-mcp.yml
+  slug: nas-academy-mcpyml
 modified: '2026-07-17'
 name: Nas Academy
 nav: Providers
@@ -56,13 +72,13 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: emerging
-  composite: 20.2
-  delta: 0.0
+  composite: 21.6
+  delta: 1.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 52.1
-    developer_ergonomics: 0.0
-    discoverability: 46.3
+    contract_quality: 50.1
+    developer_ergonomics: 15.2
+    discoverability: 35.2
     governance: 20.8
     operational_transparency: 0.0
   previous_composite: 20.2
@@ -76,8 +92,8 @@ score:
       total: 2
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/screenshots/nas-academy-2026-08-07T184637.png
 security:

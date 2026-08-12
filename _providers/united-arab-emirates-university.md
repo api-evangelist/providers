@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: OAI-PMH 2.0 metadata harvesting endpoint for Scholarworks@UAEU, the university's open-access institutional repository built on the bepress Digital Commons platform. The endpoint supports standard OAI-
@@ -130,8 +130,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-arab-emirates-university/refs/heads/main/screenshots/united-arab-emirates-university-2026-06-20T200041.png
 security:

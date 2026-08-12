@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.3
-  scored_at: '2026-08-10'
+  score: 20.0
+  scored_at: '2026-08-11'
 api_count: 10
 apis:
 - description: Registered types, taxonomies and statuses.
@@ -51,8 +51,16 @@ apis:
 - description: Published testimonials.
   name: Strata Oncology Testimonials API
   slug: strata-oncology-testimonials-api
-artifact_total: 12
+artifact_total: 13
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/strata-oncology-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/strata-oncology-content-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -149,6 +157,10 @@ created: '2026-08-02'
 description: Strata Oncology is a precision oncology company founded in 2015 by Dan Rhodes and Scott Tomlins and headquartered in Ann Arbor, Michigan. It develops and runs predictive biomarker tests out of its own high-throughput CLIA laboratory, including StrataNGS tumor genomic profiling, the Immunotherapy Response Score for anti-PD-1/PD-L1 monotherapy benefit, PD-L1 IHC testing, and Antibody-Drug Conjugate Treatment Response Scores. Testing is delivered to health systems through the Strata Precision Oncology Network, with ordering and results handled through the login-gated Strata Request Portal and the Strata Assistant app distributed in the Epic App Orchard. Strata Oncology publishes no public developer program or API documentation; the only anonymous machine-readable surface API Evangelist could verify is the WordPress REST content API behind strataoncology.com.
 image: https://strataoncology.com/wp-content/uploads/2022/09/Strata-Oncology-Logo_Symbol-Dark-Theme.svg
 layout: provider
+mcp_servers:
+- description: ''
+  name: strata-oncology-mcp.yml
+  slug: strata-oncology-mcpyml
 modified: '2026-08-02'
 name: Strata Oncology
 nav: Providers
@@ -156,27 +168,27 @@ network: true
 overview: 'Strata Oncology publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Media API, Pages API, and 7 more. Tagged areas include Company, Healthcare, Precision Medicine, Oncology, and Genomics.
 
 
-  Strata Oncology''s developer surface includes engineering blog, signup flow, and 21 more developer resources.'
+  Strata Oncology''s developer surface includes engineering blog, signup flow, and 23 more developer resources.'
 random_paper: 66
 score:
   band: emerging
-  composite: 26.0
-  delta: 0.3
+  composite: 24.4
+  delta: -1.6
   facets:
     commercial_clarity: 42.1
-    contract_quality: 14.0
-    developer_ergonomics: 3.8
-    discoverability: 92.6
+    contract_quality: 14.4
+    developer_ergonomics: 6.0
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 25.7
+  previous_composite: 26.0
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 10
       marker_coverage: 100.0
-      total: 1
+      total: 10
     mcp: derived
     skills: derived
   regulatory:
@@ -184,9 +196,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 37.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 30.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 1
@@ -196,11 +196,11 @@ rules:
   slug: university-of-basel-rules
 score:
   band: developing
-  composite: 43.0
-  delta: 0.0
+  composite: 42.4
+  delta: -0.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 61.7
+    contract_quality: 59.4
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 58.3
@@ -213,8 +213,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/screenshots/university-of-basel-2026-06-20T200131.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: API Dash is an open source AI-powered cross-platform API client built with Flutter for desktop and mobile. Supports HTTP, GraphQL, and WebSocket with code generation, folder organization, and rich res
@@ -36,6 +36,26 @@ apis:
   slug: api-dash
 artifact_total: 15
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/foss42/apidash/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/foss42/apidash/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/foss42/apidash/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/foss42/apidash/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/foss42/apidash/blob/main/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -104,7 +124,7 @@ network: true
 overview: 'API Dash publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Client, Open Source, Flutter, Desktop, and Mobile.
 
 
-  API Dash''s developer surface includes documentation, support, and 7 more developer resources.'
+  API Dash''s developer surface includes documentation, support, and 12 more developer resources.'
 plans:
 - name: Api Dash Plans Pricing
   plan_count: 3
@@ -116,18 +136,18 @@ rate_limits:
   slug: api-dash-rate-limits
 score:
   band: emerging
-  composite: 23.3
-  delta: 0.0
+  composite: 19.7
+  delta: -3.6
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 13.0
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 23.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-dash/refs/heads/main/screenshots/api-dash-2026-06-20T172202.png
 security:

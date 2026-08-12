@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: 'The TypeScript Compiler API provides programmatic access to the TypeScript compiler for parsing, analyzing, and transforming TypeScript and JavaScript code. Developers can create custom linters, code '
@@ -109,20 +109,20 @@ rate_limits:
   name: Microsoft Typescript Rate Limits
   slug: microsoft-typescript-rate-limits
 score:
-  band: thin
-  composite: 29.3
-  delta: 0.0
+  band: emerging
+  composite: 22.8
+  delta: -6.5
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 36.8
     contract_quality: 0.0
-    developer_ergonomics: 32.6
+    developer_ergonomics: 39.1
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 29.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-typescript/refs/heads/main/screenshots/microsoft-typescript-2026-06-20T185539.png
 security:
 - kind: domain-security

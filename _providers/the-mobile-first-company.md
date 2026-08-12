@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 63.7
-  scored_at: '2026-08-10'
+  score: 60.1
+  scored_at: '2026-08-11'
 api_count: 13
 apis:
 - description: Pre-computed call metrics, team performance, and outbound dial funnel
@@ -87,7 +87,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/the-mobile-first-company-allo-openapi.json
+  url: openapi/_original/the-mobile-first-company-allo-openapi.json
 - group: other
   title: ''
   type: Overlay
@@ -225,14 +225,14 @@ scopes:
   slug: the-mobile-first-company-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 57.4
-  delta: 0.0
+  band: developing
+  composite: 55.8
+  delta: -1.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 75.5
+    contract_quality: 72.7
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 39.5
   previous_composite: 57.4
@@ -251,8 +251,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

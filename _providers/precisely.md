@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: A range of APIs for address verification, geocoding, demographics, property data, and location intelligence.
@@ -114,20 +114,20 @@ rate_limits:
   name: Precisely Rate Limits
   slug: precisely-rate-limits
 score:
-  band: thin
-  composite: 30.2
-  delta: 0.0
+  band: emerging
+  composite: 23.1
+  delta: -7.1
   facets:
-    commercial_clarity: 71.1
+    commercial_clarity: 47.4
     contract_quality: 0.0
     developer_ergonomics: 23.9
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 47.4
+    operational_transparency: 23.7
   previous_composite: 30.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/precisely/refs/heads/main/screenshots/precisely-2026-06-20T192040.png
 security:
 - kind: domain-security

@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 67.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -1384,15 +1385,15 @@ scopes:
   summary_line: 10 scopes · authorizationCode/implicit
 score:
   band: exemplar
-  composite: 79.3
-  delta: 0.0
+  composite: 70.9
+  delta: -8.4
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 78.5
+    commercial_clarity: 68.4
+    contract_quality: 75.9
     developer_ergonomics: 71.7
     discoverability: 74.1
     governance: 80.2
-    operational_transparency: 76.3
+    operational_transparency: 52.6
   previous_composite: 79.3
   provenance:
     agentic_access: derived
@@ -1403,9 +1404,9 @@ score:
       marker_coverage: 0.0
       total: 10
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/screenshots/zapier-2026-06-20T201801.png
 security:
 - kind: authentication

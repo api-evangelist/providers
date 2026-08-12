@@ -1,24 +1,25 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.7
-  scored_at: '2026-08-10'
+  score: 46.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 3
@@ -124,7 +125,7 @@ apis:
 - description: Authenticated API for initiating asset transfers between trading accounts.
   name: Bullish Transfer API
   slug: bullish-transfer-api
-artifact_total: 44
+artifact_total: 45
 asyncapis:
 - description: 'The Auction Feed provides real-time auction data for markets with auctions enabled. Two topics are available: - `noii` - Net Order Imbalance Indicator (NOII) updates. Available during the Lockdown pha'
   name: Auction Feed
@@ -145,6 +146,10 @@ asyncapis:
   name: Anonymous Trades
   slug: bullish-ws-trades-asyncapi
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/bullish-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -302,6 +307,10 @@ description: 'Bullish is an institutional digital-asset exchange and custodian o
   as BLSH.'
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: bullish-mcp.yml
+  slug: bullish-mcpyml
 modified: '2026-08-08'
 name: Bullish
 nav: Providers
@@ -312,30 +321,43 @@ overview: 'Bullish publishes 30 APIs on the [APIs.io](https://apis.io/) network,
   The Bullish catalog on APIs.io includes 6 event-driven AsyncAPI specifications.
 
 
-  Bullish''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, pricing, and 31 more developer resources.'
+  Bullish''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, pricing, and 32 more developer resources.'
 random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Bullish Rate Limits
   slug: bullish-rate-limits
 score:
-  band: exemplar
-  composite: 66.6
+  band: strong
+  composite: 62.9
+  delta: -3.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 63.8
-    developer_ergonomics: 71.7
-    discoverability: 92.6
-    governance: 20.8
+    contract_quality: 66.9
+    developer_ergonomics: 69.0
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 86.8
+  previous_composite: 66.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 73.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 60.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Bullish Authentication

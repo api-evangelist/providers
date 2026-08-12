@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Client SDK and hosted spatial audio server for embedding real-time positional voice in web and native apps. Auth is a connection JWT signed with the developer''s App Secret. The hosted server has been '
@@ -36,6 +36,18 @@ apis:
   slug: high-fidelity-spatial-audio-api
 artifact_total: 3
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/highfidelity/hifi-spatial-audio-js/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/highfidelity/hifi-spatial-audio-js/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/highfidelity/hifi-spatial-audio-js/blob/main/LICENSE
 - group: build
   title: ''
   type: Packages
@@ -107,12 +119,12 @@ network: true
 overview: 'High Fidelity publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Spatial Audio, Audio, and Voice.
 
 
-  High Fidelity''s developer surface includes authentication, changelog, getting-started guide, engineering blog, support, pricing, and 9 more developer resources.'
+  High Fidelity''s developer surface includes authentication, changelog, getting-started guide, engineering blog, support, pricing, and 12 more developer resources.'
 random_paper: 43
 score:
   band: emerging
-  composite: 24.2
-  delta: 0.0
+  composite: 23.6
+  delta: -0.6
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -121,14 +133,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 24.2
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 27.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/high-fidelity/refs/heads/main/screenshots/high-fidelity-2026-07-25T221150.png
 security:

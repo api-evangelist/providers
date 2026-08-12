@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +12,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-08-10'
+  score: 51.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 653
   human_in_the_loop: 18
@@ -91,8 +92,12 @@ apis:
 - description: TUI Group Supply from TUI Group — 1 path(s) described in OpenAPI.
   name: TUI Group Supply
   slug: tui-group-tui-supply-openapi
-artifact_total: 27
+artifact_total: 28
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/tui-group-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -263,6 +268,10 @@ description: 'TUI Group is the world''s largest integrated leisure tourism busin
   no status page, no event or webhook surface, and no documented bulk-export or data-portability operation for a departing partner.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groq.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: tui-group-mcp.yml
+  slug: tui-group-mcpyml
 modified: '2026-07-28'
 name: TUI Group
 nav: Providers
@@ -270,7 +279,7 @@ network: true
 overview: 'TUI Group publishes 21 APIs on the [APIs.io](https://apis.io/) network, including TUI New Skies Digital API, TUI New Skies GoNow API, TUI New Skies Payment API, and 18 more. Tagged areas include Travel, United Kingdom, Aviation, Airline, and Tour Operator.
 
 
-  TUI Group''s developer surface includes authentication, changelog, sandbox, documentation, API reference, signup flow, getting-started guide, and 34 more developer resources.'
+  TUI Group''s developer surface includes authentication, changelog, sandbox, documentation, API reference, signup flow, getting-started guide, and 35 more developer resources.'
 random_paper: 12
 rate_limits:
 - limit_count: 6
@@ -283,12 +292,12 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 53.1
-  delta: 0.0
+  composite: 53.0
+  delta: -0.1
   facets:
     commercial_clarity: 34.2
-    contract_quality: 55.0
-    developer_ergonomics: 62.5
+    contract_quality: 53.0
+    developer_ergonomics: 64.7
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 63.2
@@ -303,8 +312,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 11
 apis:
 - description: REST API for managing features, components, products, notes (customer feedback), users, companies, objectives, releases, and webhooks within Productboard. Supports both v1 and v2 endpoints. Authentica
@@ -136,24 +136,24 @@ overview: 'Productboard publishes 11 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 13
 score:
   band: thin
-  composite: 30.4
-  delta: 0.5
+  composite: 34.2
+  delta: 3.8
   facets:
-    commercial_clarity: 18.4
-    contract_quality: 54.1
+    commercial_clarity: 31.6
+    contract_quality: 55.6
     developer_ergonomics: 15.2
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 29.9
+  previous_composite: 30.4
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+      total: 10
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/productboard/refs/heads/main/screenshots/productboard-2026-06-20T192139.png
 security:

@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 57.0
-  scored_at: '2026-08-10'
+  score: 53.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -300,11 +301,11 @@ scopes:
   summary_line: 38 scopes
 score:
   band: developing
-  composite: 53.8
-  delta: 0.0
+  composite: 52.0
+  delta: -1.8
   facets:
     commercial_clarity: 21.1
-    contract_quality: 68.1
+    contract_quality: 65.5
     developer_ergonomics: 64.7
     discoverability: 83.3
     governance: 11.5
@@ -325,9 +326,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 75.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 66.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/screenshots/open-gateway-2026-08-07T190457.png
 security:

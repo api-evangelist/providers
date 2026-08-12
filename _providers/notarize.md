@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-10'
+  score: 38.1
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API for creating and managing notarization, eSign, Identify, and real-estate transactions, documents, signers, notaries, templates, and Webhooks V2 subscriptions.
@@ -193,8 +193,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/screenshots/notarize-2026-08-07T185539.png
 security:

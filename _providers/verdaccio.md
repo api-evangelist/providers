@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -68,6 +68,10 @@ apis:
   slug: verdaccio-utility-api
 artifact_total: 23
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/verdaccio/verdaccio/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -170,7 +174,7 @@ overview: 'Verdaccio publishes 8 APIs on the [APIs.io](https://apis.io/) network
   The Verdaccio catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Verdaccio''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
+  Verdaccio''s developer surface includes authentication, documentation, engineering blog, and 12 more developer resources.'
 plans:
 - name: Verdaccio Plans Pricing
   plan_count: 2
@@ -187,12 +191,12 @@ rules:
   slug: verdaccio-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.3
-  delta: 0.0
+  composite: 40.6
+  delta: 0.3
   facets:
     commercial_clarity: 28.9
-    contract_quality: 64.0
-    developer_ergonomics: 21.7
+    contract_quality: 61.6
+    developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 5.3
@@ -204,8 +208,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/screenshots/verdaccio-2026-06-20T200918.png
 security:

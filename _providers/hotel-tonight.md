@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Auth-gated partner/agent API portal for HotelTonight hotel supply and booking operations. Requires partner-agent credentials; no public OpenAPI is published.
@@ -111,7 +111,7 @@ random_paper: 74
 score:
   band: emerging
   composite: 26.1
-  delta: 8.3
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -119,12 +119,12 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 15.8
-  previous_composite: 17.8
+  previous_composite: 26.1
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: rising
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hotel-tonight/refs/heads/main/screenshots/hotel-tonight-2026-07-25T221516.png
 security:
 - kind: authentication

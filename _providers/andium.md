@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 35.6
-  scored_at: '2026-08-10'
+  score: 32.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol shopping service on Andium's merchandise storefront, exposed as a Model Context Protocol endpoint over JSON-RPC 2.0. Thirteen tools cover catalog search and lookup, pro
@@ -166,8 +166,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/andium/refs/heads/main/screenshots/andium-2026-08-07T161400.png
 security:

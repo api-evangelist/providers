@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -110,7 +110,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/mapmyfitness-openapi.yml
+  url: openapi/_original/mapmyfitness-openapi.yml
 - group: design
   title: ''
   type: JSONLD
@@ -127,10 +127,6 @@ common:
   title: ''
   type: JSONSchema
   url: json-schema/under-armour-workout-schema.json
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/connected-fitness.yaml
 created: '2026-03-24'
 description: Under Armour is an American company that manufactures footwear, sports, and casual apparel known for its performance products designed for athletes. Under Armour operates a Connected Fitness platform — powered by MapMyFitness — that provides developer APIs for integrating workout tracking, route data, user profiles, heart rate zones, and fitness devices into third-party applications.
 examples:
@@ -166,7 +162,7 @@ overview: 'Under Armour publishes 6 APIs on the [APIs.io](https://apis.io/) netw
   The Under Armour catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Under Armour''s developer surface includes authentication, documentation, and 15 more developer resources.'
+  Under Armour''s developer surface includes authentication, documentation, and 14 more developer resources.'
 plans:
 - name: Under Armour Plans Pricing
   plan_count: 1
@@ -216,15 +212,15 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.2
-  delta: 0.0
+  composite: 45.2
+  delta: -5.0
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 72.1
+    commercial_clarity: 23.7
+    contract_quality: 69.4
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 50.2
   provenance:
     agentic_access: derived
@@ -239,9 +235,9 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/screenshots/under-armour-2026-06-20T200017.png
 security:
 - kind: authentication

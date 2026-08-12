@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -55,6 +56,10 @@ apis:
   slug: crescendo-voc-api
 artifact_total: 9
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/crescendo-platform-overlay.yaml
 - group: docs
   title: ''
   type: Documentation
@@ -154,15 +159,15 @@ network: true
 overview: 'Crescendo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including MCP API, Provisioning API, Reporting API, and 2 more. Tagged areas include Company, Customer Experience, Customer Support, Artificial Intelligence, and AI Agents.
 
 
-  Crescendo''s developer surface includes documentation, API reference, quickstart, engineering blog, support, authentication, and 15 more developer resources.'
+  Crescendo''s developer surface includes documentation, API reference, quickstart, engineering blog, support, authentication, and 16 more developer resources.'
 random_paper: 22
 score:
   band: thin
-  composite: 41.3
-  delta: 0.0
+  composite: 40.8
+  delta: -0.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 60.4
+    contract_quality: 58.1
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
@@ -178,8 +183,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crescendo/refs/heads/main/screenshots/crescendo-2026-07-25T210727.png
 security:

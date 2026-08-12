@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -109,6 +109,18 @@ collections:
   name: npm Registry API
   slug: open-npm-registry-api
 common:
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/npm/cli/blob/latest/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/npm/cli/blob/latest/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/npm/cli/blob/latest/CONTRIBUTING.md
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -258,7 +270,7 @@ overview: 'npm publishes 8 APIs on the [APIs.io](https://apis.io/) network, incl
   The npm catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  npm''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 11 more developer resources.'
+  npm''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 14 more developer resources.'
 plans:
 - name: Npm Plans Pricing
   plan_count: 4
@@ -286,16 +298,16 @@ rules:
     warn: 4
   slug: npm-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 62.2
-  delta: 0.0
+  band: developing
+  composite: 55.0
+  delta: -7.2
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 82.2
+    commercial_clarity: 50.0
+    contract_quality: 79.1
     developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 47.9
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 62.2
   provenance:
     agentic_access: derived
@@ -304,9 +316,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/screenshots/npm-2026-06-20T190449.png
 security:
 - kind: authentication

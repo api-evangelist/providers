@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The SkyWalking GraphQL Query API provides a comprehensive query interface for retrieving observability data including traces, metrics, logs, alarms, topology maps, and profiling results. It supports m
@@ -42,6 +42,14 @@ apis:
   slug: apache-skywalking-grpc-data-collect-protocol
 artifact_total: 32
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/apache/skywalking-query-protocol/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -171,7 +179,7 @@ network: true
 overview: 'Apache SkyWalking publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include APM, Application Performance Monitoring, Cloud Native, Distributed Tracing, and Monitoring.
 
 
-  Apache SkyWalking''s developer surface includes documentation, developer portal, engineering blog, release notes, support, and 13 more developer resources.'
+  Apache SkyWalking''s developer surface includes documentation, developer portal, engineering blog, release notes, support, and 15 more developer resources.'
 plans:
 - name: Apache Skywalking Plans Pricing
   plan_count: 3
@@ -182,20 +190,20 @@ rate_limits:
   name: Apache Skywalking Rate Limits
   slug: apache-skywalking-rate-limits
 score:
-  band: thin
-  composite: 31.1
-  delta: 0.0
+  band: emerging
+  composite: 23.3
+  delta: -7.8
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 31.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-skywalking/refs/heads/main/screenshots/apache-skywalking-2026-06-20T172144.png
 security:
 - kind: domain-security

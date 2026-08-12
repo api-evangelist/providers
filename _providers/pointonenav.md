@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: GraphQL interface for Point One workflow and data management, authenticated with an API key issued from app.pointonenav.com.
@@ -39,6 +39,10 @@ apis:
   slug: polaris-rtk-network-service
 artifact_total: 4
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/PointOneNav/polaris/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -130,7 +134,7 @@ network: true
 overview: 'Pointonenav publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Positioning, GNSS, RTK, and Navigation.
 
 
-  Pointonenav''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, CLI, and 13 more developer resources.'
+  Pointonenav''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, CLI, and 14 more developer resources.'
 random_paper: 41
 score:
   band: thin
@@ -146,8 +150,8 @@ score:
   previous_composite: 29.4
   provenance:
     conformance: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

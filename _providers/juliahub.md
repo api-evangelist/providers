@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 9.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Programmatic access to the JuliaHub platform — jobs, datasets, applications, projects, and package registries — via the official JuliaHub.jl Julia client and the jh CLI, authenticated with OAuth2 / Op
@@ -164,20 +164,20 @@ scopes:
   summary_line: 5 scopes · deviceCode/authorizationCode
 score:
   band: thin
-  composite: 38.1
-  delta: 0.0
+  composite: 37.0
+  delta: -1.1
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 65.2
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 21.1
   previous_composite: 38.1
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/juliahub/refs/heads/main/screenshots/juliahub-2026-07-25T223308.png
 security:

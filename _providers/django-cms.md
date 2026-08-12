@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -61,6 +61,18 @@ apis:
   slug: django-cms-plugins-api
 artifact_total: 15
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/django-cms/djangocms-rest/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/django-cms/djangocms-rest/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/django-cms/djangocms-rest/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -140,7 +152,7 @@ overview: 'Django CMS publishes 7 APIs on the [APIs.io](https://apis.io/) networ
   The Django CMS catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Django CMS''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
+  Django CMS''s developer surface includes documentation, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Django Cms Plans Pricing
   plan_count: 3
@@ -161,15 +173,15 @@ rules:
   slug: django-cms-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.0
-  delta: 0.0
+  composite: 49.5
+  delta: 1.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.8
+    contract_quality: 61.4
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 42.1
+    operational_transparency: 57.9
   previous_composite: 48.0
   provenance:
     agentic_access: derived
@@ -178,8 +190,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/screenshots/django-cms-2026-06-20T180058.png
 security:

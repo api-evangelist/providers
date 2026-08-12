@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-10'
+  score: 34.2
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Unity Cloud (Unity Platform) developer surface, documented publicly at docs.unitycloud.io as the Unity Platform SDK reference. A single GraphQL endpoint collates the schemas of every installed ext
@@ -176,8 +176,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codafication/refs/heads/main/screenshots/codafication-2026-07-25T205858.png
 security:

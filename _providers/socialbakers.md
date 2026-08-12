@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 24.1
-  scored_at: '2026-08-10'
+  score: 23.2
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: Facebook Ads content and metrics
@@ -55,8 +55,16 @@ apis:
 - description: Managed profiles, labels, label groups, listening queries, ad accounts
   name: Socialbakers Reference API
   slug: socialbakers-reference-api
-artifact_total: 12
+artifact_total: 13
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/socialbakers-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/socialbakers-emplifi-public-api-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -117,6 +125,10 @@ created: '2026-07-17'
 description: Socialbakers was a pioneering social media analytics and marketing platform (founded 2008 in Prague) that let brands and agencies benchmark, measure and optimize their presence across Facebook, Instagram, X/Twitter, YouTube, LinkedIn, Pinterest, TikTok and Snapchat. In 2021 Socialbakers was acquired by Astute and rebranded to Emplifi, a unified social customer experience platform combining social marketing, commerce and care. The former Socialbakers Public API lives on as the Emplifi Public API (v3) at api.emplifi.io, exposing profile and post metrics, published content, social listening, community engagement, Facebook Ads, digital asset management and customer care data. Authentication is HTTP Basic (API token/secret) or OAuth 2.0 authorization code, with hourly rate limits and cursor-paginated content endpoints.
 image: https://base.cdn.emplifi.io/suite/main/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: socialbakers-mcp.yml
+  slug: socialbakers-mcpyml
 modified: '2026-07-21'
 name: Socialbakers
 nav: Providers
@@ -124,7 +136,7 @@ network: true
 overview: 'Socialbakers publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Assets API, Care API, and 5 more. Tagged areas include Company, Marketing, Social Media, Analytics, and Social Media Analytics.
 
 
-  Socialbakers'' developer surface includes documentation, API reference, engineering blog, pricing, and 10 more developer resources.'
+  Socialbakers'' developer surface includes documentation, API reference, engineering blog, pricing, and 12 more developer resources.'
 random_paper: 107
 rate_limits:
 - limit_count: 2
@@ -136,14 +148,14 @@ scopes:
   slug: socialbakers-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 42.3
-  delta: 0.0
+  band: thin
+  composite: 41.1
+  delta: -1.2
   facets:
     commercial_clarity: 31.6
-    contract_quality: 57.4
-    developer_ergonomics: 27.7
-    discoverability: 92.6
+    contract_quality: 55.2
+    developer_ergonomics: 29.9
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 42.1
   previous_composite: 42.3
@@ -156,8 +168,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

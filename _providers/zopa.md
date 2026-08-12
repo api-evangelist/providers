@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 51.6
-  scored_at: '2026-08-10'
+  score: 48.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -76,6 +76,10 @@ apis:
   slug: zopa-transactions-api
 artifact_total: 18
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zopa-account-info-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -203,7 +207,7 @@ network: true
 overview: 'zopa publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Account Access API, Accounts API, Balances API, and 9 more. Tagged areas include Company, Banking, Fintech, Open Banking, and PSD2.
 
 
-  zopa''s developer surface includes authentication, sandbox, documentation, engineering blog, support, and 23 more developer resources.'
+  zopa''s developer surface includes authentication, sandbox, documentation, engineering blog, support, and 24 more developer resources.'
 random_paper: 94
 scopes:
 - name: Zopa Scopes
@@ -212,13 +216,13 @@ scopes:
   summary_line: 2 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 49.4
-  delta: 0.0
+  composite: 45.4
+  delta: -4.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 55.0
+    contract_quality: 53.0
     developer_ergonomics: 45.1
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 10.5
   previous_composite: 49.4
@@ -237,9 +241,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 84.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 67.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

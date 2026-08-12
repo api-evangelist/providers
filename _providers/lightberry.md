@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,17 +20,21 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-10'
+  score: 10.8
+  scored_at: '2026-08-11'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/lightberry-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -68,6 +72,10 @@ description: Lightberry is a San Francisco robotics software company (Y Combinat
   at this time.
 image: https://lightberry.com/assets/images/share.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: lightberry-mcp.yml
+  slug: lightberry-mcpyml
 modified: '2026-07-19'
 name: Lightberry
 nav: Providers
@@ -75,30 +83,24 @@ network: true
 overview: 'Lightberry is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Artificial Intelligence, Conversational AI, and Voice.
 
 
-  Lightberry''s developer surface includes documentation, getting-started guide, support, YouTube channel, and 4 more developer resources.'
+  Lightberry''s developer surface includes documentation, getting-started guide, support, YouTube channel, and 5 more developer resources.'
 random_paper: 40
 score:
   band: minimal
-  composite: 11.1
-  delta: 0.0
+  composite: 12.3
+  delta: 1.2
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 23.9
-    discoverability: 68.5
+    developer_ergonomics: 32.6
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 11.1
   provenance:
     mcp: first-party
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 8.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightberry/refs/heads/main/screenshots/lightberry-2026-07-25T225107.png
 security:

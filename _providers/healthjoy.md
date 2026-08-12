@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,13 +90,13 @@ overview: 'HealthJoy is profiled on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 40
 score:
   band: emerging
-  composite: 21.4
-  delta: 0.0
+  composite: 20.5
+  delta: -0.9
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 12.5
     operational_transparency: 5.3
   previous_composite: 21.4
@@ -108,8 +108,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthjoy/refs/heads/main/screenshots/healthjoy-2026-08-07T170219.png
 security:

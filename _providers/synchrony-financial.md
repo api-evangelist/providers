@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -75,6 +75,22 @@ collections:
   name: Synchrony Financial Quickscreen Apply API
   slug: open-synchrony-financial-quickscreen-apply
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.synchrony.com/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.synchrony.com/help/faqs
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.synchrony.com/s/vulnerability-disclosure
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.synchrony.com/legal/privacy-policy
 - group: agent
   title: ''
   type: AgenticAccess
@@ -164,7 +180,7 @@ overview: 'Synchrony Financial publishes 8 APIs on the [APIs.io](https://apis.io
   The Synchrony Financial catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Synchrony Financial''s developer surface includes authentication, sandbox, and 10 more developer resources.'
+  Synchrony Financial''s developer surface includes engineering blog, support, authentication, sandbox, and 12 more developer resources.'
 plans:
 - name: Synchrony Financial Plans Pricing
   plan_count: 1
@@ -196,12 +212,12 @@ score:
   composite: 47.8
   delta: 0.0
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 71.3
-    developer_ergonomics: 26.1
+    commercial_clarity: 34.2
+    contract_quality: 68.7
+    developer_ergonomics: 32.6
     discoverability: 68.5
     governance: 68.8
-    operational_transparency: 21.1
+    operational_transparency: 15.8
   previous_composite: 47.8
   provenance:
     agentic_access: derived
@@ -215,9 +231,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 42.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 48.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/screenshots/synchrony-financial-2026-06-20T194826.png
 security:

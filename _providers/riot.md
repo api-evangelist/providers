@@ -9,16 +9,16 @@ agent_readiness:
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: documented
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-08-10'
+  score: 57.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -70,12 +70,16 @@ apis:
 - description: Server-to-server events Riot sends to customer-configured endpoints.
   name: Riot Webhook Events API
   slug: riot-webhook-events-api
-artifact_total: 22
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Riot Webhooks
   slug: riot-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/riot-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -220,6 +224,10 @@ created: '2026-08-05'
 description: Riot is a Paris-based employee security posture management (human risk management) platform that helps companies reduce the human attack surface. The product suite spans phishing and smishing simulation, security awareness training courses, credential breach monitoring, employee-reported email triage (Inbox), inbound email protection (Slash), and third-party SaaS/drive exposure monitoring (Sonar), fronted by a chat assistant that runs in Slack, Microsoft Teams and the web portal. Riot publishes a public REST API (OpenAPI 3.1.1, x-api-key authentication, cursor pagination, scoped keys) that exposes organization, employee, group, course, campaign, attack, breach and inbox data, a SCIM 2.0 provisioning surface for user and group lifecycle, and Standard-Webhooks server-to-server events whose payloads follow the OCSF Detection Finding schema so they can be ingested by a SIEM or SOAR without custom mapping.
 image: https://cms-content.tryriot.com/riot_preview_305b31b839.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: riot-mcp.yml
+  slug: riot-mcpyml
 modified: '2026-08-05'
 name: Riot
 nav: Providers
@@ -230,7 +238,7 @@ overview: 'Riot publishes 14 APIs on the [APIs.io](https://apis.io/) network, in
   The Riot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Riot''s developer surface includes documentation, API reference, engineering blog, support, pricing, changelog, authentication, and 28 more developer resources.'
+  Riot''s developer surface includes documentation, API reference, engineering blog, support, pricing, changelog, authentication, and 29 more developer resources.'
 random_paper: 98
 rate_limits:
 - limit_count: 0
@@ -242,29 +250,29 @@ scopes:
   slug: riot-scopes
   summary_line: 4 scopes
 score:
-  band: developing
-  composite: 54.8
-  delta: -1.5
+  band: strong
+  composite: 56.6
+  delta: 1.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 60.8
-    developer_ergonomics: 42.9
+    contract_quality: 66.0
+    developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 56.3
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

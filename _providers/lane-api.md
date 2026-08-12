@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 177
 apis:
 - description: The Accord API from Lane API — 1 operation(s) for accord.
@@ -591,16 +591,16 @@ rate_limits:
   name: Lane Api Rate Limits
   slug: lane-api-rate-limits
 score:
-  band: thin
-  composite: 30.8
-  delta: 0.0
+  band: emerging
+  composite: 22.4
+  delta: -8.4
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 55.0
+    commercial_clarity: 15.8
+    contract_quality: 52.9
     developer_ergonomics: 0.0
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 30.8
   provenance:
     contracts:
@@ -608,9 +608,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 177
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lane-api/refs/heads/main/screenshots/lane-api-2026-06-20T184300.png
 security:
 - kind: domain-security

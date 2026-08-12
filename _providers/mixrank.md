@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -89,6 +89,10 @@ apis:
   slug: mixrank-websites-api
 artifact_total: 22
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mixrank-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -200,7 +204,7 @@ network: true
 overview: 'MixRank publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Account API, Audience Segments API, Companies API, and 13 more. Tagged areas include Company, Data, Technographics, Firmographics, and People Data.
 
 
-  MixRank''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, and 18 more developer resources.'
+  MixRank''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, and 19 more developer resources.'
 plans:
 - name: Mixrank Plans
   plan_count: 6
@@ -212,11 +216,11 @@ rate_limits:
   slug: mixrank-rate-limits
 score:
   band: developing
-  composite: 55.2
-  delta: 0.0
+  composite: 54.7
+  delta: -0.5
   facets:
     commercial_clarity: 84.2
-    contract_quality: 55.0
+    contract_quality: 53.0
     developer_ergonomics: 49.5
     discoverability: 81.5
     governance: 20.8
@@ -232,8 +236,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/screenshots/mixrank-2026-08-07T183827.png
 security:

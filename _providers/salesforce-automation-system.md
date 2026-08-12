@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -201,16 +201,16 @@ scopes:
   slug: salesforce-automation-system-scopes
   summary_line: 2 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 58.0
-  delta: 0.0
+  band: developing
+  composite: 51.0
+  delta: -7.0
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 79.6
+    commercial_clarity: 34.2
+    contract_quality: 76.6
     developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 58.0
   provenance:
     agentic_access: derived
@@ -219,9 +219,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-automation-system/refs/heads/main/screenshots/salesforce-automation-system-2026-06-20T193343.png
 security:
 - kind: authentication

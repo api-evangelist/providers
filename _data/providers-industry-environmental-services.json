@@ -8,8 +8,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 2,
-   "shown": 2,
+   "count": 1,
+   "shown": 1,
    "providers": [
     {
      "name": "Clean Harbors",
@@ -27,8 +27,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -48,25 +48,36 @@
       "dry_run_mode": false
      },
      "rank": 1
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 12.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 5,
+   "shown": 5,
+   "providers": [
     {
      "name": "Rollins",
      "slug": "rollins",
      "description": "Rollins is a major US corporation and Fortune 1000 company. The Rollins API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rollins/refs/heads/main/screenshots/rollins-2026-06-20T193207.png",
-     "score": 14.0,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 8.8,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 2.2,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -86,18 +97,7 @@
       "dry_run_mode": false
      },
      "rank": 2
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 12.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 4,
-   "shown": 4,
-   "providers": [
+    },
     {
      "name": "American Water Works",
      "slug": "american-water-works",
@@ -114,8 +114,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -159,8 +159,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -197,8 +197,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -224,19 +224,19 @@
      "slug": "veolia",
      "description": "A French multinational corporation and the global leader in environmental services including water management, waste management, and energy services. Operates in nearly 50 countries providing solutions for water treatment, waste recycling, and pollution remediation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/veolia/refs/heads/main/screenshots/veolia-2026-06-20T200919.png",
-     "score": 4.0,
+     "score": 4.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 35.2,
+      "discoverability": 42.6,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

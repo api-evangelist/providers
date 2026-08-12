@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Token-authenticated HTTPS REST API used by individual devices to read and write datastream values, batch update multiple datastreams, retrieve historical data, set widget and datastream properties, tr
@@ -41,6 +41,18 @@ apis:
   slug: blynk-device-streaming-protocol
 artifact_total: 27
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/blynkkk/blynk-library/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/blynkkk/blynk-library/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/blynkkk/blynk-library/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -233,19 +245,19 @@ network: true
 overview: 'Blynk publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include IoT, Internet of Things, No-Code, Low-Code, and Connected Devices.
 
 
-  Blynk''s developer surface includes developer portal, documentation, getting-started guide, signup flow, developer console, pricing, engineering blog, and 32 more developer resources.'
+  Blynk''s developer surface includes developer portal, documentation, getting-started guide, signup flow, developer console, pricing, engineering blog, and 35 more developer resources.'
 random_paper: 80
 score:
   band: thin
-  composite: 29.8
-  delta: 0.0
+  composite: 31.5
+  delta: 1.7
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 58.7
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 23.7
+    operational_transparency: 39.5
   previous_composite: 29.8
   regulatory:
     applies: true
@@ -253,8 +265,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 27.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blynk/refs/heads/main/screenshots/blynk-2026-06-20T173539.png
 security:

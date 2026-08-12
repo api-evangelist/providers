@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 3
@@ -77,6 +77,14 @@ apis:
   slug: hex-pm-utilities-api
 artifact_total: 25
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/hexpm/hexpm/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/hexpm/.github/blob/main/CODE_OF_CONDUCT.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -179,7 +187,7 @@ overview: 'Hex.pm publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
   The Hex.pm catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Hex.pm''s developer surface includes authentication, pricing, status page, engineering blog, and 12 more developer resources.'
+  Hex.pm''s developer surface includes authentication, pricing, status page, engineering blog, and 14 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
@@ -200,11 +208,11 @@ rules:
   slug: hex-pm-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.2
-  delta: 0.0
+  composite: 49.6
+  delta: -0.6
   facets:
     commercial_clarity: 84.2
-    contract_quality: 62.5
+    contract_quality: 60.2
     developer_ergonomics: 13.0
     discoverability: 74.1
     governance: 58.3
@@ -217,8 +225,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hex-pm/refs/heads/main/screenshots/hex-pm-2026-06-20T182659.png
 security:

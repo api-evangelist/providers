@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: GraphQL adapter for Fastify enabling high-performance GraphQL servers and gateways with JIT compilation, query caching, subscriptions, and federation.
@@ -100,8 +100,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 20.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercurius/refs/heads/main/screenshots/mercurius-2026-06-20T185212.png
 security:

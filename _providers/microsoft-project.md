@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -386,15 +386,15 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.2
-  delta: 0.0
+  composite: 42.1
+  delta: -8.1
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 31.5
+    commercial_clarity: 47.4
+    contract_quality: 30.3
     developer_ergonomics: 41.3
     discoverability: 68.5
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 50.2
   provenance:
     agentic_access: derived
@@ -403,9 +403,9 @@ score:
       derived: 13
       marker_coverage: 100.0
       total: 13
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/screenshots/microsoft-project-2026-06-20T185526.png
 security:
 - kind: authentication

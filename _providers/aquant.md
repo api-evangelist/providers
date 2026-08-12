@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: documented
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 51.8
-  scored_at: '2026-08-10'
+  score: 48.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -229,11 +230,11 @@ scopes:
   summary_line: 7 scopes · authorizationCode/implicit/deviceCode/password/refreshToken
 score:
   band: developing
-  composite: 47.5
-  delta: 0.0
+  composite: 48.8
+  delta: 1.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 50.4
+    contract_quality: 48.5
     developer_ergonomics: 60.3
     discoverability: 87.0
     governance: 11.5
@@ -244,8 +245,14 @@ score:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 58.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/screenshots/aquant-2026-08-07T161534.png
 security:

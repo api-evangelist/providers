@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -61,6 +62,10 @@ apis:
   slug: bitoasis-orders-api
 artifact_total: 11
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bitoasis-exchange-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -176,17 +181,17 @@ network: true
 overview: 'BitOasis publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Account API, Coin Deposits API, Coin Withdrawals API, and 4 more. Tagged areas include Company, Crypto, Cryptocurrency, Exchange, and Trading.
 
 
-  BitOasis'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 18 more developer resources.'
+  BitOasis'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 19 more developer resources.'
 random_paper: 50
 score:
   band: thin
-  composite: 38.3
-  delta: 0.0
+  composite: 37.2
+  delta: -1.1
   facets:
     commercial_clarity: 28.9
-    contract_quality: 16.2
+    contract_quality: 15.6
     developer_ergonomics: 75.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 38.3
@@ -206,8 +211,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 50.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/screenshots/bitoasis-2026-07-25T203200.png
 security:

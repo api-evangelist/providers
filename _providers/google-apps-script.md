@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -314,15 +314,15 @@ rules:
   slug: google-apps-script-spectral-rules
 score:
   band: developing
-  composite: 54.1
-  delta: 0.0
+  composite: 45.6
+  delta: -8.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 68.2
+    commercial_clarity: 26.3
+    contract_quality: 65.7
     developer_ergonomics: 39.1
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 54.1
   provenance:
     agentic_access: derived
@@ -331,9 +331,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/screenshots/google-apps-script-2026-06-20T182017.png
 security:
 - kind: domain-security

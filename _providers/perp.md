@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Public GraphQL subgraph indexing the Perpetual Protocol Curie (v2) perpetual futures protocol on Optimism (positions, markets, trades, liquidations, funding). Served via The Graph hosted service and S
@@ -43,6 +43,10 @@ asyncapis:
   name: Perp Market Maker Webhooks
   slug: perp-market-maker-webhooks
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/perpetual-protocol/perp-curie-subgraph/blob/develop/LICENSE
 - group: company
   title: ''
   type: Website
@@ -138,7 +142,7 @@ overview: 'Perp publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
   The Perp catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Perp''s developer surface includes documentation, API reference, support, authentication, sandbox, and 15 more developer resources.'
+  Perp''s developer surface includes documentation, API reference, support, authentication, sandbox, and 16 more developer resources.'
 random_paper: 91
 rate_limits:
 - limit_count: 4
@@ -146,13 +150,13 @@ rate_limits:
   slug: perp-rate-limits
 score:
   band: thin
-  composite: 35.2
-  delta: 0.0
+  composite: 34.2
+  delta: -1.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 51.6
     developer_ergonomics: 52.2
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 44.7
   previous_composite: 35.2
@@ -162,8 +166,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

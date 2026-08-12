@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -232,11 +233,11 @@ rate_limits:
   slug: nimbleway-rate-limits
 score:
   band: strong
-  composite: 60.0
-  delta: 0.0
+  composite: 59.5
+  delta: -0.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 58.6
+    contract_quality: 56.4
     developer_ergonomics: 75.5
     discoverability: 81.5
     governance: 20.8
@@ -252,8 +253,8 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/screenshots/nimbleway-2026-08-07T185313.png
 security:

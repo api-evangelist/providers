@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -83,12 +83,6 @@ common:
   title: ''
   type: GettingStarted
   url: https://help.nightfall.ai/firewall-for-ai/introduction/quickstart
-- group: auth
-  title: ''
-  type: Authentication
-  url: '
-
-    https://help.nightfall.ai/firewall-for-ai/introduction/authentication-and-security'
 - group: commercial
   title: ''
   type: Pricing
@@ -97,22 +91,10 @@ common:
   title: ''
   type: ErrorCodes
   url: https://help.nightfall.ai/firewall-for-ai/key-concepts/errors
-- group: build
-  title: ''
-  type: SDKs
-  url: '
-
-    https://help.nightfall.ai/firewall-for-ai/nightfall-software-development-kit-sdk/nightfall-sdks'
 - group: operate
   title: ''
   type: FAQ
   url: https://help.nightfall.ai/firewall-for-ai/faqs
-- group: start
-  title: ''
-  type: Signup
-  url: '
-
-    https://auth.nightfall.ai/login?state=hKFo2SBZVWhXZU50OHN6MkQ4aVRMcHgwMVVBQ3A4ZjYwYzVKcKFupWxvZ2luo3RpZNkgUXktZzBrbExsU0Z1SnozR2R2MWdKRE5fTElpV1dUb1CjY2lk2SBwdVFNaGtoMUNzMnJyYjJOS05FSzZERzRPVThvMlloag&client=puQMhkh1Cs2rrb2NKNEK6DG4OU8o2Yhj&protocol=oauth2&response_type=token%20id_token&redirect_uri=https%3A%2F%2Fapp.nightfall.ai%2Fauthenticate&scope=openid%20profile%20email&audience=https%3A%2F%2Fapi.watchtower.ai%2F&nonce=r_2LyEabd0pmGjzB8Qc8Ne75dfNCCthB&auth0Client=eyJuYW1lIjoiYXV0aDAuanMiLCJ2ZXJzaW9uIjoiOS4xMy4yIn0%3D'
 - group: commercial
   title: ''
   type: TermsOfService
@@ -141,12 +123,6 @@ common:
   title: ''
   type: GettingStarted
   url: https://help.nightfall.ai/firewall-for-ai/introduction/quickstart
-- group: auth
-  title: ''
-  type: Authentication
-  url: '
-
-    https://help.nightfall.ai/firewall-for-ai/introduction/authentication-and-security'
 - group: commercial
   title: ''
   type: Pricing
@@ -155,22 +131,10 @@ common:
   title: ''
   type: ErrorCodes
   url: https://help.nightfall.ai/firewall-for-ai/key-concepts/errors
-- group: build
-  title: ''
-  type: SDKs
-  url: '
-
-    https://help.nightfall.ai/firewall-for-ai/nightfall-software-development-kit-sdk/nightfall-sdks'
 - group: operate
   title: ''
   type: FAQ
   url: https://help.nightfall.ai/firewall-for-ai/faqs
-- group: start
-  title: ''
-  type: Signup
-  url: '
-
-    https://auth.nightfall.ai/login?state=hKFo2SBZVWhXZU50OHN6MkQ4aVRMcHgwMVVBQ3A4ZjYwYzVKcKFupWxvZ2luo3RpZNkgUXktZzBrbExsU0Z1SnozR2R2MWdKRE5fTElpV1dUb1CjY2lk2SBwdVFNaGtoMUNzMnJyYjJOS05FSzZERzRPVThvMlloag&client=puQMhkh1Cs2rrb2NKNEK6DG4OU8o2Yhj&protocol=oauth2&response_type=token%20id_token&redirect_uri=https%3A%2F%2Fapp.nightfall.ai%2Fauthenticate&scope=openid%20profile%20email&audience=https%3A%2F%2Fapi.watchtower.ai%2F&nonce=r_2LyEabd0pmGjzB8Qc8Ne75dfNCCthB&auth0Client=eyJuYW1lIjoiYXV0aDAuanMiLCJ2ZXJzaW9uIjoiOS4xMy4yIn0%3D'
 - group: commercial
   title: ''
   type: TermsOfService
@@ -191,12 +155,6 @@ common:
   title: ''
   type: Partners
   url: https://www.nightfall.ai/partners
-- group: start
-  title: ''
-  type: Login
-  url: '
-
-    https://auth.nightfall.ai/login?state=hKFo2SBMeEttUHRKV0ZlU2xNQlhOZzdCS2p6MVZ4VDhBRVJyT6FupWxvZ2luo3RpZNkgcndRclA2bXNZbWFIZV9Pa3pTNUFiSzdVYnotTW5ibGqjY2lk2SBwdVFNaGtoMUNzMnJyYjJOS05FSzZERzRPVThvMlloag&client=puQMhkh1Cs2rrb2NKNEK6DG4OU8o2Yhj&protocol=oauth2&response_type=token%20id_token&redirect_uri=https%3A%2F%2Fapp.nightfall.ai%2Fauthenticate&scope=openid%20profile%20email&audience=https%3A%2F%2Fapi.watchtower.ai%2F&nonce=ZhCQOut2VDDBFN1hyjHNP7CDlD0XNM4&auth0Client=eyJuYW1lIjoiYXV0aDAuanMiLCJ2ZXJzaW9uIjoiOS4xMy4yIn0%3D'
 created: '2024-07-02T00:00:00.000Z'
 description: Nightfall AI is a data security platform that specializes in identifying and protecting sensitive information within an organization. By utilizing machine learning technology, Nightfall AI can automatically scan files, emails, and messages to detect and classify sensitive data such as credit card numbers, social security numbers, and personal addresses.
 finops:
@@ -212,7 +170,7 @@ network: true
 overview: 'Nightfall AI publishes 2 APIs on the [APIs.io](https://apis.io/) network: Scan API and Scans API. Tagged areas include Artificial Intelligence, Privacy, and Sensitive Data.
 
 
-  Nightfall AI''s developer surface includes authentication, getting-started guide, pricing, FAQ, signup flow, engineering blog, and 27 more developer resources.'
+  Nightfall AI''s developer surface includes authentication, getting-started guide, pricing, FAQ, engineering blog, and 21 more developer resources.'
 plans:
 - name: Nightfall Ai Plans Pricing
   plan_count: 3
@@ -223,16 +181,16 @@ rate_limits:
   name: Nightfall Ai Rate Limits
   slug: nightfall-ai-rate-limits
 score:
-  band: developing
-  composite: 48.6
-  delta: 0.0
+  band: thin
+  composite: 39.0
+  delta: -9.6
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 57.4
-    developer_ergonomics: 30.4
+    commercial_clarity: 68.4
+    contract_quality: 55.2
+    developer_ergonomics: 23.9
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 48.6
   provenance:
     agentic_access: derived
@@ -241,9 +199,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nightfall-ai/refs/heads/main/screenshots/nightfall-ai-2026-06-20T190326.png
 security:
 - kind: authentication

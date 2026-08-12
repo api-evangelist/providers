@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-10'
+  score: 41.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -37,8 +37,16 @@ apis:
 - description: Maker order retrieval, acknowledgement, packing sheets and shipping labels.
   name: Zazzle Vendor API
   slug: zazzle-vendor-api
-artifact_total: 7
+artifact_total: 8
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/zazzle-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zazzle-create-a-product-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -160,6 +168,10 @@ description: 'Zazzle is an online marketplace and on-demand manufacturing platfo
   Associates/Ambassador program, with partners setting their own royalty and earning a referral share on each sale.'
 image: https://asset.zcache.com/assets/graphics/z5/global/zazzle_white.svg
 layout: provider
+mcp_servers:
+- description: ''
+  name: zazzle-mcp.yml
+  slug: zazzle-mcpyml
 modified: '2026-08-05'
 name: Zazzle
 nav: Providers
@@ -167,20 +179,20 @@ network: true
 overview: 'Zazzle publishes 3 APIs on the [APIs.io](https://apis.io/) network: Create a Product API, Real View API, and Vendor API. Tagged areas include Company, E-Commerce, Marketplace, Print On Demand, and Manufacturing.
 
 
-  Zazzle''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, authentication, and 22 more developer resources.'
+  Zazzle''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, authentication, and 24 more developer resources.'
 random_paper: 92
 score:
   band: thin
-  composite: 40.6
+  composite: 40.1
   delta: -0.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 29.5
-    developer_ergonomics: 58.2
-    discoverability: 92.6
+    contract_quality: 30.2
+    developer_ergonomics: 60.3
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 41.1
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -191,8 +203,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

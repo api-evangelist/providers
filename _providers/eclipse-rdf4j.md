@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -65,6 +65,22 @@ collections:
   name: RDF4J Server REST API
   slug: open-rdf4j-server-rest-api
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/eclipse/rdf4j/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/eclipse-rdf4j/rdf4j/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/eclipse-rdf4j/rdf4j/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/eclipse-rdf4j/rdf4j/blob/main/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -124,7 +140,7 @@ network: true
 overview: 'Eclipse RDF4J publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Contexts API, Namespaces API, Protocol API, and 4 more. Tagged areas include Eclipse Foundation, Java, Linked Data, Open Source, and RDF.
 
 
-  Eclipse RDF4J''s developer surface includes getting-started guide, documentation, changelog, support, engineering blog, and 6 more developer resources.'
+  Eclipse RDF4J''s developer surface includes getting-started guide, documentation, changelog, support, engineering blog, and 10 more developer resources.'
 plans:
 - name: Eclipse Rdf4J Plans Pricing
   plan_count: 3
@@ -136,15 +152,15 @@ rate_limits:
   slug: eclipse-rdf4j-rate-limits
 score:
   band: thin
-  composite: 38.9
-  delta: 0.0
+  composite: 32.0
+  delta: -6.9
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 49.7
+    commercial_clarity: 15.8
+    contract_quality: 47.9
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 38.9
   provenance:
     agentic_access: derived
@@ -153,9 +169,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/screenshots/eclipse-rdf4j-2026-06-20T180427.png
 security:
 - kind: domain-security

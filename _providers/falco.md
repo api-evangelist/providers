@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -59,6 +59,26 @@ collections:
   name: Falco HTTP API
   slug: open-falco
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/falcosecurity/plugin-sdk-go/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/falcosecurity/plugin-sdk-go/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/falcosecurity/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/falcosecurity/.github/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/falcosecurity/plugin-sdk-go/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -137,7 +157,7 @@ overview: 'Falco publishes 3 APIs on the [APIs.io](https://apis.io/) network: He
   The Falco catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Falco''s developer surface includes documentation, engineering blog, getting-started guide, changelog, and 8 more developer resources.'
+  Falco''s developer surface includes documentation, engineering blog, getting-started guide, changelog, and 13 more developer resources.'
 plans:
 - name: Falco Plans Pricing
   plan_count: 3
@@ -158,15 +178,15 @@ rules:
   slug: falco-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.8
-  delta: 0.0
+  composite: 42.4
+  delta: -8.4
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 66.7
+    commercial_clarity: 15.8
+    contract_quality: 64.2
     developer_ergonomics: 26.1
     discoverability: 72.2
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 50.8
   provenance:
     agentic_access: derived
@@ -175,9 +195,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/falco/refs/heads/main/screenshots/falco-2026-06-20T181029.png
 security:
 - kind: domain-security

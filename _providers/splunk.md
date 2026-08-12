@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -109,6 +110,10 @@ collections:
   name: Splunk Enterprise REST API
   slug: open-splunk-enterprise-rest-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/signalfx/splunk-otel-collector/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -715,7 +720,7 @@ overview: 'Splunk publishes 3 APIs on the [APIs.io](https://apis.io/) network: D
   The Splunk catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Splunk''s developer surface includes authentication, engineering blog, support, documentation, getting-started guide, pricing, signup flow, and 40 more developer resources.'
+  Splunk''s developer surface includes authentication, engineering blog, support, documentation, getting-started guide, pricing, signup flow, and 41 more developer resources.'
 paper_is_own: true
 plans:
 - name: Splunk Plans Pricing
@@ -745,15 +750,15 @@ rules:
   slug: splunk-spectral-rules
 score:
   band: exemplar
-  composite: 71.5
-  delta: 0.0
+  composite: 66.7
+  delta: -4.8
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 78.1
+    commercial_clarity: 68.4
+    contract_quality: 75.5
     developer_ergonomics: 73.9
     discoverability: 55.6
     governance: 58.3
-    operational_transparency: 68.4
+    operational_transparency: 52.6
   previous_composite: 71.5
   provenance:
     agentic_access: derived
@@ -762,8 +767,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/screenshots/splunk-2026-06-20T194332.png
 security:

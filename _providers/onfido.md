@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 45
 apis:
 - description: The Addresses API from Onfido — 1 operation(s) for addresses.
@@ -271,15 +271,15 @@ rate_limits:
   slug: onfido-rate-limits
 score:
   band: developing
-  composite: 50.6
-  delta: 0.0
+  composite: 42.2
+  delta: -8.4
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 60.5
+    commercial_clarity: 50.0
+    contract_quality: 58.2
     developer_ergonomics: 34.8
     discoverability: 55.6
     governance: 0.0
-    operational_transparency: 63.2
+    operational_transparency: 39.5
   previous_composite: 50.6
   provenance:
     contracts:
@@ -287,9 +287,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 46
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/onfido/refs/heads/main/screenshots/onfido-2026-06-20T190718.png
 security:
 - kind: domain-security

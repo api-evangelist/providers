@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-10'
+  score: 29.1
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Booking, tracking, and listing shipment orders
@@ -39,6 +39,10 @@ apis:
   slug: postex-reference-api
 artifact_total: 5
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/postex-order-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -82,17 +86,17 @@ network: true
 overview: 'PostEx publishes 2 APIs on the [APIs.io](https://apis.io/) network: Orders API and Reference API. Tagged areas include Company, Logistics, Courier, Shipping, and E-commerce.
 
 
-  PostEx''s developer surface includes authentication and 6 more developer resources.'
+  PostEx''s developer surface includes authentication and 7 more developer resources.'
 random_paper: 95
 score:
   band: emerging
-  composite: 27.4
-  delta: 0.0
+  composite: 25.9
+  delta: -1.5
   facets:
     commercial_clarity: 0.0
-    contract_quality: 63.6
+    contract_quality: 61.2
     developer_ergonomics: 14.7
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 27.4
@@ -111,8 +115,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

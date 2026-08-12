@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'The official React component package for embedding the Excalidraw canvas. Provides programmatic control over scene state, libraries, and serialized JSON. There is no Excalidraw REST API; integrations '
@@ -36,6 +36,18 @@ apis:
   slug: excalidraw-npm-package
 artifact_total: 5
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/excalidraw/excalidraw/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/excalidraw/excalidraw/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/excalidraw/excalidraw/blob/master/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -95,7 +107,7 @@ network: true
 overview: 'Excalidraw publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Collaboration, Whiteboard, Diagramming, Open Source, and Drawing.
 
 
-  Excalidraw''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
+  Excalidraw''s developer surface includes documentation, engineering blog, and 12 more developer resources.'
 plans:
 - name: Excalidraw Plans Pricing
   plan_count: 1
@@ -107,18 +119,18 @@ rate_limits:
   slug: excalidraw-rate-limits
 score:
   band: emerging
-  composite: 17.6
-  delta: 0.0
+  composite: 14.4
+  delta: -3.2
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 10.9
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 17.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/excalidraw/refs/heads/main/screenshots/excalidraw-2026-06-20T180922.png
 security:

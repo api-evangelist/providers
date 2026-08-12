@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -100,6 +100,10 @@ apis:
   slug: amagi-submit-api
 artifact_total: 24
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amagi-callisto-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -187,15 +191,15 @@ network: true
 overview: 'Amagi publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Add User API, Cancel API, Create Customer API, and 17 more. Tagged areas include Company, Media, Broadcast, Streaming, and Video.
 
 
-  Amagi''s developer surface includes documentation, support, engineering blog, authentication, CLI, and 13 more developer resources.'
+  Amagi''s developer surface includes documentation, support, engineering blog, authentication, CLI, and 14 more developer resources.'
 random_paper: 47
 score:
   band: thin
-  composite: 34.5
-  delta: 0.0
+  composite: 34.0
+  delta: -0.5
   facets:
     commercial_clarity: 10.5
-    contract_quality: 59.8
+    contract_quality: 57.6
     developer_ergonomics: 36.4
     discoverability: 81.5
     governance: 11.5
@@ -211,8 +215,8 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amagi/refs/heads/main/screenshots/amagi-2026-07-25T195909.png
 security:

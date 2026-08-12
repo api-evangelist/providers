@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -36,6 +36,10 @@ apis:
   slug: eruditus-executive-education-programs-api
 artifact_total: 7
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/eruditus-executive-education-leads-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -159,20 +163,20 @@ network: true
 overview: 'Eruditus publishes 2 APIs on the [APIs.io](https://apis.io/) network: Leads API and Programs API. Tagged areas include Company, Education, Online Learning, Executive Education, and EdTech.
 
 
-  Eruditus'' developer surface includes documentation, getting-started guide, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
+  Eruditus'' developer surface includes documentation, getting-started guide, engineering blog, support, authentication, sandbox, and 22 more developer resources.'
 random_paper: 9
 score:
   band: developing
-  composite: 45.7
-  delta: -1.0
+  composite: 44.9
+  delta: -0.8
   facets:
     commercial_clarity: 21.1
-    contract_quality: 64.3
+    contract_quality: 65.7
     developer_ergonomics: 56.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 46.7
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -183,8 +187,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/screenshots/eruditus-executive-education-2026-08-07T165004.png
 security:

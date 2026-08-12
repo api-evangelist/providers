@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,8 +66,8 @@ overview: 'EcoPlant is profiled on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 42
 score:
   band: minimal
-  composite: 10.2
-  delta: 0.0
+  composite: 10.7
+  delta: 0.5
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -76,8 +76,14 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 10.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 13.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecoplant/refs/heads/main/screenshots/ecoplant-2026-07-25T212806.png
 security:

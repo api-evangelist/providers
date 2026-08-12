@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -126,15 +126,15 @@ rate_limits:
   slug: bureau-of-consular-affairs-rate-limits
 score:
   band: thin
-  composite: 38.5
-  delta: 0.0
+  composite: 30.0
+  delta: -8.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 55.8
+    commercial_clarity: 26.3
+    contract_quality: 53.7
     developer_ergonomics: 19.6
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 38.5
   provenance:
     agentic_access: derived
@@ -143,9 +143,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 29.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-consular-affairs/refs/heads/main/screenshots/bureau-of-consular-affairs-2026-06-20T173807.png
 security:
 - kind: authentication

@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 27.0
-  scored_at: '2026-08-10'
+  score: 30.6
+  scored_at: '2026-08-11'
 api_count: 34
 apis:
 - description: The assessment_surveys API from Forta Health — 1 operation(s) for assessment_surveys.
@@ -125,6 +125,10 @@ apis:
   slug: forta-health-treatment-plan-statuses-api
 artifact_total: 36
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/forta-health-platform-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -209,27 +213,27 @@ network: true
 overview: 'Forta Health publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Assessment Surveys API, Behavior API, Bt Supervisions API, and 31 more. Tagged areas include healthcare, autism, aba-therapy, behavioral-health, and telehealth.
 
 
-  Forta Health''s developer surface includes signup flow, support, engineering blog, and 15 more developer resources.'
+  Forta Health''s developer surface includes signup flow, support, engineering blog, and 16 more developer resources.'
 random_paper: 55
 score:
   band: thin
-  composite: 32.5
-  delta: -0.3
+  composite: 32.9
+  delta: 0.4
   facets:
     commercial_clarity: 42.1
-    contract_quality: 47.6
+    contract_quality: 49.5
     developer_ergonomics: 6.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 32.8
+  previous_composite: 32.5
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 35
     skills: unknown
   regulatory:
     applies: true
@@ -237,8 +241,8 @@ score:
     regime: Health
     regime_id: health
     score: 30.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forta-health/refs/heads/main/screenshots/forta-health-2026-08-07T165415.png
 security:

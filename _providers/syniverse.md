@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +12,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-08-10'
+  score: 53.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 0
@@ -64,12 +65,16 @@ apis:
 - description: 'The webhook and event layer of the Syniverse Developer Community. The Event Subscription Service (ESS) API manages topics, topic-subscriptions, delivery-configurations, event-types, event-deliveries, '
   name: Syniverse Event Subscription Service API (Event Manager)
   slug: syniverse-event-subscription-service-api
-artifact_total: 18
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Syniverse Event Manager Webhooks
   slug: syniverse-event-manager-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/syniverse-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -203,6 +208,10 @@ description: 'Syniverse is a United States headquartered wholesale telecommunica
   2025, but no CAMARA-defined API is documented or callable on its developer portal today.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: syniverse-mcp.yml
+  slug: syniverse-mcpyml
 modified: '2026-07-25'
 name: Syniverse
 nav: Providers
@@ -213,7 +222,7 @@ overview: 'Syniverse publishes 11 APIs on the [APIs.io](https://apis.io/) networ
   The Syniverse catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Syniverse''s developer surface includes authentication, sandbox, getting-started guide, documentation, signup flow, support, engineering blog, and 25 more developer resources.'
+  Syniverse''s developer surface includes authentication, sandbox, getting-started guide, documentation, signup flow, support, engineering blog, and 26 more developer resources.'
 random_paper: 72
 rate_limits:
 - limit_count: 4
@@ -226,13 +235,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.1
-  delta: 0.0
+  composite: 50.8
+  delta: -2.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 61.5
-    developer_ergonomics: 60.3
-    discoverability: 92.6
+    contract_quality: 59.2
+    developer_ergonomics: 62.5
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
   previous_composite: 53.1
@@ -251,9 +260,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 66.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 58.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

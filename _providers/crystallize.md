@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: Read-optimized GraphQL API for fetching structured product data, shapes, topics, price variants, stock, and rich content for storefronts. Queries are scoped to a tenant identifier and return path-base
@@ -146,18 +146,18 @@ rate_limits:
   slug: crystallize-rate-limits
 score:
   band: thin
-  composite: 35.4
-  delta: 0.0
+  composite: 36.2
+  delta: 0.8
   facets:
     commercial_clarity: 73.7
     contract_quality: 0.0
     developer_ergonomics: 39.1
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 35.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crystallize/refs/heads/main/screenshots/crystallize-2026-06-20T175316.png
 security:

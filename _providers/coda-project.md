@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 61.0
-  scored_at: '2026-08-10'
+  score: 57.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 4
@@ -250,6 +251,10 @@ collections:
   name: Superhuman Docs Admin Account Workspaces API
   slug: postman-coda-project-workspaces-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/coda-project-admin-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -428,7 +433,7 @@ overview: 'Coda Project publishes 32 APIs on the [APIs.io](https://apis.io/) net
   The Coda Project catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Coda Project''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 33 more developer resources.'
+  Coda Project''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 34 more developer resources.'
 random_paper: 51
 rate_limits:
 - limit_count: 3
@@ -440,12 +445,12 @@ scopes:
   slug: coda-project-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: exemplar
-  composite: 66.2
-  delta: 0.0
+  band: strong
+  composite: 65.5
+  delta: -0.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 72.9
+    contract_quality: 70.1
     developer_ergonomics: 79.9
     discoverability: 92.6
     governance: 11.5
@@ -461,8 +466,8 @@ score:
       total: 32
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coda-project/refs/heads/main/screenshots/coda-project-2026-07-25T205859.png
 security:

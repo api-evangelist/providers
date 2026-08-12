@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Standards-based NTRIP interface to the Point One Polaris RTK corrections network. Clients connect over NTRIP 1.0 or 2.0 to a regional caster, authenticate with Basic auth using a unique per-connection
@@ -32,6 +32,10 @@ apis:
   slug: graphql
 artifact_total: 5
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/PointOneNav/polaris/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -171,7 +175,7 @@ network: true
 overview: 'Point One Navigation publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Location, GNSS, Positioning, Geospatial, and RTK.
 
 
-  Point One Navigation''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+  Point One Navigation''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
 random_paper: 66
 score:
   band: thin
@@ -188,8 +192,8 @@ score:
   provenance:
     conformance: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -20,17 +20,21 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 6.3
-  scored_at: '2026-08-10'
+  score: 13.5
+  scored_at: '2026-08-11'
 api_count: 0
-artifact_total: 3
+artifact_total: 4
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/credit-karma-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -99,6 +103,10 @@ created: '2026-07-17'
 description: Credit Karma is an AI-powered personal finance platform founded in 2007 and owned by Intuit since 2020, serving more than 140 million members in the US, UK and Canada. It began as a free credit-score and credit-monitoring destination and has grown into a broad consumer finance marketplace spanning credit cards, personal and auto loans, mortgages, auto and home insurance, banking (checking, savings and credit-builder accounts), tax filing, and identity monitoring. Credit Karma monetizes through personalized recommendations and lead generation rather than a public developer or partner API; it maintains no external consumer-facing API program. It does run an active engineering culture with 29 public open-source repositories on GitHub (Thrift and GraphQL tooling), a coordinated vulnerability disclosure program via HackerOne, and SOC 2 / ISO 27001 security certifications.
 image: https://logo.clearbit.com/creditkarma.com
 layout: provider
+mcp_servers:
+- description: ''
+  name: credit-karma-mcp.yml
+  slug: credit-karma-mcpyml
 modified: '2026-08-08'
 name: Credit Karma
 nav: Providers
@@ -106,28 +114,30 @@ network: true
 overview: 'Credit Karma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Personal Finance, Credit Scores, and Credit Monitoring.
 
 
-  Credit Karma''s developer surface includes support, engineering blog, and 14 more developer resources.'
+  Credit Karma''s developer surface includes support, engineering blog, and 15 more developer resources.'
 random_paper: 44
 score:
   band: emerging
-  composite: 20.6
-  delta: 1.0
+  composite: 21.1
+  delta: 0.5
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 68.5
+    developer_ergonomics: 15.2
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 19.6
+  previous_composite: 20.6
+  provenance:
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credit-karma/refs/heads/main/screenshots/credit-karma-2026-07-25T210719.png
 security:

@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +12,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-08-10'
+  score: 48.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 2
@@ -37,8 +38,12 @@ apis:
 - description: The user API from Songtradr — 15 operation(s) for user.
   name: Songtradr User API
   slug: songtradr-user-api
-artifact_total: 7
+artifact_total: 8
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/songtradr-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -151,6 +156,10 @@ created: '2026-08-02'
 description: 'Songtradr is a Santa Monica, California B2B music company that builds licensing, rights and music-data infrastructure for brands, agencies, digital platforms, artists and rightsholders. Founded in 2014, it operates a global sync-licensing marketplace alongside acquired businesses including Bandcamp, 7digital, MassiveMusic, Big Sync Music and the AI music-metadata company Musicube. Its public developer surface is the Songtradr API — a JWT-authenticated REST API, documented with a live OpenAPI 3.1 description, that returns deep music metadata (musical features, genre predictions, tags, taggrams, tag strengths, contributors, similarity vectors) and drives auto-tagging: rightsholders upload audio through a presigned S3 link and Songtradr''s models classify it against a taxonomy of 350+ descriptive tags across 30+ categories, then expose semantic search over the results. First-party API clients are published for Python, JavaScript/Node and Ruby.'
 image: https://avatars.githubusercontent.com/u/61609417?v=4
 layout: provider
+mcp_servers:
+- description: ''
+  name: songtradr-mcp.yml
+  slug: songtradr-mcpyml
 modified: '2026-08-02'
 name: Songtradr
 nav: Providers
@@ -158,7 +167,7 @@ network: true
 overview: 'Songtradr publishes 3 APIs on the [APIs.io](https://apis.io/) network: Allowed Values API, Similarity Vector Controller API, and User API. Tagged areas include music, music-licensing, sync-licensing, music-metadata, and audio-tagging.
 
 
-  Songtradr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
+  Songtradr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
 random_paper: 52
 rate_limits:
 - limit_count: 1
@@ -166,16 +175,16 @@ rate_limits:
   slug: songtradr-rate-limits
 score:
   band: developing
-  composite: 48.4
-  delta: -0.3
+  composite: 49.2
+  delta: 0.8
   facets:
     commercial_clarity: 44.7
-    contract_quality: 60.5
-    developer_ergonomics: 51.6
+    contract_quality: 61.9
+    developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 48.7
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -183,11 +192,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

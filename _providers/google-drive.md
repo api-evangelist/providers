@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-10'
+  score: 45.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -64,6 +64,10 @@ collections:
   name: Google Drive API
   slug: open-google-drive
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-drive-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -240,7 +244,7 @@ overview: 'Google Drive publishes 1 API on the [APIs.io](https://apis.io/) netwo
   The Google Drive catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Google Drive''s developer surface includes authentication, changelog, developer portal, getting-started guide, and 26 more developer resources.'
+  Google Drive''s developer surface includes authentication, changelog, developer portal, getting-started guide, and 27 more developer resources.'
 plans:
 - name: Google Drive Plans Pricing
   plan_count: 3
@@ -273,16 +277,16 @@ scopes:
   slug: google-drive-scopes
   summary_line: 13 scopes · authorizationCode
 score:
-  band: strong
-  composite: 58.8
-  delta: 0.0
+  band: developing
+  composite: 51.3
+  delta: -7.5
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 67.4
+    commercial_clarity: 23.7
+    contract_quality: 64.9
     developer_ergonomics: 39.1
     discoverability: 87.0
     governance: 69.8
-    operational_transparency: 57.9
+    operational_transparency: 42.1
   previous_composite: 58.8
   provenance:
     agentic_access: derived
@@ -293,9 +297,9 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/screenshots/google-drive-2026-06-20T182159.png
 security:
 - kind: authentication

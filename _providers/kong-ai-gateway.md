@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 21
 apis:
 - description: Kong AI Gateway is the connectivity and governance layer for AI-native applications. Built on Kong Gateway, it provides a universal LLM API across 16+ providers, semantic caching, prompt firewalls and
@@ -96,6 +96,30 @@ apis:
   slug: kong-mcp-registry
 artifact_total: 46
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Kong/kong/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Kong/kong/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Kong/kong/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/Kong/kong/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Kong/kong/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Kong/kong/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -211,7 +235,7 @@ network: true
 overview: 'Kong AI Gateway publishes 21 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Gateway, LLM, MCP, A2A, and AI Governance.
 
 
-  Kong AI Gateway''s developer surface includes developer portal, documentation, getting-started guide, API reference, changelog, engineering blog, CLI, and 9 more developer resources.'
+  Kong AI Gateway''s developer surface includes developer portal, documentation, getting-started guide, API reference, changelog, engineering blog, CLI, and 15 more developer resources.'
 plans:
 - name: Kong Ai Gateway Plans Pricing
   plan_count: 1
@@ -223,18 +247,18 @@ rate_limits:
   slug: kong-ai-gateway-rate-limits
 score:
   band: thin
-  composite: 32.5
-  delta: 0.0
+  composite: 34.6
+  delta: 2.1
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 63.0
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 0.0
-    operational_transparency: 42.1
+    operational_transparency: 52.6
   previous_composite: 32.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kong-ai-gateway/refs/heads/main/screenshots/kong-ai-gateway-2026-06-20T184133.png
 security:

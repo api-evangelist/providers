@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-10'
+  score: 49.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -73,6 +74,10 @@ apis:
   slug: hex-users-api
 artifact_total: 17
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/hex-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -216,17 +221,17 @@ network: true
 overview: 'Hex publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Cells API, Collections API, Context API, and 8 more. Tagged areas include Company, Analytics, Data Science, Notebooks, and Business Intelligence.
 
 
-  Hex''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 25 more developer resources.'
+  Hex''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 26 more developer resources.'
 random_paper: 93
 score:
-  band: strong
-  composite: 57.1
-  delta: 0.0
+  band: developing
+  composite: 55.5
+  delta: -1.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 55.8
+    contract_quality: 53.7
     developer_ergonomics: 71.2
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 47.4
   previous_composite: 57.1
@@ -240,8 +245,8 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/screenshots/hex-2026-07-25T221110.png
 security:

@@ -27,10 +27,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-10'
+  score: 37.6
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'The HL7 FHIR REST API of the Commure Developer Platform, together with its OpenID Connect / SMART App Launch authentication surface. Covers the FHIR RESTful interactions (read, vread, update, delete, '
@@ -203,13 +203,13 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 44.2
+  delta: -4.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 53.5
+    contract_quality: 51.5
     developer_ergonomics: 29.9
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 49.1
@@ -226,9 +226,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 82.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 58.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/screenshots/commure-2026-07-25T210143.png
 security:

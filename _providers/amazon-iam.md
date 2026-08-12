@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -420,16 +420,16 @@ rules:
     warn: 13
   slug: amazon-iam-spectral-rules
 score:
-  band: exemplar
-  composite: 66.4
-  delta: 0.0
+  band: strong
+  composite: 57.9
+  delta: -8.5
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 73.6
+    commercial_clarity: 57.9
+    contract_quality: 70.9
     developer_ergonomics: 45.7
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 66.4
   provenance:
     agentic_access: derived
@@ -438,9 +438,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/screenshots/amazon-iam-2026-06-20T171703.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -118,7 +118,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/aflac-enterprise-connect-openapi.yml
+  url: openapi/_original/aflac-enterprise-connect-openapi.yml
 - group: docs
   title: ''
   type: JSONSchema
@@ -507,15 +507,15 @@ scopes:
   summary_line: 6 scopes · clientCredentials
 score:
   band: thin
-  composite: 39.7
-  delta: 0.0
+  composite: 37.6
+  delta: -2.1
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 25.2
+    commercial_clarity: 47.4
+    contract_quality: 24.3
     developer_ergonomics: 26.1
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 68.8
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 39.7
   provenance:
     agentic_access: derived
@@ -524,8 +524,8 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/screenshots/aflac-2026-06-20T165702.png
 security:

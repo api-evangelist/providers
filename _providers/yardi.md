@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -330,15 +330,15 @@ rules:
   slug: yardi-rules
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 44.1
+  delta: -5.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 29.7
+    commercial_clarity: 44.7
+    contract_quality: 28.8
     developer_ergonomics: 50.0
     discoverability: 75.9
     governance: 58.3
-    operational_transparency: 42.1
+    operational_transparency: 26.3
   previous_composite: 49.6
   provenance:
     agentic_access: derived
@@ -347,9 +347,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/screenshots/yardi-2026-06-20T201730.png
 security:
 - kind: authentication

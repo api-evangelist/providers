@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-10'
+  score: 44.4
+  scored_at: '2026-08-11'
 api_count: 9
 apis:
 - description: Operations related to calls
@@ -202,13 +202,13 @@ overview: 'OpenPhone publishes 9 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 44
 score:
   band: developing
-  composite: 53.2
-  delta: 0.0
+  composite: 51.6
+  delta: -1.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 74.1
+    contract_quality: 71.4
     developer_ergonomics: 53.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 39.5
   previous_composite: 53.2
@@ -227,8 +227,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 36.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/screenshots/openphone-2026-08-07T190627.png
 security:

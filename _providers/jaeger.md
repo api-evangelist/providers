@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,6 +65,30 @@ collections:
   name: Jaeger Query API
   slug: open-jaeger-query-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/jaegertracing/jaeger/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/jaegertracing/jaeger/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/jaegertracing/jaeger/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/jaegertracing/jaeger/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/jaegertracing/jaeger/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/jaegertracing/jaeger/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -135,7 +159,7 @@ overview: 'Jaeger publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
   The Jaeger catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Jaeger''s developer surface includes documentation, getting-started guide, engineering blog, support, changelog, and 8 more developer resources.'
+  Jaeger''s developer surface includes documentation, getting-started guide, engineering blog, support, changelog, and 14 more developer resources.'
 plans:
 - name: Jaeger Plans Pricing
   plan_count: 3
@@ -155,16 +179,16 @@ rules:
     warn: 4
   slug: jaeger-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 45.5
-  delta: 0.0
+  band: thin
+  composite: 38.6
+  delta: -6.9
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 51.9
+    commercial_clarity: 15.8
+    contract_quality: 50.0
     developer_ergonomics: 26.1
     discoverability: 55.6
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 45.5
   provenance:
     agentic_access: derived
@@ -173,9 +197,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/jaeger/refs/heads/main/screenshots/jaeger-2026-06-20T183651.png
 security:
 - kind: domain-security

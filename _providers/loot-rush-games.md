@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: The Connect API from Loot Rush Games — 1 operation(s) for connect.
@@ -45,6 +46,10 @@ apis:
   slug: loot-rush-games-withdrawals-api
 artifact_total: 7
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/loot-rush-games-partner-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -132,15 +137,15 @@ network: true
 overview: 'Loot Rush Games publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Connect API, History API, MCP API, and 1 more. Tagged areas include Company, Cryptocurrency, Blockchain, Gaming, and Fintech.
 
 
-  Loot Rush Games'' developer surface includes documentation, API reference, getting-started guide, authentication, support, and 13 more developer resources.'
+  Loot Rush Games'' developer surface includes documentation, API reference, getting-started guide, authentication, support, and 14 more developer resources.'
 random_paper: 3
 score:
   band: thin
-  composite: 38.3
-  delta: 0.0
+  composite: 37.8
+  delta: -0.5
   facets:
     commercial_clarity: 0.0
-    contract_quality: 64.0
+    contract_quality: 61.6
     developer_ergonomics: 60.3
     discoverability: 81.5
     governance: 11.5
@@ -161,8 +166,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/screenshots/loot-rush-games-2026-07-25T225531.png
 security:

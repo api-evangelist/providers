@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -62,6 +62,18 @@ apis:
   slug: apache-kylin-tables-api
 artifact_total: 59
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/apache/kylin/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/kylin/blob/kylin5/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -238,7 +250,7 @@ overview: 'Apache Kylin publishes 6 APIs on the [APIs.io](https://apis.io/) netw
   The Apache Kylin catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache Kylin''s developer surface includes authentication, documentation, getting-started guide, and 9 more developer resources.'
+  Apache Kylin''s developer surface includes authentication, documentation, getting-started guide, and 12 more developer resources.'
 plans:
 - name: Apache Kylin Plans Pricing
   plan_count: 3
@@ -267,15 +279,15 @@ rules:
   slug: apache-kylin-spectral-rules
 score:
   band: developing
-  composite: 54.4
-  delta: 0.0
+  composite: 45.9
+  delta: -8.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 66.9
+    commercial_clarity: 26.3
+    contract_quality: 64.4
     developer_ergonomics: 30.4
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 54.4
   provenance:
     agentic_access: derived
@@ -284,9 +296,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/screenshots/apache-kylin-2026-06-20T172119.png
 security:
 - kind: authentication

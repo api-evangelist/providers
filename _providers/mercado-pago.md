@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -181,6 +181,26 @@ collections:
   name: Mercado Pago REST API
   slug: open-mercado-pago
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/mercadopago/sdk-nodejs/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/mercadopago/sdk-nodejs/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/mercadopago/sdk-nodejs/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/mercadopago/sdk-nodejs/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/mercadopago/sdk-nodejs/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -325,7 +345,7 @@ overview: 'Mercado Pago publishes 17 APIs on the [APIs.io](https://apis.io/) net
   The Mercado Pago catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Mercado Pago''s developer surface includes authentication, documentation, API reference, getting-started guide, status page, engineering blog, and 15 more developer resources.'
+  Mercado Pago''s developer surface includes authentication, documentation, API reference, getting-started guide, status page, engineering blog, and 20 more developer resources.'
 plans:
 - name: Mercado Pago Plans Pricing
   plan_count: 2
@@ -367,15 +387,15 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.7
-  delta: 0.0
+  composite: 49.8
+  delta: 2.1
   facets:
     commercial_clarity: 28.9
-    contract_quality: 68.9
-    developer_ergonomics: 39.1
+    contract_quality: 66.7
+    developer_ergonomics: 43.5
     discoverability: 68.5
     governance: 52.1
-    operational_transparency: 36.8
+    operational_transparency: 52.6
   previous_composite: 47.7
   provenance:
     agentic_access: derived
@@ -390,8 +410,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/screenshots/mercado-pago-2026-06-20T185325.png
 security:

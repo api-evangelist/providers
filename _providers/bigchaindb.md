@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-10'
+  score: 18.9
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: Full-text search over asset payloads.
@@ -52,8 +52,32 @@ apis:
 - description: Read the node's validator set.
   name: Bigchaindb Validators API
   slug: bigchaindb-validators-api
-artifact_total: 8
+artifact_total: 9
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/bigchaindb-mcp.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/bigchaindb/bigchaindb/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/bigchaindb/bigchaindb/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/bigchaindb/bigchaindb/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/bigchaindb/bigchaindb/blob/master/.github/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/bigchaindb/bigchaindb/blob/master/LICENSE
 - group: build
   title: ''
   type: Packages
@@ -106,6 +130,10 @@ created: '2026-07-17'
 description: 'BigchainDB is an open-source blockchain database that combines the developer experience and query power of a database with blockchain properties: decentralized (Byzantine fault-tolerant) control, immutable append-only data storage, and built-in support for registering and transferring assets. Developed by BigchainDB GmbH (Berlin) with the IPDB Foundation overseeing the software and public networks, it exposes a simple versioned HTTP API on each node (default port 9984) for creating and reading transactions, assets, outputs, metadata, blocks and validators. Applications sign transactions with Ed25519 crypto-conditions, so authorization is enforced at the payload level rather than via transport authentication. Official Python, JavaScript and Java drivers are published, and the maintained continuation of the codebase is the Planetmint project.'
 image: https://github.com/bigchaindb.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: bigchaindb-mcp.yml
+  slug: bigchaindb-mcpyml
 modified: '2026-07-18'
 name: Bigchaindb
 nav: Providers
@@ -113,19 +141,19 @@ network: true
 overview: 'Bigchaindb publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Blocks API, Metadata API, and 4 more. Tagged areas include Company, Crypto, Blockchain, Database, and Decentralization.
 
 
-  Bigchaindb''s developer surface includes documentation, getting-started guide, engineering blog, and 9 more developer resources.'
+  Bigchaindb''s developer surface includes documentation, getting-started guide, engineering blog, and 15 more developer resources.'
 random_paper: 91
 score:
   band: thin
-  composite: 34.2
-  delta: 0.0
+  composite: 36.2
+  delta: 2.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 53.4
-    developer_ergonomics: 37.0
+    contract_quality: 51.4
+    developer_ergonomics: 39.1
     discoverability: 81.5
     governance: 3.1
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 34.2
   provenance:
     conformance: derived
@@ -135,8 +163,8 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigchaindb/refs/heads/main/screenshots/bigchaindb-2026-07-25T202922.png
 security:

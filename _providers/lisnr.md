@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 10
 apis:
 - description: The Accounts API from LISNR — 1 operation(s) for accounts.
@@ -63,6 +63,10 @@ apis:
   slug: lisnr-users-api
 artifact_total: 13
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lisnr-portal-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -166,15 +170,15 @@ network: true
 overview: 'LISNR publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API Tokens API, Applications API, and 7 more. Tagged areas include Company, Ultrasonic, Data Over Audio, Proximity, and Contactless Payments.
 
 
-  LISNR''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 16 more developer resources.'
+  LISNR''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 17 more developer resources.'
 random_paper: 88
 score:
   band: thin
-  composite: 41.3
-  delta: 0.0
+  composite: 38.6
+  delta: -2.7
   facets:
     commercial_clarity: 13.2
-    contract_quality: 60.9
+    contract_quality: 58.7
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 11.5
@@ -189,8 +193,14 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 26.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/screenshots/lisnr-2026-07-25T225338.png
 security:

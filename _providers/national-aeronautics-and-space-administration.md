@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -105,6 +105,18 @@ collections:
   name: NASA Open APIs
   slug: open-national-aeronautics-and-space-administration
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/nasa/apod-api/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/nasa/apod-api/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/nasa/apod-api/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -156,7 +168,7 @@ network: true
 overview: 'The National Aeronautics and Space Administration publishes 7 APIs on the [APIs.io](https://apis.io/) network, including APOD API, DONKI API, Earth API, and 4 more. Tagged areas include Government, Science, Space, Imagery, and Earth Observation.
 
 
-  The National Aeronautics and Space Administration''s developer surface includes authentication, developer portal, signup flow, engineering blog, and 5 more developer resources.'
+  The National Aeronautics and Space Administration''s developer surface includes authentication, developer portal, signup flow, engineering blog, and 8 more developer resources.'
 plans:
 - name: National Aeronautics And Space Administration Plans Pricing
   plan_count: 3
@@ -168,15 +180,15 @@ rate_limits:
   slug: national-aeronautics-and-space-administration-rate-limits
 score:
   band: thin
-  composite: 38.1
-  delta: 0.0
+  composite: 35.0
+  delta: -3.1
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 51.9
+    commercial_clarity: 39.5
+    contract_quality: 50.0
     developer_ergonomics: 21.7
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 23.7
   previous_composite: 38.1
   provenance:
     agentic_access: derived
@@ -191,8 +203,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 29.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-aeronautics-and-space-administration/refs/heads/main/screenshots/national-aeronautics-and-space-administration-2026-06-20T185958.png
 security:

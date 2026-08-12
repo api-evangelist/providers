@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -124,6 +124,30 @@ collections:
   name: Knative Serving API
   slug: open-knative-serving-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/knative/func/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/knative/func/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/knative/func/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/knative/func/blob/main/CODE-OF-CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/knative/func/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/knative/func/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -210,7 +234,7 @@ overview: 'Knative publishes 11 APIs on the [APIs.io](https://apis.io/) network,
   The Knative catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Knative''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, and 9 more developer resources.'
+  Knative''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, and 15 more developer resources.'
 plans:
 - name: Knative Plans Pricing
   plan_count: 3
@@ -238,16 +262,16 @@ rules:
     warn: 4
   slug: knative-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 59.3
-  delta: 0.0
+  band: developing
+  composite: 52.0
+  delta: -7.3
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 88.4
+    commercial_clarity: 15.8
+    contract_quality: 85.1
     developer_ergonomics: 41.3
     discoverability: 72.2
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 59.3
   provenance:
     agentic_access: derived
@@ -256,9 +280,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/screenshots/knative-2026-06-20T184106.png
 security:
 - kind: authentication

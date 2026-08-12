@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.0
-  scored_at: '2026-08-10'
+  score: 32.7
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The public, anonymously-readable WordPress REST content API served by inflammatix.com. Alongside the standard WordPress collections (posts, pages, media, categories, tags, comments, search) it exposes
@@ -27,8 +27,12 @@ apis:
 - description: The public, anonymously-readable WordPress REST content API served by support.inflammatix.com, the Inflammatix customer support and TriVerity/Myrna operator-training portal. In addition to the standar
   name: Inflammatix Support and Training Content API
   slug: support-content
-artifact_total: 4
+artifact_total: 5
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/inflammatix-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -134,6 +138,10 @@ description: Inflammatix is a molecular diagnostics company headquartered in Sun
   instrument advertises "multiple LIS connectivity options" and remote notification, but no public interface specification. The machine-readable surfaces it does serve are the WordPress REST content APIs behind inflammatix.com and its customer support/training portal, which expose the company's peer-reviewed publication library and the TriVerity/Myrna course catalogue as JSON.
 image: https://inflammatix.com/wp-content/uploads/2025/05/logo-revdark-850-1024x242.webp
 layout: provider
+mcp_servers:
+- description: ''
+  name: inflammatix-mcp.yml
+  slug: inflammatix-mcpyml
 modified: '2026-08-01'
 name: Inflammatix
 nav: Providers
@@ -141,17 +149,17 @@ network: true
 overview: 'Inflammatix publishes 2 APIs on the [APIs.io](https://apis.io/) network: Site Content API and Support and Training Content API. Tagged areas include Company, Health, Healthcare, Diagnostics, and Medical Devices.
 
 
-  Inflammatix''s developer surface includes support, engineering blog, authentication, and 22 more developer resources.'
+  Inflammatix''s developer surface includes support, engineering blog, authentication, and 23 more developer resources.'
 random_paper: 18
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 38.4
+  delta: -1.1
   facets:
     commercial_clarity: 42.1
-    contract_quality: 62.8
-    developer_ergonomics: 19.0
-    discoverability: 87.0
+    contract_quality: 60.4
+    developer_ergonomics: 21.2
+    discoverability: 75.9
     governance: 20.8
     operational_transparency: 5.3
   previous_composite: 39.5
@@ -170,8 +178,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/screenshots/inflammatix-2026-08-07T170701.png
 security:

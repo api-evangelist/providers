@@ -20,7 +20,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-10'
+  score: 35.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 228
   human_in_the_loop: 9
@@ -367,27 +367,27 @@ rules:
     warn: 5
   slug: sumo-logic-rules
 score:
-  band: strong
-  composite: 57.0
-  delta: 0.8
+  band: developing
+  composite: 48.5
+  delta: -8.5
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 73.9
+    commercial_clarity: 23.7
+    contract_quality: 71.5
     developer_ergonomics: 47.8
     discoverability: 68.5
     governance: 47.9
-    operational_transparency: 52.6
-  previous_composite: 56.2
+    operational_transparency: 28.9
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 54
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+      total: 61
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/screenshots/sumo-logic-2026-06-20T194649.png
 security:
 - kind: authentication

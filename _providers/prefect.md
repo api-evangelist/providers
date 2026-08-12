@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 283
   human_in_the_loop: 6
@@ -233,6 +233,10 @@ collections:
   name: Prefect Cloud API
   slug: open-prefect
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/PrefectHQ/prefect/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -332,7 +336,7 @@ network: true
 overview: 'Prefect publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Account Billing API, Account Images API, Account Memberships API, and 58 more. Tagged areas include Automation, Data Pipelines, Orchestration, Python, and Workflows.
 
 
-  Prefect''s developer surface includes developer portal, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 13 more developer resources.'
+  Prefect''s developer surface includes developer portal, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 14 more developer resources.'
 plans:
 - name: Prefect Plans Pricing
   plan_count: 3
@@ -344,15 +348,15 @@ rate_limits:
   slug: prefect-rate-limits
 score:
   band: developing
-  composite: 52.9
-  delta: 0.0
+  composite: 45.4
+  delta: -7.5
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 49.1
+    commercial_clarity: 68.4
+    contract_quality: 47.3
     developer_ergonomics: 34.8
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 78.9
+    operational_transparency: 55.3
   previous_composite: 52.9
   provenance:
     agentic_access: derived
@@ -361,9 +365,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 61
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/prefect/refs/heads/main/screenshots/prefect-2026-06-20T192044.png
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The Buildpack API defines the contract between a buildpack and the lifecycle that executes it. It specifies detect, build, and export phases, layer contribution formats, environment variable handling,
@@ -42,6 +42,26 @@ apis:
   slug: distribution-api
 artifact_total: 16
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/buildpacks/spec/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/buildpacks/spec/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/buildpacks/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/buildpacks/spec/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/buildpacks/spec/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -145,7 +165,7 @@ network: true
 overview: 'Cloud Native Buildpacks publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Build Tools, CI/CD, Cloud Native, CNCF, and Container Images.
 
 
-  Cloud Native Buildpacks'' developer surface includes documentation, engineering blog, and 11 more developer resources.'
+  Cloud Native Buildpacks'' developer surface includes documentation, engineering blog, and 16 more developer resources.'
 plans:
 - name: Buildpacks Plans Pricing
   plan_count: 3
@@ -157,19 +177,19 @@ rate_limits:
   slug: buildpacks-rate-limits
 score:
   band: emerging
-  composite: 22.2
-  delta: 0.0
+  composite: 16.4
+  delta: -5.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 15.2
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 22.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/screenshots/buildpacks-2026-06-20T173752.png
 security:
 - kind: domain-security

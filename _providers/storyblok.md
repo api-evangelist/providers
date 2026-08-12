@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +23,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-10'
+  score: 49.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -106,7 +107,7 @@ arazzos:
 - description: Discover tags, list the stories carrying a chosen tag, then fetch the full content of the first match.
   name: Storyblok Tag-Driven Content Sync
   slug: storyblok-tag-driven-content-sync-workflow
-artifact_total: 55
+artifact_total: 56
 asyncapis:
 - description: The Storyblok Webhook system delivers real-time event notifications to registered HTTP endpoints when content events occur in a Storyblok space. Events are triggered by actions such as story publicati
   name: Storyblok Webhooks
@@ -152,6 +153,14 @@ collections:
   name: Storyblok Management API
   slug: open-storyblok-management-api
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/storyblok-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/storyblok-content-delivery-api-v2-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -369,6 +378,10 @@ jsonld:
   property_count: 10
   slug: storyblok-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: storyblok-mcp.yml
+  slug: storyblok-mcpyml
 modified: '2026-06-20'
 name: Storyblok
 nav: Providers
@@ -379,7 +392,7 @@ overview: 'Storyblok publishes 11 APIs on the [APIs.io](https://apis.io/) networ
   The Storyblok catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Storyblok''s developer surface includes changelog, CLI, authentication, developer portal, documentation, pricing, engineering blog, and 37 more developer resources.'
+  Storyblok''s developer surface includes changelog, CLI, authentication, developer portal, documentation, pricing, engineering blog, and 39 more developer resources.'
 plans:
 - name: Storyblok Plans Pricing
   plan_count: 5
@@ -415,16 +428,16 @@ rules:
     warn: 6
   slug: storyblok-rules
 score:
-  band: exemplar
-  composite: 71.5
-  delta: 0.0
+  band: strong
+  composite: 63.8
+  delta: -7.7
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 76.3
-    developer_ergonomics: 52.2
-    discoverability: 83.3
+    commercial_clarity: 68.4
+    contract_quality: 74.1
+    developer_ergonomics: 60.9
+    discoverability: 72.2
     governance: 53.1
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 71.5
   provenance:
     agentic_access: derived
@@ -435,9 +448,9 @@ score:
       marker_coverage: 0.0
       total: 10
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/screenshots/storyblok-2026-06-20T194608.png
 security:
 - kind: authentication

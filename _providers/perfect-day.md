@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-10'
+  score: 44.4
+  scored_at: '2026-08-11'
 api_count: 16
 apis:
 - description: WordPress REST `categories` resource on perfectday.com.
@@ -71,6 +71,10 @@ apis:
   slug: perfect-day-types-api
 artifact_total: 19
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/perfect-day-media-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -206,20 +210,20 @@ network: true
 overview: 'Perfect Day publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Comments API, Leader Category API, and 13 more. Tagged areas include Company, Food Technology, Precision Fermentation, Alternative Protein, and Ingredients.
 
 
-  Perfect Day''s developer surface includes documentation, API reference, engineering blog, support, FAQ, authentication, and 24 more developer resources.'
+  Perfect Day''s developer surface includes documentation, API reference, engineering blog, support, FAQ, authentication, and 25 more developer resources.'
 random_paper: 64
 score:
   band: thin
-  composite: 38.6
-  delta: -1.0
+  composite: 37.9
+  delta: -0.7
   facets:
     commercial_clarity: 21.1
-    contract_quality: 60.7
+    contract_quality: 62.1
     developer_ergonomics: 42.9
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 39.6
+  previous_composite: 38.6
   provenance:
     conformance: derived
     contracts:
@@ -229,8 +233,8 @@ score:
       total: 16
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

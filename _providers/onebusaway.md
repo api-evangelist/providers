@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,6 +47,10 @@ apis:
   slug: onebusaway-where-api
 artifact_total: 99
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/OneBusAway/sdk-config/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -445,7 +449,7 @@ overview: 'OneBusAway publishes 2 APIs on the [APIs.io](https://apis.io/) networ
   The OneBusAway catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OneBusAway''s developer surface includes authentication, developer portal, documentation, getting-started guide, and 22 more developer resources.'
+  OneBusAway''s developer surface includes authentication, developer portal, documentation, getting-started guide, and 23 more developer resources.'
 plans:
 - name: Onebusaway Plans Pricing
   plan_count: 2
@@ -462,11 +466,11 @@ rules:
   slug: onebusaway-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.8
-  delta: 0.0
+  composite: 42.4
+  delta: -0.4
   facets:
     commercial_clarity: 31.6
-    contract_quality: 54.2
+    contract_quality: 52.2
     developer_ergonomics: 45.7
     discoverability: 68.5
     governance: 58.3
@@ -485,8 +489,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onebusaway/refs/heads/main/screenshots/onebusaway-2026-06-20T190710.png
 security:

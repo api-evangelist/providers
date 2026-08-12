@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-10'
+  score: 49.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 1
@@ -397,13 +398,13 @@ overview: 'Syntage publishes 65 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 67
 score:
   band: developing
-  composite: 55.7
-  delta: 0.0
+  composite: 53.8
+  delta: -1.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 74.2
+    contract_quality: 71.4
     developer_ergonomics: 62.5
-    discoverability: 74.1
+    discoverability: 63.0
     governance: 11.5
     operational_transparency: 44.7
   previous_composite: 55.7
@@ -417,8 +418,8 @@ score:
       total: 65
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 0
 common:
@@ -35,11 +35,26 @@ common:
   title: ''
   type: InvestorPortfolio
   url: https://www.battery.com/list-of-all-companies/
+coverage:
+  checked: '2026-08-10'
+  detail: Digiflex, Ltd. was an Israeli inkjet computer-to-plate printer manufacturer that PV Nano Cell acquired on 2017-12-03 and absorbed; digiflex.com is still registered but has no working nameservers (SERVFAIL, no A record) and the acquirer's own site no longer mentions the brand.
+  evidence:
+  - status: 0
+    url: https://www.digiflex.com/
+  - status: 200
+    url: https://pvnanocell.com/
+  - status: 200
+    url: https://digiflex.io/
+  - status: 403
+    url: https://digiflex.ai/
+  reason: defunct
+  state: none
 created: '2026-07-17'
-description: 'Digiflex (listed by Battery Ventures as "Digiflex, Ltd.") is a former Battery Ventures portfolio company, marked on the firm''s list-of-all-companies page as an exited investment. The API Evangelist enrichment pipeline could not resolve an operating web presence for this entity: digiflex.com does not resolve (NXDOMAIN), and the live domains sharing the name are unrelated third parties — digiflex.io is a UK web-design agency, digiflex.co.uk is a separate UK business, and digiflex.ai returns HTTP 403 with no verifiable link to the Battery investment. No developer portal, documentation, OpenAPI, SDK, package-registry presence, or any other API artifact could be located for this company. This profile is retained as an honest record of an exited/defunct portfolio lead with no discoverable API surface rather than being enriched with speculative attribution.'
+description: 'Digiflex (listed by Battery Ventures as "Digiflex, Ltd.") was an Israeli manufacturer of inkjet-based computer-to-plate and digital printing systems, best known for the Flexojet line of flexographic plate-making printers. It was a hardware company: the product was a physical printing press, not software, so it never had a developer program, a public API, or any machine-readable contract to publish. PV Nano Cell signed a $10M all-stock letter of intent in March 2017 and closed the acquisition on 3 December 2017, folding Digiflex in as a wholly-owned subsidiary to carry the Flexojet systems into printed electronics; Battery Ventures now carries the name on its list-of-all-companies page as an exited investment. The brand has since been fully absorbed — the acquirer''s current site (pvnanocell.com, HTTP 200) makes no mention of DigiFlex, and digiflex.com, while still registered through Dynadot to an April 2027 expiry, has no working nameservers and returns SERVFAIL with no A record.
+  The live domains sharing the name are unrelated third parties: digiflex.io is a West Midlands web-design agency, digiflex.co.uk is a separate UK business, and digiflex.ai sits behind a Cloudflare bot challenge with no verifiable link to the Battery investment. No developer portal, documentation, OpenAPI, SDK, package-registry presence, or any other API artifact exists for this company. This profile is retained as an honest record of an acquired and absorbed portfolio lead with no API surface rather than being enriched with speculative attribution.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/digiflex.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-08-10'
 name: Digiflex
 nav: Providers
 network: true
@@ -57,8 +72,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digiflex/refs/heads/main/screenshots/digiflex-2026-07-25T212005.png
 slug: digiflex
@@ -68,5 +83,8 @@ tags:
 - Battery Ventures
 - Portfolio Lead
 - Exited
-- Unresolved
+- Acquired
+- Digital Printing
+- Manufacturing
+- Israel
 ---

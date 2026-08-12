@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -58,6 +58,14 @@ apis:
   slug: 42crunch-logs-api
 artifact_total: 45
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/42Crunch/vscode-openapi/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/42Crunch/vscode-openapi/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -250,7 +258,7 @@ overview: '42Crunch publishes 3 APIs on the [APIs.io](https://apis.io/) network:
   The 42Crunch catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  42Crunch''s developer surface includes documentation, engineering blog, support, pricing, and 21 more developer resources.'
+  42Crunch''s developer surface includes documentation, engineering blog, support, pricing, and 23 more developer resources.'
 plans:
 - name: 42Crunch Plans Pricing
   plan_count: 4
@@ -278,16 +286,16 @@ rules:
     warn: 24
   slug: 42crunch-spectral-rules
 score:
-  band: developing
-  composite: 42.1
-  delta: 0.0
+  band: thin
+  composite: 34.1
+  delta: -8.0
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 27.7
+    commercial_clarity: 39.5
+    contract_quality: 26.7
     developer_ergonomics: 15.2
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 42.1
   provenance:
     agentic_access: derived
@@ -296,9 +304,9 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/42crunch/refs/heads/main/screenshots/42crunch-2026-06-20T162707.png
 security:
 - kind: domain-security

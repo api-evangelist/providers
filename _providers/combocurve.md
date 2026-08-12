@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-10'
+  score: 35.8
+  scored_at: '2026-08-11'
 api_count: 18
 apis:
 - description: custom-columns operations
@@ -87,6 +87,10 @@ apis:
   slug: combocurve-v2-exports-api
 artifact_total: 21
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/combocurve-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -202,17 +206,17 @@ network: true
 overview: 'ComboCurve publishes 18 APIs on the [APIs.io](https://apis.io/) network, including v1 custom-columns API, v1 daily-productions API, v1 directional-surveys API, and 15 more. Tagged areas include Company, Vertical Software, Oil and Gas, Energy, and Forecasting.
 
 
-  ComboCurve''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 19 more developer resources.'
+  ComboCurve''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 20 more developer resources.'
 random_paper: 33
 score:
   band: developing
-  composite: 45.8
-  delta: 0.0
+  composite: 44.3
+  delta: -1.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 65.1
+    contract_quality: 62.7
     developer_ergonomics: 60.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
   previous_composite: 45.8
@@ -231,8 +235,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/screenshots/combocurve-2026-07-25T210107.png
 security:

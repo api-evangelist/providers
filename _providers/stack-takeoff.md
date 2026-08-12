@@ -24,11 +24,11 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: documented
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.4
-  scored_at: '2026-08-10'
+  score: 12.2
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: Create and update projects and organize their contents in folders - the top-level container that takeoffs, plans, and estimates hang off of. Modeled from STACK's developer tutorials (POST/PUT /Project
@@ -103,7 +103,7 @@ modified: '2026-07-04'
 name: STACK
 nav: Providers
 network: true
-overview: 'STACK publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Projects API, Plans & Files API, Takeoffs API, and 3 more. Tagged areas include Construction, Preconstruction, Takeoff, Estimating, and Construction Technology.
+overview: 'STACK publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Preconstruction, Takeoff, Estimating, and Construction Technology.
 
 
   STACK''s developer surface includes documentation, authentication, signup flow, engineering blog, and 6 more developer resources.'
@@ -117,20 +117,20 @@ rate_limits:
   name: Stack Takeoff Rate Limits
   slug: stack-takeoff-rate-limits
 score:
-  band: thin
-  composite: 34.5
-  delta: 0.0
+  band: emerging
+  composite: 26.4
+  delta: -8.1
   facets:
     commercial_clarity: 52.6
-    contract_quality: 32.3
+    contract_quality: 0.0
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 34.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 security:
 - kind: domain-security
   name: Stack Takeoff Domain Security

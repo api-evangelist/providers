@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-10'
+  score: 41.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -48,8 +48,16 @@ arazzos:
 - description: Create a service-desk ticket, read it back, triage it, and audit the change.
   name: Harmony — create and triage an IT ticket
   slug: harmony-create-and-triage-ticket
-artifact_total: 7
+artifact_total: 8
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/harmony-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/harmony-service-desk-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -126,6 +134,10 @@ created: '2026-07-17'
 description: Harmony is an agentic enterprise service management (ESM) platform that gives every employee an always-on AI expert for IT, HR, finance, procurement, and legal service requests inside Slack and Microsoft Teams. Its AI agents autonomously resolve requests — password and MFA resets, application access, device recovery, employee onboarding and offboarding — using a context graph that connects each employee's identity, devices, applications, and history, often resolving issues before a ticket is opened. Harmony exposes a public REST Service Desk API for programmatically listing, creating, updating, querying, and bulk-updating tickets along with their custom fields and activity history. Founded in 2025 by Nitzan Shapira and Ran Ribenzaft and backed by Lightspeed Venture Partners.
 image: https://harmony.io/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: harmony-mcp.yml
+  slug: harmony-mcpyml
 modified: '2026-07-19'
 name: Harmony
 nav: Providers
@@ -133,7 +145,7 @@ network: true
 overview: 'Harmony publishes 1 API on the [APIs.io](https://apis.io/) network: tickets API. Tagged areas include IT Service Management, Service Desk, Ticketing, Enterprise Service Management, and AI Agents.
 
 
-  Harmony''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 12 more developer resources.'
+  Harmony''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 14 more developer resources.'
 random_paper: 70
 rate_limits:
 - limit_count: 2
@@ -141,12 +153,12 @@ rate_limits:
   slug: harmony-rate-limits
 score:
   band: developing
-  composite: 45.9
-  delta: 0.0
+  composite: 45.8
+  delta: -0.1
   facets:
     commercial_clarity: 28.9
-    contract_quality: 59.7
-    developer_ergonomics: 53.8
+    contract_quality: 57.5
+    developer_ergonomics: 56.0
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 42.1
@@ -161,8 +173,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harmony/refs/heads/main/screenshots/harmony-2026-07-25T220731.png
 security:

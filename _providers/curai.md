@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-10'
+  score: 38.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,6 +43,10 @@ apis:
   slug: curai-partner-api
 artifact_total: 5
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/curai-partner-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -146,17 +150,17 @@ network: true
 overview: 'Curai publishes 1 API on the [APIs.io](https://apis.io/) network: Partner API. Tagged areas include Company, Health, Healthcare, Telemedicine, and Telehealth.
 
 
-  Curai''s developer surface includes documentation, getting-started guide, authentication, sandbox, and 18 more developer resources.'
+  Curai''s developer surface includes documentation, getting-started guide, authentication, sandbox, and 19 more developer resources.'
 random_paper: 68
 score:
   band: thin
-  composite: 35.8
-  delta: 0.0
+  composite: 34.4
+  delta: -1.4
   facets:
     commercial_clarity: 10.5
-    contract_quality: 53.5
+    contract_quality: 51.5
     developer_ergonomics: 56.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 35.8
@@ -176,8 +180,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/screenshots/curai-2026-07-25T210929.png
 security:

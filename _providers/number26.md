@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The default API from Number26 — 9 operation(s) for default.
@@ -135,11 +135,11 @@ overview: 'Number26 publishes 1 API on the [APIs.io](https://apis.io/) network: 
 random_paper: 57
 score:
   band: thin
-  composite: 36.8
-  delta: 0.0
+  composite: 36.4
+  delta: -0.4
   facets:
     commercial_clarity: 21.1
-    contract_quality: 55.5
+    contract_quality: 53.4
     developer_ergonomics: 39.1
     discoverability: 75.9
     governance: 20.8
@@ -159,8 +159,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/number26/refs/heads/main/screenshots/number26-2026-08-07T185726.png
 security:

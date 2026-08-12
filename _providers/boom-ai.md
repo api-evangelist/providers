@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -205,13 +205,13 @@ overview: 'Boom Ai publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 96
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 48.8
+  delta: -1.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 62.1
+    contract_quality: 59.8
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 31.6
   previous_composite: 50.3
@@ -231,8 +231,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/screenshots/boom-ai-2026-07-25T203612.png
 security:

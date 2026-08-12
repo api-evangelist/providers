@@ -8,27 +8,27 @@
    "label": "Exemplar",
    "range": "66+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 2,
-   "shown": 2,
+   "count": 1,
+   "shown": 1,
    "providers": [
     {
      "name": "Twilio",
      "slug": "twilio",
      "description": "Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js, Python, Ruby, Java, PHP, C#, and Go.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/screenshots/twilio-2026-06-20T165933.png",
-     "score": 73.8,
+     "score": 70.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 77.8,
-      "contract_quality": 69.1,
+      "discoverability": 66.7,
+      "contract_quality": 72.0,
       "governance": 69.8,
-      "operational_transparency": 94.7,
+      "operational_transparency": 71.1,
       "developer_ergonomics": 84.8,
-      "commercial_clarity": 76.3
+      "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -55,33 +55,44 @@
       "dry_run_mode": false
      },
      "rank": 1
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "strong",
+   "label": "Strong",
+   "range": "56 – 65.9",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 2,
+   "shown": 2,
+   "providers": [
     {
      "name": "Verizon",
      "slug": "verizon",
      "description": "Verizon is a leading telecommunications company providing wireless, wireline, broadband, and global enterprise services. Verizon offers developer APIs for IoT device management via ThingSpace, 5G edge computing, TM Forum service management, dynamic network bandwidth, and communications platform APIs for contact center and SMS solutions.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/screenshots/verizon-2026-06-20T200943.png",
-     "score": 69.0,
-     "band": "exemplar",
-     "band_label": "Exemplar",
+     "score": 61.9,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 49.7,
+      "contract_quality": 48.0,
       "governance": 80.2,
-      "operational_transparency": 76.3,
+      "operational_transparency": 60.5,
       "developer_ergonomics": 66.8,
-      "commercial_clarity": 63.2
+      "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
       "regime_id": "telecommunications",
-      "score": 81.9,
+      "score": 66.7,
       "matched_via": "tags"
      },
-     "agent_score": 49.8,
+     "agent_score": 53.4,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -94,43 +105,32 @@
       "rate_limit_signal": "documented",
       "event_surface_described": true,
       "agent_skills": "derived",
-      "well_known_catalog": false,
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
      "rank": 2
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "strong",
-   "label": "Strong",
-   "range": "56 – 65.9",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
+    },
     {
      "name": "Zoom",
      "slug": "zoom",
      "description": "Zoom is a communications platform that allows users to connect with video, audio, phone, and chat. The Zoom API provides programmatic access to Zoom's core features including meetings, webinars, recordings, users, and more.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/screenshots/zoom-2026-06-20T165938.png",
-     "score": 63.2,
+     "score": 59.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 78.9,
+      "discoverability": 75.9,
+      "contract_quality": 76.1,
       "governance": 41.7,
-      "operational_transparency": 63.2,
-      "developer_ergonomics": 56.5,
-      "commercial_clarity": 60.5
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 63.0,
+      "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 41.9,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 46.4,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -142,7 +142,7 @@
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "event_surface_described": "derived",
-      "agent_skills": false,
+      "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -165,19 +165,19 @@
      "name": "AT&T",
      "slug": "att",
      "description": "AT&T Inc. is a multinational telecommunications holding company providing wireless and wireline communications, broadband, and business networking to consumers and enterprises. Its developer surface spans four programs: the legacy AT&T Developer Program (SMS, MMS, in-app messaging, speech and OAuth), the MVNX APIs for mobile virtual network operators, the Alliance enterprise wireline APIs for service qualification and ordering, and the invite-only Network API Accelerator Program exposing GSMA CAMARA network APIs — SIM swap, device status, number verification, quality on demand, network insights and mobility threat detection.",
-     "score": 50.5,
+     "score": 48.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 34.4,
+      "contract_quality": 33.2,
       "governance": 68.8,
-      "operational_transparency": 42.1,
+      "operational_transparency": 26.3,
       "developer_ergonomics": 50.0,
-      "commercial_clarity": 50.0
+      "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -219,19 +219,19 @@
      "name": "T-Mobile",
      "slug": "t-mobile",
      "description": "A major American wireless network operator and the second-largest carrier in the United States. Known for its Un-carrier strategy disrupting the wireless industry with simplified plans, no-contract offerings, and aggressive 5G network expansion.",
-     "score": 19.9,
+     "score": 20.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 66.7,
       "contract_quality": 43.2,
       "governance": 0.0,
       "operational_transparency": 5.3,
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -264,19 +264,19 @@
      "slug": "comcast",
      "description": "Comcast Corporation is a global media and technology company with two primary businesses, Comcast Cable (Xfinity) and NBCUniversal, providing video, internet, voice, wireless, and entertainment services to residential and business customers. Comcast publishes a public developer program centered on the Firebolt application platform for connected TV experiences, along with authentication and content ingest endpoints used by NBCUniversal media partners. The Firebolt SDK family is used by app developers to write apps once and deploy across Xfinity X1, Xfinity Flex, Sky Q, and other Comcast set-top boxes and connected devices.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/screenshots/comcast-2026-06-20T174802.png",
-     "score": 19.5,
+     "score": 15.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 64.8,
+      "discoverability": 72.2,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 8.7,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -323,8 +323,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",

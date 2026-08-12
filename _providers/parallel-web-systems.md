@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -21,14 +22,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-08-10'
+  score: 59.5
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: The Chat API provides a programmatic chat-style text generation interface. It accepts a sequence of messages and returns model responses. Intended for assistant-like interactions and evaluation. Strea
@@ -49,12 +50,20 @@ apis:
 - description: The Task API executes web research and extraction tasks. Clients submit a natural-language objective with an optional input schema; the service plans retrieval, fetches relevant URLs, and returns outp
   name: Parallel Web Systems Tasks API
   slug: parallel-web-systems-tasks-api
-artifact_total: 10
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Parallel Web Systems Webhooks
   slug: parallel-web-systems-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/parallel-web-systems-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/parallel-web-systems-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -159,6 +168,10 @@ created: '2026-07-17'
 description: Parallel Web Systems builds infrastructure for intelligence on the web, giving AI agents and developers high-quality, low-latency access to the internet. Its API suite spans a Search API (high-accuracy, cross-referenced web search with turbo/basic/advanced modes), an Extract API for token-efficient page content, a Task / Deep Research API for multi-hop research, FindAll for entity discovery, a Monitor API for continuous web change tracking, and a Chat Completions (beta) surface. Parallel ships first-party Python and TypeScript SDKs, a parallel-cli, a free hosted Search MCP server, and published Agent Skills. The company is SOC 2 Type II certified and backed by Index Ventures.
 image: https://assets.parallel.ai/dark-parallel-avatar-540.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: parallel-web-systems-mcp.yml
+  slug: parallel-web-systems-mcpyml
 modified: '2026-07-20'
 name: Parallel Web Systems
 nav: Providers
@@ -169,17 +182,17 @@ overview: 'Parallel Web Systems publishes 6 APIs on the [APIs.io](https://apis.i
   The Parallel Web Systems catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Parallel Web Systems'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, CLI, and 18 more developer resources.'
+  Parallel Web Systems'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, CLI, and 20 more developer resources.'
 random_paper: 73
 score:
   band: strong
-  composite: 58.4
-  delta: 0.0
+  composite: 58.3
+  delta: -0.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 73.7
-    developer_ergonomics: 67.4
-    discoverability: 92.6
+    contract_quality: 70.9
+    developer_ergonomics: 76.1
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
   previous_composite: 58.4
@@ -192,8 +205,8 @@ score:
       total: 6
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parallel-web-systems/refs/heads/main/screenshots/parallel-web-systems-2026-08-07T191528.png
 security:

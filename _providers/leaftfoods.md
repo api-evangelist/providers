@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The agent-facing commerce API for the Leaft Foods storefront. The store implements the Universal Commerce Protocol (ucp.dev) natively through Shopify, exposing a UCP merchant profile at /.well-known/u
@@ -102,13 +102,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 16.2
-  delta: 0.0
+  composite: 15.1
+  delta: -1.1
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 0.0
   previous_composite: 16.2
@@ -116,8 +116,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leaftfoods/refs/heads/main/screenshots/leaftfoods-2026-08-07T171513.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -102,6 +102,10 @@ collections:
   name: Workday Report Writer Workday WQL API
   slug: open-workday-report-writer-wql
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Workday/raas-python/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -236,7 +240,7 @@ overview: 'Workday Report Writer publishes 8 APIs on the [APIs.io](https://apis.
   The Workday Report Writer catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Workday Report Writer''s developer surface includes authentication, developer portal, getting-started guide, documentation, sandbox, support, engineering blog, and 14 more developer resources.'
+  Workday Report Writer''s developer surface includes authentication, developer portal, getting-started guide, documentation, sandbox, support, engineering blog, and 15 more developer resources.'
 plans:
 - name: Workday Report Writer Plans Pricing
   plan_count: 1
@@ -257,15 +261,15 @@ rules:
   slug: workday-report-writer-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 59.5
-  delta: 0.0
+  composite: 56.9
+  delta: -2.6
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 65.5
+    commercial_clarity: 55.3
+    contract_quality: 65.3
     developer_ergonomics: 63.0
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 42.1
+    operational_transparency: 26.3
   previous_composite: 59.5
   provenance:
     agentic_access: derived
@@ -274,8 +278,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/screenshots/workday-report-writer-2026-06-20T201608.png
 security:

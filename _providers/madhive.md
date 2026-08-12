@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -18,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -226,7 +227,7 @@ apis:
 - description: The update line item start/end dates API from MadHive — 1 operation(s) for update line item start/end dates.
   name: MadHive update line item start/end dates API
   slug: madhive-update-line-item-start-end-dates-api
-artifact_total: 71
+artifact_total: 72
 common:
 - group: agent
   title: ''
@@ -376,6 +377,10 @@ created: '2026-08-04'
 description: Madhive is a New York-based advertising technology company that operates a demand-side platform (DSP) and end-to-end software stack built for local and connected TV (CTV/OTT) advertising. Broadcasters, local media sellers, agencies and political advertisers use Madhive to plan campaigns, activate premium streaming and broadcast inventory, build cookieless audiences from first-party and offline data, manage creatives, and measure outcomes from a single unified DSP. Madhive publishes a public developer program at developer.madhive.com — an Apigee-fronted REST API covering campaigns, line items, advertisers, agencies, creatives, audiences, segments, retargeting, publishers, publisher groups, tracking pixels, products, metros and optimization templates — alongside a hosted Model Context Protocol (MCP) server that exposes the same campaign-management surface to AI assistants such as Claude and Gemini over JSON-RPC 2.0 with OAuth 2.0.
 image: https://cdn.prod.website-files.com/66f4642913b966635efd9666/675750501cfd31ca8779c1a9_og%20image.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: madhive-mcp.yml
+  slug: madhive-mcpyml
 modified: '2026-08-04'
 name: MadHive
 nav: Providers
@@ -396,16 +401,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 51.7
-  delta: -2.4
+  composite: 53.5
+  delta: 1.8
   facets:
     commercial_clarity: 42.1
-    contract_quality: 57.3
+    contract_quality: 57.4
     developer_ergonomics: 53.8
-    discoverability: 68.5
+    discoverability: 87.0
     governance: 11.5
     operational_transparency: 76.3
-  previous_composite: 54.1
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -413,11 +418,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 66
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/screenshots/madhive-2026-08-07T171916.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Health checks and capability discovery.
@@ -157,13 +157,13 @@ rate_limits:
   slug: kalpa-labs-rate-limits
 score:
   band: thin
-  composite: 37.3
-  delta: 0.0
+  composite: 38.1
+  delta: 0.8
   facets:
     commercial_clarity: 0.0
-    contract_quality: 60.2
+    contract_quality: 58.0
     developer_ergonomics: 66.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 37.3
@@ -176,14 +176,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 23.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/screenshots/kalpa-labs-2026-07-25T223437.png
 security:

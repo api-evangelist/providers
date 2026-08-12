@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -62,6 +62,14 @@ apis:
   slug: dryad-versions-api
 artifact_total: 66
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/datadryad/dryad-app/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/datadryad/dryad-app/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -292,7 +300,7 @@ overview: 'Dryad publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
   The Dryad catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Dryad''s developer surface includes authentication, pricing, engineering blog, GitHub presence, signup flow, and 8 more developer resources.'
+  Dryad''s developer surface includes authentication, pricing, engineering blog, GitHub presence, signup flow, and 10 more developer resources.'
 plans:
 - name: Plans
   plan_count: 4
@@ -313,15 +321,15 @@ rules:
   slug: dryad-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 53.6
+  delta: 4.0
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 70.7
+    commercial_clarity: 84.2
+    contract_quality: 68.1
     developer_ergonomics: 13.0
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 49.6
   provenance:
     agentic_access: derived
@@ -330,8 +338,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/screenshots/dryad-2026-06-20T180256.png
 security:

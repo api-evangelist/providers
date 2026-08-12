@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: HTTPS event-ingestion API for streaming batches of newline-delimited JSON, OpenRTB 2.5-based ad-tech event records (e.g. MmxAuctionSummary) to the Metamarkets platform for near-real-time dashboarding.
@@ -119,20 +119,20 @@ rate_limits:
   slug: metamarkets-rate-limits
 score:
   band: emerging
-  composite: 21.7
-  delta: 0.0
+  composite: 20.6
+  delta: -1.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 54.3
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 5.3
   previous_composite: 21.7
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/screenshots/metamarkets-2026-08-07T172649.png
 security:

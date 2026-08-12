@@ -18,10 +18,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.popular.com/
+- group: start
+  title: ''
+  type: Login
+  url: https://micredito.popular.com/us/en/login
 - group: auth
   title: ''
   type: DomainSecurity
@@ -62,16 +70,16 @@ network: true
 overview: 'Popular (Banco Popular) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Puerto Rico, and Regional Bank.
 
 
-  Popular (Banco Popular)''s developer surface includes support and 6 more developer resources.'
+  Popular (Banco Popular)''s developer surface includes engineering blog, support, and 7 more developer resources.'
 random_paper: 55
 score:
-  band: minimal
-  composite: 11.2
-  delta: 0.0
+  band: emerging
+  composite: 13.8
+  delta: 2.6
   facets:
-    commercial_clarity: 21.1
+    commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 4.3
+    developer_ergonomics: 6.5
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
@@ -82,8 +90,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banco-popular/refs/heads/main/screenshots/banco-popular-2026-07-25T202323.png
 security:

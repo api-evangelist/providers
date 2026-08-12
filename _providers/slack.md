@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 145
   human_in_the_loop: 5
@@ -1182,16 +1183,16 @@ scopes:
   slug: slack-scopes
   summary_line: 13 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 70.6
-  delta: 0.0
+  band: strong
+  composite: 65.1
+  delta: -5.5
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 74.0
+    commercial_clarity: 57.9
+    contract_quality: 71.6
     developer_ergonomics: 84.8
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 31.3
-    operational_transparency: 86.8
+    operational_transparency: 63.2
   previous_composite: 70.6
   provenance:
     agentic_access: derived
@@ -1200,15 +1201,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 108
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 73.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/screenshots/slack-2026-06-20T165933.png
 security:
 - kind: authentication

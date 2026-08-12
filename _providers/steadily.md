@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -64,6 +64,10 @@ apis:
   slug: steadily-reporting-api
 artifact_total: 13
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/steadily-estimate-api-overlay.yaml
 - group: auth
   title: ''
   type: Authentication
@@ -167,17 +171,17 @@ network: true
 overview: 'Steadily publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Account API, Draft Quote API, Lead Referrals API, and 5 more. Tagged areas include Company, Fintech, Insurance, Landlord Insurance, and Insurtech.
 
 
-  Steadily''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, and 16 more developer resources.'
+  Steadily''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, and 17 more developer resources.'
 random_paper: 51
 score:
   band: thin
-  composite: 40.9
-  delta: 0.0
+  composite: 39.5
+  delta: -1.4
   facets:
     commercial_clarity: 23.7
-    contract_quality: 51.7
+    contract_quality: 49.8
     developer_ergonomics: 56.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 10.5
   previous_composite: 40.9
@@ -197,8 +201,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 40.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

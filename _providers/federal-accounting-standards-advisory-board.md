@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,8 +62,8 @@ overview: 'Federal Accounting Standards Advisory Board is profiled on the [APIs.
 random_paper: 43
 score:
   band: minimal
-  composite: 4.5
-  delta: 0.0
+  composite: 5.5
+  delta: 1.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -72,8 +72,14 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 11.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/screenshots/federal-accounting-standards-advisory-board-2026-06-20T181109.png
 security:

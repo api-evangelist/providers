@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The anonymous read surface of the Virgin Media O2 press newsroom, served by WordPress at news.virginmediao2.co.uk/wp-json/. It is the only callable, self-describing API Virgin Media O2 serves on a hos
@@ -134,13 +134,13 @@ overview: 'Virgin Media O2 publishes 1 API on the [APIs.io](https://apis.io/) ne
 random_paper: 26
 score:
   band: emerging
-  composite: 26.7
-  delta: 0.0
+  composite: 24.5
+  delta: -2.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 16.1
     developer_ergonomics: 6.5
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 21.1
   previous_composite: 26.7
@@ -151,9 +151,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 33.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

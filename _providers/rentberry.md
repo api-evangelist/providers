@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-08-10'
+  score: 35.8
+  scored_at: '2026-08-11'
 api_count: 46
 apis:
 - description: 'Open-source gRPC geocoding and timezone-lookup service Rentberry built and runs for its own property search, with published proto3 definitions and PHP client bindings on Packagist. Two services: Geoco'
@@ -159,8 +159,16 @@ apis:
 - description: Virtual Tours
   name: Rentberry Virtual Tours API
   slug: rentberry-virtual-tours-api
-artifact_total: 48
+artifact_total: 49
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/rentberry-mcp.yml
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Rentberry/geocoder/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -285,6 +293,10 @@ created: '2026-08-02'
 description: 'Rentberry, Inc. is an international long-term home rental marketplace founded in 2015 and headquartered in San Francisco, California. The platform runs the whole rental lifecycle in one closed loop for both tenants and landlords: property listing and syndication, search across residential rental cities worldwide, virtual tours and open-house scheduling, custom rent offers and negotiation, rental applications with proof-of-income attachments, US credit and background screening, e-signed rental contracts and contract templates, online rent collection and rental subscriptions via Stripe, in-platform messaging, maintenance and complaint handling, and a flexible-living concept aimed at digital nomads. Rentberry operates a versioned REST API at api.rentberry.com whose Swagger UI at /docs publishes an OpenAPI 3.0.0 description covering applications, auth and social OAuth login, listings, search, contracts, screening, payments, rentals, messaging, user verification and localization.'
 image: https://cdn.rentberry.com/files/seo/main.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: rentberry-mcp.yml
+  slug: rentberry-mcpyml
 modified: '2026-08-02'
 name: Rentberry
 nav: Providers
@@ -292,17 +304,17 @@ network: true
 overview: 'Rentberry publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Auth API, Breadcrumbs API, and 42 more. Tagged areas include real-estate, proptech, rentals, rental-marketplace, and property-management.
 
 
-  Rentberry''s developer surface includes API reference, documentation, support, engineering blog, pricing, signup flow, authentication, and 23 more developer resources.'
+  Rentberry''s developer surface includes API reference, documentation, support, engineering blog, pricing, signup flow, authentication, and 25 more developer resources.'
 random_paper: 61
 score:
   band: thin
-  composite: 41.2
-  delta: 0.0
+  composite: 40.7
+  delta: -0.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 47.8
-    developer_ergonomics: 49.5
-    discoverability: 87.0
+    contract_quality: 48.2
+    developer_ergonomics: 51.6
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 41.2
@@ -312,7 +324,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 45
     mcp: derived
     skills: derived
   regulatory:
@@ -321,8 +333,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

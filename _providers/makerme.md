@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: flavored
     agent_skills: false
@@ -11,17 +11,21 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 1.8
-  scored_at: '2026-08-10'
+  score: 12.6
+  scored_at: '2026-08-11'
 api_count: 0
-artifact_total: 3
+artifact_total: 4
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/makerme-mcp.yml
 - group: other
   title: ''
   type: AgentCard
@@ -33,6 +37,10 @@ common:
 created: '2026-07-17'
 description: Maker.me is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 layout: provider
+mcp_servers:
+- description: ''
+  name: makerme-mcp.yml
+  slug: makerme-mcpyml
 modified: '2026-07-17'
 name: Maker.me
 nav: Providers
@@ -46,21 +54,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: minimal
-  composite: 5.0
-  delta: 0.0
+  composite: 5.6
+  delta: 0.6
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 46.3
+    developer_ergonomics: 8.7
+    discoverability: 35.2
     governance: 3.1
     operational_transparency: 0.0
   previous_composite: 5.0
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/makerme/refs/heads/main/screenshots/makerme-2026-07-25T225948.png
 security:

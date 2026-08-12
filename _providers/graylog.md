@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Graylog provides a REST API for managing log data, streams, dashboards, alerts, users, and system configuration. The API is browseable via the bundled API Browser at /api/api-browser/.
@@ -36,6 +36,22 @@ apis:
   slug: graylog
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Graylog2/graylog2-server/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Graylog2/graylog2-server/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/Graylog2/graylog2-server/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Graylog2/graylog2-server/blob/master/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -87,7 +103,7 @@ network: true
 overview: 'Graylog publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Logging, Observability, Log Management, and SIEM.
 
 
-  Graylog''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
+  Graylog''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Graylog Plans Pricing
   plan_count: 3
@@ -99,19 +115,19 @@ rate_limits:
   slug: graylog-rate-limits
 score:
   band: emerging
-  composite: 21.6
-  delta: 0.0
+  composite: 15.9
+  delta: -5.7
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 19.6
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 23.7
   previous_composite: 21.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/graylog/refs/heads/main/screenshots/graylog-2026-06-20T182348.png
 security:
 - kind: domain-security

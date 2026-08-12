@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -1350,17 +1350,17 @@ rules:
     warn: 8
   slug: cobalt-rules
 score:
-  band: exemplar
-  composite: 67.4
-  delta: 3.7
+  band: strong
+  composite: 58.9
+  delta: -8.5
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 76.7
+    commercial_clarity: 68.4
+    contract_quality: 73.9
     developer_ergonomics: 43.5
     discoverability: 59.3
     governance: 58.3
-    operational_transparency: 63.2
-  previous_composite: 63.7
+    operational_transparency: 39.5
+  previous_composite: 67.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1368,9 +1368,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/screenshots/cobalt-2026-06-20T174643.png
 security:
 - kind: authentication

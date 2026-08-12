@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 23.0
-  scored_at: '2026-08-10'
+  score: 23.2
+  scored_at: '2026-08-11'
 api_count: 37
 apis:
 - description: The Articles Admin API from Kitchen Stories — 1 operation(s) for articles admin.
@@ -142,8 +142,20 @@ apis:
 - description: The Videos API from Kitchen Stories — 5 operation(s) for videos.
   name: Kitchen Stories Videos API
   slug: kitchenstories-videos-api
-artifact_total: 39
+artifact_total: 40
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/kitchenstories-community-engagement.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/kitchenstories-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kitchenstories-internal-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -216,6 +228,10 @@ created: '2026-07-17'
 description: Kitchen Stories is a Berlin-based, video-first cooking and recipe platform founded in 2013 by Verena Hubertz and Mengting Boensch, and majority-owned by the BSH Group (Bosch Siemens Hausgeraete) since 2017. The company publishes roughly 15,000 recipes and articles with HD step-by-step video tutorials across its iOS and Android apps, website, smart TVs, and Amazon Echo Show, reaching more than 6 million unique users from over 22 million app downloads. Alongside the consumer product it runs Kitchen Stories Business, a branded-content and native-advertising arm working with around 300 brand partners, and an online shop for its own organic spice mixes. Its content platform is served by the Kitchen Stories Internal API (Ultron), a bearer-token REST API at api.kitchenstories.io covering recipes, articles, videos, ingredients, utensils, categories, user cookbooks, meal plans, comments, ratings, and personalization.
 image: https://www.kitchenstories.com/favicon/apple-touch-icon.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: kitchenstories-mcp.yml
+  slug: kitchenstories-mcpyml
 modified: '2026-07-19'
 name: Kitchen Stories
 nav: Providers
@@ -223,17 +239,17 @@ network: true
 overview: 'Kitchen Stories publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Articles Admin API, Articles API, Authentication API, and 34 more. Tagged areas include Company, Food and Beverage, Recipes, Cooking, and Media.
 
 
-  Kitchen Stories'' developer surface includes support, engineering blog, signup flow, pricing, and 13 more developer resources.'
+  Kitchen Stories'' developer surface includes support, engineering blog, signup flow, pricing, and 16 more developer resources.'
 random_paper: 11
 score:
   band: thin
-  composite: 34.2
-  delta: 0.0
+  composite: 33.4
+  delta: -0.8
   facets:
     commercial_clarity: 44.7
-    contract_quality: 52.8
-    developer_ergonomics: 6.5
-    discoverability: 87.0
+    contract_quality: 50.8
+    developer_ergonomics: 10.3
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 34.2
@@ -246,8 +262,8 @@ score:
       total: 37
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kitchenstories/refs/heads/main/screenshots/kitchenstories-2026-07-25T223912.png
 security:

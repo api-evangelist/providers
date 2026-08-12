@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,6 +62,26 @@ collections:
   name: Apache Spark Monitoring REST API
   slug: open-apache-spark
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apache/spark/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/apache/spark/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/spark/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/spark/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -163,7 +183,7 @@ network: true
 overview: 'Apache Spark publishes 2 APIs on the [APIs.io](https://apis.io/) network: Applications API and Version API. Tagged areas include Analytics, Big Data, Distributed Computing, Machine Learning, and Open Source.
 
 
-  Apache Spark''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, Stack Overflow tag, and 8 more developer resources.'
+  Apache Spark''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, Stack Overflow tag, and 13 more developer resources.'
 plans:
 - name: Apache Spark Plans Pricing
   plan_count: 3
@@ -175,15 +195,15 @@ rate_limits:
   slug: apache-spark-rate-limits
 score:
   band: thin
-  composite: 38.7
-  delta: 0.0
+  composite: 31.9
+  delta: -6.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 39.5
+    commercial_clarity: 26.3
+    contract_quality: 38.1
     developer_ergonomics: 41.3
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 18.4
   previous_composite: 38.7
   provenance:
     agentic_access: derived
@@ -192,9 +212,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-spark/refs/heads/main/screenshots/apache-spark-2026-06-20T172146.png
 security:
 - kind: domain-security

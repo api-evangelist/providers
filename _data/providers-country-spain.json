@@ -16,19 +16,19 @@
      "slug": "factorial-hr",
      "description": "Factorial is an all-in-one HR, payroll, time, talent, finance, and IT management platform headquartered in Barcelona, Spain, used by 16,000+ companies worldwide. The Factorial public API is a date-versioned REST API (current major 2026-04-01 \"Legendre\") covering employees, contracts, attendance, time off, payroll, ATS, performance, trainings, projects, finance, banking, procurement, IT assets, documents, webhooks, and an Approvals workflow surface. Authentication uses OAuth2 (on behalf of a user) or an x-api-key header (on behalf of the company), with 30+ scopes for granular partner access. Factorial publishes the OpenAPI schema and generated SDKs (Ruby, Python, Java, PHP, TypeScript, Node.js) at github.com/factorialco/oas and exposes an llms.txt index for AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/screenshots/factorial-hr-2026-06-20T181038.png",
-     "score": 68.6,
+     "score": 67.9,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 69.8,
+      "contract_quality": 67.2,
       "governance": 68.8,
       "operational_transparency": 44.7,
       "developer_ergonomics": 60.9,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 42.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -69,15 +69,15 @@
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 72.1,
+      "discoverability": 72.2,
+      "contract_quality": 69.4,
       "governance": 68.8,
       "operational_transparency": 52.6,
       "developer_ergonomics": 26.1,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -114,19 +114,19 @@
      "slug": "openmercantil",
      "description": "OpenMercantil is an independent public-data API for Spanish company intelligence. It indexes the Boletin Oficial del Registro Mercantil (BORME) and cross-references it with 29+ public sources (CNMV, OEPM, PLACSP, BDNS, OpenSanctions, CCAA gazettes, CNMC, CENDOJ and more) to expose company search, structured company reports, registry event timelines, officer records, CNAE sector navigation, daily summaries, public-procurement rankings, a v1.4 cross-source trust score, and CSV/JSON exports. The public REST API is free, requires no API key, and is rate-limited per IP. The project is informational and does not replace official Registro Mercantil certificates.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/screenshots/openmercantil-2026-06-20T191016.png",
-     "score": 51.3,
+     "score": 51.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 67.4,
+      "discoverability": 81.5,
+      "contract_quality": 64.9,
       "governance": 68.8,
       "operational_transparency": 31.6,
       "developer_ergonomics": 23.9,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -159,19 +159,19 @@
      "slug": "cobee",
      "description": "Cobee is a Madrid-based flexible employee benefits and compensation platform, acquired by Pluxee (Sodexo group) in 2024. It lets companies manage a modular multi-benefit program (meal, transport, training, health and life insurance, wellbeing and employee discounts) from a single dashboard, delivered to employees through a Cobee VISA card and mobile app. Cobee exposes a REST Public API (v3, OpenAPI 3.0.1) for HR and payroll integrations, covering companies, employees, benefit models, payroll cycles, and benefit consumptions, with OAuth 2.0 client-credentials (Auth0-issued JWT) auth and a separate staging sandbox. The Public API is currently available to Spanish customers, with credentials issued by the customer's Customer Success Manager.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/screenshots/cobee-2026-07-25T205844.png",
-     "score": 46.5,
+     "score": 46.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 53.5,
+      "contract_quality": 51.5,
       "governance": 20.8,
       "operational_transparency": 0.0,
       "developer_ergonomics": 62.5,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 44.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -203,23 +203,99 @@
    "shown": 3,
    "providers": [
     {
+     "name": "Koalaboox",
+     "slug": "koalaboox",
+     "description": "Koalaboox is a Belgian cloud invoicing and cash-flow platform for small businesses, self-employed professionals and their accountants, now operating as Cegid Invoice & Financing — API brand Cegid Click & Finance — following its acquisition by Cegid. The platform covers sales invoicing, quotes, purchase-invoice management, recurring invoices, dynamic dashboards, bank-account connections and Peppol-based electronic invoicing for the Belgian 2026 e-invoicing mandate, sold in Belgium and Spain. Alongside the SaaS it offers invoice financing — cash advances against outstanding invoices — underwritten by Cegid Fin Belgium. Koalaboox exposes a public REST API at connect.koalaboox.com secured with OAuth 2.0 authorization-code grants, documented on a Stoplight developer portal, with a first-party Laravel reference architecture published on GitHub.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/koalaboox/refs/heads/main/screenshots/koalaboox-2026-07-25T224027.png",
+     "score": 32.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 34.8,
+      "commercial_clarity": 65.8
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 18.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 5
+    },
+    {
+     "name": "Holded",
+     "slug": "holded",
+     "description": "Holded is a cloud-based all-in-one business management platform from Spain (now part of Visma) that combines ERP, CRM, accounting, invoicing, inventory, project management, HR, and team collaboration features for small and medium-sized businesses. The Holded REST API provides programmatic access to invoicing, contacts, products, accounting, projects, employees, and CRM data using a simple API key authentication scheme over JSON.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/screenshots/holded-2026-06-20T182811.png",
+     "score": 31.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 55.2,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 23.7
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 27.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 6
+    },
+    {
      "name": "BBVA",
      "slug": "bbva",
      "description": "BBVA is a multinational Spanish financial services group operating in over 30 countries. The BBVA API Market provides a comprehensive catalog of banking APIs covering accounts, payments, collections, financing, identity, and open data across Spain, Mexico, Latin America, and other global markets. BBVA is a recognized open banking leader offering PSD2-compliant APIs, treasury management solutions, and digital ecosystem integrations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bbva/refs/heads/main/screenshots/bbva-2026-06-20T173058.png",
-     "score": 36.3,
+     "score": 29.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 12.9,
       "governance": 37.5,
-      "operational_transparency": 36.8,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 37.0,
-      "commercial_clarity": 60.5
+      "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -245,82 +321,6 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
-    },
-    {
-     "name": "Koalaboox",
-     "slug": "koalaboox",
-     "description": "Koalaboox is a Belgian cloud invoicing and cash-flow platform for small businesses, self-employed professionals and their accountants, now operating as Cegid Invoice & Financing — API brand Cegid Click & Finance — following its acquisition by Cegid. The platform covers sales invoicing, quotes, purchase-invoice management, recurring invoices, dynamic dashboards, bank-account connections and Peppol-based electronic invoicing for the Belgian 2026 e-invoicing mandate, sold in Belgium and Spain. Alongside the SaaS it offers invoice financing — cash advances against outstanding invoices — underwritten by Cegid Fin Belgium. Koalaboox exposes a public REST API at connect.koalaboox.com secured with OAuth 2.0 authorization-code grants, documented on a Stoplight developer portal, with a first-party Laravel reference architecture published on GitHub.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/koalaboox/refs/heads/main/screenshots/koalaboox-2026-07-25T224027.png",
-     "score": 32.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 34.8,
-      "commercial_clarity": 65.8
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 21.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 6
-    },
-    {
-     "name": "Holded",
-     "slug": "holded",
-     "description": "Holded is a cloud-based all-in-one business management platform from Spain (now part of Visma) that combines ERP, CRM, accounting, invoicing, inventory, project management, HR, and team collaboration features for small and medium-sized businesses. The Holded REST API provides programmatic access to invoicing, contacts, products, accounting, projects, employees, and CRM data using a simple API key authentication scheme over JSON.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/screenshots/holded-2026-06-20T182811.png",
-     "score": 28.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 57.4,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 27.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
      "rank": 7
     }
    ]
@@ -338,20 +338,20 @@
      "slug": "novicap",
      "description": "Novicap is a Spanish working-capital and supply-chain-finance fintech that helps companies optimize their circulating capital. Its REST API (base URL https://api.novicap.com/v1) lets partners programmatically register suppliers, submit and manage invoices, and create payment instructions and adjustments across two products: Dynamic Discounting and Confirming Standard (reverse factoring). The API uses Bearer API-key authentication with a required product_id scope, JSON payloads, and URI-path versioning, and is documented in a public developer reference. Novicap is backed by Partech and Techstars.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/novicap/refs/heads/main/screenshots/novicap-2026-08-07T185613.png",
-     "score": 25.8,
+     "score": 25.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 14.7,
+      "contract_quality": 14.2,
       "governance": 11.5,
       "operational_transparency": 10.5,
       "developer_ergonomics": 29.9,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 39.0,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 35.4,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -364,7 +364,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
@@ -387,8 +387,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -431,8 +431,8 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -465,57 +465,20 @@
      "slug": "lingokids",
      "description": "Lingokids is a children's edutainment platform operated by Monkimun Inc. (Wilmington, Delaware) and Monkimun Labs S.L. (Madrid, Spain), delivering an ad-free \"Playlearning\" experience of games, animated shows, podcasts and sing-alongs for children aged two to eight. The mobile apps (iOS, Android, Amazon) and web app have been downloaded more than 200 million times. The curriculum is built by parents and educators and covers English-language learning alongside broader academic and life skills. Lingokids is audited and certified by the kidSAFE Seal Program (COPPA+), operates a COPPA-compliant configuration for child data, and honours GDPR rights for EU residents. The company publishes no public developer program or documented API: api.lingokids.com is the private application backend and exposes no discovery surface. Lingokids does publish an RFC 9116 security.txt with a security contact, names a Data Protection Officer, and runs a public help center. Backed by HV Capital.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lingokids/refs/heads/main/screenshots/lingokids-2026-07-25T225243.png",
-     "score": 22.2,
+     "score": 21.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 12.5,
       "operational_transparency": 15.8,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 11
-    },
-    {
-     "name": "Casavo",
-     "slug": "casavo",
-     "description": "Casavo Management S.p.A. is an Italian proptech company founded in Milan in 2017 by Giorgio Tinacci that operates a digital residential real estate platform across Italy, Spain, France and Portugal. It began as an iBuyer — instantly valuing, buying, renovating and reselling homes — and has since shifted to a marketplace and brokerage model that connects sellers, buyers and partner estate agents, wrapping the transaction in mortgage brokerage, document management and renovation services. Casavo's developer-facing surface is not its consumer marketplace but the virtual-tour platform it acquired, Realisti.co (marketed as Casavo Virtual Tools): a versioned REST API at editor.realisti.co that lets partner agencies and property-management software create virtual tours, retrieve tour URLs, and activate or deactivate a tour at the end of a mandate. The company also runs a public GitHub organization of DevOps tooling, Helm charts, Terraform modules and the Habitat design system, and an engineering blog.",
-     "score": 21.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 2.7,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -529,11 +492,11 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
+      "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 11
     },
     {
      "name": "Autonomous University of Madrid",
@@ -551,8 +514,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -571,7 +534,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 12
     },
     {
      "name": "Complutense University of Madrid",
@@ -589,8 +552,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -616,6 +579,43 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 13
+    },
+    {
+     "name": "Casavo",
+     "slug": "casavo",
+     "description": "Casavo Management S.p.A. is an Italian proptech company founded in Milan in 2017 by Giorgio Tinacci that operates a digital residential real estate platform across Italy, Spain, France and Portugal. It began as an iBuyer — instantly valuing, buying, renovating and reselling homes — and has since shifted to a marketplace and brokerage model that connects sellers, buyers and partner estate agents, wrapping the transaction in mortgage brokerage, document management and renovation services. Casavo's developer-facing surface is not its consumer marketplace but the virtual-tour platform it acquired, Realisti.co (marketed as Casavo Virtual Tools): a versioned REST API at editor.realisti.co that lets partner agencies and property-management software create virtual tours, retrieve tour URLs, and activate or deactivate a tour at the end of a mandate. The company also runs a public GitHub organization of DevOps tooling, Helm charts, Terraform modules and the Habitat design system, and an engineering blog.",
+     "score": 20.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 14
     },
     {
@@ -634,8 +634,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -672,8 +672,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -710,8 +710,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -755,8 +755,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -800,8 +800,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -845,8 +845,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -890,8 +890,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -935,8 +935,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -980,8 +980,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1003,23 +1003,30 @@
      "rank": 23
     },
     {
-     "name": "Ontruck",
-     "slug": "ontruck",
-     "description": "Ontruck is a Spanish road-freight technology platform that connects shippers (cargadores) with a network of professional carriers (transportistas) for full-truckload and less-than-truckload pallet, package, and parcel transport across Spain, France, and wider Europe. Shippers get instant AI-driven pricing, automated carrier assignment, real-time traceability, and digital documentation through service tiers (Economy, Flex, Express); carriers get access to freight loads with dynamic pricing and 24/7 support. Ontruck also packages its stack as \"Ontruck AI Tech\" — an AI pricing engine, AI routing engine, a predictive incident system, and a forecast/capacity planner — offered as transport-management software. The company operates a marketing and customer web surface plus an in-product shipper/carrier application; it publishes no public developer/API portal, OpenAPI, or SDKs at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ontruck/refs/heads/main/screenshots/ontruck-2026-08-07T190427.png",
-     "score": 14.9,
+     "name": "Goin",
+     "slug": "goin",
+     "description": "Goin is a European consumer fintech platform, backed by Anthemis and based in Barcelona, Spain, that helps more than 700,000 users across Europe grow their money and spend less. The app bundles automated savings (fixed daily, weekly or monthly rules and goal-based portfolios), investing, buying and selling of cryptocurrencies, cashback and rewards at hundreds of online and physical stores, gift cards and coupons, and a browser extension that surfaces discounts while shopping. Bank accounts are connected securely under Europe's PSD2 open banking regulation, and a referral program rewards users for inviting friends. Goin is a business-to-consumer mobile product distributed through the Apple App Store and Google Play; it does not publish a public developer program, API, or documentation surface. This API Evangelist profile tracks Goin as a portfolio lead and captures its public web, help, and legal presence.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/goin/refs/heads/main/screenshots/goin-2026-07-25T220013.png",
+     "score": 13.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 61.1,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 17.7,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1041,10 +1048,10 @@
      "rank": 24
     },
     {
-     "name": "Goin",
-     "slug": "goin",
-     "description": "Goin is a European consumer fintech platform, backed by Anthemis and based in Barcelona, Spain, that helps more than 700,000 users across Europe grow their money and spend less. The app bundles automated savings (fixed daily, weekly or monthly rules and goal-based portfolios), investing, buying and selling of cryptocurrencies, cashback and rewards at hundreds of online and physical stores, gift cards and coupons, and a browser extension that surfaces discounts while shopping. Bank accounts are connected securely under Europe's PSD2 open banking regulation, and a referral program rewards users for inviting friends. Goin is a business-to-consumer mobile product distributed through the Apple App Store and Google Play; it does not publish a public developer program, API, or documentation surface. This API Evangelist profile tracks Goin as a portfolio lead and captures its public web, help, and legal presence.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/goin/refs/heads/main/screenshots/goin-2026-07-25T220013.png",
+     "name": "Ontruck",
+     "slug": "ontruck",
+     "description": "Ontruck is a Spanish road-freight technology platform that connects shippers (cargadores) with a network of professional carriers (transportistas) for full-truckload and less-than-truckload pallet, package, and parcel transport across Spain, France, and wider Europe. Shippers get instant AI-driven pricing, automated carrier assignment, real-time traceability, and digital documentation through service tiers (Economy, Flex, Express); carriers get access to freight loads with dynamic pricing and 24/7 support. Ontruck also packages its stack as \"Ontruck AI Tech\" — an AI pricing engine, AI routing engine, a predictive incident system, and a forecast/capacity planner — offered as transport-management software. The company operates a marketing and customer web surface plus an in-product shipper/carrier application; it publishes no public developer/API portal, OpenAPI, or SDKs at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ontruck/refs/heads/main/screenshots/ontruck-2026-08-07T190427.png",
      "score": 13.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1052,19 +1059,12 @@
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 17.7,
-      "matched_via": "tags"
-     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1111,8 +1111,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1149,8 +1149,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1179,23 +1179,68 @@
      "rank": 27
     },
     {
-     "name": "Masmovil",
-     "slug": "masmovil",
-     "description": "Masmovil (MasMovil Group) is a Spanish telecommunications operator providing mobile, fiber optic internet, and fixed-line services to consumers and businesses across Spain, with bundled fiber-plus-mobile packages, device sales, roaming, and international calling. The group operates a family of consumer telecom brands and, following its 2024 combination with Orange Spain, is part of the MasOrange joint venture. As of this enrichment pass Masmovil publishes no public developer portal, API documentation, or machine-readable API specification; the network profile carries the identity and a domain security posture probe only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/masmovil/refs/heads/main/screenshots/masmovil-2026-07-25T230330.png",
-     "score": 6.4,
+     "name": "Groupalia",
+     "slug": "groupalia",
+     "description": "Groupalia was a Spanish group-buying / daily-deals company (a Groupon-style local commerce marketplace) founded in 2010 and backed by investors including Insight Partners, operating across Spain, Italy and parts of Latin America before consolidating in the group-buying downturn. The brand's only active surface today is the Italian domain groupalia.it, a gift-card storefront whose checkout is operated by EPIPOLI S.p.A. (mygiftcard.it); the original www.groupalia.com domain no longer resolves. No public API, developer portal, SDKs, or agent-facing surface is published, so this profile remains a consumer-company identity record rather than an API provider.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/groupalia/refs/heads/main/screenshots/groupalia-2026-07-25T220348.png",
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 61.1,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 9.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 28
+    },
+    {
+     "name": "Masmovil",
+     "slug": "masmovil",
+     "description": "Masmovil (MasMovil Group) is a Spanish telecommunications operator providing mobile, fiber optic internet, and fixed-line services to consumers and businesses across Spain, with bundled fiber-plus-mobile packages, device sales, roaming, and international calling. The group operates a family of consumer telecom brands and, following its 2024 combination with Orange Spain, is part of the MasOrange joint venture. As of this enrichment pass Masmovil publishes no public developer portal, API documentation, or machine-readable API specification; the network profile carries the identity and a domain security posture probe only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/masmovil/refs/heads/main/screenshots/masmovil-2026-07-25T230330.png",
+     "score": 5.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1221,7 +1266,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Blink Booking",
@@ -1239,45 +1284,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 29
-    },
-    {
-     "name": "Circular",
-     "slug": "circular",
-     "description": "Circular was a Spanish hiring community that connected tech recruiters with software developers, describing itself as a \"Hiring Community for Tech Recruiters & Developers.\" It operated a referral-driven talent network in which recruiters shared vetted candidates they could not place themselves, and developers received job opportunities through that trusted pool rather than through cold outreach. The company was backed by Point Nine Capital and ran its candidate and recruiter landing experiences on a Next.js application served from circular.io and static.circular.io. Circular has since shut down and merged into Manfred (getmanfred.com), the largest tech community in Spain, with its own migration notice stating \"Circular cierra sus puertas para integrarse en Manfred.\" The circular.io domain remains registered to Singular People Europe S.L. but has been fully undelegated, and Point Nine no longer lists Circular in its portfolio. Circular never published a public developer program, API, SDK, or specification. This profile is retained as a historical record; there is no API surface to enrich.",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1299,10 +1307,9 @@
      "rank": 30
     },
     {
-     "name": "Groupalia",
-     "slug": "groupalia",
-     "description": "Groupalia was a Spanish group-buying / daily-deals company (a Groupon-style local commerce marketplace) founded in 2010 and backed by investors including Insight Partners, operating across Spain, Italy and parts of Latin America before consolidating in the group-buying downturn. The brand's only active surface today is the Italian domain groupalia.it, a gift-card storefront whose checkout is operated by EPIPOLI S.p.A. (mygiftcard.it); the original www.groupalia.com domain no longer resolves. No public API, developer portal, SDKs, or agent-facing surface is published, so this profile remains a consumer-company identity record rather than an API provider.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/groupalia/refs/heads/main/screenshots/groupalia-2026-07-25T220348.png",
+     "name": "Circular",
+     "slug": "circular",
+     "description": "Circular was a Spanish hiring community that connected tech recruiters with software developers, describing itself as a \"Hiring Community for Tech Recruiters & Developers.\" It operated a referral-driven talent network in which recruiters shared vetted candidates they could not place themselves, and developers received job opportunities through that trusted pool rather than through cold outreach. The company was backed by Point Nine Capital and ran its candidate and recruiter landing experiences on a Next.js application served from circular.io and static.circular.io. Circular has since shut down and merged into Manfred (getmanfred.com), the largest tech community in Spain, with its own migration notice stating \"Circular cierra sus puertas para integrarse en Manfred.\" The circular.io domain remains registered to Singular People Europe S.L. but has been fully undelegated, and Point Nine no longer lists Circular in its portfolio. Circular never published a public developer program, API, SDK, or specification. This profile is retained as a historical record; there is no API surface to enrich.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1314,8 +1321,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

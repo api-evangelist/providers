@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 52.0
-  scored_at: '2026-08-10'
+  score: 48.4
+  scored_at: '2026-08-11'
 api_count: 16
 apis:
 - description: Authorization operations for OAuth 2.0 Grants
@@ -130,6 +131,10 @@ collections:
   name: Company authorization uploads API
   slug: postman-bokio-uploads-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bokio-company-api-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -281,7 +286,7 @@ network: true
 overview: 'Bokio publishes 16 APIs on the [APIs.io](https://apis.io/) network, including authorization API, bank-payments API, chart-of-accounts API, and 13 more. Tagged areas include Company, Fintech, Accounting, Bookkeeping, and Invoicing.
 
 
-  Bokio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+  Bokio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 random_paper: 68
 scopes:
 - name: Bokio Scopes
@@ -290,11 +295,11 @@ scopes:
   summary_line: 24 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 58.5
-  delta: 0.0
+  composite: 58.0
+  delta: -0.5
   facets:
     commercial_clarity: 52.6
-    contract_quality: 66.0
+    contract_quality: 63.5
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 11.5
@@ -315,8 +320,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/screenshots/bokio-2026-07-25T203526.png
 security:

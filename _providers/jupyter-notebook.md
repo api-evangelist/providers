@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 6
@@ -97,6 +97,30 @@ collections:
   name: Jupyter Notebook JupyterHub REST API
   slug: open-jupyterhub-rest-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/jupyter/jupyter_client/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/jupyter/jupyter_client/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/jupyter/jupyter_client/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/jupyter/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/jupyter/jupyter_client/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/jupyter/jupyter_client/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -193,7 +217,7 @@ overview: 'Jupyter Notebook publishes 14 APIs on the [APIs.io](https://apis.io/)
   The Jupyter Notebook catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Jupyter Notebook''s developer surface includes authentication, documentation, getting-started guide, engineering blog, support, YouTube channel, Stack Overflow tag, and 8 more developer resources.'
+  Jupyter Notebook''s developer surface includes authentication, documentation, getting-started guide, engineering blog, support, YouTube channel, Stack Overflow tag, and 14 more developer resources.'
 plans:
 - name: Jupyter Notebook Plans Pricing
   plan_count: 1
@@ -222,11 +246,11 @@ rules:
   slug: jupyter-notebook-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.5
-  delta: 0.0
+  composite: 45.7
+  delta: -3.8
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 75.1
+    commercial_clarity: 13.2
+    contract_quality: 72.6
     developer_ergonomics: 37.0
     discoverability: 64.8
     governance: 52.1
@@ -239,8 +263,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/screenshots/jupyter-notebook-2026-06-20T183838.png
 security:

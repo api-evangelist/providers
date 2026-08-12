@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 3
@@ -70,6 +70,10 @@ apis:
   slug: simplivity-virtual-machines-api
 artifact_total: 15
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/HewlettPackard/simplivity-python/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -161,7 +165,7 @@ network: true
 overview: 'SimpliVity publishes 10 APIs on the [APIs.io](https://apis.io/) network, including backups API, cluster_groups API, datastores API, and 7 more. Tagged areas include Company, Big Data, Hyperconverged Infrastructure, Virtualization, and Backup.
 
 
-  SimpliVity''s developer surface includes documentation, API reference, and 17 more developer resources.'
+  SimpliVity''s developer surface includes documentation, API reference, and 18 more developer resources.'
 random_paper: 70
 scopes:
 - name: Simplivity Scopes
@@ -170,11 +174,11 @@ scopes:
   summary_line: 2 scopes · password
 score:
   band: emerging
-  composite: 27.6
-  delta: 0.0
+  composite: 27.2
+  delta: -0.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 45.0
+    contract_quality: 43.3
     developer_ergonomics: 25.5
     discoverability: 81.5
     governance: 11.5
@@ -190,8 +194,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

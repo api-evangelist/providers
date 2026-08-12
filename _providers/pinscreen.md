@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Developer SDK for high-fidelity 3D avatar generation from a single photo, delivered as Unreal and Unity engine plugins backed by a deployable avatar-generation API. No public machine-readable API desc
@@ -108,8 +108,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 14.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

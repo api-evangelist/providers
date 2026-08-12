@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -81,6 +81,10 @@ collections:
   name: Tableau REST API
   slug: open-tableau-desktop
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/tableau/extensions-api/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -174,7 +178,7 @@ network: true
 overview: 'Tableau Desktop publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Data Sources API, Projects API, and 4 more. Tagged areas include Analytics, Business Intelligence, Data Visualization, and Desktop Application.
 
 
-  Tableau Desktop''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, training material, and 5 more developer resources.'
+  Tableau Desktop''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, training material, and 6 more developer resources.'
 plans:
 - name: Tableau Desktop Plans Pricing
   plan_count: 3
@@ -185,16 +189,16 @@ rate_limits:
   name: Tableau Desktop Rate Limits
   slug: tableau-desktop-rate-limits
 score:
-  band: developing
-  composite: 47.0
-  delta: 0.0
+  band: thin
+  composite: 38.7
+  delta: -8.3
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 58.1
+    commercial_clarity: 36.8
+    contract_quality: 56.0
     developer_ergonomics: 45.7
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 47.0
   provenance:
     agentic_access: derived
@@ -203,9 +207,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/screenshots/tableau-desktop-2026-06-20T194845.png
 security:
 - kind: authentication

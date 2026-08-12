@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 40.5
-  scored_at: '2026-08-10'
+  score: 40.8
+  scored_at: '2026-08-11'
 api_count: 41
 apis:
 - description: <a id="group-answers"></a> Answers are the users’ replies to the questions raised by their colleagues in the Questions menu. Other users can vote for answers they think are best, like them, and a user
@@ -154,12 +154,24 @@ apis:
 - description: '<a id="group-webhooks"></a> You can create webhooks with HTTP targets to build integrations with the services or with your back-end system. Examples: - Alert your team in Slack when a mission is creat'
   name: Yoobic Webhooks API
   slug: yoobic-webhooks-api
-artifact_total: 45
+artifact_total: 46
 asyncapis:
 - description: ''
   name: Yoobic Webhooks
   slug: yoobic-webhooks
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/yoobic-manage-missions.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/yoobic-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/yoobic-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -228,6 +240,10 @@ created: '2026-07-17'
 description: YOOBIC is an AI-powered frontline employee experience and retail operations platform that unifies task management, internal communications, and mobile microlearning, giving headquarters real-time visibility and frontline teams the tools to execute in-store. It serves retail, grocery, fashion and luxury, convenience, pharmacy, restaurant/QSR, and fitness brands. The YOOBIC Public API is a RESTful JSON API (OpenAPI 3.0, 230 paths / 265 operations across 41 resource groups) for programmatically managing users, stores, missions, campaigns, learning, communities, and webhooks, secured with JWT bearer tokens.
 image: https://yoobic.com/wp-content/uploads/2025/11/cropped-favicon-1-1-270x270.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: yoobic-mcp.yml
+  slug: yoobic-mcpyml
 modified: '2026-07-21'
 name: Yoobic
 nav: Providers
@@ -238,17 +254,17 @@ overview: 'Yoobic publishes 41 APIs on the [APIs.io](https://apis.io/) network, 
   The Yoobic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Yoobic''s developer surface includes documentation, engineering blog, pricing, signup flow, support, authentication, and 10 more developer resources.'
+  Yoobic''s developer surface includes documentation, engineering blog, pricing, signup flow, support, authentication, and 13 more developer resources.'
 random_paper: 65
 score:
   band: developing
-  composite: 45.4
-  delta: 0.0
+  composite: 44.5
+  delta: -0.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 62.5
-    developer_ergonomics: 34.8
-    discoverability: 87.0
+    contract_quality: 60.1
+    developer_ergonomics: 38.6
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 45.4
@@ -261,8 +277,8 @@ score:
       total: 41
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

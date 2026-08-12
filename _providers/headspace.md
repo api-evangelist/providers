@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -158,8 +158,8 @@ overview: 'Headspace is profiled on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 114
 score:
   band: emerging
-  composite: 14.2
-  delta: 0.0
+  composite: 15.6
+  delta: 1.4
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -168,8 +168,14 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 14.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 23.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/headspace/refs/heads/main/screenshots/headspace-2026-06-20T182552.png
 security:

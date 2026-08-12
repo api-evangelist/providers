@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: API for programmatic access to Microsoft Access databases through various interfaces including ODBC, OLE DB, and DAO.
@@ -171,20 +171,20 @@ rules:
     warn: 4
   slug: microsoft-access-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 47.8
-  delta: 0.0
+  band: thin
+  composite: 40.0
+  delta: -7.8
   facets:
-    commercial_clarity: 78.9
+    commercial_clarity: 55.3
     contract_quality: 40.3
     developer_ergonomics: 23.9
     discoverability: 53.7
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 47.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-access/refs/heads/main/screenshots/microsoft-access-2026-06-20T185353.png
 security:
 - kind: domain-security

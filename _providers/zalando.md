@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -100,6 +101,10 @@ apis:
   slug: zalando-types-api
 artifact_total: 25
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zalando-article-requirements-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -227,7 +232,7 @@ network: true
 overview: 'Zalando publishes 20 APIs on the [APIs.io](https://apis.io/) network, including AnnouncedReturns API, attribute-types API, attribute-values API, and 17 more. Tagged areas include Company, Consumer; Marketplace, Fashion, E-Commerce, and Retail.
 
 
-  Zalando''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, signup flow, engineering blog, and 21 more developer resources.'
+  Zalando''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, signup flow, engineering blog, and 22 more developer resources.'
 random_paper: 49
 scopes:
 - name: Zalando Scopes
@@ -236,13 +241,13 @@ scopes:
   summary_line: 16 scopes · clientCredentials
 score:
   band: thin
-  composite: 39.2
-  delta: 0.0
+  composite: 38.4
+  delta: -0.8
   facets:
     commercial_clarity: 13.2
-    contract_quality: 44.4
+    contract_quality: 42.7
     developer_ergonomics: 58.2
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 39.2
@@ -256,8 +261,14 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 42.2
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

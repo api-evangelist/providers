@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-10'
+  score: 43.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 41
@@ -34,12 +34,16 @@ apis:
 - description: Public machine-readable status feed for the Netomi platform, served by Atlassian Statuspage at status.netomi.com. Exposes the standard Statuspage v2 JSON surface (summary, status, components, incident
   name: Netomi Status API
   slug: netomi-status-api
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Netomi Events
   slug: netomi-events
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/netomi-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -181,6 +185,10 @@ description: Netomi (founded 2016 as msg.ai) is an enterprise agentic AI platfor
   publishes SOC 2 Type II, ISO 27001, PCI DSS, HIPAA, GDPR, CCPA and PDPA compliance posture. The Agentic Studio console and the developer documentation portal are gated behind an enterprise account, but a live, unlinked OpenAPI 3.1.0 contract for the AgentDesk REST API — 56 paths, 67 operations, 103 schemas, covering the conversation engine, NLU prediction, query analysis, conversation history, per-bot rate-limit configuration, visitor authorization and sixteen inbound channel webhooks (Zendesk, Zoho, Salesforce, Freshdesk, Gladly, Helpshift, Sprinklr, Sunshine Conversations, Facebook, Twitter, Google Assistant, Firebase) — is served publicly at https://api.netomi.com/v3/api-docs with Swagger UI at https://api.netomi.com/swagger-ui.html.
 image: https://www.netomi.com/apple-touch-icon.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: netomi-mcp.yml
+  slug: netomi-mcpyml
 modified: '2026-08-01'
 name: Netomi
 nav: Providers
@@ -191,16 +199,16 @@ overview: 'Netomi publishes 1 API on the [APIs.io](https://apis.io/) network: Pl
   The Netomi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Netomi''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, changelog, sandbox, and 27 more developer resources.'
+  Netomi''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, changelog, sandbox, and 28 more developer resources.'
 random_paper: 72
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 53.3
+  delta: 1.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 49.6
-    developer_ergonomics: 64.7
+    contract_quality: 47.8
+    developer_ergonomics: 66.8
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 52.6
@@ -210,14 +218,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/screenshots/netomi-2026-08-07T185015.png
 security:

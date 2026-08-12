@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -170,16 +171,16 @@ rules:
     warn: 6
   slug: mailerlite-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 47.2
-  delta: 0.0
+  band: thin
+  composite: 37.5
+  delta: -9.7
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 66.7
-    developer_ergonomics: 28.3
+    commercial_clarity: 26.3
+    contract_quality: 64.2
+    developer_ergonomics: 34.8
     discoverability: 64.8
     governance: 41.7
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 47.2
   provenance:
     agentic_access: derived
@@ -188,9 +189,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 16.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/screenshots/mailerlite-2026-06-20T184854.png
 security:
 - kind: authentication

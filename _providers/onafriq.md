@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 9
 apis:
 - description: Asynchronous payouts designed for Money Transfer Organizations (MTOs) and disbursement partners. Partners create payments to mobile money wallets, cash pickup points, and bank accounts; results are de
@@ -183,8 +183,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onafriq/refs/heads/main/screenshots/onafriq-2026-06-20T190708.png
 security:

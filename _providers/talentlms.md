@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -77,6 +77,10 @@ apis:
   slug: talentlms-user-api
 artifact_total: 32
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Trifoia/talentlms-sdk/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -197,7 +201,7 @@ overview: 'TalentLMS publishes 12 APIs on the [APIs.io](https://apis.io/) networ
   The TalentLMS catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  TalentLMS''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, release notes, support, and 8 more developer resources.'
+  TalentLMS''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, release notes, support, and 9 more developer resources.'
 plans:
 - name: Talentlms Plans Pricing
   plan_count: 5
@@ -218,11 +222,11 @@ rules:
   slug: talentlms-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.9
-  delta: 0.0
+  composite: 53.3
+  delta: -0.6
   facets:
     commercial_clarity: 63.2
-    contract_quality: 56.8
+    contract_quality: 54.7
     developer_ergonomics: 39.1
     discoverability: 74.1
     governance: 58.3
@@ -235,8 +239,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/screenshots/talentlms-2026-06-20T194902.png
 security:

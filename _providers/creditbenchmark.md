@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -181,16 +181,16 @@ overview: 'Credit Benchmark publishes 6 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 66
 score:
   band: developing
-  composite: 48.8
-  delta: 3.4
+  composite: 48.2
+  delta: -0.6
   facets:
     commercial_clarity: 42.1
-    contract_quality: 65.1
+    contract_quality: 62.7
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 45.4
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -198,11 +198,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/screenshots/creditbenchmark-2026-07-25T210720.png
 security:

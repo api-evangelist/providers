@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -188,6 +188,10 @@ collections:
   name: SIM Swap
   slug: open-orange-business-sim-swap
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/camaraproject/NumberVerification/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -338,15 +342,15 @@ network: true
 overview: 'Orange Business publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Check Device Swap API, Check SIM swap API, Device reachability status API, and 11 more. Tagged areas include 5G, AI, B2B, CAMARA, and Cloud.
 
 
-  Orange Business'' developer surface includes authentication, developer portal, documentation, tooling, engineering blog, support, signup flow, and 28 more developer resources.'
+  Orange Business'' developer surface includes authentication, developer portal, documentation, tooling, engineering blog, support, signup flow, and 29 more developer resources.'
 random_paper: 49
 score:
   band: thin
-  composite: 35.8
-  delta: 0.0
+  composite: 37.5
+  delta: 1.7
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 59.4
+    commercial_clarity: 34.2
+    contract_quality: 57.2
     developer_ergonomics: 50.0
     discoverability: 59.3
     governance: 0.0
@@ -365,8 +369,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 36.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/screenshots/orange-business-2026-06-20T191153.png
 security:

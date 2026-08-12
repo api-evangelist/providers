@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 21
 apis:
 - description: OpenFDA provides RESTful APIs and raw download access to high-value FDA public datasets including drug adverse events, drug labels, drug recalls, medical device 510(k) clearances, device classificatio
@@ -211,11 +211,11 @@ rules:
   slug: hhs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 41.0
-  delta: 0.0
+  composite: 40.5
+  delta: -0.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 62.3
+    contract_quality: 59.9
     developer_ergonomics: 2.2
     discoverability: 74.1
     governance: 58.3
@@ -233,8 +233,8 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hhs/refs/heads/main/screenshots/hhs-2026-06-20T182722.png
 security:

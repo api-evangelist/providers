@@ -15,7 +15,7 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-10'
+  score: 28.4
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: 'Modern RESTful API for payee onboarding, payment processing, invoice management, and procurement workflows. Uses JSON encoding, OAuth 2.0 authentication, and supports operations across 200+ countries '
@@ -42,6 +42,18 @@ apis:
   slug: tipalti-procurement-rest-api
 artifact_total: 9
 common:
+- group: operate
+  title: ''
+  type: Support
+  url: https://tipalti.com/resources/support/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://tipalti.com/privacy/
+- group: other
+  title: ''
+  type: OpenIDConnect
+  url: https://tipalti.com/.well-known/oauth-authorization-server
 - group: auth
   title: ''
   type: DomainSecurity
@@ -121,7 +133,7 @@ overview: 'Tipalti publishes 1 API on the [APIs.io](https://apis.io/) network: R
   The Tipalti catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Tipalti''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
+  Tipalti''s developer surface includes support, documentation, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Tipalti Plans Pricing
   plan_count: 5
@@ -133,18 +145,24 @@ rate_limits:
   slug: tipalti-rate-limits
 score:
   band: thin
-  composite: 38.6
-  delta: 0.0
+  composite: 40.9
+  delta: 2.3
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 60.5
     contract_quality: 56.8
-    developer_ergonomics: 10.9
-    discoverability: 74.1
+    developer_ergonomics: 15.2
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 38.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 32.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tipalti/refs/heads/main/screenshots/tipalti-2026-06-20T195413.png
 security:

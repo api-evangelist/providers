@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -221,7 +221,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/microsoft-planner-openapi.yml
+  url: openapi/_original/microsoft-planner-openapi.yml
 - group: docs
   title: ''
   type: JSONSchema
@@ -725,16 +725,16 @@ scopes:
   slug: microsoft-planner-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 70.1
-  delta: 0.0
+  band: strong
+  composite: 61.5
+  delta: -8.6
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 76.5
+    commercial_clarity: 50.0
+    contract_quality: 73.6
     developer_ergonomics: 63.0
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 70.1
   provenance:
     agentic_access: derived
@@ -743,9 +743,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/screenshots/microsoft-planner-2026-06-20T185518.png
 security:
 - kind: authentication

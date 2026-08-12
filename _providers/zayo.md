@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +22,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-08-10'
+  score: 50.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -62,12 +63,20 @@ apis:
 - description: Create various types of tickets, view all tickets, and create ticket comments.
   name: Zayo Ticketing API
   slug: zayo-ticketing-api
-artifact_total: 13
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Zayo Notifications Webhooks
   slug: zayo-notifications-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/zayo-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zayo-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -136,6 +145,10 @@ created: '2026-07-17'
 description: Zayo is a global communications infrastructure provider operating one of the largest independent fiber networks, delivering bandwidth, dark fiber, wavelengths, ethernet, IP, cloud connectivity and network management to carriers, enterprises, and hyperscalers. Zayo publishes a free public developer program at developer.zayo.com exposing REST APIs for network discovery (building validation, location and cloud-site lookup), quote and order management (product catalog, quoting, ordering), and service management (service inventory, ticketing, and maintenance-case notifications). The APIs are OpenAPI 3.1 described, secured with OAuth 2.0 client-credentials bearer tokens, and include a push-notification/callback surface for maintenance and ticket updates.
 image: https://developer.zayo.com/img/zayo-logo.svg
 layout: provider
+mcp_servers:
+- description: ''
+  name: zayo-mcp.yml
+  slug: zayo-mcpyml
 modified: '2026-07-21'
 name: Zayo
 nav: Providers
@@ -146,7 +159,7 @@ overview: 'Zayo publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
   The Zayo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Zayo''s developer surface includes documentation, API reference, getting-started guide, authentication, support, signup flow, and 10 more developer resources.'
+  Zayo''s developer surface includes documentation, API reference, getting-started guide, authentication, support, signup flow, and 12 more developer resources.'
 random_paper: 103
 scopes:
 - name: Zayo Scopes
@@ -155,13 +168,13 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 47.8
-  delta: 0.0
+  composite: 46.6
+  delta: -1.2
   facets:
     commercial_clarity: 34.2
-    contract_quality: 77.5
-    developer_ergonomics: 51.6
-    discoverability: 92.6
+    contract_quality: 74.6
+    developer_ergonomics: 53.8
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 47.8
@@ -181,8 +194,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 51.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

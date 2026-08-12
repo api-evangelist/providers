@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -327,12 +327,12 @@ rules:
     warn: 5
   slug: truework-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 68.2
-  delta: 0.0
+  band: strong
+  composite: 61.3
+  delta: -6.9
   facets:
     commercial_clarity: 63.2
-    contract_quality: 74.4
+    contract_quality: 71.6
     developer_ergonomics: 63.0
     discoverability: 74.1
     governance: 58.3
@@ -345,9 +345,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 26.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/screenshots/truework-2026-06-20T195901.png
 security:
 - kind: authentication

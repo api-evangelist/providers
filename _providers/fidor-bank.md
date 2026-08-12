@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Fidor''s REST API for Customers, Accounts, Transfers, Transactions and Account Information, secured with OAuth2 (authorization-code flow). Now retired: the sandbox (*.sandbox.fidor.com) and production '
@@ -36,6 +36,14 @@ apis:
   slug: fidor-germany-banking-api
 artifact_total: 2
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/fidor/fidor_api/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/fidor/fidor_api/blob/master/LICENSE
 - group: build
   title: ''
   type: GitHubOrganization
@@ -67,7 +75,7 @@ network: true
 overview: 'Fidor Bank publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Banking as a Service, and Open Banking.
 
 
-  Fidor Bank''s developer surface includes authentication and 4 more developer resources.'
+  Fidor Bank''s developer surface includes authentication and 6 more developer resources.'
 random_paper: 61
 score:
   band: minimal
@@ -87,8 +95,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fidor-bank/refs/heads/main/screenshots/fidor-bank-2026-07-25T214428.png
 security:

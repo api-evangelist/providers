@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 10
 apis:
 - description: Browser-side JavaScript API (also called the External API) that embeds a Jitsi Meet conference into any web page through an iframe. Exposes the JitsiMeetExternalAPI constructor with commands (executeC
@@ -62,6 +62,22 @@ apis:
   slug: jitsi-meet-react-sdk
 artifact_total: 41
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/jitsi/jitsi-meet/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/jitsi/jitsi-meet/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/jitsi/jitsi-meet/blob/master/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/jitsi/jitsi-meet/blob/master/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -259,28 +275,22 @@ network: true
 overview: 'Jitsi publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Video Conferencing, WebRTC, Real-Time Communication, Open Source, and Voice.
 
 
-  Jitsi''s developer surface includes developer portal, sandbox, documentation, getting-started guide, signup flow, pricing, tooling, and 29 more developer resources.'
+  Jitsi''s developer surface includes developer portal, sandbox, documentation, getting-started guide, signup flow, pricing, tooling, and 33 more developer resources.'
 random_paper: 108
 score:
   band: thin
-  composite: 28.8
-  delta: 0.0
+  composite: 33.0
+  delta: 4.2
   facets:
-    commercial_clarity: 31.6
+    commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 67.4
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 31.6
   previous_composite: 28.8
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 27.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jitsi-org/refs/heads/main/screenshots/jitsi-org-2026-06-20T183736.png
 security:

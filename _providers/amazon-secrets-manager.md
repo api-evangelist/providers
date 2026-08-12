@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-08-10'
+  score: 45.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -474,15 +474,15 @@ rules:
   slug: amazon-secrets-manager-spectral-rules
 score:
   band: exemplar
-  composite: 77.7
-  delta: 0.0
+  composite: 71.8
+  delta: -5.9
   facets:
-    commercial_clarity: 86.8
-    contract_quality: 74.7
+    commercial_clarity: 76.3
+    contract_quality: 71.9
     developer_ergonomics: 71.7
     discoverability: 94.4
     governance: 80.2
-    operational_transparency: 63.2
+    operational_transparency: 39.5
   previous_composite: 77.7
   provenance:
     agentic_access: derived
@@ -493,9 +493,9 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/screenshots/amazon-secrets-manager-2026-06-20T171815.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Public Hasura GraphQL API for the VoyceMe platform — 332 queries, 21 public insert mutations, and 493 subscriptions across the voyce_ (comics platform), storypack_/storytech_ (AI characters), and blog
@@ -127,13 +127,13 @@ overview: 'VoyceMe publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 64
 score:
   band: thin
-  composite: 31.8
-  delta: 0.0
+  composite: 30.7
+  delta: -1.1
   facets:
     commercial_clarity: 21.1
     contract_quality: 43.2
     developer_ergonomics: 38.6
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 0.0
   previous_composite: 31.8
@@ -141,8 +141,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Stash provides a mobile-first investing and banking platform enabling fractional share purchases, automated smart portfolio management, retirement accounts, and a Stock-Back debit card. The platform i
@@ -127,8 +127,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stash/refs/heads/main/screenshots/stash-2026-06-20T194517.png
 security:

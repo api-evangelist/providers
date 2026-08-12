@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 3
@@ -129,6 +129,22 @@ collections:
   name: LangWatch API
   slug: open-langwatch
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/langwatch/langwatch/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/langwatch/langwatch/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/langwatch/langwatch/blob/main/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/langwatch/langwatch/blob/main/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -164,7 +180,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/langwatch-openapi.json
+  url: openapi/_original/langwatch-openapi.json
 - group: other
   title: ''
   type: Application
@@ -330,7 +346,7 @@ overview: 'LangWatch publishes 28 APIs on the [APIs.io](https://apis.io/) networ
   The LangWatch catalog on APIs.io includes 1 JSON-LD context.
 
 
-  LangWatch''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 33 more developer resources.'
+  LangWatch''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 37 more developer resources.'
 plans:
 - name: Langwatch Plans Pricing
   plan_count: 4
@@ -341,16 +357,16 @@ rate_limits:
   name: Langwatch Rate Limits
   slug: langwatch-rate-limits
 score:
-  band: developing
-  composite: 54.0
-  delta: 0.0
+  band: strong
+  composite: 58.3
+  delta: 4.3
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 63.5
-    developer_ergonomics: 47.8
+    commercial_clarity: 92.1
+    contract_quality: 61.1
+    developer_ergonomics: 52.2
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 63.2
   previous_composite: 54.0
   provenance:
     agentic_access: derived
@@ -359,8 +375,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/screenshots/langwatch-2026-06-20T184318.png
 security:

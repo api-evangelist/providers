@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: FOIA-accessible data from the National Council on Disability including performance and results act reports, congressional budget justification reports, financial audit reports, strategic plans, bylaws
@@ -257,16 +257,16 @@ rules:
     warn: 3
   slug: national-council-on-disability-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 32.3
-  delta: 0.0
+  band: emerging
+  composite: 25.6
+  delta: -6.7
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 8.1
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 32.3
   regulatory:
     applies: true
@@ -274,9 +274,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 22.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/screenshots/national-council-on-disability-2026-06-20T190008.png
 security:
 - kind: domain-security

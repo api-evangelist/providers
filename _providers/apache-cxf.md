@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: CXF provides Java APIs for building SOAP (JAX-WS) and REST (JAX-RS) web services with WSDL-first and code-first approaches, WS-* standards support, multiple data bindings (JAXB, Aegis, XMLBeans), plug
@@ -36,6 +36,18 @@ apis:
   slug: apache-cxf
 artifact_total: 36
 common:
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/apache/cxf/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/cxf/blob/main/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -159,7 +171,7 @@ overview: 'Apache CXF publishes 1 API on the [APIs.io](https://apis.io/) network
   The Apache CXF catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Apache CXF''s developer surface includes developer portal, documentation, getting-started guide, release notes, Stack Overflow tag, and 5 more developer resources.'
+  Apache CXF''s developer surface includes developer portal, documentation, getting-started guide, release notes, Stack Overflow tag, and 8 more developer resources.'
 plans:
 - name: Apache Cxf Plans Pricing
   plan_count: 3
@@ -180,19 +192,19 @@ rules:
   slug: apache-cxf-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 41.8
-  delta: 0.0
+  composite: 35.4
+  delta: -6.4
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 29.0
     developer_ergonomics: 28.3
     discoverability: 59.3
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 41.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-cxf/refs/heads/main/screenshots/apache-cxf-2026-06-20T172051.png
 security:
 - kind: domain-security

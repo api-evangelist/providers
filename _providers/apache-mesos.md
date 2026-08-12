@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,6 +50,18 @@ collections:
   name: Apache Mesos Operator HTTP API
   slug: open-apache-mesos
 common:
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/mesos/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/mesos/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -131,7 +143,7 @@ network: true
 overview: 'Apache Mesos publishes 1 API on the [APIs.io](https://apis.io/) network: Apache Mesos Operator HTTP API API. Tagged areas include Cluster Management, Distributed Systems, Resource Management, Scheduling, and Retired.
 
 
-  Apache Mesos'' developer surface includes developer portal, documentation, engineering blog, and 6 more developer resources.'
+  Apache Mesos'' developer surface includes developer portal, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Apache Mesos Plans Pricing
   plan_count: 3
@@ -143,15 +155,15 @@ rate_limits:
   slug: apache-mesos-rate-limits
 score:
   band: thin
-  composite: 36.5
-  delta: 0.0
+  composite: 28.2
+  delta: -8.3
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 47.3
+    commercial_clarity: 26.3
+    contract_quality: 45.5
     developer_ergonomics: 19.6
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 36.5
   provenance:
     agentic_access: derived
@@ -160,9 +172,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-mesos/refs/heads/main/screenshots/apache-mesos-2026-06-20T172121.png
 security:
 - kind: domain-security

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -56,6 +57,10 @@ asyncapis:
   name: Speko Webhooks
   slug: speko-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/speko-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -162,17 +167,17 @@ overview: 'Speko publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
   The Speko catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Speko''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 15 more developer resources.'
+  Speko''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 16 more developer resources.'
 random_paper: 82
 score:
   band: developing
-  composite: 54.7
-  delta: 0.0
+  composite: 55.2
+  delta: 0.5
   facets:
     commercial_clarity: 52.6
-    contract_quality: 72.5
+    contract_quality: 69.8
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 21.1
   previous_composite: 54.7
@@ -186,14 +191,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

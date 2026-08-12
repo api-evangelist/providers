@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Cardinal Health operates an EDI trading partner program for customers and suppliers covering pharmaceutical distribution, medical products, and specialty pharmacy. Integrations use X12 EDI transaction
@@ -120,15 +120,15 @@ rate_limits:
   slug: cardinal-health-rate-limits
 score:
   band: emerging
-  composite: 21.4
-  delta: 0.0
+  composite: 14.8
+  delta: -6.6
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 21.4
   regulatory:
     applies: true
@@ -136,9 +136,9 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardinal-health/refs/heads/main/screenshots/cardinal-health-2026-06-20T173956.png
 security:
 - kind: domain-security

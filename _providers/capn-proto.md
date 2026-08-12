@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: The Cap'n Proto schema language is used to define message types in .capnp files that are then compiled into native code for each supported language. The schema language defines structs, unions, enums,
@@ -48,6 +48,10 @@ apis:
   slug: capn-proto-language-bindings
 artifact_total: 9
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/capnproto/capnproto/issues
 - group: auth
   title: ''
   type: DomainSecurity
@@ -99,7 +103,7 @@ network: true
 overview: 'Cap''n Proto publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Binary Format, Capability-Based Security, Code Generation, IPC, and Open Source.
 
 
-  Cap''n Proto''s developer surface includes documentation, getting-started guide, engineering blog, and 6 more developer resources.'
+  Cap''n Proto''s developer surface includes documentation, getting-started guide, engineering blog, and 7 more developer resources.'
 plans:
 - name: Capn Proto Plans Pricing
   plan_count: 3
@@ -111,19 +115,19 @@ rate_limits:
   slug: capn-proto-rate-limits
 score:
   band: emerging
-  composite: 23.5
-  delta: 0.0
+  composite: 15.7
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 23.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/capn-proto/refs/heads/main/screenshots/capn-proto-2026-06-20T173939.png
 security:
 - kind: domain-security

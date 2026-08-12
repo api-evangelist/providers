@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 22.1
-  scored_at: '2026-08-10'
+  score: 22.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,8 +68,20 @@ apis:
 - description: Wiki glossary entries
   name: Lendis wiki API
   slug: lendis-wiki-api
-artifact_total: 13
+artifact_total: 14
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/lendis-harvest-catalog.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/lendis-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lendis-content-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -142,6 +154,10 @@ created: '2026-07-17'
 description: Lendis GmbH is a Berlin-based B2B technology company, founded in 2018, that rents IT hardware to German small and mid-sized businesses under a Device-as-a-Service (DaaS) model. Lendis bundles hardware procurement, configuration and staging, delivery logistics, financing, IT support, lifecycle management and device offboarding into a single monthly rental rate, and manages the whole estate through LendisOS, a web platform covering a self-service shop, order tracking, asset inventory and contract management. The company targets organisations of roughly 50 to 500 employees that want to avoid tying up capital in laptops, smartphones, monitors and accessories. Lendis publishes no public developer program; its commercial platform runs on a private AWS API Gateway at api.lendis.io. Its marketing site does expose a public read-only WordPress REST content API, and Lendis publishes a machine-readable llms.txt for AI agents.
 image: https://res.cloudinary.com/lendis-gmbh/images/f_svg,q_auto/fl_sanitize/v1774942862/www.lendis.io/lendis-logo-it/lendis-logo-it.svg
 layout: provider
+mcp_servers:
+- description: ''
+  name: lendis-mcp.yml
+  slug: lendis-mcpyml
 modified: '2026-07-19'
 name: Lendis
 nav: Providers
@@ -149,17 +165,17 @@ network: true
 overview: 'Lendis publishes 10 APIs on the [APIs.io](https://apis.io/) network, including case-study API, discovery API, kataloge API, and 7 more. Tagged areas include Company, Ai Enterprise Software, Device As A Service, IT Hardware, and Leasing.
 
 
-  Lendis'' developer surface includes engineering blog, support, YouTube channel, and 14 more developer resources.'
+  Lendis'' developer surface includes engineering blog, support, YouTube channel, and 17 more developer resources.'
 random_paper: 59
 score:
   band: emerging
-  composite: 23.4
-  delta: 0.0
+  composite: 22.9
+  delta: -0.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 15.6
-    developer_ergonomics: 6.5
-    discoverability: 92.6
+    contract_quality: 15.0
+    developer_ergonomics: 10.3
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 23.4
@@ -173,8 +189,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendis/refs/heads/main/screenshots/lendis-2026-07-25T224902.png
 security:

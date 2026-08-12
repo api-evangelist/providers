@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The Bread Pay API enables merchants to integrate installment financing options into online and in-store checkout flows. Supports creating financing applications, retrieving loan statuses, managing tra
@@ -89,16 +89,16 @@ rate_limits:
   name: Bread Rate Limits
   slug: bread-rate-limits
 score:
-  band: emerging
-  composite: 18.7
-  delta: 0.0
+  band: minimal
+  composite: 12.1
+  delta: -6.6
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 18.7
   regulatory:
     applies: true
@@ -106,9 +106,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bread/refs/heads/main/screenshots/bread-2026-07-25T203737.png
 security:
 - kind: domain-security

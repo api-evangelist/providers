@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
@@ -102,8 +102,8 @@ overview: 'Sirona Medical is profiled on the [APIs.io](https://apis.io/) network
 random_paper: 72
 score:
   band: emerging
-  composite: 25.6
-  delta: 0.0
+  composite: 24.1
+  delta: -1.5
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -119,9 +119,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 40.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 30.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

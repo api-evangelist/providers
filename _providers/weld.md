@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-10'
+  score: 49.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 33
@@ -210,13 +211,13 @@ overview: 'Weld publishes 13 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 80
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 50.4
+  delta: -1.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 59.1
+    contract_quality: 56.9
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
   previous_composite: 52.1
@@ -230,8 +231,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

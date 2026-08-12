@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -69,6 +69,14 @@ collections:
   name: Gluu Flex SCIM 2.0 API
   slug: open-gluu
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/GluuFederation/flex/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/GluuFederation/flex/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -132,7 +140,7 @@ network: true
 overview: 'Gluu publishes 4 APIs on the [APIs.io](https://apis.io/) network, including discovery API, fido API, groups API, and 1 more. Tagged areas include Access Management, Authentication, Authorization, IAM, and Identities.
 
 
-  Gluu''s developer surface includes authentication, documentation, engineering blog, support, pricing, and 7 more developer resources.'
+  Gluu''s developer surface includes authentication, documentation, engineering blog, support, pricing, and 9 more developer resources.'
 plans:
 - name: Gluu Plans Pricing
   plan_count: 3
@@ -144,15 +152,15 @@ rate_limits:
   slug: gluu-rate-limits
 score:
   band: thin
-  composite: 39.9
-  delta: 0.0
+  composite: 33.6
+  delta: -6.3
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 53.5
+    commercial_clarity: 26.3
+    contract_quality: 51.5
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 39.9
   provenance:
     agentic_access: derived
@@ -161,9 +169,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/gluu/refs/heads/main/screenshots/gluu-2026-06-20T181925.png
 security:
 - kind: authentication

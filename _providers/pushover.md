@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -122,12 +122,12 @@ overview: 'Pushover publishes 6 APIs on the [APIs.io](https://apis.io/) network,
   Pushover''s developer surface includes documentation, pricing, signup flow, FAQ, support, engineering blog, and 5 more developer resources.'
 random_paper: 80
 score:
-  band: emerging
-  composite: 27.2
-  delta: 0.0
+  band: thin
+  composite: 32.6
+  delta: 5.4
   facets:
-    commercial_clarity: 10.5
-    contract_quality: 60.8
+    commercial_clarity: 23.7
+    contract_quality: 58.8
     developer_ergonomics: 15.2
     discoverability: 74.1
     governance: 0.0
@@ -140,15 +140,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 8.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/pushover/refs/heads/main/screenshots/pushover-2026-06-20T192319.png
 security:
 - kind: domain-security

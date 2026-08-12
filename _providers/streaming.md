@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 21
 apis:
 - description: Distributed, partitioned, replicated log. The reference open-source streaming platform; durable, ordered topics with consumer groups, exactly -once semantics, and the de facto wire protocol for the st
@@ -95,6 +95,10 @@ apis:
   slug: apache-beam
 artifact_total: 33
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/kafka/blob/trunk/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -182,7 +186,7 @@ overview: 'Streaming publishes 21 APIs on the [APIs.io](https://apis.io/) networ
   The Streaming catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Streaming''s developer surface includes code examples and 9 more developer resources.'
+  Streaming''s developer surface includes code examples and 10 more developer resources.'
 random_paper: 42
 rules:
 - name: Streaming API Rules
@@ -205,8 +209,8 @@ score:
     governance: 68.8
     operational_transparency: 0.0
   previous_composite: 19.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/streaming/refs/heads/main/screenshots/streaming-2026-06-20T194618.png
 security:

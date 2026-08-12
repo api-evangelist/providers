@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 98
@@ -291,6 +292,10 @@ collections:
   name: WorkOS
   slug: open-workos
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/workos/openapi-spec/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1200,7 +1205,7 @@ overview: 'WorkOS publishes 41 APIs on the [APIs.io](https://apis.io/) network, 
   The WorkOS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  WorkOS''s developer surface includes authentication, documentation, API reference, engineering blog, changelog, pricing, CLI, and 66 more developer resources.'
+  WorkOS''s developer surface includes authentication, documentation, API reference, engineering blog, changelog, pricing, CLI, and 67 more developer resources.'
 plans:
 - name: Workos Plans Pricing
   plan_count: 7
@@ -1228,16 +1233,16 @@ rules:
     warn: 6
   slug: workos-rules
 score:
-  band: exemplar
-  composite: 66.3
-  delta: 0.0
+  band: strong
+  composite: 59.2
+  delta: -7.1
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 72.3
-    developer_ergonomics: 63.0
+    commercial_clarity: 34.2
+    contract_quality: 69.9
+    developer_ergonomics: 69.6
     discoverability: 68.5
     governance: 68.8
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 66.3
   provenance:
     agentic_access: derived
@@ -1246,9 +1251,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 41
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/screenshots/workos-2026-06-20T201614.png
 security:
 - kind: authentication

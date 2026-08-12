@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -137,16 +137,16 @@ rate_limits:
   name: Microsoft Bot Framework Rate Limits
   slug: microsoft-bot-framework-rate-limits
 score:
-  band: developing
-  composite: 42.1
-  delta: 0.0
+  band: thin
+  composite: 37.1
+  delta: -5.0
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 54.3
+    commercial_clarity: 47.4
+    contract_quality: 52.2
     developer_ergonomics: 32.6
-    discoverability: 55.6
+    discoverability: 63.0
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 42.1
   provenance:
     agentic_access: derived
@@ -155,15 +155,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 27.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/screenshots/microsoft-bot-framework-2026-06-20T185445.png
 security:
 - kind: authentication

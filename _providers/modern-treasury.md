@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -177,6 +177,30 @@ collections:
   name: Modern Treasury
   slug: open-modern-treasury
 common:
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.moderntreasury.com/security
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.moderntreasury.com/platform/changelog
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.moderntreasury.com/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.moderntreasury.com/legal/terms-of-use
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.moderntreasury.com/pricing
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.moderntreasury.com/platform/reference/getting-started
 - group: agent
   title: ''
   type: AgenticAccess
@@ -710,7 +734,7 @@ overview: 'Modern Treasury publishes 44 APIs on the [APIs.io](https://apis.io/) 
   The Modern Treasury catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Modern Treasury''s developer surface includes authentication and 11 more developer resources.'
+  Modern Treasury''s developer surface includes changelog, pricing, getting-started guide, authentication, and 14 more developer resources.'
 plans:
 - name: Modern Treasury Plans Pricing
   plan_count: 1
@@ -730,16 +754,16 @@ rules:
     warn: 4
   slug: modern-treasury-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 40.4
-  delta: 0.0
+  band: developing
+  composite: 48.1
+  delta: 7.7
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 59.0
-    developer_ergonomics: 10.9
-    discoverability: 64.8
+    commercial_clarity: 52.6
+    contract_quality: 56.8
+    developer_ergonomics: 21.7
+    discoverability: 72.2
     governance: 58.3
-    operational_transparency: 26.3
+    operational_transparency: 36.8
   previous_composite: 40.4
   provenance:
     agentic_access: derived
@@ -753,10 +777,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 35.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+    score: 48.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/modern-treasury/refs/heads/main/screenshots/modern-treasury-2026-06-20T185652.png
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,8 +74,8 @@ overview: 'Onecard is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 36
 score:
   band: emerging
-  composite: 13.8
-  delta: 0.0
+  composite: 14.5
+  delta: 0.7
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -87,11 +87,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 17.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Payments
+    regime_id: payments
+    score: 21.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onecard/refs/heads/main/screenshots/onecard-2026-08-07T190305.png
 security:

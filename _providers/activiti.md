@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 1
@@ -170,6 +170,26 @@ apis:
   slug: activiti-users-workflow-api
 artifact_total: 66
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Activiti/Activiti/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Activiti/Activiti/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/Activiti/Activiti/blob/develop/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Activiti/Activiti/blob/develop/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Activiti/Activiti/blob/develop/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -308,7 +328,7 @@ overview: 'Activiti publishes 42 APIs on the [APIs.io](https://apis.io/) network
   The Activiti catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Activiti''s developer surface includes authentication, documentation, engineering blog, pricing, Stack Overflow tag, and 12 more developer resources.'
+  Activiti''s developer surface includes authentication, documentation, engineering blog, pricing, Stack Overflow tag, and 17 more developer resources.'
 plans:
 - name: Activiti Plans Pricing
   plan_count: 2
@@ -329,15 +349,15 @@ rules:
   slug: activiti-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.1
-  delta: 0.0
+  composite: 46.4
+  delta: 2.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 64.5
-    developer_ergonomics: 21.7
+    contract_quality: 62.0
+    developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 10.5
+    operational_transparency: 26.3
   previous_composite: 44.1
   provenance:
     agentic_access: derived
@@ -346,8 +366,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 42
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activiti/refs/heads/main/screenshots/activiti-2026-06-20T164259.png
 security:

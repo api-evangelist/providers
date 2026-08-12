@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 66.0
-  scored_at: '2026-08-10'
+  score: 62.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -117,6 +117,10 @@ collections:
   name: Goody Brands Workspaces API
   slug: postman-goody-workspaces-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/goody-api-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -267,7 +271,7 @@ overview: 'Goody publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
   The Goody catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Goody''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 26 more developer resources.'
+  Goody''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
 random_paper: 82
 scopes:
 - name: Goody Scopes
@@ -276,13 +280,13 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.9
-  delta: 0.0
+  composite: 57.4
+  delta: -1.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 63.8
+    contract_quality: 61.4
     developer_ergonomics: 73.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 28.9
   previous_composite: 58.9
@@ -302,8 +306,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/screenshots/goody-2026-07-25T220106.png
 security:

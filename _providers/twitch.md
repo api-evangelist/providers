@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -447,15 +447,15 @@ scopes:
   summary_line: 42 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 55.1
-  delta: 0.0
+  composite: 48.3
+  delta: -6.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 75.2
+    commercial_clarity: 34.2
+    contract_quality: 73.0
     developer_ergonomics: 32.6
     discoverability: 66.7
     governance: 52.1
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 55.1
   provenance:
     agentic_access: derived
@@ -464,9 +464,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 40
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/twitch/refs/heads/main/screenshots/twitch-2026-06-20T195857.png
 security:
 - kind: authentication

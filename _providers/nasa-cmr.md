@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -67,6 +67,14 @@ apis:
   slug: nasa-cmr-stac-api
 artifact_total: 28
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/nasa/cmr-stac/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/nasa/cmr-stac/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -182,7 +190,7 @@ overview: 'NASA CMR publishes 4 APIs on the [APIs.io](https://apis.io/) network,
   The NASA CMR catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  NASA CMR''s developer surface includes documentation, engineering blog, and 11 more developer resources.'
+  NASA CMR''s developer surface includes documentation, engineering blog, and 13 more developer resources.'
 plans:
 - name: Nasa Cmr Plans Pricing
   plan_count: 3
@@ -203,15 +211,15 @@ rules:
   slug: nasa-cmr-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.3
-  delta: 0.0
+  composite: 46.8
+  delta: 2.5
   facets:
     commercial_clarity: 52.6
-    contract_quality: 58.4
-    developer_ergonomics: 10.9
+    contract_quality: 58.5
+    developer_ergonomics: 15.2
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 68.4
   previous_composite: 44.3
   provenance:
     agentic_access: derived
@@ -226,8 +234,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-cmr/refs/heads/main/screenshots/nasa-cmr-2026-06-20T185946.png
 security:

@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 59.0
-  scored_at: '2026-08-10'
+  score: 55.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 1
@@ -296,6 +297,10 @@ collections:
   name: GitLab Webhooks API
   slug: open-gitlab-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/gitlab-api-v4-admin-openapi-search.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1151,7 +1156,7 @@ overview: 'GitLab publishes 16 APIs on the [APIs.io](https://apis.io/) network, 
   The GitLab catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  GitLab''s developer surface includes authentication, changelog, CLI, developer portal, documentation, engineering blog, pricing, and 77 more developer resources.'
+  GitLab''s developer surface includes authentication, changelog, CLI, developer portal, documentation, engineering blog, pricing, and 78 more developer resources.'
 plans:
 - name: Gitlab Plans Pricing
   plan_count: 3
@@ -1193,15 +1198,15 @@ scopes:
   summary_line: 25 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: exemplar
-  composite: 74.3
-  delta: 0.0
+  composite: 68.3
+  delta: -6.0
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 74.6
+    commercial_clarity: 68.4
+    contract_quality: 75.5
     developer_ergonomics: 71.7
-    discoverability: 77.8
+    discoverability: 66.7
     governance: 62.5
-    operational_transparency: 78.9
+    operational_transparency: 55.3
   previous_composite: 74.3
   provenance:
     agentic_access: derived
@@ -1212,9 +1217,9 @@ score:
       marker_coverage: 0.0
       total: 16
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/screenshots/gitlab-2026-06-20T181844.png
 security:
 - kind: authentication

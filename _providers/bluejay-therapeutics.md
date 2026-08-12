@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 33.6
-  scored_at: '2026-08-10'
+  score: 30.0
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: Posts, pages and cross-content search.
@@ -41,6 +41,10 @@ apis:
   slug: bluejay-therapeutics-taxonomy-api
 artifact_total: 9
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bluejay-therapeutics-content-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -137,30 +141,36 @@ overview: 'Bluejay Therapeutics publishes 6 APIs on the [APIs.io](https://apis.i
   The Bluejay Therapeutics catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Bluejay Therapeutics'' developer surface includes engineering blog, authentication, and 17 more developer resources.'
+  Bluejay Therapeutics'' developer surface includes engineering blog, authentication, and 18 more developer resources.'
 random_paper: 2
 score:
   band: emerging
-  composite: 27.7
-  delta: 0.7
+  composite: 26.1
+  delta: -1.6
   facets:
     commercial_clarity: 0.0
-    contract_quality: 56.3
+    contract_quality: 58.0
     developer_ergonomics: 14.7
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 27.0
+  previous_composite: 27.7
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 6
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 21.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluejay-therapeutics/refs/heads/main/screenshots/bluejay-therapeutics-2026-08-07T162648.png
 security:

@@ -3,22 +3,22 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 75.7
-  scored_at: '2026-08-10'
+  score: 53.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -267,17 +267,30 @@ rate_limits:
   name: Tvarka Atk Api Rate Limits
   slug: tvarka-atk-api-rate-limits
 score:
-  band: exemplar
-  composite: 66.7
+  band: strong
+  composite: 64.7
+  delta: -2.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 56.4
-    developer_ergonomics: 82.6
-    discoverability: 92.6
+    contract_quality: 61.7
+    developer_ergonomics: 71.2
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 57.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 66.7
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Tvarka Atk Api Authentication

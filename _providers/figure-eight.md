@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 39.6
-  scored_at: '2026-08-10'
+  score: 36.0
+  scored_at: '2026-08-11'
 api_count: 13
 apis:
 - description: Manage account info.
@@ -76,6 +76,10 @@ asyncapis:
   name: Figure Eight Webhooks
   slug: figure-eight-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/figure-eight-openapi-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -154,17 +158,17 @@ overview: 'Figure Eight publishes 13 APIs on the [APIs.io](https://apis.io/) net
   The Figure Eight catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Figure Eight''s developer surface includes API reference, documentation, authentication, and 12 more developer resources.'
+  Figure Eight''s developer surface includes API reference, documentation, authentication, and 13 more developer resources.'
 random_paper: 56
 score:
   band: thin
-  composite: 33.9
-  delta: 0.0
+  composite: 32.3
+  delta: -1.6
   facets:
     commercial_clarity: 0.0
-    contract_quality: 62.6
+    contract_quality: 60.3
     developer_ergonomics: 34.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 33.9
@@ -176,8 +180,8 @@ score:
       marker_coverage: 0.0
       total: 13
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/screenshots/figure-eight-2026-07-25T214447.png
 security:

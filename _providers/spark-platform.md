@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: documented
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-10'
+  score: 39.0
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: FBS's proprietary REST API over Flexmls MLS content. Documented services include Listings (plus photos, documents, floor plans, videos, virtual tours, open houses, rooms, units, history and rules), Co
@@ -228,8 +228,8 @@ score:
   previous_composite: 52.6
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

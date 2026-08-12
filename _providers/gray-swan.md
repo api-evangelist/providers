@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-10'
+  score: 45.3
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The Activity API from Gray Swan — 1 operation(s) for activity.
@@ -40,8 +40,16 @@ apis:
 - description: The Policies API from Gray Swan — 8 operation(s) for policies.
   name: Gray Swan Policies API
   slug: gray-swan-policies-api
-artifact_total: 8
+artifact_total: 9
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/gray-swan-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/gray-swan-cygnal-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -150,6 +158,10 @@ created: '2026-07-17'
 description: Gray Swan AI is an AI security company that helps enterprises deploy AI with confidence. Its Cygnal product is a real-time, drop-in secure proxy that fronts LLM providers (OpenAI, Anthropic, and Gemini request formats) with input/output filtering and threat monitoring for jailbreaks and prompt injection, governed by versioned enforcement Policies managed over a REST API. Gray Swan also operates Shade (an adversarial red-teaming platform), Arena (a global adversarial red-teaming network), and adversarial model evaluations that frontier AI labs run before shipping. The company is SOC 2 Type 2 and Cyber Essentials certified.
 image: https://cdn.prod.website-files.com/6614467b00e631b0f073e2b7/66886e33ca0b8f284d3b3b40_ca18847e7b3f6e2e7038dac7bd3846ce_Gray%20Swan%3DWhite%20Horizontal.svg
 layout: provider
+mcp_servers:
+- description: ''
+  name: gray-swan-mcp.yml
+  slug: gray-swan-mcpyml
 modified: '2026-07-19'
 name: Gray Swan
 nav: Providers
@@ -157,7 +169,7 @@ network: true
 overview: 'Gray Swan publishes 3 APIs on the [APIs.io](https://apis.io/) network: Activity API, Cygnal API, and Policies API. Tagged areas include Company, Ai, AI Security, LLM Security, and Guardrails.
 
 
-  Gray Swan''s developer surface includes documentation, API reference, quickstart, signup flow, engineering blog, authentication, and 20 more developer resources.'
+  Gray Swan''s developer surface includes documentation, API reference, quickstart, signup flow, engineering blog, authentication, and 22 more developer resources.'
 random_paper: 109
 rate_limits:
 - limit_count: 0
@@ -165,12 +177,12 @@ rate_limits:
   slug: gray-swan-rate-limits
 score:
   band: developing
-  composite: 47.0
-  delta: 0.0
+  composite: 46.8
+  delta: -0.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 57.5
-    developer_ergonomics: 49.5
+    contract_quality: 55.3
+    developer_ergonomics: 51.6
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
@@ -184,8 +196,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gray-swan/refs/heads/main/screenshots/gray-swan-2026-07-25T220255.png
 security:

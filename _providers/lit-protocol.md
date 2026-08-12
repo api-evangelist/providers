@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -263,15 +263,15 @@ rules:
   slug: lit-protocol-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.0
-  delta: 0.0
+  composite: 28.3
+  delta: -4.7
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 36.0
+    commercial_clarity: 13.2
+    contract_quality: 34.7
     developer_ergonomics: 2.2
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 58.3
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 33.0
   provenance:
     agentic_access: derived
@@ -280,8 +280,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lit-protocol/refs/heads/main/screenshots/lit-protocol-2026-06-20T184559.png
 security:

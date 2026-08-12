@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -71,6 +71,10 @@ apis:
   slug: litecoin-utxo-api
 artifact_total: 25
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/litecoin-project/litecoin/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -139,7 +143,7 @@ network: true
 overview: 'Litecoin publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Blockchain API, Blocks API, and 6 more. Tagged areas include Cryptocurrency, Blockchain, Litecoin, LTC, and Payments.
 
 
-  Litecoin''s developer surface includes authentication, engineering blog, changelog, and 8 more developer resources.'
+  Litecoin''s developer surface includes authentication, engineering blog, changelog, and 9 more developer resources.'
 plans:
 - name: Litecoin Core Json Rpc
   plan_count: 1
@@ -169,11 +173,11 @@ rate_limits:
   slug: litecoin-space-websocket
 score:
   band: thin
-  composite: 29.6
-  delta: 0.0
+  composite: 29.2
+  delta: -0.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 55.6
+    contract_quality: 53.6
     developer_ergonomics: 13.0
     discoverability: 64.8
     governance: 0.0
@@ -192,8 +196,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/screenshots/litecoin-2026-06-20T184600.png
 security:

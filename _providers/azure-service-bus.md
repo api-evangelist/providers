@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -73,6 +73,30 @@ collections:
   name: Azure Service Bus Management API
   slug: open-azure-service-bus
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Azure/azure-sdk-for-net/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Azure/azure-sdk-for-net/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Azure/azure-sdk-for-net/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/Azure/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Azure/azure-sdk-for-net/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Azure/azure-sdk-for-net/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -243,7 +267,7 @@ overview: 'Azure Service Bus publishes 4 APIs on the [APIs.io](https://apis.io/)
   The Azure Service Bus catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Azure Service Bus'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, and 7 more developer resources.'
+  Azure Service Bus'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, and 13 more developer resources.'
 plans:
 - name: Azure Service Bus Plans Pricing
   plan_count: 3
@@ -284,16 +308,16 @@ scopes:
   slug: azure-service-bus-scopes
   summary_line: 1 scope · implicit
 score:
-  band: strong
-  composite: 56.5
-  delta: 0.0
+  band: developing
+  composite: 52.2
+  delta: -4.3
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 79.7
+    commercial_clarity: 26.3
+    contract_quality: 76.7
     developer_ergonomics: 45.7
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 58.3
-    operational_transparency: 31.6
+    operational_transparency: 34.2
   previous_composite: 56.5
   provenance:
     agentic_access: derived
@@ -302,14 +326,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 55.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/screenshots/azure-service-bus-2026-06-20T172908.png
 security:

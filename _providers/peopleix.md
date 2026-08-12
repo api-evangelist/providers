@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,17 +20,21 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-10'
+  score: 10.8
+  scored_at: '2026-08-11'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/peopleix-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -79,6 +83,10 @@ created: '2026-07-17'
 description: peopleIX is a People Intelligence platform for HR leaders, built and operated by peopleIX GmbH in Cologne, Germany (founded 2022). It integrates 100+ HR systems (HRIS, ATS, LMS, payroll) and pairs an AI Data Analyst (people analytics — the "what") with AI-led conversations across the workforce (conversation intelligence — the "why") to answer hard workforce questions in hours rather than months. Each engagement leaves a persistent, queryable knowledge layer the customer keeps, which is accessible from Claude, ChatGPT, and Copilot via MCP. The service is EU-resident end-to-end, GDPR and ISO 27001 compliant, and never trains on customer data. Backed by Earlybird, neoteq ventures, ts ventures, and business angels. peopleIX does not currently publish a public developer API, OpenAPI, or SDK — this profile captures the identity, compliance posture, and machine-readable (llms.txt) surface it does publish.
 image: https://www.peopleix.com/opengraph-image
 layout: provider
+mcp_servers:
+- description: ''
+  name: peopleix-mcp.yml
+  slug: peopleix-mcpyml
 modified: '2026-07-20'
 name: Peopleix
 nav: Providers
@@ -86,25 +94,25 @@ network: true
 overview: 'Peopleix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, HR, People Analytics, People Intelligence, and Conversation Intelligence.
 
 
-  Peopleix''s developer surface includes engineering blog, support, and 9 more developer resources.'
+  Peopleix''s developer surface includes engineering blog, support, and 10 more developer resources.'
 random_paper: 58
 score:
   band: emerging
-  composite: 17.6
-  delta: 0.0
+  composite: 18.2
+  delta: 0.6
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
-    developer_ergonomics: 6.5
-    discoverability: 68.5
+    developer_ergonomics: 15.2
+    discoverability: 57.4
     governance: 12.5
     operational_transparency: 0.0
   previous_composite: 17.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

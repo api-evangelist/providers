@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 23.0
-  scored_at: '2026-08-10'
+  score: 19.4
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Location-pinned neighborhood messages.
@@ -36,6 +36,10 @@ apis:
   slug: blockchalk-chalks-api
 artifact_total: 3
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/blockchalk-chalks-overlay.yaml
 - group: docs
   title: ''
   type: Documentation
@@ -72,7 +76,7 @@ network: true
 overview: 'BlockChalk publishes 1 API on the [APIs.io](https://apis.io/) network: chalks API. Tagged areas include Company, Location, Geolocation, Social, and Messaging.
 
 
-  BlockChalk''s developer surface includes documentation, API reference, and 4 more developer resources.'
+  BlockChalk''s developer surface includes documentation, API reference, and 5 more developer resources.'
 random_paper: 110
 score:
   band: emerging
@@ -80,9 +84,9 @@ score:
   delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 14.0
+    contract_quality: 13.4
     developer_ergonomics: 15.2
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 15.4
@@ -93,14 +97,8 @@ score:
       derived: 1
       marker_coverage: 100.0
       total: 1
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 8.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockchalk/refs/heads/main/screenshots/blockchalk-2026-07-25T203346.png
 security:

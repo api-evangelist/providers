@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -87,6 +87,10 @@ collections:
   name: spoonacular API
   slug: open-spoonacular
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/ddsky/spoonacular-api-clients/blob/master/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -305,7 +309,7 @@ overview: 'Spoonacular publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
   The Spoonacular catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spoonacular''s developer surface includes authentication, engineering blog, developer console, signup flow, pricing, code examples, tooling, and 17 more developer resources.'
+  Spoonacular''s developer surface includes authentication, engineering blog, developer console, signup flow, pricing, code examples, tooling, and 18 more developer resources.'
 plans:
 - name: Spoonacular Plans Pricing
   plan_count: 5
@@ -334,11 +338,11 @@ rules:
   slug: spoonacular-spectral-rules
 score:
   band: strong
-  composite: 59.7
-  delta: 0.0
+  composite: 61.6
+  delta: 1.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 82.9
+    commercial_clarity: 63.2
+    contract_quality: 79.9
     developer_ergonomics: 39.1
     discoverability: 81.5
     governance: 68.8
@@ -351,8 +355,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/screenshots/spoonacular-2026-06-20T194333.png
 security:

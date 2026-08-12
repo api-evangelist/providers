@@ -3,22 +3,22 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 59.5
-  scored_at: '2026-08-10'
+  score: 44.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -33,6 +33,10 @@ apis:
   slug: cloudsight-images-api
 artifact_total: 5
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cloudsight-images-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -140,20 +144,33 @@ network: true
 overview: 'CloudSight publishes 1 API on the [APIs.io](https://apis.io/) network: Images API. Tagged areas include Company, Artificial Intelligence, Machine Learning, Computer Vision, and Image Recognition.
 
 
-  CloudSight''s developer surface includes documentation, support, authentication, code examples, changelog, sandbox, and 17 more developer resources.'
+  CloudSight''s developer surface includes documentation, support, authentication, code examples, changelog, sandbox, and 18 more developer resources.'
 random_paper: 34
 score:
   band: developing
-  composite: 45.6
+  composite: 43.5
+  delta: -2.1
   facets:
     commercial_clarity: 34.2
-    contract_quality: 57.4
-    developer_ergonomics: 52.2
+    contract_quality: 62.7
+    developer_ergonomics: 40.8
     discoverability: 87.0
-    governance: 20.8
+    governance: 11.5
     operational_transparency: 21.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 45.6
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Cloudsight Authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -134,20 +134,26 @@ overview: 'Atmosic is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 56
 score:
   band: thin
-  composite: 29.8
-  delta: 0.0
+  composite: 28.2
+  delta: -1.6
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 54.3
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 12.5
     operational_transparency: 28.9
   previous_composite: 29.8
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 25.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atmosic/refs/heads/main/screenshots/atmosic-2026-08-07T161852.png
 security:

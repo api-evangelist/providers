@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-10'
+  score: 38.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -43,8 +43,12 @@ apis:
 - description: The users API from Positron — 3 operation(s) for users.
   name: Positron Users API
   slug: positron-users-api
-artifact_total: 8
+artifact_total: 9
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/positron-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -166,6 +170,10 @@ description: 'Positron AI is a US-based generative-AI hardware company founded i
   Unless, the Qatar Investment Authority, Arm, Helena, DFJ Growth, Atreides, Valor, Resilience Reserve, Flume Ventures and 1517 Fund.'
 image: https://www.positron.ai/opengraph-image-pwu6ef.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: positron-mcp.yml
+  slug: positron-mcpyml
 modified: '2026-08-02'
 name: Positron
 nav: Providers
@@ -173,20 +181,20 @@ network: true
 overview: 'Positron publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Completion API, Models API, and 2 more. Tagged areas include artificial-intelligence, ai-inference, inference-hardware, ai-accelerators, and large-language-models.
 
 
-  Positron''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, and 23 more developer resources.'
+  Positron''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, and 24 more developer resources.'
 random_paper: 82
 score:
   band: thin
-  composite: 36.5
-  delta: -0.5
+  composite: 36.2
+  delta: -0.3
   facets:
     commercial_clarity: 0.0
-    contract_quality: 51.0
-    developer_ergonomics: 51.6
-    discoverability: 92.6
+    contract_quality: 52.8
+    developer_ergonomics: 53.8
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 37.0
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -194,11 +202,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

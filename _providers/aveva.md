@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: 'The AVEVA CONNECT cloud platform REST APIs provide access to industrial data services including account management, identity management, data ingress pipelines, data views, and time-series retrieval. '
@@ -129,8 +129,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 29.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aveva/refs/heads/main/screenshots/aveva-2026-06-20T172722.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -137,11 +137,11 @@ overview: 'Toggl Track publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 77
 score:
   band: thin
-  composite: 36.2
-  delta: 0.0
+  composite: 35.7
+  delta: -0.5
   facets:
     commercial_clarity: 23.7
-    contract_quality: 57.4
+    contract_quality: 55.2
     developer_ergonomics: 34.8
     discoverability: 74.1
     governance: 0.0
@@ -154,8 +154,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toggl/refs/heads/main/screenshots/toggl-2026-06-20T195434.png
 security:

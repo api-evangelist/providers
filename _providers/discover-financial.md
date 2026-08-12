@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: ProtectBuy is Discover Global Network's EMV 3-D Secure (3DS) cardholder authentication service. Built on the EMVCo 3-D Secure protocol, it lets merchants, acquirers, and 3DS servers authenticate Disco
@@ -46,6 +46,14 @@ apis:
   slug: discover-deliver-push-payments
 artifact_total: 6
 common:
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://developer.discover.com/terms-of-use
+- group: start
+  title: ''
+  type: Signup
+  url: https://www.discover.com/register-account/?ICMPGN=SA_LOGIN_OVERLAY_REGISTER
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -121,7 +129,7 @@ network: true
 overview: 'Discover Financial Services publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Cards, Financial Services, Fortune 500, and Open Banking.
 
 
-  Discover Financial Services'' developer surface includes engineering blog, legal docs, and 14 more developer resources.'
+  Discover Financial Services'' developer surface includes signup flow, engineering blog, legal docs, and 15 more developer resources.'
 press:
 - date: '2026-05-25'
   title: Artificial intelligence press releases
@@ -141,10 +149,10 @@ press:
 random_paper: 101
 score:
   band: emerging
-  composite: 16.8
-  delta: 0.0
+  composite: 21.6
+  delta: 4.8
   facets:
-    commercial_clarity: 10.5
+    commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 10.9
     discoverability: 72.2
@@ -158,9 +166,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 26.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 31.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/discover-financial/refs/heads/main/screenshots/discover-financial-2026-06-20T180040.png
 security:

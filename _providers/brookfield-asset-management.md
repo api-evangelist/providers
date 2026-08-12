@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 8
 common:
@@ -260,8 +260,8 @@ overview: 'Brookfield Asset Management is profiled on the [APIs.io](https://apis
 random_paper: 76
 score:
   band: emerging
-  composite: 21.9
-  delta: 0.0
+  composite: 21.5
+  delta: -0.4
   facets:
     commercial_clarity: 21.1
     contract_quality: 48.1
@@ -270,8 +270,14 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 21.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 18.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brookfield-asset-management/refs/heads/main/screenshots/brookfield-asset-management-2026-06-20T173721.png
 security:

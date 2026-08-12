@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -83,6 +83,10 @@ arazzos:
   slug: coinlist-kyc-onboarding
 artifact_total: 19
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/coinlist-passage-overlay.yaml
 - group: auth
   title: ''
   type: Authentication
@@ -222,7 +226,7 @@ network: true
 overview: 'CoinList publishes 11 APIs on the [APIs.io](https://apis.io/) network, including DocumentSubmissions API, KYC API, OAuth API, and 8 more. Tagged areas include Company, Fintech, Cryptocurrency, Token Sales, and Tokenized Equities.
 
 
-  CoinList''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, support, and 24 more developer resources.'
+  CoinList''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, support, and 25 more developer resources.'
 random_paper: 57
 scopes:
 - name: Coinlist Scopes
@@ -231,11 +235,11 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.0
-  delta: 0.0
+  composite: 48.3
+  delta: 1.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 53.3
+    contract_quality: 51.3
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
@@ -251,8 +255,14 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 58.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

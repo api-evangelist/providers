@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: The Notary Project specification defines the signature envelope format, trust store and trust policy for container image signing and verification. It supports multiple signature formats and integrates
@@ -45,6 +45,26 @@ apis:
   slug: notation-plugin-framework
 artifact_total: 14
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/notaryproject/specifications/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/notaryproject/specifications/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/notaryproject/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/notaryproject/.github/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/notaryproject/specifications/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -137,7 +157,7 @@ overview: 'Notary Project publishes 4 APIs on the [APIs.io](https://apis.io/) ne
   The Notary Project catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Notary Project''s developer surface includes documentation, getting-started guide, engineering blog, FAQ, changelog, and 9 more developer resources.'
+  Notary Project''s developer surface includes documentation, getting-started guide, engineering blog, FAQ, changelog, and 14 more developer resources.'
 plans:
 - name: Notary Plans Pricing
   plan_count: 3
@@ -158,19 +178,19 @@ rules:
   slug: notary-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 41.8
-  delta: 0.0
+  composite: 33.9
+  delta: -7.9
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 33.9
     developer_ergonomics: 21.7
     discoverability: 72.2
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 41.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/notary/refs/heads/main/screenshots/notary-2026-06-20T190421.png
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -201,15 +201,15 @@ rules:
   slug: osisoft-pi-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 43.9
+  delta: -5.8
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 65.5
+    commercial_clarity: 21.1
+    contract_quality: 63.1
     developer_ergonomics: 50.0
     discoverability: 55.6
     governance: 58.3
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 49.7
   provenance:
     agentic_access: derived
@@ -218,9 +218,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/screenshots/osisoft-pi-2026-06-20T191219.png
 security:
 - kind: authentication

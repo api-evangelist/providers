@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 0
@@ -198,13 +198,13 @@ overview: 'Luma Health publishes 12 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 62
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 43.4
+  delta: -2.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 52.7
+    contract_quality: 50.8
     developer_ergonomics: 40.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 31.6
   previous_composite: 45.7
@@ -223,9 +223,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 43.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 37.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/screenshots/luma-health-2026-07-25T225704.png
 security:

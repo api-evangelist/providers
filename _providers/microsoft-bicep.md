@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -63,6 +63,14 @@ collections:
   name: Microsoft Bicep Template Specs API
   slug: open-microsoft-bicep-template-specs
 common:
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Azure/bicep/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/Azure/bicep/blob/main/CODE_OF_CONDUCT.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -157,7 +165,7 @@ overview: 'Microsoft Bicep publishes 3 APIs on the [APIs.io](https://apis.io/) n
   The Microsoft Bicep catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Microsoft Bicep''s developer surface includes authentication, engineering blog, support, release notes, and 12 more developer resources.'
+  Microsoft Bicep''s developer surface includes authentication, engineering blog, support, release notes, and 14 more developer resources.'
 plans:
 - name: Microsoft Bicep Plans Pricing
   plan_count: 3
@@ -182,16 +190,16 @@ scopes:
   slug: microsoft-bicep-scopes
   summary_line: 1 scope · implicit
 score:
-  band: developing
-  composite: 48.3
-  delta: 0.0
+  band: thin
+  composite: 41.3
+  delta: -7.0
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 62.8
+    commercial_clarity: 15.8
+    contract_quality: 60.4
     developer_ergonomics: 17.4
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 48.3
   provenance:
     agentic_access: derived
@@ -200,9 +208,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/screenshots/microsoft-bicep-2026-06-20T185444.png
 security:
 - kind: authentication

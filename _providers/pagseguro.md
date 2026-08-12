@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -235,11 +235,11 @@ rate_limits:
   slug: pagseguro-rate-limits
 score:
   band: thin
-  composite: 38.8
-  delta: 0.0
+  composite: 38.4
+  delta: -0.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 54.3
+    contract_quality: 52.2
     developer_ergonomics: 41.3
     discoverability: 68.5
     governance: 0.0
@@ -258,8 +258,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pagseguro/refs/heads/main/screenshots/pagseguro-2026-06-20T191324.png
 security:

@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-10'
+  score: 41.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 123
   human_in_the_loop: 1
@@ -185,8 +185,16 @@ apis:
 - description: The webhooks API from Creed — 1 operation(s) for webhooks.
   name: Creed webhooks API
   slug: creed-webhooks-api
-artifact_total: 52
+artifact_total: 53
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/creed-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/creed-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -239,6 +247,10 @@ created: '2026-07-17'
 description: Creed (Creed Labs, operated by Lemon Tree Labs Inc.) is a Brooklyn-based faith-tech company building an AI-powered Bible study, prayer, and Christian community app used by more than two million people. The consumer product pairs a voice-enabled AI companion (Lenny) with daily prayers, devotionals, scripture retrieval, a moderated prayer wall, learning plans, gratitude and prayer journaling, friend streaks, church discovery, leaderboards, and gamification. Creed also ships tools for churches and creators to grow and engage their congregations. Its public backend is a FastAPI service at api.usecreed.com exposing 191 operations across chatbot, prayer, church-admin, social, and gamification domains, secured with Supabase-issued JWT bearer tokens.
 image: https://usecreed.com/images/creed_logo_lg.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: creed-mcp.yml
+  slug: creed-mcpyml
 modified: '2026-07-18'
 name: Creed
 nav: Providers
@@ -246,17 +258,17 @@ network: true
 overview: 'Creed publishes 49 APIs on the [APIs.io](https://apis.io/) network, including achievements API, Admin Analytics API, Auth API, and 46 more. Tagged areas include Company, Faith, Religion, Christianity, and Bible.
 
 
-  Creed''s developer surface includes authentication, engineering blog, support, and 9 more developer resources.'
+  Creed''s developer surface includes authentication, engineering blog, support, and 11 more developer resources.'
 random_paper: 51
 score:
   band: thin
-  composite: 29.8
-  delta: 0.0
+  composite: 28.6
+  delta: -1.2
   facets:
     commercial_clarity: 21.1
-    contract_quality: 54.1
-    developer_ergonomics: 19.0
-    discoverability: 68.5
+    contract_quality: 52.1
+    developer_ergonomics: 21.2
+    discoverability: 57.4
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 29.8
@@ -270,8 +282,8 @@ score:
       total: 49
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creed/refs/heads/main/screenshots/creed-2026-07-25T210722.png
 security:

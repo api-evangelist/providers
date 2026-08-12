@@ -28,10 +28,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 5
 common:
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.bluevine.com/help-center/getting-started
 - group: company
   title: ''
   type: Website
@@ -66,7 +70,7 @@ common:
   url: https://app.bluevine.com/contracts/registrationterms
 - group: start
   title: ''
-  type: SignUp
+  type: Signup
   url: https://app.bluevine.com/signup/checking
 - group: start
   title: ''
@@ -135,7 +139,7 @@ overview: 'Bluevine is profiled on the [APIs.io](https://apis.io/) network. Tagg
   The Bluevine catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Bluevine''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
+  Bluevine''s developer surface includes getting-started guide, documentation, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
 plans:
 - name: Bluevine Plans Pricing
   plan_count: 3
@@ -146,13 +150,13 @@ rate_limits:
   name: Bluevine Rate Limits
   slug: bluevine-rate-limits
 score:
-  band: emerging
-  composite: 27.7
-  delta: 0.0
+  band: thin
+  composite: 29.6
+  delta: 1.9
   facets:
     commercial_clarity: 84.2
     contract_quality: 8.1
-    developer_ergonomics: 15.2
+    developer_ergonomics: 26.1
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
@@ -163,8 +167,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluevine/refs/heads/main/screenshots/bluevine-2026-06-20T173536.png
 security:

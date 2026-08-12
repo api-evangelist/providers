@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 4
@@ -100,6 +100,38 @@ collections:
   name: Moov API
   slug: open-moov-io
 common:
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://moov.io/platform/roadmap
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.moov.io
+- group: design
+  title: ''
+  type: Webhooks
+  url: https://docs.moov.io/guides/webhooks/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.moov.io
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.moov.io/changelog
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://moov.io/legal/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://docs.moov.io/moovjs/drops/terms-of-service/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.moov.io/guides/quick-start
 - group: agent
   title: ''
   type: AgenticAccess
@@ -397,7 +429,7 @@ overview: 'Moov publishes 13 APIs on the [APIs.io](https://apis.io/) network, in
   The Moov catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Moov''s developer surface includes authentication, developer portal, documentation, engineering blog, and 11 more developer resources.'
+  Moov''s developer surface includes support, changelog, getting-started guide, authentication, developer portal, documentation, engineering blog, and 16 more developer resources.'
 plans:
 - name: Moov Plans Pricing
   plan_count: 7
@@ -425,16 +457,16 @@ rules:
     warn: 4
   slug: moov-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 51.1
-  delta: 0.0
+  band: strong
+  composite: 58.4
+  delta: 7.3
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 88.4
-    developer_ergonomics: 30.4
-    discoverability: 64.8
+    commercial_clarity: 57.9
+    contract_quality: 87.3
+    developer_ergonomics: 45.7
+    discoverability: 72.2
     governance: 41.7
-    operational_transparency: 26.3
+    operational_transparency: 55.3
   previous_composite: 51.1
   provenance:
     agentic_access: derived
@@ -442,16 +474,16 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 13
+      total: 16
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 27.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+    score: 38.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/screenshots/moov-2026-08-07T184251.png
 security:
 - kind: authentication

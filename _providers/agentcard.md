@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 71.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -72,6 +72,10 @@ asyncapis:
   name: Agentcard Webhooks
   slug: agentcard-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/agentcard-v2-overlay.yaml
 - group: other
   title: ''
   type: AgentCard
@@ -242,15 +246,15 @@ overview: 'Agentcard publishes 5 APIs on the [APIs.io](https://apis.io/) network
   The Agentcard catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Agentcard''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 31 more developer resources.'
+  Agentcard''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 32 more developer resources.'
 random_paper: 9
 score:
   band: strong
-  composite: 57.0
-  delta: 0.0
+  composite: 56.4
+  delta: -0.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 74.4
+    contract_quality: 71.6
     developer_ergonomics: 91.3
     discoverability: 92.6
     governance: 11.5
@@ -272,8 +276,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/screenshots/agentcard-2026-07-25T181800.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Public API for evaluating cart and transaction risk pre-authorization and submitting post-event signals for model improvement, plus device, identity, and email risk endpoints.
@@ -99,15 +99,15 @@ rules:
   slug: fraud-net-rules
 score:
   band: emerging
-  composite: 19.8
-  delta: 0.0
+  composite: 15.4
+  delta: -4.4
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 59.3
     governance: 10.4
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 19.8
   regulatory:
     applies: true
@@ -115,8 +115,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fraud-net/refs/heads/main/screenshots/fraud-net-2026-06-20T181510.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: REST API and tooling for Cucumber BDD framework supporting test-first development with Gherkin feature files, scenario definitions, and step implementations.
@@ -48,6 +48,10 @@ apis:
   slug: dredd-api
 artifact_total: 35
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/cucumber/cucumber-js/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -155,7 +159,7 @@ overview: 'Test First publishes 1 API on the [APIs.io](https://apis.io/) network
   The Test First catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Test First''s developer surface includes documentation and 7 more developer resources.'
+  Test First''s developer surface includes documentation and 8 more developer resources.'
 plans:
 - name: Test First Plans Pricing
   plan_count: 3
@@ -176,19 +180,19 @@ rules:
   slug: test-first-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 41.5
-  delta: 0.0
+  composite: 33.6
+  delta: -7.9
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 45.2
     developer_ergonomics: 8.7
     discoverability: 81.5
     governance: 68.8
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 41.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/test-first/refs/heads/main/screenshots/test-first-2026-06-20T195144.png
 security:
 - kind: domain-security

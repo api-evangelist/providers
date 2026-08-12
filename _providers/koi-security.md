@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-10'
+  score: 42.6
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Extension risk assessment.
@@ -36,6 +36,22 @@ apis:
   slug: koi-security-risk-api
 artifact_total: 4
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/koi-security-extensiontotal-overlay.yaml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/extensiontotal/extensiontotal-vscode/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/extensiontotal/extensiontotal-vscode/blob/main/.github/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/extensiontotal/extensiontotal-vscode/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -144,17 +160,17 @@ network: true
 overview: 'Koi Security publishes 1 API on the [APIs.io](https://apis.io/) network: Risk API. Tagged areas include Company, Security, Endpoint Security, Supply Chain Security, and Browser Extensions.
 
 
-  Koi Security''s developer surface includes documentation, API reference, engineering blog, signup flow, support, authentication, and 17 more developer resources.'
+  Koi Security''s developer surface includes documentation, API reference, engineering blog, signup flow, support, authentication, and 21 more developer resources.'
 random_paper: 96
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 44.0
+  delta: -1.7
   facets:
     commercial_clarity: 34.2
-    contract_quality: 68.2
+    contract_quality: 65.7
     developer_ergonomics: 45.1
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 45.7
@@ -167,8 +183,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koi-security/refs/heads/main/screenshots/koi-security-2026-07-25T224118.png
 security:

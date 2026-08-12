@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-10'
+  score: 44.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 192
   human_in_the_loop: 6
@@ -278,6 +278,10 @@ asyncapis:
   name: Skilljar Webhooks
   slug: skilljar-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/skilljar-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -408,7 +412,7 @@ overview: 'Skilljar publishes 78 APIs on the [APIs.io](https://apis.io/) network
   The Skilljar catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Skilljar''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
+  Skilljar''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
 random_paper: 48
 scopes:
 - name: Skilljar Scopes
@@ -417,13 +421,13 @@ scopes:
   summary_line: 89 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.7
-  delta: 0.0
+  composite: 45.0
+  delta: -1.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 55.9
+    contract_quality: 53.8
     developer_ergonomics: 56.0
-    discoverability: 74.1
+    discoverability: 63.0
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 46.7
@@ -437,8 +441,8 @@ score:
       total: 78
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

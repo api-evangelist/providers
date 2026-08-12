@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: The Data Import API allows you to import mentions from external sources into YouScan topics. This feature enables you to bring historical data or mentions from sources not natively supported by YouSca
@@ -61,6 +62,10 @@ asyncapis:
   name: Youscan Mentions Webhooks
   slug: youscan-mentions-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/youscan-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -179,15 +184,15 @@ overview: 'YouScan publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
   The YouScan catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  YouScan''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 18 more developer resources.'
+  YouScan''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 19 more developer resources.'
 random_paper: 74
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 51.4
+  delta: -0.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 75.0
+    contract_quality: 72.2
     developer_ergonomics: 45.1
     discoverability: 81.5
     governance: 11.5
@@ -202,8 +207,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

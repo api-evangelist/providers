@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -687,11 +687,11 @@ scopes:
   summary_line: 8 scopes · authorizationCode/implicit
 score:
   band: strong
-  composite: 56.3
-  delta: 0.0
+  composite: 56.0
+  delta: -0.3
   facets:
     commercial_clarity: 92.1
-    contract_quality: 28.8
+    contract_quality: 27.7
     developer_ergonomics: 43.5
     discoverability: 68.5
     governance: 68.8
@@ -704,8 +704,8 @@ score:
       derived: 20
       marker_coverage: 100.0
       total: 20
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/screenshots/wakatime-2026-06-20T201207.png
 security:

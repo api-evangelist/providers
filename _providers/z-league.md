@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.3
-  scored_at: '2026-08-10'
+  score: 34.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ arazzos:
 - description: 'Poll the MEGA CRM for leads with stable keyset cursor pagination: fetch the first page sorted by updated_at ascending, then follow next_cursor to fetch the next page.'
   name: MEGA CRM — incremental lead sync
   slug: z-league-incremental-lead-sync
-artifact_total: 11
+artifact_total: 12
 asyncapis:
 - description: Outbound webhook event surface for the MEGA public CRM Lead API. MEGA POSTs a signed `lead.created` event to a subscriber-registered public HTTPS endpoint whenever a genuine new lead is created. Deliv
   name: MEGA Public CRM Lead Webhooks
@@ -63,6 +63,14 @@ asyncapis:
   name: Z League Lead Webhooks
   slug: z-league-lead-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/z-league-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/z-league-crm-lead-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -151,6 +159,10 @@ created: '2026-07-17'
 description: 'Z League is an a16z-backed startup that operates the MEGA platform (gomega.ai) — a suite of AI marketing agents that autonomously manage SEO, paid advertising, and website/growth optimization for businesses at a fraction of traditional agency cost. MEGA also ships a built-in CRM, and exposes the MEGA public CRM Lead API: a server-to-server REST API to pull/search leads with cursor pagination, push leads one-at-a-time or in bulk (up to 500) with idempotency and email/phone de-duplication, and register HMAC-signed `lead.created` webhooks. Authentication is an admin-issued, customer-locked, scoped Personal Access Token (Bearer `mega_...`) plus an `x-customer-id` header. The API is documented with an OpenAPI 3.1 spec and a Mintlify developer portal published from the company''s public GitHub org (github.com/zleague).'
 image: https://raw.githubusercontent.com/api-evangelist/z-league/refs/heads/main/openapi/z-league-crm-lead-openapi.json
 layout: provider
+mcp_servers:
+- description: ''
+  name: z-league-mcp.yml
+  slug: z-league-mcpyml
 modified: '2026-07-21'
 name: Z League
 nav: Providers
@@ -161,7 +173,7 @@ overview: 'Z League publishes 2 APIs on the [APIs.io](https://apis.io/) network:
   The Z League catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Z League''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 14 more developer resources.'
+  Z League''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 16 more developer resources.'
 random_paper: 98
 rate_limits:
 - limit_count: 0
@@ -169,13 +181,13 @@ rate_limits:
   slug: z-league-rate-limits
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 46.8
+  delta: -1.4
   facets:
     commercial_clarity: 44.7
-    contract_quality: 71.3
-    developer_ergonomics: 42.9
-    discoverability: 87.0
+    contract_quality: 68.7
+    developer_ergonomics: 45.1
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 48.2
@@ -189,8 +201,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

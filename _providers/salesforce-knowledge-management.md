@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -136,10 +136,6 @@ common:
   title: ''
   type: SpectralRules
   url: rules/salesforce-knowledge-management-rules.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/knowledge-management.yaml
 - group: docs
   title: Knowledge Article Schema
   type: JSONSchema
@@ -197,7 +193,7 @@ overview: 'Salesforce Knowledge Management publishes 4 APIs on the [APIs.io](htt
   The Salesforce Knowledge Management catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Salesforce Knowledge Management''s developer surface includes authentication, engineering blog, getting-started guide, and 18 more developer resources.'
+  Salesforce Knowledge Management''s developer surface includes authentication, engineering blog, getting-started guide, and 17 more developer resources.'
 plans:
 - name: Salesforce Knowledge Management Plans Pricing
   plan_count: 3
@@ -230,16 +226,16 @@ scopes:
   slug: salesforce-knowledge-management-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: strong
-  composite: 59.8
-  delta: 0.0
+  band: developing
+  composite: 51.3
+  delta: -8.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 69.8
+    commercial_clarity: 36.8
+    contract_quality: 67.2
     developer_ergonomics: 34.8
     discoverability: 81.5
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 59.8
   provenance:
     agentic_access: derived
@@ -248,9 +244,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/screenshots/salesforce-knowledge-management-2026-06-20T193346.png
 security:
 - kind: authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Treasury Services API family covering payments (USD clearing, global ACH, RTP, wires, Pay by Bank), liquidity, cash management, trade finance, and FX, exposed to corporate and financial-institution cl
@@ -38,6 +38,18 @@ apis:
   slug: data-on-chain
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/bnymellon/bny-data-on-chain/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/BNYMellon/bny-data-on-chain/blob/main/CONTRIBUTING.md
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://www.bny.com/corporate/global/en/about-us/trust-center.html
 - group: auth
   title: ''
   type: DomainSecurity
@@ -98,17 +110,17 @@ network: true
 overview: 'BNY Mellon publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Custody Bank, and Treasury Services.
 
 
-  BNY Mellon''s developer surface includes documentation, support, sandbox, and 9 more developer resources.'
+  BNY Mellon''s developer surface includes documentation, support, sandbox, and 12 more developer resources.'
 random_paper: 93
 score:
   band: emerging
-  composite: 20.3
-  delta: 0.0
+  composite: 21.7
+  delta: 1.4
   facets:
-    commercial_clarity: 34.2
+    commercial_clarity: 42.1
     contract_quality: 0.0
     developer_ergonomics: 28.3
-    discoverability: 75.9
+    discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 20.3
@@ -117,9 +129,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 17.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 24.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bny-mellon/refs/heads/main/screenshots/bny-mellon-2026-07-25T203518.png
 security:

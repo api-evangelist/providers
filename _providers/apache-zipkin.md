@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,6 +56,22 @@ collections:
   name: Zipkin API
   slug: open-apache-zipkin
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/openzipkin/zipkin/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/openzipkin/zipkin/blob/master/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/openzipkin/zipkin/blob/master/.github/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/openzipkin/zipkin/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -141,7 +157,7 @@ network: true
 overview: 'Apache Zipkin publishes 4 APIs on the [APIs.io](https://apis.io/) network, including autocomplete API, services API, spans API, and 1 more. Tagged areas include Distributed Tracing, Microservices, Monitoring, Observability, and Open Source.
 
 
-  Apache Zipkin''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 6 more developer resources.'
+  Apache Zipkin''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 10 more developer resources.'
 plans:
 - name: Apache Zipkin Plans Pricing
   plan_count: 3
@@ -152,16 +168,16 @@ rate_limits:
   name: Apache Zipkin Rate Limits
   slug: apache-zipkin-rate-limits
 score:
-  band: developing
-  composite: 42.7
-  delta: 0.0
+  band: thin
+  composite: 35.8
+  delta: -6.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 48.8
+    commercial_clarity: 26.3
+    contract_quality: 47.0
     developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 47.4
+    operational_transparency: 34.2
   previous_composite: 42.7
   provenance:
     agentic_access: derived
@@ -170,9 +186,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-zipkin/refs/heads/main/screenshots/apache-zipkin-2026-06-20T172158.png
 security:
 - kind: domain-security

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 17
 apis:
 - description: The accounts API from Upward Financial — 2 operation(s) for accounts.
@@ -223,11 +224,11 @@ scopes:
   summary_line: 9 scopes · clientCredentials/token-exchange (urn:ietf:params:oauth:grant-type:token-exchange)
 score:
   band: developing
-  composite: 49.9
-  delta: 0.0
+  composite: 49.4
+  delta: -0.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 64.0
+    contract_quality: 61.6
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 20.8
@@ -248,8 +249,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

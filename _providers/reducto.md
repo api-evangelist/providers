@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -144,6 +144,10 @@ collections:
   name: Reducto Cancel Version API
   slug: postman-reducto-version-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/reductoai/reducto-python-sdk/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -309,7 +313,7 @@ overview: 'Reducto publishes 17 APIs on the [APIs.io](https://apis.io/) network,
   The Reducto catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Reducto''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 14 more developer resources.'
+  Reducto''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 15 more developer resources.'
 plans:
 - name: Reducto Plans Pricing
   plan_count: 3
@@ -330,11 +334,11 @@ rules:
   slug: reducto-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 58.4
-  delta: 0.0
+  composite: 57.7
+  delta: -0.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 75.0
+    contract_quality: 72.2
     developer_ergonomics: 34.8
     discoverability: 68.5
     governance: 58.3
@@ -347,8 +351,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reducto/refs/heads/main/screenshots/reducto-2026-06-20T192736.png
 security:

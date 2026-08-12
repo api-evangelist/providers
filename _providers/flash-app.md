@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-10'
+  score: 39.0
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The Integration API from Flash App — 1 operation(s) for integration.
@@ -39,6 +39,10 @@ apis:
   slug: flash-app-login-api
 artifact_total: 5
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/flash-app-expense-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -166,17 +170,17 @@ network: true
 overview: 'Flash App publishes 2 APIs on the [APIs.io](https://apis.io/) network: Integration API and Login API. Tagged areas include Company, Human Resources, Employee Benefits, Expense Management, and Payments.
 
 
-  Flash App''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
+  Flash App''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
 random_paper: 80
 score:
   band: developing
-  composite: 48.1
-  delta: 0.0
+  composite: 46.7
+  delta: -1.4
   facets:
     commercial_clarity: 42.1
-    contract_quality: 57.4
+    contract_quality: 55.2
     developer_ergonomics: 62.5
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 31.6
   previous_composite: 48.1
@@ -195,8 +199,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flash-app/refs/heads/main/screenshots/flash-app-2026-07-25T214715.png
 security:

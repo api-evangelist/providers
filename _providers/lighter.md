@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-08-10'
+  score: 44.8
+  scored_at: '2026-08-11'
 api_count: 13
 apis:
 - description: The account API from Lighter — 26 operation(s) for account.
@@ -77,6 +77,10 @@ asyncapis:
   name: Lighter zkLighter WebSocket API
   slug: lighter-zklighter-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lighter-zklighter-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -220,7 +224,7 @@ overview: 'Lighter publishes 13 APIs on the [APIs.io](https://apis.io/) network,
   The Lighter catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lighter''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, authentication, and 24 more developer resources.'
+  Lighter''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, authentication, and 25 more developer resources.'
 plans:
 - name: Lighter Plans
   plan_count: 4
@@ -232,11 +236,11 @@ rate_limits:
   slug: lighter-rate-limits
 score:
   band: strong
-  composite: 61.1
-  delta: 0.0
+  composite: 60.6
+  delta: -0.5
   facets:
     commercial_clarity: 65.8
-    contract_quality: 67.4
+    contract_quality: 64.9
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 11.5
@@ -257,8 +261,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 55.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/screenshots/lighter-2026-07-25T225116.png
 security:

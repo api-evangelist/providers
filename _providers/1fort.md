@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +12,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-10'
+  score: 48.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 241
   human_in_the_loop: 2
@@ -295,12 +296,20 @@ apis:
 - description: '**Access:** requires a JWT access token.'
   name: '1Fort user: default-access-role API'
   slug: 1fort-user-default-access-role-api
-artifact_total: 96
+artifact_total: 97
 asyncapis:
 - description: ''
   name: 1Fort Webhooks
   slug: 1fort-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/1fort-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/1fort-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -441,6 +450,10 @@ created: '2026-08-05'
 description: 1Fort is a New York City based insurtech platform that automates the commercial insurance workflow for brokers and agencies. Its AI "copilot" autofills submissions across 300+ coverages, quotes direct and wholesale markets, generates white-labeled proposals with side-by-side coverage comparisons and cross-sell recommendations, then processes binders, invoicing, premium finance, payments and payables through to ongoing policy servicing. Coverage lines span cyber, technology errors and omissions, professional liability, management liability, general liability and workers compensation. The platform runs on AWS, holds SOC 2 Type II, HIPAA and CCPA attestations, and exposes a large REST API at api.1fort.com whose Swagger 2.0 definition is published publicly at /api-docs — 574 operations across broker, application, quote, market, billing, checkout, storefront and Email AI Agent surfaces, plus inbound webhook receivers for Stripe, Ascend, Herald, Gmail and Office 365.
 image: https://1fort.ai/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: 1fort-mcp.yml
+  slug: 1fort-mcpyml
 modified: '2026-08-05'
 name: 1Fort
 nav: Providers
@@ -451,7 +464,7 @@ overview: '1Fort publishes 89 APIs on the [APIs.io](https://apis.io/) network, i
   The 1Fort catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  1Fort''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 27 more developer resources.'
+  1Fort''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 29 more developer resources.'
 random_paper: 28
 rate_limits:
 - limit_count: 4
@@ -459,16 +472,16 @@ rate_limits:
   slug: 1fort-rate-limits
 score:
   band: developing
-  composite: 54.9
-  delta: 0.3
+  composite: 51.1
+  delta: -3.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.0
-    developer_ergonomics: 34.2
-    discoverability: 74.1
+    contract_quality: 63.5
+    developer_ergonomics: 36.4
+    discoverability: 63.0
     governance: 20.8
-    operational_transparency: 73.7
-  previous_composite: 54.6
+    operational_transparency: 50.0
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -476,7 +489,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 89
     mcp: derived
     skills: derived
   regulatory:
@@ -485,8 +498,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/screenshots/1fort-2026-08-07T160647.png
 security:

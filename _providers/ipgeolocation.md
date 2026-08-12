@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -691,12 +691,12 @@ rules:
     warn: 17
   slug: ipgeolocation-rules
 score:
-  band: developing
-  composite: 55.1
-  delta: 0.0
+  band: strong
+  composite: 57.0
+  delta: 1.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 72.9
+    commercial_clarity: 63.2
+    contract_quality: 70.1
     developer_ergonomics: 28.3
     discoverability: 81.5
     governance: 68.8
@@ -709,8 +709,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/screenshots/ipgeolocation-2026-06-20T183555.png
 security:

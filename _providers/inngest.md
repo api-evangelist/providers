@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -93,6 +93,22 @@ collections:
   name: Inngest REST API
   slug: open-inngest
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/inngest/inngest/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/inngest/inngest/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/inngest/inngest/blob/main/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/inngest/inngest/blob/main/docs/CONTRIBUTING.md
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -403,7 +419,7 @@ overview: 'Inngest publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
   The Inngest catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Inngest''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, engineering blog, changelog, and 52 more developer resources.'
+  Inngest''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, engineering blog, changelog, and 56 more developer resources.'
 plans:
 - name: Inngest Plans Pricing
   plan_count: 3
@@ -432,15 +448,15 @@ rules:
   slug: inngest-rules
 score:
   band: exemplar
-  composite: 76.4
-  delta: 0.0
+  composite: 68.6
+  delta: -7.8
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 74.8
+    commercial_clarity: 68.4
+    contract_quality: 72.0
     developer_ergonomics: 69.6
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 58.3
-    operational_transparency: 84.2
+    operational_transparency: 60.5
   previous_composite: 76.4
   provenance:
     agentic_access: derived
@@ -449,9 +465,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/screenshots/inngest-2026-06-20T183358.png
 security:
 - kind: authentication

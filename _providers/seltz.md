@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-10'
+  score: 34.5
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Answer operations
@@ -39,6 +39,10 @@ apis:
   slug: seltz-search-api
 artifact_total: 6
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/seltz-openapi-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -150,17 +154,17 @@ network: true
 overview: 'Seltz publishes 2 APIs on the [APIs.io](https://apis.io/) network: answer API and search API. Tagged areas include Company, Web Search, AI Infrastructure, Retrieval, and RAG.
 
 
-  Seltz''s developer surface includes documentation, API reference, getting-started guide, sandbox, pricing, signup flow, engineering blog, and 17 more developer resources.'
+  Seltz''s developer surface includes documentation, API reference, getting-started guide, sandbox, pricing, signup flow, engineering blog, and 18 more developer resources.'
 random_paper: 98
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 50.8
+  delta: -1.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 58.1
+    contract_quality: 56.0
     developer_ergonomics: 64.7
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 52.4
@@ -173,8 +177,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

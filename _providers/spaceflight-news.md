@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -102,10 +102,6 @@ common:
   title: Patreon (Funding)
   type: Patreon
   url: https://www.patreon.com/TheSpaceDevs
-- group: other
-  title: ''
-  type: Email
-  url: derk@spaceflightnewsapi.net
 - group: other
   title: ''
   type: PublicAPIsListing
@@ -271,7 +267,7 @@ overview: 'Spaceflight News publishes 4 APIs on the [APIs.io](https://apis.io/) 
   The Spaceflight News catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spaceflight News'' developer surface includes documentation, changelog, FAQ, tooling, and 18 more developer resources.'
+  Spaceflight News'' developer surface includes documentation, changelog, FAQ, tooling, and 17 more developer resources.'
 random_paper: 28
 rules:
 - name: Spaceflight News API Rules
@@ -292,12 +288,12 @@ rules:
   slug: spaceflight-news-rules
 score:
   band: emerging
-  composite: 26.9
-  delta: 0.0
+  composite: 27.6
+  delta: 0.7
   facets:
     commercial_clarity: 0.0
-    contract_quality: 24.2
-    developer_ergonomics: 8.7
+    contract_quality: 23.3
+    developer_ergonomics: 13.0
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 21.1
@@ -309,8 +305,8 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spaceflight-news/refs/heads/main/screenshots/spaceflight-news-2026-06-20T194233.png
 security:

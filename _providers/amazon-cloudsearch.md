@@ -20,14 +20,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-10'
+  score: 31.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,8 +43,16 @@ apis:
 - description: Operations for defining and managing index fields
   name: Amazon CloudSearch Index Fields API
   slug: amazon-cloudsearch-index-fields-api
-artifact_total: 51
+artifact_total: 52
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/amazon-cloudsearch-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-cloudsearch-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -271,6 +279,10 @@ jsonld:
   property_count: 16
   slug: amazon-cloudsearch-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: amazon-cloudsearch-mcp.yml
+  slug: amazon-cloudsearch-mcpyml
 modified: '2026-06-20'
 name: Amazon CloudSearch
 nav: Providers
@@ -281,7 +293,7 @@ overview: 'Amazon CloudSearch publishes 2 APIs on the [APIs.io](https://apis.io/
   The Amazon CloudSearch catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CloudSearch''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 20 more developer resources.'
+  Amazon CloudSearch''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 22 more developer resources.'
 random_paper: 0
 rules:
 - name: Amazon CloudSearch API Rules
@@ -301,13 +313,13 @@ rules:
     warn: 10
   slug: amazon-cloudsearch-spectral-rules
 score:
-  band: strong
-  composite: 56.0
-  delta: 0.0
+  band: developing
+  composite: 55.7
+  delta: -0.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 76.0
-    developer_ergonomics: 30.4
+    contract_quality: 73.1
+    developer_ergonomics: 32.6
     discoverability: 85.2
     governance: 80.2
     operational_transparency: 21.1
@@ -321,8 +333,8 @@ score:
       marker_coverage: 0.0
       total: 2
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/screenshots/amazon-cloudsearch-2026-07-25T195949.png
 security:

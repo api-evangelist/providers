@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -56,6 +56,26 @@ apis:
   slug: gov-uk-pay-refunding-card-payments-api
 artifact_total: 60
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/alphagov/pay-publicapi/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/alphagov/pay-publicapi/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/alphagov/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/alphagov/pay-publicapi/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/alphagov/pay-publicapi/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -238,7 +258,7 @@ overview: 'GOV.UK Pay publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   The GOV.UK Pay catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  GOV.UK Pay''s developer surface includes authentication and 3 more developer resources.'
+  GOV.UK Pay''s developer surface includes authentication and 8 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
@@ -255,15 +275,15 @@ rules:
   slug: gov-uk-pay-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.9
-  delta: 0.0
+  composite: 41.2
+  delta: 0.3
   facets:
     commercial_clarity: 36.8
-    contract_quality: 68.0
+    contract_quality: 65.4
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 0.0
+    operational_transparency: 15.8
   previous_composite: 40.9
   provenance:
     agentic_access: derived
@@ -275,11 +295,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
-    score: 40.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Payments
+    regime_id: payments
+    score: 34.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/screenshots/gov-uk-pay-2026-06-20T182258.png
 security:

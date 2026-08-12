@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -58,8 +58,8 @@ overview: 'Lumific is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 49
 score:
   band: minimal
-  composite: 5.9
-  delta: 0.0
+  composite: 5.7
+  delta: -0.2
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -71,11 +71,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 8.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Health
+    regime_id: health
+    score: 7.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lumific/refs/heads/main/screenshots/lumific-2026-07-25T225709.png
 security:

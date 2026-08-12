@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -81,6 +81,14 @@ collections:
   name: Browserless
   slug: open-browserless
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/browserless/browserless/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/browserless/browserless/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -249,7 +257,7 @@ overview: 'Browserless publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
   The Browserless catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Browserless'' developer surface includes documentation, API reference, engineering blog, pricing, changelog, signup flow, and 20 more developer resources.'
+  Browserless'' developer surface includes documentation, API reference, engineering blog, pricing, changelog, signup flow, and 22 more developer resources.'
 plans:
 - name: Browserless Plans Pricing
   plan_count: 5
@@ -278,13 +286,13 @@ rules:
   slug: browserless-rules
 score:
   band: strong
-  composite: 58.7
-  delta: 0.0
+  composite: 58.9
+  delta: 0.2
   facets:
     commercial_clarity: 92.1
-    contract_quality: 50.5
+    contract_quality: 48.6
     developer_ergonomics: 21.7
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 58.3
     operational_transparency: 68.4
   previous_composite: 58.7
@@ -295,8 +303,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/browserless/refs/heads/main/screenshots/browserless-2026-06-20T173726.png
 security:

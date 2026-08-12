@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-10'
+  score: 44.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 2
@@ -31,12 +31,16 @@ apis:
 - description: 'Unqork''s customer-facing REST API, based on open standards, for setting and retrieving module submission data and controlling other aspects of an Unqork environment. 93 operations across Submissions, '
   name: Unqork Customer API
   slug: unqork-customer-api
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Unqork Webhooks
   slug: unqork-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/unqork-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -161,6 +165,10 @@ created: '2026-07-31'
 description: Unqork is an enterprise application development platform — a no-code / "codeless" platform-as-a-service used by banks, insurers, healthcare organizations and government agencies to build and operate complex, regulated business applications without hand-written application code. Creators assemble applications from modules, workflows, components and data models in the Unqork Designer, and the platform exposes a REST Customer API (documented as OpenAPI 3.0.3 at developers.unqork.io) that lets external systems manage submissions, modules, applications, workflows, users, groups, promotions, transforms, global variables and API access credentials in an Unqork environment. The API is served per-tenant at https://{subdomain}.unqork.io/api/1.0, secured with OAuth 2.0 client-credentials and password grants issued through API Access Management, and the platform ships on a quarterly GA release cadence with weekly patch releases.
 image: https://developers.unqork.io/unqork-logo.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: unqork-mcp.yml
+  slug: unqork-mcpyml
 modified: '2026-07-31'
 name: Unqork
 nav: Providers
@@ -171,7 +179,7 @@ overview: 'Unqork publishes 1 API on the [APIs.io](https://apis.io/) network: Cu
   The Unqork catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Unqork''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 23 more developer resources.'
+  Unqork''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 24 more developer resources.'
 random_paper: 92
 rate_limits:
 - limit_count: 2
@@ -184,12 +192,12 @@ scopes:
   summary_line: 1 scope · clientCredentials/password
 score:
   band: strong
-  composite: 59.4
-  delta: 0.0
+  composite: 59.3
+  delta: -0.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 56.7
-    developer_ergonomics: 49.5
+    contract_quality: 54.5
+    developer_ergonomics: 51.6
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 76.3
@@ -210,8 +218,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

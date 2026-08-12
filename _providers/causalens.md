@@ -11,21 +11,25 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 17.1
-  scored_at: '2026-08-10'
+  score: 19.8
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'The HTTP surface exposed by a Dara application. Dara is causaLens'' Apache-2.0 open-source Python framework built on FastAPI; each app serves a documented set of built-in routes (session verification, '
   name: Dara Application Framework HTTP API
   slug: dara-application-framework-http-api
-artifact_total: 3
+artifact_total: 4
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/causalens-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -130,6 +134,10 @@ created: '2026-08-09'
 description: causaLens is a London-headquartered enterprise AI company and a pioneer of Causal AI — machine intelligence that models cause-and-effect relationships rather than correlation alone. Its commercial platform, decisionOS, is a decision-making operating system that combines causal discovery, causal graph modelling, and multi-agent "Digital Knowledge Workers" that automate repetitive data-science and analyst workflows for enterprises. The platform is delivered as a hosted product plus a Python-first interface, and is distributed through the Microsoft Azure Marketplace and the UK G-Cloud Digital Marketplace. causaLens also maintains Dara, an Apache-2.0 open-source Python application framework for building interactive, decision-support web apps, published on GitHub with packages on PyPI and npm and full public documentation.
 image: https://avatars.githubusercontent.com/u/40164755?s=200&v=4
 layout: provider
+mcp_servers:
+- description: ''
+  name: causalens-mcp.yml
+  slug: causalens-mcpyml
 modified: '2026-08-09'
 name: CausaLens
 nav: Providers
@@ -137,20 +145,27 @@ network: true
 overview: 'CausaLens publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Causal AI, Machine Learning, and Data Science.
 
 
-  CausaLens'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 18 more developer resources.'
+  CausaLens'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 19 more developer resources.'
 random_paper: 31
 score:
   band: thin
-  composite: 35.2
+  composite: 35.7
+  delta: 0.5
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 71.7
+    developer_ergonomics: 73.9
     discoverability: 77.8
     governance: 12.5
     operational_transparency: 36.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 35.2
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: first-party
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Causalens Authentication

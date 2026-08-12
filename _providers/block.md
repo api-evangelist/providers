@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,16 +21,16 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: verified
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.0
-  scored_at: '2026-08-10'
+  score: 61.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -94,12 +95,36 @@ arazzos:
 - description: Take a card payment and immediately re-read it to confirm the final status.
   name: Block Square Take Payment And Verify
   slug: block-take-payment-and-verify-workflow
-artifact_total: 57
+artifact_total: 58
 collections:
 - collection_type: postman
   name: Square API
   slug: postman-block-square-api
 common:
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://cash.app/
+- group: company
+  title: ''
+  type: Blog
+  url: https://block.xyz/news
+- group: design
+  title: ''
+  type: Webhooks
+  url: https://developer.squareup.com/docs/webhooks/overview
+- group: start
+  title: ''
+  type: Sandbox
+  url: https://developer.squareup.com/explorer
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://developer.squareup.com/docs/mcp
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://developer.squareup.com/docs/release-notes
 - group: agent
   title: ''
   type: AgenticAccess
@@ -304,6 +329,10 @@ jsonld:
   property_count: 0
   slug: block-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-05-19'
 name: Block
 nav: Providers
@@ -314,7 +343,7 @@ overview: 'Block publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
   The Block catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Block''s developer surface includes authentication, documentation, getting-started guide, pricing, support, and 27 more developer resources.'
+  Block''s developer surface includes engineering blog, sandbox, changelog, authentication, documentation, getting-started guide, pricing, and 31 more developer resources.'
 plans:
 - name: Block Plans Pricing
   plan_count: 3
@@ -348,13 +377,13 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 53.3
-  delta: 0.0
+  composite: 52.7
+  delta: -0.6
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 22.1
-    developer_ergonomics: 45.7
-    discoverability: 64.8
+    commercial_clarity: 60.5
+    contract_quality: 21.3
+    developer_ergonomics: 63.0
+    discoverability: 72.2
     governance: 68.8
     operational_transparency: 52.6
   previous_composite: 53.3
@@ -371,8 +400,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/screenshots/block-2026-07-25T203345.png
 security:

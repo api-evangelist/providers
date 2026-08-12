@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 5
@@ -125,6 +125,22 @@ collections:
   name: Keep API
   slug: open-keep
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/keephq/keep/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/keephq/keep/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/keephq/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/keephq/keep/blob/main/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -184,7 +200,7 @@ network: true
 overview: 'Keep publishes 27 APIs on the [APIs.io](https://apis.io/) network, including actions API, alerts API, auth API, and 24 more. Tagged areas include AIOps, Alerting, Incident Management, Observability, and Open Source.
 
 
-  Keep''s developer surface includes authentication, documentation, signup flow, engineering blog, and 8 more developer resources.'
+  Keep''s developer surface includes authentication, documentation, signup flow, engineering blog, and 12 more developer resources.'
 random_paper: 73
 scopes:
 - name: Keep Scopes
@@ -192,16 +208,16 @@ scopes:
   slug: keep-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 24.1
-  delta: 0.0
+  band: thin
+  composite: 29.1
+  delta: 5.0
   facets:
-    commercial_clarity: 0.0
-    contract_quality: 46.7
+    commercial_clarity: 13.2
+    contract_quality: 44.9
     developer_ergonomics: 21.7
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 24.1
   provenance:
     agentic_access: derived
@@ -210,9 +226,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 27
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/keep/refs/heads/main/screenshots/keep-2026-06-20T183935.png
 security:
 - kind: authentication

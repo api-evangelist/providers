@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -237,11 +237,11 @@ rules:
   slug: sparkpost-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.0
-  delta: 0.0
+  composite: 54.3
+  delta: -0.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.8
+    contract_quality: 68.2
     developer_ergonomics: 37.0
     discoverability: 74.1
     governance: 58.3
@@ -254,8 +254,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/screenshots/sparkpost-2026-06-20T194256.png
 security:

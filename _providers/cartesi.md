@@ -27,10 +27,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/cartesi/rollups-node/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/cartesi/rollups-node/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/cartesi/rollups-node/blob/main/docs/code_of_conduct.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/cartesi/rollups-node/blob/main/docs/contributing.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/cartesi/rollups-node/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -147,22 +167,22 @@ network: true
 overview: 'Cartesi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain, Layer 2, Optimistic Rollups, Ethereum, and EVM.
 
 
-  Cartesi''s developer surface includes documentation, API reference, CLI, GitHub presence, engineering blog, YouTube channel, and 19 more developer resources.'
+  Cartesi''s developer surface includes documentation, API reference, CLI, GitHub presence, engineering blog, YouTube channel, and 24 more developer resources.'
 random_paper: 51
 score:
-  band: minimal
-  composite: 10.5
-  delta: 0.0
+  band: emerging
+  composite: 13.4
+  delta: 2.9
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 23.9
+    developer_ergonomics: 28.3
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 10.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cartesi/refs/heads/main/screenshots/cartesi-2026-06-20T174025.png
 security:

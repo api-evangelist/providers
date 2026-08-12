@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-10'
+  score: 42.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 2
@@ -163,6 +163,10 @@ apis:
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-updatepipeline-api
 artifact_total: 843
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-codepipeline-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2651,7 +2655,7 @@ overview: 'Amazon CodePipeline publishes 41 APIs on the [APIs.io](https://apis.i
   The Amazon CodePipeline catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CodePipeline''s developer surface includes authentication, engineering blog, getting-started guide, pricing, developer console, developer portal, documentation, and 21 more developer resources.'
+  Amazon CodePipeline''s developer surface includes authentication, engineering blog, getting-started guide, pricing, developer console, developer portal, documentation, and 22 more developer resources.'
 random_paper: 100
 rules:
 - name: Amazon CodePipeline API Rules
@@ -2672,11 +2676,11 @@ rules:
   slug: amazon-codepipeline-spectral-rules
 score:
   band: strong
-  composite: 58.5
-  delta: 0.0
+  composite: 58.8
+  delta: 0.3
   facets:
     commercial_clarity: 52.6
-    contract_quality: 75.2
+    contract_quality: 76.1
     developer_ergonomics: 50.0
     discoverability: 68.5
     governance: 80.2
@@ -2691,8 +2695,8 @@ score:
       marker_coverage: 0.0
       total: 41
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/screenshots/amazon-codepipeline-2026-07-25T195959.png
 security:

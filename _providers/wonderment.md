@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,6 +61,10 @@ asyncapis:
   name: Wonderment Webhooks
   slug: wonderment-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/wonderment-openapi-overlay.yaml
 - group: docs
   title: ''
   type: Documentation
@@ -158,15 +163,15 @@ overview: 'Wonderment publishes 3 APIs on the [APIs.io](https://apis.io/) networ
   The Wonderment catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Wonderment''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 15 more developer resources.'
+  Wonderment''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 16 more developer resources.'
 random_paper: 47
 score:
   band: thin
-  composite: 40.6
-  delta: 0.0
+  composite: 39.9
+  delta: -0.7
   facets:
     commercial_clarity: 13.2
-    contract_quality: 73.4
+    contract_quality: 70.6
     developer_ergonomics: 45.1
     discoverability: 81.5
     governance: 11.5
@@ -182,8 +187,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

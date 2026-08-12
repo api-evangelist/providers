@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-10'
+  score: 38.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 1
@@ -88,6 +88,10 @@ apis:
   slug: overops-views-api
 artifact_total: 20
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/overops-services-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -191,17 +195,17 @@ network: true
 overview: 'Overops publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Categories API, Code Redaction API, and 13 more. Tagged areas include Company, Observability, Reliability, Error Monitoring, and Application Performance.
 
 
-  Overops'' developer surface includes authentication, changelog, documentation, API reference, support, and 17 more developer resources.'
+  Overops'' developer surface includes authentication, changelog, documentation, API reference, support, and 18 more developer resources.'
 random_paper: 86
 score:
   band: thin
-  composite: 41.2
-  delta: 0.0
+  composite: 39.5
+  delta: -1.7
   facets:
     commercial_clarity: 13.2
-    contract_quality: 61.2
+    contract_quality: 58.9
     developer_ergonomics: 49.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 41.2
@@ -215,8 +219,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/screenshots/overops-2026-08-07T191135.png
 security:

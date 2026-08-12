@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +22,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-08-10'
+  score: 50.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -53,12 +54,20 @@ apis:
 - description: Purchase donation shipping labels.
   name: LiquiDonate Ship API
   slug: liquidonate-ship-api
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: Outbound webhook event surface for ReturnsDirect by LiquiDonate. LiquiDonate POSTs return and refund status events to the webhook URL a retailer registers, so the retailer can update its own order man
   name: ReturnsDirect by LiquiDonate - Return and Refund Events
   slug: liquidonate-returnsdirect-asyncapi
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/liquidonate-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/liquidonate-magicmatch-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -224,6 +233,10 @@ description: 'LiquiDonate is a San Francisco based reverse-logistics and donatio
   integrates with Shopify, Loop, EasyPost, FedEx, Bungii, SendGrid and Rise AI, and has been recognized on TIME Best Inventions 2025 and Fast Company World Changing Ideas.'
 image: https://cdn.prod.website-files.com/672dc2792e95c584b8beaaca/6739416b527eda8f246a7686_Liquidonate%20%20Webclip.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: liquidonate-mcp.yml
+  slug: liquidonate-mcpyml
 modified: '2026-07-19'
 name: LiquiDonate
 nav: Providers
@@ -234,17 +247,17 @@ overview: 'LiquiDonate publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
   The LiquiDonate catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  LiquiDonate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
+  LiquiDonate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
 random_paper: 23
 score:
-  band: strong
-  composite: 56.2
-  delta: 0.0
+  band: developing
+  composite: 54.8
+  delta: -1.4
   facets:
     commercial_clarity: 44.7
-    contract_quality: 77.5
-    developer_ergonomics: 64.7
-    discoverability: 92.6
+    contract_quality: 74.6
+    developer_ergonomics: 66.8
+    discoverability: 81.5
     governance: 21.9
     operational_transparency: 23.7
   previous_composite: 56.2
@@ -258,8 +271,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/screenshots/liquidonate-2026-07-25T225320.png
 security:

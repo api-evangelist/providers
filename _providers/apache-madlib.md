@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: MADlib provides SQL-callable functions for classification, regression, clustering, dimensionality reduction, graph analytics, time series analysis, deep learning with Keras/TensorFlow backend, and oth
@@ -36,6 +36,14 @@ apis:
   slug: apache-madlib
 artifact_total: 25
 common:
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/madlib/blob/madlib2-master/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -113,7 +121,7 @@ network: true
 overview: 'Apache MADlib publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include In-Database Analytics, Machine Learning, PostgreSQL, SQL, and Statistics.
 
 
-  Apache MADlib''s developer surface includes developer portal and 7 more developer resources.'
+  Apache MADlib''s developer surface includes developer portal and 9 more developer resources.'
 plans:
 - name: Apache Madlib Plans Pricing
   plan_count: 3
@@ -125,19 +133,19 @@ rate_limits:
   slug: apache-madlib-rate-limits
 score:
   band: emerging
-  composite: 22.5
-  delta: 0.0
+  composite: 14.6
+  delta: -7.9
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 22.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-madlib/refs/heads/main/screenshots/apache-madlib-2026-06-20T172118.png
 security:
 - kind: domain-security

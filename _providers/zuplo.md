@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -142,6 +142,10 @@ collections:
   name: Zuplo Developer API
   slug: open-zuplo
 common:
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://zuplo.com/roadmap
 - group: agent
   title: ''
   type: AgenticAccess
@@ -458,7 +462,7 @@ overview: 'Zuplo publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
   The Zuplo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Zuplo''s developer surface includes authentication, documentation, pricing, engineering blog, signup flow, support, changelog, and 57 more developer resources.'
+  Zuplo''s developer surface includes authentication, documentation, pricing, engineering blog, signup flow, support, changelog, and 58 more developer resources.'
 plans:
 - name: Zuplo Plans Pricing
   plan_count: 3
@@ -486,16 +490,16 @@ rules:
     warn: 6
   slug: zuplo-rules
 score:
-  band: exemplar
-  composite: 71.2
-  delta: 0.0
+  band: strong
+  composite: 65.5
+  delta: -5.7
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 80.0
-    developer_ergonomics: 50.0
-    discoverability: 55.6
+    commercial_clarity: 68.4
+    contract_quality: 77.4
+    developer_ergonomics: 56.5
+    discoverability: 63.0
     governance: 58.3
-    operational_transparency: 78.9
+    operational_transparency: 60.5
   previous_composite: 71.2
   provenance:
     agentic_access: derived
@@ -504,9 +508,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/screenshots/zuplo-2026-06-20T202006.png
 security:
 - kind: authentication

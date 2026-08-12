@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -337,13 +337,13 @@ rules:
     warn: 5
   slug: prometheus-io-rules
 score:
-  band: thin
-  composite: 40.8
-  delta: 0.0
+  band: developing
+  composite: 42.0
+  delta: 1.2
   facets:
     commercial_clarity: 10.5
-    contract_quality: 61.7
-    developer_ergonomics: 34.8
+    contract_quality: 63.0
+    developer_ergonomics: 39.1
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 26.3
@@ -355,8 +355,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/screenshots/prometheus-io-2026-06-20T192153.png
 security:

@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -425,15 +426,15 @@ rules:
   slug: teradata-spectral-rules
 score:
   band: developing
-  composite: 55.5
-  delta: 0.0
+  composite: 48.2
+  delta: -7.3
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 24.5
+    commercial_clarity: 36.8
+    contract_quality: 23.6
     developer_ergonomics: 80.4
-    discoverability: 81.5
+    discoverability: 88.9
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 55.5
   provenance:
     agentic_access: derived
@@ -442,9 +443,9 @@ score:
       derived: 11
       marker_coverage: 100.0
       total: 11
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/screenshots/teradata-2026-06-20T195123.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: OPC-UA (IEC 62541) is the industrial interoperability standard for secure, reliable data exchange in industrial automation and IoT environments. It provides a platform-independent, service-oriented ar
@@ -138,20 +138,20 @@ rules:
     warn: 3
   slug: scada-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 33.6
-  delta: 0.0
+  band: emerging
+  composite: 25.8
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 17.7
     developer_ergonomics: 8.7
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 33.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/scada/refs/heads/main/screenshots/scada-2026-06-20T193448.png
 security:
 - kind: domain-security

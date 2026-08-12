@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 39.6
-  scored_at: '2026-08-10'
+  score: 36.0
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The Alerts API from Tracebit — 2 operation(s) for alerts.
@@ -174,11 +174,11 @@ overview: 'Tracebit publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 random_paper: 34
 score:
   band: developing
-  composite: 54.4
-  delta: 0.0
+  composite: 53.8
+  delta: -0.6
   facets:
     commercial_clarity: 52.6
-    contract_quality: 62.0
+    contract_quality: 59.7
     developer_ergonomics: 67.4
     discoverability: 87.0
     governance: 11.5
@@ -193,8 +193,8 @@ score:
       total: 2
     mcp: derived
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

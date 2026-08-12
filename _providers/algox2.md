@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 0
 common:
@@ -74,8 +74,8 @@ overview: 'AlgoX2 is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 9
 score:
   band: minimal
-  composite: 10.6
-  delta: 0.0
+  composite: 10.9
+  delta: 0.3
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -87,11 +87,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 11.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 13.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algox2/refs/heads/main/screenshots/algox2-2026-07-25T195608.png
 slug: algox2

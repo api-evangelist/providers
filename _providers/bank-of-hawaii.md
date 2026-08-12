@@ -18,10 +18,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.boh.com/blog
+- group: start
+  title: ''
+  type: Login
+  url: https://www.boh.com/wealth/investments/login
 - group: company
   title: ''
   type: Website
@@ -61,16 +69,16 @@ network: true
 overview: 'Bank of Hawaii is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Regional Bank, and Open Finance.
 
 
-  Bank of Hawaii''s developer surface includes documentation, support, and 5 more developer resources.'
+  Bank of Hawaii''s developer surface includes engineering blog, documentation, support, and 6 more developer resources.'
 random_paper: 66
 score:
-  band: minimal
-  composite: 12.7
-  delta: 0.0
+  band: emerging
+  composite: 15.3
+  delta: 2.6
   facets:
-    commercial_clarity: 21.1
+    commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 13.0
+    developer_ergonomics: 15.2
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
@@ -81,8 +89,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

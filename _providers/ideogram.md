@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -132,15 +132,15 @@ rate_limits:
   slug: ideogram-rate-limits
 score:
   band: thin
-  composite: 35.5
-  delta: 0.0
+  composite: 30.5
+  delta: -5.0
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 59.7
+    commercial_clarity: 13.2
+    contract_quality: 57.5
     developer_ergonomics: 19.6
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 35.5
   provenance:
     agentic_access: derived
@@ -149,9 +149,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/screenshots/ideogram-2026-06-20T183206.png
 security:
 - kind: authentication

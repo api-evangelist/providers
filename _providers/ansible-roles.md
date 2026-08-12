@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -75,6 +75,22 @@ collections:
   name: Ansible Galaxy Roles & Collections API
   slug: open-ansible-roles
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/ansible/galaxy/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/ansible/galaxy/blob/devel/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/ansible/galaxy/blob/devel/CONTRIBUTING.rst
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/ansible/galaxy/blob/devel/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -185,7 +201,7 @@ overview: 'Ansible Roles publishes 7 APIs on the [APIs.io](https://apis.io/) net
   The Ansible Roles catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Ansible Roles'' developer surface includes authentication, getting-started guide, and 10 more developer resources.'
+  Ansible Roles'' developer surface includes authentication, getting-started guide, and 14 more developer resources.'
 plans:
 - name: Ansible Roles Plans Pricing
   plan_count: 3
@@ -206,15 +222,15 @@ rules:
   slug: ansible-roles-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 46.0
+  delta: -6.4
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 61.9
+    commercial_clarity: 36.8
+    contract_quality: 59.6
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 52.4
   provenance:
     agentic_access: derived
@@ -223,9 +239,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/screenshots/ansible-roles-2026-06-20T172023.png
 security:
 - kind: authentication

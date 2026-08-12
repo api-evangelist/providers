@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: First-party GraphQL API powering Drip Shop Live's livestream shopping clients — streams, auctions, box breaks, giveaways, catalog, carts, orders, payments and messaging. 268 queries, 283 mutations, 56
@@ -106,14 +106,14 @@ overview: 'Dripshop publishes 1 API on the [APIs.io](https://apis.io/) network. 
   Dripshop''s developer surface includes authentication, support, getting-started guide, and 9 more developer resources.'
 random_paper: 61
 score:
-  band: thin
-  composite: 28.4
-  delta: 0.0
+  band: emerging
+  composite: 27.5
+  delta: -0.9
   facets:
     commercial_clarity: 10.5
     contract_quality: 43.2
     developer_ergonomics: 28.3
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 0.0
   previous_composite: 28.4
@@ -126,8 +126,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dripshop/refs/heads/main/screenshots/dripshop-2026-07-25T212415.png
 security:

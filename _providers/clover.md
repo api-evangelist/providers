@@ -20,7 +20,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-10'
+  score: 42.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -90,6 +90,50 @@ collections:
   name: Clover Platform REST API
   slug: open-clover-platform-rest-api
 common:
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.clover.com/help
+- group: design
+  title: ''
+  type: Webhooks
+  url: https://docs.clover.com/dev/docs/webhooks
+- group: operate
+  title: ''
+  type: DeprecationPolicy
+  url: https://docs.clover.com/dev/docs/deprecated-apis
+- group: start
+  title: ''
+  type: Sandbox
+  url: https://sandbox.dev.clover.com/developers
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.clover.com/reference-link/api-reference-overview
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.clover.com/developers
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.clover.com/changelog
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.clover.com/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.clover.com/terms
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.clover.com/pricing
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.clover.com/docs/get-started-with-sandbox-environment
 - group: agent
   title: ''
   type: AgenticAccess
@@ -260,7 +304,7 @@ overview: 'Clover publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
   The Clover catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Clover''s developer surface includes authentication, engineering blog, and 15 more developer resources.'
+  Clover''s developer surface includes support, sandbox, API reference, changelog, pricing, getting-started guide, authentication, and 21 more developer resources.'
 plans:
 - name: Clover Plans Pricing
   plan_count: 2
@@ -293,16 +337,16 @@ scopes:
   slug: clover-scopes
   summary_line: 13 scopes · authorizationCode
 score:
-  band: thin
-  composite: 35.3
-  delta: 0.0
+  band: developing
+  composite: 47.5
+  delta: 12.2
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 24.8
-    developer_ergonomics: 13.0
-    discoverability: 64.8
+    commercial_clarity: 44.7
+    contract_quality: 23.9
+    developer_ergonomics: 50.0
+    discoverability: 72.2
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 44.7
   previous_composite: 35.3
   provenance:
     agentic_access: derived
@@ -316,10 +360,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 42.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+    score: 54.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/clover/refs/heads/main/screenshots/clover-2026-06-20T174623.png
 security:
 - kind: authentication

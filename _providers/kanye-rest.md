@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,6 +46,10 @@ collections:
   name: Kanye REST
   slug: open-kanye-rest
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/ajzbc/kanye.rest/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -151,7 +155,7 @@ overview: 'kanye.rest publishes 1 API on the [APIs.io](https://apis.io/) network
   The kanye.rest catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  kanye.rest''s developer surface includes CLI, code examples, and 15 more developer resources.'
+  kanye.rest''s developer surface includes CLI, code examples, and 16 more developer resources.'
 random_paper: 99
 rate_limits:
 - limit_count: 3
@@ -176,11 +180,11 @@ rules:
   slug: kanye-rest-spectral-rules
 score:
   band: emerging
-  composite: 26.4
-  delta: 0.0
+  composite: 26.3
+  delta: -0.1
   facets:
     commercial_clarity: 0.0
-    contract_quality: 20.7
+    contract_quality: 20.0
     developer_ergonomics: 6.5
     discoverability: 75.9
     governance: 68.8
@@ -193,8 +197,8 @@ score:
       derived: 1
       marker_coverage: 100.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kanye-rest/refs/heads/main/screenshots/kanye-rest-2026-06-20T183915.png
 security:

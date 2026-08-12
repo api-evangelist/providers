@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 848
   human_in_the_loop: 12
@@ -526,12 +526,12 @@ rules:
   slug: openmetadata-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.9
-  delta: 0.0
+  composite: 47.2
+  delta: 0.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 58.7
-    developer_ergonomics: 28.3
+    contract_quality: 56.5
+    developer_ergonomics: 32.6
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 21.1
@@ -543,8 +543,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 89
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openmetadata/refs/heads/main/screenshots/openmetadata-2026-06-20T191017.png
 security:

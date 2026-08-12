@@ -16,19 +16,19 @@
      "slug": "crescendo-lab",
      "description": "Crescendo Lab is a Taiwan-based, Asia-leading AI omnichannel customer communication software company (cresclab.com) serving 800+ global brands, and a LINE Biz-Solutions Gold Partner. Its platform spans MAAC (AI marketing automation), CAAC (conversational applications), and DAAC (data intelligence) across LINE, WhatsApp, SMS, email, and social channels. Its developer-facing surface is MAAC Go (sms.cresclab.com) — a self-serve, NCC-compliant Taiwan SMS API with a published OpenAPI spec, first-party Node/Python SDKs, a CLI, an official MCP server, and delivery webhooks. Surfaced as a 500 Global portfolio company and enriched into the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/screenshots/crescendo-lab-2026-07-25T210727.png",
-     "score": 45.5,
+     "score": 44.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 66.8,
+      "discoverability": 81.5,
+      "contract_quality": 64.3,
       "governance": 11.5,
       "operational_transparency": 5.3,
       "developer_ergonomics": 58.2,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -36,7 +36,7 @@
       "score": 27.8,
       "matched_via": "tags"
      },
-     "agent_score": 60.6,
+     "agent_score": 57.0,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -49,7 +49,7 @@
       "rate_limit_signal": false,
       "event_surface_described": true,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -72,19 +72,19 @@
      "slug": "autopass",
      "description": "Autopass (\"快速通\") is a Taiwan-based mobility financial-services platform that connects service locations, car-owner apps, payments and benefits so that every driver enjoys a fast, convenient driving experience. Through its \"powered by Autopass\" service-authorization program, channel brand partners embed license-plate-based parking payment into their own car-owner apps: they register user license plates, surface partner parking locations (POIs) with live rates and hours, read in-progress parking sessions and completed orders, and receive entry/exit/billing/refund notifications over an OAuth 2.0 / OpenID Connect secured API. Autopass aims to become Asia's largest provider of mobility financial services. Backed by 500 Global.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/screenshots/autopass-2026-07-25T201842.png",
-     "score": 41.9,
+     "score": 40.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 71.3,
+      "discoverability": 81.5,
+      "contract_quality": 68.7,
       "governance": 8.3,
       "operational_transparency": 7.9,
       "developer_ergonomics": 38.6,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -92,7 +92,7 @@
       "score": 46.9,
       "matched_via": "tags"
      },
-     "agent_score": 38.1,
+     "agent_score": 34.5,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -105,7 +105,7 @@
       "rate_limit_signal": false,
       "event_surface_described": true,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -117,19 +117,19 @@
      "slug": "nthu",
      "description": "National Tsing Hua University (NTHU) is a national public research university in Hsinchu, Taiwan, originally founded in 1911 and re-established in Taiwan in 1956. It is ranked #210 in the QS World University Rankings 2025 and is one of Taiwan's premier research institutions across science, engineering, humanities, and management. NTHU does not operate an official institution-wide developer portal, but its public developer footprint centers on the community-maintained NTHU Data API (NTHU-SA), a live FastAPI/OpenAPI service that aggregates public campus data such as courses, buses, dining, library spaces, announcements, and energy usage. Related open-source work lives across student and lab GitHub organizations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/screenshots/nthu-2026-06-20T190502.png",
-     "score": 36.5,
+     "score": 36.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 63.0,
+      "contract_quality": 60.6,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -162,19 +162,19 @@
      "slug": "nycu",
      "description": "National Yang Ming Chiao Tung University (NYCU) is a public research university in Taiwan formed in 2021 from the merger of National Yang-Ming University and National Chiao Tung University, and ranked #219 in the QS World University Rankings 2025. Its public developer footprint centers on an OAuth 2.0 / single sign-on identity service (id.nycu.edu.tw) for third-party application integration, and the NYCU Dataverse research-data repository which exposes standard Dataverse REST APIs (Native and Search) and an OAI-PMH metadata-harvesting endpoint. Most administrative, course, and portal systems are gated behind institutional SSO rather than openly documented.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nycu/refs/heads/main/screenshots/nycu-2026-06-20T190547.png",
-     "score": 35.0,
+     "score": 34.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 51.4,
+      "contract_quality": 49.5,
       "governance": 58.3,
       "operational_transparency": 21.1,
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -218,19 +218,19 @@
      "slug": "hotcake",
      "description": "HOTCAKE 夯客 (Hotcake Inc. / 夯客股份有限公司) is a Taipei, Taiwan SaaS platform for the beauty and wellness industry — hair salons, nail and lash studios, skincare and medical beauty clinics, massage and fitness. It gives merchants an intuitive appointment, membership, and POS system covering 24-hour automated online booking, member passports and tagging, stored-value and voucher/loyalty programs, checkout and revenue analytics, inventory management, staff scheduling, and marketing automation. HOTCAKE is a LINE official-account technical partner and integrates LINE Pay, third-party payment gateways, and Google Calendar/Maps. It is delivered as a subscription with no long-term contract and same-day go-live. HOTCAKE was surfaced as a 500 Global portfolio company and added to the API Evangelist network; it ships mobile merchant apps and a merchant documentation/help manual, but publishes no public developer API, OpenAPI, or SDK.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hotcake/refs/heads/main/screenshots/hotcake-2026-07-25T221501.png",
-     "score": 22.6,
+     "score": 21.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 15.8,
       "developer_ergonomics": 23.9,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -267,8 +267,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -312,8 +312,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -356,8 +356,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -392,7 +392,7 @@
      "name": "ProLogium Technology",
      "slug": "prologium",
      "description": "ProLogium Technology Co., Ltd. is a Taiwanese energy-innovation company founded in 2006 that develops and manufactures next-generation solid-state lithium ceramic batteries built around a 100% ceramic separator. It commercialized its first solid-state cells in 2013, opened the world's first giga-level solid-state lithium ceramic battery plant in Taoyuan, Taiwan in 2024, and operates a European R&D center at Paris-Saclay with a planned gigafactory in Dunkirk, France. Its product lines span FLCB, PLCB and LLCB cells plus battery modules and packs, targeting electric vehicles, energy storage systems, robotics, and consumer and industrial applications. ProLogium is a hardware manufacturer: it publishes no developer portal, no public API, and no machine-readable API contract of any kind.",
-     "score": 8.4,
+     "score": 9.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -403,8 +403,15 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 13.5,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -429,20 +436,27 @@
      "name": "XING Mobility",
      "slug": "xing-mobility",
      "description": "XING Mobility (行競科技) is a Taiwan-based battery technology company building immersion-cooled lithium battery systems under the IMMERSIO brand, including cell-to-pack (CTP) battery platforms, battery backup units (BBU) for AI data centers, and the automotive-grade XBE energy storage series, serving electric mobility, energy storage (ESS), marine, and data center markets from its Taoyuan City headquarters. A 500 Global portfolio company, XING Mobility publishes no public developer API or API documentation as of July 2026.",
-     "score": 7.5,
+     "score": 6.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.6,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -455,7 +469,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -477,8 +491,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -500,11 +514,10 @@
      "rank": 11
     },
     {
-     "name": "Fox-Tech",
-     "slug": "fox-tech",
-     "description": "FOX-TECH CO. is a New Taipei City, Taiwan IoT company (founded 2016, backed by 500 Global and SparkLabs Taipei) that digitally transforms farming, logistics, cold-chain, and manufacturing operations. Its TempHawk platform pairs wireless temperature, humidity, CO2, light-intensity and soil-EC sensors over Sigfox LPWAN with web and mobile apps and cloud data analytics, helping the perishable-goods value chain monitor conditions, manage risk, and meet policy compliance. Recognized on the Forward Fooding FoodTech 500. No public API, developer portal, or SDK is currently published.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fox-tech/refs/heads/main/screenshots/fox-tech-2026-07-25T215055.png",
-     "score": 5.4,
+     "name": "Tripplus",
+     "slug": "tripplus",
+     "description": "TripPlus (點數旅遊) is a Taiwan-based travel-rewards and loyalty-points platform. It provides airline mileage award-ticket search and redemption tools, curated recommendations and comparisons of US travel credit cards, and a marketplace for buying and selling airline miles and reward points. The consumer-facing site (tripplus.cc) is fronted by Cloudflare and, as of this enrichment pass, exposes no public developer API, OpenAPI specification, SDKs, or documented well-known endpoints. Backed by 500 Global; tracked in the API Evangelist network as a portfolio lead.",
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -512,11 +525,18 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 9.4,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -538,11 +558,11 @@
      "rank": 12
     },
     {
-     "name": "Bounty Hunter",
-     "slug": "bounty-hunter",
-     "description": "Bounty Hunter (獎金獵人) is Taiwan's largest creative-competition platform, founded in 2011 to help young creators discover and enter contests. It aggregates and curates design, illustration, photography, short-film, writing, music, business-planning, programming, and academic competitions from Taiwan and around the world for its several-hundred-thousand registered creator members. Through its Contest Builder (contest.bhuntr.com) and brand-services arm (desk.bhuntr.com) it also runs sponsored competitions for clients including Google, Microsoft, Lexus, McDonald's, and E.SUN. The company established a U.S. headquarters in 2014 and is backed by 500 Startups (500 Global) and Silicon Valley angel investors. It exposes no documented public developer API; api.bhuntr.com is an undocumented first-party backend.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bounty-hunter/refs/heads/main/screenshots/bounty-hunter-2026-07-25T203653.png",
-     "score": 5.0,
+     "name": "Fox-Tech",
+     "slug": "fox-tech",
+     "description": "FOX-TECH CO. is a New Taipei City, Taiwan IoT company (founded 2016, backed by 500 Global and SparkLabs Taipei) that digitally transforms farming, logistics, cold-chain, and manufacturing operations. Its TempHawk platform pairs wireless temperature, humidity, CO2, light-intensity and soil-EC sensors over Sigfox LPWAN with web and mobile apps and cloud data analytics, helping the perishable-goods value chain monitor conditions, manage risk, and meet policy compliance. Recognized on the Forward Fooding FoodTech 500. No public API, developer portal, or SDK is currently published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fox-tech/refs/heads/main/screenshots/fox-tech-2026-07-25T215055.png",
+     "score": 5.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -550,11 +570,11 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -576,9 +596,10 @@
      "rank": 13
     },
     {
-     "name": "Tripplus",
-     "slug": "tripplus",
-     "description": "TripPlus (點數旅遊) is a Taiwan-based travel-rewards and loyalty-points platform. It provides airline mileage award-ticket search and redemption tools, curated recommendations and comparisons of US travel credit cards, and a marketplace for buying and selling airline miles and reward points. The consumer-facing site (tripplus.cc) is fronted by Cloudflare and, as of this enrichment pass, exposes no public developer API, OpenAPI specification, SDKs, or documented well-known endpoints. Backed by 500 Global; tracked in the API Evangelist network as a portfolio lead.",
+     "name": "Bounty Hunter",
+     "slug": "bounty-hunter",
+     "description": "Bounty Hunter (獎金獵人) is Taiwan's largest creative-competition platform, founded in 2011 to help young creators discover and enter contests. It aggregates and curates design, illustration, photography, short-film, writing, music, business-planning, programming, and academic competitions from Taiwan and around the world for its several-hundred-thousand registered creator members. Through its Contest Builder (contest.bhuntr.com) and brand-services arm (desk.bhuntr.com) it also runs sponsored competitions for clients including Google, Microsoft, Lexus, McDonald's, and E.SUN. The company established a U.S. headquarters in 2014 and is backed by 500 Startups (500 Global) and Silicon Valley angel investors. It exposes no documented public developer API; api.bhuntr.com is an undocumented first-party backend.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bounty-hunter/refs/heads/main/screenshots/bounty-hunter-2026-07-25T203653.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -590,8 +611,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -627,8 +648,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -664,8 +685,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -701,8 +722,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

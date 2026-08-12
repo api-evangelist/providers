@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 28.4
-  scored_at: '2026-08-10'
+  score: 28.6
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: The Catalog API from ZenAdmin — 3 operation(s) for catalog.
@@ -49,12 +49,24 @@ apis:
 - description: The Webhooks API from ZenAdmin — 4 operation(s) for webhooks.
   name: ZenAdmin Webhooks API
   slug: zenadmin-webhooks-api
-artifact_total: 9
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Zenadmin Webhooks
   slug: zenadmin-webhooks
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/zenadmin-inventory-devices-employees.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/zenadmin-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zenadmin-external-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -103,6 +115,10 @@ created: '2026-07-17'
 description: 'ZenAdmin is an all-in-one IT management platform for global teams, covering the full device and employee lifecycle: IT procurement, device lifecycle management, asset and inventory tracking, mobile device management (MDM), identity and access management, SaaS/app management, IT helpdesk, and 24/7 IT support across 150+ countries. ZenAdmin publishes an External API v1 (documented at docs.zenadmin.ai) for programmatic access to devices, hardware orders, a hardware catalog, employees, and outbound webhooks. Authentication is a per-key API key sent via the x-api-key header. This profile was originally surfaced as a 500 Global portfolio company and has been enriched from the live developer documentation.'
 image: https://www.zenadmin.ai/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: zenadmin-mcp.yml
+  slug: zenadmin-mcpyml
 modified: '2026-07-21'
 name: ZenAdmin
 nav: Providers
@@ -113,17 +129,17 @@ overview: 'ZenAdmin publishes 6 APIs on the [APIs.io](https://apis.io/) network,
   The ZenAdmin catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ZenAdmin''s developer surface includes documentation, API reference, engineering blog, and 8 more developer resources.'
+  ZenAdmin''s developer surface includes documentation, API reference, engineering blog, and 11 more developer resources.'
 random_paper: 42
 score:
   band: thin
-  composite: 28.9
-  delta: 0.0
+  composite: 28.3
+  delta: -0.6
   facets:
     commercial_clarity: 34.2
-    contract_quality: 24.7
-    developer_ergonomics: 26.1
-    discoverability: 92.6
+    contract_quality: 23.8
+    developer_ergonomics: 29.9
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 28.9
@@ -136,8 +152,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

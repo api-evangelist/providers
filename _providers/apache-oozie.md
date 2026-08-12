@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -52,6 +52,14 @@ apis:
   slug: apache-oozie-versions-api
 artifact_total: 59
 common:
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/oozie/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -244,7 +252,7 @@ overview: 'Apache Oozie publishes 4 APIs on the [APIs.io](https://apis.io/) netw
   The Apache Oozie catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache Oozie''s developer surface includes documentation, getting-started guide, release notes, support, Stack Overflow tag, and 10 more developer resources.'
+  Apache Oozie''s developer surface includes documentation, getting-started guide, release notes, support, Stack Overflow tag, and 12 more developer resources.'
 plans:
 - name: Apache Oozie Plans Pricing
   plan_count: 3
@@ -273,15 +281,15 @@ rules:
   slug: apache-oozie-spectral-rules
 score:
   band: developing
-  composite: 53.6
-  delta: 0.0
+  composite: 45.2
+  delta: -8.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 69.0
+    commercial_clarity: 26.3
+    contract_quality: 66.5
     developer_ergonomics: 23.9
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 53.6
   provenance:
     agentic_access: derived
@@ -290,9 +298,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-oozie/refs/heads/main/screenshots/apache-oozie-2026-06-20T172126.png
 security:
 - kind: domain-security

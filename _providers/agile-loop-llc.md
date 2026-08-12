@@ -27,10 +27,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Agile-Loop/Synapse-Copilot/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Agile-Loop/Synapse-Copilot/releases
 - group: auth
   title: ''
   type: DomainSecurity
@@ -86,22 +94,22 @@ network: true
 overview: 'Agile Loop L.L.C. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Large Action Models, and LLM.
 
 
-  Agile Loop L.L.C.''s developer surface includes engineering blog and 10 more developer resources.'
+  Agile Loop L.L.C.''s developer surface includes engineering blog and 12 more developer resources.'
 random_paper: 85
 score:
   band: minimal
-  composite: 8.2
-  delta: 0.0
+  composite: 11.1
+  delta: 2.9
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
-    developer_ergonomics: 2.2
+    developer_ergonomics: 6.5
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 8.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agile-loop-llc/refs/heads/main/screenshots/agile-loop-llc-2026-07-25T195306.png
 security:

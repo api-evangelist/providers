@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,6 +78,10 @@ collections:
   name: ACA-Py Admin API
   slug: open-openwallet-foundation
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/openwallet-foundation/acapy/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -149,7 +153,7 @@ network: true
 overview: 'OpenWallet Foundation publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Basicmessages API, Connections API, Forward API, and 3 more. Tagged areas include Credentials, Digital Wallet, Identity, and Linux Foundation.
 
 
-  OpenWallet Foundation''s developer surface includes authentication, documentation, engineering blog, privacy policy, and 10 more developer resources.'
+  OpenWallet Foundation''s developer surface includes authentication, documentation, engineering blog, privacy policy, and 11 more developer resources.'
 plans:
 - name: Openwallet Foundation Plans Pricing
   plan_count: 3
@@ -160,16 +164,16 @@ rate_limits:
   name: Openwallet Foundation Rate Limits
   slug: openwallet-foundation-rate-limits
 score:
-  band: developing
-  composite: 42.0
-  delta: 0.0
+  band: thin
+  composite: 33.3
+  delta: -8.7
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 57.5
+    commercial_clarity: 36.8
+    contract_quality: 55.3
     developer_ergonomics: 26.1
     discoverability: 55.6
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 42.0
   provenance:
     agentic_access: derived
@@ -178,9 +182,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 31.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/screenshots/openwallet-foundation-2026-06-20T191051.png
 security:
 - kind: authentication

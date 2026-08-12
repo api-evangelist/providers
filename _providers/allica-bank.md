@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 61.9
-  scored_at: '2026-08-10'
+  score: 58.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -187,11 +187,11 @@ scopes:
   summary_line: 17 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 47.3
-  delta: 0.0
+  composite: 44.2
+  delta: -3.1
   facets:
     commercial_clarity: 21.1
-    contract_quality: 57.7
+    contract_quality: 55.5
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
@@ -212,9 +212,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 78.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 60.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/screenshots/allica-bank-2026-07-25T195713.png
 security:

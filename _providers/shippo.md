@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -303,16 +303,16 @@ rules:
     warn: 7
   slug: shippo-rules
 score:
-  band: strong
-  composite: 56.4
-  delta: 0.0
+  band: developing
+  composite: 52.6
+  delta: -3.8
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 86.5
-    developer_ergonomics: 52.2
-    discoverability: 64.8
+    commercial_clarity: 31.6
+    contract_quality: 83.7
+    developer_ergonomics: 58.7
+    discoverability: 72.2
     governance: 41.7
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 56.4
   provenance:
     agentic_access: derived
@@ -321,8 +321,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/screenshots/shippo-2026-06-20T193822.png
 security:

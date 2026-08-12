@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -62,6 +62,22 @@ collections:
   name: Emissary-Ingress Configuration API
   slug: open-emissary-ingress
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/emissary-ingress/emissary/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/emissary-ingress/emissary/blob/main/.github/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/emissary-ingress/emissary/blob/main/LICENSE
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://www.gravitee.io/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -145,7 +161,7 @@ overview: 'Emissary-Ingress publishes 5 APIs on the [APIs.io](https://apis.io/) 
   The Emissary-Ingress catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Emissary-Ingress'' developer surface includes documentation, getting-started guide, support, engineering blog, changelog, and 9 more developer resources.'
+  Emissary-Ingress'' developer surface includes documentation, getting-started guide, support, engineering blog, changelog, and 13 more developer resources.'
 plans:
 - name: Emissary Ingress Plans Pricing
   plan_count: 3
@@ -166,15 +182,15 @@ rules:
   slug: emissary-ingress-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.8
-  delta: 0.0
+  composite: 42.4
+  delta: -8.4
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 66.7
+    commercial_clarity: 15.8
+    contract_quality: 64.2
     developer_ergonomics: 26.1
     discoverability: 72.2
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 50.8
   provenance:
     agentic_access: derived
@@ -183,9 +199,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/emissary-ingress/refs/heads/main/screenshots/emissary-ingress-2026-06-20T180636.png
 security:
 - kind: domain-security

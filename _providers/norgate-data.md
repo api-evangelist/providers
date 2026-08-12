@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Retrieve daily EOD open/high/low/close, volume, turnover, unadjusted close, dividends and open interest as a Pandas DataFrame or NumPy array. Supports date ranges, record limits, weekly/monthly/quarte
@@ -116,8 +116,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 10.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/norgate-data/refs/heads/main/screenshots/norgate-data-2026-08-07T185515.png
 slug: norgate-data

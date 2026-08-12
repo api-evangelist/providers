@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-08-10'
+  score: 36.7
+  scored_at: '2026-08-11'
 api_count: 15
 apis:
 - description: The Audit-user-trail API from Ethernovia — 2 operation(s) for audit-user-trail.
@@ -68,6 +68,10 @@ apis:
   slug: ethernovia-users-permissions-users-roles-api
 artifact_total: 17
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ethernovia-customer-portal-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -183,30 +187,30 @@ network: true
 overview: 'Ethernovia publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Audit User Trail API, Ec Document API, Ec Document Type API, and 12 more. Tagged areas include Company, Semiconductors, Automotive, Ethernet, and Networking.
 
 
-  Ethernovia''s developer surface includes developer portal, support, signup flow, engineering blog, product news, authentication, and 20 more developer resources.'
+  Ethernovia''s developer surface includes developer portal, support, signup flow, engineering blog, product news, authentication, and 21 more developer resources.'
 random_paper: 33
 score:
   band: thin
-  composite: 36.2
-  delta: 1.4
+  composite: 36.4
+  delta: 0.2
   facets:
     commercial_clarity: 42.1
-    contract_quality: 42.0
+    contract_quality: 42.7
     developer_ergonomics: 27.7
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 34.8
+  previous_composite: 36.2
   provenance:
     conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 15
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethernovia/refs/heads/main/screenshots/ethernovia-2026-08-07T165022.png
 security:

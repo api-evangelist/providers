@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.2
-  scored_at: '2026-08-10'
+  score: 44.6
+  scored_at: '2026-08-11'
 api_count: 18
 apis:
 - description: User account, sign-in, sessions, settings
@@ -91,6 +91,10 @@ asyncapis:
   name: Laserdata Notifications Webhooks
   slug: laserdata-notifications-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/laserdata-audit-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -237,20 +241,20 @@ overview: 'LaserData publishes 18 APIs on the [APIs.io](https://apis.io/) networ
   The LaserData catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  LaserData''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, CLI, and 25 more developer resources.'
+  LaserData''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, CLI, and 26 more developer resources.'
 random_paper: 17
 score:
   band: strong
-  composite: 58.4
-  delta: -1.0
+  composite: 57.6
+  delta: -0.8
   facets:
     commercial_clarity: 34.2
-    contract_quality: 70.6
+    contract_quality: 71.7
     developer_ergonomics: 80.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 59.4
+  previous_composite: 58.4
   provenance:
     conformance: derived
     contracts:
@@ -260,8 +264,8 @@ score:
       total: 18
     mcp: derived
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/screenshots/laserdata-2026-07-25T224540.png
 security:

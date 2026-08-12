@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 68.5
-  scored_at: '2026-08-10'
+  score: 64.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 5
@@ -179,6 +179,10 @@ arazzos:
   slug: weavr-onboard-corporate-and-issue-card
 artifact_total: 51
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/weavr-multi-backoffice-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -338,17 +342,17 @@ network: true
 overview: 'Weavr publishes 43 APIs on the [APIs.io](https://apis.io/) network, including Access Token API, Access Tokens API, Accounts API, and 40 more. Tagged areas include Embedded Finance, Banking as a Service, Payments, Cards, and Fintech.
 
 
-  Weavr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 29 more developer resources.'
+  Weavr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 30 more developer resources.'
 random_paper: 85
 score:
   band: strong
-  composite: 62.0
-  delta: 0.0
+  composite: 57.7
+  delta: -4.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.5
+    contract_quality: 65.3
     developer_ergonomics: 73.9
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 44.7
   previous_composite: 62.0
@@ -367,9 +371,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 68.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 46.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

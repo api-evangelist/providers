@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -10732,11 +10732,11 @@ rules:
   slug: censys-spectral-rules
 score:
   band: strong
-  composite: 63.2
-  delta: 0.0
+  composite: 65.2
+  delta: 2.0
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 73.5
+    commercial_clarity: 84.2
+    contract_quality: 70.7
     developer_ergonomics: 37.0
     discoverability: 81.5
     governance: 68.8
@@ -10749,8 +10749,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/screenshots/censys-2026-06-20T174122.png
 security:

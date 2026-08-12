@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -133,10 +133,6 @@ common:
   title: ''
   type: SpectralRules
   url: rules/salesforce-flow-rules.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/flow-automation.yaml
 - group: docs
   title: Flow Definition Schema
   type: JSONSchema
@@ -198,7 +194,7 @@ overview: 'Salesforce Flow publishes 3 APIs on the [APIs.io](https://apis.io/) n
   The Salesforce Flow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Salesforce Flow''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, and 17 more developer resources.'
+  Salesforce Flow''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, and 16 more developer resources.'
 plans:
 - name: Salesforce Flow Plans Pricing
   plan_count: 1
@@ -231,16 +227,16 @@ scopes:
   slug: salesforce-flow-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: strong
-  composite: 58.6
-  delta: 0.0
+  band: developing
+  composite: 52.7
+  delta: -5.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 70.3
+    commercial_clarity: 34.2
+    contract_quality: 67.7
     developer_ergonomics: 45.7
     discoverability: 81.5
     governance: 68.8
-    operational_transparency: 42.1
+    operational_transparency: 26.3
   previous_composite: 58.6
   provenance:
     agentic_access: derived
@@ -249,9 +245,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/screenshots/salesforce-flow-2026-06-20T193348.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -105,16 +105,16 @@ rate_limits:
   name: Ion Group Rate Limits
   slug: ion-group-rate-limits
 score:
-  band: thin
-  composite: 34.7
-  delta: 0.0
+  band: emerging
+  composite: 27.6
+  delta: -7.1
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 55.8
+    commercial_clarity: 15.8
+    contract_quality: 53.7
     developer_ergonomics: 19.6
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 34.7
   provenance:
     agentic_access: derived
@@ -129,9 +129,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ion-group/refs/heads/main/screenshots/ion-group-2026-06-20T183527.png
 security:
 - kind: authentication

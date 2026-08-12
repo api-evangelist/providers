@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 51.4
-  scored_at: '2026-08-10'
+  score: 55.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -65,6 +66,10 @@ asyncapis:
   name: DFlow Trading API WebSocket Streams
   slug: dflow-trading-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dflow-aggregator-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -175,15 +180,15 @@ overview: 'DFlow publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
   The DFlow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  DFlow''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, CLI, authentication, and 16 more developer resources.'
+  DFlow''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, CLI, authentication, and 17 more developer resources.'
 random_paper: 76
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 42.5
+  delta: -3.2
   facets:
     commercial_clarity: 13.2
-    contract_quality: 64.1
+    contract_quality: 61.7
     developer_ergonomics: 78.3
     discoverability: 92.6
     governance: 11.5
@@ -199,8 +204,14 @@ score:
       total: 7
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 28.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/screenshots/dflow-2026-07-25T211845.png
 security:

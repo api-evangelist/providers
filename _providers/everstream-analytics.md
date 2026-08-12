@@ -11,25 +11,29 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-10'
+  score: 41.4
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Everstream Analytics platform API surface (marketed as the Reveal API for real-time incident risk on entities, locations and lanes, and the Explore API for long-range planning data). It powers the
   name: Everstream Analytics Platform API
   slug: everstream-analytics-platform-api
-artifact_total: 4
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Everstream Analytics Webhooks
   slug: everstream-analytics-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/everstream-analytics-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -123,6 +127,10 @@ description: Everstream Analytics is a supply chain risk analytics and intellige
   portal or SDK has been published as of this profile.
 image: https://www.everstream.ai/wp-content/uploads/2022/06/cropped-everstream-favicon-270x270.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: everstream-analytics-mcp.yml
+  slug: everstream-analytics-mcpyml
 modified: '2026-08-04'
 name: Everstream Analytics
 nav: Providers
@@ -133,25 +141,25 @@ overview: 'Everstream Analytics publishes 1 API on the [APIs.io](https://apis.io
   The Everstream Analytics catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Everstream Analytics'' developer surface includes engineering blog, support, authentication, and 19 more developer resources.'
+  Everstream Analytics'' developer surface includes engineering blog, support, authentication, and 20 more developer resources.'
 random_paper: 11
 score:
   band: thin
-  composite: 36.7
-  delta: 0.0
+  composite: 37.3
+  delta: 0.6
   facets:
     commercial_clarity: 42.1
     contract_quality: 51.6
-    developer_ergonomics: 17.4
-    discoverability: 87.0
+    developer_ergonomics: 26.1
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 13.2
   previous_composite: 36.7
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/everstream-analytics/refs/heads/main/screenshots/everstream-analytics-2026-08-07T165038.png
 security:

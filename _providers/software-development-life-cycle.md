@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: APIs and tools for capturing, tracking, and managing software requirements throughout the development life cycle, including user stories, acceptance criteria, and traceability matrices.
@@ -153,19 +153,19 @@ rules:
   slug: software-development-life-cycle-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 31.6
+  delta: -7.9
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 45.2
     developer_ergonomics: 8.7
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 39.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/software-development-life-cycle/refs/heads/main/screenshots/software-development-life-cycle-2026-06-20T194134.png
 security:
 - kind: domain-security

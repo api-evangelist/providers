@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.4
-  scored_at: '2026-08-10'
+  score: 32.2
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: Account and wallet service.
@@ -49,8 +49,20 @@ apis:
 - description: Escrow Steam items.
   name: Gameflip Steam Escrow API
   slug: gameflip-steam-escrow-api
-artifact_total: 9
+artifact_total: 10
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/gameflip-create-and-sell.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/gameflip-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/gameflip-gfapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -119,6 +131,10 @@ created: '2026-07-17'
 description: 'Gameflip is a digital marketplace where gamers buy and sell games, in-game items, gift cards, game accounts, boosting/coaching gigs, and other digital goods, backed by an escrow-style buyer guarantee and a built-in wallet. For developers and power sellers, Gameflip publishes the GFAPI — a JSON REST API (base path /api/v1) for creating and managing listings, searching the marketplace, running exchanges (sell/buy records), reading account profiles and wallet history, and handling Steam item escrow and bulk trade-offer listings. Requests are authenticated with an API key plus a rotating TOTP one-time password sent in the Authorization header (`GFAPI <apikey>:<totp>`). Access is Beta and gated: API keys and TOTP secrets are issued to selected developers through Gameflip support / account settings. An official Node.js client library (gfapi) with sample code is published by Gameflip.'
 image: https://gameflip.com/img/app/gf_logo_280x150.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: gameflip-mcp.yml
+  slug: gameflip-mcpyml
 modified: '2026-07-19'
 name: Gameflip
 nav: Providers
@@ -126,7 +142,7 @@ network: true
 overview: 'Gameflip publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, Exchange API, Listing API, and 3 more. Tagged areas include Company, Gaming, Marketplace, Digital Goods, and E-Commerce.
 
 
-  Gameflip''s developer surface includes getting-started guide, documentation, API reference, support, engineering blog, signup flow, authentication, and 9 more developer resources.'
+  Gameflip''s developer surface includes getting-started guide, documentation, API reference, support, engineering blog, signup flow, authentication, and 12 more developer resources.'
 random_paper: 25
 rate_limits:
 - limit_count: 1
@@ -134,12 +150,12 @@ rate_limits:
   slug: gameflip-rate-limits
 score:
   band: developing
-  composite: 42.9
-  delta: 0.0
+  composite: 43.0
+  delta: 0.1
   facets:
     commercial_clarity: 34.2
-    contract_quality: 60.5
-    developer_ergonomics: 50.0
+    contract_quality: 58.2
+    developer_ergonomics: 53.8
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 26.3
@@ -159,8 +175,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/screenshots/gameflip-2026-07-25T215417.png
 security:

@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-08-10'
+  score: 33.1
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: Route, type, taxonomy and status discovery documents.
@@ -44,6 +44,10 @@ apis:
   slug: alloplex-biotherapeutics-taxonomy-api
 artifact_total: 10
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/alloplex-biotherapeutics-content-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -188,30 +192,36 @@ overview: 'Alloplex Biotherapeutics publishes 7 APIs on the [APIs.io](https://ap
   The Alloplex Biotherapeutics catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Alloplex Biotherapeutics'' developer surface includes product news, engineering blog, FAQ, support, authentication, and 26 more developer resources.'
+  Alloplex Biotherapeutics'' developer surface includes product news, engineering blog, FAQ, support, authentication, and 27 more developer resources.'
 random_paper: 85
 score:
   band: thin
-  composite: 36.2
-  delta: -0.6
+  composite: 34.9
+  delta: -1.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 59.8
+    contract_quality: 61.3
     developer_ergonomics: 19.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 36.8
+  previous_composite: 36.2
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 7
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 31.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alloplex-biotherapeutics/refs/heads/main/screenshots/alloplex-biotherapeutics-2026-08-07T161225.png
 security:

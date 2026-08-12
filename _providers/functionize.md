@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Partner-gated REST API used to trigger test runs, manage suites, and retrieve execution results from the Functionize Test Cloud. Endpoint surface, base URL, and authentication mechanism are documented
@@ -111,8 +111,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 17.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/functionize/refs/heads/main/screenshots/functionize-2026-06-20T181615.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -230,15 +230,15 @@ rules:
   slug: rutter-spectral-rules
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 43.4
+  delta: -2.1
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 68.7
+    commercial_clarity: 36.8
+    contract_quality: 66.2
     developer_ergonomics: 28.3
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 68.8
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 45.5
   provenance:
     agentic_access: derived
@@ -253,8 +253,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rutter/refs/heads/main/screenshots/rutter-2026-06-20T193303.png
 security:

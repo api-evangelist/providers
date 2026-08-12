@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 40.5
-  scored_at: '2026-08-10'
+  score: 36.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -181,6 +181,10 @@ collections:
   name: OpenWeatherMap Weather Stations API
   slug: open-openweathermap-weather-stations
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/openweathermap-accumulated-parameters-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -497,7 +501,7 @@ overview: 'OpenWeatherMap publishes 14 APIs on the [APIs.io](https://apis.io/) n
   The OpenWeatherMap catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  OpenWeatherMap''s developer surface includes authentication, getting-started guide, API reference, signup flow, developer console, pricing, engineering blog, and 37 more developer resources.'
+  OpenWeatherMap''s developer surface includes authentication, getting-started guide, API reference, signup flow, developer console, pricing, engineering blog, and 38 more developer resources.'
 plans:
 - name: Openweathermap Plans Pricing
   plan_count: 7
@@ -526,13 +530,13 @@ rules:
   slug: openweathermap-rules
 score:
   band: exemplar
-  composite: 72.3
-  delta: 0.0
+  composite: 70.6
+  delta: -1.7
   facets:
     commercial_clarity: 84.2
-    contract_quality: 81.4
+    contract_quality: 78.7
     developer_ergonomics: 56.5
-    discoverability: 94.4
+    discoverability: 83.3
     governance: 80.2
     operational_transparency: 36.8
   previous_composite: 72.3
@@ -545,8 +549,8 @@ score:
       marker_coverage: 0.0
       total: 14
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/screenshots/openweathermap-2026-06-20T191055.png
 security:

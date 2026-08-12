@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,6 +49,30 @@ apis:
   slug: bfe-reload-api
 artifact_total: 43
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/bfenetworks/bfe/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/bfenetworks/bfe/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/bfenetworks/bfe/blob/develop/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/bfenetworks/bfe/blob/develop/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/bfenetworks/bfe/blob/develop/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/bfenetworks/bfe/blob/develop/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -178,7 +202,7 @@ overview: 'BFE publishes 3 APIs on the [APIs.io](https://apis.io/) network: Debu
   The BFE catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  BFE''s developer surface includes developer portal, documentation, and 6 more developer resources.'
+  BFE''s developer surface includes developer portal, documentation, and 12 more developer resources.'
 plans:
 - name: Bfe Plans Pricing
   plan_count: 3
@@ -207,15 +231,15 @@ rules:
   slug: bfe-spectral-rules
 score:
   band: thin
-  composite: 35.8
-  delta: 0.0
+  composite: 31.2
+  delta: -4.6
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 19.5
+    commercial_clarity: 15.8
+    contract_quality: 18.8
     developer_ergonomics: 17.4
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 35.8
   provenance:
     agentic_access: derived
@@ -224,8 +248,8 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bfe/refs/heads/main/screenshots/bfe-2026-06-20T173215.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -208,11 +208,11 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 45.6
-  delta: 0.0
+  composite: 45.0
+  delta: -0.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 67.4
+    contract_quality: 64.9
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
@@ -231,8 +231,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 50.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kings-college-london/refs/heads/main/screenshots/kings-college-london-2026-06-20T184045.png
 security:

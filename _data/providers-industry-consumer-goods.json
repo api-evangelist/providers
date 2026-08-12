@@ -8,27 +8,27 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 4,
-   "shown": 4,
+   "count": 2,
+   "shown": 2,
    "providers": [
     {
      "name": "3M",
      "slug": "3m",
      "description": "3M is a global science and manufacturing company. The 3M Partner and Supplier API provides real-time access to product, pricing, order, delivery, and invoice data for partners and suppliers, enabling automated commerce and supply chain integration.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/3m/refs/heads/main/screenshots/3m-2026-06-20T162653.png",
-     "score": 52.5,
+     "score": 46.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 81.4,
+      "contract_quality": 78.4,
       "governance": 68.8,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 41.3,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -54,19 +54,19 @@
      "slug": "under-armour",
      "description": "Under Armour is an American company that manufactures footwear, sports, and casual apparel known for its performance products designed for athletes. Under Armour operates a Connected Fitness platform — powered by MapMyFitness — that provides developer APIs for integrating workout tracking, route data, user profiles, heart rate zones, and fitness devices into third-party applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/screenshots/under-armour-2026-06-20T200017.png",
-     "score": 50.2,
+     "score": 45.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 72.1,
+      "contract_quality": 69.4,
       "governance": 68.8,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 28.3,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -93,25 +93,36 @@
       "dry_run_mode": false
      },
      "rank": 2
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "28 – 41.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 6,
+   "shown": 6,
+   "providers": [
     {
      "name": "Tyson Foods",
      "slug": "tyson-foods",
      "description": "Tyson Foods is one of the world's largest food companies and a Fortune 100 company, producing chicken, beef, pork, and prepared foods. Tyson Foods provides B2B integration capabilities for trading partners including EDI (Electronic Data Interchange) and API integrations for supply chain management, order processing, and logistics operations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/screenshots/tyson-foods-2026-06-20T195909.png",
-     "score": 45.3,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 39.5,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 65.1,
+      "contract_quality": 62.7,
       "governance": 68.8,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 2.2,
-      "commercial_clarity": 50.0
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -136,19 +147,19 @@
      "name": "AptarGroup",
      "slug": "aptargroup",
      "description": "AptarGroup is a global supplier of consumer-product dispensing, sealing, and active packaging solutions serving the beauty, personal care, home care, food, beverage, pharmaceutical, and other markets.",
-     "score": 42.4,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 36.5,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 53.7,
-      "contract_quality": 77.5,
+      "contract_quality": 74.6,
       "governance": 58.3,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -168,35 +179,24 @@
       "dry_run_mode": false
      },
      "rank": 4
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "28 – 41.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 9,
-   "shown": 9,
-   "providers": [
+    },
     {
      "name": "United Natural Foods (UNFI)",
      "slug": "united-natural-foods",
      "description": "United Natural Foods, Inc. (UNFI) is the largest publicly traded wholesale distributor of health and specialty food in the United States and Canada. UNFI supplies natural, organic, specialty, and conventional foods to over 30,000 retail locations. UNFI provides digital supplier and customer portals including myUNFI, supplier portal, EDI integration, and the Harmony Core API for data access.",
-     "score": 40.4,
+     "score": 34.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 71.3,
+      "contract_quality": 68.7,
       "governance": 37.5,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -222,19 +222,19 @@
      "slug": "constellation-brands",
      "description": "Constellation Brands is a Fortune 500 producer and marketer of beer, wine, and spirits brands such as Corona, Modelo, Robert Mondavi, and Casa Noble. Constellation publishes a partner-oriented API catalog at dev.cbrands.com that exposes product, brand, and digital-asset data (bottle shots, tasting notes, hot sheets, shelf talkers, neck hangers, recipes, and an items product API) to distributors, retailers, and on-premise partners. Most endpoints require an API key issued through the developer registration process.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/constellation-brands/refs/heads/main/screenshots/constellation-brands-2026-06-20T174911.png",
-     "score": 37.7,
+     "score": 32.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 51.9,
+      "contract_quality": 50.0,
       "governance": 0.0,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 19.6,
-      "commercial_clarity": 50.0
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -260,19 +260,19 @@
      "slug": "archer-daniels-midland",
      "description": "Archer Daniels Midland (ADM) is a Fortune 100 global leader in agricultural processing and food ingredient manufacturing, providing nutrition solutions for food, beverage, health, and industrial markets worldwide.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/screenshots/archer-daniels-midland-2026-06-20T172404.png",
-     "score": 34.8,
+     "score": 29.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 25.2,
+      "contract_quality": 24.3,
       "governance": 68.8,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 21.7,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -298,19 +298,19 @@
      "slug": "sherwin-williams",
      "description": "The Sherwin-Williams Company is a global leader in the paint and coatings industry, offering products for consumers, contractors, industrial clients, and commercial builders. Sherwin-Williams provides B2B API and EDI integration capabilities for suppliers and trading partners to connect with their enterprise supply chain and retail operations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sherwin-williams/refs/heads/main/screenshots/sherwin-williams-2026-06-20T193801.png",
-     "score": 33.6,
+     "score": 28.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 29.0,
       "governance": 58.3,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 50.0
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -330,32 +330,43 @@
       "dry_run_mode": false
      },
      "rank": 8
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "13 – 27.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 12,
+   "shown": 12,
+   "providers": [
     {
-     "name": "Skechers U.S.A.",
-     "slug": "skechers-usa",
-     "description": "Skechers U.S.A. is an American lifestyle and performance footwear company (Fortune 500) that designs, develops, and markets a diverse range of footwear for men, women, and children across 170+ countries. Skechers operates direct-to-consumer digital commerce through its website and mobile app, wholesale partnerships with retailers, and a global network of owned and franchised retail stores. Their digital commerce infrastructure relies on e-commerce APIs for product catalog management, inventory, order management, customer accounts, and loyalty programs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skechers-usa/refs/heads/main/screenshots/skechers-usa-2026-06-20T194019.png",
-     "score": 33.2,
-     "band": "thin",
-     "band_label": "Thin",
+     "name": "Procter & Gamble",
+     "slug": "procter-and-gamble",
+     "description": "Procter & Gamble (P&G) is one of the world's largest consumer goods companies, with a portfolio of trusted brands across beauty, grooming, health care, fabric and home care, and baby, feminine, and family care. P&G operates an API Marketplace at developer.pg.com that provides partners, suppliers, and developers with programmatic access to P&G systems for integrating with the company's supply chain, product data, and business operations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/procter-and-gamble/refs/heads/main/screenshots/procter-and-gamble-2026-06-20T192133.png",
+     "score": 27.2,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 12.9,
-      "governance": 68.8,
-      "operational_transparency": 36.8,
+      "discoverability": 74.1,
+      "contract_quality": 54.5,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 10.9,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.2,
-     "agent_band": "human-only",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
+      "spec_presence": true,
+      "agentic_access": "derived",
       "mcp_server": false,
-      "auth_clarity": false,
+      "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -374,19 +385,19 @@
      "slug": "pepsico",
      "description": "PepsiCo is one of the world's largest food and beverage companies, with a portfolio of brands including Pepsi-Cola, Mountain Dew, Frito-Lay, Quaker, Tropicana, and Gatorade.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pepsico/refs/heads/main/screenshots/pepsico-2026-06-20T191557.png",
-     "score": 32.9,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 27.1,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 65.1,
+      "contract_quality": 62.7,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -408,99 +419,23 @@
      "rank": 10
     },
     {
-     "name": "Procter & Gamble",
-     "slug": "procter-and-gamble",
-     "description": "Procter & Gamble (P&G) is one of the world's largest consumer goods companies, with a portfolio of trusted brands across beauty, grooming, health care, fabric and home care, and baby, feminine, and family care. P&G operates an API Marketplace at developer.pg.com that provides partners, suppliers, and developers with programmatic access to P&G systems for integrating with the company's supply chain, product data, and business operations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/procter-and-gamble/refs/heads/main/screenshots/procter-and-gamble-2026-06-20T192133.png",
-     "score": 32.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 56.6,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 11
-    },
-    {
-     "name": "Tempur Sealy International",
-     "slug": "tempur-sealy-international",
-     "description": "Tempur Sealy International is one of the world's largest bedding providers, developing, manufacturing, marketing, and distributing bedding products under the Tempur-Pedic, Sealy, and Stearns & Foster brands. As a Fortune 500 manufacturer and retailer, the company operates e-commerce platforms and provides retailer integration APIs for product catalogs, inventory, and order management.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tempur-sealy-international/refs/heads/main/screenshots/tempur-sealy-international-2026-06-20T195104.png",
-     "score": 32.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 17.7,
-      "governance": 68.8,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 12
-    },
-    {
      "name": "Johnson & Johnson",
      "slug": "johnson-and-johnson",
      "description": "Johnson & Johnson is a multinational pharmaceutical and medical devices corporation. Operating today as Johnson & Johnson Innovative Medicine and MedTech, J&J has historically connected health platforms and APIs through subsidiaries such as LifeScan (OneTouch blood glucose monitoring), which was divested to Platinum Equity in 2018 and continues to operate the LifeScan developer portal referenced here. Consumer health brands (Tylenol, Listerine, Neutrogena, Band-Aid) were spun out as Kenvue in 2023 and are tracked in a separate kenvue index.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/screenshots/johnson-and-johnson-2026-06-20T183753.png",
-     "score": 31.2,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 26.3,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 56.6,
+      "contract_quality": 54.5,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 19.6,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -526,37 +461,26 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "13 – 27.9",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 11,
-   "shown": 11,
-   "providers": [
+     "rank": 11
+    },
     {
-     "name": "Columbia Sportswear",
-     "slug": "columbia-sportswear",
-     "description": "Columbia Sportswear is a global designer, marketer, and distributor of outdoor, active, and everyday lifestyle apparel, footwear, accessories, and equipment under the Columbia, Mountain Hardwear, SOREL, and prAna brands. Columbia Sportswear Digital operates a partner-focused developer portal on Microsoft Azure API Management at columbia.portal.azure-api.net, exposing APIs for Order Management, Consumer Management, Product Lifecycle Management, Cognitive, Weather, and Translation. The developer portal is gated: registered partners create an account, browse products and APIs, request subscription keys, and integrate against the published endpoints. The company also exchanges traditional EDI documents (POs, ASNs, invoices) with retail trading partners through providers like TrueCommerce and eZCom.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/columbia-sportswear/refs/heads/main/screenshots/columbia-sportswear-2026-06-20T174800.png",
-     "score": 24.3,
+     "name": "Skechers U.S.A.",
+     "slug": "skechers-usa",
+     "description": "Skechers U.S.A. is an American lifestyle and performance footwear company (Fortune 500) that designs, develops, and markets a diverse range of footwear for men, women, and children across 170+ countries. Skechers operates direct-to-consumer digital commerce through its website and mobile app, wholesale partnerships with retailers, and a global network of owned and franchised retail stores. Their digital commerce infrastructure relies on e-commerce APIs for product catalog management, inventory, order management, customer accounts, and loyalty programs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skechers-usa/refs/heads/main/screenshots/skechers-usa-2026-06-20T194019.png",
+     "score": 25.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 68.5,
       "contract_quality": 12.9,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 50.0
+      "governance": 68.8,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -575,26 +499,101 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 12
     },
     {
-     "name": "The Coca-Cola Company",
-     "slug": "coca-cola",
-     "description": "The Coca-Cola Company is the world's largest non-alcoholic beverage company, owning and marketing more than 200 brands across sparkling soft drinks, water, hydration, sports, coffee, tea, juice, dairy, and plant-based drinks. The company sells its products in more than 200 countries through a bottling and distribution partner network. While Coca-Cola does not currently publish a broadly available public REST API, it is a heavy enterprise API consumer running an internal API program on MuleSoft that connects ERP, manufacturing, distribution, retail, marketing, and consumer engagement systems through a Center for Enablement (C4E) model. Historical Coca-Cola Enterprises (CCE) Product and Location APIs at developer.cokecce.com are no longer maintained as a public-facing developer program.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coca-cola/refs/heads/main/screenshots/coca-cola-2026-06-20T174646.png",
-     "score": 19.9,
+     "name": "Tempur Sealy International",
+     "slug": "tempur-sealy-international",
+     "description": "Tempur Sealy International is one of the world's largest bedding providers, developing, manufacturing, marketing, and distributing bedding products under the Tempur-Pedic, Sealy, and Stearns & Foster brands. As a Fortune 500 manufacturer and retailer, the company operates e-commerce platforms and provides retailer integration APIs for product catalogs, inventory, and order management.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tempur-sealy-international/refs/heads/main/screenshots/tempur-sealy-international-2026-06-20T195104.png",
+     "score": 24.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 64.8,
+      "discoverability": 68.5,
+      "contract_quality": 17.7,
+      "governance": 68.8,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 15.8
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 13
+    },
+    {
+     "name": "Adidas",
+     "slug": "adidas",
+     "description": "A German multinational corporation designing and manufacturing athletic shoes, apparel, and accessories. One of the world's largest sportswear brands competing across performance and lifestyle markets.",
+     "score": 19.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 12.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 14
+    },
+    {
+     "name": "Columbia Sportswear",
+     "slug": "columbia-sportswear",
+     "description": "Columbia Sportswear is a global designer, marketer, and distributor of outdoor, active, and everyday lifestyle apparel, footwear, accessories, and equipment under the Columbia, Mountain Hardwear, SOREL, and prAna brands. Columbia Sportswear Digital operates a partner-focused developer portal on Microsoft Azure API Management at columbia.portal.azure-api.net, exposing APIs for Order Management, Consumer Management, Product Lifecycle Management, Cognitive, Weather, and Translation. The developer portal is gated: registered partners create an account, browse products and APIs, request subscription keys, and integrate against the published endpoints. The company also exchanges traditional EDI documents (POs, ASNs, invoices) with retail trading partners through providers like TrueCommerce and eZCom.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/columbia-sportswear/refs/heads/main/screenshots/columbia-sportswear-2026-06-20T174800.png",
+     "score": 19.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 12.9,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -616,33 +615,34 @@
      "rank": 15
     },
     {
-     "name": "Adidas",
-     "slug": "adidas",
-     "description": "A German multinational corporation designing and manufacturing athletic shoes, apparel, and accessories. One of the world's largest sportswear brands competing across performance and lifestyle markets.",
-     "score": 19.7,
+     "name": "LVMH",
+     "slug": "lvmh",
+     "description": "LVMH Moët Hennessy Louis Vuitton is the world's largest luxury goods conglomerate, headquartered in Paris and operating over 75 prestigious brands. Its portfolio spans fashion and leather goods (Louis Vuitton, Christian Dior, Fendi, Loewe, Celine), wines and spirits (Moët & Chandon, Hennessy, Veuve Clicquot), perfumes and cosmetics (Givenchy, Guerlain), watches and jewelry (Tiffany & Co., Bulgari, TAG Heuer), and selective retailing (Sephora, DFS). LVMH does not currently publish a public developer API or developer portal at the group level; technical and partner integrations are handled brand-by-brand and through closed innovation partnerships such as the Aura Blockchain Consortium.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lvmh/refs/heads/main/screenshots/lvmh-2026-07-25T225802.png",
+     "score": 17.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 0.0,
+      "discoverability": 57.4,
+      "contract_quality": 43.2,
       "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 50.0
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 12.2,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 16.2,
      "agent_band": "agent-aware",
      "agent_dims": {
-      "spec_presence": false,
+      "spec_presence": true,
       "agentic_access": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -668,8 +668,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -706,8 +706,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -744,8 +744,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -767,34 +767,34 @@
      "rank": 19
     },
     {
-     "name": "LVMH",
-     "slug": "lvmh",
-     "description": "LVMH Moët Hennessy Louis Vuitton is the world's largest luxury goods conglomerate, headquartered in Paris and operating over 75 prestigious brands. Its portfolio spans fashion and leather goods (Louis Vuitton, Christian Dior, Fendi, Loewe, Celine), wines and spirits (Moët & Chandon, Hennessy, Veuve Clicquot), perfumes and cosmetics (Givenchy, Guerlain), watches and jewelry (Tiffany & Co., Bulgari, TAG Heuer), and selective retailing (Sephora, DFS). LVMH does not currently publish a public developer API or developer portal at the group level; technical and partner integrations are handled brand-by-brand and through closed innovation partnerships such as the Aura Blockchain Consortium.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lvmh/refs/heads/main/screenshots/lvmh-2026-07-25T225802.png",
-     "score": 16.5,
+     "name": "The Coca-Cola Company",
+     "slug": "coca-cola",
+     "description": "The Coca-Cola Company is the world's largest non-alcoholic beverage company, owning and marketing more than 200 brands across sparkling soft drinks, water, hydration, sports, coffee, tea, juice, dairy, and plant-based drinks. The company sells its products in more than 200 countries through a bottling and distribution partner network. While Coca-Cola does not currently publish a broadly available public REST API, it is a heavy enterprise API consumer running an internal API program on MuleSoft that connects ERP, manufacturing, distribution, retail, marketing, and consumer engagement systems through a Center for Enablement (C4E) model. Historical Coca-Cola Enterprises (CCE) Product and Location APIs at developer.cokecce.com are no longer maintained as a public-facing developer program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coca-cola/refs/heads/main/screenshots/coca-cola-2026-06-20T174646.png",
+     "score": 14.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 43.2,
+      "discoverability": 64.8,
+      "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 16.2,
-     "agent_band": "agent-aware",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
      "agent_dims": {
-      "spec_presence": true,
+      "spec_presence": false,
       "agentic_access": false,
       "mcp_server": false,
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -803,25 +803,34 @@
       "dry_run_mode": false
      },
      "rank": 20
-    },
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 12.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 63,
+   "shown": 63,
+   "providers": [
     {
-     "name": "Central Garden and Pet",
-     "slug": "central-garden-and-pet",
-     "description": "Central Garden and Pet is a major US corporation and Fortune 1000 company. The Central Garden and Pet API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/central-garden-and-pet/refs/heads/main/screenshots/central-garden-and-pet-2026-06-20T174129.png",
-     "score": 14.5,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "name": "Seaboard",
+     "slug": "seaboard",
+     "description": "Seaboard Corporation is a diverse global agribusiness and transportation company involved in pork, commodity merchandising, grain processing, sugar production, electric power generation, and ocean transportation.",
+     "score": 12.0,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 35.2,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -843,24 +852,23 @@
      "rank": 21
     },
     {
-     "name": "Energizer Holdings",
-     "slug": "energizer-holdings",
-     "description": "Energizer Holdings is a major US corporation and Fortune 1000 company. The Energizer Holdings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/energizer-holdings/refs/heads/main/screenshots/energizer-holdings-2026-06-20T180707.png",
-     "score": 14.5,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "name": "TreeHouse Foods",
+     "slug": "treehouse-foods",
+     "description": "TreeHouse Foods is one of the largest manufacturers of private label packaged foods and beverages in North America, producing snack and convenience foods for retail grocery and foodservice customers. The company is publicly traded on the NYSE (THS) and is headquartered in Oak Brook, Illinois. TreeHouse Foods produces over 1,600 SKUs across snacking, beverage, and meal preparation categories.",
+     "score": 11.6,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
+      "discoverability": 50.0,
+      "contract_quality": 12.9,
+      "governance": 10.4,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.2,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -870,7 +878,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -881,24 +889,31 @@
      "rank": 22
     },
     {
-     "name": "H.B. Fuller Company",
-     "slug": "h-b-fuller",
-     "description": "H.B. Fuller Company is a major US corporation and Fortune 1000 company. The H.B. Fuller Company API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/h-b-fuller/refs/heads/main/screenshots/h-b-fuller-2026-06-20T182448.png",
-     "score": 14.5,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "name": "Church and Dwight",
+     "slug": "church-and-dwight",
+     "description": "Church & Dwight Co., Inc. is a Fortune 500 American consumer packaged goods (CPG) company headquartered in Princeton, New Jersey, that manufactures and markets a portfolio of household, personal care, health and wellness, beauty, and specialty products. Best known as the parent company of the Arm & Hammer baking soda brand (the company's flagship since 1846), Church & Dwight operates through three reporting segments: Consumer Domestic, Consumer International, and Specialty Products Division. The company's brand portfolio includes Arm & Hammer, Trojan, OxiClean, Vitafusion, L'il Critters, Therabreath, Hero (Mighty Patch), Batiste, Waterpik, OraJel, Nair, Spinbrush, First Response, RepHresh, Zicam, Flawless, Toppik, Viviscal, Kaboom, Orange Glo, XTRA laundry detergent, and Arrid antiperspirant. Church & Dwight does not currently publish a public consumer-facing developer API; partner integrations are managed through internal portals, and consumer experiences focus on brand websites, e-commerce direct-to-consumer storefronts, and the Innovation Portal for external R&D partnerships.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/church-and-dwight/refs/heads/main/screenshots/church-and-dwight-2026-06-20T174337.png",
+     "score": 10.5,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.2,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 17.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -908,7 +923,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -919,24 +934,24 @@
      "rank": 23
     },
     {
-     "name": "Nike",
-     "slug": "nike",
-     "description": "Nike is the world's largest supplier of athletic shoes and apparel and a major manufacturer of sports equipment, designing, developing, and marketing products under the Nike, Jordan, and Converse brands.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nike/refs/heads/main/screenshots/nike-2026-06-20T190340.png",
-     "score": 14.3,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "name": "Brown-Forman",
+     "slug": "brown-forman",
+     "description": "Brown-Forman Corporation is one of the largest American-owned spirits and wine companies in the world, established in 1870 and headquartered in Louisville, Kentucky. The company produces, bottles, imports, exports, markets, and sells a wide variety of alcoholic beverages under brands including Jack Daniel's, Woodford Reserve, Old Forester, Herradura, El Jimador, Slane Irish Whiskey, Benriach, Chambord, Diplomático, and Ford's Gin. Brown-Forman is traded on the NYSE under tickers BF.A and BF.B.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brown-forman/refs/heads/main/screenshots/brown-forman-2026-06-20T173721.png",
+     "score": 10.3,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
-      "discoverability": 53.7,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 2.2,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.2,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -946,7 +961,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -955,34 +970,25 @@
       "dry_run_mode": false
      },
      "rank": 24
-    }
-   ]
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 12.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 59,
-   "shown": 59,
-   "providers": [
+    },
     {
-     "name": "Seaboard",
-     "slug": "seaboard",
-     "description": "Seaboard Corporation is a diverse global agribusiness and transportation company involved in pork, commodity merchandising, grain processing, sugar production, electric power generation, and ocean transportation.",
-     "score": 12.0,
+     "name": "H.B. Fuller Company",
+     "slug": "h-b-fuller",
+     "description": "H.B. Fuller Company is a major US corporation and Fortune 1000 company. The H.B. Fuller Company API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/h-b-fuller/refs/heads/main/screenshots/h-b-fuller-2026-06-20T182448.png",
+     "score": 10.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 35.2,
+      "discoverability": 66.7,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1004,22 +1010,23 @@
      "rank": 25
     },
     {
-     "name": "TreeHouse Foods",
-     "slug": "treehouse-foods",
-     "description": "TreeHouse Foods is one of the largest manufacturers of private label packaged foods and beverages in North America, producing snack and convenience foods for retail grocery and foodservice customers. The company is publicly traded on the NYSE (THS) and is headquartered in Oak Brook, Illinois. TreeHouse Foods produces over 1,600 SKUs across snacking, beverage, and meal preparation categories.",
-     "score": 11.6,
+     "name": "Colgate-Palmolive",
+     "slug": "colgate-palmolive",
+     "description": "Colgate-Palmolive Company is a global consumer-products manufacturer operating in oral care, personal care, home care, and pet nutrition through brands such as Colgate, Palmolive, Hill's Pet Nutrition, Speed Stick, Ajax, and Softsoap. Colgate-Palmolive does not publish a general-purpose public developer REST API. Its B2B integration footprint is centered on EDI exchanges with retail trading partners (X12 messages, AS2, VAN), supplier integrations through SAP Ariba, and internal corporate systems. There is also a corporate sustainability and ESG reporting surface, but it is not exposed as a developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/colgate-palmolive/refs/heads/main/screenshots/colgate-palmolive-2026-06-20T174744.png",
+     "score": 9.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 12.9,
-      "governance": 10.4,
-      "operational_transparency": 0.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 10.5
+      "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1041,11 +1048,11 @@
      "rank": 26
     },
     {
-     "name": "Brown-Forman",
-     "slug": "brown-forman",
-     "description": "Brown-Forman Corporation is one of the largest American-owned spirits and wine companies in the world, established in 1870 and headquartered in Louisville, Kentucky. The company produces, bottles, imports, exports, markets, and sells a wide variety of alcoholic beverages under brands including Jack Daniel's, Woodford Reserve, Old Forester, Herradura, El Jimador, Slane Irish Whiskey, Benriach, Chambord, Diplomático, and Ford's Gin. Brown-Forman is traded on the NYSE under tickers BF.A and BF.B.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brown-forman/refs/heads/main/screenshots/brown-forman-2026-06-20T173721.png",
-     "score": 10.3,
+     "name": "Kimberly-Clark",
+     "slug": "kimberly-clark",
+     "description": "Kimberly-Clark is a global personal care and consumer tissue company with brands including Huggies, Kleenex, Scott, Kotex, Cottonelle, Poise, Depend, and Pull-Ups. No public APIs or developer portal have been identified for Kimberly-Clark; this repository tracks corporate, supplier, and integration surfaces for ongoing API discovery.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kimberly-clark/refs/heads/main/screenshots/kimberly-clark-2026-07-25T223748.png",
+     "score": 9.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1053,11 +1060,11 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 5.3,
-      "developer_ergonomics": 2.2,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1079,23 +1086,23 @@
      "rank": 27
     },
     {
-     "name": "Colgate-Palmolive",
-     "slug": "colgate-palmolive",
-     "description": "Colgate-Palmolive Company is a global consumer-products manufacturer operating in oral care, personal care, home care, and pet nutrition through brands such as Colgate, Palmolive, Hill's Pet Nutrition, Speed Stick, Ajax, and Softsoap. Colgate-Palmolive does not publish a general-purpose public developer REST API. Its B2B integration footprint is centered on EDI exchanges with retail trading partners (X12 messages, AS2, VAN), supplier integrations through SAP Ariba, and internal corporate systems. There is also a corporate sustainability and ESG reporting surface, but it is not exposed as a developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/colgate-palmolive/refs/heads/main/screenshots/colgate-palmolive-2026-06-20T174744.png",
-     "score": 9.9,
+     "name": "Coty",
+     "slug": "coty",
+     "description": "Coty Inc. is one of the world's largest beauty companies with an iconic portfolio of brands across fragrance, color cosmetics, skin and body care. The company operates two divisions: Prestige (premium fragrance, cosmetics, and skincare brands such as Gucci, Burberry, Calvin Klein, Hugo Boss, Marc Jacobs, Tiffany, Chloe, Davidoff, Lancaster, philosophy, and Kylie Cosmetics) and Consumer Beauty (mass-market color cosmetics, hair care, and body care brands such as CoverGirl, Rimmel, Max Factor, Sally Hansen, Bourjois, and Adidas). Coty does not publish a public developer API; supplier and partner integrations occur through the Coty Supplier Portal and B2B / EDI channels.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coty/refs/heads/main/screenshots/coty-2026-06-20T175055.png",
+     "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1117,23 +1124,23 @@
      "rank": 28
     },
     {
-     "name": "Kimberly-Clark",
-     "slug": "kimberly-clark",
-     "description": "Kimberly-Clark is a global personal care and consumer tissue company with brands including Huggies, Kleenex, Scott, Kotex, Cottonelle, Poise, Depend, and Pull-Ups. No public APIs or developer portal have been identified for Kimberly-Clark; this repository tracks corporate, supplier, and integration surfaces for ongoing API discovery.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kimberly-clark/refs/heads/main/screenshots/kimberly-clark-2026-07-25T223748.png",
-     "score": 9.9,
+     "name": "The Clorox Company",
+     "slug": "clorox",
+     "description": "The Clorox Company is a multinational consumer-goods manufacturer best known for its bleach, cleaning, and disinfecting brands as well as a broader portfolio that includes Pine-Sol, Liquid-Plumr, Glad, Kingsford, Brita, Burts Bees, and Hidden Valley. Clorox does not publish a public developer-facing REST API; integration with the company is handled through partner, supply-chain, and retail-EDI relationships rather than through a documented internet-accessible API. This profile records the company's web presence, careers/IR resources, and brand directory for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/clorox/refs/heads/main/screenshots/clorox-2026-06-20T174533.png",
+     "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1155,82 +1162,6 @@
      "rank": 29
     },
     {
-     "name": "Coty",
-     "slug": "coty",
-     "description": "Coty Inc. is one of the world's largest beauty companies with an iconic portfolio of brands across fragrance, color cosmetics, skin and body care. The company operates two divisions: Prestige (premium fragrance, cosmetics, and skincare brands such as Gucci, Burberry, Calvin Klein, Hugo Boss, Marc Jacobs, Tiffany, Chloe, Davidoff, Lancaster, philosophy, and Kylie Cosmetics) and Consumer Beauty (mass-market color cosmetics, hair care, and body care brands such as CoverGirl, Rimmel, Max Factor, Sally Hansen, Bourjois, and Adidas). Coty does not publish a public developer API; supplier and partner integrations occur through the Coty Supplier Portal and B2B / EDI channels.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coty/refs/heads/main/screenshots/coty-2026-06-20T175055.png",
-     "score": 9.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 30
-    },
-    {
-     "name": "The Clorox Company",
-     "slug": "clorox",
-     "description": "The Clorox Company is a multinational consumer-goods manufacturer best known for its bleach, cleaning, and disinfecting brands as well as a broader portfolio that includes Pine-Sol, Liquid-Plumr, Glad, Kingsford, Brita, Burts Bees, and Hidden Valley. Clorox does not publish a public developer-facing REST API; integration with the company is handled through partner, supply-chain, and retail-EDI relationships rather than through a documented internet-accessible API. This profile records the company's web presence, careers/IR resources, and brand directory for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/clorox/refs/heads/main/screenshots/clorox-2026-06-20T174533.png",
-     "score": 9.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 31
-    },
-    {
      "name": "Campbell Soup",
      "slug": "campbell-soup",
      "description": "Campbell Soup Company (now rebranded as The Campbell's Company) is a manufacturer and marketer of high-quality branded convenience food products, including soups, simple meals, beverages, snacks, and packaged fresh foods under brands such as Campbell's, Swanson, Pace, Prego, V8, Pepperidge Farm, Goldfish, and Snyder's of Hanover. Historically Campbell's ran a public Campbell's Kitchen Developer API exposing recipes, products, UPC lookup, and nutrition data for web and mobile integrations, though current availability of the public developer portal varies and typically requires partner access.",
@@ -1246,8 +1177,84 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 30
+    },
+    {
+     "name": "Central Garden and Pet",
+     "slug": "central-garden-and-pet",
+     "description": "Central Garden and Pet is a major US corporation and Fortune 1000 company. The Central Garden and Pet API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/central-garden-and-pet/refs/heads/main/screenshots/central-garden-and-pet-2026-06-20T174129.png",
+     "score": 9.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 31
+    },
+    {
+     "name": "Energizer Holdings",
+     "slug": "energizer-holdings",
+     "description": "Energizer Holdings is a major US corporation and Fortune 1000 company. The Energizer Holdings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/energizer-holdings/refs/heads/main/screenshots/energizer-holdings-2026-06-20T180707.png",
+     "score": 9.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1269,24 +1276,24 @@
      "rank": 32
     },
     {
-     "name": "Church and Dwight",
-     "slug": "church-and-dwight",
-     "description": "Church & Dwight Co., Inc. is a Fortune 500 American consumer packaged goods (CPG) company headquartered in Princeton, New Jersey, that manufactures and markets a portfolio of household, personal care, health and wellness, beauty, and specialty products. Best known as the parent company of the Arm & Hammer baking soda brand (the company's flagship since 1846), Church & Dwight operates through three reporting segments: Consumer Domestic, Consumer International, and Specialty Products Division. The company's brand portfolio includes Arm & Hammer, Trojan, OxiClean, Vitafusion, L'il Critters, Therabreath, Hero (Mighty Patch), Batiste, Waterpik, OraJel, Nair, Spinbrush, First Response, RepHresh, Zicam, Flawless, Toppik, Viviscal, Kaboom, Orange Glo, XTRA laundry detergent, and Arrid antiperspirant. Church & Dwight does not currently publish a public consumer-facing developer API; partner integrations are managed through internal portals, and consumer experiences focus on brand websites, e-commerce direct-to-consumer storefronts, and the Innovation Portal for external R&D partnerships.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/church-and-dwight/refs/heads/main/screenshots/church-and-dwight-2026-06-20T174337.png",
-     "score": 9.2,
+     "name": "Nike",
+     "slug": "nike",
+     "description": "Nike is the world's largest supplier of athletic shoes and apparel and a major manufacturer of sports equipment, designing, developing, and marketing products under the Nike, Jordan, and Converse brands.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nike/refs/heads/main/screenshots/nike-2026-06-20T190340.png",
+     "score": 9.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 53.7,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 21.1
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1296,7 +1303,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -1321,8 +1328,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1358,8 +1365,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1395,8 +1402,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1433,8 +1440,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1471,8 +1478,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1509,8 +1516,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1532,22 +1539,30 @@
      "rank": 39
     },
     {
-     "name": "Conagra Brands",
-     "slug": "conagra-brands",
-     "description": "Conagra Brands is a leading North American branded consumer packaged goods (CPG) food company headquartered in Chicago, Illinois. Its portfolio of iconic frozen, refrigerated, and shelf-stable brands includes Marie Callender's, Healthy Choice, Slim Jim, Reddi-wip, Hunt's, Banquet, Birds Eye, Duncan Hines, and Orville Redenbacher's. Conagra internally describes itself as API-first across its digital estate, but does not publish any public developer APIs at this time. Partner integrations such as foodservice, retail, and supplier portals are managed via direct B2B agreements rather than a public developer surface.",
-     "score": 6.1,
+     "name": "Reckitt Benckiser",
+     "slug": "reckitt",
+     "description": "Reckitt Benckiser is a British multinational consumer-goods company focused on health, hygiene, and nutrition. Its portfolio includes globally recognised brands such as Lysol, Dettol, Mucinex, Strepsils, Nurofen, Veet, Finish, Vanish, Air Wick, Calgon, Durex, and Enfamil/Mead Johnson infant nutrition, sold in nearly 200 markets. Reckitt operates as a pure consumer packaged-goods company with retail and e-commerce distribution; it does not publish a public developer API or open partner integration portal at the corporate level. B2B trading-partner connectivity with retailers and distributors is handled via standard EDI / GDSN flows rather than a public REST API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/reckitt/refs/heads/main/screenshots/reckitt-2026-06-20T192658.png",
+     "score": 6.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 5.3,
-      "developer_ergonomics": 2.2,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1569,22 +1584,23 @@
      "rank": 40
     },
     {
-     "name": "Nestlé",
-     "slug": "nestle",
-     "description": "Nestlé S.A. is the world's largest food and beverage company by revenue, headquartered in Vevey, Switzerland. Its product portfolio spans coffee (Nescafé, Nespresso), water, pet food (Purina), baby and infant nutrition (Gerber, Cerelac), confectionery (KitKat), dairy, and health science. No public developer portal or external API offering has been identified for Nestlé; integrations with retailers and partners are handled through private B2B systems rather than a self-serve developer program.",
-     "score": 6.1,
+     "name": "Lego",
+     "slug": "lego",
+     "description": "The LEGO Group is a Danish toy company and the world's largest manufacturer of interlocking plastic building bricks. The company extends its brand across video games, theme parks, movies, educational products, and licensed sets for children and adults. LEGO does not currently publish a public developer API or developer portal; consumer-facing systems and partner integrations are closed. A public GitHub organization hosts internal engineering tooling and open-source contributions.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lego/refs/heads/main/screenshots/lego-2026-06-20T184413.png",
+     "score": 6.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 5.3,
-      "developer_ergonomics": 2.2,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1606,23 +1622,22 @@
      "rank": 41
     },
     {
-     "name": "Bunge",
-     "slug": "bunge",
-     "description": "Bunge Global SA is a multinational agribusiness and food company connecting farmers to consumers by sourcing, processing, and supplying oilseed and grain products. Operates across grain origination, oilseed processing, refined and specialty oils, milling, sugarcane and biofuel production, and fertilizer sales. In 2025 Bunge completed its merger with Viterra to create a major global agricultural trading and processing platform.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bunge/refs/heads/main/screenshots/bunge-2026-06-20T173759.png",
-     "score": 5.9,
+     "name": "Conagra Brands",
+     "slug": "conagra-brands",
+     "description": "Conagra Brands is a leading North American branded consumer packaged goods (CPG) food company headquartered in Chicago, Illinois. Its portfolio of iconic frozen, refrigerated, and shelf-stable brands includes Marie Callender's, Healthy Choice, Slim Jim, Reddi-wip, Hunt's, Banquet, Birds Eye, Duncan Hines, and Orville Redenbacher's. Conagra internally describes itself as API-first across its digital estate, but does not publish any public developer APIs at this time. Partner integrations such as foodservice, retail, and supplier portals are managed via direct B2B agreements rather than a public developer surface.",
+     "score": 6.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1644,11 +1659,10 @@
      "rank": 42
     },
     {
-     "name": "Chefs' Warehouse",
-     "slug": "chefs-warehouse",
-     "description": "The Chefs' Warehouse, Inc. (NASDAQ: CHEF) is a premier distributor of specialty food products to high-end independent restaurants, fine dining establishments, country clubs, hotels, caterers, culinary schools, bakeries, and specialty food stores across North America and the Middle East. The company offers a broad portfolio of artisan, exotic, and signature ingredients spanning center-of-the-plate proteins, specialty dry goods, produce, pastry, cheese and charcuterie, dairy and eggs, oils and vinegars, and kitchen supplies. Customers order through a B2B e-commerce platform (re-platformed to Optimizely B2B in 2021, previously Magento) and companion iOS and Android wholesale-ordering apps built in partnership with Unbound Commerce. As of this profiling, Chefs' Warehouse does not publish a public developer portal, API documentation, SDKs, or open-source repositories; its digital surface is a buyer-facing ordering experience rather than a programmatic API. This profile documents the company's public footprint for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chefs-warehouse/refs/heads/main/screenshots/chefs-warehouse-2026-06-20T174307.png",
-     "score": 5.7,
+     "name": "Nestlé",
+     "slug": "nestle",
+     "description": "Nestlé S.A. is the world's largest food and beverage company by revenue, headquartered in Vevey, Switzerland. Its product portfolio spans coffee (Nescafé, Nespresso), water, pet food (Purina), baby and infant nutrition (Gerber, Cerelac), confectionery (KitKat), dairy, and health science. No public developer portal or external API offering has been identified for Nestlé; integrations with retailers and partners are handled through private B2B systems rather than a self-serve developer program.",
+     "score": 6.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1656,11 +1670,11 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1682,22 +1696,23 @@
      "rank": 43
     },
     {
-     "name": "ConAgra Foods",
-     "slug": "conagra-foods",
-     "description": "ConAgra Foods, Inc. was the prior corporate name of Conagra Brands. In 2015 the company spun off its foodservice ingredients business as Lamb Weston and renamed the remaining packaged-foods business to Conagra Brands, Inc. This profile is preserved as a historical alias; the active company profile lives at the conagra-brands repository. No public developer APIs were ever published under the ConAgra Foods brand.",
-     "score": 5.7,
+     "name": "Bunge",
+     "slug": "bunge",
+     "description": "Bunge Global SA is a multinational agribusiness and food company connecting farmers to consumers by sourcing, processing, and supplying oilseed and grain products. Operates across grain origination, oilseed processing, refined and specialty oils, milling, sugarcane and biofuel production, and fertilizer sales. In 2025 Bunge completed its merger with Viterra to create a major global agricultural trading and processing platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bunge/refs/heads/main/screenshots/bunge-2026-06-20T173759.png",
+     "score": 5.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1719,23 +1734,30 @@
      "rank": 44
     },
     {
-     "name": "General Mills",
-     "slug": "general-mills",
-     "description": "General Mills is a leading global food company that manufactures and markets branded consumer foods including Cheerios, Betty Crocker, Pillsbury, Haagen- Dazs, Nature Valley, Old El Paso, and Progresso. General Mills operates in over 100 countries. The company does not currently publish a public developer API portal and primarily relies on EDI and direct supply chain integrations with retail partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/general-mills/refs/heads/main/screenshots/general-mills-2026-06-20T181727.png",
-     "score": 5.7,
+     "name": "Darling Ingredients",
+     "slug": "darling-ingredients",
+     "description": "Darling Ingredients is a global developer and producer of sustainable natural ingredients from edible and inedible bio-nutrients, creating products for the food, pet food, feed, fuel, bioenergy, and fertilizer industries. Darling operates Diamond Green Diesel as a renewable diesel joint venture with Valero, and brands such as Rousselot (gelatin and collagen), Sonac, CTH, and EnviroFlight. Darling does not publish a public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/darling-ingredients/refs/heads/main/screenshots/darling-ingredients-2026-06-20T175500.png",
+     "score": 5.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1757,10 +1779,10 @@
      "rank": 45
     },
     {
-     "name": "Hasbro",
-     "slug": "hasbro",
-     "description": "Hasbro is a global play and entertainment company committed to making the world a better place for children and their families through brands and franchises including NERF, MAGIC: THE GATHERING, MY LITTLE PONY, and TRANSFORMERS. This repository tracks public APIs, developer resources, and machine-readable API artifacts associated with Hasbro. No public developer APIs have been published at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hasbro/refs/heads/main/screenshots/hasbro-2026-06-20T182528.png",
+     "name": "Chefs' Warehouse",
+     "slug": "chefs-warehouse",
+     "description": "The Chefs' Warehouse, Inc. (NASDAQ: CHEF) is a premier distributor of specialty food products to high-end independent restaurants, fine dining establishments, country clubs, hotels, caterers, culinary schools, bakeries, and specialty food stores across North America and the Middle East. The company offers a broad portfolio of artisan, exotic, and signature ingredients spanning center-of-the-plate proteins, specialty dry goods, produce, pastry, cheese and charcuterie, dairy and eggs, oils and vinegars, and kitchen supplies. Customers order through a B2B e-commerce platform (re-platformed to Optimizely B2B in 2021, previously Magento) and companion iOS and Android wholesale-ordering apps built in partnership with Unbound Commerce. As of this profiling, Chefs' Warehouse does not publish a public developer portal, API documentation, SDKs, or open-source repositories; its digital surface is a buyer-facing ordering experience rather than a programmatic API. This profile documents the company's public footprint for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chefs-warehouse/refs/heads/main/screenshots/chefs-warehouse-2026-06-20T174307.png",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1772,8 +1794,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1795,10 +1817,9 @@
      "rank": 46
     },
     {
-     "name": "Lego",
-     "slug": "lego",
-     "description": "The LEGO Group is a Danish toy company and the world's largest manufacturer of interlocking plastic building bricks. The company extends its brand across video games, theme parks, movies, educational products, and licensed sets for children and adults. LEGO does not currently publish a public developer API or developer portal; consumer-facing systems and partner integrations are closed. A public GitHub organization hosts internal engineering tooling and open-source contributions.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lego/refs/heads/main/screenshots/lego-2026-06-20T184413.png",
+     "name": "ConAgra Foods",
+     "slug": "conagra-foods",
+     "description": "ConAgra Foods, Inc. was the prior corporate name of Conagra Brands. In 2015 the company spun off its foodservice ingredients business as Lamb Weston and renamed the remaining packaged-foods business to Conagra Brands, Inc. This profile is preserved as a historical alias; the active company profile lives at the conagra-brands repository. No public developer APIs were ever published under the ConAgra Foods brand.",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1810,8 +1831,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1833,10 +1854,10 @@
      "rank": 47
     },
     {
-     "name": "Lululemon Athletica",
-     "slug": "lululemon-athletica",
-     "description": "Lululemon Athletica is a designer, distributor, and retailer of technical athletic apparel, footwear, and accessories for women, men, and girls. Lululemon does not currently publish a public developer portal or open APIs; digital integrations are handled through partner relationships and internal ecommerce, retail, and supply-chain platforms.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lululemon-athletica/refs/heads/main/screenshots/lululemon-athletica-2026-06-20T184755.png",
+     "name": "General Mills",
+     "slug": "general-mills",
+     "description": "General Mills is a leading global food company that manufactures and markets branded consumer foods including Cheerios, Betty Crocker, Pillsbury, Haagen- Dazs, Nature Valley, Old El Paso, and Progresso. General Mills operates in over 100 countries. The company does not currently publish a public developer API portal and primarily relies on EDI and direct supply chain integrations with retail partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/general-mills/refs/heads/main/screenshots/general-mills-2026-06-20T181727.png",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1848,8 +1869,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1871,10 +1892,10 @@
      "rank": 48
     },
     {
-     "name": "Reckitt Benckiser",
-     "slug": "reckitt",
-     "description": "Reckitt Benckiser is a British multinational consumer-goods company focused on health, hygiene, and nutrition. Its portfolio includes globally recognised brands such as Lysol, Dettol, Mucinex, Strepsils, Nurofen, Veet, Finish, Vanish, Air Wick, Calgon, Durex, and Enfamil/Mead Johnson infant nutrition, sold in nearly 200 markets. Reckitt operates as a pure consumer packaged-goods company with retail and e-commerce distribution; it does not publish a public developer API or open partner integration portal at the corporate level. B2B trading-partner connectivity with retailers and distributors is handled via standard EDI / GDSN flows rather than a public REST API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/reckitt/refs/heads/main/screenshots/reckitt-2026-06-20T192658.png",
+     "name": "Hasbro",
+     "slug": "hasbro",
+     "description": "Hasbro is a global play and entertainment company committed to making the world a better place for children and their families through brands and franchises including NERF, MAGIC: THE GATHERING, MY LITTLE PONY, and TRANSFORMERS. This repository tracks public APIs, developer resources, and machine-readable API artifacts associated with Hasbro. No public developer APIs have been published at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hasbro/refs/heads/main/screenshots/hasbro-2026-06-20T182528.png",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1886,8 +1907,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1909,23 +1930,23 @@
      "rank": 49
     },
     {
-     "name": "Darling Ingredients",
-     "slug": "darling-ingredients",
-     "description": "Darling Ingredients is a global developer and producer of sustainable natural ingredients from edible and inedible bio-nutrients, creating products for the food, pet food, feed, fuel, bioenergy, and fertilizer industries. Darling operates Diamond Green Diesel as a renewable diesel joint venture with Valero, and brands such as Rousselot (gelatin and collagen), Sonac, CTH, and EnviroFlight. Darling does not publish a public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/darling-ingredients/refs/heads/main/screenshots/darling-ingredients-2026-06-20T175500.png",
-     "score": 5.4,
+     "name": "Lululemon Athletica",
+     "slug": "lululemon-athletica",
+     "description": "Lululemon Athletica is a designer, distributor, and retailer of technical athletic apparel, footwear, and accessories for women, men, and girls. Lululemon does not currently publish a public developer portal or open APIs; digital integrations are handled through partner relationships and internal ecommerce, retail, and supply-chain platforms.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lululemon-athletica/refs/heads/main/screenshots/lululemon-athletica-2026-06-20T184755.png",
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1962,8 +1983,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2000,8 +2021,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2038,8 +2059,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2076,8 +2097,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2114,8 +2135,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2151,8 +2172,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2188,8 +2209,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2226,8 +2247,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2264,8 +2285,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2302,8 +2323,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2325,11 +2346,11 @@
      "rank": 60
     },
     {
-     "name": "Post Holdings",
-     "slug": "post",
-     "description": "Post Holdings is a consumer packaged goods holding company with businesses in center-of-the-store, refrigerated, foodservice, food ingredient, and convenient nutrition product categories, with a brand portfolio that includes Post Consumer Brands, Bob Evans, Weetabix, and Michael Foods.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/post/refs/heads/main/screenshots/post-2026-06-20T191945.png",
-     "score": 4.5,
+     "name": "Monster Beverage",
+     "slug": "monster-beverage",
+     "description": "Monster Beverage Corporation is a marketer and distributor of energy drinks and alternative beverages, offering brands including Monster Energy, Reign, NOS, Burn, Mother, Relentless, and Predator. It is a Fortune 500 company headquartered in Corona, California.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/monster-beverage/refs/heads/main/screenshots/monster-beverage-2026-06-20T185734.png",
+     "score": 4.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2337,11 +2358,18 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2363,23 +2391,23 @@
      "rank": 61
     },
     {
-     "name": "Cal-Maine Foods",
-     "slug": "cal-maine-foods",
-     "description": "Cal-Maine Foods, Inc. is the largest producer and distributor of fresh shell eggs in the United States. The company sells most of its shell eggs to grocery store chains, club stores, foodservice distributors, and egg product consumers across the country and produces specialty eggs including organic, cage-free, free-range, and nutritionally enhanced varieties. No public developer API or technical documentation portal is currently available.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cal-maine-foods/refs/heads/main/screenshots/cal-maine-foods-2026-06-20T173840.png",
-     "score": 4.4,
+     "name": "Post Holdings",
+     "slug": "post",
+     "description": "Post Holdings is a consumer packaged goods holding company with businesses in center-of-the-store, refrigerated, foodservice, food ingredient, and convenient nutrition product categories, with a brand portfolio that includes Post Consumer Brands, Bob Evans, Weetabix, and Michael Foods.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/post/refs/heads/main/screenshots/post-2026-06-20T191945.png",
+     "score": 4.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 44.4,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2401,9 +2429,10 @@
      "rank": 62
     },
     {
-     "name": "Crocs",
-     "slug": "crocs",
-     "description": "Crocs, Inc. is a global designer, manufacturer, and retailer of casual footwear known for its iconic molded clog. The company sells through e-commerce, owned retail, and wholesale channels worldwide and also owns the HEYDUDE casual footwear brand. Crocs does not publish a public developer API portal.",
+     "name": "Cal-Maine Foods",
+     "slug": "cal-maine-foods",
+     "description": "Cal-Maine Foods, Inc. is the largest producer and distributor of fresh shell eggs in the United States. The company sells most of its shell eggs to grocery store chains, club stores, foodservice distributors, and egg product consumers across the country and produces specialty eggs including organic, cage-free, free-range, and nutritionally enhanced varieties. No public developer API or technical documentation portal is currently available.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cal-maine-foods/refs/heads/main/screenshots/cal-maine-foods-2026-06-20T173840.png",
      "score": 4.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2415,8 +2444,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2438,23 +2467,22 @@
      "rank": 63
     },
     {
-     "name": "Unilever",
-     "slug": "unilever",
-     "description": "A British-Dutch multinational consumer goods company with a portfolio spanning food, personal care, and household brands. Owns over 400 brands including Dove, Ben & Jerry's, Hellmann's, and Vaseline sold in 190 countries.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/unilever/refs/heads/main/screenshots/unilever-2026-06-20T200030.png",
-     "score": 4.2,
+     "name": "Crocs",
+     "slug": "crocs",
+     "description": "Crocs, Inc. is a global designer, manufacturer, and retailer of casual footwear known for its iconic molded clog. The company sells through e-commerce, owned retail, and wholesale channels worldwide and also owns the HEYDUDE casual footwear brand. Crocs does not publish a public developer API portal.",
+     "score": 4.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 35.2,
+      "discoverability": 44.4,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2476,23 +2504,23 @@
      "rank": 64
     },
     {
-     "name": "Flowers Foods",
-     "slug": "flowers-foods",
-     "description": "Flowers Foods is one of the largest producers and marketers of packaged bakery foods in the United States, with brands including Nature's Own, Wonder, Dave's Killer Bread, Tastykake, and Mrs. Freshley's. No public, developer-facing APIs have been identified for this company; partner and retailer integrations appear to be handled through internal EDI and account-managed channels.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flowers-foods/refs/heads/main/screenshots/flowers-foods-2026-06-20T181333.png",
-     "score": 4.1,
+     "name": "Unilever",
+     "slug": "unilever",
+     "description": "A British-Dutch multinational consumer goods company with a portfolio spanning food, personal care, and household brands. Owns over 400 brands including Dove, Ben & Jerry's, Hellmann's, and Vaseline sold in 190 countries.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/unilever/refs/heads/main/screenshots/unilever-2026-06-20T200030.png",
+     "score": 4.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 35.2,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2514,10 +2542,10 @@
      "rank": 65
     },
     {
-     "name": "Kellanova",
-     "slug": "kellanova",
-     "description": "Kellanova is a global snacks-led consumer packaged foods company, formed in 2023 from the spin-off of the Kellogg Company's snacks, international cereal and noodles, and North American frozen breakfast businesses. Kellanova owns and markets brands including Pringles, Cheez-It, Pop-Tarts, Eggo, RXBAR, MorningStar Farms, and Special K outside North America.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kellanova/refs/heads/main/screenshots/kellanova-2026-06-20T183945.png",
+     "name": "Flowers Foods",
+     "slug": "flowers-foods",
+     "description": "Flowers Foods is one of the largest producers and marketers of packaged bakery foods in the United States, with brands including Nature's Own, Wonder, Dave's Killer Bread, Tastykake, and Mrs. Freshley's. No public, developer-facing APIs have been identified for this company; partner and retailer integrations appear to be handled through internal EDI and account-managed channels.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flowers-foods/refs/heads/main/screenshots/flowers-foods-2026-06-20T181333.png",
      "score": 4.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2529,8 +2557,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2552,10 +2580,10 @@
      "rank": 66
     },
     {
-     "name": "Kraft Heinz",
-     "slug": "kraft-heinz",
-     "description": "The Kraft Heinz Company is one of the largest food and beverage companies in the world, producing iconic brands including Kraft, Heinz, Oscar Mayer, Philadelphia, Velveeta, Lunchables, Planters, and Maxwell House. Kraft Heinz does not currently publish a public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kraft-heinz/refs/heads/main/screenshots/kraft-heinz-2026-06-20T184146.png",
+     "name": "Kellanova",
+     "slug": "kellanova",
+     "description": "Kellanova is a global snacks-led consumer packaged foods company, formed in 2023 from the spin-off of the Kellogg Company's snacks, international cereal and noodles, and North American frozen breakfast businesses. Kellanova owns and markets brands including Pringles, Cheez-It, Pop-Tarts, Eggo, RXBAR, MorningStar Farms, and Special K outside North America.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kellanova/refs/heads/main/screenshots/kellanova-2026-06-20T183945.png",
      "score": 4.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2567,8 +2595,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2590,10 +2618,10 @@
      "rank": 67
     },
     {
-     "name": "Monster Beverage",
-     "slug": "monster-beverage",
-     "description": "Monster Beverage Corporation is a marketer and distributor of energy drinks and alternative beverages, offering brands including Monster Energy, Reign, NOS, Burn, Mother, Relentless, and Predator. It is a Fortune 500 company headquartered in Corona, California.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/monster-beverage/refs/heads/main/screenshots/monster-beverage-2026-06-20T185734.png",
+     "name": "Kraft Heinz",
+     "slug": "kraft-heinz",
+     "description": "The Kraft Heinz Company is one of the largest food and beverage companies in the world, producing iconic brands including Kraft, Heinz, Oscar Mayer, Philadelphia, Velveeta, Lunchables, Planters, and Maxwell House. Kraft Heinz does not currently publish a public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kraft-heinz/refs/heads/main/screenshots/kraft-heinz-2026-06-20T184146.png",
      "score": 4.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2605,8 +2633,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2643,8 +2671,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2681,8 +2709,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2719,8 +2747,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2756,8 +2784,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2794,8 +2822,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2832,8 +2860,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2870,8 +2898,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2907,8 +2935,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2945,8 +2973,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2983,8 +3011,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3021,8 +3049,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3059,8 +3087,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3096,8 +3124,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3133,8 +3161,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3171,8 +3199,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 11
 apis:
 - description: The Scala Standard Library provides core data structures, collections, concurrent primitives, and runtime utilities for Scala programs on the JVM, JavaScript (Scala.js), and Native (Scala Native) runt
@@ -184,20 +184,20 @@ rules:
     warn: 3
   slug: scala-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 33.7
-  delta: 0.0
+  band: emerging
+  composite: 25.9
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 12.9
     developer_ergonomics: 15.2
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 33.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/scala/refs/heads/main/screenshots/scala-2026-06-20T193449.png
 security:
 - kind: domain-security

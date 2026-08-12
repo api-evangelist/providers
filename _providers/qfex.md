@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: 'Multiplexed WebSocket gateway for all QFEX real-time market data streams: order book, trades, candles, BBO, mark price, funding rate, open interest, market stats and reference data. Documented as Asyn'
@@ -58,6 +58,10 @@ asyncapis:
   name: QFEX Multiplexed WebSocket API
   slug: qfex-trade-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/qfex-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -196,17 +200,17 @@ overview: 'Qfex publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
   The Qfex catalog on APIs.io includes 3 event-driven AsyncAPI specifications.
 
 
-  Qfex''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, sandbox, changelog, and 23 more developer resources.'
+  Qfex''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, sandbox, changelog, and 24 more developer resources.'
 random_paper: 88
 score:
   band: developing
-  composite: 55.2
-  delta: 0.0
+  composite: 53.9
+  delta: -1.3
   facets:
     commercial_clarity: 44.7
-    contract_quality: 65.3
+    contract_quality: 63.2
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 47.4
   previous_composite: 55.2
@@ -225,8 +229,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

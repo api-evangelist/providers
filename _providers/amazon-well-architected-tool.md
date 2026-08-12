@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -163,6 +163,22 @@ collections:
   name: AWS Well-Architected Tool ConsolidatedReport#Format WorkloadsSummaries API
   slug: postman-amazon-well-architected-tool-workloadssummaries-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/aws-samples/custom-lens-wa-hub/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/aws-samples/custom-lens-wa-hub/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/aws-samples/custom-lens-wa-hub/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/aws-samples/custom-lens-wa-hub/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2581,7 +2597,7 @@ overview: 'Amazon Well-Architected Tool publishes 13 APIs on the [APIs.io](https
   The Amazon Well-Architected Tool catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Well-Architected Tool''s developer surface includes authentication, developer portal, documentation, developer console, support, signup flow, and 28 more developer resources.'
+  Amazon Well-Architected Tool''s developer surface includes authentication, developer portal, documentation, developer console, support, signup flow, and 32 more developer resources.'
 plans:
 - name: Amazon Well Architected Tool Plans Pricing
   plan_count: 3
@@ -2609,16 +2625,16 @@ rules:
     warn: 15
   slug: amazon-well-architected-tool-spectral-rules
 score:
-  band: exemplar
-  composite: 68.3
-  delta: 0.0
+  band: strong
+  composite: 59.8
+  delta: -8.5
   facets:
-    commercial_clarity: 89.5
-    contract_quality: 76.8
+    commercial_clarity: 65.8
+    contract_quality: 73.9
     developer_ergonomics: 43.5
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 68.3
   provenance:
     agentic_access: derived
@@ -2627,9 +2643,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/screenshots/amazon-well-architected-tool-2026-07-25T200017.png
 security:
 - kind: authentication

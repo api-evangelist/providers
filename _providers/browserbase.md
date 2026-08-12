@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,6 +57,18 @@ collections:
   name: Browserbase API
   slug: open-browserbase
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/browserbase/mcp-server-browserbase/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/browserbase/mcp-server-browserbase/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/browserbase/mcp-server-browserbase/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -188,7 +200,7 @@ overview: 'Browserbase publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
   The Browserbase catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Browserbase''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, changelog, signup flow, and 11 more developer resources.'
+  Browserbase''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, changelog, signup flow, and 14 more developer resources.'
 plans:
 - name: Browserbase Plans Pricing
   plan_count: 1
@@ -217,13 +229,13 @@ rules:
   slug: browserbase-rules
 score:
   band: strong
-  composite: 56.2
-  delta: 0.0
+  composite: 58.9
+  delta: 2.7
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 65.9
+    commercial_clarity: 73.7
+    contract_quality: 63.4
     developer_ergonomics: 28.3
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 58.3
     operational_transparency: 57.9
   previous_composite: 56.2
@@ -234,8 +246,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/screenshots/browserbase-2026-06-20T173725.png
 security:

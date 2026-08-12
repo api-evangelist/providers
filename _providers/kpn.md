@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 54.3
-  scored_at: '2026-08-10'
+  score: 50.7
+  scored_at: '2026-08-11'
 api_count: 38
 apis:
 - description: With KPN Number Verify, you can quickly check whether the mobile number someone provides is the same as their SIM card.
@@ -353,13 +354,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 63.3
-  delta: 0.0
+  composite: 58.9
+  delta: -4.4
   facets:
     commercial_clarity: 34.2
-    contract_quality: 66.1
+    contract_quality: 63.6
     developer_ergonomics: 66.8
-    discoverability: 77.8
+    discoverability: 66.7
     governance: 20.8
     operational_transparency: 94.7
   previous_composite: 63.3
@@ -377,9 +378,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 86.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 66.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/screenshots/kpn-2026-08-07T171335.png
 security:

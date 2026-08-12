@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 73.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -224,11 +224,11 @@ scopes:
   summary_line: 14 scopes · clientCredentials
 score:
   band: strong
-  composite: 61.8
-  delta: 0.0
+  composite: 57.9
+  delta: -3.9
   facets:
     commercial_clarity: 42.1
-    contract_quality: 73.8
+    contract_quality: 71.1
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 20.8
@@ -249,9 +249,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 84.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 62.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/screenshots/moneris-2026-08-07T184149.png
 security:

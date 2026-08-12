@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -442,11 +442,11 @@ rules:
   slug: deliveroo-spectral-rules
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 46.8
+  delta: -0.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 32.2
+    contract_quality: 31.0
     developer_ergonomics: 39.1
     discoverability: 68.5
     governance: 62.5
@@ -459,8 +459,8 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/screenshots/deliveroo-2026-06-20T175902.png
 security:

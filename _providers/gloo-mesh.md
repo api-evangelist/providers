@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Gloo Mesh Enterprise (also called Gloo Platform) is a service mesh management platform built on Istio that provides intra-mesh and multi-cluster routing, access policies, JWT authentication, rate limi
@@ -117,20 +117,20 @@ rate_limits:
   name: Gloo Mesh Rate Limits
   slug: gloo-mesh-rate-limits
 score:
-  band: thin
-  composite: 32.7
-  delta: 0.0
+  band: emerging
+  composite: 24.9
+  delta: -7.8
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 34.8
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 32.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/gloo-mesh/refs/heads/main/screenshots/gloo-mesh-2026-06-20T181924.png
 security:
 - kind: domain-security

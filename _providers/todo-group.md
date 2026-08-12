@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: 'Repolinter is an open source linting tool for repositories that validates compliance with open source best practices. It checks repositories for standard files like LICENSE, README, CONTRIBUTING, and '
@@ -48,6 +48,10 @@ apis:
   slug: ospology
 artifact_total: 29
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/todogroup/repolinter/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -138,7 +142,7 @@ overview: 'TODO Group publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   The TODO Group catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  TODO Group''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
+  TODO Group''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Todo Group Plans Pricing
   plan_count: 3
@@ -159,19 +163,19 @@ rules:
   slug: todo-group-spectral-rules
 score:
   band: emerging
-  composite: 26.2
-  delta: 0.0
+  composite: 19.2
+  delta: -7.0
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 15.2
     discoverability: 55.6
     governance: 47.9
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 26.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/todo-group/refs/heads/main/screenshots/todo-group-2026-06-20T195427.png
 security:
 - kind: domain-security

@@ -16,20 +16,20 @@
      "slug": "marriott",
      "description": "Marriott International is the world's largest hotel group by room count, headquartered in Bethesda, Maryland, United States, operating and franchising roughly thirty brands from The Ritz-Carlton, St. Regis and W through Marriott Hotels, Sheraton, Westin and Courtyard down to Fairfield, Moxy and StudioRes, plus the Homes & Villas by Marriott Bonvoy home-rental marketplace and the Marriott Bonvoy loyalty program. It sits on the supply side of the travel distribution chain: it publishes rates and availability into every major global distribution system — Marriott's own travel-agent site states it \"participates in the following GDS: Amadeus, Sabre, Travelport (Apollo/Galileo, and Worldspan)\" — sells through the OTAs, connects short-term-rental supply through a channel-connectivity partner program, and spends heavily to pull demand back to direct booking on Marriott.com and the Bonvoy app. Its API posture is closed. A Broadcom Layer7 developer portal exists at devportalprod.marriott.com and returns HTTP 200, but its anonymous API catalog is literally empty and the portal's own home content returns HTTP 401 — there is no self-serve signup, no public API reference, no published rates/availability/booking API, no sandbox, no SDK, no changelog and no exit path. The only Marriott OpenAPI documents that can be read without a contract are eight internal and partner-facing specifications left publicly readable on SwaggerHub under the \"marriott-api\" owner; six are mirrored here verbatim as evidence. Everything a developer would actually want is behind a partner relationship, a travel-agent registration, or a GDS or channel-manager contract.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/marriott/refs/heads/main/screenshots/marriott-2026-08-07T172102.png",
-     "score": 36.0,
+     "score": 35.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 83.3,
-      "contract_quality": 50.1,
+      "contract_quality": 48.2,
       "governance": 11.5,
       "operational_transparency": 10.5,
       "developer_ergonomics": 27.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 45.3,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 41.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -42,7 +42,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
@@ -53,19 +53,19 @@
      "name": "Hilton",
      "slug": "hilton",
      "description": "Hilton is one of the largest and fastest-growing hospitality companies in the world, with a portfolio of hotel brands across luxury, full-service, focused-service, and timeshare segments. Hilton operates a developer program that exposes APIs for hotel search, availability, reservations, loyalty program integration, and partner distribution. Most Hilton APIs are partner-gated and require credentials issued through the Hilton developer program.",
-     "score": 35.6,
+     "score": 29.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 65.1,
+      "contract_quality": 62.7,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 19.6,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -113,8 +113,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -150,8 +150,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -188,8 +188,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -226,8 +226,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -264,8 +264,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -302,8 +302,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -325,22 +325,23 @@
      "rank": 8
     },
     {
-     "name": "Hyatt Hotels",
-     "slug": "hyatt-hotels",
-     "description": "Hyatt Hotels Corporation is a global hospitality company managing a portfolio of hotel, resort, and residential brands. This repository tracks public APIs, developer resources, and integration touchpoints associated with Hyatt Hotels.",
+     "name": "Host Hotels & Resorts",
+     "slug": "host-hotels-and-resorts",
+     "description": "Host Hotels & Resorts is a leading lodging real estate investment trust (REIT) that owns luxury and upper-upscale hotels operating under premium brands in major U.S. and international markets. No public APIs are offered.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/host-hotels-and-resorts/refs/heads/main/screenshots/host-hotels-and-resorts-2026-06-20T182838.png",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -362,9 +363,9 @@
      "rank": 9
     },
     {
-     "name": "MGM Resorts International",
-     "slug": "mgm-resorts-international",
-     "description": "MGM Resorts International is a global entertainment company with national and international locations featuring best-in-class hotels and casinos, state-of-the-art meetings and conference spaces, and dining and entertainment venues. This repository captures the APIs, developer tools, and machine-readable API artifacts for MGM Resorts International.",
+     "name": "Hyatt Hotels",
+     "slug": "hyatt-hotels",
+     "description": "Hyatt Hotels Corporation is a global hospitality company managing a portfolio of hotel, resort, and residential brands. This repository tracks public APIs, developer resources, and integration touchpoints associated with Hyatt Hotels.",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -376,8 +377,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -399,10 +400,9 @@
      "rank": 10
     },
     {
-     "name": "Norwegian Cruise Line Holdings",
-     "slug": "norwegian-cruise-line",
-     "description": "Norwegian Cruise Line Holdings Ltd. (NYSE: NCLH) is a global cruise company operating three premium brands: Norwegian Cruise Line (pioneer of Freestyle Cruising), Oceania Cruises, and Regent Seven Seas Cruises. The company operates a combined fleet of more than 30 ships sailing to over 700 destinations worldwide. No public developer portal or external API offering has been identified for Norwegian Cruise Line Holdings; travel agent and global distribution system (GDS) integrations are handled through contracted partner programs rather than a self-serve developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/norwegian-cruise-line/refs/heads/main/screenshots/norwegian-cruise-line-2026-06-20T190419.png",
+     "name": "MGM Resorts International",
+     "slug": "mgm-resorts-international",
+     "description": "MGM Resorts International is a global entertainment company with national and international locations featuring best-in-class hotels and casinos, state-of-the-art meetings and conference spaces, and dining and entertainment venues. This repository captures the APIs, developer tools, and machine-readable API artifacts for MGM Resorts International.",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -414,8 +414,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -437,6 +437,44 @@
      "rank": 11
     },
     {
+     "name": "Norwegian Cruise Line Holdings",
+     "slug": "norwegian-cruise-line",
+     "description": "Norwegian Cruise Line Holdings Ltd. (NYSE: NCLH) is a global cruise company operating three premium brands: Norwegian Cruise Line (pioneer of Freestyle Cruising), Oceania Cruises, and Regent Seven Seas Cruises. The company operates a combined fleet of more than 30 ships sailing to over 700 destinations worldwide. No public developer portal or external API offering has been identified for Norwegian Cruise Line Holdings; travel agent and global distribution system (GDS) integrations are handled through contracted partner programs rather than a self-serve developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/norwegian-cruise-line/refs/heads/main/screenshots/norwegian-cruise-line-2026-06-20T190419.png",
+     "score": 5.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 12
+    },
+    {
      "name": "Loews Corporation",
      "slug": "loews",
      "description": "Loews Corporation is a diversified holding company with subsidiaries operating in commercial property and casualty insurance (CNA Financial), natural gas pipelines (Boardwalk Pipelines), packaging products (Altium Packaging), and hotels (Loews Hotels). Loews Corporation does not currently publish a public developer API or developer portal; this index tracks the company website and consumer-facing properties for reference.",
@@ -452,8 +490,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -479,7 +517,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Boyd Gaming",
@@ -497,46 +535,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 13
-    },
-    {
-     "name": "Host Hotels & Resorts",
-     "slug": "host-hotels-and-resorts",
-     "description": "Host Hotels & Resorts is a leading lodging real estate investment trust (REIT) that owns luxury and upper-upscale hotels operating under premium brands in major U.S. and international markets. No public APIs are offered.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/host-hotels-and-resorts/refs/heads/main/screenshots/host-hotels-and-resorts-2026-06-20T182838.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -573,8 +573,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -610,8 +610,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -648,8 +648,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -686,8 +686,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -724,8 +724,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -761,8 +761,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -119,12 +119,12 @@ overview: 'MongoDB Atlas publishes 4 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 44
 score:
   band: thin
-  composite: 30.6
-  delta: 0.0
+  composite: 34.1
+  delta: 3.5
   facets:
-    commercial_clarity: 18.4
-    contract_quality: 58.1
-    developer_ergonomics: 21.7
+    commercial_clarity: 31.6
+    contract_quality: 56.0
+    developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
@@ -136,8 +136,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mongodb-atlas/refs/heads/main/screenshots/mongodb-atlas-2026-06-20T185729.png
 security:

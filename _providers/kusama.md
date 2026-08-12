@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-08-10'
+  score: 44.8
+  scored_at: '2026-08-11'
 api_count: 21
 apis:
 - description: 'The public Substrate JSON-RPC 2.0 interface to the Kusama relay chain. Probed live on 2026-07-19: 130 methods are advertised by rpc_methods, spanning chain (blocks/headers), state (storage, metadata, '
@@ -100,6 +100,10 @@ asyncapis:
   name: Kusama JSON-RPC Subscription API
   slug: kusama-jsonrpc-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kusama-sidecar-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -242,17 +246,17 @@ overview: 'Kusama publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
   The Kusama catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kusama''s developer surface includes documentation, API reference, getting-started guide, support, CLI, authentication, changelog, and 22 more developer resources.'
+  Kusama''s developer surface includes documentation, API reference, getting-started guide, support, CLI, authentication, changelog, and 23 more developer resources.'
 random_paper: 62
 score:
   band: developing
-  composite: 50.8
-  delta: 0.0
+  composite: 49.2
+  delta: -1.6
   facets:
     commercial_clarity: 21.1
-    contract_quality: 60.4
+    contract_quality: 58.4
     developer_ergonomics: 73.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 47.4
   previous_composite: 50.8
@@ -265,8 +269,8 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kusama/refs/heads/main/screenshots/kusama-2026-07-25T224336.png
 security:

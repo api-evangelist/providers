@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -337,16 +337,16 @@ rules:
     warn: 5
   slug: coingecko-rules
 score:
-  band: strong
-  composite: 60.9
-  delta: 0.0
+  band: developing
+  composite: 54.3
+  delta: -6.6
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 74.6
+    commercial_clarity: 60.5
+    contract_quality: 71.8
     developer_ergonomics: 39.1
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 41.7
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 60.9
   provenance:
     agentic_access: derived
@@ -361,9 +361,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/screenshots/coingecko-2026-06-20T174737.png
 security:
 - kind: authentication

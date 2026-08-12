@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-10'
+  score: 35.4
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Trellis property contracts generated from Hono/Zod schemas.
@@ -39,6 +39,10 @@ apis:
   slug: trellistech-tasks-api
 artifact_total: 5
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/trellistech-public-api-overlay.yaml
 - group: agent
   title: ''
   type: LLMsTxt
@@ -138,17 +142,17 @@ network: true
 overview: 'Trellis publishes 2 APIs on the [APIs.io](https://apis.io/) network: properties API and tasks API. Tagged areas include Company, Property Management, Vacation Rentals, Short-Term Rentals, and AI Agents.
 
 
-  Trellis'' developer surface includes CLI, changelog, documentation, API reference, getting-started guide, engineering blog, signup flow, and 14 more developer resources.'
+  Trellis'' developer surface includes CLI, changelog, documentation, API reference, getting-started guide, engineering blog, signup flow, and 15 more developer resources.'
 random_paper: 27
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 45.5
+  delta: -1.6
   facets:
     commercial_clarity: 34.2
-    contract_quality: 55.0
+    contract_quality: 53.0
     developer_ergonomics: 58.2
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 36.8
   previous_composite: 47.1
@@ -161,8 +165,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

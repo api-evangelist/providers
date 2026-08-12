@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The eGifter API is a powerful tool that allows developers to integrate digital gifting capabilities into their applications and websites. With this API, users can easily send personalized gift cards f
@@ -87,19 +87,25 @@ rate_limits:
   slug: egifter-rate-limits
 score:
   band: emerging
-  composite: 21.2
-  delta: 0.0
+  composite: 13.7
+  delta: -7.5
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 2.2
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 21.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 15.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/egifter/refs/heads/main/screenshots/egifter-2026-07-25T212954.png
 security:
 - kind: domain-security

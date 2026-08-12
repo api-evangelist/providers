@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: 'REST API for the CCO.IO Automated Direct platform at direct.cco.io. Supports search, retrieval and management of displays, networks, markets, products, orders, bookings, campaigns, creatives, photos, '
@@ -260,8 +260,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clear-channel-outdoor/refs/heads/main/screenshots/clear-channel-outdoor-2026-06-20T174453.png
 security:

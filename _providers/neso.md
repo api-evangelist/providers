@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 25.9
-  scored_at: '2026-08-10'
+  score: 22.3
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The public CKAN 2.8.7 API behind the NESO Data Portal, serving 128 open datasets covering GB electricity demand, generation, balancing, ancillary services, constraints, interconnectors, connection reg
@@ -39,6 +39,10 @@ apis:
   slug: neso-carbon-intensity-api
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/carbon-intensity/api-definitions/issues
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -167,7 +171,7 @@ network: true
 overview: 'National Energy System Operator (NESO) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, United Kingdom, Electricity, Energy Markets, and Grid.
 
 
-  National Energy System Operator (NESO)''s developer surface includes authentication, documentation, developer portal, API reference, support, product news, and 22 more developer resources.'
+  National Energy System Operator (NESO)''s developer surface includes authentication, documentation, developer portal, API reference, support, product news, and 23 more developer resources.'
 random_paper: 89
 rate_limits:
 - limit_count: 3
@@ -195,8 +199,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 41.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neso/refs/heads/main/screenshots/neso-2026-08-07T184913.png
 security:

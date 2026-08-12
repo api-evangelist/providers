@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -165,16 +165,16 @@ rules:
     warn: 5
   slug: flagsmith-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.9
-  delta: 0.0
+  band: thin
+  composite: 36.3
+  delta: -8.6
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 78.3
+    commercial_clarity: 15.8
+    contract_quality: 75.4
     developer_ergonomics: 13.0
     discoverability: 50.0
     governance: 41.7
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 44.9
   provenance:
     agentic_access: derived
@@ -183,9 +183,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/screenshots/flagsmith-2026-06-20T181306.png
 security:
 - kind: authentication

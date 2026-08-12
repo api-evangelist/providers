@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,6 +64,10 @@ apis:
   slug: conceptnet-utilities-api
 artifact_total: 22
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/commonsense/conceptnet5/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -164,7 +168,7 @@ overview: 'ConceptNet publishes 7 APIs on the [APIs.io](https://apis.io/) networ
   The ConceptNet catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  ConceptNet''s developer surface includes documentation, getting-started guide, FAQ, support, and 10 more developer resources.'
+  ConceptNet''s developer surface includes documentation, getting-started guide, FAQ, support, and 11 more developer resources.'
 plans:
 - name: Conceptnet Plans Pricing
   plan_count: 2
@@ -185,11 +189,11 @@ rules:
   slug: conceptnet-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.2
-  delta: 0.0
+  composite: 39.7
+  delta: -0.5
   facets:
     commercial_clarity: 28.9
-    contract_quality: 59.2
+    contract_quality: 57.0
     developer_ergonomics: 23.9
     discoverability: 81.5
     governance: 58.3
@@ -208,8 +212,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conceptnet/refs/heads/main/screenshots/conceptnet-2026-06-20T174840.png
 security:

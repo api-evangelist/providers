@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API for provisioning and managing Class virtual classrooms — Classes, Enrollments, Schedules, Templates, Users, launch links, and attendance / metrics reporting. 27 endpoints across 7 resource gr
@@ -133,8 +133,8 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 27.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/class/refs/heads/main/screenshots/class-2026-07-25T205513.png
 security:

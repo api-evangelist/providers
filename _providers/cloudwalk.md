@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +12,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-08-10'
+  score: 50.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -31,12 +32,16 @@ apis:
 - description: 'The InfinitePay Integrated Checkout ("Checkout Integrado") API. Two public JSON operations — create a hosted checkout payment link for a basket of items, and check the payment status of a link — plus '
   name: InfinitePay Checkout API
   slug: infinitepay-checkout-api
-artifact_total: 6
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Cloudwalk Infinitepay Webhooks
   slug: cloudwalk-infinitepay-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/cloudwalk-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -174,6 +179,10 @@ description: 'CloudWalk, Inc. is a Sunnyvale- and São Paulo-based payments and 
   documents and no MCP or agent surface. The legal entity behind InfinitePay is CLOUDWALK INSTITUIÇÃO DE PAGAMENTO E SERVIÇOS LTDA (CNPJ 18.189.547/0001-42), a Brazilian payment institution supervised by the Banco Central do Brasil.'
 image: https://cdn.prod.website-files.com/6654b3697a9d140e0ca14dcc/6a0bb9e1bb37dcd08e538cc1_Cover-Profile%2044.webp
 layout: provider
+mcp_servers:
+- description: ''
+  name: cloudwalk-mcp.yml
+  slug: cloudwalk-mcpyml
 modified: '2026-08-01'
 name: CloudWalk
 nav: Providers
@@ -184,17 +193,17 @@ overview: 'CloudWalk publishes 1 API on the [APIs.io](https://apis.io/) network:
   The CloudWalk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  CloudWalk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
+  CloudWalk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 random_paper: 38
 score:
-  band: strong
-  composite: 56.2
-  delta: 0.0
+  band: developing
+  composite: 55.1
+  delta: -1.1
   facets:
     commercial_clarity: 52.6
-    contract_quality: 73.6
-    developer_ergonomics: 60.3
-    discoverability: 87.0
+    contract_quality: 70.9
+    developer_ergonomics: 62.5
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 39.5
   previous_composite: 56.2
@@ -214,8 +223,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/screenshots/cloudwalk-2026-08-07T163513.png
 security:

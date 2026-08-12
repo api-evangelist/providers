@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -170,11 +171,11 @@ overview: 'Agora publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 58
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 45.9
+  delta: -0.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 59.7
+    contract_quality: 57.5
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
@@ -196,8 +197,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agora/refs/heads/main/screenshots/agora-2026-07-25T195314.png
 security:

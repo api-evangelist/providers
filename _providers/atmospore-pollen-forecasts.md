@@ -1,10 +1,11 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -17,8 +18,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.5
-  scored_at: '2026-08-10'
+  score: 49.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,6 +56,14 @@ arazzos:
   slug: atmospore-pollen-forecasts-regional-risk-board
 artifact_total: 17
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/atmospore/atmospore-mcp/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/atmospore/atmospore-mcp/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -208,7 +217,7 @@ network: true
 overview: 'Atmospore Pollen Forecasts publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Pollen API, Pollen Area API, Pollen Top API, and 1 more. Tagged areas include weather, pollen, allergy, environmental-data, and health.
 
 
-  Atmospore Pollen Forecasts'' developer surface includes documentation, API reference, support, pricing, signup flow, authentication, sandbox, and 25 more developer resources.'
+  Atmospore Pollen Forecasts'' developer surface includes documentation, API reference, support, pricing, signup flow, authentication, sandbox, and 27 more developer resources.'
 plans:
 - name: Atmospore Pollen Forecasts Plans
   plan_count: 5
@@ -219,23 +228,36 @@ rate_limits:
   name: Atmospore Pollen Forecasts Rate Limits
   slug: atmospore-pollen-forecasts-rate-limits
 score:
-  band: strong
-  composite: 56.7
+  band: developing
+  composite: 53.5
+  delta: -3.2
   facets:
     commercial_clarity: 76.3
-    contract_quality: 57.4
-    developer_ergonomics: 67.4
-    discoverability: 92.6
-    governance: 20.8
+    contract_quality: 61.2
+    developer_ergonomics: 62.5
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 36.8
+  previous_composite: 56.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 40.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 31.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Atmospore Pollen Forecasts Authentication

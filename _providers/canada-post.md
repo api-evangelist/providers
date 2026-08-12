@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 10
 apis:
 - description: Returns available shipping services and their rates for a given origin postal code, destination, parcel weight, and dimensions. Supports domestic, US, and international destinations. Returns base cost
@@ -147,18 +147,18 @@ rate_limits:
   slug: canada-post-rate-limits
 score:
   band: thin
-  composite: 29.0
-  delta: 0.0
+  composite: 29.9
+  delta: 0.9
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
-    developer_ergonomics: 34.8
+    developer_ergonomics: 39.1
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 29.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canada-post/refs/heads/main/screenshots/canada-post-2026-06-20T173916.png
 security:

@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -388,12 +389,12 @@ rules:
     warn: 1
   slug: exchangerate-api-rules
 score:
-  band: exemplar
-  composite: 66.4
-  delta: 0.0
+  band: strong
+  composite: 65.6
+  delta: -0.8
   facets:
     commercial_clarity: 84.2
-    contract_quality: 79.1
+    contract_quality: 76.1
     developer_ergonomics: 50.0
     discoverability: 74.1
     governance: 68.8
@@ -406,8 +407,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/screenshots/exchangerate-api-2026-06-20T180923.png
 security:

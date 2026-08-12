@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-08-10'
+  score: 43.9
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Contacts Management API for the Vodafone Business Messaging Hub, providing CRUD over contacts, lists and custom fields for SMS/MMS campaigns. Documented as an Apiary API Blueprint (project subdomain c
@@ -208,8 +208,8 @@ rate_limits:
   slug: tpg-telecom-rate-limits
 score:
   band: developing
-  composite: 53.8
-  delta: 0.0
+  composite: 52.5
+  delta: -1.3
   facets:
     commercial_clarity: 76.3
     contract_quality: 51.6
@@ -227,9 +227,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 51.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 43.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -347,13 +348,13 @@ rate_limits:
   slug: ocrolus-rate-limits
 score:
   band: strong
-  composite: 60.2
-  delta: 0.0
+  composite: 58.7
+  delta: -1.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 69.8
+    contract_quality: 67.2
     developer_ergonomics: 60.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 76.3
   previous_composite: 60.2
@@ -373,8 +374,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocrolus/refs/heads/main/screenshots/ocrolus-2026-08-07T185929.png
 security:

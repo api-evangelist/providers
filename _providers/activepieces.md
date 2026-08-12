@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -99,6 +99,26 @@ collections:
   name: Activepieces API
   slug: open-activepieces
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/activepieces/activepieces/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/activepieces/activepieces/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/activepieces/activepieces/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/activepieces/activepieces/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/activepieces/activepieces/blob/main/CONTRIBUTING.md
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -460,7 +480,7 @@ overview: 'Activepieces publishes 9 APIs on the [APIs.io](https://apis.io/) netw
   The Activepieces catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Activepieces'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, and 11 more developer resources.'
+  Activepieces'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, and 16 more developer resources.'
 plans:
 - name: Activepieces Plans Pricing
   plan_count: 3
@@ -489,15 +509,15 @@ rules:
   slug: activepieces-spectral-rules
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 45.0
+  delta: -4.6
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 32.0
+    commercial_clarity: 26.3
+    contract_quality: 30.8
     developer_ergonomics: 45.7
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 55.3
   previous_composite: 49.6
   provenance:
     agentic_access: derived
@@ -506,8 +526,8 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/screenshots/activepieces-2026-06-20T164235.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -172,16 +172,16 @@ rules:
     warn: 5
   slug: easypost-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 43.8
-  delta: 0.0
+  band: thin
+  composite: 38.2
+  delta: -5.6
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 66.2
+    commercial_clarity: 23.7
+    contract_quality: 64.1
     developer_ergonomics: 21.7
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 47.9
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 43.8
   provenance:
     agentic_access: derived
@@ -196,9 +196,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/screenshots/easypost-2026-07-25T212719.png
 security:
 - kind: authentication

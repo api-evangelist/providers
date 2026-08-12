@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-10'
+  score: 3.6
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Public machine-readable files Gravie posts on behalf of its plan sponsors under the CMS Transparency in Coverage rule (45 CFR 147.211). Files cover in-network negotiated rates for the Cigna and Cigna '
@@ -168,8 +168,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gravie/refs/heads/main/screenshots/gravie-2026-08-07T165837.png
 security:

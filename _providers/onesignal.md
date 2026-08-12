@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: The Apps API from OneSignal — 21 operation(s) for apps.
@@ -119,16 +119,16 @@ rate_limits:
   name: Onesignal Rate Limits
   slug: onesignal-rate-limits
 score:
-  band: thin
-  composite: 30.5
-  delta: 0.0
+  band: emerging
+  composite: 26.3
+  delta: -4.2
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 67.3
+    commercial_clarity: 13.2
+    contract_quality: 65.1
     developer_ergonomics: 2.2
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 30.5
   provenance:
     contracts:
@@ -142,8 +142,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/screenshots/onesignal-2026-06-20T190717.png
 security:

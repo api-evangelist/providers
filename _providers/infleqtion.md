@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Superstaq is Infleqtion's open-source quantum software platform. Developers write circuits in Qiskit, Cirq, or OpenQASM, and Superstaq applies cross-layer compilation, dynamical-decoupling error mitig
@@ -35,6 +35,18 @@ apis:
   slug: superstaq
 artifact_total: 2
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Infleqtion/client-superstaq/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Infleqtion/client-superstaq/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Infleqtion/client-superstaq/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -135,22 +147,22 @@ network: true
 overview: 'Infleqtion publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Quantum Computing, Quantum Software, Neutral Atom, Atomic Clocks, and Quantum Sensing.
 
 
-  Infleqtion''s developer surface includes documentation, engineering blog, YouTube channel, and 19 more developer resources.'
+  Infleqtion''s developer surface includes documentation, engineering blog, YouTube channel, and 22 more developer resources.'
 random_paper: 37
 score:
   band: minimal
-  composite: 8.8
-  delta: 0.0
+  composite: 10.9
+  delta: 2.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 10.9
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 8.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infleqtion/refs/heads/main/screenshots/infleqtion-2026-06-20T183334.png
 security:

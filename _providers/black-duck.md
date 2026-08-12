@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API for Black Duck SCA (Hub) — projects, versions, components, vulnerabilities, policies, scans, and reports. Each Black Duck server publishes its own OpenAPI 3 document at /api-doc/openapi3-publ
@@ -155,20 +155,20 @@ overview: 'Black Duck publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 49
 score:
   band: thin
-  composite: 41.7
-  delta: 0.0
+  composite: 40.6
+  delta: -1.1
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 73.9
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 47.4
   previous_composite: 41.7
   provenance:
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/screenshots/black-duck-2026-07-25T203232.png
 security:

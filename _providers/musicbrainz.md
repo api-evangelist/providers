@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -141,6 +141,14 @@ collections:
   name: MusicBrainz Web Service v2
   slug: open-musicbrainz-web-service
 common:
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/metabrainz/.github/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/metabrainz/musicbrainz-server/blob/master/CONTRIBUTING.md
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -358,7 +366,7 @@ overview: 'MusicBrainz publishes 16 APIs on the [APIs.io](https://apis.io/) netw
   The MusicBrainz catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  MusicBrainz''s developer surface includes authentication, documentation, engineering blog, CLI, tooling, and 36 more developer resources.'
+  MusicBrainz''s developer surface includes authentication, documentation, engineering blog, CLI, tooling, and 38 more developer resources.'
 plans:
 - name: Musicbrainz Plans Pricing
   plan_count: 3
@@ -392,12 +400,12 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 48.7
+  delta: 0.5
   facets:
     commercial_clarity: 52.6
-    contract_quality: 38.4
-    developer_ergonomics: 32.6
+    contract_quality: 37.2
+    developer_ergonomics: 37.0
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 36.8
@@ -415,8 +423,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 64.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/screenshots/musicbrainz-2026-06-20T185906.png
 security:

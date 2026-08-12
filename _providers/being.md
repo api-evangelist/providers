@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -102,8 +102,8 @@ overview: 'Being is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 53
 score:
   band: minimal
-  composite: 8.0
-  delta: 0.0
+  composite: 8.6
+  delta: 0.6
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -112,8 +112,14 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 8.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 12.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/being/refs/heads/main/screenshots/being-2026-07-25T202704.png
 security:

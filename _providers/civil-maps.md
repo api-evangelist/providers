@@ -15,13 +15,21 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-10'
+  score: 3.6
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/civilmaps/cm-hal/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/civilmaps/cm-hal/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -114,20 +122,25 @@ network: true
 overview: 'Civil Maps is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Autonomous Vehicles, HD Mapping, Localization, and LiDAR.
 
 
-  Civil Maps'' developer surface includes engineering blog and 15 more developer resources.'
+  Civil Maps'' developer surface includes engineering blog and 17 more developer resources.'
 random_paper: 85
 score:
   band: minimal
-  composite: 9.5
+  composite: 8.0
+  delta: -1.5
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.2
     discoverability: 68.5
-    governance: 12.5
+    governance: 0.0
     operational_transparency: 5.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 9.5
+  provenance:
+    conformance: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: domain-security
   name: Civil Maps Domain Security

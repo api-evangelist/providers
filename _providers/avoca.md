@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.0
-  scored_at: '2026-08-10'
+  score: 36.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,12 +62,20 @@ apis:
 - description: Teams accessible to the API key
   name: Avoca Teams API
   slug: avoca-teams-api
-artifact_total: 12
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Avoca Webhooks
   slug: avoca-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/avoca-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/avoca-enterprise-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -156,6 +164,10 @@ created: '2026-07-17'
 description: Avoca is "The AI Front Office for Service Businesses" — always-on AI agents that answer inbound calls, texts, and web chats 24/7 for home-services companies (HVAC, plumbing, electrical, pest control, garage door, and construction), book jobs, run multi-channel outbound re-engagement campaigns, score and coach every call, and respond to leads instantly. The company raised a $125M Series B at a $1B valuation and serves 1,000+ service businesses. Avoca publishes an Enterprise API (bearer API-key auth over https://enterprise-api.avoca.ai) that exposes read access to calls, transcripts, leads, teams, coach/QA evaluations, sessions, bookings, outbound texting, and Simple Scheduler analytics, plus HMAC-signed event webhooks and a Speed-to-Lead intake webhook — designed for enterprise partners ingesting Avoca activity into their BI warehouses and CRMs (ServiceTitan, Dialpad, Five9, 3CX).
 image: https://www.avoca.ai/og-default.webp
 layout: provider
+mcp_servers:
+- description: ''
+  name: avoca-mcp.yml
+  slug: avoca-mcpyml
 modified: '2026-07-18'
 name: Avoca
 nav: Providers
@@ -166,16 +178,16 @@ overview: 'Avoca publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
   The Avoca catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Avoca''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, changelog, and 14 more developer resources.'
+  Avoca''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, changelog, and 16 more developer resources.'
 random_paper: 58
 score:
   band: developing
-  composite: 50.8
-  delta: 0.0
+  composite: 50.6
+  delta: -0.2
   facets:
     commercial_clarity: 42.1
-    contract_quality: 71.3
-    developer_ergonomics: 49.5
+    contract_quality: 68.7
+    developer_ergonomics: 51.6
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
@@ -190,8 +202,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/screenshots/avoca-2026-07-25T202002.png
 security:

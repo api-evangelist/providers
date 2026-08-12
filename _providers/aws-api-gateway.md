@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -140,6 +140,22 @@ collections:
   name: Amazon API Gateway V2 (HTTP and WebSocket)
   slug: open-aws-api-gateway-v2
 common:
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.aws.amazon.com/apigateway/api-reference/
+- group: auth
+  title: ''
+  type: Security
+  url: https://aws.amazon.com/security/?nc1=f_cc
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://aws.amazon.com/compliance/?nc2=h_dsc_aa_cmp
+- group: start
+  title: ''
+  type: Signup
+  url: https://signin.aws.amazon.com/signup?request_type=register
 - group: agent
   title: ''
   type: AgenticAccess
@@ -854,7 +870,7 @@ overview: 'Amazon API Gateway publishes 12 APIs on the [APIs.io](https://apis.io
   The Amazon API Gateway catalog on APIs.io includes 1 event-driven AsyncAPI specification, 30 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Amazon API Gateway''s developer surface includes authentication, documentation, getting-started guide, pricing, CLI, changelog, support, and 33 more developer resources.'
+  Amazon API Gateway''s developer surface includes API reference, signup flow, authentication, documentation, getting-started guide, pricing, CLI, and 37 more developer resources.'
 plans:
 - name: Aws Api Gateway Plans Pricing
   plan_count: 6
@@ -891,15 +907,15 @@ rules:
   slug: aws-api-gateway-spectral-rules
 score:
   band: exemplar
-  composite: 71.4
-  delta: 0.0
+  composite: 70.4
+  delta: -1.0
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 82.8
-    developer_ergonomics: 60.9
-    discoverability: 68.5
+    commercial_clarity: 76.3
+    contract_quality: 79.7
+    developer_ergonomics: 67.4
+    discoverability: 75.9
     governance: 58.3
-    operational_transparency: 68.4
+    operational_transparency: 55.3
   previous_composite: 71.4
   provenance:
     agentic_access: derived
@@ -908,8 +924,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/screenshots/aws-api-gateway-2026-06-20T172738.png
 security:

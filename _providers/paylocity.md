@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -169,13 +169,13 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 36.1
-  delta: 0.0
+  composite: 36.4
+  delta: 0.3
   facets:
     commercial_clarity: 23.7
-    contract_quality: 60.1
+    contract_quality: 58.2
     developer_ergonomics: 41.3
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 36.1
@@ -186,8 +186,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/screenshots/paylocity-2026-06-20T191505.png
 security:

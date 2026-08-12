@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 17655
   human_in_the_loop: 93
@@ -15527,16 +15527,16 @@ rules:
     warn: 4
   slug: microsoft-graph-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 67.9
-  delta: 0.0
+  band: strong
+  composite: 60.0
+  delta: -7.9
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 67.6
+    commercial_clarity: 60.5
+    contract_quality: 67.3
     developer_ergonomics: 56.5
     discoverability: 68.5
     governance: 47.9
-    operational_transparency: 78.9
+    operational_transparency: 55.3
   previous_composite: 67.9
   provenance:
     agentic_access: derived
@@ -15545,9 +15545,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 564
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/screenshots/microsoft-graph-2026-06-20T185504.png
 security:
 - kind: domain-security

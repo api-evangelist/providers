@@ -11,12 +11,13 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
     auth_clarity: true
-    consent_identity: true
+    consent_identity: false
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: false
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 59.2
-  scored_at: '2026-08-10'
+  score: 52.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 272
   human_in_the_loop: 29
@@ -361,6 +362,10 @@ apis:
   slug: tenable-workbenches-api
 artifact_total: 113
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tenable-downloads-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -473,10 +478,6 @@ common:
   title: ''
   type: WellKnown
   url: well-known/tenable-well-known.yml
-- group: auth
-  title: ''
-  type: SecurityTxt
-  url: well-known/tenable-security.txt
 - group: build
   title: ''
   type: Packages
@@ -520,13 +521,13 @@ overview: 'Tenable publishes 107 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 35
 score:
   band: strong
-  composite: 58.2
-  delta: 0.0
+  composite: 56.5
+  delta: -1.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 61.5
+    contract_quality: 59.2
     developer_ergonomics: 69.0
-    discoverability: 83.3
+    discoverability: 72.2
     governance: 11.5
     operational_transparency: 55.3
   previous_composite: 58.2
@@ -540,8 +541,8 @@ score:
       total: 107
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

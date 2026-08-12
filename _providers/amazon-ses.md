@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -231,7 +231,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/amazon-ses-openapi.yml
+  url: openapi/_original/amazon-ses-openapi.yml
 created: '2024-01-15'
 description: Amazon Simple Email Service (SES) is a cloud-based email sending service designed to help digital marketers and application developers send marketing, notification, and transactional emails, providing a reliable and scalable infrastructure for email communication.
 examples:
@@ -316,15 +316,15 @@ rules:
   slug: amazon-ses-spectral-rules
 score:
   band: developing
-  composite: 55.8
-  delta: 0.0
+  composite: 48.8
+  delta: -7.0
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 61.2
-    developer_ergonomics: 30.4
+    commercial_clarity: 44.7
+    contract_quality: 59.0
+    developer_ergonomics: 37.0
     discoverability: 50.0
     governance: 68.8
-    operational_transparency: 57.9
+    operational_transparency: 34.2
   previous_composite: 55.8
   provenance:
     agentic_access: derived
@@ -333,9 +333,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/screenshots/amazon-ses-2026-06-20T171820.png
 security:
 - kind: domain-security

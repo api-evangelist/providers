@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Public-facing presence of the Defense Intelligence Agency, providing organizational information, leadership, careers, news, and links to mission-specific programs. The website is the primary public su
@@ -105,19 +105,25 @@ rate_limits:
   slug: defense-intelligence-agency-rate-limits
 score:
   band: emerging
-  composite: 21.3
-  delta: 0.0
+  composite: 14.2
+  delta: -7.1
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 21.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 18.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/defense-intelligence-agency/refs/heads/main/screenshots/defense-intelligence-agency-2026-06-20T175838.png
 security:
 - kind: domain-security

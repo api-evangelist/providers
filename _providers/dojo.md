@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -224,13 +224,13 @@ overview: 'Dojo publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 80
 score:
   band: developing
-  composite: 54.2
-  delta: 0.0
+  composite: 52.7
+  delta: -1.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 62.9
+    contract_quality: 60.5
     developer_ergonomics: 73.4
-    discoverability: 83.3
+    discoverability: 72.2
     governance: 11.5
     operational_transparency: 47.4
   previous_composite: 54.2
@@ -250,8 +250,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/screenshots/dojo-2026-07-25T212236.png
 security:

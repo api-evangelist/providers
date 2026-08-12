@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: PSD2-compliant account information service (AIS) API for Spain. Allows authorized third parties to access customer payment account information including account lists, balances, transaction history, a
@@ -171,15 +171,15 @@ rules:
   slug: bbva-spectral-rules
 score:
   band: thin
-  composite: 36.3
-  delta: 0.0
+  composite: 29.7
+  delta: -6.6
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 36.8
     contract_quality: 12.9
     developer_ergonomics: 37.0
     discoverability: 64.8
     governance: 37.5
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 36.3
   regulatory:
     applies: true
@@ -187,9 +187,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bbva/refs/heads/main/screenshots/bbva-2026-06-20T173058.png
 security:
 - kind: domain-security

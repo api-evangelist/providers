@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Incentivio describes an API-first, composable data platform that unifies guest data across POS, loyalty, app, web, and marketplace channels into a single persistent Guest ID, with reverse ETL to sync '
@@ -86,19 +86,19 @@ overview: 'Incentivio publishes 1 API on the [APIs.io](https://apis.io/) network
   Incentivio''s developer surface includes documentation, pricing, support, engineering blog, signup flow, and 4 more developer resources.'
 random_paper: 36
 score:
-  band: minimal
-  composite: 11.1
-  delta: 0.0
+  band: emerging
+  composite: 13.7
+  delta: 2.6
   facets:
-    commercial_clarity: 10.5
+    commercial_clarity: 23.7
     contract_quality: 0.0
     developer_ergonomics: 15.2
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 11.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incentivio/refs/heads/main/screenshots/incentivio-2026-06-20T183307.png
 security:

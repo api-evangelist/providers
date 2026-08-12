@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 55.6
-  scored_at: '2026-08-10'
+  score: 52.0
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The Externally recorded demos API from Demodesk — 3 operation(s) for externally recorded demos.
@@ -46,6 +47,10 @@ asyncapis:
   name: Demodesk Webhooks
   slug: demodesk-webhooks-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/demodesk-v1-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -160,7 +165,7 @@ overview: 'Demodesk publishes 3 APIs on the [APIs.io](https://apis.io/) network:
   The Demodesk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Demodesk''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
+  Demodesk''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
 random_paper: 32
 scopes:
 - name: Demodesk Scopes
@@ -169,13 +174,13 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 50.4
-  delta: 0.0
+  composite: 49.6
+  delta: -0.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 62.6
+    contract_quality: 64.0
     developer_ergonomics: 51.6
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 50.4
@@ -188,8 +193,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/screenshots/demodesk-2026-07-25T211714.png
 security:

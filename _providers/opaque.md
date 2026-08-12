@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-08-10'
+  score: 39.4
+  scored_at: '2026-08-11'
 api_count: 11
 apis:
 - description: Asset Configurations
@@ -54,8 +54,12 @@ apis:
 - description: Workspaces
   name: OPAQUE Workspaces API
   slug: opaque-workspaces-api
-artifact_total: 13
+artifact_total: 14
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/opaque-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -161,6 +165,10 @@ description: 'OPAQUE Systems, Inc. is a confidential-AI platform company that le
   services, and high-tech for confidential RAG, secure multi-party analytics, and governed agent execution.'
 image: https://cdn.prod.website-files.com/66d977be14c1ef2f8e88c93c/68cb38f2400045b985a92458_Opaque%20Logo.svg
 layout: provider
+mcp_servers:
+- description: ''
+  name: opaque-mcp.yml
+  slug: opaque-mcpyml
 modified: '2026-08-04'
 name: OPAQUE
 nav: Providers
@@ -168,17 +176,17 @@ network: true
 overview: 'OPAQUE publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Asset Configs API, Auth API, Datasets API, and 8 more. Tagged areas include confidential-computing, confidential-ai, ai-governance, data-privacy, and trusted-execution-environment.
 
 
-  OPAQUE''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 18 more developer resources.'
+  OPAQUE''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 19 more developer resources.'
 random_paper: 71
 score:
   band: developing
-  composite: 45.4
-  delta: 0.0
+  composite: 44.8
+  delta: -0.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 52.1
-    developer_ergonomics: 60.3
-    discoverability: 92.6
+    contract_quality: 52.4
+    developer_ergonomics: 62.5
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 21.1
   previous_composite: 45.4
@@ -188,11 +196,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/screenshots/opaque-2026-08-07T190445.png
 security:

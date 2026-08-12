@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: The Redox FHIR R4 API exposes HL7 FHIR R4 resources for healthcare data exchange between connected systems, supporting FHIR notifications, queries, and writeback messages over an OAuth 2.0-secured bas
@@ -213,11 +213,11 @@ overview: 'Redox publishes 4 APIs on the [APIs.io](https://apis.io/) network. Ta
   Redox''s developer surface includes documentation, API reference, getting-started guide, authentication, developer console, sandbox, pricing, and 17 more developer resources.'
 random_paper: 61
 score:
-  band: emerging
-  composite: 27.0
-  delta: 0.0
+  band: thin
+  composite: 29.3
+  delta: 2.3
   facets:
-    commercial_clarity: 18.4
+    commercial_clarity: 31.6
     contract_quality: 0.0
     developer_ergonomics: 58.7
     discoverability: 64.8
@@ -230,8 +230,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redox-engine/refs/heads/main/screenshots/redox-engine-2026-06-20T192731.png
 security:

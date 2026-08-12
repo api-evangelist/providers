@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Decagon AI Agents Studio is the enterprise platform for authoring, deploying, testing, and operating AI agents using Agent Operating Procedures (AOPs) - natural-language workflows that drive agent beh
@@ -246,25 +246,19 @@ rate_limits:
   slug: decagon-rate-limits
 score:
   band: thin
-  composite: 29.5
-  delta: 5.8
+  composite: 29.3
+  delta: -0.2
   facets:
     commercial_clarity: 71.1
     contract_quality: 0.0
     developer_ergonomics: 21.7
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 23.7
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 34.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: rising
+  previous_composite: 29.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/decagon/refs/heads/main/screenshots/decagon-2026-06-20T175849.png
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Official Hanyang University Open API platform providing REST-style APIs that return XML or JSON. APIs are classified as Public (no personal data) or Private (require user authentication for personal i
@@ -120,8 +120,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 21.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hanyang/refs/heads/main/screenshots/hanyang-2026-06-20T182515.png
 security:

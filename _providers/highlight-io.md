@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -346,23 +346,23 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/highlight-otlp-traces-api-openapi.yml
+  url: openapi/_original/highlight-otlp-traces-api-openapi.yml
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/highlight-otlp-logs-api-openapi.yml
+  url: openapi/_original/highlight-otlp-logs-api-openapi.yml
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/highlight-otlp-metrics-api-openapi.yml
+  url: openapi/_original/highlight-otlp-metrics-api-openapi.yml
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/highlight-session-ingestion-api-openapi.yml
+  url: openapi/_original/highlight-session-ingestion-api-openapi.yml
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/highlight-webhooks-api-openapi.yml
+  url: openapi/_original/highlight-webhooks-api-openapi.yml
 - group: commercial
   title: ''
   type: Plans
@@ -485,12 +485,12 @@ rules:
   slug: highlight-io-rules
 score:
   band: exemplar
-  composite: 68.7
-  delta: 0.0
+  composite: 71.6
+  delta: 2.9
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 69.0
-    developer_ergonomics: 50.0
+    commercial_clarity: 92.1
+    contract_quality: 66.4
+    developer_ergonomics: 54.3
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 84.2
@@ -502,8 +502,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/screenshots/highlight-io-2026-06-20T182728.png
 security:

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 53.2
-  scored_at: '2026-08-10'
+  score: 49.5
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: The Groups API from Testerarmy — 5 operation(s) for groups.
@@ -52,6 +53,10 @@ asyncapis:
   name: Testerarmy Webhooks
   slug: testerarmy-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/testerarmy-openapi-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -174,17 +179,17 @@ overview: 'Testerarmy publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   The Testerarmy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Testerarmy''s developer surface includes authentication, CLI, sandbox, documentation, API reference, getting-started guide, pricing, and 19 more developer resources.'
+  Testerarmy''s developer surface includes authentication, CLI, sandbox, documentation, API reference, getting-started guide, pricing, and 20 more developer resources.'
 random_paper: 60
 score:
   band: developing
-  composite: 52.6
-  delta: 0.0
+  composite: 50.9
+  delta: -1.7
   facets:
     commercial_clarity: 31.6
-    contract_quality: 66.2
+    contract_quality: 63.7
     developer_ergonomics: 87.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
   previous_composite: 52.6
@@ -197,8 +202,8 @@ score:
       total: 5
     mcp: first-party
     skills: unknown
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-10'
+  score: 37.2
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: The Behavioral Assessments API from The Predictive Index — 1 operation(s) for behavioral assessments.
@@ -43,12 +43,16 @@ apis:
 - description: The Jobs API from The Predictive Index — 1 operation(s) for jobs.
   name: The Predictive Index Jobs API
   slug: the-predictive-index-jobs-api
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: The Predictive Index Webhooks
   slug: the-predictive-index-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/the-predictive-index-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -141,6 +145,10 @@ created: '2026-07-17'
 description: The Predictive Index (PI) is a talent optimization platform that pairs 70+ years of behavioral science with software to help organizations hire, engage, and develop teams — behavioral and cognitive assessments, hiring and candidate screening, leadership development, employee engagement, and performance management. PI publishes a RESTful Integration API (on Azure API Management) that lets external systems such as ATS/HRIS platforms programmatically create candidates, send behavioral and cognitive assessments, retrieve jobs and results, and generate insight and coaching-guide reports — the same data that appears in the PI Portal software. Status-change notification webhooks push assessment completion events to listening systems. Backed by a $50M investment from General Catalyst.
 image: https://media.predictiveindex.com/wp-content/uploads/2025/02/25165442/ThePredictiveIndex_Thumbnail-1.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: the-predictive-index-mcp.yml
+  slug: the-predictive-index-mcpyml
 modified: '2026-07-21'
 name: The Predictive Index
 nav: Providers
@@ -151,17 +159,17 @@ overview: 'The Predictive Index publishes 4 APIs on the [APIs.io](https://apis.i
   The The Predictive Index catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  The Predictive Index''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 15 more developer resources.'
+  The Predictive Index''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 16 more developer resources.'
 random_paper: 46
 score:
   band: developing
-  composite: 50.7
-  delta: 0.0
+  composite: 49.4
+  delta: -1.3
   facets:
     commercial_clarity: 44.7
-    contract_quality: 66.3
-    developer_ergonomics: 53.8
-    discoverability: 92.6
+    contract_quality: 63.8
+    developer_ergonomics: 56.0
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 39.5
   previous_composite: 50.7
@@ -173,8 +181,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

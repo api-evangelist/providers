@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: API Blueprint is a high-level API description language using Markdown-based syntax for designing, documenting, and prototyping APIs. Files use the .apib extension with media type text/vnd.apiblueprint
@@ -36,6 +36,14 @@ apis:
   slug: api-blueprint
 artifact_total: 17
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apiaryio/api-blueprint/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/apiaryio/api-blueprint/releases
 - group: auth
   title: ''
   type: DomainSecurity
@@ -91,7 +99,7 @@ network: true
 overview: 'API Blueprint publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, Specification Language, Markdown, and Documentation.
 
 
-  API Blueprint''s developer surface includes documentation and 4 more developer resources.'
+  API Blueprint''s developer surface includes documentation and 6 more developer resources.'
 plans:
 - name: Api Blueprint Plans Pricing
   plan_count: 3
@@ -103,19 +111,19 @@ rate_limits:
   slug: api-blueprint-rate-limits
 score:
   band: emerging
-  composite: 21.5
-  delta: 0.0
+  composite: 15.8
+  delta: -5.7
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 21.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-blueprint/refs/heads/main/screenshots/api-blueprint-2026-06-20T172201.png
 security:
 - kind: domain-security

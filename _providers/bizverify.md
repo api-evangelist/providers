@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-10'
+  score: 28.8
+  scored_at: '2026-08-11'
 api_count: 10
 apis:
 - description: Hosted MCP server over Streamable HTTP exposing nine tools — get_config, list_jurisdictions, verify_business, search_entities, check_job_status, get_entity, get_entity_history, get_account and purchas
@@ -53,6 +53,14 @@ apis:
   slug: bizverify-verification-api
 artifact_total: 11
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/BizVerify/bizverify-mcp/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/BizVerify/bizverify-mcp/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -107,22 +115,28 @@ network: true
 overview: 'BizVerify publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Billing API, and 6 more. Tagged areas include Business Verification, KYB, Know Your Business, Entity Verification, and Compliance.
 
 
-  BizVerify''s developer surface includes documentation and 9 more developer resources.'
+  BizVerify''s developer surface includes documentation and 11 more developer resources.'
 random_paper: 58
 score:
   band: emerging
-  composite: 25.8
-  delta: -0.7
+  composite: 26.1
+  delta: 0.3
   facets:
     commercial_clarity: 21.1
-    contract_quality: 45.9
-    developer_ergonomics: 8.7
-    discoverability: 83.3
+    contract_quality: 46.4
+    developer_ergonomics: 15.2
+    discoverability: 72.2
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 26.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 25.8
+  provenance:
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bizverify/refs/heads/main/screenshots/bizverify-2026-08-07T162603.png
 slug: bizverify

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 26.1
-  scored_at: '2026-08-10'
+  score: 22.5
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Modern REST API for Sage Intacct using standard HTTP verbs and predictable URLs to operate on Intacct objects and data. Authenticates with OAuth 2.0 and supports batch, bulk, and composite requests. S
@@ -179,13 +179,13 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials/tokenExchange
 score:
   band: developing
-  composite: 43.1
-  delta: 0.0
+  composite: 42.2
+  delta: -0.9
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 67.4
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 39.5
   previous_composite: 43.1
@@ -197,8 +197,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intacct/refs/heads/main/screenshots/intacct-2026-07-25T222634.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Portman is an open source CLI tool that auto-generates Postman collections with contract and variation tests from OpenAPI specifications. It converts static OpenAPI specs into dynamic, testable Postma
@@ -36,6 +36,10 @@ apis:
   slug: portman
 artifact_total: 4
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apideck-libraries/portman/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -71,7 +75,7 @@ network: true
 overview: 'Portman publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Contract Testing, OpenAPI, Postman, and Testing.
 
 
-  Portman''s developer surface includes documentation and 4 more developer resources.'
+  Portman''s developer surface includes documentation and 5 more developer resources.'
 plans:
 - name: Portman Plans Pricing
   plan_count: 3
@@ -82,20 +86,20 @@ rate_limits:
   name: Portman Rate Limits
   slug: portman-rate-limits
 score:
-  band: emerging
-  composite: 19.4
-  delta: 0.0
+  band: minimal
+  composite: 11.6
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 19.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/portman/refs/heads/main/screenshots/portman-2026-06-20T191942.png
 slug: portman
 tags:

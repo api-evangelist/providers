@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 210
   human_in_the_loop: 15
@@ -1987,16 +1987,16 @@ rules:
     warn: 5
   slug: okta-rules
 score:
-  band: exemplar
-  composite: 72.0
-  delta: 0.0
+  band: strong
+  composite: 63.5
+  delta: -8.5
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 79.6
+    commercial_clarity: 57.9
+    contract_quality: 77.0
     developer_ergonomics: 76.1
     discoverability: 59.3
     governance: 47.9
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 72.0
   provenance:
     agentic_access: derived
@@ -2005,9 +2005,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 26
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/screenshots/okta-2026-08-07T190056.png
 security:
 - kind: authentication

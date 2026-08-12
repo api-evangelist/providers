@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: REST API for processing payments, authorizations, cancellations, and refunds through the Toss Payments platform. Supports card, virtual account, mobile phone, bank transfer, and digital wallet payment
@@ -124,8 +124,8 @@ rate_limits:
   slug: toss-rate-limits
 score:
   band: emerging
-  composite: 27.0
-  delta: 0.0
+  composite: 27.3
+  delta: 0.3
   facets:
     commercial_clarity: 50.0
     contract_quality: 32.3
@@ -137,11 +137,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 7.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Payments
+    regime_id: payments
+    score: 9.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toss/refs/heads/main/screenshots/toss-2026-06-20T195501.png
 security:

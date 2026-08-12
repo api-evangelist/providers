@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-08-10'
+  score: 43.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -228,11 +228,11 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 55.4
-  delta: 0.0
+  composite: 52.1
+  delta: -3.3
   facets:
     commercial_clarity: 42.1
-    contract_quality: 56.8
+    contract_quality: 54.7
     developer_ergonomics: 60.3
     discoverability: 83.3
     governance: 20.8
@@ -253,9 +253,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 100.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 80.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

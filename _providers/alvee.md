@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,8 +63,8 @@ overview: Alvee Health is profiled on the [APIs.io](https://apis.io/) network. T
 random_paper: 61
 score:
   band: minimal
-  composite: 12.5
-  delta: 0.0
+  composite: 9.9
+  delta: -2.6
   facets:
     commercial_clarity: 7.9
     contract_quality: 0.0
@@ -80,9 +80,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 37.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 20.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alvee/refs/heads/main/screenshots/alvee-2026-07-25T195850.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: CEPS exposes its publications and news stream as RSS/Atom feeds that aggregators, knowledge management tools, and policy-monitoring platforms can consume to track CEPS working papers, policy insights,
@@ -109,20 +109,26 @@ rate_limits:
   name: Ceps Rate Limits
   slug: ceps-rate-limits
 score:
-  band: emerging
-  composite: 20.0
-  delta: 0.0
+  band: minimal
+  composite: 12.7
+  delta: -7.3
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 20.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 15.2
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ceps/refs/heads/main/screenshots/ceps-2026-06-20T174141.png
 security:
 - kind: domain-security

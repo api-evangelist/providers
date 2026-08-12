@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-10'
+  score: 37.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -38,8 +38,12 @@ arazzos:
 - description: Search the UK Civil Aviation Authority's published consultation activities, then pull the full detail record for the first match.
   name: Track UK CAA consultations
   slug: uk-caa-track-consultations
-artifact_total: 12
+artifact_total: 13
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/uk-caa-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -234,6 +238,10 @@ json_schemas:
   property_count: 2
   slug: uk-caa-term
 layout: provider
+mcp_servers:
+- description: ''
+  name: uk-caa-mcp.yml
+  slug: uk-caa-mcpyml
 modified: '2026-07-28'
 name: UK Civil Aviation Authority
 nav: Providers
@@ -241,18 +249,18 @@ network: true
 overview: 'UK Civil Aviation Authority publishes 1 API on the [APIs.io](https://apis.io/) network: CAA Consultations API. Tagged areas include Travel, United Kingdom, Aviation, Airline, and Airports.
 
 
-  UK Civil Aviation Authority''s developer surface includes authentication, changelog, documentation, pricing, engineering blog, YouTube channel, support, and 36 more developer resources.'
+  UK Civil Aviation Authority''s developer surface includes authentication, changelog, documentation, pricing, engineering blog, YouTube channel, support, and 37 more developer resources.'
 random_paper: 98
 score:
-  band: developing
-  composite: 42.7
-  delta: 0.0
+  band: thin
+  composite: 41.7
+  delta: -1.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 67.4
-    developer_ergonomics: 27.7
+    contract_quality: 64.9
+    developer_ergonomics: 29.9
     discoverability: 87.0
-    governance: 21.9
+    governance: 14.1
     operational_transparency: 26.3
   previous_composite: 42.7
   provenance:
@@ -271,8 +279,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 50.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

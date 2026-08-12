@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -154,7 +154,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/cloudwatch-openapi.yml
+  url: openapi/_original/cloudwatch-openapi.yml
 - group: docs
   title: ''
   type: JSONSchema
@@ -1128,15 +1128,15 @@ rules:
   slug: cloudwatch-spectral-rules
 score:
   band: strong
-  composite: 65.3
-  delta: 0.0
+  composite: 56.7
+  delta: -8.6
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 79.8
+    commercial_clarity: 44.7
+    contract_quality: 76.9
     developer_ergonomics: 43.5
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 63.2
+    operational_transparency: 39.5
   previous_composite: 65.3
   provenance:
     agentic_access: derived
@@ -1145,9 +1145,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/screenshots/cloudwatch-2026-06-20T174619.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Cledara API provides programmatic access to SaaS subscription records, vendors, virtual cards, transactions, approval requests, and spend analytics. The API follows REST conventions, uses JSON pay
@@ -106,20 +106,26 @@ rate_limits:
   name: Cledara Rate Limits
   slug: cledara-rate-limits
 score:
-  band: thin
-  composite: 29.5
-  delta: 0.0
+  band: emerging
+  composite: 22.9
+  delta: -6.6
   facets:
-    commercial_clarity: 78.9
+    commercial_clarity: 55.3
     contract_quality: 0.0
     developer_ergonomics: 15.2
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 29.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 29.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/screenshots/cledara-2026-06-20T174501.png
 security:
 - kind: domain-security

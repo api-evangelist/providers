@@ -1,0 +1,70 @@
+#!/usr/bin/env bash
+#
+# Refuse to commit a data file that GitHub Pages cannot parse.
+#
+# Jekyll reads _data/*.json through SafeYAML -> Psych, not through a JSON
+# parser, so a file that is perfectly valid JSON can still take the whole site
+# down. On 2026-08-11 a single emoji, re-encoded as a surrogate pair by a bare
+# json.dump, broke every build of providers.apievangelist.com for nine hours.
+#
+# Checks the STAGED content, not the working tree, so partial staging cannot
+# slip a broken file past.
+#
+# Written for bash 3.2 (the /bin/bash macOS ships) — no mapfile, no assoc arrays.
+#
+# Bypass (only if you know why): git commit --no-verify
+set -eu
+
+repo_root="$(git rev-parse --show-toplevel)"
+cd "$repo_root"
+
+if ! command -v ruby >/dev/null 2>&1; then
+  echo "pre-commit: ruby not found — skipping the _data parse check." >&2
+  exit 0
+fi
+
+staged="$(git diff --cached --name-only --diff-filter=ACMR -- _data _config.yml || true)"
+[ -z "$staged" ] && exit 0
+
+tmpdir="$(mktemp -d)"
+trap 'rm -rf "$tmpdir"' EXIT
+
+# Dest names are underscore-joined and space-free, so a plain word list is safe.
+checks=""
+while IFS= read -r path; do
+  [ -z "$path" ] && continue
+  case "$path" in
+    *.json|*.yml|*.yaml) ;;
+    *) continue ;;
+  esac
+  dest="$tmpdir/$(printf '%s' "$path" | tr '/ ' '__')"
+  git show ":$path" > "$dest" 2>/dev/null || continue
+  checks="$checks $dest"
+done <<EOF
+$staged
+EOF
+
+[ -z "$checks" ] && exit 0
+
+# shellcheck disable=SC2086
+if ! ruby scripts/check-data.rb $checks; then
+  cat >&2 <<'MSG'
+
+pre-commit: BLOCKED — a staged data file would break the Pages build.
+
+Filenames above are staged copies; map them back by replacing _ with /.
+Fix by re-writing the real file through dump_json() in scripts/build-listing.py:
+
+  python3 -c "
+import json, sys
+from importlib.machinery import SourceFileLoader
+bl = SourceFileLoader('bl', 'scripts/build-listing.py').load_module()
+p = sys.argv[1]
+d = json.load(open(p, encoding='utf-8'))
+bl.dump_json(d, open(p, 'w', encoding='utf-8'), indent=1)
+" _data/<file>.json
+
+then re-stage it. Bypass with --no-verify only if you know why.
+MSG
+  exit 1
+fi

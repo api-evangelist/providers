@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.2
-  scored_at: '2026-08-10'
+  score: 44.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -70,6 +70,10 @@ apis:
   slug: amazon-billing-and-cost-management-tags-api
 artifact_total: 23
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-billing-and-cost-management-aws-budgets-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -207,7 +211,7 @@ overview: 'Amazon Billing And Cost Management publishes 9 APIs on the [APIs.io](
   The Amazon Billing And Cost Management catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Amazon Billing And Cost Management''s developer surface includes authentication, developer portal, developer console, documentation, pricing, FAQ, engineering blog, and 17 more developer resources.'
+  Amazon Billing And Cost Management''s developer surface includes authentication, developer portal, developer console, documentation, pricing, FAQ, engineering blog, and 18 more developer resources.'
 random_paper: 0
 rules:
 - name: Amazon Billing And Cost Management API Rules
@@ -220,11 +224,11 @@ rules:
   slug: amazon-billing-and-cost-management-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.9
-  delta: 0.0
+  composite: 52.3
+  delta: -0.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 70.3
+    contract_quality: 67.7
     developer_ergonomics: 45.7
     discoverability: 92.6
     governance: 69.8
@@ -239,8 +243,8 @@ score:
       marker_coverage: 0.0
       total: 9
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/screenshots/amazon-billing-and-cost-management-2026-07-25T195936.png
 security:

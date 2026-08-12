@@ -4,31 +4,31 @@
  "limit": 1000,
  "bands": [
   {
-   "band": "developing",
-   "label": "Developing",
-   "range": "42 – 55.9",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 3,
-   "shown": 3,
+   "band": "thin",
+   "label": "Thin",
+   "range": "28 – 41.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
      "name": "United Airlines",
      "slug": "united-airlines",
      "description": "United Airlines is a major American airline headquartered in Chicago, Illinois. It operates one of the largest route networks in the world with hubs in Chicago, Denver, Houston, Los Angeles, New York, San Francisco, and Washington, D.C. United provides NDC (New Distribution Capability) APIs for flight shopping, booking, and servicing, as well as corporate travel integration capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/united-airlines/refs/heads/main/screenshots/united-airlines-2026-06-20T200049.png",
-     "score": 46.2,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 40.4,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 72.3,
+      "contract_quality": 69.9,
       "governance": 68.8,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 19.6,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -54,19 +54,19 @@
      "slug": "ryder-system",
      "description": "Ryder System, Inc. is a leading provider of supply chain, dedicated transportation, and fleet management solutions. Ryder operates a developer portal offering REST APIs for fleet management and supply chain operations, enabling customers to integrate Ryder services into their business systems. The Fleet Management APIs support customers who lease, rent, and maintain vehicles, while the Supply Chain Solutions APIs support carrier management, load tracking, shipment management, and last-mile delivery operations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/screenshots/ryder-system-2026-06-20T193310.png",
-     "score": 43.7,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 37.9,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 69.9,
+      "contract_quality": 67.3,
       "governance": 37.5,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 30.4,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -88,27 +88,28 @@
      "rank": 2
     },
     {
-     "name": "American Airlines",
-     "slug": "american-airlines",
-     "description": "American Airlines is one of the world's largest airlines, operating an extensive domestic and international route network. The company's Runway developer experience platform, built on Spotify's Backstage, provides internal developer tooling and API management for engineering teams. American Airlines exposes flight data, status, and booking capabilities through its developer portal, and maintains an active open-source presence via the AmericanAirlines GitHub organization.",
-     "score": 42.0,
-     "band": "developing",
-     "band_label": "Developing",
+     "name": "Southwest Airlines",
+     "slug": "southwest-airlines",
+     "description": "Southwest Airlines is one of the world's most profitable airlines and the largest domestic air carrier in the United States by number of passengers. The company provides scheduled air transportation in the United States and near-international markets, known for its low fares, no baggage fees policy, and customer service. Southwest Airlines is a Fortune 500 company headquartered in Dallas, Texas.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/southwest-airlines/refs/heads/main/screenshots/southwest-airlines-2026-06-20T194230.png",
+     "score": 36.3,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 66.9,
-      "governance": 58.3,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
+      "discoverability": 55.6,
+      "contract_quality": 74.1,
+      "governance": 68.8,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 21.6,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": "derived",
+      "agentic_access": false,
       "mcp_server": false,
       "auth_clarity": false,
       "idempotency": false,
@@ -123,41 +124,29 @@
       "dry_run_mode": false
      },
      "rank": 3
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "28 – 41.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 4,
-   "shown": 4,
-   "providers": [
+    },
     {
-     "name": "Southwest Airlines",
-     "slug": "southwest-airlines",
-     "description": "Southwest Airlines is one of the world's most profitable airlines and the largest domestic air carrier in the United States by number of passengers. The company provides scheduled air transportation in the United States and near-international markets, known for its low fares, no baggage fees policy, and customer service. Southwest Airlines is a Fortune 500 company headquartered in Dallas, Texas.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/southwest-airlines/refs/heads/main/screenshots/southwest-airlines-2026-06-20T194230.png",
-     "score": 41.5,
+     "name": "American Airlines",
+     "slug": "american-airlines",
+     "description": "American Airlines is one of the world's largest airlines, operating an extensive domestic and international route network. The company's Runway developer experience platform, built on Spotify's Backstage, provides internal developer tooling and API management for engineering teams. American Airlines exposes flight data, status, and booking capabilities through its developer portal, and maintains an active open-source presence via the AmericanAirlines GitHub organization.",
+     "score": 36.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 55.6,
-      "contract_quality": 74.1,
-      "governance": 68.8,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
+      "discoverability": 68.5,
+      "contract_quality": 64.7,
+      "governance": 58.3,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 19.4,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": false,
+      "agentic_access": "derived",
       "mcp_server": false,
       "auth_clarity": false,
       "idempotency": false,
@@ -178,19 +167,19 @@
      "slug": "alaska-air",
      "description": "Alaska Air Group is the parent company of Alaska Airlines and Horizon Air, providing passenger and cargo air transportation throughout the United States, Mexico, Canada, Costa Rica, and Belize. Alaska Airlines offers a developer portal at developers.alaskaair.com for accessing flight status, schedules, and other APIs, and operates Alaska Air Cargo serving 115+ destinations worldwide with dedicated cargo aircraft.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/screenshots/alaska-air-2026-06-20T171459.png",
-     "score": 38.1,
+     "score": 32.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 25.2,
+      "contract_quality": 24.3,
       "governance": 68.8,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 34.8,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -216,19 +205,19 @@
      "slug": "jb-hunt-transport-services",
      "description": "J.B. Hunt Transport Services, Inc. is one of the largest transportation and logistics companies in North America, providing trucking, intermodal, and contract services. J.B. Hunt offers the J.B. Hunt 360 Connect API portal for shippers and partners to programmatically access quotes, order management, shipment tracking, document management, and scheduling for full-truckload (FTL) and less-than-truckload (LTL) operations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/jb-hunt-transport-services/refs/heads/main/screenshots/jb-hunt-transport-services-2026-06-20T183810.png",
-     "score": 33.0,
+     "score": 28.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 59.7,
+      "discoverability": 81.5,
+      "contract_quality": 57.5,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -248,24 +237,35 @@
       "dry_run_mode": false
      },
      "rank": 6
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "13 – 27.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 4,
+   "shown": 4,
+   "providers": [
     {
      "name": "Union Pacific",
      "slug": "union-pacific",
      "description": "Union Pacific is one of the largest freight railroad networks in the United States, operating across 23 states in the western two-thirds of the country. The company transports a diverse range of commodities including agricultural products, automotive goods, chemicals, energy resources, and industrial materials. Union Pacific's API platform gives businesses programmatic access to real-time shipment tracking, equipment management, intermodal planning, and supply chain exception handling, enabling seamless integration with logistics and supply chain management systems.",
-     "score": 29.6,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 24.2,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 29.1,
+      "contract_quality": 28.0,
       "governance": 58.3,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -285,43 +285,32 @@
       "dry_run_mode": false
      },
      "rank": 7
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "13 – 27.9",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 4,
-   "shown": 4,
-   "providers": [
+    },
     {
-     "name": "C.H. Robinson",
-     "slug": "ch-robinson-worldwide",
-     "description": "C.H. Robinson is one of the world's largest third-party logistics (3PL) providers, offering global freight transportation, supply chain management, customs brokerage, and sourcing of fresh produce. Its Navisphere transportation management system provides end-to-end supply chain planning, purchase order management, execution, freight payment, and business intelligence. C.H. Robinson exposes APIs that allow shippers and carriers to integrate quoting, booking, tracking, documents, and payment workflows directly into their own TMS or ERP platforms.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/screenshots/ch-robinson-worldwide-2026-06-20T174153.png",
-     "score": 23.7,
+     "name": "Alaska Airlines",
+     "slug": "alaska-airlines",
+     "description": "A major American airline headquartered in SeaTac, Washington, operating an extensive domestic network with service across the U.S., Mexico, Canada, and Central America. Known for its customer service and West Coast focus.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alaska-airlines/refs/heads/main/screenshots/alaska-airlines-2026-06-20T171509.png",
+     "score": 20.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 17.4,
+      "developer_ergonomics": 13.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.2,
-     "agent_band": "human-only",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 12.2,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "mcp_server": false,
-      "auth_clarity": false,
+      "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -336,23 +325,23 @@
      "rank": 8
     },
     {
-     "name": "SkyWest Airlines",
-     "slug": "skywest",
-     "description": "SkyWest Airlines is the largest regional airline in North America, headquartered in St. George, Utah. Operating under partnership agreements with United Airlines, Delta Air Lines, American Airlines, and Alaska Airlines, SkyWest serves over 256 destinations across the United States, Canada, and Mexico with a fleet of 500+ Bombardier regional jets (CRJ200, CRJ550, CRJ900). Founded in 1972, SkyWest carries over 46 million passengers annually operating as United Express, Delta Connection, American Eagle, and Alaska SkyWest. The company does not offer a public developer API; flight data is accessible through third-party aviation data providers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skywest/refs/heads/main/screenshots/skywest-2026-06-20T194019.png",
-     "score": 21.9,
+     "name": "C.H. Robinson",
+     "slug": "ch-robinson-worldwide",
+     "description": "C.H. Robinson is one of the world's largest third-party logistics (3PL) providers, offering global freight transportation, supply chain management, customs brokerage, and sourcing of fresh produce. Its Navisphere transportation management system provides end-to-end supply chain planning, purchase order management, execution, freight payment, and business intelligence. C.H. Robinson exposes APIs that allow shippers and carriers to integrate quoting, booking, tracking, documents, and payment workflows directly into their own TMS or ERP platforms.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/screenshots/ch-robinson-worldwide-2026-06-20T174153.png",
+     "score": 19.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 8.1,
-      "governance": 10.4,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 39.5
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -374,30 +363,30 @@
      "rank": 9
     },
     {
-     "name": "Alaska Airlines",
-     "slug": "alaska-airlines",
-     "description": "A major American airline headquartered in SeaTac, Washington, operating an extensive domestic network with service across the U.S., Mexico, Canada, and Central America. Known for its customer service and West Coast focus.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alaska-airlines/refs/heads/main/screenshots/alaska-airlines-2026-06-20T171509.png",
-     "score": 20.1,
+     "name": "SkyWest Airlines",
+     "slug": "skywest",
+     "description": "SkyWest Airlines is the largest regional airline in North America, headquartered in St. George, Utah. Operating under partnership agreements with United Airlines, Delta Air Lines, American Airlines, and Alaska Airlines, SkyWest serves over 256 destinations across the United States, Canada, and Mexico with a fleet of 500+ Bombardier regional jets (CRJ200, CRJ550, CRJ900). Founded in 1972, SkyWest carries over 46 million passengers annually operating as United Express, Delta Connection, American Eagle, and Alaska SkyWest. The company does not offer a public developer API; flight data is accessible through third-party aviation data providers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skywest/refs/heads/main/screenshots/skywest-2026-06-20T194019.png",
+     "score": 14.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 13.0,
-      "commercial_clarity": 50.0
+      "discoverability": 59.3,
+      "contract_quality": 8.1,
+      "governance": 10.4,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 12.2,
-     "agent_band": "agent-aware",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -410,25 +399,36 @@
       "dry_run_mode": false
      },
      "rank": 10
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 12.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 15,
+   "shown": 15,
+   "providers": [
     {
      "name": "Swift Transportation",
      "slug": "swift-transportation",
      "description": "Swift Transportation, now operating as Knight-Swift Transportation Holdings (KNX), is the largest full truckload motor carrier in North America. The company provides truckload, LTL, logistics, and intermodal transportation services across the US, Mexico, and Canada. Technology integration is primarily through EDI for freight tendering, shipment status, and invoicing workflows with trading partners and shippers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/swift-transportation/refs/heads/main/screenshots/swift-transportation-2026-06-20T194806.png",
-     "score": 18.4,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 10.6,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 31.6,
+      "operational_transparency": 7.9,
       "developer_ergonomics": 2.2,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -448,17 +448,7 @@
       "dry_run_mode": false
      },
      "rank": 11
-    }
-   ]
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 12.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 14,
-   "shown": 14,
-   "providers": [
+    },
     {
      "name": "Werner Enterprises",
      "slug": "werner-enterprises",
@@ -475,8 +465,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -513,8 +503,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -536,61 +526,23 @@
      "rank": 13
     },
     {
-     "name": "CSX Corporation",
-     "slug": "csx",
-     "description": "CSX Corporation is a Class I freight railroad operating one of the largest rail networks in the eastern United States, serving 23 states with roughly 20,000 route miles of track. CSX moves bulk commodities, intermodal shipments, and merchandise for industrial customers and operates the ShipCSX customer portal for shipment management, EDI integration, and freight tracking.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/csx/refs/heads/main/screenshots/csx-2026-06-20T175327.png",
-     "score": 6.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 14
-    },
-    {
      "name": "HUB Group",
      "slug": "hub-group",
      "description": "HUB is a global leader in multifunction pole design and street infrastructure, supplying over 1,000 pieces of urban infrastructure worldwide. With 20+ years of experience, HUB excels in integrating digital devices and data analytics into innovative urban solutions. Partnered with Valmont Industries, HUB delivers high-quality infrastructure for public spaces, including telecommunications poles, monopoles, steel jackets, and head frames.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hub-group/refs/heads/main/screenshots/hub-group-2026-06-20T182920.png",
-     "score": 6.6,
+     "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 10.4,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -616,14 +568,14 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 14
     },
     {
-     "name": "Hawaiian Holdings",
-     "slug": "hawaiian-holdings",
-     "description": "Hawaiian Holdings was the parent company of Hawaiian Airlines, the largest and longest-serving airline of Hawaii, providing scheduled passenger service to destinations across the Pacific. In 2024 the company combined with Alaska Air Group, and Hawaiian Holdings became a wholly-owned subsidiary of Alaska Air Group. No public developer portal or production-facing APIs are advertised.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hawaiian-holdings/refs/heads/main/screenshots/hawaiian-holdings-2026-06-20T182538.png",
-     "score": 5.0,
+     "name": "CSX Corporation",
+     "slug": "csx",
+     "description": "CSX Corporation is a Class I freight railroad operating one of the largest rail networks in the eastern United States, serving 23 states with roughly 20,000 route miles of track. CSX moves bulk commodities, intermodal shipments, and merchandise for industrial customers and operates the ShipCSX customer portal for shipment management, EDI integration, and freight tracking.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/csx/refs/heads/main/screenshots/csx-2026-06-20T175327.png",
+     "score": 6.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -631,11 +583,56 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 15
+    },
+    {
+     "name": "Frontier Group Holdings",
+     "slug": "frontier-group-holdings",
+     "description": "Frontier Group Holdings is the parent company of Frontier Airlines, an ultra low-cost carrier headquartered in Denver, Colorado. The airline operates an Airbus A320-family fleet serving destinations across the United States, Mexico, Canada, the Caribbean, and Latin America. No public self-service developer API or developer portal has been identified; airline distribution and partner integrations are typically handled through GDSs, NDC channels, and direct travel-agent agreements.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/frontier-group-holdings/refs/heads/main/screenshots/frontier-group-holdings-2026-06-20T181600.png",
+     "score": 5.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 44.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 8.3,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -657,10 +654,10 @@
      "rank": 16
     },
     {
-     "name": "Penske",
-     "slug": "penske",
-     "description": "A diversified transportation services conglomerate operating truck leasing, logistics, automotive retail, and professional motorsports across North America. Penske Corporation spans Penske Truck Leasing (full-service leasing, rental, and contract maintenance), Penske Logistics (supply chain management, warehousing, distribution, dedicated contract carriage), Penske Automotive Group (retail automotive dealerships in the US, UK, Germany, Italy, Japan, Australia, and New Zealand), and Team Penske (motorsports). The corporate parent has 73,000+ employees and approximately $43B+ in consolidated revenue. Customer self-service is delivered through web and mobile portals (Penske Fleet Insight, Penske Truck Leasing app, Penske Truck Rental); Penske does not publish a public developer API or partner integration portal. Penske Automotive Group is the publicly traded subsidiary (NYSE - PAG).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/penske/refs/heads/main/screenshots/penske-2026-06-20T191545.png",
+     "name": "Hawaiian Holdings",
+     "slug": "hawaiian-holdings",
+     "description": "Hawaiian Holdings was the parent company of Hawaiian Airlines, the largest and longest-serving airline of Hawaii, providing scheduled passenger service to destinations across the Pacific. In 2024 the company combined with Alaska Air Group, and Hawaiian Holdings became a wholly-owned subsidiary of Alaska Air Group. No public developer portal or production-facing APIs are advertised.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hawaiian-holdings/refs/heads/main/screenshots/hawaiian-holdings-2026-06-20T182538.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -672,8 +669,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -695,23 +692,23 @@
      "rank": 17
     },
     {
-     "name": "Frontier Group Holdings",
-     "slug": "frontier-group-holdings",
-     "description": "Frontier Group Holdings is the parent company of Frontier Airlines, an ultra low-cost carrier headquartered in Denver, Colorado. The airline operates an Airbus A320-family fleet serving destinations across the United States, Mexico, Canada, the Caribbean, and Latin America. No public self-service developer API or developer portal has been identified; airline distribution and partner integrations are typically handled through GDSs, NDC channels, and direct travel-agent agreements.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/frontier-group-holdings/refs/heads/main/screenshots/frontier-group-holdings-2026-06-20T181600.png",
-     "score": 4.9,
+     "name": "Penske",
+     "slug": "penske",
+     "description": "A diversified transportation services conglomerate operating truck leasing, logistics, automotive retail, and professional motorsports across North America. Penske Corporation spans Penske Truck Leasing (full-service leasing, rental, and contract maintenance), Penske Logistics (supply chain management, warehousing, distribution, dedicated contract carriage), Penske Automotive Group (retail automotive dealerships in the US, UK, Germany, Italy, Japan, Australia, and New Zealand), and Team Penske (motorsports). The corporate parent has 73,000+ employees and approximately $43B+ in consolidated revenue. Customer self-service is delivered through web and mobile portals (Penske Fleet Insight, Penske Truck Leasing app, Penske Truck Rental); Penske does not publish a public developer API or partner integration portal. Penske Automotive Group is the publicly traded subsidiary (NYSE - PAG).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/penske/refs/heads/main/screenshots/penske-2026-06-20T191545.png",
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 44.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -747,8 +744,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -785,8 +782,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -822,8 +819,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -860,8 +857,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -898,8 +895,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -936,8 +933,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -974,8 +971,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

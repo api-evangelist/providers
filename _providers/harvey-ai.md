@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Harvey does not currently publish a public, self-serve developer API. Integrations with document management systems, research tools, and firm workflows are delivered through Harvey's Ecosystem program
@@ -113,8 +113,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 33.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harvey-ai/refs/heads/main/screenshots/harvey-ai-2026-06-20T182535.png
 security:

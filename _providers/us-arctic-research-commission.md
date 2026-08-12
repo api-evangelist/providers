@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The US Arctic Research Commission (USARC) is an independent federal agency that advises the President and Congress on domestic and international Arctic research policy. The Commission establishes nati
@@ -96,20 +96,26 @@ rules:
     warn: 3
   slug: us-arctic-research-commission-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 30.6
-  delta: 0.0
+  band: emerging
+  composite: 22.4
+  delta: -8.2
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 22.6
     developer_ergonomics: 0.0
     discoverability: 59.3
     governance: 58.3
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 30.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 20.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-arctic-research-commission/refs/heads/main/screenshots/us-arctic-research-commission-2026-06-20T200552.png
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'The Adaptive Shield REST API v1 provides programmatic access to SaaS security posture data including alerts, user and device inventory, integration configurations, security check results, violations, '
@@ -135,19 +135,19 @@ rate_limits:
   slug: adaptive-shield-rate-limits
 score:
   band: emerging
-  composite: 23.2
-  delta: 0.0
+  composite: 15.4
+  delta: -7.8
   facets:
-    commercial_clarity: 47.4
+    commercial_clarity: 23.7
     contract_quality: 0.0
     developer_ergonomics: 15.2
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 23.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaptive-shield/refs/heads/main/screenshots/adaptive-shield-2026-06-20T164619.png
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: The Lens API is a hosted GraphQL endpoint that indexes the Lens Chain contracts and exposes queries and mutations for accounts, posts (publications), feeds, follows, groups, apps, notifications, and s
@@ -51,6 +51,14 @@ apis:
   slug: lens-storage
 artifact_total: 11
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/lens-protocol/lens-sdk/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/lens-protocol/lens-sdk/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -114,7 +122,7 @@ network: true
 overview: 'Lens Protocol publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Lens Protocol, Onchain Social, Web3, Social Graph, and Polygon.
 
 
-  Lens Protocol''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
+  Lens Protocol''s developer surface includes documentation, engineering blog, and 11 more developer resources.'
 plans:
 - name: Lens Protocol Plans Pricing
   plan_count: 1
@@ -126,18 +134,18 @@ rate_limits:
   slug: lens-protocol-rate-limits
 score:
   band: emerging
-  composite: 20.1
-  delta: 0.0
+  composite: 20.9
+  delta: 0.8
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
-    developer_ergonomics: 17.4
+    developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 20.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

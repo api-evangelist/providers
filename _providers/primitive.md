@@ -1,9 +1,10 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: conformant
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
@@ -11,14 +12,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: verified
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.8
-  scored_at: '2026-08-10'
+  score: 67.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 1
@@ -94,12 +95,24 @@ apis:
 - description: View and replay webhook delivery attempts
   name: Primitive Webhook Deliveries API
   slug: primitive-webhook-deliveries-api
-artifact_total: 27
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Primitive Webhooks
   slug: primitive-webhooks
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/primitive-chat.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/primitive-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/primitive-openapi-overlay.yaml
 - group: other
   title: ''
   type: AgentCard
@@ -107,6 +120,10 @@ common:
 created: '2026-07-17'
 description: Primitive is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 layout: provider
+mcp_servers:
+- description: ''
+  name: primitive-mcp.yml
+  slug: primitive-mcpyml
 modified: '2026-07-17'
 name: Primitive
 nav: Providers
@@ -117,14 +134,14 @@ overview: 'Primitive publishes 22 APIs on the [APIs.io](https://apis.io/) networ
   The Primitive catalog on APIs.io includes 1 event-driven AsyncAPI specification.'
 random_paper: 57
 score:
-  band: emerging
-  composite: 27.0
-  delta: 0.0
+  band: thin
+  composite: 28.3
+  delta: 1.3
   facets:
     commercial_clarity: 0.0
-    contract_quality: 77.3
-    developer_ergonomics: 0.0
-    discoverability: 51.9
+    contract_quality: 74.8
+    developer_ergonomics: 15.2
+    discoverability: 40.7
     governance: 20.8
     operational_transparency: 0.0
   previous_composite: 27.0
@@ -138,8 +155,8 @@ score:
       total: 22
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

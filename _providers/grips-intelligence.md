@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 23.4
-  scored_at: '2026-08-10'
+  score: 19.8
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST data API exposing Grips Intelligence e-commerce analytics. Requests are HTTPS POSTs carrying a GraphQL-style query envelope (query + variables), scoped by domain, date range, and country. Endpoin
@@ -152,8 +152,8 @@ score:
   previous_composite: 28.3
   provenance:
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grips-intelligence/refs/heads/main/screenshots/grips-intelligence-2026-07-25T220333.png
 security:

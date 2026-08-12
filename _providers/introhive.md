@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 9.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The OAuth 2.0 authorization surface in front of the Introhive platform. Introhive publishes an RFC 8414 OAuth 2.0 Authorization Server Metadata document at /.well-known/oauth-authorization-server on e
@@ -133,8 +133,8 @@ score:
   previous_composite: 23.6
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/introhive/refs/heads/main/screenshots/introhive-2026-08-07T170750.png
 security:

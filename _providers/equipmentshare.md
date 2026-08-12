@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 13.7
-  scored_at: '2026-08-10'
+  score: 10.1
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The T3OS developer platform's GraphQL ERP API (es-erp-api). A single GraphQL endpoint served over authenticated Bearer (user-delegated OAuth2) or X-API-Key (workspace-installed) access.
@@ -149,8 +149,8 @@ score:
   provenance:
     conformance: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/equipmentshare/refs/heads/main/screenshots/equipmentshare-2026-07-25T213550.png
 security:

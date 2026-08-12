@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -362,15 +362,15 @@ rules:
   slug: betsolutions-spectral-rules
 score:
   band: thin
-  composite: 35.3
-  delta: 0.0
+  composite: 29.9
+  delta: -5.4
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 24.6
+    commercial_clarity: 13.2
+    contract_quality: 23.7
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 35.3
   provenance:
     agentic_access: derived
@@ -379,9 +379,9 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/screenshots/betsolutions-2026-06-20T173201.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -161,15 +161,15 @@ rate_limits:
   slug: fermyon-rate-limits
 score:
   band: thin
-  composite: 38.1
-  delta: 0.0
+  composite: 29.9
+  delta: -8.2
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 46.5
+    commercial_clarity: 15.8
+    contract_quality: 44.8
     developer_ergonomics: 41.3
     discoverability: 55.6
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 38.1
   provenance:
     agentic_access: derived
@@ -178,9 +178,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/screenshots/fermyon-2026-06-20T181140.png
 security:
 - kind: authentication

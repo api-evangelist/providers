@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -158,11 +158,11 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 39.2
-  delta: 0.0
+  composite: 38.7
+  delta: -0.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 58.6
+    contract_quality: 56.4
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
@@ -181,8 +181,8 @@ score:
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/screenshots/castoredc-2026-07-25T204743.png
 security:

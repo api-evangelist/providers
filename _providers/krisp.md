@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-10'
+  score: 45.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,12 +44,20 @@ apis:
 - description: Session minting and language discovery for the real-time voice translation service.
   name: Krisp Voice Translation API
   slug: krisp-voice-translation-api
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: NOT PUBLISHED BY KRISP. Krisp publishes no AsyncAPI document. This is a faithful transcription by the API Evangelist enrichment pipeline of the WebSocket protocol Krisp documents in prose at https://s
   name: Krisp Voice Translation WebSocket API
   slug: krisp-voice-translation-asyncapi
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/krisp-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/krisp-developers-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -190,6 +198,10 @@ created: '2026-07-17'
 description: 'Krisp is a Voice AI platform whose real-time speech-enhancement models run on over 200 million devices, licensed by Discord, Twilio, and VMware among others. Beyond its consumer AI Note Taker, Krisp ships a developer surface: the AI Voice SDK family (VIVA for voice AI agents — voice isolation, turn prediction, interruption prediction, VAD; and RTC for human-to-human calls — accent conversion, bidirectional noise cancellation, background voice cancellation) across Windows, macOS, Linux, Web (JS/WASM), iOS, and Android with C++, Python, Node.js, Go, Rust, and JavaScript bindings, plus framework integrations for LiveKit, WebRTC, and Pipecat. Krisp also runs a self-serve Voice Translation API — a streaming WebSocket speech-to-speech translation service covering 61 languages behind a REST session-token mint — and a programmatic SDK and model download REST API for CI/CD pipelines.'
 image: https://krisp.ai/wp-content/uploads/2025/08/thumb1.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: krisp-mcp.yml
+  slug: krisp-mcpyml
 modified: '2026-07-19'
 name: Krisp
 nav: Providers
@@ -200,17 +212,17 @@ overview: 'Krisp publishes 2 APIs on the [APIs.io](https://apis.io/) network: SD
   The Krisp catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Krisp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+  Krisp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 random_paper: 89
 score:
   band: strong
-  composite: 60.1
-  delta: 0.0
+  composite: 58.7
+  delta: -1.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 77.5
-    developer_ergonomics: 66.8
-    discoverability: 87.0
+    contract_quality: 74.6
+    developer_ergonomics: 69.0
+    discoverability: 75.9
     governance: 20.8
     operational_transparency: 31.6
   previous_composite: 60.1
@@ -224,8 +236,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/krisp/refs/heads/main/screenshots/krisp-2026-07-25T224259.png
 security:

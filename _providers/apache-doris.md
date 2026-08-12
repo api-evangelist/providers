@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Apache Doris provides a MySQL-compatible protocol for SQL queries, a REST API for cluster management and monitoring, Stream Load HTTP API for real-time bulk data ingestion, Routine Load for continuous
@@ -36,6 +36,30 @@ apis:
   slug: apache-doris
 artifact_total: 36
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apache/doris/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/apache/doris/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/apache/doris/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/doris/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/doris/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/doris/blob/master/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -163,7 +187,7 @@ overview: 'Apache Doris publishes 1 API on the [APIs.io](https://apis.io/) netwo
   The Apache Doris catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Apache Doris'' developer surface includes developer portal, documentation, getting-started guide, engineering blog, Stack Overflow tag, and 6 more developer resources.'
+  Apache Doris'' developer surface includes developer portal, documentation, getting-started guide, engineering blog, Stack Overflow tag, and 12 more developer resources.'
 plans:
 - name: Apache Doris Plans Pricing
   plan_count: 3
@@ -184,18 +208,18 @@ rules:
   slug: apache-doris-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.2
-  delta: 0.0
+  composite: 36.6
+  delta: -3.6
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 29.0
     developer_ergonomics: 30.4
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 40.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-doris/refs/heads/main/screenshots/apache-doris-2026-06-20T172056.png
 security:

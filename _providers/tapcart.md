@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 55.9
-  scored_at: '2026-08-10'
+  score: 52.3
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: The Insights (Insights Pro) Metrics API returns aggregated analytics for a Tapcart app from a single POST endpoint whose response shape varies by the requested metricType — push explorer, sessions, re
@@ -48,6 +49,10 @@ asyncapis:
   name: Tapcart Webhooks
   slug: tapcart-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tapcart-client-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -210,31 +215,31 @@ overview: 'Tapcart publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
   The Tapcart catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tapcart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  Tapcart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 random_paper: 55
 score:
   band: strong
-  composite: 58.0
-  delta: -0.8
+  composite: 59.0
+  delta: 1.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 59.5
+    contract_quality: 63.3
     developer_ergonomics: 87.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 58.8
+  previous_composite: 58.0
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

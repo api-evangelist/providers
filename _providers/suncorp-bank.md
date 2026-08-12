@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-10'
+  score: 38.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -188,11 +188,11 @@ scopes:
   summary_line: 10 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 47.4
-  delta: 0.0
+  composite: 44.3
+  delta: -3.1
   facets:
     commercial_clarity: 28.9
-    contract_quality: 54.3
+    contract_quality: 52.2
     developer_ergonomics: 36.4
     discoverability: 92.6
     governance: 20.8
@@ -213,9 +213,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 77.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 59.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suncorp-bank/refs/heads/main/screenshots/suncorp-bank-2026-07-21T114752.png
 security:

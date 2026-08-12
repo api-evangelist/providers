@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 54.7
-  scored_at: '2026-08-10'
+  score: 51.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 154
   human_in_the_loop: 4
@@ -220,6 +221,14 @@ asyncapis:
   name: Dream Sports Webhooks
   slug: dream-sports-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dream-sports-checkmate-overlay.yaml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/dream-horizon-org/odin-mcp/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -367,7 +376,7 @@ overview: 'Dream Sports publishes 61 APIs on the [APIs.io](https://apis.io/) net
   The Dream Sports catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dream Sports'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 25 more developer resources.'
+  Dream Sports'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 27 more developer resources.'
 random_paper: 89
 scopes:
 - name: Dream Sports Scopes
@@ -376,28 +385,28 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.4
-  delta: -1.0
+  composite: 49.3
+  delta: 0.9
   facets:
     commercial_clarity: 21.1
-    contract_quality: 56.4
+    contract_quality: 60.2
     developer_ergonomics: 75.5
     discoverability: 77.8
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 49.4
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 12.5
+      callable: 11.5
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 61
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/screenshots/dream-sports-2026-08-07T164521.png
 security:

@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 9.0
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: 'Partner-facing integration APIs for EHRs, telehealth platforms and healthcare applications, covering medical encounter transcription, clinical note generation, integrated CDI with ICD-10 suggestions, '
@@ -134,8 +134,8 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: thin
-  composite: 33.6
-  delta: 0.0
+  composite: 31.0
+  delta: -2.6
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -151,9 +151,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 76.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 58.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambience-healthcare/refs/heads/main/screenshots/ambience-healthcare-2026-08-07T161310.png
 security:

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 51.6
-  scored_at: '2026-08-10'
+  score: 48.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -178,11 +178,11 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 45.0
-  delta: 0.0
+  composite: 43.4
+  delta: -1.6
   facets:
     commercial_clarity: 21.1
-    contract_quality: 59.7
+    contract_quality: 57.5
     developer_ergonomics: 38.6
     discoverability: 92.6
     governance: 11.5
@@ -203,9 +203,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 68.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 60.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kroo/refs/heads/main/screenshots/kroo-2026-07-25T224303.png
 security:

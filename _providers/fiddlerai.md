@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API (v3) for the Fiddler AI Observability platform — projects, models, applications, events, traces/sessions/spans, evaluators, alert rules, guardrails, custom metrics, and jobs. Resource-oriente
@@ -183,8 +183,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiddlerai/refs/heads/main/screenshots/fiddlerai-2026-07-25T214413.png
 security:

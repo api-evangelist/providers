@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 57.4
-  scored_at: '2026-08-10'
+  score: 53.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -316,14 +316,14 @@ scopes:
   slug: total-expert-scopes
   summary_line: 5 scopes · clientCredentials/authorizationCode
 score:
-  band: strong
-  composite: 57.2
-  delta: 0.0
+  band: developing
+  composite: 55.7
+  delta: -1.5
   facets:
     commercial_clarity: 36.8
-    contract_quality: 71.5
+    contract_quality: 68.8
     developer_ergonomics: 66.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 50.0
   previous_composite: 57.2
@@ -343,8 +343,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 59.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

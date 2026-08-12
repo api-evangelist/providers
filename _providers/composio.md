@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 66.7
-  scored_at: '2026-08-10'
+  score: 63.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 3
@@ -196,6 +196,30 @@ collections:
   name: Composio Platform API
   slug: open-composio-openapi-original
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/ComposioHQ/composio/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/ComposioHQ/composio/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/ComposioHQ/composio/blob/next/.github/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/ComposioHQ/composio/blob/next/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/ComposioHQ/composio/blob/next/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/ComposioHQ/composio/blob/next/LICENSE
 - group: build
   title: ''
   type: Packages
@@ -556,7 +580,7 @@ overview: 'Composio publishes 38 APIs on the [APIs.io](https://apis.io/) network
   The Composio catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Composio''s developer surface includes changelog, CLI, authentication, developer portal, documentation, getting-started guide, API reference, and 47 more developer resources.'
+  Composio''s developer surface includes changelog, CLI, authentication, developer portal, documentation, getting-started guide, API reference, and 53 more developer resources.'
 plans:
 - name: Composio Plans Pricing
   plan_count: 4
@@ -585,15 +609,15 @@ rules:
   slug: composio-rules
 score:
   band: exemplar
-  composite: 71.6
-  delta: 0.0
+  composite: 66.0
+  delta: -5.6
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 66.5
+    commercial_clarity: 60.5
+    contract_quality: 64.0
     developer_ergonomics: 73.9
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 69.8
-    operational_transparency: 68.4
+    operational_transparency: 55.3
   previous_composite: 71.6
   provenance:
     agentic_access: derived
@@ -604,9 +628,9 @@ score:
       marker_coverage: 0.0
       total: 38
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/screenshots/composio-2026-06-20T174834.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 15
@@ -65,6 +65,10 @@ arazzos:
   slug: ninox-provision-module
 artifact_total: 12
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ninox-public-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -200,15 +204,15 @@ network: true
 overview: 'Ninox publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Fields API, Modules API, Records API, and 2 more. Tagged areas include Company, Low-Code, Database, No-Code, and Application Development.
 
 
-  Ninox''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, support, and 23 more developer resources.'
+  Ninox''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, support, and 24 more developer resources.'
 random_paper: 92
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 48.5
+  delta: -0.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 55.7
+    contract_quality: 53.7
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
@@ -224,8 +228,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/screenshots/ninox-2026-08-07T185329.png
 security:

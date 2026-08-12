@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -83,6 +83,10 @@ collections:
   name: Triton Inference Server NVIDIA Triton Inference Server Metrics API
   slug: open-triton-metrics
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/triton-inference-server/server/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -138,11 +142,11 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/triton-http-rest-openapi.yml
+  url: openapi/_original/triton-http-rest-openapi.yml
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/triton-metrics-openapi.yml
+  url: openapi/_original/triton-metrics-openapi.yml
 - group: design
   title: ''
   type: JSONLD
@@ -171,10 +175,6 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/triton-vocabulary.yml
-- group: other
-  title: ''
-  type: x-profiled
-  url: 2026-05
 created: '2024-01-15'
 description: NVIDIA Triton Inference Server provides a cloud and edge inferencing solution optimized for both CPUs and GPUs. Triton supports an HTTP/REST and gRPC protocol that allows remote clients to request inferencing for any model being managed by the server. Open source and part of the broader NVIDIA AI ecosystem, Triton implements the KServe V2 inference protocol supporting TensorRT, TensorFlow, PyTorch, ONNX Runtime, Python, and more backends.
 examples:
@@ -247,16 +247,16 @@ rules:
     warn: 5
   slug: triton-rules
 score:
-  band: developing
-  composite: 43.6
-  delta: 0.0
+  band: thin
+  composite: 37.9
+  delta: -5.7
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 57.6
+    commercial_clarity: 13.2
+    contract_quality: 55.5
     developer_ergonomics: 19.6
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 21.1
   previous_composite: 43.6
   provenance:
     agentic_access: derived
@@ -265,9 +265,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/screenshots/triton-2026-06-20T195735.png
 slug: triton
 tags:

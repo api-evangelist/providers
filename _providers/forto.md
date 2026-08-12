@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -181,13 +181,13 @@ rate_limits:
   slug: forto-rate-limits
 score:
   band: developing
-  composite: 43.6
-  delta: 0.0
+  composite: 43.8
+  delta: 0.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 57.4
+    contract_quality: 55.2
     developer_ergonomics: 45.7
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 43.6
@@ -198,8 +198,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forto/refs/heads/main/screenshots/forto-2026-06-20T181445.png
 security:

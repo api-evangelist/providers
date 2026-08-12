@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: JSON-RPC interface to the XRP Ledger mainnet for querying accounts, transactions, ledgers, order books, AMM pools, NFTs, and server info. Served by community-run public rippled and Clio nodes.
@@ -45,6 +45,10 @@ apis:
   slug: xrpl-websocket-api-testnet
 artifact_total: 8
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/XRPLF/rippled/blob/develop/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -120,7 +124,7 @@ network: true
 overview: 'XRP Ledger publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain, XRP, Cryptocurrency, DeFi, and Ledger.
 
 
-  XRP Ledger''s developer surface includes documentation, getting-started guide, changelog, engineering blog, and 11 more developer resources.'
+  XRP Ledger''s developer surface includes documentation, getting-started guide, changelog, engineering blog, and 12 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
@@ -142,8 +146,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 29.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xrpl/refs/heads/main/screenshots/xrpl-2026-06-20T201721.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 9
 apis:
 - description: OpenAI-compatible REST API gateway aggregating GPT, Claude, Gemini, DeepSeek, plus image, video, and audio model providers behind a single key and routing/failover layer. Model marketplace, usage logs
@@ -162,24 +162,24 @@ rules:
   slug: wanapis-rules
 score:
   band: developing
-  composite: 45.9
-  delta: -0.4
+  composite: 48.9
+  delta: 3.0
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 68.2
+    commercial_clarity: 52.6
+    contract_quality: 69.4
     developer_ergonomics: 8.7
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 46.3
+  previous_composite: 45.9
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+      total: 8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wanapis/refs/heads/main/screenshots/wanapis-2026-06-20T201218.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 12
 apis:
 - description: 'Create, enroll, retrieve, update, delete, search, and merge loyalty members, and read a member''s activity and activity summary. Documented operations include POST /users, GET/PATCH /users/{memberId}, '
@@ -138,8 +138,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 19.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/annex-cloud/refs/heads/main/screenshots/annex-cloud-2026-07-25T200301.png
 security:

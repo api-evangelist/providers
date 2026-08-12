@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Card-linking REST API — programs, cards, transactions, brands, locations, offers and webhooks. Enroll Visa/Mastercard/Amex cards via PCI-compliant SDKs and receive enriched real-time transactions over
@@ -162,13 +162,13 @@ overview: 'Fidel publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 52
 score:
   band: developing
-  composite: 51.8
-  delta: 0.0
+  composite: 48.9
+  delta: -2.9
   facets:
     commercial_clarity: 52.6
     contract_quality: 51.6
     developer_ergonomics: 65.2
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 28.9
   previous_composite: 51.8
@@ -179,9 +179,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 59.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 46.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fidel/refs/heads/main/screenshots/fidel-2026-07-25T214420.png
 security:

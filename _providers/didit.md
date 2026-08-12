@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 64.6
-  scored_at: '2026-08-10'
+  score: 61.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 1
@@ -258,11 +259,11 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.9
-  delta: 0.0
+  composite: 60.2
+  delta: -0.7
   facets:
     commercial_clarity: 52.6
-    contract_quality: 70.7
+    contract_quality: 68.0
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 20.8
@@ -278,8 +279,8 @@ score:
       total: 17
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/screenshots/didit-2026-07-25T211951.png
 security:

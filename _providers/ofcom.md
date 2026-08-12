@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-10'
+  score: 44.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,8 +41,12 @@ arazzos:
 - description: Build a complete connectivity picture for one UK postcode by calling both Ofcom Connected Nations APIs — fixed broadband availability and mobile coverage across all four UK operators — and joining the
   name: Ofcom postcode connectivity profile
   slug: ofcom-postcode-connectivity-profile
-artifact_total: 9
+artifact_total: 10
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/ofcom-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -160,6 +164,10 @@ description: Ofcom is the Office of Communications, the United Kingdom's indepen
   gateway at api-proxy.ofcom.org.uk and authenticated with an Azure APIM subscription key. Everything else Ofcom publishes (spectrum licence registers, numbering data, market research) is documents and datasets, not APIs, and the community has repeatedly built third-party APIs on top of those files. Ofcom appears once in the CAMARA project participant register but exposes no CAMARA network APIs and is not a GSMA Open Gateway participant — Open Gateway is an operator commitment programme and Ofcom is the regulator, not an operator.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: ofcom-mcp.yml
+  slug: ofcom-mcpyml
 modified: '2026-07-25'
 name: Ofcom
 nav: Providers
@@ -167,7 +175,7 @@ network: true
 overview: 'Ofcom publishes 2 APIs on the [APIs.io](https://apis.io/) network: Connected Nations Broadband API and Connected Nations Mobile API. Tagged areas include Telecommunications, United Kingdom, Regulator, Broadband, and Mobile Network Coverage.
 
 
-  Ofcom''s developer surface includes sandbox, authentication, documentation, signup flow, API reference, developer console, support, and 21 more developer resources.'
+  Ofcom''s developer surface includes sandbox, authentication, documentation, signup flow, API reference, developer console, support, and 22 more developer resources.'
 plans:
 - name: Ofcom Plans
   plan_count: 4
@@ -179,13 +187,13 @@ rate_limits:
   slug: ofcom-rate-limits
 score:
   band: developing
-  composite: 47.5
-  delta: 0.0
+  composite: 45.2
+  delta: -2.3
   facets:
     commercial_clarity: 55.3
-    contract_quality: 58.1
-    developer_ergonomics: 47.3
-    discoverability: 87.0
+    contract_quality: 56.0
+    developer_ergonomics: 49.5
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 31.6
   previous_composite: 47.5
@@ -204,9 +212,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 37.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 29.2
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ofcom/refs/heads/main/screenshots/ofcom-2026-08-07T190010.png
 security:

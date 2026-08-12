@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 33.3
-  scored_at: '2026-08-10'
+  score: 30.9
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The Model Upload API from Pathmind — 1 operation(s) for model upload.
@@ -29,6 +29,18 @@ apis:
   slug: skymind-projects-api
 artifact_total: 4
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/skymind-upload-anylogic-model.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/skymind-pathmind-overlay.yaml
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/PathmindAI/pathmind-webapp/blob/dev/LICENSE
 - group: company
   title: ''
   type: Website
@@ -97,30 +109,30 @@ network: true
 overview: 'Pathmind publishes 2 APIs on the [APIs.io](https://apis.io/) network: Model Upload API and Projects API. Tagged areas include Company, Artificial Intelligence, Machine Learning, Reinforcement Learning, and Simulation.
 
 
-  Pathmind''s developer surface includes documentation, API reference, changelog, and 11 more developer resources.'
+  Pathmind''s developer surface includes documentation, API reference, changelog, and 14 more developer resources.'
 random_paper: 71
 score:
   band: thin
-  composite: 30.9
-  delta: -0.6
+  composite: 31.3
+  delta: 0.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 55.0
-    developer_ergonomics: 21.7
+    contract_quality: 55.2
+    developer_ergonomics: 23.4
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 31.5
+  previous_composite: 30.9
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 2
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

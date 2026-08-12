@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,6 +62,22 @@ collections:
   name: CoreDNS Metrics API
   slug: open-coredns-metrics
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/coredns/coredns/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/coredns/coredns/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/coredns/coredns/blob/master/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/coredns/coredns/blob/master/.github/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -157,7 +173,7 @@ overview: 'CoreDNS publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
   The CoreDNS catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  CoreDNS''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 13 more developer resources.'
+  CoreDNS''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 17 more developer resources.'
 plans:
 - name: Coredns Plans Pricing
   plan_count: 1
@@ -193,16 +209,16 @@ rules:
     warn: 2
   slug: coredns-metrics-rules
 score:
-  band: developing
-  composite: 43.2
-  delta: 0.0
+  band: thin
+  composite: 37.8
+  delta: -5.4
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 57.4
+    commercial_clarity: 13.2
+    contract_quality: 55.2
     developer_ergonomics: 26.1
     discoverability: 72.2
     governance: 31.3
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 43.2
   provenance:
     agentic_access: derived
@@ -211,9 +227,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/screenshots/coredns-2026-06-20T175025.png
 security:
 - kind: domain-security

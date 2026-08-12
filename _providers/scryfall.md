@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: Large daily exports of the entire Scryfall card database.
@@ -54,6 +54,10 @@ apis:
   slug: scryfall-symbology-api
 artifact_total: 74
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/scryfall/api-types/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -358,7 +362,7 @@ overview: 'Scryfall publishes 7 APIs on the [APIs.io](https://apis.io/) network,
   The Scryfall catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Scryfall''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, tooling, and 31 more developer resources.'
+  Scryfall''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, tooling, and 32 more developer resources.'
 plans:
 - name: Scryfall Plans Pricing
   plan_count: 2
@@ -387,11 +391,11 @@ rules:
   slug: scryfall-rules
 score:
   band: strong
-  composite: 57.6
-  delta: 0.0
+  composite: 57.5
+  delta: -0.1
   facets:
     commercial_clarity: 52.6
-    contract_quality: 64.3
+    contract_quality: 64.2
     developer_ergonomics: 52.2
     discoverability: 74.1
     governance: 68.8
@@ -402,15 +406,15 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 7
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scryfall/refs/heads/main/screenshots/scryfall-2026-06-20T193609.png
 security:

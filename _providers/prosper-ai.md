@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-10'
+  score: 44.4
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: The API Keys API from Prosper AI — 1 operation(s) for api keys.
@@ -51,6 +51,10 @@ apis:
   slug: prosper-ai-targets-api
 artifact_total: 10
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/prosper-ai-voice-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -138,7 +142,7 @@ network: true
 overview: 'Prosper AI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Call Logs API, Campaigns API, and 3 more. Tagged areas include Company, Healthcare, Voice AI, Revenue Cycle Management, and Patient Access.
 
 
-  Prosper AI''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, engineering blog, and 12 more developer resources.'
+  Prosper AI''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, engineering blog, and 13 more developer resources.'
 random_paper: 98
 scopes:
 - name: Prosper Ai Scopes
@@ -147,11 +151,11 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 45.4
+  delta: -0.3
   facets:
     commercial_clarity: 42.1
-    contract_quality: 47.5
+    contract_quality: 45.8
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
@@ -172,8 +176,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

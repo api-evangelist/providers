@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 39.9
-  scored_at: '2026-08-10'
+  score: 36.3
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Live stock market news with tagged tickers, per-entity sentiment and match scores, entity statistics and trending endpoints, delivered as a GET-only JSON API authenticated with an api_token query para
@@ -168,13 +168,13 @@ rate_limits:
   slug: marketaux-rate-limits
 score:
   band: developing
-  composite: 44.1
-  delta: 0.0
+  composite: 43.0
+  delta: -1.1
   facets:
     commercial_clarity: 76.3
-    contract_quality: 15.9
+    contract_quality: 15.3
     developer_ergonomics: 42.9
-    discoverability: 94.4
+    discoverability: 83.3
     governance: 11.5
     operational_transparency: 31.6
   previous_composite: 44.1
@@ -193,8 +193,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/screenshots/marketaux-2026-06-20T184952.png
 security:

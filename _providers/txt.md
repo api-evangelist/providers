@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -58,6 +59,10 @@ apis:
   slug: txt-responses-api-api
 artifact_total: 10
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/txt-dottxt-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -173,15 +178,15 @@ network: true
 overview: '.txt publishes 6 APIs on the [APIs.io](https://apis.io/) network, including batches API, chat API, embeddings API, and 3 more. Tagged areas include Company, Artificial Intelligence, LLM, Structured Outputs, and JSON Schema.
 
 
-  .txt''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, CLI, and 18 more developer resources.'
+  .txt''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, CLI, and 19 more developer resources.'
 random_paper: 4
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 46.2
+  delta: -0.6
   facets:
     commercial_clarity: 23.7
-    contract_quality: 61.3
+    contract_quality: 59.0
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 11.5
@@ -197,8 +202,8 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

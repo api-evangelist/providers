@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -75,6 +75,34 @@ collections:
   name: Basis Theory API
   slug: open-basis-theory
 common:
+- group: auth
+  title: ''
+  type: Security
+  url: https://basistheory.com/security
+- group: build
+  title: ''
+  type: SDKs
+  url: https://developers.basistheory.com/docs/sdks
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.basistheory.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://basistheory.com/resources/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://basistheory.com/resources/terms-of-service
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://basistheory.com/pricing
+- group: start
+  title: ''
+  type: Signup
+  url: https://portal.basistheory.com/register
 - group: agent
   title: ''
   type: AgenticAccess
@@ -138,7 +166,7 @@ network: true
 overview: 'Basis Theory publishes 10 APIs on the [APIs.io](https://apis.io/) network, including 3D Secure API, Applications API, Logs API, and 7 more. Tagged areas include Tokenization, Data Vault, PCI Compliance, Payments, and Security.
 
 
-  Basis Theory''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  Basis Theory''s developer surface includes pricing, signup flow, authentication, documentation, engineering blog, and 14 more developer resources.'
 plans:
 - name: Basis Theory Plans Pricing
   plan_count: 4
@@ -149,16 +177,16 @@ rate_limits:
   name: Basis Theory Rate Limits
   slug: basis-theory-rate-limits
 score:
-  band: thin
-  composite: 38.7
-  delta: 0.0
+  band: developing
+  composite: 52.3
+  delta: 13.6
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 59.1
-    developer_ergonomics: 21.7
-    discoverability: 74.1
+    commercial_clarity: 92.1
+    contract_quality: 56.9
+    developer_ergonomics: 28.3
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 63.2
   previous_composite: 38.7
   provenance:
     agentic_access: derived
@@ -172,10 +200,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 26.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+    score: 39.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/basis-theory/refs/heads/main/screenshots/basis-theory-2026-06-20T173050.png
 security:
 - kind: authentication

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -182,11 +182,11 @@ scopes:
   summary_line: 15 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 43.6
+  delta: -3.2
   facets:
     commercial_clarity: 23.7
-    contract_quality: 69.4
+    contract_quality: 66.8
     developer_ergonomics: 49.5
     discoverability: 81.5
     governance: 11.5
@@ -206,9 +206,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 70.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 53.2
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/screenshots/bmo-2026-07-25T203515.png
 security:

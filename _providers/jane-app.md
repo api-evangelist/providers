@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +12,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 54.3
-  scored_at: '2026-08-10'
+  score: 53.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -52,12 +53,16 @@ apis:
 - description: Jane JDP API from Jane — 31 path(s) described in OpenAPI.
   name: Jane JDP API
   slug: jane-app-jdp-openapi
-artifact_total: 14
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Jane App Webhooks
   slug: jane-app-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/jane-app-mcp.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -191,6 +196,10 @@ description: 'Jane is a cloud-based practice management platform for health and 
   covering patients, appointments, locations, staff, disciplines, treatments, medical records (observations, care plans, medications), document uploads, webhooks, and extension management. Jane is not FHIR/HL7-based: it is a proprietary REST practice-management API rather than a SMART-on-FHIR EHR interoperability surface.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: jane-app-mcp.yml
+  slug: jane-app-mcpyml
 modified: '2026-07-24'
 name: Jane
 nav: Providers
@@ -201,7 +210,7 @@ overview: 'Jane publishes 1 API on the [APIs.io](https://apis.io/) network: JDP 
   The Jane catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Jane''s developer surface includes authentication, sandbox, support, documentation, API reference, getting-started guide, pricing, and 25 more developer resources.'
+  Jane''s developer surface includes authentication, sandbox, support, documentation, API reference, getting-started guide, pricing, and 26 more developer resources.'
 random_paper: 84
 scopes:
 - name: Jane App Scopes
@@ -209,13 +218,13 @@ scopes:
   slug: jane-app-scopes
   summary_line: 30 scopes · authorizationCode
 score:
-  band: strong
-  composite: 58.7
-  delta: 0.0
+  band: developing
+  composite: 55.9
+  delta: -2.8
   facets:
     commercial_clarity: 47.4
-    contract_quality: 72.4
-    developer_ergonomics: 60.3
+    contract_quality: 69.7
+    developer_ergonomics: 62.5
     discoverability: 83.3
     governance: 20.8
     operational_transparency: 39.5
@@ -235,9 +244,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 76.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 58.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/screenshots/jane-app-2026-07-25T223058.png
 security:

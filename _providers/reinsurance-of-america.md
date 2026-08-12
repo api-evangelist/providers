@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: RGA's Digital Health Data (DHD) Risk Scoring service evaluates structured electronic medical record and medical claims data to derive actionable underwriting risk scores for seamless integration withi
@@ -110,15 +110,15 @@ rate_limits:
   slug: reinsurance-of-america-rate-limits
 score:
   band: emerging
-  composite: 23.6
-  delta: 0.0
+  composite: 17.0
+  delta: -6.6
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 12.9
     developer_ergonomics: 8.7
     discoverability: 59.3
     governance: 10.4
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 23.6
   regulatory:
     applies: true
@@ -126,9 +126,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/reinsurance-of-america/refs/heads/main/screenshots/reinsurance-of-america-2026-06-20T192808.png
 security:
 - kind: domain-security

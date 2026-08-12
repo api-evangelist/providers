@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -62,6 +62,10 @@ asyncapis:
   name: Packlink Webhooks
   slug: packlink-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/packlink-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -168,15 +172,15 @@ overview: 'Packlink publishes 6 APIs on the [APIs.io](https://apis.io/) network,
   The Packlink catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Packlink''s developer surface includes developer portal, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
+  Packlink''s developer surface includes developer portal, support, engineering blog, signup flow, authentication, and 18 more developer resources.'
 random_paper: 33
 score:
-  band: developing
-  composite: 42.4
-  delta: 0.0
+  band: thin
+  composite: 40.7
+  delta: -1.7
   facets:
     commercial_clarity: 34.2
-    contract_quality: 68.2
+    contract_quality: 65.7
     developer_ergonomics: 36.4
     discoverability: 81.5
     governance: 11.5
@@ -192,8 +196,14 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 34.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/screenshots/packlink-2026-08-07T191246.png
 security:

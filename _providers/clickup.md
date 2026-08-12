@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -364,16 +364,16 @@ rules:
     warn: 5
   slug: clickup-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 47.0
-  delta: 0.0
+  band: thin
+  composite: 39.3
+  delta: -7.7
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 80.4
+    commercial_clarity: 23.7
+    contract_quality: 77.8
     developer_ergonomics: 13.0
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 41.7
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 47.0
   provenance:
     agentic_access: derived
@@ -382,9 +382,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/screenshots/clickup-2026-06-20T174517.png
 security:
 - kind: authentication

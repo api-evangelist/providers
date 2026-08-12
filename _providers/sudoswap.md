@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: On-chain smart contract interface for the Sudoswap AMM protocol. Developers interact with LSSVMPairFactory to create pools, with LSSVMPair contracts to deposit/withdraw assets, and with VeryFastRouter
@@ -42,6 +42,10 @@ apis:
   slug: sudoswap-sdk-sudo-defined-quoter
 artifact_total: 8
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/sudoswap/lssvm2/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -108,7 +112,7 @@ overview: 'Sudoswap publishes 3 APIs on the [APIs.io](https://apis.io/) network.
   The Sudoswap catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Sudoswap''s developer surface includes documentation, engineering blog, GitHub presence, FAQ, status page, and 6 more developer resources.'
+  Sudoswap''s developer surface includes documentation, engineering blog, GitHub presence, FAQ, status page, and 7 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
@@ -120,18 +124,18 @@ rate_limits:
   slug: rate-limits
 score:
   band: emerging
-  composite: 25.1
-  delta: 0.0
+  composite: 26.0
+  delta: 0.9
   facets:
     commercial_clarity: 60.5
     contract_quality: 8.1
-    developer_ergonomics: 10.9
+    developer_ergonomics: 15.2
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 25.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sudoswap/refs/heads/main/screenshots/sudoswap-2026-06-20T194636.png
 security:

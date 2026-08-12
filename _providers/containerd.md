@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,6 +56,14 @@ collections:
   name: Containerd Metrics API
   slug: open-containerd-metrics
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/containerd/nri/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/containerd/nri/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -146,7 +154,7 @@ overview: 'Containerd publishes 1 API on the [APIs.io](https://apis.io/) network
   The Containerd catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Containerd''s developer surface includes documentation, getting-started guide, changelog, and 12 more developer resources.'
+  Containerd''s developer surface includes documentation, getting-started guide, changelog, and 14 more developer resources.'
 plans:
 - name: Containerd Plans Pricing
   plan_count: 1
@@ -174,16 +182,16 @@ rules:
     warn: 2
   slug: containerd-rules
 score:
-  band: developing
-  composite: 47.5
-  delta: 0.0
+  band: thin
+  composite: 40.7
+  delta: -6.8
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 67.4
+    commercial_clarity: 13.2
+    contract_quality: 64.9
     developer_ergonomics: 23.9
     discoverability: 63.0
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 47.5
   provenance:
     agentic_access: derived
@@ -192,9 +200,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/containerd/refs/heads/main/screenshots/containerd-2026-06-20T174921.png
 security:
 - kind: domain-security

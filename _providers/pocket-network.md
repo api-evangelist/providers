@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -133,6 +133,10 @@ collections:
   name: Pocket Network Shannon RPC API
   slug: open-pocket-network-shannon-rpc-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/buildwithgrove/path/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -401,7 +405,7 @@ overview: 'Pocket Network publishes 16 APIs on the [APIs.io](https://apis.io/) n
   The Pocket Network catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Pocket Network''s developer surface includes authentication, developer portal, documentation, tooling, changelog, engineering blog, getting-started guide, and 45 more developer resources.'
+  Pocket Network''s developer surface includes authentication, developer portal, documentation, tooling, changelog, engineering blog, getting-started guide, and 46 more developer resources.'
 plans:
 - name: Pocket Network Plans Pricing
   plan_count: 4
@@ -430,12 +434,12 @@ rules:
   slug: pocket-network-rules
 score:
   band: exemplar
-  composite: 67.2
-  delta: 0.0
+  composite: 67.4
+  delta: 0.2
   facets:
     commercial_clarity: 71.1
-    contract_quality: 68.5
-    developer_ergonomics: 60.9
+    contract_quality: 66.0
+    developer_ergonomics: 65.2
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 68.4
@@ -447,8 +451,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/screenshots/pocket-network-2026-06-20T191825.png
 security:

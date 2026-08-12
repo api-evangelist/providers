@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Axios is a promise-based HTTP client for the browser and Node.js with automatic JSON data transformation and request/response interceptors.
@@ -36,6 +36,30 @@ apis:
   slug: axios
 artifact_total: 23
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/axios/axios/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/axios/axios/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/axios/axios/blob/v1.x/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/axios/axios/blob/v1.x/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/axios/axios/blob/v1.x/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/axios/axios/blob/v1.x/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -103,7 +127,7 @@ network: true
 overview: 'Axios publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Clients, HTTP Client, JavaScript, and Node.js.
 
 
-  Axios'' developer surface includes documentation and 5 more developer resources.'
+  Axios'' developer surface includes documentation and 11 more developer resources.'
 plans:
 - name: Axios Plans Pricing
   plan_count: 3
@@ -115,18 +139,18 @@ rate_limits:
   slug: axios-rate-limits
 score:
   band: emerging
-  composite: 19.8
-  delta: 0.0
+  composite: 15.4
+  delta: -4.4
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 15.2
     discoverability: 40.7
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 19.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axios/refs/heads/main/screenshots/axios-2026-06-20T172811.png
 security:

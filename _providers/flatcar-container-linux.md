@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -69,6 +69,30 @@ collections:
   name: Nebraska
   slug: open-nebraska-update-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/flatcar/nebraska/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/flatcar/nebraska/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/flatcar/nebraska/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/flatcar/nebraska/blob/main/code-of-conduct.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/flatcar/nebraska/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/flatcar/nebraska/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -128,7 +152,7 @@ network: true
 overview: 'Flatcar Container Linux publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Apps API, Channels API, and 5 more. Tagged areas include Cloud Native, Containers, Immutable Infrastructure, Incubating, and Linux.
 
 
-  Flatcar Container Linux''s developer surface includes authentication, documentation, release notes, engineering blog, and 7 more developer resources.'
+  Flatcar Container Linux''s developer surface includes authentication, documentation, release notes, engineering blog, and 13 more developer resources.'
 plans:
 - name: Flatcar Container Linux Plans Pricing
   plan_count: 3
@@ -140,15 +164,15 @@ rate_limits:
   slug: flatcar-container-linux-rate-limits
 score:
   band: thin
-  composite: 39.2
-  delta: 0.0
+  composite: 32.3
+  delta: -6.9
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 47.4
+    commercial_clarity: 15.8
+    contract_quality: 45.6
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 39.2
   provenance:
     agentic_access: derived
@@ -157,9 +181,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/screenshots/flatcar-container-linux-2026-06-20T181304.png
 security:
 - kind: authentication

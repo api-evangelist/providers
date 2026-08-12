@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.4
-  scored_at: '2026-08-10'
+  score: 29.1
+  scored_at: '2026-08-11'
 api_count: 17
 apis:
 - description: The account API from Origin Protocol — 2 operation(s) for account.
@@ -82,8 +82,16 @@ apis:
 - description: The token API from Origin Protocol — 12 operation(s) for token.
   name: Origin Protocol token API
   slug: origin-protocol-token-api
-artifact_total: 20
+artifact_total: 21
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/origin-protocol-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/origin-protocol-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -136,6 +144,10 @@ created: '2026-07-17'
 description: Origin Protocol builds permissionless DeFi infrastructure for yield-bearing tokens on Ethereum and L2s. Its products include Origin Ether (OETH) and Super OETH liquid-staking tokens, the Origin Dollar (OUSD) yield-bearing stablecoin, Origin Sonic (OS), the Automated Redemption Manager (ARM) arbitrage vaults, and the OGN governance/value-accrual token backed by protocol-revenue buybacks. Origin publishes a public read-only Analytics REST API (api.originprotocol.com) that wraps its origin-squid indexer, exposing yield, supply, collateral, revenue, and buyback data. Backed by Pantera Capital; surfaced into the API Evangelist network and enriched from Origin's own developer surfaces.
 image: https://docs.originprotocol.com/~gitbook/image
 layout: provider
+mcp_servers:
+- description: ''
+  name: origin-protocol-mcp.yml
+  slug: origin-protocol-mcpyml
 modified: '2026-07-20'
 name: Origin Protocol
 nav: Providers
@@ -143,7 +155,7 @@ network: true
 overview: 'Origin Protocol publishes 17 APIs on the [APIs.io](https://apis.io/) network, including account API, arm API, beacon-chain API, and 14 more. Tagged areas include Company, Crypto, DeFi, Analytics, and Ethereum.
 
 
-  Origin Protocol''s developer surface includes documentation, API reference, engineering blog, authentication, and 8 more developer resources.'
+  Origin Protocol''s developer surface includes documentation, API reference, engineering blog, authentication, and 10 more developer resources.'
 random_paper: 67
 score:
   band: thin
@@ -151,8 +163,8 @@ score:
   delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 47.1
-    developer_ergonomics: 38.6
+    contract_quality: 45.3
+    developer_ergonomics: 40.8
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
@@ -166,8 +178,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/screenshots/origin-protocol-2026-08-07T190935.png
 security:

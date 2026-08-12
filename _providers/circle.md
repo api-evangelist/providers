@@ -11,10 +11,11 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -22,14 +23,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-10'
+  score: 47.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -60,7 +61,7 @@ apis:
 - description: The Wallets API from Circle — 7 operation(s) for wallets.
   name: Circle Wallets API
   slug: circle-wallets-api
-artifact_total: 21
+artifact_total: 22
 asyncapis:
 - description: AsyncAPI description of Circle's outbound webhook (notification) surfaces. Circle delivers event notifications by POSTing a JSON body to a subscriber endpoint that is registered via product-specific n
   name: Circle Webhook Notifications
@@ -70,6 +71,18 @@ collections:
   name: Circle Web3 Services (W3S) — Developer-Controlled Wallets API
   slug: open-circle
 common:
+- group: agent
+  title: ''
+  type: AgentSkills
+  url: https://developers.circle.com/ai/skills
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.circle.com/api-reference
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://developers.circle.com/ai/mcp
 - group: agent
   title: ''
   type: AgenticAccess
@@ -178,6 +191,10 @@ jsonld:
   property_count: 6
   slug: circle-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-05-30'
 name: Circle
 nav: Providers
@@ -188,7 +205,7 @@ overview: 'Circle publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The Circle catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Circle''s developer surface includes authentication, developer portal, developer console, getting-started guide, support, engineering blog, and 16 more developer resources.'
+  Circle''s developer surface includes API reference, authentication, developer portal, developer console, getting-started guide, support, engineering blog, and 18 more developer resources.'
 plans:
 - name: Circle Plans Pricing
   plan_count: 3
@@ -225,15 +242,15 @@ rules:
   slug: circle-rules
 score:
   band: developing
-  composite: 54.9
-  delta: 0.0
+  composite: 52.0
+  delta: -2.9
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 70.5
-    developer_ergonomics: 43.5
-    discoverability: 74.1
+    commercial_clarity: 36.8
+    contract_quality: 67.9
+    developer_ergonomics: 65.2
+    discoverability: 81.5
     governance: 41.7
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 54.9
   provenance:
     agentic_access: derived
@@ -248,8 +265,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/screenshots/circle-2026-06-20T174349.png
 security:

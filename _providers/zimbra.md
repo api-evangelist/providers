@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: SOAP API (XML and JSON encodings) for Zimbra Collaboration — account, mail, and admin operations, POSTed to /service/soap on a Zimbra deployment. Self-hosted, so the base host is per-deployment; the r
@@ -126,27 +126,21 @@ overview: 'Zimbra publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
   Zimbra''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
 random_paper: 65
 score:
-  band: thin
-  composite: 28.6
-  delta: 0.0
+  band: emerging
+  composite: 24.9
+  delta: -3.7
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 39.1
-    discoverability: 77.8
+    discoverability: 66.7
     governance: 12.5
     operational_transparency: 15.8
   previous_composite: 28.6
   provenance:
     conformance: first-party
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 43.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-10'
+  score: 41.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -62,12 +62,20 @@ apis:
 - description: 'The Webhook: Payload Structure for Order Notification API from Zubale — 1 operation(s) for webhook: payload structure for order notification.'
   name: 'Zubale Webhook: Payload Structure for Order Notification API'
   slug: zubale-webhook-payload-structure-for-order-notification-api
-artifact_total: 15
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Zubale Webhooks
   slug: zubale-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/zubale-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zubale-openapi-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -96,6 +104,10 @@ created: '2026-07-17'
 description: 'Zubale is a company surfaced as a portfolio company of felicis, qed-investors and added to the API Evangelist network as a stub for enrichment. Sector: ecommerce. This profile is a lead awaiting the enrichment pipeline.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zubale.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: zubale-mcp.yml
+  slug: zubale-mcpyml
 modified: '2026-07-17'
 name: Zubale
 nav: Providers
@@ -106,7 +118,7 @@ overview: 'Zubale publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
   The Zubale catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Zubale''s developer surface includes authentication and 5 more developer resources.'
+  Zubale''s developer surface includes authentication and 7 more developer resources.'
 random_paper: 63
 scopes:
 - name: Zubale Scopes
@@ -115,12 +127,12 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 27.5
-  delta: 0.0
+  composite: 27.3
+  delta: -0.2
   facets:
     commercial_clarity: 7.9
-    contract_quality: 67.8
-    developer_ergonomics: 10.9
+    contract_quality: 65.3
+    developer_ergonomics: 13.0
     discoverability: 53.7
     governance: 11.5
     operational_transparency: 0.0
@@ -134,8 +146,8 @@ score:
       marker_coverage: 0.0
       total: 8
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

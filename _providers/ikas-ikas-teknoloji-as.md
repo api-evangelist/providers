@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-10'
+  score: 46.2
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Public GraphQL Admin API for ikas stores — read and write products, variants, orders, transactions, customers, price lists, campaigns, coupons, stock locations, sales channels, storefronts, and webhoo
@@ -167,13 +168,13 @@ scopes:
   summary_line: 10 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 40.6
-  delta: 0.0
+  composite: 39.5
+  delta: -1.1
   facets:
     commercial_clarity: 10.5
     contract_quality: 51.6
     developer_ergonomics: 69.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 21.1
   previous_composite: 40.6
@@ -181,8 +182,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/screenshots/ikas-ikas-teknoloji-as-2026-07-25T222057.png
 security:

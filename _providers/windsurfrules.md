@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -53,6 +53,10 @@ collections:
   name: Windsurf Enterprise API
   slug: open-windsurf-enterprise
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Exafunction/windsurf.nvim/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -156,7 +160,7 @@ overview: 'Windsurf publishes 3 APIs on the [APIs.io](https://apis.io/) network:
   The Windsurf catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Windsurf''s developer surface includes documentation, API reference, changelog, engineering blog, pricing, and 13 more developer resources.'
+  Windsurf''s developer surface includes documentation, API reference, changelog, engineering blog, pricing, and 14 more developer resources.'
 plans:
 - name: Windsurfrules Plans Pricing
   plan_count: 3
@@ -185,15 +189,15 @@ rules:
   slug: windsurfrules-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.9
-  delta: 0.0
+  composite: 42.1
+  delta: -6.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 66.7
-    developer_ergonomics: 17.4
-    discoverability: 74.1
+    commercial_clarity: 26.3
+    contract_quality: 64.2
+    developer_ergonomics: 21.7
+    discoverability: 81.5
     governance: 37.5
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 48.9
   provenance:
     agentic_access: derived
@@ -202,9 +206,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/windsurfrules/refs/heads/main/screenshots/windsurfrules-2026-06-20T201512.png
 security:
 - kind: domain-security

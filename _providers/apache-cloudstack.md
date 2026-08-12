@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -66,6 +66,26 @@ collections:
   name: Apache CloudStack Networks Zones API
   slug: postman-apache-cloudstack-zones-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apache/cloudstack/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/apache/cloudstack/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/cloudstack/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/cloudstack/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -227,7 +247,7 @@ overview: 'Apache CloudStack publishes 4 APIs on the [APIs.io](https://apis.io/)
   The Apache CloudStack catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache CloudStack''s developer surface includes authentication, documentation, getting-started guide, support, changelog, and 10 more developer resources.'
+  Apache CloudStack''s developer surface includes authentication, documentation, getting-started guide, support, changelog, and 15 more developer resources.'
 plans:
 - name: Apache Cloudstack Plans Pricing
   plan_count: 3
@@ -255,16 +275,16 @@ rules:
     warn: 15
   slug: apache-cloudstack-spectral-rules
 score:
-  band: developing
-  composite: 45.2
-  delta: 0.0
+  band: thin
+  composite: 38.5
+  delta: -6.7
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 23.1
+    commercial_clarity: 26.3
+    contract_quality: 22.2
     developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 45.2
   provenance:
     agentic_access: derived
@@ -273,9 +293,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/screenshots/apache-cloudstack-2026-06-20T172047.png
 security:
 - kind: authentication

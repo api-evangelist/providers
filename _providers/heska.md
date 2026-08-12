@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Partner-gated integration surface for placing point-of-care laboratory orders from a practice information management system to Heska in-clinic analyzers. A completed order in the PIMS triggers a reque
@@ -77,18 +77,24 @@ overview: 'Heska publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 60
 score:
   band: minimal
-  composite: 8.2
-  delta: 0.0
+  composite: 10.4
+  delta: 2.2
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 8.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 7.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heska/refs/heads/main/screenshots/heska-2026-07-25T221053.png
 security:

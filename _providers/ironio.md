@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: IronMQ is a high-performance hosted message queue that lets you pass messages and events between processes and systems. The v3 REST API supports pull and push queues, subscribers, message reservations
@@ -173,27 +173,21 @@ overview: 'Iron.io publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 random_paper: 76
 score:
   band: developing
-  composite: 47.4
-  delta: 0.0
+  composite: 47.3
+  delta: -0.1
   facets:
     commercial_clarity: 52.6
     contract_quality: 51.6
     developer_ergonomics: 60.9
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 28.9
   previous_composite: 47.4
   provenance:
     conformance: derived
     mcp: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironio/refs/heads/main/screenshots/ironio-2026-07-25T222916.png
 security:

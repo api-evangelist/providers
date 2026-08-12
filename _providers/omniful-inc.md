@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-10'
+  score: 36.5
+  scored_at: '2026-08-11'
 api_count: 34
 apis:
 - description: The Background Jobs API from Omniful, Inc. — 1 operation(s) for background jobs.
@@ -133,12 +133,20 @@ apis:
 - description: The Webhooks API from Omniful, Inc. — 1 operation(s) for webhooks.
   name: Omniful, Inc. Webhooks API
   slug: omniful-inc-webhooks-api
-artifact_total: 37
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Omniful Inc Webhooks
   slug: omniful-inc-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/omniful-inc-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/omniful-inc-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -219,6 +227,10 @@ created: '2026-07-17'
 description: Omniful is an AI-powered unified supply chain and fulfillment platform that consolidates order management (OMS), warehouse management (WMS), transportation management (TMS), inventory, point of sale, and returns into a single intelligent system for retailers, e-commerce businesses, logistics providers, and enterprises. The platform offers plug-and-play integrations with sales channels, marketplaces, and ERPs, multi-location and multi-brand operation support, and a set of public Integration APIs (seller/sales-channel, tenant, and TMS) with bearer-token authentication and webhook event subscriptions, documented as a public Postman collection at docs.omniful.tech. Omniful is a 500 Global portfolio company operating primarily across the MENA region.
 image: https://www.omniful.ai/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: omniful-inc-mcp.yml
+  slug: omniful-inc-mcpyml
 modified: '2026-07-20'
 name: Omniful, Inc.
 nav: Providers
@@ -229,16 +241,16 @@ overview: 'Omniful, Inc. publishes 34 APIs on the [APIs.io](https://apis.io/) ne
   The Omniful, Inc. catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Omniful, Inc.''s developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, and 13 more developer resources.'
+  Omniful, Inc.''s developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, and 15 more developer resources.'
 random_paper: 77
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 46.2
+  delta: -0.2
   facets:
     commercial_clarity: 31.6
-    contract_quality: 68.1
-    developer_ergonomics: 45.7
+    contract_quality: 65.6
+    developer_ergonomics: 47.8
     discoverability: 81.5
     governance: 8.3
     operational_transparency: 36.8
@@ -250,8 +262,8 @@ score:
       marker_coverage: 0.0
       total: 34
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omniful-inc/refs/heads/main/screenshots/omniful-inc-2026-08-07T190155.png
 security:

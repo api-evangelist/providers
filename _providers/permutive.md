@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -58,6 +58,10 @@ apis:
   slug: permutive-taxonomy-api
 artifact_total: 11
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/permutive-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -173,15 +177,15 @@ network: true
 overview: 'Permutive publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Cohorts API, Contextual API, Events API, and 3 more. Tagged areas include Company, Publishing, Advertising, AdTech, and MarTech.
 
 
-  Permutive''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 19 more developer resources.'
+  Permutive''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 20 more developer resources.'
 random_paper: 65
 score:
   band: developing
-  composite: 48.1
-  delta: 0.0
+  composite: 47.5
+  delta: -0.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 65.1
+    contract_quality: 62.7
     developer_ergonomics: 69.0
     discoverability: 81.5
     governance: 11.5
@@ -197,8 +201,8 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

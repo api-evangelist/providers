@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -63,6 +63,10 @@ apis:
   slug: colossal-biosciences-users-api
 artifact_total: 15
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/colossal-biosciences-content-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -166,28 +170,28 @@ network: true
 overview: 'Colossal Biosciences publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Comments API, Discovery API, and 7 more. Tagged areas include Company, Biotechnology, Genomics, Life Sciences, and Conservation.
 
 
-  Colossal Biosciences'' developer surface includes authentication, engineering blog, signup flow, and 19 more developer resources.'
+  Colossal Biosciences'' developer surface includes authentication, engineering blog, signup flow, and 20 more developer resources.'
 random_paper: 96
 score:
   band: emerging
-  composite: 25.6
-  delta: 0.2
+  composite: 24.8
+  delta: -0.8
   facets:
     commercial_clarity: 34.2
-    contract_quality: 14.0
+    contract_quality: 14.4
     developer_ergonomics: 14.7
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 25.4
+  previous_composite: 25.6
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 10
       marker_coverage: 100.0
-      total: 1
+      total: 10
     mcp: first-party
     skills: derived
   regulatory:
@@ -196,8 +200,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/colossal-biosciences/refs/heads/main/screenshots/colossal-biosciences-2026-08-07T163606.png
 security:

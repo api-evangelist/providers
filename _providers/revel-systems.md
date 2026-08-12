@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -366,15 +366,15 @@ rules:
   slug: revel-systems-rules
 score:
   band: thin
-  composite: 35.2
-  delta: 0.0
+  composite: 29.6
+  delta: -5.6
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 42.9
+    commercial_clarity: 13.2
+    contract_quality: 41.5
     developer_ergonomics: 10.9
     discoverability: 55.6
     governance: 62.5
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 35.2
   provenance:
     agentic_access: derived
@@ -383,9 +383,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/screenshots/revel-systems-2026-06-20T193052.png
 security:
 - kind: authentication

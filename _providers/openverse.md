@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,6 +50,10 @@ apis:
   slug: openverse-images-api
 artifact_total: 88
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/WordPress/openverse/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -323,7 +327,7 @@ overview: 'Openverse publishes 3 APIs on the [APIs.io](https://apis.io/) network
   The Openverse catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Openverse''s developer surface includes authentication, engineering blog, and 2 more developer resources.'
+  Openverse''s developer surface includes authentication, engineering blog, and 3 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
@@ -344,11 +348,11 @@ rules:
   slug: openverse-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.0
-  delta: 0.0
+  composite: 38.5
+  delta: -0.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 61.8
+    contract_quality: 59.5
     developer_ergonomics: 13.0
     discoverability: 74.1
     governance: 58.3
@@ -367,8 +371,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/screenshots/openverse-2026-06-20T191047.png
 security:

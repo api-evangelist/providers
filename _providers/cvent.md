@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -93,6 +93,10 @@ collections:
   name: Cvent REST API
   slug: open-cvent
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/cvent/custom-widgets-labs/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -208,7 +212,7 @@ network: true
 overview: 'Cvent publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Attendees API, Contacts API, Events API, and 4 more. Tagged areas include Attendee Hub, Attendee Management, Conferences, Diagramming, and Event Management.
 
 
-  Cvent''s developer surface includes authentication, API reference, signup flow, changelog, support, pricing, training material, and 18 more developer resources.'
+  Cvent''s developer surface includes authentication, API reference, signup flow, changelog, support, pricing, training material, and 19 more developer resources.'
 plans:
 - name: Cvent Plans Pricing
   plan_count: 3
@@ -225,15 +229,15 @@ scopes:
   summary_line: 9 scopes · clientCredentials
 score:
   band: developing
-  composite: 52.9
-  delta: 0.0
+  composite: 47.2
+  delta: -5.7
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 55.4
+    commercial_clarity: 68.4
+    contract_quality: 53.3
     developer_ergonomics: 32.6
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 78.9
+    operational_transparency: 55.3
   previous_composite: 52.9
   provenance:
     agentic_access: derived
@@ -242,9 +246,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/screenshots/cvent-2026-06-20T175359.png
 security:
 - kind: authentication

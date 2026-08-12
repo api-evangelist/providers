@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -67,6 +67,18 @@ collections:
   name: Cloud Native Buildpacks Registry API
   slug: open-buildpacks-registry-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/buildpacks/registry-index/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/buildpacks/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/buildpacks/.github/blob/main/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -315,7 +327,7 @@ overview: 'buildpacks-io publishes 2 APIs on the [APIs.io](https://apis.io/) net
   The buildpacks-io catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  buildpacks-io''s developer surface includes developer portal, documentation, getting-started guide, release notes, engineering blog, tooling, code examples, and 39 more developer resources.'
+  buildpacks-io''s developer surface includes developer portal, documentation, getting-started guide, release notes, engineering blog, tooling, code examples, and 42 more developer resources.'
 random_paper: 43
 rules:
 - name: buildpacks-io API Rules
@@ -336,11 +348,11 @@ rules:
   slug: buildpacks-io-rules
 score:
   band: developing
-  composite: 45.8
-  delta: 0.0
+  composite: 45.1
+  delta: -0.7
   facets:
     commercial_clarity: 0.0
-    contract_quality: 74.4
+    contract_quality: 71.6
     developer_ergonomics: 50.0
     discoverability: 55.6
     governance: 68.8
@@ -353,8 +365,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/screenshots/buildpacks-io-2026-06-20T173753.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -75,6 +75,10 @@ collections:
   name: Spider Cloud API
   slug: open-spider-cloud
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/spider-rs/spider-cloud-mcp-v2/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -178,7 +182,7 @@ network: true
 overview: 'Spider publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Crawling API, Data API, Fetch API, and 6 more. Tagged areas include Crawling, Scraping, Data Extraction, URLs, and AI.
 
 
-  Spider''s developer surface includes authentication, documentation, API reference, pricing, support, engineering blog, and 15 more developer resources.'
+  Spider''s developer surface includes authentication, documentation, API reference, pricing, support, engineering blog, and 16 more developer resources.'
 plans:
 - name: Spider Cloud Plans Pricing
   plan_count: 4
@@ -190,11 +194,11 @@ rate_limits:
   slug: spider-cloud-rate-limits
 score:
   band: developing
-  composite: 51.4
-  delta: 0.0
+  composite: 50.8
+  delta: -0.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.6
+    contract_quality: 61.2
     developer_ergonomics: 56.5
     discoverability: 74.1
     governance: 0.0
@@ -207,8 +211,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/screenshots/spider-cloud-2026-06-20T194311.png
 security:

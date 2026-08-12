@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 9.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The OpenID Connect / OAuth 2.0 authorization server Gymshark operates on its own domain at auth.gymshark.com (an Auth0 tenant) for Gymshark customer accounts across the web storefronts and the Gymshar
@@ -154,8 +154,8 @@ score:
   previous_composite: 21.4
   provenance:
     conformance: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gymshark/refs/heads/main/screenshots/gymshark-2026-08-07T165908.png
 security:

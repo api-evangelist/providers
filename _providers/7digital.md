@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -186,6 +186,14 @@ collections:
   name: 7digital / MassiveMusic Streaming Platform API
   slug: open-7digital-streaming-platform
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/7digital/7digital-api/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/7digital/7digital-api/blob/master/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -927,7 +935,7 @@ overview: '7digital publishes 23 APIs on the [APIs.io](https://apis.io/) network
   The 7digital catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  7digital''s developer surface includes authentication, documentation, getting-started guide, API reference, changelog, FAQ, support, and 17 more developer resources.'
+  7digital''s developer surface includes authentication, documentation, getting-started guide, API reference, changelog, FAQ, support, and 19 more developer resources.'
 plans:
 - name: 7Digital Plans Pricing
   plan_count: 1
@@ -956,11 +964,11 @@ rules:
   slug: 7digital-rules
 score:
   band: developing
-  composite: 48.8
-  delta: 0.0
+  composite: 48.5
+  delta: -0.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 28.0
+    contract_quality: 26.9
     developer_ergonomics: 45.7
     discoverability: 75.9
     governance: 68.8
@@ -973,8 +981,8 @@ score:
       derived: 23
       marker_coverage: 100.0
       total: 23
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/screenshots/7digital-2026-06-20T162807.png
 security:

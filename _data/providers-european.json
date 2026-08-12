@@ -15,19 +15,19 @@
      "type": "API Provider",
      "description": "Ordnance Survey is Great Britain's national mapping agency, a government-owned company that maintains the addressing and mapping layer the UK property market runs on - the Unique Property Reference Number (UPRN), the TOID, AddressBase, and the OS National Geographic Database. The UK has no MLS; residential listings sit behind the Rightmove/Zoopla duopoly and agency CRM software, so the open layer in this market is public-sector rather than private, and OS is one half of it alongside HM Land Registry. Its API posture is unusually honest for this sector - the OS Data Hub is a self-serve developer portal with real machine-readable contracts, including OGC-conformant OpenAPI 3.0 documents served live and anonymously at api.os.uk for OS NGD API - Features and Tiles, plus published OpenAPI for the OS Downloads and OS Net APIs. The split that matters is licensing, not reachability: OS OpenData products (OS Open UPRN, OS Open TOID, Code-Point Open, OS Open Names, Boundary-Line, OS Open Linked Identifiers) are free and downloadable with no API key at all through the OS Downloads API, while the premium addressing and mapping products behind OS Places API, OS Features API, and the NGD collections require a paid Premium plan or Public Sector Geospatial Agreement (PSGA) membership. RESO plays no part here - the Real Estate Standards Organization standards are a US MLS construct and appear nowhere in the OS estate. Home market is the United Kingdom.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/screenshots/ordnance-survey-2026-08-07T190917.png",
-     "score": 67.2,
+     "score": 66.8,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 50.8,
+      "contract_quality": 48.9,
       "governance": 20.8,
       "operational_transparency": 86.8,
       "developer_ergonomics": 73.4,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -59,11 +59,11 @@
    "open": true
   },
   {
-   "band": "strong",
-   "label": "Strong",
-   "range": "60–69.9",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 1,
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 4,
    "providers": [
     {
      "name": "Polyteia",
@@ -71,19 +71,19 @@
      "url": "https://providers.apis.io/providers/polyteia/",
      "type": "API Provider",
      "description": "Polyteia is a Berlin-based govtech company offering a data platform for the German and European public sector. It lets public administrations connect existing systems, harmonize fragmented data, and use it in AI-supported workflows for forms, case processing, statistical evaluation, and reporting. The platform ships pre-built Solutions for common public-sector use cases (social-service planning, budget controlling, crisis response, kindergarten demand forecasting) plus a no-code/low-code Studio. It serves 80+ government entities in Germany, including the states of Schleswig-Holstein and Saarland. The platform is fully driveable through an RPC-style API (command/query over a single POST endpoint) authenticated with Personal Access Keys, backed by a Trust Center and GDPR/BSI/C5 compliance. Founded by Faruk Tuncer, Taisia Antonova, and Lukas Rambold; backed by HV Capital and DvH Ventures.",
-     "score": 57.2,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 55.7,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 68.2,
+      "discoverability": 81.5,
+      "contract_quality": 65.7,
       "governance": 20.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 56.0,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -110,17 +110,7 @@
       "dry_run_mode": false
      },
      "rank": 2
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "developing",
-   "label": "Developing",
-   "range": "45–59.9",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 4,
-   "providers": [
+    },
     {
      "name": "HM Land Registry",
      "slug": "hm-land-registry",
@@ -128,19 +118,19 @@
      "type": "API Provider",
      "description": "HM Land Registry is the non-ministerial government department that registers the ownership of land and property in England and Wales, guaranteeing title to more than 26 million registered estates. In a United Kingdom market that has no MLS and no cooperative listing standard — residential listings are controlled by the Rightmove and Zoopla duopoly and reach them through agency CRM software — HMLR is the counterweight, and it sits at the legal foundation of the value chain rather than at the consumer end: it is the authoritative source of who owns what, what it sold for, and where its boundaries are, and every conveyancing transaction in England and Wales terminates at its register. Its API posture is genuinely and unusually good for a registry, but it is split into three tiers that should never be conflated. First, a real open layer: the landregistry.data.gov.uk platform serves a live, anonymous, unauthenticated SPARQL 1.1 endpoint plus a W3C Linked Data API over Price Paid Data and the UK House Price Index, with JSON/CSV/Turtle content negotiation, alongside bulk Price Paid CSVs and INSPIRE index polygons — all under the Open Government Licence v3.0 with no signup, no key and no fee. Second, a self-serve keyed tier: the Use land and property data service issues an API key automatically on account creation and exposes a documented REST API for dataset metadata and signed download URLs, but the datasets behind it require a signed licence per dataset and some are chargeable — the Registered Leases commercial licence is £5,000 a year plus VAT, and the National Polygon Service, which holds the title boundary polygons and the title number to UPRN lookup, is £20,000 a year plus VAT. A state registry selling the spatial extent of the public record back to the public is the finding, and it is recorded here plainly. Third, the Business Gateway: the B2B channel that conveyancers and their case management systems use to submit applications to change the register, order official copies and run priority searches. Its developer pack is fully public on GitHub Pages with eight downloadable OpenAPI 3.0/3.1 contracts and 37 SOAP XSDs, but the production host businessgateway.landregistry.gov.uk will not complete a TLS handshake without an HMLR-issued client certificate, and access requires signing a development licence and holding a business e-services account. There is no RESO Web API certification, no RESO Data Dictionary, no OData $metadata document and no Universal Property Identifier anywhere in HMLR's stack — RESO is a North American NAR construct with no UK adoption, and HMLR's machine-readable contracts are OpenAPI, XSD and W3C linked data instead.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/screenshots/hm-land-registry-2026-08-07T170236.png",
-     "score": 54.7,
+     "score": 54.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 83.3,
-      "contract_quality": 70.8,
+      "contract_quality": 68.2,
       "governance": 21.9,
       "operational_transparency": 31.6,
       "developer_ergonomics": 62.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -148,7 +138,7 @@
       "score": 57.4,
       "matched_via": "tags"
      },
-     "agent_score": 60.6,
+     "agent_score": 57.0,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -161,7 +151,7 @@
       "rate_limit_signal": false,
       "event_surface_described": "derived",
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
@@ -175,19 +165,19 @@
      "type": "API Provider",
      "description": "Aleph Alpha is a Heidelberg, Germany based sovereign AI company building PhariaAI, an end-to-end, customizable AI suite for enterprises and governments that can be deployed on-premise or hosted. The stack combines leading open-source and proprietary large language models with Aleph Alpha's own Pharia-1-LLM model family and its research into transparency, explainability and domain-specific performance. PhariaAI is exposed through six documented HTTP APIs — PhariaInference (completion, chat, embeddings, tokenization), PhariaData (repositories, datasets, transformations), PhariaSearch / Document Index (semantic search over a knowledge base), PhariaStudio (projects, traces, evaluation, benchmarks), PhariaOS (cluster, use case and model lifecycle management) and a stateful, OpenAI-compatible Responses API with MCP tool calling — each published as an OpenAPI or Swagger definition on the Aleph Alpha documentation site. First-party SDKs ship for Python and Rust, alongside a CLI for publishing WebAssembly skills to the Pharia Kernel.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/screenshots/aleph-alpha-2026-08-07T161154.png",
-     "score": 48.6,
+     "score": 48.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 52.8,
+      "discoverability": 75.9,
+      "contract_quality": 56.8,
       "governance": 11.5,
       "operational_transparency": 28.9,
       "developer_ergonomics": 82.1,
       "commercial_clarity": 26.3
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -195,7 +185,7 @@
       "score": 48.1,
       "matched_via": "tags"
      },
-     "agent_score": 53.4,
+     "agent_score": 49.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -208,7 +198,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -222,19 +212,19 @@
      "type": "API Provider",
      "description": "GOV.UK Notify is a UK government notification service operated by the Government Digital Service (GDS) that enables central government, local authorities, NHS organisations, and other eligible public bodies to send emails, text messages, and letters to citizens on behalf of government services. The platform provides a REST API, a web-based sending interface, and official client libraries for Python, Java, .NET, Node.js, PHP, and Ruby. Emails are free and unlimited; SMS messages include an annual free allowance by organisation type with per-message overage at 2.4p; physical letters are priced by postage class and page count with print and postage included. The API uses JWT-based authentication, supports template-driven personalisation, and enforces a throughput limit of 3,000 messages per minute per API key type.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/screenshots/gov-uk-notify-2026-06-20T182256.png",
-     "score": 47.7,
+     "score": 47.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 65.9,
+      "contract_quality": 63.4,
       "governance": 58.3,
       "operational_transparency": 31.6,
       "developer_ergonomics": 26.1,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -261,26 +251,36 @@
       "dry_run_mode": false
      },
      "rank": 5
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 3,
+   "providers": [
     {
      "name": "UK Civil Aviation Authority",
      "slug": "uk-caa",
      "url": "https://providers.apis.io/providers/uk-caa/",
      "type": "API Provider",
      "description": "The UK Civil Aviation Authority (CAA) is the United Kingdom's independent aviation regulator and a public corporation of the Department for Transport. It licenses UK airlines, registers UK civil aircraft on the G-INFO register, regulates airspace and airports, economically regulates Heathrow and Gatwick, enforces UK air passenger rights, and — the part that matters most to travel distribution — runs the Air Travel Organiser's Licence (ATOL) scheme, which is the statutory gate every business selling flight-inclusive packages to UK consumers must pass through, including sellers established outside the UK. The CAA sits above the distribution chain rather than inside it: it does not distribute inventory, does not operate a GDS or NDC connection, and has no NDC posture of its own. Its API posture is thin and honest to record — there is no developer portal, no OpenAPI, and no published aviation data API. The only documented, self-serve, key-free public API on a CAA domain is the Citizen Space (Delib) consultation API at consultations.caa.co.uk/api, a vendor platform API rather than an aviation data API. The aviation surfaces that do exist — the G-INFO aircraft register search and the Check an ATOL search — are undocumented ASP.NET JSON backends whose CORS policy is locked to www.caa.co.uk and which are reCAPTCHA-gated. Bulk aviation data is delivered as CSV, PDF and XLSX files behind opaque GUID download URLs, and the full G-INFO aircraft register is a paid subscription emailed as an MS Excel file licensed for use on a single PC. Home market is the United Kingdom.",
-     "score": 42.7,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 41.7,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 67.4,
-      "governance": 21.9,
+      "contract_quality": 64.9,
+      "governance": 14.1,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 27.7,
+      "developer_ergonomics": 29.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -288,12 +288,12 @@
       "score": 50.0,
       "matched_via": "tags"
      },
-     "agent_score": 38.5,
+     "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "mcp_server": false,
+      "mcp_server": "derived",
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": "documented",
@@ -301,41 +301,32 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
      "rank": 6
-    }
-   ]
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "30–44.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 2,
-   "providers": [
+    },
     {
      "name": "i6eal Open AI Data API",
      "slug": "i6eal-open-ai-data-api",
      "url": "https://providers.apis.io/providers/i6eal-open-ai-data-api/",
      "type": "API Provider",
      "description": "A free, no-authentication open-data REST API from i6eal (a German AI studio operated by Syka Ventures UG) exposing 16 AI-related datasets and monitors for Germany and the EU as static JSON/CSV/JSON-LD/Atom files served over HTTPS from CloudFront. Coverage spans public procurement, federal budget lines, case law, supervisory authorities, standardisation work items, EU AI Act transparency evidence, medical devices, clinical trials, platform automation, enforcement actions and adoption statistics. Backed by a live OpenAPI 3.0.3 contract with 83 GET operations, a DCAT JSON-LD catalogue of 16 datasets and 82 distributions, a provider-published llms.txt, and per-dataset Atom change feeds. No authentication, no registration, no published rate limit; CORS is open and responses carry ETag validators. The i6eal compilation is CC BY 4.0; underlying official records retain their source-specific rights.",
-     "score": 41.1,
+     "score": 39.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 55.8,
-      "governance": 20.8,
+      "discoverability": 81.5,
+      "contract_quality": 59.7,
+      "governance": 11.5,
       "operational_transparency": 5.3,
-      "developer_ergonomics": 47.8,
+      "developer_ergonomics": 45.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -343,19 +334,19 @@
       "score": 46.3,
       "matched_via": "tags"
      },
-     "agent_score": 34.9,
+     "agent_score": 34.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
-      "mcp_server": false,
+      "mcp_server": "derived",
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": false,
       "event_surface_described": false,
-      "agent_skills": true,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -370,19 +361,19 @@
      "type": "API Provider",
      "description": "Lightning Social Ventures is the UK social-impact company behind Lightning Reach, a financial support platform that connects people facing hardship to grants, benefits, vouchers and assistance schemes through a single profile and eligibility match. Councils, housing associations, charities, utilities and banks use the platform to run and administer their own support programmes, from application intake through evidence review to award and payment. Lightning Reach operates a partner-facing REST API that exposes support schemes, application submission and referral, applicant evidence assets, decision and award recording, and webhook subscriptions with public-key signature verification.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lightning-social-ventures/refs/heads/main/screenshots/lightning-social-ventures-2026-07-25T225125.png",
-     "score": 35.6,
+     "score": 34.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 51.9,
+      "discoverability": 81.5,
+      "contract_quality": 50.0,
       "governance": 11.5,
       "operational_transparency": 7.9,
       "developer_ergonomics": 21.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -437,8 +428,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -484,8 +475,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -531,8 +522,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -578,8 +569,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -625,8 +616,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -672,8 +663,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -719,8 +710,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -766,8 +757,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -813,8 +804,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -860,8 +851,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -907,8 +898,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -954,8 +945,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1001,8 +992,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1048,8 +1039,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1095,8 +1086,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1142,8 +1133,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1189,8 +1180,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1236,8 +1227,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1283,8 +1274,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1330,8 +1321,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1377,8 +1368,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1424,8 +1415,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1471,8 +1462,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1518,8 +1509,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1565,8 +1556,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1612,8 +1603,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1659,8 +1650,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1706,8 +1697,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1753,8 +1744,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1800,8 +1791,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1847,8 +1838,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1894,8 +1885,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1941,8 +1932,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1988,8 +1979,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2035,8 +2026,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2082,8 +2073,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2129,8 +2120,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2176,8 +2167,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2223,8 +2214,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2270,8 +2261,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2317,8 +2308,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2364,8 +2355,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2411,8 +2402,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2458,8 +2449,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2505,8 +2496,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2561,8 +2552,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2608,8 +2599,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2655,8 +2646,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2702,8 +2693,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2749,8 +2740,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2796,8 +2787,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2843,8 +2834,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2890,8 +2881,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2937,8 +2928,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2984,8 +2975,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3031,8 +3022,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3078,8 +3069,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3125,8 +3116,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3172,8 +3163,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3219,8 +3210,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3266,8 +3257,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3313,8 +3304,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3360,8 +3351,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3407,8 +3398,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3454,8 +3445,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3501,8 +3492,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3548,8 +3539,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3595,8 +3586,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3642,8 +3633,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3689,8 +3680,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3736,8 +3727,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3783,8 +3774,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3829,8 +3820,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3876,8 +3867,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3923,8 +3914,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3970,8 +3961,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4006,7 +3997,7 @@
      "type": "API Provider",
      "description": "island.is (Stafrænt Ísland / Digital Iceland) is Iceland's national digital-services and government API platform, operated by the Ministry of Finance and Economic Affairs / Digital Iceland. It provides a GraphQL gateway at api.island.is (authentication-gated) that fronts internal REST microservices, with business/government-to-government REST services described using OpenAPI 3.0 and registered in the X-Road \"Straumurinn\" API Catalogue. The developer handbook is published at docs.devland.is. Iceland's former CKAN open-data portal (opingogn.is) has been decommissioned and now redirects to island.is.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/island-is/refs/heads/main/screenshots/island-is-2026-07-25T222951.png",
-     "score": 8.6,
+     "score": 9.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -4017,8 +4008,15 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4057,8 +4055,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4104,8 +4102,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4151,8 +4149,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4198,8 +4196,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4244,8 +4242,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",

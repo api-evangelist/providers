@@ -24,13 +24,29 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-10'
+  score: 0.0
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/generalaction/emdash/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/generalaction/emdash/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/generalaction/emdash/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/generalaction/emdash/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -118,22 +134,22 @@ network: true
 overview: 'Emdash is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, AI Coding Agents, Agentic Development Environment, and Open Source.
 
 
-  Emdash''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, signup flow, and 13 more developer resources.'
+  Emdash''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, signup flow, and 17 more developer resources.'
 random_paper: 46
 score:
   band: emerging
-  composite: 24.1
-  delta: 0.0
+  composite: 23.0
+  delta: -1.1
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 34.8
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 24.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emdash/refs/heads/main/screenshots/emdash-2026-07-25T213231.png
 security:

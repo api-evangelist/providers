@@ -16,19 +16,19 @@
      "slug": "airbus",
      "description": "A European multinational aerospace corporation designing, manufacturing, and selling commercial aircraft, helicopters, defense, and space products. Through its Space Solutions / OneAtlas division Airbus publishes a developer API portal for satellite imagery, mapping, and elevation data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/airbus/refs/heads/main/screenshots/airbus-2026-06-20T171419.png",
-     "score": 42.6,
+     "score": 42.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 63.6,
+      "contract_quality": 61.2,
       "governance": 0.0,
       "operational_transparency": 52.6,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -65,19 +65,19 @@
      "slug": "rtx",
      "description": "RTX Corporation is a leading American aerospace and defense company comprising three market businesses: Collins Aerospace, Pratt & Whitney, and Raytheon. Raytheon develops the EAGLE (Enhanced Automated Graphical Logistics Environment) software platform for integrated logistics support and logistic support analysis across defense programs. RTX BBN Technologies (a Raytheon subsidiary) develops open-source software including SPARQL triple stores, NLP frameworks, and TAK ecosystem plugins for government and military situational awareness platforms.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/screenshots/rtx-2026-06-20T193244.png",
-     "score": 39.9,
+     "score": 35.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 60.5,
+      "contract_quality": 58.2,
       "governance": 58.3,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 13.0,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -113,27 +113,27 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 6,
-   "shown": 6,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "General Dynamics",
      "slug": "general-dynamics",
      "description": "General Dynamics Corporation is a global aerospace and defense company headquartered in Reston, Virginia. The company operates across five business segments: Aerospace, Marine Systems, Combat Systems, Technologies, and Mission Systems, providing business aviation, ship construction, land combat vehicles, weapons systems, and technology products and services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/general-dynamics/refs/heads/main/screenshots/general-dynamics-2026-06-20T181724.png",
-     "score": 26.8,
+     "score": 21.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 56.6,
+      "contract_quality": 54.5,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -162,44 +162,6 @@
      "rank": 3
     },
     {
-     "name": "Honeywell",
-     "slug": "honeywell",
-     "description": "Honeywell is a Fortune 100 technology company that delivers industry-specific solutions including aerospace products and services, control technologies, performance materials, and safety and productivity solutions. Honeywell Forge is the company's connected platform for building automation, industrial IoT, and aerospace data integration.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/honeywell/refs/heads/main/screenshots/honeywell-2026-06-20T182823.png",
-     "score": 21.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 17.7,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 4
-    },
-    {
      "name": "TransDigm Group",
      "slug": "transdigm",
      "description": "TransDigm Group is a leading global designer, producer, and supplier of highly engineered aerospace components, systems, and subsystems for use on nearly all commercial and military aircraft. The company operates 49 independent operating units producing proprietary, sole-source components including actuation systems, ignition systems, fuel systems, airframe and flight control components, cockpit security systems, seatbelts, airbags, pumps, valves, switches, and cockpit displays. TransDigm serves commercial airlines, defense OEMs, aerospace distributors, and the US Department of Defense.",
@@ -215,8 +177,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -235,26 +197,74 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
+     "rank": 4
     },
+    {
+     "name": "Honeywell",
+     "slug": "honeywell",
+     "description": "Honeywell is a Fortune 100 technology company that delivers industry-specific solutions including aerospace products and services, control technologies, performance materials, and safety and productivity solutions. Honeywell Forge is the company's connected platform for building automation, industrial IoT, and aerospace data integration.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/honeywell/refs/heads/main/screenshots/honeywell-2026-06-20T182823.png",
+     "score": 16.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 17.7,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 5
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 12.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 18,
+   "shown": 18,
+   "providers": [
     {
      "name": "Boeing",
      "slug": "boeing",
      "description": "Boeing is an American multinational corporation that designs, manufactures, and sells airplanes, rotorcraft, rockets, satellites, and telecommunications equipment. Boeing Developer Tools provides aviation data APIs powered by Jeppesen aeronautical databases, covering aircraft models, airport data, airspace information, NOTAMs, flight events, and runway operations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/boeing/refs/heads/main/screenshots/boeing-2026-06-20T173551.png",
-     "score": 17.9,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 12.7,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -276,99 +286,6 @@
      "rank": 6
     },
     {
-     "name": "HEICO Corporation",
-     "slug": "heico",
-     "description": "HEICO Corporation is a major US corporation and Fortune 1000 company. The HEICO Corporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/heico/refs/heads/main/screenshots/heico-2026-06-20T182623.png",
-     "score": 14.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 7
-    },
-    {
-     "name": "Moog",
-     "slug": "moog",
-     "description": "Moog Inc. is a worldwide designer, manufacturer, and integrator of precision motion and fluid control products and solutions for aerospace, defense, industrial, and medical applications. Product divisions include actuation, motion systems, motors, propulsion, valves, aerospace components, and defense systems. Moog does not currently publish a public developer API or developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/moog/refs/heads/main/screenshots/moog-2026-06-20T185758.png",
-     "score": 13.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 7.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 8
-    }
-   ]
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 12.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 15,
-   "shown": 15,
-   "providers": [
-    {
      "name": "BAE Systems",
      "slug": "bae-systems",
      "description": "BAE Systems is a British multinational defense, security, and aerospace company and one of the largest defense contractors globally. BAE Systems does not publish public developer APIs; technology integration is delivered through classified and ITAR-controlled customer programs, the Discover supplier portal, defense-program-specific data exchanges (e.g. F-35 ALIS / ODIN, Eurofighter), and FMS / government-to-government channels.",
@@ -383,8 +300,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -403,7 +320,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 7
     },
     {
      "name": "L3Harris Technologies",
@@ -421,8 +338,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -448,7 +365,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 10
+     "rank": 8
     },
     {
      "name": "Textron",
@@ -466,8 +383,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -486,7 +403,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 9
     },
     {
      "name": "GE Aerospace",
@@ -504,8 +421,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -517,6 +434,89 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 10
+    },
+    {
+     "name": "HEICO Corporation",
+     "slug": "heico",
+     "description": "HEICO Corporation is a major US corporation and Fortune 1000 company. The HEICO Corporation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/heico/refs/heads/main/screenshots/heico-2026-06-20T182623.png",
+     "score": 9.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 11
+    },
+    {
+     "name": "Moog",
+     "slug": "moog",
+     "description": "Moog Inc. is a worldwide designer, manufacturer, and integrator of precision motion and fluid control products and solutions for aerospace, defense, industrial, and medical applications. Product divisions include actuation, motion systems, motors, propulsion, valves, aerospace components, and defense systems. Moog does not currently publish a public developer API or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/moog/refs/heads/main/screenshots/moog-2026-06-20T185758.png",
+     "score": 8.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -542,8 +542,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -576,7 +576,7 @@
      "slug": "rolls-royce",
      "description": "Rolls-Royce plc is a British multinational aerospace and defense company manufacturing aero engines (Trent series), defense propulsion, and power systems. Rolls-Royce does not publish a public developer API. The company operates supplier portals at suppliers.rolls-royce.com and maintains a small GitHub presence with the qc-cfd open-source repository covering quantum computing for computational fluid dynamics research.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rolls-royce/refs/heads/main/screenshots/rolls-royce-2026-06-20T193209.png",
-     "score": 6.4,
+     "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -587,8 +587,15 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 14.9,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -610,11 +617,11 @@
      "rank": 14
     },
     {
-     "name": "Spirit AeroSystems Holdings",
-     "slug": "spirit-aerosystems-holdings",
-     "description": "Spirit AeroSystems Holdings is one of the world's largest manufacturers of aerostructures for commercial airplanes, defense platforms, and business and regional jets. Spirit designs and builds fuselages, pylons, nacelles, and wing components for major aircraft programs including Boeing 737 MAX, 787, and Airbus A350. The company does not publicly expose developer APIs; its digital operations are focused on internal supply chain, manufacturing execution, and enterprise systems.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spirit-aerosystems-holdings/refs/heads/main/screenshots/spirit-aerosystems-holdings-2026-06-20T194321.png",
-     "score": 5.4,
+     "name": "Curtiss-Wright",
+     "slug": "curtiss-wright",
+     "description": "Curtiss-Wright is a global integrated business that provides highly engineered products, solutions, and services mainly to the aerospace, defense, commercial power, process, and general industrial markets. Its product portfolio spans rugged embedded computing, mission-critical avionics, electronic packaging, naval propulsion, reactor coolant pumps for nuclear power, surface treatment services, industrial valves, sensors, data acquisition systems, telemetry ground stations, emergency arresting systems for military aircraft, and electronic systems for naval shipbuilding programs. The company traces its lineage to the aviation pioneers Glenn Curtiss and the Wright brothers and today operates across the Defense Electronics, Naval & Power, and Aerospace & Industrial segments.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/curtiss-wright/refs/heads/main/screenshots/curtiss-wright-2026-06-20T175345.png",
+     "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -622,11 +629,18 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -648,23 +662,23 @@
      "rank": 15
     },
     {
-     "name": "Lockheed Martin",
-     "slug": "lockheed-martin",
-     "description": "Lockheed Martin is a leading global security, defense, and aerospace contractor. This repository captures the public APIs, developer tools, and machine-readable API artifacts where they exist for Lockheed Martin.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lockheed-martin/refs/heads/main/screenshots/lockheed-martin-2026-06-20T184639.png",
-     "score": 5.2,
+     "name": "Spirit AeroSystems Holdings",
+     "slug": "spirit-aerosystems-holdings",
+     "description": "Spirit AeroSystems Holdings is one of the world's largest manufacturers of aerostructures for commercial airplanes, defense platforms, and business and regional jets. Spirit designs and builds fuselages, pylons, nacelles, and wing components for major aircraft programs including Boeing 737 MAX, 787, and Airbus A350. The company does not publicly expose developer APIs; its digital operations are focused on internal supply chain, manufacturing execution, and enterprise systems.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spirit-aerosystems-holdings/refs/heads/main/screenshots/spirit-aerosystems-holdings-2026-06-20T194321.png",
+     "score": 5.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -686,23 +700,23 @@
      "rank": 16
     },
     {
-     "name": "Curtiss-Wright",
-     "slug": "curtiss-wright",
-     "description": "Curtiss-Wright is a global integrated business that provides highly engineered products, solutions, and services mainly to the aerospace, defense, commercial power, process, and general industrial markets. Its product portfolio spans rugged embedded computing, mission-critical avionics, electronic packaging, naval propulsion, reactor coolant pumps for nuclear power, surface treatment services, industrial valves, sensors, data acquisition systems, telemetry ground stations, emergency arresting systems for military aircraft, and electronic systems for naval shipbuilding programs. The company traces its lineage to the aviation pioneers Glenn Curtiss and the Wright brothers and today operates across the Defense Electronics, Naval & Power, and Aerospace & Industrial segments.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/curtiss-wright/refs/heads/main/screenshots/curtiss-wright-2026-06-20T175345.png",
-     "score": 5.0,
+     "name": "Lockheed Martin",
+     "slug": "lockheed-martin",
+     "description": "Lockheed Martin is a leading global security, defense, and aerospace contractor. This repository captures the public APIs, developer tools, and machine-readable API artifacts where they exist for Lockheed Martin.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lockheed-martin/refs/heads/main/screenshots/lockheed-martin-2026-06-20T184639.png",
+     "score": 5.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -739,8 +753,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -776,8 +790,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -813,8 +827,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -851,8 +865,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -889,8 +903,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -927,8 +941,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

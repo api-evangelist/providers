@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -139,20 +139,20 @@ overview: 'Kubeark is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 45
 score:
   band: thin
-  composite: 37.7
-  delta: 0.0
+  composite: 36.5
+  delta: -1.2
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.6
     developer_ergonomics: 37.0
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 12.5
     operational_transparency: 36.8
   previous_composite: 37.7
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubeark/refs/heads/main/screenshots/kubeark-2026-07-25T224325.png
 security:

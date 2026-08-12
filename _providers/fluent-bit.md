@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -62,6 +62,30 @@ collections:
   name: Fluent Bit Monitoring HTTP API
   slug: open-fluent-bit-monitoring
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/fluent/fluent-bit/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/fluent/fluent-bit/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/fluent/fluent-bit/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/fluent/fluent-bit/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/fluent/fluent-bit/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/fluent/fluent-bit/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -109,7 +133,7 @@ network: true
 overview: 'Fluent Bit publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Build API, Health API, Metrics API, and 3 more. Tagged areas include Logging, Observability, Metrics, and Open Source.
 
 
-  Fluent Bit''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
+  Fluent Bit''s developer surface includes documentation, engineering blog, and 12 more developer resources.'
 plans:
 - name: Fluent Bit Plans Pricing
   plan_count: 3
@@ -121,15 +145,15 @@ rate_limits:
   slug: fluent-bit-rate-limits
 score:
   band: thin
-  composite: 32.8
-  delta: 0.0
+  composite: 28.0
+  delta: -4.8
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 45.2
+    commercial_clarity: 15.8
+    contract_quality: 43.5
     developer_ergonomics: 15.2
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 34.2
   previous_composite: 32.8
   provenance:
     agentic_access: derived
@@ -138,8 +162,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluent-bit/refs/heads/main/screenshots/fluent-bit-2026-06-20T181333.png
 security:

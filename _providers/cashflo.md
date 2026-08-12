@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -21,21 +21,33 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: documented
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.6
-  scored_at: '2026-08-10'
+  score: 39.4
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Ingest API from CashFlo — 3 operation(s) for ingest.
   name: CashFlo Ingest API
   slug: cashflo-ingest-api
-artifact_total: 3
+artifact_total: 4
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/cashflo-ingest-grns.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/cashflo-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cashflo-data-ingestion-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -104,6 +116,10 @@ created: '2026-07-17'
 description: CashFlo is an India-based fintech platform that automates enterprise finance operations across accounts payable, payments, GST compliance, vendor management, and supply-chain financing. Its modules cover invoice OCR and n-way matching, approval workflows, multi-bank payments and reconciliation, GST filing / e-invoicing / e-way bills, vendor onboarding and KYC, and dynamic cash discounting for working-capital optimization. CashFlo connects to major ERPs (SAP ECC/S4 HANA/Business One, Oracle NetSuite/Fusion/EBS, Microsoft Dynamics 365/NAV/Business Central) and exposes a JWT-secured Data Ingestion API for pushing purchase orders and goods-receipt notes into the platform. Backed by General Catalyst.
 image: https://cdn.prod.website-files.com/649d312d8aeae2926e7af2fe/674acdb7d5b408c0e8e9cf34_Homepage.webp
 layout: provider
+mcp_servers:
+- description: ''
+  name: cashflo-mcp.yml
+  slug: cashflo-mcpyml
 modified: '2026-07-18'
 name: CashFlo
 nav: Providers
@@ -111,16 +127,16 @@ network: true
 overview: 'CashFlo publishes 1 API on the [APIs.io](https://apis.io/) network: Ingest API. Tagged areas include Company, Fintech, Accounts Payable, Payments, and Working Capital.
 
 
-  CashFlo''s developer surface includes documentation, API reference, authentication, engineering blog, support, and 11 more developer resources.'
+  CashFlo''s developer surface includes documentation, API reference, authentication, engineering blog, support, and 14 more developer resources.'
 random_paper: 40
 score:
   band: thin
-  composite: 40.7
-  delta: 0.0
+  composite: 40.9
+  delta: 0.2
   facets:
     commercial_clarity: 42.1
-    contract_quality: 53.2
-    developer_ergonomics: 41.3
+    contract_quality: 51.2
+    developer_ergonomics: 45.1
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 5.3
@@ -140,8 +156,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cashflo/refs/heads/main/screenshots/cashflo-2026-07-25T204721.png
 security:

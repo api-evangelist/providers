@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 2
@@ -90,6 +90,18 @@ collections:
   name: FOSSology API
   slug: open-fossology
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/fossology/fossology/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/fossology/fossology/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/fossology/fossology/blob/master/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -166,7 +178,7 @@ overview: 'FOSSology publishes 15 APIs on the [APIs.io](https://apis.io/) networ
   The FOSSology catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  FOSSology''s developer surface includes authentication, documentation, engineering blog, and 6 more developer resources.'
+  FOSSology''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Fossology Plans Pricing
   plan_count: 3
@@ -199,16 +211,16 @@ scopes:
   slug: fossology-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: developing
-  composite: 46.9
-  delta: 0.0
+  band: thin
+  composite: 40.5
+  delta: -6.4
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 65.5
+    commercial_clarity: 15.8
+    contract_quality: 63.1
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 46.9
   provenance:
     agentic_access: derived
@@ -217,9 +229,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/screenshots/fossology-2026-06-20T181450.png
 security:
 - kind: authentication

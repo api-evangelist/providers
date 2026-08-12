@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -161,13 +161,13 @@ scopes:
   summary_line: 5 scopes
 score:
   band: thin
-  composite: 36.9
-  delta: 0.0
+  composite: 34.4
+  delta: -2.5
   facets:
     commercial_clarity: 0.0
-    contract_quality: 54.3
+    contract_quality: 52.2
     developer_ergonomics: 40.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 7.9
   previous_composite: 36.9
@@ -186,9 +186,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 50.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 43.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/screenshots/bank-of-sydney-2026-07-21T130910.png
 security:

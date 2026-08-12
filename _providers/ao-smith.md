@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: AO Smith's iCOMM connected technology platform enables remote monitoring and control of compatible AO Smith water heaters through the A. O. Smith mobile app. Provides connectivity for tracking water u
@@ -99,19 +99,19 @@ rate_limits:
   slug: ao-smith-rate-limits
 score:
   band: emerging
-  composite: 23.9
-  delta: 0.0
+  composite: 16.1
+  delta: -7.8
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 23.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ao-smith/refs/heads/main/screenshots/ao-smith-2026-06-20T172035.png
 security:
 - kind: domain-security

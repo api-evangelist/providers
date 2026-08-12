@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Low-latency WebSocket feed (service-mango-fills) that parses Mango V4 Perp and Openbook event queues and emits individual fill events as they are processed by the validator. Supports getMarkets discov
@@ -42,6 +42,14 @@ asyncapis:
   name: Mango Markets v4 Feeds API
   slug: mango-markets-feeds-asyncapi
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/blockworks-foundation/mango-feeds/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/blockworks-foundation/mango-feeds/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -72,7 +80,7 @@ overview: 'Mango Markets publishes 2 APIs on the [APIs.io](https://apis.io/) net
   The Mango Markets catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Mango Markets'' developer surface includes documentation and 3 more developer resources.'
+  Mango Markets'' developer surface includes documentation and 5 more developer resources.'
 random_paper: 58
 rules:
 - name: Mango Markets API Rules
@@ -101,8 +109,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 0.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 slug: mango-markets
 tags:

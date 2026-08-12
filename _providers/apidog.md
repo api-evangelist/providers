@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -344,16 +345,16 @@ rules:
     warn: 12
   slug: apidog-rules
 score:
-  band: exemplar
-  composite: 71.0
-  delta: 0.0
+  band: strong
+  composite: 63.2
+  delta: -7.8
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 79.8
+    commercial_clarity: 44.7
+    contract_quality: 76.9
     developer_ergonomics: 63.0
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 58.3
-    operational_transparency: 84.2
+    operational_transparency: 60.5
   previous_composite: 71.0
   provenance:
     agentic_access: derived
@@ -362,9 +363,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apidog/refs/heads/main/screenshots/apidog-2026-06-20T172233.png
 security:
 - kind: authentication

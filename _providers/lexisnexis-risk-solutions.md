@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 15.3
-  scored_at: '2026-08-10'
+  score: 11.7
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: C.L.U.E. Auto is a contributory claim-history information exchange containing up to seven years of personal automobile claims matching the search criteria, used by carriers during quoting and underwri
@@ -44,6 +44,14 @@ apis:
   slug: emailage
 artifact_total: 11
 common:
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/lexisnexis-risk-solutions/emailage-public-clients/blob/main/SECURITY.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/lexisnexis-risk-solutions/emailage-public-clients/blob/main/LICENSE
 - group: auth
   title: ''
   type: TrustCenter
@@ -196,7 +204,7 @@ network: true
 overview: 'LexisNexis Risk Solutions publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, United States, Risk Data, Property and Casualty, and Underwriting.
 
 
-  LexisNexis Risk Solutions'' developer surface includes documentation, support, engineering blog, authentication, sandbox, and 30 more developer resources.'
+  LexisNexis Risk Solutions'' developer surface includes documentation, support, engineering blog, authentication, sandbox, and 32 more developer resources.'
 random_paper: 87
 score:
   band: thin
@@ -218,8 +226,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lexisnexis-risk-solutions/refs/heads/main/screenshots/lexisnexis-risk-solutions-2026-07-25T224959.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Memory Store Model Context Protocol (MCP) server exposes shared team memory to AI clients (Claude, ChatGPT, Cursor, Raycast). It lets agents record and recall organizational context, search memory
@@ -126,8 +126,8 @@ score:
   previous_composite: 26.5
   provenance:
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memory-store/refs/heads/main/screenshots/memory-store-2026-08-07T172505.png
 security:

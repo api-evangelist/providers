@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Unified REST API surface across Nova Credit's products (Credit Passport v4, Cash Atlas v2, Income Navigator v2, Eligibility Compass v1). Server-side clients authenticate with HTTP Basic to mint a shor
@@ -158,13 +158,13 @@ overview: 'Nova Credit publishes 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 72
 score:
   band: developing
-  composite: 43.2
-  delta: 0.0
+  composite: 42.2
+  delta: -1.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 51.6
     developer_ergonomics: 60.9
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 13.2
   previous_composite: 43.2
@@ -177,8 +177,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nova-credit/refs/heads/main/screenshots/nova-credit-2026-08-07T185554.png
 security:

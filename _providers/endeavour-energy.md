@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 54.7
-  scored_at: '2026-08-10'
+  score: 51.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -218,11 +218,11 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 50.8
-  delta: 0.0
+  composite: 50.3
+  delta: -0.5
   facets:
     commercial_clarity: 23.7
-    contract_quality: 58.9
+    contract_quality: 56.7
     developer_ergonomics: 62.5
     discoverability: 87.0
     governance: 11.5
@@ -239,8 +239,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 59.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/screenshots/endeavour-energy-2026-08-07T164855.png
 security:

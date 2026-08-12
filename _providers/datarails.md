@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-10'
+  score: 38.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,6 +36,18 @@ apis:
   slug: data-gateway-service
 artifact_total: 10
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Datarails/dr-claude-code-plugins-re/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Datarails/dr-claude-code-plugins-re/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Datarails/dr-claude-code-plugins-re/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -188,7 +200,7 @@ network: true
 overview: 'Datarails publishes 1 API on the [APIs.io](https://apis.io/) network: FinanceOS MCP Server. Tagged areas include Company, FP&A, Financial Planning, Finance, and Accounting.
 
 
-  Datarails'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 27 more developer resources.'
+  Datarails'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 30 more developer resources.'
 plans:
 - name: Datarails Plans
   plan_count: 3
@@ -205,13 +217,13 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 58.3
-  delta: 0.0
+  composite: 56.9
+  delta: -1.4
   facets:
     commercial_clarity: 92.1
-    contract_quality: 39.5
+    contract_quality: 38.1
     developer_ergonomics: 56.5
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 20.8
     operational_transparency: 57.9
   previous_composite: 58.3
@@ -220,8 +232,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/screenshots/datarails-2026-08-07T164205.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: AutoGPT is an autonomous AI agent framework that chains LLM calls to accomplish complex tasks independently.
@@ -82,20 +82,20 @@ rate_limits:
   name: Autogpt Rate Limits
   slug: autogpt-rate-limits
 score:
-  band: emerging
-  composite: 18.9
-  delta: 0.0
+  band: minimal
+  composite: 11.1
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 10.9
     discoverability: 40.7
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 18.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/screenshots/autogpt-2026-06-20T172646.png
 security:
 - kind: domain-security

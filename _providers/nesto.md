@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,13 +25,21 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 6.3
-  scored_at: '2026-08-10'
+  score: 2.7
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 3
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/nestoca/joy/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/nestoca/joy/blob/master/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -176,19 +184,19 @@ network: true
 overview: 'Nesto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, Canada, Mortgage, Lending, and PropTech.
 
 
-  Nesto''s developer surface includes engineering blog, support, FAQ, and 30 more developer resources.'
+  Nesto''s developer surface includes engineering blog, support, FAQ, and 32 more developer resources.'
 random_paper: 89
 score:
   band: emerging
-  composite: 25.3
-  delta: 0.0
+  composite: 27.0
+  delta: 1.7
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 6.5
     discoverability: 68.5
     governance: 12.5
-    operational_transparency: 15.8
+    operational_transparency: 31.6
   previous_composite: 25.3
   provenance:
     conformance: first-party
@@ -198,8 +206,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nesto/refs/heads/main/screenshots/nesto-2026-08-07T184918.png
 security:

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 9.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Platform-agnostic REST API for bi-directional task synchronization between Cynomi and any PSA or ticketing system — push remediation tasks from Cynomi and pull status updates back to keep both systems
@@ -138,8 +138,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 27.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cynomi/refs/heads/main/screenshots/cynomi-2026-07-25T211052.png
 security:

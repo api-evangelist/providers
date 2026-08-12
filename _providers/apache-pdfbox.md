@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -268,16 +268,16 @@ rules:
     warn: 4
   slug: apache-pdfbox-spectral-rules
 score:
-  band: thin
-  composite: 34.9
-  delta: 0.0
+  band: emerging
+  composite: 26.9
+  delta: -8.0
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 21.3
+    commercial_clarity: 15.8
+    contract_quality: 20.5
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 34.9
   provenance:
     agentic_access: derived
@@ -286,9 +286,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-pdfbox/refs/heads/main/screenshots/apache-pdfbox-2026-06-20T172133.png
 security:
 - kind: domain-security

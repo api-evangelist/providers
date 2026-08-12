@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -69,6 +69,26 @@ collections:
   name: Login.gov SAML 2.0 API
   slug: open-login-gov-saml
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/18F/identity-idp/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/18F/identity-idp/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/18F/identity-idp/blob/main/docs/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/18F/.github/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/18F/identity-idp/blob/main/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -212,7 +232,7 @@ overview: 'Login.gov publishes 7 APIs on the [APIs.io](https://apis.io/) network
   The Login.gov catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Login.gov''s developer surface includes authentication, developer portal, documentation, signup flow, getting-started guide, sandbox, engineering blog, and 16 more developer resources.'
+  Login.gov''s developer surface includes authentication, developer portal, documentation, signup flow, getting-started guide, sandbox, engineering blog, and 21 more developer resources.'
 plans:
 - name: Login Gov Plans Pricing
   plan_count: 2
@@ -240,16 +260,16 @@ rules:
     warn: 2
   slug: login-gov-rules
 score:
-  band: developing
-  composite: 52.3
-  delta: 0.0
+  band: strong
+  composite: 56.9
+  delta: 4.6
   facets:
-    commercial_clarity: 31.6
-    contract_quality: 73.8
+    commercial_clarity: 44.7
+    contract_quality: 71.0
     developer_ergonomics: 47.8
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 21.1
+    operational_transparency: 47.4
   previous_composite: 52.3
   provenance:
     agentic_access: derived
@@ -264,8 +284,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 50.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/login-gov/refs/heads/main/screenshots/login-gov-2026-06-20T184653.png
 security:

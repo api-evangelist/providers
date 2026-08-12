@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -18,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -223,11 +224,11 @@ overview: 'TMT ID publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 11
 score:
   band: developing
-  composite: 45.0
-  delta: 0.0
+  composite: 43.3
+  delta: -1.7
   facets:
     commercial_clarity: 42.1
-    contract_quality: 52.6
+    contract_quality: 50.6
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 11.5
@@ -248,9 +249,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 58.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 50.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

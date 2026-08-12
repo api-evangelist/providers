@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: The DOJ News API exposes more than 14,000 press releases, speeches, and blog entries from the Office of Public Affairs as a JSON web service. Endpoints under /api/v1/ provide list and detail views for
@@ -132,10 +132,6 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/department-of-justice-vocabulary.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/department-of-justice-capabilities.yml
 - group: company
   title: ''
   type: Blog
@@ -163,7 +159,7 @@ overview: 'Department of Justice publishes 5 APIs on the [APIs.io](https://apis.
   The Department of Justice catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Department of Justice''s developer surface includes product news, engineering blog, and 21 more developer resources.'
+  Department of Justice''s developer surface includes product news, engineering blog, and 20 more developer resources.'
 plans:
 - name: Department Of Justice Plans Pricing
   plan_count: 3
@@ -175,15 +171,15 @@ rate_limits:
   slug: department-of-justice-rate-limits
 score:
   band: emerging
-  composite: 26.2
-  delta: 0.0
+  composite: 19.6
+  delta: -6.6
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 8.1
     developer_ergonomics: 2.2
     discoverability: 74.1
     governance: 10.4
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 26.2
   regulatory:
     applies: true
@@ -191,9 +187,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/screenshots/department-of-justice-2026-06-20T175938.png
 security:
 - kind: domain-security

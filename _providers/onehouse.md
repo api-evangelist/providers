@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Control-plane REST API for Onehouse — a SQL Command API to create and manage lakehouse resources (lakes, databases, tables, flows, clusters, jobs, transformations) plus a Status API to poll the return
@@ -143,20 +143,20 @@ overview: 'Onehouse publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 58
 score:
   band: thin
-  composite: 33.4
-  delta: 0.0
+  composite: 32.3
+  delta: -1.1
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 36.8
   previous_composite: 33.4
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onehouse/refs/heads/main/screenshots/onehouse-2026-08-07T190333.png
 security:

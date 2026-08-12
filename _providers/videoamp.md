@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-08-10'
+  score: 46.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 4
@@ -75,6 +76,10 @@ apis:
   slug: videoamp-shares-api
 artifact_total: 22
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/videoamp-public-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -210,7 +215,7 @@ network: true
 overview: 'VideoAmp publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Ad Measurements API, Audiences API, Campaigns API, and 11 more. Tagged areas include media-measurement, advertising, adtech, tv-currency, and audience-measurement.
 
 
-  VideoAmp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, CLI, and 23 more developer resources.'
+  VideoAmp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, CLI, and 24 more developer resources.'
 random_paper: 41
 scopes:
 - name: Videoamp Scopes
@@ -219,16 +224,16 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceAuthorization
 score:
   band: developing
-  composite: 50.9
-  delta: -0.4
+  composite: 51.3
+  delta: 0.4
   facets:
     commercial_clarity: 42.1
-    contract_quality: 61.2
+    contract_quality: 62.7
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 51.3
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -236,11 +241,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 45.0
-  scored_at: '2026-08-10'
+  score: 48.6
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Dataloop (Dell Data Orchestration Engine) platform REST API. Every part of the platform — projects, datasets, items, annotations, recipes and ontologies, tasks and assignments, packages, services,
@@ -193,8 +194,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dataloop/refs/heads/main/screenshots/dataloop-2026-08-07T164125.png
 security:

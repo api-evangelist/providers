@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 9
 apis:
 - description: A hosted REST API that generates ready-to-broadcast calldata for every Pendle protocol action — swap (including tokens-to-PT, PT-to-tokens, YT swaps), add and remove liquidity, ZPI (zero-price-impact)
@@ -59,6 +59,10 @@ apis:
   slug: boros-core-contracts
 artifact_total: 45
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/pendle-finance/boros-sdk-public/blob/main/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -209,22 +213,22 @@ network: true
 overview: 'Pendle Finance publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include DeFi, Yield Trading, Yield Stripping, Principal Tokens, and Yield Tokens.
 
 
-  Pendle Finance''s developer surface includes documentation, API reference, engineering blog, code examples, and 16 more developer resources.'
+  Pendle Finance''s developer surface includes documentation, API reference, engineering blog, code examples, and 17 more developer resources.'
 random_paper: 9
 score:
   band: emerging
-  composite: 23.7
-  delta: 0.0
+  composite: 24.6
+  delta: 0.9
   facets:
     commercial_clarity: 0.0
     contract_quality: 43.2
-    developer_ergonomics: 23.9
+    developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 23.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pendle-finance/refs/heads/main/screenshots/pendle-finance-2026-06-20T191634.png
 security:

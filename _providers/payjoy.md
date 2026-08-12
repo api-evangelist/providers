@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 9
 apis:
 - description: 'REST API for online checkout and credit-application flows: retrieve supported devices, begin a sale, and receive completion webhooks. Bearer-token authenticated plus a symmetric E-commerce key for enc'
@@ -64,6 +64,10 @@ asyncapis:
   name: Payjoy Webhooks
   slug: payjoy-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/payjoy-partner-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -174,15 +178,15 @@ overview: 'PayJoy publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
   The PayJoy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  PayJoy''s developer surface includes documentation, getting-started guide, support, signup flow, engineering blog, authentication, sandbox, and 16 more developer resources.'
+  PayJoy''s developer surface includes documentation, getting-started guide, support, signup flow, engineering blog, authentication, sandbox, and 17 more developer resources.'
 random_paper: 88
 score:
   band: developing
-  composite: 46.0
-  delta: 0.0
+  composite: 45.5
+  delta: -0.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 71.9
+    contract_quality: 69.2
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
@@ -203,8 +207,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/screenshots/payjoy-2026-08-07T191639.png
 security:

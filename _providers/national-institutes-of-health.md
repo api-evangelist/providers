@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -100,16 +100,16 @@ rate_limits:
   name: National Institutes Of Health Rate Limits
   slug: national-institutes-of-health-rate-limits
 score:
-  band: thin
-  composite: 30.9
-  delta: 0.0
+  band: emerging
+  composite: 23.8
+  delta: -7.1
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 55.0
+    commercial_clarity: 15.8
+    contract_quality: 53.0
     developer_ergonomics: 8.7
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 30.9
   provenance:
     agentic_access: derived
@@ -124,9 +124,9 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-institutes-of-health/refs/heads/main/screenshots/national-institutes-of-health-2026-06-20T190030.png
 security:
 - kind: domain-security

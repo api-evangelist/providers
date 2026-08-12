@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Create, list, retrieve, and continue investigation sessions.
@@ -67,7 +67,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/traversal-sessions-openapi.yaml
+  url: openapi/_original/traversal-sessions-openapi.yaml
 - group: other
   title: ''
   type: Overlay
@@ -159,11 +159,11 @@ overview: 'Traversal publishes 1 API on the [APIs.io](https://apis.io/) network:
 random_paper: 52
 score:
   band: developing
-  composite: 46.9
-  delta: 0.0
+  composite: 46.3
+  delta: -0.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 63.6
+    contract_quality: 61.2
     developer_ergonomics: 53.8
     discoverability: 75.9
     governance: 11.5
@@ -178,8 +178,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

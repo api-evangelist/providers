@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,6 +44,10 @@ apis:
   slug: windfall-windfall-api-api
 artifact_total: 7
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/windfall-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -154,7 +159,7 @@ network: true
 overview: 'Windfall publishes 1 API on the [APIs.io](https://apis.io/) network: Windfall API API. Tagged areas include Company, Fintech, Data Enrichment, Wealth Data, and People Intelligence.
 
 
-  Windfall''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 17 more developer resources.'
+  Windfall''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 18 more developer resources.'
 random_paper: 37
 rate_limits:
 - limit_count: 1
@@ -162,13 +167,13 @@ rate_limits:
   slug: windfall-rate-limits
 score:
   band: developing
-  composite: 53.4
-  delta: 0.0
+  composite: 51.7
+  delta: -1.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.1
+    contract_quality: 62.7
     developer_ergonomics: 62.5
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 20.8
     operational_transparency: 26.3
   previous_composite: 53.4
@@ -182,8 +187,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

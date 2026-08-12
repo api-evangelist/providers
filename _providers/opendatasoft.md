@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -209,11 +209,11 @@ rules:
   slug: opendatasoft-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.6
-  delta: 0.0
+  composite: 53.0
+  delta: -0.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.0
+    contract_quality: 66.4
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
@@ -232,8 +232,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opendatasoft/refs/heads/main/screenshots/opendatasoft-2026-06-20T190954.png
 security:

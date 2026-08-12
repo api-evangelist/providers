@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 51.8
-  scored_at: '2026-08-10'
+  score: 48.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -145,6 +146,30 @@ collections:
   name: Microsoft Word Open XML SDK
   slug: postman-microsoft-word-open-xml-sdk
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/OfficeDev/Open-XML-SDK/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/OfficeDev/Open-XML-SDK/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/dotnet/Open-XML-SDK/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/dotnet/Open-XML-SDK/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/dotnet/Open-XML-SDK/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/OfficeDev/Open-XML-SDK/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -492,7 +517,7 @@ overview: 'Microsoft Word publishes 18 APIs on the [APIs.io](https://apis.io/) n
   The Microsoft Word catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Microsoft Word''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, developer console, signup flow, and 47 more developer resources.'
+  Microsoft Word''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, developer console, signup flow, and 53 more developer resources.'
 plans:
 - name: Microsoft Word Plans Pricing
   plan_count: 7
@@ -525,16 +550,16 @@ scopes:
   slug: microsoft-word-scopes
   summary_line: 8 scopes · authorizationCode
 score:
-  band: strong
-  composite: 59.7
-  delta: 0.0
+  band: developing
+  composite: 55.6
+  delta: -4.1
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 32.3
+    commercial_clarity: 57.9
+    contract_quality: 31.1
     developer_ergonomics: 63.0
     discoverability: 68.5
     governance: 80.2
-    operational_transparency: 68.4
+    operational_transparency: 55.3
   previous_composite: 59.7
   provenance:
     agentic_access: derived
@@ -545,8 +570,8 @@ score:
       marker_coverage: 100.0
       total: 18
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/screenshots/microsoft-word-2026-08-07T172841.png
 security:

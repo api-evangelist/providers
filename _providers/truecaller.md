@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 40.5
-  scored_at: '2026-08-10'
+  score: 36.9
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: The backend half of the Truecaller OAuth SDK flow. After the mobile SDK returns an authorization code, partners exchange it at POST /v1/token (authorization_code grant with PKCE code_verifier; refresh
@@ -208,8 +208,8 @@ score:
   previous_composite: 48.4
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -61,6 +61,10 @@ apis:
   slug: limrun-xcode-instances-api
 artifact_total: 13
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/limrun-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -205,7 +209,7 @@ network: true
 overview: 'Limrun publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Android Instances API, Assets API, and 4 more. Tagged areas include Company, Mobile, iOS, Android, and Simulators.
 
 
-  Limrun''s developer surface includes documentation, API reference, getting-started guide, signup flow, developer console, support, CLI, and 25 more developer resources.'
+  Limrun''s developer surface includes documentation, API reference, getting-started guide, signup flow, developer console, support, CLI, and 26 more developer resources.'
 random_paper: 83
 scopes:
 - name: Limrun Scopes
@@ -214,11 +218,11 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 46.5
+  delta: -0.3
   facets:
     commercial_clarity: 13.2
-    contract_quality: 41.7
+    contract_quality: 40.2
     developer_ergonomics: 84.8
     discoverability: 92.6
     governance: 11.5
@@ -234,8 +238,8 @@ score:
       total: 7
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/screenshots/limrun-2026-07-25T225212.png
 security:

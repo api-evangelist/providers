@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -157,16 +157,16 @@ rules:
     warn: 4
   slug: google-gmail-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 59.0
-  delta: 0.0
+  band: developing
+  composite: 53.3
+  delta: -5.7
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 67.4
+    commercial_clarity: 47.4
+    contract_quality: 64.9
     developer_ergonomics: 50.0
     discoverability: 68.5
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 59.0
   provenance:
     agentic_access: derived
@@ -175,15 +175,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 43.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-gmail/refs/heads/main/screenshots/google-gmail-2026-06-20T182205.png
 security:
 - kind: domain-security

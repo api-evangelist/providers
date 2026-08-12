@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 9
 apis:
 - description: GraphQL surface for quotes - the pre-invoice document in Printavo. Query a single quote or a paginated quotes connection, and create, update, delete, or duplicate quotes via the quoteCreate, quoteUpda
@@ -133,8 +133,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 32.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

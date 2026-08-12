@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,6 +50,22 @@ collections:
   name: grounded.tools Docs MCP Server API
   slug: open-grounded-tools-docs-mcp-server
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/arabold/docs-mcp-server/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/arabold/docs-mcp-server/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/arabold/docs-mcp-server/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/arabold/docs-mcp-server/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -116,15 +132,15 @@ rules:
   slug: grounded-tools-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 33.2
+  delta: -6.3
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 62.0
+    commercial_clarity: 15.8
+    contract_quality: 59.7
     developer_ergonomics: 0.0
     discoverability: 50.0
     governance: 58.3
-    operational_transparency: 31.6
+    operational_transparency: 23.7
   previous_composite: 39.5
   provenance:
     agentic_access: derived
@@ -133,9 +149,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/grounded-tools/refs/heads/main/screenshots/grounded-tools-2026-06-20T182414.png
 security:
 - kind: domain-security

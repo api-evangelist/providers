@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: High-throughput read/stream API over the Injective chain and exchange data, exposed via gRPC, gRPC-web, and REST plus a Chain Stream WebSocket. Provides accounts, auctions, spot and derivative markets
@@ -169,13 +170,13 @@ overview: 'Injective publishes 2 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 33
 score:
   band: developing
-  composite: 47.9
-  delta: 0.0
+  composite: 46.9
+  delta: -1.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.6
     developer_ergonomics: 87.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 44.7
   previous_composite: 47.9
@@ -189,8 +190,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/injective/refs/heads/main/screenshots/injective-2026-07-25T222440.png
 security:

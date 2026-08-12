@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -750,15 +751,15 @@ rules:
   slug: cloudformation-spectral-rules
 score:
   band: exemplar
-  composite: 72.6
-  delta: 0.0
+  composite: 66.8
+  delta: -5.8
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 72.1
+    commercial_clarity: 68.4
+    contract_quality: 69.4
     developer_ergonomics: 82.6
     discoverability: 72.2
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 72.6
   provenance:
     agentic_access: derived
@@ -767,9 +768,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/screenshots/cloudformation-2026-06-20T174600.png
 security:
 - kind: authentication

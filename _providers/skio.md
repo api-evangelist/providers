@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: Query and manage recurring subscriptions - list and fetch subscriptions and their lines, then create, cancel, pause, unpause, reactivate, skip, ship now, swap product variants, edit interval, apply di
@@ -114,8 +114,8 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 29.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

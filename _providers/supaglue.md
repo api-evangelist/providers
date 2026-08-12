@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -258,16 +258,16 @@ rules:
     warn: 4
   slug: supaglue-rules
 score:
-  band: developing
-  composite: 45.5
-  delta: 0.0
+  band: thin
+  composite: 40.6
+  delta: -4.9
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 66.9
+    commercial_clarity: 13.2
+    contract_quality: 68.2
     developer_ergonomics: 30.4
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 45.5
   provenance:
     agentic_access: derived
@@ -276,8 +276,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 35
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/screenshots/supaglue-2026-06-20T194702.png
 security:

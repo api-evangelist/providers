@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -108,6 +108,18 @@ collections:
   name: IIS Administration API
   slug: open-iis-administration-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Microsoft/windows-admin-center-sdk/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/microsoft/windows-admin-center-sdk/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/microsoft/.github/blob/main/CODE_OF_CONDUCT.md
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -573,7 +585,7 @@ overview: 'Microsoft Windows Server publishes 3 APIs on the [APIs.io](https://ap
   The Microsoft Windows Server catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Microsoft Windows Server''s developer surface includes authentication, developer portal, documentation, support, engineering blog, release notes, and 7 more developer resources.'
+  Microsoft Windows Server''s developer surface includes authentication, developer portal, documentation, support, engineering blog, release notes, and 10 more developer resources.'
 plans:
 - name: Microsoft Windows Server Plans Pricing
   plan_count: 5
@@ -601,16 +613,16 @@ rules:
     warn: 8
   slug: microsoft-windows-server-spectral-rules
 score:
-  band: strong
-  composite: 57.4
-  delta: 0.0
+  band: developing
+  composite: 48.9
+  delta: -8.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 62.8
+    commercial_clarity: 36.8
+    contract_quality: 60.4
     developer_ergonomics: 39.1
     discoverability: 72.2
     governance: 58.3
-    operational_transparency: 57.9
+    operational_transparency: 34.2
   previous_composite: 57.4
   provenance:
     agentic_access: derived
@@ -619,9 +631,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/screenshots/microsoft-windows-server-2026-06-20T185546.png
 security:
 - kind: authentication

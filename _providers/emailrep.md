@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -64,6 +64,10 @@ collections:
   name: EmailRep API
   slug: open-emailrep-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/sublime-security/emailrep.io/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -318,7 +322,7 @@ overview: 'EmailRep publishes 2 APIs on the [APIs.io](https://apis.io/) network:
   The EmailRep catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  EmailRep''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 41 more developer resources.'
+  EmailRep''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 42 more developer resources.'
 plans:
 - name: Emailrep Plans Pricing
   plan_count: 3
@@ -347,11 +351,11 @@ rules:
   slug: emailrep-spectral-rules
 score:
   band: developing
-  composite: 49.4
-  delta: 0.0
+  composite: 51.8
+  delta: 2.4
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 22.9
+    commercial_clarity: 84.2
+    contract_quality: 22.0
     developer_ergonomics: 47.8
     discoverability: 68.5
     governance: 68.8
@@ -364,8 +368,8 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/screenshots/emailrep-2026-06-20T180624.png
 security:

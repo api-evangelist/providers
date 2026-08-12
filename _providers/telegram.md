@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 1
@@ -75,6 +75,10 @@ collections:
   name: Telegram Bot API
   slug: open-telegram-bot
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/tdlib/td/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -167,7 +171,7 @@ overview: 'Telegram publishes 9 APIs on the [APIs.io](https://apis.io/) network,
   The Telegram catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Telegram''s developer surface includes authentication, engineering blog, GitHub presence, and 8 more developer resources.'
+  Telegram''s developer surface includes authentication, engineering blog, GitHub presence, and 9 more developer resources.'
 plans:
 - name: Telegram Plans Pricing
   plan_count: 3
@@ -196,15 +200,15 @@ rules:
   slug: telegram-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 43.1
+  delta: -6.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 73.0
+    commercial_clarity: 36.8
+    contract_quality: 70.6
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 27.1
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 49.6
   provenance:
     agentic_access: derived
@@ -216,12 +220,12 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 34.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+    regime: Payments
+    regime_id: payments
+    score: 39.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/screenshots/telegram-2026-06-20T195033.png
 security:
 - kind: authentication

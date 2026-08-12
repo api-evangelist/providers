@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-08-10'
+  score: 44.8
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Create and manage diagnostic collection orders.
@@ -46,6 +46,10 @@ asyncapis:
   name: Orange Health Webhooks
   slug: orange-health-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/orange-health-partner-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -124,17 +128,17 @@ overview: 'Orange Health publishes 3 APIs on the [APIs.io](https://apis.io/) net
   The Orange Health catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Orange Health''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 10 more developer resources.'
+  Orange Health''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 11 more developer resources.'
 random_paper: 35
 score:
   band: thin
-  composite: 41.4
-  delta: 0.0
+  composite: 39.8
+  delta: -1.6
   facets:
     commercial_clarity: 21.1
-    contract_quality: 73.6
+    contract_quality: 70.8
     developer_ergonomics: 36.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 18.4
   previous_composite: 41.4
@@ -153,8 +157,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orange-health/refs/heads/main/screenshots/orange-health-2026-08-07T190830.png
 security:

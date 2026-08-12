@@ -11,10 +11,10 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-10'
+  score: 38.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -171,15 +171,15 @@ rate_limits:
   slug: lago-rate-limits
 score:
   band: thin
-  composite: 39.6
-  delta: 0.0
+  composite: 33.2
+  delta: -6.4
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 65.5
-    developer_ergonomics: 21.7
-    discoverability: 46.3
+    commercial_clarity: 23.7
+    contract_quality: 63.0
+    developer_ergonomics: 28.3
+    discoverability: 53.7
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 39.6
   provenance:
     agentic_access: derived
@@ -188,9 +188,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/screenshots/lago-2026-06-20T184248.png
 security:
 - kind: authentication

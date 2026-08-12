@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-10'
+  score: 42.1
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The wc/store/v1 API from Bond Pet Foods — 31 operation(s) for wc/store/v1.
@@ -33,6 +33,10 @@ asyncapis:
   name: Bond Pet Foods Webhooks
   slug: bond-pet-foods-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bond-pet-foods-content-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -136,20 +140,31 @@ overview: 'Bond Pet Foods publishes 2 APIs on the [APIs.io](https://apis.io/) ne
   The Bond Pet Foods catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bond Pet Foods'' developer surface includes support, FAQ, engineering blog, authentication, and 18 more developer resources.'
+  Bond Pet Foods'' developer surface includes support, FAQ, engineering blog, authentication, and 19 more developer resources.'
 random_paper: 101
 score:
   band: thin
-  composite: 33.0
+  composite: 31.1
+  delta: -1.9
   facets:
     commercial_clarity: 10.5
-    contract_quality: 59.7
-    developer_ergonomics: 23.9
-    discoverability: 87.0
-    governance: 20.8
+    contract_quality: 65.0
+    developer_ergonomics: 19.0
+    discoverability: 75.9
+    governance: 11.5
     operational_transparency: 0.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 33.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    skills: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Bond Pet Foods Authentication

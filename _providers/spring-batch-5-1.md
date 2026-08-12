@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -175,16 +175,16 @@ rules:
     warn: 4
   slug: spring-batch-51-rules
 score:
-  band: developing
-  composite: 43.9
-  delta: 0.0
+  band: thin
+  composite: 35.6
+  delta: -8.3
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 59.9
+    commercial_clarity: 15.8
+    contract_quality: 57.7
     developer_ergonomics: 2.2
     discoverability: 81.5
     governance: 58.3
-    operational_transparency: 42.1
+    operational_transparency: 18.4
   previous_composite: 43.9
   provenance:
     agentic_access: derived
@@ -193,9 +193,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-batch-5-1/refs/heads/main/screenshots/spring-batch-5-1-2026-06-20T194404.png
 security:
 - kind: domain-security

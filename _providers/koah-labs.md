@@ -21,21 +21,25 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.9
-  scored_at: '2026-08-10'
+  score: 26.6
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Beta REST API for Koah publisher team accounts. Resource-oriented URLs, JSON responses, standard HTTP verbs and status codes, Bearer token authentication. Covers publisher CRUD and daily reporting for
   name: Koah API
   slug: koah-api
-artifact_total: 3
+artifact_total: 4
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/koah-labs-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -156,6 +160,10 @@ created: '2026-07-17'
 description: 'Koah Labs operates Koah, an advertising network purpose-built for AI applications. It ships two products: an Ad SDK that lets publishers monetize chat and agent experiences with native, intent-matched ad formats (action card, image card, poll, expandable, catalog, side rail) across JavaScript, React, React Native, Flutter, iOS and Android; and Conversion Tracking, a pixel that lets advertisers measure ROI across nine standard event types. A beta REST API at app.koah.ai/api lets publisher teams create and manage publishers programmatically and pull daily performance reports (queries, fill rate, impressions, clicks, CTR, eCPC, eCPM, revenue). Koah publishes agent-native developer surfaces including llms.txt on both its marketing and docs hosts and a first-party Claude Agent Skill for integration.'
 image: https://www.koahlabs.com/opengraph-image
 layout: provider
+mcp_servers:
+- description: ''
+  name: koah-labs-mcp.yml
+  slug: koah-labs-mcpyml
 modified: '2026-07-19'
 name: Koah Labs
 nav: Providers
@@ -163,17 +171,17 @@ network: true
 overview: 'Koah Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Advertising, Ad Network, and Monetization.
 
 
-  Koah Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 22 more developer resources.'
+  Koah Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 23 more developer resources.'
 random_paper: 70
 score:
   band: thin
-  composite: 35.1
-  delta: 0.0
+  composite: 34.5
+  delta: -0.6
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 71.7
-    discoverability: 87.0
+    developer_ergonomics: 73.9
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 28.9
   previous_composite: 35.1
@@ -181,8 +189,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/screenshots/koah-labs-2026-07-25T224018.png
 security:

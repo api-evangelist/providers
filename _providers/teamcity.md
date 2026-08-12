@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -147,6 +147,10 @@ collections:
   name: TeamCity REST API
   slug: open-teamcity-rest-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/JetBrains/teamcity-rest-client/blob/master/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -312,7 +316,7 @@ overview: 'TeamCity publishes 17 APIs on the [APIs.io](https://apis.io/) network
   The TeamCity catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  TeamCity''s developer surface includes authentication, getting-started guide, documentation, pricing, engineering blog, support, changelog, and 13 more developer resources.'
+  TeamCity''s developer surface includes authentication, getting-started guide, documentation, pricing, engineering blog, support, changelog, and 14 more developer resources.'
 plans:
 - name: Teamcity Plans Pricing
   plan_count: 3
@@ -332,16 +336,16 @@ rules:
     warn: 4
   slug: teamcity-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 60.5
-  delta: 0.0
+  band: developing
+  composite: 52.1
+  delta: -8.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 65.5
+    commercial_clarity: 26.3
+    contract_quality: 63.0
     developer_ergonomics: 54.3
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 60.5
   provenance:
     agentic_access: derived
@@ -350,9 +354,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/screenshots/teamcity-2026-06-20T194957.png
 security:
 - kind: authentication

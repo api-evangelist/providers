@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-10'
+  score: 38.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -111,7 +111,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/inflectionio-openapi-original.yml
+  url: openapi/_original/inflectionio-openapi-original.yml
 - group: other
   title: ''
   type: Overlay
@@ -183,13 +183,13 @@ overview: 'Inflection.io publishes 4 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 7
 score:
   band: developing
-  composite: 46.5
-  delta: 0.0
+  composite: 44.8
+  delta: -1.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 60.1
+    contract_quality: 57.8
     developer_ergonomics: 56.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 46.5
@@ -203,8 +203,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/screenshots/inflectionio-2026-07-25T222410.png
 security:

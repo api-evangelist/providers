@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Wicket Component API provides the core Java classes for building web UIs. Pages extend WebPage, components extend Panel, Form, Link, Button, and other base classes. The model system uses IModel<T>
@@ -36,6 +36,22 @@ apis:
   slug: apache-wicket-component-api
 artifact_total: 19
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apache/wicket/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/apache/wicket/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/wicket/blob/master/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -113,7 +129,7 @@ network: true
 overview: 'Apache Wicket publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Component-Based, Java, Web Applications, Web Framework, and Open Source.
 
 
-  Apache Wicket''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, engineering blog, and 4 more developer resources.'
+  Apache Wicket''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, engineering blog, and 8 more developer resources.'
 plans:
 - name: Apache Wicket Plans Pricing
   plan_count: 3
@@ -124,20 +140,20 @@ rate_limits:
   name: Apache Wicket Rate Limits
   slug: apache-wicket-rate-limits
 score:
-  band: thin
-  composite: 29.1
-  delta: 0.0
+  band: emerging
+  composite: 22.6
+  delta: -6.5
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 34.8
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 47.4
+    operational_transparency: 34.2
   previous_composite: 29.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-wicket/refs/heads/main/screenshots/apache-wicket-2026-06-20T172157.png
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'hapi is a rich, configuration-centric framework for building web applications and APIs in Node.js. It provides a powerful plugin system, built-in input validation with Joi, authentication strategies, '
@@ -36,6 +36,22 @@ apis:
   slug: hapi
 artifact_total: 8
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/hapijs/hapi/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/hapijs/hapi/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/hapijs/.github/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/hapijs/.github/blob/master/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -93,7 +109,7 @@ overview: 'Hapi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
   The Hapi catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Hapi''s developer surface includes documentation, getting-started guide, and 6 more developer resources.'
+  Hapi''s developer surface includes documentation, getting-started guide, and 10 more developer resources.'
 plans:
 - name: Hapi Plans Pricing
   plan_count: 3
@@ -113,20 +129,20 @@ rules:
     warn: 3
   slug: hapi-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 33.6
-  delta: 0.0
+  band: emerging
+  composite: 27.8
+  delta: -5.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 16.1
     developer_ergonomics: 19.6
     discoverability: 59.3
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 33.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/hapi/refs/heads/main/screenshots/hapi-2026-06-20T182508.png
 security:
 - kind: domain-security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: LDAP v3 protocol interface provided by the slapd directory server for reading, writing, and managing hierarchical directory entries. Authentication is via simple bind, SASL mechanisms, or TLS client c
@@ -92,8 +92,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 8.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openldap/refs/heads/main/screenshots/openldap-2026-06-20T191011.png
 security:

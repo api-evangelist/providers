@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: Listed issue master, daily and morning-session OHLCV, minute bars and tick trades (add-on), earnings calendar, and weekly trading by investor type for Tokyo Stock Exchange equities, under /v2/equities
@@ -209,13 +209,13 @@ rate_limits:
   slug: jpx-rate-limits
 score:
   band: developing
-  composite: 52.0
-  delta: 0.0
+  composite: 51.0
+  delta: -1.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 0.0
     developer_ergonomics: 80.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 12.5
     operational_transparency: 76.3
   previous_composite: 52.0
@@ -229,8 +229,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jpx/refs/heads/main/screenshots/jpx-2026-07-22T202441.png
 security:

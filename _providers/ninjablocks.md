@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Historical RESTful API for the Ninja Blocks IoT platform, used to read device/sensor data and actuate devices. No longer operational; documented here from surviving first-party client libraries.
@@ -35,6 +35,14 @@ apis:
   slug: ninja-blocks-rest-api
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/ninjablocks/node-ninja-blocks/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/ninjablocks/node-ninja-blocks/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -70,7 +78,7 @@ network: true
 overview: 'NinjaBlocks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Internet of Things, IoT, Home Automation, and Smart Home.
 
 
-  NinjaBlocks'' developer surface includes CLI and 5 more developer resources.'
+  NinjaBlocks'' developer surface includes CLI and 7 more developer resources.'
 random_paper: 6
 score:
   band: minimal
@@ -84,8 +92,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 10.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ninjablocks/refs/heads/main/screenshots/ninjablocks-2026-08-07T185322.png
 slug: ninjablocks

@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-10'
+  score: 28.4
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol (UCP) shopping service boAt Lifestyle serves from its own storefront host over MCP. An anonymous JSON-RPC tools/list returns 13 tools covering catalog search and lookup
@@ -122,16 +122,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 20.9
+  composite: 18.7
+  delta: -2.2
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 32.6
-    discoverability: 87.0
-    governance: 12.5
+    discoverability: 75.9
+    governance: 3.1
     operational_transparency: 0.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 20.9
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Boat Lifestyle Authentication

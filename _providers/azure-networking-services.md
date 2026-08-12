@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -695,16 +695,16 @@ scopes:
   slug: azure-networking-services-scopes
   summary_line: 1 scope · implicit
 score:
-  band: strong
-  composite: 59.8
-  delta: 0.0
+  band: developing
+  composite: 52.1
+  delta: -7.7
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 63.6
+    commercial_clarity: 36.8
+    contract_quality: 61.2
     developer_ergonomics: 50.0
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 68.8
-    operational_transparency: 47.4
+    operational_transparency: 23.7
   previous_composite: 59.8
   provenance:
     agentic_access: derived
@@ -713,9 +713,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/screenshots/azure-networking-services-2026-06-20T172903.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: RESTful JSON API for creating and sending documents for electronic signature, managing templates, uploading files, tracking audit trails, bulk sending via CSV, and receiving webhook event notification
@@ -36,6 +36,22 @@ apis:
   slug: eversign-api
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/eversign/eversign-php-sdk/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/eversign/eversign-php-sdk/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/eversign/eversign-php-sdk/blob/master/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/eversign/eversign-php-sdk/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -111,7 +127,7 @@ overview: 'Eversign publishes 1 API on the [APIs.io](https://apis.io/) network. 
   The Eversign catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Eversign''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
+  Eversign''s developer surface includes documentation, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Eversign Plans Pricing
   plan_count: 6
@@ -122,19 +138,19 @@ rate_limits:
   name: Eversign Rate Limits
   slug: eversign-rate-limits
 score:
-  band: thin
-  composite: 40.4
-  delta: 0.0
+  band: developing
+  composite: 42.4
+  delta: 2.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 58.0
     developer_ergonomics: 10.9
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 68.4
   previous_composite: 40.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eversign/refs/heads/main/screenshots/eversign-2026-06-20T180911.png
 security:

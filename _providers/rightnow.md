@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     auth_clarity: false
     consent_identity: true
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-10'
+  score: 29.1
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: The Audio API from RightNow AI — 2 operation(s) for audio.
@@ -52,8 +52,20 @@ apis:
 - description: The Responses API from RightNow AI — 1 operation(s) for responses.
   name: RightNow AI Responses API
   slug: rightnow-responses-api
-artifact_total: 11
+artifact_total: 12
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/rightnow-audio-transcription.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/rightnow-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/rightnow-runinfra-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -174,6 +186,10 @@ created: '2026-07-17'
 description: RightNow AI (RunInfra) turns plain-English descriptions of an inference workload into production, OpenAI-compatible AI endpoints. The platform selects open-source models from Hugging Face, benchmarks GPU options, applies kernel optimizations (quantization, speculative decoding, KV-cache tuning, Forge kernels), and deploys serverless, pay-per-token inference APIs on RunInfra Cloud, RunPod, Modal, or self-hosted GPUs. Its REST API is OpenAI-shaped and covers chat completions, responses, embeddings, rerank, image generation, audio speech and transcription, and model listing. A Y Combinator-backed research lab, RightNow AI also publishes open-source GPU-kernel and inference tooling.
 image: https://runinfra.ai/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: rightnow-mcp.yml
+  slug: rightnow-mcpyml
 modified: '2026-07-21'
 name: RightNow AI
 nav: Providers
@@ -181,17 +197,17 @@ network: true
 overview: 'RightNow AI publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Embeddings API, and 4 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, LLM Inference, and GPU.
 
 
-  RightNow AI''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, engineering blog, and 22 more developer resources.'
+  RightNow AI''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, engineering blog, and 25 more developer resources.'
 random_paper: 70
 score:
   band: developing
-  composite: 55.8
-  delta: 0.0
+  composite: 54.8
+  delta: -1.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.1
-    developer_ergonomics: 47.8
-    discoverability: 92.6
+    contract_quality: 62.7
+    developer_ergonomics: 51.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 55.3
   previous_composite: 55.8
@@ -204,8 +220,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-10'
+  score: 41.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 3
@@ -115,6 +115,10 @@ apis:
   slug: forithmus-users-api
 artifact_total: 29
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/forithmus-openapi-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -210,17 +214,17 @@ network: true
 overview: 'Forithmus publishes 25 APIs on the [APIs.io](https://apis.io/) network, including 2fa API, admin API, auth API, and 22 more. Tagged areas include Medical Imaging, Radiology, Machine Learning, Foundation Models, and Healthcare AI.
 
 
-  Forithmus'' developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, authentication, CLI, and 13 more developer resources.'
+  Forithmus'' developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, authentication, CLI, and 14 more developer resources.'
 random_paper: 65
 score:
   band: thin
-  composite: 37.5
-  delta: 0.0
+  composite: 33.7
+  delta: -3.8
   facets:
     commercial_clarity: 13.2
-    contract_quality: 49.3
+    contract_quality: 47.5
     developer_ergonomics: 56.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 37.5
@@ -234,8 +238,14 @@ score:
       total: 25
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 21.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/screenshots/forithmus-2026-07-25T214941.png
 security:

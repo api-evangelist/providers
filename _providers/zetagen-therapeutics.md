@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 33.6
-  scored_at: '2026-08-10'
+  score: 30.0
+  scored_at: '2026-08-11'
 api_count: 9
 apis:
 - description: Posts, pages and the block library.
@@ -50,6 +50,10 @@ apis:
   slug: zetagen-therapeutics-taxonomy-api
 artifact_total: 11
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zetagen-therapeutics-content-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -178,30 +182,36 @@ network: true
 overview: 'Zetagen Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Downloads API, and 6 more. Tagged areas include Company, biopharmaceuticals, oncology, bone-health, and orthopedics.
 
 
-  Zetagen Therapeutics'' developer surface includes product news, authentication, and 27 more developer resources.'
+  Zetagen Therapeutics'' developer surface includes product news, authentication, and 28 more developer resources.'
 random_paper: 4
 score:
   band: emerging
-  composite: 18.5
-  delta: 0.4
+  composite: 18.8
+  delta: 0.3
   facets:
     commercial_clarity: 10.5
-    contract_quality: 13.1
+    contract_quality: 13.5
     developer_ergonomics: 12.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 18.1
+  previous_composite: 18.5
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 9
       marker_coverage: 100.0
-      total: 1
+      total: 9
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 26.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

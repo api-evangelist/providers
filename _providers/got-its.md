@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -112,6 +113,10 @@ apis:
   slug: got-its-workspaces-api
 artifact_total: 29
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/got-its-gateway-openapi-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -215,7 +220,7 @@ network: true
 overview: 'Reelables publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Asset Facilities API, Asset Labels API, Asset Locations API, and 21 more. Tagged areas include Company, Supply Chain, Logistics, Asset Tracking, and IoT.
 
 
-  Reelables'' developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, changelog, and 15 more developer resources.'
+  Reelables'' developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, changelog, and 16 more developer resources.'
 random_paper: 15
 scopes:
 - name: Got Its Scopes
@@ -224,11 +229,11 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 40.2
-  delta: 0.0
+  composite: 39.7
+  delta: -0.5
   facets:
     commercial_clarity: 13.2
-    contract_quality: 55.8
+    contract_quality: 53.7
     developer_ergonomics: 60.3
     discoverability: 81.5
     governance: 11.5
@@ -244,8 +249,8 @@ score:
       total: 24
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/screenshots/got-its-2026-07-25T220118.png
 security:

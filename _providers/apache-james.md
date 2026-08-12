@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -68,6 +68,14 @@ apis:
   slug: apache-james-users-api
 artifact_total: 63
 common:
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/james-project/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -255,7 +263,7 @@ overview: 'Apache James publishes 8 APIs on the [APIs.io](https://apis.io/) netw
   The Apache James catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache James'' developer surface includes authentication, documentation, getting-started guide, engineering blog, and 9 more developer resources.'
+  Apache James'' developer surface includes authentication, documentation, getting-started guide, engineering blog, and 11 more developer resources.'
 plans:
 - name: Apache James Plans Pricing
   plan_count: 3
@@ -284,15 +292,15 @@ rules:
   slug: apache-james-spectral-rules
 score:
   band: developing
-  composite: 54.7
-  delta: 0.0
+  composite: 46.2
+  delta: -8.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 66.3
+    commercial_clarity: 26.3
+    contract_quality: 63.8
     developer_ergonomics: 32.6
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 54.7
   provenance:
     agentic_access: derived
@@ -301,9 +309,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/screenshots/apache-james-2026-06-20T172110.png
 security:
 - kind: authentication

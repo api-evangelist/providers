@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,13 +84,13 @@ overview: 'Pathos is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 75
 score:
   band: minimal
-  composite: 11.2
-  delta: 0.0
+  composite: 10.2
+  delta: -1.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 11.2
@@ -100,8 +100,8 @@ score:
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pathos/refs/heads/main/screenshots/pathos-2026-08-07T191548.png
 security:

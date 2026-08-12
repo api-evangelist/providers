@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -61,6 +61,18 @@ collections:
   name: Bazel Central Registry API
   slug: open-bazel-central-registry
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/bazelbuild/remote-apis/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/bazelbuild/remote-apis/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/bazelbuild/remote-apis/blob/main/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -314,7 +326,7 @@ overview: 'Bazel publishes 2 APIs on the [APIs.io](https://apis.io/) network: Mo
   The Bazel catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Bazel''s developer surface includes developer portal, documentation, getting-started guide, API reference, engineering blog, changelog, Stack Overflow tag, and 41 more developer resources.'
+  Bazel''s developer surface includes developer portal, documentation, getting-started guide, API reference, engineering blog, changelog, Stack Overflow tag, and 44 more developer resources.'
 random_paper: 55
 rules:
 - name: Bazel API Rules
@@ -335,12 +347,12 @@ rules:
   slug: bazel-build-rules
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 50.6
+  delta: 0.1
   facets:
     commercial_clarity: 10.5
-    contract_quality: 73.6
-    developer_ergonomics: 52.2
+    contract_quality: 70.9
+    developer_ergonomics: 56.5
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 36.8
@@ -352,8 +364,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bazel-build/refs/heads/main/screenshots/bazel-build-2026-06-20T173055.png
 security:

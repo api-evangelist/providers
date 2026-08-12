@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: documented
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-08-10'
+  score: 39.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 0
@@ -98,6 +98,10 @@ asyncapis:
   name: Amazon API Gateway WebSocket API
   slug: amazon-api-gateway-websocket-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-api-gateway-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -850,7 +854,7 @@ overview: 'Amazon API Gateway publishes 16 APIs on the [APIs.io](https://apis.io
   The Amazon API Gateway catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Amazon API Gateway''s developer surface includes authentication, engineering blog, support, developer console, SDKs, status page, documentation, and 27 more developer resources.'
+  Amazon API Gateway''s developer surface includes authentication, engineering blog, support, developer console, SDKs, status page, documentation, and 28 more developer resources.'
 random_paper: 64
 rules:
 - name: Amazon API Gateway API Rules
@@ -879,11 +883,11 @@ rules:
   slug: amazon-api-gateway-spectral-rules
 score:
   band: strong
-  composite: 58.3
-  delta: 0.0
+  composite: 57.6
+  delta: -0.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 84.5
+    contract_quality: 81.7
     developer_ergonomics: 41.3
     discoverability: 77.8
     governance: 69.8
@@ -898,8 +902,8 @@ score:
       marker_coverage: 0.0
       total: 15
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/screenshots/amazon-api-gateway-2026-07-25T195913.png
 security:

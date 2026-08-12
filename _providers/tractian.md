@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-10'
+  score: 0.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API behind the Tractian platform, used for ERP, BI, and business-system integrations alongside native SQL access and prebuilt connectors. The API host is live (public health endpoint reporting v1
@@ -130,20 +130,26 @@ overview: 'Tractian publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 42
 score:
   band: thin
-  composite: 28.4
-  delta: 0.0
+  composite: 28.0
+  delta: -0.4
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 36.8
   previous_composite: 28.4
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 32.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

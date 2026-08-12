@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -65,6 +65,10 @@ arazzos:
   slug: bluecore-onboard-and-message.arazzo
 artifact_total: 16
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bluecore-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -212,7 +216,7 @@ network: true
 overview: 'Bluecore publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authn API, CampaignsAPIPublic API, Direct send API, and 3 more. Tagged areas include Company, Retail, Marketing, Customer Data Platform, and Personalization.
 
 
-  Bluecore''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 26 more developer resources.'
+  Bluecore''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 27 more developer resources.'
 random_paper: 37
 rate_limits:
 - limit_count: 0
@@ -225,13 +229,13 @@ scopes:
   summary_line: 7 scopes
 score:
   band: developing
-  composite: 55.9
-  delta: 0.0
+  composite: 54.5
+  delta: -1.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 62.0
+    contract_quality: 59.7
     developer_ergonomics: 56.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 42.1
   previous_composite: 55.9
@@ -251,8 +255,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/screenshots/bluecore-2026-07-25T203448.png
 security:

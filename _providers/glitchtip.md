@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 77
   human_in_the_loop: 0
@@ -303,11 +303,11 @@ rules:
   slug: glitchtip-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.7
-  delta: 0.0
+  composite: 52.1
+  delta: -0.6
   facets:
     commercial_clarity: 63.2
-    contract_quality: 62.4
+    contract_quality: 60.1
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 58.3
@@ -320,8 +320,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/screenshots/glitchtip-2026-06-20T181917.png
 security:

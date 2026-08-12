@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: A REST API over Verify's near real-time quality-control data. Beaconcure documents it as resource-oriented, accepting form-encoded request bodies and returning JSON (or CSV on request) with standard H
@@ -121,8 +121,8 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beaconcure/refs/heads/main/screenshots/beaconcure-2026-08-07T162233.png
 security:

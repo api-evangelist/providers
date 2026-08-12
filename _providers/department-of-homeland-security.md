@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -185,10 +185,6 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/department-of-homeland-security-vocabulary.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/department-of-homeland-security-capabilities.yml
 - group: company
   title: ''
   type: Blog
@@ -216,7 +212,7 @@ overview: 'Department of Homeland Security publishes 14 APIs on the [APIs.io](ht
   The Department of Homeland Security catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Department of Homeland Security''s developer surface includes privacy policy, engineering blog, and 21 more developer resources.'
+  Department of Homeland Security''s developer surface includes privacy policy, engineering blog, and 20 more developer resources.'
 plans:
 - name: Department Of Homeland Security Plans Pricing
   plan_count: 3
@@ -228,15 +224,15 @@ rate_limits:
   slug: department-of-homeland-security-rate-limits
 score:
   band: thin
-  composite: 36.7
-  delta: 0.0
+  composite: 29.6
+  delta: -7.1
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 57.4
+    commercial_clarity: 26.3
+    contract_quality: 55.2
     developer_ergonomics: 2.2
     discoverability: 74.1
     governance: 10.4
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 36.7
   provenance:
     agentic_access: derived
@@ -251,9 +247,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/screenshots/department-of-homeland-security-2026-06-20T175917.png
 security:
 - kind: domain-security

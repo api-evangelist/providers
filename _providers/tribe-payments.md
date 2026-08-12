@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 1
@@ -221,11 +221,11 @@ overview: 'Tribe Payments publishes 8 APIs on the [APIs.io](https://apis.io/) ne
 random_paper: 68
 score:
   band: developing
-  composite: 50.4
-  delta: 0.0
+  composite: 46.7
+  delta: -3.7
   facets:
     commercial_clarity: 31.6
-    contract_quality: 58.6
+    contract_quality: 56.4
     developer_ergonomics: 62.5
     discoverability: 72.2
     governance: 20.8
@@ -246,9 +246,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 62.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 40.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

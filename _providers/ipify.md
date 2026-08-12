@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,6 +57,14 @@ collections:
   name: ipify Public IP Address API
   slug: open-ipify-ip-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/rdegges/ipify-api/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/rdegges/ipify-api/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -188,7 +196,7 @@ overview: 'ipify publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ac
   The ipify catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  ipify''s developer surface includes authentication and 13 more developer resources.'
+  ipify''s developer surface includes authentication and 15 more developer resources.'
 plans:
 - name: Ipify Plans Pricing
   plan_count: 6
@@ -217,11 +225,11 @@ rules:
   slug: ipify-rules
 score:
   band: thin
-  composite: 38.4
-  delta: 0.0
+  composite: 38.1
+  delta: -0.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 31.4
+    contract_quality: 30.2
     developer_ergonomics: 10.9
     discoverability: 81.5
     governance: 68.8
@@ -234,8 +242,8 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipify/refs/heads/main/screenshots/ipify-2026-06-20T183551.png
 security:

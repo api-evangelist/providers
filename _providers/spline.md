@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Client SDK for embedding and interacting with Spline scenes from JavaScript.
@@ -119,19 +119,19 @@ rate_limits:
   slug: spline-rate-limits
 score:
   band: emerging
-  composite: 22.0
-  delta: 0.0
+  composite: 16.0
+  delta: -6.0
   facets:
-    commercial_clarity: 47.4
+    commercial_clarity: 23.7
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 22.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spline/refs/heads/main/screenshots/spline-2026-06-20T194404.png
 security:
 - kind: domain-security

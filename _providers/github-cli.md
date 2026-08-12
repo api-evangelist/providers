@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: GitHub CLI (gh) is the official command-line tool for GitHub, bringing pull requests, issues, actions, and other GitHub features to the terminal.
@@ -36,6 +36,26 @@ apis:
   slug: github-cli
 artifact_total: 5
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/cli/cli/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/cli/cli/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/cli/cli/blob/trunk/.github/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/cli/cli/blob/trunk/.github/CODE-OF-CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/cli/cli/blob/trunk/.github/CONTRIBUTING.md
 - group: company
   title: ''
   type: Website
@@ -66,7 +86,7 @@ overview: 'GitHub CLI publishes 1 API on the [APIs.io](https://apis.io/) network
   The GitHub CLI catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  GitHub CLI''s developer surface includes documentation and 2 more developer resources.'
+  GitHub CLI''s developer surface includes documentation and 7 more developer resources.'
 plans:
 - name: Github Cli Plans Pricing
   plan_count: 3
@@ -87,18 +107,18 @@ rules:
   slug: github-cli-rules
 score:
   band: emerging
-  composite: 19.7
-  delta: 0.0
+  composite: 15.4
+  delta: -4.3
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 40.7
     governance: 10.4
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 19.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github-cli/refs/heads/main/screenshots/github-cli-2026-06-20T181836.png
 slug: github-cli

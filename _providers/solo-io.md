@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 63.1
-  scored_at: '2026-08-10'
+  score: 59.5
+  scored_at: '2026-08-11'
 api_count: 15
 apis:
 - description: API key management endpoints
@@ -72,6 +73,14 @@ asyncapis:
   name: Solo Io Webhooks
   slug: solo-io-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/solo-io-ai-gateway-guardrail-webhook-overlay.yaml
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/solo-io/gloo-portal-idp-connect/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -416,7 +425,7 @@ overview: 'Solo.io publishes 15 APIs on the [APIs.io](https://apis.io/) network,
   The Solo.io catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Solo.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 45 more developer resources.'
+  Solo.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 47 more developer resources.'
 plans:
 - name: Solo Io Plans Pricing
   plan_count: 3
@@ -437,28 +446,28 @@ rules:
   slug: solo-io-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 81.9
-  delta: 20.7
+  composite: 73.7
+  delta: -8.2
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 66.8
+    commercial_clarity: 76.3
+    contract_quality: 69.5
     developer_ergonomics: 80.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 80.2
-    operational_transparency: 78.9
-  previous_composite: 61.2
+    operational_transparency: 55.3
+  previous_composite: 81.9
   provenance:
     conformance: derived
     contracts:
-      callable: 40.0
+      callable: 20.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 15
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: rising
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/screenshots/solo-io-2026-06-20T194151.png
 security:
 - kind: authentication

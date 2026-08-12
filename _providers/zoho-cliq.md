@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 0
@@ -348,11 +348,11 @@ scopes:
   summary_line: 61 scopes · implicit/authorizationCode
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 49.4
+  delta: -1.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 74.4
+    contract_quality: 71.6
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
@@ -365,14 +365,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 55.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/screenshots/zoho-cliq-2026-06-20T201935.png
 security:

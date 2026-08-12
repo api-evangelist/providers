@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -51,6 +51,10 @@ collections:
   name: Beatoven Composition API
   slug: open-beatoven-composition-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Beatoven/public-api/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -196,7 +200,7 @@ overview: 'Beatoven.ai publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
   The Beatoven.ai catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Beatoven.ai''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, code examples, engineering blog, and 16 more developer resources.'
+  Beatoven.ai''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, code examples, engineering blog, and 17 more developer resources.'
 plans:
 - name: Beatoven Plans Pricing
   plan_count: 5
@@ -224,12 +228,12 @@ rules:
     warn: 4
   slug: beatoven-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 54.6
-  delta: 0.0
+  band: strong
+  composite: 56.5
+  delta: 1.9
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 79.8
+    commercial_clarity: 84.2
+    contract_quality: 76.9
     developer_ergonomics: 52.2
     discoverability: 68.5
     governance: 20.8
@@ -242,8 +246,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-08-10'
+  score: 46.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 192
   human_in_the_loop: 0
@@ -207,14 +208,14 @@ scopes:
   slug: cart-com-scopes
   summary_line: 17 scopes · authorizationCode
 score:
-  band: strong
-  composite: 57.7
-  delta: 0.0
+  band: developing
+  composite: 55.9
+  delta: -1.8
   facets:
     commercial_clarity: 34.2
-    contract_quality: 69.2
+    contract_quality: 66.6
     developer_ergonomics: 62.5
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 84.2
   previous_composite: 57.7
@@ -228,8 +229,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cart-com/refs/heads/main/screenshots/cart-com-2026-08-07T163035.png
 security:

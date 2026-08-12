@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -250,11 +250,11 @@ scopes:
   summary_line: 20 scopes · clientCredentials
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 49.2
+  delta: -0.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 65.6
+    contract_quality: 63.1
     developer_ergonomics: 39.1
     discoverability: 68.5
     governance: 52.1
@@ -273,8 +273,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mangopay/refs/heads/main/screenshots/mangopay-2026-06-20T184919.png
 security:

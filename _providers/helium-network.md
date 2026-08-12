@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: REST + WebSocket / MQTT integration surface exposed by Helium-compatible LoRaWAN Network Servers (e.g. Nova Labs Console) for provisioning IoT devices, managing organizations and labels, configuring i
@@ -48,6 +48,22 @@ apis:
   slug: docs-repo
 artifact_total: 9
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/helium/helium-program-library/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/helium/helium-program-library/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/helium/helium-program-library/blob/master/SECURITY.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/helium/helium-program-library/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -95,7 +111,7 @@ network: true
 overview: 'Helium Network publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Wireless, IoT, LoRaWAN, 5G, and DePIN.
 
 
-  Helium Network''s developer surface includes documentation, GitHub presence, and 6 more developer resources.'
+  Helium Network''s developer surface includes documentation, GitHub presence, and 10 more developer resources.'
 plans:
 - name: Helium Network Plans Pricing
   plan_count: 1
@@ -107,18 +123,18 @@ rate_limits:
   slug: helium-network-rate-limits
 score:
   band: emerging
-  composite: 18.3
-  delta: 0.0
+  composite: 22.5
+  delta: 4.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 52.6
   previous_composite: 18.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helium-network/refs/heads/main/screenshots/helium-network-2026-06-20T182625.png
 security:

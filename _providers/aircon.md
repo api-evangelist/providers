@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: The Nest Device Access API (Google Smart Device Management API) provides programmatic control over Nest thermostats, cameras, and doorbells. Supports reading thermostat state, setting target temperatu
@@ -170,20 +170,26 @@ rules:
     warn: 4
   slug: aircon-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 32.1
-  delta: 0.0
+  band: emerging
+  composite: 24.1
+  delta: -8.0
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 17.7
     developer_ergonomics: 0.0
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 32.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 23.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/aircon/refs/heads/main/screenshots/aircon-2026-06-20T171431.png
 security:
 - kind: domain-security

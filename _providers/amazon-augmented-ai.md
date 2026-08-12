@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-10'
+  score: 36.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -41,8 +41,16 @@ apis:
 - description: Operations for creating and managing human review loops
   name: Amazon Augmented AI Human Loops API
   slug: amazon-augmented-ai-human-loops-api
-artifact_total: 70
+artifact_total: 71
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/amazon-augmented-ai-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-augmented-ai-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -213,6 +221,10 @@ jsonld:
   property_count: 0
   slug: amazon-augmented-ai-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: amazon-augmented-ai-mcp.yml
+  slug: amazon-augmented-ai-mcpyml
 modified: '2026-06-20'
 name: Amazon Augmented AI
 nav: Providers
@@ -223,7 +235,7 @@ overview: 'Amazon Augmented AI publishes 1 API on the [APIs.io](https://apis.io/
   The Amazon Augmented AI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Augmented AI''s developer surface includes authentication and 6 more developer resources.'
+  Amazon Augmented AI''s developer surface includes authentication and 8 more developer resources.'
 random_paper: 36
 rules:
 - name: Amazon Augmented AI API Rules
@@ -244,13 +256,13 @@ rules:
   slug: amazon-augmented-ai-spectral-rules
 score:
   band: thin
-  composite: 37.5
-  delta: 0.0
+  composite: 36.1
+  delta: -1.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 76.7
-    developer_ergonomics: 10.9
-    discoverability: 77.8
+    contract_quality: 73.9
+    developer_ergonomics: 13.0
+    discoverability: 66.7
     governance: 69.8
     operational_transparency: 0.0
   previous_composite: 37.5
@@ -263,8 +275,8 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-augmented-ai/refs/heads/main/screenshots/amazon-augmented-ai-2026-07-25T195931.png
 security:

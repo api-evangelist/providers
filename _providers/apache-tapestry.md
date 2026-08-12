@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Tapestry Component API provides Java annotations and interfaces for building reusable web components. Components are defined by a Java class and an HTML template file. The API includes @Component,
@@ -36,6 +36,18 @@ apis:
   slug: apache-tapestry-component-api
 artifact_total: 18
 common:
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/apache/tapestry-5/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/tapestry-5/blob/master/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -107,7 +119,7 @@ network: true
 overview: 'Apache Tapestry publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Component-Based, Java, Web Applications, Web Framework, and Open Source.
 
 
-  Apache Tapestry''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 4 more developer resources.'
+  Apache Tapestry''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 7 more developer resources.'
 plans:
 - name: Apache Tapestry Plans Pricing
   plan_count: 3
@@ -118,20 +130,20 @@ rate_limits:
   name: Apache Tapestry Rate Limits
   slug: apache-tapestry-rate-limits
 score:
-  band: thin
-  composite: 28.6
-  delta: 0.0
+  band: emerging
+  composite: 22.2
+  delta: -6.4
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 32.6
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 47.4
+    operational_transparency: 34.2
   previous_composite: 28.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-tapestry/refs/heads/main/screenshots/apache-tapestry-2026-06-20T172151.png
 security:
 - kind: domain-security

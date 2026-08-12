@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -2433,15 +2434,15 @@ scopes:
   summary_line: 29 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 70.2
-  delta: 0.0
+  composite: 67.0
+  delta: -3.2
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 84.4
+    commercial_clarity: 55.3
+    contract_quality: 81.7
     developer_ergonomics: 63.0
     discoverability: 77.8
     governance: 80.2
-    operational_transparency: 57.9
+    operational_transparency: 42.1
   previous_composite: 70.2
   provenance:
     agentic_access: derived
@@ -2452,8 +2453,8 @@ score:
       marker_coverage: 0.0
       total: 46
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/screenshots/workday-2026-06-20T201559.png
 security:

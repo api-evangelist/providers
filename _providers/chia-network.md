@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 9.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Local JSON-over-HTTPS RPC surface exposed by the chia-blockchain reference node. Each service (full_node, wallet, farmer, harvester, datalayer, crawler, timelord, solver) listens on its own port and i
@@ -36,6 +36,30 @@ apis:
   slug: chia-rpc-api
 artifact_total: 3
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Chia-Network/chia-blockchain/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Chia-Network/chia-blockchain/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Chia-Network/chia-blockchain/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/Chia-Network/chia-blockchain/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Chia-Network/chia-blockchain/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Chia-Network/chia-blockchain/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -135,24 +159,24 @@ network: true
 overview: 'Chia Network publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Blockchain, Cryptocurrency, and Decentralized.
 
 
-  Chia Network''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, CLI, authentication, and 15 more developer resources.'
+  Chia Network''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, CLI, authentication, and 21 more developer resources.'
 random_paper: 68
 score:
   band: thin
-  composite: 29.3
-  delta: 0.0
+  composite: 29.6
+  delta: 0.3
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 60.9
-    discoverability: 77.8
+    discoverability: 66.7
     governance: 3.1
-    operational_transparency: 36.8
+    operational_transparency: 47.4
   previous_composite: 29.3
   provenance:
     conformance: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chia-network/refs/heads/main/screenshots/chia-network-2026-07-25T205208.png
 security:

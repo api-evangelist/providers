@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-10'
+  score: 32.7
+  scored_at: '2026-08-11'
 api_count: 23
 apis:
 - description: Addresses resource.
@@ -102,6 +102,10 @@ apis:
   slug: science-exchange-users-api
 artifact_total: 27
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/science-exchange-providers-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -221,17 +225,17 @@ network: true
 overview: 'Science Exchange publishes 23 APIs on the [APIs.io](https://apis.io/) network, including addresses API, attachments API, currency_codes API, and 20 more. Tagged areas include Company, Life Sciences, Research and Development, Scientific Services, and Procurement.
 
 
-  Science Exchange''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 21 more developer resources.'
+  Science Exchange''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 22 more developer resources.'
 random_paper: 102
 score:
   band: developing
-  composite: 46.7
-  delta: 0.0
+  composite: 44.3
+  delta: -2.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 61.2
+    contract_quality: 59.0
     developer_ergonomics: 47.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 5.3
   previous_composite: 46.7
@@ -249,9 +253,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 43.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 37.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

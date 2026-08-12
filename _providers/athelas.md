@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-08-10'
+  score: 46.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -200,14 +201,14 @@ scopes:
   slug: athelas-scopes
   summary_line: 31 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 59.4
-  delta: 0.0
+  band: developing
+  composite: 54.0
+  delta: -5.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 73.6
+    contract_quality: 70.9
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 39.5
   previous_composite: 59.4
@@ -226,10 +227,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 92.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+    score: 66.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/screenshots/athelas-2026-07-25T201527.png
 security:
 - kind: authentication

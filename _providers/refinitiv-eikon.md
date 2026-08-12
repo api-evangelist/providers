@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -569,15 +569,15 @@ rules:
   slug: refinitiv-eikon-rules
 score:
   band: strong
-  composite: 62.9
-  delta: 0.0
+  composite: 57.9
+  delta: -5.0
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 78.2
+    commercial_clarity: 47.4
+    contract_quality: 75.6
     developer_ergonomics: 56.5
     discoverability: 68.5
     governance: 58.3
-    operational_transparency: 57.9
+    operational_transparency: 42.1
   previous_composite: 62.9
   provenance:
     agentic_access: derived
@@ -592,9 +592,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/screenshots/refinitiv-eikon-2026-06-20T192745.png
 security:
 - kind: authentication

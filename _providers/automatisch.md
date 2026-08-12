@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Automatisch exposes a REST API used by its web application for managing flows (automated workflows), connections (service credentials), users, and integrations. The API supports webhook trigger endpoi
@@ -36,6 +36,14 @@ apis:
   slug: automatisch-rest-api
 artifact_total: 21
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/automatisch/automatisch/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/automatisch/automatisch/blob/main/CODE_OF_CONDUCT.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -105,7 +113,7 @@ network: true
 overview: 'Automatisch publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Workflow Automation, Self-Hosted, Open Source, Zapier Alternative, and No-Code.
 
 
-  Automatisch''s developer surface includes documentation, getting-started guide, release notes, and 4 more developer resources.'
+  Automatisch''s developer surface includes documentation, getting-started guide, release notes, and 6 more developer resources.'
 plans:
 - name: Automatisch Plans Pricing
   plan_count: 3
@@ -117,19 +125,19 @@ rate_limits:
   slug: automatisch-rate-limits
 score:
   band: emerging
-  composite: 24.6
-  delta: 0.0
+  composite: 16.8
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 19.6
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 24.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/automatisch/refs/heads/main/screenshots/automatisch-2026-06-20T172657.png
 security:
 - kind: domain-security

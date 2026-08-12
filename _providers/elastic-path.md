@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 3
@@ -340,6 +340,14 @@ apis:
   slug: elastic-path-variations-api
 artifact_total: 122
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/elasticpath/elasticpath-graphql-server/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/elasticpath/elasticpath-graphql-server/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -471,7 +479,7 @@ overview: 'Elastic Path publishes 99 APIs on the [APIs.io](https://apis.io/) net
   The Elastic Path catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Elastic Path''s developer surface includes authentication, documentation, engineering blog, pricing, support, and 12 more developer resources.'
+  Elastic Path''s developer surface includes authentication, documentation, engineering blog, pricing, support, and 14 more developer resources.'
 plans:
 - name: Elastic Path Plans Pricing
   plan_count: 0
@@ -496,7 +504,7 @@ score:
   delta: 0.0
   facets:
     commercial_clarity: 18.4
-    contract_quality: 67.0
+    contract_quality: 66.8
     developer_ergonomics: 30.4
     discoverability: 50.0
     governance: 58.3
@@ -515,8 +523,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elastic-path/refs/heads/main/screenshots/elastic-path-2026-06-20T180529.png
 security:

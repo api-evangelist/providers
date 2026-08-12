@@ -20,14 +20,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.6
-  scored_at: '2026-08-10'
+  score: 26.4
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The Play API from TPS Engage — 1 operation(s) for play.
@@ -36,8 +36,16 @@ apis:
 - description: The Prefetch API from TPS Engage — 1 operation(s) for prefetch.
   name: TPS Engage Prefetch API
   slug: tps-engage-prefetch-api
-artifact_total: 3
+artifact_total: 4
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/tps-engage-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tps-engage-blindspot-pull-api-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -98,6 +106,10 @@ created: '2026-07-17'
 description: 'TPS Engage, LLC operates Blindspot (seeblindspot.com), a self-serve programmatic digital out-of-home (DOOH) advertising platform: 3,000,000+ digital billboards and screens in 50+ countries bookable by the exact hour, with pay-per-play pricing, no minimums, and an agentic AI media planner (Blinky). The company publishes one public API — the Blindspot Pull API, the device-facing surface screen owners use to pull the creative to play, prefetch media, and log verified proof-of-play — documented with an OpenAPI 3.0 spec on the TPSEngage GitHub org. Originally added to the API Evangelist network as a Techstars portfolio lead, this profile has been enriched from Blindspot''s public surface.'
 image: https://seeblindspot.com/wp-content/uploads/APU.COM-_The-One-Times-Square-NYC-Blindspot-1-1.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: tps-engage-mcp.yml
+  slug: tps-engage-mcpyml
 modified: '2026-07-21'
 name: TPS Engage
 nav: Providers
@@ -105,18 +117,18 @@ network: true
 overview: 'TPS Engage publishes 2 APIs on the [APIs.io](https://apis.io/) network: Play API and Prefetch API. Tagged areas include Company, Advertising, DOOH, Digital Billboards, and Programmatic Advertising.
 
 
-  TPS Engage''s developer surface includes documentation, API reference, support, pricing, signup flow, and 9 more developer resources.'
+  TPS Engage''s developer surface includes documentation, API reference, support, pricing, signup flow, and 11 more developer resources.'
 random_paper: 75
 score:
   band: thin
-  composite: 37.3
-  delta: 0.0
+  composite: 35.8
+  delta: -1.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 53.5
-    developer_ergonomics: 21.2
-    discoverability: 87.0
-    governance: 11.5
+    contract_quality: 51.5
+    developer_ergonomics: 23.4
+    discoverability: 75.9
+    governance: 8.3
     operational_transparency: 5.3
   previous_composite: 37.3
   provenance:
@@ -128,8 +140,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -127,7 +127,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/tuya-device-management-openapi.yml
+  url: openapi/_original/tuya-device-management-openapi.yml
 - group: docs
   title: ''
   type: JSONSchema
@@ -234,15 +234,15 @@ rules:
   slug: tuya-rules
 score:
   band: developing
-  composite: 53.8
-  delta: 0.0
+  composite: 52.6
+  delta: -1.2
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 69.0
-    developer_ergonomics: 47.8
-    discoverability: 74.1
+    commercial_clarity: 36.8
+    contract_quality: 66.4
+    developer_ergonomics: 54.3
+    discoverability: 81.5
     governance: 68.8
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 53.8
   provenance:
     agentic_access: derived
@@ -251,8 +251,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/screenshots/tuya-2026-06-20T195841.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: WestJet's IATA New Distribution Capability (NDC) direct-connect interface for travel sellers, offered in NDC schema versions 17.2 and 21.3/24.1 and delivered on Accelya's FLX/Farelogix platform. Publi
@@ -177,20 +177,20 @@ overview: 'WestJet publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 78
 score:
   band: thin
-  composite: 40.7
-  delta: 0.0
+  composite: 39.6
+  delta: -1.1
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
     developer_ergonomics: 34.8
-    discoverability: 77.8
+    discoverability: 66.7
     governance: 3.1
     operational_transparency: 44.7
   previous_composite: 40.7
   provenance:
     conformance: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

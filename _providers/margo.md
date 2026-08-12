@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Margo defines an open standard specification for interoperability of edge applications, devices, and orchestration software in industrial automation. The specification is in pre-draft stage and includ
@@ -36,6 +36,18 @@ apis:
   slug: margo-specification
 artifact_total: 5
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/margo/sandbox/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/margo/sandbox/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/margo/sandbox/blob/main/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -71,7 +83,7 @@ network: true
 overview: 'Margo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Edge, Industrial, Interoperability, and Linux Foundation.
 
 
-  Margo''s developer surface includes documentation, engineering blog, and 3 more developer resources.'
+  Margo''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
 plans:
 - name: Margo Plans Pricing
   plan_count: 3
@@ -83,19 +95,19 @@ rate_limits:
   slug: margo-rate-limits
 score:
   band: emerging
-  composite: 19.9
-  delta: 0.0
+  composite: 14.1
+  delta: -5.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 10.9
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 19.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/margo/refs/heads/main/screenshots/margo-2026-06-20T184944.png
 security:
 - kind: domain-security

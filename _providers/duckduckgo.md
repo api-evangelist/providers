@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Duck.ai is DuckDuckGo's anonymizing proxy in front of third-party LLMs. Free tier currently includes Anthropic Claude 4.5 Haiku, Meta Llama 4 Scout, Mistral Small 3 24B, OpenAI GPT-4o mini / GPT-5 min
@@ -48,6 +48,14 @@ apis:
   slug: duckduckgo-instant-answers-api
 artifact_total: 20
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/duckduckgo/tracker-radar/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/duckduckgo/tracker-radar/releases
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -171,7 +179,7 @@ overview: 'DuckDuckGo publishes 2 APIs on the [APIs.io](https://apis.io/) networ
   The DuckDuckGo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  DuckDuckGo''s developer surface includes developer portal, engineering blog, and 17 more developer resources.'
+  DuckDuckGo''s developer surface includes developer portal, engineering blog, and 19 more developer resources.'
 plans:
 - name: Duckduckgo Plans Pricing
   plan_count: 6
@@ -200,15 +208,15 @@ rules:
   slug: instant-answer-rules
 score:
   band: developing
-  composite: 49.9
-  delta: 0.0
+  composite: 52.0
+  delta: 2.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 69.0
+    contract_quality: 66.4
     developer_ergonomics: 10.9
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 52.6
   previous_composite: 49.9
   provenance:
     contracts:
@@ -216,8 +224,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duckduckgo/refs/heads/main/screenshots/duckduckgo-2026-06-20T180307.png
 security:

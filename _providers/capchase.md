@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.6
-  scored_at: '2026-08-10'
+  score: 31.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 5
@@ -45,8 +45,16 @@ arazzos:
 - description: Create a buyer, confirm qualification, then create a financed subscription and read its status.
   name: Capchase Qualify a Buyer and Create a Financed Subscription
   slug: capchase-buyer-to-subscription
-artifact_total: 5
+artifact_total: 6
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/capchase-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/capchase-pay-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -131,6 +139,10 @@ created: '2026-07-17'
 description: 'Capchase provides embedded financing and B2B payment infrastructure for software and hardware vendors. Its Capchase Pay API lets vendors offer buyers flexible installment payment terms at checkout while the vendor is paid the full contract value upfront. Vendors create buyer companies, run automated KYB/underwriting qualification, create subscriptions that generate hosted payment links, list and retrieve subscription status, and pull instalment receipts. The v2 REST API is served from universe.capchase.com, uses HTTP Basic authentication (clientId / clientSecret), ships a Playground environment, and is documented on a ReadMe developer portal with an OpenAPI reference and an AI-agent llms.txt index. Sector: fintech; backed by QED Investors.'
 image: https://cdn.prod.website-files.com/6146543ab50f167ae088b201/61701898ec2756274d6e8665_256px.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: capchase-mcp.yml
+  slug: capchase-mcpyml
 modified: '2026-07-18'
 name: Capchase
 nav: Providers
@@ -138,17 +150,17 @@ network: true
 overview: 'Capchase publishes 1 API on the [APIs.io](https://apis.io/) network: Pay API. Tagged areas include Company, Fintech, Payments, Embedded Finance, and Financing.
 
 
-  Capchase''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, sandbox, and 13 more developer resources.'
+  Capchase''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, sandbox, and 15 more developer resources.'
 random_paper: 12
 score:
   band: developing
-  composite: 46.7
-  delta: 0.0
+  composite: 45.6
+  delta: -1.1
   facets:
     commercial_clarity: 42.1
-    contract_quality: 57.4
-    developer_ergonomics: 56.0
-    discoverability: 87.0
+    contract_quality: 55.2
+    developer_ergonomics: 58.2
+    discoverability: 75.9
     governance: 20.8
     operational_transparency: 13.2
   previous_composite: 46.7
@@ -168,8 +180,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capchase/refs/heads/main/screenshots/capchase-2026-07-25T204424.png
 security:

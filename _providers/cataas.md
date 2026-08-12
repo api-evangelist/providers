@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -52,6 +52,10 @@ apis:
   slug: cataas-upload-api
 artifact_total: 41
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/cataas/cataas/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -194,7 +198,7 @@ overview: 'Cataas publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
   The Cataas catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Cataas'' developer surface includes authentication, tooling, and 12 more developer resources.'
+  Cataas'' developer surface includes authentication, tooling, and 13 more developer resources.'
 random_paper: 41
 rules:
 - name: Cataas API Rules
@@ -215,11 +219,11 @@ rules:
   slug: cataas-spectral-rules
 score:
   band: emerging
-  composite: 26.7
-  delta: 0.0
+  composite: 26.4
+  delta: -0.3
   facets:
     commercial_clarity: 0.0
-    contract_quality: 29.7
+    contract_quality: 28.6
     developer_ergonomics: 10.9
     discoverability: 81.5
     governance: 68.8
@@ -232,8 +236,8 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cataas/refs/heads/main/screenshots/cataas-2026-06-20T174040.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: Programmatic access to Chemius Safety Data Sheet (SDS) creation, retrieval, and version control. Supports multilingual SDS generation aligned with CLP 1272/2008, REACH 1907/2006, and GHS formats.
@@ -139,19 +139,19 @@ rate_limits:
   slug: chemius-rate-limits
 score:
   band: emerging
-  composite: 24.8
-  delta: 0.0
+  composite: 17.0
+  delta: -7.8
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 8.1
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 24.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/chemius/refs/heads/main/screenshots/chemius-2026-06-20T174256.png
 security:
 - kind: domain-security

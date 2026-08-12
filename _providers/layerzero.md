@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -56,6 +56,14 @@ apis:
   slug: layerzero-transfer-api
 artifact_total: 12
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/LayerZero-Labs/devtools/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/LayerZero-Labs/devtools/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -143,7 +151,7 @@ overview: 'LayerZero publishes 5 APIs on the [APIs.io](https://apis.io/) network
   The LayerZero catalog on APIs.io includes 1 JSON-LD context.
 
 
-  LayerZero''s developer surface includes authentication, documentation, GitHub presence, engineering blog, changelog, and 11 more developer resources.'
+  LayerZero''s developer surface includes authentication, documentation, GitHub presence, engineering blog, changelog, and 13 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
@@ -155,12 +163,12 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 32.5
-  delta: 0.0
+  composite: 34.4
+  delta: 1.9
   facets:
     commercial_clarity: 28.9
-    contract_quality: 55.2
-    developer_ergonomics: 21.7
+    contract_quality: 53.1
+    developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
@@ -172,14 +180,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 23.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/screenshots/layerzero-2026-06-20T184335.png
 security:

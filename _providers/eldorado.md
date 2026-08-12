@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The El Dorado onramp/offramp trading API for converting between Latin American fiat currencies and crypto (USDT on Arbitrum). Create buy/sell quotes and orders, manage KYC, and fetch supported currenc
@@ -170,8 +170,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eldorado/refs/heads/main/screenshots/eldorado-2026-07-25T213057.png
 security:

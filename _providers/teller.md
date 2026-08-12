@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -192,16 +192,16 @@ rules:
     warn: 5
   slug: teller-rules
 score:
-  band: developing
-  composite: 48.3
-  delta: 0.0
+  band: thin
+  composite: 41.1
+  delta: -7.2
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 75.4
+    commercial_clarity: 15.8
+    contract_quality: 72.6
     developer_ergonomics: 45.7
     discoverability: 74.1
     governance: 41.7
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 48.3
   provenance:
     agentic_access: derived
@@ -216,9 +216,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 security:
 - kind: authentication
   name: Teller Authentication

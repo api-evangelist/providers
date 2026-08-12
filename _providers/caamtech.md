@@ -1,9 +1,10 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -11,14 +12,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-10'
+  score: 47.5
+  scored_at: '2026-08-11'
 api_count: 11
 apis:
 - description: The akismet/v1 API from CaaMTech — 7 operation(s) for akismet/v1.
@@ -54,8 +55,16 @@ apis:
 - description: The wpforms/v1 API from CaaMTech — 8 operation(s) for wpforms/v1.
   name: CaaMTech Wpforms/v1 API
   slug: caamtech-wpforms-v1-api
-artifact_total: 13
+artifact_total: 14
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/caamtech-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/caamtech-wordpress-rest-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -112,6 +121,10 @@ created: '2026-08-08'
 description: CaaMTech is a pharmaceutical drug discovery company in Issaquah, Washington, founded by Dr. Andrew Chadeayne, engineering next-generation psychedelic-inspired small-molecule therapeutics for mental health conditions. It synthesizes and characterizes novel tryptamines, screens natural and synthetic compounds for safety and efficacy, publishes fundamental crystallographic and pharmacological research, and builds a patent portfolio around the results. CaaMTech operates no developer program and publishes no product API; the only machine-readable surface on caam.tech is the standard WordPress REST API that serves the company site, which does make its research updates, pages and media programmatically readable without credentials, alongside an authenticated WordPress MCP adapter endpoint.
 image: https://caam.tech/wp-content/uploads/2019/12/cropped-caamtech-logo-on-green-2400-square.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: caamtech-mcp.yml
+  slug: caamtech-mcpyml
 modified: '2026-08-08'
 name: CaaMTech
 nav: Providers
@@ -119,26 +132,38 @@ network: true
 overview: 'CaaMTech publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Akismet/v1 API, MCP API, Objectcache/v1 API, and 8 more. Tagged areas include Company, Pharmaceuticals, Life Sciences, Drug Discovery, and Biotechnology.
 
 
-  CaaMTech''s developer surface includes engineering blog, authentication, and 11 more developer resources.'
+  CaaMTech''s developer surface includes engineering blog, authentication, and 13 more developer resources.'
 random_paper: 10
 score:
   band: emerging
-  composite: 26.9
+  composite: 18.2
+  delta: -8.7
   facets:
     commercial_clarity: 0.0
-    contract_quality: 49.0
-    developer_ergonomics: 19.6
-    discoverability: 92.6
-    governance: 20.8
+    contract_quality: 13.7
+    developer_ergonomics: 23.4
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 0.0
+  previous_composite: 26.9
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 11
+      marker_coverage: 100.0
+      total: 11
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 security:
 - kind: authentication
   name: Caamtech Authentication

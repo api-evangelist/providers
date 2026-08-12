@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.6
-  scored_at: '2026-08-10'
+  score: 22.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,8 +47,16 @@ apis:
 - description: Bitwise crypto index metadata, history, and constituents.
   name: Bitwise Indexes API
   slug: bitwise-indexes-api
-artifact_total: 6
+artifact_total: 7
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/bitwise-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bitwise-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -117,6 +125,10 @@ created: '2026-07-17'
 description: Bitwise Asset Management is a crypto-focused investment manager (founded 2017, offices in San Francisco, New York, London, and Frankfurt) offering crypto index funds, ETFs, separately managed accounts, private funds, and staking products across 70+ vehicles including the Bitwise 10 Crypto Index (BITW) and spot Bitcoin (BITB) and Ethereum (ETHW) ETFs. Bitwise publishes a read-only market-data API for its indexes, ETFs, and fund data via a public Postman developer portal, covering index metadata, historical daily index values, index constituents (prices/supplies/weights), and per-fund data (NAV, AUM, holdings, crypto-per-share, performance). API keys are issued on request. This profile was enriched by the API Evangelist pipeline from the provider's public developer surface.
 image: https://bitwiseinvestments.com/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: bitwise-mcp.yml
+  slug: bitwise-mcpyml
 modified: '2026-07-18'
 name: Bitwise
 nav: Providers
@@ -124,17 +136,17 @@ network: true
 overview: 'Bitwise publishes 3 APIs on the [APIs.io](https://apis.io/) network: ETFs API, Funds API, and Indexes API. Tagged areas include Company, Fintech, Cryptocurrency, Asset Management, and Market Data.
 
 
-  Bitwise''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 10 more developer resources.'
+  Bitwise''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 12 more developer resources.'
 random_paper: 63
 score:
   band: thin
-  composite: 40.2
-  delta: 0.0
+  composite: 39.1
+  delta: -1.1
   facets:
     commercial_clarity: 34.2
-    contract_quality: 65.1
-    developer_ergonomics: 47.3
-    discoverability: 92.6
+    contract_quality: 62.7
+    developer_ergonomics: 49.5
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 40.2
@@ -154,8 +166,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitwise/refs/heads/main/screenshots/bitwise-2026-07-25T203218.png
 security:

@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 3
@@ -377,16 +378,16 @@ rules:
     warn: 6
   slug: signoz-rules
 score:
-  band: strong
-  composite: 58.7
-  delta: 0.0
+  band: developing
+  composite: 52.3
+  delta: -6.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 65.1
-    developer_ergonomics: 45.7
-    discoverability: 74.1
+    commercial_clarity: 26.3
+    contract_quality: 62.7
+    developer_ergonomics: 52.2
+    discoverability: 81.5
     governance: 58.3
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 58.7
   provenance:
     agentic_access: derived
@@ -395,9 +396,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/screenshots/signoz-2026-06-20T193914.png
 security:
 - kind: authentication

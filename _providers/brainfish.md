@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-08-10'
+  score: 50.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -80,6 +81,10 @@ arazzos:
   slug: brainfish-create-collection-and-document
 artifact_total: 19
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/brainfish-public-api-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -195,7 +200,7 @@ network: true
 overview: 'Brainfish publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Analytics API, Authentication API, and 6 more. Tagged areas include Company, AI, Customer Support, Knowledge Base, and Help Desk.
 
 
-  Brainfish''s developer surface includes documentation, API reference, getting-started guide, support, changelog, engineering blog, pricing, and 18 more developer resources.'
+  Brainfish''s developer surface includes documentation, API reference, getting-started guide, support, changelog, engineering blog, pricing, and 19 more developer resources.'
 random_paper: 22
 rate_limits:
 - limit_count: 2
@@ -203,11 +208,11 @@ rate_limits:
   slug: brainfish-rate-limits
 score:
   band: strong
-  composite: 59.6
-  delta: 0.0
+  composite: 58.9
+  delta: -0.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.2
+    contract_quality: 63.7
     developer_ergonomics: 58.2
     discoverability: 92.6
     governance: 20.8
@@ -223,8 +228,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/screenshots/brainfish-2026-07-25T203705.png
 security:

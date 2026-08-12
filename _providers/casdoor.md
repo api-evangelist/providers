@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -90,6 +90,14 @@ collections:
   name: Casdoor REST API
   slug: open-casdoor
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/casdoor/casdoor/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/casdoor/casdoor/blob/master/SECURITY.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -229,7 +237,7 @@ network: true
 overview: 'Casdoor publishes 8 APIs on the [APIs.io](https://apis.io/) network, including REST API, Applications API, Authentication API, and 5 more. Tagged areas include Authentication, Authorization, IAM, Identity, and LDAP.
 
 
-  Casdoor''s developer surface includes authentication, documentation, getting-started guide, GitHub presence, engineering blog, pricing, and 15 more developer resources.'
+  Casdoor''s developer surface includes authentication, documentation, getting-started guide, GitHub presence, engineering blog, pricing, and 17 more developer resources.'
 plans:
 - name: Casdoor Plans Pricing
   plan_count: 3
@@ -240,16 +248,16 @@ rate_limits:
   name: Casdoor Rate Limits
   slug: casdoor-rate-limits
 score:
-  band: developing
-  composite: 46.9
-  delta: 0.0
+  band: thin
+  composite: 41.9
+  delta: -5.0
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 57.4
+    commercial_clarity: 36.8
+    contract_quality: 55.2
     developer_ergonomics: 45.7
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 46.9
   provenance:
     agentic_access: derived
@@ -258,9 +266,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/screenshots/casdoor-2026-06-20T174037.png
 security:
 - kind: authentication

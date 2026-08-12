@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 39.9
-  scored_at: '2026-08-10'
+  score: 36.3
+  scored_at: '2026-08-11'
 api_count: 14
 apis:
 - description: The Aspects API from Diaspora — 2 operation(s) for aspects.
@@ -75,6 +75,18 @@ apis:
   slug: diaspora-users-api
 artifact_total: 19
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/diaspora/api-documentation/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/diaspora/api-documentation/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/diaspora/api-documentation/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -218,7 +230,7 @@ network: true
 overview: 'Diaspora publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Aspects API, Comments API, Contacts API, and 11 more. Tagged areas include Company, Social, Social Networking, Decentralized, and Federated.
 
 
-  Diaspora''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 25 more developer resources.'
+  Diaspora''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 28 more developer resources.'
 random_paper: 39
 scopes:
 - name: Diaspora Scopes
@@ -227,13 +239,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.5
-  delta: 0.0
+  composite: 43.3
+  delta: -3.2
   facets:
     commercial_clarity: 13.2
-    contract_quality: 61.2
+    contract_quality: 59.0
     developer_ergonomics: 56.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
   previous_composite: 46.5
@@ -246,14 +258,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 55.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/screenshots/diaspora-2026-07-25T211929.png
 security:

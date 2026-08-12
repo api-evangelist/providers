@@ -24,14 +24,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 13.7
-  scored_at: '2026-08-10'
+  score: 16.4
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The NAESB REQ.21 ESPI Model Business Practices define the data exchange protocol for transferring retail energy usage information from a utility (Data Custodian) to a Third Party with the Retail Custo
@@ -40,8 +40,12 @@ apis:
 - description: 'The NAESB Electric Industry Registry is the central repository of registry information used by the North American wholesale electric industry for electronic tagging; it replaced the NERC TSIN in 2012 '
   name: NAESB Electric Industry Registry (EIR) webRegistry Web Services
   slug: naesb-eir-webregistry
-artifact_total: 4
+artifact_total: 5
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/naesb-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -160,6 +164,10 @@ description: 'The North American Energy Standards Board (NAESB) is the non-profi
   and no open market data of its own.'
 image: https://www.naesb.org/images/naesb-logo.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: naesb-mcp.yml
+  slug: naesb-mcpyml
 modified: '2026-07-27'
 name: NAESB
 nav: Providers
@@ -167,17 +175,17 @@ network: true
 overview: 'NAESB publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, United States, Standards, Utilities, and Electricity.
 
 
-  NAESB''s developer surface includes documentation, tooling, pricing, support, authentication, changelog, and 22 more developer resources.'
+  NAESB''s developer surface includes documentation, tooling, pricing, support, authentication, changelog, and 23 more developer resources.'
 random_paper: 57
 score:
   band: emerging
-  composite: 25.8
-  delta: 0.0
+  composite: 25.2
+  delta: -0.6
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
-    developer_ergonomics: 25.5
-    discoverability: 77.8
+    developer_ergonomics: 27.7
+    discoverability: 66.7
     governance: 3.1
     operational_transparency: 15.8
   previous_composite: 25.8
@@ -191,8 +199,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/naesb/refs/heads/main/screenshots/naesb-2026-08-07T184604.png
 security:

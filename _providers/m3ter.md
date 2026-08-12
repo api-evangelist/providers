@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 177
   human_in_the_loop: 0
@@ -299,15 +299,15 @@ scopes:
   summary_line: 6 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 39.4
-  delta: 0.0
+  composite: 31.7
+  delta: -7.7
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 60.5
+    commercial_clarity: 23.7
+    contract_quality: 58.2
     developer_ergonomics: 28.3
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 39.4
   provenance:
     agentic_access: derived
@@ -316,9 +316,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 58
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/m3ter/refs/heads/main/screenshots/m3ter-2026-06-20T184823.png
 security:
 - kind: authentication

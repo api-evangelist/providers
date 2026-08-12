@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 60.1
-  scored_at: '2026-08-10'
+  score: 56.5
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: File upload endpoints
@@ -216,13 +216,13 @@ rate_limits:
   slug: spaitial-ai-rate-limits
 score:
   band: strong
-  composite: 59.3
-  delta: 0.0
+  composite: 57.6
+  delta: -1.7
   facets:
     commercial_clarity: 76.3
-    contract_quality: 63.5
+    contract_quality: 61.1
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 59.3
@@ -235,8 +235,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

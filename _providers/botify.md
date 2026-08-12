@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 24.3
-  scored_at: '2026-08-10'
+  score: 17.3
+  scored_at: '2026-08-11'
 api_count: 9
 apis:
 - description: Hosted Model Context Protocol server at mcp.botify.com, advertised via RFC 9728 protected-resource metadata as "Botify Agents MCP" with the single scope mcp_read_write. Authorization is delegated to a
@@ -50,6 +50,10 @@ apis:
   slug: botify-user-api
 artifact_total: 14
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/botify-api-swagger-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -180,7 +184,7 @@ network: true
 overview: 'Botify publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Analysis API, Collections API, Datasource API, and 5 more. Tagged areas include seo, organic-search, search-engine-optimization, web-crawling, and log-analysis.
 
 
-  Botify''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
+  Botify''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
 random_paper: 73
 scopes:
 - name: Botify Scopes
@@ -189,16 +193,28 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.5
+  composite: 49.1
+  delta: -0.4
   facets:
     commercial_clarity: 52.6
-    contract_quality: 46.5
-    developer_ergonomics: 54.3
+    contract_quality: 48.5
+    developer_ergonomics: 49.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 36.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 49.5
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
+    mcp: first-party
+    skills: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Botify Authentication

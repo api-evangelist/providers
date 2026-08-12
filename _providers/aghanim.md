@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 51.6
-  scored_at: '2026-08-10'
+  score: 48.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 110
   human_in_the_loop: 1
@@ -125,6 +125,10 @@ asyncapis:
   name: Aghanim Webhooks
   slug: aghanim-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aghanim-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -243,17 +247,17 @@ overview: 'Aghanim publishes 27 APIs on the [APIs.io](https://apis.io/) network,
   The Aghanim catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Aghanim''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 18 more developer resources.'
+  Aghanim''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 19 more developer resources.'
 random_paper: 29
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 49.0
+  delta: -1.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 72.5
+    contract_quality: 69.8
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 23.7
   previous_composite: 50.5
@@ -273,8 +277,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aghanim/refs/heads/main/screenshots/aghanim-2026-07-25T195259.png
 security:

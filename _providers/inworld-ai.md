@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -426,33 +426,27 @@ rules:
     warn: 5
   slug: inworld-ai-rules
 score:
-  band: strong
-  composite: 61.6
-  delta: -0.7
+  band: exemplar
+  composite: 70.0
+  delta: 8.4
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 76.4
+    commercial_clarity: 71.1
+    contract_quality: 77.3
     developer_ergonomics: 69.6
     discoverability: 64.8
     governance: 47.9
     operational_transparency: 78.9
-  previous_composite: 62.3
+  previous_composite: 61.6
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 30.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+      total: 7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/screenshots/inworld-ai-2026-06-20T183526.png
 security:
 - kind: authentication

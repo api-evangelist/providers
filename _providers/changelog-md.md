@@ -27,10 +27,26 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 25
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/olivierlacan/keep-a-changelog/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/olivierlacan/keep-a-changelog/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/olivierlacan/keep-a-changelog/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/olivierlacan/keep-a-changelog/blob/main/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -102,22 +118,22 @@ network: true
 overview: 'CHANGELOG.md (Keep a Changelog) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Change Log, Change Tracking, Documentation, Markdown, and Open Source.
 
 
-  CHANGELOG.md (Keep a Changelog)''s developer surface includes documentation, tooling, and 7 more developer resources.'
+  CHANGELOG.md (Keep a Changelog)''s developer surface includes documentation, tooling, and 11 more developer resources.'
 random_paper: 30
 score:
   band: minimal
-  composite: 8.8
-  delta: 0.0
+  composite: 10.9
+  delta: 2.1
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 15.8
   previous_composite: 8.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/changelog-md/refs/heads/main/screenshots/changelog-md-2026-06-20T174213.png
 security:

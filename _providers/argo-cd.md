@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -84,6 +84,18 @@ collections:
   name: Argo CD
   slug: open-argo-cd
 common:
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/argoproj/argo-cd/blob/master/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/argoproj/argo-cd/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/argoproj/argo-cd/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2629,7 +2641,7 @@ overview: 'Argo CD publishes 13 APIs on the [APIs.io](https://apis.io/) network,
   The Argo CD catalog on APIs.io includes 18 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Argo CD''s developer surface includes authentication, documentation, getting-started guide, engineering blog, release notes, changelog, CLI, and 10 more developer resources.'
+  Argo CD''s developer surface includes authentication, documentation, getting-started guide, engineering blog, release notes, changelog, CLI, and 13 more developer resources.'
 plans:
 - name: Argo Cd Plans Pricing
   plan_count: 3
@@ -2657,16 +2669,16 @@ rules:
     warn: 11
   slug: argo-cd-spectral-rules
 score:
-  band: developing
-  composite: 44.4
-  delta: 0.0
+  band: thin
+  composite: 37.7
+  delta: -6.7
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 19.6
+    commercial_clarity: 15.8
+    contract_quality: 18.8
     developer_ergonomics: 50.0
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 44.4
   provenance:
     agentic_access: derived
@@ -2675,9 +2687,9 @@ score:
       derived: 13
       marker_coverage: 100.0
       total: 13
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/screenshots/argo-cd-2026-06-20T172417.png
 security:
 - kind: authentication

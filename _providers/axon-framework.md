@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -71,6 +71,22 @@ collections:
   name: Axon Server REST API
   slug: open-axon-server-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/AxonFramework/AxonFramework/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/AxonFramework/AxonFramework/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/AxonIQ/AxonFramework/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/AxonFramework/AxonFramework/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -267,7 +283,7 @@ overview: 'Axon Framework publishes 9 APIs on the [APIs.io](https://apis.io/) ne
   The Axon Framework catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Axon Framework''s developer surface includes documentation, getting-started guide, engineering blog, pricing, and 9 more developer resources.'
+  Axon Framework''s developer surface includes documentation, getting-started guide, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Axon Framework Plans Pricing
   plan_count: 3
@@ -296,15 +312,15 @@ rules:
   slug: axon-framework-spectral-rules
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 46.7
+  delta: -1.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 58.9
+    commercial_clarity: 36.8
+    contract_quality: 56.7
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 47.4
+    operational_transparency: 39.5
   previous_composite: 48.2
   provenance:
     agentic_access: derived
@@ -313,14 +329,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 20.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/screenshots/axon-framework-2026-06-20T172816.png
 security:

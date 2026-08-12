@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-10'
+  score: 45.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -40,8 +40,12 @@ apis:
 - description: OBIE Read/Write Confirmation of Funds (CBPII) API allowing an authorised card-based payment instrument issuer to confirm the availability of funds on a customer account. FAPI-secured (OAuth2/OIDC, mTL
   name: Santander UK Confirmation of Funds API
   slug: santander-uk-confirmation-of-funds-api
-artifact_total: 8
+artifact_total: 9
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/santander-uk-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -127,6 +131,10 @@ description: Santander UK plc is a major British retail and commercial bank and 
   with FAPI-grade OAuth2/OIDC, mutual-TLS client authentication, and PSD2 strong customer authentication.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: santander-uk-mcp.yml
+  slug: santander-uk-mcpyml
 modified: '2026-07-23'
 name: Santander UK
 nav: Providers
@@ -134,7 +142,7 @@ network: true
 overview: 'Santander UK publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Open Data API, Account & Transaction Information API, Payment Initiation API, and 1 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
 
 
-  Santander UK''s developer surface includes authentication, documentation, sandbox, and 17 more developer resources.'
+  Santander UK''s developer surface includes authentication, documentation, sandbox, and 18 more developer resources.'
 random_paper: 69
 scopes:
 - name: Santander Uk Scopes
@@ -143,13 +151,13 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 41.8
-  delta: 0.0
+  composite: 36.7
+  delta: -5.1
   facets:
     commercial_clarity: 10.5
-    contract_quality: 55.0
-    developer_ergonomics: 36.4
-    discoverability: 92.6
+    contract_quality: 53.0
+    developer_ergonomics: 38.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
   previous_composite: 41.8
@@ -168,10 +176,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 75.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+    score: 48.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 security:
 - kind: authentication
   name: Santander Uk Authentication

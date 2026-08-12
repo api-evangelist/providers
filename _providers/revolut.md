@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 74.3
-  scored_at: '2026-08-10'
+  score: 70.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 1
@@ -182,6 +182,10 @@ asyncapis:
   name: Revolut Webhooks
   slug: revolut-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/revolut-business-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -320,15 +324,15 @@ overview: 'Revolut publishes 46 APIs on the [APIs.io](https://apis.io/) network,
   The Revolut catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Revolut''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, and 24 more developer resources.'
+  Revolut''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, and 25 more developer resources.'
 random_paper: 89
 score:
   band: developing
-  composite: 51.1
-  delta: 0.0
+  composite: 48.6
+  delta: -2.5
   facets:
     commercial_clarity: 7.9
-    contract_quality: 72.3
+    contract_quality: 73.4
     developer_ergonomics: 67.4
     discoverability: 74.1
     governance: 11.5
@@ -347,11 +351,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 68.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Payments
+    regime_id: payments
+    score: 50.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

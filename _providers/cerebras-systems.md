@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -258,14 +258,14 @@ rate_limits:
   name: Cerebras Systems Rate Limits
   slug: cerebras-systems-rate-limits
 score:
-  band: exemplar
-  composite: 66.0
-  delta: 0.0
+  band: strong
+  composite: 64.3
+  delta: -1.7
   facets:
     commercial_clarity: 92.1
-    contract_quality: 58.6
+    contract_quality: 56.4
     developer_ergonomics: 75.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 55.3
   previous_composite: 66.0
@@ -279,8 +279,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/screenshots/cerebras-systems-2026-07-25T204949.png
 security:

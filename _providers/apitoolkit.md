@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -75,6 +75,22 @@ collections:
   name: Monoscope Platform API
   slug: open-monoscope-platform
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/monoscope-tech/monoscope/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/monoscope-tech/monoscope/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/monoscope-tech/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/monoscope-tech/monoscope/blob/master/CONTRIBUTING.md
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -342,7 +358,7 @@ overview: 'APIToolkit (Monoscope) publishes 3 APIs on the [APIs.io](https://apis
   The APIToolkit (Monoscope) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  APIToolkit (Monoscope)''s developer surface includes authentication, documentation, getting-started guide, API reference, pricing, engineering blog, YouTube channel, and 16 more developer resources.'
+  APIToolkit (Monoscope)''s developer surface includes authentication, documentation, getting-started guide, API reference, pricing, engineering blog, YouTube channel, and 20 more developer resources.'
 plans:
 - name: Apitoolkit Plans Pricing
   plan_count: 4
@@ -370,16 +386,16 @@ rules:
     warn: 3
   slug: monoscope-platform-rules
 score:
-  band: strong
-  composite: 58.1
-  delta: 0.0
+  band: developing
+  composite: 51.7
+  delta: -6.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 71.3
+    commercial_clarity: 26.3
+    contract_quality: 68.7
     developer_ergonomics: 50.0
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 44.7
   previous_composite: 58.1
   provenance:
     agentic_access: derived
@@ -388,9 +404,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/screenshots/apitoolkit-2026-06-20T172258.png
 security:
 - kind: authentication

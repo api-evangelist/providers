@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -92,6 +92,10 @@ apis:
   slug: pixelfed-timelines-api
 artifact_total: 25
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/pixelfed/pixelfed/blob/dev/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -131,7 +135,7 @@ overview: 'Pixelfed publishes 17 APIs on the [APIs.io](https://apis.io/) network
   The Pixelfed catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Pixelfed''s developer surface includes authentication and 3 more developer resources.'
+  Pixelfed''s developer surface includes authentication and 4 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
@@ -148,11 +152,11 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 37.0
+  delta: -0.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 63.9
+    contract_quality: 61.5
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 0.0
@@ -165,8 +169,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pixelfed/refs/heads/main/screenshots/pixelfed-2026-06-20T191736.png
 security:

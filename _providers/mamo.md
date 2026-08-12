@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-10'
+  score: 40.8
+  scored_at: '2026-08-11'
 api_count: 12
 apis:
 - description: The Business Details API from Mamo — 2 operation(s) for business details.
@@ -67,7 +67,7 @@ apis:
 - description: The Webhooks API from Mamo — 2 operation(s) for webhooks.
   name: Mamo Webhooks API
   slug: mamo-webhooks-api
-artifact_total: 29
+artifact_total: 30
 asyncapis:
 - description: Webhook event surface for the Mamo Business API. Merchants register a webhook URL via POST /webhooks with a set of enabled_events; Mamo POSTs a JSON event payload to that URL when the corresponding ev
   name: Mamo Business Webhooks
@@ -110,6 +110,14 @@ collections:
   name: Mamo Business Business Details Webhooks API
   slug: postman-mamo-webhooks-api
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/mamo-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mamo-openapi-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -226,6 +234,10 @@ created: '2026-07-17'
 description: Mamo is a UAE-based fintech platform (Mamo Pay / Mamo Business) offering integrated payment solutions for businesses across the Gulf. Its products include hosted payment links and checkout, subscriptions and recurring billing, merchant-initiated charges with saved cards, refunds/captures/holds, invoicing, global payouts and disbursements to recipients, virtual and physical corporate cards with expense management, and partner cards for instant payouts. The Mamo Business API is a REST/JSON API hosted on readme.io that lets merchants automate payment link generation, charges, subscriptions, disbursements, recipients, card transactions, expenses, and webhooks. The platform serves 4,000+ businesses and has processed over AED 12 billion in total payment volume.
 image: https://cdn.prod.website-files.com/62662ec945767b19355b5c00/695f9da901d5bfde3a81193b_Website%20thumbnail2.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: mamo-mcp.yml
+  slug: mamo-mcpyml
 modified: '2026-07-20'
 name: Mamo
 nav: Providers
@@ -236,16 +248,16 @@ overview: 'Mamo publishes 12 APIs on the [APIs.io](https://apis.io/) network, in
   The Mamo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Mamo''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 21 more developer resources.'
+  Mamo''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 23 more developer resources.'
 random_paper: 78
 score:
   band: strong
-  composite: 61.7
-  delta: 0.0
+  composite: 59.6
+  delta: -2.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 75.5
-    developer_ergonomics: 64.7
+    contract_quality: 72.6
+    developer_ergonomics: 66.8
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 47.4
@@ -264,9 +276,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 67.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 54.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/screenshots/mamo-2026-07-25T230010.png
 security:

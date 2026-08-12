@@ -27,10 +27,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/ReviewStage/stage-cli/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -90,7 +94,7 @@ network: true
 overview: 'Stage is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Code Review, Developer Tools, CLI, and AI Coding Agents.
 
 
-  Stage''s developer surface includes documentation, engineering blog, support, code examples, CLI, and 7 more developer resources.'
+  Stage''s developer surface includes documentation, engineering blog, support, code examples, CLI, and 8 more developer resources.'
 random_paper: 68
 score:
   band: minimal
@@ -106,8 +110,8 @@ score:
   previous_composite: 11.3
   provenance:
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

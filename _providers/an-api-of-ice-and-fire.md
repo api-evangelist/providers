@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,6 +55,10 @@ collections:
   name: An API of Ice And Fire
   slug: open-an-api-of-ice-and-fire
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/joakimskoog/AnApiOfIceAndFire/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -103,10 +107,6 @@ common:
   title: ''
   type: SpectralRules
   url: rules/an-api-of-ice-and-fire-spectral-rules.yml
-- group: design
-  title: ''
-  type: Vocabulary
-  url: vocabulary/an-api-of-ice-and-fire-vocabulary.yml
 created: '2026-05-28'
 description: An API of Ice And Fire is the world's greatest source for quantified and structured data from the universe of A Song of Ice and Fire (and the HBO series Game of Thrones). The open, read-only REST API exposes Books, Characters, and Houses as hypermedia resources with HAL-style URL references, RFC 5988 Link-header pagination, conditional caching, and version selection via custom media types. It is free, unauthenticated, and rate-limited at 20,000 requests per IP per day.
 graphqls:
@@ -138,14 +138,14 @@ rules:
   slug: an-api-of-ice-and-fire-spectral-rules
 score:
   band: emerging
-  composite: 20.1
-  delta: 0.0
+  composite: 17.6
+  delta: -2.5
   facets:
     commercial_clarity: 0.0
-    contract_quality: 15.1
+    contract_quality: 14.6
     developer_ergonomics: 8.7
     discoverability: 81.5
-    governance: 47.9
+    governance: 37.5
     operational_transparency: 5.3
   previous_composite: 20.1
   provenance:
@@ -160,9 +160,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 20.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 11.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/an-api-of-ice-and-fire/refs/heads/main/screenshots/an-api-of-ice-and-fire-2026-06-20T171942.png
 security:

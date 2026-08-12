@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-08-10'
+  score: 39.4
+  scored_at: '2026-08-11'
 api_count: 12
 apis:
 - description: Configurable cancel flow with retention offers
@@ -67,8 +67,16 @@ apis:
 - description: Unified offer + subscription-state resolver (SDK 1.2+)
   name: ZeroSettle User Offer API
   slug: zerosettle-user-offer-api
-artifact_total: 14
+artifact_total: 15
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/zerosettle-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zerosettle-openapi-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -173,6 +181,10 @@ created: '2026-07-17'
 description: ZeroSettle is a Y Combinator-backed subscription revenue platform that lets iOS, Android, Flutter, and React Native app developers offer direct web billing as an alternative to App Store and Google Play in-app purchase — the pitch is "keep 85% of your revenue, not 70%." As Merchant of Record (on Stripe Connect, or BYOS), it handles web checkout, entitlements, subscription lifecycle, StoreKit transaction syncing, retention cancel flows, upgrade/migration offers, and compliance external-purchase reporting. The ZeroSettle IAP API (REST/JSON, X-ZeroSettle-Key auth) powers all of its client SDKs, with a free tier plus a $29/month Pro plan.
 image: https://zerosettle.io/images/favicon/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: zerosettle-mcp.yml
+  slug: zerosettle-mcpyml
 modified: '2026-07-21'
 name: ZeroSettle
 nav: Providers
@@ -180,17 +192,17 @@ network: true
 overview: 'ZeroSettle publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Cancel Flow API, Checkout API, Entitlements API, and 9 more. Tagged areas include Company, Payments, In-App Purchase, Subscriptions, and Merchant of Record.
 
 
-  ZeroSettle''s developer surface includes authentication, changelog, sandbox, documentation, API reference, quickstart, signup flow, and 18 more developer resources.'
+  ZeroSettle''s developer surface includes authentication, changelog, sandbox, documentation, API reference, quickstart, signup flow, and 20 more developer resources.'
 random_paper: 61
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 49.4
+  delta: -1.1
   facets:
     commercial_clarity: 44.7
-    contract_quality: 64.9
-    developer_ergonomics: 64.7
-    discoverability: 92.6
+    contract_quality: 62.5
+    developer_ergonomics: 66.8
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 50.5
@@ -209,8 +221,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

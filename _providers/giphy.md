@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -111,6 +111,10 @@ collections:
   name: GIPHY API
   slug: open-giphy
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Giphy/GiphyAPI/issues
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -364,7 +368,7 @@ overview: 'Giphy publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
   The Giphy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Giphy''s developer surface includes authentication, documentation, developer console, signup flow, support, engineering blog, tooling, and 22 more developer resources.'
+  Giphy''s developer surface includes authentication, documentation, developer console, signup flow, support, engineering blog, tooling, and 23 more developer resources.'
 plans:
 - name: Giphy Plans Pricing
   plan_count: 3
@@ -393,11 +397,11 @@ rules:
   slug: giphy-rules
 score:
   band: strong
-  composite: 59.5
-  delta: 0.0
+  composite: 60.4
+  delta: 0.9
   facets:
     commercial_clarity: 81.6
-    contract_quality: 76.5
+    contract_quality: 73.7
     developer_ergonomics: 45.7
     discoverability: 75.9
     governance: 68.8
@@ -410,14 +414,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 50.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/screenshots/giphy-2026-06-20T181827.png
 security:

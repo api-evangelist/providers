@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 2
@@ -140,6 +140,10 @@ apis:
   slug: stellar-wallets-api
 artifact_total: 215
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/stellar/go/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -751,7 +755,7 @@ overview: 'Stellar publishes 32 APIs on the [APIs.io](https://apis.io/) network,
   The Stellar catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Stellar''s developer surface includes authentication, documentation, engineering blog, and 13 more developer resources.'
+  Stellar''s developer surface includes authentication, documentation, engineering blog, and 14 more developer resources.'
 plans:
 - name: Stellar Plans Pricing
   plan_count: 3
@@ -772,12 +776,12 @@ rules:
   slug: stellar-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 45.9
+  delta: 0.2
   facets:
     commercial_clarity: 39.5
-    contract_quality: 67.2
-    developer_ergonomics: 28.3
+    contract_quality: 64.6
+    developer_ergonomics: 32.6
     discoverability: 50.0
     governance: 68.8
     operational_transparency: 42.1
@@ -795,8 +799,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stellar/refs/heads/main/screenshots/stellar-2026-06-20T194539.png
 security:

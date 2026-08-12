@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: The NHS England API platform hosts a catalogue of national APIs for health and care, including FHIR and REST APIs covering patient demographics, prescriptions, appointments, records, screening, and cl
@@ -157,16 +157,16 @@ rate_limits:
   name: Nhs England Digital Rate Limits
   slug: nhs-england-digital-rate-limits
 score:
-  band: thin
-  composite: 30.9
-  delta: 0.0
+  band: emerging
+  composite: 24.2
+  delta: -6.7
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 32.6
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 30.9
   regulatory:
     applies: true
@@ -174,9 +174,9 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nhs-england-digital/refs/heads/main/screenshots/nhs-england-digital-2026-08-07T185240.png
 security:
 - kind: domain-security

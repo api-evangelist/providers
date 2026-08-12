@@ -21,25 +21,29 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-10'
+  score: 41.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Programmatic access to Verbit''s transcription and captioning platform: live booking / real-time captioning, post-production transcription jobs, caption control, search, and AI insights.'
   name: Verbit Platform API
   slug: verbit-platform-api
-artifact_total: 5
+artifact_total: 6
 asyncapis:
 - description: ''
   name: Verbit Webhooks
   slug: verbit-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/verbit-mcp.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -168,6 +172,10 @@ created: '2026-07-17'
 description: Verbit is an AI-based transcription and captioning company whose platform pairs a state-of-the-art automatic speech recognition (ASR) engine with professional human review to deliver accurate transcripts and captions for legal, courtroom, media & entertainment, higher education, corporate, and government use cases. Verbit exposes a developer platform (Verbit Platform API v3) covering live booking and real-time captioning over WebSocket, post-production transcription jobs, a Caption Control API for managing live sessions, a Search API for indexing caption/transcript assets, and an Insights (Gen V) API that generates AI summaries, keywords, quizzes, and chapters. Authentication uses a short-lived JWT bearer token minted from a customer API key. Backed by HV Capital and Sapphire Ventures.
 image: https://verbit.ai/wp-content/themes/verbit/images/logo-final2.svg
 layout: provider
+mcp_servers:
+- description: ''
+  name: verbit-mcp.yml
+  slug: verbit-mcpyml
 modified: '2026-07-21'
 name: VerbIT
 nav: Providers
@@ -178,25 +186,25 @@ overview: 'VerbIT publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
   The VerbIT catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  VerbIT''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, pricing, and 24 more developer resources.'
+  VerbIT''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, pricing, and 25 more developer resources.'
 random_paper: 72
 score:
   band: developing
-  composite: 55.1
-  delta: 0.0
+  composite: 54.4
+  delta: -0.7
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
-    developer_ergonomics: 65.2
-    discoverability: 87.0
+    developer_ergonomics: 67.4
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 52.6
   previous_composite: 55.1
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 52.0
-  scored_at: '2026-08-10'
+  score: 48.4
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Installment, interest and service-fee breakdown.
@@ -52,6 +52,10 @@ asyncapis:
   name: Kredivo Checkout Webhooks
   slug: kredivo-checkout-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kredivo-checkout-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -202,17 +206,17 @@ overview: 'Kredivo publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
   The Kredivo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kredivo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 26 more developer resources.'
+  Kredivo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 27 more developer resources.'
 random_paper: 60
 score:
   band: developing
-  composite: 52.9
-  delta: 0.0
+  composite: 51.4
+  delta: -1.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 72.1
+    contract_quality: 69.4
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 34.2
   previous_composite: 52.9
@@ -231,8 +235,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/screenshots/kredivo-2026-07-25T224258.png
 security:

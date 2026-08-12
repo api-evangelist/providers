@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-10'
+  score: 39.0
+  scored_at: '2026-08-11'
 api_count: 10
 apis:
 - description: Client organization information
@@ -63,6 +63,10 @@ apis:
   slug: confident-cannabis-test-results-api
 artifact_total: 13
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/confident-cannabis-client-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -174,15 +178,15 @@ network: true
 overview: 'Confident Cannabis publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Client Info API, Clients API, Lab Info API, and 7 more. Tagged areas include Company, Cannabis, Laboratory, LIMS, and Testing.
 
 
-  Confident Cannabis'' developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, signup flow, and 17 more developer resources.'
+  Confident Cannabis'' developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, signup flow, and 18 more developer resources.'
 random_paper: 90
 score:
   band: developing
-  composite: 47.2
-  delta: 0.0
+  composite: 46.6
+  delta: -0.6
   facets:
     commercial_clarity: 52.6
-    contract_quality: 67.6
+    contract_quality: 65.1
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 20.8
@@ -203,8 +207,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/screenshots/confident-cannabis-2026-07-25T210247.png
 security:

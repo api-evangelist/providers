@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -1502,15 +1502,15 @@ rules:
   slug: amazon-iot-events-spectral-rules
 score:
   band: strong
-  composite: 65.1
-  delta: 0.0
+  composite: 56.6
+  delta: -8.5
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 72.1
+    commercial_clarity: 57.9
+    contract_quality: 69.4
     developer_ergonomics: 45.7
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 65.1
   provenance:
     agentic_access: derived
@@ -1519,9 +1519,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/screenshots/amazon-iot-events-2026-06-20T171710.png
 security:
 - kind: authentication

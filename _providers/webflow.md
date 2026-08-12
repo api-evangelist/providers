@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -559,16 +560,16 @@ scopes:
   slug: webflow-scopes
   summary_line: 29 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 71.9
-  delta: 0.0
+  band: strong
+  composite: 65.5
+  delta: -6.4
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 80.3
-    developer_ergonomics: 65.2
-    discoverability: 55.6
+    commercial_clarity: 57.9
+    contract_quality: 77.7
+    developer_ergonomics: 71.7
+    discoverability: 63.0
     governance: 58.3
-    operational_transparency: 76.3
+    operational_transparency: 52.6
   previous_composite: 71.9
   provenance:
     agentic_access: derived
@@ -577,9 +578,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/screenshots/webflow-2026-06-20T201330.png
 security:
 - kind: authentication

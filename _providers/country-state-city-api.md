@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,6 +54,26 @@ collections:
   name: Country State City API
   slug: open-country-state-city-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/dr5hn/countries-states-cities-database/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/dr5hn/countries-states-cities-database/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/dr5hn/countries-states-cities-database/blob/master/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/dr5hn/countries-states-cities-database/blob/master/.github/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/dr5hn/countries-states-cities-database/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -132,7 +152,7 @@ overview: 'Country State City API publishes 3 APIs on the [APIs.io](https://apis
   The Country State City API catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Country State City API''s developer surface includes authentication, documentation, developer console, pricing, and 11 more developer resources.'
+  Country State City API''s developer surface includes authentication, documentation, developer console, pricing, and 16 more developer resources.'
 plans:
 - name: Country State City Api Plans Pricing
   plan_count: 3
@@ -153,15 +173,15 @@ rules:
   slug: country-state-city-api-rules
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 44.2
+  delta: -5.6
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 60.5
+    commercial_clarity: 47.4
+    contract_quality: 58.2
     developer_ergonomics: 26.1
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 31.3
-    operational_transparency: 31.6
+    operational_transparency: 23.7
   previous_composite: 49.8
   provenance:
     agentic_access: derived
@@ -170,9 +190,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/screenshots/country-state-city-api-2026-06-20T175144.png
 security:
 - kind: authentication

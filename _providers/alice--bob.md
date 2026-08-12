@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.6
-  scored_at: '2026-08-10'
+  score: 36.3
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The Health API from Alice Bob — 1 operation(s) for health.
@@ -30,8 +30,16 @@ apis:
 - description: The Targets API from Alice Bob — 3 operation(s) for targets.
   name: Alice Bob Targets API
   slug: alice--bob-targets-api
-artifact_total: 6
+artifact_total: 7
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/alice--bob-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/alice--bob-felis-cloud-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -140,6 +148,10 @@ created: '2026-08-06'
 description: Alice & Bob is a quantum computing company headquartered in Paris with a presence in Boston, founded in 2020, building a universal fault-tolerant quantum computer on cat qubits — superconducting qubits that are intrinsically protected against bit-flip errors. Its commercial developer surface is Felis Cloud, a Quantum Computing as a Service (QCaaS) product that executes quantum circuits on Boson 4 cat-qubit QPUs hosted in Alice & Bob's own premises and on cloud-hosted physical and logical qubit emulators. Felis Cloud is reached through a public REST API (jobs, targets, availability and health) that accepts circuits in QIR format, and through the open-source qiskit-alice-bob-provider Qiskit provider that wraps it.
 image: https://avatars.githubusercontent.com/u/72556371?v=4
 layout: provider
+mcp_servers:
+- description: ''
+  name: alice--bob-mcp.yml
+  slug: alice-bob-mcpyml
 modified: '2026-08-06'
 name: Alice Bob
 nav: Providers
@@ -147,7 +159,7 @@ network: true
 overview: 'Alice Bob publishes 3 APIs on the [APIs.io](https://apis.io/) network: Health API, Jobs API, and Targets API. Tagged areas include Company, Quantum Computing, Quantum, Cloud Computing, and Emulation.
 
 
-  Alice Bob''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 19 more developer resources.'
+  Alice Bob''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 21 more developer resources.'
 plans:
 - name: Alice  Bob Plans
   plan_count: 3
@@ -155,22 +167,27 @@ plans:
 random_paper: 95
 score:
   band: developing
-  composite: 51.6
-  delta: 0.3
+  composite: 51.4
+  delta: -0.2
   facets:
     commercial_clarity: 55.3
-    contract_quality: 48.8
-    developer_ergonomics: 64.7
-    discoverability: 92.6
+    contract_quality: 50.7
+    developer_ergonomics: 66.8
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 51.3
+  previous_composite: 51.6
   provenance:
     conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alice--bob/refs/heads/main/screenshots/alice--bob-2026-08-07T161203.png
 security:

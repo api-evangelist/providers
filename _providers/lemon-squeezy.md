@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -260,15 +260,15 @@ rate_limits:
   slug: lemon-squeezy-rate-limits
 score:
   band: thin
-  composite: 41.5
-  delta: 0.0
+  composite: 35.8
+  delta: -5.7
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 50.0
+    commercial_clarity: 44.7
+    contract_quality: 48.1
     developer_ergonomics: 30.4
     discoverability: 46.3
     governance: 0.0
-    operational_transparency: 47.4
+    operational_transparency: 31.6
   previous_composite: 41.5
   provenance:
     agentic_access: derived
@@ -276,10 +276,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 31
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+      total: 39
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/refs/heads/main/screenshots/lemon-squeezy-2026-07-25T224849.png
 security:
 - kind: authentication

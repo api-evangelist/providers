@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 61.9
-  scored_at: '2026-08-10'
+  score: 58.3
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: The Accounts API from Brale — 4 operation(s) for accounts.
@@ -137,7 +137,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/brale-openapi-original.yml
+  url: openapi/_original/brale-openapi-original.yml
 - group: auth
   title: ''
   type: Authentication
@@ -261,11 +261,11 @@ scopes:
   summary_line: 20 scopes · clientCredentials
 score:
   band: strong
-  composite: 61.7
-  delta: 0.0
+  composite: 61.1
+  delta: -0.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 69.8
+    contract_quality: 67.2
     developer_ergonomics: 79.9
     discoverability: 92.6
     governance: 11.5
@@ -286,8 +286,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/screenshots/brale-2026-07-25T203713.png
 security:

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-10'
+  score: 24.3
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Kubernetes-style declarative control-plane API for managing Datum Cloud resources — projects, domains, DNS zones and record sets, gateways, HTTPProxies, HTTPRoutes, traffic protection policies (WAF), '
@@ -168,13 +168,13 @@ scopes:
   summary_line: 6 scopes
 score:
   band: thin
-  composite: 33.1
-  delta: 0.0
+  composite: 32.0
+  delta: -1.1
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
     developer_ergonomics: 73.9
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 26.3
   previous_composite: 33.1
@@ -182,8 +182,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datum/refs/heads/main/screenshots/datum-2026-07-25T211422.png
 security:

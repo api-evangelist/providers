@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 61.9
-  scored_at: '2026-08-10'
+  score: 58.3
+  scored_at: '2026-08-11'
 api_count: 75
 apis:
 - description: The AI Embed API from AppDirect — 2 operation(s) for ai embed.
@@ -262,6 +262,10 @@ asyncapis:
   name: Appdirect Webhooks
   slug: appdirect-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appdirect-companies-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -424,7 +428,7 @@ overview: 'AppDirect publishes 75 APIs on the [APIs.io](https://apis.io/) networ
   The AppDirect catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  AppDirect''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 29 more developer resources.'
+  AppDirect''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 30 more developer resources.'
 random_paper: 28
 scopes:
 - name: Appdirect Scopes
@@ -432,12 +436,12 @@ scopes:
   slug: appdirect-scopes
   summary_line: 15 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 56.2
-  delta: 0.0
+  band: developing
+  composite: 55.6
+  delta: -0.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 66.0
+    contract_quality: 63.6
     developer_ergonomics: 69.0
     discoverability: 74.1
     governance: 11.5
@@ -452,8 +456,8 @@ score:
       total: 75
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/screenshots/appdirect-2026-07-25T200730.png
 security:

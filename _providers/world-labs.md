@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.6
-  scored_at: '2026-08-10'
+  score: 42.8
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The credits API from World Labs — 1 operation(s) for credits.
@@ -37,8 +37,20 @@ apis:
 - description: The Marble API from World Labs — 8 operation(s) for marble.
   name: World Labs Marble API
   slug: world-labs-marble-api
-artifact_total: 5
+artifact_total: 6
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/world-labs-marble-developer-api.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/world-labs-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/world-labs-marble-overlay.yaml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -59,6 +71,10 @@ created: '2026-07-17'
 description: 'World Labs is a company surfaced as a portfolio company of sv-angel and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/world-labs.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: world-labs-mcp.yml
+  slug: world-labs-mcpyml
 modified: '2026-07-17'
 name: World Labs
 nav: Providers
@@ -66,17 +82,17 @@ network: true
 overview: 'World Labs publishes 2 APIs on the [APIs.io](https://apis.io/) network: credits API and Marble API. Tagged areas include Company and Ai.
 
 
-  World Labs'' developer surface includes authentication and 3 more developer resources.'
+  World Labs'' developer surface includes authentication and 6 more developer resources.'
 random_paper: 87
 score:
   band: emerging
-  composite: 24.7
-  delta: 0.0
+  composite: 24.8
+  delta: 0.1
   facets:
     commercial_clarity: 0.0
-    contract_quality: 61.0
-    developer_ergonomics: 10.9
-    discoverability: 59.3
+    contract_quality: 58.7
+    developer_ergonomics: 19.6
+    discoverability: 48.1
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 24.7
@@ -88,8 +104,8 @@ score:
       marker_coverage: 0.0
       total: 2
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

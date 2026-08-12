@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: 'Modeled capability area for managing the client (patient) roster - demographics, contacts, insurance, and portal enrollment. TherapyNotes surfaces this only in its web application; there is no public '
@@ -104,8 +104,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

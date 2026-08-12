@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-10'
+  score: 49.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 396
   human_in_the_loop: 4
@@ -409,6 +410,10 @@ apis:
   slug: altimate-ai-workload-api
 artifact_total: 128
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/altimate-ai-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -552,32 +557,32 @@ network: true
 overview: 'Altimate AI publishes 123 APIs on the [APIs.io](https://apis.io/) network, including ACCOUNT_COSTS API, ade-bench API, AGENTS API, and 120 more. Tagged areas include Company, Data, Data Engineering, Artificial Intelligence, and Agents.
 
 
-  Altimate AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+  Altimate AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
 random_paper: 52
 score:
   band: developing
-  composite: 52.3
-  delta: 2.1
+  composite: 51.9
+  delta: -0.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 53.8
+    contract_quality: 56.5
     developer_ergonomics: 75.5
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 50.2
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 65.9
       derived: 0
       marker_coverage: 0.0
       total: 123
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/screenshots/altimate-ai-2026-07-25T195830.png
 security:

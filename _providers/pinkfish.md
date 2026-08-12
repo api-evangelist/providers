@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 64.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,6 +47,10 @@ apis:
   slug: pinkfish-triggers-api
 artifact_total: 6
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pinkfish-triggers-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -157,17 +162,17 @@ network: true
 overview: 'Pinkfish publishes 2 APIs on the [APIs.io](https://apis.io/) network: Runs API and Triggers API. Tagged areas include Company, Artificial Intelligence, AI Agents, Agentic Workflows, and Automation.
 
 
-  Pinkfish''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, changelog, authentication, and 17 more developer resources.'
+  Pinkfish''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, changelog, authentication, and 18 more developer resources.'
 random_paper: 48
 score:
   band: developing
-  composite: 48.1
-  delta: 0.0
+  composite: 46.4
+  delta: -1.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 63.6
+    contract_quality: 61.2
     developer_ergonomics: 47.3
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 48.1
@@ -181,8 +186,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

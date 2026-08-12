@@ -23,14 +23,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 57.9
-  scored_at: '2026-08-10'
+  score: 57.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -61,12 +61,16 @@ apis:
 - description: The OpenID Connect authorisation server issuing the bearer tokens used by both the Kraken REST and GraphQL APIs. Its discovery document at https://auth.origin-kraken.energy/.well-known/openid-configur
   name: Origin Energy Kraken Authorization Server
   slug: origin-energy-kraken-auth-api
-artifact_total: 26
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Origin Energy Kraken External Events
   slug: origin-energy-kraken-external-events
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/origin-energy-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -254,6 +258,10 @@ integrations:
 - description: The Australian Energy Regulator hosts Origin's Consumer Data Standards plan reference data endpoints at cdr.energymadeeasy.gov.au/origin.
   name: AER Energy Made Easy
 layout: provider
+mcp_servers:
+- description: ''
+  name: origin-energy-mcp.yml
+  slug: origin-energy-mcpyml
 modified: '2026-07-27'
 name: Origin Energy
 nav: Providers
@@ -264,7 +272,7 @@ overview: 'Origin Energy publishes 4 APIs on the [APIs.io](https://apis.io/) net
   The Origin Energy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Origin Energy''s developer surface includes authentication, documentation, changelog, engineering blog, support, pricing, signup flow, and 34 more developer resources.'
+  Origin Energy''s developer surface includes authentication, documentation, changelog, engineering blog, support, pricing, signup flow, and 35 more developer resources.'
 random_paper: 67
 rate_limits:
 - limit_count: 6
@@ -277,12 +285,12 @@ scopes:
   summary_line: 113 scopes
 score:
   band: strong
-  composite: 60.9
-  delta: 0.0
+  composite: 60.8
+  delta: -0.1
   facets:
     commercial_clarity: 44.7
-    contract_quality: 65.6
-    developer_ergonomics: 53.8
+    contract_quality: 63.5
+    developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 94.7
@@ -303,8 +311,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/screenshots/origin-energy-2026-08-07T190934.png
 security:

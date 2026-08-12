@@ -11,12 +11,284 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.9.1
-last_updated: '2026-08-04'
+schema_version: 0.11.0
+last_updated: '2026-08-11'
 maintainer: kin@apievangelist.com
 
 # ---------------------------------------------------------------------------
 # CHANGELOG
+#   0.10.5 (2026-08-11) — SCORE THE VERSION THE PROVIDER PUBLISHED, AND COMPARE
+#       IT AS A NUMBER. roadmap#45, reported via a provider's own submission.
+#
+#       Two defects in two lines. `start_with?` is not a version comparison:
+#       refine-openapis upgrades harvested documents to OpenAPI 3.2.0, and
+#       "3.2.0" begins with neither "3.1" nor "3.0", so 6,861 specs across 339
+#       providers fell through both checks and scored zero — read as publishing
+#       no recognisable version at all. And the version being read was OURS: of
+#       those 339, **275 hold a 3.2 document only because we upgraded it** (154
+#       from 3.1, 121 from 3.0) and exactly THREE publish 3.2 themselves.
+#
+#       Crediting the refined document would reward our transformation; scoring
+#       it zero penalises them for it. Neither is a statement about the provider.
+#       The checks now read openapi/_original/ — written by refine before it
+#       transforms, carried by 7,016 providers — and test MEMBERSHIP of the set
+#       of versions published, because these are any-match checks and a provider
+#       can ship several at once. Stripe publishes 47 documents at 3.0 and one
+#       at 3.1 and now earns both, as it did before 3.2 existed.
+#
+#       `openapi_3_2` added at 5 points, the same as 3.1 rather than more:
+#       shipping the newest version is good practice, not a different kind of
+#       contract. A 3.3 will now ladder without another release.
+#   0.10.4 (2026-08-11) — THE WEAK TIER STOPS MATCHING WORD FRAGMENTS. A
+#       regression introduced by 0.10.0 and reported as roadmap#42: `tag_forms()`
+#       expands every tag into its words, and the WEAK tier matched against that
+#       word set. So a compound whose meaning lives in the qualifier matched on
+#       the head noun alone — `Message Broker`, `Microsoft Exchange`, `Ad
+#       Exchange`, `Freight Brokerage`, `Customs Brokerage`, `Trading Card` and
+#       Jagex's `Grand Exchange` all took a securities regime and were scored
+#       against MiFID II. 337 providers matched a weak securities tag on a
+#       fragment with no whole-tag match.
+#
+#       Phrase-only in the weak tier alone would have been the WRONG fix: it
+#       un-regulates Citadel Securities (`Electronic Trading`), Tradeweb, Trumid,
+#       Alpaca (`FX Trading`), and every `Broker-Dealer` and `Prime Brokerage`
+#       firm — and because the regulatory facet averages below the base, escaping
+#       it is a reward. That trades a visible error for a quieter, more generous
+#       one.
+#
+#       So both halves ship together: the securities-specific COMPOUNDS are
+#       promoted to the strong tier, and the weak tier now requires a whole-tag
+#       match. Fixes both directions.
+#
+#       The strong tier keeps word expansion — that is what makes `Credit Cards`
+#       match the payments regime's `cards`, which was the point of 0.10.0. The
+#       distinction is that a strong tag is specific enough to survive being
+#       split; a weak tag is a bare head noun and is not.
+#   0.10.3 (2026-08-11) — THE DERIVED TIER IS WIRED FOR PROVENANCE, AND IT IS
+#       BIGGER THAN THE SCAFFOLD TIER WAS. Found while working roadmap#35's
+#       remaining half: the instinct was to backfill `rules/`, `json-schema/`,
+#       `json-ld/` and `vocabulary/` for the thinner cohorts so all three match.
+#       That would have recreated the distortion 0.10.2 just removed, in a
+#       larger place.
+#
+#       GOVERNANCE rests 42 of its 48 points on artifacts API Evangelist writes
+#       — the Spectral ruleset alone is 33 — at weight 0.12, so ~10.5% of every
+#       composite. CONTRACT_QUALITY carries another 21 points of json-schema and
+#       json-ld derived from the provider's own spec by our tooling. None of it
+#       was provenance-graded, so all of it credited at 1.00.
+#
+#       Wired here, INERT until a stamping pass, exactly as plans/rate-limits
+#       shipped on 2026-08-10. `unknown` credits 1.00 and unmarked is what these
+#       artifacts are: of 5,785 rules files exactly ONE carries a `method:`, and
+#       of 120,553 json-schema files, ten.
+#
+#       The tell is unusually clean for rules: 4,516 of 5,785 name their own
+#       generator in the header — strengthen_jsonschema.py, strengthen_ruleset.py,
+#       strengthen_asyncapi.py. The remaining 1,269 are the same shape from an
+#       earlier generator that wrote no header.
+#
+#       DO NOT BACKFILL THE DERIVED TIER UNTIL THIS BITES. Deriving more of it
+#       first would widen the very gap roadmap#35 exists to close.
+#   0.10.2 (2026-08-11) — THE PREPARED PROVENANCE GRADING NOW BITES. No rubric
+#       edit: the `plans_present` / `plans_multiple` / `rate_limits_documented` /
+#       `rate_limits_rich` mapping added on 2026-08-10 was inert because every
+#       one of those artifacts was unmarked, and `unknown` credits 1.00. The DATA
+#       changed — 12,214 artifacts across 4,067 providers were stamped
+#       `method: generated`, on the evidence that they carry no `method:` AND a
+#       `created:` of 2026-05-04 or 2026-05-08, the two bulk sweep dates.
+#
+#       This is the fix for roadmap#35, and the direction is the point. Those
+#       four checks are ~10.4% of every composite, and coverage of them tracked
+#       which enrichment wave reached which roster — API Management 100%,
+#       US Payments 57%, US Banking 34% — so a report comparing those markets was
+#       partly comparing our own collection history. The fix was NOT to scaffold
+#       the thinner cohorts up to match. It was to stop calling our sweep the
+#       provider's evidence.
+#
+#       Measured, and the model predicted it exactly:
+#         API Management  54.5 -> 47.2   (it was 100% swept)
+#         US Payments     42.9 -> 40.7
+#         US Banking      27.6 -> 26.3
+#         cross-cohort spread 27.0 -> 20.9 points
+#
+#       CONSERVATIVE: ~9,300 unmarked artifacts created on other dates were left
+#       alone and still credit 1.00. `unknown` genuinely is unknown for those, and
+#       guessing would be the same error pointing the other way.
+#
+#       BANDS MUST BE RE-CUT BEFORE THIS PUBLISHES. 46 of 206 providers in the
+#       three scored cohorts cross a band boundary — Apidog and Azure API
+#       Management leave exemplar, Tyk leaves strong. The bands were calibrated
+#       against a catalog where these 24 points were credited in full. Run
+#       band_distribution.rb on a full snapshot and re-cut before --write.
+#   0.10.1 (2026-08-11) — THE SEVENTH FACET, AND WHO IT IS FOR. Reported by a
+#       provider, not found by us: rtcStats could not reconcile its own facet
+#       bars (summing 61.8) against its composite (57.7), and noticed that
+#       /rating/ was headed "Seven Facets" over a table of six
+#       (api-evangelist/rtcstats#1). Both were the same omission with two
+#       consequences.
+#
+#       (1) THE CONDITIONAL FACET WAS SCORED BUT NEVER PUBLISHED. `regulatory`
+#           was added in 0.5 and never added to `facet_order` in rating.md or in
+#           the provider layout — a hardcoded presentation list whose own comment
+#           warns "a facet added to the rubric but not listed here will not
+#           render". So 18 checks and 108 points of rubric were published
+#           NOWHERE, and every regulated provider's page showed six bars that
+#           could not add up to its own headline. The gap is exactly
+#           0.15 x (base - regulatory) and there was nothing on any page from
+#           which a reader could derive that. Fixed in the templates, not here:
+#           the provider panel now renders the seventh row and damps the other
+#           six to 85%, /rating/ publishes the facet, its checks, the composite
+#           formula, and the applicability map. NO MATH CHANGED.
+#
+#           The lesson is not "update the list". A rubric that scores what it
+#           does not publish is not an open rubric, and the only reason we know
+#           is that a provider did the arithmetic by hand and asked.
+#
+#       (2) THE TELECOM REGIME OVER-MATCHED ON PRODUCT WORDS. rtcStats — a WebRTC
+#           observability tool — was scored against the FCC's CPNI rules, Ofcom,
+#           ACMA and the ePrivacy Directive on the strength of one tag: `voice`.
+#           `voice` and `messaging` are removed; `sms` stays.
+#
+#           MEASURED over all 26,598 catalog apis.yml (17,792 carry top-level
+#           tags; the rest cannot match any regime):
+#             telecom matches   639 -> 303   (336 leave)
+#             of those 336:     315 become unregulated, 21 move to another regime
+#           Every genuine carrier and CPaaS keeps the regime on a strong tag of
+#           its own — Twilio, Vonage, Bandwidth, Sinch and Infobip all verified
+#           unchanged. What leaves is Apache ActiveMQ, Apache RocketMQ, AMQP,
+#           Apache ServiceMix, Beeper, Bloomberg Instant Messaging and rtcStats.
+#           Of the 21 that move, 14 land better than they started: Telegram and
+#           WeChat to payments, CareMessage / Weave / Nuance / Voquill to health.
+#
+#       WHY A FALSE POSITIVE IS THE EXPENSIVE DIRECTION. Because the facet
+#       averages below the base, being wrongly IN a regime is a penalty:
+#       rtcStats is carrying 4.1 composite points for failing to publish a
+#       telecom posture it has no obligation to hold, 8.3 points short of
+#       Exemplar. Escaping the facet is a reward (0.10.0 note 1). Both
+#       directions are errors; only one of them writes to a company's public
+#       page that it is supervised by four national regulators.
+#
+#       KNOWN, NOT FIXED HERE — `broker` AS A WORD FRAGMENT. Removing telecom
+#       unmasks a weak-tier match underneath it: `Message Broker` and `Brokers`
+#       split to the word `broker`, which is a securities_market_data weak tag,
+#       so Apache ActiveMQ, HiveMQ and `events` move from CPNI to MiFID II
+#       rather than to nothing. Three providers, and a symptom of a wider
+#       problem — the same fragment rule currently puts `Microsoft Exchange`,
+#       Jagex's `Grand Exchange`, `Cloud Access Security Broker`, `Freight
+#       Brokerage` and `Ad Exchange` under MiFID II. The obvious fix (require a
+#       whole-tag match in the weak tier) is WRONG: it would also un-regulate
+#       Citadel Securities, three prime brokerages and every `Broker-Dealer`,
+#       which is the more expensive direction. Filed rather than guessed.
+#
+#       STILL NOT RE-SCORED. Ships inert until a --write pass runs alongside the
+#       apis.io index rebuild. 315 providers gain when it does.
+#   0.10.0 (2026-08-11) — THE COHORT RELEASE. Everything here was found by running
+#       three published Market Report cohorts per-provider rather than in
+#       aggregate — API Management (36), US Payments (68), US Banking (113).
+#
+#       (1) REGIME MATCHING IS NORMALISED (roadmap#34). Regime tags were compared
+#           as exact lowercased strings, so `Credit Cards` never matched the
+#           payments regime's `cards` and Discover — a card network — was scored
+#           with NO regulatory facet. 11 of 68 payments providers matched no
+#           regime; `wells-fargo` and `state-street` matched none in a banking
+#           cohort. Because the facet averages BELOW the base, escaping it was a
+#           reward, so thin tagging beat honest tagging.
+#
+#           Three passes were needed and the two failures are worth recording:
+#           normalising case/separator/plural alone left `Credit Cards` unmatched,
+#           so tags are also expanded to their words. That over-matched twice —
+#           Bank of America moved to `payments` because the regime lists BOTH
+#           `payments` and `payment`, which normalise to one string and
+#           double-counted a single tag (fixed by deduping the regime list); and
+#           Alloy's `Credit Underwriting` matched `insurance` on the fragment
+#           `underwriting` at higher specificity (fixed by ranking WHOLE-tag
+#           matches above word fragments). Credit underwriting is not insurance
+#           underwriting.
+#
+#           Net across 206 providers: 6 gained a regime they should always have
+#           had, 0 lost one, 7 swapped banking->payments defensibly. Composite
+#           mean +0.51, range -3.70..+4.10.
+#
+#       (2) `thresholds:` BLOCK (roadmap#30). Count-based checks are now declared
+#           as counts, so no consumer treats `sdk_count_3` as closable by one
+#           pointer. No math change.
+#
+#       (3) llms.txt EVIDENCE, NOT POINTERS (roadmap#27) — the 0.9.4 blocker is
+#           cleared by collection rather than by a rubric change. 50 llms.txt
+#           artifacts harvested across the three cohorts, each RE-VERIFIED at
+#           harvest rather than trusted from the probe. The check already prefers
+#           the artifact, so a wrong pointer can no longer earn anything.
+#
+#       (4) EMIT SCHEMA-LEGAL POINTER SPELLINGS (roadmap#12). Not a rubric change
+#           — a wiring change plus the aliases that make it score-neutral. 49 of
+#           468 pointers written across the three cohorts failed APIs.json 0.21
+#           validation; 29 had a legal synonym the rubric already reads
+#           (`Signup`, `DeprecationPolicy`, `AgentSkills`, `PostmanCollection`)
+#           and were rewritten. `TrustCenter`, `OpenIDConnect` and `Roadmap` have
+#           no legal alternative and need the 0.21 pattern extended — a
+#           deliberate decision, because that schema publishes to SchemaStore.
+#
+#       STILL NOT RE-SCORED. Everything above ships inert until a --write pass
+#       runs alongside the apis.io index rebuild.
+#   0.9.4 (2026-08-11) — WHOSE GAP IS IT. Two changes, one question. Writing the
+#       first Area Market Report cohort per-provider rather than in aggregate
+#       exposed that the rubric could say a check was unearned and could not say
+#       whose work would earn it. For a score that measures a provider AS IT
+#       EXISTS IN OUR INDEX, that is the difference between a market finding and
+#       a collection backlog reported as one.
+#
+#       (1) THE `attribution:` BLOCK. Every one of the 120 checks is now
+#           classified catalog / index / harvest / spec / frontier — see the
+#           block below for what each means and the rule it enforces. Nothing in
+#           the math changed; `score.rb --explain` now carries an `actor` on
+#           every check row so a cohort pass splits into two work queues without
+#           a human sorting it by hand.
+#
+#       (2) FOUR ALIAS SILENT ZEROS. Inventorying the `common[].type` vocabulary
+#           the enrichment pipeline WRITES against the vocabulary the checks
+#           READ turned up four label mismatches scoring as absences.
+#           `LlmsText` is the expensive one: 15 of the 36 API management
+#           providers carry the pointer, `llms_txt_published` credited 2, and
+#           live probes confirmed 21 of 36 serve a real llms.txt. Also `Signup`
+#           (4 providers), `AgentSkills`, and the community channels. The MCP
+#           near-aliases were examined and deliberately REJECTED — see the note
+#           in the alias block.
+#
+#       MEASURED, and this is why the release exists: across the 36-provider API
+#       management cohort the Pearson correlation between the number of pointers
+#       API Evangelist recorded in a provider's apis.yml and that provider's
+#       composite score is r = 0.77. Bottom pointer-quartile mean composite
+#       37.7; top quartile 71.8. On the same cohort, 39.0 composite points per
+#       provider sit in catalog/index/harvest-class gaps against 7.1 in
+#       spec/frontier. Agent Readiness inverts cleanly — 55.2 of its recoverable
+#       points per provider are spec + frontier — which is the quantitative form
+#       of "the floor is a shared achievement, the frontier is entirely theirs".
+#
+#       OPEN DECISION FOR KIN BEFORE THE RE-SCORE — the `LlmsTxt` alias reopens
+#       a known hole. `llms_txt_published` credits a DECLARED pointer when we
+#       have never probed the provider (the 0.9.2 well-known precedent: do not
+#       zero a provider for our own missing artifact). Making `LlmsText`
+#       readable therefore credits pointers that are wrong. Measured on this
+#       cohort: of 15 declared pointers, 11 serve a real llms.txt, 2 return 200
+#       with `text/html` (Apigee, TIBCO — soft 404s), 1 is a hard 404 (APIwiz)
+#       and 1 points at Slack's own llms.txt rather than the project's
+#       (Envoy Gateway). Four false credits out of 15, and the alias hands all
+#       four the points. Two ways to close it, and the choice is a policy call:
+#         (a) harvest llms/ artifacts for the cohort FIRST — the probe overrides
+#             the pointer either way, and this is the collection work the
+#             attribution block says is ours. Preferred.
+#         (b) drop the unprobed-pointer fallback for this check, artifact-or-
+#             nothing. Honest, but it re-zeroes every unprobed provider
+#             catalog-wide and that swing has not been measured.
+#       Until one of them lands, do not cite an llms.txt number from a scored
+#       run — cite the probe.
+#
+#       NOT RE-SCORED. The alias additions move scores; the attribution block
+#       does not. Both ship inert until a --write pass is run alongside the
+#       apis.io index rebuild. Measured movement on the API management cohort
+#       from the aliases alone: 15 of 36 providers moved, cohort mean 53.9 ->
+#       54.3, two band crossings (Azure API Management 67.8 -> 70.4 into
+#       exemplar, Kong 59.6 -> 60.3 into strong).
 #   0.9.1 (2026-08-04) — SWAGGER 2.0 IS A CONTRACT. A reader fix, not a rubric
 #       change: no weight, point value or band moved. The scorer classified a
 #       spec by looking for `openapi:`, and every SPEC_EVAL check read the 3.x
@@ -180,6 +452,260 @@ aliases:
     - Knowledge Base
     - KnowledgeCenter
     - Knowledge Center
+  # 0.9.4 — four silent zeros found by inventorying the common[].type vocabulary
+  # the enrichment pipeline actually writes against the vocabulary the checks
+  # actually read. Each of these was a scored zero caused by a label, not by an
+  # absence. `LlmsText` is the expensive one: 15 of 36 API management providers
+  # carry it and `llms_txt_published` credited 2.
+  SignUp:
+    - Signup
+    - Sign Up
+    - Register
+    - Registration
+  LLMsTxt:
+    - LlmsText
+    - LLMsText
+    - LlmsTxt
+  AgentSkill:
+    - AgentSkills
+  Community:
+    - Forums
+    - Forum
+    - Discord
+    - Discourse
+    - Slack
+  # DELIBERATELY NOT ALIASED, and this is a rubric decision rather than an
+  # oversight: `ModelContextProtocol`, `MCPServers`, `MCPClient`,
+  # `MCPServerRegistry`, `ProxyExistingMCP`, `ExportRESTToMCP` and
+  # `MCPServerOverview` all appear in the catalog and all point at a vendor page
+  # about MCP as a product for the vendor's customers. None of them is a server
+  # the vendor runs for its own API. Folding them into `MCPServer` would credit
+  # the sales page and erase the sell-versus-publish finding the Area Market
+  # Report series is built on.
+
+# ---------------------------------------------------------------------------
+# thresholds (schema 0.10.0+) — WHICH CHECKS ARE COUNTS, NOT BITS.
+#
+# These checks pass on a COUNT crossing a bar, not on the presence of one thing.
+# Nothing in the rubric said so, so every consumer of `--explain` treated them
+# as "close the evidence gap and earn the points". For a count check that is
+# false: a probe finds an SDK page, wiring one `SDKs` pointer earns
+# `sdk_count_1` and leaves `sdk_count_3` exactly where it was.
+#
+# Measured on the API management cohort: three providers had a verified SDK page
+# and the naive remediation math credited both checks — 12.2 composite points
+# across the cohort that no amount of wiring can deliver.
+#
+# This matters most in the Personalized Checklist, where the points column IS
+# the pitch. A checklist that promises points a provider cannot earn by doing
+# what it says is worse than one that under-promises. roadmap#30.
+# ---------------------------------------------------------------------------
+thresholds:
+  multiple_apis: 3
+  tags_present: 5
+  description_substantive: 200        # characters, not items
+  sdk_count_1: 1
+  sdk_count_3: 3
+  rules_present: 1
+  rules_substantial: 20
+  plans_present: 1
+  plans_multiple: 3
+  rate_limits_documented: 1
+  rate_limits_rich: 3
+  json_schema_per_resource: 2
+  json_ld_class_depth: 5
+  json_ld_property_depth: 10
+  graphql_type_depth: 20
+  fhir_resource_coverage: 20
+
+
+# ---------------------------------------------------------------------------
+# attribution (schema 0.9.4+) — WHO CAN MOVE THIS CHECK.
+#
+# The provenance block above answers "who wrote the artifact we are reading".
+# This block answers a different question, and a Market Report cannot be
+# written honestly without it: if a provider does NOT earn this check, whose
+# work closes the gap?
+#
+# The Kin Score measures a provider AS IT EXISTS IN THE API EVANGELIST INDEX,
+# and API Evangelist is a party to that index. That is deliberate (see the
+# provenance notes above) — but it means an unearned check has two possible
+# authors, and a report that assigns every unearned check to the vendor is
+# reporting our own collection backlog as a market finding.
+#
+# Measured on the API Management cohort (36 providers, 2026-08-11): the
+# correlation between the number of pointers WE recorded in a provider's
+# apis.yml and its composite score is r = 0.77. The bottom pointer-quartile
+# averages 37.7 and the top averages 71.8. Some of that is real — a better
+# provider has more to point at — but it is not all real, and the rubric could
+# not tell the difference because nothing in it recorded which side of the
+# index a check reads from.
+#
+#   catalog   API Evangelist can satisfy it alone.        -> our backlog
+#   index     their surface, our apis.yml pointer.        -> PROBE, then assign
+#   harvest   their contract, our tree.                   -> our harvest queue
+#   spec      quality inside a contract we already hold.  -> theirs, mostly
+#   frontier  only the provider can produce it.           -> theirs, entirely
+#
+# The `index` class is the one that matters editorially. An index-class zero is
+# NOT a finding until a live probe says the provider does not publish it. The
+# first cohort probed this way turned "llms.txt: 2 of 36" into "21 of 36 serve
+# a real llms.txt; the rubric was reading a type alias it did not have".
+#
+# Only `frontier` and `spec` zeros are safe to report as market findings
+# without a probe. That is the operating rule this block exists to enforce.
+# ---------------------------------------------------------------------------
+attribution:
+  # CATALOG — API Evangelist can satisfy this alone. No provider action is
+  # required, and an unearned check here is our backlog, not their gap.
+  apis_yml_present: catalog
+  balanced_severities: catalog
+  base_url_per_api: catalog
+  created_modified_dates: catalog
+  description_substantive: catalog
+  finops_mapped: catalog
+  human_url_per_api: catalog
+  image_present: catalog
+  json_ld_class_depth: catalog
+  json_ld_present: catalog
+  json_ld_property_depth: catalog
+  json_schema_per_resource: catalog
+  json_schema_present: catalog
+  low_error_density: catalog
+  maintainer_present: catalog
+  multiple_apis: catalog
+  overlay_published: catalog
+  plans_multiple: catalog
+  plans_present: catalog
+  rate_limits_documented: catalog
+  rate_limits_rich: catalog
+  rules_present: catalog
+  rules_substantial: catalog
+  tags_present: catalog
+  vocabulary_published: catalog
+  zero_errors: catalog
+
+  # INDEX — the evidence lives on the provider's public surface and the score
+  # reads OUR apis.yml pointer. Unearned means EITHER we never indexed it OR
+  # they never published it, and the two are indistinguishable without a probe.
+  # Never report an index-class zero as a market finding until it is probed.
+  agent_skill_present: index
+  api_reference_present: index
+  auth_clarity: index
+  authentication_documented: index
+  blog_present: index
+  change_log_present: index
+  cli_present: index
+  compliance_published: index
+  console_or_sandbox: index
+  deprecation_policy: index
+  documentation_present: index
+  getting_started_present: index
+  github_org_present: index
+  mcp_server_present: index
+  portal_present: index
+  postman_present: index
+  pricing_link: index
+  privacy_policy: index
+  reg_authentication_documented: index
+  reg_compliance_published: index
+  reg_consent_model: index
+  reg_entitlement_terms: index
+  reg_oauth_scopes: index
+  reg_privacy_policy: index
+  reg_security_disclosure: index
+  reg_standards_conformance: index
+  reg_terms_of_service: index
+  reg_vulnerability_disclosure: index
+  roadmap_present: index
+  sdk_count_1: index
+  sdk_count_3: index
+  security_disclosure: index
+  sign_up_present: index
+  status_page_present: index
+  support_channel: index
+  terms_of_service: index
+  trust_center: index
+  webhooks_advertised: index
+
+  # HARVEST — a provider-published machine-readable contract, read from the
+  # copy we hold. Unearned means we never harvested it, or we hold the wrong one.
+  #
+  # 0.11 EXCEPTION — the four os_* checks are `harvest`, but their zeros ARE
+  # reportable as market findings without a further probe, unlike every other
+  # harvest check. The rule exists because a harvest zero normally cannot
+  # distinguish "they never published it" from "we never fetched it". For these
+  # the harvest IS the live probe: a direct read of the GitHub API across the
+  # full set in one pass. And the read-success gate means a repository we could
+  # not reach drops out of the facet entirely rather than scoring zero — so a
+  # zero here can only mean we looked and it was not there.
+  os_security_policy: harvest
+  os_contribution_guide: harvest
+  os_releases: harvest
+  os_code_of_conduct: harvest
+  agentic_access: harvest
+  asyncapi_3_x: harvest
+  asyncapi_present: harvest
+  channels_defined: harvest
+  conformance_declared: harvest
+  contract_present: harvest
+  fhir_capability_statement: harvest
+  fhir_resource_coverage: harvest
+  graphql_descriptions: harvest
+  graphql_sdl_present: harvest
+  graphql_type_depth: harvest
+  messages_with_schema: harvest
+  security_schemes: harvest
+  server_bindings: harvest
+  spec_presence: harvest
+
+  # CONTRACT — quality INSIDE a document we already hold. Provider-authored;
+  # our only lever is holding their current first-party contract rather than a
+  # stale or derived stand-in.
+  components_reuse: spec
+  credentials_not_in_query: spec
+  error_responses_documented: spec
+  error_semantics: spec
+  event_surface_described: spec
+  examples_present: spec
+  idempotency: spec
+  info_complete: spec
+  oauth_flows_current: spec
+  oauth_scopes_enumerated: spec
+  openapi_3_0: spec
+  openapi_3_1: spec
+  openapi_examples: spec
+  operations_description_coverage: spec
+  operations_operation_ids: spec
+  operations_summary_coverage: spec
+  operations_tagged: spec
+  response_coverage: spec
+  security_applied: spec
+  security_schemes_defined: spec
+  servers_defined: spec
+  servers_resolvable: spec
+  webhooks_or_callbacks: spec
+
+  # FRONTIER — only the provider can produce the evidence. No amount of
+  # indexing moves these, which is exactly why the reports lean on them.
+  agent_card: frontier
+  agent_skills: frontier
+  apis_json_self_hosted: frontier
+  consent_identity: frontier
+  dry_run_mode: frontier
+  llms_txt_published: frontier
+  mcp_server: frontier
+  rate_limit_signal: frontier
+  reg_camara_conformance: frontier
+  reg_certification_signal: frontier
+  reg_fapi_profile: frontier
+  reg_mandate_verified: frontier
+  reg_named_standard_conformance: frontier
+  reg_pci_sca: frontier
+  reg_smart_configuration: frontier
+  reg_write_surface: frontier
+  well_known_catalog: frontier
+  well_known_published: frontier
 
 # ---------------------------------------------------------------------------
 # provenance (schema 0.6+) — WHO PUBLISHED THE ARTIFACT.
@@ -264,6 +790,47 @@ provenance:
 
     agentic_access: agentic_access     # agent readiness, 10 pts
     conformance_declared: conformance  # governance, 6 pts
+
+    # PREPARED, INERT UNTIL THE REFRESH PASS — the heaviest catalog-authored
+    # surface in the rubric. Stamp a version when the refresh runs and this bites. These four
+    # checks are 24 points: 12 of commercial_clarity's 38 and 12 of operational
+    # transparency's 38, which weights out at roughly 10.4% of every composite.
+    # 7,172 of 7,317 plans artifacts and 7,117 of 7,748 rate-limits carry no
+    # `method:` — most written in one 2026-05-04 sweep, by a pipeline that had no
+    # step for either artifact until one was added alongside this. Until that refresh runs and
+    # stamps them, `unknown` credits 1.00 and this mapping changes nothing; the
+    # moment it does, the score stops calling our sweep the provider's evidence.
+    plans_present: plans               # commercial_clarity, 8 pts
+    plans_multiple: plans              # commercial_clarity, 4 pts
+    rate_limits_documented: rate_limits # operational_transparency, 8 pts
+    rate_limits_rich: rate_limits      # operational_transparency, 4 pts
+
+    # PREPARED 0.10.3, INERT UNTIL STAMPED — the derived tier, and it is larger
+    # than the plans/rate-limits surface that preceded it. GOVERNANCE rests 42 of
+    # its 48 points on artifacts API Evangelist authors: the Spectral ruleset
+    # (rules_present, rules_substantial, low_error_density, zero_errors,
+    # balanced_severities = 33 pts), the vocabulary, and the overlay. At weight
+    # 0.12 that is roughly 10.5% of every composite asserting "this provider
+    # governs its contracts" where the true statement is "API Evangelist wrote a
+    # ruleset for them". CONTRACT_QUALITY carries another 21 points of
+    # json-schema and json-ld derived the same way.
+    #
+    # Measured 2026-08-11: 5,785 rules artifacts across 3,585 providers, of which
+    # 4,516 carry a named generator in their own header — strengthen_jsonschema.py,
+    # strengthen_ruleset.py, strengthen_asyncapi.py. Exactly ONE carries a
+    # `method:`. 120,553 json-schema files across 3,341 providers, ten carry one.
+    #
+    # Inert on arrival, same as plans/rate-limits were: `unknown` credits 1.00 and
+    # unmarked is what these are. It costs nothing until a stamping pass runs and
+    # is correct the moment it does.
+    rules_present: rules               # governance, 10 pts
+    rules_substantial: rules           # governance, 5 pts
+    low_error_density: rules           # governance, 10 pts
+    zero_errors: rules                 # governance, 5 pts
+    balanced_severities: rules         # governance, 3 pts
+    vocabulary_published: vocabulary   # governance, 5 pts
+    json_schema_present: json_schema      # contract_quality, 6 pts
+    json_schema_per_resource: json_schema # contract_quality, 4 pts
   # 0.9: a dimension satisfiable from MORE THAN ONE artifact class must grade
   # against whichever class actually satisfied it. `event_surface_described` is
   # satisfied by an AsyncAPI document (graded `asyncapi` above, and 0 providers
@@ -343,24 +910,51 @@ facets:
       and evidence of conformance to the industry's data standard. Not applied
       to unregulated industries — see the composite math note below.
 
+  open_source:
+    weight: 0.10
+    conditional: true          # only applies where we hold a LIVE repository read
+    label: Open Source Surface
+    description: >
+      For providers whose product is itself open source ONLY: does the
+      repository publish the maintainership surface a consumer needs in order to
+      depend on it? A vulnerability-disclosure path, a documented contribution
+      route, a published release history, and a stated code of conduct. Not
+      applied to closed-source products — a company with no CONTRIBUTING.md is
+      not deficient, it is differently shaped. Not applied where the repository
+      could not be read, either: unreadable is not missing.
+
 # ---------------------------------------------------------------------------
 # Conditional composite math (schema 0.5+)
 #
-# The six base facets above have weights that sum to 1.0. The `regulatory` facet
-# is CONDITIONAL: it is folded into the composite only when the provider's tags
-# match a regime in `industry_regulatory`. The math, per provider:
+# The six base facets above have weights that sum to 1.0. TWO facets are
+# CONDITIONAL and fold into the composite only when they apply:
 #
-#   base       = Σ(base_weight[f] × facet[f])      # 6 facets, weights sum to 1.0
-#   if regulated:
-#     composite = (1 − 0.15) × base + 0.15 × facet[regulatory]
-#   else:
-#     composite = base                             # unchanged from 0.4
+#   regulatory  (0.15)  the provider's tags match a regime in industry_regulatory
+#   open_source (0.10)  we hold a LIVE read of the provider's product repository
 #
-# So an unregulated provider's score never moves; a regulated provider that
-# publishes no regulatory posture takes a real hit (0.15 × 0), and one that
-# publishes a strong posture is rewarded. Regulatory is always computed and
-# stored (so the panel renders for regulated providers), but only enters the
-# composite when the regime applies.
+# Generalised in 0.11 to N conditional facets. Each applicable one takes a fixed
+# slice; the base facets scale to whatever remains:
+#
+#   base      = Σ(base_weight[f] × facet[f])       # 6 facets, weights sum to 1.0
+#   W         = Σ(weight[c]) over APPLICABLE conditional facets
+#   composite = (1 − W) × base + Σ(weight[c] × facet[c])
+#
+# This reduces exactly to the 0.5 single-conditional form, so no provider that
+# is neither regulated nor open source moves at all. A provider that is BOTH
+# carries 0.25 of conditional weight and 0.75 of base.
+#
+# A regulated provider that publishes no regulatory posture takes a real hit
+# (0.15 × 0) and one with a strong posture is rewarded; the same holds for
+# open source at 0.10. Both are always computed and stored so their panels
+# render, but only enter the composite when they apply.
+#
+# WHY open_source IS ADDITIVE AND NOT AN EXEMPTION (roadmap#39). The obvious fix
+# for open-source providers scoring thin on commercial_clarity — no pricing page,
+# no SLA — is to exempt them from it. That is wrong and it was measured: exemption
+# shrinks the denominator and strips a provider of points it DOES earn, costing
+# WSO2 a band. Exemption treats a difference as an absence. So nothing is removed;
+# a facet is added, scoring the surface an open-source provider actually publishes
+# on the same standard as everyone else.
 # ---------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------
@@ -407,8 +1001,23 @@ industry_regulatory:
     basis: >
       Licensed market data and securities activity: entitlement and
       redistribution terms, licensing/compliance disclosure, and auditability.
+    # 0.10.4 — the securities-specific COMPOUNDS are promoted to the strong tier
+    # so the weak tier can stop matching word fragments (roadmap#42). Each one is
+    # a whole tag carried by real securities firms in the catalog: broker-dealer
+    # 12 providers, prime brokerage 11, algorithmic trading 11, spot trading 8,
+    # crypto exchange 8, stock trading 6, social trading 6, copy trading 6,
+    # electronic trading 4, fx trading 4. Without these, phrase-only matching
+    # would un-regulate Citadel Securities, Tradeweb, Trumid and Alpaca.
     tags: [market data, securities, stock exchange, order execution,
-           mifid, mifid ii, finra, sec, otc, derivatives, equities, market-data]
+           mifid, mifid ii, finra, sec, otc, derivatives, equities, market-data,
+           broker-dealer, broker dealer, prime brokerage, algorithmic trading,
+           electronic trading, proprietary trading, stock trading, spot trading,
+           fx trading, forex trading, copy trading, social trading,
+           options trading, futures trading, exchange-traded fund,
+           exchange traded fund, etf, decentralized exchange,
+           cryptocurrency exchange, crypto exchange, securities lending,
+           market maker, market making, order book, trading platform,
+           trading api, brokerage account]
     # `broker`, `brokerage` and `exchange` are shared with insurance, freight,
     # energy and crypto. They match ONLY when nothing else matched — see the
     # note on most-specific matching above.
@@ -460,8 +1069,32 @@ industry_regulatory:
       scoring 83 telecom organizations under 0.5 fired the conditional facet for
       only seven of them, via Government, Payments and Health, leaving a sector
       supervised by four national regulators with no regulatory layer at all.
+
+      0.10.1 REMOVED `voice` and `messaging` from this list. Both are product
+      words that mean something else almost everywhere they appear, and this
+      regime is drawn around CARRIER NETWORK CAPABILITY — the basis above says
+      so. `messaging` in this catalog overwhelmingly means a message queue, not
+      a telephone network: it was matching Apache ActiveMQ, Apache RocketMQ,
+      AMQP and Apache ServiceMix into the FCC's CPNI rules. `voice` was matching
+      `amazon` on Alexa. Measured over all 26,598 catalog apis.yml, the regime
+      goes from 639 matches to 303; 315 providers become unregulated and 21 move
+      to a regime that fits them better. Reported by rtcStats, a WebRTC
+      observability tool matched to four national telecom regulators on the
+      single tag `voice` (api-evangelist/rtcstats#1).
+
+      Nothing real is lost: every genuine CPaaS and carrier carries a strong tag
+      independently — Twilio `SMS`, Vonage `Telecommunications`, Bandwidth and
+      Sinch `CPaaS`, Infobip all of them. `sms` is KEPT as a strong tag because
+      it names telephone numbering rather than a generic product category.
+
+      This is the same defect class as the `broker`/`exchange` over-match fixed
+      for securities_market_data in 0.6, which was closed with `weak_tags`.
+      weak_tags is NOT the right instrument here: a weak tag still matches when
+      no other regime does, and these providers match no other regime, so
+      ActiveMQ and rtcStats would have stayed telecom by a different route.
+      Removal is the fix.
     tags: [telecom, telecommunications, telco, carrier, mobile network operator,
-           mno, mvno, cpaas, sms, voice, messaging, network api, camara,
+           mno, mvno, cpaas, sms, network api, camara,
            open gateway, sim, roaming, number verification, subscriber]
     standards: [camara, tm-forum-open-api, gsma-open-gateway, ciba, 3gpp, mef, etsi]
   energy_utilities:
@@ -670,6 +1303,18 @@ artifacts:
           PROVENANCE-GRADED IN 0.6. An API-Evangelist-modeled spec credits at 0.25.
           A provider-served contract you can download should outrank one written on the
           provider's behalf, and until 0.6 they were indistinguishable.
+      - id: openapi_3_2
+        label: OpenAPI 3.2
+        facet: contract_quality
+        points: 5
+        rule: 'declared version >= 3.2, read from the provider''s published document'
+        description: >
+          The provider publishes OpenAPI 3.2. Scored from the version they
+          published, not from the version our refinement produced: 275 of the
+          339 providers holding a 3.2 document in the catalog hold it only
+          because refine-openapis upgraded theirs, and exactly three publish
+          3.2 themselves. Worth the same as 3.1 rather than more — shipping the
+          newest version is good practice, not a different kind of contract.
       - id: openapi_3_1
         label: OpenAPI 3.1
         facet: contract_quality
@@ -1725,6 +2370,73 @@ artifacts:
           returns HTTP 200 for every path including invented ones, being a single-page-app
           catch-all. Without a verification state that provider scores as compliant.
 
+  open_source:
+    label: Open Source Surface
+    description: >
+      The maintainership surface an open-source API product publishes on its own
+      repository. Scored ONLY where we hold a live successful read of that
+      repository — harvested directly from the GitHub API, never inferred from
+      the pointers in apis.yml.
+
+      WHY NOT READ THE POINTERS. Every other provider-level check in this rubric
+      reads common[]. These deliberately do not. A pointer records that WE wired
+      something; the harvest records that the PROVIDER published something.
+      Scoring the pointer would dock a provider for catalog work we had not got
+      to — the two-sided attribution failure these cohort passes exist to catch.
+
+      This was not theoretical. 647 of the 1,151 records in the first evidence
+      file had been RECONSTRUCTED from apis.yml pointers after a partial run
+      clobbered the originals, and they disagreed with a live read
+      systematically: CodeOfConduct +22.2 points, ContributionGuide +18.0,
+      SecurityPolicy +13.9, and not a single provider holding only one signal
+      against 21% in the live set. Reconstruction can only recover what somebody
+      had already wired, so sparse providers had nothing to reconstruct from and
+      vanished. All 647 were re-harvested live before this facet shipped, and
+      reconstructed records are excluded from the facet by score.rb regardless.
+
+      IssueTracker IS DELIBERATELY NOT A CHECK. It reads 100.0% across all 1,148
+      live-harvested repositories, because the harvester derives /issues from the
+      repository URL and every GitHub repo has one. It is not an observation of
+      the provider. Scoring it would hand free points out for existing.
+    checks:
+      - id: os_security_policy
+        label: Published vulnerability-disclosure path
+        facet: open_source
+        points: 14
+        rule: 'a SECURITY policy is present on the provider''s own product repository'
+        description: >
+          Where an integrator reports a vulnerability in the thing they just put
+          into production. The rarest of the four at 35.0% and the one that most
+          directly affects a consumer, which is why it carries the most points.
+      - id: os_contribution_guide
+        label: Documented contribution route
+        facet: open_source
+        points: 10
+        rule: 'a CONTRIBUTING guide is present on the provider''s own product repository'
+        description: >
+          Whether the project is actually open to participation or merely
+          published. 62.4% coverage.
+      - id: os_releases
+        label: Published release history
+        facet: open_source
+        points: 10
+        rule: 'the provider''s own product repository publishes releases'
+        description: >
+          Versioned, dated artifacts — the thing a consumer checks before
+          depending on a project. Commonest of the four at 76.0%, but priced
+          above the code of conduct because it carries far more information
+          about whether the project is maintained.
+      - id: os_code_of_conduct
+        label: Stated code of conduct
+        facet: open_source
+        points: 6
+        rule: 'a CODE_OF_CONDUCT is present on the provider''s own product repository'
+        description: >
+          A stated standard for participation. Priced lowest of the four despite
+          being rarer than releases at 49.6%: it is the most template-prone
+          signal in the set, frequently dropped in wholesale, and so says the
+          least about the project that holds it.
+
 # ---------------------------------------------------------------------------
 # Output bands — used to label providers in UI / search.
 # Composite score (0–100) maps to a band; bands drive sorting tiers and badges.
@@ -2152,6 +2864,13 @@ agent_readiness:
       rationale: >
         An agent driving a surface with no idempotency and no stable error envelope
         is not being driven safely, however much else the provider publishes.
+      discloses: band_gated_from
+      disclosure_note: >
+        0.9.3 — when this gate fires the payload emits `band_gated_from`, naming the
+        band the score alone would have earned. 1,024 providers carried a label one
+        step below their number with nothing saying why, which handed a reader a band
+        and a published range that contradict each other. The field is absent when no
+        gate fired, so its presence is the disclosure.
 
   bands:
     - id: agent-native

@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 52.0
-  scored_at: '2026-08-10'
+  score: 48.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 158
   human_in_the_loop: 5
@@ -169,6 +170,10 @@ asyncapis:
   name: Bigeye Webhooks
   slug: bigeye-webhooks
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/bigeyedata/bigeye-mcp-server/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -335,27 +340,32 @@ overview: 'Bigeye publishes 44 APIs on the [APIs.io](https://apis.io/) network, 
   The Bigeye catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bigeye''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 30 more developer resources.'
+  Bigeye''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 31 more developer resources.'
 random_paper: 49
 score:
   band: strong
-  composite: 56.9
-  delta: -0.6
+  composite: 56.7
+  delta: -0.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 55.8
+    contract_quality: 59.7
     developer_ergonomics: 75.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 57.5
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 44
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigeye/refs/heads/main/screenshots/bigeye-2026-08-07T162422.png
 security:

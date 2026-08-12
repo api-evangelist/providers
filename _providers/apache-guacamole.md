@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -66,6 +66,18 @@ collections:
   name: Apache Guacamole REST API
   slug: open-apache-guacamole-rest
 common:
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/guacamole-client/blob/main/CONTRIBUTING
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/guacamole-client/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -223,7 +235,7 @@ overview: 'Apache Guacamole publishes 6 APIs on the [APIs.io](https://apis.io/) 
   The Apache Guacamole catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache Guacamole''s developer surface includes authentication, documentation, getting-started guide, and 7 more developer resources.'
+  Apache Guacamole''s developer surface includes authentication, documentation, getting-started guide, and 10 more developer resources.'
 plans:
 - name: Apache Guacamole Plans Pricing
   plan_count: 3
@@ -251,16 +263,16 @@ rules:
     warn: 10
   slug: apache-guacamole-spectral-rules
 score:
-  band: developing
-  composite: 50.2
-  delta: 0.0
+  band: thin
+  composite: 41.7
+  delta: -8.5
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 66.7
+    commercial_clarity: 15.8
+    contract_quality: 64.2
     developer_ergonomics: 30.4
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 50.2
   provenance:
     agentic_access: derived
@@ -269,9 +281,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-guacamole/refs/heads/main/screenshots/apache-guacamole-2026-06-20T172106.png
 security:
 - kind: authentication

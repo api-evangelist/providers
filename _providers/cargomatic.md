@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Endpoints dealing with authenticating to the API
@@ -48,6 +48,10 @@ apis:
   slug: cargomatic-stops-api
 artifact_total: 8
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cargomatic-public-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -171,15 +175,15 @@ network: true
 overview: 'Cargomatic publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Carrier API, Document API, and 2 more. Tagged areas include Company, Logistics, Freight, Drayage, and Transportation.
 
 
-  Cargomatic''s developer surface includes documentation, API reference, support, FAQ, engineering blog, signup flow, authentication, and 20 more developer resources.'
+  Cargomatic''s developer surface includes documentation, API reference, support, FAQ, engineering blog, signup flow, authentication, and 21 more developer resources.'
 random_paper: 6
 score:
   band: thin
-  composite: 41.9
-  delta: 0.0
+  composite: 41.4
+  delta: -0.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 58.1
+    contract_quality: 56.0
     developer_ergonomics: 51.6
     discoverability: 81.5
     governance: 11.5
@@ -194,8 +198,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/screenshots/cargomatic-2026-07-25T204608.png
 security:

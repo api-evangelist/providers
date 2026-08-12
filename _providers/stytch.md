@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 188
   human_in_the_loop: 18
@@ -3678,16 +3679,16 @@ rules:
     warn: 6
   slug: stytch-rules
 score:
-  band: exemplar
-  composite: 67.8
-  delta: 0.0
+  band: strong
+  composite: 63.6
+  delta: -4.2
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 73.4
+    commercial_clarity: 57.9
+    contract_quality: 71.0
     developer_ergonomics: 71.7
     discoverability: 68.5
     governance: 68.8
-    operational_transparency: 60.5
+    operational_transparency: 36.8
   previous_composite: 67.8
   provenance:
     agentic_access: derived
@@ -3696,8 +3697,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 47
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/screenshots/stytch-2026-06-20T194631.png
 security:

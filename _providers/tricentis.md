@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 65.3
-  scored_at: '2026-08-10'
+  score: 61.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 271
   human_in_the_loop: 5
@@ -535,28 +536,28 @@ scopes:
   summary_line: 1 scope
 score:
   band: strong
-  composite: 63.1
-  delta: -0.5
+  composite: 61.9
+  delta: -1.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 61.1
+    contract_quality: 60.8
     developer_ergonomics: 87.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 63.6
+  previous_composite: 63.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 87.5
+      callable: 81.6
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 103
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

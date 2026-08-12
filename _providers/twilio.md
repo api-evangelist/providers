@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 546
   human_in_the_loop: 2
@@ -1166,16 +1167,16 @@ rules:
   slug: twilio-rules
 score:
   band: exemplar
-  composite: 73.8
-  delta: -0.4
+  composite: 70.4
+  delta: -3.4
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 69.1
+    commercial_clarity: 73.7
+    contract_quality: 72.0
     developer_ergonomics: 84.8
-    discoverability: 77.8
+    discoverability: 66.7
     governance: 69.8
-    operational_transparency: 94.7
-  previous_composite: 74.2
+    operational_transparency: 71.1
+  previous_composite: 73.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1192,8 +1193,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/screenshots/twilio-2026-06-20T165933.png
 security:

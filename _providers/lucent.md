@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 65.5
-  scored_at: '2026-08-10'
+  score: 61.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -234,13 +234,13 @@ scopes:
   summary_line: 2 scopes
 score:
   band: developing
-  composite: 55.5
-  delta: 0.0
+  composite: 53.8
+  delta: -1.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 72.1
+    contract_quality: 69.4
     developer_ergonomics: 75.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 13.2
   previous_composite: 55.5
@@ -254,8 +254,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/screenshots/lucent-2026-07-25T225640.png
 security:

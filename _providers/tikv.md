@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -214,16 +214,16 @@ rules:
     warn: 2
   slug: tikv-rules
 score:
-  band: developing
-  composite: 45.9
-  delta: 0.0
+  band: thin
+  composite: 40.2
+  delta: -5.7
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 57.2
+    commercial_clarity: 13.2
+    contract_quality: 55.1
     developer_ergonomics: 41.3
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 31.6
+    operational_transparency: 15.8
   previous_composite: 45.9
   provenance:
     agentic_access: derived
@@ -232,9 +232,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tikv/refs/heads/main/screenshots/tikv-2026-06-20T195351.png
 security:
 - kind: domain-security

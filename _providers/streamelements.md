@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 2
@@ -116,6 +117,10 @@ asyncapis:
   name: StreamElements Astro Real-Time Gateway
   slug: streamelements-astro-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/streamelements-api-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -246,7 +251,7 @@ overview: 'StreamElements publishes 24 APIs on the [APIs.io](https://apis.io/) n
   The StreamElements catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  StreamElements'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 21 more developer resources.'
+  StreamElements'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 22 more developer resources.'
 random_paper: 5
 scopes:
 - name: Streamelements Scopes
@@ -255,13 +260,13 @@ scopes:
   summary_line: 20 scopes · authorizationCode
 score:
   band: developing
-  composite: 53.2
-  delta: 0.0
+  composite: 51.4
+  delta: -1.8
   facets:
     commercial_clarity: 34.2
-    contract_quality: 69.5
+    contract_quality: 66.9
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
   previous_composite: 53.2
@@ -275,8 +280,8 @@ score:
       total: 24
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

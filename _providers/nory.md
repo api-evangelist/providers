@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-10'
+  score: 32.7
+  scored_at: '2026-08-11'
 api_count: 10
 apis:
 - description: The Authorization API from Nory — 1 operation(s) for authorization.
@@ -162,13 +162,13 @@ overview: 'Nory publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 108
 score:
   band: thin
-  composite: 34.6
-  delta: 0.0
+  composite: 33.1
+  delta: -1.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 46.3
+    contract_quality: 44.6
     developer_ergonomics: 27.7
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 34.6
@@ -181,8 +181,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/screenshots/nory-2026-08-07T185535.png
 security:

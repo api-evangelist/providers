@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 2
@@ -731,11 +731,11 @@ rules:
   slug: roku-spectral-rules
 score:
   band: developing
-  composite: 47.6
-  delta: 0.0
+  composite: 47.5
+  delta: -0.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 38.3
+    contract_quality: 37.8
     developer_ergonomics: 52.2
     discoverability: 59.3
     governance: 68.8
@@ -748,8 +748,8 @@ score:
       derived: 21
       marker_coverage: 100.0
       total: 21
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/screenshots/roku-2026-06-20T193206.png
 security:

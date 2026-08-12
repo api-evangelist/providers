@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-08-10'
+  score: 38.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -50,8 +50,20 @@ apis:
 - description: Operations for retrieving threat information
   name: Ocean Security Threats API
   slug: ocean-security-threats-api
-artifact_total: 7
+artifact_total: 8
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/ocean-security-investigate-phishing-reports.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/ocean-security-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ocean-security-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -124,6 +136,10 @@ created: '2026-07-17'
 description: Ocean Security (Ocean) is an AI-native, agentic email security platform that stops targeted, AI-powered email attacks that surface-level detection tools miss. At its core is Ray, an autonomous investigation engine that reviews every inbound email in real time — checking the sender, content, links, technical infrastructure, and business context to decide whether a message can be trusted — enabling enterprises to stop phishing, business email compromise (BEC), impersonation, and financial fraud. The platform pairs deep email investigation with autonomous SOC triage and real-time employee inbox guidance. Ocean's REST API gives security teams programmatic access to detected threats, phishing reports (SONAR), allow/deny list settings, and ROI/security metrics such as hours saved and financial loss prevented. Founded in Israel and backed by Lightspeed Venture Partners, Ocean protects hundreds of thousands of mailboxes across Global Fortune 500 organizations.
 image: https://ocean.security/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: ocean-security-mcp.yml
+  slug: ocean-security-mcpyml
 modified: '2026-07-20'
 name: Ocean Security
 nav: Providers
@@ -131,17 +147,17 @@ network: true
 overview: 'Ocean Security publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Metrics API, Settings API, Sonar API, and 1 more. Tagged areas include Company, Security, Email Security, Cybersecurity, and Phishing.
 
 
-  Ocean Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 11 more developer resources.'
+  Ocean Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 14 more developer resources.'
 random_paper: 59
 score:
   band: developing
-  composite: 43.7
-  delta: 0.0
+  composite: 42.8
+  delta: -0.9
   facets:
     commercial_clarity: 42.1
-    contract_quality: 60.5
-    developer_ergonomics: 47.8
-    discoverability: 92.6
+    contract_quality: 58.2
+    developer_ergonomics: 51.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 43.7
@@ -155,8 +171,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/screenshots/ocean-security-2026-08-07T185923.png
 security:

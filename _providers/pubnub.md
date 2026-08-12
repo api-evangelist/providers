@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Single REST surface for publish, subscribe (long-poll), presence, history, signal, and App Context. Pub/Sub key authentication. SDKs available for 50+ languages and platforms.
@@ -130,24 +130,18 @@ rules:
   slug: pubnub-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 40.4
-  delta: 0.0
+  composite: 39.5
+  delta: -0.9
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 50.6
-    developer_ergonomics: 19.6
+    developer_ergonomics: 26.1
     discoverability: 68.5
     governance: 47.9
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 40.4
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 8.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pubnub/refs/heads/main/screenshots/pubnub-2026-06-20T192250.png
 security:

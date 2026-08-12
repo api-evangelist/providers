@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -157,16 +157,16 @@ rate_limits:
   name: Census Rate Limits
   slug: census-rate-limits
 score:
-  band: developing
-  composite: 43.2
-  delta: 0.0
+  band: thin
+  composite: 37.5
+  delta: -5.7
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 60.1
+    commercial_clarity: 36.8
+    contract_quality: 58.2
     developer_ergonomics: 37.0
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 43.2
   provenance:
     agentic_access: derived
@@ -175,9 +175,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/census/refs/heads/main/screenshots/census-2026-06-20T174117.png
 security:
 - kind: authentication

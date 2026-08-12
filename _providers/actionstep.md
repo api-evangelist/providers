@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -255,12 +255,12 @@ rate_limits:
   name: Actionstep Rate Limits
   slug: actionstep-rate-limits
 score:
-  band: thin
-  composite: 41.0
-  delta: 0.0
+  band: developing
+  composite: 42.0
+  delta: 1.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 45.7
+    contract_quality: 49.9
     developer_ergonomics: 15.2
     discoverability: 68.5
     governance: 10.4
@@ -269,12 +269,12 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 97.1
       derived: 0
       marker_coverage: 0.0
       total: 35
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/screenshots/actionstep-2026-06-20T164049.png
 security:

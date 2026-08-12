@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ random_paper: 113
 score:
   band: emerging
   composite: 14.7
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -91,15 +91,15 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.1
+  previous_composite: 14.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blackbird-labs/refs/heads/main/screenshots/blackbird-labs-2026-07-25T203245.png
 security:

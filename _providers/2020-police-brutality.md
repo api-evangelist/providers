@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,6 +47,22 @@ collections:
   name: 2020 Police Brutality API
   slug: open-2020-police-brutality
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/2020PB/police-brutality/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/2020PB/police-brutality/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/2020PB/police-brutality/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/2020PB/police-brutality/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -128,7 +144,7 @@ overview: '2020 Police Brutality publishes 1 API on the [APIs.io](https://apis.i
   The 2020 Police Brutality catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  2020 Police Brutality''s developer surface includes documentation and 5 more developer resources.'
+  2020 Police Brutality''s developer surface includes documentation and 9 more developer resources.'
 plans:
 - name: 2020 Police Brutality Plans Pricing
   plan_count: 3
@@ -156,16 +172,16 @@ rules:
     warn: 10
   slug: 2020-police-brutality-spectral-rules
 score:
-  band: thin
-  composite: 32.3
-  delta: 0.0
+  band: emerging
+  composite: 27.1
+  delta: -5.2
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 30.8
+    commercial_clarity: 15.8
+    contract_quality: 29.7
     developer_ergonomics: 8.7
     discoverability: 59.3
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 32.3
   provenance:
     agentic_access: derived
@@ -180,9 +196,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 9.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/2020-police-brutality/refs/heads/main/screenshots/2020-police-brutality-2026-06-20T162626.png
 slug: 2020-police-brutality
 tags:

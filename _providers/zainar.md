@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 26.6
-  scored_at: '2026-08-10'
+  score: 30.2
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Private, credential-gated REST API for the ZaiNar Wi-Fi location cloud. Clients authenticate with a username/password to obtain a bearer token, then trigger and manage locates against tracker and anch
@@ -119,8 +119,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 25.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

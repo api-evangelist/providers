@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-10'
+  score: 43.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -50,8 +50,16 @@ apis:
 - description: The Tags API from Amazon CodeGuru Profiler — 2 operation(s) for tags.
   name: Amazon CodeGuru Profiler Tags API
   slug: amazon-codeguru-profiler-tags-api
-artifact_total: 324
+artifact_total: 325
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/amazon-codeguru-profiler-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-codeguru-profiler-openapi-original-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1023,6 +1031,10 @@ jsonld:
   property_count: 71
   slug: amazon-codeguru-profiler-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: amazon-codeguru-profiler-mcp.yml
+  slug: amazon-codeguru-profiler-mcpyml
 modified: '2026-04-19'
 name: Amazon CodeGuru Profiler
 nav: Providers
@@ -1033,7 +1045,7 @@ overview: 'Amazon CodeGuru Profiler publishes 4 APIs on the [APIs.io](https://ap
   The Amazon CodeGuru Profiler catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CodeGuru Profiler''s developer surface includes authentication, engineering blog, and 3 more developer resources.'
+  Amazon CodeGuru Profiler''s developer surface includes authentication, engineering blog, and 5 more developer resources.'
 random_paper: 29
 rules:
 - name: Amazon CodeGuru Profiler API Rules
@@ -1054,13 +1066,13 @@ rules:
   slug: amazon-codeguru-profiler-spectral-rules
 score:
   band: thin
-  composite: 39.0
-  delta: 0.0
+  composite: 37.7
+  delta: -1.3
   facets:
     commercial_clarity: 0.0
-    contract_quality: 75.2
-    developer_ergonomics: 13.0
-    discoverability: 92.6
+    contract_quality: 72.4
+    developer_ergonomics: 15.2
+    discoverability: 81.5
     governance: 69.8
     operational_transparency: 0.0
   previous_composite: 39.0
@@ -1073,8 +1085,8 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/screenshots/amazon-codeguru-profiler-2026-07-25T195956.png
 security:

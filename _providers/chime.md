@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -56,6 +56,10 @@ apis:
   slug: chime-users-api
 artifact_total: 21
 common:
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://developer.chime.com/changelog
 - group: agent
   title: ''
   type: AgenticAccess
@@ -163,7 +167,7 @@ overview: 'Chime publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
   The Chime catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Chime''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
+  Chime''s developer surface includes changelog, authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Chime Plans Pricing
   plan_count: 4
@@ -184,15 +188,15 @@ rules:
   slug: chime-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 47.9
+  delta: 1.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 73.0
+    contract_quality: 70.6
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 21.1
+    operational_transparency: 36.8
   previous_composite: 46.6
   provenance:
     agentic_access: derived
@@ -207,8 +211,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chime/refs/heads/main/screenshots/chime-2026-06-20T174317.png
 security:

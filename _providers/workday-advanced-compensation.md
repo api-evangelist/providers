@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -265,16 +265,16 @@ scopes:
   slug: workday-advanced-compensation-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: developing
-  composite: 44.3
-  delta: 0.0
+  band: thin
+  composite: 36.2
+  delta: -8.1
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 32.9
+    commercial_clarity: 36.8
+    contract_quality: 31.7
     developer_ergonomics: 32.6
     discoverability: 37.0
     governance: 68.8
-    operational_transparency: 42.1
+    operational_transparency: 18.4
   previous_composite: 44.3
   provenance:
     agentic_access: derived
@@ -283,9 +283,9 @@ score:
       derived: 8
       marker_coverage: 100.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/screenshots/workday-advanced-compensation-2026-06-20T201555.png
 security:
 - kind: authentication

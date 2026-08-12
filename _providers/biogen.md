@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -232,15 +232,15 @@ rules:
   slug: biogen-spectral-rules
 score:
   band: thin
-  composite: 33.5
-  delta: 0.0
+  composite: 28.9
+  delta: -4.6
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 22.9
+    commercial_clarity: 13.2
+    contract_quality: 22.0
     developer_ergonomics: 28.3
     discoverability: 68.5
     governance: 68.8
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 33.5
   provenance:
     agentic_access: derived
@@ -255,8 +255,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

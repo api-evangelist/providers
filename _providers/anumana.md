@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 3
 common:
@@ -129,20 +129,26 @@ overview: 'Anumana is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 41
 score:
   band: emerging
-  composite: 22.8
-  delta: 0.0
+  composite: 24.0
+  delta: 1.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 15.2
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 12.5
     operational_transparency: 10.5
   previous_composite: 22.8
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 37.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anumana/refs/heads/main/screenshots/anumana-2026-08-07T161428.png
 security:

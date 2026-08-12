@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 830
   human_in_the_loop: 0
@@ -4537,16 +4537,16 @@ rules:
     warn: 19
   slug: unified-to-spectral-rules
 score:
-  band: exemplar
-  composite: 72.9
-  delta: 0.0
+  band: strong
+  composite: 65.3
+  delta: -7.6
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 66.7
+    commercial_clarity: 68.4
+    contract_quality: 64.2
     developer_ergonomics: 71.7
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 68.8
-    operational_transparency: 78.9
+    operational_transparency: 55.3
   previous_composite: 72.9
   provenance:
     agentic_access: derived
@@ -4555,9 +4555,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 138
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/screenshots/unified-to-2026-06-20T200106.png
 security:
 - kind: authentication

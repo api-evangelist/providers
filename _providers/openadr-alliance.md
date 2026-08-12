@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-08-10'
+  score: 43.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -50,6 +50,10 @@ asyncapis:
   name: Openadr Alliance Webhooks
   slug: openadr-alliance-webhooks
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/grid-coordination/openadr3-specification/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -241,7 +245,7 @@ overview: 'OpenADR Alliance publishes 1 API on the [APIs.io](https://apis.io/) n
   The OpenADR Alliance catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  OpenADR Alliance''s developer surface includes authentication, documentation, developer portal, tooling, support, engineering blog, changelog, and 37 more developer resources.'
+  OpenADR Alliance''s developer surface includes authentication, documentation, developer portal, tooling, support, engineering blog, changelog, and 38 more developer resources.'
 plans:
 - name: Openadr Alliance Plans
   plan_count: 10
@@ -254,14 +258,14 @@ scopes:
   summary_line: 9 scopes · clientCredentials
 score:
   band: strong
-  composite: 59.9
-  delta: 0.0
+  composite: 58.5
+  delta: -1.4
   facets:
     commercial_clarity: 76.3
-    contract_quality: 75.3
+    contract_quality: 72.5
     developer_ergonomics: 60.3
     discoverability: 77.8
-    governance: 31.3
+    governance: 23.4
     operational_transparency: 21.1
   previous_composite: 59.9
   provenance:
@@ -280,8 +284,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/screenshots/openadr-alliance-2026-08-07T190522.png
 security:

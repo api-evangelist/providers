@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 6
@@ -134,6 +134,14 @@ apis:
   slug: btcpay-webhooks-api
 artifact_total: 37
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/btcpayserver/btcpayserver/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/btcpayserver/btcpayserver/blob/master/SECURITY.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -217,7 +225,7 @@ network: true
 overview: 'BTCPay Server publishes 31 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Apps API, Authorization API, and 28 more. Tagged areas include Bitcoin, Cryptocurrency, Payments, Lightning Network, and Open Source.
 
 
-  BTCPay Server''s developer surface includes authentication, documentation, engineering blog, YouTube channel, changelog, support, and 11 more developer resources.'
+  BTCPay Server''s developer surface includes authentication, documentation, engineering blog, YouTube channel, changelog, support, and 13 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
@@ -229,15 +237,15 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 37.5
-  delta: 0.0
+  composite: 38.2
+  delta: 0.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 59.7
+    contract_quality: 57.5
     developer_ergonomics: 26.1
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 47.4
   previous_composite: 37.5
   provenance:
     agentic_access: derived
@@ -252,8 +260,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/screenshots/btcpay-2026-06-20T173732.png
 security:

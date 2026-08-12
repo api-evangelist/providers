@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-10'
+  score: 34.5
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Partner parking locations (POIs)
@@ -46,6 +46,10 @@ asyncapis:
   name: Autopass Webhooks
   slug: autopass-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/autopass-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -132,7 +136,7 @@ overview: 'Autopass publishes 3 APIs on the [APIs.io](https://apis.io/) network:
   The Autopass catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Autopass'' developer surface includes documentation, API reference, authentication, and 14 more developer resources.'
+  Autopass'' developer surface includes documentation, API reference, authentication, and 15 more developer resources.'
 random_paper: 68
 scopes:
 - name: Autopass Scopes
@@ -141,13 +145,13 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 41.9
-  delta: 0.0
+  composite: 40.4
+  delta: -1.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 71.3
+    contract_quality: 68.7
     developer_ergonomics: 38.6
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 8.3
     operational_transparency: 7.9
   previous_composite: 41.9
@@ -165,8 +169,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/screenshots/autopass-2026-07-25T201842.png
 security:

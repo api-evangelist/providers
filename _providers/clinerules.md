@@ -27,10 +27,34 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 5
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/cline/cline/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/cline/cline/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/cline/cline/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/cline/cline/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/cline/cline/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/cline/cline/blob/main/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -86,7 +110,7 @@ overview: '.clinerules is profiled on the [APIs.io](https://apis.io/) network. T
   The .clinerules catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  .clinerules'' developer surface includes documentation and 7 more developer resources.'
+  .clinerules'' developer surface includes documentation and 13 more developer resources.'
 random_paper: 34
 rules:
 - name: .clinerules API Rules
@@ -99,18 +123,18 @@ rules:
   slug: clinerules-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 15.8
-  delta: 0.0
+  composite: 19.9
+  delta: 4.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 8.1
     developer_ergonomics: 8.7
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 58.3
-    operational_transparency: 0.0
+    operational_transparency: 26.3
   previous_composite: 15.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clinerules/refs/heads/main/screenshots/clinerules-2026-06-20T174528.png
 security:

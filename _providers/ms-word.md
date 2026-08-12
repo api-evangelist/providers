@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: JavaScript API for building Word add-ins and interacting with Word document content.
@@ -42,6 +42,30 @@ apis:
   slug: office-open-xml-sdk
 artifact_total: 8
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/OfficeDev/Open-XML-SDK/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/OfficeDev/Open-XML-SDK/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/dotnet/Open-XML-SDK/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/dotnet/Open-XML-SDK/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/dotnet/Open-XML-SDK/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/OfficeDev/Open-XML-SDK/blob/main/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -81,7 +105,7 @@ network: true
 overview: 'Microsoft Word API publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Documents, Office, Productivity, and Word Processing.
 
 
-  Microsoft Word API''s developer surface includes developer portal, engineering blog, and 4 more developer resources.'
+  Microsoft Word API''s developer surface includes developer portal, engineering blog, and 10 more developer resources.'
 plans:
 - name: Ms Word Plans Pricing
   plan_count: 3
@@ -93,18 +117,18 @@ rate_limits:
   slug: ms-word-rate-limits
 score:
   band: emerging
-  composite: 23.8
-  delta: 0.0
+  composite: 19.4
+  delta: -4.4
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 10.9
     discoverability: 53.7
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 34.2
   previous_composite: 23.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ms-word/refs/heads/main/screenshots/ms-word-2026-06-20T185847.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Qumat is a unified Python API for building and executing quantum circuits across multiple quantum computing backends including Qiskit, Cirq, and Amazon Braket. It provides a hardware-agnostic interfac
@@ -39,6 +39,26 @@ apis:
   slug: apache-mahout-samsara
 artifact_total: 23
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apache/mahout/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/apache/mahout/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/mahout/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/mahout/blob/main/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -116,7 +136,7 @@ network: true
 overview: 'Apache Mahout publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Distributed Computing, Machine Learning, Python, Quantum Computing, and Scala.
 
 
-  Apache Mahout''s developer surface includes developer portal, engineering blog, and 7 more developer resources.'
+  Apache Mahout''s developer surface includes developer portal, engineering blog, and 12 more developer resources.'
 plans:
 - name: Apache Mahout Plans Pricing
   plan_count: 3
@@ -128,19 +148,19 @@ rate_limits:
   slug: apache-mahout-rate-limits
 score:
   band: emerging
-  composite: 22.9
-  delta: 0.0
+  composite: 17.1
+  delta: -5.8
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 10.9
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 22.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-mahout/refs/heads/main/screenshots/apache-mahout-2026-06-20T172120.png
 security:
 - kind: domain-security

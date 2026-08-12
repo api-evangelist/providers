@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 19
 apis:
 - description: Provides information about FCC-issued licenses for use of the nation's airwaves, including snapshots of license counts across different radio services such as 700 MHz, 800 MHz Cellular, AWS, PCS, BRS,
@@ -90,6 +90,10 @@ apis:
   slug: fcc-projection-api
 artifact_total: 23
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/FCC/bdcapi/issues
 - group: auth
   title: ''
   type: DomainSecurity
@@ -157,7 +161,7 @@ network: true
 overview: 'FCC (Federal Communications Commission) publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Am Pattern API, Antenna API, Area API, and 9 more. Tagged areas include Federal Government, Telecommunications, Radio, Broadband, and Spectrum.
 
 
-  FCC (Federal Communications Commission)''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
+  FCC (Federal Communications Commission)''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Fcc Plans Pricing
   plan_count: 1
@@ -170,29 +174,29 @@ rate_limits:
 score:
   band: thin
   composite: 32.3
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 52.7
+    contract_quality: 53.0
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 32.8
+  previous_composite: 32.3
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 12
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 13.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/screenshots/fcc-2026-06-20T181103.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The Open Access Same-time Information System (OASIS) Download API — CAISO's public wholesale market data interface. Two servlets, SingleZip and GroupZip, accept a queryname or groupid plus a UTC datet
@@ -157,13 +157,13 @@ rate_limits:
   slug: caiso-rate-limits
 score:
   band: thin
-  composite: 34.3
-  delta: 0.0
+  composite: 33.4
+  delta: -0.9
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 52.2
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 13.5
     operational_transparency: 52.6
   previous_composite: 34.3
@@ -175,8 +175,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caiso/refs/heads/main/screenshots/caiso-2026-08-07T162911.png
 security:

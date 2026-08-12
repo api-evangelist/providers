@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 10
@@ -242,11 +242,11 @@ scopes:
   summary_line: 7 scopes · authorizationCode/refreshToken
 score:
   band: strong
-  composite: 58.2
-  delta: 0.0
+  composite: 57.5
+  delta: -0.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.0
+    contract_quality: 63.5
     developer_ergonomics: 58.2
     discoverability: 92.6
     governance: 20.8
@@ -262,8 +262,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

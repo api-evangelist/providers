@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 22
@@ -97,6 +97,10 @@ apis:
   slug: oxen-workspaces-api
 artifact_total: 23
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oxen-hub-api-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -228,17 +232,17 @@ network: true
 overview: 'Oxen publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Ai API, Branches API, Commits API, and 16 more. Tagged areas include Company, Data Version Control, Machine Learning, Artificial Intelligence, and Fine-Tuning.
 
 
-  Oxen''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
+  Oxen''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
 random_paper: 94
 score:
   band: developing
-  composite: 53.3
-  delta: 0.0
+  composite: 51.6
+  delta: -1.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 60.5
+    contract_quality: 58.2
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
   previous_composite: 53.3
@@ -252,8 +256,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/screenshots/oxen-2026-08-07T191204.png
 security:

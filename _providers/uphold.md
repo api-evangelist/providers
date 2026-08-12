@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: conformant
     agent_skills: true
@@ -9,16 +10,16 @@ agent_readiness:
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 65.3
-  scored_at: '2026-08-10'
+  score: 65.8
+  scored_at: '2026-08-11'
 api_count: 25
 apis:
 - description: The long-standing public Uphold API at api.uphold.com/v0 — tickers and exchange rates, supported currencies and assets, plus OAuth 2.0 authenticated access to a member's cards, transactions and accoun
@@ -102,6 +103,10 @@ asyncapis:
   name: Uphold Core Webhooks
   slug: uphold-core-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/uphold-core-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -292,7 +297,7 @@ overview: 'Uphold publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
   The Uphold catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Uphold''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 36 more developer resources.'
+  Uphold''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 37 more developer resources.'
 random_paper: 72
 scopes:
 - name: Uphold Scopes
@@ -301,33 +306,33 @@ scopes:
   summary_line: 64 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 66.3
-  delta: -2.5
+  composite: 66.8
+  delta: 0.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.0
+    contract_quality: 70.1
     developer_ergonomics: 84.8
     discoverability: 77.8
     governance: 20.8
     operational_transparency: 63.2
-  previous_composite: 68.8
+  previous_composite: 66.3
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 23
     mcp: first-party
     skills: first-party
   regulatory:
     applies: true
     matched_via: tags
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 74.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 76.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

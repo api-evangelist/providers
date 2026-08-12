@@ -13,6 +13,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,14 +24,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-10'
+  score: 47.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 36
@@ -91,12 +92,16 @@ apis:
 - description: American Express Global Business Travel OpenAPI definition from American Express Global Business Travel — 36 path(s) described in OpenAPI.
   name: American Express Global Business Travel OpenAPI definition (Amex Gbt Service Openconnect)
   slug: amex-gbt-service-openconnect-openapi
-artifact_total: 23
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Amex Gbt Webhooks
   slug: amex-gbt-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/amex-gbt-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -278,6 +283,10 @@ description: American Express Global Business Travel (Amex GBT, NYSE GBTG, headq
   serves a real, anonymously retrievable OpenAPI 3.1.0 document from apis.egencia.com - no login, no key, no click-through. The identity surface is standards-based (SCIM 2.0 user provisioning over OAuth 2.0 client credentials); the booking, approval, expense, receipt, duty-of-care and reporting surfaces are proprietary Egencia shapes with no OpenTravel, HTNG or IATA NDC schema anywhere in them. Runtime access is customer-account gated - Egencia's own documentation states that "the values for client id and client secret will be provided to the Client after on-boarding to Egencia API platform", and every production endpoint returns 401 to an anonymous caller. So - public contracts, gated runtime, a real documented bulk data export in the BI Transactions API, and API terms Egencia reserves the right to change in its sole discretion.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: amex-gbt-mcp.yml
+  slug: amex-gbt-mcpyml
 modified: '2026-07-28'
 name: American Express Global Business Travel
 nav: Providers
@@ -288,7 +297,7 @@ overview: 'American Express Global Business Travel publishes 17 APIs on the [API
   The American Express Global Business Travel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  American Express Global Business Travel''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 37 more developer resources.'
+  American Express Global Business Travel''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 38 more developer resources.'
 random_paper: 93
 scopes:
 - name: Amex Gbt Scopes
@@ -297,12 +306,12 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.2
-  delta: 0.0
+  composite: 49.1
+  delta: -0.1
   facets:
     commercial_clarity: 21.1
-    contract_quality: 63.9
-    developer_ergonomics: 64.7
+    contract_quality: 61.5
+    developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 42.1
@@ -317,8 +326,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

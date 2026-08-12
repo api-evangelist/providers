@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: GraphQL API for efficient asset/resource management — query and mutate organizations, sites, buildings, floors, rooms, zones, hives, sensors, asset tags, and webhooks across the Butlr spatial data-mod
@@ -171,8 +171,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/butlr-technologies/refs/heads/main/screenshots/butlr-technologies-2026-07-25T204122.png
 security:

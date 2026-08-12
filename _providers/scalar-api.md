@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -69,6 +69,10 @@ collections:
   name: Scalar Registry (Public Read Surface) - Modeled
   slug: open-scalar-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/scalar/scalar/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -125,7 +129,7 @@ network: true
 overview: 'Scalar publishes 2 APIs on the [APIs.io](https://apis.io/) network: Registry Management API and Registry Read API. Tagged areas include API Documentation, API Client, Open Source, Developer Tools, and API Reference.
 
 
-  Scalar''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
+  Scalar''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
 plans:
 - name: Scalar Api Plans Pricing
   plan_count: 5
@@ -137,11 +141,11 @@ rate_limits:
   slug: scalar-api-rate-limits
 score:
   band: thin
-  composite: 39.8
-  delta: 0.0
+  composite: 39.2
+  delta: -0.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 65.1
+    contract_quality: 62.7
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 0.0
@@ -154,8 +158,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-10'
+  score: 37.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -55,6 +55,10 @@ apis:
   slug: rasa-tracker-api
 artifact_total: 9
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/rasa-action-server-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -174,17 +178,17 @@ network: true
 overview: 'Rasa publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Domain API, Model API, Rasa SDK Action Server Endpoint API, and 2 more. Tagged areas include Company, Ai, Conversational AI, Chatbots, and Voice Assistants.
 
 
-  Rasa''s developer surface includes authentication, CLI, sandbox, changelog, documentation, API reference, quickstart, and 19 more developer resources.'
+  Rasa''s developer surface includes authentication, CLI, sandbox, changelog, documentation, API reference, quickstart, and 20 more developer resources.'
 random_paper: 75
 score:
   band: developing
-  composite: 47.0
-  delta: 0.0
+  composite: 45.5
+  delta: -1.5
   facets:
     commercial_clarity: 23.7
-    contract_quality: 51.0
+    contract_quality: 49.1
     developer_ergonomics: 80.4
-    discoverability: 83.3
+    discoverability: 72.2
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 47.0
@@ -198,8 +202,8 @@ score:
       total: 5
     mcp: derived
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

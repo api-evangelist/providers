@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-08-10'
+  score: 44.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -70,8 +70,12 @@ apis:
 - description: Testing and debugging endpoints that validate credentials, echo a hello response, simulate error codes and validate input formats before a client calls the priced endpoints.
   name: Genability Signal Echo API
   slug: genability-signal-echo-api
-artifact_total: 18
+artifact_total: 19
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/genability-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -233,6 +237,10 @@ description: 'Genability is a United States energy-data platform, based in San F
   can sign up at dash.genability.com in minutes, but every endpoint — including the ones pathed /rest/public/ — returns 401 without an appId/appKey, so none of this tariff or market reference data is openly published, and Genability exposes no individual customer''s usage or billing data at all (that consumer-data surface lives in Arcadia''s separate Plug/Arc API).'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: genability-mcp.yml
+  slug: genability-mcpyml
 modified: '2026-07-27'
 name: Genability
 nav: Providers
@@ -240,17 +248,17 @@ network: true
 overview: 'Genability publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Signal Tariff API, Signal Load Serving Entity API, Signal Territory API, and 11 more. Tagged areas include Energy, United States, Utilities, Electricity, and Tariffs.
 
 
-  Genability''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 32 more developer resources.'
+  Genability''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 33 more developer resources.'
 random_paper: 20
 score:
   band: developing
-  composite: 53.2
-  delta: 0.0
+  composite: 50.5
+  delta: -2.7
   facets:
     commercial_clarity: 34.2
-    contract_quality: 58.0
-    developer_ergonomics: 75.5
-    discoverability: 92.6
+    contract_quality: 55.9
+    developer_ergonomics: 77.7
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 47.4
   previous_composite: 53.2
@@ -269,9 +277,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 52.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 41.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/screenshots/genability-2026-08-07T165554.png
 security:

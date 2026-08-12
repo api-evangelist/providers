@@ -24,13 +24,21 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-10'
+  score: 0.0
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/cisco/mindmeld/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/cisco/mindmeld/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -98,22 +106,22 @@ network: true
 overview: 'MindMeld * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Conversational AI, Chatbots, and Natural Language Processing.
 
 
-  MindMeld *''s developer surface includes documentation, getting-started guide, quickstart, engineering blog, changelog, and 9 more developer resources.'
+  MindMeld *''s developer surface includes documentation, getting-started guide, quickstart, engineering blog, changelog, and 11 more developer resources.'
 random_paper: 30
 score:
   band: emerging
-  composite: 16.3
-  delta: 0.0
+  composite: 15.1
+  delta: -1.2
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 37.0
-    discoverability: 61.1
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 16.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

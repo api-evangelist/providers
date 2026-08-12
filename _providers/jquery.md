@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The core jQuery API for DOM manipulation, event handling, AJAX, effects, animation, and other JavaScript utilities. Documents selectors, methods, and events for working with the DOM in a cross-browser
@@ -110,19 +110,19 @@ rate_limits:
   slug: jquery-rate-limits
 score:
   band: emerging
-  composite: 21.7
-  delta: 0.0
+  composite: 13.8
+  delta: -7.9
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 15.2
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 21.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/jquery/refs/heads/main/screenshots/jquery-2026-06-20T183810.png
 security:
 - kind: domain-security

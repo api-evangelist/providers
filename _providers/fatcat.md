@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -74,6 +74,14 @@ apis:
   slug: fatcat-works-api
 artifact_total: 28
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/internetarchive/fatcat/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/internetarchive/fatcat/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -137,7 +145,7 @@ overview: 'Fatcat publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
   The Fatcat catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Fatcat''s developer surface includes authentication and 1 more developer resources.'
+  Fatcat''s developer surface includes authentication and 3 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
@@ -158,15 +166,15 @@ rules:
   slug: fatcat-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.8
-  delta: 0.0
+  composite: 40.3
+  delta: 1.5
   facets:
     commercial_clarity: 28.9
-    contract_quality: 62.8
+    contract_quality: 60.4
     developer_ergonomics: 10.9
     discoverability: 81.5
     governance: 58.3
-    operational_transparency: 0.0
+    operational_transparency: 15.8
   previous_composite: 38.8
   provenance:
     agentic_access: derived
@@ -175,8 +183,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

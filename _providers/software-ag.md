@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 2
@@ -63,6 +63,22 @@ collections:
   name: webMethods API Gateway Service Management API
   slug: open-webmethods-api-gateway
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/SoftwareAG/webmethods-developer-portal/blob/main/LICENSE
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.softwareag.com/support
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.softwareag.com/en/privacy/
+- group: start
+  title: ''
+  type: Signup
+  url: https://www.softwareag.com/free-trials/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -149,7 +165,7 @@ overview: 'Software AG publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
   The Software AG catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Software AG''s developer surface includes authentication, developer portal, documentation, engineering blog, and 8 more developer resources.'
+  Software AG''s developer surface includes support, signup flow, authentication, developer portal, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Software Ag Plans Pricing
   plan_count: 1
@@ -178,15 +194,15 @@ rules:
   slug: webmethods-api-gateway-rules
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 47.6
+  delta: 0.5
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 68.2
-    developer_ergonomics: 30.4
-    discoverability: 64.8
+    commercial_clarity: 36.8
+    contract_quality: 65.7
+    developer_ergonomics: 34.8
+    discoverability: 72.2
     governance: 68.8
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 47.1
   provenance:
     agentic_access: derived
@@ -195,8 +211,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/screenshots/software-ag-2026-06-20T194136.png
 security:

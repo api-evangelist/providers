@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 69
 apis:
 - description: Qlik provides APIs to support automation, configuration, observability, and integration with third-party applications to incorporate Qlik Cloud capabilities directly into those applications.
@@ -346,20 +346,20 @@ rate_limits:
   name: Qlik Rate Limits
   slug: qlik-rate-limits
 score:
-  band: developing
-  composite: 47.2
-  delta: 0.0
+  band: thin
+  composite: 39.4
+  delta: -7.8
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 36.8
     contract_quality: 32.3
     developer_ergonomics: 67.4
     discoverability: 46.3
     governance: 0.0
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 47.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/screenshots/qlik-2026-06-20T192340.png
 security:
 - kind: domain-security

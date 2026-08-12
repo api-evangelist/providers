@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 35.8
-  scored_at: '2026-08-10'
+  score: 42.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -46,8 +46,16 @@ apis:
 - description: The User API from OnPay — 1 operation(s) for user.
   name: OnPay User API
   slug: onpay-user-api
-artifact_total: 11
+artifact_total: 12
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/onpay-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/onpay-api-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -156,6 +164,10 @@ created: '2026-08-04'
 description: OnPay is an Atlanta, Georgia based provider of full-service online payroll, HR, and employee benefits software for small and mid-size US businesses, founded in 2011 and funded by Carrick Capital Partners. The platform runs payroll and direct deposit, files federal, state, and local payroll taxes, and handles onboarding, PTO, org charts, health insurance, 401(k), and workers' compensation. For developers, OnPay publishes a partner-only REST API (v2) documented on a public ReadMe hub, covering employees, employee deductions, wages, leave, tax fields, bank accounts, terminations and rehires, company worksites, locations, departments and positions, pay schedules, and payroll reporting. Access is limited to approved partners, authorized with OAuth 2.0 authorization-code grants against app.onpay.com and role-scoped bearer tokens.
 image: https://onpay.com/wp-content/uploads/2017/08/d9fo84j1zi.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: onpay-mcp.yml
+  slug: onpay-mcpyml
 modified: '2026-08-04'
 name: OnPay
 nav: Providers
@@ -163,7 +175,7 @@ network: true
 overview: 'OnPay publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Company API, Deductions API, Employees API, and 3 more. Tagged areas include payroll, human-resources, employee-benefits, payroll-tax, and small-business.
 
 
-  OnPay''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
+  OnPay''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
 random_paper: 87
 scopes:
 - name: Onpay Scopes
@@ -172,23 +184,28 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.2
-  delta: 0.2
+  composite: 44.7
+  delta: 1.5
   facets:
     commercial_clarity: 52.6
-    contract_quality: 39.5
-    developer_ergonomics: 53.8
+    contract_quality: 44.0
+    developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 10.5
-  previous_composite: 43.0
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/screenshots/onpay-2026-08-07T190403.png
 security:

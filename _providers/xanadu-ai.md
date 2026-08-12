@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 14
 apis:
 - description: 'PennyLane is the flagship open-source Python framework for quantum differentiable programming — train and optimize variational quantum circuits with the same automatic differentiation engines used in '
@@ -74,6 +74,10 @@ apis:
   slug: xanadu-quantum-codebook
 artifact_total: 44
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/PennyLaneAI/pennylane/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -230,7 +234,7 @@ network: true
 overview: 'Xanadu publishes 14 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Quantum Computing, Photonic Quantum, Quantum Machine Learning, Quantum Chemistry, and Differentiable Programming.
 
 
-  Xanadu''s developer surface includes developer portal, documentation, getting-started guide, support, engineering blog, YouTube channel, release notes, and 17 more developer resources.'
+  Xanadu''s developer surface includes developer portal, documentation, getting-started guide, support, engineering blog, YouTube channel, release notes, and 18 more developer resources.'
 random_paper: 76
 score:
   band: emerging
@@ -244,8 +248,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 21.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

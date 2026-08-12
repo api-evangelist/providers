@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: Aquila is QuEra's 256-qubit neutral-atom quantum computer, the first publicly accessible neutral-atom QPU. It runs Analog Hamiltonian Simulation (AHS) programs and is accessed programmatically through
@@ -56,6 +56,10 @@ apis:
   slug: bloqade-shuttle-lanes
 artifact_total: 24
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/QuEraComputing/tsim/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -151,7 +155,7 @@ network: true
 overview: 'QuEra Computing publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Quantum Computing, Neutral Atom, Analog Hamiltonian Simulation, AWS Braket, and Aquila.
 
 
-  QuEra Computing''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, pricing, product news, and 11 more developer resources.'
+  QuEra Computing''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, pricing, product news, and 12 more developer resources.'
 random_paper: 61
 score:
   band: emerging
@@ -165,8 +169,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 18.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

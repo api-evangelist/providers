@@ -27,10 +27,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-10'
+  score: 41.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -246,11 +246,11 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 46.3
+  delta: -0.5
   facets:
     commercial_clarity: 42.1
-    contract_quality: 53.7
+    contract_quality: 51.7
     developer_ergonomics: 47.3
     discoverability: 92.6
     governance: 20.8
@@ -266,8 +266,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/screenshots/hometrack-2026-08-07T170250.png
 security:

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 60.6
-  scored_at: '2026-08-10'
+  score: 57.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -68,6 +68,10 @@ asyncapis:
   name: Bcb Group Webhooks
   slug: bcb-group-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bcb-group-payments-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -214,15 +218,15 @@ overview: 'BCB Group publishes 8 APIs on the [APIs.io](https://apis.io/) network
   The BCB Group catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  BCB Group''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 25 more developer resources.'
+  BCB Group''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 26 more developer resources.'
 random_paper: 85
 score:
   band: developing
-  composite: 51.9
-  delta: 0.0
+  composite: 51.3
+  delta: -0.6
   facets:
     commercial_clarity: 42.1
-    contract_quality: 67.9
+    contract_quality: 65.4
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
@@ -244,8 +248,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/screenshots/bcb-group-2026-07-25T202502.png
 security:

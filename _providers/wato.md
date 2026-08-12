@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 24.5
-  scored_at: '2026-08-10'
+  score: 20.9
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Wato exposes each team's reviewed memory and approved connector tools through a single remote MCP (Model Context Protocol) gateway over Streamable HTTP with OAuth. Any MCP-capable client (Claude Code,
@@ -163,8 +163,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

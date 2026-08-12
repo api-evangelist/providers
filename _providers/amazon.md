@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -821,16 +821,16 @@ rules:
     warn: 11
   slug: amazon-spectral-rules
 score:
-  band: strong
-  composite: 59.6
-  delta: 0.0
+  band: developing
+  composite: 54.7
+  delta: -4.9
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 78.2
+    commercial_clarity: 50.0
+    contract_quality: 75.6
     developer_ergonomics: 45.7
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 68.8
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 59.6
   provenance:
     agentic_access: derived
@@ -842,11 +842,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 43.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Payments
+    regime_id: payments
+    score: 48.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -57,6 +57,10 @@ collections:
   name: High Mobility Vehicle API
   slug: open-high-mobility
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/highmobility/open-api-specifications/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -120,7 +124,7 @@ network: true
 overview: 'High Mobility publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Fleet Clearance API, Vehicle Data API, and 1 more. Tagged areas include Automotive, Connected Cars, IoT, and Vehicle Data.
 
 
-  High Mobility''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, and 7 more developer resources.'
+  High Mobility''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, and 8 more developer resources.'
 plans:
 - name: High Mobility Plans Pricing
   plan_count: 3
@@ -137,15 +141,15 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 41.5
-  delta: 0.0
+  composite: 36.5
+  delta: -5.0
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 65.1
+    commercial_clarity: 28.9
+    contract_quality: 62.7
     developer_ergonomics: 30.4
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 41.5
   provenance:
     agentic_access: derived
@@ -154,9 +158,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/high-mobility/refs/heads/main/screenshots/high-mobility-2026-06-20T182732.png
 security:
 - kind: authentication

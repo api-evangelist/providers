@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -59,6 +59,10 @@ apis:
   slug: bithumb-wallet-api
 artifact_total: 18
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/bithumb-pro/bithumb.pro-official-api-docs/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -138,7 +142,7 @@ overview: 'Bithumb publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
   The Bithumb catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Bithumb''s developer surface includes authentication, documentation, changelog, support, engineering blog, and 6 more developer resources.'
+  Bithumb''s developer surface includes authentication, documentation, changelog, support, engineering blog, and 7 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
@@ -159,11 +163,11 @@ rules:
   slug: bithumb-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.0
-  delta: 0.0
+  composite: 43.6
+  delta: -0.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 58.3
+    contract_quality: 56.1
     developer_ergonomics: 34.8
     discoverability: 74.1
     governance: 58.3
@@ -182,8 +186,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/screenshots/bithumb-2026-06-20T173314.png
 security:

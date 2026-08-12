@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 57.2
-  scored_at: '2026-08-10'
+  score: 53.6
+  scored_at: '2026-08-11'
 api_count: 9
 apis:
 - description: 'The primary protocol for KurrentDB. The published protocol buffer definitions cover the v2 streams service (multi-stream appends, reads), the schema registry service, the secondary index service, and '
@@ -276,7 +276,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/kurrent-kurrentdb-http-api-openapi.yml
+  url: openapi/_original/kurrent-kurrentdb-http-api-openapi.yml
 created: '2026-07-17'
 description: Kurrent — formerly Event Store Ltd — builds KurrentDB, an event-native database purpose-built to store, process and deliver application state changes as an immutable, append-only log of events. Where a traditional CRUD database overwrites rows and discards the history that produced them, KurrentDB retains every state change as a first-class event, giving applications a complete audit trail, temporal queries and the ability to replay history to rebuild state or seed new read models. The product line spans KurrentDB (open-source and commercial, self-hosted), Kurrent Cloud (managed clusters on AWS, Azure and Google Cloud), Kurrent Enterprise, and Capacitor, a shared memory layer for agentic coding. Developers integrate over a primary gRPC protocol with official client SDKs for .NET, Java, Node.js, Python, Go and Rust, or over the native AtomPub-style HTTP API. Connectors move events in and out of Kafka, MongoDB, Elasticsearch, RabbitMQ, Pulsar, SQL and HTTP endpoints. KurrentDB
   is widely used for event sourcing, CQRS, event-driven microservices, change data capture and, increasingly, as durable memory for AI agents.
@@ -305,11 +305,11 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: strong
-  composite: 62.7
-  delta: 0.0
+  composite: 62.1
+  delta: -0.6
   facets:
     commercial_clarity: 52.6
-    contract_quality: 65.9
+    contract_quality: 63.4
     developer_ergonomics: 91.3
     discoverability: 92.6
     governance: 11.5
@@ -324,8 +324,8 @@ score:
       total: 8
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/screenshots/kurrent-2026-07-25T224337.png
 security:

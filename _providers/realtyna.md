@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The WPL API Plugin is a RESTful HTTP/JSON interface for the Realtyna WPL WordPress platform. It supports user account registration and management, authentication, retrieving active listing types, load
@@ -97,19 +97,19 @@ rate_limits:
   slug: realtyna-rate-limits
 score:
   band: emerging
-  composite: 21.3
-  delta: 0.0
+  composite: 14.3
+  delta: -7.0
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 21.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/realtyna/refs/heads/main/screenshots/realtyna-2026-06-20T192659.png
 security:
 - kind: domain-security

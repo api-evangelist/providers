@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: The SoftwareOne Marketplace Platform API provides programmatic access to the marketplace catalog, enabling clients and partners to browse products, manage subscriptions, track orders, and access billi
@@ -158,26 +158,26 @@ rules:
     warn: 3
   slug: softwareone-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.2
-  delta: -1.0
+  band: thin
+  composite: 37.5
+  delta: -6.7
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 59.7
+    commercial_clarity: 15.8
+    contract_quality: 61.2
     developer_ergonomics: 10.9
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 58.3
-    operational_transparency: 36.8
-  previous_composite: 45.2
+    operational_transparency: 13.2
+  previous_composite: 44.2
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+      total: 5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/softwareone/refs/heads/main/screenshots/softwareone-2026-06-20T194144.png
 security:
 - kind: domain-security

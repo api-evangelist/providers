@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-10'
+  score: 37.8
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: The Request API from CivicPlus — 1 operation(s) for request.
@@ -159,13 +159,13 @@ overview: 'CivicPlus publishes 5 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 50
 score:
   band: thin
-  composite: 39.1
-  delta: 0.0
+  composite: 37.8
+  delta: -1.3
   facets:
     commercial_clarity: 21.1
-    contract_quality: 49.6
+    contract_quality: 47.8
     developer_ergonomics: 39.1
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 39.1
@@ -183,8 +183,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/screenshots/civicplus-2026-07-25T205443.png
 security:

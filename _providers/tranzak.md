@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: 'REST API for collecting payments from customers via mobile money (MTN MOMO, Orange Money), QR code in-store payments, and web redirect checkout. Supports direct mobile wallet charges, payment request '
@@ -136,8 +136,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tranzak/refs/heads/main/screenshots/tranzak-2026-06-20T195635.png
 security:

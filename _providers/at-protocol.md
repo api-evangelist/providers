@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 3
@@ -85,6 +85,22 @@ collections:
   name: AT Protocol XRPC API
   slug: open-at-protocol
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/bluesky-social/atproto/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/bluesky-social/atproto/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/bluesky-social/atproto/blob/main/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/bluesky-social/atproto/blob/main/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -159,7 +175,7 @@ overview: 'AT Protocol publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
   The AT Protocol catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  AT Protocol''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
+  AT Protocol''s developer surface includes authentication, documentation, engineering blog, and 15 more developer resources.'
 plans:
 - name: At Protocol Plans Pricing
   plan_count: 1
@@ -179,16 +195,16 @@ rules:
     warn: 5
   slug: at-protocol-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 41.5
-  delta: 0.0
+  band: developing
+  composite: 44.5
+  delta: 3.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 57.1
+    contract_quality: 55.2
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 41.7
-    operational_transparency: 26.3
+    operational_transparency: 52.6
   previous_composite: 41.5
   provenance:
     agentic_access: derived
@@ -197,8 +213,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

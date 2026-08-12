@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -181,15 +181,15 @@ rules:
   slug: the-bureau-of-economic-analysis-rules
 score:
   band: developing
-  composite: 47.8
-  delta: 0.0
+  composite: 42.8
+  delta: -5.0
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 69.8
+    commercial_clarity: 28.9
+    contract_quality: 67.2
     developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 47.8
   provenance:
     agentic_access: derived
@@ -204,9 +204,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/screenshots/the-bureau-of-economic-analysis-2026-06-20T195214.png
 security:
 - kind: authentication

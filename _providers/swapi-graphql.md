@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Star Wars GraphQL API
@@ -73,8 +73,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swapi-graphql/refs/heads/main/screenshots/swapi-graphql-2026-06-20T194754.png
 security:

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 54.7
-  scored_at: '2026-08-10'
+  score: 51.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -99,6 +99,10 @@ asyncapis:
   name: Aza Finance Webhooks
   slug: aza-finance-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aza-finance-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -221,17 +225,17 @@ overview: 'AZA Finance publishes 16 APIs on the [APIs.io](https://apis.io/) netw
   The AZA Finance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  AZA Finance''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 19 more developer resources.'
+  AZA Finance''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 20 more developer resources.'
 random_paper: 41
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 47.5
+  delta: -1.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 70.8
+    contract_quality: 68.2
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
   previous_composite: 49.0
@@ -251,8 +255,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/screenshots/aza-finance-2026-07-25T202112.png
 security:

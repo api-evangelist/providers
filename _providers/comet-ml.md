@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: 'The Comet REST API exposes read endpoints (workspace, project, experiment data), write endpoints (data submission), and Model Production Monitoring (MPM) endpoints. Authentication uses an API key via '
@@ -39,6 +39,22 @@ apis:
   slug: opik
 artifact_total: 10
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/comet-ml/opik/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/comet-ml/opik/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/comet-ml/opik/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/comet-ml/opik/blob/main/LICENSE
 - group: auth
   title: ''
   type: TrustCenter
@@ -110,7 +126,7 @@ network: true
 overview: 'Comet publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ML, MLOps, GenAI, Experiment Tracking, and Model Monitoring.
 
 
-  Comet''s developer surface includes developer portal, pricing, engineering blog, and 10 more developer resources.'
+  Comet''s developer surface includes developer portal, pricing, engineering blog, and 14 more developer resources.'
 plans:
 - name: Comet Ml Plans Pricing
   plan_count: 1
@@ -122,18 +138,18 @@ rate_limits:
   slug: comet-ml-rate-limits
 score:
   band: emerging
-  composite: 23.7
-  delta: 0.0
+  composite: 21.8
+  delta: -1.9
   facets:
-    commercial_clarity: 47.4
+    commercial_clarity: 31.6
     contract_quality: 0.0
-    developer_ergonomics: 19.6
+    developer_ergonomics: 26.1
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 23.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/comet-ml/refs/heads/main/screenshots/comet-ml-2026-06-20T174806.png
 security:

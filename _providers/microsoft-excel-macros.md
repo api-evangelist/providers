@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Core API for interacting with Excel objects, workbooks, worksheets, ranges, and cells through VBA automation.
@@ -108,20 +108,20 @@ rate_limits:
   name: Microsoft Excel Macros Rate Limits
   slug: microsoft-excel-macros-rate-limits
 score:
-  band: thin
-  composite: 31.0
-  delta: 0.0
+  band: emerging
+  composite: 23.2
+  delta: -7.8
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 32.6
     discoverability: 55.6
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 31.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-macros/refs/heads/main/screenshots/microsoft-excel-macros-2026-06-20T185500.png
 security:
 - kind: domain-security

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 23.4
-  scored_at: '2026-08-10'
+  score: 19.8
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the CandyClub Shopify storefront: a Universal Commerce Protocol (UCP) MCP endpoint plus read-only storefront browsing, governed by an llms.txt agent guide and Shopify'
@@ -104,20 +104,20 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 19.5
-  delta: 0.0
+  composite: 18.4
+  delta: -1.1
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 19.6
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 19.5
   provenance:
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/candyclub/refs/heads/main/screenshots/candyclub-2026-08-07T162931.png
 security:

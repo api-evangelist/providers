@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,6 +46,10 @@ apis:
   slug: cuein-conversations-api
 artifact_total: 7
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cuein-answers-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -145,17 +149,17 @@ network: true
 overview: 'Cuein publishes 2 APIs on the [APIs.io](https://apis.io/) network: answers API and conversations API. Tagged areas include Company, Customer Experience, Customer Support, Conversation Intelligence, and Generative AI.
 
 
-  Cuein''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 14 more developer resources.'
+  Cuein''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 15 more developer resources.'
 random_paper: 68
 score:
   band: developing
-  composite: 43.7
-  delta: 0.0
+  composite: 42.0
+  delta: -1.7
   facets:
     commercial_clarity: 42.1
-    contract_quality: 55.8
+    contract_quality: 53.7
     developer_ergonomics: 56.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 43.7
@@ -169,8 +173,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/screenshots/cuein-2026-07-25T210908.png
 security:

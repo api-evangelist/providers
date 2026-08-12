@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -143,11 +143,11 @@ rate_limits:
   slug: sambanova-rate-limits
 score:
   band: thin
-  composite: 41.0
-  delta: 0.0
+  composite: 40.4
+  delta: -0.6
   facets:
     commercial_clarity: 36.8
-    contract_quality: 63.6
+    contract_quality: 61.2
     developer_ergonomics: 34.8
     discoverability: 74.1
     governance: 0.0
@@ -160,8 +160,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sambanova/refs/heads/main/screenshots/sambanova-2026-06-20T193358.png
 security:

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-10'
+  score: 41.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API to manage payment workflows end to end — create projects, manage payers and payees, run KYC verification, and authorise payments to disburse funds securely. Secured with mTLS + API key + RSA-
@@ -171,13 +171,13 @@ overview: 'Shieldpay publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 35
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 48.4
+  delta: -2.1
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
     developer_ergonomics: 58.7
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 39.5
   previous_composite: 50.5
@@ -188,9 +188,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 53.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 45.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 3
@@ -1040,15 +1041,15 @@ rules:
   slug: jfrog-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 75.1
-  delta: 0.0
+  composite: 68.7
+  delta: -6.4
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 70.6
-    developer_ergonomics: 80.4
-    discoverability: 75.9
+    commercial_clarity: 60.5
+    contract_quality: 68.0
+    developer_ergonomics: 87.0
+    discoverability: 83.3
     governance: 58.3
-    operational_transparency: 76.3
+    operational_transparency: 52.6
   previous_composite: 75.1
   provenance:
     agentic_access: derived
@@ -1057,9 +1058,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 53
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/screenshots/jfrog-2026-06-20T183730.png
 security:
 - kind: authentication

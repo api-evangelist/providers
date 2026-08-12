@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 183
   human_in_the_loop: 6
@@ -465,10 +466,6 @@ common:
   url: https://platform.openai.com/docs/api-reference/webhook_events/response
 - group: docs
   title: ''
-  type: OpenAPI
-  url: properties/openai-openapi
-- group: docs
-  title: ''
   type: JSONSchema
   url: json-schema/openai-chat-completion-schema.json
 - group: docs
@@ -566,7 +563,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/openai-openapi-master.yml
+  url: openapi/_original/openai-openapi-master.yml
 - group: build
   title: ''
   type: GitHubRepository
@@ -991,7 +988,7 @@ overview: 'OpenAI publishes 49 APIs on the [APIs.io](https://apis.io/) network, 
   The OpenAI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 5 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  OpenAI''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, pricing, signup flow, and 93 more developer resources.'
+  OpenAI''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, pricing, signup flow, and 92 more developer resources.'
 plans:
 - name: Openai Plans Pricing
   plan_count: 6
@@ -1028,13 +1025,13 @@ rules:
   slug: openai-spectral-rules
 score:
   band: exemplar
-  composite: 69.0
-  delta: 0.0
+  composite: 66.5
+  delta: -2.5
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 79.3
-    developer_ergonomics: 56.5
-    discoverability: 50.0
+    commercial_clarity: 68.4
+    contract_quality: 80.0
+    developer_ergonomics: 63.0
+    discoverability: 57.4
     governance: 52.1
     operational_transparency: 63.2
   previous_composite: 69.0
@@ -1045,8 +1042,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/screenshots/openai-2026-06-20T190903.png
 security:

@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-08-10'
+  score: 43.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -49,12 +49,16 @@ apis:
 - description: The Webhooks API from Snappt — 3 operation(s) for webhooks.
   name: Snappt Webhooks API
   slug: snappt-webhooks-api
-artifact_total: 12
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Snappt Enterprise Api Webhooks
   slug: snappt-enterprise-api-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/snappt-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -191,6 +195,10 @@ created: '2026-08-05'
 description: Snappt is a Los Angeles-based applicant-screening and document-fraud-detection company serving the multifamily rental and property-management industry. Its Applicant Trust Platform combines proprietary AI document forensics with human review to detect edited pay stubs and bank statements, verify applicant income from traditional and connected payroll sources, verify identity with biometric and document checks, and confirm rental payment history. Snappt exposes this to property-management systems and partners through the Snappt Enterprise API — a partner API-key-authenticated REST API covering properties, applicant sessions, document upload, fraud and income reports, ID-verification sessions and outbound webhooks — plus an embeddable browser SDK that launches the applicant verification flow as a modal inside a partner's own leasing flow.
 image: https://snappt.com/wp-content/uploads/2023/05/snappt-sharing-fallback.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: snappt-mcp.yml
+  slug: snappt-mcpyml
 modified: '2026-08-05'
 name: Snappt
 nav: Providers
@@ -201,20 +209,20 @@ overview: 'Snappt publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
   The Snappt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Snappt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
+  Snappt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 random_paper: 82
 score:
   band: strong
-  composite: 59.3
-  delta: 0.1
+  composite: 59.7
+  delta: 0.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 61.0
-    developer_ergonomics: 66.8
+    contract_quality: 60.9
+    developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 52.6
-  previous_composite: 59.2
+  previous_composite: 59.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -222,11 +230,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

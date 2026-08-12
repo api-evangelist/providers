@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The HTTP surface an Exonum node serves. The explorer service exposes REST endpoints under /api/explorer (blocks, block, transactions, call_status) plus a WebSocket interface for submitting signed tran
@@ -30,6 +30,22 @@ asyncapis:
   name: Bitfury Group Exonum Events
   slug: bitfury-group-exonum-events
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/exonum/exonum/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/exonum/exonum/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/exonum/exonum/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/exonum/exonum/blob/master/CONTRIBUTING.md
 - group: company
   title: ''
   type: Website
@@ -220,24 +236,24 @@ overview: 'BitFury publishes 1 API on the [APIs.io](https://apis.io/) network. T
   The BitFury catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  BitFury''s developer surface includes documentation, API reference, getting-started guide, support, FAQ, engineering blog, changelog, and 37 more developer resources.'
+  BitFury''s developer surface includes documentation, API reference, getting-started guide, support, FAQ, engineering blog, changelog, and 41 more developer resources.'
 random_paper: 99
 score:
   band: developing
-  composite: 45.1
-  delta: 0.0
+  composite: 44.0
+  delta: -1.1
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.6
     developer_ergonomics: 71.7
-    discoverability: 77.8
+    discoverability: 66.7
     governance: 3.1
     operational_transparency: 42.1
   previous_composite: 45.1
   provenance:
     conformance: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/screenshots/bitfury-group-2026-08-07T162553.png
 security:

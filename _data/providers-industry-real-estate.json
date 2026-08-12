@@ -8,8 +8,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 6,
-   "shown": 6,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "WeWork",
@@ -27,8 +27,8 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 9.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -54,19 +54,19 @@
      "slug": "abm-industries",
      "description": "ABM Industries provides facility, engineering and infrastructure, and mobility solutions helping organizations with health and safety, resilience, productivity, and sustainability. ABM serves over 100,000 employees across industries including aerospace, aviation, commercial real estate, data centers, healthcare, and more. ABM Connect is their data intelligence platform that unifies facility, financial, equipment, IoT, and service-delivery data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/abm-industries/refs/heads/main/screenshots/abm-industries-2026-06-20T163238.png",
-     "score": 25.3,
+     "score": 20.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 17.7,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 10.9,
-      "commercial_clarity": 50.0
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -88,44 +88,6 @@
      "rank": 2
     },
     {
-     "name": "Simon Property Group",
-     "slug": "simon-property-group",
-     "description": "Simon Property Group is the largest retail real estate investment trust (REIT) in the United States, owning, developing, and managing premier shopping, dining, entertainment, and mixed-use destinations. Simon's portfolio includes an interest in 254 properties: traditional malls, premium outlets, Mills centers, lifestyle centers, and other retail properties in North America, Europe, and Asia. The company operates ShopSimon, an e-commerce platform, and Simon Innovation Group to advance retail technology innovation. Simon had trailing twelve-month revenue of approximately $6.36 billion as of 2025 and a market capitalization of approximately $67 billion.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/simon-property-group/refs/heads/main/screenshots/simon-property-group-2026-06-20T193930.png",
-     "score": 17.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 12.9,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 3
-    },
-    {
      "name": "Ventas",
      "slug": "ventas",
      "description": "Ventas, Inc. is an S&P 500 healthcare real estate investment trust (REIT) and one of the largest owners of senior housing communities, medical office buildings, life science research facilities, and health system facilities in the United States, Canada, and United Kingdom. Ventas operates the Ventas OI proprietary data platform for operational intelligence across its portfolio of approximately 1,400 properties. Ventas does not offer a public developer API; data access is available through financial data providers and SEC EDGAR filings.",
@@ -141,8 +103,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -168,82 +130,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 4
-    },
-    {
-     "name": "Skyline Champion",
-     "slug": "skyline-champion",
-     "description": "Skyline Champion is a major US corporation and Fortune 1000 company. The Skyline Champion API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "score": 14.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 5
-    },
-    {
-     "name": "Rollins",
-     "slug": "rollins",
-     "description": "Rollins is a major US corporation and Fortune 1000 company. The Rollins API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rollins/refs/heads/main/screenshots/rollins-2026-06-20T193207.png",
-     "score": 14.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 6
+     "rank": 3
     }
    ],
    "open": true
@@ -253,8 +140,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 17,
-   "shown": 17,
+   "count": 20,
+   "shown": 20,
    "providers": [
     {
      "name": "Compass",
@@ -271,8 +158,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -298,7 +185,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 4
+    },
+    {
+     "name": "Simon Property Group",
+     "slug": "simon-property-group",
+     "description": "Simon Property Group is the largest retail real estate investment trust (REIT) in the United States, owning, developing, and managing premier shopping, dining, entertainment, and mixed-use destinations. Simon's portfolio includes an interest in 254 properties: traditional malls, premium outlets, Mills centers, lifestyle centers, and other retail properties in North America, Europe, and Asia. The company operates ShopSimon, an e-commerce platform, and Simon Innovation Group to advance retail technology innovation. Simon had trailing twelve-month revenue of approximately $6.36 billion as of 2025 and a market capitalization of approximately $67 billion.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/simon-property-group/refs/heads/main/screenshots/simon-property-group-2026-06-20T193930.png",
+     "score": 12.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 12.9,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 5
     },
     {
      "name": "eXp World Holdings",
@@ -316,8 +241,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -343,7 +268,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 6
     },
     {
      "name": "Alexandria Real Estate Equities",
@@ -361,8 +286,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -388,7 +313,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 7
     },
     {
      "name": "Welltower",
@@ -406,8 +331,83 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 8
+    },
+    {
+     "name": "Skyline Champion",
+     "slug": "skyline-champion",
+     "description": "Skyline Champion is a major US corporation and Fortune 1000 company. The Skyline Champion API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "score": 9.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 9
+    },
+    {
+     "name": "Extra Space Storage",
+     "slug": "extra-space-storage",
+     "description": "Extra Space Storage Inc. is a fully integrated, self-administered and self-managed real estate investment trust (REIT) and one of the largest operators of self-storage properties in the United States. The company owns, operates, and manages thousands of self-storage facilities across the country, offering storage units, vehicle storage, and business storage solutions. Extra Space Storage does not currently publish a public developer API or documentation portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/extra-space-storage/refs/heads/main/screenshots/extra-space-storage-2026-08-07T165121.png",
+     "score": 9.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 35.2,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -429,24 +429,24 @@
      "rank": 10
     },
     {
-     "name": "Extra Space Storage",
-     "slug": "extra-space-storage",
-     "description": "Extra Space Storage Inc. is a fully integrated, self-administered and self-managed real estate investment trust (REIT) and one of the largest operators of self-storage properties in the United States. The company owns, operates, and manages thousands of self-storage facilities across the country, offering storage units, vehicle storage, and business storage solutions. Extra Space Storage does not currently publish a public developer API or documentation portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/extra-space-storage/refs/heads/main/screenshots/extra-space-storage-2026-08-07T165121.png",
-     "score": 9.0,
+     "name": "Rollins",
+     "slug": "rollins",
+     "description": "Rollins is a major US corporation and Fortune 1000 company. The Rollins API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rollins/refs/heads/main/screenshots/rollins-2026-06-20T193207.png",
+     "score": 8.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 35.2,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -456,7 +456,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -481,8 +481,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -526,8 +526,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -564,8 +564,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -602,8 +602,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -640,8 +640,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -678,8 +678,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -716,8 +716,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -754,8 +754,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -792,8 +792,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -830,8 +830,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -868,8 +868,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -905,8 +905,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

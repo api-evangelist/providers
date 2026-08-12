@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -163,13 +163,13 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 41.3
-  delta: 0.0
+  composite: 35.8
+  delta: -5.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 55.0
+    contract_quality: 53.0
     developer_ergonomics: 21.2
-    discoverability: 83.3
+    discoverability: 72.2
     governance: 11.5
     operational_transparency: 18.4
   previous_composite: 41.3
@@ -188,10 +188,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 81.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+    score: 53.2
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 security:
 - kind: authentication
   name: Secure Trust Bank Authentication

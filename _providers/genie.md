@@ -27,10 +27,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/GenieFramework/Genie.jl/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/GenieFramework/Genie.jl/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/GenieFramework/Genie.jl/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/GenieFramework/Genie.jl/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/GenieFramework/Genie.jl/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -102,22 +122,22 @@ network: true
 overview: 'Genie is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web Framework, Julia, Data Apps, and Data Science.
 
 
-  Genie''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, changelog, and 8 more developer resources.'
+  Genie''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, changelog, and 13 more developer resources.'
 random_paper: 56
 score:
   band: emerging
-  composite: 21.3
-  delta: 0.0
+  composite: 20.1
+  delta: -1.2
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
     developer_ergonomics: 47.8
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 21.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genie/refs/heads/main/screenshots/genie-2026-07-25T215616.png
 security:

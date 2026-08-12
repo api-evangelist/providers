@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -142,11 +142,11 @@ overview: 'LiveChat publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 36
 score:
   band: thin
-  composite: 30.1
-  delta: 0.0
+  composite: 34.5
+  delta: 4.4
   facets:
-    commercial_clarity: 10.5
-    contract_quality: 66.2
+    commercial_clarity: 23.7
+    contract_quality: 64.1
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 0.0
@@ -159,14 +159,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 16.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/screenshots/livechat-2026-06-20T184613.png
 security:

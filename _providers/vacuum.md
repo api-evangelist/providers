@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Vacuum is the world's fastest OpenAPI linter written in Go. It processes API specifications at lightning speed with full Spectral ruleset compatibility, interactive dashboards, HTML reports, and Langu
@@ -36,6 +36,10 @@ apis:
   slug: vacuum
 artifact_total: 11
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/daveshanley/vacuum/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -118,7 +122,7 @@ overview: 'Vacuum publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
   The Vacuum catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Vacuum''s developer surface includes documentation and 10 more developer resources.'
+  Vacuum''s developer surface includes documentation and 11 more developer resources.'
 plans:
 - name: Vacuum Plans Pricing
   plan_count: 3
@@ -138,20 +142,20 @@ rules:
     warn: 4
   slug: vacuum-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 31.8
-  delta: 0.0
+  band: emerging
+  composite: 24.9
+  delta: -6.9
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 12.9
-    developer_ergonomics: 8.7
+    developer_ergonomics: 13.0
     discoverability: 59.3
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 31.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vacuum/refs/heads/main/screenshots/vacuum-2026-06-20T200740.png
 security:
 - kind: domain-security

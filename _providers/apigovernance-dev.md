@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: APIGovernance.Dev provides automated API governance reviews using AI trained on 10,000 public APIs. It offers the API Governance Top-10 best practices list, CI/CD integration, and enterprise governanc
@@ -141,20 +141,20 @@ rules:
     warn: 3
   slug: apigovernance-dev-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 34.3
-  delta: 0.0
+  band: emerging
+  composite: 26.5
+  delta: -7.8
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 29.0
     developer_ergonomics: 0.0
     discoverability: 59.3
     governance: 58.3
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 34.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apigovernance-dev/refs/heads/main/screenshots/apigovernance-dev-2026-06-20T172239.png
 security:
 - kind: domain-security

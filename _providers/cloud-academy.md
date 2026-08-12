@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 4
@@ -49,6 +49,10 @@ apis:
   slug: cloud-academy-reports-api
 artifact_total: 9
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cloud-academy-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -172,7 +176,7 @@ network: true
 overview: 'Cloud Academy publishes 3 APIs on the [APIs.io](https://apis.io/) network: Learning Management System API, Organizations API, and Reports API. Tagged areas include Company, Training, Education, Learning Management, and Cloud Computing.
 
 
-  Cloud Academy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
+  Cloud Academy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
 random_paper: 28
 rate_limits:
 - limit_count: 3
@@ -185,13 +189,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.2
-  delta: 0.0
+  composite: 51.5
+  delta: -1.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 58.1
+    contract_quality: 56.0
     developer_ergonomics: 56.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 60.5
   previous_composite: 53.2
@@ -205,8 +209,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/screenshots/cloud-academy-2026-07-25T205650.png
 security:

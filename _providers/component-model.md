@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: The Component Model specification repository under the W3C WebAssembly Community Group. Contains design documents, the formal specification drafts, the WIT grammar, the canonical ABI, and the binary a
@@ -45,6 +45,14 @@ apis:
   slug: bytecode-alliance-implementations
 artifact_total: 8
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/WebAssembly/component-model/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/WebAssembly/.github/blob/main/CODE_OF_CONDUCT.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -92,7 +100,7 @@ network: true
 overview: 'Component Model publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ABI, Bytecode Alliance, Component, Interface, and Modular.
 
 
-  Component Model''s developer surface includes documentation and 7 more developer resources.'
+  Component Model''s developer surface includes documentation and 9 more developer resources.'
 plans:
 - name: Component Model Plans Pricing
   plan_count: 3
@@ -104,19 +112,19 @@ rate_limits:
   slug: component-model-rate-limits
 score:
   band: emerging
-  composite: 23.1
-  delta: 0.0
+  composite: 15.3
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 15.2
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 23.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/component-model/refs/heads/main/screenshots/component-model-2026-06-20T174832.png
 security:
 - kind: domain-security

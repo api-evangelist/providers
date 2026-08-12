@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 57.7
-  scored_at: '2026-08-10'
+  score: 54.1
+  scored_at: '2026-08-11'
 api_count: 13
 apis:
 - description: The Classes API from Landing.ai — 1 operation(s) for classes.
@@ -113,6 +114,10 @@ collections:
   name: 'LandingAI Agentic Document Extraction (ADE) API v1: Parse, Extract, Classify, Split, Section Classes Training API'
   slug: postman-landingai-training-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/landingai-ade-v1-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -269,7 +274,7 @@ network: true
 overview: 'Landing.ai publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Classes API, Deployment API, Extract API, and 10 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, Document Extraction, and Document Processing.
 
 
-  Landing.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+  Landing.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 plans:
 - name: Landingai Plans
   plan_count: 3
@@ -281,13 +286,13 @@ rate_limits:
   slug: landingai-rate-limits
 score:
   band: exemplar
-  composite: 71.4
-  delta: 0.0
+  composite: 69.7
+  delta: -1.7
   facets:
     commercial_clarity: 92.1
-    contract_quality: 56.2
+    contract_quality: 54.1
     developer_ergonomics: 84.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 86.8
   previous_composite: 71.4
@@ -300,8 +305,8 @@ score:
       total: 13
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/screenshots/landingai-2026-07-25T224504.png
 security:

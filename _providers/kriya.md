@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-10'
+  score: 45.3
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: The Buyers API from Kriya — 6 operation(s) for buyers.
@@ -55,6 +55,10 @@ asyncapis:
   name: Kriya Payments Webhooks
   slug: kriya-payments-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kriya-onboarding-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -177,15 +181,15 @@ overview: 'Kriya publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
   The Kriya catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kriya''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 19 more developer resources.'
+  Kriya''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 20 more developer resources.'
 random_paper: 80
 score:
   band: developing
-  composite: 48.7
-  delta: 0.0
+  composite: 48.2
+  delta: -0.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 65.6
+    contract_quality: 63.2
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
@@ -206,8 +210,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kriya/refs/heads/main/screenshots/kriya-2026-07-25T224301.png
 security:

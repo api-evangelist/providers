@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -56,6 +56,14 @@ collections:
   name: Fake Store API
   slug: open-fake-store-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/keikaavousi/fake-store-api/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/keikaavousi/fake-store-api/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -95,7 +103,7 @@ network: true
 overview: 'Fake Store API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Carts API, Products API, and 1 more. Tagged areas include Customers, Fake Data, Orders, Products, and Synthetic Data.
 
 
-  Fake Store API''s developer surface includes documentation and 5 more developer resources.'
+  Fake Store API''s developer surface includes documentation and 7 more developer resources.'
 plans:
 - name: Fake Store Api Plans Pricing
   plan_count: 3
@@ -106,16 +114,16 @@ rate_limits:
   name: Fake Store Api Rate Limits
   slug: fake-store-api-rate-limits
 score:
-  band: thin
-  composite: 34.2
-  delta: 0.0
+  band: emerging
+  composite: 25.9
+  delta: -8.3
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 52.3
+    commercial_clarity: 15.8
+    contract_quality: 50.4
     developer_ergonomics: 8.7
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 34.2
   provenance:
     agentic_access: derived
@@ -124,9 +132,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fake-store-api/refs/heads/main/screenshots/fake-store-api-2026-06-20T181017.png
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: The wasmCloud control interface provides a NATS-based API for managing the wasmCloud lattice. It supports operations for starting and stopping actors and providers, establishing links between componen
@@ -58,6 +58,10 @@ asyncapis:
   name: wasmCloud wadm Application Deployment Manager API
   slug: wasmcloud-wadm-asyncapi
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/wasmCloud/wadm/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -213,7 +217,7 @@ overview: 'wasmCloud publishes 2 APIs on the [APIs.io](https://apis.io/) network
   The wasmCloud catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  wasmCloud''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 21 more developer resources.'
+  wasmCloud''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 22 more developer resources.'
 plans:
 - name: Wasmcloud Plans Pricing
   plan_count: 3
@@ -242,19 +246,19 @@ rules:
   slug: wasmcloud-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.3
-  delta: 0.0
+  composite: 47.2
+  delta: -7.1
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 78.4
     developer_ergonomics: 26.1
-    discoverability: 72.2
+    discoverability: 79.6
     governance: 62.5
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 54.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wasmcloud/refs/heads/main/screenshots/wasmcloud-2026-06-20T201238.png
 security:
 - kind: domain-security

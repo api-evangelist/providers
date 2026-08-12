@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-10'
+  score: 0.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: '@nori/sdk — robot-local teleoperation SDK. Connects to a Nori robot over WebRTC, receives video and telemetry, and drives it from the browser via the RemoteTeleop client. Signaling over the reference '
@@ -118,20 +118,20 @@ overview: 'Nori publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 17
 score:
   band: emerging
-  composite: 18.0
-  delta: 0.0
+  composite: 16.9
+  delta: -1.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 45.7
-    discoverability: 77.8
+    discoverability: 66.7
     governance: 3.1
     operational_transparency: 5.3
   previous_composite: 18.0
   provenance:
     conformance: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noril1/refs/heads/main/screenshots/noril1-2026-08-07T185516.png
 security:

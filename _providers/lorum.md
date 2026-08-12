@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 52.5
-  scored_at: '2026-08-10'
+  score: 48.9
+  scored_at: '2026-08-11'
 api_count: 10
 apis:
 - description: The Accounts API from Lorum — 5 operation(s) for accounts.
@@ -67,6 +67,10 @@ asyncapis:
   name: Lorum (Fuse) Webhooks
   slug: lorum-webhooks-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lorum-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -185,15 +189,15 @@ overview: 'Lorum publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
   The Lorum catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lorum''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 18 more developer resources.'
+  Lorum''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 19 more developer resources.'
 random_paper: 95
 score:
   band: developing
-  composite: 45.9
-  delta: 0.0
+  composite: 45.4
+  delta: -0.5
   facets:
     commercial_clarity: 23.7
-    contract_quality: 73.5
+    contract_quality: 70.8
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
@@ -214,8 +218,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lorum/refs/heads/main/screenshots/lorum-2026-07-25T225554.png
 security:

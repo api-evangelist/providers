@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 23.4
-  scored_at: '2026-08-10'
+  score: 19.8
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 4
 common:
@@ -147,21 +147,21 @@ overview: 'Natoma is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 60
 score:
   band: thin
-  composite: 35.4
-  delta: 0.0
+  composite: 34.3
+  delta: -1.1
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 60.9
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 12.5
     operational_transparency: 21.1
   previous_composite: 35.4
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/natoma/refs/heads/main/screenshots/natoma-2026-08-07T184657.png
 security:

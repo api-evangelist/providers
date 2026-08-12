@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.7
-  scored_at: '2026-08-10'
+  score: 25.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -53,8 +53,16 @@ apis:
 - description: Open banking / accredited-investor (proof of accreditation)
   name: zkMe zkOBS API
   slug: zkme-zkobs-api
-artifact_total: 10
+artifact_total: 11
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/zkme-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zkme-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -127,6 +135,10 @@ created: '2026-07-17'
 description: zkMe is a decentralized identity network delivering privacy-preserving compliance for Web3. Using zero-knowledge proofs, self-sovereign identity (SSI) wallets, DID methods and soulbound tokens, zkMe lets applications verify their users and businesses without ever handling raw personal data. Its product suite spans zkKYC (customer identity with sanction, age, citizenship, location and uniqueness/anti-Sybil proofs), zkKYB (business entity and UBO verification), zkOBS (open-banking proof of accredited investor and proof of address), and KYT (on-chain wallet-address and transaction risk screening). Verification runs client-side through embeddable JavaScript and mobile widgets; integrators then query outcomes through the zkMe Open API on agw.zk.me using an AppID + API key pair. zkMe also publishes zkTLS verifier SDKs, DID registry/resolver tooling and smart contracts through its zkMeLabs GitHub org.
 image: https://zk.me/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: zkme-mcp.yml
+  slug: zkme-mcpyml
 modified: '2026-07-21'
 name: zkMe
 nav: Providers
@@ -134,7 +146,7 @@ network: true
 overview: 'zkMe publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Auth API, KYT API, zkKYB API, and 2 more. Tagged areas include Company, Crypto Web3, Identity, KYC, and KYB.
 
 
-  zkMe''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, and 12 more developer resources.'
+  zkMe''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, and 14 more developer resources.'
 random_paper: 91
 rate_limits:
 - limit_count: 1
@@ -142,13 +154,13 @@ rate_limits:
   slug: zkme-rate-limits
 score:
   band: thin
-  composite: 41.0
-  delta: 0.0
+  composite: 39.9
+  delta: -1.1
   facets:
     commercial_clarity: 13.2
-    contract_quality: 54.1
-    developer_ergonomics: 47.3
-    discoverability: 92.6
+    contract_quality: 52.1
+    developer_ergonomics: 49.5
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
   previous_composite: 41.0
@@ -162,8 +174,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,6 +51,18 @@ collections:
   name: Checkiday - National Holiday and Event API
   slug: open-checkiday
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/westy92/holiday-event-api-js/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/westy92/holiday-event-api-js/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/westy92/holiday-event-api-js/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -142,18 +154,6 @@ common:
 - group: other
   title: ''
   type: Resources
-  url: capabilities/holiday-lookup.yaml
-- group: other
-  title: ''
-  type: Resources
-  url: capabilities/event-discovery.yaml
-- group: other
-  title: ''
-  type: Resources
-  url: capabilities/editorial-calendar.yaml
-- group: other
-  title: ''
-  type: Resources
   url: finops/checkiday-finops.yml
 created: '2026-05-28'
 description: Industry-leading Holiday and Event API by Checkiday, providing data on more than 5,000 national, international, and bizarre holidays and observances with thousands of descriptions, hashtags, images, founders, alternate names, and multi-year occurrence patterns. Routed through the apilayer marketplace with X-API-Key (apikey) header authentication and official client libraries for JavaScript, TypeScript, Python, C#, PHP, Go, Dart, Rust, and Java/Kotlin. Trusted since 2011 by media organizations including CNN, The New York Times, and USA Today.
@@ -240,15 +240,15 @@ rules:
   slug: checkiday-rules
 score:
   band: strong
-  composite: 63.7
-  delta: 0.0
+  composite: 65.0
+  delta: 1.3
   facets:
     commercial_clarity: 84.2
-    contract_quality: 77.5
+    contract_quality: 74.6
     developer_ergonomics: 30.4
     discoverability: 75.9
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 68.4
   previous_composite: 63.7
   provenance:
     agentic_access: derived
@@ -257,8 +257,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/screenshots/checkiday-national-holiday-api-2026-06-20T174241.png
 security:

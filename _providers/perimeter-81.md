@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 26.4
-  scored_at: '2026-08-10'
+  score: 25.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 14
@@ -89,8 +89,16 @@ apis:
 - description: The Wireguard API from Perimeter 81 — 2 operation(s) for wireguard.
   name: Perimeter 81 Wireguard API
   slug: perimeter-81-wireguard-api
-artifact_total: 20
+artifact_total: 21
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/perimeter-81-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/perimeter-81-openapi-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -155,6 +163,10 @@ created: '2026-07-17'
 description: Perimeter 81 is a cloud-native Secure Access Service Edge (SASE) and Zero Trust Network Access (ZTNA) platform, now part of Check Point as Check Point Harmony SASE following its 2023 acquisition. It lets organizations build and manage secure, software-defined networks that connect a distributed workforce to on-premises resources, cloud infrastructure, and SaaS applications without legacy hardware appliances. The Harmony SASE Public API (v2.3) exposes programmatic control over networks, regions and points-of-presence, gateways, IPSec/WireGuard/OpenVPN tunnels, route tables, firewall policies, and network objects, using a two-step API-key-to-JWT access-token authentication model across US, EU, Australia, and India regional gateways.
 image: https://www.perimeter81.com/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: perimeter-81-mcp.yml
+  slug: perimeter-81-mcpyml
 modified: '2026-07-20'
 name: Perimeter 81
 nav: Providers
@@ -162,16 +174,16 @@ network: true
 overview: 'Perimeter 81 publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Application API, Enhanced Networks API, Enhanced Regions API, and 14 more. Tagged areas include Company, Cybersecurity, SASE, Zero Trust, and Networking.
 
 
-  Perimeter 81''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, and 9 more developer resources.'
+  Perimeter 81''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, and 11 more developer resources.'
 random_paper: 79
 score:
   band: thin
-  composite: 40.6
-  delta: 0.0
+  composite: 40.5
+  delta: -0.1
   facets:
     commercial_clarity: 21.1
-    contract_quality: 60.5
-    developer_ergonomics: 42.9
+    contract_quality: 58.2
+    developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
@@ -186,8 +198,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

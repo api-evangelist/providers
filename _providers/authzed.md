@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -59,6 +59,26 @@ apis:
   slug: authzed-watch-api
 artifact_total: 36
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/authzed/api/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/authzed/api/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/authzed/api/blob/main/CODE-OF-CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/authzed/api/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/authzed/api/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -207,7 +227,7 @@ overview: 'Authzed publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
   The Authzed catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Authzed''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
+  Authzed''s developer surface includes authentication, documentation, engineering blog, pricing, and 16 more developer resources.'
 plans:
 - name: Authzed Plans Pricing
   plan_count: 4
@@ -228,15 +248,15 @@ rules:
   slug: authzed-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.7
-  delta: 0.0
+  composite: 54.1
+  delta: 1.4
   facets:
     commercial_clarity: 57.9
-    contract_quality: 62.0
+    contract_quality: 59.7
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 68.4
   previous_composite: 52.7
   provenance:
     agentic_access: derived
@@ -245,8 +265,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/screenshots/authzed-2026-06-20T172614.png
 security:

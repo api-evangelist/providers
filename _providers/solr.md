@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -123,11 +123,11 @@ overview: 'Apache Solr publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 100
 score:
   band: emerging
-  composite: 25.2
-  delta: 0.0
+  composite: 24.7
+  delta: -0.5
   facets:
     commercial_clarity: 0.0
-    contract_quality: 51.2
+    contract_quality: 49.3
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 0.0
@@ -140,8 +140,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solr/refs/heads/main/screenshots/solr-2026-06-20T194151.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -74,6 +74,18 @@ collections:
   name: Base JSON-RPC API
   slug: open-base-l2
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/coinbase/onchainkit/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/coinbase/onchainkit/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/coinbase/onchainkit/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -145,7 +157,7 @@ network: true
 overview: 'Base publishes 1 API on the [APIs.io](https://apis.io/) network: JSON-RPC API. Tagged areas include Layer 2, Ethereum, OP Stack, Superchain, and JSON-RPC.
 
 
-  Base''s developer surface includes documentation, GitHub presence, status page, engineering blog, and 9 more developer resources.'
+  Base''s developer surface includes documentation, GitHub presence, status page, engineering blog, and 12 more developer resources.'
 plans:
 - name: Base L2 Plans Pricing
   plan_count: 1
@@ -157,15 +169,15 @@ rate_limits:
   slug: base-l2-rate-limits
 score:
   band: thin
-  composite: 33.7
-  delta: 0.0
+  composite: 32.7
+  delta: -1.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 59.7
-    developer_ergonomics: 10.9
-    discoverability: 74.1
+    contract_quality: 57.5
+    developer_ergonomics: 15.2
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 42.1
   previous_composite: 33.7
   provenance:
     agentic_access: derived
@@ -174,8 +186,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 9.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/base-l2/refs/heads/main/screenshots/base-l2-2026-06-20T173043.png
 security:

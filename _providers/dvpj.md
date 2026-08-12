@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'REST/JSON API for the Conta Azul ERP, organized by functional area (Financeiro, Cobranças, Baixas, Vendas, Pessoas, Produtos, Serviços, Notas Fiscais, Contratos), secured with OAuth 2.0 Authorization '
@@ -172,13 +172,13 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.1
-  delta: 0.0
+  composite: 42.2
+  delta: -0.9
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 52.2
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 65.8
   previous_composite: 43.1
@@ -190,8 +190,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dvpj/refs/heads/main/screenshots/dvpj-2026-07-25T212538.png
 security:

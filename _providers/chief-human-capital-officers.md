@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The CHCO Council publishes its charter, leadership roster, working group output, policy memoranda, and federal human capital guidance through chcoc.gov (now hosted under opm.gov). The Council does not
@@ -117,15 +117,15 @@ rate_limits:
   slug: chief-human-capital-officers-rate-limits
 score:
   band: emerging
-  composite: 19.8
-  delta: 0.0
+  composite: 13.2
+  delta: -6.6
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 19.8
   regulatory:
     applies: true
@@ -133,9 +133,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 18.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/chief-human-capital-officers/refs/heads/main/screenshots/chief-human-capital-officers-2026-06-20T174308.png
 security:
 - kind: domain-security

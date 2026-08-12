@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,6 +43,26 @@ apis:
   slug: akri-metrics-api
 artifact_total: 51
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/project-akri/akri/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/project-akri/akri/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/project-akri/akri/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/project-akri/akri/blob/main/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/project-akri/akri/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -221,7 +241,7 @@ overview: 'Akri publishes 1 API on the [APIs.io](https://apis.io/) network: Metr
   The Akri catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Akri''s developer surface includes documentation, getting-started guide, changelog, code examples, and 10 more developer resources.'
+  Akri''s developer surface includes documentation, getting-started guide, changelog, code examples, and 15 more developer resources.'
 plans:
 - name: Akri Plans Pricing
   plan_count: 3
@@ -250,15 +270,15 @@ rules:
   slug: akri-spectral-rules
 score:
   band: thin
-  composite: 41.5
-  delta: 0.0
+  composite: 35.5
+  delta: -6.0
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 29.3
+    commercial_clarity: 15.8
+    contract_quality: 28.2
     developer_ergonomics: 26.1
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 41.5
   provenance:
     agentic_access: derived
@@ -267,9 +287,9 @@ score:
       derived: 1
       marker_coverage: 100.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/akri/refs/heads/main/screenshots/akri-2026-06-20T171456.png
 security:
 - kind: domain-security

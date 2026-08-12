@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -244,15 +245,15 @@ rules:
   slug: agentql-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.0
-  delta: 0.0
+  composite: 42.9
+  delta: -8.1
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 24.4
+    commercial_clarity: 26.3
+    contract_quality: 23.5
     developer_ergonomics: 78.3
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 51.0
   provenance:
     agentic_access: derived
@@ -261,9 +262,9 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/screenshots/agentql-2026-06-20T170057.png
 security:
 - kind: authentication

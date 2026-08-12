@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 3
@@ -70,6 +70,10 @@ apis:
   slug: opentrons-system-control-api
 artifact_total: 20
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Opentrons/opentrons/blob/edge/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -170,7 +174,7 @@ overview: 'Opentrons publishes 9 APIs on the [APIs.io](https://apis.io/) network
   The Opentrons catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Opentrons'' developer surface includes documentation, getting-started guide, product news, support, and 13 more developer resources.'
+  Opentrons'' developer surface includes documentation, getting-started guide, product news, support, and 14 more developer resources.'
 plans:
 - name: Opentrons Plans Pricing
   plan_count: 4
@@ -191,11 +195,11 @@ rules:
   slug: opentrons-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.9
-  delta: 0.0
+  composite: 35.5
+  delta: -0.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 52.7
+    contract_quality: 50.7
     developer_ergonomics: 23.9
     discoverability: 74.1
     governance: 58.3
@@ -214,8 +218,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentrons/refs/heads/main/screenshots/opentrons-2026-06-20T191056.png
 security:

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 100
 apis:
 - description: The Lithium/Khoros Community platform API. Version 2 is driven by LiQL (Lithium Query Language), a SQL-like query language over community objects such as messages, users, boards and categories; the le
@@ -545,11 +546,11 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 65.3
-  delta: 0.0
+  composite: 63.7
+  delta: -1.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.1
+    contract_quality: 68.8
     developer_ergonomics: 69.0
     discoverability: 68.5
     governance: 20.8
@@ -564,14 +565,8 @@ score:
       total: 99
     mcp: derived
     skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 73.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/screenshots/lithium-2026-07-25T225335.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 6
@@ -758,11 +758,11 @@ rules:
   slug: paystack-rules
 score:
   band: exemplar
-  composite: 68.5
-  delta: 0.0
+  composite: 70.2
+  delta: 1.7
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 80.0
+    commercial_clarity: 92.1
+    contract_quality: 77.7
     developer_ergonomics: 71.7
     discoverability: 59.3
     governance: 52.1
@@ -781,8 +781,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 53.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/screenshots/paystack-2026-06-20T191508.png
 security:

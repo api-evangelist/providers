@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -54,6 +54,10 @@ apis:
   slug: regional-australia-bank-banking-products-api
 artifact_total: 11
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/regional-australia-bank-cds-banking-products-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -161,7 +165,7 @@ network: true
 overview: 'Regional Australia Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Banking.
 
 
-  Regional Australia Bank''s developer surface includes documentation, support, API reference, getting-started guide, developer portal, authentication, engineering blog, and 16 more developer resources.'
+  Regional Australia Bank''s developer surface includes documentation, support, API reference, getting-started guide, developer portal, authentication, engineering blog, and 17 more developer resources.'
 random_paper: 113
 scopes:
 - name: Regional Australia Bank Scopes
@@ -170,11 +174,11 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.5
-  delta: 0.0
+  composite: 43.4
+  delta: -3.1
   facets:
     commercial_clarity: 34.2
-    contract_quality: 54.3
+    contract_quality: 52.2
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
@@ -194,9 +198,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 70.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 53.2
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/screenshots/regional-australia-bank-2026-07-21T114749.png
 security:

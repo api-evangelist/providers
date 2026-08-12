@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/agave-unified-api-openapi.yml
+  url: openapi/_original/agave-unified-api-openapi.yml
 - group: docs
   title: ''
   type: JSONSchema
@@ -645,16 +645,16 @@ rules:
     warn: 15
   slug: agave-spectral-rules
 score:
-  band: developing
-  composite: 44.8
-  delta: 0.0
+  band: thin
+  composite: 39.4
+  delta: -5.4
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 32.1
+    commercial_clarity: 31.6
+    contract_quality: 31.0
     developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 21.1
   previous_composite: 44.8
   provenance:
     agentic_access: derived
@@ -663,9 +663,9 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/screenshots/agave-2026-06-20T165757.png
 security:
 - kind: authentication

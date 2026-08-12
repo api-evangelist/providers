@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -97,6 +97,22 @@ collections:
   name: Amazon SNS Amazon Simple Notification Service (SNS) API
   slug: open-amazon-sns-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/awsdocs/amazon-sns-developer-guide/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/awsdocs/amazon-sns-developer-guide/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/awsdocs/amazon-sns-developer-guide/blob/archived/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/awsdocs/amazon-sns-developer-guide/blob/archived/CONTRIBUTING.md
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -446,7 +462,7 @@ overview: 'Amazon SNS publishes 8 APIs on the [APIs.io](https://apis.io/) networ
   The Amazon SNS catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Amazon SNS''s developer surface includes authentication, engineering blog, developer console, support, and 12 more developer resources.'
+  Amazon SNS''s developer surface includes authentication, engineering blog, developer console, support, and 16 more developer resources.'
 plans:
 - name: Amazon Sns Plans Pricing
   plan_count: 3
@@ -482,16 +498,16 @@ rules:
     warn: 9
   slug: amazon-sns-spectral-rules
 score:
-  band: strong
-  composite: 57.7
-  delta: 0.0
+  band: developing
+  composite: 52.2
+  delta: -5.5
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 78.3
+    commercial_clarity: 52.6
+    contract_quality: 75.4
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 41.7
-    operational_transparency: 47.4
+    operational_transparency: 39.5
   previous_composite: 57.7
   provenance:
     agentic_access: derived
@@ -506,9 +522,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/screenshots/amazon-sns-2026-06-20T171830.png
 security:
 - kind: authentication

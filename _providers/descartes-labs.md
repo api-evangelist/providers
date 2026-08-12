@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: The historical Descartes Labs Platform — a managed geospatial data refinery and analytics environment exposing imagery catalog, raster access, vector tables, compute functions, and authentication thro
@@ -50,6 +50,10 @@ apis:
   slug: auth
 artifact_total: 22
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/dlarchives/descarteslabs-python/releases
 - group: auth
   title: ''
   type: DomainSecurity
@@ -162,19 +166,19 @@ network: true
 overview: 'Descartes Labs publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Geospatial, Geospatial Intelligence, Earth Observation, Satellite Imagery, and Remote Sensing.
 
 
-  Descartes Labs'' developer surface includes documentation, support, code examples, and 18 more developer resources.'
+  Descartes Labs'' developer surface includes documentation, support, code examples, and 19 more developer resources.'
 random_paper: 29
 score:
   band: emerging
-  composite: 14.4
-  delta: 0.0
+  composite: 16.1
+  delta: 1.7
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 28.3
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 14.4
   regulatory:
     applies: true
@@ -182,8 +186,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/descartes-labs/refs/heads/main/screenshots/descartes-labs-2026-07-25T211750.png
 security:

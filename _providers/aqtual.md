@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -94,20 +94,26 @@ overview: 'Aqtual is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 68
 score:
   band: minimal
-  composite: 9.7
-  delta: 0.0
+  composite: 8.1
+  delta: -1.6
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 68.5
-    governance: 12.5
+    discoverability: 57.4
+    governance: 0.0
     operational_transparency: 0.0
   previous_composite: 9.7
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 13.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aqtual/refs/heads/main/screenshots/aqtual-2026-08-07T161525.png
 security:

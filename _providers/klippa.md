@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Flagship REST API for end-to-end document AI — OCR, classification, extraction, conversion (JSON/XML/PDF/CSV/XLSX/UBL), verification, fraud detection, anonymization. API-key auth.
@@ -109,19 +109,19 @@ rate_limits:
   slug: klippa-rate-limits
 score:
   band: emerging
-  composite: 21.3
-  delta: 0.0
+  composite: 14.5
+  delta: -6.8
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 2.2
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 21.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/klippa/refs/heads/main/screenshots/klippa-2026-06-20T184105.png
 security:
 - kind: domain-security

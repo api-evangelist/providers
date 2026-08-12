@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
@@ -101,14 +101,14 @@ overview: 'Aerospacelab is profiled on the [APIs.io](https://apis.io/) network. 
   Aerospacelab''s developer surface includes engineering blog, support, and 10 more developer resources.'
 random_paper: 90
 score:
-  band: emerging
-  composite: 13.2
-  delta: 0.0
+  band: minimal
+  composite: 12.3
+  delta: -0.9
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 13.2
@@ -118,8 +118,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 22.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aerospacelab/refs/heads/main/screenshots/aerospacelab-2026-08-07T161005.png
 security:

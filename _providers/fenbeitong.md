@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Token- and signature-authenticated REST API for enterprises to integrate Fenbeitong organization structure, orders (flights, car, train, hotel, dining, takeout, procurement), approvals, budgets and bi
@@ -150,8 +150,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fenbeitong/refs/heads/main/screenshots/fenbeitong-2026-07-25T214442.png
 security:

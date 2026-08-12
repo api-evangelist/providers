@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 3
@@ -375,10 +375,6 @@ common:
   title: ''
   type: PostmanWorkspace
   url: https://docs.x.com/sdks-and-tools/postman
-- group: build
-  title: ''
-  type: PostmanCollection
-  url: postman/x-api-v2-postman-collection.json
 - group: other
   title: ''
   type: X
@@ -658,13 +654,13 @@ modified: '2026-05-19'
 name: X (Twitter)
 nav: Providers
 network: true
-overview: 'X (Twitter) publishes 22 APIs on the [APIs.io](https://apis.io/) network, including X Ads API, Account Activity API, Activity API, and 19 more. Tagged areas include Social Media, Microblogging, Real-Time Data, Streaming, and Advertising.
+overview: 'X (Twitter) publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Account Activity API, Activity API, Bookmarks API, and 18 more. Tagged areas include Social Media, Microblogging, Real-Time Data, Streaming, and Advertising.
 
 
   The X (Twitter) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  X (Twitter)''s developer surface includes authentication, developer portal, getting-started guide, developer console, signup flow, CLI, pricing, and 45 more developer resources.'
+  X (Twitter)''s developer surface includes authentication, developer portal, getting-started guide, developer console, signup flow, CLI, pricing, and 44 more developer resources.'
 plans:
 - name: Twitter Plans Pricing
   plan_count: 1
@@ -698,15 +694,15 @@ scopes:
   summary_line: 21 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.0
-  delta: 0.0
+  composite: 60.8
+  delta: -4.2
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 69.6
+    commercial_clarity: 57.9
+    contract_quality: 67.3
     developer_ergonomics: 60.9
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 65.0
   provenance:
     agentic_access: derived
@@ -715,8 +711,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/screenshots/twitter-2026-06-20T195857.png
 security:

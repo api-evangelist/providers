@@ -27,8 +27,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 16.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -61,23 +61,30 @@
    "shown": 4,
    "providers": [
     {
-     "name": "Life Time Group Holdings",
-     "slug": "life-time-group",
-     "description": "Life Time Group Holdings is an American health and wellness company operating large-format athletic resort destinations across the United States and Canada. The company offers fitness facilities, personal training, group classes, aquatics, indoor and outdoor sports, spa services, and healthy living programs in premium resort-style facilities, plus the Life Time app for members. Life Time does not currently publish a public developer API or developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/life-time-group/refs/heads/main/screenshots/life-time-group-2026-06-20T184510.png",
-     "score": 5.4,
+     "name": "Peloton Interactive",
+     "slug": "peloton-interactive",
+     "description": "Peloton Interactive is a connected fitness company that produces interactive exercise equipment and a streaming subscription service. The company sells connected stationary bikes, treadmills, rowers, and a digital app offering live and on-demand fitness classes. Peloton has built a large community of members who participate in instructor-led workouts and track performance metrics through its platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/peloton-interactive/refs/heads/main/screenshots/peloton-interactive-2026-06-20T191540.png",
+     "score": 6.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 44.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 15.0,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -99,11 +106,11 @@
      "rank": 2
     },
     {
-     "name": "Planet Fitness",
-     "slug": "planet-fitness",
-     "description": "The largest fitness franchise in the United States by number of members and locations, operating over 2,500 clubs in the US, Canada, Panama, Mexico, and Australia. Planet Fitness is known for its affordable membership model (Classic and Black Card tiers), the non-intimidating Judgement Free Zone philosophy targeting casual and first-time gym-goers, and the PF App for workout content, club check-in, and member benefits. Planet Fitness does not publish a public developer API, integration portal, or third-party platform program; integrations with workout content providers and biometric/check-in vendors are handled via private commercial partnerships, not public APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/planet-fitness/refs/heads/main/screenshots/planet-fitness-2026-06-20T191757.png",
-     "score": 5.4,
+     "name": "Life Time Group Holdings",
+     "slug": "life-time-group",
+     "description": "Life Time Group Holdings is an American health and wellness company operating large-format athletic resort destinations across the United States and Canada. The company offers fitness facilities, personal training, group classes, aquatics, indoor and outdoor sports, spa services, and healthy living programs in premium resort-style facilities, plus the Life Time app for members. Life Time does not currently publish a public developer API or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/life-time-group/refs/heads/main/screenshots/life-time-group-2026-06-20T184510.png",
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -111,11 +118,11 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -144,23 +151,30 @@
      "rank": 3
     },
     {
-     "name": "Peloton Interactive",
-     "slug": "peloton-interactive",
-     "description": "Peloton Interactive is a connected fitness company that produces interactive exercise equipment and a streaming subscription service. The company sells connected stationary bikes, treadmills, rowers, and a digital app offering live and on-demand fitness classes. Peloton has built a large community of members who participate in instructor-led workouts and track performance metrics through its platform.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/peloton-interactive/refs/heads/main/screenshots/peloton-interactive-2026-06-20T191540.png",
-     "score": 4.4,
+     "name": "Planet Fitness",
+     "slug": "planet-fitness",
+     "description": "The largest fitness franchise in the United States by number of members and locations, operating over 2,500 clubs in the US, Canada, Panama, Mexico, and Australia. Planet Fitness is known for its affordable membership model (Classic and Black Card tiers), the non-intimidating Judgement Free Zone philosophy targeting casual and first-time gym-goers, and the PF App for workout content, club check-in, and member benefits. Planet Fitness does not publish a public developer API, integration portal, or third-party platform program; integrations with workout content providers and biometric/check-in vendors are handled via private commercial partnerships, not public APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/planet-fitness/refs/heads/main/screenshots/planet-fitness-2026-06-20T191757.png",
+     "score": 5.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 44.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -197,8 +211,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

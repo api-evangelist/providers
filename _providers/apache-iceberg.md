@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -56,6 +56,22 @@ apis:
   slug: apache-iceberg-oauth2-api-api
 artifact_total: 509
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apache/iceberg-python/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/apache/iceberg-python/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/iceberg-python/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1603,7 +1619,7 @@ overview: 'Apache Iceberg publishes 3 APIs on the [APIs.io](https://apis.io/) ne
   The Apache Iceberg catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache Iceberg''s developer surface includes authentication, documentation, engineering blog, YouTube channel, release notes, and 11 more developer resources.'
+  Apache Iceberg''s developer surface includes authentication, documentation, engineering blog, YouTube channel, release notes, and 15 more developer resources.'
 plans:
 - name: Apache Iceberg Plans Pricing
   plan_count: 3
@@ -1637,15 +1653,15 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 53.1
-  delta: 0.0
+  composite: 44.6
+  delta: -8.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 68.7
+    commercial_clarity: 26.3
+    contract_quality: 66.1
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 53.1
   provenance:
     agentic_access: derived
@@ -1654,9 +1670,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-iceberg/refs/heads/main/screenshots/apache-iceberg-2026-06-20T172110.png
 security:
 - kind: authentication

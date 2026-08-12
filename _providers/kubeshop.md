@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 1
@@ -134,6 +135,26 @@ asyncapis:
   name: Kubeshop Testkube Webhooks
   slug: kubeshop-testkube-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kubeshop-testkube-agent-overlay.yaml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/kubeshop/testkube/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/kubeshop/testkube/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/kubeshop/testkube/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/kubeshop/testkube/blob/main/CONTRIBUTING.md
 - group: company
   title: ''
   type: Website
@@ -292,7 +313,7 @@ overview: 'Kubeshop publishes 30 APIs on the [APIs.io](https://apis.io/) network
   The Kubeshop catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kubeshop''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+  Kubeshop''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
 random_paper: 53
 rate_limits:
 - limit_count: 0
@@ -304,12 +325,12 @@ scopes:
   slug: kubeshop-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: strong
-  composite: 56.0
-  delta: 0.0
+  band: developing
+  composite: 55.4
+  delta: -0.6
   facets:
     commercial_clarity: 52.6
-    contract_quality: 64.0
+    contract_quality: 61.6
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
@@ -325,8 +346,8 @@ score:
       total: 30
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/screenshots/kubeshop-2026-07-25T224316.png
 security:

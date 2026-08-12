@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: documented
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.2
-  scored_at: '2026-08-10'
+  score: 44.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -220,25 +220,25 @@ scopes:
   slug: vestaron-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: thin
-  composite: 28.8
-  delta: 0.3
+  band: emerging
+  composite: 27.9
+  delta: -0.9
   facets:
     commercial_clarity: 21.1
-    contract_quality: 14.1
+    contract_quality: 14.6
     developer_ergonomics: 25.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 28.5
+  previous_composite: 28.8
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 9
       marker_coverage: 100.0
-      total: 1
+      total: 9
     mcp: first-party
     skills: derived
   regulatory:
@@ -247,8 +247,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -21,21 +21,25 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 19.8
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The public WordPress REST API behind antaresrx.com. This is the content management surface for the corporate marketing site and its press-release / in-the-media newsroom -- it is NOT a first-party pro
   name: Antares Therapeutics WordPress REST API
   slug: antares-therapeutics-wordpress-rest
-artifact_total: 4
+artifact_total: 5
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/antares-therapeutics-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -105,6 +109,10 @@ description: Antares Therapeutics is a Boston- and South San Francisco-based pre
   collaborations with Novartis, AstraZeneca and Pierre Fabre Laboratories. Antares is a private, preclinical-stage biotechnology company and publishes no public product API, developer portal or SDK surface.
 image: https://antaresrx.com/wp-content/uploads/2025/06/logo-antaresrx-2x.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: antares-therapeutics-mcp.yml
+  slug: antares-therapeutics-mcpyml
 modified: '2026-07-19'
 name: Antares Therapeutics
 nav: Providers
@@ -112,17 +120,17 @@ network: true
 overview: 'Antares Therapeutics publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Precision Medicine, and Oncology.
 
 
-  Antares Therapeutics'' developer surface includes engineering blog, product news, authentication, and 13 more developer resources.'
+  Antares Therapeutics'' developer surface includes engineering blog, product news, authentication, and 14 more developer resources.'
 random_paper: 4
 score:
   band: emerging
-  composite: 18.1
-  delta: 0.0
+  composite: 18.6
+  delta: 0.5
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
-    developer_ergonomics: 13.0
-    discoverability: 87.0
+    developer_ergonomics: 21.7
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 18.1
@@ -134,8 +142,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/antares-therapeutics/refs/heads/main/screenshots/antares-therapeutics-2026-07-25T200338.png
 security:

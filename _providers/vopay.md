@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 61.0
-  scored_at: '2026-08-10'
+  score: 57.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 258
   human_in_the_loop: 0
@@ -103,6 +103,10 @@ asyncapis:
   name: VoPay Webhooks
   slug: vopay-webhooks-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/vopay-account-api-reference-overlay.yaml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -277,15 +281,15 @@ overview: 'VoPay publishes 23 APIs on the [APIs.io](https://apis.io/) network, i
   The VoPay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  VoPay''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 32 more developer resources.'
+  VoPay''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 33 more developer resources.'
 random_paper: 95
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 51.6
+  delta: -0.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 63.3
+    contract_quality: 61.0
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
@@ -302,8 +306,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,6 +60,14 @@ apis:
   slug: liquity-v2-website-data-api
 artifact_total: 17
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/liquity/V2-gov/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/liquity/V2-gov/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -171,7 +179,7 @@ overview: 'Liquity publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
   The Liquity catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Liquity''s developer surface includes documentation, engineering blog, and 16 more developer resources.'
+  Liquity''s developer surface includes documentation, engineering blog, and 18 more developer resources.'
 random_paper: 89
 rules:
 - name: Liquity API Rules
@@ -183,13 +191,13 @@ rules:
     warn: 4
   slug: liquity-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 41.9
-  delta: 0.0
+  band: developing
+  composite: 42.2
+  delta: 0.3
   facets:
     commercial_clarity: 21.1
-    contract_quality: 67.2
-    developer_ergonomics: 15.2
+    contract_quality: 64.7
+    developer_ergonomics: 19.6
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 21.1
@@ -201,8 +209,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquity/refs/heads/main/screenshots/liquity-2026-06-20T184559.png
 security:

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-10'
+  score: 41.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -70,6 +70,10 @@ apis:
   slug: datanomik-transactions-api
 artifact_total: 14
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/datanomik-openbanking-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -209,17 +213,17 @@ network: true
 overview: 'Datanomik publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Applications API, Balances API, and 7 more. Tagged areas include Company, Open Finance, Open Banking, Treasury Management, and Cash Management.
 
 
-  Datanomik''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, support, engineering blog, and 24 more developer resources.'
+  Datanomik''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, support, engineering blog, and 25 more developer resources.'
 random_paper: 24
 score:
   band: developing
-  composite: 49.3
-  delta: 0.0
+  composite: 47.9
+  delta: -1.4
   facets:
     commercial_clarity: 42.1
-    contract_quality: 60.1
+    contract_quality: 57.8
     developer_ergonomics: 66.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 21.1
   previous_composite: 49.3
@@ -239,8 +243,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/screenshots/datanomik-2026-07-25T211349.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 4
@@ -297,11 +297,11 @@ rules:
   slug: suprsend-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.3
-  delta: 0.0
+  composite: 54.7
+  delta: -0.6
   facets:
     commercial_clarity: 57.9
-    contract_quality: 73.3
+    contract_quality: 70.6
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 68.8
@@ -320,8 +320,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/screenshots/suprsend-2026-06-20T194803.png
 security:

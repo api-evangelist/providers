@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 20.0
-  scored_at: '2026-08-10'
+  score: 16.4
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'The Lemon Mini App SDK is the public developer contract for building a Mini App that runs inside the Lemon Cash mobile app. It is a TypeScript library, not an HTTP API: calls are passed to the native '
@@ -26,6 +26,10 @@ apis:
   slug: lemon-cash-mini-app-sdk
 artifact_total: 4
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/lemonatio/mini-app-sdk/issues
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -193,17 +197,17 @@ network: true
 overview: 'Lemon Cash publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Digital Wallet, Fintech, and Payments.
 
 
-  Lemon Cash''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 32 more developer resources.'
+  Lemon Cash''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 33 more developer resources.'
 random_paper: 71
 score:
   band: thin
-  composite: 40.7
-  delta: 0.0
+  composite: 41.4
+  delta: 0.7
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
     developer_ergonomics: 66.8
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 60.5
   previous_composite: 40.7
@@ -213,11 +217,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 45.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Payments
+    regime_id: payments
+    score: 56.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemon-cash/refs/heads/main/screenshots/lemon-cash-2026-08-07T171533.png
 security:

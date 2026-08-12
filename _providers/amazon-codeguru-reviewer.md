@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +22,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-08-10'
+  score: 46.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -53,7 +54,7 @@ apis:
 - description: The Tags API from Amazon CodeGuru Reviewer — 2 operation(s) for tags.
   name: Amazon CodeGuru Reviewer Tags API
   slug: amazon-codeguru-reviewer-tags-api
-artifact_total: 331
+artifact_total: 332
 collections:
 - collection_type: postman
   name: Amazon CodeGuru Reviewer Associations API
@@ -71,6 +72,14 @@ collections:
   name: Amazon CodeGuru Reviewer Associations Tags API
   slug: postman-amazon-codeguru-reviewer-tags-api
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/amazon-codeguru-reviewer-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-codeguru-reviewer-openapi-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1104,6 +1113,10 @@ jsonld:
   property_count: 78
   slug: amazon-codeguru-reviewer-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: amazon-codeguru-reviewer-mcp.yml
+  slug: amazon-codeguru-reviewer-mcpyml
 modified: '2026-06-20'
 name: Amazon CodeGuru Reviewer
 nav: Providers
@@ -1114,7 +1127,7 @@ overview: 'Amazon CodeGuru Reviewer publishes 5 APIs on the [APIs.io](https://ap
   The Amazon CodeGuru Reviewer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CodeGuru Reviewer''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 18 more developer resources.'
+  Amazon CodeGuru Reviewer''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 20 more developer resources.'
 random_paper: 35
 rules:
 - name: Amazon CodeGuru Reviewer API Rules
@@ -1135,12 +1148,12 @@ rules:
   slug: amazon-codeguru-reviewer-spectral-rules
 score:
   band: strong
-  composite: 61.4
-  delta: 0.0
+  composite: 61.1
+  delta: -0.3
   facets:
     commercial_clarity: 52.6
-    contract_quality: 75.2
-    developer_ergonomics: 52.2
+    contract_quality: 72.4
+    developer_ergonomics: 54.3
     discoverability: 92.6
     governance: 80.2
     operational_transparency: 21.1
@@ -1154,8 +1167,8 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/screenshots/amazon-codeguru-reviewer-2026-07-25T200004.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,6 +69,14 @@ collections:
   name: BNY Treasury Services API
   slug: open-bny-treasury-services-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/bnymellon/bny-data-on-chain/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/BNYMellon/bny-data-on-chain/blob/main/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -144,7 +152,7 @@ network: true
 overview: 'BNY (Bank of New York Mellon) publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Asset Servicing API, Markets API, Pershing API, and 1 more. Tagged areas include Banking, Custody, Asset Servicing, Treasury Services, and Payments.
 
 
-  BNY (Bank of New York Mellon)''s developer surface includes authentication and 14 more developer resources.'
+  BNY (Bank of New York Mellon)''s developer surface includes authentication and 16 more developer resources.'
 plans:
 - name: Bny Bank Of New York Mellon Plans Pricing
   plan_count: 1
@@ -156,11 +164,11 @@ rate_limits:
   slug: bny-bank-of-new-york-mellon-rate-limits
 score:
   band: thin
-  composite: 33.6
-  delta: 0.0
+  composite: 33.1
+  delta: -0.5
   facets:
     commercial_clarity: 28.9
-    contract_quality: 65.1
+    contract_quality: 62.7
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
@@ -179,8 +187,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bny-bank-of-new-york-mellon/refs/heads/main/screenshots/bny-bank-of-new-york-mellon-2026-06-20T173546.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'The DolphinScheduler REST API enables programmatic management of projects, workflow definitions (DAGs), workflow instances, task types, schedules, resources, data sources, alerts, tenants, and users. '
@@ -36,6 +36,30 @@ apis:
   slug: apache-dolphinscheduler-rest-api
 artifact_total: 40
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apache/dolphinscheduler/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/apache/dolphinscheduler/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/apache/dolphinscheduler/blob/dev/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/dolphinscheduler/blob/dev/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/dolphinscheduler/blob/dev/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -170,7 +194,7 @@ overview: 'Apache DolphinScheduler publishes 1 API on the [APIs.io](https://apis
   The Apache DolphinScheduler catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Apache DolphinScheduler''s developer surface includes developer portal, documentation, getting-started guide, and 7 more developer resources.'
+  Apache DolphinScheduler''s developer surface includes developer portal, documentation, getting-started guide, and 13 more developer resources.'
 plans:
 - name: Apache Dolphinscheduler Plans Pricing
   plan_count: 3
@@ -190,19 +214,19 @@ rules:
     warn: 3
   slug: apache-dolphinscheduler-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 42.3
-  delta: 0.0
+  band: thin
+  composite: 37.9
+  delta: -4.4
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 33.9
     developer_ergonomics: 34.8
     discoverability: 59.3
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 42.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-dolphinscheduler/refs/heads/main/screenshots/apache-dolphinscheduler-2026-06-20T172053.png
 security:

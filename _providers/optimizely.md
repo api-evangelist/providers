@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -654,16 +654,16 @@ scopes:
   slug: optimizely-scopes
   summary_line: 4 scopes · clientCredentials
 score:
-  band: strong
-  composite: 58.2
-  delta: 0.0
+  band: developing
+  composite: 49.7
+  delta: -8.5
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 80.4
+    commercial_clarity: 57.9
+    contract_quality: 77.4
     developer_ergonomics: 30.4
     discoverability: 59.3
     governance: 41.7
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 58.2
   provenance:
     agentic_access: derived
@@ -672,9 +672,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 34
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/screenshots/optimizely-2026-08-07T190808.png
 security:
 - kind: authentication

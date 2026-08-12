@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Query and manage the devices (screens) paired to an OptiSigns account. List devices, look them up by name or ID, create and update device settings, reboot a device, push content, and delete devices. C
@@ -137,8 +137,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 35.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optisigns/refs/heads/main/screenshots/optisigns-2026-08-07T190813.png
 security:

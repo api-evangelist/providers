@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 151
   human_in_the_loop: 0
@@ -358,6 +358,26 @@ collections:
   name: Azure API Management Self-Hosted Gateway
   slug: postman-microsoft-azure-api-management-self-hosted-gateway
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Azure/api-management-self-hosted-gateway/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Azure/api-management-self-hosted-gateway/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Azure/api-management-self-hosted-gateway/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/Azure/api-management-self-hosted-gateway/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Azure/api-management-self-hosted-gateway/blob/main/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -988,7 +1008,7 @@ overview: 'Microsoft Azure API Management publishes 70 APIs on the [APIs.io](htt
   The Microsoft Azure API Management catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Azure API Management''s developer surface includes authentication, documentation, getting-started guide, API reference, pricing, changelog, support, and 76 more developer resources.'
+  Microsoft Azure API Management''s developer surface includes authentication, documentation, getting-started guide, API reference, pricing, changelog, support, and 81 more developer resources.'
 plans:
 - name: Microsoft Azure Api Management Plans Pricing
   plan_count: 8
@@ -1021,16 +1041,16 @@ scopes:
   slug: microsoft-azure-api-management-scopes
   summary_line: 1 scope · implicit
 score:
-  band: exemplar
-  composite: 67.8
-  delta: 0.0
+  band: strong
+  composite: 59.4
+  delta: -8.4
   facets:
-    commercial_clarity: 86.8
-    contract_quality: 25.5
+    commercial_clarity: 76.3
+    contract_quality: 17.1
     developer_ergonomics: 93.5
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 68.8
-    operational_transparency: 78.9
+    operational_transparency: 55.3
   previous_composite: 67.8
   provenance:
     agentic_access: derived
@@ -1039,9 +1059,9 @@ score:
       derived: 70
       marker_coverage: 100.0
       total: 70
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/screenshots/microsoft-azure-api-management-2026-08-07T172834.png
 security:
 - kind: authentication

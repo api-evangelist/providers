@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -1218,15 +1219,15 @@ rules:
   slug: tableau-spectral-rules
 score:
   band: strong
-  composite: 65.6
-  delta: 0.0
+  composite: 57.2
+  delta: -8.4
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 76.6
+    commercial_clarity: 50.0
+    contract_quality: 74.1
     developer_ergonomics: 47.8
     discoverability: 63.0
     governance: 58.3
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 65.6
   provenance:
     agentic_access: derived
@@ -1235,9 +1236,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/screenshots/tableau-2026-06-20T194845.png
 security:
 - kind: authentication

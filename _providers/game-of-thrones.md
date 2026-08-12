@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,6 +49,14 @@ apis:
   slug: game-of-thrones-houses-api
 artifact_total: 16
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/joakimskoog/AnApiOfIceAndFire/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/joakimskoog/AnApiOfIceAndFire/blob/master/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -124,7 +132,7 @@ overview: 'An API of Ice and Fire publishes 3 APIs on the [APIs.io](https://apis
   The An API of Ice and Fire catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  An API of Ice and Fire''s developer surface includes documentation and 7 more developer resources.'
+  An API of Ice and Fire''s developer surface includes documentation and 9 more developer resources.'
 plans:
 - name: Game Of Thrones Plans Pricing
   plan_count: 1
@@ -144,12 +152,12 @@ rules:
     warn: 3
   slug: game-of-thrones-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 42.2
-  delta: 0.0
+  band: thin
+  composite: 41.5
+  delta: -0.7
   facets:
     commercial_clarity: 28.9
-    contract_quality: 67.4
+    contract_quality: 64.8
     developer_ergonomics: 8.7
     discoverability: 74.1
     governance: 58.3
@@ -162,8 +170,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/game-of-thrones/refs/heads/main/screenshots/game-of-thrones-2026-06-20T181637.png
 security:

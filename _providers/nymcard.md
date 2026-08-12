@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-08-10'
+  score: 42.1
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: RESTful card-issuing and payments platform API for users, cards, card products, accounts, funding/transfers, limits, transactions and webhooks.
@@ -170,13 +170,13 @@ overview: 'Nymcard publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 54
 score:
   band: developing
-  composite: 49.2
-  delta: 0.0
+  composite: 45.0
+  delta: -4.2
   facets:
     commercial_clarity: 31.6
     contract_quality: 51.6
     developer_ergonomics: 66.8
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 31.6
   previous_composite: 49.2
@@ -189,9 +189,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 62.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 40.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nymcard/refs/heads/main/screenshots/nymcard-2026-08-07T185835.png
 security:

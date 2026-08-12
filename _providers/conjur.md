@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API for authenticating machine and human identities, retrieving and rotating secrets, loading policy-as-code, and inspecting RBAC roles and resources. Compatible with Conjur OSS and CyberArk Secr
@@ -36,6 +36,22 @@ apis:
   slug: conjur-cyberark-secrets-manager-api
 artifact_total: 4
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/cyberark/conjur/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/cyberark/conjur/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/cyberark/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/cyberark/conjur/blob/master/CONTRIBUTING.md
 - group: company
   title: ''
   type: Website
@@ -131,15 +147,15 @@ network: true
 overview: 'Conjur publishes 1 API on the [APIs.io](https://apis.io/) network: / CyberArk Secrets Manager API. Tagged areas include Company, Cybersecurity, Secrets Management, Identity and Access Management, and DevSecOps.
 
 
-  Conjur''s developer surface includes documentation, API reference, authentication, CLI, changelog, and 15 more developer resources.'
+  Conjur''s developer surface includes documentation, API reference, authentication, CLI, changelog, and 19 more developer resources.'
 random_paper: 77
 score:
   band: thin
-  composite: 31.4
-  delta: 0.0
+  composite: 32.7
+  delta: 1.3
   facets:
     commercial_clarity: 0.0
-    contract_quality: 32.3
+    contract_quality: 37.3
     developer_ergonomics: 58.2
     discoverability: 75.9
     governance: 11.5
@@ -149,8 +165,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conjur/refs/heads/main/screenshots/conjur-2026-07-25T210258.png
 security:

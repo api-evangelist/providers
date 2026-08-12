@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Artillery Cloud provides a hosted platform for running distributed load tests at scale, storing test results, team collaboration, and integrating with CI/CD pipelines. The Artillery Cloud API enables '
@@ -36,6 +36,30 @@ apis:
   slug: artillery-cloud-api
 artifact_total: 20
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/artilleryio/artillery/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/artilleryio/artillery/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/artilleryio/artillery/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/artilleryio/artillery/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/artilleryio/artillery/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/artilleryio/artillery/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -113,7 +137,7 @@ network: true
 overview: 'Artillery publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Load Testing, Performance Testing, Open Source, Testing, and DevOps.
 
 
-  Artillery''s developer surface includes engineering blog, developer portal, documentation, release notes, pricing, and 4 more developer resources.'
+  Artillery''s developer surface includes engineering blog, developer portal, documentation, release notes, pricing, and 10 more developer resources.'
 plans:
 - name: Artillery Plans Pricing
   plan_count: 3
@@ -125,19 +149,19 @@ rate_limits:
   slug: artillery-rate-limits
 score:
   band: emerging
-  composite: 27.6
-  delta: 0.0
+  composite: 21.2
+  delta: -6.4
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 19.6
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 27.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/artillery/refs/heads/main/screenshots/artillery-2026-06-20T172444.png
 security:
 - kind: domain-security

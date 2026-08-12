@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -256,16 +256,16 @@ scopes:
   slug: cycloid-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: strong
-  composite: 58.9
-  delta: 0.0
+  band: developing
+  composite: 51.2
+  delta: -7.7
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 62.0
+    commercial_clarity: 68.4
+    contract_quality: 59.7
     developer_ergonomics: 34.8
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 31.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 58.9
   provenance:
     agentic_access: derived
@@ -274,9 +274,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/screenshots/cycloid-2026-06-20T175412.png
 security:
 - kind: authentication

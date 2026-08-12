@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-10'
+  score: 35.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 150
   human_in_the_loop: 2
@@ -214,8 +214,12 @@ apis:
 - description: The wishlists API from Outdoorsy — 9 operation(s) for wishlists.
   name: Outdoorsy Wishlists API
   slug: outdoorsy-wishlists-api
-artifact_total: 66
+artifact_total: 67
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/outdoorsy-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -332,6 +336,10 @@ created: '2026-08-02'
 description: 'Outdoorsy is an RV and campervan rental marketplace founded in 2014 and headquartered in Austin, Texas, connecting owners of recreational vehicles with travelers across North America, Europe and Australia/New Zealand. The Outdoorsy Group also operates Roamly (embedded RV insurance) and Wheelbase (RV rental fleet-management software). For developers, Outdoorsy publishes the Trailblazer Partner API at developers.outdoorsy.com — a REST platform with three integration surfaces: a fully-featured REST API for search, quoting, booking, payments and fleet management; INSTASearch embeddable JavaScript widgets; and partner deep links for attribution. Two live Swagger 2.0 contracts are published on the API hosts themselves — the core Outdoorsy API (api.outdoorsy.com/v0, 283 operations) and the Outdoorsy Search API (search.outdoorsy.com, JSON:API-formatted rental, campground, park and locality search).'
 image: https://avatars.githubusercontent.com/u/9725809?v=4
 layout: provider
+mcp_servers:
+- description: ''
+  name: outdoorsy-mcp.yml
+  slug: outdoorsy-mcpyml
 modified: '2026-08-02'
 name: Outdoorsy
 nav: Providers
@@ -339,7 +347,7 @@ network: true
 overview: 'Outdoorsy publishes 62 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Amenities API, Announcements API, and 59 more. Tagged areas include Company, Travel, Marketplace, Rentals, and Recreational Vehicles.
 
 
-  Outdoorsy''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 21 more developer resources.'
+  Outdoorsy''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 22 more developer resources.'
 random_paper: 88
 rate_limits:
 - limit_count: 1
@@ -347,16 +355,16 @@ rate_limits:
   slug: outdoorsy-rate-limits
 score:
   band: developing
-  composite: 45.0
-  delta: 2.0
+  composite: 42.1
+  delta: -2.9
   facets:
     commercial_clarity: 34.2
-    contract_quality: 48.1
+    contract_quality: 46.3
     developer_ergonomics: 66.8
-    discoverability: 92.6
+    discoverability: 63.0
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 43.0
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -364,7 +372,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 64
     mcp: derived
     skills: derived
   regulatory:
@@ -373,8 +381,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

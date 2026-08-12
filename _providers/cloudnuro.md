@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: Unified SaaS and Cloud FinOps platform offering app discovery, subscription management, user lifecycle automation, contract and renewal tracking, license optimization, chargeback, and policy-based gov
@@ -125,19 +125,19 @@ rate_limits:
   slug: cloudnuro-rate-limits
 score:
   band: emerging
-  composite: 22.5
-  delta: 0.0
+  composite: 14.7
+  delta: -7.8
   facets:
-    commercial_clarity: 47.4
+    commercial_clarity: 23.7
     contract_quality: 8.1
     developer_ergonomics: 2.2
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 22.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudnuro/refs/heads/main/screenshots/cloudnuro-2026-06-20T174615.png
 security:
 - kind: domain-security

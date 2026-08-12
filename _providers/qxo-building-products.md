@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: Enables customers to place material orders and track order status and deliveries within their own systems.
@@ -98,19 +98,19 @@ rate_limits:
   slug: qxo-building-products-rate-limits
 score:
   band: emerging
-  composite: 18.5
-  delta: 0.0
+  composite: 13.3
+  delta: -5.2
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 18.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/qxo-building-products/refs/heads/main/screenshots/qxo-building-products-2026-06-20T192500.png
 security:
 - kind: domain-security

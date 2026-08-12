@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-10'
+  score: 44.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -203,11 +203,11 @@ scopes:
   summary_line: 21 scopes · authorizationCode
 score:
   band: developing
-  composite: 53.5
-  delta: 0.0
+  composite: 52.1
+  delta: -1.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 53.5
+    contract_quality: 51.5
     developer_ergonomics: 53.8
     discoverability: 87.0
     governance: 20.8
@@ -228,9 +228,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 72.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 66.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/screenshots/doximity-2026-07-25T212328.png
 security:

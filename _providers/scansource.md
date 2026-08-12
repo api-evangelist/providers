@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -124,10 +124,6 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/scansource-vocabulary.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/partner-commerce.yaml
 created: '2026-05-02'
 description: ScanSource is an international technology distributor specializing in point-of-sale (POS), payments, barcode, physical security, unified communications, collaboration, telecom, and cloud services. Founded in 1992 in Greenville, South Carolina, ScanSource provides APIs that give partners real-time access to inventory, pricing, order management, and product information to automate the sales cycle and integrate with backend ERP systems and customer portals.
 examples:
@@ -169,7 +165,7 @@ overview: 'ScanSource publishes 7 APIs on the [APIs.io](https://apis.io/) networ
   The ScanSource catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  ScanSource''s developer surface includes authentication, documentation, getting-started guide, and 11 more developer resources.'
+  ScanSource''s developer surface includes authentication, documentation, getting-started guide, and 10 more developer resources.'
 plans:
 - name: Scansource Plans Pricing
   plan_count: 1
@@ -214,15 +210,15 @@ rules:
   slug: scansource-rules
 score:
   band: developing
-  composite: 52.0
-  delta: 0.0
+  composite: 46.0
+  delta: -6.0
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 79.8
+    commercial_clarity: 13.2
+    contract_quality: 76.9
     developer_ergonomics: 39.1
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 21.1
+    operational_transparency: 5.3
   previous_composite: 52.0
   provenance:
     agentic_access: derived
@@ -231,9 +227,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/screenshots/scansource-2026-06-20T193517.png
 security:
 - kind: authentication

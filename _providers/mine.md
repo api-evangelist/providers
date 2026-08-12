@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 61.9
-  scored_at: '2026-08-10'
+  score: 58.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -98,6 +99,10 @@ asyncapis:
   name: Mine Webhooks
   slug: mine-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mine-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -232,7 +237,7 @@ overview: 'MINE publishes 18 APIs on the [APIs.io](https://apis.io/) network, in
   The MINE catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  MINE''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 23 more developer resources.'
+  MINE''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 24 more developer resources.'
 random_paper: 77
 rate_limits:
 - limit_count: 2
@@ -240,13 +245,13 @@ rate_limits:
   slug: mine-rate-limits
 score:
   band: developing
-  composite: 55.3
-  delta: 0.0
+  composite: 53.6
+  delta: -1.7
   facets:
     commercial_clarity: 36.8
-    contract_quality: 59.8
+    contract_quality: 57.6
     developer_ergonomics: 66.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 60.5
   previous_composite: 55.3
@@ -260,8 +265,8 @@ score:
       total: 18
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/screenshots/mine-2026-08-07T172945.png
 security:

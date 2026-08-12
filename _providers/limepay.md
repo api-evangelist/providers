@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: REST API for accepting and managing card and BNPL payments — create and pay orders, capture or void authorised (pre-auth) transactions, issue refunds, save cards as payment sources, and run 3-D Secure
@@ -100,13 +100,13 @@ overview: 'Limepay publishes 3 APIs on the [APIs.io](https://apis.io/) network. 
 random_paper: 57
 score:
   band: emerging
-  composite: 20.1
-  delta: 0.0
+  composite: 17.7
+  delta: -2.4
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 42.9
-    discoverability: 83.3
+    discoverability: 72.2
     governance: 3.1
     operational_transparency: 0.0
   previous_composite: 20.1
@@ -118,9 +118,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 35.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 26.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/limepay/refs/heads/main/screenshots/limepay-2026-07-25T225213.png
 security:

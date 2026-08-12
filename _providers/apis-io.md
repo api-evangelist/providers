@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 56.3
-  scored_at: '2026-08-10'
+  score: 52.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -121,6 +122,14 @@ collections:
   name: .io Search APIs Tags API
   slug: postman-apis-io-tags-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apisio/apis.io/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apisio/apis.io/blob/master/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -501,7 +510,7 @@ overview: 'APIs.io publishes 11 APIs on the [APIs.io](https://apis.io/) network,
   The APIs.io catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  APIs.io''s developer surface includes authentication, engineering blog, getting-started guide, changelog, release notes, support, sandbox, and 44 more developer resources.'
+  APIs.io''s developer surface includes authentication, engineering blog, getting-started guide, changelog, release notes, support, sandbox, and 46 more developer resources.'
 plans:
 - name: Apis Io Plans Pricing
   plan_count: 3
@@ -530,26 +539,29 @@ rules:
   slug: apis-io-spectral-rules
 score:
   band: exemplar
-  composite: 81.8
-  delta: 19.2
+  composite: 71.1
+  delta: -10.7
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 79.0
+    commercial_clarity: 60.5
+    contract_quality: 76.1
     developer_ergonomics: 78.3
-    discoverability: 92.6
-    governance: 89.6
-    operational_transparency: 73.7
-  previous_composite: 62.6
+    discoverability: 81.5
+    governance: 80.2
+    operational_transparency: 50.0
+  previous_composite: 81.8
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: rising
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/screenshots/apis-io-2026-06-20T172253.png
 security:
 - kind: authentication

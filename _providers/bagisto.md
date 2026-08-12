@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: 'RESTful API for managing all Bagisto e-commerce operations including products, categories, customers, orders, inventory, cart, checkout, and administrative functions. Provides separate Shop and Admin '
@@ -39,6 +39,30 @@ apis:
   slug: bagisto-graphql-api
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/bagisto/bagisto/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/bagisto/bagisto/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/bagisto/bagisto/blob/2.4/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/bagisto/bagisto/blob/2.4/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/bagisto/bagisto/blob/2.4/.github/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/bagisto/bagisto/blob/2.4/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -114,7 +138,7 @@ network: true
 overview: 'Bagisto publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include E-Commerce, Laravel, Open Source, Products, and Orders.
 
 
-  Bagisto''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
+  Bagisto''s developer surface includes documentation, engineering blog, pricing, and 17 more developer resources.'
 plans:
 - name: Bagisto Plans Pricing
   plan_count: 3
@@ -126,18 +150,18 @@ rate_limits:
   slug: bagisto-rate-limits
 score:
   band: thin
-  composite: 34.6
-  delta: 0.0
+  composite: 38.9
+  delta: 4.3
   facets:
     commercial_clarity: 50.0
     contract_quality: 43.2
-    developer_ergonomics: 10.9
+    developer_ergonomics: 15.2
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 63.2
   previous_composite: 34.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bagisto/refs/heads/main/screenshots/bagisto-2026-06-20T172936.png
 security:

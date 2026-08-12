@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Public REST API for eCommerce shipping and order management — courier rate calculation and serviceability, order create/update/cancel, AWB and label generation, pickup scheduling, shipment tracking, r
@@ -143,13 +143,13 @@ overview: 'KartRocket publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 38
 score:
   band: thin
-  composite: 31.1
-  delta: 0.0
+  composite: 30.0
+  delta: -1.1
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 51.6
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 21.1
   previous_composite: 31.1
@@ -157,8 +157,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kartrocket/refs/heads/main/screenshots/kartrocket-2026-07-25T223516.png
 security:

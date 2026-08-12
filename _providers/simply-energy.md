@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-08-10'
+  score: 44.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -37,8 +37,12 @@ apis:
 - description: The mandated Consumer Data Right consumer data sharing surface, covering energy accounts, balances, billing, invoices, concessions, payment schedules, electricity service points, usage and distributed
   name: Simply Energy (ENGIE) CDR Energy Consumer Data API
   slug: simply-energy-cdr-energy-consumer-data-api
-artifact_total: 9
+artifact_total: 10
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/simply-energy-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -164,6 +168,10 @@ description: Simply Energy is the former brand of the Australian electricity and
   CDR Register under the ENGIE brand. Its unauthenticated CDR Generic Plans endpoint, hosted for it by the Australian Energy Regulator's Energy Made Easy service, returns 2,452 real ENGIE tariff plans conforming to the Consumer Data Standards energy schemas, and its own registered public base URI serves the Consumer Data Standards discovery endpoints with correct x-v version negotiation. Everything else is closed. Customer usage, billing, service point and DER data are available only to ACCC accredited data recipients with explicit consumer consent, there is no developer portal, no self-serve API keys, no published OpenID Connect discovery document, and no open grid, market or system data of any kind.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groq.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: simply-energy-mcp.yml
+  slug: simply-energy-mcpyml
 modified: '2026-07-27'
 name: Simply Energy
 nav: Providers
@@ -171,7 +179,7 @@ network: true
 overview: 'Simply Energy publishes 3 APIs on the [APIs.io](https://apis.io/) network: (ENGIE) CDR Energy Generic Plans API, (ENGIE) CDR Discovery API, and (ENGIE) CDR Energy Consumer Data API. Tagged areas include Energy, Australia, Utilities, Electricity, and Gas.
 
 
-  Simply Energy''s developer surface includes documentation, API reference, engineering blog, authentication, changelog, and 25 more developer resources.'
+  Simply Energy''s developer surface includes documentation, API reference, engineering blog, authentication, changelog, and 26 more developer resources.'
 random_paper: 89
 rate_limits:
 - limit_count: 14
@@ -184,12 +192,12 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.9
-  delta: 0.0
+  composite: 48.8
+  delta: -0.1
   facets:
     commercial_clarity: 21.1
-    contract_quality: 54.3
-    developer_ergonomics: 34.2
+    contract_quality: 52.2
+    developer_ergonomics: 36.4
     discoverability: 83.3
     governance: 20.8
     operational_transparency: 81.6
@@ -210,8 +218,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

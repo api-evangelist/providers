@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,7 +20,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-08-10'
+  score: 32.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -112,6 +112,30 @@ collections:
   name: Ghost Content and Admin APIs
   slug: open-ghost-org
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/TryGhost/Ghost/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/TryGhost/Ghost/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/TryGhost/Ghost/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/TryGhost/Ghost/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/TryGhost/Ghost/blob/main/.github/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/TryGhost/Ghost/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -287,7 +311,7 @@ overview: 'Ghost publishes 19 APIs on the [APIs.io](https://apis.io/) network, i
   The Ghost catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Ghost''s developer surface includes authentication, documentation, engineering blog, changelog, developer portal, pricing, and 11 more developer resources.'
+  Ghost''s developer surface includes authentication, documentation, engineering blog, changelog, developer portal, pricing, and 17 more developer resources.'
 plans:
 - name: Ghost Org Plans Pricing
   plan_count: 5
@@ -316,26 +340,26 @@ rules:
   slug: ghost-org-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.7
-  delta: 12.6
+  composite: 55.3
+  delta: 3.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.4
-    developer_ergonomics: 30.4
-    discoverability: 74.1
+    contract_quality: 67.9
+    developer_ergonomics: 34.8
+    discoverability: 81.5
     governance: 41.7
-    operational_transparency: 52.6
-  previous_composite: 39.1
+    operational_transparency: 63.2
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 42.4
       derived: 0
       marker_coverage: 0.0
-      total: 19
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: rising
+      total: 33
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/screenshots/ghost-org-2026-07-25T215752.png
 security:
 - kind: authentication

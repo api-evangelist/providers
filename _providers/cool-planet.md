@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 0
 common:
@@ -69,9 +69,9 @@ overview: 'Cool Planet is profiled on the [APIs.io](https://apis.io/) network. T
   Cool Planet''s developer surface includes engineering blog, signup flow, support, and 3 more developer resources.'
 random_paper: 74
 score:
-  band: emerging
-  composite: 13.1
-  delta: 0.0
+  band: minimal
+  composite: 12.8
+  delta: -0.3
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -80,8 +80,14 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 13.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 10.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cool-planet/refs/heads/main/screenshots/cool-planet-2026-07-25T210359.png
 slug: cool-planet

@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 27.0
-  scored_at: '2026-08-10'
+  score: 23.4
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: 'insurancecouncil.com.au runs on WordPress and leaves the standard WordPress REST API reachable anonymously at /wp-json/, returning JSON for pages, media (the PDF publication corpus of media releases, '
@@ -228,8 +228,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insurance-council-australia/refs/heads/main/screenshots/insurance-council-australia-2026-07-25T222633.png
 security:

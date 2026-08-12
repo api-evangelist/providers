@@ -28,10 +28,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/21dotco/two1-python/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/21dotco/two1-python/blob/master/CONTRIBUTING.md
 - group: company
   title: ''
   type: Website
@@ -95,28 +103,28 @@ network: true
 overview: 'Earn.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Bitcoin, Payments, and Acquired.
 
 
-  Earn.com''s developer surface includes CLI, changelog, authentication, and 10 more developer resources.'
+  Earn.com''s developer surface includes CLI, changelog, authentication, and 12 more developer resources.'
 random_paper: 45
 score:
   band: emerging
-  composite: 14.1
-  delta: 0.0
+  composite: 13.5
+  delta: -0.6
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.9
-    discoverability: 61.1
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 14.1
   regulatory:
     applies: true
     matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 16.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Payments
+    regime_id: payments
+    score: 18.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/earncom/refs/heads/main/screenshots/earncom-2026-07-25T212653.png
 security:

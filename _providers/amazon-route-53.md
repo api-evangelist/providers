@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -394,7 +394,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/amazon-route-53-openapi.yml
+  url: openapi/_original/amazon-route-53-openapi.yml
 description: Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service that provides DNS routing, domain name registration, and health checking capabilities. Route 53 connects user requests to internet applications running on AWS or on-premises infrastructure, and can be used to route traffic based on latency, geolocation, geoproximity, and weighted round-robin policies.
 examples:
 - key_count: 8
@@ -615,11 +615,11 @@ rules:
   slug: amazon-route-53-spectral-rules
 score:
   band: strong
-  composite: 61.2
-  delta: 0.0
+  composite: 58.2
+  delta: -3.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 73.6
+    contract_quality: 70.9
     developer_ergonomics: 39.1
     discoverability: 40.7
     governance: 68.8
@@ -632,8 +632,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 45.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-route-53/refs/heads/main/screenshots/amazon-route-53-2026-06-20T171815.png
 security:

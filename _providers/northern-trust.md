@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-10'
+  score: 30.6
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: The Custody API in the Northern Trust API Store gives institutional clients programmatic access to global custody data — holdings, positions, safekept assets, settlements, and account-level custody in
@@ -174,8 +174,8 @@ scopes:
   summary_line: 10 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.4
-  delta: 0.0
+  composite: 42.3
+  delta: -1.1
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -191,9 +191,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 60.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 53.2
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/northern-trust/refs/heads/main/screenshots/northern-trust-2026-06-20T190416.png
 security:

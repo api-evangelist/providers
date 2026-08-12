@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -232,15 +232,15 @@ rules:
   slug: weave-net-spectral-rules
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 31.5
+  delta: -8.0
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 22.7
+    commercial_clarity: 26.3
+    contract_quality: 21.9
     developer_ergonomics: 4.3
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 63.2
+    operational_transparency: 39.5
   previous_composite: 39.5
   provenance:
     agentic_access: derived
@@ -249,9 +249,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/screenshots/weave-net-2026-06-20T201316.png
 slug: weave-net
 tags:

@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-08-10'
+  score: 51.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 11
@@ -1285,16 +1286,16 @@ scopes:
   slug: zendesk-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 68.8
-  delta: 0.0
+  band: strong
+  composite: 59.4
+  delta: -9.4
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 60.6
+    commercial_clarity: 68.4
+    contract_quality: 58.6
     developer_ergonomics: 58.7
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 53.1
-    operational_transparency: 78.9
+    operational_transparency: 55.3
   previous_composite: 68.8
   provenance:
     agentic_access: derived
@@ -1305,9 +1306,9 @@ score:
       marker_coverage: 0.0
       total: 80
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/screenshots/zendesk-2026-06-20T165936.png
 security:
 - kind: authentication

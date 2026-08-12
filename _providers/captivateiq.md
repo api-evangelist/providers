@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 27.3
-  scored_at: '2026-08-10'
+  score: 26.4
+  scored_at: '2026-08-11'
 api_count: 16
 apis:
 - description: The Attribute Worksheets API from CaptivateIQ — 5 operation(s) for attribute worksheets.
@@ -79,8 +79,16 @@ apis:
 - description: The Users API from CaptivateIQ — 2 operation(s) for users.
   name: CaptivateIQ Users API
   slug: captivateiq-users-api
-artifact_total: 21
+artifact_total: 22
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/captivateiq-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/captivateiq-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -193,6 +201,10 @@ created: '2026-07-17'
 description: CaptivateIQ is a sales performance and commission management platform that automates the calculation, administration, and reporting of sales commissions and incentive compensation. Its ICM (Incentive Compensation Management) and SPM (Sales Performance Management) products let revenue, finance, and sales-ops teams design complex commission plans, model quotas and territories, and pay reps accurately and on time. CaptivateIQ exposes a public REST API (ciq/v1) for managing employees, users, hierarchies, data workbooks and worksheets, employee assumptions, commission plans, period groups, payouts, report models, transformation worksheets, uploads, dashboards, and audit logs. The API uses token-based authentication (Authorization header with a "Token" prefix), limit/offset pagination, and per-tier rate limiting, and is documented on a public developer portal with guides, recipes, a changelog, and an llms.txt index.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/captivateiq.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: captivateiq-mcp.yml
+  slug: captivateiq-mcpyml
 modified: '2026-07-18'
 name: CaptivateIQ
 nav: Providers
@@ -200,7 +212,7 @@ network: true
 overview: 'CaptivateIQ publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Attribute Worksheets API, Audit Logs API, Commission Plans API, and 13 more. Tagged areas include Company, Cloud Saas, Sales Commissions, Incentive Compensation Management, and Sales Performance Management.
 
 
-  CaptivateIQ''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, pricing, support, and 20 more developer resources.'
+  CaptivateIQ''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, pricing, support, and 22 more developer resources.'
 random_paper: 19
 rate_limits:
 - limit_count: 2
@@ -208,13 +220,13 @@ rate_limits:
   slug: captivateiq-rate-limits
 score:
   band: developing
-  composite: 53.5
-  delta: 0.0
+  composite: 52.4
+  delta: -1.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 53.3
-    developer_ergonomics: 42.9
-    discoverability: 92.6
+    contract_quality: 51.3
+    developer_ergonomics: 45.1
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 68.4
   previous_composite: 53.5
@@ -227,8 +239,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/screenshots/captivateiq-2026-07-25T204452.png
 security:

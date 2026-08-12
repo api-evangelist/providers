@@ -11,21 +11,25 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-10'
+  score: 19.8
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: GraphQL-based public API for The Onapsis Platform. Introduced with support for Assess (vulnerability and scan results) and preliminary support for Comply, it powers third-party integrations with ticke
   name: Onapsis Platform API
   slug: platform-graphql
-artifact_total: 5
+artifact_total: 6
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/onapsis-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -107,6 +111,10 @@ description: Onapsis is a cybersecurity and compliance company for business-crit
   threat intelligence.
 image: https://onapsis.com/wp-content/uploads/Onapsis-Featured-Image.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: onapsis-mcp.yml
+  slug: onapsis-mcpyml
 modified: '2026-08-04'
 name: Onapsis
 nav: Providers
@@ -114,25 +122,25 @@ network: true
 overview: 'Onapsis publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Application Security, Vulnerability Management, and Compliance.
 
 
-  Onapsis'' developer surface includes documentation, support, engineering blog, changelog, authentication, and 14 more developer resources.'
+  Onapsis'' developer surface includes documentation, support, engineering blog, changelog, authentication, and 15 more developer resources.'
 random_paper: 69
 score:
   band: thin
-  composite: 29.5
-  delta: 0.0
+  composite: 30.2
+  delta: 0.7
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
-    developer_ergonomics: 26.1
-    discoverability: 87.0
+    developer_ergonomics: 34.8
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 31.6
   previous_composite: 29.5
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onapsis/refs/heads/main/screenshots/onapsis-2026-08-07T190215.png
 security:

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 61.5
-  scored_at: '2026-08-10'
+  score: 57.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 430
   human_in_the_loop: 11
@@ -455,13 +456,13 @@ overview: 'Charthop publishes 87 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 45
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 49.3
+  delta: -1.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 49.8
+    contract_quality: 47.9
     developer_ergonomics: 62.5
-    discoverability: 74.1
+    discoverability: 63.0
     governance: 11.5
     operational_transparency: 55.3
   previous_composite: 50.9
@@ -475,8 +476,8 @@ score:
       total: 87
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/screenshots/charthop-2026-07-25T205113.png
 security:

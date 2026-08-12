@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 12
 apis:
 - description: OAuth access keys are created in Merchant Dashboard and can be exchanged for bearer tokens. Use the `/access-keys/token` endpoint to mint a bearer token from a valid `client_id` and `client_secret`.
@@ -110,6 +110,10 @@ collections:
   name: Resolve API Reference Access Keys Webhooks API
   slug: postman-resolve-webhooks-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/resolve-merchant-api-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -260,7 +264,7 @@ overview: 'Resolve publishes 12 APIs on the [APIs.io](https://apis.io/) network,
   The Resolve catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Resolve''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
+  Resolve''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 random_paper: 72
 rate_limits:
 - limit_count: 1
@@ -273,11 +277,11 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 58.4
-  delta: 0.0
+  composite: 57.9
+  delta: -0.5
   facets:
     commercial_clarity: 52.6
-    contract_quality: 69.0
+    contract_quality: 66.5
     developer_ergonomics: 73.4
     discoverability: 63.0
     governance: 11.5
@@ -298,8 +302,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -202,11 +202,11 @@ rules:
   slug: thecocktaildb-spectral-rules
 score:
   band: thin
-  composite: 32.1
-  delta: 0.0
+  composite: 32.0
+  delta: -0.1
   facets:
     commercial_clarity: 39.5
-    contract_quality: 20.7
+    contract_quality: 20.0
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 58.3
@@ -225,8 +225,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thecocktaildb/refs/heads/main/screenshots/thecocktaildb-2026-06-20T195244.png
 security:

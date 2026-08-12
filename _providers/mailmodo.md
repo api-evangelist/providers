@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -75,6 +75,18 @@ collections:
   name: Mailmodo API
   slug: open-mailmodo
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/mailmodo/mailmodo-mcp/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/mailmodo/mailmodo-mcp/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/mailmodo/mailmodo-mcp/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -266,7 +278,7 @@ overview: 'Mailmodo publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The Mailmodo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Mailmodo''s developer surface includes authentication, documentation, API reference, support, signup flow, developer portal, developer console, and 16 more developer resources.'
+  Mailmodo''s developer surface includes authentication, documentation, API reference, support, signup flow, developer portal, developer console, and 19 more developer resources.'
 plans:
 - name: Mailmodo Plans Pricing
   plan_count: 4
@@ -295,15 +307,15 @@ rules:
   slug: mailmodo-rules
 score:
   band: strong
-  composite: 61.6
-  delta: 0.0
+  composite: 65.5
+  delta: 3.9
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 76.0
+    commercial_clarity: 92.1
+    contract_quality: 73.1
     developer_ergonomics: 52.2
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 61.6
   provenance:
     agentic_access: derived
@@ -312,8 +324,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/screenshots/mailmodo-2026-06-20T184904.png
 security:

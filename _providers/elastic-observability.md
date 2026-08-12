@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -110,16 +110,16 @@ rate_limits:
   name: Elastic Observability Rate Limits
   slug: elastic-observability-rate-limits
 score:
-  band: thin
-  composite: 36.0
-  delta: 0.0
+  band: emerging
+  composite: 27.7
+  delta: -8.3
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 55.4
+    commercial_clarity: 23.7
+    contract_quality: 53.4
     developer_ergonomics: 19.6
     discoverability: 46.3
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 36.0
   provenance:
     agentic_access: derived
@@ -128,9 +128,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/screenshots/elastic-observability-2026-06-20T180529.png
 security:
 - kind: authentication

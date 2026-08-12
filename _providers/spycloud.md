@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +12,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-10'
+  score: 50.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -49,8 +50,16 @@ apis:
 - description: The Watchlist API from SpyCloud — 5 operation(s) for watchlist.
   name: SpyCloud Watchlist API
   slug: spycloud-watchlist-api
-artifact_total: 13
+artifact_total: 14
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/spycloud-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spycloud-compromised-credit-card-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -191,6 +200,10 @@ created: '2026-08-05'
 description: 'SpyCloud is an Austin, Texas based identity threat protection company that operates one of the largest repositories of recaptured darknet data — breach records, infostealer malware logs, phishing captures and combolists — and exposes it programmatically through a family of high-volume REST APIs. Security, fraud, identity and investigations teams query recaptured credentials, session cookies, exposed PII and infected-device telemetry to prevent account takeover, ransomware, session hijacking and online fraud. The public API surface spans nine separately-licensed products: Enterprise (Employee) ATO Prevention, Consumer ATO Prevention, Cybercrime Investigations, Data Partnership, IDLink identity correlation, Compromised Credit Card, Prospecting, NIST Password check, and Session Identity Protection. All are REST/JSON, authenticated with an x-api-key header, IP allow-listed, cursor-paginated at 1,000 records per page, and backed by a 99.9% uptime SLA.'
 image: https://spycloud.com/wp-content/uploads/2025/04/bg-img-dotted-lines-1920x700-1-1.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: spycloud-mcp.yml
+  slug: spycloud-mcpyml
 modified: '2026-08-05'
 name: SpyCloud
 nav: Providers
@@ -198,7 +211,7 @@ network: true
 overview: 'SpyCloud publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Breach API, Check API, Compass API, and 4 more. Tagged areas include Cybersecurity, Threat Intelligence, Identity, Fraud Prevention, and Account Takeover.
 
 
-  SpyCloud''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
+  SpyCloud''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
 random_paper: 71
 rate_limits:
 - limit_count: 0
@@ -206,16 +219,16 @@ rate_limits:
   slug: spycloud-rate-limits
 score:
   band: developing
-  composite: 53.1
-  delta: -0.2
+  composite: 54.0
+  delta: 0.9
   facets:
     commercial_clarity: 60.5
-    contract_quality: 56.6
-    developer_ergonomics: 53.8
+    contract_quality: 58.2
+    developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 42.1
-  previous_composite: 53.3
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,11 +236,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

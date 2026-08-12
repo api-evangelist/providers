@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: VTGate is the stateless proxy that routes queries to the appropriate VTTablet instances. It exposes a MySQL-compatible interface and a gRPC API that clients use to interact with the Vitess cluster, ha
@@ -45,6 +45,10 @@ apis:
   slug: vreplication-api
 artifact_total: 15
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/vitessio/vitess/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -155,7 +159,7 @@ overview: 'Vitess publishes 1 API on the [APIs.io](https://apis.io/) network: VT
   The Vitess catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Vitess'' developer surface includes documentation, getting-started guide, engineering blog, changelog, Stack Overflow tag, and 13 more developer resources.'
+  Vitess'' developer surface includes documentation, getting-started guide, engineering blog, changelog, Stack Overflow tag, and 14 more developer resources.'
 plans:
 - name: Vitess Plans Pricing
   plan_count: 1
@@ -183,16 +187,16 @@ rules:
     warn: 5
   slug: vitess-rules
 score:
-  band: developing
-  composite: 43.4
-  delta: 0.0
+  band: thin
+  composite: 38.2
+  delta: -5.2
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 13.2
     contract_quality: 40.3
     developer_ergonomics: 26.1
     discoverability: 72.2
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 36.8
   previous_composite: 43.4
   provenance:
     contracts:
@@ -200,9 +204,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vitess/refs/heads/main/screenshots/vitess-2026-06-20T201108.png
 security:
 - kind: domain-security

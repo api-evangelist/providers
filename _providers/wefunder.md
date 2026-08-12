@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 61.0
-  scored_at: '2026-08-10'
+  score: 57.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 3
@@ -83,6 +83,10 @@ asyncapis:
   name: Wefunder Webhooks
   slug: wefunder-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/wefunder-api-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -217,7 +221,7 @@ overview: 'Wefunder publishes 13 APIs on the [APIs.io](https://apis.io/) network
   The Wefunder catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Wefunder''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
+  Wefunder''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
 random_paper: 52
 scopes:
 - name: Wefunder Scopes
@@ -226,11 +230,11 @@ scopes:
   summary_line: 16 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 52.8
+  delta: 1.2
   facets:
     commercial_clarity: 44.7
-    contract_quality: 72.9
+    contract_quality: 70.2
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 11.5
@@ -246,8 +250,14 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 63.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

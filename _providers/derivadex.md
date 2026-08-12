@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-10'
+  score: 36.3
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Order book, tickers, mark prices, and order updates
@@ -81,7 +81,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/derivadex-exchange-openapi.yml
+  url: openapi/_original/derivadex-exchange-openapi.yml
 - group: other
   title: ''
   type: Overlay
@@ -145,11 +145,11 @@ overview: 'DerivaDEX publishes 3 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 28
 score:
   band: thin
-  composite: 39.4
-  delta: 0.0
+  composite: 39.0
+  delta: -0.4
   facets:
     commercial_clarity: 13.2
-    contract_quality: 56.6
+    contract_quality: 54.5
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
@@ -170,8 +170,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/derivadex/refs/heads/main/screenshots/derivadex-2026-07-25T211741.png
 security:

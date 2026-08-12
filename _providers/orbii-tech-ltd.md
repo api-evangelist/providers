@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -133,6 +133,10 @@ apis:
   slug: orbii-tech-ltd-zipped-csv-upload-api
 artifact_total: 35
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/orbii-tech-ltd-foodics-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -224,15 +228,15 @@ network: true
 overview: 'Orbii Tech Ltd publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Business Category Assignment API, Categories API, Clients API, and 28 more. Tagged areas include Company, Fintech, Lending, Credit Scoring, and Underwriting.
 
 
-  Orbii Tech Ltd''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 13 more developer resources.'
+  Orbii Tech Ltd''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 14 more developer resources.'
 random_paper: 91
 score:
   band: thin
-  composite: 32.6
-  delta: 0.0
+  composite: 32.2
+  delta: -0.4
   facets:
     commercial_clarity: 13.2
-    contract_quality: 50.5
+    contract_quality: 48.6
     developer_ergonomics: 45.1
     discoverability: 81.5
     governance: 11.5
@@ -254,8 +258,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orbii-tech-ltd/refs/heads/main/screenshots/orbii-tech-ltd-2026-08-07T190907.png
 security:

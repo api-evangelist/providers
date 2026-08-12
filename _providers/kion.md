@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 6
@@ -269,15 +269,15 @@ rules:
   slug: kion-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 43.6
+  delta: -8.5
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 73.8
+    commercial_clarity: 34.2
+    contract_quality: 71.0
     developer_ergonomics: 17.4
     discoverability: 68.5
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 52.1
   provenance:
     agentic_access: derived
@@ -286,9 +286,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/kion/refs/heads/main/screenshots/kion-2026-06-20T184046.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -59,6 +59,26 @@ apis:
   slug: farmos-taxonomy-api
 artifact_total: 21
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/farmOS/farmOS/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/farmOS/farmOS/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/farmOS/farmOS/blob/4.x/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/farmOS/.github/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/farmOS/farmOS/blob/4.x/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -170,7 +190,7 @@ overview: 'farmOS publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The farmOS catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  farmOS''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
+  farmOS''s developer surface includes authentication, documentation, engineering blog, pricing, and 18 more developer resources.'
 plans:
 - name: Farmos Plans Pricing
   plan_count: 4
@@ -196,15 +216,15 @@ scopes:
   summary_line: 3 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 47.8
+  delta: 2.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 64.3
-    developer_ergonomics: 21.7
+    contract_quality: 61.9
+    developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 45.5
   provenance:
     agentic_access: derived
@@ -213,8 +233,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/screenshots/farmos-2026-06-20T181044.png
 security:

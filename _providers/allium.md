@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -198,14 +199,14 @@ overview: 'Allium publishes 3 APIs on the [APIs.io](https://apis.io/) network: E
   Allium''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, pricing, and 24 more developer resources.'
 random_paper: 64
 score:
-  band: strong
-  composite: 58.5
-  delta: 0.0
+  band: developing
+  composite: 55.3
+  delta: -3.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 64.3
+    contract_quality: 61.9
     developer_ergonomics: 67.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 39.5
   previous_composite: 58.5
@@ -219,8 +220,14 @@ score:
       total: 3
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 46.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/screenshots/allium-2026-07-25T195712.png
 security:

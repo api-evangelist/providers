@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 28.6
-  scored_at: '2026-08-10'
+  score: 25.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,6 +48,10 @@ apis:
   slug: loon-finance-supply-api
 artifact_total: 7
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/loon-finance-transparency-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -147,17 +151,17 @@ network: true
 overview: 'Loon Finance publishes 3 APIs on the [APIs.io](https://apis.io/) network: Attestations API, Issuances API, and Supply API. Tagged areas include Company, Fintech, Stablecoin, Cryptocurrency, and Payments.
 
 
-  Loon Finance''s developer surface includes documentation, engineering blog, support, and 18 more developer resources.'
+  Loon Finance''s developer surface includes documentation, engineering blog, support, and 19 more developer resources.'
 random_paper: 49
 score:
   band: thin
-  composite: 38.6
-  delta: 0.0
+  composite: 37.2
+  delta: -1.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 57.6
+    contract_quality: 55.5
     developer_ergonomics: 19.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 10.5
   previous_composite: 38.6
@@ -177,8 +181,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loon-finance/refs/heads/main/screenshots/loon-finance-2026-07-25T225523.png
 security:

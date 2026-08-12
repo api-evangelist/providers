@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-10'
+  score: 43.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,8 +53,16 @@ apis:
 - description: Service registration and management operations
   name: Allianz Future Cloud Platform Services API
   slug: allianz-future-cloud-platform-services-api
-artifact_total: 65
+artifact_total: 66
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/allianz-future-cloud-platform-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/allianz-future-cloud-platform-services-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -261,6 +269,10 @@ jsonld:
   property_count: 35
   slug: allianz-future-cloud-platform-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: allianz-future-cloud-platform-mcp.yml
+  slug: allianz-future-cloud-platform-mcpyml
 modified: '2026-06-20'
 name: Allianz Future Cloud Platform
 nav: Providers
@@ -271,7 +283,7 @@ overview: 'Allianz Future Cloud Platform publishes 5 APIs on the [APIs.io](https
   The Allianz Future Cloud Platform catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Allianz Future Cloud Platform''s developer surface includes authentication, documentation, engineering blog, and 12 more developer resources.'
+  Allianz Future Cloud Platform''s developer surface includes authentication, documentation, engineering blog, and 14 more developer resources.'
 random_paper: 53
 rules:
 - name: Allianz Future Cloud Platform API Rules
@@ -297,13 +309,13 @@ scopes:
   summary_line: 6 scopes · clientCredentials
 score:
   band: thin
-  composite: 36.4
-  delta: 0.0
+  composite: 35.6
+  delta: -0.8
   facets:
     commercial_clarity: 0.0
-    contract_quality: 32.9
-    developer_ergonomics: 21.7
-    discoverability: 92.6
+    contract_quality: 31.7
+    developer_ergonomics: 23.9
+    discoverability: 81.5
     governance: 80.2
     operational_transparency: 5.3
   previous_composite: 36.4
@@ -322,8 +334,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 60.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/screenshots/allianz-future-cloud-platform-2026-07-25T195701.png
 security:

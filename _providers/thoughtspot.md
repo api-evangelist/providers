@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 58.8
-  scored_at: '2026-08-10'
+  score: 55.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 179
   human_in_the_loop: 13
@@ -387,6 +387,10 @@ collections:
   name: ThoughtSpot Public REST 10.1.0.cl Webhooks API
   slug: postman-thoughtspot-webhooks-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/thoughtspot-rest-v2-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -533,17 +537,17 @@ overview: 'ThoughtSpot publishes 57 APIs on the [APIs.io](https://apis.io/) netw
   The ThoughtSpot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ThoughtSpot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
+  ThoughtSpot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 26 more developer resources.'
 random_paper: 65
 score:
   band: strong
-  composite: 61.1
-  delta: 0.0
+  composite: 59.5
+  delta: -1.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 62.0
+    contract_quality: 59.7
     developer_ergonomics: 79.9
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 44.7
   previous_composite: 61.1
@@ -557,8 +561,8 @@ score:
       total: 57
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

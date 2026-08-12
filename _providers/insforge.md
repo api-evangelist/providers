@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 68.5
-  scored_at: '2026-08-10'
+  score: 64.9
+  scored_at: '2026-08-11'
 api_count: 11
 apis:
 - description: The Admin API from Insforge — 54 operation(s) for admin.
@@ -66,6 +66,10 @@ apis:
   slug: insforge-stripe-payments-api
 artifact_total: 16
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/insforge-auth-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -213,7 +217,7 @@ network: true
 overview: 'Insforge publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Channels API, Client API, and 8 more. Tagged areas include Company, Backend as a Service, Agent Native, Cloud Infrastructure, and Database.
 
 
-  Insforge''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 26 more developer resources.'
+  Insforge''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 27 more developer resources.'
 random_paper: 49
 scopes:
 - name: Insforge Scopes
@@ -222,11 +226,11 @@ scopes:
   summary_line: 11 scopes · authorizationCode/deviceCode
 score:
   band: developing
-  composite: 54.5
-  delta: 0.0
+  composite: 54.1
+  delta: -0.4
   facets:
     commercial_clarity: 44.7
-    contract_quality: 52.3
+    contract_quality: 50.3
     developer_ergonomics: 80.4
     discoverability: 92.6
     governance: 11.5
@@ -247,8 +251,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/screenshots/insforge-2026-07-25T222527.png
 security:

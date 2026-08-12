@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -170,11 +170,11 @@ rules:
   slug: finlight-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.6
-  delta: 0.0
+  composite: 44.3
+  delta: 1.7
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 66.7
+    commercial_clarity: 63.2
+    contract_quality: 64.2
     developer_ergonomics: 21.7
     discoverability: 68.5
     governance: 58.3
@@ -193,8 +193,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finlight/refs/heads/main/screenshots/finlight-2026-06-20T181218.png
 security:

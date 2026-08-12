@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 0
@@ -174,11 +174,11 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/openapi.json
+  url: openapi/_original/openapi.json
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/deprecated-openapi.json
+  url: openapi/_original/deprecated-openapi.json
 - group: design
   title: ''
   type: JSONLD
@@ -1220,11 +1220,11 @@ rules:
   slug: etoro-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.7
-  delta: 0.0
+  composite: 39.3
+  delta: -0.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 49.7
+    contract_quality: 47.8
     developer_ergonomics: 39.1
     discoverability: 74.1
     governance: 68.8
@@ -1243,8 +1243,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/screenshots/etoro-2026-06-20T180841.png
 security:

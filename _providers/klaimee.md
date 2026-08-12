@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-10'
+  score: 0.0
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,13 +87,13 @@ overview: 'Klaimee is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 32
 score:
   band: minimal
-  composite: 10.5
-  delta: 0.0
+  composite: 9.6
+  delta: -0.9
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 10.5
@@ -103,8 +103,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klaimee/refs/heads/main/screenshots/klaimee-2026-07-25T223925.png
 security:

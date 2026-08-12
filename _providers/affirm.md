@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -94,6 +94,14 @@ collections:
   name: Affirm Transactions API
   slug: open-affirm-transactions
 common:
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.affirm.com/docs
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.affirm.com/affirm-developers/changelog
 - group: agent
   title: ''
   type: AgenticAccess
@@ -431,7 +439,7 @@ overview: 'Affirm publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
   The Affirm catalog on APIs.io includes 1 event-driven AsyncAPI specification, 6 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Affirm''s developer surface includes authentication and 10 more developer resources.'
+  Affirm''s developer surface includes documentation, changelog, authentication, and 10 more developer resources.'
 plans:
 - name: Affirm Plans Pricing
   plan_count: 1
@@ -468,13 +476,13 @@ rules:
   slug: affirm-spectral-rules
 score:
   band: developing
-  composite: 44.6
-  delta: 0.0
+  composite: 43.4
+  delta: -1.2
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 87.8
-    developer_ergonomics: 10.9
-    discoverability: 64.8
+    commercial_clarity: 21.1
+    contract_quality: 85.0
+    developer_ergonomics: 19.6
+    discoverability: 72.2
     governance: 41.7
     operational_transparency: 26.3
   previous_composite: 44.6
@@ -491,8 +499,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/screenshots/affirm-2026-06-20T165638.png
 security:

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 56.5
-  scored_at: '2026-08-10'
+  score: 52.9
+  scored_at: '2026-08-11'
 api_count: 12
 apis:
 - description: The Analytics API from Sequel — 2 operation(s) for analytics.
@@ -73,6 +74,10 @@ asyncapis:
   name: Sequel Webhooks
   slug: sequel-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sequel-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -207,15 +212,15 @@ overview: 'Sequel publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
   The Sequel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Sequel''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 22 more developer resources.'
+  Sequel''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 23 more developer resources.'
 random_paper: 75
 score:
   band: developing
-  composite: 53.3
-  delta: 0.0
+  composite: 52.6
+  delta: -0.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 66.3
+    contract_quality: 63.8
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 11.5
@@ -230,8 +235,8 @@ score:
       total: 12
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

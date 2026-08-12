@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: documented
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-10'
+  score: 36.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -85,8 +85,16 @@ apis:
 - description: The Young Minds API from American Gene Technologies — 2 operation(s) for young minds.
   name: American Gene Technologies Young Minds API
   slug: american-gene-technologies-international-young-minds-api
-artifact_total: 22
+artifact_total: 23
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/american-gene-technologies-international-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/american-gene-technologies-international-content-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -240,6 +248,10 @@ description: American Gene Technologies International Inc. (AGT) is a privately 
   machine-readable surface reachable without credentials is the WordPress REST content API behind americangene.com, catalogued in this profile — a read-only content surface exposing the company's gene therapy reference entries, patent portfolio, news releases, press coverage, blog, newsletters, advisory board, milestones, media library and video series as structured JSON.
 image: https://www.americangene.com/wp-content/uploads/2021/03/americangenetechnologies-homepage.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: american-gene-technologies-international-mcp.yml
+  slug: american-gene-technologies-international-mcpyml
 modified: '2026-08-06'
 name: American Gene Technologies
 nav: Providers
@@ -247,28 +259,28 @@ network: true
 overview: 'American Gene Technologies publishes 19 APIs on the [APIs.io](https://apis.io/) network, including AGT Jobs API, AGT Newsletters API, Blogs API, and 16 more. Tagged areas include Company, Biotechnology, Life Sciences, Gene Therapy, and Cell Therapy.
 
 
-  American Gene Technologies'' developer surface includes engineering blog, product news, support, FAQ, YouTube channel, authentication, code examples, and 30 more developer resources.'
+  American Gene Technologies'' developer surface includes engineering blog, product news, support, FAQ, YouTube channel, authentication, code examples, and 32 more developer resources.'
 random_paper: 6
 score:
   band: emerging
-  composite: 21.1
-  delta: 0.2
+  composite: 20.6
+  delta: -0.5
   facets:
     commercial_clarity: 10.5
-    contract_quality: 14.7
-    developer_ergonomics: 19.0
-    discoverability: 92.6
+    contract_quality: 15.1
+    developer_ergonomics: 21.2
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 20.9
+  previous_composite: 21.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 19
       marker_coverage: 100.0
-      total: 1
+      total: 19
     mcp: derived
     skills: derived
   regulatory:
@@ -277,8 +289,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-gene-technologies-international/refs/heads/main/screenshots/american-gene-technologies-international-2026-08-07T161327.png
 security:

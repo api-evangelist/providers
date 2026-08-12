@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -219,12 +219,12 @@ rules:
   slug: pancakeswap-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.3
-  delta: 0.0
+  composite: 47.5
+  delta: -0.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 67.3
-    developer_ergonomics: 10.9
+    contract_quality: 65.1
+    developer_ergonomics: 15.2
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
@@ -236,8 +236,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 41.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/screenshots/pancakeswap-2026-06-20T191335.png
 security:

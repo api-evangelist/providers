@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-10'
+  score: 29.1
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: The Insights API from ClearSlide — 1 operation(s) for insights.
@@ -94,7 +94,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/clearslide-openapi.yml
+  url: openapi/_original/clearslide-openapi.yml
 - group: other
   title: ''
   type: Overlay
@@ -175,13 +175,13 @@ scopes:
   summary_line: 2 scopes · authorizationCode/password
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 47.4
+  delta: -1.7
   facets:
     commercial_clarity: 42.1
-    contract_quality: 58.9
+    contract_quality: 56.7
     developer_ergonomics: 53.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 26.3
   previous_composite: 49.1
@@ -194,8 +194,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/screenshots/clearslide-2026-07-25T205547.png
 security:

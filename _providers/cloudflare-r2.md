@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -83,6 +83,22 @@ apis:
   slug: cloudflare-r2-table-management-api
 artifact_total: 33
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/cloudflare/api-schemas/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/cloudflare/.github/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/cloudflare/.github/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/cloudflare/api-schemas/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -202,7 +218,7 @@ overview: 'Cloudflare R2 publishes 14 APIs on the [APIs.io](https://apis.io/) ne
   The Cloudflare R2 catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Cloudflare R2''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
+  Cloudflare R2''s developer surface includes authentication, documentation, engineering blog, pricing, and 16 more developer resources.'
 plans:
 - name: Cloudflare R2 Plans Pricing
   plan_count: 3
@@ -223,11 +239,11 @@ rules:
   slug: cloudflare-r2-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.2
-  delta: 0.0
+  composite: 52.5
+  delta: -0.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.4
+    contract_quality: 67.8
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
@@ -240,8 +256,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/screenshots/cloudflare-r2-2026-06-20T174556.png
 security:

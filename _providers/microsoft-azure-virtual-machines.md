@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -361,16 +361,16 @@ scopes:
   slug: microsoft-azure-virtual-machines-scopes
   summary_line: 1 scope · implicit
 score:
-  band: exemplar
-  composite: 66.9
-  delta: 0.0
+  band: strong
+  composite: 58.5
+  delta: -8.4
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 58.9
+    commercial_clarity: 60.5
+    contract_quality: 56.7
     developer_ergonomics: 56.5
     discoverability: 81.5
     governance: 58.3
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 66.9
   provenance:
     agentic_access: derived
@@ -379,9 +379,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-virtual-machines/refs/heads/main/screenshots/microsoft-azure-virtual-machines-2026-06-20T185443.png
 security:
 - kind: authentication

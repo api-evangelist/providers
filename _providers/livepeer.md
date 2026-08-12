@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 5
@@ -187,6 +187,18 @@ collections:
   name: Livepeer API Reference
   slug: open-livepeer
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/livepeer/livepeer-js/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/livepeer/livepeer-js/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/livepeer/livepeer-js/blob/main/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -473,7 +485,7 @@ overview: 'Livepeer publishes 12 APIs on the [APIs.io](https://apis.io/) network
   The Livepeer catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Livepeer''s developer surface includes authentication, documentation, GitHub presence, status page, engineering blog, API reference, pricing, and 42 more developer resources.'
+  Livepeer''s developer surface includes authentication, documentation, GitHub presence, status page, engineering blog, API reference, pricing, and 45 more developer resources.'
 plans:
 - name: Livepeer Plans Pricing
   plan_count: 1
@@ -510,26 +522,26 @@ rules:
   slug: livepeer-studio-rules
 score:
   band: strong
-  composite: 58.3
-  delta: 23.3
+  composite: 59.9
+  delta: 1.6
   facets:
     commercial_clarity: 73.7
-    contract_quality: 62.3
-    developer_ergonomics: 39.1
-    discoverability: 74.1
+    contract_quality: 62.2
+    developer_ergonomics: 43.5
+    discoverability: 81.5
     governance: 37.5
     operational_transparency: 63.2
-  previous_composite: 35.0
+  previous_composite: 58.3
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 12
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: rising
+      total: 19
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/screenshots/livepeer-2026-06-20T184614.png
 security:
 - kind: authentication

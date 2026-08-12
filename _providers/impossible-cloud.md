@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/impossible-cloud-management-console-openapi-original.json
+  url: openapi/_original/impossible-cloud-management-console-openapi-original.json
 - group: agent
   title: ''
   type: LLMsTxt
@@ -180,11 +180,11 @@ overview: 'Impossible Cloud publishes 3 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 35
 score:
   band: developing
-  composite: 48.0
-  delta: 0.0
+  composite: 47.5
+  delta: -0.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 46.5
+    contract_quality: 44.8
     developer_ergonomics: 54.3
     discoverability: 81.5
     governance: 20.8
@@ -199,8 +199,8 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/screenshots/impossible-cloud-2026-07-25T222158.png
 security:

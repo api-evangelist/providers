@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -199,11 +199,11 @@ rules:
   slug: giftbit-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 47.8
+  delta: -0.6
   facets:
     commercial_clarity: 47.4
-    contract_quality: 72.9
+    contract_quality: 70.1
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
@@ -222,8 +222,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 43.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/giftbit/refs/heads/main/screenshots/giftbit-2026-06-20T181826.png
 security:

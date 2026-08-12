@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -78,6 +78,18 @@ collections:
   name: Arbitrum JSON-RPC API
   slug: open-arbitrum
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/OffchainLabs/token-bridge-contracts/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/OffchainLabs/token-bridge-contracts/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/OffchainLabs/token-bridge-contracts/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -148,7 +160,7 @@ overview: 'Arbitrum publishes 4 APIs on the [APIs.io](https://apis.io/) network,
   The Arbitrum catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Arbitrum''s developer surface includes documentation, GitHub presence, developer portal, status page, engineering blog, and 8 more developer resources.'
+  Arbitrum''s developer surface includes documentation, GitHub presence, developer portal, status page, engineering blog, and 11 more developer resources.'
 plans:
 - name: Arbitrum Plans Pricing
   plan_count: 1
@@ -169,15 +181,15 @@ rules:
   slug: arbitrum-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 43.5
-  delta: 0.0
+  composite: 46.6
+  delta: 3.1
   facets:
     commercial_clarity: 28.9
-    contract_quality: 68.9
-    developer_ergonomics: 19.6
-    discoverability: 74.1
+    contract_quality: 66.7
+    developer_ergonomics: 23.9
+    discoverability: 81.5
     governance: 47.9
-    operational_transparency: 26.3
+    operational_transparency: 42.1
   previous_composite: 43.5
   provenance:
     agentic_access: derived
@@ -186,8 +198,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arbitrum/refs/heads/main/screenshots/arbitrum-2026-06-20T172358.png
 security:

@@ -13,22 +13,22 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: documented
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 58.3
-  scored_at: '2026-08-10'
+  score: 36.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -166,16 +166,29 @@ overview: 'Burger Singh publishes 6 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 69
 score:
   band: thin
-  composite: 32.8
+  composite: 29.7
+  delta: -3.1
   facets:
     commercial_clarity: 10.5
-    contract_quality: 51.4
-    developer_ergonomics: 30.4
-    discoverability: 92.6
-    governance: 20.8
+    contract_quality: 57.0
+    developer_ergonomics: 19.0
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 0.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 32.8
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Burger Singh Authentication

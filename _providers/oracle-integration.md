@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 1
@@ -491,16 +491,16 @@ scopes:
   slug: oracle-integration-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: strong
-  composite: 60.2
-  delta: 0.0
+  band: developing
+  composite: 52.1
+  delta: -8.1
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 32.2
+    commercial_clarity: 47.4
+    contract_quality: 31.0
     developer_ergonomics: 69.6
     discoverability: 68.5
     governance: 68.8
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 60.2
   provenance:
     agentic_access: derived
@@ -509,9 +509,9 @@ score:
       derived: 23
       marker_coverage: 100.0
       total: 23
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/screenshots/oracle-integration-2026-08-07T190823.png
 security:
 - kind: authentication

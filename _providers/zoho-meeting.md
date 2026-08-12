@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'REST API for creating, updating, and reporting on Zoho Meeting sessions and Zoho Webinar events, including registrants, recordings, and meeting links. Requests are authenticated with OAuth 2.0 access '
@@ -85,19 +85,19 @@ overview: 'Zoho Meeting publishes 1 API on the [APIs.io](https://apis.io/) netwo
   Zoho Meeting''s developer surface includes documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
 random_paper: 78
 score:
-  band: minimal
-  composite: 11.8
-  delta: 0.0
+  band: emerging
+  composite: 14.5
+  delta: 2.7
   facets:
-    commercial_clarity: 10.5
+    commercial_clarity: 23.7
     contract_quality: 0.0
     developer_ergonomics: 10.9
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 11.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-meeting/refs/heads/main/screenshots/zoho-meeting-2026-06-20T201943.png
 security:

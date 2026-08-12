@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 66.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 131
   human_in_the_loop: 2
@@ -251,11 +251,11 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 64.1
-  delta: 0.0
+  composite: 64.4
+  delta: 0.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.7
+    contract_quality: 64.8
     developer_ergonomics: 86.4
     discoverability: 92.6
     governance: 11.5
@@ -271,8 +271,8 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/screenshots/moloco-2026-08-07T184114.png
 security:

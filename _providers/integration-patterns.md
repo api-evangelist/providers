@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,8 +79,8 @@ rules:
   slug: integration-patterns-rules
 score:
   band: minimal
-  composite: 6.4
-  delta: 0.0
+  composite: 7.5
+  delta: 1.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -89,14 +89,8 @@ score:
     governance: 10.4
     operational_transparency: 0.0
   previous_composite: 6.4
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 0.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/integration-patterns/refs/heads/main/screenshots/integration-patterns-2026-06-20T183430.png
 slug: integration-patterns

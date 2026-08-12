@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: The Bloomberg Open API (BLPAPI) enables programmatic access to Bloomberg Terminal data from applications running on the same machine or connecting via Bloomberg's network. Provides real-time data subs
@@ -45,6 +45,18 @@ apis:
   slug: bloomberg-emsx
 artifact_total: 24
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/bloomberg/blpapi-node/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/bloomberg/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/bloomberg/.github/blob/main/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -117,7 +129,7 @@ network: true
 overview: 'Bloomberg Terminal publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Terminal, Bloomberg Professional Service, Market Data, Financial Workstation, and Trading.
 
 
-  Bloomberg Terminal''s developer surface includes developer portal, documentation, support, and 6 more developer resources.'
+  Bloomberg Terminal''s developer surface includes developer portal, documentation, support, and 9 more developer resources.'
 plans:
 - name: Bloomberg Terminal Plans Pricing
   plan_count: 3
@@ -128,16 +140,16 @@ rate_limits:
   name: Bloomberg Terminal Rate Limits
   slug: bloomberg-terminal-rate-limits
 score:
-  band: thin
-  composite: 29.7
-  delta: 0.0
+  band: emerging
+  composite: 23.0
+  delta: -6.7
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 28.3
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 29.7
   regulatory:
     applies: true
@@ -145,9 +157,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-terminal/refs/heads/main/screenshots/bloomberg-terminal-2026-06-20T173517.png
 security:
 - kind: domain-security

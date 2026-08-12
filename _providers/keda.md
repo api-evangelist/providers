@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,6 +64,26 @@ collections:
   name: KEDA Metrics API
   slug: open-keda-metrics-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/kedacore/keda/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/kedacore/keda/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/kedacore/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/kedacore/keda/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/kedacore/keda/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -166,7 +186,7 @@ overview: 'KEDA publishes 2 APIs on the [APIs.io](https://apis.io/) network: Met
   The KEDA catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  KEDA''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, Stack Overflow tag, and 12 more developer resources.'
+  KEDA''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, Stack Overflow tag, and 17 more developer resources.'
 plans:
 - name: Keda Plans Pricing
   plan_count: 1
@@ -195,15 +215,15 @@ rules:
   slug: keda-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 46.2
+  delta: -5.9
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 82.4
+    commercial_clarity: 13.2
+    contract_quality: 79.7
     developer_ergonomics: 37.0
     discoverability: 64.8
     governance: 41.7
-    operational_transparency: 52.6
+    operational_transparency: 36.8
   previous_composite: 52.1
   provenance:
     agentic_access: derived
@@ -212,9 +232,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/keda/refs/heads/main/screenshots/keda-2026-06-20T183939.png
 security:
 - kind: authentication

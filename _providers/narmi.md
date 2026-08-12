@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 2
@@ -319,6 +319,10 @@ collections:
   name: Narmi Public account balances wires API
   slug: postman-narmi-wires-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/narmi-public-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -477,7 +481,7 @@ overview: 'Narmi publishes 44 APIs on the [APIs.io](https://apis.io/) network, i
   The Narmi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Narmi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 28 more developer resources.'
+  Narmi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 29 more developer resources.'
 random_paper: 71
 scopes:
 - name: Narmi Scopes
@@ -486,13 +490,13 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.9
-  delta: 0.0
+  composite: 56.4
+  delta: -1.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 73.0
+    contract_quality: 70.3
     developer_ergonomics: 79.9
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
   previous_composite: 57.9
@@ -512,8 +516,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/screenshots/narmi-2026-08-07T184633.png
 security:

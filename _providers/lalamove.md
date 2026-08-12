@@ -21,25 +21,29 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 35.4
-  scored_at: '2026-08-10'
+  score: 41.7
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'The Lalamove Delivery API (v3) is a REST API for on-demand and scheduled courier delivery. Partners request a quotation for a route of stops, place an order against that quotation, retrieve order and '
   name: Lalamove Delivery API
   slug: lalamove-delivery-api
-artifact_total: 4
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Lalamove Delivery Webhooks
   slug: lalamove-delivery-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/lalamove-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -148,6 +152,10 @@ created: '2026-07-17'
 description: Lalamove is a Hong Kong-founded on-demand logistics and same-day delivery platform operating across Asia and Latin America, matching businesses and consumers with a fleet of motorcycle, car, van and truck drivers. Its Delivery API (v3) lets partners programmatically request quotations, place and edit delivery orders, track assigned drivers in real time, add priority fees, and receive order lifecycle webhooks. The REST API is authenticated with HMAC SHA256 request signing, is segmented by market via a UN/LOCODE `Market` header, and is available in eleven markets including Hong Kong SAR, Singapore, Malaysia, Thailand, Philippines, Indonesia, Vietnam, Taiwan, Japan, Mexico and Brazil. Lalamove publishes a sandbox environment, a Node.js SDK, multi-language code examples, and a public status page.
 image: https://avatars.githubusercontent.com/u/20277126?v=4
 layout: provider
+mcp_servers:
+- description: ''
+  name: lalamove-mcp.yml
+  slug: lalamove-mcpyml
 modified: '2026-07-19'
 name: Lalamove
 nav: Providers
@@ -158,16 +166,16 @@ overview: 'Lalamove publishes 1 API on the [APIs.io](https://apis.io/) network. 
   The Lalamove catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lalamove''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 19 more developer resources.'
+  Lalamove''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 20 more developer resources.'
 random_paper: 37
 score:
   band: developing
-  composite: 48.0
-  delta: 0.0
+  composite: 48.4
+  delta: 0.4
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
-    developer_ergonomics: 66.8
+    developer_ergonomics: 69.0
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 44.7
@@ -176,8 +184,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lalamove/refs/heads/main/screenshots/lalamove-2026-07-25T224438.png
 security:

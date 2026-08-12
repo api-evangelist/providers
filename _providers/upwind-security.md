@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 59.9
-  scored_at: '2026-08-10'
+  score: 56.3
+  scored_at: '2026-08-11'
 api_count: 12
 apis:
 - description: The Access Management resource offers methods for managing groups, members, roles, and scopes.
@@ -73,6 +74,10 @@ asyncapis:
   name: Upwind Security Webhooks
   slug: upwind-security-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/upwind-security-management-v1-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -203,7 +208,7 @@ overview: 'Upwind Security publishes 12 APIs on the [APIs.io](https://apis.io/) 
   The Upwind Security catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Upwind Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, CLI, and 21 more developer resources.'
+  Upwind Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, CLI, and 22 more developer resources.'
 random_paper: 88
 scopes:
 - name: Upwind Security Scopes
@@ -211,12 +216,12 @@ scopes:
   slug: upwind-security-scopes
   summary_line: 26 scopes · clientCredentials/authorizationCode
 score:
-  band: strong
-  composite: 56.3
-  delta: 0.0
+  band: developing
+  composite: 55.7
+  delta: -0.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 66.2
+    contract_quality: 63.7
     developer_ergonomics: 60.9
     discoverability: 92.6
     governance: 20.8
@@ -231,8 +236,8 @@ score:
       total: 12
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

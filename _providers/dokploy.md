@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 339
   human_in_the_loop: 15
@@ -189,6 +190,22 @@ collections:
   name: Dokploy API
   slug: open-dokploy
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Dokploy/dokploy/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Dokploy/dokploy/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Dokploy/dokploy/blob/canary/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Dokploy/dokploy/blob/canary/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -276,7 +293,7 @@ network: true
 overview: 'Dokploy publishes 48 APIs on the [APIs.io](https://apis.io/) network, including admin API, ai API, application API, and 45 more. Tagged areas include PaaS, Self-Hosted, Open Source, Docker, and Docker Swarm.
 
 
-  Dokploy''s developer surface includes authentication, documentation, API reference, pricing, CLI, code examples, engineering blog, and 10 more developer resources.'
+  Dokploy''s developer surface includes authentication, documentation, API reference, pricing, CLI, code examples, engineering blog, and 14 more developer resources.'
 plans:
 - name: Dokploy Plans Pricing
   plan_count: 4
@@ -288,15 +305,15 @@ rate_limits:
   slug: dokploy-rate-limits
 score:
   band: developing
-  composite: 45.6
-  delta: 0.0
+  composite: 49.4
+  delta: 3.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 55.8
-    developer_ergonomics: 50.0
+    contract_quality: 53.7
+    developer_ergonomics: 54.3
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 63.2
   previous_composite: 45.6
   provenance:
     agentic_access: derived
@@ -305,8 +322,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 48
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dokploy/refs/heads/main/screenshots/dokploy-2026-06-20T180131.png
 security:

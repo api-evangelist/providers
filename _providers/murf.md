@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -92,7 +92,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/murf-openapi.yml
+  url: openapi/_original/murf-openapi.yml
 - group: commercial
   title: ''
   type: Plans
@@ -140,15 +140,15 @@ rate_limits:
   slug: murf-rate-limits
 score:
   band: thin
-  composite: 33.5
-  delta: 0.0
+  composite: 29.1
+  delta: -4.4
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 53.9
+    commercial_clarity: 23.7
+    contract_quality: 51.9
     developer_ergonomics: 10.9
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 33.5
   provenance:
     agentic_access: derived
@@ -157,14 +157,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 15.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/screenshots/murf-2026-06-20T185902.png
 security:

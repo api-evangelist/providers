@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Public-facing website of the Defense Security Cooperation Agency that describes its mission, leadership, programs, and partners. The site links to news, the security cooperation library, and the FMS p
@@ -105,19 +105,25 @@ rate_limits:
   slug: defense-security-cooperation-agency-rate-limits
 score:
   band: emerging
-  composite: 20.6
-  delta: 0.0
+  composite: 13.6
+  delta: -7.0
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 20.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 18.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/defense-security-cooperation-agency/refs/heads/main/screenshots/defense-security-cooperation-agency-2026-06-20T175837.png
 security:
 - kind: domain-security

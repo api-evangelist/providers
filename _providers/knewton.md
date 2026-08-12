@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 23.2
-  scored_at: '2026-08-10'
+  score: 19.6
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'The Knewton Enterprise Platform REST API (v0) that partner learning applications integrate with to deliver continuously adaptive learning. Partners create anonymized user accounts, establish learning '
@@ -163,14 +163,14 @@ scopes:
   slug: knewton-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 28.4
-  delta: 0.0
+  band: emerging
+  composite: 27.3
+  delta: -1.1
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 60.3
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 23.7
   previous_composite: 28.4
@@ -178,8 +178,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knewton/refs/heads/main/screenshots/knewton-2026-07-25T223953.png
 security:

@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-10'
+  score: 43.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 281
   human_in_the_loop: 0
@@ -75,6 +75,10 @@ apis:
   slug: turntide-technologies-yoast-v1-api
 artifact_total: 20
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/turntide-technologies-wordpress-rest-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -214,7 +218,7 @@ network: true
 overview: 'Turntide Technologies publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Coauthors/v1 API, Complianz/v1 API, Core API, and 12 more. Tagged areas include Company, Electrification, Electric Motors, Power Electronics, and Energy Storage.
 
 
-  Turntide Technologies'' developer surface includes documentation, support, engineering blog, authentication, and 27 more developer resources.'
+  Turntide Technologies'' developer surface includes documentation, support, engineering blog, authentication, and 28 more developer resources.'
 random_paper: 4
 scopes:
 - name: Turntide Technologies Scopes
@@ -223,28 +227,34 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 31.6
-  delta: 0.3
+  composite: 35.6
+  delta: 4.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 14.0
+    contract_quality: 14.4
     developer_ergonomics: 36.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 31.3
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 15
       marker_coverage: 100.0
-      total: 1
+      total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 63.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

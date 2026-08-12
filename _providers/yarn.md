@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The @yarnpkg/core programmatic JavaScript/TypeScript API that allows applications to interact with Yarn projects, workspaces, and dependency resolution. Used for building Yarn plugins and tooling inte
@@ -39,6 +39,10 @@ apis:
   slug: yarn-cli
 artifact_total: 33
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/yarnpkg/berry/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -149,7 +153,7 @@ overview: 'YARN publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
   The YARN catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  YARN''s developer surface includes documentation, getting-started guide, API reference, changelog, and 8 more developer resources.'
+  YARN''s developer surface includes documentation, getting-started guide, API reference, changelog, and 9 more developer resources.'
 plans:
 - name: Yarn Plans Pricing
   plan_count: 3
@@ -169,20 +173,20 @@ rules:
     warn: 3
   slug: yarn-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 34.2
-  delta: 0.0
+  band: emerging
+  composite: 26.4
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 32.6
     discoverability: 59.3
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 34.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/yarn/refs/heads/main/screenshots/yarn-2026-06-20T201731.png
 security:
 - kind: domain-security

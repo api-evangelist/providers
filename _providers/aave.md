@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: Core Aave V3 protocol contracts — Pool, L2 Pool, Wrapped Token Gateway, PoolAddressesProvider, Pool Configurator, Interest Rate Strategy, Access Control Manager, Oracles, aTokens, variable / stable de
@@ -57,6 +57,18 @@ apis:
   slug: interface
 artifact_total: 14
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/aave-dao/aave-v3-origin/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/aave-dao/aave-v3-origin/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/aave-dao/aave-v3-origin/blob/main/.github/CONTRIBUTING.md
 - group: auth
   title: ''
   type: TrustCenter
@@ -120,7 +132,7 @@ network: true
 overview: 'Aave publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include DeFi, Lending, Borrowing, Liquidity, and Protocol.
 
 
-  Aave''s developer surface includes documentation, GitHub presence, engineering blog, and 8 more developer resources.'
+  Aave''s developer surface includes documentation, GitHub presence, engineering blog, and 11 more developer resources.'
 plans:
 - name: Aave Plans Pricing
   plan_count: 1
@@ -132,18 +144,18 @@ rate_limits:
   slug: aave-rate-limits
 score:
   band: emerging
-  composite: 20.4
-  delta: 0.0
+  composite: 23.3
+  delta: 2.9
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 15.2
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 42.1
   previous_composite: 20.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aave/refs/heads/main/screenshots/aave-2026-06-20T163031.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Free business checking with a Mastercard business debit card, team cards with spend controls, check and cash deposits, wires, check payments, contractor payments, and sub-accounts. App feature only; n
@@ -115,18 +115,24 @@ rate_limits:
   slug: found-business-rate-limits
 score:
   band: emerging
-  composite: 25.1
-  delta: -0.7
+  composite: 24.3
+  delta: -0.8
   facets:
     commercial_clarity: 47.4
-    contract_quality: 29.5
+    contract_quality: 28.4
     developer_ergonomics: 8.7
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 25.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 25.1
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 21.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/found-business/refs/heads/main/screenshots/found-business-2026-06-20T181457.png
 security:

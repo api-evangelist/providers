@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: 'The curl command-line tool transfers data to or from a server using URL syntax, supporting protocols including DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, '
@@ -105,20 +105,20 @@ rate_limits:
   name: Curl Rate Limits
   slug: curl-rate-limits
 score:
-  band: emerging
-  composite: 20.6
-  delta: 0.0
+  band: minimal
+  composite: 12.8
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 6.5
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 42.1
+    operational_transparency: 18.4
   previous_composite: 20.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/curl/refs/heads/main/screenshots/curl-2026-06-20T175333.png
 security:
 - kind: domain-security

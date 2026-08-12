@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
@@ -127,21 +127,21 @@ overview: 'Seurat Technologies is profiled on the [APIs.io](https://apis.io/) ne
   Seurat Technologies'' developer surface includes engineering blog, product news, FAQ, YouTube channel, and 14 more developer resources.'
 random_paper: 80
 score:
-  band: emerging
-  composite: 13.3
-  delta: 0.0
+  band: minimal
+  composite: 12.1
+  delta: -1.2
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 13.3
   provenance:
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

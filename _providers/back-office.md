@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
@@ -90,8 +90,8 @@ overview: 'Back Office is profiled on the [APIs.io](https://apis.io/) network. T
 random_paper: 22
 score:
   band: emerging
-  composite: 18.4
-  delta: 0.0
+  composite: 20.1
+  delta: 1.7
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -100,8 +100,14 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 18.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 29.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/back-office/refs/heads/main/screenshots/back-office-2026-07-25T202210.png
 security:

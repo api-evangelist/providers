@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Core open-source Python library for building agentic AI applications. Provides ConversableAgent, AssistantAgent, UserProxyAgent, GroupChat, GroupChatManager, tool/function registration, code execution
@@ -42,6 +42,26 @@ apis:
   slug: build-with-ag2
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/ag2ai/ag2/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/ag2ai/ag2/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/ag2ai/ag2/blob/main/.github/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/ag2ai/ag2/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/ag2ai/ag2/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -101,7 +121,7 @@ network: true
 overview: 'AG2 publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, Multi-Agent, AgentOS, AutoGen, and Python.
 
 
-  AG2''s developer surface includes developer portal, documentation, GitHub presence, engineering blog, code examples, and 6 more developer resources.'
+  AG2''s developer surface includes developer portal, documentation, GitHub presence, engineering blog, code examples, and 11 more developer resources.'
 plans:
 - name: Ag2 Plans Pricing
   plan_count: 1
@@ -112,19 +132,19 @@ rate_limits:
   name: Ag2 Rate Limits
   slug: ag2-rate-limits
 score:
-  band: emerging
-  composite: 25.6
-  delta: 0.0
+  band: thin
+  composite: 29.0
+  delta: 3.4
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 23.9
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 52.6
   previous_composite: 25.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ag2/refs/heads/main/screenshots/ag2-2026-06-20T165746.png
 security:

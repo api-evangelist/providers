@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The COPS Office publishes materials for law enforcement and community stakeholders to use in collaboratively addressing crime and disorder. LEARN MORE. SPOTLIGHT . U.S. Department of Justice Office of
@@ -67,20 +67,26 @@ rate_limits:
   name: Office Of Community Oriented Policing Services Rate Limits
   slug: office-of-community-oriented-policing-services-rate-limits
 score:
-  band: emerging
-  composite: 17.0
-  delta: 0.0
+  band: minimal
+  composite: 9.5
+  delta: -7.5
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 17.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 11.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/office-of-community-oriented-policing-services/refs/heads/main/screenshots/office-of-community-oriented-policing-services-2026-06-20T190632.png
 security:
 - kind: domain-security

@@ -16,24 +16,24 @@
      "slug": "moneris",
      "description": "Moneris (Moneris Solutions Corporation) is Canada's largest payment processor and merchant-acquiring company, founded in December 2000 as a joint venture equally owned by Royal Bank of Canada (RBC) and Bank of Montreal (BMO). It is a payment-technology and card-acquiring company rather than a deposit-taking Schedule I bank, sitting in the payments-infrastructure layer of Canadian financial services: it serves roughly 325,000 points of commerce, processes close to five billion transactions a year, and handles on the order of one in three Canadian card transactions. In 2025-2026 RBC and BMO explored a sale of the venture, with Francisco Partners (owner of Verifone) reported as the lead buyer. Unlike its bank owners, Moneris is not subject to Canada's coming Consumer-Driven Banking framework; its \"open\" surface is a commercial, self-serve first-party developer program. Moneris runs a real, public developer portal at developer.moneris.com documenting the Moneris Unified API (REST, OpenAPI 3.0.3, hosts api.moneris.io production / api.sb.moneris.io sandbox) covering payments, tokenized payment methods, refunds, recurring billing/subscriptions, 3-D Secure, Kount fraud/risk, disputes, multi-currency pricing, and third-party merchant onboarding, secured with OAuth 2.0 client credentials and API keys, with a published Postman workspace.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/screenshots/moneris-2026-08-07T184149.png",
-     "score": 61.8,
+     "score": 57.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 73.8,
+      "contract_quality": 71.1,
       "governance": 20.8,
       "operational_transparency": 44.7,
       "developer_ergonomics": 66.8,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
-      "score": 84.4,
+      "score": 62.5,
       "matched_via": "tags"
      },
      "agent_score": 73.2,
@@ -61,39 +61,39 @@
    "open": true
   },
   {
-   "band": "developing",
-   "label": "Developing",
-   "range": "42 – 55.9",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 2,
-   "shown": 2,
+   "band": "thin",
+   "label": "Thin",
+   "range": "28 – 41.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "Payments Canada",
      "slug": "payments-canada",
      "description": "Payments Canada (formerly the Canadian Payments Association) is the public-purpose organization created by federal statute (the Canadian Payments Act) that owns and operates Canada's core national payment clearing and settlement infrastructure, under the oversight of the Bank of Canada and the Minister of Finance. Its members are Canada's financial institutions. It operates Lynx (the high-value, ISO 20022 real-time gross settlement system that replaced LVTS), the Automated Clearing Settlement System (ACSS, Canada's retail batch/ACH rail), and is building the Real-Time Rail (RTR) — a 24/7/365 irrevocable faster-payments system fully based on the ISO 20022 messaging standard. Payments Canada is payments infrastructure, distinct from Canada's Consumer-Driven Banking (open banking) framework, which is legislated but not yet operational and overseen by the FCAC. It runs a real, publicly registerable API developer portal (developer.payments.ca, launched February 19, 2020) exposing member/registered-user sandbox and data-extract APIs — including downloadable RTR sandbox OpenAPI specifications — secured with OAuth2 client-credentials (Consumer Key/Secret via Apigee); production access is license/agreement gated.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/screenshots/payments-canada-2026-08-07T191642.png",
-     "score": 44.4,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 41.2,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 52.1,
+      "discoverability": 72.2,
+      "contract_quality": 50.2,
       "governance": 20.8,
       "operational_transparency": 5.3,
       "developer_ergonomics": 58.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
-      "score": 67.2,
+      "score": 54.7,
       "matched_via": "tags"
      },
-     "agent_score": 38.5,
+     "agent_score": 34.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -106,7 +106,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -119,19 +119,19 @@
      "slug": "scotiabank",
      "description": "Scotiabank is one of Canada's leading financial institutions and a major international bank. Through its Scotia TranXact developer portal, Scotiabank provides APIs for corporate and commercial customers to integrate banking capabilities into their treasury management, ERP, and CRM systems. APIs cover wire payments, real-time payments via INTERAC e-Transfer, EFT payments, account balance and transaction data, account validation, and payment track and trace.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/screenshots/scotiabank-2026-06-20T193550.png",
-     "score": 43.9,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 38.9,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 73.1,
+      "contract_quality": 70.4,
       "governance": 58.3,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -159,36 +159,25 @@
      },
      "tier": "Big Six",
      "rank": 3
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "28 – 41.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 3,
-   "shown": 3,
-   "providers": [
+    },
     {
      "name": "Nuvei",
      "slug": "nuvei",
      "description": "Nuvei is a global payment technology company headquartered in Montreal, Canada, providing a single platform for online card acquiring, alternative payment methods (700+ APMs), payouts, currency management across 150+ currencies, risk and fraud, and payment orchestration. Nuvei serves merchants in 200+ markets with local acquiring in 52 markets across eCommerce, iGaming, sports betting, travel, retail, B2B, and financial services. Originally listed on Nasdaq and TSX as NVEI, Nuvei was taken private by Advent International in 2024.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/screenshots/nuvei-2026-06-20T190542.png",
-     "score": 37.2,
+     "score": 36.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 73.8,
+      "contract_quality": 71.6,
       "governance": 58.3,
       "operational_transparency": 0.0,
       "developer_ergonomics": 15.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -218,52 +207,6 @@
      "rank": 4
     },
     {
-     "name": "Interac",
-     "slug": "interac",
-     "description": "Interac Corp. is Canada's domestic payments and digital verification network, founded in 1984 as the Interac Association and reorganized as a for-profit corporation in 2018 (through the merger of Interac Association and Acxsys). Headquartered in Toronto and owned by a consortium of Canadian financial institutions and payment processors, Interac is shared national payment infrastructure rather than a chartered bank — it has no Schedule I / Schedule II banking charter. It operates the Interac Debit domestic debit network, Interac e-Transfer (used by roughly 88% of Canadians), and Interac verification / digital identity services, connecting 300+ financial institutions and processing on the order of 18.6 million transactions a day. As one of the core Canadian rails alongside Payments Canada, Interac runs the Interac Innovation Hub developer program. Its most openly documented public API surface is the Interac Hub Verification Service, an HTTP identity-verification API built on OAuth 2.0 and OpenID Connect (Authorization Code Grant with Pushed Authorization Requests); a self-serve sandbox is available through the Hub Verification developer portal, while full production access and other products (Business Request Money, Interac Direct) are partner-gated behind a commercial relationship with an issuing financial institution.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/interac/refs/heads/main/screenshots/interac-2026-07-25T222655.png",
-     "score": 31.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 53.8,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 60.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 17.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Payments & Infrastructure",
-     "rank": 5
-    },
-    {
      "name": "BMO Financial Group",
      "slug": "bank-of-montreal",
      "description": "BMO Financial Group (Bank of Montreal) is one of Canada's Big Six banks and a Schedule I domestic chartered bank, founded in Montreal in 1817 as Canada's oldest bank. It is a diversified North American financial-services provider serving personal, commercial, wealth, and capital-markets clients across Canada and the United States (where it operates as the separately chartered BMO Bank N.A.). BMO runs a first-party, bilingual (EN/FR) commercial developer portal at developer.bmo.com for Online Banking for Business customers, publishing OAuth 2.0-secured Account Information, Account Validation, Image Retrieval, Payment (domestic and international / embedded finance), Authorize, and Encryption APIs on an IBM API Connect platform with a free sandbox and pre-production environment. Documentation and OpenAPI/API Explorer specs sit behind an approved organization account, so the surface is partner-gated rather than openly downloadable. Canada has no operational open-banking mandate yet — the federal Consumer-Driven Banking framework (Budget 2024 / Fall Economic Statement 2024, overseen by the FCAC) is legislated but not live — so consumer data access today remains voluntary and largely aggregator-based (Flinks, Plaid), while BMO's own public program is a commercial treasury/ payments API offering.",
@@ -279,8 +222,8 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -288,7 +231,7 @@
       "score": 39.2,
       "matched_via": "tags"
      },
-     "agent_score": 12.6,
+     "agent_score": 9.0,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -301,29 +244,76 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
      "tier": "Big Six",
+     "rank": 5
+    },
+    {
+     "name": "Interac",
+     "slug": "interac",
+     "description": "Interac Corp. is Canada's domestic payments and digital verification network, founded in 1984 as the Interac Association and reorganized as a for-profit corporation in 2018 (through the merger of Interac Association and Acxsys). Headquartered in Toronto and owned by a consortium of Canadian financial institutions and payment processors, Interac is shared national payment infrastructure rather than a chartered bank — it has no Schedule I / Schedule II banking charter. It operates the Interac Debit domestic debit network, Interac e-Transfer (used by roughly 88% of Canadians), and Interac verification / digital identity services, connecting 300+ financial institutions and processing on the order of 18.6 million transactions a day. As one of the core Canadian rails alongside Payments Canada, Interac runs the Interac Innovation Hub developer program. Its most openly documented public API surface is the Interac Hub Verification Service, an HTTP identity-verification API built on OAuth 2.0 and OpenID Connect (Authorization Code Grant with Pushed Authorization Requests); a self-serve sandbox is available through the Hub Verification developer portal, while full production access and other products (Business Request Money, Interac Direct) are partner-gated behind a commercial relationship with an issuing financial institution.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/interac/refs/heads/main/screenshots/interac-2026-07-25T222655.png",
+     "score": 29.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 53.8,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 53.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 13.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Payments & Infrastructure",
      "rank": 6
     }
-   ]
+   ],
+   "open": true
   },
   {
    "band": "emerging",
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 17,
-   "shown": 17,
+   "count": 16,
+   "shown": 16,
    "providers": [
     {
      "name": "Steinbach Credit Union",
      "slug": "steinbach-credit-union",
      "description": "Steinbach Credit Union (SCU) is a member-owned financial cooperative founded in 1941 and headquartered in Steinbach, Manitoba, Canada, operating three branches (Steinbach plus Linden Ridge and Lagimodiere in Winnipeg). With more than CA$10 billion in assets and over 115,000 consumer, business, and agricultural members, SCU is the largest credit union in Manitoba and among the ten largest in Canada. As a provincially chartered co-operative it is regulated in Manitoba with deposits guaranteed by the Manitoba Deposit Guarantee Corporation. SCU offers personal and business banking, mortgages, wealth management, and insurance, and delivers digital banking through an online portal (online.scu.mb.ca) and a mobile app built on the Celero core banking platform. Like nearly all Canadian credit unions, SCU exposes NO public first-party developer API or portal: Canada's federal Consumer-Driven Banking framework (Budget 2024 / Fall Economic Statement 2024, overseen by the Financial Consumer Agency of Canada) is legislated but not yet operational, so open finance remains voluntary. Consumer-permissioned data access to SCU accounts today is aggregator-mediated (e.g. Flinks, the National Bank-owned Canadian aggregator, and Plaid), and interbank money movement runs on the shared Canadian rails via Interac e-Transfer.",
-     "score": 26.1,
+     "score": 25.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -334,16 +324,16 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
-      "score": 60.8,
+      "score": 53.2,
       "matched_via": "tags"
      },
-     "agent_score": 12.6,
+     "agent_score": 9.0,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -356,7 +346,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -368,19 +358,19 @@
      "name": "Wealthsimple",
      "slug": "wealthsimple",
      "description": "Wealthsimple is a Toronto-based Canadian financial technology company, founded in 2014, offering a full suite of consumer financial products: managed investing (Invest), self-directed stock and ETF trading (Trade), cryptocurrency, tax filing (Tax), spending, saving, and cash and card products. It serves more than four million Canadians with roughly CAD $125 billion in assets under administration and reached a CAD $10 billion valuation in its 2025 Series F round. Wealthsimple does not publish an official public developer API or OpenAPI specification; programmatic account access is available only through open-banking aggregators (SnapTrade, Plaid) and community-built unofficial libraries. This profile captures the company's public trust, security, and developer-adjacent surface (security.txt, HackerOne bug bounty, Trust Center, status page, verified GitHub organization).",
-     "score": 25.4,
+     "score": 24.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 31.6,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -388,8 +378,8 @@
       "score": 31.6,
       "matched_via": "tags"
      },
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
+     "agent_score": 2.7,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
@@ -401,7 +391,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
@@ -413,19 +403,19 @@
      "name": "Royal Bank of Canada",
      "slug": "rbc",
      "description": "Royal Bank of Canada (RBC) is Canada's largest bank by market capitalization and one of the country's Big Six, a Schedule I domestic bank chartered under the federal Bank Act and publicly traded (TSX/NYSE: RY) with headquarters in Toronto. RBC serves personal, commercial, wealth, capital-markets, and insurance clients in Canada, the U.S., and internationally. It was the first Canadian bank to launch a public API developer portal (developer.rbc.com — the \"RBC External Developer Portal\"), which offers self-serve informational/utility APIs (branch locator, credit card catalog, mortgage down-payment and amortization calculators) alongside a partner-gated Business Banking API suite for corporate treasury integration (RBC Move Money via Interac e-Transfer, RBC Pay, and Balance/Transactions, Tracking, and Validation APIs). RBC exposes no first-party open-banking consumer-data API; consumer data sharing today is aggregator-based via bilateral agreements (e.g. Plaid, Yodlee). Canada's federal Consumer-Driven Banking framework (Budget 2024 / Fall Economic Statement 2024, overseen by the FCAC) is legislated but not yet operational, so open finance in Canada remains voluntary and fragmented.",
-     "score": 22.4,
+     "score": 21.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 83.3,
+      "discoverability": 72.2,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 5.3,
       "developer_ergonomics": 37.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -458,19 +448,19 @@
      "name": "KOHO",
      "slug": "koho",
      "description": "KOHO is a Canadian financial-technology company (neobank) founded in 2014 by Daniel Eberhard and headquartered in Vancouver, British Columbia, serving more than 2.5 million Canadians through a mobile-first money app. KOHO is not a chartered bank; it issues a KOHO Mastercard prepaid card through KOHO Financial Inc. and places customer balances in trust with CDIC-member institutions (its longstanding banking partner is Peoples Trust Company), while offering high-interest savings, cash back, credit building, Cover cash advances, and Pay Later. The company is in the final stages of pursuing a federal Schedule I banking licence, which would make it one of Canada's first new federally regulated banks in decades, and in May 2026 it joined the Interac e-Transfer network directly as a Participant under the broadened access for Payment Service Providers. On the open-finance front, KOHO exposes no first-party public developer API or portal; consumer account and transaction data access today is available only through third-party aggregators (Plaid and Flinks), consistent with Canada's voluntary, not-yet-operational Consumer-Driven Banking framework.",
-     "score": 20.3,
+     "score": 19.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 61.1,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 10.5,
       "developer_ergonomics": 4.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -478,8 +468,8 @@
       "score": 31.6,
       "matched_via": "tags"
      },
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
+     "agent_score": 2.7,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
@@ -491,7 +481,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
@@ -504,19 +494,19 @@
      "slug": "alterna-savings",
      "description": "Alterna Savings and Credit Union Limited is a member-owned financial cooperative (credit union) founded in 1908 as the Civil Service Savings and Loan Society, headquartered in Ottawa, Ontario and regulated provincially by the Financial Services Regulatory Authority of Ontario (FSRAO). It is one of Ontario's largest credit unions, serving roughly 217,000 members with about C$10.8 billion in assets across branches in Ontario, and operates the federally regulated direct-banking subsidiary Alterna Bank, one of Canada's earliest digital-first banks. Alterna offers personal and business banking, mortgages, lending, investments and insurance. Consistent with Canada's voluntary, not-yet-operational Consumer-Driven Banking framework (legislated in Budget 2024 / Fall Economic Statement 2024 with the FCAC as overseer), Alterna Savings exposes NO public first-party developer portal or documented API. Digital access is delivered through its online and mobile banking apps and the Interac e-Transfer consumer rail; any third-party data access today is aggregator/screen-scraping based rather than a first-party API. This is an identity-only record with an honest no-public-API posture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/alterna-savings/refs/heads/main/screenshots/alterna-savings-2026-07-25T195822.png",
-     "score": 18.8,
+     "score": 17.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 61.1,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 17.4,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -524,7 +514,7 @@
       "score": 46.8,
       "matched_via": "tags"
      },
-     "agent_score": 12.6,
+     "agent_score": 9.0,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -537,7 +527,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -546,57 +536,11 @@
      "rank": 11
     },
     {
-     "name": "connectFirst Credit Union",
-     "slug": "connect-first-credit-union",
-     "description": "connectFirst Credit Union is a member-owned, cooperative (Schedule-equivalent provincial credit union) financial institution headquartered in Calgary, Alberta, formed on May 3, 2021 by amalgamating four Alberta credit unions (First Calgary Financial, Chinook Financial, Mountain View Financial, and Legacy Financial). At its peak it held over CAD $6 billion in assets under administration and served more than 128,000 members across 41 branches in Central and Southern Alberta, offering retail, commercial, agricultural, and dealer-services banking. Members voted in November 2023 to merge with Servus Credit Union; the legal amalgamation closed May 1, 2024 as \"Connect First and Servus Credit Union Ltd.\" (~CAD $29.3B assets, 600,000+ members), and the unified brand realigned to Servus Credit Union in January 2025 — the connectfirstcu.com domain now 301-redirects to servus.ca. Its open-finance posture is honest and typical of a Canadian credit union: no first-party public developer portal or downloadable OpenAPI, digital banking delivered via the Celero Xpress platform (powered by ebankIT) with core/banking-tech through the Central 1 / Celero cooperative ecosystem, and third-party consumer data access available only through aggregators (Plaid coverage confirmed). Canada's federal Consumer-Driven Banking framework (Budget 2024 / FCAC-overseen) is legislated but not yet operational, so no mandated open-banking API exists.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/connect-first-credit-union/refs/heads/main/screenshots/connect-first-credit-union-2026-07-25T210259.png",
-     "score": 18.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 3.1,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 13.0,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 55.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 12.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Credit Union & Caisse",
-     "rank": 12
-    },
-    {
      "name": "Canadian Tire Bank",
      "slug": "canadian-tire-bank",
      "description": "Canadian Tire Bank (operating as Canadian Tire Financial Services) is a federally regulated Schedule I bank, wholly owned by Canadian Tire Corporation, Limited and federally chartered in 2003. Headquartered in Oakville, Ontario with operations in St. Catharines and Welland, the bank is the financial-services arm of one of Canada's best-known retailers. It issues the Triangle Mastercard, Triangle World Mastercard, Triangle World Elite Mastercard, Gas Advantage and Cash Advantage Mastercards, and offers high-interest savings accounts and GICs, all tied to the Triangle Rewards loyalty program. On open finance, the bank exposes no first-party public developer API or banking API portal. Canada's Consumer-Driven Banking framework (Budget 2024 / Fall Economic Statement 2024, overseen by the FCAC) is legislated but not yet operational, so consumer data access today is voluntary and aggregator-based — Canadian Tire Bank card and account data is reached through aggregators such as Finicity (by Mastercard), Flinks and Plaid rather than a first-party API. The cantire.com developer portal is run by the retail parent Canadian Tire Corporation, not the bank, is gated behind sign-in, and its TLS certificate expired in February 2026.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/canadian-tire-bank/refs/heads/main/screenshots/canadian-tire-bank-2026-07-25T204326.png",
-     "score": 18.1,
+     "score": 17.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -607,54 +551,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 55.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 12.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Schedule I (Domestic)",
-     "rank": 13
-    },
-    {
-     "name": "Coast Capital Savings",
-     "slug": "coast-capital",
-     "description": "Coast Capital Savings is a member-owned financial co-operative headquartered in Surrey, British Columbia, serving over 600,000 members across roughly 45 branches. On November 1, 2018 it became Canada's first British Columbia-based federal credit union (regulated federally rather than provincially), and in May 2026 it completed a merger with Prospera Credit Union. With approximately $21.9 billion CAD in total assets it is one of Canada's largest credit unions. As a cooperative credit union rather than a Schedule I/II bank, Coast Capital operates within Canada's voluntary and still-fragmented open-finance landscape: the federal Consumer-Driven Banking (open banking) framework legislated under Budget 2024 and the Fall Economic Statement 2024, with the Financial Consumer Agency of Canada (FCAC) as overseer, is not yet operational. Coast Capital publishes NO public first-party developer portal or documented API; consumer financial-data access today is aggregator-mediated (e.g. Plaid) via screen-scraping/credential-based connections rather than a first-party API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coast-capital/refs/heads/main/screenshots/coast-capital-2026-07-25T205833.png",
-     "score": 18.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -662,7 +560,7 @@
       "score": 48.1,
       "matched_via": "tags"
      },
-     "agent_score": 12.6,
+     "agent_score": 9.0,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -675,7 +573,99 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Schedule I (Domestic)",
+     "rank": 12
+    },
+    {
+     "name": "Coast Capital Savings",
+     "slug": "coast-capital",
+     "description": "Coast Capital Savings is a member-owned financial co-operative headquartered in Surrey, British Columbia, serving over 600,000 members across roughly 45 branches. On November 1, 2018 it became Canada's first British Columbia-based federal credit union (regulated federally rather than provincially), and in May 2026 it completed a merger with Prospera Credit Union. With approximately $21.9 billion CAD in total assets it is one of Canada's largest credit unions. As a cooperative credit union rather than a Schedule I/II bank, Coast Capital operates within Canada's voluntary and still-fragmented open-finance landscape: the federal Consumer-Driven Banking (open banking) framework legislated under Budget 2024 and the Fall Economic Statement 2024, with the Financial Consumer Agency of Canada (FCAC) as overseer, is not yet operational. Coast Capital publishes NO public first-party developer portal or documented API; consumer financial-data access today is aggregator-mediated (e.g. Plaid) via screen-scraping/credential-based connections rather than a first-party API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coast-capital/refs/heads/main/screenshots/coast-capital-2026-07-25T205833.png",
+     "score": 17.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 48.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 9.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Credit Union & Caisse",
+     "rank": 13
+    },
+    {
+     "name": "connectFirst Credit Union",
+     "slug": "connect-first-credit-union",
+     "description": "connectFirst Credit Union is a member-owned, cooperative (Schedule-equivalent provincial credit union) financial institution headquartered in Calgary, Alberta, formed on May 3, 2021 by amalgamating four Alberta credit unions (First Calgary Financial, Chinook Financial, Mountain View Financial, and Legacy Financial). At its peak it held over CAD $6 billion in assets under administration and served more than 128,000 members across 41 branches in Central and Southern Alberta, offering retail, commercial, agricultural, and dealer-services banking. Members voted in November 2023 to merge with Servus Credit Union; the legal amalgamation closed May 1, 2024 as \"Connect First and Servus Credit Union Ltd.\" (~CAD $29.3B assets, 600,000+ members), and the unified brand realigned to Servus Credit Union in January 2025 — the connectfirstcu.com domain now 301-redirects to servus.ca. Its open-finance posture is honest and typical of a Canadian credit union: no first-party public developer portal or downloadable OpenAPI, digital banking delivered via the Celero Xpress platform (powered by ebankIT) with core/banking-tech through the Central 1 / Celero cooperative ecosystem, and third-party consumer data access available only through aggregators (Plaid coverage confirmed). Canada's federal Consumer-Driven Banking framework (Budget 2024 / FCAC-overseen) is legislated but not yet operational, so no mandated open-banking API exists.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/connect-first-credit-union/refs/heads/main/screenshots/connect-first-credit-union-2026-07-25T210259.png",
+     "score": 16.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 3.1,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 13.0,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 48.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 9.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -698,8 +688,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -729,32 +719,32 @@
      "rank": 15
     },
     {
-     "name": "Desjardins Group",
-     "slug": "desjardins",
-     "description": "Desjardins Group (Mouvement Desjardins) is the largest cooperative financial group in North America, founded in 1900 in Lévis, Quebec by Alphonse Desjardins. It is a federation of caisses populaires (member-owned credit unions) rather than a share-capital chartered bank, comprising the Fédération des caisses Desjardins du Québec and its subsidiaries, the caisses in Quebec and the Caisse Desjardins Ontario Credit Union, regulated in Quebec by the Autorité des marchés financiers (AMF). It holds roughly CAD $470 billion in assets and serves more than 7.8 million members and clients with personal, business, wealth-management and insurance products. On open finance, Desjardins publishes no first-party public developer portal or downloadable API specification; developer.desjardins.com and other API-portal subdomains do not resolve, and consumer financial-data access is delivered today through third-party aggregators (Flinks, Plaid, Finicity, Tink) via screen-scraping/aggregator connectivity rather than a documented Desjardins API. Canada's Consumer-Driven Banking (open-banking) framework is legislated (Budget 2024/2025, overseen by the FCAC) but not yet operational; as a cooperative outside the Big Six, Desjardins may opt in to Phase 1 rather than being mandated.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/desjardins/refs/heads/main/screenshots/desjardins-2026-07-25T211754.png",
-     "score": 15.5,
+     "name": "Brim Financial",
+     "slug": "brim-financial",
+     "description": "Brim Financial is a Toronto-based Canadian fintech (founded 2017) that operates a fully-integrated, API-first credit-card Platform-as-a-Service (PaaS). It is not a chartered Schedule I or Schedule II bank; it describes itself as the only fintech in North America licensed to issue credit cards, and it delivers Credit-Cards-as-a-Service (CCaaS), loyalty/rewards, BNPL, and money-movement infrastructure to banks, credit unions, fintechs, and large brands (clients include Manulife Bank, Laurentian Bank, Canadian Western Bank, Affinity Credit Union, and Air France-KLM). Brim is registered under Canada's Retail Payment Activities Act (RPAA) to Bank of Canada standards and was admitted to Payments Canada as a payment service provider, and has partnered with Mastercard to embed open-banking capabilities. Although Brim markets a comprehensive API-first platform, that API is delivered to enterprise/embedded-finance partners through a commercial onboarding relationship: as of this review there is no public, self-serve first-party developer portal, no downloadable OpenAPI/Swagger, and no operational consumer-driven-banking (open-banking) API, consistent with Canada's voluntary, not-yet-live open-finance framework.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brim-financial/refs/heads/main/screenshots/brim-financial-2026-07-25T203902.png",
+     "score": 15.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 10.5,
       "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 25.3,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 21.9,
       "matched_via": "tags"
      },
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
@@ -766,32 +756,77 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Fintech & Challenger",
+     "rank": 16
+    },
+    {
+     "name": "Desjardins Group",
+     "slug": "desjardins",
+     "description": "Desjardins Group (Mouvement Desjardins) is the largest cooperative financial group in North America, founded in 1900 in Lévis, Quebec by Alphonse Desjardins. It is a federation of caisses populaires (member-owned credit unions) rather than a share-capital chartered bank, comprising the Fédération des caisses Desjardins du Québec and its subsidiaries, the caisses in Quebec and the Caisse Desjardins Ontario Credit Union, regulated in Quebec by the Autorité des marchés financiers (AMF). It holds roughly CAD $470 billion in assets and serves more than 7.8 million members and clients with personal, business, wealth-management and insurance products. On open finance, Desjardins publishes no first-party public developer portal or downloadable API specification; developer.desjardins.com and other API-portal subdomains do not resolve, and consumer financial-data access is delivered today through third-party aggregators (Flinks, Plaid, Finicity, Tink) via screen-scraping/aggregator connectivity rather than a documented Desjardins API. Canada's Consumer-Driven Banking (open-banking) framework is legislated (Budget 2024/2025, overseen by the FCAC) but not yet operational; as a cooperative outside the Big Six, Desjardins may opt in to Phase 1 rather than being mandated.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/desjardins/refs/heads/main/screenshots/desjardins-2026-07-25T211754.png",
+     "score": 14.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 25.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
      "tier": "Schedule I (Domestic)",
-     "rank": 16
+     "rank": 17
     },
     {
-     "name": "Brim Financial",
-     "slug": "brim-financial",
-     "description": "Brim Financial is a Toronto-based Canadian fintech (founded 2017) that operates a fully-integrated, API-first credit-card Platform-as-a-Service (PaaS). It is not a chartered Schedule I or Schedule II bank; it describes itself as the only fintech in North America licensed to issue credit cards, and it delivers Credit-Cards-as-a-Service (CCaaS), loyalty/rewards, BNPL, and money-movement infrastructure to banks, credit unions, fintechs, and large brands (clients include Manulife Bank, Laurentian Bank, Canadian Western Bank, Affinity Credit Union, and Air France-KLM). Brim is registered under Canada's Retail Payment Activities Act (RPAA) to Bank of Canada standards and was admitted to Payments Canada as a payment service provider, and has partnered with Mastercard to embed open-banking capabilities. Although Brim markets a comprehensive API-first platform, that API is delivered to enterprise/embedded-finance partners through a commercial onboarding relationship: as of this review there is no public, self-serve first-party developer portal, no downloadable OpenAPI/Swagger, and no operational consumer-driven-banking (open-banking) API, consistent with Canada's voluntary, not-yet-live open-finance framework.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brim-financial/refs/heads/main/screenshots/brim-financial-2026-07-25T203902.png",
-     "score": 15.0,
+     "name": "Tangerine",
+     "slug": "tangerine",
+     "description": "Tangerine is a Canadian direct (branchless) bank headquartered in Toronto, Ontario, and a federally regulated Schedule I bank chartered as Tangerine Bank (institution number 614). Founded in 1997 as ING Direct Canada, it was acquired by Scotiabank in 2012 and rebranded as Tangerine in 2014; it remains a separate legal entity operating as Scotiabank's digital-banking arm, serving roughly two million clients with no-fee chequing and savings accounts, GICs, mortgages, mutual funds, and a cash-back Mastercard delivered entirely through mobile and web. On API and open-finance posture, Tangerine publishes no first-party public developer portal or downloadable API specifications; Canada has no operational consumer-driven-banking mandate yet (the federal framework is legislated but not live), so third-party access to Tangerine account and transaction data today is aggregator-based via Plaid and Finicity (Mastercard) rather than through a documented first-party API.",
+     "score": 13.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 10.5,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -817,27 +852,27 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Fintech & Challenger",
-     "rank": 17
+     "tier": "Digital Arm",
+     "rank": 18
     },
     {
      "name": "Conexus Credit Union",
      "slug": "conexus-credit-union",
      "description": "Conexus Credit Union is Saskatchewan's largest credit union, a member-owned cooperative financial institution headquartered in Regina with over $10 billion in consolidated assets under management, more than 140,000 members, roughly 30 branches, and over 800 employees across the province. As a provincially regulated Saskatchewan credit union it operates under a cooperative charter, with member deposits guaranteed by the Credit Union Deposit Guarantee Corporation (CUDGC). In November 2024 Conexus announced its intent to explore a merger with Cornerstone and Synergy credit unions. Conexus does not publish a first-party public developer API or a developer portal; developer.conexus.ca does not resolve, and /developer and /api on the corporate site return 404. Consumer financial-data access is provided through third-party aggregators (notably Plaid in Canada) via screen-scraping and connection-based data sharing rather than a first-party API. Digital and online banking are delivered through core-banking and fintech partners (banking.online.conexus.ca), and investing runs through the credit-union system's Aviso Wealth / Qtrade and Thrive Wealth partners. Canada's federal Consumer-Driven Banking (open banking) framework, overseen by the Financial Consumer Agency of Canada (FCAC), is legislated but not yet operational, so Conexus's open-finance access remains voluntary and aggregator-mediated today.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/conexus-credit-union/refs/heads/main/screenshots/conexus-credit-union-2026-07-25T210244.png",
-     "score": 14.3,
+     "score": 13.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 10.5,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -864,98 +899,7 @@
       "dry_run_mode": false
      },
      "tier": "Credit Union & Caisse",
-     "rank": 18
-    },
-    {
-     "name": "Tangerine",
-     "slug": "tangerine",
-     "description": "Tangerine is a Canadian direct (branchless) bank headquartered in Toronto, Ontario, and a federally regulated Schedule I bank chartered as Tangerine Bank (institution number 614). Founded in 1997 as ING Direct Canada, it was acquired by Scotiabank in 2012 and rebranded as Tangerine in 2014; it remains a separate legal entity operating as Scotiabank's digital-banking arm, serving roughly two million clients with no-fee chequing and savings accounts, GICs, mortgages, mutual funds, and a cash-back Mastercard delivered entirely through mobile and web. On API and open-finance posture, Tangerine publishes no first-party public developer portal or downloadable API specifications; Canada has no operational consumer-driven-banking mandate yet (the federal framework is legislated but not live), so third-party access to Tangerine account and transaction data today is aggregator-based via Plaid and Finicity (Mastercard) rather than through a documented first-party API.",
-     "score": 13.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 17.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Digital Arm",
      "rank": 19
-    },
-    {
-     "name": "Laurentian Bank of Canada",
-     "slug": "laurentian-bank",
-     "description": "Laurentian Bank of Canada (Banque Laurentienne du Canada) is a Montreal-headquartered Schedule I chartered bank, founded in 1846 as the Montreal City and District Savings Bank and listed on the Toronto Stock Exchange as LB. With roughly CA$47 billion in assets, about 3,000 employees, and approximately 1.5 million clients, it serves personal, commercial, and capital-markets customers - concentrated in Quebec with commercial offices across Canada - through subsidiaries including B2B Bank, Laurentian Bank Securities, and LBC Capital. The bank operates no public developer portal and exposes no first-party or FDX-style data-access API; consumer data access is aggregator-mediated today (screen-scraping via providers such as Flinks and Plaid), and Canada's federal Consumer-Driven Banking framework remains legislated but not yet operational, so participation is voluntary. In December 2025 the bank announced a proposed sale to Fairstone Bank of Canada, with National Bank of Canada acquiring its retail operations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/laurentian-bank/refs/heads/main/screenshots/laurentian-bank-2026-07-25T224628.png",
-     "score": 13.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 61.1,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 17.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Schedule I (Domestic)",
-     "rank": 20
     },
     {
      "name": "PC Financial",
@@ -973,8 +917,8 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1001,7 +945,7 @@
       "dry_run_mode": false
      },
      "tier": "Digital Arm",
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "CIBC",
@@ -1019,8 +963,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1047,7 +991,7 @@
       "dry_run_mode": false
      },
      "tier": "Big Six",
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "Equitable Bank",
@@ -1065,8 +1009,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1093,7 +1037,7 @@
       "dry_run_mode": false
      },
      "tier": "Schedule I (Domestic)",
-     "rank": 23
+     "rank": 22
     }
    ]
   },
@@ -1102,8 +1046,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 19,
-   "shown": 19,
+   "count": 20,
+   "shown": 20,
    "providers": [
     {
      "name": "Citibank Canada",
@@ -1121,8 +1065,8 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1149,7 +1093,7 @@
       "dry_run_mode": false
      },
      "tier": "Schedule II (Foreign-Owned)",
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "Affinity Credit Union",
@@ -1167,8 +1111,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1195,6 +1139,52 @@
       "dry_run_mode": false
      },
      "tier": "Credit Union & Caisse",
+     "rank": 24
+    },
+    {
+     "name": "Laurentian Bank of Canada",
+     "slug": "laurentian-bank",
+     "description": "Laurentian Bank of Canada (Banque Laurentienne du Canada) is a Montreal-headquartered Schedule I chartered bank, founded in 1846 as the Montreal City and District Savings Bank and listed on the Toronto Stock Exchange as LB. With roughly CA$47 billion in assets, about 3,000 employees, and approximately 1.5 million clients, it serves personal, commercial, and capital-markets customers - concentrated in Quebec with commercial offices across Canada - through subsidiaries including B2B Bank, Laurentian Bank Securities, and LBC Capital. The bank operates no public developer portal and exposes no first-party or FDX-style data-access API; consumer data access is aggregator-mediated today (screen-scraping via providers such as Flinks and Plaid), and Canada's federal Consumer-Driven Banking framework remains legislated but not yet operational, so participation is voluntary. In December 2025 the bank announced a proposed sale to Fairstone Bank of Canada, with National Bank of Canada acquiring its retail operations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/laurentian-bank/refs/heads/main/screenshots/laurentian-bank-2026-07-25T224628.png",
+     "score": 12.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 17.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Schedule I (Domestic)",
      "rank": 25
     },
     {
@@ -1213,8 +1203,8 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1258,8 +1248,8 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1289,52 +1279,6 @@
      "rank": 27
     },
     {
-     "name": "First Nations Bank of Canada",
-     "slug": "first-nations-bank-of-canada",
-     "description": "First Nations Bank of Canada (FNBC) is a Schedule I federally regulated chartered bank under the Bank Act, chartered on 19 November 1996 and headquartered in Saskatoon, Saskatchewan. It is the first Canadian chartered bank to be independently controlled by Indigenous shareholders — roughly 88% Indigenous owned and controlled by 78 Indigenous shareholder groups from Nunavut, Northwest Territories, Yukon, Saskatchewan, Manitoba, Alberta and Quebec — and focuses on serving the Indigenous marketplace, with over 90% of its loans going directly to Indigenous communities, many of its branches on reserve, and CDIC-insured deposits. On the open-finance and API front, FNBC runs no first-party developer portal and publishes no public API: probes of developer.fnbc.ca, api.fnbc.ca and developers.fnbc.ca all fail to resolve, and the fnbc.ca site exposes only retail online-banking and a mobile app, not a documented API surface. Canada's federal Consumer-Driven Banking framework (legislated via Budget 2024 / Fall Economic Statement 2024, with FCAC as overseer) is not yet operational, so third-party access to FNBC account data today is voluntary and effectively aggregator-mediated (Flinks, Plaid and similar), not a first-party open-banking API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/first-nations-bank-of-canada/refs/heads/main/screenshots/first-nations-bank-of-canada-2026-07-25T214606.png",
-     "score": 12.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 61.1,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 17.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.6,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Schedule I (Domestic)",
-     "rank": 28
-    },
-    {
      "name": "Servus Credit Union",
      "slug": "servus-credit-union",
      "description": "Servus Credit Union Ltd. is a member-owned cooperative financial institution headquartered in Edmonton, Alberta, founded in 1938. It is Alberta's largest credit union and, following its 2023 member-approved merger with connectFirst Credit Union, became Canada's largest credit union by total assets (roughly $30 billion CAD), serving more than 500,000 members through about 100 branches and distributing profits back to members via its Profit Share program rather than to outside shareholders. As a provincially regulated Alberta credit union, Servus operates within a cooperative charter and offers retail and business banking, mortgages, loans, investments, and digital/mobile banking. On the open-finance front its posture is aggregator-only and honest: Servus runs no public first-party developer portal or documented public API. External data access to member accounts today is provided through third-party financial-data aggregators (Mastercard Open Banking / Finicity and Plaid) via consumer-permissioned connections, consistent with Canada's voluntary, not-yet-operational Consumer-Driven Banking framework overseen by the Financial Consumer Agency of Canada (FCAC).",
@@ -1349,8 +1293,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1377,7 +1321,7 @@
       "dry_run_mode": false
      },
      "tier": "Credit Union & Caisse",
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "Neo Financial",
@@ -1395,8 +1339,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1423,7 +1367,7 @@
       "dry_run_mode": false
      },
      "tier": "Fintech & Challenger",
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "Meridian Credit Union",
@@ -1441,8 +1385,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1469,7 +1413,7 @@
       "dry_run_mode": false
      },
      "tier": "Credit Union & Caisse",
-     "rank": 31
+     "rank": 30
     },
     {
      "name": "National Bank of Canada",
@@ -1487,8 +1431,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1515,6 +1459,52 @@
       "dry_run_mode": false
      },
      "tier": "Big Six",
+     "rank": 31
+    },
+    {
+     "name": "First Nations Bank of Canada",
+     "slug": "first-nations-bank-of-canada",
+     "description": "First Nations Bank of Canada (FNBC) is a Schedule I federally regulated chartered bank under the Bank Act, chartered on 19 November 1996 and headquartered in Saskatoon, Saskatchewan. It is the first Canadian chartered bank to be independently controlled by Indigenous shareholders — roughly 88% Indigenous owned and controlled by 78 Indigenous shareholder groups from Nunavut, Northwest Territories, Yukon, Saskatchewan, Manitoba, Alberta and Quebec — and focuses on serving the Indigenous marketplace, with over 90% of its loans going directly to Indigenous communities, many of its branches on reserve, and CDIC-insured deposits. On the open-finance and API front, FNBC runs no first-party developer portal and publishes no public API: probes of developer.fnbc.ca, api.fnbc.ca and developers.fnbc.ca all fail to resolve, and the fnbc.ca site exposes only retail online-banking and a mobile app, not a documented API surface. Canada's federal Consumer-Driven Banking framework (legislated via Budget 2024 / Fall Economic Statement 2024, with FCAC as overseer) is not yet operational, so third-party access to FNBC account data today is voluntary and effectively aggregator-mediated (Flinks, Plaid and similar), not a first-party open-banking API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/first-nations-bank-of-canada/refs/heads/main/screenshots/first-nations-bank-of-canada-2026-07-25T214606.png",
+     "score": 11.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 17.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Schedule I (Domestic)",
      "rank": 32
     },
     {
@@ -1533,8 +1523,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1579,8 +1569,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1625,8 +1615,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1671,8 +1661,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1716,8 +1706,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1761,8 +1751,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1792,52 +1782,6 @@
      "rank": 38
     },
     {
-     "name": "First West Credit Union",
-     "slug": "first-west-credit-union",
-     "description": "First West Credit Union — rebranded Tru Cooperative Bank in 2026 — is a member-owned Canadian cooperative financial institution headquartered in Langley, British Columbia. Formed in 2010 by the merger of Envision Credit Union and Valley First, and later joined by Island Savings and Enderby & District Financial, it operates those four regional brands over a shared branch network with roughly 291,000 members, about $20.8 billion in total assets, 45 branches, and around 1,300 employees. After members voted in 2021 for federal continuance, it received a federal charter under Canada's Bank Act and became a federal credit union / cooperative bank (CDIC-insured) as of April 1, 2026. On the open-finance front First West / Tru runs no first-party public developer portal and publishes no downloadable OpenAPI or partner API; both developer.firstwestcu.ca and developer.trucooperativebank.ca resolve to nothing (NXDOMAIN). Third-party access to member account data today is aggregator-based (screen-scraping via providers such as Plaid and Flinks), the fragmented and voluntary Canadian norm while the federal Consumer-Driven Banking framework (Budget 2024 / Fall Economic Statement 2024, overseen by the FCAC) remains legislated but not yet operational.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/first-west-credit-union/refs/heads/main/screenshots/first-west-credit-union-2026-07-25T214610.png",
-     "score": 7.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 7.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.6,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Credit Union & Caisse",
-     "rank": 39
-    },
-    {
      "name": "Vancity",
      "slug": "vancity",
      "description": "Vancity (Vancouver City Savings Credit Union) is a member-owned financial co-operative headquartered in Vancouver, British Columbia, and the largest community credit union in Canada, with over 543,000 members, roughly CA$35 billion in assets, and about 60 branches across the Lower Mainland and Vancouver Island. Founded in 1946 as an open-bond credit union, it is provincially chartered and cooperatively governed, offering retail and business banking, mortgages, foreign exchange, Visa cards, insurance, and investment advice, with values-based and impact-lending positioning. Vancity exposes no first-party public developer API portal: developer.vancity.com and developers.vancity.com do not resolve. It participates in Canada's shared payment rails through Central 1 (its banking-technology and payments provider, including enhanced Interac e-Transfer real-time payments) and Payments Canada, while third-party consumer data access is provided through aggregators such as Plaid and Flinks. Canada's federal Consumer-Driven Banking (open banking) framework is legislated but not yet operational, so any programmatic account access today is voluntary and aggregator-mediated rather than served by a documented Vancity API.",
@@ -1852,8 +1796,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1880,7 +1824,7 @@
       "dry_run_mode": false
      },
      "tier": "Credit Union & Caisse",
-     "rank": 40
+     "rank": 39
     },
     {
      "name": "Canadian Western Bank",
@@ -1898,8 +1842,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1926,6 +1870,52 @@
       "dry_run_mode": false
      },
      "tier": "Schedule I (Domestic)",
+     "rank": 40
+    },
+    {
+     "name": "First West Credit Union",
+     "slug": "first-west-credit-union",
+     "description": "First West Credit Union — rebranded Tru Cooperative Bank in 2026 — is a member-owned Canadian cooperative financial institution headquartered in Langley, British Columbia. Formed in 2010 by the merger of Envision Credit Union and Valley First, and later joined by Island Savings and Enderby & District Financial, it operates those four regional brands over a shared branch network with roughly 291,000 members, about $20.8 billion in total assets, 45 branches, and around 1,300 employees. After members voted in 2021 for federal continuance, it received a federal charter under Canada's Bank Act and became a federal credit union / cooperative bank (CDIC-insured) as of April 1, 2026. On the open-finance front First West / Tru runs no first-party public developer portal and publishes no downloadable OpenAPI or partner API; both developer.firstwestcu.ca and developer.trucooperativebank.ca resolve to nothing (NXDOMAIN). Third-party access to member account data today is aggregator-based (screen-scraping via providers such as Plaid and Flinks), the fragmented and voluntary Canadian norm while the federal Consumer-Driven Banking framework (Budget 2024 / Fall Economic Statement 2024, overseen by the FCAC) remains legislated but not yet operational.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/first-west-credit-union/refs/heads/main/screenshots/first-west-credit-union-2026-07-25T214610.png",
+     "score": 6.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 7.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Credit Union & Caisse",
      "rank": 41
     },
     {
@@ -1944,8 +1934,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",

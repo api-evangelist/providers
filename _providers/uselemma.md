@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: The Artifacts API from Lemma — 6 operation(s) for artifacts.
@@ -49,6 +49,10 @@ asyncapis:
   name: Uselemma Webhooks
   slug: uselemma-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/uselemma-platform-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -167,17 +171,17 @@ overview: 'Lemma publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
   The Lemma catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lemma''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, authentication, and 19 more developer resources.'
+  Lemma''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, authentication, and 20 more developer resources.'
 random_paper: 45
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 46.4
+  delta: -1.8
   facets:
     commercial_clarity: 21.1
-    contract_quality: 71.3
+    contract_quality: 68.7
     developer_ergonomics: 58.7
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 48.2
@@ -190,8 +194,8 @@ score:
       total: 4
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

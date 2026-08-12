@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -159,16 +159,16 @@ rate_limits:
   name: Beeceptor Rate Limits
   slug: beeceptor-rate-limits
 score:
-  band: developing
-  composite: 43.7
-  delta: 0.0
+  band: thin
+  composite: 37.9
+  delta: -5.8
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 61.2
+    commercial_clarity: 44.7
+    contract_quality: 59.0
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 42.1
+    operational_transparency: 26.3
   previous_composite: 43.7
   provenance:
     agentic_access: derived
@@ -177,9 +177,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/screenshots/beeceptor-2026-06-20T173119.png
 security:
 - kind: authentication

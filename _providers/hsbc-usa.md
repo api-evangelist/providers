@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 6.3
-  scored_at: '2026-08-10'
+  score: 2.7
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: HSBC group corporate transaction-banking API for initiating outbound payments programmatically, documented on HSBC's Developer Portal and available to wholesale clients including HSBC USA corporate re
@@ -29,6 +29,14 @@ apis:
   slug: omni-collect
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.us.hsbc.com/investments/insights/
+- group: start
+  title: ''
+  type: Signup
+  url: https://www.us.hsbc.com/register/
 - group: company
   title: ''
   type: Website
@@ -101,16 +109,16 @@ network: true
 overview: 'HSBC USA publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Corporate Banking, and Transaction Banking.
 
 
-  HSBC USA''s developer surface includes documentation, support, and 13 more developer resources.'
+  HSBC USA''s developer surface includes engineering blog, signup flow, documentation, support, and 13 more developer resources.'
 random_paper: 94
 score:
   band: emerging
-  composite: 16.9
-  delta: 0.0
+  composite: 19.5
+  delta: 2.6
   facets:
-    commercial_clarity: 10.5
+    commercial_clarity: 23.7
     contract_quality: 0.0
-    developer_ergonomics: 21.7
+    developer_ergonomics: 23.9
     discoverability: 77.8
     governance: 0.0
     operational_transparency: 15.8
@@ -121,8 +129,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 20.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hsbc-usa/refs/heads/main/screenshots/hsbc-usa-2026-07-25T221547.png
 security:

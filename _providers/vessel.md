@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -93,6 +93,10 @@ collections:
   name: Vessel Platform API
   slug: open-vessel-platform
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/vesselapi/integrations/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -185,7 +189,7 @@ overview: 'Vessel publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
   The Vessel catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Vessel''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  Vessel''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Vessel Plans Pricing
   plan_count: 3
@@ -214,15 +218,15 @@ rules:
   slug: vessel-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 44.1
+  delta: -7.5
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 77.8
+    commercial_clarity: 15.8
+    contract_quality: 74.9
     developer_ergonomics: 37.0
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 51.6
   provenance:
     agentic_access: derived
@@ -231,9 +235,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/screenshots/vessel-2026-06-20T200959.png
 security:
 - kind: authentication

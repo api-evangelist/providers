@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -138,16 +138,16 @@ rate_limits:
   name: National Weather Service Rate Limits
   slug: national-weather-service-rate-limits
 score:
-  band: thin
-  composite: 36.5
-  delta: 0.0
+  band: emerging
+  composite: 27.3
+  delta: -9.2
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 53.7
+    commercial_clarity: 15.8
+    contract_quality: 51.7
     developer_ergonomics: 19.6
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 36.5
   provenance:
     agentic_access: derived
@@ -156,9 +156,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 22.2
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-weather-service/refs/heads/main/screenshots/national-weather-service-2026-06-20T190047.png
 security:
 - kind: authentication

@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 13
@@ -105,6 +106,14 @@ collections:
   name: AnchorBrowser API
   slug: open-anchorbrowser
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/anchorbrowser/langchain-anchorbrowser/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/anchorbrowser/langchain-anchorbrowser/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -224,7 +233,7 @@ network: true
 overview: 'Anchor Browser publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Agentic capabilities API, AI Tools API, Applications API, and 14 more. Tagged areas include Browser Infrastructure, AI Agents, Cloud Browser, Browser Automation, and Sandbox.
 
 
-  Anchor Browser''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, developer console, engineering blog, and 10 more developer resources.'
+  Anchor Browser''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, developer console, engineering blog, and 12 more developer resources.'
 plans:
 - name: Anchorbrowser Plans Pricing
   plan_count: 1
@@ -236,13 +245,13 @@ rate_limits:
   slug: anchorbrowser-rate-limits
 score:
   band: developing
-  composite: 46.2
-  delta: 0.0
+  composite: 49.0
+  delta: 2.8
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 59.8
+    commercial_clarity: 50.0
+    contract_quality: 57.5
     developer_ergonomics: 63.0
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 46.2
@@ -253,8 +262,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/screenshots/anchorbrowser-2026-06-20T171955.png
 security:

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-10'
+  score: 49.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -70,6 +71,10 @@ apis:
   slug: archera-well-known-api
 artifact_total: 16
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/archera-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -193,7 +198,7 @@ network: true
 overview: 'Archera publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Commitment Plans API, Commitments API, Exchanges API, and 6 more. Tagged areas include Company, Developer Tools, FinOps, Cloud Cost Management, and Cloud Commitments.
 
 
-  Archera''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 20 more developer resources.'
+  Archera''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 21 more developer resources.'
 random_paper: 30
 scopes:
 - name: Archera Scopes
@@ -202,11 +207,11 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.8
-  delta: 0.0
+  composite: 47.4
+  delta: -0.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 45.9
+    contract_quality: 44.2
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
@@ -222,8 +227,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/screenshots/archera-2026-07-25T201044.png
 security:

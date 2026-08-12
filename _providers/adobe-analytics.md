@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 68.0
-  scored_at: '2026-08-10'
+  score: 64.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -143,6 +143,22 @@ collections:
   name: Adobe Analytics Data Repair API
   slug: open-adobe-analytics-data-repair-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/AdobeDocs/analytics-1.4-apis/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/AdobeDocs/analytics-1.4-apis/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/AdobeDocs/analytics-1.4-apis/blob/main/.github/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/AdobeDocs/analytics-1.4-apis/blob/main/LICENSE
 - group: build
   title: ''
   type: Packages
@@ -726,7 +742,7 @@ overview: 'Adobe Analytics publishes 12 APIs on the [APIs.io](https://apis.io/) 
   The Adobe Analytics catalog on APIs.io includes 1 event-driven AsyncAPI specification, 3 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Adobe Analytics'' developer surface includes changelog, authentication, developer portal, documentation, getting-started guide, developer console, support, and 47 more developer resources.'
+  Adobe Analytics'' developer surface includes changelog, authentication, developer portal, documentation, getting-started guide, developer console, support, and 51 more developer resources.'
 plans:
 - name: Adobe Analytics Plans Pricing
   plan_count: 3
@@ -762,16 +778,16 @@ rules:
     warn: 1
   slug: adobe-analytics-spectral-rules
 score:
-  band: exemplar
-  composite: 70.0
-  delta: 0.0
+  band: strong
+  composite: 61.6
+  delta: -8.4
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 77.2
+    commercial_clarity: 36.8
+    contract_quality: 74.6
     developer_ergonomics: 65.2
     discoverability: 83.3
     governance: 69.8
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 70.0
   provenance:
     agentic_access: derived
@@ -782,9 +798,9 @@ score:
       marker_coverage: 0.0
       total: 11
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/screenshots/adobe-analytics-2026-06-20T164808.png
 security:
 - kind: authentication

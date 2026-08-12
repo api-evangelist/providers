@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 4
 common:
@@ -108,8 +108,8 @@ rules:
   slug: voya-financial-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 14.7
-  delta: 0.0
+  composite: 14.6
+  delta: -0.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 8.1
@@ -118,8 +118,14 @@ score:
     governance: 58.3
     operational_transparency: 5.3
   previous_composite: 14.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 13.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voya-financial/refs/heads/main/screenshots/voya-financial-2026-06-20T201145.png
 security:

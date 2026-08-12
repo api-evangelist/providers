@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 4
 common:
@@ -118,8 +118,8 @@ overview: 'Innovaccer is profiled on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 20
 score:
   band: emerging
-  composite: 27.2
-  delta: 0.0
+  composite: 24.6
+  delta: -2.6
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -136,9 +136,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 55.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 37.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/innovaccer/refs/heads/main/screenshots/innovaccer-2026-07-25T222505.png
 security:

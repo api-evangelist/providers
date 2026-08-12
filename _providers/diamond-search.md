@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -119,15 +119,15 @@ rate_limits:
   slug: diamond-search-rate-limits
 score:
   band: thin
-  composite: 40.3
-  delta: 0.0
+  composite: 34.1
+  delta: -6.2
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 54.5
+    commercial_clarity: 50.0
+    contract_quality: 52.5
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 5.3
   previous_composite: 40.3
   provenance:
     agentic_access: derived
@@ -142,9 +142,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 43.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/diamond-search/refs/heads/main/screenshots/diamond-search-2026-06-20T180003.png
 security:
 - kind: authentication

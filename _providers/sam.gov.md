@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -180,15 +180,15 @@ rules:
   slug: sam.gov-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.2
-  delta: 0.0
+  composite: 31.5
+  delta: -7.7
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 62.0
+    commercial_clarity: 13.2
+    contract_quality: 59.7
     developer_ergonomics: 17.4
     discoverability: 64.8
     governance: 20.8
-    operational_transparency: 42.1
+    operational_transparency: 26.3
   previous_composite: 39.2
   provenance:
     agentic_access: derived
@@ -197,9 +197,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 20.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sam.gov/refs/heads/main/screenshots/sam.gov-2026-06-20T193356.png
 security:
 - kind: domain-security

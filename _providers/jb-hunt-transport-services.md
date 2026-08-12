@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -138,15 +138,15 @@ rate_limits:
   slug: jb-hunt-transport-services-rate-limits
 score:
   band: thin
-  composite: 33.0
-  delta: 0.0
+  composite: 28.0
+  delta: -5.0
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 59.7
+    commercial_clarity: 13.2
+    contract_quality: 57.5
     developer_ergonomics: 10.9
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 5.3
   previous_composite: 33.0
   provenance:
     agentic_access: derived
@@ -155,9 +155,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/jb-hunt-transport-services/refs/heads/main/screenshots/jb-hunt-transport-services-2026-06-20T183810.png
 security:
 - kind: domain-security

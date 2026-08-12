@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 32.0
-  scored_at: '2026-08-10'
+  score: 31.1
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: The Findings API from Pixee — 2 operation(s) for findings.
@@ -46,12 +46,20 @@ apis:
 - description: The Webhooks API from Pixee — 2 operation(s) for webhooks.
   name: Pixee Webhooks API
   slug: pixee-ai-webhooks-api
-artifact_total: 19
+artifact_total: 20
 asyncapis:
 - description: Pixee webhooks deliver real-time HTTP POST notifications when remediation events occur. This AsyncAPI document is a faithful reconstruction of the event types and payload schemas documented at https:/
   name: Pixee Webhooks
   slug: pixee-ai-webhooks-asyncapi
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/pixee-ai-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pixee-ai-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -140,6 +148,10 @@ created: '2026-07-17'
 description: Pixee is an agentic security engineering (AppSec) platform — "your automated product security engineer." It ingests findings from SAST, SCA, and IaC scanners as SARIF, runs a three-tier triage engine that classifies each vulnerability with auditable, timestamped evidence, and delivers remediations as native pull requests across GitHub, GitLab, Azure DevOps, and Bitbucket using deterministic codemods plus quality-evaluated AI fixes. Pixee exposes a HAL-based REST API (organization-scoped bearer tokens), documented webhooks, a first-party CLI with bundled agent skills, and the open-source Codemodder framework (Java and Python). It is backed by Wing Venture Capital.
 image: https://cdn.prod.website-files.com/696822cb241ff5e67581075b/69b1a742e6436bad27408920_pixee%20agentic%20appsec%20image.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: pixee-ai-mcp.yml
+  slug: pixee-ai-mcpyml
 modified: '2026-07-20'
 name: Pixee
 nav: Providers
@@ -150,17 +162,17 @@ overview: 'Pixee publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
   The Pixee catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Pixee''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 14 more developer resources.'
+  Pixee''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 16 more developer resources.'
 random_paper: 90
 score:
   band: developing
-  composite: 54.2
-  delta: 0.0
+  composite: 52.9
+  delta: -1.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.8
-    developer_ergonomics: 56.5
-    discoverability: 92.6
+    contract_quality: 67.2
+    developer_ergonomics: 58.7
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 54.2
@@ -173,8 +185,8 @@ score:
       total: 5
     mcp: derived
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

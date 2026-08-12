@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -145,16 +145,16 @@ rate_limits:
   name: Buttondown Rate Limits
   slug: buttondown-rate-limits
 score:
-  band: developing
-  composite: 44.2
-  delta: 0.0
+  band: thin
+  composite: 34.8
+  delta: -9.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 54.3
+    commercial_clarity: 26.3
+    contract_quality: 52.2
     developer_ergonomics: 26.1
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 0.0
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 44.2
   provenance:
     agentic_access: derived
@@ -163,9 +163,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 25.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/screenshots/buttondown-2026-06-20T173820.png
 security:
 - kind: authentication

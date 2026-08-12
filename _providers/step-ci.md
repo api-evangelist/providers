@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Step CI is an open source API Quality Assurance framework that is language-agnostic and configured using YAML, JSON, or JavaScript. It supports REST, GraphQL, gRPC, tRPC, and SOAP, enabling tests acro
@@ -36,6 +36,10 @@ apis:
   slug: step-ci
 artifact_total: 11
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/stepci/stepci/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -103,7 +107,7 @@ overview: 'Step CI publishes 1 API on the [APIs.io](https://apis.io/) network. T
   The Step CI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Step CI''s developer surface includes documentation and 6 more developer resources.'
+  Step CI''s developer surface includes documentation and 7 more developer resources.'
 plans:
 - name: Step Ci Plans Pricing
   plan_count: 3
@@ -123,20 +127,20 @@ rules:
     warn: 4
   slug: step-ci-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 30.6
-  delta: 0.0
+  band: emerging
+  composite: 23.6
+  delta: -7.0
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 12.9
-    developer_ergonomics: 8.7
+    developer_ergonomics: 13.0
     discoverability: 59.3
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 30.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/step-ci/refs/heads/main/screenshots/step-ci-2026-06-20T194539.png
 security:
 - kind: domain-security

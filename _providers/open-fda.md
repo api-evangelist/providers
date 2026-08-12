@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 17
 apis:
 - description: Access FDA Adverse Event Reporting System (FAERS) data covering adverse event reports for drugs and therapeutic biologic products from 2004 onward, updated quarterly.
@@ -84,6 +84,10 @@ apis:
   slug: other-substance-data
 artifact_total: 41
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/FDA/openfda/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -211,7 +215,7 @@ overview: 'openFDA publishes 17 APIs on the [APIs.io](https://apis.io/) network.
   The openFDA catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  openFDA''s developer surface includes documentation, engineering blog, authentication, and 9 more developer resources.'
+  openFDA''s developer surface includes documentation, engineering blog, authentication, and 10 more developer resources.'
 plans:
 - name: Open Fda Plans Pricing
   plan_count: 2
@@ -248,8 +252,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/screenshots/open-fda-2026-06-20T190739.png
 security:

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-10'
+  score: 33.3
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Server-to-server ingest/tracking API for sending AI interactions, events, feedback signals, and user identity into Raindrop. Bearer write-key auth; authorized requests return 204. Project targeting vi
@@ -175,13 +175,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 40.1
-  delta: 0.0
+  composite: 39.0
+  delta: -1.1
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 80.4
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 13.2
   previous_composite: 40.1
@@ -189,8 +189,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

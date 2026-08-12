@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 55.6
-  scored_at: '2026-08-10'
+  score: 52.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -56,6 +56,10 @@ asyncapis:
   name: Sendspark Webhooks
   slug: sendspark-webhooks-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sendspark-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -190,15 +194,15 @@ overview: 'Sendspark publishes 4 APIs on the [APIs.io](https://apis.io/) network
   The Sendspark catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Sendspark''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
+  Sendspark''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 23 more developer resources.'
 random_paper: 43
 score:
   band: developing
-  composite: 53.0
-  delta: 0.0
+  composite: 52.4
+  delta: -0.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 68.8
+    contract_quality: 66.2
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
@@ -214,8 +218,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

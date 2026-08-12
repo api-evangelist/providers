@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: The Admin API from Boltz — 7 operation(s) for admin.
@@ -77,7 +77,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/boltz-compute.yml
+  url: openapi/_original/boltz-compute.yml
 - group: auth
   title: ''
   type: Authentication
@@ -189,11 +189,11 @@ overview: 'Boltz publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 91
 score:
   band: developing
-  composite: 52.2
-  delta: 0.0
+  composite: 50.8
+  delta: -1.4
   facets:
     commercial_clarity: 44.7
-    contract_quality: 60.5
+    contract_quality: 58.2
     developer_ergonomics: 87.0
     discoverability: 81.5
     governance: 3.1
@@ -213,9 +213,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 37.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 31.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boltz/refs/heads/main/screenshots/boltz-2026-07-25T203543.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -400,15 +400,15 @@ rules:
   slug: edamam-spectral-rules
 score:
   band: thin
-  composite: 41.8
-  delta: 0.0
+  composite: 33.8
+  delta: -8.0
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 25.0
+    commercial_clarity: 36.8
+    contract_quality: 24.1
     developer_ergonomics: 19.6
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 41.8
   provenance:
     agentic_access: derived
@@ -417,9 +417,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/edamam/refs/heads/main/screenshots/edamam-2026-06-20T180443.png
 security:
 - kind: authentication

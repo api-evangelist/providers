@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 7
@@ -1087,16 +1087,16 @@ rules:
     warn: 2
   slug: fastly-rules
 score:
-  band: exemplar
-  composite: 73.3
-  delta: 0.0
+  band: strong
+  composite: 65.3
+  delta: -8.0
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 80.7
+    commercial_clarity: 68.4
+    contract_quality: 80.0
     developer_ergonomics: 67.4
     discoverability: 68.5
     governance: 62.5
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 73.3
   provenance:
     agentic_access: derived
@@ -1105,9 +1105,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 81
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastly/refs/heads/main/screenshots/fastly-2026-06-20T181052.png
 security:
 - kind: authentication

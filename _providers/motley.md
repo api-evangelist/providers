@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-10'
+  score: 24.3
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: SLayer is Motley's open-core, agent-first semantic layer and query engine. Agents and applications describe measures, dimensions, and filters and SLayer compiles and runs the correct SQL across many d
@@ -36,6 +36,22 @@ apis:
   slug: motley-slayer-semantic-layer
 artifact_total: 5
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/MotleyAI/slayer/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/MotleyAI/slayer/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/MotleyAI/slayer/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/MotleyAI/slayer/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -163,7 +179,7 @@ network: true
 overview: 'Motley publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semantic Layer, Business Intelligence, Analytics, and AI Agents.
 
 
-  Motley''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
+  Motley''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 25 more developer resources.'
 random_paper: 86
 scopes:
 - name: Motley Scopes
@@ -172,13 +188,13 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.2
-  delta: 0.0
+  composite: 37.0
+  delta: -1.2
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 87.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 21.1
   previous_composite: 38.2
@@ -186,8 +202,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/motley/refs/heads/main/screenshots/motley-2026-08-07T184333.png
 security:

@@ -22,14 +22,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-10'
+  score: 44.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,8 +42,12 @@ apis:
 - description: An undocumented, unauthenticated, read-only JSON surface served by the Connells consumer website at https://www.connells.co.uk/api. It is NOT a published Connells Group product — the group publishes n
   name: Connells Website JSON API (undocumented)
   slug: connells-website-json-api-undocumented
-artifact_total: 10
+artifact_total: 11
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/connells-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -195,6 +199,10 @@ examples:
   slug: connells-testimonials-response
 image: https://www.connellsgroup.co.uk/Assets/images/favicons/apple-icon-180x180.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: connells-mcp.yml
+  slug: connells-mcpyml
 modified: '2026-07-26'
 name: Connells Group
 nav: Providers
@@ -202,7 +210,7 @@ network: true
 overview: 'Connells Group publishes 1 API on the [APIs.io](https://apis.io/) network: Connells Website JSON API (undocumented). Tagged areas include Real Estate, United Kingdom, Property Listings, Brokerage, and Estate Agency.
 
 
-  Connells Group''s developer surface includes code examples, authentication, engineering blog, and 29 more developer resources.'
+  Connells Group''s developer surface includes code examples, authentication, engineering blog, and 30 more developer resources.'
 random_paper: 50
 rate_limits:
 - limit_count: 0
@@ -210,13 +218,13 @@ rate_limits:
   slug: connells-rate-limits
 score:
   band: emerging
-  composite: 26.4
-  delta: 0.0
+  composite: 25.7
+  delta: -0.7
   facets:
     commercial_clarity: 28.9
-    contract_quality: 13.4
-    developer_ergonomics: 14.7
-    discoverability: 87.0
+    contract_quality: 12.9
+    developer_ergonomics: 16.8
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 0.0
   previous_composite: 26.4
@@ -236,8 +244,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 50.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/screenshots/connells-2026-08-07T163756.png
 security:

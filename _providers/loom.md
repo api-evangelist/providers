@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Embed Loom's recording experience directly into your web app. The recordSDK lets users record screen, mic, and camera, and uploads the resulting video to a Loom-hosted account. Authenticated via OAuth
@@ -127,19 +127,19 @@ rate_limits:
   slug: loom-rate-limits
 score:
   band: thin
-  composite: 36.8
-  delta: 0.0
+  composite: 28.9
+  delta: -7.9
   facets:
-    commercial_clarity: 57.9
+    commercial_clarity: 34.2
     contract_quality: 43.2
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 36.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/loom/refs/heads/main/screenshots/loom-2026-06-20T184719.png
 security:
 - kind: domain-security

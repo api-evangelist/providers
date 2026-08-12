@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -177,6 +177,10 @@ collections:
   name: Uber Vouchers API
   slug: open-uber-vouchers
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/uber/uber-direct-sdk/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -444,7 +448,7 @@ overview: 'Uber publishes 19 APIs on the [APIs.io](https://apis.io/) network, in
   The Uber catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Uber''s developer surface includes authentication, developer portal, documentation, developer console, signup flow, getting-started guide, pricing, and 14 more developer resources.'
+  Uber''s developer surface includes authentication, developer portal, documentation, developer console, signup flow, getting-started guide, pricing, and 15 more developer resources.'
 plans:
 - name: Uber Plans Pricing
   plan_count: 1
@@ -473,15 +477,15 @@ rules:
   slug: uber-rules
 score:
   band: strong
-  composite: 59.8
-  delta: 0.0
+  composite: 56.6
+  delta: -3.2
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 80.0
+    commercial_clarity: 57.9
+    contract_quality: 77.4
     developer_ergonomics: 52.2
     discoverability: 68.5
     governance: 58.3
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 59.8
   provenance:
     agentic_access: derived
@@ -490,8 +494,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/screenshots/uber-2026-06-20T195925.png
 security:

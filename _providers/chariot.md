@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 66.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 3
@@ -219,6 +219,10 @@ collections:
   name: Chariot FDX Accounts verificationRequests API
   slug: postman-chariot-verificationrequests-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/chariot-fdx-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -381,7 +385,7 @@ overview: 'Chariot publishes 29 APIs on the [APIs.io](https://apis.io/) network,
   The Chariot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Chariot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  Chariot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 random_paper: 50
 scopes:
 - name: Chariot Scopes
@@ -390,16 +394,16 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.0
-  delta: -0.5
+  composite: 58.4
+  delta: -1.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 72.2
+    contract_quality: 71.8
     developer_ergonomics: 79.9
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 60.5
+  previous_composite: 60.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -415,9 +419,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 63.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 53.2
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/screenshots/chariot-2026-07-25T205102.png
 security:

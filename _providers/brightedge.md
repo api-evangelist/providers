@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.8
-  scored_at: '2026-08-10'
+  score: 32.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 2
@@ -170,8 +170,20 @@ apis:
 - description: The webhook API from BrightEdge — 2 operation(s) for webhook.
   name: BrightEdge webhook API
   slug: brightedge-webhook-api
-artifact_total: 48
+artifact_total: 49
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/brightedge-bulk-export.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/brightedge-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/brightedge-platform-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -248,6 +260,10 @@ created: '2026-07-17'
 description: BrightEdge is an enterprise SEO and content performance platform, founded in 2007 and headquartered in Silicon Valley, used by thousands of brands and a majority of the Fortune 100. Its products include the DataCube keyword and content data repository, ContentIQ site auditing, Autopilot, Copilot, and the DataMind AI engine plus AI Catalyst for generative-search visibility. The BrightEdge Platform API (v5.0) is a REST API published at api.brightedge.com that exposes accounts, keywords, keyword groups, competitors, domains, pages, backlinks, the DataCube dataset, recommendations, People-Also-Ask, SERP features, Core Web Vitals, bulk export, and user/organization management, so teams can integrate BrightEdge search and content intelligence into their own reporting, analytics, and data-warehouse workflows.
 image: https://www.brightedge.com/themes/custom/brightedge/logo.svg
 layout: provider
+mcp_servers:
+- description: ''
+  name: brightedge-mcp.yml
+  slug: brightedge-mcpyml
 modified: '2026-07-18'
 name: BrightEdge
 nav: Providers
@@ -255,17 +271,17 @@ network: true
 overview: 'BrightEdge publishes 44 APIs on the [APIs.io](https://apis.io/) network, including accounts API, ai_catalyst API, autopilot API, and 41 more. Tagged areas include Company, SEO, Search, Content, and Marketing.
 
 
-  BrightEdge''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, changelog, and 11 more developer resources.'
+  BrightEdge''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, changelog, and 14 more developer resources.'
 random_paper: 1
 score:
-  band: developing
-  composite: 42.1
-  delta: 0.0
+  band: thin
+  composite: 41.2
+  delta: -0.9
   facets:
     commercial_clarity: 60.5
-    contract_quality: 51.6
-    developer_ergonomics: 30.4
-    discoverability: 68.5
+    contract_quality: 49.7
+    developer_ergonomics: 34.2
+    discoverability: 57.4
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 42.1
@@ -279,8 +295,8 @@ score:
       total: 44
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/screenshots/brightedge-2026-07-25T203837.png
 security:

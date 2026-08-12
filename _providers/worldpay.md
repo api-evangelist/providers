@@ -22,14 +22,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-08-10'
+  score: 63.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -177,8 +177,28 @@ apis:
 - description: Worldpay Events from Worldpay, described in OpenAPI.
   name: Worldpay Events
   slug: worldpay-events-openapi
-artifact_total: 53
+artifact_total: 54
 common:
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.worldpay.com/support
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://docs.worldpay.com/access/products/ai/mcp
+- group: build
+  title: ''
+  type: SDKs
+  url: https://docs.worldpay.com/access/products/sdks
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.worldpay.com/terms-of-use
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.worldpay.com/access/products/get-started
 - group: agent
   title: ''
   type: AgenticAccess
@@ -247,6 +267,10 @@ graphqls:
   slug: worldpay-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/worldpay.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-06-13'
 name: Worldpay
 nav: Providers
@@ -254,7 +278,7 @@ network: true
 overview: 'Worldpay publishes 35 APIs on the [APIs.io](https://apis.io/) network, including FraudSight API, 3DS actions API, Accounts API, and 32 more. Tagged areas include Payments, Payment Processing, Payment Gateway, Tokenization, and Fraud Prevention.
 
 
-  Worldpay''s developer surface includes authentication, documentation, signup flow, status page, changelog, GitHub presence, and 8 more developer resources.'
+  Worldpay''s developer surface includes support, getting-started guide, authentication, documentation, signup flow, status page, changelog, and 12 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
@@ -265,14 +289,14 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 score:
-  band: thin
-  composite: 36.1
-  delta: 0.0
+  band: developing
+  composite: 46.4
+  delta: 10.3
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 65.9
-    developer_ergonomics: 28.3
-    discoverability: 74.1
+    commercial_clarity: 52.6
+    contract_quality: 63.7
+    developer_ergonomics: 58.7
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 36.1
@@ -288,10 +312,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 25.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+    score: 31.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: rising
 security:
 - kind: authentication
   name: Worldpay Authentication

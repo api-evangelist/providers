@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -83,6 +83,10 @@ collections:
   name: Spring Boot Actuator API
   slug: open-spring-boot-actuator
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/codecentric/spring-boot-admin/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -194,7 +198,7 @@ overview: 'Spring Boot publishes 10 APIs on the [APIs.io](https://apis.io/) netw
   The Spring Boot catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spring Boot''s developer surface includes documentation, GitHub presence, release notes, Stack Overflow tag, engineering blog, and 11 more developer resources.'
+  Spring Boot''s developer surface includes documentation, GitHub presence, release notes, Stack Overflow tag, engineering blog, and 12 more developer resources.'
 plans:
 - name: Spring Boot Plans Pricing
   plan_count: 3
@@ -222,16 +226,16 @@ rules:
     warn: 3
   slug: spring-boot-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 43.5
-  delta: 0.0
+  band: thin
+  composite: 35.1
+  delta: -8.4
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 62.6
+    commercial_clarity: 15.8
+    contract_quality: 60.3
     developer_ergonomics: 10.9
     discoverability: 72.2
     governance: 31.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 43.5
   provenance:
     agentic_access: derived
@@ -240,9 +244,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/screenshots/spring-boot-2026-06-20T194406.png
 security:
 - kind: domain-security

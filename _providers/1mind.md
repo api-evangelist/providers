@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-10'
+  score: 0.0
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
@@ -118,18 +118,18 @@ overview: '1mind is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 9
 score:
   band: emerging
-  composite: 24.4
-  delta: 3.4
+  composite: 23.3
+  delta: -1.1
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 23.9
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 21.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 24.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1mind/refs/heads/main/screenshots/1mind-2026-07-25T181118.png
 security:

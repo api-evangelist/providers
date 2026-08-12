@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-08-10'
+  score: 37.2
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: The Analytics API from Sequence — 177 operation(s) for analytics.
@@ -52,6 +52,10 @@ asyncapis:
   name: Sequence Indexer Webhooks
   slug: sequence-indexer-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sequence-analytics-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -186,17 +190,17 @@ overview: 'Sequence publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The Sequence catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Sequence''s developer surface includes documentation, API reference, signup flow, support, engineering blog, pricing, changelog, and 22 more developer resources.'
+  Sequence''s developer surface includes documentation, API reference, signup flow, support, engineering blog, pricing, changelog, and 23 more developer resources.'
 random_paper: 45
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 44.1
+  delta: -1.4
   facets:
     commercial_clarity: 23.7
-    contract_quality: 58.7
+    contract_quality: 56.5
     developer_ergonomics: 64.7
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
   previous_composite: 45.5
@@ -215,8 +219,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

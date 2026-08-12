@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 253
   human_in_the_loop: 0
@@ -211,6 +211,10 @@ apis:
   slug: polkadot-xcm-api
 artifact_total: 63
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/paritytech/substrate-api-sidecar/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -270,7 +274,7 @@ overview: 'Polkadot publishes 57 APIs on the [APIs.io](https://apis.io/) network
   The Polkadot catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Polkadot''s developer surface includes engineering blog, GitHub presence, and 7 more developer resources.'
+  Polkadot''s developer surface includes engineering blog, GitHub presence, and 8 more developer resources.'
 plans:
 - name: Subscan
   plan_count: 3
@@ -286,7 +290,7 @@ score:
   delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 52.6
+    contract_quality: 52.8
     developer_ergonomics: 2.2
     discoverability: 68.5
     governance: 0.0
@@ -299,8 +303,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 57
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/screenshots/polkadot-2026-06-20T192021.png
 security:

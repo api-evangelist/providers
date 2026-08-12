@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 58.3
-  scored_at: '2026-08-10'
+  score: 54.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -223,16 +224,16 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.0
-  delta: 0.3
+  composite: 50.2
+  delta: -0.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.0
+    contract_quality: 66.3
     developer_ergonomics: 51.6
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 50.7
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -240,11 +241,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/screenshots/arkestro-2026-08-07T161720.png
 security:

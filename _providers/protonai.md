@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.4
-  scored_at: '2026-08-10'
+  score: 32.2
+  scored_at: '2026-08-11'
 api_count: 12
 apis:
 - description: The Call Notes API from Proton.ai — 4 operation(s) for call notes.
@@ -67,8 +67,16 @@ apis:
 - description: The Tracking API from Proton.ai — 2 operation(s) for tracking.
   name: Proton.ai Tracking API
   slug: protonai-tracking-api
-artifact_total: 15
+artifact_total: 16
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/protonai-lead-to-opportunity.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/protonai-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -125,6 +133,10 @@ created: '2026-07-17'
 description: Proton.ai is an AI industry cloud platform built for B2B distributors, combining an AI-guided CRM, product information management, e-commerce recommendation engine, and order-capture automation on top of a distributor's existing ERP and e-commerce systems. Proton exposes a public REST API (documented via Postman at api.proton.ai) offering an AI-powered suite of endpoints for product recommendations (cart, reorder, similar items, bought-also-bought, recently viewed), behavioral tracking, and CRM operations across customers, contacts, opportunities and pipelines, quotes, leads, call notes, tasks, and tenant-defined custom fields. Authentication is a static API key supplied at onboarding and sent in the X-Api-Key header, with an X-Company tenant header scoping every request. Proton is backed by Battery Ventures and headquartered around a distribution-industry focus.
 image: https://content.pstmn.io/9e57cb73-9d7b-4c3a-8915-f860c9e82380/bG9nby0yMDIzLnBuZw==
 layout: provider
+mcp_servers:
+- description: ''
+  name: protonai-mcp.yml
+  slug: protonai-mcpyml
 modified: '2026-07-20'
 name: Proton.ai
 nav: Providers
@@ -132,17 +144,17 @@ network: true
 overview: 'Proton.ai publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Call Notes API, Contacts API, Custom Fields API, and 9 more. Tagged areas include Company, CRM, Sales, Distribution, and Artificial Intelligence.
 
 
-  Proton.ai''s developer surface includes authentication, documentation, API reference, support, engineering blog, signup flow, and 7 more developer resources.'
+  Proton.ai''s developer surface includes authentication, documentation, API reference, support, engineering blog, signup flow, and 9 more developer resources.'
 random_paper: 64
 score:
-  band: developing
-  composite: 42.7
-  delta: 0.0
+  band: thin
+  composite: 41.8
+  delta: -0.9
   facets:
     commercial_clarity: 42.1
-    contract_quality: 60.8
-    developer_ergonomics: 37.0
-    discoverability: 92.6
+    contract_quality: 58.5
+    developer_ergonomics: 40.8
+    discoverability: 81.5
     governance: 3.1
     operational_transparency: 15.8
   previous_composite: 42.7
@@ -155,8 +167,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

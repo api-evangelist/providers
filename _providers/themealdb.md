@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -204,15 +204,15 @@ rules:
   slug: themealdb-spectral-rules
 score:
   band: thin
-  composite: 33.1
-  delta: 0.0
+  composite: 30.3
+  delta: -2.8
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 27.7
+    commercial_clarity: 36.8
+    contract_quality: 26.7
     developer_ergonomics: 8.7
     discoverability: 55.6
     governance: 68.8
-    operational_transparency: 21.1
+    operational_transparency: 5.3
   previous_composite: 33.1
   provenance:
     agentic_access: derived
@@ -221,8 +221,8 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/themealdb/refs/heads/main/screenshots/themealdb-2026-06-20T195246.png
 security:

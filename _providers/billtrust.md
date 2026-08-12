@@ -27,10 +27,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: start
+  title: ''
+  type: Login
+  url: https://app.billtrust.com/login
 - group: company
   title: ''
   type: Website
@@ -82,25 +86,31 @@ network: true
 overview: 'Billtrust is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Accounts Receivable, B2B Payments, and Invoicing.
 
 
-  Billtrust''s developer surface includes support, engineering blog, and 8 more developer resources.'
+  Billtrust''s developer surface includes support, engineering blog, and 9 more developer resources.'
 random_paper: 69
 score:
   band: emerging
-  composite: 14.3
-  delta: 0.0
+  composite: 20.6
+  delta: 6.3
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 42.1
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 12.5
     operational_transparency: 5.3
   previous_composite: 14.3
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 37.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/billtrust/refs/heads/main/screenshots/billtrust-2026-07-25T202953.png
 security:
 - kind: domain-security

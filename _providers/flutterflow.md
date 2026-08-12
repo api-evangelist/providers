@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 27.0
-  scored_at: '2026-08-10'
+  score: 23.4
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'REST API for programmatically managing FlutterFlow projects: list projects, list and export partitioned project YAML files, validate YAML before applying, and update a project by YAML. Used to automat'
@@ -174,22 +174,22 @@ overview: 'FlutterFlow publishes 1 API on the [APIs.io](https://apis.io/) networ
   FlutterFlow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
 random_paper: 54
 score:
-  band: developing
-  composite: 42.6
-  delta: 0.0
+  band: thin
+  composite: 41.4
+  delta: -1.2
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 73.9
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 42.1
   previous_composite: 42.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flutterflow/refs/heads/main/screenshots/flutterflow-2026-07-25T214849.png
 security:

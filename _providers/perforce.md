@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -105,6 +106,10 @@ collections:
   name: Perforce Helix Swarm API
   slug: open-perforce-helix-swarm
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/perforce/helix-authentication-service/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -361,7 +366,7 @@ overview: 'Perforce publishes 6 APIs on the [APIs.io](https://apis.io/) network,
   The Perforce catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Perforce''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, support, and 10 more developer resources.'
+  Perforce''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, support, and 11 more developer resources.'
 plans:
 - name: Perforce Plans Pricing
   plan_count: 5
@@ -389,16 +394,16 @@ rules:
     warn: 5
   slug: perforce-spectral-rules
 score:
-  band: strong
-  composite: 60.7
-  delta: 0.0
+  band: developing
+  composite: 53.2
+  delta: -7.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 72.4
+    commercial_clarity: 36.8
+    contract_quality: 69.7
     developer_ergonomics: 58.7
     discoverability: 63.0
     governance: 58.3
-    operational_transparency: 42.1
+    operational_transparency: 26.3
   previous_composite: 60.7
   provenance:
     agentic_access: derived
@@ -407,9 +412,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/screenshots/perforce-2026-06-20T191608.png
 security:
 - kind: authentication

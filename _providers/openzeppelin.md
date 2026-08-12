@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -68,6 +68,10 @@ apis:
   slug: openzeppelin-signers-api
 artifact_total: 24
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/OpenZeppelin/openzeppelin-monitor/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -187,7 +191,7 @@ overview: 'OpenZeppelin publishes 7 APIs on the [APIs.io](https://apis.io/) netw
   The OpenZeppelin catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OpenZeppelin''s developer surface includes authentication, documentation, GitHub presence, engineering blog, product news, status page, signup flow, and 12 more developer resources.'
+  OpenZeppelin''s developer surface includes authentication, documentation, GitHub presence, engineering blog, product news, status page, signup flow, and 13 more developer resources.'
 plans:
 - name: Plans
   plan_count: 4
@@ -208,12 +212,12 @@ rules:
   slug: openzeppelin-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.8
-  delta: 0.0
+  composite: 55.8
+  delta: 3.0
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 60.6
-    developer_ergonomics: 21.7
+    commercial_clarity: 81.6
+    contract_quality: 58.3
+    developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 47.4
@@ -225,8 +229,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/screenshots/openzeppelin-2026-06-20T191058.png
 security:

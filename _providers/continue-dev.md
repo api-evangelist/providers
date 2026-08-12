@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -63,6 +63,26 @@ collections:
   name: Continue Hub IDE API
   slug: open-continue-dev-hub-ide-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/continuedev/continue/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/continuedev/continue/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/continuedev/continue/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/continuedev/continue/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/continuedev/continue/blob/main/CONTRIBUTING.md
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -310,7 +330,7 @@ overview: 'Continue publishes 1 API on the [APIs.io](https://apis.io/) network: 
   The Continue catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Continue''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, pricing, getting-started guide, and 32 more developer resources.'
+  Continue''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, pricing, getting-started guide, and 37 more developer resources.'
 plans:
 - name: Continue Dev Plans Pricing
   plan_count: 4
@@ -339,15 +359,15 @@ rules:
   slug: continue-dev-rules
 score:
   band: strong
-  composite: 58.9
-  delta: 0.0
+  composite: 57.2
+  delta: -1.7
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 72.1
+    commercial_clarity: 39.5
+    contract_quality: 69.4
     developer_ergonomics: 52.2
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 58.9
   provenance:
     agentic_access: derived
@@ -356,8 +376,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/continue-dev/refs/heads/main/screenshots/continue-dev-2026-06-20T174940.png
 security:

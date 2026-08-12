@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -352,11 +352,11 @@ rules:
   slug: applovin-rules
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 45.3
+  delta: -0.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 24.5
+    contract_quality: 23.6
     developer_ergonomics: 54.3
     discoverability: 68.5
     governance: 68.8
@@ -369,8 +369,8 @@ score:
       derived: 11
       marker_coverage: 100.0
       total: 11
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/screenshots/applovin-2026-06-20T172326.png
 security:

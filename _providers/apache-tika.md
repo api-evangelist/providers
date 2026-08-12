@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -83,6 +83,22 @@ collections:
   name: Apache Tika Server REST API
   slug: open-apache-tika
 common:
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/apache/tika/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/tika/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/tika/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -168,7 +184,7 @@ network: true
 overview: 'Apache Tika publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Apache Tika Server REST API API, Detect API, Detectors API, and 9 more. Tagged areas include Content Extraction, Document Processing, Metadata, Text Extraction, and Open Source.
 
 
-  Apache Tika''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 6 more developer resources.'
+  Apache Tika''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 10 more developer resources.'
 plans:
 - name: Apache Tika Plans Pricing
   plan_count: 3
@@ -180,15 +196,15 @@ rate_limits:
   slug: apache-tika-rate-limits
 score:
   band: thin
-  composite: 40.3
-  delta: 0.0
+  composite: 33.5
+  delta: -6.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 39.5
+    commercial_clarity: 26.3
+    contract_quality: 38.1
     developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 47.4
+    operational_transparency: 34.2
   previous_composite: 40.3
   provenance:
     agentic_access: derived
@@ -197,9 +213,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-tika/refs/heads/main/screenshots/apache-tika-2026-06-20T172153.png
 security:
 - kind: domain-security

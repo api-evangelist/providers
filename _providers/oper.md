@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 52
 apis:
 - description: The Agent Documents API from Oper — 2 operation(s) for agent documents.
@@ -189,6 +189,10 @@ apis:
   slug: oper-webhooks-api
 artifact_total: 57
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oper-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -284,15 +288,15 @@ network: true
 overview: 'Oper publishes 52 APIs on the [APIs.io](https://apis.io/) network, including Agent Documents API, Appointment Booking Websites API, Approvals API, and 49 more. Tagged areas include Company, Vertical Software, Fintech, Mortgage, and Lending.
 
 
-  Oper''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 14 more developer resources.'
+  Oper''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 15 more developer resources.'
 random_paper: 90
 score:
   band: thin
-  composite: 39.8
-  delta: 0.0
+  composite: 39.7
+  delta: -0.1
   facets:
     commercial_clarity: 26.3
-    contract_quality: 43.5
+    contract_quality: 43.4
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
@@ -313,8 +317,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 48.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oper/refs/heads/main/screenshots/oper-2026-08-07T190659.png
 security:

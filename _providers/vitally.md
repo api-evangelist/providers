@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -71,6 +72,10 @@ asyncapis:
   name: Vitally Webhooks
   slug: vitally-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/vitally-rest-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -221,7 +226,7 @@ overview: 'Vitally publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
   The Vitally catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Vitally''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
+  Vitally''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 random_paper: 77
 rate_limits:
 - limit_count: 1
@@ -229,13 +234,13 @@ rate_limits:
   slug: vitally-rate-limits
 score:
   band: strong
-  composite: 62.6
-  delta: 0.0
+  composite: 60.8
+  delta: -1.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.8
+    contract_quality: 67.2
     developer_ergonomics: 60.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 71.1
   previous_composite: 62.6
@@ -249,8 +254,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

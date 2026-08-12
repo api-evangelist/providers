@@ -10,10 +10,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.1
-  scored_at: '2026-08-10'
+  score: 34.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -71,12 +71,24 @@ apis:
 - description: 'This section describes API endpoints you can use to configure webhooks. Check the [webhook events section](#tag/WebhooksOverview) for more inforation regarding the webhooks events that Twice delivers '
   name: Rentle Webhooks API
   slug: rentle-webhooks-api
-artifact_total: 15
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Rentle Webhooks
   slug: rentle-webhooks
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/rentle-create-order.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/rentle-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/rentle-admin-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -157,6 +169,10 @@ created: '2026-07-17'
 description: Rentle, now operating as Twice Commerce, is a Helsinki-founded (2018) circular-commerce platform that lets merchants run rentals, resale, and subscriptions from one system. Its Twice Admin API (OpenAPI 3.0.0, date-based version 2023-02-01) exposes categories, customers, inventory articles, SKUs, products, orders, stores, merchant details, discount codes, API keys, and webhooks over a REST interface authenticated with HTTP Basic API keys. Outbound webhooks cover nine order and product lifecycle events. This profile was enriched by the API Evangelist pipeline from Rentle/Twice Commerce public developer surfaces.
 image: https://www.twicecommerce.com/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: rentle-mcp.yml
+  slug: rentle-mcpyml
 modified: '2026-07-20'
 name: Rentle
 nav: Providers
@@ -167,17 +183,17 @@ overview: 'Rentle publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
   The Rentle catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Rentle''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 12 more developer resources.'
+  Rentle''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 15 more developer resources.'
 random_paper: 70
 score:
   band: developing
-  composite: 46.3
-  delta: 0.0
+  composite: 45.4
+  delta: -0.9
   facets:
     commercial_clarity: 44.7
-    contract_quality: 63.5
-    developer_ergonomics: 30.4
-    discoverability: 92.6
+    contract_quality: 61.1
+    developer_ergonomics: 34.2
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
   previous_composite: 46.3
@@ -191,8 +207,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -245,11 +245,11 @@ rules:
   slug: radio-browser-rules
 score:
   band: developing
-  composite: 43.1
-  delta: 0.0
+  composite: 42.6
+  delta: -0.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 65.5
+    contract_quality: 63.1
     developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 68.8
@@ -268,8 +268,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radio-browser/refs/heads/main/screenshots/radio-browser-2026-06-20T192514.png
 security:

@@ -28,10 +28,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 5
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/EYBlockchain/nightfall_3/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/EYBlockchain/nightfall_3/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/EYBlockchain/nightfall_3/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -185,7 +197,7 @@ overview: 'Ernst & Young (EY) is profiled on the [APIs.io](https://apis.io/) net
   The Ernst & Young (EY) catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Ernst & Young (EY)''s developer surface includes YouTube channel, legal docs, and 30 more developer resources.'
+  Ernst & Young (EY)''s developer surface includes YouTube channel, legal docs, and 33 more developer resources.'
 plans:
 - name: Ernst And Young Plans Pricing
   plan_count: 3
@@ -197,18 +209,18 @@ rate_limits:
   slug: ernst-and-young-rate-limits
 score:
   band: emerging
-  composite: 25.3
-  delta: 0.0
+  composite: 27.4
+  delta: 2.1
   facets:
     commercial_clarity: 68.4
     contract_quality: 12.9
     developer_ergonomics: 0.0
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 42.1
   previous_composite: 25.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ernst-and-young/refs/heads/main/screenshots/ernst-and-young-2026-06-20T180813.png
 security:

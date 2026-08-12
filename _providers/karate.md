@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Karate is an open source API test automation framework combining API testing, mocks, and performance testing in a single tool using BDD syntax.
@@ -36,6 +36,30 @@ apis:
   slug: karate
 artifact_total: 4
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/karatelabs/karate/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/karatelabs/karate/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/karatelabs/karate/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/karatelabs/karate/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/karatelabs/karate/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/karatelabs/karate/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -63,7 +87,7 @@ network: true
 overview: 'Karate publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Functional Testing and Testing.
 
 
-  Karate''s developer surface includes documentation and 2 more developer resources.'
+  Karate''s developer surface includes documentation and 8 more developer resources.'
 plans:
 - name: Karate Plans Pricing
   plan_count: 3
@@ -75,18 +99,18 @@ rate_limits:
   slug: karate-rate-limits
 score:
   band: emerging
-  composite: 18.5
-  delta: 0.0
+  composite: 14.1
+  delta: -4.4
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 40.7
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 18.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/karate/refs/heads/main/screenshots/karate-2026-06-20T183919.png
 slug: karate

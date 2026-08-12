@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.2
-  scored_at: '2026-08-10'
+  score: 30.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -80,12 +80,20 @@ apis:
 - description: The webhooks API from Fixie — 2 operation(s) for webhooks.
   name: Fixie webhooks API
   slug: fixie-webhooks-api
-artifact_total: 19
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Fixie Webhooks
   slug: fixie-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/fixie-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/fixie-ultravox-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -182,6 +190,10 @@ created: '2026-07-17'
 description: Fixie is the company behind Ultravox Realtime, a speech-native voice AI platform for building natural, low-latency conversational voice agents. Rather than transcribing speech to text first, Ultravox processes audio directly to preserve tone, cadence, and pitch while cutting latency. The Ultravox Realtime REST API (api.ultravox.ai) lets developers create reusable agents, start and manage calls, define custom and built-in tools, clone and manage voices, build RAG corpora, wire telephony (Twilio, Telnyx, Plivo, SIP), and subscribe to call-lifecycle webhooks. Client SDKs ship for JavaScript, Python, Flutter/Dart, React Native, Kotlin/Android, and Swift/iOS. Fixie was backed by Redpoint Ventures; fixie.ai now redirects to ultravox.ai and its open models are published under the fixie-ai organization on Hugging Face.
 image: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/openapi/fixie-ultravox-openapi-original.yml
 layout: provider
+mcp_servers:
+- description: ''
+  name: fixie-mcp.yml
+  slug: fixie-mcpyml
 modified: '2026-07-19'
 name: Fixie
 nav: Providers
@@ -192,17 +204,17 @@ overview: 'Fixie publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
   The Fixie catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Fixie''s developer surface includes changelog, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 16 more developer resources.'
+  Fixie''s developer surface includes changelog, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 18 more developer resources.'
 random_paper: 69
 score:
   band: developing
-  composite: 52.3
-  delta: 0.0
+  composite: 51.1
+  delta: -1.2
   facets:
     commercial_clarity: 52.6
-    contract_quality: 57.7
-    developer_ergonomics: 49.5
-    discoverability: 92.6
+    contract_quality: 55.5
+    developer_ergonomics: 51.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 52.6
   previous_composite: 52.3
@@ -216,8 +228,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/screenshots/fixie-2026-07-25T214652.png
 security:

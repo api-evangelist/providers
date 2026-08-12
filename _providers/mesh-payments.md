@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 45.0
-  scored_at: '2026-08-10'
+  score: 41.4
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: RESTful API for the Mesh spend management platform. Documented capabilities include connectivity verification, virtual card lifecycle management (issuance, suspension, cancellation), merchant and cate
@@ -176,8 +176,8 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials/deviceCode
 score:
   band: developing
-  composite: 54.3
-  delta: 0.0
+  composite: 52.5
+  delta: -1.8
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -194,9 +194,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 84.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 71.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mesh-payments/refs/heads/main/screenshots/mesh-payments-2026-08-07T172624.png
 security:

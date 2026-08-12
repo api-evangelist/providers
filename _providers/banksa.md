@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -185,13 +185,13 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: thin
-  composite: 41.2
-  delta: 0.0
+  composite: 37.2
+  delta: -4.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 54.3
+    contract_quality: 52.2
     developer_ergonomics: 34.2
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 18.4
   previous_composite: 41.2
@@ -210,9 +210,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 73.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 55.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/screenshots/banksa-2026-07-21T114709.png
 security:

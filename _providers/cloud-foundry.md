@@ -19,7 +19,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: true
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.9
-  scored_at: '2026-08-10'
+  score: 27.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -157,7 +157,7 @@ modified: '2026-04-23'
 name: Cloud Foundry
 nav: Providers
 network: true
-overview: 'Cloud Foundry publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Loggregator, Apps API, Builds API, and 6 more. Tagged areas include Cloud Foundry Foundation, Containers, Multi-Cloud, Open Source, and PaaS.
+overview: 'Cloud Foundry publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Builds API, Cloud Foundry Cloud Controller API V3 API, and 5 more. Tagged areas include Cloud Foundry Foundation, Containers, Multi-Cloud, Open Source, and PaaS.
 
 
   The Cloud Foundry catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -176,11 +176,11 @@ rules:
   slug: cloud-foundry-rules
 score:
   band: thin
-  composite: 34.5
-  delta: 0.0
+  composite: 31.7
+  delta: -2.8
   facets:
     commercial_clarity: 10.5
-    contract_quality: 67.2
+    contract_quality: 55.8
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 27.1
@@ -193,8 +193,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/screenshots/cloud-foundry-2026-06-20T174548.png
 security:

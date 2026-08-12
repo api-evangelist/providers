@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The Neptune REST API backs the Neptune Python client. It exposes runs, projects, fields, and metadata logging. Authentication uses an API token from the user profile.
@@ -39,6 +39,26 @@ apis:
   slug: neptune-scale-api
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/neptune-ai/neptune-client/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/neptune-ai/neptune-client/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/neptune-ai/neptune-client/blob/master/.github/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/neptune-ai/neptune-client/blob/master/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/neptune-ai/neptune-client/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -95,18 +115,18 @@ rate_limits:
   slug: neptune-ai-rate-limits
 score:
   band: emerging
-  composite: 15.4
-  delta: 0.0
+  composite: 13.6
+  delta: -1.8
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 31.6
   previous_composite: 15.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neptune-ai/refs/heads/main/screenshots/neptune-ai-2026-06-20T190137.png
 security:

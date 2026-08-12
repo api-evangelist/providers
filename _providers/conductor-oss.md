@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -58,6 +58,14 @@ collections:
   name: Conductor OSS REST API
   slug: open-conductor-oss
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/conductor-oss/conductor-mcp/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/conductor-oss/conductor-mcp/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -203,19 +211,19 @@ network: true
 overview: 'Conductor OSS publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Events API, Metadata API, Tasks API, and 1 more. Tagged areas include Agentic AI, Durable Execution, Event-Driven, Microservices, and Netflix.
 
 
-  Conductor OSS''s developer surface includes documentation, getting-started guide, GitHub presence, engineering blog, YouTube channel, pricing, developer portal, and 18 more developer resources.'
+  Conductor OSS''s developer surface includes documentation, getting-started guide, GitHub presence, engineering blog, YouTube channel, pricing, developer portal, and 20 more developer resources.'
 random_paper: 87
 score:
   band: thin
-  composite: 32.9
-  delta: 0.0
+  composite: 37.9
+  delta: 5.0
   facets:
-    commercial_clarity: 10.5
-    contract_quality: 52.7
-    developer_ergonomics: 52.2
+    commercial_clarity: 23.7
+    contract_quality: 50.7
+    developer_ergonomics: 56.5
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 32.9
   provenance:
     agentic_access: derived
@@ -224,9 +232,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/conductor-oss/refs/heads/main/screenshots/conductor-oss-2026-06-20T174846.png
 security:
 - kind: domain-security

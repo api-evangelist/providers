@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-08-10'
+  score: 34.0
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: The Shopify Storefront GraphQL API served from the Bulletproof store host. Anonymous introspection succeeded on 2026-08-08 (424 types, QueryRoot + Mutation), and anonymous queries against shop, produc
@@ -157,16 +157,29 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 35.6
+  composite: 36.4
+  delta: 0.8
   facets:
     commercial_clarity: 34.2
     contract_quality: 43.2
-    developer_ergonomics: 32.6
+    developer_ergonomics: 27.7
     discoverability: 92.6
-    governance: 12.5
+    governance: 3.1
     operational_transparency: 5.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 35.6
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 52.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Bulletproof Authentication

@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 31.1
-  scored_at: '2026-08-10'
+  score: 27.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -232,15 +232,15 @@ scopes:
   slug: meditech-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: developing
-  composite: 44.5
-  delta: 0.0
+  band: thin
+  composite: 40.6
+  delta: -3.9
   facets:
     commercial_clarity: 23.7
-    contract_quality: 31.4
+    contract_quality: 30.3
     developer_ergonomics: 56.5
-    discoverability: 85.2
-    governance: 70.8
+    discoverability: 74.1
+    governance: 58.3
     operational_transparency: 0.0
   previous_composite: 44.5
   provenance:
@@ -256,9 +256,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 65.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 55.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/screenshots/meditech-2026-06-20T185121.png
 security:

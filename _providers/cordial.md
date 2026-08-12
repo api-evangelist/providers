@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 49.1
-  scored_at: '2026-08-10'
+  score: 45.5
+  scored_at: '2026-08-11'
 api_count: 25
 apis:
 - description: 'Cordial''s hosted Model Context Protocol server, which gives any MCP client secure read access to a Cordial account: audiences, messages, analytics, content, orchestrations, sculpt blocks and templates'
@@ -102,6 +102,10 @@ asyncapis:
   name: Cordial Webhooks
   slug: cordial-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cordial-v1-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -269,7 +273,7 @@ overview: 'Cordial publishes 24 APIs on the [APIs.io](https://apis.io/) network,
   The Cordial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cordial''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 30 more developer resources.'
+  Cordial''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 31 more developer resources.'
 random_paper: 38
 rate_limits:
 - limit_count: 1
@@ -282,23 +286,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.8
-  delta: 0.1
+  composite: 60.4
+  delta: -0.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 60.8
+    contract_quality: 58.5
     developer_ergonomics: 78.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 65.8
-  previous_composite: 60.7
+  previous_composite: 60.8
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 24
     mcp: first-party
     skills: first-party
   regulatory:
@@ -307,8 +311,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/screenshots/cordial-2026-08-07T163810.png
 security:

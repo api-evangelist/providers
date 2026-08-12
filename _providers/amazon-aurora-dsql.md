@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +22,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-10'
+  score: 47.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,8 +45,16 @@ apis:
 - description: Operations for managing multi-region cluster configurations
   name: Amazon Aurora DSQL Multi-Region Clusters API
   slug: amazon-aurora-dsql-multi-region-clusters-api
-artifact_total: 92
+artifact_total: 93
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/amazon-aurora-dsql-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-aurora-dsql-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -275,6 +284,10 @@ jsonld:
   property_count: 0
   slug: amazon-aurora-dsql-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: amazon-aurora-dsql-mcp.yml
+  slug: amazon-aurora-dsql-mcpyml
 modified: '2026-06-20'
 name: Amazon Aurora DSQL
 nav: Providers
@@ -285,7 +298,7 @@ overview: 'Amazon Aurora DSQL publishes 2 APIs on the [APIs.io](https://apis.io/
   The Amazon Aurora DSQL catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Aurora DSQL''s developer surface includes authentication and 5 more developer resources.'
+  Amazon Aurora DSQL''s developer surface includes authentication and 7 more developer resources.'
 random_paper: 82
 rules:
 - name: Amazon Aurora DSQL API Rules
@@ -306,12 +319,12 @@ rules:
   slug: amazon-aurora-dsql-spectral-rules
 score:
   band: thin
-  composite: 37.5
-  delta: 0.0
+  composite: 38.6
+  delta: 1.1
   facets:
     commercial_clarity: 0.0
-    contract_quality: 76.7
-    developer_ergonomics: 10.9
+    contract_quality: 73.9
+    developer_ergonomics: 19.6
     discoverability: 77.8
     governance: 69.8
     operational_transparency: 0.0
@@ -325,8 +338,8 @@ score:
       marker_coverage: 0.0
       total: 2
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-aurora-dsql/refs/heads/main/screenshots/amazon-aurora-dsql-2026-07-25T195931.png
 security:

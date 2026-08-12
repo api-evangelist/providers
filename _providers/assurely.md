@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,14 +59,14 @@ overview: Assurely is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 76
 score:
   band: minimal
-  composite: 8.6
-  delta: 0.0
+  composite: 7.4
+  delta: -1.2
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 68.5
-    governance: 3.1
+    discoverability: 57.4
+    governance: 0.0
     operational_transparency: 0.0
   previous_composite: 8.6
   provenance:
@@ -77,8 +77,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

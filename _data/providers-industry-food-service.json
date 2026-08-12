@@ -16,19 +16,19 @@
      "slug": "starbucks",
      "description": "Starbucks provides partner APIs for ordering, loyalty program integration, store locations, and menu data through their developer portal. These APIs enable authorized partners to integrate Starbucks ordering, rewards, and store discovery into their applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/screenshots/starbucks-2026-06-20T194508.png",
-     "score": 49.1,
+     "score": 43.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 72.3,
+      "contract_quality": 69.9,
       "governance": 58.3,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 28.3,
-      "commercial_clarity": 50.0
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -65,19 +65,19 @@
      "slug": "aramark",
      "description": "Aramark is a Fortune 500 company providing food, facilities, and uniform services. The Marko platform provides a data and AI API with 70+ services for real-time insights across organizational, point-of-sale, product, and revenue data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/screenshots/aramark-2026-06-20T172345.png",
-     "score": 36.8,
+     "score": 34.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 25.2,
+      "contract_quality": 24.3,
       "governance": 68.8,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 28.3,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 26.3
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -103,19 +103,19 @@
      "slug": "yum-brands",
      "description": "Yum! Brands is one of the world's largest restaurant companies, with global brands including KFC, Pizza Hut, Taco Bell, and The Habit Burger Grill. The company operates the Byte by Yum! AI-driven technology platform that powers digital ordering, loyalty programs, point-of-sale, kitchen operations, inventory management, and team member tools across over 63,000 restaurants in 155 countries.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/yum-brands/refs/heads/main/screenshots/yum-brands-2026-06-20T201756.png",
-     "score": 34.2,
+     "score": 29.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 61.7,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 10.9,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -144,65 +144,27 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 4,
-   "shown": 4,
+   "count": 2,
+   "shown": 2,
    "providers": [
-    {
-     "name": "Yum China",
-     "slug": "yum-china",
-     "description": "Yum China Holdings is the largest restaurant company in China by system sales, operating KFC, Pizza Hut, Taco Bell, Lavazza, Little Sheep, and Huang Ji Huang restaurants. As the exclusive licensee of Yum! Brands in mainland China, Yum China serves over 16,000 restaurants across China and operates Super App platforms with over 590 million loyalty members.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yum-china/refs/heads/main/screenshots/yum-china-2026-06-20T201757.png",
-     "score": 27.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 17.7,
-      "governance": 10.4,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 4
-    },
     {
      "name": "Chick-fil-A",
      "slug": "chickfila",
      "description": "Chick-fil-A is an American fast-food restaurant chain specializing in chicken sandwiches and operating over 3,000 locations across the United States. Known for customer service and a closed-on-Sunday policy, Chick-fil-A operates the Chick-fil-A One tiered loyalty program, the Chick-fil-A mobile app for ordering and rewards, the catering platform, and eGift Cards.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/screenshots/chickfila-2026-06-20T174304.png",
-     "score": 23.9,
+     "score": 23.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 21.7,
+      "contract_quality": 20.9,
       "governance": 68.8,
       "operational_transparency": 5.3,
       "developer_ergonomics": 2.2,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 28.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -221,64 +183,26 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
+     "rank": 4
     },
     {
-     "name": "Domino's Pizza",
-     "slug": "dominos-pizza",
-     "description": "Domino's Pizza is a major US quick-service restaurant corporation and Fortune 1000 company. Domino's does NOT publish an official public developer API or a developer portal. Its digital ordering surface is delivered through consumer channels - the dominos.com website, the Domino's mobile apps, and the \"AnyWare\" ordering platform (text, voice, smart TV, Amazon Echo, Google Home, and more), including the \"Dom\" virtual voice ordering assistant. The undocumented HTTP endpoints behind these first-party apps have been reverse-engineered by the developer community into well-known UNOFFICIAL wrapper libraries (the npm \"dominos\" / node-dominos-pizza-api package and the Python \"pizzapi\" / \"dominos\" packages). These community libraries are not endorsed, supported, or warranted by Domino's. Domino's does expose APIs to select delivery-marketplace partners (e.g. Uber Eats, Just Eat) through direct partnership and a private Postman workspace, but these are not publicly available. No official API specification, pricing, or rate-limit policy is published.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dominos-pizza/refs/heads/main/screenshots/dominos-pizza-2026-06-20T180143.png",
-     "score": 16.7,
+     "name": "Yum China",
+     "slug": "yum-china",
+     "description": "Yum China Holdings is the largest restaurant company in China by system sales, operating KFC, Pizza Hut, Taco Bell, Lavazza, Little Sheep, and Huang Ji Huang restaurants. As the exclusive licensee of Yum! Brands in mainland China, Yum China serves over 16,000 restaurants across China and operates Super App platforms with over 590 million loyalty members.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yum-china/refs/heads/main/screenshots/yum-china-2026-06-20T201757.png",
+     "score": 19.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 17.4,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 4.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 6
-    },
-    {
-     "name": "McDonald's",
-     "slug": "mcdonalds",
-     "description": "McDonald's is the world's leading global foodservice retailer, operating and franchising fast food restaurants serving hamburgers, chicken, breakfast items, soft drinks, milkshakes, and desserts in countries around the world. McDonald's does not operate a public developer program or publish open API documentation. Its digital surface — the Global Mobile App, MyMcDonald's Rewards loyalty, mobile order & pay, kiosks, and drive-thru personalization — runs on internal platforms, and integrations with delivery marketplaces (DoorDash, Uber Eats, Grubhub) and technology partners (Google Cloud, Dynamic Yield) are bilateral and gated to approved partners and franchisees.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mcdonalds/refs/heads/main/screenshots/mcdonalds-2026-06-20T185057.png",
-     "score": 14.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
+      "discoverability": 68.5,
+      "contract_quality": 17.7,
+      "governance": 10.4,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 2.2,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 26.3
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -297,7 +221,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 5
     }
    ]
   },
@@ -306,15 +230,15 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 9,
-   "shown": 9,
+   "count": 11,
+   "shown": 11,
    "providers": [
     {
      "name": "Subway",
      "slug": "subway",
      "description": "One of the world's largest fast-food restaurant chains specializing in submarine sandwiches and salads. Operates over 36,000 locations in more than 100 countries through its franchise model. Subway has no public developer API or self-service developer portal; ordering, store locator, nutrition, and MyWay/MVP loyalty integrations are handled through internal systems and direct franchise/partner agreements.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/subway/refs/heads/main/screenshots/subway-2026-06-20T194635.png",
-     "score": 9.2,
+     "score": 11.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -323,10 +247,10 @@
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 21.1
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -338,6 +262,82 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 6
+    },
+    {
+     "name": "Domino's Pizza",
+     "slug": "dominos-pizza",
+     "description": "Domino's Pizza is a major US quick-service restaurant corporation and Fortune 1000 company. Domino's does NOT publish an official public developer API or a developer portal. Its digital ordering surface is delivered through consumer channels - the dominos.com website, the Domino's mobile apps, and the \"AnyWare\" ordering platform (text, voice, smart TV, Amazon Echo, Google Home, and more), including the \"Dom\" virtual voice ordering assistant. The undocumented HTTP endpoints behind these first-party apps have been reverse-engineered by the developer community into well-known UNOFFICIAL wrapper libraries (the npm \"dominos\" / node-dominos-pizza-api package and the Python \"pizzapi\" / \"dominos\" packages). These community libraries are not endorsed, supported, or warranted by Domino's. Domino's does expose APIs to select delivery-marketplace partners (e.g. Uber Eats, Just Eat) through direct partnership and a private Postman workspace, but these are not publicly available. No official API specification, pricing, or rate-limit policy is published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dominos-pizza/refs/heads/main/screenshots/dominos-pizza-2026-06-20T180143.png",
+     "score": 11.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 4.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 7
+    },
+    {
+     "name": "McDonald's",
+     "slug": "mcdonalds",
+     "description": "McDonald's is the world's leading global foodservice retailer, operating and franchising fast food restaurants serving hamburgers, chicken, breakfast items, soft drinks, milkshakes, and desserts in countries around the world. McDonald's does not operate a public developer program or publish open API documentation. Its digital surface — the Global Mobile App, MyMcDonald's Rewards loyalty, mobile order & pay, kiosks, and drive-thru personalization — runs on internal platforms, and integrations with delivery marketplaces (DoorDash, Uber Eats, Grubhub) and technology partners (Google Cloud, Dynamic Yield) are bilateral and gated to approved partners and franchisees.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mcdonalds/refs/heads/main/screenshots/mcdonalds-2026-06-20T185057.png",
+     "score": 9.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -363,8 +363,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -401,8 +401,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -439,8 +439,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -476,8 +476,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -514,8 +514,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -552,8 +552,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -590,8 +590,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -628,8 +628,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

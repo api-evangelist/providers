@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +12,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-10'
+  score: 47.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -34,12 +35,16 @@ apis:
 - description: The public, anonymous Atlassian Statuspage v2 API for the Ease platform, hosted at status.ease.com (page id 13zw4w6v89nk) and documented by Ease itself at https://status.ease.com/api. Eight GET endpoi
   name: Ease Status API
   slug: ease-status-api
-artifact_total: 12
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Ease Status Webhooks
   slug: ease-status-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/ease-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -190,6 +195,10 @@ examples:
   slug: ease-status-summary
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: ease-mcp.yml
+  slug: ease-mcpyml
 modified: '2026-07-25'
 name: Ease
 nav: Providers
@@ -200,16 +209,16 @@ overview: 'Ease publishes 2 APIs on the [APIs.io](https://apis.io/) network: Con
   The Ease catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ease''s developer surface includes authentication, code examples, API reference, documentation, engineering blog, support, pricing, and 25 more developer resources.'
+  Ease''s developer surface includes authentication, code examples, API reference, documentation, engineering blog, support, pricing, and 26 more developer resources.'
 random_paper: 66
 score:
   band: developing
-  composite: 42.4
-  delta: 0.0
+  composite: 42.6
+  delta: 0.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 25.0
-    developer_ergonomics: 34.2
+    contract_quality: 24.1
+    developer_ergonomics: 36.4
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 42.1
@@ -230,8 +239,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/screenshots/ease-2026-07-25T212704.png
 security:

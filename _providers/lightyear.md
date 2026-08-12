@@ -21,17 +21,21 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 19.8
+  scored_at: '2026-08-11'
 api_count: 0
-artifact_total: 3
+artifact_total: 4
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/lightyear-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -148,6 +152,10 @@ created: '2026-07-17'
 description: Lightyear is a European retail investing platform founded by former Wise (TransferWise) employees Martin Sokk and Mihkel Aamer, offering commission-light access to roughly 6,000 stocks, ETFs, money market funds, bonds and crypto, plus interest-bearing cash "Vaults" managed with BlackRock and J.P. Morgan money market funds. The service runs through mobile apps (iOS and Android) and a web app, with a separate Lightyear for Business offering. Lightyear UK Ltd is authorised by the UK Financial Conduct Authority (FRN 987226) and Lightyear Europe AS is regulated by the Estonian Financial Supervision Authority, with operations in London and Tallinn. Lightyear does not publish a public developer API or developer portal; its api.lightyear.com host serves the first-party apps and publishes an RFC 8414 OAuth 2.0 authorization server metadata document for an internal MCP scope.
 image: https://lightyear.com/cms/OG_Default_EN_7a4714f5fe.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: lightyear-mcp.yml
+  slug: lightyear-mcpyml
 modified: '2026-07-19'
 name: Lightyear
 nav: Providers
@@ -155,7 +163,7 @@ network: true
 overview: 'Lightyear is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Investing, Brokerage, and Stocks.
 
 
-  Lightyear''s developer surface includes pricing, signup flow, engineering blog, support, authentication, changelog, and 22 more developer resources.'
+  Lightyear''s developer surface includes pricing, signup flow, engineering blog, support, authentication, changelog, and 23 more developer resources.'
 random_paper: 41
 scopes:
 - name: Lightyear Scopes
@@ -164,12 +172,12 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 32.5
-  delta: 0.0
+  composite: 34.0
+  delta: 1.5
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
-    developer_ergonomics: 17.4
+    developer_ergonomics: 26.1
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 31.6
@@ -179,12 +187,12 @@ score:
     mcp: first-party
   regulatory:
     applies: true
-    matched_via: weak_tags
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 66.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-10'
+  score: 41.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,6 +43,10 @@ apis:
   slug: acko-apis-api
 artifact_total: 5
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/acko-apisetu-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -142,17 +146,17 @@ network: true
 overview: 'Acko publishes 1 API on the [APIs.io](https://apis.io/) network: APIs API. Tagged areas include Company, Consumer, Insurance, InsurTech, and Financial Services.
 
 
-  Acko''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 16 more developer resources.'
+  Acko''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 17 more developer resources.'
 random_paper: 66
 score:
   band: thin
-  composite: 39.1
-  delta: 0.0
+  composite: 36.1
+  delta: -3.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 63.6
+    contract_quality: 61.2
     developer_ergonomics: 36.4
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 39.1
@@ -171,9 +175,9 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 48.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 37.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/screenshots/acko-2026-07-25T181503.png
 security:

@@ -18,7 +18,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -26,11 +26,31 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-10'
+  score: 5.4
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 3
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://www.paypal.com/
+- group: design
+  title: ''
+  type: Webhooks
+  url: https://developer.paypal.com/api/rest/webhooks/
+- group: operate
+  title: ''
+  type: DeprecationPolicy
+  url: https://developer.paypal.com/braintree/docs/guides/client-sdk/deprecation-policy/
+- group: build
+  title: ''
+  type: SDKs
+  url: https://developer.paypal.com/sdk/ios/
+- group: start
+  title: ''
+  type: Signup
+  url: https://account.venmo.com/signup
 - group: company
   title: ''
   type: Website
@@ -94,19 +114,19 @@ network: true
 overview: 'Venmo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Payments, Fintech, and Mobile Payments.
 
 
-  Venmo''s developer surface includes documentation, API reference, and 11 more developer resources.'
+  Venmo''s developer surface includes signup flow, documentation, API reference, and 15 more developer resources.'
 random_paper: 85
 score:
-  band: emerging
-  composite: 25.7
-  delta: 0.0
+  band: thin
+  composite: 30.5
+  delta: 4.8
   facets:
-    commercial_clarity: 36.8
+    commercial_clarity: 50.0
     contract_quality: 0.0
-    developer_ergonomics: 28.3
-    discoverability: 61.1
+    developer_ergonomics: 34.8
+    discoverability: 57.4
     governance: 12.5
-    operational_transparency: 10.5
+    operational_transparency: 26.3
   previous_composite: 25.7
   provenance:
     conformance: first-party
@@ -116,8 +136,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-10'
+  score: 30.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -74,8 +74,16 @@ apis:
 - description: User API
   name: PRIMIS User API
   slug: primis-user-api
-artifact_total: 15
+artifact_total: 16
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/primis-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/primis-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -132,6 +140,10 @@ created: '2026-07-17'
 description: Primis (Primis CX) is a post-purchase customer experience platform for eCommerce retailers, headquartered in the UK and backed by 500 Global. Its products — Primis Track (branded order tracking), Primis Ship (discounted multi-carrier shipping), Primis Returns (label-less returns processing), and Primis International (cross-border logistics across 120+ carriers) — reduce "where is my order?" support volume and drive repeat purchases. Primis exposes a REST API (OpenAPI 3.0.0, 42 operations) over HTTPS with bearer-token authentication, covering retailers, orders, shipments, products, campaigns, billing, users, tracking pages, FAQs, and documents, and integrates with Shopify, BigCommerce, Adobe Commerce/Magento, WooCommerce, and carriers such as DPD, DHL, USPS, Evri, UPS, and FedEx.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/primis.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: primis-mcp.yml
+  slug: primis-mcpyml
 modified: '2026-07-20'
 name: PRIMIS
 nav: Providers
@@ -139,7 +151,7 @@ network: true
 overview: 'PRIMIS publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Billing API, Campaign API, and 9 more. Tagged areas include Company, eCommerce, Logistics, Shipping, and Returns.
 
 
-  PRIMIS''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, and 7 more developer resources.'
+  PRIMIS''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, and 9 more developer resources.'
 random_paper: 80
 score:
   band: thin
@@ -147,8 +159,8 @@ score:
   delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 47.5
-    developer_ergonomics: 39.1
+    contract_quality: 45.7
+    developer_ergonomics: 41.3
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
@@ -162,8 +174,8 @@ score:
       marker_coverage: 0.0
       total: 12
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

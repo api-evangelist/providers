@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -612,16 +612,16 @@ scopes:
   slug: salesforce-marketing-cloud-scopes
   summary_line: 42 scopes · clientCredentials
 score:
-  band: strong
-  composite: 59.5
-  delta: 0.0
+  band: developing
+  composite: 53.7
+  delta: -5.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 68.4
+    commercial_clarity: 34.2
+    contract_quality: 66.1
     developer_ergonomics: 52.2
     discoverability: 81.5
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 36.8
   previous_composite: 59.5
   provenance:
     agentic_access: derived
@@ -630,9 +630,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/screenshots/salesforce-marketing-cloud-2026-06-20T193349.png
 security:
 - kind: authentication

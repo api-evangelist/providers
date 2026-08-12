@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -21,14 +22,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-10'
+  score: 55.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -50,8 +51,16 @@ apis:
 - description: AI agent skills (SKILL.md) discovered and scanned by AgentMesh
   name: Knostic skills API
   slug: knostic-skills-api
-artifact_total: 12
+artifact_total: 13
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/knostic-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/knostic-agentmesh-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -182,6 +191,10 @@ examples:
   slug: knostic-list-skills-response
 image: https://www.knostic.ai/og-image.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: knostic-mcp.yml
+  slug: knostic-mcpyml
 modified: '2026-07-19'
 name: Knostic
 nav: Providers
@@ -189,7 +202,7 @@ network: true
 overview: 'Knostic publishes 4 APIs on the [APIs.io](https://apis.io/) network, including extensions API, mcp API, scans API, and 1 more. Tagged areas include Company, Security, Artificial Intelligence, AI Agents, and Agent Security.
 
 
-  Knostic''s developer surface includes documentation, API reference, support, engineering blog, authentication, changelog, CLI, and 22 more developer resources.'
+  Knostic''s developer surface includes documentation, API reference, support, engineering blog, authentication, changelog, CLI, and 24 more developer resources.'
 random_paper: 67
 rate_limits:
 - limit_count: 3
@@ -197,12 +210,12 @@ rate_limits:
   slug: knostic-rate-limits
 score:
   band: strong
-  composite: 58.1
-  delta: 0.0
+  composite: 57.9
+  delta: -0.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 68.2
-    developer_ergonomics: 60.9
+    contract_quality: 65.7
+    developer_ergonomics: 63.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 63.2
@@ -217,8 +230,8 @@ score:
       total: 4
     mcp: derived
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/screenshots/knostic-2026-07-25T224003.png
 security:

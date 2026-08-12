@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 3
@@ -72,6 +72,14 @@ collections:
   name: ClearML REST API
   slug: open-clearml
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/clearml/clearml-server/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/clearml/clearml-server/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -143,7 +151,7 @@ network: true
 overview: 'ClearML publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Debug API, Events API, and 5 more. Tagged areas include ML, MLOps, Open Source, Experiment Tracking, and Orchestration.
 
 
-  ClearML''s developer surface includes authentication, developer portal, pricing, engineering blog, and 10 more developer resources.'
+  ClearML''s developer surface includes authentication, developer portal, pricing, engineering blog, and 12 more developer resources.'
 plans:
 - name: Clearml Plans Pricing
   plan_count: 1
@@ -155,13 +163,13 @@ rate_limits:
   slug: clearml-rate-limits
 score:
   band: thin
-  composite: 36.7
-  delta: 0.0
+  composite: 33.8
+  delta: -2.9
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 57.4
+    commercial_clarity: 23.7
+    contract_quality: 55.2
     developer_ergonomics: 21.7
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 36.7
@@ -172,8 +180,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/screenshots/clearml-2026-06-20T174458.png
 security:

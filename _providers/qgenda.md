@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-10'
+  score: 32.7
+  scored_at: '2026-08-11'
 api_count: 27
 apis:
 - description: The Company API from QGenda — 1 operation(s) for company.
@@ -114,6 +114,10 @@ apis:
   slug: qgenda-workflows-api
 artifact_total: 31
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/qgenda-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -237,17 +241,17 @@ network: true
 overview: 'QGenda publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Company API, Contacts API, Corporate Entities API, and 24 more. Tagged areas include Company, Healthcare, Scheduling, Workforce Management, and Physician Scheduling.
 
 
-  QGenda''s developer surface includes documentation, API reference, authentication, support, engineering blog, signup flow, and 21 more developer resources.'
+  QGenda''s developer surface includes documentation, API reference, authentication, support, engineering blog, signup flow, and 22 more developer resources.'
 random_paper: 44
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 48.1
+  delta: -1.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.1
+    contract_quality: 62.7
     developer_ergonomics: 49.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 28.9
   previous_composite: 49.6
@@ -266,8 +270,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

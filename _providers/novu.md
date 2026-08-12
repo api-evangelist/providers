@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 92
@@ -146,6 +147,10 @@ collections:
   name: Novu API
   slug: open-novu
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/novuhq/novu-mcp-server/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -626,7 +631,7 @@ overview: 'Novu publishes 17 APIs on the [APIs.io](https://apis.io/) network, in
   The Novu catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Novu''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, GitHub presence, and 51 more developer resources.'
+  Novu''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, GitHub presence, and 52 more developer resources.'
 plans:
 - name: Novu Plans Pricing
   plan_count: 4
@@ -667,9 +672,9 @@ score:
   delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 87.9
+    contract_quality: 85.1
     developer_ergonomics: 52.2
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 58.3
     operational_transparency: 68.4
   previous_composite: 66.4
@@ -686,8 +691,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/screenshots/novu-2026-06-20T190442.png
 security:

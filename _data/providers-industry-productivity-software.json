@@ -8,28 +8,28 @@
    "label": "Exemplar",
    "range": "66+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 7,
-   "shown": 7,
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
      "name": "Notion",
      "slug": "notion",
      "description": "Notion is an all-in-one workspace that combines notes, tasks, wikis, and databases. The Notion API allows developers to integrate Notion with other tools and build custom applications on top of Notion's platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/screenshots/notion-2026-06-20T190428.png",
-     "score": 79.1,
+     "score": 70.6,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 77.8,
-      "contract_quality": 87.2,
+      "contract_quality": 84.3,
       "governance": 53.1,
-      "operational_transparency": 86.8,
+      "operational_transparency": 63.2,
       "developer_ergonomics": 80.4,
-      "commercial_clarity": 78.9
+      "commercial_clarity": 55.3
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 57.4,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 53.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -42,7 +42,7 @@
       "rate_limit_signal": "verified",
       "event_surface_described": "derived",
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
@@ -54,19 +54,19 @@
      "slug": "asana",
      "description": "Asana is a web and mobile application designed to help teams organize, track, and manage their work. The Asana API allows developers to programmatically access and integrate Asana's project management capabilities into their applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/screenshots/asana-2026-06-20T172555.png",
-     "score": 77.1,
+     "score": 69.8,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 86.5,
+      "discoverability": 66.7,
+      "contract_quality": 85.6,
       "governance": 52.1,
-      "operational_transparency": 94.7,
+      "operational_transparency": 71.1,
       "developer_ergonomics": 63.0,
-      "commercial_clarity": 92.1
+      "commercial_clarity": 68.4
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 41.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -92,20 +92,20 @@
      "slug": "postman",
      "description": "Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows, AI Agent Builder, the Postman MCP Server and MCP Generator, API Governance, the Private API Network, Live Collections, Insights, and a public Postman API Network with millions of public workspaces.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/screenshots/postman-2026-06-20T192015.png",
-     "score": 75.8,
+     "score": 69.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 73.0,
+      "discoverability": 83.3,
+      "contract_quality": 70.6,
       "governance": 47.9,
-      "operational_transparency": 78.9,
-      "developer_ergonomics": 69.6,
-      "commercial_clarity": 100.0
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 76.1,
+      "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 53.6,
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 58.1,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -117,7 +117,7 @@
       "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": "derived",
-      "agent_skills": false,
+      "agent_skills": true,
       "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
@@ -130,19 +130,19 @@
      "slug": "airtable",
      "description": "Airtable is a cloud-based collaboration service that combines the simplicity of a spreadsheet with the complexity of a database. It provides APIs for managing bases, tables, records, and more.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/screenshots/airtable-2026-06-20T171430.png",
-     "score": 70.9,
+     "score": 66.3,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 87.2,
+      "contract_quality": 84.3,
       "governance": 58.3,
-      "operational_transparency": 68.4,
-      "developer_ergonomics": 65.2,
-      "commercial_clarity": 71.1
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 71.7,
+      "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 50.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -162,32 +162,36 @@
       "dry_run_mode": false
      },
      "rank": 4
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "strong",
+   "label": "Strong",
+   "range": "56 – 65.9",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 3,
+   "shown": 3,
+   "providers": [
     {
      "name": "Slack",
      "slug": "slack",
      "description": "Slack is a cloud-based team collaboration platform that provides chat, file sharing, and integrations with other tools and services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/screenshots/slack-2026-06-20T165933.png",
-     "score": 70.6,
-     "band": "exemplar",
-     "band_label": "Exemplar",
+     "score": 65.1,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 74.0,
+      "discoverability": 66.7,
+      "contract_quality": 71.6,
       "governance": 31.3,
-      "operational_transparency": 86.8,
+      "operational_transparency": 63.2,
       "developer_ergonomics": 84.8,
-      "commercial_clarity": 68.4
+      "commercial_clarity": 57.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 73.6,
-      "matched_via": "tags"
-     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 49.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -209,61 +213,23 @@
      "rank": 5
     },
     {
-     "name": "Adobe",
-     "slug": "adobe",
-     "description": "Adobe provides APIs and developer resources for its creative, document, and experience cloud platforms. Developers can integrate with PDF services, Creative Cloud, generative AI (Firefly), analytics, e-commerce, e-signatures, and many other Adobe products and services.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png",
-     "score": 69.4,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 81.3,
-      "governance": 68.8,
-      "operational_transparency": 57.9,
-      "developer_ergonomics": 63.0,
-      "commercial_clarity": 73.7
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 47.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 6
-    },
-    {
      "name": "Atlassian",
      "slug": "atlassian",
      "description": "Atlassian is a software company that develops collaboration, productivity, and project management tools to help teams work more efficiently. Its products are designed to enhance teamwork, streamline workflows, and support project tracking across a wide range of industries.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/screenshots/atlassian-2026-06-20T172524.png",
-     "score": 69.4,
-     "band": "exemplar",
-     "band_label": "Exemplar",
+     "score": 62.7,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 79.8,
+      "contract_quality": 79.1,
       "governance": 68.8,
-      "operational_transparency": 78.9,
-      "developer_ergonomics": 56.5,
-      "commercial_clarity": 68.4
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 63.0,
+      "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 59.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -282,37 +248,75 @@
       "agent_card": false,
       "dry_run_mode": true
      },
+     "rank": 6
+    },
+    {
+     "name": "Adobe",
+     "slug": "adobe",
+     "description": "Adobe provides APIs and developer resources for its creative, document, and experience cloud platforms. Developers can integrate with PDF services, Creative Cloud, generative AI (Firefly), analytics, e-commerce, e-signatures, and many other Adobe products and services.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png",
+     "score": 61.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 78.3,
+      "governance": 68.8,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 63.0,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 47.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 7
     }
    ],
    "open": true
   },
   {
-   "band": "strong",
-   "label": "Strong",
-   "range": "56 – 65.9",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 1,
-   "shown": 1,
+   "band": "developing",
+   "label": "Developing",
+   "range": "42 – 55.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Microsoft",
      "slug": "microsoft",
      "description": "Collection of Microsoft's primary APIs and developer resources.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/screenshots/microsoft-2026-06-20T185341.png",
-     "score": 59.1,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 55.2,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 57.4,
-      "contract_quality": 75.5,
+      "contract_quality": 76.3,
       "governance": 58.3,
-      "operational_transparency": 42.1,
+      "operational_transparency": 26.3,
       "developer_ergonomics": 39.1,
-      "commercial_clarity": 71.1
+      "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -332,36 +336,25 @@
       "dry_run_mode": false
      },
      "rank": 8
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "developing",
-   "label": "Developing",
-   "range": "42 – 55.9",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 6,
-   "shown": 6,
-   "providers": [
+    },
     {
      "name": "Calendly",
      "slug": "calendly",
      "description": "Calendly is a scheduling automation platform that helps individuals, teams, and organizations automate the meeting lifecycle by removing the back-and-forth of scheduling. Their developer platform provides APIs for programmatically managing scheduling workflows, receiving real-time event notifications via webhooks, and embedding scheduling interfaces directly into third-party applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/screenshots/calendly-2026-06-20T173843.png",
-     "score": 55.8,
+     "score": 49.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 76.4,
+      "discoverability": 81.5,
+      "contract_quality": 73.9,
       "governance": 41.7,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 30.4,
-      "commercial_clarity": 73.7
+      "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 32.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -387,19 +380,19 @@
      "slug": "coda",
      "description": "Coda is an all-in-one doc platform combining documents, spreadsheets, and apps. The Coda API exposes docs, pages, tables, rows, columns, controls, formulas, automations, packs, permissions, and analytics for programmatic integration.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/screenshots/coda-2026-06-20T174651.png",
-     "score": 51.4,
+     "score": 43.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 73.3,
+      "contract_quality": 70.6,
       "governance": 41.7,
-      "operational_transparency": 36.8,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 21.7,
-      "commercial_clarity": 57.9
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 35.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -419,25 +412,35 @@
       "dry_run_mode": false
      },
      "rank": 10
-    },
+    }
+   ]
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "28 – 41.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 5,
+   "shown": 5,
+   "providers": [
     {
      "name": "Clickup",
      "slug": "clickup",
      "description": "Work with tasks using the ClickUp API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/screenshots/clickup-2026-06-20T174517.png",
-     "score": 47.0,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 39.3,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 80.4,
+      "discoverability": 57.4,
+      "contract_quality": 77.8,
       "governance": 41.7,
-      "operational_transparency": 36.8,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 13.0,
-      "commercial_clarity": 47.4
+      "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 32.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -463,19 +466,19 @@
      "slug": "monday-com",
      "description": "An expressive API to interact with your workflows, automate processes, power integrations, and more!",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/screenshots/monday-com-2026-06-20T185722.png",
-     "score": 46.0,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 38.3,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 73.6,
+      "discoverability": 57.4,
+      "contract_quality": 71.2,
       "governance": 47.9,
-      "operational_transparency": 36.8,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 13.0,
-      "commercial_clarity": 47.4
+      "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 38.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -501,19 +504,19 @@
      "slug": "clarivate",
      "description": "Clarivate is a global information services company providing data, insights, and analytics across academia, government, life sciences, healthcare, and intellectual property. Clarivate exposes a unified developer portal at developer.clarivate.com that catalogs APIs across its product families: Web of Science for publication and citation data, Derwent for patent data, Cortellis for life sciences and drug pipeline intelligence, and supporting tools such as InCites and ScholarOne. APIs are subscription-based and authenticated with per-API keys issued through the developer portal after subscription approval.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/screenshots/clarivate-2026-06-20T174437.png",
-     "score": 44.6,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 37.5,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 63.6,
+      "contract_quality": 61.2,
       "governance": 20.8,
-      "operational_transparency": 36.8,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 26.1,
-      "commercial_clarity": 60.5
+      "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -546,19 +549,19 @@
      "slug": "elsevier",
      "description": "Elsevier is a Dutch academic publishing company specializing in scientific, technical, and medical content. Its products include journals such as The Lancet and Cell, the ScienceDirect collection of electronic journals, the online citation database Scopus, the SciVal research performance platform, and the ClinicalKey search engine for clinicians.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/screenshots/elsevier-2026-06-20T180616.png",
-     "score": 44.6,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 37.5,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 59.7,
+      "contract_quality": 57.5,
       "governance": 0.0,
-      "operational_transparency": 31.6,
+      "operational_transparency": 7.9,
       "developer_ergonomics": 52.2,
-      "commercial_clarity": 60.5
+      "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -585,35 +588,25 @@
       "dry_run_mode": false
      },
      "rank": 14
-    }
-   ]
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "28 – 41.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
+    },
     {
      "name": "Loom",
      "slug": "loom",
      "description": "Loom is an async video messaging platform (now part of Atlassian) used by teams to record screen, voice, and camera. The Loom developer platform exposes the recordSDK and embedSDK for embedding recording and playback into other apps, plus SCIM provisioning and SSO/admin APIs available on Business and Enterprise plans.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/loom/refs/heads/main/screenshots/loom-2026-06-20T184719.png",
-     "score": 36.8,
+     "score": 28.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 43.2,
       "governance": 0.0,
-      "operational_transparency": 36.8,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 10.9,
-      "commercial_clarity": 57.9
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -649,19 +642,19 @@
      "slug": "thomson-reuters",
      "description": "Thomson Reuters provides over 137 APIs across legal, tax and accounting, risk and fraud, and trade and supply industries through their global developer portal. APIs cover Westlaw legal research, Checkpoint tax content, ONESOURCE tax software, HighQ document management, Legal Tracker matter management, and risk and fraud solutions including identity verification and adverse media screening.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/thomson-reuters/refs/heads/main/screenshots/thomson-reuters-2026-06-20T195310.png",
-     "score": 26.3,
+     "score": 19.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 64.8,
+      "discoverability": 72.2,
       "contract_quality": 12.9,
       "governance": 0.0,
-      "operational_transparency": 36.8,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 19.6,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -698,8 +691,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 16.2,
      "agent_band": "agent-aware",
      "agent_dims": {

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -92,6 +93,10 @@ asyncapis:
   name: Ntropy Webhooks
   slug: ntropy-webhooks-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ntropy-api-v3-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -156,10 +161,6 @@ common:
   title: ''
   type: WellKnown
   url: well-known/ntropy-well-known.yml
-- group: other
-  title: ''
-  type: APICatalog
-  url: well-known/ntropy-api-catalog.json
 - group: auth
   title: ''
   type: Authentication
@@ -238,11 +239,11 @@ rate_limits:
   slug: ntropy-rate-limits
 score:
   band: developing
-  composite: 53.6
-  delta: 0.0
+  composite: 53.0
+  delta: -0.6
   facets:
     commercial_clarity: 34.2
-    contract_quality: 68.7
+    contract_quality: 66.1
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
@@ -264,8 +265,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/screenshots/ntropy-2026-08-07T185714.png
 security:

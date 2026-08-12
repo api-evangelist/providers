@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-08-10'
+  score: 35.6
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: 'ONC Certified FHIR R4 (v4.0.1) API implementing US Core 6.1.0, SMART App Launch 2.0.0, and Bulk Data Access 1.0.1. Provides read and search access across 47 FHIR resource types (Patient, Observation, '
@@ -166,13 +166,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.5
-  delta: 0.0
+  composite: 46.6
+  delta: -0.9
   facets:
     commercial_clarity: 52.6
     contract_quality: 40.0
     developer_ergonomics: 54.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 12.5
     operational_transparency: 15.8
   previous_composite: 47.5
@@ -185,8 +185,8 @@ score:
     regime: Health
     regime_id: health
     score: 66.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

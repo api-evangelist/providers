@@ -1,0 +1,35 @@
+# Backstop for the pre-commit hook in .githooks/.
+#
+# The hook is the real guard — it stops a bad file before it is ever committed —
+# but it is wired up through core.hooksPath, which lives in .git/config and does
+# NOT survive a fresh clone. This job catches the case where the hook was never
+# enabled, was bypassed with --no-verify, or the commit came from somewhere else.
+#
+# It reports in about a minute. The Pages build takes ~25, so this tells you the
+# site is broken long before the deploy does.
+name: Validate data files
+
+on:
+  push:
+    paths:
+      - '_data/**'
+      - '_config.yml'
+      - 'scripts/check-data.rb'
+      - '.github/workflows/validate-data.yml'
+  pull_request:
+    paths:
+      - '_data/**'
+      - '_config.yml'
+  workflow_dispatch:
+
+jobs:
+  psych-parse:
+    name: Parse _data the way GitHub Pages will
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Parse every data file with Psych
+        run: ruby scripts/check-data.rb

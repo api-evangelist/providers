@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 39.6
-  scored_at: '2026-08-10'
+  score: 36.0
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The Binance.US REST API is the primary programmatic interface to the exchange. It exposes general system and exchange information, market and trade data (recent/aggregate/historical trades, order book
@@ -203,8 +203,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/screenshots/binance.us-2026-08-07T162440.png
 security:

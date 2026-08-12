@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: Core Hibernate ORM framework for object-relational mapping.
@@ -45,6 +45,18 @@ apis:
   slug: hibernate-reactive-api
 artifact_total: 8
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/hibernate/hibernate-orm/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/hibernate/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/hibernate/hibernate-orm/blob/main/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -101,19 +113,19 @@ rate_limits:
   slug: hibernate-rate-limits
 score:
   band: emerging
-  composite: 20.1
-  delta: 0.0
+  composite: 14.3
+  delta: -5.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 4.3
     discoverability: 72.2
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 23.7
   previous_composite: 20.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/hibernate/refs/heads/main/screenshots/hibernate-2026-06-20T182721.png
 security:
 - kind: domain-security

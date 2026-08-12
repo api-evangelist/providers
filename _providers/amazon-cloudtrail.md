@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.8
-  scored_at: '2026-08-10'
+  score: 39.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -48,6 +48,10 @@ apis:
   slug: amazon-cloudtrail-trails-api
 artifact_total: 50
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-cloudtrail-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -291,7 +295,7 @@ overview: 'Amazon CloudTrail publishes 3 APIs on the [APIs.io](https://apis.io/)
   The Amazon CloudTrail catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CloudTrail''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 23 more developer resources.'
+  Amazon CloudTrail''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 24 more developer resources.'
 random_paper: 26
 rules:
 - name: Amazon CloudTrail API Rules
@@ -312,11 +316,11 @@ rules:
   slug: amazon-cloudtrail-spectral-rules
 score:
   band: strong
-  composite: 58.4
-  delta: 0.0
+  composite: 57.7
+  delta: -0.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 76.0
+    contract_quality: 73.1
     developer_ergonomics: 39.1
     discoverability: 92.6
     governance: 80.2
@@ -331,8 +335,8 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/screenshots/amazon-cloudtrail-2026-07-25T195952.png
 security:

@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 6.3
-  scored_at: '2026-08-10'
+  score: 2.7
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -121,20 +121,20 @@ overview: 'Bellwether Coffee is profiled on the [APIs.io](https://apis.io/) netw
 random_paper: 107
 score:
   band: emerging
-  composite: 19.3
-  delta: 0.0
+  composite: 18.2
+  delta: -1.1
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 12.5
     operational_transparency: 5.3
   previous_composite: 19.3
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bellwether-coffee/refs/heads/main/screenshots/bellwether-coffee-2026-08-07T162304.png
 security:

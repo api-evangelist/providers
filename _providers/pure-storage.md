@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 756
   human_in_the_loop: 18
@@ -950,13 +950,13 @@ rules:
   slug: pure-storage-rules
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 48.1
+  delta: -1.5
   facets:
     commercial_clarity: 28.9
-    contract_quality: 61.4
+    contract_quality: 59.1
     developer_ergonomics: 54.3
-    discoverability: 59.3
+    discoverability: 50.0
     governance: 68.8
     operational_transparency: 26.3
   previous_composite: 49.6
@@ -967,8 +967,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 129
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pure-storage/refs/heads/main/screenshots/pure-storage-2026-06-20T192313.png
 security:

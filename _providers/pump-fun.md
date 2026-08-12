@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The deployed Solana program that implements Pump.fun's token factory and bonding-curve market. Integrators interact directly via Solana RPC and Anchor-style instructions to create tokens, buy and sell
@@ -39,6 +39,10 @@ apis:
   slug: pump-fun-sdk
 artifact_total: 8
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/rckprtr/pumpdotfun-sdk/blob/main/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -97,8 +101,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 15.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pump-fun/refs/heads/main/screenshots/pump-fun-2026-06-20T192311.png
 security:

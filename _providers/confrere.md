@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,6 +53,10 @@ arazzos:
   slug: confrere-video-session
 artifact_total: 8
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/confrere-video-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -164,17 +168,17 @@ network: true
 overview: 'Confrere publishes 2 APIs on the [APIs.io](https://apis.io/) network: Room API and Token API. Tagged areas include Company, Video, Video Conferencing, Communications, and Healthcare.
 
 
-  Confrere''s developer surface includes documentation, API reference, pricing, signup flow, support, engineering blog, authentication, and 17 more developer resources.'
+  Confrere''s developer surface includes documentation, API reference, pricing, signup flow, support, engineering blog, authentication, and 18 more developer resources.'
 random_paper: 40
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 38.2
+  delta: -1.3
   facets:
     commercial_clarity: 44.7
-    contract_quality: 47.3
+    contract_quality: 45.5
     developer_ergonomics: 45.1
-    discoverability: 77.8
+    discoverability: 66.7
     governance: 11.5
     operational_transparency: 15.8
   previous_composite: 39.5
@@ -194,8 +198,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confrere/refs/heads/main/screenshots/confrere-2026-07-25T210253.png
 security:

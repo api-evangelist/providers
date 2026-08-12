@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: The WasmEdge C API provides a low-level interface for embedding the WasmEdge runtime into C/C++ host applications. It exposes the full WasmEdge runtime capabilities including module instantiation, fun
@@ -48,6 +48,10 @@ apis:
   slug: wasmedge-plugin-system
 artifact_total: 15
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/WasmEdge/WasmEdge/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -146,7 +150,7 @@ overview: 'WasmEdge publishes 5 APIs on the [APIs.io](https://apis.io/) network.
   The WasmEdge catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  WasmEdge''s developer surface includes documentation, getting-started guide, engineering blog, and 12 more developer resources.'
+  WasmEdge''s developer surface includes documentation, getting-started guide, engineering blog, and 13 more developer resources.'
 plans:
 - name: Wasmedge Plans Pricing
   plan_count: 3
@@ -167,19 +171,19 @@ rules:
   slug: wasmedge-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.9
-  delta: 0.0
+  composite: 30.0
+  delta: -6.9
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 17.7
-    developer_ergonomics: 21.7
+    developer_ergonomics: 26.1
     discoverability: 72.2
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 36.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wasmedge/refs/heads/main/screenshots/wasmedge-2026-06-20T201238.png
 security:
 - kind: domain-security

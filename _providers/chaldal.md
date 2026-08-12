@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-10'
+  score: 31.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -53,8 +53,20 @@ apis:
 - description: The Task API from Chaldal — 20 operation(s) for task.
   name: Chaldal Task API
   slug: chaldal-task-api
-artifact_total: 8
+artifact_total: 9
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/chaldal-consolidate-consignment.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/chaldal-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/chaldal-eggtransport-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -95,6 +107,10 @@ created: '2026-07-17'
 description: Chaldal is Bangladesh's largest online grocery delivery platform, founded in 2013 in Dhaka. It pioneered the "dark store" micro-warehouse model to deliver fresh food, groceries, personal care, and baby products within one hour across Dhaka, Narayanganj, Chittagong, Jashore, Khulna, Sylhet, and Rajshahi. Beyond retail grocery, Chaldal has built out supply-chain, agriculture, and logistics technology, including its Gogo Bangla / "Egg Transport" third-party-logistics arm, which exposes a public B2B delivery API. Backed by Y Combinator and 500 Global, Chaldal partners with the UN World Food Programme, UNDP, USAID, and the World Bank. Its engineering stack is F#/.NET Core, Scala, Python, and React/React Native. This profile was enriched by the API Evangelist pipeline from Chaldal's public developer surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chaldal.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: chaldal-mcp.yml
+  slug: chaldal-mcpyml
 modified: '2026-07-18'
 name: Chaldal
 nav: Providers
@@ -102,16 +118,16 @@ network: true
 overview: 'Chaldal publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Heartbeat API, Identity API, and 2 more. Tagged areas include Company, Grocery, Delivery, Logistics, and Third Party Logistics.
 
 
-  Chaldal''s developer surface includes authentication, engineering blog, support, documentation, API reference, and 4 more developer resources.'
+  Chaldal''s developer surface includes authentication, engineering blog, support, documentation, API reference, and 7 more developer resources.'
 random_paper: 17
 score:
   band: emerging
-  composite: 27.3
-  delta: 0.0
+  composite: 27.6
+  delta: 0.3
   facets:
     commercial_clarity: 0.0
-    contract_quality: 42.2
-    developer_ergonomics: 32.6
+    contract_quality: 40.6
+    developer_ergonomics: 36.4
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
@@ -126,8 +142,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/screenshots/chaldal-2026-07-25T205118.png
 security:

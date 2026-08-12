@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-10'
+  score: 39.0
+  scored_at: '2026-08-11'
 api_count: 28
 apis:
 - description: Pipeline actions
@@ -117,6 +117,10 @@ apis:
   slug: seqera-labs-workspaces-api
 artifact_total: 33
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/seqera-labs-platform-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -260,17 +264,17 @@ network: true
 overview: 'Seqera Labs publishes 28 APIs on the [APIs.io](https://apis.io/) network, including actions API, admin API, agents API, and 25 more. Tagged areas include Company, Bioinformatics, Workflow Orchestration, Data Pipelines, and Scientific Computing.
 
 
-  Seqera Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 25 more developer resources.'
+  Seqera Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 26 more developer resources.'
 random_paper: 60
 score:
   band: developing
-  composite: 53.9
-  delta: 0.0
+  composite: 52.5
+  delta: -1.4
   facets:
     commercial_clarity: 52.6
-    contract_quality: 53.3
+    contract_quality: 51.3
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 55.3
   previous_composite: 53.9
@@ -289,8 +293,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

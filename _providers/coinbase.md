@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -513,16 +513,16 @@ rules:
     warn: 5
   slug: coinbase-rules
 score:
-  band: strong
-  composite: 57.6
-  delta: 0.0
+  band: developing
+  composite: 51.0
+  delta: -6.6
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 79.2
+    commercial_clarity: 50.0
+    contract_quality: 76.6
     developer_ergonomics: 39.1
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 41.7
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 57.6
   provenance:
     agentic_access: derived
@@ -537,9 +537,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/screenshots/coinbase-2026-06-20T174726.png
 security:
 - kind: authentication

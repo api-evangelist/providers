@@ -18,7 +18,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: true
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -26,8 +26,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-10'
+  score: 34.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 4
@@ -403,7 +403,7 @@ modified: '2026-05-11'
 name: Clio
 nav: Providers
 network: true
-overview: 'Clio publishes 84 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Activities API, Activity Descriptions API, and 81 more. Tagged areas include Billing, Calendaring, Document Management, Law Firms, and Legal.
+overview: 'Clio publishes 83 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Activity Descriptions API, Activity Rates API, and 80 more. Tagged areas include Billing, Calendaring, Document Management, Law Firms, and Legal.
 
 
   The Clio catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -422,11 +422,11 @@ rules:
   slug: clio-rules
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 45.9
+  delta: -2.6
   facets:
     commercial_clarity: 52.6
-    contract_quality: 74.8
+    contract_quality: 64.5
     developer_ergonomics: 41.3
     discoverability: 50.0
     governance: 27.1
@@ -439,8 +439,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 83
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/screenshots/clio-2026-06-20T174526.png
 security:

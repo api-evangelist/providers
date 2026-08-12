@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -69,6 +69,10 @@ collections:
   name: Trelica REST API
   slug: open-trelica-rest-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/trelica/trelica-api-sdk/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -193,7 +197,7 @@ overview: 'Trelica publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
   The Trelica catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Trelica''s developer surface includes authentication, documentation, and 18 more developer resources.'
+  Trelica''s developer surface includes authentication, documentation, and 19 more developer resources.'
 plans:
 - name: Trelica Plans Pricing
   plan_count: 3
@@ -227,15 +231,15 @@ scopes:
   summary_line: 9 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 54.6
-  delta: 0.0
+  composite: 46.1
+  delta: -8.5
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 73.6
+    commercial_clarity: 15.8
+    contract_quality: 70.9
     developer_ergonomics: 39.1
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 54.6
   provenance:
     agentic_access: derived
@@ -244,9 +248,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/screenshots/trelica-2026-06-20T195649.png
 security:
 - kind: authentication

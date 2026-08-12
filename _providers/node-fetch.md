@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: node-fetch is a lightweight module that brings the Fetch API to Node.js for making HTTP requests.
@@ -36,6 +36,30 @@ apis:
   slug: node-fetch
 artifact_total: 4
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/node-fetch/node-fetch/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/node-fetch/node-fetch/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/node-fetch/node-fetch/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/node-fetch/node-fetch/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/node-fetch/node-fetch/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/node-fetch/node-fetch/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -63,7 +87,7 @@ network: true
 overview: 'Node-Fetch publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Clients, Fetch API, HTTP Client, and Node.js.
 
 
-  Node-Fetch''s developer surface includes documentation and 2 more developer resources.'
+  Node-Fetch''s developer surface includes documentation and 8 more developer resources.'
 plans:
 - name: Node Fetch Plans Pricing
   plan_count: 3
@@ -75,18 +99,18 @@ rate_limits:
   slug: node-fetch-rate-limits
 score:
   band: emerging
-  composite: 19.4
-  delta: 0.0
+  composite: 15.0
+  delta: -4.4
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 19.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/node-fetch/refs/heads/main/screenshots/node-fetch-2026-06-20T190351.png
 slug: node-fetch

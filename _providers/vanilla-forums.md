@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 59.7
-  scored_at: '2026-08-10'
+  score: 56.1
+  scored_at: '2026-08-11'
 api_count: 58
 apis:
 - description: The Addons API from Vanilla Forums — 2 operation(s) for addons.
@@ -211,6 +212,10 @@ asyncapis:
   name: Vanilla Forums Webhooks
   slug: vanilla-forums-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/vanilla-forums-vanilla-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -345,7 +350,7 @@ overview: 'Vanilla Forums publishes 58 APIs on the [APIs.io](https://apis.io/) n
   The Vanilla Forums catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Vanilla Forums'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 22 more developer resources.'
+  Vanilla Forums'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 23 more developer resources.'
 random_paper: 64
 rate_limits:
 - limit_count: 3
@@ -353,13 +358,13 @@ rate_limits:
   slug: vanilla-forums-rate-limits
 score:
   band: developing
-  composite: 55.1
-  delta: 0.0
+  composite: 55.4
+  delta: 0.3
   facets:
     commercial_clarity: 44.7
-    contract_quality: 54.7
+    contract_quality: 52.7
     developer_ergonomics: 69.0
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 76.3
   previous_composite: 55.1
@@ -372,8 +377,8 @@ score:
       total: 58
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

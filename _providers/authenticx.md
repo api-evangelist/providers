@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 51.6
-  scored_at: '2026-08-10'
+  score: 48.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -220,16 +221,16 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 48.0
-  delta: -0.2
+  composite: 48.1
+  delta: 0.1
   facets:
     commercial_clarity: 42.1
-    contract_quality: 54.4
+    contract_quality: 54.6
     developer_ergonomics: 58.2
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 48.2
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -237,7 +238,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 18
     mcp: derived
     skills: derived
   regulatory:
@@ -246,8 +247,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/screenshots/authenticx-2026-08-07T161942.png
 security:

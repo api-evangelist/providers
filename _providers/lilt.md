@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 56.1
-  scored_at: '2026-08-10'
+  score: 52.5
+  scored_at: '2026-08-11'
 api_count: 13
 apis:
 - description: The Create API from Lilt — 2 operation(s) for create.
@@ -139,7 +140,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/lilt-openapi-original.yml
+  url: openapi/_original/lilt-openapi-original.yml
 - group: agent
   title: ''
   type: LLMsTxt
@@ -243,11 +244,11 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 score:
   band: strong
-  composite: 63.5
-  delta: 0.0
+  composite: 62.8
+  delta: -0.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.0
+    contract_quality: 65.4
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
@@ -262,8 +263,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/screenshots/lilt-2026-07-25T225154.png
 security:

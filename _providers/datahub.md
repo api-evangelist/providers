@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -107,6 +107,26 @@ collections:
   name: DataHub OpenAPI
   slug: open-datahub-openapi
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/datahub-project/datahub/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/datahub-project/datahub/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/datahub-project/datahub/blob/master/docs/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/datahub-project/datahub/blob/master/docs/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/datahub-project/datahub/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -223,10 +243,6 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/datahub-vocabulary.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/datahub-capabilities.yml
 - group: design
   title: ''
   type: Rules
@@ -305,7 +321,7 @@ overview: 'DataHub publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   The DataHub catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  DataHub''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, YouTube channel, and 24 more developer resources.'
+  DataHub''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, YouTube channel, and 28 more developer resources.'
 plans:
 - name: Datahub Plans Pricing
   plan_count: 2
@@ -341,16 +357,16 @@ rules:
     warn: 4
   slug: datahub-rules
 score:
-  band: strong
-  composite: 59.6
-  delta: 0.0
+  band: developing
+  composite: 53.8
+  delta: -5.8
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 75.0
+    commercial_clarity: 23.7
+    contract_quality: 72.5
     developer_ergonomics: 50.0
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 63.2
+    operational_transparency: 47.4
   previous_composite: 59.6
   provenance:
     agentic_access: derived
@@ -359,9 +375,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/screenshots/datahub-2026-06-20T175643.png
 security:
 - kind: authentication

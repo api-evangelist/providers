@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -382,16 +382,16 @@ rules:
     warn: 3
   slug: iterable-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 57.2
-  delta: 0.0
+  band: developing
+  composite: 50.0
+  delta: -7.2
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 81.1
+    commercial_clarity: 57.9
+    contract_quality: 78.4
     developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 47.9
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 57.2
   provenance:
     agentic_access: derived
@@ -406,9 +406,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/screenshots/iterable-2026-06-20T183630.png
 security:
 - kind: authentication

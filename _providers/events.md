@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 18
 apis:
 - description: CNCF-graduated specification (graduated January 25, 2024) for describing event data in a common way. Defines a payload envelope with required attributes id, source, specversion, and type, and optional
@@ -86,6 +86,22 @@ apis:
   slug: stomp
 artifact_total: 53
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/cloudevents/spec/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/cloudevents/spec/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/cloudevents/spec/blob/main/docs/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/cloudevents/spec/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -189,7 +205,7 @@ overview: 'Events publishes 18 APIs on the [APIs.io](https://apis.io/) network. 
   The Events catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Events'' developer surface includes developer portal and 4 more developer resources.'
+  Events'' developer surface includes developer portal and 8 more developer resources.'
 random_paper: 81
 rules:
 - name: Events API Rules
@@ -202,24 +218,24 @@ rules:
   slug: events-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 20.6
-  delta: 0.0
+  composite: 22.8
+  delta: 2.2
   facets:
     commercial_clarity: 0.0
     contract_quality: 17.7
     developer_ergonomics: 8.7
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 20.6
   regulatory:
     applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 15.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    matched_via: weak_tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 18.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/events/refs/heads/main/screenshots/events-2026-06-20T180902.png
 security:

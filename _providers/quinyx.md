@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -152,6 +152,10 @@ arazzos:
   slug: quinyx-onboard-employee
 artifact_total: 42
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/quinyx-api-v2-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -275,7 +279,7 @@ network: true
 overview: 'Quinyx publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Absence Schedules API, Absence Types API, Absences API, and 32 more. Tagged areas include Workforce Management, Scheduling, Human Resources, Time Tracking, and Forecasting.
 
 
-  Quinyx''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 20 more developer resources.'
+  Quinyx''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 21 more developer resources.'
 random_paper: 106
 scopes:
 - name: Quinyx Scopes
@@ -284,13 +288,13 @@ scopes:
   summary_line: 14 scopes · clientCredentials
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 47.3
+  delta: -1.1
   facets:
     commercial_clarity: 39.5
-    contract_quality: 54.4
+    contract_quality: 54.6
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 48.4
@@ -304,8 +308,8 @@ score:
       total: 35
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 54.3
-  scored_at: '2026-08-10'
+  score: 50.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,6 +44,10 @@ apis:
   slug: evermuse-ingestion-api
 artifact_total: 8
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/evermuse-ingest-v1-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -170,7 +175,7 @@ network: true
 overview: 'Evermuse publishes 1 API on the [APIs.io](https://apis.io/) network: ingestion API. Tagged areas include Company, Product Management, Customer Feedback, Voice of Customer, and Artificial Intelligence.
 
 
-  Evermuse''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
+  Evermuse''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
 random_paper: 64
 scopes:
 - name: Evermuse Scopes
@@ -178,14 +183,14 @@ scopes:
   slug: evermuse-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: strong
-  composite: 57.0
-  delta: 0.0
+  band: developing
+  composite: 55.3
+  delta: -1.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 63.0
+    contract_quality: 60.7
     developer_ergonomics: 62.5
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 20.8
     operational_transparency: 42.1
   previous_composite: 57.0
@@ -199,8 +204,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evermuse/refs/heads/main/screenshots/evermuse-2026-07-25T213734.png
 security:

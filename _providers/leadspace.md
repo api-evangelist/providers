@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -59,6 +60,10 @@ asyncapis:
   name: Leadspace Callbacks Webhooks
   slug: leadspace-callbacks-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/leadspace-discovery-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -217,7 +222,7 @@ overview: 'Leadspace publishes 5 APIs on the [APIs.io](https://apis.io/) network
   The Leadspace catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Leadspace''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 28 more developer resources.'
+  Leadspace''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 29 more developer resources.'
 random_paper: 2
 rate_limits:
 - limit_count: 2
@@ -225,11 +230,11 @@ rate_limits:
   slug: leadspace-rate-limits
 score:
   band: strong
-  composite: 60.8
-  delta: 0.0
+  composite: 60.1
+  delta: -0.7
   facets:
     commercial_clarity: 42.1
-    contract_quality: 74.1
+    contract_quality: 71.3
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 20.8
@@ -245,8 +250,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/screenshots/leadspace-2026-07-25T224715.png
 security:

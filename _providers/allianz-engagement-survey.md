@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-10'
+  score: 43.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,8 +53,16 @@ apis:
 - description: Survey lifecycle management operations
   name: Allianz Engagement Survey Surveys API
   slug: allianz-engagement-survey-surveys-api
-artifact_total: 70
+artifact_total: 71
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/allianz-engagement-survey-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/allianz-engagement-survey-engagement-survey-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -270,6 +278,10 @@ jsonld:
   property_count: 38
   slug: allianz-engagement-survey-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: allianz-engagement-survey-mcp.yml
+  slug: allianz-engagement-survey-mcpyml
 modified: '2026-06-20'
 name: Allianz Engagement Survey
 nav: Providers
@@ -280,7 +292,7 @@ overview: 'Allianz Engagement Survey publishes 5 APIs on the [APIs.io](https://a
   The Allianz Engagement Survey catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Allianz Engagement Survey''s developer surface includes authentication, engineering blog, and 10 more developer resources.'
+  Allianz Engagement Survey''s developer surface includes authentication, engineering blog, and 12 more developer resources.'
 random_paper: 22
 rules:
 - name: Allianz Engagement Survey API Rules
@@ -306,13 +318,13 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: thin
-  composite: 33.6
-  delta: 0.0
+  composite: 32.1
+  delta: -1.5
   facets:
     commercial_clarity: 0.0
-    contract_quality: 32.9
-    developer_ergonomics: 13.0
-    discoverability: 92.6
+    contract_quality: 28.7
+    developer_ergonomics: 15.2
+    discoverability: 81.5
     governance: 80.2
     operational_transparency: 5.3
   previous_composite: 33.6
@@ -331,8 +343,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 51.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/screenshots/allianz-engagement-survey-2026-07-25T195701.png
 security:

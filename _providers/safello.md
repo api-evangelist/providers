@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-08-10'
+  score: 41.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -71,6 +71,10 @@ arazzos:
   slug: safello-onboard-customer
 artifact_total: 16
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/safello-institutional-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -206,7 +210,7 @@ network: true
 overview: 'Safello publishes 7 APIs on the [APIs.io](https://apis.io/) network, including account API, auth API, compliance API, and 4 more. Tagged areas include Company, Fintech, Cryptocurrency, Bitcoin, and Brokerage.
 
 
-  Safello''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 23 more developer resources.'
+  Safello''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 24 more developer resources.'
 random_paper: 46
 scopes:
 - name: Safello Scopes
@@ -215,13 +219,13 @@ scopes:
   summary_line: 8 scopes · urn:safello:params:oauth:grant-type:bankid/clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 51.2
+  delta: -0.9
   facets:
     commercial_clarity: 44.7
     contract_quality: 60.8
     developer_ergonomics: 60.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 15.8
   previous_composite: 52.1
@@ -241,8 +245,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

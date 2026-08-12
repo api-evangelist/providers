@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -109,6 +109,22 @@ collections:
   name: ClinicalTrials.gov API v2
   slug: open-life-sciences
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/FDA/openfda/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/FDA/openfda/blob/master/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/FDA/openfda/blob/master/CONTRIBUTING.txt
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/FDA/openfda/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -166,15 +182,15 @@ rules:
   slug: life-sciences-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.1
-  delta: 0.0
+  composite: 29.8
+  delta: 0.7
   facets:
     commercial_clarity: 0.0
-    contract_quality: 69.8
+    contract_quality: 67.2
     developer_ergonomics: 0.0
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 0.0
+    operational_transparency: 10.5
   previous_composite: 29.1
   provenance:
     agentic_access: derived
@@ -189,8 +205,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/life-sciences/refs/heads/main/screenshots/life-sciences-2026-06-20T184511.png
 security:

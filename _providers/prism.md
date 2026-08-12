@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Prism is an open source HTTP mock and validation server from Stoplight that generates dynamic mock responses and validates requests against OpenAPI specifications.
@@ -36,6 +36,10 @@ apis:
   slug: prism
 artifact_total: 5
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/stoplightio/prism/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -71,7 +75,7 @@ network: true
 overview: 'Prism publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Mocking and Testing.
 
 
-  Prism''s developer surface includes engineering blog, documentation, and 3 more developer resources.'
+  Prism''s developer surface includes engineering blog, documentation, and 4 more developer resources.'
 plans:
 - name: Prism Plans Pricing
   plan_count: 3
@@ -82,20 +86,20 @@ rate_limits:
   name: Prism Rate Limits
   slug: prism-rate-limits
 score:
-  band: emerging
-  composite: 18.9
-  delta: 0.0
+  band: minimal
+  composite: 11.1
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 10.9
     discoverability: 40.7
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 18.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/prism/refs/heads/main/screenshots/prism-2026-06-20T192107.png
 security:
 - kind: domain-security

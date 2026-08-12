@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 16.2
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The collections service of the CIONIC research platform. Path-versioned REST endpoints under /c/v{version}/{org}/ covering studies, protocols and protocol versions, collections and their files, stream
@@ -29,6 +29,14 @@ apis:
   slug: accounts-api
 artifact_total: 4
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/cionicwear/cionic-data/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/cionicwear/cionic-data/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -132,11 +140,12 @@ network: true
 overview: 'CIONIC publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Medical Devices, Wearables, and Neurotechnology.
 
 
-  CIONIC''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, CLI, authentication, and 16 more developer resources.'
+  CIONIC''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, CLI, authentication, and 18 more developer resources.'
 random_paper: 49
 score:
   band: thin
   composite: 32.0
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -144,14 +153,18 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 5.3
+  previous_composite: 32.0
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Cionic Authentication

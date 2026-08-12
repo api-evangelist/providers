@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 17
 apis:
 - description: The Audit API from Gleeful AI — 3 operation(s) for audit.
@@ -117,18 +117,24 @@ plans:
 random_paper: 14
 score:
   band: emerging
-  composite: 24.6
-  delta: 1.3
+  composite: 26.0
+  delta: 1.4
   facets:
     commercial_clarity: 10.5
-    contract_quality: 41.6
+    contract_quality: 47.5
     developer_ergonomics: 19.6
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 23.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 24.6
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/screenshots/gleefulai-2026-08-07T165729.png
 security:

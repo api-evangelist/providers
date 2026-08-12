@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: 'The primary Santiment GraphQL API giving developers programmatic access to on-chain metrics, social sentiment, developer activity, and price data for 2,800+ crypto assets. Supports timeseries queries '
@@ -38,6 +38,10 @@ apis:
   slug: sansheets
 artifact_total: 5
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/santiment/sanpy/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -105,7 +109,7 @@ overview: 'Santiment publishes 1 API on the [APIs.io](https://apis.io/) network:
   The Santiment catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Santiment''s developer surface includes developer portal, pricing, status page, engineering blog, authentication, and 6 more developer resources.'
+  Santiment''s developer surface includes developer portal, pricing, status page, engineering blog, authentication, and 7 more developer resources.'
 random_paper: 51
 score:
   band: thin
@@ -119,8 +123,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 30.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/santiment/refs/heads/main/screenshots/santiment-2026-06-20T193411.png
 security:

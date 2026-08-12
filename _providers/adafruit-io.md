@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -422,12 +422,12 @@ rules:
   slug: adafruit-io-rules
 score:
   band: exemplar
-  composite: 67.6
-  delta: 0.0
+  composite: 67.9
+  delta: 0.3
   facets:
     commercial_clarity: 84.2
-    contract_quality: 69.3
-    developer_ergonomics: 60.9
+    contract_quality: 67.0
+    developer_ergonomics: 65.2
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
@@ -439,8 +439,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/screenshots/adafruit-io-2026-06-20T164505.png
 security:

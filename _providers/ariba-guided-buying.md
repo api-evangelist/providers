@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -383,15 +383,15 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 42.2
+  delta: -7.4
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 32.2
+    commercial_clarity: 36.8
+    contract_quality: 31.0
     developer_ergonomics: 47.8
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 49.6
   provenance:
     agentic_access: derived
@@ -400,9 +400,9 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ariba-guided-buying/refs/heads/main/screenshots/ariba-guided-buying-2026-07-25T201151.png
 security:
 - kind: authentication

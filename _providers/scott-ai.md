@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 57.0
-  scored_at: '2026-08-10'
+  score: 53.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 2
@@ -130,6 +130,10 @@ apis:
   slug: scott-ai-well-known-api
 artifact_total: 36
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/scott-ai-openapi-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -261,15 +265,15 @@ network: true
 overview: 'Scott Ai publishes 30 APIs on the [APIs.io](https://apis.io/) network, including access API, agent-counsel API, agent-counsel-internal API, and 27 more. Tagged areas include Company, Coding Agents, AI, Developer Tools, and Collaboration.
 
 
-  Scott Ai''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, CLI, authentication, and 22 more developer resources.'
+  Scott Ai''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, CLI, authentication, and 23 more developer resources.'
 random_paper: 108
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 47.9
+  delta: -0.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 52.0
+    contract_quality: 50.0
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 11.5
@@ -285,8 +289,8 @@ score:
       total: 30
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

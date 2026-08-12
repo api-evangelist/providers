@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 69.1
-  scored_at: '2026-08-10'
+  score: 65.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -123,6 +123,10 @@ collections:
   name: API Reference Accounts WorkflowRun API
   slug: postman-lightfield-workflowrun-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lightfield-api-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -302,7 +306,7 @@ overview: 'Lightfield publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
   The Lightfield catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lightfield''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
+  Lightfield''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
 random_paper: 8
 scopes:
 - name: Lightfield Scopes
@@ -311,11 +315,11 @@ scopes:
   summary_line: 26 scopes
 score:
   band: strong
-  composite: 62.9
-  delta: 0.0
+  composite: 62.2
+  delta: -0.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 67.8
+    contract_quality: 65.3
     developer_ergonomics: 79.9
     discoverability: 92.6
     governance: 11.5
@@ -331,8 +335,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/screenshots/lightfield-2026-07-25T225114.png
 security:

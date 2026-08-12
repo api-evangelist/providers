@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -203,18 +203,6 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/sitecore-vocabulary.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/content-management.yaml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/customer-data-personalization.yaml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/commerce-discovery.yaml
 description: Sitecore is a global digital experience platform that combines content management, marketing automation, e-commerce, customer insight, and personalization to help brands deliver personalized customer experiences. Through its developer documentation at doc.sitecore.com and api-docs.sitecore.com, Sitecore provides REST, GraphQL, and event-streaming APIs spanning XM Cloud, Customer Data Platform, Personalize, OrderCloud, Content Hub, and Discover.
 examples:
 - key_count: 5
@@ -265,7 +253,7 @@ overview: 'sitecore publishes 29 APIs on the [APIs.io](https://apis.io/) network
   The sitecore catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  sitecore''s developer surface includes authentication and 12 more developer resources.'
+  sitecore''s developer surface includes authentication and 9 more developer resources.'
 plans:
 - name: Sitecore Plans Pricing
   plan_count: 1
@@ -301,16 +289,16 @@ rules:
     warn: 6
   slug: sitecore-rules
 score:
-  band: developing
-  composite: 44.1
-  delta: 0.0
+  band: thin
+  composite: 38.3
+  delta: -5.8
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 82.3
+    commercial_clarity: 13.2
+    contract_quality: 79.6
     developer_ergonomics: 10.9
     discoverability: 59.3
     governance: 52.1
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 44.1
   provenance:
     agentic_access: derived
@@ -319,9 +307,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/screenshots/sitecore-2026-06-20T194003.png
 security:
 - kind: authentication

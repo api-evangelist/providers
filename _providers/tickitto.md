@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-10'
+  score: 46.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -75,6 +76,10 @@ asyncapis:
   name: Tickitto Webhooks
   slug: tickitto-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tickitto-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -185,17 +190,17 @@ overview: 'Tickitto publishes 8 APIs on the [APIs.io](https://apis.io/) network,
   The Tickitto catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tickitto''s developer surface includes documentation, API reference, authentication, sandbox, engineering blog, and 18 more developer resources.'
+  Tickitto''s developer surface includes documentation, API reference, authentication, sandbox, engineering blog, and 19 more developer resources.'
 random_paper: 63
 score:
   band: thin
-  composite: 41.2
-  delta: 0.0
+  composite: 39.7
+  delta: -1.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 64.8
+    contract_quality: 62.4
     developer_ergonomics: 47.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
   previous_composite: 41.2
@@ -215,8 +220,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

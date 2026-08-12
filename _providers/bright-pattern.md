@@ -1,24 +1,24 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 56.3
-  scored_at: '2026-08-10'
+  score: 45.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 2
@@ -70,8 +70,12 @@ apis:
 - description: 'With the https://:tenant_url/configapi/v2/user endpoint you can: Create new users and define most of their attributes Update existing users Check and clear user lockout state Manage agents'' skills Del'
   name: Bright Pattern Users API
   slug: bright-pattern-users-api
-artifact_total: 18
+artifact_total: 19
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/bright-pattern-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -212,6 +216,10 @@ created: '2026-08-08'
 description: 'Bright Pattern is a cloud contact center (CCaaS) software company whose omnichannel platform routes voice, IVR, email, chat, SMS/MMS, video and social messenger conversations to agents, with built-in quality management, workforce management, outbound dialing and AI/bot assistance. The platform is multi-tenant: every customer contact center runs on its own tenant hostname, and Bright Pattern exposes nine public REST API families against that tenant — Configuration, SCIM-compliant user provisioning, List Management (v2, v3.0, v3.2), Task Routing, SMS/MMS, Interaction Content (call recordings and metadata), Real-Time Statistics, and the Mobile/Web Messaging APIs (v1 and v2) that back the iOS and Android Mobile SDKs. The public API reference is published as Postman documenter collections linked from the Bright Pattern documentation wiki.'
 image: https://www.brightpattern.com/wp-content/uploads/2025/02/Brightpattern-Homepage-Logo.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: bright-pattern-mcp.yml
+  slug: bright-pattern-mcpyml
 modified: '2026-08-08'
 name: Bright Pattern
 nav: Providers
@@ -219,26 +227,39 @@ network: true
 overview: 'Bright Pattern publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Calling List API, Campaigns API, and 11 more. Tagged areas include Company, Contact Center, CCaaS, Customer Experience, and Omnichannel.
 
 
-  Bright Pattern''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
+  Bright Pattern''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
 random_paper: 59
 score:
   band: developing
-  composite: 51.9
+  composite: 50.8
+  delta: -1.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 52.6
-    developer_ergonomics: 69.6
-    discoverability: 92.6
+    contract_quality: 54.4
+    developer_ergonomics: 66.8
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 21.1
+  previous_composite: 51.9
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Bright Pattern Authentication

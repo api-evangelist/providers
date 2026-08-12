@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 54.5
-  scored_at: '2026-08-10'
+  score: 50.9
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Public API from Listen Labs — 9 operation(s) for public.
@@ -36,6 +37,10 @@ apis:
   slug: listen-labs-public-api
 artifact_total: 5
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/listen-labs-study-data-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -163,17 +168,17 @@ network: true
 overview: 'Listen Labs publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Ai, Market Research, Customer Research, and User Interviews.
 
 
-  Listen Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, YouTube channel, and 21 more developer resources.'
+  Listen Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, YouTube channel, and 22 more developer resources.'
 random_paper: 74
 score:
   band: developing
-  composite: 51.1
-  delta: 0.0
+  composite: 49.4
+  delta: -1.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 58.7
+    contract_quality: 56.6
     developer_ergonomics: 67.4
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 20.8
     operational_transparency: 13.2
   previous_composite: 51.1
@@ -186,8 +191,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/screenshots/listen-labs-2026-07-25T225342.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -331,14 +331,14 @@ scopes:
   slug: eaton-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 54.4
-  delta: 0.0
+  band: strong
+  composite: 56.8
+  delta: 2.4
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 57.4
+    commercial_clarity: 92.1
+    contract_quality: 55.2
     developer_ergonomics: 26.1
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 68.8
     operational_transparency: 21.1
   previous_composite: 54.4
@@ -355,8 +355,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 63.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/screenshots/eaton-2026-06-20T180408.png
 security:

@@ -18,7 +18,7 @@
   "name": "Artificial Intelligence",
   "description": "Model providers, agent frameworks, inference platforms, and the applied AI companies putting them to work behind an API.",
   "icon": "smart_toy",
-  "count": 5108
+  "count": 5119
  },
  {
   "slug": "automotive",
@@ -32,21 +32,21 @@
   "name": "Banking & Open Banking",
   "description": "Banks, credit unions, neobanks, and the open-banking and banking-as-a-service rails that connect to them.",
   "icon": "savings",
-  "count": 841
+  "count": 843
  },
  {
   "slug": "biotechnology",
   "name": "Biotechnology & Drug Discovery",
   "description": "Drug discovery and development, genomics, clinical research, and the computational biology behind modern therapeutics.",
   "icon": "biotech",
-  "count": 1086
+  "count": 1090
  },
  {
   "slug": "blockchain-crypto",
   "name": "Blockchain, Crypto & Web3",
   "description": "Chains, exchanges, wallets, and the on-chain data and settlement infrastructure the digital-asset economy runs on.",
   "icon": "currency_bitcoin",
-  "count": 1275
+  "count": 1277
  },
  {
   "slug": "cannabis",
@@ -60,7 +60,7 @@
   "name": "Climate & Sustainability",
   "description": "Climate tech, clean energy, carbon accounting, and the ESG and circular-economy data companies now report against.",
   "icon": "eco",
-  "count": 989
+  "count": 994
  },
  {
   "slug": "cloud-data-platform",
@@ -109,14 +109,14 @@
   "name": "Cybersecurity & Identity",
   "description": "Security and identity providers — authentication and authorization, threat detection, application and cloud security, fraud, and privacy.",
   "icon": "security",
-  "count": 2023
+  "count": 2028
  },
  {
   "slug": "data-analytics",
   "name": "Data & Analytics",
   "description": "Warehouses, catalogs, pipelines, and the analytics and business-intelligence layers companies expose as APIs.",
   "icon": "insights",
-  "count": 2231
+  "count": 2236
  },
  {
   "slug": "defense",
@@ -130,14 +130,14 @@
   "name": "Developer Tools & DevOps",
   "description": "The companies developers build on — SDKs and CLIs, CI/CD, containers, observability, API gateways, and the platforms that run it all.",
   "icon": "terminal",
-  "count": 2930
+  "count": 2936
  },
  {
   "slug": "digital-health",
   "name": "Digital Health & Telehealth",
   "description": "Care delivered and coordinated through software — telehealth, EHR interoperability, patient engagement, remote monitoring, and behavioral health.",
   "icon": "monitor_heart",
-  "count": 1728
+  "count": 1735
  },
  {
   "slug": "e-commerce-platform",
@@ -151,7 +151,7 @@
   "name": "Education & EdTech",
   "description": "Universities, school systems, and the learning platforms, credentialing, and research infrastructure around them.",
   "icon": "school",
-  "count": 1081
+  "count": 1084
  },
  {
   "slug": "energy",
@@ -235,7 +235,7 @@
   "name": "Government & Public Sector",
   "description": "Federal, state, and municipal agencies plus the open-data portals, GovTech vendors, and public-safety systems serving them.",
   "icon": "account_balance",
-  "count": 848
+  "count": 849
  },
  {
   "slug": "healthcare",
@@ -277,14 +277,14 @@
   "name": "IoT & Connected Devices",
   "description": "Sensors, telematics, smart home and industrial IoT — the physical world reporting in over an API.",
   "icon": "sensors",
-  "count": 848
+  "count": 849
  },
  {
   "slug": "legal-compliance",
   "name": "Legal & Compliance Tech",
   "description": "Legal software and the compliance, RegTech, and risk platforms companies use to stay inside the rules.",
   "icon": "gavel",
-  "count": 1081
+  "count": 1086
  },
  {
   "slug": "life-sciences",
@@ -312,7 +312,7 @@
   "name": "Marketing & Advertising",
   "description": "AdTech and MarTech — campaigns, attribution, customer data, personalization, and the demand-generation stack.",
   "icon": "campaign",
-  "count": 1408
+  "count": 1413
  },
  {
   "slug": "media",
@@ -333,7 +333,7 @@
   "name": "Mobility & Fleet",
   "description": "Ride-hailing, micromobility, fleet management, EV charging, and the telematics layer under moving vehicles.",
   "icon": "directions_car",
-  "count": 616
+  "count": 617
  },
  {
   "slug": "creator-economy",
@@ -396,14 +396,14 @@
   "name": "Robotics & Autonomous Systems",
   "description": "Robots, drones, autonomous vehicles, and the perception and control stacks that let machines act on their own.",
   "icon": "precision_manufacturing",
-  "count": 999
+  "count": 1003
  },
  {
   "slug": "semiconductors-hardware",
   "name": "Semiconductors & Hardware",
   "description": "Chips, compute, consumer electronics, and the data-center hardware everything else is built on.",
   "icon": "memory",
-  "count": 966
+  "count": 967
  },
  {
   "slug": "space",
@@ -424,7 +424,7 @@
   "name": "Supply Chain & Procurement",
   "description": "Sourcing, procurement, freight, warehousing, and the inventory and fulfillment systems that move goods.",
   "icon": "inventory_2",
-  "count": 1173
+  "count": 1174
  },
  {
   "slug": "tax-compliance-software",
@@ -473,7 +473,7 @@
   "name": "Venture Capital & Investing",
   "description": "The firms allocating capital and the platforms moving it — venture and private equity, brokerages, trading, market data, and wealth management.",
   "icon": "trending_up",
-  "count": 1367
+  "count": 1370
  },
  {
   "slug": "video-streaming",

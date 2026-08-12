@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -139,16 +139,16 @@ rate_limits:
   name: Arthur J Gallagher Rate Limits
   slug: arthur-j-gallagher-rate-limits
 score:
-  band: thin
-  composite: 32.0
-  delta: 0.0
+  band: emerging
+  composite: 24.9
+  delta: -7.1
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 53.5
+    commercial_clarity: 15.8
+    contract_quality: 51.5
     developer_ergonomics: 17.4
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 32.0
   provenance:
     agentic_access: derived
@@ -163,9 +163,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/screenshots/arthur-j-gallagher-2026-06-20T172441.png
 security:
 - kind: domain-security

@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -154,13 +154,13 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 38.5
-  delta: 0.0
+  composite: 33.0
+  delta: -5.5
   facets:
     commercial_clarity: 10.5
-    contract_quality: 41.1
+    contract_quality: 39.6
     developer_ergonomics: 38.6
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
   previous_composite: 38.5
@@ -179,10 +179,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 75.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+    score: 48.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/metro-bank/refs/heads/main/screenshots/metro-bank-2026-08-07T172746.png
 security:
 - kind: authentication

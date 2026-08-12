@@ -16,19 +16,19 @@
      "slug": "doku",
      "description": "DOKU (PT Nusa Satu Inti Artha) is Indonesia's pioneering payment gateway, founded in 2007 and licensed by Bank Indonesia as a Category 1 Payment Service Provider. Its developer platform exposes a hosted Checkout API plus a full suite of Bank Indonesia SNAP (Standar Nasional Open API Pembayaran) endpoints for Virtual Account, e-Wallet, Direct Debit, QRIS, and Kirim (payout/disbursement), all settling in Indonesian Rupiah (IDR).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/screenshots/doku-2026-07-25T212238.png",
-     "score": 69.9,
+     "score": 68.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 67.7,
+      "discoverability": 81.5,
+      "contract_quality": 65.2,
       "governance": 20.8,
       "operational_transparency": 68.4,
       "developer_ergonomics": 73.4,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -72,19 +72,19 @@
      "slug": "komerce",
      "description": "Komerce is an Indonesian end-to-end e-commerce enabler serving more than 50,000 online sellers and SMEs with an integrated suite covering fulfilment, logistics, marketplace operations, CRM, advertising and payments — Komship, Kompack, Komplace, Komchat, Komcards, Komtim, Komads and Komclass. Its developer surface is published under the RajaOngkir brand and exposes four APIs: Shipping Cost (Cek Ongkir) for domestic and international rate lookup and airway-bill tracking across 17 Indonesian couriers, Shipping Delivery (Komship) for creating orders, requesting pickup, printing labels and tracking shipments, Payment Service for Virtual Account and QRIS transactions with signed callbacks, and QRISLY for turning a static QRIS into dynamic per-transaction QRIS codes. All four authenticate with a per-product header API key issued from the Collaborator dashboard, and the delivery, payment and QRIS products run a full isolated sandbox.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/screenshots/komerce-2026-07-25T224133.png",
-     "score": 61.1,
+     "score": 60.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 69.2,
+      "contract_quality": 66.6,
       "governance": 21.9,
       "operational_transparency": 55.3,
       "developer_ergonomics": 66.8,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -92,7 +92,7 @@
       "score": 39.1,
       "matched_via": "tags"
      },
-     "agent_score": 50.2,
+     "agent_score": 53.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -105,7 +105,7 @@
       "rate_limit_signal": "documented",
       "event_surface_described": true,
       "agent_skills": "derived",
-      "well_known_catalog": false,
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -120,27 +120,27 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 5,
-   "shown": 5,
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
      "name": "Kredivo",
      "slug": "kredivo",
      "description": "Kredivo is a Southeast Asian consumer credit platform operated by FinAccel (Kredivo Group), best known for its \"Buy Now, Pay Later\" product offering instant real-time credit decisioning for online and offline purchases across Indonesia, Vietnam, Thailand and the Philippines. For developers, Kredivo publishes the Kredivo Checkout API — a merchant-facing HTTP/JSON payment API that lets an ecommerce store, marketplace, POS or EDC terminal offer installment payment (30 days through 24 months) at checkout. The API covers 2-click redirect checkout, 0-click tokenized express checkout, dynamic and static QR checkout for physical stores, EDC terminal checkout, transaction status polling, full and partial cancellation, user credit-limit lookup, and an installment/interest calculator, with asynchronous push notifications to a merchant-supplied push_uri and a signature-key confirmation callback. Kredivo Group also operates KrediFazz (instant cash loans), Krom (digital bank), Timo and GajiGesa.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/screenshots/kredivo-2026-07-25T224258.png",
-     "score": 52.9,
+     "score": 51.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 72.1,
+      "discoverability": 81.5,
+      "contract_quality": 69.4,
       "governance": 11.5,
       "operational_transparency": 34.2,
       "developer_ergonomics": 69.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -148,7 +148,7 @@
       "score": 48.4,
       "matched_via": "tags"
      },
-     "agent_score": 52.0,
+     "agent_score": 48.4,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -161,7 +161,7 @@
       "rate_limit_signal": false,
       "event_surface_described": true,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -183,16 +183,16 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 60.0,
-      "matched_via": "weak_tags"
+      "matched_via": "tags"
      },
-     "agent_score": 44.6,
+     "agent_score": 41.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -205,7 +205,7 @@
       "rate_limit_signal": false,
       "event_surface_described": true,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
@@ -216,19 +216,19 @@
      "name": "Qoala",
      "slug": "qoala",
      "description": "Qoala is a Southeast Asian omni-channel insurtech, headquartered in Jakarta and operating across Indonesia, Malaysia, Thailand and Vietnam, that distributes personal and embedded insurance through a consumer app, an agent platform (Qoala Plus) and a partner/enterprise API. Qoala for Enterprise exposes a partner-facing REST API covering policy issuance and claim handling across travel (flight, train, bus, hotel, experience), gadget, goods, vehicle, logistics, health, credit and credit-life product lines. Policy creation is asynchronous: partners POST a quotation, receive a quotation number as acknowledgement, and are notified of the issued policy through a partner callback webhook. Authentication is by partner API key in the x-api-key header.",
-     "score": 43.9,
+     "score": 43.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 64.7,
+      "discoverability": 75.9,
+      "contract_quality": 66.0,
       "governance": 11.5,
       "operational_transparency": 13.2,
       "developer_ergonomics": 66.8,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -236,7 +236,7 @@
       "score": 31.8,
       "matched_via": "tags"
      },
-     "agent_score": 62.4,
+     "agent_score": 58.8,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -249,7 +249,7 @@
       "rate_limit_signal": false,
       "event_surface_described": true,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -272,8 +272,8 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -300,25 +300,35 @@
       "dry_run_mode": false
      },
      "rank": 6
-    },
+    }
+   ]
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "28 – 41.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 9,
+   "shown": 9,
+   "providers": [
     {
      "name": "IDRX",
      "slug": "idrx",
      "description": "IDRX is a stablecoin pegged 1:1 to the Indonesian Rupiah (IDR), issued by a regulated Indonesian entity and available across multiple EVM chains and Solana. Its REST API lets business (organization) accounts onboard KYC-verified users, register bank accounts, and process mint (fiat IDR -> IDRX / USDT on-chain), redeem (IDRX -> fiat IDR to a bank account), and bridge (cross-chain) transactions, plus query swap rates, fees, supported bank methods, and transaction history. Requests are authenticated with an API key and an HMAC-SHA256 request signature, and settlement is confirmed via single-delivery webhooks or transaction-history polling. IDRX is a portfolio company of a16z (crypto).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/screenshots/idrx-2026-07-25T222044.png",
-     "score": 42.2,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 41.6,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 74.9,
+      "contract_quality": 72.1,
       "governance": 11.5,
       "operational_transparency": 13.2,
       "developer_ergonomics": 53.8,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -345,71 +355,24 @@
       "dry_run_mode": false
      },
      "rank": 7
-    }
-   ]
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "28 – 41.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 8,
-   "shown": 8,
-   "providers": [
-    {
-     "name": "Shipper",
-     "slug": "shipper",
-     "description": "Shipper is an Indonesian technology-driven logistics aggregator that connects merchants and e-commerce sellers to hundreds of third-party courier and last-mile delivery partners through a single platform. Its services span a logistics aggregator (multi-courier rate check, order creation, pickup and tracking), nationwide fulfillment and warehousing, contract logistics, international freight forwarding, and e-commerce enablement. Developers integrate via the HTTP-based Shipper Logistics API (v3), which exposes location search, domestic pricing, order creation (including COD), shipping label and receipt generation, pickup request, and shipment status tracking, with real-time delivery-status webhooks. Backed by Lightspeed Venture Partners, Partech, and Prosus Ventures.",
-     "score": 37.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 51.6,
-      "governance": 3.1,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 60.9,
-      "commercial_clarity": 13.2
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 36.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 8
     },
     {
      "name": "Telkomsel",
      "slug": "telkomsel",
      "description": "Telkomsel (PT Telekomunikasi Selular) is Indonesia's largest mobile network operator. Through DigiHub (digihub.telkomsel.com), its API marketplace, Telkomsel exposes network and subscriber APIs to developers and enterprises - A2P SMS and USSD messaging, subscriber status checks, identity verification (NIK/KTP matching), location verification, SIM swap detection (including a CAMARA-style API), consent management, and telco-data scoring products. Telkomsel is a GSMA Open Gateway participant, launching Number Verify, SIM Swap, and Device Location network APIs alongside the other Indonesian carriers, and partners with Vonage to distribute its network APIs globally. Access requires a DigiHub account; plans range from free sandbox trials and prepaid quota packages to enterprise tier and pay-as-you-use contracts.",
-     "score": 37.6,
+     "score": 37.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 64.7,
+      "contract_quality": 62.3,
       "governance": 0.0,
       "operational_transparency": 31.6,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -435,6 +398,43 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 8
+    },
+    {
+     "name": "Shipper",
+     "slug": "shipper",
+     "description": "Shipper is an Indonesian technology-driven logistics aggregator that connects merchants and e-commerce sellers to hundreds of third-party courier and last-mile delivery partners through a single platform. Its services span a logistics aggregator (multi-courier rate check, order creation, pickup and tracking), nationwide fulfillment and warehousing, contract logistics, international freight forwarding, and e-commerce enablement. Developers integrate via the HTTP-based Shipper Logistics API (v3), which exposes location search, domestic pricing, order creation (including COD), shipping label and receipt generation, pickup request, and shipment status tracking, with real-time delivery-status webhooks. Backed by Lightspeed Venture Partners, Partech, and Prosus Ventures.",
+     "score": 36.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 51.6,
+      "governance": 3.1,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 60.9,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 33.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 9
     },
     {
@@ -442,19 +442,19 @@
      "slug": "midtrans",
      "description": "Midtrans is an Indonesian payment gateway (part of the GoTo Group, alongside Gojek) that lets businesses accept online payments across cards, bank transfer / virtual accounts, e-wallets (GoPay, ShopeePay, QRIS), over-the-counter outlets, and cardless credit. It exposes Snap - a hosted / drop-in checkout - and a Core API for building custom checkout flows (charge, status, cancel, expire, refund, and card / GoPay tokenization), plus Payment Link, recurring Subscriptions, and Iris for disbursements / payouts. All APIs are REST over HTTPS with separate production (api.midtrans.com) and sandbox environments, authenticated with a Server Key over HTTP Basic (key as username, empty password); a public Client Key is used for browser-side card tokenization.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/screenshots/midtrans-2026-08-07T172858.png",
-     "score": 37.0,
+     "score": 36.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 63.1,
+      "contract_quality": 60.8,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -487,27 +487,27 @@
      "slug": "ajaib",
      "description": "Ajaib is an Indonesian fintech and online brokerage founded in 2018 that gives retail investors access to Indonesian stocks, mutual funds, bonds, US stocks and crypto from a single mobile app. It operates PT Ajaib Sekuritas Asia for equities and Ajaib Kripto for digital assets, and became Southeast Asia's first investment unicorn in 2021. Its one public developer surface is the Ajaib Coin Exchange API, a REST trading interface for the crypto venue, documented on GitBook and organized into Market Info, Wallet and Spot Trading. Access is not self-service: clients generate an ECDSASHA256 keypair, email the public key to Ajaib, and sign every request with X-API-KEY, X-SIGNATURE and X-TIMESTAMP headers. Ajaib publishes no OpenAPI, no SDKs and no status page.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ajaib/refs/heads/main/screenshots/ajaib-2026-08-07T161125.png",
-     "score": 36.2,
+     "score": 35.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 16.1,
+      "discoverability": 81.5,
+      "contract_quality": 16.4,
       "governance": 11.5,
       "operational_transparency": 15.8,
       "developer_ergonomics": 62.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 51.7,
-      "matched_via": "weak_tags"
+      "matched_via": "tags"
      },
-     "agent_score": 44.8,
+     "agent_score": 41.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -520,7 +520,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -531,19 +531,19 @@
      "name": "Xendit",
      "slug": "xendit",
      "description": "Xendit is a payments infrastructure provider for Southeast Asia, giving businesses in Indonesia, the Philippines, and the wider region a single REST API to accept payments, disburse funds, and manage money movement. The unified Payments API accepts virtual accounts, e-wallets (OVO, DANA, GoPay, ShopeePay, GCash, GrabPay, Maya), QR (QRIS / QR Ph), cards, direct debit, and retail outlets through Payment Requests and Payment Tokens; complementary APIs cover hosted Invoices, Payouts / disbursements, Balance, Transactions, Customers, and Refunds. All requests are authenticated with a secret API key over HTTP Basic against the base host https://api.xendit.co.",
-     "score": 35.3,
+     "score": 34.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 63.6,
+      "contract_quality": 61.2,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -575,19 +575,19 @@
      "name": "Xfers",
      "slug": "xfers",
      "description": "Xfers is a Southeast Asian payments infrastructure company founded in Singapore in 2015 and backed by 500 Global, providing bank-transfer collection, payouts, escrow-style wallets, and lending disbursement APIs across Singapore and Indonesia. Xfers merged with Payfazz in 2022 to form the Fazz Financial Group, with its regulated Singapore dollar stablecoin and payments business continuing as StraitsX; the Xfers v3 API documentation for Singapore and Indonesia remains published at docs.xfers.io.",
-     "score": 32.9,
+     "score": 31.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 85.2,
-      "contract_quality": 64.5,
+      "discoverability": 74.1,
+      "contract_quality": 62.1,
       "governance": 0.0,
       "operational_transparency": 21.1,
-      "developer_ergonomics": 34.8,
+      "developer_ergonomics": 37.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -595,12 +595,12 @@
       "score": 25.0,
       "matched_via": "tags"
      },
-     "agent_score": 45.0,
+     "agent_score": 47.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
-      "mcp_server": false,
+      "mcp_server": "derived",
       "auth_clarity": true,
       "idempotency": "verified",
       "error_semantics": false,
@@ -620,19 +620,26 @@
      "slug": "goto-gojek",
      "description": "GoTo Group (PT GoTo Gojek Tokopedia Tbk) is Indonesia's largest digital ecosystem, formed by the 2021 merger of ride-hailing / on-demand superapp Gojek and e-commerce marketplace Tokopedia. It operates three business pillars: On-Demand Services (Gojek — ride hailing GoRide / GoCar, food delivery GoFood, parcel delivery GoSend, logistics GoBox, courier GoSend), E-Commerce (Tokopedia marketplace and Mitra Tokopedia), and Financial Technology (GoTo Financial — GoPay, GoPayLater, GoInvestasi). In 2024 GoTo divested Tokopedia's e-commerce operations to TikTok Shop / ByteDance, retaining a 25% stake in the combined Tokopedia–TikTok Shop entity; the developer.tokopedia.com portal now redirects to TikTok Shop's partner platform. GoTo continues to operate Gojek and GoTo Financial directly. There is no single GoTo group-wide developer portal — partner integrations happen at the product level (Gojek partner programs, GoPay PSP integrations, TikTok Shop Open Platform for the former Tokopedia surface).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/goto-gojek/refs/heads/main/screenshots/goto-gojek-2026-06-20T182257.png",
-     "score": 31.7,
+     "score": 29.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 54.3,
+      "contract_quality": 52.2,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 18.8,
+      "matched_via": "tags"
+     },
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -658,26 +665,19 @@
      "slug": "kataai",
      "description": "Kata.ai is an Indonesian enterprise conversational-AI company that builds AI agents and chatbots for customer experience, marketing, sales, and HR across financial services, retail, healthcare, automotive, and government. Its developer-facing Kata Platform lets teams create bot projects that bundle a Bot, CMS, and a Natural Language Understanding (NLU) model, then deploy them and connect messaging channels such as LINE, Telegram, WhatsApp, Facebook Messenger, Slack, and Qiscus. Kata.ai exposes a public REST API for managing projects, bots, deployments, environments, channels, teams, and NLUs, an NL Prediction API for entity extraction from a trained model, the kata command line tool, and the Aksara design system. Backed by 500 Global.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/screenshots/kataai-2026-07-25T223526.png",
-     "score": 28.6,
+     "score": 28.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 14.6,
+      "contract_quality": 14.0,
       "governance": 11.5,
       "operational_transparency": 5.3,
       "developer_ergonomics": 49.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 29.2,
-      "matched_via": "tags"
-     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -705,8 +705,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 21,
-   "shown": 21,
+   "count": 17,
+   "shown": 17,
    "providers": [
     {
      "name": "Bandung Institute of Technology",
@@ -724,8 +724,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -761,8 +761,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -799,8 +799,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -829,95 +829,6 @@
      "rank": 18
     },
     {
-     "name": "Prudential plc",
-     "slug": "prudential-plc",
-     "description": "Prudential plc is a life and health insurance and asset management group incorporated in England and Wales and listed on the London, Hong Kong, Singapore and New York exchanges, with its principal operating office in Hong Kong and roots in London going back to 1848. Its home market for this profile is the United Kingdom, but its book is almost entirely Asian and African: life protection, health and medical, savings and retirement, takaful, pensions and Hong Kong Mandatory Provident Funds, plus asset management under the Eastspring brand, across Hong Kong, Singapore, Malaysia, Indonesia, the Philippines, Thailand, Vietnam, Taiwan, India, mainland China, Cambodia, Laos, Myanmar and a dozen African markets including Kenya, Uganda, Ghana, Nigeria and Zambia. It is no longer a UK retail insurer at all - the UK and Europe business was demerged as M&G plc in 2019 and the US business as Jackson Financial in 2021 - so the familiar UK \"Pru\" brands at pru.co.uk belong to M&G, not to this company. Its API posture is that there is no public API posture. Prudential plc publishes no developer portal, no API reference, no downloadable OpenAPI or Swagger document and no partner integration surface of any kind: developer, developers, docs, api, apis, partners, portal and sandbox subdomains of prudentialplc.com all fail to resolve, and /developers, /api, /developer, /partners and /integrations on the corporate site all return HTTP 404. The group's stated technology strategy is inward-facing - AI, automation, cloud and a global AI Lab running over a hundred internal use cases - and its distribution is built on tied agency forces and exclusive bancassurance partnerships with banks such as Standard Chartered, CIMB, MSB, SeABank, Bank Syariah Indonesia and UOB, which are commercial and contractual relationships rather than published API programmes. The Pulse by Prudential health and wealth app onboards health-tech and wealth-tech partners (Babylon, Tictrac, Halodoc, Smarter Health, Prive Technologies, OVO, Google Cloud) but every announcement describes the arrangement in commercial terms and none exposes a developer programme, SDK or public API. No ACORD, AL3, ACORD XML or NGDS reference was found anywhere in Prudential plc's public estate. Recorded honestly as a large carrier with a fully partner-gated, non-public integration surface. One genuine machine-readable surface does exist, and it is not an API: six of the group's market operating companies - Prudential Hong Kong, Prudential Singapore, Prudential Indonesia, Prudential Vietnam, Pru Life UK in the Philippines and Prudential BSN Takaful in Malaysia - publish real first-party llms.txt documents for grounding large language models, with Prudential Vietnam declaring a per-user-agent bot access policy for gptbot, claudebot, google-extended, perplexitybot and six other crawlers. The corporate domain publishes none. Underneath that, the group runs a visibly centralised security posture: TLS 1.3 and HSTS on every market host, and one shared PowerDMARC/PowerSPF tenant with a common aggregate-report mailbox across all seven domains, at p=reject on the corporate domain and p=quarantine in the markets, with no CAA record anywhere.",
-     "score": 17.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 39.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.6,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 19
-    },
-    {
-     "name": "Kita Bisa",
-     "slug": "kita-bisa",
-     "description": "Kitabisa is Indonesia's largest donation-based crowdfunding and mutual-aid platform, founded in 2013 and headquartered in Jakarta. It lets individuals, nonprofits, and corporations raise and give funds transparently for medical causes, disaster relief, education, and community development, and operates a dedicated Islamic-philanthropy surface for zakat, wakaf, and qurban. The group has grown beyond crowdfunding into digital fundraising services for NGOs (ngo.kitabisa.com), a CSR and social-marketing practice for corporate partners (csr.kitabisa.com), a cooperative, and the SalingJaga mutual-protection and insurance product. Kitabisa publishes no public API or developer program — there is no developer portal, API reference, or OpenAPI definition on any Kitabisa surface, and partner integrations are arranged through business channels. It does run a substantial first-party open source estate of 75 public Go, TypeScript, and GitHub Actions repositories, plus a public responsible-disclosure program backed by an RFC 9116 security.txt.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kita-bisa/refs/heads/main/screenshots/kita-bisa-2026-07-25T223902.png",
-     "score": 16.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 30.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 20
-    },
-    {
      "name": "Satu Data Aceh",
      "slug": "data-acehprov-go-id",
      "description": "Satu Data Aceh is a provincial government open-data portal for Indonesia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 4,176 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
@@ -933,8 +844,98 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 19
+    },
+    {
+     "name": "Satu Data Bencana Indonesia (BNPB)",
+     "slug": "data-bnpb-go-id",
+     "description": "Satu Data Bencana Indonesia (BNPB) is a government agency open-data portal for Indonesia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,830 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-bnpb-go-id/refs/heads/main/screenshots/data-bnpb-go-id-2026-06-20T175522.png",
+     "score": 16.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 20
+    },
+    {
+     "name": "Satu Data Kalimantan Timur",
+     "slug": "data-kaltimprov-go-id",
+     "description": "Satu Data Kalimantan Timur is a provincial government open-data portal for Indonesia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 12,388 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-kaltimprov-go-id/refs/heads/main/screenshots/data-kaltimprov-go-id-2026-06-20T175555.png",
+     "score": 16.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -963,10 +964,10 @@
      "rank": 21
     },
     {
-     "name": "Satu Data Bencana Indonesia (BNPB)",
-     "slug": "data-bnpb-go-id",
-     "description": "Satu Data Bencana Indonesia (BNPB) is a government agency open-data portal for Indonesia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,830 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-bnpb-go-id/refs/heads/main/screenshots/data-bnpb-go-id-2026-06-20T175522.png",
+     "name": "Satu Data Semarang Regency",
+     "slug": "data-semarangkab-go-id",
+     "description": "Satu Data Semarang Regency is a regional government open-data portal for Indonesia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 467 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-semarangkab-go-id/refs/heads/main/screenshots/data-semarangkab-go-id-2026-06-20T175619.png",
      "score": 16.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -978,8 +979,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1008,31 +1009,30 @@
      "rank": 22
     },
     {
-     "name": "Satu Data Kalimantan Timur",
-     "slug": "data-kaltimprov-go-id",
-     "description": "Satu Data Kalimantan Timur is a provincial government open-data portal for Indonesia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 12,388 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-kaltimprov-go-id/refs/heads/main/screenshots/data-kaltimprov-go-id-2026-06-20T175555.png",
-     "score": 16.2,
+     "name": "Prudential plc",
+     "slug": "prudential-plc",
+     "description": "Prudential plc is a life and health insurance and asset management group incorporated in England and Wales and listed on the London, Hong Kong, Singapore and New York exchanges, with its principal operating office in Hong Kong and roots in London going back to 1848. Its home market for this profile is the United Kingdom, but its book is almost entirely Asian and African: life protection, health and medical, savings and retirement, takaful, pensions and Hong Kong Mandatory Provident Funds, plus asset management under the Eastspring brand, across Hong Kong, Singapore, Malaysia, Indonesia, the Philippines, Thailand, Vietnam, Taiwan, India, mainland China, Cambodia, Laos, Myanmar and a dozen African markets including Kenya, Uganda, Ghana, Nigeria and Zambia. It is no longer a UK retail insurer at all - the UK and Europe business was demerged as M&G plc in 2019 and the US business as Jackson Financial in 2021 - so the familiar UK \"Pru\" brands at pru.co.uk belong to M&G, not to this company. Its API posture is that there is no public API posture. Prudential plc publishes no developer portal, no API reference, no downloadable OpenAPI or Swagger document and no partner integration surface of any kind: developer, developers, docs, api, apis, partners, portal and sandbox subdomains of prudentialplc.com all fail to resolve, and /developers, /api, /developer, /partners and /integrations on the corporate site all return HTTP 404. The group's stated technology strategy is inward-facing - AI, automation, cloud and a global AI Lab running over a hundred internal use cases - and its distribution is built on tied agency forces and exclusive bancassurance partnerships with banks such as Standard Chartered, CIMB, MSB, SeABank, Bank Syariah Indonesia and UOB, which are commercial and contractual relationships rather than published API programmes. The Pulse by Prudential health and wealth app onboards health-tech and wealth-tech partners (Babylon, Tictrac, Halodoc, Smarter Health, Prive Technologies, OVO, Google Cloud) but every announcement describes the arrangement in commercial terms and none exposes a developer programme, SDK or public API. No ACORD, AL3, ACORD XML or NGDS reference was found anywhere in Prudential plc's public estate. Recorded honestly as a large carrier with a fully partner-gated, non-public integration surface. One genuine machine-readable surface does exist, and it is not an API: six of the group's market operating companies - Prudential Hong Kong, Prudential Singapore, Prudential Indonesia, Prudential Vietnam, Pru Life UK in the Philippines and Prudential BSN Takaful in Malaysia - publish real first-party llms.txt documents for grounding large language models, with Prudential Vietnam declaring a per-user-agent bot access policy for gptbot, claudebot, google-extended, perplexitybot and six other crawlers. The corporate domain publishes none. Underneath that, the group runs a visibly centralised security posture: TLS 1.3 and HSTS on every market host, and one shared PowerDMARC/PowerSPF tenant with a common aggregate-report mailbox across all seven domains, at p=reject on the corporate domain and p=quarantine in the markets, with no CAA record anywhere.",
+     "score": 16.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 28.9
+      "governance": 12.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 11.1,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 28.8,
       "matched_via": "tags"
      },
-     "agent_score": 3.2,
+     "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1042,10 +1042,10 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -1053,31 +1053,31 @@
      "rank": 23
     },
     {
-     "name": "Satu Data Semarang Regency",
-     "slug": "data-semarangkab-go-id",
-     "description": "Satu Data Semarang Regency is a regional government open-data portal for Indonesia running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 467 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-semarangkab-go-id/refs/heads/main/screenshots/data-semarangkab-go-id-2026-06-20T175619.png",
-     "score": 16.2,
+     "name": "Kita Bisa",
+     "slug": "kita-bisa",
+     "description": "Kitabisa is Indonesia's largest donation-based crowdfunding and mutual-aid platform, founded in 2013 and headquartered in Jakarta. It lets individuals, nonprofits, and corporations raise and give funds transparently for medical causes, disaster relief, education, and community development, and operates a dedicated Islamic-philanthropy surface for zakat, wakaf, and qurban. The group has grown beyond crowdfunding into digital fundraising services for NGOs (ngo.kitabisa.com), a CSR and social-marketing practice for corporate partners (csr.kitabisa.com), a cooperative, and the SalingJaga mutual-protection and insurance product. Kitabisa publishes no public API or developer program — there is no developer portal, API reference, or OpenAPI definition on any Kitabisa surface, and partner integrations are arranged through business channels. It does run a substantial first-party open source estate of 75 public Go, TypeScript, and GitHub Actions repositories, plus a public responsible-disclosure program backed by an RFC 9116 security.txt.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kita-bisa/refs/heads/main/screenshots/kita-bisa-2026-07-25T223902.png",
+     "score": 15.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 28.9
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 11.1,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 30.3,
       "matched_via": "tags"
      },
-     "agent_score": 3.2,
+     "agent_score": 2.7,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1087,11 +1087,11 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
+      "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
@@ -1113,8 +1113,8 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1150,8 +1150,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1195,8 +1195,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1233,8 +1233,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1271,53 +1271,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 29
-    },
-    {
-     "name": "Bank Jago",
-     "slug": "bank-jago",
-     "description": "PT Bank Jago Tbk is a technology-based digital bank in Indonesia, listed on the Indonesia Stock Exchange (IDX: ARTO) and backed by investors including Ribbit Capital and GoTo. Rather than a branch network, Bank Jago is delivered through the life-centric Jago mobile application and is deeply embedded into partner ecosystems — Gojek/GoPay for payments, and Bibit/Stockbit for investing — via API-based integrations. Its Open API payment surface is exposed through Indonesia's national SNAP (Standar Nasional Open API Pembayaran) programme, administered through the ASPI developer directory, rather than a self-hosted public developer portal. Bank Jago is regulated by the Indonesian Financial Services Authority (OJK) and Bank Indonesia. This API Evangelist profile is compiled from public sources as a fintech company lead; the bank publishes no self-hosted OpenAPI, SDK, or developer documentation at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-jago/refs/heads/main/screenshots/bank-jago-2026-07-25T202329.png",
-     "score": 14.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 24.1,
-      "matched_via": "tags"
-     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1336,27 +1291,35 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 29
     },
     {
-     "name": "Bibit",
-     "slug": "bibit",
-     "description": "Bibit is an Indonesian retail investment application that lets everyday users invest in mutual funds (reksa dana), government bonds (SBN/SBR/ORI), fixed-rate bonds, and stocks. Built for beginner investors, it uses robo-advisor technology to recommend diversified portfolios and is licensed by Indonesia's financial regulator OJK. Bibit operates within the Stockbit group and is a portfolio company of Prosus Ventures. As of this profile no public developer API, SDK, or developer portal is published; this repo tracks the company's public surface (security.txt, legal, help, blog) for the API Evangelist network.",
-     "score": 13.7,
+     "name": "Bank Jago",
+     "slug": "bank-jago",
+     "description": "PT Bank Jago Tbk is a technology-based digital bank in Indonesia, listed on the Indonesia Stock Exchange (IDX: ARTO) and backed by investors including Ribbit Capital and GoTo. Rather than a branch network, Bank Jago is delivered through the life-centric Jago mobile application and is deeply embedded into partner ecosystems — Gojek/GoPay for payments, and Bibit/Stockbit for investing — via API-based integrations. Its Open API payment surface is exposed through Indonesia's national SNAP (Standar Nasional Open API Pembayaran) programme, administered through the ASPI developer directory, rather than a self-hosted public developer portal. Bank Jago is regulated by the Indonesian Financial Services Authority (OJK) and Bank Indonesia. This API Evangelist profile is compiled from public sources as a fintech company lead; the bank publishes no self-hosted OpenAPI, SDK, or developer documentation at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-jago/refs/heads/main/screenshots/bank-jago-2026-07-25T202329.png",
+     "score": 13.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 6.5,
+      "governance": 12.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 24.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
@@ -1368,37 +1331,68 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 30
+    },
+    {
+     "name": "GoWork",
+     "slug": "gowork",
+     "description": "GoWork is Indonesia's largest premium coworking and flexible office space provider, operating more than 25 locations across Jakarta, Tangerang, Surabaya, Bali, and Medan. Formed from the 2018 merger of GoWork and Rework, the company offers private offices, dedicated desks, coworking memberships, virtual offices, meeting and event spaces, plus podcast and live-streaming studios. It also bundles business services such as company incorporation, tax and accounting, visa and work-permit processing, and legal support. Members discover, book, and manage workspace through the GoWork mobile apps and web booking platform. GoWork is backed by 500 Global and is tracked in the API Evangelist network as a company profile.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gowork/refs/heads/main/screenshots/gowork-2026-07-25T220148.png",
+     "score": 13.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
      "rank": 31
     },
     {
-     "name": "Stockbit",
-     "slug": "stockbit",
-     "description": "Stockbit (PT Stockbit Sekuritas Digital) is an Indonesian retail-investing platform and social community for the Indonesia Stock Exchange (IDX), letting members discuss, analyze, and trade stocks with real-time market data, fundamentals, trading ideas, news, and sentiment. The product is delivered as consumer iOS and Android apps plus a web experience, with a separate crypto brand (Stockbit Crypto). It was surfaced as a portfolio company of 500 Global. As of this enrichment pass Stockbit publishes no public developer API, developer portal, OpenAPI/Swagger definition, SDK, or .well-known discovery surface — the profile is maintained as a consumer-app company record rather than an API provider.",
-     "score": 13.6,
+     "name": "Pintarnya",
+     "slug": "pintarnya",
+     "description": "Pintarnya is an Indonesian technology startup, launched in May 2022, that operates an employment and financial-services super-app for the country's blue-collar and entry-level workforce (education levels from elementary school through bachelor's degree, \"SD-S1\"). The platform aggregates tens of thousands of daily-updated job listings across 300+ Indonesian cities and pairs job search with Cari Cuan side-income tasks, Siap Kerja skill-building video courses, a CV builder, and an employer/recruiter posting product used by tens of thousands of companies. Pintarnya reports more than 10 million registered job seekers and is registered with Indonesia's Ministry of Labor (KEMNAKER). It is a consumer web and mobile product; no public developer API, OpenAPI description, or developer portal is published as of this profile.",
+     "score": 13.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 61.1,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 4.3,
-      "commercial_clarity": 21.1
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 23.3,
-      "matched_via": "weak_tags"
-     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1418,157 +1412,6 @@
       "dry_run_mode": false
      },
      "rank": 32
-    },
-    {
-     "name": "GoWork",
-     "slug": "gowork",
-     "description": "GoWork is Indonesia's largest premium coworking and flexible office space provider, operating more than 25 locations across Jakarta, Tangerang, Surabaya, Bali, and Medan. Formed from the 2018 merger of GoWork and Rework, the company offers private offices, dedicated desks, coworking memberships, virtual offices, meeting and event spaces, plus podcast and live-streaming studios. It also bundles business services such as company incorporation, tax and accounting, visa and work-permit processing, and legal support. Members discover, book, and manage workspace through the GoWork mobile apps and web booking platform. GoWork is backed by 500 Global and is tracked in the API Evangelist network as a company profile.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gowork/refs/heads/main/screenshots/gowork-2026-07-25T220148.png",
-     "score": 13.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 33
-    },
-    {
-     "name": "Pintarnya",
-     "slug": "pintarnya",
-     "description": "Pintarnya is an Indonesian technology startup, launched in May 2022, that operates an employment and financial-services super-app for the country's blue-collar and entry-level workforce (education levels from elementary school through bachelor's degree, \"SD-S1\"). The platform aggregates tens of thousands of daily-updated job listings across 300+ Indonesian cities and pairs job search with Cari Cuan side-income tasks, Siap Kerja skill-building video courses, a CV builder, and an employer/recruiter posting product used by tens of thousands of companies. Pintarnya reports more than 10 million registered job seekers and is registered with Indonesia's Ministry of Labor (KEMNAKER). It is a consumer web and mobile product; no public developer API, OpenAPI description, or developer portal is published as of this profile.",
-     "score": 13.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 34
-    },
-    {
-     "name": "Astro",
-     "slug": "astro",
-     "description": "Astro (PT Astro Technologies Indonesia, astronauts.id) is an Indonesian quick-commerce grocery and daily-needs delivery service that fulfills orders in as little as fifteen minutes across the Greater Jakarta (Jadetabek) area. The consumer mobile app offers more than 15,000 SKUs spanning fresh produce, meat and seafood, frozen and prepared meals, beverages, snacks, baby and maternal care, personal care and beauty, household supplies, and the private-label Astro Goods line, operating 24/7 from a network of dark stores. Astro is venture-backed by Accel, Lightspeed Venture Partners, and Redpoint Ventures. It is a consumer B2C app and publishes no public developer API; this API Evangelist profile tracks the company as a portfolio lead.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/astro/refs/heads/main/screenshots/astro-2026-07-25T201507.png",
-     "score": 13.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 61.1,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 35
-    },
-    {
-     "name": "Astro Sea",
-     "slug": "astro-sea",
-     "description": "Astro (PT Astro Technologies Indonesia), operating at astronauts.id, is an Indonesian quick-commerce platform that delivers groceries and everyday essentials in as little as 15 minutes. Its consumer mobile apps (iOS and Android) offer more than 3,000 curated products spanning fresh produce, frozen goods, groceries, beauty, household items, and electronics, with 24/7 service across the Greater Jakarta (JADETABEK) region. Astro is backed by Lightspeed Venture Partners and was surfaced through that portfolio into the API Evangelist network. Astro is a business-to-consumer application company; it publishes a consumer app, a corporate site, and an RFC 9116 security contact, but does not currently expose a public developer API, OpenAPI definition, SDKs, or developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/astro-sea/refs/heads/main/screenshots/astro-sea-2026-07-25T201513.png",
-     "score": 13.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 61.1,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 36
     }
    ]
   },
@@ -1577,8 +1420,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 43,
-   "shown": 43,
+   "count": 47,
+   "shown": 47,
    "providers": [
     {
      "name": "Amartha",
@@ -1596,8 +1439,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1623,7 +1466,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 33
     },
     {
      "name": "Bukalapak",
@@ -1640,8 +1483,8 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1667,7 +1510,88 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 34
+    },
+    {
+     "name": "Bibit",
+     "slug": "bibit",
+     "description": "Bibit is an Indonesian retail investment application that lets everyday users invest in mutual funds (reksa dana), government bonds (SBN/SBR/ORI), fixed-rate bonds, and stocks. Built for beginner investors, it uses robo-advisor technology to recommend diversified portfolios and is licensed by Indonesia's financial regulator OJK. Bibit operates within the Stockbit group and is a portfolio company of Prosus Ventures. As of this profile no public developer API, SDK, or developer portal is published; this repo tracks the company's public surface (security.txt, legal, help, blog) for the API Evangelist network.",
+     "score": 12.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 2.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 35
+    },
+    {
+     "name": "Stockbit",
+     "slug": "stockbit",
+     "description": "Stockbit (PT Stockbit Sekuritas Digital) is an Indonesian retail-investing platform and social community for the Indonesia Stock Exchange (IDX), letting members discuss, analyze, and trade stocks with real-time market data, fundamentals, trading ideas, news, and sentiment. The product is delivered as consumer iOS and Android apps plus a web experience, with a separate crypto brand (Stockbit Crypto). It was surfaced as a portfolio company of 500 Global. As of this enrichment pass Stockbit publishes no public developer API, developer portal, OpenAPI/Swagger definition, SDK, or .well-known discovery surface — the profile is maintained as a consumer-app company record rather than an API provider.",
+     "score": 12.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 23.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 36
     },
     {
      "name": "HD",
@@ -1685,8 +1609,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1712,6 +1636,82 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 37
+    },
+    {
+     "name": "Astro",
+     "slug": "astro",
+     "description": "Astro (PT Astro Technologies Indonesia, astronauts.id) is an Indonesian quick-commerce grocery and daily-needs delivery service that fulfills orders in as little as fifteen minutes across the Greater Jakarta (Jadetabek) area. The consumer mobile app offers more than 15,000 SKUs spanning fresh produce, meat and seafood, frozen and prepared meals, beverages, snacks, baby and maternal care, personal care and beauty, household supplies, and the private-label Astro Goods line, operating 24/7 from a network of dark stores. Astro is venture-backed by Accel, Lightspeed Venture Partners, and Redpoint Ventures. It is a consumer B2C app and publishes no public developer API; this API Evangelist profile tracks the company as a portfolio lead.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/astro/refs/heads/main/screenshots/astro-2026-07-25T201507.png",
+     "score": 11.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 2.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 38
+    },
+    {
+     "name": "Astro Sea",
+     "slug": "astro-sea",
+     "description": "Astro (PT Astro Technologies Indonesia), operating at astronauts.id, is an Indonesian quick-commerce platform that delivers groceries and everyday essentials in as little as 15 minutes. Its consumer mobile apps (iOS and Android) offer more than 3,000 curated products spanning fresh produce, frozen goods, groceries, beauty, household items, and electronics, with 24/7 service across the Greater Jakarta (JADETABEK) region. Astro is backed by Lightspeed Venture Partners and was surfaced through that portfolio into the API Evangelist network. Astro is a business-to-consumer application company; it publishes a consumer app, a corporate site, and an RFC 9116 security contact, but does not currently expose a public developer API, OpenAPI definition, SDKs, or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/astro-sea/refs/heads/main/screenshots/astro-sea-2026-07-25T201513.png",
+     "score": 11.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 2.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 39
     },
     {
@@ -1730,8 +1730,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1768,8 +1768,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1813,8 +1813,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1851,8 +1851,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1895,8 +1895,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1933,8 +1933,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1971,8 +1971,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2009,8 +2009,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2047,8 +2047,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2084,8 +2084,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2121,8 +2121,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2158,8 +2158,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2196,8 +2196,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2234,8 +2234,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2257,22 +2257,23 @@
      "rank": 53
     },
     {
-     "name": "Touchten",
-     "slug": "touchten",
-     "description": "Touchten (Touchten Pte. Ltd.) is an award-winning mobile game studio headquartered in Jakarta, Indonesia, and an early 500 Global (500 Startups) portfolio company. Its casual games - including Piper's Pet Cafe, Royal Garden Tales, Dessert Chain, Warung Chain Go Food Express, and the Teka-Teki Saku (TTS) crossword series - are published on the App Store and Google Play, are played by millions worldwide, and cater especially to the underserved women gamers market in the US and Europe. Touchten won the Google Play Indonesia Games Contest and received the Forbes Indonesia Rising Global Stars Award. The company publishes no developer portal or public API surface.",
-     "score": 9.8,
+     "name": "Edukita",
+     "slug": "edukita",
+     "description": "Edukita (PT Edukita Budaya Cinta Belajar) is an Indonesian education company founded during the COVID-19 pandemic by Peter Gumulia and Sean Widjaja on the belief that high-quality education should be accessible to all. It teaches skills that matter through playful but powerful learning, delivering programs online, through six physical learning centers across Greater Jakarta (Bintaro, Bogor, BSD, Depok, Gading Serpong), and blended (Rumah Belajar Edukita). Programs span English with native speakers, early childhood development, Japanese mathematics, and professional upskilling for young students, families, adult learners, and corporate training. Edukita is a portfolio company of 500 Global. It exposes no public developer API surface at this time; this profile captures its identity and domain-security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/edukita/refs/heads/main/screenshots/edukita-2026-07-25T212916.png",
+     "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.3,
-      "commercial_clarity": 10.5
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2294,11 +2295,11 @@
      "rank": 54
     },
     {
-     "name": "Edukita",
-     "slug": "edukita",
-     "description": "Edukita (PT Edukita Budaya Cinta Belajar) is an Indonesian education company founded during the COVID-19 pandemic by Peter Gumulia and Sean Widjaja on the belief that high-quality education should be accessible to all. It teaches skills that matter through playful but powerful learning, delivering programs online, through six physical learning centers across Greater Jakarta (Bintaro, Bogor, BSD, Depok, Gading Serpong), and blended (Rumah Belajar Edukita). Programs span English with native speakers, early childhood development, Japanese mathematics, and professional upskilling for young students, families, adult learners, and corporate training. Edukita is a portfolio company of 500 Global. It exposes no public developer API surface at this time; this profile captures its identity and domain-security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/edukita/refs/heads/main/screenshots/edukita-2026-07-25T212916.png",
-     "score": 9.7,
+     "name": "Pashouses",
+     "slug": "pashouses",
+     "description": "Pashouses (PT Pionir Alfa Sejahtera) is an Indonesian proptech company operating an end-to-end transactional marketplace for buying and selling ready-to-occupy residential homes across the Greater Jakarta (Jabodetabek) region — Jakarta, Tangerang, Tangerang Selatan, Bekasi, Bogor, and Depok. Founded in 2020 by Junghans Tasani and Bin Anindita, the platform combines an iBuyer model, brokerage, staging, and renovation with mortgage (KPR) origination through partnerships with major Indonesian banks (BCA, Mandiri, BSI, BRI). It offers consumer tools including a Smart Agent property assistant, a KPR mortgage calculator, and an affordability calculator. QED Investors led a $5M pre-Series B in November 2022 (its first Indonesian / Southeast Asian investment). The company exposes a consumer web marketplace only; no public developer, API, or documentation surface was found during enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pashouses/refs/heads/main/screenshots/pashouses-2026-08-07T191525.png",
+     "score": 9.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2306,11 +2307,11 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2332,23 +2333,23 @@
      "rank": 55
     },
     {
-     "name": "Pashouses",
-     "slug": "pashouses",
-     "description": "Pashouses (PT Pionir Alfa Sejahtera) is an Indonesian proptech company operating an end-to-end transactional marketplace for buying and selling ready-to-occupy residential homes across the Greater Jakarta (Jabodetabek) region — Jakarta, Tangerang, Tangerang Selatan, Bekasi, Bogor, and Depok. Founded in 2020 by Junghans Tasani and Bin Anindita, the platform combines an iBuyer model, brokerage, staging, and renovation with mortgage (KPR) origination through partnerships with major Indonesian banks (BCA, Mandiri, BSI, BRI). It offers consumer tools including a Smart Agent property assistant, a KPR mortgage calculator, and an affordability calculator. QED Investors led a $5M pre-Series B in November 2022 (its first Indonesian / Southeast Asian investment). The company exposes a consumer web marketplace only; no public developer, API, or documentation surface was found during enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pashouses/refs/heads/main/screenshots/pashouses-2026-08-07T191525.png",
-     "score": 9.2,
+     "name": "Aruna",
+     "slug": "aruna",
+     "description": "Aruna is Indonesia's largest integrated fisheries commerce platform, on a mission to make the sea a better livelihood for all by building a fair and sustainable fisheries ecosystem. Aruna connects more than 40,000 small-scale fishermen to domestic and global markets using technology, a network of processing partners, and 177+ distribution hubs (Aruna Hubs) across the Indonesian archipelago, trading 23+ seafood commodity types into 31+ countries. The company pairs commerce with sustainability work, including fisherman education, fish-population tracking, and coastal-community empowerment. Aruna is a portfolio company of Prosus Ventures and was added to the API Evangelist network as a company lead; it publishes no public API, developer portal, or machine-readable API surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aruna/refs/heads/main/screenshots/aruna-2026-07-25T201349.png",
+     "score": 9.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 21.1
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2370,11 +2371,10 @@
      "rank": 56
     },
     {
-     "name": "Aruna",
-     "slug": "aruna",
-     "description": "Aruna is Indonesia's largest integrated fisheries commerce platform, on a mission to make the sea a better livelihood for all by building a fair and sustainable fisheries ecosystem. Aruna connects more than 40,000 small-scale fishermen to domestic and global markets using technology, a network of processing partners, and 177+ distribution hubs (Aruna Hubs) across the Indonesian archipelago, trading 23+ seafood commodity types into 31+ countries. The company pairs commerce with sustainability work, including fisherman education, fish-population tracking, and coastal-community empowerment. Aruna is a portfolio company of Prosus Ventures and was added to the API Evangelist network as a company lead; it publishes no public API, developer portal, or machine-readable API surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aruna/refs/heads/main/screenshots/aruna-2026-07-25T201349.png",
-     "score": 9.1,
+     "name": "Touchten",
+     "slug": "touchten",
+     "description": "Touchten (Touchten Pte. Ltd.) is an award-winning mobile game studio headquartered in Jakarta, Indonesia, and an early 500 Global (500 Startups) portfolio company. Its casual games - including Piper's Pet Cafe, Royal Garden Tales, Dessert Chain, Warung Chain Go Food Express, and the Teka-Teki Saku (TTS) crossword series - are published on the App Store and Google Play, are played by millions worldwide, and cater especially to the underserved women gamers market in the US and Europe. Touchten won the Google Play Indonesia Games Contest and received the Forbes Indonesia Rising Global Stars Award. The company publishes no developer portal or public API surface.",
+     "score": 8.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2382,11 +2382,11 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
+      "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2408,23 +2408,23 @@
      "rank": 57
     },
     {
-     "name": "Ekomoditi",
-     "slug": "ekomoditi",
-     "description": "eKomoditi (PT Ekomoditi Solutions Indonesia) is a Southeast Asian agriculture-technology company, founded in 2015 and based in Jakarta, that builds digital plantation-management software for oil palm, rubber, sugar, and durian estates. Its flagship Electronic Plantation Control System (ePCS) replaces paper-based field recording with a mobile in-field Android app, an eGIS geographic mapping application, mills automation, and business-intelligence analytics — capturing harvesting, fertilization, pest-management, worker, and transport data for same-day reporting, labor-fraud monitoring, quality control, and traceability. eKomoditi also offers aerial-mapping drone services, a plantation marketplace, and due-diligence consulting. The company is backed by 500 Global and ZB Capital. It does not currently publish a public developer API, SDKs, or API documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ekomoditi/refs/heads/main/screenshots/ekomoditi-2026-07-25T213038.png",
-     "score": 8.2,
+     "name": "Fairbanc",
+     "slug": "fairbanc",
+     "description": "Fairbanc (PT Fairbanc Technologies Indonesia) is a Jakarta-based digital finance platform that uses AI/ML-powered credit scoring to deliver embedded, revolving supply-chain financing and buy-now-pay-later \"terms of payment\" to micro, small, and medium enterprises (MSMEs) across Indonesia. Working with trusted financial institutions and distributor/supply-chain ecosystems, Fairbanc provides merchants with an instant digital facility limit and short-term working-capital liquidity at the point of purchase — with no formal loan application, smartphone, or app required — plus data intelligence and consulting that help distributors reduce bad-debt risk and grow transaction value. The company reports its terms-of-payment product drove roughly 35% distributor sales growth. This is a company profile in the API Evangelist network; Fairbanc publishes a consumer-facing marketing and onboarding site but no public developer/API program at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fairbanc/refs/heads/main/screenshots/fairbanc-2026-07-25T214153.png",
+     "score": 8.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
+      "developer_ergonomics": 15.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2446,23 +2446,30 @@
      "rank": 58
     },
     {
-     "name": "Fairbanc",
-     "slug": "fairbanc",
-     "description": "Fairbanc (PT Fairbanc Technologies Indonesia) is a Jakarta-based digital finance platform that uses AI/ML-powered credit scoring to deliver embedded, revolving supply-chain financing and buy-now-pay-later \"terms of payment\" to micro, small, and medium enterprises (MSMEs) across Indonesia. Working with trusted financial institutions and distributor/supply-chain ecosystems, Fairbanc provides merchants with an instant digital facility limit and short-term working-capital liquidity at the point of purchase — with no formal loan application, smartphone, or app required — plus data intelligence and consulting that help distributors reduce bad-debt risk and grow transaction value. The company reports its terms-of-payment product drove roughly 35% distributor sales growth. This is a company profile in the API Evangelist network; Fairbanc publishes a consumer-facing marketing and onboarding site but no public developer/API program at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fairbanc/refs/heads/main/screenshots/fairbanc-2026-07-25T214153.png",
-     "score": 8.0,
+     "name": "GoTo",
+     "slug": "goto",
+     "description": "GoTo (PT GoTo Gojek Tokopedia Tbk, IDX: GOTO) is the largest technology group in Indonesia, formed in May 2021 through the merger of the on-demand and ride-hailing pioneer Gojek and the e-commerce marketplace Tokopedia. GoTo operates a super-app ecosystem spanning on-demand services (ride-hailing, food and grocery delivery, logistics), e-commerce, and financial technology through GoTo Financial (including GoPay, one of Indonesia's leading digital wallets). The group serves Indonesia's population of more than 270 million, connecting tens of millions of consumers with millions of merchants and driver-partners, and is estimated to contribute roughly 2 percent of Indonesia's GDP. GoTo is backed by a roster of blue-chip investors including SoftBank Vision Fund, Alibaba, Google, Tencent, Temasek, and Sequoia Capital India. This company profile was surfaced as a SoftBank Vision Fund portfolio company and enriched by the API Evangelist pipeline. Note that GoTo Group's developer surfaces are published per product (Gojek/GoBiz, Tokopedia, GoTo Financial/Midtrans) rather than at a single group-level developer portal; this record profiles the parent holding company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/goto/refs/heads/main/screenshots/goto-2026-07-25T220125.png",
+     "score": 7.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 15.2,
+      "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 9.4,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2484,22 +2491,23 @@
      "rank": 59
     },
     {
-     "name": "UrbanHire",
-     "slug": "urbanhire",
-     "description": "UrbanHire was an Indonesian all-in-one hiring and assessment platform (applicant tracking system) backed by 500 Global, designed to streamline recruitment and help employers hire the right talent. The company appears defunct - urbanhire.com has been offline behind Cloudflare (HTTP 530) with the last archived homepage from January 2021 - and it never published a public API or developer documentation. Its GitHub organization and first-party npm engineering packages remain the surviving technical footprint.",
-     "score": 7.5,
+     "name": "Hangry",
+     "slug": "hangry",
+     "description": "Hangry is an Indonesian multi-brand virtual restaurant and cloud-kitchen company founded in 2019 and backed by 500 Global. It designs, operates, and delivers a portfolio of consumer food brands - including Moon Chicken, San Gyu, Ayam Koplo, Dari Pada, Wai Thai, Pizza Gang, and Accha - engineered to be tasty, consistent, and affordable for the mass market and sold primarily through third-party food-delivery channels. Hangry operates as a direct-to-consumer food and beverage business rather than an API or developer platform provider; it publishes no public developer portal, API documentation, or machine-readable API surface. This profile was surfaced as a 500 Global portfolio company and added to the API Evangelist network for enrichment tracking.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hangry/refs/heads/main/screenshots/hangry-2026-07-25T220629.png",
+     "score": 7.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
+      "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2521,23 +2529,23 @@
      "rank": 60
     },
     {
-     "name": "Brik",
-     "slug": "brik",
-     "description": "Brik (\"[Re]Constructing Construction\") is an Indonesian construction-materials company, backed by Accel, that operates concrete batching plants and supplies ready-mix concrete for building and infrastructure projects across the Greater Jakarta region, including Bekasi, Bogor, Karawang, and Bandung. Its product line spans standard ready-mix batches and higher-performance \"Super Concrete\" variants used for mass-concrete pours. At the time of enrichment Brik publishes no public developer API, OpenAPI specification, SDKs, or webhook surface; this record is maintained in the API Evangelist network as a company profile.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brik/refs/heads/main/screenshots/brik-2026-07-25T203915.png",
-     "score": 7.3,
+     "name": "Ekomoditi",
+     "slug": "ekomoditi",
+     "description": "eKomoditi (PT Ekomoditi Solutions Indonesia) is a Southeast Asian agriculture-technology company, founded in 2015 and based in Jakarta, that builds digital plantation-management software for oil palm, rubber, sugar, and durian estates. Its flagship Electronic Plantation Control System (ePCS) replaces paper-based field recording with a mobile in-field Android app, an eGIS geographic mapping application, mills automation, and business-intelligence analytics — capturing harvesting, fertilization, pest-management, worker, and transport data for same-day reporting, labor-fraud monitoring, quality control, and traceability. eKomoditi also offers aerial-mapping drone services, a plantation marketplace, and due-diligence consulting. The company is backed by 500 Global and ZB Capital. It does not currently publish a public developer API, SDKs, or API documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ekomoditi/refs/heads/main/screenshots/ekomoditi-2026-07-25T213038.png",
+     "score": 7.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
+      "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2559,23 +2567,22 @@
      "rank": 61
     },
     {
-     "name": "Hangry",
-     "slug": "hangry",
-     "description": "Hangry is an Indonesian multi-brand virtual restaurant and cloud-kitchen company founded in 2019 and backed by 500 Global. It designs, operates, and delivers a portfolio of consumer food brands - including Moon Chicken, San Gyu, Ayam Koplo, Dari Pada, Wai Thai, Pizza Gang, and Accha - engineered to be tasty, consistent, and affordable for the mass market and sold primarily through third-party food-delivery channels. Hangry operates as a direct-to-consumer food and beverage business rather than an API or developer platform provider; it publishes no public developer portal, API documentation, or machine-readable API surface. This profile was surfaced as a 500 Global portfolio company and added to the API Evangelist network for enrichment tracking.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hangry/refs/heads/main/screenshots/hangry-2026-07-25T220629.png",
-     "score": 7.1,
+     "name": "UrbanHire",
+     "slug": "urbanhire",
+     "description": "UrbanHire was an Indonesian all-in-one hiring and assessment platform (applicant tracking system) backed by 500 Global, designed to streamline recruitment and help employers hire the right talent. The company appears defunct - urbanhire.com has been offline behind Cloudflare (HTTP 530) with the last archived homepage from January 2021 - and it never published a public API or developer documentation. Its GitHub organization and first-party npm engineering packages remain the surviving technical footprint.",
+     "score": 6.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 10.5
+      "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2597,11 +2604,11 @@
      "rank": 62
     },
     {
-     "name": "GoTo",
-     "slug": "goto",
-     "description": "GoTo (PT GoTo Gojek Tokopedia Tbk, IDX: GOTO) is the largest technology group in Indonesia, formed in May 2021 through the merger of the on-demand and ride-hailing pioneer Gojek and the e-commerce marketplace Tokopedia. GoTo operates a super-app ecosystem spanning on-demand services (ride-hailing, food and grocery delivery, logistics), e-commerce, and financial technology through GoTo Financial (including GoPay, one of Indonesia's leading digital wallets). The group serves Indonesia's population of more than 270 million, connecting tens of millions of consumers with millions of merchants and driver-partners, and is estimated to contribute roughly 2 percent of Indonesia's GDP. GoTo is backed by a roster of blue-chip investors including SoftBank Vision Fund, Alibaba, Google, Tencent, Temasek, and Sequoia Capital India. This company profile was surfaced as a SoftBank Vision Fund portfolio company and enriched by the API Evangelist pipeline. Note that GoTo Group's developer surfaces are published per product (Gojek/GoBiz, Tokopedia, GoTo Financial/Midtrans) rather than at a single group-level developer portal; this record profiles the parent holding company.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/goto/refs/heads/main/screenshots/goto-2026-07-25T220125.png",
-     "score": 7.0,
+     "name": "Brik",
+     "slug": "brik",
+     "description": "Brik (\"[Re]Constructing Construction\") is an Indonesian construction-materials company, backed by Accel, that operates concrete batching plants and supplies ready-mix concrete for building and infrastructure projects across the Greater Jakarta region, including Bekasi, Bogor, Karawang, and Bandung. Its product line spans standard ready-mix batches and higher-performance \"Super Concrete\" variants used for mass-concrete pours. At the time of enrichment Brik publishes no public developer API, OpenAPI specification, SDKs, or webhook surface; this record is maintained in the API Evangelist network as a company profile.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brik/refs/heads/main/screenshots/brik-2026-07-25T203915.png",
+     "score": 6.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2609,11 +2616,11 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2635,23 +2642,23 @@
      "rank": 63
     },
     {
-     "name": "BerryKitchen",
-     "slug": "berrykitchen",
-     "description": "BerryKitchen (Berry Kitchen) was an Indonesian online catering and prepared-meal company founded in Jakarta in 2012 by Cynthia Tenggara. It took online orders for lunch boxes and bento meals aimed at office workers across Jabodetabek, and ran the full chain itself - supplier sourcing, cooking, packaging and last-mile delivery - rather than acting as a marketplace. It was backed by East Ventures and 500 Startups (now 500 Global) and was acquired by Yummy Corp in 2019, with the team folded into Yummy Corp's Yummybox unit and the founder subsequently exiting. BerryKitchen never published a public API, developer portal or SDKs, and its domain is no longer operated by the company, so this profile is catalogued for historical and VC portfolio-graph purposes only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/berrykitchen/refs/heads/main/screenshots/berrykitchen-2026-07-25T202748.png",
-     "score": 6.9,
+     "name": "Brodo",
+     "slug": "brodo",
+     "description": "Brodo (PT Brodo Ganesha Indonesia) is an Indonesian direct-to-consumer footwear and menswear brand founded in Bandung, selling shoes, apparel, and accessories through its official webstore at bro.do. It was surfaced as a 500 Global portfolio company and added to the API Evangelist network. Brodo runs a consumer e-commerce storefront on a third-party commerce platform (Plugo) with local Indonesian payment rails (NicePay); it publishes no first-party developer API, OpenAPI, developer portal, SDK, or public integration surface at this time, so there are no API artifacts to enrich beyond this company profile.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brodo/refs/heads/main/screenshots/brodo-2026-07-25T203949.png",
+     "score": 5.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2673,23 +2680,23 @@
      "rank": 64
     },
     {
-     "name": "Brodo",
-     "slug": "brodo",
-     "description": "Brodo (PT Brodo Ganesha Indonesia) is an Indonesian direct-to-consumer footwear and menswear brand founded in Bandung, selling shoes, apparel, and accessories through its official webstore at bro.do. It was surfaced as a 500 Global portfolio company and added to the API Evangelist network. Brodo runs a consumer e-commerce storefront on a third-party commerce platform (Plugo) with local Indonesian payment rails (NicePay); it publishes no first-party developer API, OpenAPI, developer portal, SDK, or public integration surface at this time, so there are no API artifacts to enrich beyond this company profile.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brodo/refs/heads/main/screenshots/brodo-2026-07-25T203949.png",
-     "score": 5.9,
+     "name": "BerryKitchen",
+     "slug": "berrykitchen",
+     "description": "BerryKitchen (Berry Kitchen) was an Indonesian online catering and prepared-meal company founded in Jakarta in 2012 by Cynthia Tenggara. It took online orders for lunch boxes and bento meals aimed at office workers across Jabodetabek, and ran the full chain itself - supplier sourcing, cooking, packaging and last-mile delivery - rather than acting as a marketplace. It was backed by East Ventures and 500 Startups (now 500 Global) and was acquired by Yummy Corp in 2019, with the team folded into Yummy Corp's Yummybox unit and the founder subsequently exiting. BerryKitchen never published a public API, developer portal or SDKs, and its domain is no longer operated by the company, so this profile is catalogued for historical and VC portfolio-graph purposes only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/berrykitchen/refs/heads/main/screenshots/berrykitchen-2026-07-25T202748.png",
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.3,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2726,8 +2733,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2763,8 +2770,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2800,8 +2807,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2845,8 +2852,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2883,8 +2890,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2921,8 +2928,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2959,8 +2966,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2997,8 +3004,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3034,8 +3041,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3071,8 +3078,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3108,8 +3115,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3145,8 +3152,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3182,8 +3189,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3219,8 +3226,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

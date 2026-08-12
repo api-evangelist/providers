@@ -21,21 +21,29 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.4
-  scored_at: '2026-08-10'
+  score: 29.1
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Domain Intelligence API from WhoAPI — 1 operation(s) for domain intelligence.
   name: WhoAPI Domain Intelligence API
   slug: whoapi-domain-intelligence-api
-artifact_total: 3
+artifact_total: 4
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/whoapi-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/whoapi-openapi-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -120,6 +128,10 @@ created: '2026-07-17'
 description: WhoAPI (founded 2011, WhoAPI Inc.) is a domain-intelligence API company that exposes WHOIS records, real-time domain availability across hundreds of TLDs, domain age, domain reputation/score, SSL certificate inspection, email score, IP/domain blacklist checks, and website screenshots through a single key-authenticated REST endpoint (api.whoapi.com). Every request is an HTTP GET selecting a task with the `r` parameter and returning gzip-compressed JSON with a numeric `status` and human-readable `status_desc`. It serves cybersecurity teams, domain registrars, SEO agencies, and fraud-detection systems, with first-party and community SDKs for Ruby, Python, Go, and R.
 image: https://whoapi.com/wp-content/uploads/2024/04/API-company-illustration.svg
 layout: provider
+mcp_servers:
+- description: ''
+  name: whoapi-mcp.yml
+  slug: whoapi-mcpyml
 modified: '2026-07-21'
 name: WhoAPI
 nav: Providers
@@ -127,16 +139,16 @@ network: true
 overview: 'WhoAPI publishes 1 API on the [APIs.io](https://apis.io/) network: Domain Intelligence API. Tagged areas include Company, Domains, WHOIS, Domain Availability, and SSL.
 
 
-  WhoAPI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 13 more developer resources.'
+  WhoAPI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 15 more developer resources.'
 random_paper: 68
 score:
   band: developing
-  composite: 46.0
-  delta: 0.0
+  composite: 45.9
+  delta: -0.1
   facets:
     commercial_clarity: 34.2
-    contract_quality: 59.7
-    developer_ergonomics: 62.5
+    contract_quality: 57.5
+    developer_ergonomics: 64.7
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 21.1
@@ -150,8 +162,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

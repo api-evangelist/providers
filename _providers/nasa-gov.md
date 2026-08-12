@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -194,6 +194,18 @@ collections:
   name: NASA Vesta/Moon/Mars Trek WMTS
   slug: open-trek-wmts
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/nasa/apod-api/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/nasa/apod-api/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/nasa/apod-api/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -383,7 +395,7 @@ overview: 'NASA Open APIs publishes 34 APIs on the [APIs.io](https://apis.io/) n
   The NASA Open APIs catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  NASA Open APIs'' developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, support, and 25 more developer resources.'
+  NASA Open APIs'' developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, support, and 28 more developer resources.'
 random_paper: 100
 rate_limits:
 - limit_count: 0
@@ -400,15 +412,15 @@ rules:
   slug: nasa-gov-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.5
-  delta: 0.0
+  composite: 45.9
+  delta: 3.4
   facets:
-    commercial_clarity: 21.1
-    contract_quality: 64.3
+    commercial_clarity: 34.2
+    contract_quality: 61.9
     developer_ergonomics: 34.8
     discoverability: 68.5
     governance: 58.3
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 42.5
   provenance:
     agentic_access: derived
@@ -423,8 +435,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-gov/refs/heads/main/screenshots/nasa-gov-2026-06-20T185951.png
 security:

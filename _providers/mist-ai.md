@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 521
   human_in_the_loop: 15
@@ -677,6 +677,14 @@ collections:
   name: Mist API
   slug: open-mist-ai
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/mistsys/mist_openapi/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/mistsys/mist_openapi/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -866,15 +874,15 @@ network: true
 overview: 'Juniper Mist AI publishes 209 APIs on the [APIs.io](https://apis.io/) network, including Admins API, Admins Login API, Admins Login - OAuth2 API, and 206 more. Tagged areas include AI, AIOps, Artificial Intelligence, Networking, and Wi-Fi.
 
 
-  Juniper Mist AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, training material, tooling, and 31 more developer resources.'
+  Juniper Mist AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, training material, tooling, and 33 more developer resources.'
 random_paper: 112
 score:
   band: developing
-  composite: 43.6
-  delta: 0.0
+  composite: 42.9
+  delta: -0.7
   facets:
     commercial_clarity: 21.1
-    contract_quality: 65.8
+    contract_quality: 63.3
     developer_ergonomics: 60.9
     discoverability: 59.3
     governance: 0.0
@@ -887,8 +895,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 209
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mist-ai/refs/heads/main/screenshots/mist-ai-2026-06-20T185612.png
 security:

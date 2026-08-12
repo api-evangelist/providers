@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-10'
+  score: 44.4
+  scored_at: '2026-08-11'
 api_count: 14
 apis:
 - description: The Access groups API from ButterflyMX — 6 operation(s) for access groups.
@@ -63,12 +63,20 @@ apis:
 - description: The Virtual Keys API from ButterflyMX — 2 operation(s) for virtual keys.
   name: ButterflyMX Virtual Keys API
   slug: butterflymx-virtual-keys-api
-artifact_total: 19
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Butterflymx Webhooks
   slug: butterflymx-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/butterflymx-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/butterflymx-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -202,6 +210,10 @@ description: 'ButterflyMX is a property-access technology company whose smart vi
   sandbox replica for pre-production testing.'
 image: https://butterflymx.com/wp-content/uploads/2023/10/gated-community-intercom.webp
 layout: provider
+mcp_servers:
+- description: ''
+  name: butterflymx-mcp.yml
+  slug: butterflymx-mcpyml
 modified: '2026-08-08'
 name: ButterflyMX
 nav: Providers
@@ -212,7 +224,7 @@ overview: 'ButterflyMX publishes 14 APIs on the [APIs.io](https://apis.io/) netw
   The ButterflyMX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ButterflyMX''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 25 more developer resources.'
+  ButterflyMX''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 27 more developer resources.'
 random_paper: 62
 scopes:
 - name: Butterflymx Scopes
@@ -221,16 +233,28 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 57.2
+  composite: 56.5
+  delta: -0.7
   facets:
     commercial_clarity: 52.6
-    contract_quality: 59.1
-    developer_ergonomics: 71.7
+    contract_quality: 62.8
+    developer_ergonomics: 69.0
     discoverability: 92.6
-    governance: 20.8
+    governance: 11.5
     operational_transparency: 44.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 57.2
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
+    mcp: derived
+    skills: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Butterflymx Authentication

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 55.6
-  scored_at: '2026-08-10'
+  score: 52.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 7
@@ -122,6 +123,10 @@ asyncapis:
   name: Qargo Webhooks
   slug: qargo-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/qargo-tms-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -252,17 +257,17 @@ overview: 'Qargo publishes 24 APIs on the [APIs.io](https://apis.io/) network, i
   The Qargo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Qargo''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 21 more developer resources.'
+  Qargo''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 22 more developer resources.'
 random_paper: 74
 score:
   band: developing
-  composite: 50.7
-  delta: 0.0
+  composite: 49.0
+  delta: -1.7
   facets:
     commercial_clarity: 34.2
-    contract_quality: 63.0
+    contract_quality: 60.6
     developer_ergonomics: 66.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 31.6
   previous_composite: 50.7
@@ -276,8 +281,8 @@ score:
       total: 24
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

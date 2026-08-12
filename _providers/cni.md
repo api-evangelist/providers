@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The CNI specification defines the interface between container runtimes and network plugins. It specifies how runtimes invoke plugins via environment variables (CNI_COMMAND, CNI_CONTAINERID, CNI_NETNS,
@@ -39,6 +39,26 @@ apis:
   slug: cni-plugins
 artifact_total: 10
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/containernetworking/cni/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/containernetworking/cni/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/containernetworking/cni/blob/main/CODE-OF-CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/containernetworking/cni/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/containernetworking/cni/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -105,7 +125,7 @@ overview: 'Container Network Interface (CNI) publishes 2 APIs on the [APIs.io](h
   The Container Network Interface (CNI) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Container Network Interface (CNI)''s developer surface includes documentation and 8 more developer resources.'
+  Container Network Interface (CNI)''s developer surface includes documentation and 13 more developer resources.'
 plans:
 - name: Cni Plans Pricing
   plan_count: 3
@@ -126,19 +146,19 @@ rules:
   slug: cni-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.3
-  delta: 0.0
+  composite: 29.6
+  delta: -5.7
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 29.0
     developer_ergonomics: 8.7
     discoverability: 66.7
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 35.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cni/refs/heads/main/screenshots/cni-2026-06-20T174634.png
 security:
 - kind: domain-security

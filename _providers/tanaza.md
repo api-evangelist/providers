@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Programmatic access to the Tanaza Cloud dashboard data set across three documented API families — Network Management, Network Monitoring, and Application — plus Push Contact Notifications webhooks. Re
@@ -129,8 +129,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 19.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

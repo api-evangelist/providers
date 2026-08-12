@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -87,6 +87,10 @@ collections:
   name: Red Hat Satellite REST API
   slug: open-red-hat-satellite-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/theforeman/foreman/blob/develop/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -447,7 +451,7 @@ overview: 'Red Hat Satellite publishes 5 APIs on the [APIs.io](https://apis.io/)
   The Red Hat Satellite catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Red Hat Satellite''s developer surface includes authentication, developer portal, documentation, support, engineering blog, release notes, API reference, and 19 more developer resources.'
+  Red Hat Satellite''s developer surface includes authentication, developer portal, documentation, support, engineering blog, release notes, API reference, and 20 more developer resources.'
 plans:
 - name: Red Hat Satellite Plans Pricing
   plan_count: 1
@@ -480,16 +484,16 @@ scopes:
   slug: red-hat-satellite-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 56.5
-  delta: 0.0
+  band: developing
+  composite: 50.7
+  delta: -5.8
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 69.6
+    commercial_clarity: 21.1
+    contract_quality: 67.0
     developer_ergonomics: 52.2
     discoverability: 55.6
     governance: 68.8
-    operational_transparency: 57.9
+    operational_transparency: 42.1
   previous_composite: 56.5
   provenance:
     agentic_access: derived
@@ -498,9 +502,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/screenshots/red-hat-satellite-2026-06-20T192721.png
 security:
 - kind: authentication

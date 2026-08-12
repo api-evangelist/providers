@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -60,6 +60,22 @@ collections:
   name: Klavis AI MCP Platform API
   slug: open-klavis
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Klavis-AI/klavis/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Klavis-AI/klavis/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Klavis-AI/klavis/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Klavis-AI/klavis/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -123,7 +139,7 @@ network: true
 overview: 'Klavis AI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including MCP Servers API, Sandbox API, Tools API, and 1 more. Tagged areas include MCP, Model Context Protocol, MCP Servers, MCP Hosting, and Connectors.
 
 
-  Klavis AI''s developer surface includes authentication, documentation, engineering blog, pricing, and 8 more developer resources.'
+  Klavis AI''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Klavis Plans Pricing
   plan_count: 1
@@ -135,15 +151,15 @@ rate_limits:
   slug: klavis-rate-limits
 score:
   band: developing
-  composite: 43.5
-  delta: 0.0
+  composite: 45.0
+  delta: 1.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.1
+    contract_quality: 62.7
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 42.1
   previous_composite: 43.5
   provenance:
     agentic_access: derived
@@ -152,8 +168,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klavis/refs/heads/main/screenshots/klavis-2026-06-20T184058.png
 security:

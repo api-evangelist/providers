@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 4
 common:
@@ -115,8 +115,8 @@ overview: 'Armis is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 76
 score:
   band: emerging
-  composite: 22.2
-  delta: 0.0
+  composite: 23.6
+  delta: 1.4
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
@@ -128,8 +128,14 @@ score:
   provenance:
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 31.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/screenshots/armis-2026-07-25T201217.png
 security:

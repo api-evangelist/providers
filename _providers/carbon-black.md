@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST APIs for the Carbon Black Cloud platform — Endpoint Standard, Enterprise EDR, Audit and Remediation (live query), and Workload/Container protection. Authentication uses an API Id/Secret pair in a
@@ -117,8 +117,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 21.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carbon-black/refs/heads/main/screenshots/carbon-black-2026-07-25T204503.png
 security:

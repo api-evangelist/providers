@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,6 +54,18 @@ collections:
   name: FinOps Foundation FOCUS Cost and Usage API
   slug: open-finops-foundation-focus-cost-and-usage
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/FinOps-Open-Cost-and-Usage-Spec/FOCUS_Spec/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/FinOps-Open-Cost-and-Usage-Spec/FOCUS_Spec/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/FinOps-Open-Cost-and-Usage-Spec/FOCUS_Spec/blob/working_draft/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -112,7 +124,7 @@ overview: 'FinOps Foundation publishes 3 APIs on the [APIs.io](https://apis.io/)
   The FinOps Foundation catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  FinOps Foundation''s developer surface includes authentication, engineering blog, and 5 more developer resources.'
+  FinOps Foundation''s developer surface includes authentication, engineering blog, and 8 more developer resources.'
 plans:
 - name: Finops Foundation Plans Pricing
   plan_count: 3
@@ -132,16 +144,16 @@ rules:
     warn: 4
   slug: finops-foundation-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 46.8
-  delta: 0.0
+  band: thin
+  composite: 40.4
+  delta: -6.4
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 75.2
+    commercial_clarity: 15.8
+    contract_quality: 72.4
     developer_ergonomics: 17.4
     discoverability: 55.6
     governance: 58.3
-    operational_transparency: 31.6
+    operational_transparency: 23.7
   previous_composite: 46.8
   provenance:
     agentic_access: derived
@@ -150,9 +162,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/finops-foundation/refs/heads/main/screenshots/finops-foundation-2026-06-20T181221.png
 security:
 - kind: authentication

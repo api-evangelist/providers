@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 64.6
-  scored_at: '2026-08-10'
+  score: 61.0
+  scored_at: '2026-08-11'
 api_count: 11
 apis:
 - description: 'Create and update user profiles, track events, manage devices, merge and delete users, run bulk imports and file imports, and submit GDPR/CCPA data subject requests. The primary ingestion surface for '
@@ -237,11 +237,11 @@ scopes:
   summary_line: 5 scopes
 score:
   band: strong
-  composite: 63.6
-  delta: 0.0
+  composite: 63.1
+  delta: -0.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 63.2
+    contract_quality: 60.9
     developer_ergonomics: 79.9
     discoverability: 92.6
     governance: 20.8
@@ -262,8 +262,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/screenshots/moengage-2026-08-07T184040.png
 security:

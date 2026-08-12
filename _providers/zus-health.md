@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Zus FHIR R4 REST API plus Auth Service and Patient History APIs. Implements FHIR R4 (v4.0.1) across 128 resource types with instance-level CRUD, transaction Bundles, conditional create/update/delete b
@@ -185,13 +185,13 @@ overview: 'Zus Health publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 101
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 49.4
+  delta: -0.9
   facets:
     commercial_clarity: 42.1
     contract_quality: 55.0
     developer_ergonomics: 66.8
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 52.6
   previous_composite: 50.3
@@ -205,8 +205,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

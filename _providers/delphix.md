@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-10'
+  score: 46.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 510
   human_in_the_loop: 15
@@ -220,6 +221,10 @@ apis:
   slug: delphix-virtualizationpolicies-api
 artifact_total: 64
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/delphix-continuous-compliance-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -367,17 +372,17 @@ network: true
 overview: 'Delphix publishes 60 APIs on the [APIs.io](https://apis.io/) network, including Algorithms API, Bookmarks API, CDB DSources API, and 57 more. Tagged areas include Company, Data Management, Test Data Management, Data Virtualization, and Data Masking.
 
 
-  Delphix''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 26 more developer resources.'
+  Delphix''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 27 more developer resources.'
 random_paper: 54
 score:
   band: developing
-  composite: 53.2
-  delta: 0.0
+  composite: 51.7
+  delta: -1.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 49.0
+    contract_quality: 47.2
     developer_ergonomics: 75.5
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 44.7
   previous_composite: 53.2
@@ -391,8 +396,8 @@ score:
       total: 60
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/screenshots/delphix-2026-07-25T211658.png
 security:

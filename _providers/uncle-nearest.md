@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.4
-  scored_at: '2026-08-10'
+  score: 38.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -55,8 +55,16 @@ apis:
 - description: The Venues API from Uncle Nearest — 3 operation(s) for venues.
   name: Uncle Nearest Venues API
   slug: uncle-nearest-venues-api
-artifact_total: 12
+artifact_total: 13
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/uncle-nearest-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/uncle-nearest-events-calendar-v1-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -161,6 +169,10 @@ created: '2026-08-02'
 description: Uncle Nearest, Inc. is an American whiskey company headquartered in Shelbyville, Tennessee, founded in 2017 by Fawn Weaver and Keith Weaver and named for Nathan "Nearest" Green, the formerly enslaved master distiller who taught Jack Daniel the craft. The company produces the Uncle Nearest 1856 Premium Aged, 1884 Small Batch, Master Blend, Single Barrel, Straight Rye and Uncut/Unfiltered Rye expressions, and operates the Nearest Green Distillery visitor destination in Shelbyville with tours, tastings, private events and a retail shop. Uncle Nearest is a privately held, consumer-facing brand with no developer program and no product API; its only public machine-readable surfaces are the WordPress REST API and the two OpenAPI-documented Events Calendar REST APIs served from its own web host at unclenearest.com, which expose the brand's published events, venues and organizers as read-only JSON.
 image: https://unclenearest.com/wp-content/themes/unclenearest/lib/img/un-logo-2022.svg
 layout: provider
+mcp_servers:
+- description: ''
+  name: uncle-nearest-mcp.yml
+  slug: uncle-nearest-mcpyml
 modified: '2026-08-02'
 name: Uncle Nearest
 nav: Providers
@@ -168,27 +180,32 @@ network: true
 overview: 'Uncle Nearest publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Common API, Doc API, and 5 more. Tagged areas include Company, whiskey, spirits, beverage-alcohol, and consumer-packaged-goods.
 
 
-  Uncle Nearest''s developer surface includes support, FAQ, YouTube channel, authentication, and 21 more developer resources.'
+  Uncle Nearest''s developer surface includes support, FAQ, YouTube channel, authentication, and 23 more developer resources.'
 random_paper: 58
 score:
   band: thin
-  composite: 28.6
-  delta: -1.9
+  composite: 29.1
+  delta: 0.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 41.6
-    developer_ergonomics: 16.8
-    discoverability: 92.6
+    contract_quality: 46.0
+    developer_ergonomics: 19.0
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 30.5
+  previous_composite: 28.6
   provenance:
     agentic_access: derived
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

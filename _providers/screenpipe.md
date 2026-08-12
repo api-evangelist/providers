@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 3
@@ -94,6 +94,10 @@ apis:
   slug: screenpipe-vision-api
 artifact_total: 24
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/screenpipe-openapi-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -233,17 +237,17 @@ network: true
 overview: 'Screenpipe publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Audio API, Cloud Archive API, and 15 more. Tagged areas include Company, Screen Recording, Screen Memory, Audio Transcription, and Meeting Intelligence.
 
 
-  Screenpipe''s developer surface includes documentation, API reference, getting-started guide, quickstart, changelog, pricing, support, and 24 more developer resources.'
+  Screenpipe''s developer surface includes documentation, API reference, getting-started guide, quickstart, changelog, pricing, support, and 25 more developer resources.'
 random_paper: 26
 score:
   band: developing
-  composite: 45.9
-  delta: 0.0
+  composite: 44.3
+  delta: -1.6
   facets:
     commercial_clarity: 26.3
-    contract_quality: 44.3
+    contract_quality: 42.6
     developer_ergonomics: 73.4
-    discoverability: 83.3
+    discoverability: 72.2
     governance: 11.5
     operational_transparency: 39.5
   previous_composite: 45.9
@@ -257,8 +261,8 @@ score:
       total: 18
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

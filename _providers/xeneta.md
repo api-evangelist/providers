@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-10'
+  score: 39.0
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Airline reports API (Selfie) serving rates, chargeable weight, load factor, and capacity reports as CSV files in ZIP archives. Airlines use a branded host (https://{airline}.useselfie.com/api/selfie/v
@@ -42,6 +42,10 @@ apis:
   slug: xeneta-ocean-api
 artifact_total: 7
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/xeneta-api-30-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -165,17 +169,17 @@ network: true
 overview: 'Xeneta publishes 2 APIs on the [APIs.io](https://apis.io/) network: Air API and Ocean API. Tagged areas include Freight, Shipping, Logistics, Ocean Freight, and Air Freight.
 
 
-  Xeneta''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 20 more developer resources.'
+  Xeneta''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 21 more developer resources.'
 random_paper: 65
 score:
   band: developing
-  composite: 51.9
-  delta: 0.0
+  composite: 50.4
+  delta: -1.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 62.0
+    contract_quality: 59.7
     developer_ergonomics: 56.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 28.9
   previous_composite: 51.9
@@ -194,8 +198,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 50.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

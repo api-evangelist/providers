@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -11,17 +11,21 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-10'
+  score: 10.8
+  scored_at: '2026-08-11'
 api_count: 0
-artifact_total: 1
+artifact_total: 2
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/trexbio-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -117,6 +121,10 @@ description: TRexBio, Inc. is a clinical-stage biotechnology company headquarter
   documentation, SDK or machine-readable API contract. trex.bio is a WordPress marketing site whose only machine-readable surfaces are the WordPress core REST API, a Yoast-generated llms.txt, and an OAuth-protected WordPress MCP adapter endpoint — CMS infrastructure rather than a product API.
 image: https://trex.bio/wp-content/uploads/2025/10/cropped-Group-3.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: trexbio-mcp.yml
+  slug: trexbio-mcpyml
 modified: '2026-08-05'
 name: TRexBio
 nav: Providers
@@ -124,17 +132,17 @@ network: true
 overview: 'TRexBio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Pharmaceuticals, and Immunology.
 
 
-  TRexBio''s developer surface includes engineering blog and 17 more developer resources.'
+  TRexBio''s developer surface includes engineering blog and 18 more developer resources.'
 random_paper: 69
 score:
   band: emerging
-  composite: 13.0
-  delta: 0.0
+  composite: 13.5
+  delta: 0.5
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
-    developer_ergonomics: 2.2
-    discoverability: 68.5
+    developer_ergonomics: 10.9
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 13.0
@@ -146,8 +154,8 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

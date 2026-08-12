@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-10'
+  score: 39.0
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Data sources connected to Ledge (banks, payment service providers, ERPs, databases) and the datasets fetched from them.
@@ -39,6 +39,10 @@ apis:
   slug: ledge-transactions-api
 artifact_total: 7
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ledge-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -178,7 +182,7 @@ network: true
 overview: 'Ledge publishes 2 APIs on the [APIs.io](https://apis.io/) network: Sources API and Transactions API. Tagged areas include Company, Fintech, Accounting, Reconciliation, and Financial Close.
 
 
-  Ledge''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, pricing, support, and 24 more developer resources.'
+  Ledge''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, pricing, support, and 25 more developer resources.'
 random_paper: 49
 scopes:
 - name: Ledge Scopes
@@ -187,11 +191,11 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 56.6
-  delta: 0.0
+  composite: 56.9
+  delta: 0.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 63.6
+    contract_quality: 61.2
     developer_ergonomics: 56.0
     discoverability: 87.0
     governance: 20.8
@@ -206,8 +210,14 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 62.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/screenshots/ledge-2026-07-25T224813.png
 security:

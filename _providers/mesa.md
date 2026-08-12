@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Exchange API keys for a session token.
@@ -39,6 +39,10 @@ apis:
   slug: mesa-invoices-api
 artifact_total: 6
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mesa-partner-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -142,15 +146,15 @@ network: true
 overview: 'Mesa publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and Invoices API. Tagged areas include Company, Fintech, Payments, Invoice Financing, and Embedded Finance.
 
 
-  Mesa''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, and 16 more developer resources.'
+  Mesa''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, and 17 more developer resources.'
 random_paper: 74
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 45.9
+  delta: -0.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 64.0
+    contract_quality: 61.6
     developer_ergonomics: 53.8
     discoverability: 70.4
     governance: 20.8
@@ -171,8 +175,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/screenshots/mesa-2026-08-07T172620.png
 security:

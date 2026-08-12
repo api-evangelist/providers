@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The OpenUSD C++ API is the primary interface for working with Universal Scene Description data. Provides access to USD core (scene composition and asset management), UsdImaging and Hydra (rendering in
@@ -39,6 +39,26 @@ apis:
   slug: openusd-python-bindings
 artifact_total: 29
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/PixarAnimationStudios/OpenUSD/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/PixarAnimationStudios/OpenUSD/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/PixarAnimationStudios/OpenUSD/blob/dev/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/PixarAnimationStudios/OpenUSD/blob/dev/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/PixarAnimationStudios/OpenUSD/blob/dev/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -145,7 +165,7 @@ overview: 'Alliance for OpenUSD publishes 2 APIs on the [APIs.io](https://apis.i
   The Alliance for OpenUSD catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Alliance for OpenUSD''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, and 6 more developer resources.'
+  Alliance for OpenUSD''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, and 11 more developer resources.'
 plans:
 - name: Aousd Plans Pricing
   plan_count: 3
@@ -166,18 +186,18 @@ rules:
   slug: aousd-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.3
-  delta: 0.0
+  composite: 33.9
+  delta: -4.4
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 17.7
     developer_ergonomics: 30.4
     discoverability: 68.5
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 38.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aousd/refs/heads/main/screenshots/aousd-2026-06-20T172036.png
 security:

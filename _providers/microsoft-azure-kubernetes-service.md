@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 3
@@ -100,6 +100,30 @@ collections:
   name: Azure Kubernetes Service REST API
   slug: open-azure-kubernetes-service
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Azure/AKS/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Azure/AKS/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Azure/AKS/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/Azure/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Azure/AKS/blob/master/.github/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Azure/AKS/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -927,7 +951,7 @@ overview: 'Azure Kubernetes Service publishes 2 APIs on the [APIs.io](https://ap
   The Azure Kubernetes Service catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Azure Kubernetes Service''s developer surface includes authentication, developer portal, getting-started guide, CLI, support, engineering blog, Stack Overflow tag, and 30 more developer resources.'
+  Azure Kubernetes Service''s developer surface includes authentication, developer portal, getting-started guide, CLI, support, engineering blog, Stack Overflow tag, and 36 more developer resources.'
 plans:
 - name: Azure Kubernetes Service Plans Pricing
   plan_count: 3
@@ -974,16 +998,16 @@ scopes:
   slug: microsoft-azure-kubernetes-service-scopes
   summary_line: 1 scope · implicit
 score:
-  band: exemplar
-  composite: 67.6
-  delta: 0.0
+  band: strong
+  composite: 59.1
+  delta: -8.5
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 70.5
+    commercial_clarity: 68.4
+    contract_quality: 67.9
     developer_ergonomics: 56.5
     discoverability: 81.5
     governance: 20.8
-    operational_transparency: 73.7
+    operational_transparency: 50.0
   previous_composite: 67.6
   provenance:
     agentic_access: derived
@@ -992,9 +1016,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/screenshots/microsoft-azure-kubernetes-service-2026-06-20T185419.png
 security:
 - kind: authentication

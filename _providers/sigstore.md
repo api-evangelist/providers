@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -62,6 +62,10 @@ collections:
   name: Fulcio
   slug: open-fulcio
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/sigstore/cosign/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -154,7 +158,7 @@ overview: 'Sigstore publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The Sigstore catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Sigstore''s developer surface includes documentation, getting-started guide, engineering blog, and 9 more developer resources.'
+  Sigstore''s developer surface includes documentation, getting-started guide, engineering blog, and 10 more developer resources.'
 plans:
 - name: Sigstore Plans Pricing
   plan_count: 1
@@ -182,16 +186,16 @@ rules:
     warn: 5
   slug: sigstore-rules
 score:
-  band: developing
-  composite: 44.5
-  delta: 0.0
+  band: thin
+  composite: 38.8
+  delta: -5.7
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 55.8
+    commercial_clarity: 13.2
+    contract_quality: 53.7
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 21.1
   previous_composite: 44.5
   provenance:
     agentic_access: derived
@@ -200,9 +204,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sigstore/refs/heads/main/screenshots/sigstore-2026-06-20T193917.png
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -192,16 +192,16 @@ rules:
     warn: 10
   slug: r-spectral-rules
 score:
-  band: developing
-  composite: 45.2
-  delta: 0.0
+  band: thin
+  composite: 37.6
+  delta: -7.6
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 63.6
-    developer_ergonomics: 10.9
+    commercial_clarity: 15.8
+    contract_quality: 61.2
+    developer_ergonomics: 15.2
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 45.2
   provenance:
     agentic_access: derived
@@ -210,9 +210,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/r/refs/heads/main/screenshots/r-2026-06-20T192458.png
 security:
 - kind: domain-security

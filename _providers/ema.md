@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 15.3
-  scored_at: '2026-08-10'
+  score: 11.7
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Programmatic access to Ema AI Employees. REST (HTTP/JSON) quickstart plus a gRPC-Web path for advanced endpoints, covering Chat, Workflows, Dashboards, Document Generation, Templates, Triggers and ten
@@ -137,8 +137,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 26.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ema/refs/heads/main/screenshots/ema-2026-07-25T213219.png
 security:

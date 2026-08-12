@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 54.3
-  scored_at: '2026-08-10'
+  score: 50.7
+  scored_at: '2026-08-11'
 api_count: 11
 apis:
 - description: The Cost Estimates API from H1 — 4 operation(s) for cost estimates.
@@ -192,18 +193,23 @@ overview: 'H1 publishes 11 APIs on the [APIs.io](https://apis.io/) network, incl
 random_paper: 27
 score:
   band: developing
-  composite: 45.4
-  delta: -0.3
+  composite: 45.6
+  delta: 0.2
   facets:
     commercial_clarity: 34.2
-    contract_quality: 56.5
+    contract_quality: 61.8
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 45.7
+  previous_composite: 45.4
   provenance:
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
     mcp: first-party
     skills: derived
   regulatory:
@@ -212,8 +218,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/h1-insights/refs/heads/main/screenshots/h1-insights-2026-08-07T165907.png
 security:

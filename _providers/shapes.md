@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-10'
+  score: 29.1
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The Chat API from Shapes — 1 operation(s) for chat.
@@ -42,6 +42,10 @@ apis:
   slug: shapes-shapes-api
 artifact_total: 6
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/shapes-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -149,17 +153,17 @@ network: true
 overview: 'Shapes publishes 3 APIs on the [APIs.io](https://apis.io/) network: Chat API, Models API, and Shapes API. Tagged areas include Company, Artificial Intelligence, AI Agents, Chat, and Social.
 
 
-  Shapes'' developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 16 more developer resources.'
+  Shapes'' developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 17 more developer resources.'
 random_paper: 64
 score:
   band: developing
-  composite: 45.6
-  delta: 0.0
+  composite: 45.8
+  delta: 0.2
   facets:
     commercial_clarity: 44.7
-    contract_quality: 61.8
+    contract_quality: 59.5
     developer_ergonomics: 53.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
   previous_composite: 45.6
@@ -172,14 +176,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 34.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

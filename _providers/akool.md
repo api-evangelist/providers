@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -133,11 +133,11 @@ rate_limits:
   slug: akool-rate-limits
 score:
   band: thin
-  composite: 28.2
-  delta: 0.0
+  composite: 28.1
+  delta: -0.1
   facets:
     commercial_clarity: 39.5
-    contract_quality: 15.1
+    contract_quality: 14.6
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
@@ -150,8 +150,8 @@ score:
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/screenshots/akool-2026-07-25T195517.png
 security:

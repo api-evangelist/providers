@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API for enriching CRM records with contact and company data, including verified emails, phone numbers, job titles, and firmographics. Available to enterprise Cognism customers; endpoints and quot
@@ -110,20 +110,20 @@ rate_limits:
   name: Cognism Rate Limits
   slug: cognism-rate-limits
 score:
-  band: thin
-  composite: 31.8
-  delta: 0.0
+  band: emerging
+  composite: 26.6
+  delta: -5.2
   facets:
-    commercial_clarity: 36.8
+    commercial_clarity: 21.1
     contract_quality: 48.1
     developer_ergonomics: 10.9
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 31.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/screenshots/cognism-2026-06-20T174713.png
 security:
 - kind: domain-security

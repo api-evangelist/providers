@@ -16,32 +16,32 @@
      "slug": "centrica",
      "description": "Centrica plc is the FTSE-listed British energy and services group behind British Gas, the United Kingdom's largest household energy supplier, along with Bord Gais Energy in Ireland, Centrica Business Solutions, Centrica Energy (its wholesale power, gas and LNG trading arm) and the Hive connected-home brand. It sits across the whole value chain — upstream gas and storage at Rough, generation and battery flexibility, wholesale trading and route-to-market, retail supply to roughly ten million UK homes, and a field-service engineering business — after exiting North America with the sale of Direct Energy to NRG in January 2021 to refocus on the UK and Ireland. Its API posture is honestly closed: Britain mandated the smart-metering INFRASTRUCTURE (the licensed Smart DCC monopoly and the SMETS2 rollout) rather than a consumer data right, so Centrica has no Consumer Data Right, no Green Button and no standards-conformant consumer usage endpoint. The DESNZ non-domestic smart meter data access requirement that does bind it is discharged by a written request answered within ten working days, not by an API. Household consumers reach their own data only through the British Gas app and account login; business customers through the Energy360 DataView portal. The single publicly reachable developer surface found is the Centrica FieldOps Azure API Management developer portal — a partner field-operations platform in its development environment — and Centrica publishes no open grid or market data of its own, leaving that to NESO, Elexon and the DNOs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/screenshots/centrica-2026-08-07T163224.png",
-     "score": 50.5,
+     "score": 48.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 55.0,
+      "contract_quality": 53.0,
       "governance": 11.5,
       "operational_transparency": 47.4,
-      "developer_ergonomics": 45.1,
+      "developer_ergonomics": 47.3,
       "commercial_clarity": 55.3
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
-      "score": 52.7,
+      "score": 41.9,
       "matched_via": "tags"
      },
-     "agent_score": 42.1,
+     "agent_score": 41.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
-      "mcp_server": false,
+      "mcp_server": "derived",
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
@@ -49,7 +49,7 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
@@ -60,19 +60,19 @@
      "name": "University College Dublin",
      "slug": "ucd",
      "description": "University College Dublin (UCD) is Ireland's largest university and ranks #126 in the QS World University Rankings 2025. Its public, machine-readable footprint is concentrated in library and cultural-heritage systems rather than a central developer portal: the UCD Digital Library exposes IIIF Image and Presentation APIs plus a Geospatial Data API and unAPI endpoint, the DSpace-based Research Repository UCD offers OAI-PMH harvesting and a REST API, and the National Folklore Collection held at UCD is served via the Dúchas API. There is no unified, self-service institutional API program; most administrative and identity systems are gated behind institutional affiliation.",
-     "score": 43.3,
+     "score": 42.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 66.9,
+      "contract_quality": 64.4,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -97,31 +97,31 @@
    "open": true
   },
   {
-   "band": "thin",
-   "label": "Thin",
-   "range": "28 – 41.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 1,
-   "shown": 1,
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "13 – 27.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
      "name": "LegitFit",
      "slug": "legitfit",
      "description": "LegitFit is an Irish gym, studio and fitness-business management platform based in Cork, serving gyms, yoga and pilates studios, CrossFit boxes, leisure centres, personal trainers and multi-location operators. The product covers class and appointment scheduling with drag-and-drop timetables and waiting lists, membership and package management with auto-renewals, integrated online and offline payments built on Stripe, client and staff management, payroll and performance tracking, exercise programming, automated communications and lead nurture, a branded member app, and an AI assistant (\"Lia\") for revenue forecasting and programming. LegitFit publishes no public developer portal or OpenAPI description, but it does operate an OAuth 2.1-protected Model Context Protocol (MCP) server at https://legitfit.com/api/mcp, discoverable through RFC 8414 authorization-server and RFC 9728 protected-resource metadata, with mcp:read and mcp:write scopes.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/legitfit/refs/heads/main/screenshots/legitfit-2026-07-25T224838.png",
-     "score": 28.5,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 27.6,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
-      "discoverability": 87.0,
+      "discoverability": 75.9,
       "contract_quality": 0.0,
       "governance": 12.5,
       "operational_transparency": 21.1,
       "developer_ergonomics": 26.1,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -129,7 +129,7 @@
       "score": 48.4,
       "matched_via": "tags"
      },
-     "agent_score": 30.2,
+     "agent_score": 26.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -142,44 +142,33 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
      "rank": 3
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "13 – 27.9",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 5,
-   "shown": 5,
-   "providers": [
+    },
     {
      "name": "Ceartas",
      "slug": "ceartas",
      "description": "Ceartas (legal entity Ceartas DMCA Limited) is a Dublin, Ireland AI-powered brand protection and content-removal platform founded in 2021 by Dan Purcell (CEO) and Jonny Smyth (CTO). Backed by the Sony Innovation Fund with a $4.5M seed round announced in April 2024, Ceartas is a Google Trusted Copyright Removal Partner and runs a dual-brand stack: Ceartas for individual creators and talent, and Midnight Labs for enterprise IP holders including movie studios, gaming studios, broadcasters, and publishers. The platform scans 75M+ sites daily across 2,000+ platforms and has processed billions of takedowns, protecting creators, A-list talent, and global brands from AI-generated deepfakes, non-consensual intimate imagery (NCII), piracy, impersonation, and counterfeit content. Enforcement operates under DMCA §512, the US TAKE IT DOWN Act, the UK Online Safety Act, the EU Digital Services Act, and Ireland's Coco's Law. Ceartas is a subscription SaaS with a customer dashboard and no public developer API; this profile captures its published identity, pricing, status, and security/AI-consent surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ceartas/refs/heads/main/screenshots/ceartas-2026-07-25T204851.png",
-     "score": 26.8,
+     "score": 25.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 2.7,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
@@ -191,7 +180,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
@@ -203,19 +192,19 @@
      "slug": "open-gi",
      "description": "Open GI is a Worcester-headquartered insurance software house that has supplied the UK and Ireland general insurance market for more than 45 years, serving over 600 broker, MGA and insurer customers across personal and commercial lines. Its product estate spans the legacy Core policy administration system and the newer cloud Mobius platform — policy administration and client management, product management, Insurer Hosted Pricing (IHP and IHP+), Ratings, the Dynamic Pricing Tool, quote-and-buy websites, customer portals and a Partner Network of 150-plus insurers, aggregators, premium finance, payment and data-enrichment providers. Its API posture is honestly partner-gated. Mobius genuinely ships APIs — Open GI's own public release notes describe Client Checks / sanctions-check endpoints and an API-triggered custom-event call — but the Mobius Developer Portal is a customer-only surface whose URL Open GI does not publish, no developer, docs, api or partners subdomain resolves on opengi.co.uk, every /developers, /developer, /api and /partners path on the marketing site returns 404, and even the company's own API Terms of Use page is password-protected. There is no public self-serve developer portal, no downloadable OpenAPI or Swagger, no public sandbox, no published auth model and no ACORD reference anywhere on the public site; insurer connectivity is delivered through UK-market EDI messaging inside the platform and through pre-agreed Partner Network integrations rather than through an open API programme.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-gi/refs/heads/main/screenshots/open-gi-2026-08-07T190454.png",
-     "score": 22.6,
+     "score": 21.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 77.8,
+      "discoverability": 66.7,
       "contract_quality": 0.0,
       "governance": 12.5,
       "operational_transparency": 15.8,
       "developer_ergonomics": 15.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -259,8 +248,8 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -297,8 +286,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -335,8 +324,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -364,7 +353,8 @@
      },
      "rank": 8
     }
-   ]
+   ],
+   "open": true
   },
   {
    "band": "minimal",
@@ -390,8 +380,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -435,8 +425,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -480,8 +470,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -525,8 +515,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -570,8 +560,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -615,8 +605,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -660,8 +650,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -705,8 +695,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -750,8 +740,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -795,8 +785,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -840,8 +830,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -885,8 +875,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -929,8 +919,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",

@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 57.4
-  scored_at: '2026-08-10'
+  score: 53.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -138,6 +138,10 @@ collections:
   name: Lev Account & Team Term Sheets API
   slug: postman-lev-term-sheets-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lev-api-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -302,7 +306,7 @@ network: true
 overview: 'Lev publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Account & Team API, API Keys API, Billing API, and 13 more. Tagged areas include Company, Commercial Real Estate, Real Estate, Proptech, and CRE Financing.
 
 
-  Lev''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+  Lev''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
 plans:
 - name: Lev Plans
   plan_count: 4
@@ -319,11 +323,11 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 69.9
-  delta: 0.0
+  composite: 69.5
+  delta: -0.4
   facets:
     commercial_clarity: 92.1
-    contract_quality: 61.7
+    contract_quality: 59.4
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 11.5
@@ -345,8 +349,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/screenshots/lev-2026-07-25T224941.png
 security:

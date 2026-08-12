@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -52,6 +52,10 @@ collections:
   name: jService Trivia API
   slug: open-jservice
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/sottenad/jService/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -150,11 +154,11 @@ rules:
   slug: jservice-rules
 score:
   band: thin
-  composite: 31.6
-  delta: 0.0
+  composite: 31.0
+  delta: -0.6
   facets:
     commercial_clarity: 0.0
-    contract_quality: 68.7
+    contract_quality: 66.2
     developer_ergonomics: 0.0
     discoverability: 74.1
     governance: 58.3
@@ -167,8 +171,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jservice/refs/heads/main/screenshots/jservice-2026-06-20T183813.png
 security:

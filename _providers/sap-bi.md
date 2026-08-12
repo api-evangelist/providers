@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -174,19 +174,19 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/sap-bi-analytics-cloud-openapi.yml
+  url: openapi/_original/sap-bi-analytics-cloud-openapi.yml
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/sap-bi-businessobjects-platform-openapi.yml
+  url: openapi/_original/sap-bi-businessobjects-platform-openapi.yml
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/sap-bi-bw4hana-odata-openapi.yml
+  url: openapi/_original/sap-bi-bw4hana-odata-openapi.yml
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/sap-bi-datasphere-openapi.yml
+  url: openapi/_original/sap-bi-datasphere-openapi.yml
 - group: design
   title: ''
   type: JSONLD
@@ -520,15 +520,15 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.0
-  delta: 0.0
+  composite: 44.2
+  delta: -5.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 65.9
+    commercial_clarity: 34.2
+    contract_quality: 63.4
     developer_ergonomics: 26.1
     discoverability: 66.7
     governance: 68.8
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 50.0
   provenance:
     agentic_access: derived
@@ -537,9 +537,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/screenshots/sap-bi-2026-06-20T193416.png
 security:
 - kind: authentication

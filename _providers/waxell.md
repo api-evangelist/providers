@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -331,13 +331,13 @@ rules:
   slug: waxell-rules
 score:
   band: strong
-  composite: 63.3
-  delta: 0.0
+  composite: 61.1
+  delta: -2.2
   facets:
-    commercial_clarity: 55.3
-    contract_quality: 76.3
+    commercial_clarity: 68.4
+    contract_quality: 73.4
     developer_ergonomics: 50.0
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 68.8
     operational_transparency: 57.9
   previous_composite: 63.3
@@ -348,8 +348,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 33.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/screenshots/waxell-2026-06-20T201300.png
 security:

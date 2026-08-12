@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -280,16 +281,16 @@ rules:
     warn: 3
   slug: apimatic-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 68.6
-  delta: 0.0
+  band: strong
+  composite: 61.4
+  delta: -7.2
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 76.9
-    developer_ergonomics: 56.5
+    commercial_clarity: 60.5
+    contract_quality: 74.0
+    developer_ergonomics: 63.0
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 68.6
   provenance:
     agentic_access: derived
@@ -298,9 +299,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/screenshots/apimatic-2026-07-25T200631.png
 security:
 - kind: authentication

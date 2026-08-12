@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -137,16 +137,16 @@ rate_limits:
   name: Openinfra Foundation Rate Limits
   slug: openinfra-foundation-rate-limits
 score:
-  band: thin
-  composite: 33.5
-  delta: 0.0
+  band: emerging
+  composite: 25.3
+  delta: -8.2
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 48.8
+    commercial_clarity: 15.8
+    contract_quality: 47.0
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 33.5
   provenance:
     agentic_access: derived
@@ -155,9 +155,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/screenshots/openinfra-foundation-2026-06-20T191011.png
 security:
 - kind: domain-security

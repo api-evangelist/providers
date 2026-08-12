@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -134,11 +134,11 @@ rate_limits:
   slug: smarthealthit-rate-limits
 score:
   band: thin
-  composite: 34.9
-  delta: 0.0
+  composite: 34.5
+  delta: -0.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 60.9
+    contract_quality: 58.7
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
@@ -157,8 +157,8 @@ score:
     regime: Health
     regime_id: health
     score: 22.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

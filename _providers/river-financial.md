@@ -21,21 +21,25 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 15.3
-  scored_at: '2026-08-10'
+  score: 14.4
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: River's GraphQL data API secured with OAuth 2.0 authorization-code + PKCE and OpenID Connect. Read scopes cover account balances, transactions, identity, and payment networks.
   name: River API
   slug: river-api
-artifact_total: 5
+artifact_total: 6
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/river-financial-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -116,6 +120,10 @@ created: '2026-07-17'
 description: 'River Financial Inc. (river.com) is a regulated U.S.-based Bitcoin brokerage and bank for long-term investors, operating under NMLS ID #1906809. Customers can buy, sell, send, and receive bitcoin, get paid in bitcoin via direct deposit, and earn interest on cash balances paid in bitcoin. River holds 100% of customer bitcoin in full-reserve multisig cold storage, publishes monthly third-party Proof of Reserves attestations, and provides FDIC insurance on cash up to $250,000 through partner bank Lead Bank. River exposes a GraphQL data API at https://river.com/api secured by an OAuth 2.0 authorization-code + PKCE flow with OpenID Connect discovery (balances, transactions, identity, and payment network read scopes). Surfaced as a polychain portfolio company and enriched from River''s public well-known, OIDC, and security surfaces.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/river-financial.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: river-financial-mcp.yml
+  slug: river-financial-mcpyml
 modified: '2026-07-21'
 name: River Financial
 nav: Providers
@@ -123,7 +131,7 @@ network: true
 overview: 'River Financial publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Bitcoin Services, Cryptocurrency, Financial Services, and Banking.
 
 
-  River Financial''s developer surface includes support, signup flow, authentication, and 16 more developer resources.'
+  River Financial''s developer surface includes support, signup flow, authentication, and 17 more developer resources.'
 random_paper: 22
 scopes:
 - name: River Financial Scopes
@@ -132,13 +140,13 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: thin
-  composite: 32.0
-  delta: 0.0
+  composite: 31.4
+  delta: -0.6
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
-    developer_ergonomics: 15.2
-    discoverability: 87.0
+    developer_ergonomics: 17.4
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 31.6
   previous_composite: 32.0
@@ -151,8 +159,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

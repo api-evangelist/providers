@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -116,16 +116,16 @@ rate_limits:
   name: Johnson And Johnson Rate Limits
   slug: johnson-and-johnson-rate-limits
 score:
-  band: thin
-  composite: 31.2
-  delta: 0.0
+  band: emerging
+  composite: 26.3
+  delta: -4.9
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 56.6
+    commercial_clarity: 13.2
+    contract_quality: 54.5
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 5.3
   previous_composite: 31.2
   provenance:
     agentic_access: derived
@@ -140,8 +140,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/screenshots/johnson-and-johnson-2026-06-20T183753.png
 security:

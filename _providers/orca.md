@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -175,11 +176,11 @@ overview: 'Orca publishes 3 APIs on the [APIs.io](https://apis.io/) network: pro
 random_paper: 73
 score:
   band: thin
-  composite: 41.8
-  delta: 0.0
+  composite: 41.3
+  delta: -0.5
   facets:
     commercial_clarity: 0.0
-    contract_quality: 54.0
+    contract_quality: 52.0
     developer_ergonomics: 79.9
     discoverability: 81.5
     governance: 11.5
@@ -195,8 +196,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/screenshots/orca-2026-08-07T190854.png
 security:

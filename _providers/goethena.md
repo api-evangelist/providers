@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 56.1
-  scored_at: '2026-08-10'
+  score: 52.5
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Learner training campaign information and operations.
@@ -55,6 +56,10 @@ asyncapis:
   name: Goethena Webhooks
   slug: goethena-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/goethena-ethena-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -177,15 +182,15 @@ overview: 'Goethena publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The Goethena catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Goethena''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 19 more developer resources.'
+  Goethena''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 20 more developer resources.'
 random_paper: 31
 score:
   band: developing
-  composite: 53.3
-  delta: 0.0
+  composite: 52.6
+  delta: -0.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 77.3
+    contract_quality: 74.4
     developer_ergonomics: 42.9
     discoverability: 92.6
     governance: 11.5
@@ -200,8 +205,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goethena/refs/heads/main/screenshots/goethena-2026-07-25T220018.png
 security:

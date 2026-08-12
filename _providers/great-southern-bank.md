@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 39.9
-  scored_at: '2026-08-10'
+  score: 36.3
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -183,11 +183,11 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.0
-  delta: 0.0
+  composite: 43.5
+  delta: -1.5
   facets:
     commercial_clarity: 28.9
-    contract_quality: 54.3
+    contract_quality: 52.2
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 20.8
@@ -207,9 +207,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 67.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 59.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/screenshots/great-southern-bank-2026-07-21T114729.png
 security:

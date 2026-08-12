@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -142,13 +142,13 @@ overview: 'ClickFunnels publishes 5 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 5
 score:
   band: thin
-  composite: 33.1
-  delta: 0.0
+  composite: 33.2
+  delta: 0.1
   facets:
     commercial_clarity: 23.7
-    contract_quality: 58.3
+    contract_quality: 56.1
     developer_ergonomics: 32.6
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 33.1
@@ -165,8 +165,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 28.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/screenshots/clickfunnels-2026-06-20T174514.png
 security:

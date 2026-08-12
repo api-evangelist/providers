@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -96,6 +96,10 @@ collections:
   name: Alloy API
   slug: open-alloy
 common:
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.alloy.com/public/docs/getting-started
 - group: agent
   title: ''
   type: AgenticAccess
@@ -307,7 +311,7 @@ overview: 'Alloy publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
   The Alloy catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Alloy''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, pricing, support, and 23 more developer resources.'
+  Alloy''s developer surface includes getting-started guide, authentication, developer portal, documentation, API reference, signup flow, pricing, and 24 more developer resources.'
 plans:
 - name: Alloy Com Plans Pricing
   plan_count: 1
@@ -339,32 +343,32 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 56.9
-  delta: 8.4
+  composite: 58.9
+  delta: 2.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 64.3
-    developer_ergonomics: 41.3
-    discoverability: 74.1
+    contract_quality: 61.9
+    developer_ergonomics: 52.2
+    discoverability: 81.5
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 48.5
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 17
+      total: 19
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: rising
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/screenshots/alloy-com-2026-06-20T171540.png
 security:
 - kind: authentication

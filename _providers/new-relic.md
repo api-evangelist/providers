@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -260,6 +260,26 @@ collections:
   name: New Relic
   slug: open-new-relic
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/newrelic/newrelic-telemetry-sdk-java/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/newrelic/newrelic-telemetry-sdk-java/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/newrelic/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/newrelic/newrelic-telemetry-sdk-java/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/newrelic/newrelic-telemetry-sdk-java/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -3144,7 +3164,7 @@ overview: 'New Relic publishes 30 APIs on the [APIs.io](https://apis.io/) networ
   The New Relic catalog on APIs.io includes 1 event-driven AsyncAPI specification, 10 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  New Relic''s developer surface includes authentication, developer portal, pricing, documentation, engineering blog, signup flow, developer console, and 68 more developer resources.'
+  New Relic''s developer surface includes authentication, developer portal, pricing, documentation, engineering blog, signup flow, developer console, and 73 more developer resources.'
 plans:
 - name: New Relic Plans Pricing
   plan_count: 4
@@ -3181,15 +3201,15 @@ rules:
   slug: new-relic-spectral-rules
 score:
   band: exemplar
-  composite: 80.0
-  delta: 0.0
+  composite: 71.9
+  delta: -8.1
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 91.0
+    commercial_clarity: 68.4
+    contract_quality: 89.9
     developer_ergonomics: 78.3
     discoverability: 59.3
     governance: 58.3
-    operational_transparency: 78.9
+    operational_transparency: 55.3
   previous_composite: 80.0
   provenance:
     agentic_access: derived
@@ -3198,9 +3218,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/screenshots/new-relic-2026-06-20T190230.png
 security:
 - kind: authentication

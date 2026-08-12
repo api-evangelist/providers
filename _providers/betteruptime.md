@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -199,11 +199,11 @@ rules:
   slug: betteruptime-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.1
-  delta: 0.0
+  composite: 53.5
+  delta: -0.6
   facets:
     commercial_clarity: 57.9
-    contract_quality: 68.2
+    contract_quality: 65.7
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 68.8
@@ -216,8 +216,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/screenshots/betteruptime-2026-06-20T173208.png
 security:

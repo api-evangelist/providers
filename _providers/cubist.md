@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 13
@@ -130,6 +130,10 @@ apis:
   slug: cubist-users-in-role-api
 artifact_total: 36
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cubist-cubesigner-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -261,7 +265,7 @@ network: true
 overview: 'Cubist publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounts API, Audit API, and 27 more. Tagged areas include Company, Developer Tools, Key Management, Wallets, and Digital Signatures.
 
 
-  Cubist''s developer surface includes documentation, engineering blog, support, authentication, sandbox, CLI, and 23 more developer resources.'
+  Cubist''s developer surface includes documentation, engineering blog, support, authentication, sandbox, CLI, and 24 more developer resources.'
 random_paper: 70
 scopes:
 - name: Cubist Scopes
@@ -270,13 +274,13 @@ scopes:
   summary_line: 135 scopes
 score:
   band: developing
-  composite: 46.0
-  delta: 0.0
+  composite: 48.5
+  delta: 2.5
   facets:
     commercial_clarity: 36.8
-    contract_quality: 59.9
+    contract_quality: 57.7
     developer_ergonomics: 49.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 15.8
   previous_composite: 46.0
@@ -290,8 +294,14 @@ score:
       total: 30
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 71.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/screenshots/cubist-2026-07-25T210859.png
 security:

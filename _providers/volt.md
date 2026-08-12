@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Authenticated remote MCP server that lets AI models and agents access a user's Volt (WhatsApp) data — contacts, chats, messages, groups, and lists.
@@ -95,8 +95,8 @@ overview: 'Volt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 105
 score:
   band: emerging
-  composite: 17.9
-  delta: 0.0
+  composite: 18.2
+  delta: 0.3
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -108,14 +108,8 @@ score:
   provenance:
     mcp: first-party
     skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 16.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 4
@@ -75,6 +75,30 @@ collections:
   name: etcd HTTP Gateway API
   slug: open-etcd-http-gateway
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/etcd-io/etcd/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/etcd-io/etcd/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/etcd-io/etcd/blob/main/.github/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/etcd-io/etcd/blob/main/code-of-conduct.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/etcd-io/etcd/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/etcd-io/etcd/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -395,7 +419,7 @@ overview: 'Etcd publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
   The Etcd catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Etcd''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, support, Stack Overflow tag, and 9 more developer resources.'
+  Etcd''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, support, Stack Overflow tag, and 15 more developer resources.'
 plans:
 - name: Etcd Plans Pricing
   plan_count: 1
@@ -416,15 +440,15 @@ rules:
   slug: etcd-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.9
-  delta: 0.0
+  composite: 45.1
+  delta: -6.8
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 65.1
+    commercial_clarity: 13.2
+    contract_quality: 62.7
     developer_ergonomics: 37.0
     discoverability: 72.2
     governance: 58.3
-    operational_transparency: 63.2
+    operational_transparency: 39.5
   previous_composite: 51.9
   provenance:
     agentic_access: derived
@@ -433,9 +457,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/screenshots/etcd-2026-06-20T180830.png
 security:
 - kind: authentication

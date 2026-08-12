@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -242,13 +242,13 @@ rate_limits:
   slug: helcim-rate-limits
 score:
   band: strong
-  composite: 60.7
-  delta: 0.0
+  composite: 57.4
+  delta: -3.3
   facets:
     commercial_clarity: 52.6
-    contract_quality: 59.0
+    contract_quality: 56.8
     developer_ergonomics: 64.7
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 84.2
   previous_composite: 60.7
@@ -262,9 +262,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 59.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 46.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/screenshots/helcim-2026-07-25T220910.png
 security:

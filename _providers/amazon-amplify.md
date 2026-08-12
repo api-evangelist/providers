@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 36.5
-  scored_at: '2026-08-10'
+  score: 32.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,6 +43,10 @@ apis:
   slug: amazon-amplify-apps-api
 artifact_total: 53
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-amplify-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -299,7 +303,7 @@ overview: 'Amazon Amplify publishes 1 API on the [APIs.io](https://apis.io/) net
   The Amazon Amplify catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Amplify''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 23 more developer resources.'
+  Amazon Amplify''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 24 more developer resources.'
 random_paper: 53
 rules:
 - name: Amazon Amplify API Rules
@@ -320,11 +324,11 @@ rules:
   slug: amazon-amplify-spectral-rules
 score:
   band: developing
-  composite: 55.1
-  delta: 0.0
+  composite: 54.4
+  delta: -0.7
   facets:
     commercial_clarity: 42.1
-    contract_quality: 76.0
+    contract_quality: 73.1
     developer_ergonomics: 43.5
     discoverability: 87.0
     governance: 80.2
@@ -339,8 +343,8 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/screenshots/amazon-amplify-2026-07-25T195912.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Server-side Experience APIs and related product APIs for personalization, recommendations, event collection, product catalog sync, search, and the Shopping Muse AI assistant. Authenticated with a DY-A
@@ -148,8 +148,8 @@ score:
   previous_composite: 31.5
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dynamic-yield/refs/heads/main/screenshots/dynamic-yield-2026-07-25T212557.png
 security:

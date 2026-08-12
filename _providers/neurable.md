@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 37.2
-  scored_at: '2026-08-10'
+  score: 36.3
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: The Core API from Neurable — 2 operation(s) for core.
@@ -36,8 +36,16 @@ apis:
 - description: The protected API from Neurable — 5 operation(s) for protected.
   name: Neurable Protected API
   slug: neurable-protected-api
-artifact_total: 8
+artifact_total: 9
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/neurable-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/neurable-analytics-service-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -119,6 +127,10 @@ description: 'Neurable is a Boston, Massachusetts neurotechnology company, found
   a full OpenID Connect authorization server, and a Brain Health Service.'
 image: https://cdn.prod.website-files.com/65773cb2354a620eb230d1e4/657b30529e7a3d9845248e54_Neurable-December-Opengraph%20(2).jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: neurable-mcp.yml
+  slug: neurable-mcpyml
 modified: '2026-08-04'
 name: Neurable
 nav: Providers
@@ -126,7 +138,7 @@ network: true
 overview: 'Neurable publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Core API, O Auth API, OIDC API, and 2 more. Tagged areas include neurotechnology, brain-computer-interface, eeg, neuroscience, and wearables.
 
 
-  Neurable''s developer surface includes engineering blog, support, authentication, and 16 more developer resources.'
+  Neurable''s developer surface includes engineering blog, support, authentication, and 18 more developer resources.'
 random_paper: 34
 scopes:
 - name: Neurable Scopes
@@ -135,27 +147,33 @@ scopes:
   summary_line: 5 scopes
 score:
   band: thin
-  composite: 31.8
-  delta: 0.9
+  composite: 35.7
+  delta: 3.9
   facets:
     commercial_clarity: 21.1
-    contract_quality: 45.3
-    developer_ergonomics: 19.0
+    contract_quality: 47.3
+    developer_ergonomics: 21.2
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 30.9
+  previous_composite: 31.8
   provenance:
     conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 52.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

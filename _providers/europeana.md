@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,6 +51,14 @@ collections:
   name: Europeana Search and Record API
   slug: open-europeana
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/europeana/api2/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/europeana/api2/blob/develop/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -122,7 +130,7 @@ network: true
 overview: 'Europeana publishes 2 APIs on the [APIs.io](https://apis.io/) network: Record API and Search API. Tagged areas include Archives, Cultural Heritage, Europe, Libraries, and Museums.
 
 
-  Europeana''s developer surface includes authentication, developer portal, product news, changelog, getting-started guide, signup flow, and 8 more developer resources.'
+  Europeana''s developer surface includes authentication, developer portal, product news, changelog, getting-started guide, signup flow, and 10 more developer resources.'
 plans:
 - name: Europeana Plans Pricing
   plan_count: 3
@@ -133,16 +141,16 @@ rate_limits:
   name: Europeana Rate Limits
   slug: europeana-rate-limits
 score:
-  band: developing
-  composite: 46.5
-  delta: 0.0
+  band: thin
+  composite: 40.8
+  delta: -5.7
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 61.2
+    commercial_clarity: 50.0
+    contract_quality: 59.0
     developer_ergonomics: 30.4
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 47.4
+    operational_transparency: 23.7
   previous_composite: 46.5
   provenance:
     agentic_access: derived
@@ -151,9 +159,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/europeana/refs/heads/main/screenshots/europeana-2026-07-25T213706.png
 security:
 - kind: authentication

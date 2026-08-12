@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,7 +20,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-08-10'
+  score: 32.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -352,32 +352,32 @@ rules:
   slug: suki-ai-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.3
-  delta: 13.8
+  composite: 54.8
+  delta: 0.5
   facets:
     commercial_clarity: 57.9
-    contract_quality: 72.9
+    contract_quality: 72.4
     developer_ergonomics: 41.3
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 40.5
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 16
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: rising
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/screenshots/suki-ai-2026-06-20T194641.png
 security:
 - kind: authentication

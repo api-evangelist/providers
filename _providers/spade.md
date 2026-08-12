@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -68,6 +68,10 @@ asyncapis:
   name: Spade Webhooks
   slug: spade-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spade-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -198,15 +202,15 @@ overview: 'Spade publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
   The Spade catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Spade''s developer surface includes documentation, API reference, getting-started guide, support, pricing, changelog, authentication, and 21 more developer resources.'
+  Spade''s developer surface includes documentation, API reference, getting-started guide, support, pricing, changelog, authentication, and 22 more developer resources.'
 random_paper: 61
 score:
   band: developing
-  composite: 55.0
-  delta: 0.0
+  composite: 54.4
+  delta: -0.6
   facets:
     commercial_clarity: 47.4
-    contract_quality: 72.5
+    contract_quality: 69.8
     developer_ergonomics: 60.3
     discoverability: 81.5
     governance: 20.8
@@ -228,8 +232,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

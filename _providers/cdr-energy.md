@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: documented
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-10'
+  score: 46.4
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: The ACCC-operated Consumer Data Right Register, the ecosystem's source of truth for who is allowed to participate. Unauthenticated endpoints return the energy data holder brand summary (84 brands with
@@ -45,6 +46,10 @@ asyncapis:
   name: Cdr Energy Webhooks
   slug: cdr-energy-webhooks
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/ConsumerDataStandardsAustralia/register/issues
 - group: auth
   title: ''
   type: DomainSecurity
@@ -248,7 +253,7 @@ overview: 'Consumer Data Right (Energy) publishes 6 APIs on the [APIs.io](https:
   The Consumer Data Right (Energy) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Consumer Data Right (Energy)''s developer surface includes documentation, API reference, authentication, sandbox, support, engineering blog, changelog, and 35 more developer resources.'
+  Consumer Data Right (Energy)''s developer surface includes documentation, API reference, authentication, sandbox, support, engineering blog, changelog, and 36 more developer resources.'
 random_paper: 80
 rate_limits:
 - limit_count: 6
@@ -261,11 +266,11 @@ scopes:
   summary_line: 15 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 58.3
-  delta: 0.0
+  composite: 56.2
+  delta: -2.1
   facets:
     commercial_clarity: 7.9
-    contract_quality: 64.2
+    contract_quality: 61.8
     developer_ergonomics: 79.9
     discoverability: 83.3
     governance: 20.8
@@ -285,9 +290,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 63.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 52.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/screenshots/cdr-energy-2026-08-07T163251.png
 security:

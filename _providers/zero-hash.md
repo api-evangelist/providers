@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 56.5
-  scored_at: '2026-08-10'
+  score: 55.6
+  scored_at: '2026-08-11'
 api_count: 31
 apis:
 - description: Authenticated WebSocket feed delivering a full account-balance snapshot on subscribe followed by incremental balance-updated events, plus RFQ liquidity bid/ask price levels per subscribed symbol. Ever
@@ -114,12 +114,20 @@ apis:
 - description: Initiate and monitor withdrawals from accounts
   name: Zero Hash Withdrawals API
   slug: zero-hash-withdrawals-api
-artifact_total: 37
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Zero Hash Webhooks
   slug: zero-hash-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/zero-hash-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zero-hash-api-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -277,6 +285,10 @@ description: Zero Hash is a regulated digital-asset infrastructure provider that
   CLOB order entry and market data, an outbound webhook catalog, and a large family of embeddable JavaScript/React SDK modules for buy, sell, onboarding, funding, withdrawals and account linking.
 image: https://cdn.prod.website-files.com/68c59605946d2fed8ac8bcbd/6a0c76136695e559d8cffe0f_zerohash%20-%20512.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: zero-hash-mcp.yml
+  slug: zero-hash-mcpyml
 modified: '2026-08-05'
 name: Zero Hash
 nav: Providers
@@ -287,7 +299,7 @@ overview: 'Zero Hash publishes 30 APIs on the [APIs.io](https://apis.io/) networ
   The Zero Hash catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Zero Hash''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+  Zero Hash''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
 random_paper: 101
 scopes:
 - name: Zero Hash Scopes
@@ -296,23 +308,23 @@ scopes:
   summary_line: 4 scopes
 score:
   band: strong
-  composite: 60.3
-  delta: -3.2
+  composite: 61.4
+  delta: 1.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 64.8
-    developer_ergonomics: 66.8
+    contract_quality: 68.4
+    developer_ergonomics: 69.0
     discoverability: 68.5
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 63.5
+  previous_composite: 60.3
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 30
     mcp: derived
     skills: derived
   regulatory:
@@ -321,8 +333,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

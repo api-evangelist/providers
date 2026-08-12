@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 311
   human_in_the_loop: 5
@@ -348,6 +348,10 @@ collections:
   name: Storefront API
   slug: open-spree-commerce-storefront-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/spree/spree/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -415,7 +419,7 @@ network: true
 overview: 'Spree Commerce publishes 78 APIs on the [APIs.io](https://apis.io/) network, including Account / Address API, Account API, Account / Credit Cards API, and 75 more. Tagged areas include Commerce, Headless, eCommerce, Open Source, and Ruby on Rails.
 
 
-  Spree Commerce''s developer surface includes authentication, engineering blog, documentation, API reference, GitHub presence, pricing, release notes, and 6 more developer resources.'
+  Spree Commerce''s developer surface includes authentication, engineering blog, documentation, API reference, GitHub presence, pricing, release notes, and 7 more developer resources.'
 plans:
 - name: Spree Commerce Plans Pricing
   plan_count: 2
@@ -427,11 +431,11 @@ rate_limits:
   slug: spree-commerce-rate-limits
 score:
   band: thin
-  composite: 41.1
-  delta: 0.0
+  composite: 40.5
+  delta: -0.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 60.9
+    contract_quality: 58.6
     developer_ergonomics: 28.3
     discoverability: 68.5
     governance: 0.0
@@ -444,8 +448,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 78
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spree-commerce/refs/heads/main/screenshots/spree-commerce-2026-06-20T194400.png
 security:

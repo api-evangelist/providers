@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -177,6 +177,10 @@ collections:
   name: Trakt API
   slug: open-trakt
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/trakt/trakt-api/blob/master/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -457,7 +461,7 @@ overview: 'Trakt publishes 22 APIs on the [APIs.io](https://apis.io/) network, i
   The Trakt catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Trakt''s developer surface includes authentication, documentation, signup flow, pricing, support, FAQ, engineering blog, and 35 more developer resources.'
+  Trakt''s developer surface includes authentication, documentation, signup flow, pricing, support, FAQ, engineering blog, and 36 more developer resources.'
 plans:
 - name: Trakt Plans Pricing
   plan_count: 3
@@ -486,11 +490,11 @@ rules:
   slug: trakt-rules
 score:
   band: exemplar
-  composite: 66.6
-  delta: 0.0
+  composite: 68.5
+  delta: 1.9
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 72.4
+    commercial_clarity: 84.2
+    contract_quality: 69.7
     developer_ergonomics: 54.3
     discoverability: 75.9
     governance: 68.8
@@ -503,8 +507,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trakt/refs/heads/main/screenshots/trakt-2026-06-20T195545.png
 security:

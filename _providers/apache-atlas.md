@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -78,6 +78,14 @@ collections:
   name: Apache Atlas REST Discovery Types API
   slug: postman-apache-atlas-types-api
 common:
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/atlas/blob/master/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -295,7 +303,7 @@ overview: 'Apache Atlas publishes 6 APIs on the [APIs.io](https://apis.io/) netw
   The Apache Atlas catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache Atlas'' developer surface includes authentication, documentation, getting-started guide, support, changelog, and 9 more developer resources.'
+  Apache Atlas'' developer surface includes authentication, documentation, getting-started guide, support, changelog, and 11 more developer resources.'
 plans:
 - name: Apache Atlas Plans Pricing
   plan_count: 3
@@ -323,16 +331,16 @@ rules:
     warn: 12
   slug: apache-atlas-spectral-rules
 score:
-  band: developing
-  composite: 45.3
-  delta: 0.0
+  band: thin
+  composite: 37.3
+  delta: -8.0
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 23.6
+    commercial_clarity: 26.3
+    contract_quality: 22.8
     developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 45.3
   provenance:
     agentic_access: derived
@@ -341,9 +349,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-atlas/refs/heads/main/screenshots/apache-atlas-2026-06-20T172046.png
 security:
 - kind: authentication

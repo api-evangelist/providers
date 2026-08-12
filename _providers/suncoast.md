@@ -18,10 +18,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.suncoast.com/Blog
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.suncoast.com/Privacy-Policy
 - group: auth
   title: ''
   type: DomainSecurity
@@ -47,16 +55,19 @@ modified: '2026-07-23'
 name: Suncoast Credit Union
 nav: Providers
 network: true
-overview: Suncoast Credit Union is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Credit Union, and Florida.
+overview: 'Suncoast Credit Union is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Credit Union, and Florida.
+
+
+  Suncoast Credit Union''s developer surface includes engineering blog and 5 more developer resources.'
 random_paper: 68
 score:
   band: minimal
-  composite: 5.4
-  delta: 0.0
+  composite: 8.3
+  delta: 2.9
   facets:
-    commercial_clarity: 0.0
+    commercial_clarity: 10.5
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.2
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
@@ -66,9 +77,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 7.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 12.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

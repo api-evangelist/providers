@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 60.6
-  scored_at: '2026-08-10'
+  score: 57.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 0
@@ -55,6 +56,18 @@ asyncapis:
   name: Nokia Network As Code Webhooks
   slug: nokia-network-as-code-webhooks
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/nokia/network-as-code-sdks/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/nokia/network-as-code-sdks/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/nokia/network-as-code-sdks/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -255,7 +268,7 @@ overview: 'Nokia Network as Code publishes 7 APIs on the [APIs.io](https://apis.
   The Nokia Network as Code catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Nokia Network as Code''s developer surface includes authentication, changelog, sandbox, API reference, developer portal, documentation, getting-started guide, and 38 more developer resources.'
+  Nokia Network as Code''s developer surface includes authentication, changelog, sandbox, API reference, developer portal, documentation, getting-started guide, and 41 more developer resources.'
 random_paper: 94
 scopes:
 - name: Nokia Network As Code Scopes
@@ -264,11 +277,11 @@ scopes:
   summary_line: 65 scopes
 score:
   band: strong
-  composite: 63.9
-  delta: 0.0
+  composite: 60.4
+  delta: -3.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 71.4
+    contract_quality: 68.8
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
@@ -289,9 +302,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 93.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 73.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/screenshots/nokia-network-as-code-2026-08-07T185436.png
 security:

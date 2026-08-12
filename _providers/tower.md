@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 68.0
-  scored_at: '2026-08-10'
+  score: 64.4
+  scored_at: '2026-08-11'
 api_count: 27
 apis:
 - description: The Accounts API from Tower — 2 operation(s) for accounts.
@@ -118,6 +118,10 @@ asyncapis:
   name: Tower Webhooks
   slug: tower-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tower-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -256,7 +260,7 @@ overview: 'Tower publishes 27 APIs on the [APIs.io](https://apis.io/) network, i
   The Tower catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tower''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, changelog, CLI, and 23 more developer resources.'
+  Tower''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, changelog, CLI, and 24 more developer resources.'
 random_paper: 97
 scopes:
 - name: Tower Scopes
@@ -264,14 +268,14 @@ scopes:
   slug: tower-scopes
   summary_line: 53 scopes
 score:
-  band: strong
-  composite: 57.6
-  delta: 0.0
+  band: developing
+  composite: 55.9
+  delta: -1.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 68.0
+    contract_quality: 65.4
     developer_ergonomics: 76.1
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
   previous_composite: 57.6
@@ -284,8 +288,8 @@ score:
       total: 27
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

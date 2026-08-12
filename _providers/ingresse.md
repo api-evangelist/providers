@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Versioned REST API (v1 and v2) for event ticketing — events, tickets, checkout/payments, users, and access control — authenticated with an individually issued API key passed as the `apikey` query para
@@ -111,13 +111,13 @@ overview: 'Ingresse publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 52
 score:
   band: emerging
-  composite: 19.7
-  delta: 0.0
+  composite: 18.7
+  delta: -1.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 52.2
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 19.7
@@ -127,8 +127,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ingresse/refs/heads/main/screenshots/ingresse-2026-07-25T222431.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -53,6 +53,14 @@ apis:
   slug: airport-gap-tokens-api
 artifact_total: 20
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/dennmart/airport_gap/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/dennmart/airport_gap/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -142,7 +150,7 @@ overview: 'Airport Gap publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
   The Airport Gap catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Airport Gap''s developer surface includes authentication, documentation, signup flow, and 7 more developer resources.'
+  Airport Gap''s developer surface includes authentication, documentation, signup flow, and 9 more developer resources.'
 plans:
 - name: Airport Gap Plans Pricing
   plan_count: 1
@@ -163,11 +171,11 @@ rules:
   slug: airport-gap-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 47.7
+  delta: 2.0
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 72.4
+    commercial_clarity: 42.1
+    contract_quality: 69.7
     developer_ergonomics: 19.6
     discoverability: 81.5
     governance: 58.3
@@ -180,8 +188,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airport-gap/refs/heads/main/screenshots/airport-gap-2026-06-20T171424.png
 security:

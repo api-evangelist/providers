@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 53.2
-  scored_at: '2026-08-10'
+  score: 49.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 1
@@ -266,6 +267,10 @@ collections:
   name: Remote Time and Attendance API
   slug: open-remote-time-attendance-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/remote-com-benefits-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -578,7 +583,7 @@ overview: 'Remote publishes 40 APIs on the [APIs.io](https://apis.io/) network, 
   The Remote catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Remote''s developer surface includes sandbox, changelog, CLI, authentication, pricing, engineering blog, support, and 57 more developer resources.'
+  Remote''s developer surface includes sandbox, changelog, CLI, authentication, pricing, engineering blog, support, and 58 more developer resources.'
 plans:
 - name: Remote Com Plans Pricing
   plan_count: 11
@@ -620,13 +625,13 @@ scopes:
   summary_line: 74 scopes · authorizationCode/clientCredentials/urn:ietf:params:oauth:grant-type:jwt-bearer
 score:
   band: exemplar
-  composite: 75.5
-  delta: 0.0
+  composite: 73.7
+  delta: -1.8
   facets:
     commercial_clarity: 78.9
-    contract_quality: 77.0
+    contract_quality: 74.5
     developer_ergonomics: 76.1
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 63.5
     operational_transparency: 68.4
   previous_composite: 75.5
@@ -639,8 +644,8 @@ score:
       marker_coverage: 0.0
       total: 39
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/screenshots/remote-com-2026-06-20T192847.png
 security:

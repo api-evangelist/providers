@@ -27,10 +27,34 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 11
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/containers/buildah/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/containers/buildah/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/podman-container-tools/buildah/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/podman-container-tools/buildah/blob/main/CODE-OF-CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/podman-container-tools/buildah/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/containers/buildah/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -133,22 +157,22 @@ network: true
 overview: 'Buildah is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Build Tools, CI/CD, Container Images, Containers, and Daemonless.
 
 
-  Buildah''s developer surface includes documentation, getting-started guide, engineering blog, release notes, and 7 more developer resources.'
+  Buildah''s developer surface includes documentation, getting-started guide, engineering blog, release notes, and 13 more developer resources.'
 random_paper: 33
 score:
-  band: minimal
-  composite: 12.1
-  delta: 0.0
+  band: emerging
+  composite: 13.4
+  delta: 1.3
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.7
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 31.6
   previous_composite: 12.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildah/refs/heads/main/screenshots/buildah-2026-06-20T173745.png
 security:

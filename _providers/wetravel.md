@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -95,6 +96,10 @@ asyncapis:
   name: Wetravel Webhooks
   slug: wetravel-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/wetravel-partner-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -217,7 +222,7 @@ overview: 'WeTravel publishes 17 APIs on the [APIs.io](https://apis.io/) network
   The WeTravel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  WeTravel''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 19 more developer resources.'
+  WeTravel''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 20 more developer resources.'
 random_paper: 62
 rate_limits:
 - limit_count: 1
@@ -225,13 +230,13 @@ rate_limits:
   slug: wetravel-rate-limits
 score:
   band: developing
-  composite: 49.4
-  delta: 0.0
+  composite: 48.0
+  delta: -1.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 67.5
+    contract_quality: 65.0
     developer_ergonomics: 66.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 84.2
   previous_composite: 49.4
@@ -251,8 +256,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -11,21 +11,25 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-10'
+  score: 18.5
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API for API key management, usage credits/metering, rate limiting, and traffic analytics. POST/JSON endpoints authenticated with a project root key via Bearer token; single unauthenticated GET /h
   name: ReqKey REST API
   slug: reqkey-rest-api
-artifact_total: 6
+artifact_total: 7
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/reqkey-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -134,6 +138,10 @@ created: '2026-07-26'
 description: 'ReqKey is out-of-band API key authentication, usage credits, rate limiting and request analytics as a service for teams that sell or expose an API. It never sits in front of customer traffic: your own middleware makes one call to POST /key/validate per request, which checks the key, deducts a credit from that customer''s pool and records the decision, typically in under 5ms over a reused connection. The defining design choice is that credits and rate limits live on the CONSUMER rather than the key, so issuing a customer fifty keys never multiplies their plan into fifty quotas and disabling a consumer stops all of its keys at once. Validation is Redis-backed and runs in multiple AWS regions with a global sync layer reconciling credit balances. A second endpoint, POST /ingest, correlates full request/response logs to a validation by requestId and feeds an Analytics API over two datasets. Seven first-party SDKs wrap both calls as framework middleware.'
 image: https://www.reqkey.com/og-image.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: reqkey-mcp.yml
+  slug: reqkey-mcpyml
 modified: '2026-08-09'
 name: ReqKey
 nav: Providers
@@ -141,7 +149,7 @@ network: true
 overview: 'ReqKey publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include api-keys, authentication, authorization, rate-limiting, and usage-metering.
 
 
-  ReqKey''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 19 more developer resources.'
+  ReqKey''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 20 more developer resources.'
 plans:
 - name: Reqkey Plans
   plan_count: 3
@@ -153,16 +161,22 @@ rate_limits:
   slug: reqkey-rate-limits
 score:
   band: thin
-  composite: 40.2
+  composite: 38.4
+  delta: -1.8
   facets:
     commercial_clarity: 76.3
     contract_quality: 0.0
-    developer_ergonomics: 50.0
-    discoverability: 87.0
-    governance: 12.5
+    developer_ergonomics: 52.2
+    discoverability: 75.9
+    governance: 3.1
     operational_transparency: 36.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 40.2
+  provenance:
+    conformance: derived
+    mcp: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Reqkey Authentication

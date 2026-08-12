@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-10'
+  score: 7.2
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'The production GraphQL API behind the Wellth member mobile app and the Wellth internal dashboard. Confirmed live at https://api.wellthapp.com/graphql: the endpoint is an Apollo Server deployment (stac'
@@ -137,8 +137,8 @@ score:
     regime: Health
     regime_id: health
     score: 30.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

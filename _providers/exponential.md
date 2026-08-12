@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-08-10'
+  score: 46.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,6 +66,10 @@ arazzos:
   slug: exponential-vault-snapshot
 artifact_total: 13
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/exponential-protocol-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -196,17 +201,17 @@ network: true
 overview: 'Exponential publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agent API, History API, Performance API, and 2 more. Tagged areas include Company, DeFi, Decentralized Finance, Yield, and Yield Optimizer.
 
 
-  Exponential''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, CLI, authentication, and 21 more developer resources.'
+  Exponential''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, CLI, authentication, and 22 more developer resources.'
 random_paper: 31
 score:
   band: developing
-  composite: 44.9
-  delta: 0.0
+  composite: 43.3
+  delta: -1.6
   facets:
     commercial_clarity: 18.4
-    contract_quality: 48.8
+    contract_quality: 47.0
     developer_ergonomics: 76.1
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 15.8
   previous_composite: 44.9
@@ -220,8 +225,8 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/screenshots/exponential-2026-07-25T213934.png
 security:

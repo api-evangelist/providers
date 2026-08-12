@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -208,19 +208,19 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/rollbar-rest-api-openapi.yml
+  url: openapi/_original/rollbar-rest-api-openapi.yml
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/rollbar-deployment-api-openapi.yml
+  url: openapi/_original/rollbar-deployment-api-openapi.yml
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/rollbar-metrics-api-openapi.yml
+  url: openapi/_original/rollbar-metrics-api-openapi.yml
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/rollbar-rql-api-openapi.yml
+  url: openapi/_original/rollbar-rql-api-openapi.yml
 - group: docs
   title: ''
   type: AsyncAPI
@@ -357,16 +357,16 @@ rules:
     warn: 6
   slug: rollbar-rules
 score:
-  band: strong
-  composite: 59.5
-  delta: 0.0
+  band: developing
+  composite: 51.8
+  delta: -7.7
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 74.1
+    commercial_clarity: 47.4
+    contract_quality: 71.7
     developer_ergonomics: 47.8
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 41.7
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 59.5
   provenance:
     agentic_access: derived
@@ -375,9 +375,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rollbar/refs/heads/main/screenshots/rollbar-2026-06-20T193208.png
 security:
 - kind: authentication

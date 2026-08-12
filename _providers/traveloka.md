@@ -22,14 +22,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.5
-  scored_at: '2026-08-10'
+  score: 55.2
+  scored_at: '2026-08-11'
 api_count: 15
 apis:
 - description: OpenTravel (OTA) 2017B XML connectivity API for channel managers, property-management systems and hotel technology partners. Traveloka hosts the ARI (availability, rates, inventory) and content push e
@@ -77,12 +77,16 @@ apis:
 - description: The Rate API from Traveloka — 2 operation(s) for rate.
   name: Traveloka Rate API
   slug: traveloka-rate-api
-artifact_total: 20
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Traveloka Connect Webhooks
   slug: traveloka-connect-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/traveloka-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -203,6 +207,10 @@ created: '2026-08-05'
 description: 'Traveloka (Traveloka Services Pte. Ltd.) is a Southeast Asian multi-product online travel agency operating across Indonesia, Thailand, Vietnam, Malaysia, Singapore, the Philippines, Australia, Japan and South Korea, selling flights, hotels and alternative stays, activities (Xperience), trains, cruises, buses, car rental and airport transfers. Its API surface is entirely partner-facing and runs in three distinct programs: the Traveloka Partners Network (LOKA) v2 REST API for distribution partners reselling Traveloka accommodation inventory; Traveloka Connect, an OpenTravel (OTA) 2017B XML connectivity API for channel managers and property-management systems pushing availability, rates and content; and Traveloka Atlas, a published JSON specification that accommodation suppliers implement on their own hosts so Traveloka can search and book against them. All three are approval-gated behind a partnership agreement and certification; none offer self-serve signup.'
 image: https://ik.imagekit.io/tvlk/image/imageResource/2024/08/09/1723192761223-35bd6fefad235fbb690b6d79b050343f.png?tr=q-75
 layout: provider
+mcp_servers:
+- description: ''
+  name: traveloka-mcp.yml
+  slug: traveloka-mcpyml
 modified: '2026-08-05'
 name: Traveloka
 nav: Providers
@@ -213,7 +221,7 @@ overview: 'Traveloka publishes 14 APIs on the [APIs.io](https://apis.io/) networ
   The Traveloka catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Traveloka''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 22 more developer resources.'
+  Traveloka''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 23 more developer resources.'
 random_paper: 41
 rate_limits:
 - limit_count: 1
@@ -221,27 +229,27 @@ rate_limits:
   slug: traveloka-rate-limits
 score:
   band: developing
-  composite: 51.1
+  composite: 50.3
   delta: -0.8
   facets:
     commercial_clarity: 34.2
-    contract_quality: 63.0
-    developer_ergonomics: 60.3
-    discoverability: 92.6
+    contract_quality: 62.3
+    developer_ergonomics: 62.5
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 51.9
+  previous_composite: 51.1
   provenance:
     conformance: derived
     contracts:
-      callable: 50.0
+      callable: 35.7
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

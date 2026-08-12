@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.1
-  scored_at: '2026-08-10'
+  score: 35.8
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The Ontario Energy Board's Open Data programme, launched September 2022 under Ontario's Digital and Data Directive (2021) and expanded in October 2023 ("Open Data 2.0") and August 2024. A crawl of bot
@@ -27,8 +27,12 @@ apis:
 - description: The OEB's public regulatory document search, serving every filing, decision, order, licence, code amendment and piece of correspondence in the Board's case record. It runs on Micro Focus / OpenText Co
   name: OEB Regulatory Document Search (RDS)
   slug: oeb-regulatory-document-search
-artifact_total: 8
+artifact_total: 9
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/ontario-energy-board-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -157,6 +161,10 @@ json_schemas:
   property_count: 11
   slug: ontario-energy-board-rds-record-search-response
 layout: provider
+mcp_servers:
+- description: ''
+  name: ontario-energy-board-mcp.yml
+  slug: ontario-energy-board-mcpyml
 modified: '2026-07-27'
 name: Ontario Energy Board
 nav: Providers
@@ -164,17 +172,17 @@ network: true
 overview: 'Ontario Energy Board publishes 2 APIs on the [APIs.io](https://apis.io/) network: OEB Open Data and OEB Regulatory Document Search (RDS). Tagged areas include Energy, Canada, Ontario, Utilities, and Electricity.
 
 
-  Ontario Energy Board''s developer surface includes documentation, developer portal, support, engineering blog, authentication, changelog, and 21 more developer resources.'
+  Ontario Energy Board''s developer surface includes documentation, developer portal, support, engineering blog, authentication, changelog, and 22 more developer resources.'
 random_paper: 52
 score:
   band: thin
-  composite: 40.1
-  delta: 0.0
+  composite: 37.5
+  delta: -2.6
   facets:
     commercial_clarity: 10.5
-    contract_quality: 60.5
-    developer_ergonomics: 42.9
-    discoverability: 87.0
+    contract_quality: 58.3
+    developer_ergonomics: 45.1
+    discoverability: 75.9
     governance: 31.3
     operational_transparency: 15.8
   previous_composite: 40.1
@@ -192,9 +200,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 39.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 28.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/screenshots/ontario-energy-board-2026-08-07T190420.png
 security:

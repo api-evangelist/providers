@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -148,16 +148,16 @@ rules:
     warn: 4
   slug: google-cloud-eventarc-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 56.2
-  delta: 0.0
+  band: developing
+  composite: 51.4
+  delta: -4.8
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 61.2
+    commercial_clarity: 47.4
+    contract_quality: 59.0
     developer_ergonomics: 47.8
     discoverability: 68.5
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 56.2
   provenance:
     agentic_access: derived
@@ -166,14 +166,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 36.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-eventarc/refs/heads/main/screenshots/google-cloud-eventarc-2026-06-20T182110.png
 security:

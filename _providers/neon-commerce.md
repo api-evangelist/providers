@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -83,6 +84,10 @@ asyncapis:
   name: Neon Commerce Webhooks Asyncapi
   slug: neon-commerce-webhooks-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/neon-commerce-account-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -233,17 +238,17 @@ overview: 'Neon Commerce publishes 13 APIs on the [APIs.io](https://apis.io/) ne
   The Neon Commerce catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Neon Commerce''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 26 more developer resources.'
+  Neon Commerce''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
 random_paper: 44
 score:
   band: developing
-  composite: 55.2
-  delta: 0.0
+  composite: 51.8
+  delta: -3.4
   facets:
     commercial_clarity: 44.7
-    contract_quality: 70.8
+    contract_quality: 68.1
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
   previous_composite: 55.2
@@ -262,9 +267,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 51.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 39.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/screenshots/neon-commerce-2026-08-07T185041.png
 security:

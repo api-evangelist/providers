@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-10'
+  score: 37.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -174,13 +174,13 @@ overview: 'ATCO publishes 1 API on the [APIs.io](https://apis.io/) network: Elec
 random_paper: 75
 score:
   band: thin
-  composite: 36.7
-  delta: 0.0
+  composite: 33.7
+  delta: -3.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 58.4
+    contract_quality: 56.3
     developer_ergonomics: 19.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 36.7
@@ -199,9 +199,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 44.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 33.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atco/refs/heads/main/screenshots/atco-2026-08-07T161823.png
 security:

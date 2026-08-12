@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The internal-but-anonymously-discoverable JSON API behind the Zerocater ordering application at app.zerocater.com. Built on Django REST Framework, it serves an RFC 6570 URI-template hypermedia index a
@@ -26,6 +26,10 @@ apis:
   slug: zerocater-api-v3
 artifact_total: 3
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/ZeroCater/PyZeroCater/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -130,24 +134,24 @@ network: true
 overview: 'Zerocater publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Catering, Corporate Services, and Workplace.
 
 
-  Zerocater''s developer surface includes engineering blog, support, FAQ, signup flow, authentication, and 18 more developer resources.'
+  Zerocater''s developer surface includes engineering blog, support, FAQ, signup flow, authentication, and 19 more developer resources.'
 random_paper: 47
 score:
   band: emerging
-  composite: 22.5
-  delta: 0.0
+  composite: 21.4
+  delta: -1.1
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 23.9
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 5.3
   previous_composite: 22.5
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

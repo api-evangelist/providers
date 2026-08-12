@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: 'RESTful API (v1) to automate outbound payments from your own Telleroo account: manage recipients, query accounts and transactions, and create bank transfers (to a saved recipient or adhoc). Token auth'
@@ -186,13 +186,13 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 48.1
+  delta: -1.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
     developer_ergonomics: 60.9
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 31.6
   previous_composite: 49.1
@@ -205,8 +205,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

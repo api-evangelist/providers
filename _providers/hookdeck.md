@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 7
@@ -208,6 +208,18 @@ collections:
   name: Hookdeck Transformations API
   slug: open-hookdeck-transformations-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/hookdeck/hookdeck-api-schema/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/hookdeck/hookdeck-api-schema/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/hookdeck/.github/blob/master/CODE_OF_CONDUCT.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -500,7 +512,7 @@ overview: 'Hookdeck publishes 17 APIs on the [APIs.io](https://apis.io/) network
   The Hookdeck catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Hookdeck''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, CLI, and 54 more developer resources.'
+  Hookdeck''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, CLI, and 57 more developer resources.'
 plans:
 - name: Hookdeck Plans Pricing
   plan_count: 3
@@ -521,15 +533,15 @@ rules:
   slug: hookdeck-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 68.3
-  delta: 0.0
+  composite: 67.8
+  delta: -0.5
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 78.7
-    developer_ergonomics: 65.2
+    commercial_clarity: 60.5
+    contract_quality: 75.7
+    developer_ergonomics: 76.1
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 78.9
+    operational_transparency: 55.3
   previous_composite: 68.3
   provenance:
     agentic_access: derived
@@ -538,14 +550,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 34.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/screenshots/hookdeck-2026-06-20T182825.png
 security:

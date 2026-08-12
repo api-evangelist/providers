@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: 'The Gremlin Server provides WebSocket and HTTP endpoints for submitting Gremlin traversals to a remote graph database. The HTTP API accepts POST requests with Gremlin traversal strings or bytecode at '
@@ -39,6 +39,22 @@ apis:
   slug: apache-tinkerpop-gremlin-api
 artifact_total: 24
 common:
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/apache/tinkerpop/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/tinkerpop/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/tinkerpop/blob/master/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -120,7 +136,7 @@ network: true
 overview: 'Apache TinkerPop publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Graph Computing, Graph Database, Gremlin, OLAP, and OLTP.
 
 
-  Apache TinkerPop''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 5 more developer resources.'
+  Apache TinkerPop''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 9 more developer resources.'
 plans:
 - name: Apache Tinkerpop Plans Pricing
   plan_count: 3
@@ -131,20 +147,20 @@ rate_limits:
   name: Apache Tinkerpop Rate Limits
   slug: apache-tinkerpop-rate-limits
 score:
-  band: thin
-  composite: 28.6
-  delta: 0.0
+  band: emerging
+  composite: 22.2
+  delta: -6.4
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 32.6
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 47.4
+    operational_transparency: 34.2
   previous_composite: 28.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-tinkerpop/refs/heads/main/screenshots/apache-tinkerpop-2026-06-20T172154.png
 security:
 - kind: domain-security

@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-08-10'
+  score: 33.1
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: Route, type, taxonomy and status discovery documents.
@@ -47,6 +47,10 @@ apis:
   slug: grin-therapeutics-users-api
 artifact_total: 10
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/grin-therapeutics-content-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -163,30 +167,36 @@ network: true
 overview: 'GRIN Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Media API, Oembed API, and 5 more. Tagged areas include Company, biotechnology, pharmaceuticals, neuroscience, and rare-disease.
 
 
-  GRIN Therapeutics'' developer surface includes product news, support, authentication, and 23 more developer resources.'
+  GRIN Therapeutics'' developer surface includes product news, support, authentication, and 24 more developer resources.'
 random_paper: 34
 score:
   band: thin
-  composite: 29.2
-  delta: -0.2
+  composite: 28.2
+  delta: -1.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 52.5
+    contract_quality: 54.3
     developer_ergonomics: 16.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 29.4
+  previous_composite: 29.2
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 8
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 26.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grin-therapeutics/refs/heads/main/screenshots/grin-therapeutics-2026-08-07T165843.png
 security:

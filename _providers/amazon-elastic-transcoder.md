@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -1548,16 +1548,16 @@ rules:
     warn: 13
   slug: amazon-elastic-transcoder-spectral-rules
 score:
-  band: exemplar
-  composite: 71.5
-  delta: 0.0
+  band: strong
+  composite: 62.9
+  delta: -8.6
   facets:
-    commercial_clarity: 89.5
-    contract_quality: 82.9
+    commercial_clarity: 65.8
+    contract_quality: 79.9
     developer_ergonomics: 45.7
     discoverability: 72.2
     governance: 68.8
-    operational_transparency: 63.2
+    operational_transparency: 39.5
   previous_composite: 71.5
   provenance:
     agentic_access: derived
@@ -1566,9 +1566,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/screenshots/amazon-elastic-transcoder-2026-06-20T171639.png
 security:
 - kind: authentication

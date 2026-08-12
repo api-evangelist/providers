@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 40.5
-  scored_at: '2026-08-10'
+  score: 36.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -72,6 +72,10 @@ collections:
   name: Albato Automations Apps Webhooks API
   slug: postman-albato-a-single-no-code-platform-for-all-automations-webhooks-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/albato-a-single-no-code-platform-for-all-automations-automations-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -264,7 +268,7 @@ overview: 'Albato A Single No Code Platform For All Automations publishes 5 APIs
   The Albato A Single No Code Platform For All Automations catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Albato A Single No Code Platform For All Automations'' developer surface includes authentication, engineering blog, documentation, pricing, getting-started guide, and 15 more developer resources.'
+  Albato A Single No Code Platform For All Automations'' developer surface includes authentication, engineering blog, documentation, pricing, getting-started guide, and 16 more developer resources.'
 plans:
 - name: Albato A Single No Code Platform For All Automations Plans Pricing
   plan_count: 3
@@ -300,16 +304,16 @@ rules:
     warn: 10
   slug: albato-spectral-rules
 score:
-  band: strong
-  composite: 61.1
-  delta: 0.0
+  band: developing
+  composite: 51.5
+  delta: -9.6
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 75.0
+    commercial_clarity: 34.2
+    contract_quality: 72.2
     developer_ergonomics: 39.1
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 80.2
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 61.1
   provenance:
     agentic_access: derived
@@ -320,9 +324,9 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/albato-a-single-no-code-platform-for-all-automations/refs/heads/main/screenshots/albato-a-single-no-code-platform-for-all-automations-2026-07-25T195539.png
 security:
 - kind: authentication

@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-10'
+  score: 41.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,12 +53,16 @@ apis:
 - description: Template rendering and intermediate model generation
   name: Swagger Codegen Utilities API
   slug: swagger-codegen-utilities-api
-artifact_total: 21
+artifact_total: 22
 collections:
 - collection_type: open
   name: Swagger Generator API
   slug: open-swagger-generator
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/swagger-codegen-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -239,6 +243,10 @@ jsonld:
   property_count: 27
   slug: swagger-codegen-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: swagger-codegen-mcp.yml
+  slug: swagger-codegen-mcpyml
 modified: '2026-08-06'
 name: Swagger Codegen
 nav: Providers
@@ -249,7 +257,7 @@ overview: 'Swagger Codegen publishes 4 APIs on the [APIs.io](https://apis.io/) n
   The Swagger Codegen catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Swagger Codegen''s developer surface includes developer portal, documentation, release notes, CLI, authentication, changelog, sandbox, and 31 more developer resources.'
+  Swagger Codegen''s developer surface includes developer portal, documentation, release notes, CLI, authentication, changelog, sandbox, and 32 more developer resources.'
 plans:
 - name: Swagger Codegen Plans Pricing
   plan_count: 3
@@ -277,17 +285,17 @@ rules:
     warn: 5
   slug: swagger-codegen-rules
 score:
-  band: exemplar
-  composite: 74.3
-  delta: -0.1
+  band: strong
+  composite: 65.8
+  delta: -8.5
   facets:
-    commercial_clarity: 76.3
+    commercial_clarity: 52.6
     contract_quality: 61.0
-    developer_ergonomics: 73.4
-    discoverability: 83.3
+    developer_ergonomics: 75.5
+    discoverability: 72.2
     governance: 79.2
-    operational_transparency: 86.8
-  previous_composite: 74.4
+    operational_transparency: 63.2
+  previous_composite: 74.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -298,9 +306,9 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/screenshots/swagger-codegen-2026-06-20T194753.png
 security:
 - kind: authentication

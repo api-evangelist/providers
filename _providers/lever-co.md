@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -334,11 +334,11 @@ scopes:
   summary_line: 22 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.0
-  delta: 0.0
+  composite: 59.4
+  delta: -0.6
   facets:
     commercial_clarity: 68.4
-    contract_quality: 73.6
+    contract_quality: 71.2
     developer_ergonomics: 39.1
     discoverability: 55.6
     governance: 58.3
@@ -351,8 +351,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lever-co/refs/heads/main/screenshots/lever-co-2026-06-20T184439.png
 security:

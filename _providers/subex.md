@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -196,15 +196,15 @@ rules:
   slug: subex-rules
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 42.5
+  delta: -7.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 66.1
+    commercial_clarity: 26.3
+    contract_quality: 63.7
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 49.7
   provenance:
     agentic_access: derived
@@ -219,9 +219,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 29.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/screenshots/subex-2026-06-20T194634.png
 security:
 - kind: authentication

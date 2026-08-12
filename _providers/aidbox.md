@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-08-10'
+  score: 50.2
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: Aidbox's HL7 FHIR REST API for creating, reading, updating, deleting, and searching clinical and administrative resources. Supports FHIR R4 (4.0.1), R5, and R6, with standard FHIR interactions, transa
@@ -228,13 +228,13 @@ scopes:
   summary_line: 12 scopes · authorizationCode/clientCredentials/implicit/password
 score:
   band: strong
-  composite: 58.5
-  delta: 0.0
+  composite: 56.1
+  delta: -2.4
   facets:
     commercial_clarity: 42.1
     contract_quality: 55.0
     developer_ergonomics: 75.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 12.5
     operational_transparency: 63.2
   previous_composite: 58.5
@@ -247,9 +247,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 71.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 61.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aidbox/refs/heads/main/screenshots/aidbox-2026-07-25T195346.png
 security:

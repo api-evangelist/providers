@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 604
   human_in_the_loop: 578
@@ -268,6 +268,14 @@ collections:
   name: Account Management Overview
   slug: open-frontegg-tenants
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/frontegg/openapi-public/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/frontegg/openapi-public/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -559,7 +567,7 @@ overview: 'Frontegg publishes 64 APIs on the [APIs.io](https://apis.io/) network
   The Frontegg catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 11 Spectral governance rulesets.
 
 
-  Frontegg''s developer surface includes authentication, developer portal, signup flow, documentation, API reference, getting-started guide, pricing, and 27 more developer resources.'
+  Frontegg''s developer surface includes authentication, developer portal, signup flow, documentation, API reference, getting-started guide, pricing, and 29 more developer resources.'
 plans:
 - name: Frontegg Plans Pricing
   plan_count: 2
@@ -660,15 +668,15 @@ rules:
   slug: frontegg-tenants-rules
 score:
   band: strong
-  composite: 56.5
-  delta: 0.0
+  composite: 61.3
+  delta: 4.8
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 71.2
+    commercial_clarity: 52.6
+    contract_quality: 68.9
     developer_ergonomics: 63.0
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 37.5
-    operational_transparency: 52.6
+    operational_transparency: 68.4
   previous_composite: 56.5
   provenance:
     agentic_access: derived
@@ -677,8 +685,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 63
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontegg/refs/heads/main/screenshots/frontegg-2026-06-20T181552.png
 security:

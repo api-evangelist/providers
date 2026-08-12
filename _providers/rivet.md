@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -46,6 +46,10 @@ apis:
   slug: rivet-gateway-api
 artifact_total: 6
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/rivet-rivetkit-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -165,15 +169,15 @@ network: true
 overview: 'Rivet publishes 2 APIs on the [APIs.io](https://apis.io/) network: Actors API and Gateway API. Tagged areas include Company, Infrastructure, Actors, Stateful Compute, and AI Agents.
 
 
-  Rivet''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 19 more developer resources.'
+  Rivet''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 20 more developer resources.'
 random_paper: 90
 score:
   band: developing
-  composite: 42.4
-  delta: 0.0
+  composite: 42.0
+  delta: -0.4
   facets:
     commercial_clarity: 23.7
-    contract_quality: 36.4
+    contract_quality: 35.1
     developer_ergonomics: 73.9
     discoverability: 75.9
     governance: 11.5
@@ -189,8 +193,8 @@ score:
       total: 2
     mcp: derived
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

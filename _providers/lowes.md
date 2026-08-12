@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -133,15 +133,15 @@ rate_limits:
   slug: lowes-rate-limits
 score:
   band: thin
-  composite: 37.3
-  delta: 0.0
+  composite: 31.6
+  delta: -5.7
   facets:
-    commercial_clarity: 42.1
-    contract_quality: 56.6
+    commercial_clarity: 26.3
+    contract_quality: 54.5
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 37.3
   provenance:
     agentic_access: derived
@@ -150,9 +150,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lowes/refs/heads/main/screenshots/lowes-2026-06-20T184736.png
 security:
 - kind: authentication

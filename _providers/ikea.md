@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -71,6 +71,14 @@ collections:
   name: IKEA Search API
   slug: open-ikea-search
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/idelsink/ikea-openapi/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/idelsink/ikea-openapi/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -306,7 +314,7 @@ overview: 'IKEA publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
   The IKEA catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  IKEA''s developer surface includes authentication, engineering blog, code examples, and 12 more developer resources.'
+  IKEA''s developer surface includes authentication, engineering blog, code examples, and 14 more developer resources.'
 random_paper: 62
 rules:
 - name: IKEA API Rules
@@ -327,11 +335,11 @@ rules:
   slug: ikea-rules
 score:
   band: thin
-  composite: 35.9
-  delta: 0.0
+  composite: 35.2
+  delta: -0.7
   facets:
     commercial_clarity: 0.0
-    contract_quality: 71.2
+    contract_quality: 68.5
     developer_ergonomics: 19.6
     discoverability: 64.8
     governance: 58.3
@@ -344,8 +352,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

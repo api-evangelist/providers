@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The HTX Spot REST API provides HTTP access to reference data (system status, symbols, currencies, chains), market data (klines, tickers, depth, trades, 24h summaries), account and balance information,
@@ -138,13 +138,13 @@ rate_limits:
   slug: htx-rate-limits
 score:
   band: thin
-  composite: 33.4
-  delta: 0.0
+  composite: 32.5
+  delta: -0.9
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 56.5
-    discoverability: 79.6
+    discoverability: 68.5
     governance: 3.1
     operational_transparency: 42.1
   previous_composite: 33.4
@@ -156,8 +156,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/htx/refs/heads/main/screenshots/htx-2026-07-25T221552.png
 security:

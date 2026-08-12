@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: 'SPP''s officially documented programmatic interface to its public data. The SPP Public Data Access guide (v3.0, July 2023) names FTP as the programmatic access path for Integrated Marketplace, Western '
@@ -199,11 +200,11 @@ scopes:
   summary_line: 15 scopes · clientCredentials
 score:
   band: developing
-  composite: 48.0
-  delta: 0.0
+  composite: 47.5
+  delta: -0.5
   facets:
     commercial_clarity: 42.1
-    contract_quality: 62.7
+    contract_quality: 60.3
     developer_ergonomics: 53.8
     discoverability: 83.3
     governance: 11.5
@@ -223,8 +224,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 63.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

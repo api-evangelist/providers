@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/ciena-blue-planet-openapi.yml
+  url: openapi/_original/ciena-blue-planet-openapi.yml
 - group: design
   title: ''
   type: JSONLDContext
@@ -220,15 +220,15 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: developing
-  composite: 55.6
-  delta: 0.0
+  composite: 50.3
+  delta: -5.3
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 69.8
+    commercial_clarity: 34.2
+    contract_quality: 67.2
     developer_ergonomics: 34.8
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 55.6
   provenance:
     agentic_access: derived
@@ -243,9 +243,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 66.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/screenshots/ciena-2026-06-20T174339.png
 security:
 - kind: authentication

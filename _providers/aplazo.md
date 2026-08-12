@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API for merchants to originate Aplazo installment loans at checkout, retrieve loan status, and process refunds and cancellations. Credentials (apiToken + merchantId) are exchanged at POST /api/au
@@ -40,6 +40,18 @@ asyncapis:
   name: Aplazo Webhooks
   slug: aplazo-webhooks
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/aplazo/php.aplazo-magento-2-payment-gateway/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/aplazo/php.aplazo-magento-2-payment-gateway/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/aplazo/php.aplazo-magento-2-payment-gateway/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -134,19 +146,19 @@ overview: 'Aplazo publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
   The Aplazo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Aplazo''s developer surface includes support, authentication, sandbox, and 16 more developer resources.'
+  Aplazo''s developer surface includes support, authentication, sandbox, and 19 more developer resources.'
 random_paper: 67
 score:
   band: thin
-  composite: 32.6
-  delta: 0.0
+  composite: 34.3
+  delta: 1.7
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.6
     developer_ergonomics: 32.1
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 28.9
   previous_composite: 32.6
   provenance:
     mcp: derived
@@ -157,8 +169,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aplazo/refs/heads/main/screenshots/aplazo-2026-07-25T200637.png
 security:

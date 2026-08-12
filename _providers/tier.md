@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Partner-facing data API from Dott (formerly TIER), providing vehicle and availability data (GBFS-style) to authorized partners. Access requires a per-partner API Key issued through Dott's registration
@@ -93,8 +93,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 15.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

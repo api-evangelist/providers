@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The core REST API for the Atlan platform, providing programmatic access to all platform capabilities including asset management, data lineage, glossary terms, classifications, custom metadata, persona
@@ -143,8 +143,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 36.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlan/refs/heads/main/screenshots/atlan-2026-06-20T172523.png
 security:

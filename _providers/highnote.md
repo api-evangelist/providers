@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-10'
+  score: 49.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -73,6 +73,18 @@ collections:
   name: Highnote GraphQL API
   slug: open-highnote
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/highnote-accept-a-payment.md
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.highnote.com/docs/tags/api
+- group: build
+  title: ''
+  type: SDKs
+  url: https://docs.highnote.com/docs/developers/sdks/about-sdks
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -139,7 +151,7 @@ common:
   url: https://docs.highnote.com/docs/get-started/about-highnote
 - group: start
   title: ''
-  type: SignUp
+  type: Signup
   url: https://dashboard.highnote.com
 - group: commercial
   title: ''
@@ -203,7 +215,7 @@ common:
   url: lifecycle/highnote-lifecycle.yml
 - group: operate
   title: ''
-  type: Deprecation
+  type: DeprecationPolicy
   url: https://docs.highnote.com/docs/developers/api/status-changes
 - group: design
   title: ''
@@ -239,7 +251,7 @@ common:
   url: asyncapi/highnote-events-asyncapi.yml
 - group: agent
   title: ''
-  type: AgentSkill
+  type: AgentSkills
   url: skills/_index.yml
 created: '2026-06-20'
 description: Highnote is a modern, unified embedded-finance and banking-as-a-service platform for card issuing, card acquiring, credit, and real-time money movement, with a built-in real-time programmable ledger and full program management. The entire platform is driven by a single GraphQL API at https://api.us.highnote.com/graphql (test https://api.us.test.highnote.com/graphql), authenticated with a base64-encoded API key over HTTP Basic auth. One endpoint covers card products, US person and business account holders (KYC/KYB onboarding), financial accounts and credit lines, virtual/physical/tokenized payment cards, transaction authorization and clearing, disputes, spend and velocity rules, collaborative authorization, multi-rail money movement (ACH, wire, RTP, push-to-card), and outbound webhook event notifications. Highnote is a US-based platform serving digital-first businesses embedding financial products; access is enterprise, contract-gated, with self-serve dashboard signup and a test
@@ -268,7 +280,7 @@ overview: 'Highnote publishes 7 APIs on the [APIs.io](https://apis.io/) network,
   The Highnote catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Highnote''s developer surface includes authentication, documentation, engineering blog, pricing, support, getting-started guide, signup flow, and 35 more developer resources.'
+  Highnote''s developer surface includes API reference, authentication, documentation, engineering blog, pricing, support, getting-started guide, and 38 more developer resources.'
 plans:
 - name: Highnote Plans Pricing
   plan_count: 2
@@ -280,13 +292,13 @@ rate_limits:
   slug: highnote-rate-limits
 score:
   band: exemplar
-  composite: 69.9
-  delta: 0.0
+  composite: 66.3
+  delta: -3.6
   facets:
     commercial_clarity: 81.6
-    contract_quality: 76.4
-    developer_ergonomics: 66.8
-    discoverability: 92.6
+    contract_quality: 73.9
+    developer_ergonomics: 73.4
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 73.7
   previous_composite: 69.9
@@ -305,9 +317,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 68.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 46.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/screenshots/highnote-2026-06-20T182732.png
 security:

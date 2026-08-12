@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Amphenol designs, manufactures, and markets electrical, electronic, and fiber optic connectors, interconnect systems, antennas, sensors, and cables. The company does not currently publish a public dev
@@ -137,19 +137,19 @@ rate_limits:
   slug: amphenol-rate-limits
 score:
   band: emerging
-  composite: 26.6
-  delta: 0.0
+  composite: 21.4
+  delta: -5.2
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 34.2
     contract_quality: 17.7
     developer_ergonomics: 13.0
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 5.3
   previous_composite: 26.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amphenol/refs/heads/main/screenshots/amphenol-2026-06-20T171939.png
 security:
 - kind: domain-security

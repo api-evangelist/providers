@@ -27,10 +27,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/linen-app/bloqboard-lending-wallet/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/linen-app/bloqboard-lending-wallet/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -67,13 +75,13 @@ overview: Linen App is profiled on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 88
 score:
   band: minimal
-  composite: 7.2
-  delta: 0.0
+  composite: 6.2
+  delta: -1.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 61.1
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 7.2
@@ -83,8 +91,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linen-app/refs/heads/main/screenshots/linen-app-2026-07-25T225240.png
 security:

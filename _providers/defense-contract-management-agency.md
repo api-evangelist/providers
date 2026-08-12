@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 5
 collections:
@@ -87,8 +87,8 @@ rate_limits:
   slug: defense-contract-management-agency-rate-limits
 score:
   band: emerging
-  composite: 13.5
-  delta: 0.0
+  composite: 13.2
+  delta: -0.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -97,8 +97,14 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 13.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 11.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defense-contract-management-agency/refs/heads/main/screenshots/defense-contract-management-agency-2026-06-20T175824.png
 security:

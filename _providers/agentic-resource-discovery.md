@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: 'The discovery interface a conformant Agent Registry exposes. POST /search is the only mandatory endpoint and takes a natural-language `text` query plus optional structured `filter`, returning catalog '
@@ -29,6 +29,22 @@ apis:
   slug: ai-catalog-manifest
 artifact_total: 3
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Agent-Card/ai-catalog/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Agent-Card/ai-catalog/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/Agent-Card/ai-catalog/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Agent-Card/ai-catalog/blob/main/CONTRIBUTING.md
 - group: company
   title: ''
   type: Website
@@ -141,24 +157,24 @@ network: true
 overview: 'Agentic Resource Discovery (ARD) publishes 1 API on the [APIs.io](https://apis.io/) network: ARD Registry API. Tagged areas include Agentic Resource Discovery, ARD, AI Catalog, Agent Discovery, and Discovery.
 
 
-  Agentic Resource Discovery (ARD)''s developer surface includes FAQ, getting-started guide, and 22 more developer resources.'
+  Agentic Resource Discovery (ARD)''s developer surface includes FAQ, getting-started guide, and 26 more developer resources.'
 random_paper: 9
 score:
   band: emerging
-  composite: 25.3
-  delta: 0.0
+  composite: 24.7
+  delta: -0.6
   facets:
     commercial_clarity: 0.0
-    contract_quality: 51.9
+    contract_quality: 50.0
     developer_ergonomics: 10.9
     discoverability: 59.3
-    governance: 12.5
-    operational_transparency: 21.1
+    governance: 0.0
+    operational_transparency: 31.6
   previous_composite: 25.3
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/screenshots/agentic-resource-discovery-2026-08-07T161030.png
 slug: agentic-resource-discovery

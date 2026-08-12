@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Cosign is a command-line tool for signing, verifying, and storing container images and OCI artifacts. It supports keyless signing, hardware-backed keys, KMS providers, in-toto and SLSA attestations, a
@@ -42,6 +42,18 @@ apis:
   slug: fulcio-api
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/sigstore/cosign/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/sigstore/cosign/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/sigstore/cosign/blob/main/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -117,7 +129,7 @@ network: true
 overview: 'Cosign publishes 1 API on the [APIs.io](https://apis.io/) network: Sigstore Rekor API (consumed). Tagged areas include Apache 2.0, Attestations, CLI, Code Signing, and Containers.
 
 
-  Cosign''s developer surface includes documentation, getting-started guide, release notes, engineering blog, and 11 more developer resources.'
+  Cosign''s developer surface includes documentation, getting-started guide, release notes, engineering blog, and 14 more developer resources.'
 plans:
 - name: Cosign Plans Pricing
   plan_count: 3
@@ -129,19 +141,19 @@ rate_limits:
   slug: cosign-rate-limits
 score:
   band: thin
-  composite: 36.6
-  delta: 0.0
+  composite: 28.7
+  delta: -7.9
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 32.3
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 36.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cosign/refs/heads/main/screenshots/cosign-2026-06-20T175045.png
 security:
 - kind: domain-security

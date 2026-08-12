@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: FOCUS defines a common normalized data schema for cloud and technology billing data. The specification is delivered as a set of normative documents and supporting artifacts (column library, requiremen
@@ -36,6 +36,18 @@ apis:
   slug: focus-spec
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/FinOps-Open-Cost-and-Usage-Spec/FOCUS_Spec/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/FinOps-Open-Cost-and-Usage-Spec/FOCUS_Spec/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/FinOps-Open-Cost-and-Usage-Spec/FOCUS_Spec/blob/working_draft/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -82,7 +94,7 @@ overview: 'FOCUS (FinOps Open Cost and Usage Specification) publishes 1 API on t
   The FOCUS (FinOps Open Cost and Usage Specification) catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  FOCUS (FinOps Open Cost and Usage Specification)''s developer surface includes documentation and 5 more developer resources.'
+  FOCUS (FinOps Open Cost and Usage Specification)''s developer surface includes documentation and 8 more developer resources.'
 plans:
 - name: Focus Spec Plans Pricing
   plan_count: 3
@@ -102,20 +114,20 @@ rules:
     warn: 4
   slug: focus-spec-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 29.8
-  delta: 0.0
+  band: emerging
+  composite: 24.0
+  delta: -5.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 9.7
     developer_ergonomics: 8.7
     discoverability: 59.3
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 29.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/focus-spec/refs/heads/main/screenshots/focus-spec-2026-06-20T181352.png
 security:
 - kind: domain-security

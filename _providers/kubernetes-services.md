@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -100,6 +100,30 @@ collections:
   name: Kubernetes Services API
   slug: open-kubernetes-services
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/kubernetes/kubernetes/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/kubernetes/kubernetes/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/kubernetes/kubernetes/blob/master/.github/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/kubernetes/kubernetes/blob/master/code-of-conduct.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/kubernetes/kubernetes/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/kubernetes/kubernetes/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -329,7 +353,7 @@ overview: 'Kubernetes Services publishes 12 APIs on the [APIs.io](https://apis.i
   The Kubernetes Services catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Kubernetes Services'' developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, and 10 more developer resources.'
+  Kubernetes Services'' developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, and 16 more developer resources.'
 plans:
 - name: Kubernetes Services Plans Pricing
   plan_count: 1
@@ -358,15 +382,15 @@ rules:
   slug: kubernetes-services-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.8
-  delta: 0.0
+  composite: 48.1
+  delta: -4.7
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 85.3
+    commercial_clarity: 13.2
+    contract_quality: 82.1
     developer_ergonomics: 43.5
     discoverability: 64.8
     governance: 41.7
-    operational_transparency: 42.1
+    operational_transparency: 36.8
   previous_composite: 52.8
   provenance:
     agentic_access: derived
@@ -375,8 +399,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/screenshots/kubernetes-services-2026-06-20T184207.png
 security:

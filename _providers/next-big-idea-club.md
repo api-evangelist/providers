@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 35.1
-  scored_at: '2026-08-10'
+  score: 31.5
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Membership, subscription, library and course operations.
@@ -36,6 +36,10 @@ apis:
   slug: next-big-idea-club-members-api
 artifact_total: 5
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/next-big-idea-club-members-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -107,7 +111,7 @@ network: true
 overview: 'Next Big Idea Club publishes 1 API on the [APIs.io](https://apis.io/) network: members API. Tagged areas include Company, Books, Media, Subscription, and Nonfiction.
 
 
-  Next Big Idea Club''s developer surface includes support, engineering blog, authentication, and 11 more developer resources.'
+  Next Big Idea Club''s developer surface includes support, engineering blog, authentication, and 12 more developer resources.'
 random_paper: 89
 scopes:
 - name: Next Big Idea Club Scopes
@@ -116,13 +120,13 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 34.4
-  delta: 0.0
+  composite: 32.8
+  delta: -1.6
   facets:
     commercial_clarity: 34.2
-    contract_quality: 55.8
+    contract_quality: 53.7
     developer_ergonomics: 19.6
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 8.3
     operational_transparency: 0.0
   previous_composite: 34.4
@@ -133,8 +137,8 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/next-big-idea-club/refs/heads/main/screenshots/next-big-idea-club-2026-08-07T185200.png
 security:

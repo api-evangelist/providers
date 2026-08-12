@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -86,7 +87,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/topi-seller-api-openapi-original.yaml
+  url: openapi/_original/topi-seller-api-openapi-original.yaml
 - group: auth
   title: ''
   type: Authentication
@@ -182,13 +183,13 @@ scopes:
   summary_line: 13 scopes · clientCredentials
 score:
   band: developing
-  composite: 44.7
-  delta: 0.0
+  composite: 43.2
+  delta: -1.5
   facets:
     commercial_clarity: 10.5
-    contract_quality: 72.9
+    contract_quality: 70.1
     developer_ergonomics: 60.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
   previous_composite: 44.7
@@ -208,8 +209,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

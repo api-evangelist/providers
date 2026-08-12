@@ -22,14 +22,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-08-10'
+  score: 39.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ apis:
 - description: The VPP half of the Gravity Connect specification — the publishing endpoints Virtual Peaker hosts so an integrated device partner can stream device signals, settings, command status, and enrollment ev
   name: Gravity Connect API (Virtual Peaker)
   slug: gravity-connect-vpp-api
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Virtual Peaker Gravity Connect Webhooks
@@ -55,6 +55,10 @@ collections:
   name: Gravity Connect API
   slug: postman-virtual-peaker-gravity-connect-api
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/virtual-peaker-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -192,6 +196,10 @@ description: 'Virtual Peaker is a Louisville, Kentucky software company selling 
   authored and openly published as a vendor-agnostic alternative to OpenADR and IEEE 2030.5 for onboarding and controlling DER devices. Gravity Connect is two-sided — the device OEM implements one half, the VPP platform implements the other — and both halves are readable anonymously as full Redoc API references. The honest posture: a real, downloadable, standards-ambitious API contract that is effectively undiscoverable (it is linked from nowhere on the marketing site) and whose credentials are partner-only, issued per utility program by emailing the Gravity Connect team. The commercial Shift API is named and sold on the marketing site but has no public documentation at all.'
 image: https://assets.virtualpeaker.io/gravity-connect/assets/vp_logo.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: virtual-peaker-mcp.yml
+  slug: virtual-peaker-mcpyml
 modified: '2026-07-27'
 name: Virtual Peaker
 nav: Providers
@@ -202,7 +210,7 @@ overview: 'Virtual Peaker publishes 2 APIs on the [APIs.io](https://apis.io/) ne
   The Virtual Peaker catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Virtual Peaker''s developer surface includes authentication, documentation, API reference, engineering blog, support, getting-started guide, changelog, and 26 more developer resources.'
+  Virtual Peaker''s developer surface includes authentication, documentation, API reference, engineering blog, support, getting-started guide, changelog, and 27 more developer resources.'
 random_paper: 60
 scopes:
 - name: Virtual Peaker Scopes
@@ -211,13 +219,13 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 47.2
+  delta: -3.7
   facets:
     commercial_clarity: 34.2
-    contract_quality: 63.4
-    developer_ergonomics: 56.0
-    discoverability: 77.8
+    contract_quality: 61.0
+    developer_ergonomics: 58.2
+    discoverability: 66.7
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 50.9
@@ -236,9 +244,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 74.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 56.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

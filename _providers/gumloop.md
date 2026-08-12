@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 58.3
-  scored_at: '2026-08-10'
+  score: 54.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 5
@@ -86,6 +87,10 @@ asyncapis:
   name: Gumloop Webhooks
   slug: gumloop-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/gumloop-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -228,7 +233,7 @@ overview: 'Gumloop publishes 14 APIs on the [APIs.io](https://apis.io/) network,
   The Gumloop catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Gumloop''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 24 more developer resources.'
+  Gumloop''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 25 more developer resources.'
 random_paper: 75
 scopes:
 - name: Gumloop Scopes
@@ -237,13 +242,13 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.2
-  delta: 0.0
+  composite: 57.5
+  delta: -1.7
   facets:
     commercial_clarity: 52.6
-    contract_quality: 71.4
+    contract_quality: 68.7
     developer_ergonomics: 75.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
   previous_composite: 59.2
@@ -257,8 +262,8 @@ score:
       total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gumloop/refs/heads/main/screenshots/gumloop-2026-07-25T220434.png
 security:

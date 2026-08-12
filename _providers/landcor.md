@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -191,14 +191,14 @@ overview: 'Landcor Data publishes 1 API on the [APIs.io](https://apis.io/) netwo
   Landcor Data''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 25 more developer resources.'
 random_paper: 43
 score:
-  band: developing
-  composite: 42.7
-  delta: 0.0
+  band: thin
+  composite: 41.0
+  delta: -1.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 57.4
+    contract_quality: 55.2
     developer_ergonomics: 36.4
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 15.8
   previous_composite: 42.7
@@ -207,8 +207,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/screenshots/landcor-2026-08-07T171419.png
 security:

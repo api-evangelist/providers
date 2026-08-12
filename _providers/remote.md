@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 101
 apis:
 - description: The Address Details API from Remote — 1 operation(s) for address details.
@@ -811,11 +812,11 @@ scopes:
   summary_line: 86 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 62.0
-  delta: 0.0
+  composite: 61.4
+  delta: -0.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 72.2
+    contract_quality: 69.6
     developer_ergonomics: 79.9
     discoverability: 75.9
     governance: 20.8
@@ -830,8 +831,8 @@ score:
       total: 101
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

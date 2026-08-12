@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-10'
+  score: 41.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -37,8 +37,20 @@ apis:
 - description: The AppStore Caching Service API from Liberty Global Technology Services BV acts as a caching proxy in front of the AppStore Bundle Service, serving generated application bundles addressed by applicat
   name: AppStore Caching Service API
   slug: appstore-caching-service-api
-artifact_total: 7
+artifact_total: 8
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/liberty-global-mcp.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/LibertyGlobal/appstore-metadata-service/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/LibertyGlobal/appstore-metadata-service/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -136,6 +148,10 @@ description: 'Liberty Global is a London-headquartered converged connectivity gr
   resolve — and every callable CAMARA network API reaches the market through the operating joint ventures (Virgin Media O2''s UK KYC Age Verify, KYC Tenure and SIM Swap APIs; VodafoneZiggo''s four Dutch network APIs) or through the operators'' shared channels, never from the parent. The only OpenAPI definitions Liberty Global itself publishes are the Apache-2.0 RDK App Store service specs in its public GitHub organisation.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: liberty-global-mcp.yml
+  slug: liberty-global-mcpyml
 modified: '2026-07-25'
 name: Liberty Global
 nav: Providers
@@ -143,17 +159,17 @@ network: true
 overview: 'Liberty Global publishes 3 APIs on the [APIs.io](https://apis.io/) network: AppStore Metadata Service API, AppStore Bundle Service API, and AppStore Caching Service API. Tagged areas include Telecommunications, United Kingdom, Broadband, Fixed Broadband, and Mobile Network Operator.
 
 
-  Liberty Global''s developer surface includes engineering blog, authentication, changelog, sandbox, and 19 more developer resources.'
+  Liberty Global''s developer surface includes engineering blog, authentication, changelog, sandbox, and 22 more developer resources.'
 random_paper: 41
 score:
   band: thin
-  composite: 37.3
-  delta: 0.0
+  composite: 35.2
+  delta: -2.1
   facets:
     commercial_clarity: 28.9
-    contract_quality: 40.1
-    developer_ergonomics: 21.2
-    discoverability: 83.3
+    contract_quality: 38.6
+    developer_ergonomics: 23.4
+    discoverability: 72.2
     governance: 20.8
     operational_transparency: 21.1
   previous_composite: 37.3
@@ -172,9 +188,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 58.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 50.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/screenshots/liberty-global-2026-08-07T171613.png
 security:

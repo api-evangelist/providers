@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 55.4
-  scored_at: '2026-08-10'
+  score: 51.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -89,6 +89,10 @@ collections:
   name: Amazon CodeGuru Security AccountConfiguration UploadUrl API
   slug: postman-amazon-codeguru-security-uploadurl-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-codeguru-security-openapi-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -887,7 +891,7 @@ overview: 'Amazon CodeGuru Security publishes 8 APIs on the [APIs.io](https://ap
   The Amazon CodeGuru Security catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CodeGuru Security''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 19 more developer resources.'
+  Amazon CodeGuru Security''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 20 more developer resources.'
 random_paper: 50
 rules:
 - name: Amazon CodeGuru Security API Rules
@@ -908,13 +912,13 @@ rules:
   slug: amazon-codeguru-security-spectral-rules
 score:
   band: strong
-  composite: 61.8
-  delta: 0.0
+  composite: 60.0
+  delta: -1.8
   facets:
     commercial_clarity: 52.6
-    contract_quality: 75.2
+    contract_quality: 72.4
     developer_ergonomics: 54.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 80.2
     operational_transparency: 21.1
   previous_composite: 61.8
@@ -927,8 +931,8 @@ score:
       marker_coverage: 0.0
       total: 8
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/screenshots/amazon-codeguru-security-2026-07-25T200005.png
 security:

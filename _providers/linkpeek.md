@@ -3,22 +3,22 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-08-10'
+  score: 44.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,8 +46,16 @@ apis:
 - description: Service health, status, and discovery
   name: LinkPeek System API
   slug: linkpeek-system-api
-artifact_total: 12
+artifact_total: 13
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/linkpeek-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/linkpeek-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -139,6 +147,10 @@ common:
 created: '2026-08-09'
 description: A developer utility REST API bundling ~92 JSON endpoints for URL intelligence (link preview, metadata, OpenGraph), QR generation, DNS/WHOIS/SSL security checks, and data-conversion dev tools. Includes an OpenAI-compatible chat/completions surface. Hobby-grade service hosted on Oracle Cloud Free Tier via a raw-IP sslip.io hostname.
 layout: provider
+mcp_servers:
+- description: ''
+  name: linkpeek-mcp.yml
+  slug: linkpeek-mcpyml
 modified: '2026-08-09'
 name: LinkPeek
 nav: Providers
@@ -146,7 +158,7 @@ network: true
 overview: 'LinkPeek publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Favicon API, Link Preview API, Meta Tags API, and 2 more. Tagged areas include screenshots, webpage-capture, website-thumbnails, image-generation, and rendering.
 
 
-  LinkPeek''s developer surface includes authentication, changelog, support, pricing, signup flow, and 17 more developer resources.'
+  LinkPeek''s developer surface includes authentication, changelog, support, pricing, signup flow, and 19 more developer resources.'
 plans:
 - name: Linkpeek Plans
   plan_count: 3
@@ -158,16 +170,35 @@ rate_limits:
   slug: linkpeek-rate-limits
 score:
   band: developing
-  composite: 49.0
+  composite: 44.0
+  delta: -5.0
   facets:
     commercial_clarity: 55.3
-    contract_quality: 52.8
-    developer_ergonomics: 28.3
-    discoverability: 83.3
-    governance: 20.8
+    contract_quality: 53.1
+    developer_ergonomics: 25.5
+    discoverability: 72.2
+    governance: 11.5
     operational_transparency: 63.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 49.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 31.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 security:
 - kind: authentication
   name: Linkpeek Authentication

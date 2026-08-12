@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 15.3
-  scored_at: '2026-08-10'
+  score: 11.7
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Jit REST API for programmatic access to security findings, artifacts (SBOM, scan results), teams, plans, policies, workflows, integrations, billing metrics, and on-demand scan execution. Authenticates
@@ -165,8 +165,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jit-fka-cbrix/refs/heads/main/screenshots/jit-fka-cbrix-2026-07-25T223206.png
 security:

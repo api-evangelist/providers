@@ -21,21 +21,25 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.0
-  scored_at: '2026-08-10'
+  score: 11.7
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Parcel is Oasis Labs' data-governance API for uploading and tokenizing sensitive data, defining programmable access grants and permissions, running confidential compute jobs over that data, and managi
   name: Oasis Labs Parcel API
   slug: oasis-labs-parcel-api
-artifact_total: 4
+artifact_total: 5
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/oasis-labs-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -116,6 +120,10 @@ created: '2026-07-17'
 description: Oasis Labs builds privacy-preserving data and compute technologies. Its developer platform, Parcel, is a data-governance API for uploading, tokenizing, and computing over sensitive datasets under programmable access grants, with confidential compute jobs and identity/permission management. Oasis Labs also ships PrivateSQL (differential-privacy SQL analytics) and privacy-preserving AI tooling built on secure enclaves, MPC, homomorphic encryption, and zero-knowledge proofs. The company was founded out of UC Berkeley and is backed by a16z, DCVC, Pantera Capital, and Polychain. The Parcel REST API is documented at docs.oasislabs.com with an official TypeScript SDK and OAuth2 client-credentials (private_key_jwt) authentication.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oasis-labs.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: oasis-labs-mcp.yml
+  slug: oasis-labs-mcpyml
 modified: '2026-07-20'
 name: Oasis Labs
 nav: Providers
@@ -123,7 +131,7 @@ network: true
 overview: 'Oasis Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Privacy, Data Governance, Confidential Computing, and Blockchain.
 
 
-  Oasis Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, authentication, and 13 more developer resources.'
+  Oasis Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, authentication, and 14 more developer resources.'
 random_paper: 78
 scopes:
 - name: Oasis Labs Scopes
@@ -132,21 +140,21 @@ scopes:
   summary_line: 7 scopes
 score:
   band: emerging
-  composite: 26.2
-  delta: 0.0
+  composite: 25.5
+  delta: -0.7
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
-    developer_ergonomics: 60.9
-    discoverability: 87.0
+    developer_ergonomics: 63.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 5.3
   previous_composite: 26.2
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oasis-labs/refs/heads/main/screenshots/oasis-labs-2026-08-07T185904.png
 security:

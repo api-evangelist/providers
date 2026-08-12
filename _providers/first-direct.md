@@ -22,14 +22,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.9
-  scored_at: '2026-08-10'
+  score: 48.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -51,8 +51,12 @@ apis:
 - description: OBIE Read/Write Confirmation of Funds (CBPII) API for first direct accounts, exposed through HSBC's developer platform. FAPI-secured with OAuth2/OIDC, mutual-TLS and PSD2 strong customer authenticatio
   name: first direct Confirmation of Funds API (CBPII)
   slug: first-direct-confirmation-of-funds-api
-artifact_total: 9
+artifact_total: 10
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/first-direct-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -198,6 +202,10 @@ description: first direct is a telephone- and internet-based retail bank and a d
   Account and Transaction Information (AIS), Payment Initiation (PIS) and Confirmation of Funds (CBPII) - onboarded and documented through HSBC's developer portal at develop.hsbc.com, which serves the HSBC UK, first direct and M&S Bank brands.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: first-direct-mcp.yml
+  slug: first-direct-mcpyml
 modified: '2026-07-23'
 name: first direct
 nav: Providers
@@ -205,7 +213,7 @@ network: true
 overview: 'first direct publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Open Data API, Account and Transaction Information API (AIS), Payment Initiation API (PIS), and 1 more. Tagged areas include Financial Services, Banking, Open Banking, PSD2, and OBIE.
 
 
-  first direct''s developer surface includes authentication, changelog, sandbox, getting-started guide, signup flow, documentation, support, and 28 more developer resources.'
+  first direct''s developer surface includes authentication, changelog, sandbox, getting-started guide, signup flow, documentation, support, and 29 more developer resources.'
 random_paper: 72
 scopes:
 - name: First Direct Scopes
@@ -214,12 +222,12 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 53.7
-  delta: 0.0
+  composite: 49.5
+  delta: -4.2
   facets:
     commercial_clarity: 34.2
-    contract_quality: 55.0
-    developer_ergonomics: 56.0
+    contract_quality: 53.0
+    developer_ergonomics: 58.2
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 39.5
@@ -239,9 +247,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 88.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 60.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/screenshots/first-direct-2026-07-25T214603.png
 security:

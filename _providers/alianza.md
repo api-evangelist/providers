@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-10'
+  score: 41.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 417
   human_in_the_loop: 14
@@ -208,8 +208,16 @@ apis:
 - description: The Voicemail Message API from Alianza — 4 operation(s) for voicemail message.
   name: Alianza Voicemail Message API
   slug: alianza-voicemail-message-api
-artifact_total: 63
+artifact_total: 64
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/alianza-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/alianza-public-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -327,6 +335,10 @@ description: Alianza is a cloud communications software company founded in 2009 
   telephone number, porting, SIP trunk, calling plan, voicemail, CDR and reporting orchestration.
 image: https://www.alianza.com/wp-content/uploads/2025/03/Alianza-Basic-Images-New.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: alianza-mcp.yml
+  slug: alianza-mcpyml
 modified: '2026-08-02'
 name: Alianza
 nav: Providers
@@ -334,28 +346,28 @@ network: true
 overview: 'Alianza publishes 60 APIs on the [APIs.io](https://apis.io/) network, including Account API, Account Device API, Account Device Line API, and 57 more. Tagged areas include Company, Communications, Cloud Communications, Voice, and VoIP.
 
 
-  Alianza''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, legal docs, authentication, and 21 more developer resources.'
+  Alianza''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, legal docs, authentication, and 23 more developer resources.'
 random_paper: 40
 score:
   band: developing
-  composite: 44.1
-  delta: -0.8
+  composite: 43.0
+  delta: -1.1
   facets:
     commercial_clarity: 34.2
-    contract_quality: 51.3
-    developer_ergonomics: 60.3
-    discoverability: 87.0
+    contract_quality: 53.5
+    developer_ergonomics: 62.5
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 44.9
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 50.0
+      callable: 98.4
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 62
     mcp: derived
     skills: derived
   regulatory:
@@ -363,9 +375,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 34.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/screenshots/alianza-2026-08-07T161200.png
 security:

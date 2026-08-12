@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -69,6 +69,10 @@ collections:
   name: Upwork REST API
   slug: open-upwork-rest-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/upwork/python-upwork-oauth2/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -405,7 +409,7 @@ overview: 'Upwork publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
   The Upwork catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Upwork''s developer surface includes authentication, documentation, developer portal, support, and 17 more developer resources.'
+  Upwork''s developer surface includes authentication, documentation, developer portal, support, and 18 more developer resources.'
 plans:
 - name: Upwork Plans Pricing
   plan_count: 3
@@ -439,16 +443,16 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: thin
-  composite: 41.2
-  delta: -1.9
+  composite: 33.1
+  delta: -8.1
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 25.2
+    commercial_clarity: 15.8
+    contract_quality: 24.3
     developer_ergonomics: 32.6
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 36.8
-  previous_composite: 43.1
+    operational_transparency: 13.2
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     contracts:
@@ -456,9 +460,9 @@ score:
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/screenshots/upwork-2026-06-20T200510.png
 security:
 - kind: authentication

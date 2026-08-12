@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 57.9
-  scored_at: '2026-08-10'
+  score: 54.3
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: 'Import/update master data: general ledger accounts, cost dimensions, additional delivery costs.'
@@ -199,11 +199,11 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.6
-  delta: 0.0
+  composite: 52.0
+  delta: -0.6
   facets:
     commercial_clarity: 23.7
-    contract_quality: 64.3
+    contract_quality: 61.9
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
@@ -218,8 +218,8 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/screenshots/candis-2026-07-25T204341.png
 security:

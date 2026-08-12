@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Annual comprehensive blood testing across 100+ biomarkers in 21 categories (hormones, longevity, immune, inflammation, nutrients, toxins) collected via Quest Diagnostics locations or at-home phlebotom
@@ -87,11 +87,11 @@ rate_limits:
   slug: superpower-health-rate-limits
 score:
   band: emerging
-  composite: 21.9
-  delta: 0.0
+  composite: 21.5
+  delta: -0.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 32.3
+    contract_quality: 30.6
     developer_ergonomics: 2.2
     discoverability: 74.1
     governance: 0.0
@@ -103,8 +103,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superpower-health/refs/heads/main/screenshots/superpower-health-2026-06-20T194727.png
 security:

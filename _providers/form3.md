@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-08-10'
+  score: 47.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 2
@@ -239,11 +239,11 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 54.0
-  delta: 0.0
+  composite: 53.6
+  delta: -0.4
   facets:
     commercial_clarity: 36.8
-    contract_quality: 52.7
+    contract_quality: 50.7
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
@@ -265,8 +265,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/screenshots/form3-2026-07-25T214957.png
 security:

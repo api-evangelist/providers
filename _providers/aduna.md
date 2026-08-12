@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-10'
+  score: 12.6
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Aduna's aggregated implementation of the CAMARA Number Verification API (v2.1), confirming possession of a mobile phone number in real time by verifying it directly against the carrier network with mi
@@ -32,6 +32,10 @@ apis:
   slug: aduna-kyc-match-api
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/adunaglobal/nv2-asp-server-java-aduna-sdk/releases
 - group: auth
   title: ''
   type: Authentication
@@ -168,7 +172,7 @@ network: true
 overview: 'Aduna publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, Sweden, Network APIs, CAMARA, and Open Gateway.
 
 
-  Aduna''s developer surface includes authentication, changelog, documentation, engineering blog, support, and 26 more developer resources.'
+  Aduna''s developer surface includes authentication, changelog, documentation, engineering blog, support, and 27 more developer resources.'
 random_paper: 57
 scopes:
 - name: Aduna Scopes
@@ -177,8 +181,8 @@ scopes:
   summary_line: 4 scopes · authorizationCode/urn:ietf:params:oauth:grant-type:jwt-bearer/ciba
 score:
   band: thin
-  composite: 36.5
-  delta: 0.0
+  composite: 35.3
+  delta: -1.2
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -194,9 +198,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 75.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 66.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aduna/refs/heads/main/screenshots/aduna-2026-08-07T160929.png
 security:

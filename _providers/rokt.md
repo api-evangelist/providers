@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: Comprehensive reporting API for querying account and campaign performance data with flexible filtering, metrics selection, and date range specification.
@@ -146,8 +146,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 28.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rokt/refs/heads/main/screenshots/rokt-2026-06-20T193204.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,6 +50,14 @@ apis:
   slug: nasa-neows-lookup-api
 artifact_total: 17
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/nasa/api-docs/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/nasa/api-docs/blob/gh-pages/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -149,7 +157,7 @@ overview: 'NASA NeoWs publishes 3 APIs on the [APIs.io](https://apis.io/) networ
   The NASA NeoWs catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  NASA NeoWs'' developer surface includes authentication, documentation, pricing, signup flow, and 10 more developer resources.'
+  NASA NeoWs'' developer surface includes authentication, documentation, pricing, signup flow, and 12 more developer resources.'
 plans:
 - name: Nasa Neows Plans Pricing
   plan_count: 3
@@ -170,11 +178,11 @@ rules:
   slug: nasa-neows-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.3
-  delta: 0.0
+  composite: 54.0
+  delta: 1.7
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 69.8
+    commercial_clarity: 73.7
+    contract_quality: 67.2
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 58.3
@@ -193,8 +201,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-neows/refs/heads/main/screenshots/nasa-neows-2026-06-20T185953.png
 security:

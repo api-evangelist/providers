@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 57.0
-  scored_at: '2026-08-10'
+  score: 53.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -90,6 +91,10 @@ asyncapis:
   name: Depop Selling API — Webhooks
   slug: depop-webhooks-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/depop-selling-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -240,7 +245,7 @@ overview: 'depop publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
   The depop catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  depop''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 26 more developer resources.'
+  depop''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 27 more developer resources.'
 random_paper: 72
 rate_limits:
 - limit_count: 2
@@ -253,11 +258,11 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: strong
-  composite: 56.7
-  delta: 0.0
+  composite: 56.0
+  delta: -0.7
   facets:
     commercial_clarity: 21.1
-    contract_quality: 73.6
+    contract_quality: 70.9
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
@@ -273,8 +278,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/screenshots/depop-2026-07-25T211730.png
 security:

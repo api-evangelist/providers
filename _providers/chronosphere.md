@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 0
@@ -205,16 +205,16 @@ rate_limits:
   name: Chronosphere Rate Limits
   slug: chronosphere-rate-limits
 score:
-  band: thin
-  composite: 31.5
-  delta: 0.0
+  band: emerging
+  composite: 24.1
+  delta: -7.4
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 41.9
+    commercial_clarity: 23.7
+    contract_quality: 40.3
     developer_ergonomics: 10.9
-    discoverability: 46.3
+    discoverability: 53.7
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 31.5
   provenance:
     agentic_access: derived
@@ -223,9 +223,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/screenshots/chronosphere-2026-06-20T174330.png
 security:
 - kind: domain-security

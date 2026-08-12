@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -18,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 1
@@ -183,6 +184,22 @@ apis:
   slug: aptible-worker-api
 artifact_total: 57
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aptible-cloud-overlay.yaml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/aptible/cloud-api-clients/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/aptible/cloud-api-clients/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/aptible/cloud-api-clients/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -346,20 +363,20 @@ network: true
 overview: 'Aptible publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Actions API, Activity Reports API, and 47 more. Tagged areas include Company, Platform as a Service, Cloud Infrastructure, Deployment, and Managed Databases.
 
 
-  Aptible''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 30 more developer resources.'
+  Aptible''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 34 more developer resources.'
 random_paper: 41
 score:
-  band: strong
-  composite: 57.4
-  delta: 0.1
+  band: developing
+  composite: 54.5
+  delta: -2.9
   facets:
     commercial_clarity: 60.5
-    contract_quality: 50.7
+    contract_quality: 51.1
     developer_ergonomics: 75.5
-    discoverability: 92.6
+    discoverability: 63.0
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 57.3
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -367,11 +384,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 53
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/screenshots/aptible-2026-08-07T161518.png
 security:

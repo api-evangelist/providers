@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: verified
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 55.4
-  scored_at: '2026-08-10'
+  score: 54.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -50,7 +50,7 @@ apis:
 - description: The UserDetails API from Amazon CodeCatalyst — 1 operation(s) for userdetails.
   name: Amazon CodeCatalyst UserDetails API
   slug: amazon-codecatalyst-userdetails-api
-artifact_total: 460
+artifact_total: 461
 collections:
 - collection_type: postman
   name: Amazon CodeCatalyst AccessTokens API
@@ -65,6 +65,14 @@ collections:
   name: Amazon CodeCatalyst AccessTokens UserDetails API
   slug: postman-amazon-codecatalyst-userdetails-api
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/amazon-codecatalyst-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-codecatalyst-openapi-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1497,6 +1505,10 @@ jsonld:
   property_count: 74
   slug: amazon-codecatalyst-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: amazon-codecatalyst-mcp.yml
+  slug: amazon-codecatalyst-mcpyml
 modified: '2026-06-20'
 name: Amazon CodeCatalyst
 nav: Providers
@@ -1507,7 +1519,7 @@ overview: 'Amazon CodeCatalyst publishes 4 APIs on the [APIs.io](https://apis.io
   The Amazon CodeCatalyst catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CodeCatalyst''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 20 more developer resources.'
+  Amazon CodeCatalyst''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 22 more developer resources.'
 random_paper: 115
 rules:
 - name: Amazon CodeCatalyst API Rules
@@ -1528,12 +1540,12 @@ rules:
   slug: amazon-codecatalyst-spectral-rules
 score:
   band: strong
-  composite: 61.4
-  delta: 0.0
+  composite: 61.1
+  delta: -0.3
   facets:
     commercial_clarity: 52.6
-    contract_quality: 75.2
-    developer_ergonomics: 52.2
+    contract_quality: 72.4
+    developer_ergonomics: 54.3
     discoverability: 92.6
     governance: 80.2
     operational_transparency: 21.1
@@ -1547,8 +1559,8 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/screenshots/amazon-codecatalyst-2026-07-25T195952.png
 security:

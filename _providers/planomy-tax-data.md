@@ -3,22 +3,22 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.5
-  scored_at: '2026-08-10'
+  score: 41.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,6 +33,10 @@ apis:
   slug: planomy-tax-data-tax-data-api
 artifact_total: 10
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/planomy-tax-data-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -138,30 +142,43 @@ network: true
 overview: 'Planomy Tax Data publishes 1 API on the [APIs.io](https://apis.io/) network: Tax Data API. Tagged areas include tax, finance, open-data, retirement, and government.
 
 
-  Planomy Tax Data''s developer surface includes support, pricing, signup flow, authentication, and 15 more developer resources.'
+  Planomy Tax Data''s developer surface includes support, pricing, signup flow, authentication, and 16 more developer resources.'
 plans:
 - name: Planomy Tax Data Plans Pricing
   plan_count: 5
   slug: planomy-tax-data-plans-pricing
 random_paper: 93
 score:
-  band: developing
-  composite: 49.0
+  band: thin
+  composite: 35.8
+  delta: -13.2
   facets:
     commercial_clarity: 76.3
-    contract_quality: 62.8
-    developer_ergonomics: 30.4
-    discoverability: 87.0
-    governance: 31.3
+    contract_quality: 22.6
+    developer_ergonomics: 19.0
+    discoverability: 75.9
+    governance: 14.1
     operational_transparency: 0.0
+  previous_composite: 49.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 security:
 - kind: authentication
   name: Planomy Tax Data Authentication

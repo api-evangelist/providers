@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 56.3
-  scored_at: '2026-08-10'
+  score: 52.7
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Open-beta public REST API for programmatic access to a user's Read AI meeting data. Three documented meeting endpoints — list meetings with cursor pagination and epoch-millisecond time filters, retrie
@@ -210,8 +211,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

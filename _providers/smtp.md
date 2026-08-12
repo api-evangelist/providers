@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: RFC 5321 is the IETF standard defining the Simple Mail Transfer Protocol. It specifies the client-server protocol used to transmit email across the internet, including the command set, response codes,
@@ -130,25 +130,19 @@ rules:
   slug: smtp-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 26.2
-  delta: 0.0
+  composite: 20.3
+  delta: -5.9
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 12.9
     developer_ergonomics: 0.0
     discoverability: 59.3
     governance: 58.3
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 26.2
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 15.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/smtp/refs/heads/main/screenshots/smtp-2026-06-20T194059.png
 security:
 - kind: domain-security

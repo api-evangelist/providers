@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: 'Disburse money programmatically to any Indonesian bank account or e-wallet. Create single and bulk disbursements, inquire bank accounts, list bank codes, and receive callbacks on disbursement status. '
@@ -180,8 +180,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flip/refs/heads/main/screenshots/flip-2026-07-25T214801.png
 security:

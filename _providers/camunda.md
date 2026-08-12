@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -165,16 +165,16 @@ rate_limits:
   name: Camunda Rate Limits
   slug: camunda-rate-limits
 score:
-  band: developing
-  composite: 47.7
-  delta: 0.0
+  band: thin
+  composite: 40.1
+  delta: -7.6
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 58.1
+    commercial_clarity: 44.7
+    contract_quality: 56.0
     developer_ergonomics: 45.7
-    discoverability: 55.6
+    discoverability: 63.0
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 47.7
   provenance:
     agentic_access: derived
@@ -183,9 +183,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/camunda/refs/heads/main/screenshots/camunda-2026-06-20T173920.png
 security:
 - kind: authentication

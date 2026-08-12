@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Bitwise index, ETF, and fund data API — crypto asset prices, index values, and index methodologies. Authentication uses an Authorization header; API keys are issued on request via api@bitwiseinvestmen
@@ -127,8 +127,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitwise-investments/refs/heads/main/screenshots/bitwise-investments-2026-07-25T203216.png
 security:

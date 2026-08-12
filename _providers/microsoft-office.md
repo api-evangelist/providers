@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-10'
+  score: 45.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -288,16 +288,16 @@ scopes:
   slug: microsoft-office-scopes
   summary_line: 16 scopes · authorizationCode
 score:
-  band: strong
-  composite: 58.1
-  delta: 0.0
+  band: developing
+  composite: 49.7
+  delta: -8.4
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 54.3
+    commercial_clarity: 44.7
+    contract_quality: 52.2
     developer_ergonomics: 56.5
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 58.1
   provenance:
     agentic_access: derived
@@ -308,9 +308,9 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office/refs/heads/main/screenshots/microsoft-office-2026-06-20T185511.png
 security:
 - kind: authentication

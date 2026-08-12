@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -50,6 +50,18 @@ collections:
   name: Google Cloud API Gateway API
   slug: open-openapi
 common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://cloud.google.com/trust-center
+- group: build
+  title: ''
+  type: SDKs
+  url: https://cloud.google.com/sdk
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.cloud.google.com/release-notes
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -132,7 +144,7 @@ overview: 'Google Cloud API Gateway publishes 1 API on the [APIs.io](https://api
   The Google Cloud API Gateway catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google Cloud API Gateway''s developer surface includes developer portal, getting-started guide, documentation, authentication, pricing, support, engineering blog, and 9 more developer resources.'
+  Google Cloud API Gateway''s developer surface includes changelog, developer portal, getting-started guide, documentation, authentication, pricing, support, and 12 more developer resources.'
 plans:
 - name: Google Cloud Api Gateway Plans Pricing
   plan_count: 3
@@ -153,15 +165,15 @@ rules:
   slug: google-cloud-api-gateway-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.2
-  delta: 0.0
+  composite: 56.8
+  delta: -3.4
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 61.2
-    developer_ergonomics: 50.0
+    commercial_clarity: 55.3
+    contract_quality: 59.0
+    developer_ergonomics: 56.5
     discoverability: 68.5
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 44.7
   previous_composite: 60.2
   provenance:
     agentic_access: derived
@@ -170,8 +182,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-api-gateway/refs/heads/main/screenshots/google-cloud-api-gateway-2026-06-20T182038.png
 security:

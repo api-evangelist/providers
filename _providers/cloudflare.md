@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: flavored
     agent_skills: true
@@ -18,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1576
   human_in_the_loop: 52
@@ -1721,15 +1722,15 @@ rules:
   slug: cloudflare-spectral-rules
 score:
   band: exemplar
-  composite: 69.9
-  delta: 0.0
+  composite: 67.0
+  delta: -2.9
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 74.6
-    developer_ergonomics: 87.0
-    discoverability: 50.0
+    commercial_clarity: 60.5
+    contract_quality: 75.6
+    developer_ergonomics: 93.5
+    discoverability: 57.4
     governance: 47.9
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 69.9
   provenance:
     agentic_access: derived
@@ -1738,8 +1739,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 57
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/screenshots/cloudflare-2026-06-20T174548.png
 security:

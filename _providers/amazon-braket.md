@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: documented
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 35.4
-  scored_at: '2026-08-10'
+  score: 34.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -53,8 +53,16 @@ apis:
 - description: Manage resource tags
   name: Amazon Braket Tags API
   slug: amazon-braket-tags-api
-artifact_total: 17
+artifact_total: 18
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/amazon-braket-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-braket-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -174,6 +182,10 @@ jsonld:
   property_count: 3
   slug: context
 layout: provider
+mcp_servers:
+- description: ''
+  name: amazon-braket-mcp.yml
+  slug: amazon-braket-mcpyml
 modified: '2026-06-20'
 name: Amazon Braket
 nav: Providers
@@ -184,7 +196,7 @@ overview: 'Amazon Braket publishes 5 APIs on the [APIs.io](https://apis.io/) net
   The Amazon Braket catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Amazon Braket''s developer surface includes authentication, developer portal, documentation, pricing, FAQ, getting-started guide, engineering blog, and 16 more developer resources.'
+  Amazon Braket''s developer surface includes authentication, developer portal, documentation, pricing, FAQ, getting-started guide, engineering blog, and 18 more developer resources.'
 random_paper: 48
 rules:
 - name: Amazon Braket API Rules
@@ -197,12 +209,12 @@ rules:
   slug: amazon-braket-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.9
-  delta: 0.0
+  composite: 55.7
+  delta: -0.2
   facets:
     commercial_clarity: 39.5
-    contract_quality: 75.3
-    developer_ergonomics: 54.3
+    contract_quality: 72.5
+    developer_ergonomics: 56.5
     discoverability: 92.6
     governance: 69.8
     operational_transparency: 5.3
@@ -216,8 +228,8 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/screenshots/amazon-braket-2026-07-25T195944.png
 security:

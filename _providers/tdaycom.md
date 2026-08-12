@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 23.4
-  scored_at: '2026-08-10'
+  score: 19.8
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Hosted Model Context Protocol (MCP) server for tday, exposed at https://tday.com/api/mcp and secured with OAuth 2.1 (authorization_code + PKCE, dynamic client registration, single "tday" scope). It is
@@ -104,20 +104,20 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: emerging
-  composite: 20.3
-  delta: 0.0
+  composite: 19.2
+  delta: -1.1
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 23.9
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 20.3
   provenance:
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

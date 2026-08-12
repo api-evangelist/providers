@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -330,11 +330,11 @@ scopes:
   summary_line: 11 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 49.2
+  delta: -0.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 79.1
+    contract_quality: 76.5
     developer_ergonomics: 47.8
     discoverability: 68.5
     governance: 58.3
@@ -353,8 +353,8 @@ score:
     regime: Health
     regime_id: health
     score: 42.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/screenshots/athena-health-2026-06-20T172518.png
 security:

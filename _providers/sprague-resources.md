@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 8
 common:
@@ -148,15 +148,15 @@ rules:
   slug: sprague-resources-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 26.8
-  delta: 0.0
+  composite: 20.2
+  delta: -6.6
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 12.9
     developer_ergonomics: 2.2
     discoverability: 50.0
     governance: 68.8
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 26.8
   regulatory:
     applies: true
@@ -164,9 +164,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 14.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sprague-resources/refs/heads/main/screenshots/sprague-resources-2026-06-20T194400.png
 security:
 - kind: domain-security

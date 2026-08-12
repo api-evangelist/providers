@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 58.3
-  scored_at: '2026-08-10'
+  score: 54.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -65,6 +66,10 @@ asyncapis:
   name: Tinyfish Agent Webhooks
   slug: tinyfish-agent-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tinyfish-browser-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -203,15 +208,15 @@ overview: 'TinyFish publishes 7 APIs on the [APIs.io](https://apis.io/) network,
   The TinyFish catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  TinyFish''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, engineering blog, and 23 more developer resources.'
+  TinyFish''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, engineering blog, and 24 more developer resources.'
 random_paper: 66
 score:
   band: strong
-  composite: 57.4
-  delta: 0.0
+  composite: 56.7
+  delta: -0.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 76.0
+    contract_quality: 73.1
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
@@ -227,8 +232,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

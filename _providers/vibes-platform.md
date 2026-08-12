@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -195,16 +195,16 @@ rules:
     warn: 11
   slug: vibes-platform-rules
 score:
-  band: developing
-  composite: 48.1
-  delta: 0.0
+  band: thin
+  composite: 40.9
+  delta: -7.2
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 70.1
+    commercial_clarity: 23.7
+    contract_quality: 67.5
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 48.1
   provenance:
     agentic_access: derived
@@ -219,9 +219,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/screenshots/vibes-platform-2026-06-20T201014.png
 security:
 - kind: authentication

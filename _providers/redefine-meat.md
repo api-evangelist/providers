@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-08-10'
+  score: 42.1
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Two live Model Context Protocol endpoints served from the same WordPress installation and advertised through RFC 9728 OAuth 2.0 Protected Resource Metadata. Both are OAuth-gated - an anonymous tools/l
@@ -36,6 +36,10 @@ asyncapis:
   name: Redefine Meat Webhooks
   slug: redefine-meat-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/redefine-meat-content-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -155,7 +159,7 @@ overview: 'Redefine Meat publishes 2 APIs on the [APIs.io](https://apis.io/) net
   The Redefine Meat catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Redefine Meat''s developer surface includes support, FAQ, engineering blog, authentication, and 21 more developer resources.'
+  Redefine Meat''s developer surface includes support, FAQ, engineering blog, authentication, and 22 more developer resources.'
 random_paper: 26
 scopes:
 - name: Redefine Meat Scopes
@@ -164,16 +168,16 @@ scopes:
   summary_line: 1 scope · authorizationCode/refreshToken
 score:
   band: thin
-  composite: 35.7
-  delta: -1.0
+  composite: 34.9
+  delta: -0.8
   facets:
     commercial_clarity: 21.1
-    contract_quality: 63.6
+    contract_quality: 65.0
     developer_ergonomics: 19.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 36.7
+  previous_composite: 35.7
   provenance:
     conformance: first-party
     contracts:
@@ -183,8 +187,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

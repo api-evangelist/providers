@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -148,11 +148,11 @@ rate_limits:
   slug: dfns-rate-limits
 score:
   band: thin
-  composite: 38.2
-  delta: 0.0
+  composite: 34.9
+  delta: -3.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 56.9
+    contract_quality: 54.8
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
@@ -165,8 +165,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 18.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/screenshots/dfns-2026-07-25T212051.png
 security:

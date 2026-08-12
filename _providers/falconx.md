@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'FalconX REST trading API for institutional digital-asset execution: price quotes, order placement and execution, trade history, balances, transfers, and trade limits, across OTC, execution-management '
@@ -137,8 +137,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/falconx/refs/heads/main/screenshots/falconx-2026-07-25T214203.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -72,6 +72,10 @@ collections:
   name: Spinnaker Gate API
   slug: open-spinnaker-gate
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/spinnaker/gate/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -178,7 +182,7 @@ overview: 'Spinnaker publishes 9 APIs on the [APIs.io](https://apis.io/) network
   The Spinnaker catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spinnaker''s developer surface includes authentication, documentation, engineering blog, changelog, and 13 more developer resources.'
+  Spinnaker''s developer surface includes authentication, documentation, engineering blog, changelog, and 14 more developer resources.'
 plans:
 - name: Spinnaker Plans Pricing
   plan_count: 3
@@ -212,15 +216,15 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 43.2
+  delta: -8.4
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 65.0
+    commercial_clarity: 15.8
+    contract_quality: 62.6
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 57.9
+    operational_transparency: 34.2
   previous_composite: 51.6
   provenance:
     agentic_access: derived
@@ -229,9 +233,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/screenshots/spinnaker-2026-06-20T194321.png
 security:
 - kind: authentication

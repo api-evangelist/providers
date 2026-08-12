@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: Standard Ethereum JSON-RPC endpoint for Mantle mainnet (chain ID 5000). Used by wallets, dApps, indexers, and tooling to read chain state and submit transactions on the Mantle L2.
@@ -61,6 +61,14 @@ asyncapis:
   name: Mantle Network WebSocket JSON-RPC
   slug: mantle-network-asyncapi
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/mantle-lsp/contracts/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/mantle-lsp/contracts/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -115,7 +123,7 @@ overview: 'Mantle Network publishes 1 API on the [APIs.io](https://apis.io/) net
   The Mantle Network catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Mantle Network''s developer surface includes documentation, GitHub presence, engineering blog, and 6 more developer resources.'
+  Mantle Network''s developer surface includes documentation, GitHub presence, engineering blog, and 8 more developer resources.'
 plans:
 - name: Mantle Network Plans Pricing
   plan_count: 1
@@ -136,18 +144,18 @@ rules:
   slug: mantle-network-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 36.4
-  delta: 0.0
+  composite: 37.3
+  delta: 0.9
   facets:
     commercial_clarity: 28.9
     contract_quality: 50.6
-    developer_ergonomics: 10.9
+    developer_ergonomics: 15.2
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 26.3
   previous_composite: 36.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mantle-network/refs/heads/main/screenshots/mantle-network-2026-06-20T184930.png
 security:

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 56.1
-  scored_at: '2026-08-10'
+  score: 52.5
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The Skybox Exports API from Blockade Games — 2 operation(s) for skybox exports.
@@ -43,6 +44,10 @@ asyncapis:
   name: Blockade Games Webhooks
   slug: blockade-games-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/blockade-games-skybox-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -185,17 +190,17 @@ overview: 'Blockade Games publishes 2 APIs on the [APIs.io](https://apis.io/) ne
   The Blockade Games catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Blockade Games'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 24 more developer resources.'
+  Blockade Games'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 25 more developer resources.'
 random_paper: 115
 score:
   band: developing
-  composite: 54.4
-  delta: 0.0
+  composite: 52.7
+  delta: -1.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 65.1
+    contract_quality: 62.7
     developer_ergonomics: 73.4
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 34.2
   previous_composite: 54.4
@@ -208,8 +213,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockade-games/refs/heads/main/screenshots/blockade-games-2026-07-25T203333.png
 security:

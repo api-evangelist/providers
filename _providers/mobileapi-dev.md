@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -433,13 +433,13 @@ rules:
   slug: mobileapi-rules
 score:
   band: strong
-  composite: 62.7
-  delta: 0.0
+  composite: 62.8
+  delta: 0.1
   facets:
     commercial_clarity: 84.2
-    contract_quality: 69.5
+    contract_quality: 66.9
     developer_ergonomics: 39.1
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 58.3
     operational_transparency: 52.6
   previous_composite: 62.7
@@ -450,8 +450,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/screenshots/mobileapi-dev-2026-06-20T185631.png
 security:

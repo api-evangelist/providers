@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: Query the projects and plans (MapPlan) in an organization through `viewer.organization.plans`/`projects` and the `node(id)` lookup - reading name, location and geometry (lat/lng), dateCreation, imageC
@@ -131,8 +131,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 32.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dronedeploy/refs/heads/main/screenshots/dronedeploy-2026-07-25T212423.png
 security:

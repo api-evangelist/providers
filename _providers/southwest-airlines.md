@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The Southwest Airlines internal flight booking API powers the southwest.com website for searching and booking flights. It provides flight availability, pricing, schedules, and air booking shopping cap
@@ -161,19 +161,19 @@ rules:
   slug: southwest-airlines-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 41.5
-  delta: 0.0
+  composite: 36.3
+  delta: -5.2
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 13.2
     contract_quality: 74.1
     developer_ergonomics: 0.0
     discoverability: 55.6
     governance: 68.8
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 41.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/southwest-airlines/refs/heads/main/screenshots/southwest-airlines-2026-06-20T194230.png
 security:
 - kind: domain-security

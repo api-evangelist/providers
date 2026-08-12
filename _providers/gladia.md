@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 10
@@ -168,7 +169,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/gladia-control-api-openapi.yml
+  url: openapi/_original/gladia-control-api-openapi.yml
 - group: docs
   title: ''
   type: JSONSchema
@@ -270,11 +271,11 @@ rules:
   slug: gladia-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 58.6
-  delta: 0.0
+  composite: 58.0
+  delta: -0.6
   facets:
     commercial_clarity: 57.9
-    contract_quality: 69.0
+    contract_quality: 66.4
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 68.8
@@ -287,8 +288,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/screenshots/gladia-2026-06-20T181856.png
 security:

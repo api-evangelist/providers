@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -184,6 +185,30 @@ collections:
   name: Hugging Face Text Generation Inference API
   slug: open-hugging-face-text-generation-inference-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/huggingface/dataset-viewer/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/huggingface/dataset-viewer/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/huggingface/dataset-viewer/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/huggingface/dataset-viewer/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/huggingface/dataset-viewer/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/huggingface/dataset-viewer/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1482,7 +1507,7 @@ overview: 'Hugging Face publishes 21 APIs on the [APIs.io](https://apis.io/) net
   The Hugging Face catalog on APIs.io includes 7 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Hugging Face''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 42 more developer resources.'
+  Hugging Face''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 48 more developer resources.'
 plans:
 - name: Hugging Face Plans Pricing
   plan_count: 8
@@ -1510,16 +1535,16 @@ rules:
     warn: 9
   slug: hugging-face-spectral-rules
 score:
-  band: exemplar
-  composite: 70.6
-  delta: 0.0
+  band: strong
+  composite: 64.9
+  delta: -5.7
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 76.5
-    developer_ergonomics: 65.2
+    commercial_clarity: 60.5
+    contract_quality: 74.0
+    developer_ergonomics: 71.7
     discoverability: 57.4
     governance: 58.3
-    operational_transparency: 68.4
+    operational_transparency: 55.3
   previous_composite: 70.6
   provenance:
     agentic_access: derived
@@ -1528,9 +1553,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/screenshots/hugging-face-2026-06-20T182926.png
 security:
 - kind: authentication

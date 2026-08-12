@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Web API for submitting files (PE, PDF, Office documents, Flash, Java applets, Android applications, archives) and URLs to the Lastline analysis cloud for high-resolution behavioral malware analysis, t
@@ -120,8 +120,8 @@ score:
   previous_composite: 20.5
   provenance:
     conformance: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lastline/refs/heads/main/screenshots/lastline-2026-07-25T224746.png
 security:

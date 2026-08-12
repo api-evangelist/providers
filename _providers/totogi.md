@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-10'
+  score: 45.7
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Totogi Charging-as-a-Service is a serverless, multi-tenant 5G Standalone and 5G Advanced converged charging system delivered as SaaS on AWS, with built-in policy control. Its account-management surfac
@@ -27,12 +27,16 @@ apis:
 - description: Whoosh! is Totogi's Application-to-Person (A2P) messaging API, launched in September 2023 and positioned as a drop-in replacement for Twilio's A2P APIs that network operators can resell to keep enterp
   name: Whoosh Programmable Messaging API
   slug: whoosh-programmable-messaging-api
-artifact_total: 6
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Totogi Whoosh Webhooks
   slug: totogi-whoosh-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/totogi-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -174,6 +178,10 @@ description: 'Totogi LLC is an Austin, Texas based vertical AI and BSS software 
   publishes 32 queries, 61 mutations and 480 type definitions, with per-operation named authorization roles, typed result-union errors, caller-supplied transaction ids for idempotency, and dated field deprecations. Whoosh! is a Twilio-compatible A2P messaging API sold through operators, with open quickstarts, a live API host and four published helper libraries. The platform''s other reference at docs.totogi.solutions is a Redocly login wall, and there is no self-serve signup anywhere. Totogi holds TM Forum Platinum Open API Conformance Certification for 31 certified Open APIs and once ranked #1 on the TM Forum Open API Certification Leaderboard. No CAMARA, GSMA Open Gateway, or Aduna reference appears anywhere in Totogi''s own canonical AI index.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: totogi-mcp.yml
+  slug: totogi-mcpyml
 modified: '2026-07-25'
 name: Totogi
 nav: Providers
@@ -184,7 +192,7 @@ overview: 'Totogi publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
   The Totogi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Totogi''s developer surface includes FAQ, engineering blog, support, YouTube channel, authentication, changelog, and 28 more developer resources.'
+  Totogi''s developer surface includes FAQ, engineering blog, support, YouTube channel, authentication, changelog, and 29 more developer resources.'
 random_paper: 82
 scopes:
 - name: Totogi Scopes
@@ -193,12 +201,12 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 44.7
+  delta: -0.8
   facets:
     commercial_clarity: 28.9
     contract_quality: 63.0
-    developer_ergonomics: 25.5
+    developer_ergonomics: 27.7
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 28.9
@@ -212,9 +220,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 73.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 65.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

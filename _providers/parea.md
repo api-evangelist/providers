@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -188,11 +188,11 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.7
-  delta: 0.0
+  composite: 50.1
+  delta: -0.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.9
+    contract_quality: 63.4
     developer_ergonomics: 21.7
     discoverability: 68.5
     governance: 68.8
@@ -205,8 +205,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parea/refs/heads/main/screenshots/parea-2026-06-20T191406.png
 security:

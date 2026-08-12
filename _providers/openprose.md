@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: true
@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 8.1
-  scored_at: '2026-08-10'
+  score: 4.5
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -115,20 +115,20 @@ overview: 'Openprose is profiled on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 59
 score:
   band: emerging
-  composite: 21.3
-  delta: 0.0
+  composite: 20.2
+  delta: -1.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 58.7
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 21.3
   provenance:
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openprose/refs/heads/main/screenshots/openprose-2026-08-07T190631.png
 security:

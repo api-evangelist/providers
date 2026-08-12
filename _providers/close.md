@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 0
@@ -361,15 +361,15 @@ rate_limits:
   slug: close-rate-limits
 score:
   band: developing
-  composite: 49.3
-  delta: 0.0
+  composite: 42.8
+  delta: -6.5
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 56.2
+    commercial_clarity: 68.4
+    contract_quality: 54.1
     developer_ergonomics: 32.6
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 60.5
+    operational_transparency: 36.8
   previous_composite: 49.3
   provenance:
     agentic_access: derived
@@ -384,9 +384,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/screenshots/close-2026-06-20T174533.png
 security:
 - kind: authentication

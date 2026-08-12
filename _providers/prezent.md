@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 62.4
-  scored_at: '2026-08-10'
+  score: 58.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -265,11 +265,11 @@ rate_limits:
   slug: prezent-rate-limits
 score:
   band: strong
-  composite: 58.7
-  delta: 0.0
+  composite: 58.1
+  delta: -0.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 74.4
+    contract_quality: 71.6
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 20.8
@@ -291,8 +291,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

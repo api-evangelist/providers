@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 60.6
-  scored_at: '2026-08-10'
+  score: 57.0
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: Bulk (1-to-many) SMS. Small batches dispatch inline; >30 recipients queue asynchronously.
@@ -49,6 +49,10 @@ asyncapis:
   name: Crescendo Lab Maacgo Webhooks
   slug: crescendo-lab-maacgo-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/crescendo-lab-maacgo-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -151,17 +155,17 @@ overview: 'Crescendo Lab publishes 4 APIs on the [APIs.io](https://apis.io/) net
   The Crescendo Lab catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Crescendo Lab''s developer surface includes documentation, engineering blog, pricing, signup flow, CLI, authentication, and 15 more developer resources.'
+  Crescendo Lab''s developer surface includes documentation, engineering blog, pricing, signup flow, CLI, authentication, and 16 more developer resources.'
 random_paper: 22
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 44.0
+  delta: -1.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 66.8
+    contract_quality: 64.3
     developer_ergonomics: 58.2
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 45.5
@@ -180,8 +184,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 27.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/screenshots/crescendo-lab-2026-07-25T210727.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -97,7 +97,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/synfutures-rwa-trading-openapi.yml
+  url: openapi/_original/synfutures-rwa-trading-openapi.yml
 - group: auth
   title: ''
   type: Authentication
@@ -169,11 +169,11 @@ rate_limits:
   slug: synfutures-rate-limits
 score:
   band: thin
-  composite: 38.7
-  delta: 0.0
+  composite: 38.2
+  delta: -0.5
   facets:
     commercial_clarity: 13.2
-    contract_quality: 58.9
+    contract_quality: 56.7
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 3.1
@@ -195,8 +195,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -9,7 +9,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.2
-  scored_at: '2026-08-10'
+  score: 44.1
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Persistent WebSocket connection for real-time trades, order-book depth, candlesticks and multilingual news. Integer protocol-code framing (10000 subscribe trade, 10002 trade push, 10003/10005 depth, 1
@@ -42,6 +42,14 @@ asyncapis:
   name: Infoway WebSocket Streaming API
   slug: infoway-real-time-market-data-api-streaming-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infoway-real-time-market-data-api-openapi-overlay.yaml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/infoway-api/infoway-mcp-server/issues
 - group: auth
   title: ''
   type: DomainSecurity
@@ -160,7 +168,7 @@ overview: 'Infoway Real-time Market Data API publishes 4 APIs on the [APIs.io](h
   The Infoway Real-time Market Data API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Infoway Real-time Market Data API''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 18 more developer resources.'
+  Infoway Real-time Market Data API''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 20 more developer resources.'
 random_paper: 77
 rate_limits:
 - limit_count: 0
@@ -168,22 +176,34 @@ rate_limits:
   slug: infoway-real-time-market-data-api-rate-limits
 score:
   band: developing
-  composite: 48.7
+  composite: 47.5
+  delta: -1.2
   facets:
     commercial_clarity: 44.7
-    contract_quality: 53.7
+    contract_quality: 57.2
     developer_ergonomics: 65.2
-    discoverability: 92.6
-    governance: 20.8
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 21.1
+  previous_composite: 48.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 3
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Infoway Real Time Market Data Api Authentication

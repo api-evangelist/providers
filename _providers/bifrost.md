@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -20,7 +21,7 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,8 +29,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-10'
+  score: 49.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,6 +54,58 @@ apis:
   slug: bifrost-health-api
 artifact_total: 54
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/maximhq/bifrost/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/maximhq/bifrost/blob/dev/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/maximhq/bifrost/blob/dev/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/maximhq/bifrost/blob/dev/LICENSE
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.getmaxim.ai/blog
+- group: design
+  title: ''
+  type: Webhooks
+  url: https://docs.getbifrost.ai/features/webhooks
+- group: build
+  title: ''
+  type: CLI
+  url: https://docs.getbifrost.ai/quickstart/cli/getting-started
+- group: build
+  title: ''
+  type: SDKs
+  url: https://www.getmaxim.ai/docs/sdk/overview
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.getmaxim.ai/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.getmaxim.ai/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.getmaxim.ai/terms-of-service
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.getmaxim.ai/pricing
+- group: start
+  title: ''
+  type: Signup
+  url: https://app.getmaxim.ai/sign-up
 - group: agent
   title: ''
   type: AgenticAccess
@@ -228,7 +281,7 @@ overview: 'Bifrost publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
   The Bifrost catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Bifrost''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, and 9 more developer resources.'
+  Bifrost''s developer surface includes engineering blog, CLI, pricing, signup flow, authentication, developer portal, documentation, and 20 more developer resources.'
 plans:
 - name: Bifrost Plans Pricing
   plan_count: 2
@@ -257,15 +310,15 @@ rules:
   slug: bifrost-spectral-rules
 score:
   band: developing
-  composite: 43.4
-  delta: 0.0
+  composite: 54.1
+  delta: 10.7
   facets:
-    commercial_clarity: 36.8
-    contract_quality: 23.0
-    developer_ergonomics: 43.5
-    discoverability: 64.8
+    commercial_clarity: 65.8
+    contract_quality: 22.1
+    developer_ergonomics: 58.7
+    discoverability: 72.2
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 63.2
   previous_composite: 43.4
   provenance:
     agentic_access: derived
@@ -274,9 +327,9 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/bifrost/refs/heads/main/screenshots/bifrost-2026-06-20T173231.png
 security:
 - kind: authentication

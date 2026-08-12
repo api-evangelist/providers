@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 9.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The GraphQL API behind the BillGO Exchange biller portal. A live graphql-java server answers POST requests at https://exchange.billgo.com/graphql; schema introspection is disabled by the server, so no
@@ -136,8 +136,8 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: thin
-  composite: 32.0
-  delta: 0.0
+  composite: 32.4
+  delta: 0.4
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -151,11 +151,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 59.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Payments
+    regime_id: payments
+    score: 62.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/billgo/refs/heads/main/screenshots/billgo-2026-08-07T162429.png
 security:

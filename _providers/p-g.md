@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The central API hub for Developers, Consumers, Application Managers, and Architects to discover and use P&G APIs.
@@ -82,20 +82,20 @@ rate_limits:
   name: P G Rate Limits
   slug: p-g-rate-limits
 score:
-  band: emerging
-  composite: 18.5
-  delta: 0.0
+  band: minimal
+  composite: 10.7
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 40.7
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 18.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/p-g/refs/heads/main/screenshots/p-g-2026-06-20T191300.png
 security:
 - kind: domain-security

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-08-10'
+  score: 44.1
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Account-to-account payments over open banking — create payment sessions (checkout), payouts, refunds, and webhooks. The Partner API onboards businesses on behalf of platforms. OAuth 2.0 client-credent
@@ -189,8 +189,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 34.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banked/refs/heads/main/screenshots/banked-2026-07-25T202342.png
 security:

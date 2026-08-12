@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-10'
+  score: 3.2
+  scored_at: '2026-08-11'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -55,37 +55,100 @@ common:
   title: ''
   type: Blog
   url: https://acretrader.com/newsroom
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://api.acretrader.com/v1/cms/learn/rss
+- group: start
+  title: ''
+  type: Login
+  url: https://acretrader.com/sign-in
+- group: company
+  title: ''
+  type: About
+  url: https://acretrader.com/company/about-us
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://acretrader.com/faq
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/acretrader
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/acretrader-domain-security.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/acretrader-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/acretrader-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/acretrader-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/acretrader-llms.txt
+coverage:
+  checked: '2026-08-10'
+  detail: AcreTrader ships only an end-user accredited-investor portal — the 101 KB sitemap contains no developer, API, docs or status page, and api.acretrader.com answers /healthz but 404s every OpenAPI, GraphQL, MCP and /.well-known/ path, serving only an undocumented CMS backend for the marketing site.
+  evidence:
+  - status: 404
+    url: https://acretrader.com/llms.txt
+  - status: 404
+    url: https://acretrader.com/developers
+  - status: 404
+    url: https://api.acretrader.com/openapi.json
+  - status: 404
+    url: https://api.acretrader.com/graphql
+  - status: 404
+    url: https://api.acretrader.com/.well-known/agent-card.json
+  - status: 200
+    url: https://api.acretrader.com/healthz
+  reason: no-developer-program
+  state: none
 created: '2026-07-17'
-description: AcreTrader is a farmland investment marketplace headquartered in Fayetteville, Arkansas that lets investors buy fractional, passive ownership stakes in individual US row-crop and permanent-crop farms. AcreTrader sources and vets each farm, then handles the legal entity, farm management, and administration while investors earn returns from annual cash rent and long-term land appreciation. The company also operates Acres, a land data and valuation tool, and serves farmers, advisors, and accredited investors. Backed by Anthemis and surfaced into the API Evangelist network as a company profile; AcreTrader publishes no public developer API at this time.
+description: AcreTrader is a farmland investment platform headquartered in Fayetteville, Arkansas that lets accredited investors buy fractional, passive ownership stakes in individual US row-crop, permanent-crop and timberland farms. AcreTrader sources and vets each farm, then handles the legal entity, farm management and administration while investors earn returns from annual cash rent and long-term land appreciation. Securities are offered through North Capital Private Securities Corporation, a FINRA/SIPC member broker-dealer that is not an affiliate of the platform. Since 2018 AcreTrader has enabled investment in over 140 farmland properties spanning roughly 44,000 acres across 20 states, and its investment management arm, AcreTrader Management LLC, reports net IRR of 9.4% to 30.3% on realized deals. Proterra Investment Partners LP acquired AcreTrader in August 2025. AcreTrader publishes no public developer API, no developer portal and no machine-readable specification; contract discovery
+  was run in full against acretrader.com and api.acretrader.com on 2026-08-10 and every discovery path returned 404.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/acretrader.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-08-10'
 name: Acretrader
 nav: Providers
 network: true
 overview: 'Acretrader is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Farmland, Investing, Alternative Investments, and Real Estate.
 
 
-  Acretrader''s developer surface includes signup flow, support, engineering blog, and 4 more developer resources.'
+  Acretrader''s developer surface includes signup flow, support, engineering blog, FAQ, and 12 more developer resources.'
+plans:
+- name: Acretrader Plans Pricing
+  plan_count: 0
+  slug: acretrader-plans-pricing
 random_paper: 9
+rate_limits:
+- limit_count: 0
+  name: Acretrader Rate Limits
+  slug: acretrader-rate-limits
 score:
   band: emerging
-  composite: 14.3
-  delta: 0.0
+  composite: 14.6
+  delta: 0.3
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 61.1
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 14.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acretrader/refs/heads/main/screenshots/acretrader-2026-07-25T181516.png
 security:
@@ -103,5 +166,9 @@ tags:
 - Fintech
 - Agriculture
 - Marketplace
+- Farmland Investing
+- Accredited Investors
+- Private Placements
+- AgTech
 website: https://acretrader.com/
 ---

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 13
 apis:
 - description: Call MATLAB from Python, allowing Python programs to start MATLAB, execute MATLAB functions, and exchange data between Python and MATLAB.
@@ -72,6 +72,18 @@ apis:
   slug: thingspeak-rest-api
 artifact_total: 17
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/mathworks/matlab-engine-for-python/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/mathworks/matlab-engine-for-python/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/mathworks/matlab-engine-for-python/blob/R2026a/SECURITY.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -135,7 +147,7 @@ network: true
 overview: 'MATLAB publishes 1 API on the [APIs.io](https://apis.io/) network: Production Server RESTful API. Tagged areas include Data Analysis, Engineering, Machine Learning, Numerical Analysis, and Scientific Computing.
 
 
-  MATLAB''s developer surface includes developer portal, documentation, pricing, engineering blog, support, and 7 more developer resources.'
+  MATLAB''s developer surface includes developer portal, documentation, pricing, engineering blog, support, and 10 more developer resources.'
 plans:
 - name: Matlab Plans Pricing
   plan_count: 3
@@ -147,18 +159,18 @@ rate_limits:
   slug: matlab-rate-limits
 score:
   band: thin
-  composite: 39.6
-  delta: 0.0
+  composite: 35.2
+  delta: -4.4
   facets:
-    commercial_clarity: 63.2
+    commercial_clarity: 39.5
     contract_quality: 32.3
     developer_ergonomics: 23.9
     discoverability: 72.2
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 55.3
   previous_composite: 39.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matlab/refs/heads/main/screenshots/matlab-2026-06-20T185035.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: The UBIX Insights API enables programmatic access to AI-generated analytics, insights, and model outputs from the UBIX platform. Supports integration with existing business intelligence tools, CRM sys
@@ -92,19 +92,19 @@ rate_limits:
   slug: ubix-rate-limits
 score:
   band: emerging
-  composite: 24.1
-  delta: 0.0
+  composite: 16.3
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 17.7
     developer_ergonomics: 2.2
     discoverability: 72.2
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 24.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubix/refs/heads/main/screenshots/ubix-2026-06-20T195933.png
 security:
 - kind: domain-security

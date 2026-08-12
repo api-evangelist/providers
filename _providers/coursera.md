@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -123,16 +123,16 @@ rate_limits:
   name: Coursera Rate Limits
   slug: coursera-rate-limits
 score:
-  band: thin
-  composite: 29.7
-  delta: 0.0
+  band: emerging
+  composite: 24.1
+  delta: -5.6
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 58.1
+    commercial_clarity: 13.2
+    contract_quality: 56.2
     developer_ergonomics: 2.2
     discoverability: 55.6
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 29.7
   provenance:
     agentic_access: derived
@@ -141,9 +141,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/coursera/refs/heads/main/screenshots/coursera-2026-06-20T175124.png
 security:
 - kind: domain-security

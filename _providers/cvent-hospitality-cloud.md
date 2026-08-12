@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -164,16 +164,16 @@ scopes:
   slug: cvent-hospitality-cloud-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: developing
-  composite: 46.9
-  delta: 0.0
+  band: thin
+  composite: 39.3
+  delta: -7.6
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 55.0
+    commercial_clarity: 44.7
+    contract_quality: 53.0
     developer_ergonomics: 26.1
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 46.9
   provenance:
     agentic_access: derived
@@ -182,9 +182,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent-hospitality-cloud/refs/heads/main/screenshots/cvent-hospitality-cloud-2026-06-20T175403.png
 security:
 - kind: authentication

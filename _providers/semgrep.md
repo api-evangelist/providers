@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: OpenAPI-described REST API for the Semgrep AppSec Platform. Lists deployments, projects, findings, scans, secrets, and supply chain data, and supports CI/CD and triage automation. Requires a Team or E
@@ -51,6 +51,10 @@ apis:
   slug: docs
 artifact_total: 12
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/semgrep/semgrep/blob/develop/LICENSE
 - group: auth
   title: ''
   type: TrustCenter
@@ -110,7 +114,7 @@ network: true
 overview: 'Semgrep publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Static Analysis, SAST, Application Security, Supply Chain, and Secrets Detection.
 
 
-  Semgrep''s developer surface includes documentation, GitHub presence, and 9 more developer resources.'
+  Semgrep''s developer surface includes documentation, GitHub presence, and 10 more developer resources.'
 plans:
 - name: Semgrep Plans Pricing
   plan_count: 1
@@ -122,18 +126,18 @@ rate_limits:
   slug: semgrep-rate-limits
 score:
   band: emerging
-  composite: 19.9
-  delta: 0.0
+  composite: 20.7
+  delta: 0.8
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 19.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/semgrep/refs/heads/main/screenshots/semgrep-2026-06-20T193645.png
 security:

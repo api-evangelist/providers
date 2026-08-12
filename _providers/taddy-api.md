@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -215,16 +215,16 @@ rules:
     warn: 4
   slug: taddy-api-rules
 score:
-  band: strong
-  composite: 58.3
-  delta: 0.0
+  band: developing
+  composite: 53.2
+  delta: -5.1
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 72.9
+    commercial_clarity: 39.5
+    contract_quality: 70.1
     developer_ergonomics: 45.7
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 68.8
-    operational_transparency: 44.7
+    operational_transparency: 21.1
   previous_composite: 58.3
   provenance:
     agentic_access: derived
@@ -233,9 +233,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/taddy-api/refs/heads/main/screenshots/taddy-api-2026-06-20T194850.png
 security:
 - kind: authentication

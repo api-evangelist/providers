@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -78,6 +78,10 @@ collections:
   name: Jupiter Swap API
   slug: open-jupiter-ag
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/jup-ag/jupiter-quote-api-node/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -133,7 +137,7 @@ network: true
 overview: 'Jupiter publishes 1 API on the [APIs.io](https://apis.io/) network: Swap API. Tagged areas include Solana, DeFi, DEX Aggregator, Swap, and Perpetuals.
 
 
-  Jupiter''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 6 more developer resources.'
+  Jupiter''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 7 more developer resources.'
 plans:
 - name: Jupiter Ag Plans Pricing
   plan_count: 1
@@ -145,12 +149,12 @@ rate_limits:
   slug: jupiter-ag-rate-limits
 score:
   band: thin
-  composite: 36.4
-  delta: 0.0
+  composite: 36.8
+  delta: 0.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 62.0
-    developer_ergonomics: 21.7
+    contract_quality: 59.7
+    developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
@@ -162,8 +166,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupiter-ag/refs/heads/main/screenshots/jupiter-ag-2026-06-20T183836.png
 security:

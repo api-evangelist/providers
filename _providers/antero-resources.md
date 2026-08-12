@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Antero Resources Corporation (NYSE: AR) files annual reports (10-K), quarterly reports (10-Q), current reports (8-K), proxy statements, and other regulatory disclosures with the U.S. Securities and Ex'
@@ -112,15 +112,15 @@ rate_limits:
   slug: antero-resources-rate-limits
 score:
   band: emerging
-  composite: 21.3
-  delta: 0.0
+  composite: 16.9
+  delta: -4.4
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 10.9
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 5.3
   previous_composite: 21.3
   regulatory:
     applies: true
@@ -128,8 +128,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/antero-resources/refs/heads/main/screenshots/antero-resources-2026-06-20T172022.png
 security:

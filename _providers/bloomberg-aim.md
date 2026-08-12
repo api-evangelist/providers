@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -156,6 +156,22 @@ collections:
   name: Bloomberg HTTP API
   slug: open-bloomberg-http-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/bloomberg/blpapi-http/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/bloomberg/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/bloomberg/blpapi-http/blob/develop/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/bloomberg/blpapi-http/blob/develop/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -995,7 +1011,7 @@ overview: 'Bloomberg AIM publishes 17 APIs on the [APIs.io](https://apis.io/) ne
   The Bloomberg AIM catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Bloomberg AIM''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, engineering blog, and 11 more developer resources.'
+  Bloomberg AIM''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, engineering blog, and 15 more developer resources.'
 plans:
 - name: Bloomberg Aim Plans Pricing
   plan_count: 1
@@ -1029,15 +1045,15 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: strong
-  composite: 61.4
-  delta: 0.0
+  composite: 56.4
+  delta: -5.0
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 72.0
+    commercial_clarity: 34.2
+    contract_quality: 69.4
     developer_ergonomics: 67.4
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 61.4
   provenance:
     agentic_access: derived
@@ -1052,9 +1068,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 78.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/screenshots/bloomberg-aim-2026-06-20T173406.png
 security:
 - kind: authentication

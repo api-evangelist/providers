@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -258,16 +258,16 @@ scopes:
   slug: ryder-system-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: developing
-  composite: 43.7
-  delta: 0.0
+  band: thin
+  composite: 37.9
+  delta: -5.8
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 69.9
+    commercial_clarity: 13.2
+    contract_quality: 67.3
     developer_ergonomics: 30.4
     discoverability: 64.8
     governance: 37.5
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 43.7
   provenance:
     agentic_access: derived
@@ -276,9 +276,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/screenshots/ryder-system-2026-06-20T193310.png
 security:
 - kind: authentication

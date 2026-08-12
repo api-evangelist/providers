@@ -12,9 +12,10 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: true
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 55.9
-  scored_at: '2026-08-10'
+  score: 56.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -209,6 +210,18 @@ collections:
   name: Figma Teams API
   slug: open-figma-teams-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/figma/rest-api-spec/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/figma/rest-api-spec/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/figma/rest-api-spec/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1946,7 +1959,7 @@ overview: 'Figma publishes 16 APIs on the [APIs.io](https://apis.io/) network, i
   The Figma catalog on APIs.io includes 1 event-driven AsyncAPI specification, 13 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Figma''s developer surface includes authentication, changelog, CLI, developer portal, getting-started guide, signup flow, pricing, and 68 more developer resources.'
+  Figma''s developer surface includes authentication, changelog, CLI, developer portal, getting-started guide, signup flow, pricing, and 71 more developer resources.'
 plans:
 - name: Figma Plans Pricing
   plan_count: 4
@@ -1988,15 +2001,15 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 76.8
-  delta: 0.0
+  composite: 69.6
+  delta: -7.2
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 85.7
-    developer_ergonomics: 56.5
+    commercial_clarity: 68.4
+    contract_quality: 82.9
+    developer_ergonomics: 63.0
     discoverability: 77.8
     governance: 63.5
-    operational_transparency: 78.9
+    operational_transparency: 55.3
   previous_composite: 76.8
   provenance:
     agentic_access: derived
@@ -2007,9 +2020,9 @@ score:
       marker_coverage: 0.0
       total: 16
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/screenshots/figma-2026-06-20T181157.png
 security:
 - kind: authentication

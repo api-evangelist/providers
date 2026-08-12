@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 15.3
-  scored_at: '2026-08-10'
+  score: 11.7
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: RESTful, JSON and X12 EDI (270/271, 837, 276/277, 835) healthcare transaction APIs for real-time patient eligibility and coverage verification, professional and institutional claim validation and subm
@@ -155,8 +155,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 47.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optum/refs/heads/main/screenshots/optum-2026-08-07T190817.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 16
 apis:
 - description: OpenAI-style Chat/Research API. POST /responses with a surf-2.0 or surf-2.0-instant model and a natural-language crypto question; returns synthesized answers with inline citations drawn from live mark
@@ -81,6 +81,10 @@ apis:
   slug: surf-web-api
 artifact_total: 19
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/surf-data-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -180,17 +184,17 @@ network: true
 overview: 'Surf publishes 15 APIs on the [APIs.io](https://apis.io/) network, including DEX API, Exchange API, Fund API, and 12 more. Tagged areas include Company, Crypto, Blockchain, Market Data, and On-Chain Analytics.
 
 
-  Surf''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, CLI, and 14 more developer resources.'
+  Surf''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, CLI, and 15 more developer resources.'
 random_paper: 100
 score:
-  band: developing
-  composite: 42.8
-  delta: 0.0
+  band: thin
+  composite: 41.4
+  delta: -1.4
   facets:
     commercial_clarity: 23.7
-    contract_quality: 58.1
+    contract_quality: 56.0
     developer_ergonomics: 73.9
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 42.8
@@ -209,8 +213,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

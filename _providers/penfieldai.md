@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
@@ -94,20 +94,20 @@ overview: 'Penfield.AI is profiled on the [APIs.io](https://apis.io/) network. T
 random_paper: 113
 score:
   band: emerging
-  composite: 24.0
-  delta: 0.0
+  composite: 22.9
+  delta: -1.1
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 28.3
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 12.5
     operational_transparency: 0.0
   previous_composite: 24.0
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

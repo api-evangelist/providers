@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-10'
+  score: 43.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -56,8 +56,16 @@ apis:
 - description: Operations for generating and retrieving insurance price estimates and quotes
   name: Allianz Price Estimates API
   slug: allianz-docs-price-estimates-api
-artifact_total: 80
+artifact_total: 81
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/allianz-docs-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/allianz-docs-allianz-api-connect-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -300,6 +308,10 @@ jsonld:
   property_count: 48
   slug: allianz-api-connect-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: allianz-docs-mcp.yml
+  slug: allianz-docs-mcpyml
 modified: '2026-06-20'
 name: Allianz
 nav: Providers
@@ -310,7 +322,7 @@ overview: 'Allianz publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
   The Allianz catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Allianz''s developer surface includes authentication, support, engineering blog, and 9 more developer resources.'
+  Allianz''s developer surface includes authentication, support, engineering blog, and 11 more developer resources.'
 random_paper: 57
 rules:
 - name: Allianz API Rules
@@ -336,13 +348,13 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: thin
-  composite: 33.5
-  delta: 0.0
+  composite: 32.7
+  delta: -0.8
   facets:
     commercial_clarity: 0.0
-    contract_quality: 32.9
-    developer_ergonomics: 17.4
-    discoverability: 83.3
+    contract_quality: 31.7
+    developer_ergonomics: 19.6
+    discoverability: 72.2
     governance: 80.2
     operational_transparency: 5.3
   previous_composite: 33.5
@@ -361,8 +373,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 51.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/screenshots/allianz-docs-2026-07-25T195659.png
 security:

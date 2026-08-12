@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 7
@@ -259,13 +259,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 63.6
-  delta: 0.0
+  composite: 62.1
+  delta: -1.5
   facets:
     commercial_clarity: 76.3
-    contract_quality: 63.6
+    contract_quality: 61.2
     developer_ergonomics: 56.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 71.1
   previous_composite: 63.6
@@ -280,8 +280,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/screenshots/enphase-2026-08-07T164929.png
 security:

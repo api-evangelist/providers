@@ -1,10 +1,11 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -17,8 +18,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 66.7
-  scored_at: '2026-08-10'
+  score: 59.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -247,16 +248,29 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 66.5
+  composite: 66.8
+  delta: 0.3
   facets:
     commercial_clarity: 76.3
-    contract_quality: 55.8
+    contract_quality: 61.2
     developer_ergonomics: 78.3
     discoverability: 92.6
-    governance: 20.8
+    governance: 11.5
     operational_transparency: 76.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 66.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Stayingapi Authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -83,6 +83,14 @@ collections:
   name: EOSIO / Antelope Nodeos Chain API
   slug: open-eosio-nodeos-chain-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/AntelopeIO/leap/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/AntelopeIO/leap/blob/main/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -154,7 +162,7 @@ network: true
 overview: 'EOSIO publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Get Abi API, Get Account API, Get Block API, and 7 more. Tagged areas include Antelope, Blockchain, and EOS.
 
 
-  EOSIO''s developer surface includes developer portal, getting-started guide, documentation, FAQ, changelog, and 9 more developer resources.'
+  EOSIO''s developer surface includes developer portal, getting-started guide, documentation, FAQ, changelog, and 11 more developer resources.'
 plans:
 - name: Eosio Plans Pricing
   plan_count: 2
@@ -166,15 +174,15 @@ rate_limits:
   slug: eosio-rate-limits
 score:
   band: thin
-  composite: 41.6
-  delta: 0.0
+  composite: 34.8
+  delta: -6.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 54.0
+    commercial_clarity: 34.2
+    contract_quality: 51.9
     developer_ergonomics: 28.3
     discoverability: 55.6
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 41.6
   provenance:
     agentic_access: derived
@@ -183,9 +191,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 security:
 - kind: domain-security
   name: Eosio Domain Security

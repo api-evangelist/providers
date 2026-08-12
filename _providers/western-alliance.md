@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 9.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Western Alliance Bank's commercial open-banking API lets approved business clients interact directly with WAB systems to access balance and transaction information, retrieve check images, initiate fun
@@ -26,6 +26,10 @@ apis:
   slug: wab-treasury-management-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.westernalliancebancorporation.com/insights
 - group: auth
   title: ''
   type: DomainSecurity
@@ -68,7 +72,7 @@ common:
   url: https://developer.westernalliancebank.com/s/getting-started
 - group: start
   title: ''
-  type: SignUp
+  type: Signup
   url: https://developer.westernalliancebank.com/s/login
 - group: build
   title: ''
@@ -98,17 +102,17 @@ network: true
 overview: 'Western Alliance Bank publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Treasury Management, and Open Banking.
 
 
-  Western Alliance Bank''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, and 10 more developer resources.'
+  Western Alliance Bank''s developer surface includes engineering blog, authentication, documentation, API reference, getting-started guide, signup flow, and 10 more developer resources.'
 random_paper: 22
 score:
   band: emerging
-  composite: 27.9
-  delta: 0.0
+  composite: 26.2
+  delta: -1.7
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 45.7
-    discoverability: 77.8
+    developer_ergonomics: 47.8
+    discoverability: 66.7
     governance: 12.5
     operational_transparency: 5.3
   previous_composite: 27.9
@@ -119,9 +123,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 39.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 31.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

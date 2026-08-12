@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 59.7
-  scored_at: '2026-08-10'
+  score: 56.1
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: A category is a classification for product listings, with specific attributes and constraints that products within the category must adhere to.
@@ -55,6 +56,10 @@ asyncapis:
   name: Wallapop Webhooks Catalog
   slug: wallapop-webhooks-catalog
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/wallapop-items-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -181,7 +186,7 @@ overview: 'Wallapop publishes 6 APIs on the [APIs.io](https://apis.io/) network,
   The Wallapop catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Wallapop''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 20 more developer resources.'
+  Wallapop''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 21 more developer resources.'
 random_paper: 52
 rate_limits:
 - limit_count: 3
@@ -193,12 +198,12 @@ scopes:
   slug: wallapop-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: strong
-  composite: 56.0
-  delta: 0.0
+  band: developing
+  composite: 55.4
+  delta: -0.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 66.0
+    contract_quality: 63.5
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 11.5
@@ -213,8 +218,8 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Fatora's REST API for hosted-checkout payment collection, card tokenization, refunds and payment verification, plus CRUD over invoices, clients and products and AI content helpers. Payment endpoints a
@@ -155,13 +155,13 @@ overview: 'Fatora publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 57
 score:
   band: thin
-  composite: 35.2
-  delta: 0.0
+  composite: 34.3
+  delta: -0.9
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 65.2
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 35.2
@@ -171,8 +171,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fatora/refs/heads/main/screenshots/fatora-2026-07-25T214251.png
 security:

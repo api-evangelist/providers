@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 5
@@ -83,6 +84,10 @@ asyncapis:
   name: Replicas Webhooks
   slug: replicas-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/replicas-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -217,17 +222,17 @@ overview: 'Replicas publishes 13 APIs on the [APIs.io](https://apis.io/) network
   The Replicas catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Replicas'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, GitHub presence, and 22 more developer resources.'
+  Replicas'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, GitHub presence, and 23 more developer resources.'
 random_paper: 39
 score:
-  band: strong
-  composite: 56.2
-  delta: 0.0
+  band: developing
+  composite: 54.4
+  delta: -1.8
   facets:
     commercial_clarity: 44.7
-    contract_quality: 70.7
+    contract_quality: 68.1
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
   previous_composite: 56.2
@@ -241,8 +246,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

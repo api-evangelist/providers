@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: true
     auth_clarity: true
     consent_identity: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.1
-  scored_at: '2026-08-10'
+  score: 22.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -123,16 +123,30 @@ overview: 'BrightAI publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 random_paper: 30
 score:
   band: emerging
-  composite: 24.2
+  composite: 24.0
+  delta: -0.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
-    developer_ergonomics: 30.4
-    discoverability: 87.0
+    developer_ergonomics: 25.5
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 0.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 24.2
+  provenance:
+    agentic_access: first-party
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 35.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Brightai Authentication

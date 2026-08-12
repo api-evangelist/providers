@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -169,13 +169,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 37.3
-  delta: 0.0
+  composite: 37.6
+  delta: 0.3
   facets:
     commercial_clarity: 31.6
-    contract_quality: 48.1
+    contract_quality: 46.3
     developer_ergonomics: 54.3
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 37.3
@@ -186,8 +186,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/screenshots/octopus-deploy-2026-06-20T190613.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -92,7 +92,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/aviationweather-openapi.yml
+  url: openapi/_original/aviationweather-openapi.yml
 - group: design
   title: ''
   type: Vocabulary
@@ -288,11 +288,11 @@ rules:
   slug: aviationweather-rules
 score:
   band: thin
-  composite: 40.1
-  delta: 0.0
+  composite: 39.5
+  delta: -0.6
   facets:
     commercial_clarity: 10.5
-    contract_quality: 74.0
+    contract_quality: 71.2
     developer_ergonomics: 8.7
     discoverability: 75.9
     governance: 68.8
@@ -311,8 +311,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aviationweather/refs/heads/main/screenshots/aviationweather-2026-06-20T172725.png
 security:

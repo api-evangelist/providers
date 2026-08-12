@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +12,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-08-10'
+  score: 47.5
+  scored_at: '2026-08-11'
 api_count: 14
 apis:
 - description: Nursa's OpenID Connect / OAuth 2.0 authorization server. Issues the JWT access tokens the Nursa Public API requires, supports the authorization code (with and without PKCE), resource owner password, i
@@ -63,12 +64,16 @@ apis:
 - description: The Webhook logs API from Nursa — 1 operation(s) for webhook logs.
   name: Nursa Webhook logs API
   slug: nursa-webhook-logs-api
-artifact_total: 20
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Nursa Public Api V2 Webhooks
   slug: nursa-public-api-v2-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/nursa-mcp.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -214,6 +219,10 @@ description: Nursa is a healthcare staffing marketplace, founded in Salt Lake Ci
   4,500 facilities and 500,000 clinicians nationwide.
 image: https://cdn.prod.website-files.com/636e7f8063d6538dea5ca1e4/63e3d5253bcbd6e2b35efeee_logo-horizontal-color.svg
 layout: provider
+mcp_servers:
+- description: ''
+  name: nursa-mcp.yml
+  slug: nursa-mcpyml
 modified: '2026-08-04'
 name: Nursa
 nav: Providers
@@ -224,7 +233,7 @@ overview: 'Nursa publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
   The Nursa catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Nursa''s developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, pricing, support, and 28 more developer resources.'
+  Nursa''s developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, pricing, support, and 29 more developer resources.'
 random_paper: 89
 rate_limits:
 - limit_count: 1
@@ -237,23 +246,23 @@ scopes:
   summary_line: 26 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 57.7
-  delta: -0.1
+  composite: 58.0
+  delta: 0.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 73.2
-    developer_ergonomics: 60.3
+    contract_quality: 72.7
+    developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 34.2
-  previous_composite: 57.8
+  previous_composite: 57.7
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 13
     mcp: derived
     skills: derived
   regulatory:
@@ -262,8 +271,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/screenshots/nursa-2026-08-07T185748.png
 security:

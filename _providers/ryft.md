@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-10'
+  score: 43.5
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Push query-execution telemetry to Ryft.
@@ -135,11 +135,11 @@ overview: 'Ryft publishes 1 API on the [APIs.io](https://apis.io/) network: Inge
 random_paper: 105
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 47.8
+  delta: -0.6
   facets:
     commercial_clarity: 42.1
-    contract_quality: 65.1
+    contract_quality: 62.7
     developer_ergonomics: 62.5
     discoverability: 87.0
     governance: 20.8
@@ -154,8 +154,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

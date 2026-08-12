@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 275
   human_in_the_loop: 7
@@ -1249,16 +1250,16 @@ scopes:
   slug: docusign-scopes
   summary_line: 13 scopes · authorizationCode/implicit
 score:
-  band: exemplar
-  composite: 68.6
-  delta: 0.0
+  band: strong
+  composite: 63.6
+  delta: -5.0
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 79.5
+    commercial_clarity: 60.5
+    contract_quality: 80.2
     developer_ergonomics: 63.0
     discoverability: 59.3
     governance: 47.9
-    operational_transparency: 78.9
+    operational_transparency: 55.3
   previous_composite: 68.6
   provenance:
     agentic_access: derived
@@ -1267,9 +1268,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 128
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/screenshots/docusign-2026-06-20T180123.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 6
@@ -162,6 +162,10 @@ collections:
   name: API Reference
   slug: open-stackrox
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/stackrox/stackrox/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -252,7 +256,7 @@ overview: 'StackRox publishes 39 APIs on the [APIs.io](https://apis.io/) network
   The StackRox catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  StackRox''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  StackRox''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Stackrox Plans Pricing
   plan_count: 3
@@ -280,16 +284,16 @@ rules:
     warn: 1
   slug: stackrox-rules
 score:
-  band: developing
-  composite: 45.9
-  delta: 0.0
+  band: thin
+  composite: 37.6
+  delta: -8.3
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 54.7
+    commercial_clarity: 15.8
+    contract_quality: 52.6
     developer_ergonomics: 30.4
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 45.9
   provenance:
     agentic_access: derived
@@ -298,9 +302,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 39
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackrox/refs/heads/main/screenshots/stackrox-2026-06-20T194449.png
 security:
 - kind: authentication

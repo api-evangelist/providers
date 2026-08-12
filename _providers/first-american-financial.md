@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: First American developer APIs include Find an Office (locate offices by city, state, or ZIP), Order Management (open new orders), Document Exchange (send and receive order-related documents), Messagin
@@ -102,20 +102,26 @@ rate_limits:
   name: First American Financial Rate Limits
   slug: first-american-financial-rate-limits
 score:
-  band: emerging
-  composite: 20.1
-  delta: 0.0
+  band: minimal
+  composite: 12.4
+  delta: -7.7
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 20.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 9.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/screenshots/first-american-financial-2026-06-20T181235.png
 security:
 - kind: domain-security

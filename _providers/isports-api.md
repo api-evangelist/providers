@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.9
-  scored_at: '2026-08-10'
+  score: 29.5
+  scored_at: '2026-08-11'
 api_count: 15
 apis:
 - description: The Basketball Common API API from iSports API — 5 operation(s) for basketball common api.
@@ -68,6 +68,10 @@ apis:
   slug: isports-api-football-stats-api
 artifact_total: 130
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/isports-api-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -525,7 +529,7 @@ network: true
 overview: 'iSports API publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Basketball Common API API, Basketball Live animation API, Basketball Live Data API, and 12 more. Tagged areas include Sports API, Sports Data, Football, Basketball, and Odds.
 
 
-  iSports API''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
+  iSports API''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
 plans:
 - name: Isports Api Plans
   plan_count: 14
@@ -536,17 +540,28 @@ rate_limits:
   name: Isports Api Rate Limits
   slug: isports-api-rate-limits
 score:
-  band: strong
-  composite: 58.0
+  band: developing
+  composite: 45.4
+  delta: -12.6
   facets:
     commercial_clarity: 76.3
-    contract_quality: 51.9
-    developer_ergonomics: 76.1
-    discoverability: 92.6
-    governance: 20.8
+    contract_quality: 14.4
+    developer_ergonomics: 71.2
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 21.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 58.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 15
+      marker_coverage: 100.0
+      total: 15
+    skills: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 security:
 - kind: authentication
   name: Isports Api Authentication

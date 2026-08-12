@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -423,15 +423,15 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: thin
-  composite: 38.1
-  delta: 0.0
+  composite: 32.7
+  delta: -5.4
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 25.2
+    commercial_clarity: 13.2
+    contract_quality: 24.3
     developer_ergonomics: 34.8
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 38.1
   provenance:
     agentic_access: derived
@@ -440,9 +440,9 @@ score:
       derived: 8
       marker_coverage: 100.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/screenshots/alaska-air-2026-06-20T171459.png
 security:
 - kind: authentication

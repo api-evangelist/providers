@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -109,6 +109,10 @@ collections:
   name: GreyNoise API
   slug: open-greynoise
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/GreyNoise-Intelligence/api.greynoise.io/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -995,7 +999,7 @@ overview: 'GreyNoise Intelligence publishes 10 APIs on the [APIs.io](https://api
   The GreyNoise Intelligence catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  GreyNoise Intelligence''s developer surface includes authentication, developer console, signup flow, pricing, support, FAQ, engineering blog, and 43 more developer resources.'
+  GreyNoise Intelligence''s developer surface includes authentication, developer console, signup flow, pricing, support, FAQ, engineering blog, and 44 more developer resources.'
 plans:
 - name: Greynoise Plans Pricing
   plan_count: 4
@@ -1024,11 +1028,11 @@ rules:
   slug: greynoise-spectral-rules
 score:
   band: exemplar
-  composite: 70.2
-  delta: 0.0
+  composite: 69.5
+  delta: -0.7
   facets:
     commercial_clarity: 92.1
-    contract_quality: 75.2
+    contract_quality: 72.4
     developer_ergonomics: 58.7
     discoverability: 81.5
     governance: 68.8
@@ -1041,8 +1045,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/screenshots/greynoise-2026-06-20T182405.png
 security:

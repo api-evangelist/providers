@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -144,15 +144,15 @@ rules:
   slug: usda-agricultural-research-service-ars--rules
 score:
   band: thin
-  composite: 41.7
-  delta: 0.0
+  composite: 34.6
+  delta: -7.1
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 61.7
+    commercial_clarity: 15.8
+    contract_quality: 59.4
     developer_ergonomics: 13.0
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 41.7
   provenance:
     agentic_access: derived
@@ -167,9 +167,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/usda-agricultural-research-service-ars-/refs/heads/main/screenshots/usda-agricultural-research-service-ars--2026-06-20T200650.png
 security:
 - kind: authentication

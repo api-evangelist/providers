@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: documented
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-08-10'
+  score: 43.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 2
@@ -142,6 +142,10 @@ collections:
   name: Dolby OptiView THEOlive API
   slug: open-dolby-io-theolive-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dolby-io-realtime-streaming-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -442,7 +446,7 @@ overview: 'Dolby.io publishes 14 APIs on the [APIs.io](https://apis.io/) network
   The Dolby.io catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Dolby.io''s developer surface includes CLI, authentication, developer portal, documentation, getting-started guide, signup flow, pricing, and 50 more developer resources.'
+  Dolby.io''s developer surface includes CLI, authentication, developer portal, documentation, getting-started guide, signup flow, pricing, and 51 more developer resources.'
 plans:
 - name: Dolby Io Plans Pricing
   plan_count: 4
@@ -471,12 +475,12 @@ rules:
   slug: dolby-io-rules
 score:
   band: exemplar
-  composite: 73.4
-  delta: 0.0
+  composite: 76.2
+  delta: 2.8
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 68.1
-    developer_ergonomics: 69.6
+    commercial_clarity: 92.1
+    contract_quality: 65.6
+    developer_ergonomics: 73.9
     discoverability: 83.3
     governance: 69.8
     operational_transparency: 76.3
@@ -490,8 +494,8 @@ score:
       marker_coverage: 0.0
       total: 14
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/screenshots/dolby-io-2026-06-20T180134.png
 security:

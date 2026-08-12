@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 64.9
-  scored_at: '2026-08-10'
+  score: 61.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -241,11 +241,11 @@ overview: 'The San Francisco Compute Company publishes 14 APIs on the [APIs.io](
 random_paper: 51
 score:
   band: strong
-  composite: 57.2
-  delta: 0.0
+  composite: 56.6
+  delta: -0.6
   facets:
     commercial_clarity: 42.1
-    contract_quality: 62.4
+    contract_quality: 60.0
     developer_ergonomics: 80.4
     discoverability: 92.6
     governance: 11.5
@@ -261,8 +261,8 @@ score:
       total: 14
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

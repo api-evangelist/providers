@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -179,6 +179,18 @@ collections:
   name: Adobe Creative Cloud Adobe Stock API
   slug: postman-adobe-stock-api-openapi-original
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/AdobeDocs/creative-cloud-libraries/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/AdobeDocs/creative-cloud-libraries/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/AdobeDocs/creative-cloud-libraries/blob/main/.github/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -597,7 +609,7 @@ overview: 'Adobe Creative Cloud publishes 12 APIs on the [APIs.io](https://apis.
   The Adobe Creative Cloud catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Adobe Creative Cloud''s developer surface includes authentication, developer portal, documentation, engineering blog, support, pricing, YouTube channel, and 41 more developer resources.'
+  Adobe Creative Cloud''s developer surface includes authentication, developer portal, documentation, engineering blog, support, pricing, YouTube channel, and 44 more developer resources.'
 plans:
 - name: Adobe Creative Cloud Plans Pricing
   plan_count: 5
@@ -633,16 +645,16 @@ rules:
     warn: 7
   slug: adobe-creative-cloud-spectral-rules
 score:
-  band: strong
-  composite: 63.2
-  delta: 0.0
+  band: developing
+  composite: 54.7
+  delta: -8.5
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 82.1
+    commercial_clarity: 47.4
+    contract_quality: 79.4
     developer_ergonomics: 39.1
     discoverability: 74.1
     governance: 41.7
-    operational_transparency: 63.2
+    operational_transparency: 39.5
   previous_composite: 63.2
   provenance:
     agentic_access: derived
@@ -651,9 +663,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/screenshots/adobe-creative-cloud-2026-07-25T181653.png
 security:
 - kind: authentication

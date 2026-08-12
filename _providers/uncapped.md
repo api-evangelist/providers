@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -59,6 +60,10 @@ asyncapis:
   name: Uncapped Webhooks
   slug: uncapped-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/uncapped-partners-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -161,17 +166,17 @@ overview: 'Uncapped publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The Uncapped catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Uncapped''s developer surface includes authentication, documentation, getting-started guide, API reference, changelog, sandbox, and 15 more developer resources.'
+  Uncapped''s developer surface includes authentication, documentation, getting-started guide, API reference, changelog, sandbox, and 16 more developer resources.'
 random_paper: 36
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 43.9
+  delta: -1.8
   facets:
     commercial_clarity: 0.0
-    contract_quality: 72.3
+    contract_quality: 69.6
     developer_ergonomics: 56.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
   previous_composite: 45.7
@@ -185,8 +190,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

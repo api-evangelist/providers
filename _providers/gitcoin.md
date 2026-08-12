@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,6 +81,10 @@ collections:
   name: Gitcoin Core Bounties Stamp API API
   slug: postman-gitcoin-stamp-api-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/gitcoinco/grants-stack-indexer/issues
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -193,7 +197,7 @@ overview: 'Gitcoin publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   The Gitcoin catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Gitcoin''s developer surface includes authentication, engineering blog, documentation, support, and 13 more developer resources.'
+  Gitcoin''s developer surface includes authentication, engineering blog, documentation, support, and 14 more developer resources.'
 plans:
 - name: Plans
   plan_count: 5
@@ -214,11 +218,11 @@ rules:
   slug: gitcoin-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 56.8
-  delta: 0.0
+  composite: 56.1
+  delta: -0.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 77.6
+    contract_quality: 75.1
     developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 58.3
@@ -231,8 +235,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,6 +53,10 @@ apis:
   slug: opensky-tracks-api
 artifact_total: 19
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/openskynetwork/opensky-api/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -149,7 +153,7 @@ overview: 'OpenSky Network publishes 3 APIs on the [APIs.io](https://apis.io/) n
   The OpenSky Network catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OpenSky Network''s developer surface includes authentication, GitHub presence, documentation, status page, and 10 more developer resources.'
+  OpenSky Network''s developer surface includes authentication, GitHub presence, documentation, status page, and 11 more developer resources.'
 plans:
 - name: Opensky Rest Api
   plan_count: 4
@@ -176,12 +180,12 @@ rules:
   slug: opensky-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.7
-  delta: 0.0
+  composite: 53.9
+  delta: 0.2
   facets:
     commercial_clarity: 63.2
-    contract_quality: 71.8
-    developer_ergonomics: 19.6
+    contract_quality: 69.2
+    developer_ergonomics: 23.9
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
@@ -193,8 +197,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

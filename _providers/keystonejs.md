@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Auto-generated GraphQL API served at /api/graphql that provides full CRUD operations for every list in the schema. Includes single-item queries, list queries with filtering and pagination, count queri
@@ -117,8 +117,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 30.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keystonejs/refs/heads/main/screenshots/keystonejs-2026-06-20T184013.png
 security:

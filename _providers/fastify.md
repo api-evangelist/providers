@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Fastify is a fast and low-overhead web framework for Node.js, designed for building high-performance APIs and microservices. It features a powerful plugin architecture, JSON Schema-based request and r
@@ -36,6 +36,30 @@ apis:
   slug: fastify
 artifact_total: 8
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/fastify/fastify/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/fastify/fastify/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/fastify/fastify/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/fastify/fastify/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/fastify/fastify/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/fastify/fastify/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -105,7 +129,7 @@ overview: 'Fastify publishes 1 API on the [APIs.io](https://apis.io/) network. T
   The Fastify catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Fastify''s developer surface includes documentation, getting-started guide, engineering blog, and 8 more developer resources.'
+  Fastify''s developer surface includes documentation, getting-started guide, engineering blog, and 14 more developer resources.'
 plans:
 - name: Fastify Plans Pricing
   plan_count: 3
@@ -126,18 +150,18 @@ rules:
   slug: fastify-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.0
-  delta: 0.0
+  composite: 30.3
+  delta: -3.7
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 16.1
     developer_ergonomics: 21.7
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 34.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastify/refs/heads/main/screenshots/fastify-2026-06-20T181051.png
 security:

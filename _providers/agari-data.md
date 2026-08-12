@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: RESTful JSON API for the Agari platform (Fortra Email Security). Cloud Email Protection endpoints (/v1/ep) expose monitored messages and policy events; Brand Protection / DMARC endpoints (/v1/cp) expo
@@ -119,8 +119,8 @@ score:
   previous_composite: 21.8
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agari-data/refs/heads/main/screenshots/agari-data-2026-07-25T181800.png
 security:

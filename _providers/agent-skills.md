@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The Anthropic Tool Use API allows AI agents built on Claude to call client-defined functions or Anthropic-provided server tools such as web search, code execution, and web fetch. Tools are declared in
@@ -42,6 +42,26 @@ apis:
   slug: model-context-protocol-mcp
 artifact_total: 40
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/google/adk-python/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/google/adk-python/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/google/.github/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/google/adk-python/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/google/adk-python/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -181,20 +201,20 @@ rules:
     warn: 4
   slug: agent-skills-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 32.8
-  delta: 0.0
+  band: emerging
+  composite: 27.0
+  delta: -5.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 17.7
     developer_ergonomics: 0.0
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 32.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/agent-skills/refs/heads/main/screenshots/agent-skills-2026-06-20T165939.png
 security:
 - kind: domain-security

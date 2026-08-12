@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 0
@@ -117,6 +118,10 @@ asyncapis:
   name: Indykite Event Sinks Webhooks
   slug: indykite-event-sinks-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/indykite-config-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -264,17 +269,17 @@ overview: 'Indykite publishes 21 APIs on the [APIs.io](https://apis.io/) network
   The Indykite catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Indykite''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 25 more developer resources.'
+  Indykite''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 26 more developer resources.'
 random_paper: 53
 score:
   band: strong
-  composite: 58.7
-  delta: 0.0
+  composite: 57.9
+  delta: -0.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.4
+    contract_quality: 68.7
     developer_ergonomics: 80.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
   previous_composite: 58.7
@@ -288,8 +293,8 @@ score:
       total: 21
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/screenshots/indykite-2026-07-25T222343.png
 security:

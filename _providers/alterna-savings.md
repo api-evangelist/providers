@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 9.0
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 3
 common:
@@ -87,13 +87,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 18.8
-  delta: 0.0
+  composite: 17.8
+  delta: -1.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 17.4
-    discoverability: 61.1
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 18.8
@@ -103,8 +103,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 46.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alterna-savings/refs/heads/main/screenshots/alterna-savings-2026-07-25T195822.png
 security:

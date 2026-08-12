@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -66,6 +66,30 @@ collections:
   name: Kestra Open Source REST API
   slug: open-kestra
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/kestra-io/kestra/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/kestra-io/kestra/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/kestra-io/kestra/blob/develop/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/kestra-io/kestra/blob/develop/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/kestra-io/kestra/blob/develop/.github/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/kestra-io/kestra/blob/develop/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -185,7 +209,7 @@ network: true
 overview: 'Kestra publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Executions API, Files API, Flows API, and 3 more. Tagged areas include Automation, Data Pipelines, Event-Driven, Orchestration, and Workflows.
 
 
-  Kestra''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, engineering blog, changelog, and 19 more developer resources.'
+  Kestra''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, engineering blog, changelog, and 25 more developer resources.'
 plans:
 - name: Kestra Plans Pricing
   plan_count: 3
@@ -197,15 +221,15 @@ rate_limits:
   slug: kestra-rate-limits
 score:
   band: developing
-  composite: 52.7
-  delta: 0.0
+  composite: 46.6
+  delta: -6.1
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 51.2
+    commercial_clarity: 55.3
+    contract_quality: 49.3
     developer_ergonomics: 58.7
-    discoverability: 55.6
+    discoverability: 63.0
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 52.7
   provenance:
     agentic_access: derived
@@ -214,9 +238,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/screenshots/kestra-2026-06-20T184000.png
 security:
 - kind: authentication

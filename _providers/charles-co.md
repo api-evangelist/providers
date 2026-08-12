@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Token-authenticated HTTP API behind the Charles conversational commerce platform. Clients authenticate against a per-tenant "universe" host and the central api.hello-charles.com service, then work wit
@@ -135,24 +135,18 @@ overview: 'Charles Co publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 65
 score:
   band: emerging
-  composite: 26.0
-  delta: 0.0
+  composite: 25.5
+  delta: -0.5
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
     developer_ergonomics: 52.2
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 26.0
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 22.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charles-co/refs/heads/main/screenshots/charles-co-2026-07-25T205103.png
 security:

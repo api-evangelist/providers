@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -105,6 +105,18 @@ collections:
   name: Azure Pipelines REST API
   slug: open-azure-pipelines-rest-api
 common:
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/MicrosoftDocs/azure-devops-docs/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/MicrosoftDocs/.github/blob/main/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/MicrosoftDocs/azure-devops-docs/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -220,7 +232,7 @@ network: true
 overview: 'Azure Pipelines publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Build Artifacts API, Build Definitions API, and 5 more. Tagged areas include Automation, Build, CI/CD, Deployment, and DevOps.
 
 
-  Azure Pipelines'' developer surface includes authentication, getting-started guide, developer portal, pricing, engineering blog, documentation, signup flow, and 18 more developer resources.'
+  Azure Pipelines'' developer surface includes authentication, getting-started guide, developer portal, pricing, engineering blog, documentation, signup flow, and 21 more developer resources.'
 plans:
 - name: Microsoft Azure Pipelines Plans Pricing
   plan_count: 6
@@ -231,16 +243,16 @@ rate_limits:
   name: Microsoft Azure Pipelines Rate Limits
   slug: microsoft-azure-pipelines-rate-limits
 score:
-  band: strong
-  composite: 59.8
-  delta: 0.0
+  band: developing
+  composite: 52.7
+  delta: -7.1
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 65.1
+    commercial_clarity: 60.5
+    contract_quality: 62.7
     developer_ergonomics: 56.5
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 68.4
+    operational_transparency: 55.3
   previous_composite: 59.8
   provenance:
     agentic_access: derived
@@ -249,9 +261,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/screenshots/microsoft-azure-pipelines-2026-06-20T185430.png
 security:
 - kind: authentication

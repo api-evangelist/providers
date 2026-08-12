@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -247,16 +247,16 @@ rate_limits:
   name: Argocd Rate Limits
   slug: argocd-rate-limits
 score:
-  band: thin
-  composite: 34.2
-  delta: 0.0
+  band: emerging
+  composite: 27.6
+  delta: -6.6
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 38.8
+    commercial_clarity: 13.2
+    contract_quality: 37.3
     developer_ergonomics: 28.3
     discoverability: 55.6
     governance: 0.0
-    operational_transparency: 57.9
+    operational_transparency: 34.2
   previous_composite: 34.2
   provenance:
     agentic_access: derived
@@ -265,9 +265,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/screenshots/argocd-2026-06-20T172419.png
 security:
 - kind: domain-security

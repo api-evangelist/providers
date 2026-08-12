@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Create and manage data migration (import) jobs.
@@ -39,6 +39,10 @@ apis:
   slug: import2-tools-api
 artifact_total: 7
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/import2-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -154,7 +158,7 @@ network: true
 overview: 'Import2 publishes 2 APIs on the [APIs.io](https://apis.io/) network: Imports API and Tools API. Tagged areas include Company, Data Migration, Data Integration, CRM, and Helpdesk.
 
 
-  Import2''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, pricing, signup flow, and 18 more developer resources.'
+  Import2''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, pricing, signup flow, and 19 more developer resources.'
 random_paper: 21
 rate_limits:
 - limit_count: 1
@@ -162,11 +166,11 @@ rate_limits:
   slug: import2-rate-limits
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 51.8
+  delta: -0.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 63.6
+    contract_quality: 61.2
     developer_ergonomics: 60.3
     discoverability: 75.9
     governance: 11.5
@@ -181,8 +185,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/screenshots/import2-2026-07-25T222154.png
 security:

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-10'
+  score: 38.5
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: The comments API from Splitwise — 3 operation(s) for comments.
@@ -54,6 +54,10 @@ apis:
   slug: splitwise-users-api
 artifact_total: 12
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splitwise-api-overlay.yaml
 - group: auth
   title: ''
   type: Authentication
@@ -169,7 +173,7 @@ network: true
 overview: 'Splitwise publishes 7 APIs on the [APIs.io](https://apis.io/) network, including comments API, expenses API, friends API, and 4 more. Tagged areas include Company, Consumer, Expense Management, Personal Finance, and Bill Splitting.
 
 
-  Splitwise''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, and 20 more developer resources.'
+  Splitwise''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, and 21 more developer resources.'
 random_paper: 68
 scopes:
 - name: Splitwise Scopes
@@ -178,11 +182,11 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.6
-  delta: 0.0
+  composite: 45.2
+  delta: -0.4
   facets:
     commercial_clarity: 34.2
-    contract_quality: 53.2
+    contract_quality: 51.2
     developer_ergonomics: 40.8
     discoverability: 92.6
     governance: 11.5
@@ -203,8 +207,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

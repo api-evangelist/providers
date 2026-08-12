@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: 'Internal API platform built on MuleSoft Anypoint that exposes reusable experience, process, and system APIs across The Coca-Cola Company''s bottling, marketing, ecommerce, and supply-chain operations. '
@@ -139,19 +139,19 @@ rate_limits:
   slug: coca-cola-rate-limits
 score:
   band: emerging
-  composite: 19.9
-  delta: 0.0
+  composite: 14.7
+  delta: -5.2
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 19.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/coca-cola/refs/heads/main/screenshots/coca-cola-2026-06-20T174646.png
 security:
 - kind: domain-security

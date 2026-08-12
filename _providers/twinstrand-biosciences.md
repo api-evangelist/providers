@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 30.0
-  scored_at: '2026-08-10'
+  score: 26.4
+  scored_at: '2026-08-11'
 api_count: 12
 apis:
 - description: The Discovery API from TwinStrand Biosciences — 5 operation(s) for discovery.
@@ -59,6 +59,10 @@ apis:
   slug: twinstrand-biosciences-taxonomies-api
 artifact_total: 14
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/twinstrand-biosciences-content-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -167,27 +171,27 @@ network: true
 overview: 'TwinStrand Biosciences publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Events API, Media API, and 9 more. Tagged areas include Company, Genomics, Biotechnology, Life Sciences, and DNA Sequencing.
 
 
-  TwinStrand Biosciences'' developer surface includes product news, legal docs, YouTube channel, authentication, and 20 more developer resources.'
+  TwinStrand Biosciences'' developer surface includes product news, legal docs, YouTube channel, authentication, and 21 more developer resources.'
 random_paper: 102
 score:
   band: emerging
-  composite: 23.2
-  delta: 0.3
+  composite: 22.3
+  delta: -0.9
   facets:
     commercial_clarity: 21.1
-    contract_quality: 14.7
+    contract_quality: 15.1
     developer_ergonomics: 12.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 22.9
+  previous_composite: 23.2
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 12
       marker_coverage: 100.0
-      total: 1
+      total: 12
     skills: derived
   regulatory:
     applies: true
@@ -195,8 +199,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

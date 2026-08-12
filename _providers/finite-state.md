@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 24.5
-  scored_at: '2026-08-10'
+  score: 27.3
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Token-authenticated REST API for the Finite State platform, served under /api/public/v0 on the platform host. Interactive Swagger documentation is published per organization at https://[org].finitesta
@@ -30,8 +30,28 @@ apis:
 - description: 'GraphQL API historically documented at https://platform.finitestate.io/api/v1/graphql and still the transport used by the official Python SDK, which authenticates via a client-credentials exchange at '
   name: Finite State GraphQL API
   slug: graphql-api
-artifact_total: 5
+artifact_total: 6
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/finite-state-mcp.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/FiniteStateInc/finite-state-sdk-python/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/FiniteStateInc/finite-state-sdk-python/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/FiniteStateInc/finite-state-sdk-python/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/FiniteStateInc/finite-state-sdk-python/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -156,6 +176,10 @@ created: '2026-08-04'
 description: Finite State is a product security platform for connected-device and embedded software manufacturers. It performs binary and firmware composition analysis, source-code scanning and third-party scan ingestion, SBOM generation and lifecycle management (CycloneDX and SPDX), VEX, EPSS- and reachability-based vulnerability prioritization, license-policy enforcement, and evidence-backed compliance reporting for regimes such as the EU Cyber Resilience Act, FDA 524B, ISO 21434 and IEC 62443. Programmatic access is offered through a token-authenticated REST API on the platform host, a legacy GraphQL API with an official Python SDK, the fs-cli command-line tool, and CI/CD integrations for GitHub Actions, Jenkins and Azure DevOps. Finite State also publishes an anonymous, read-only A2A JSON-RPC content API described by an agent card at its canonical well-known path.
 image: https://finitestate.io/images/backgrounds/hero-space.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: finite-state-mcp.yml
+  slug: finite-state-mcpyml
 modified: '2026-08-04'
 name: Finite State
 nav: Providers
@@ -163,16 +187,16 @@ network: true
 overview: 'Finite State publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Product Security, Software Supply Chain Security, SBOM, Firmware Analysis, and Vulnerability Management.
 
 
-  Finite State''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
+  Finite State''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 random_paper: 69
 score:
   band: thin
-  composite: 38.9
-  delta: 0.0
+  composite: 39.3
+  delta: 0.4
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
-    developer_ergonomics: 66.8
+    developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 44.7
@@ -181,8 +205,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/screenshots/finite-state-2026-08-07T165305.png
 security:

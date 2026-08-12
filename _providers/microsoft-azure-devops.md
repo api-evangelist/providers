@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -341,6 +342,26 @@ collections:
   name: Azure DevOps Work Items API
   slug: open-azure-devops-work-items-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/microsoft/azure-devops-python-api/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/microsoft/azure-devops-python-api/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/microsoft/azure-devops-python-api/blob/dev/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/microsoft/.github/blob/main/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/microsoft/azure-devops-python-api/blob/dev/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -879,7 +900,7 @@ overview: 'Azure DevOps publishes 32 APIs on the [APIs.io](https://apis.io/) net
   The Azure DevOps catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Azure DevOps'' developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, pricing, and 45 more developer resources.'
+  Azure DevOps'' developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, pricing, and 50 more developer resources.'
 plans:
 - name: Microsoft Azure Devops Plans Pricing
   plan_count: 6
@@ -907,16 +928,16 @@ rules:
     warn: 4
   slug: microsoft-azure-devops-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 69.0
-  delta: 0.0
+  band: strong
+  composite: 64.4
+  delta: -4.6
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 81.6
+    commercial_clarity: 60.5
+    contract_quality: 78.5
     developer_ergonomics: 65.2
     discoverability: 66.7
     governance: 47.9
-    operational_transparency: 68.4
+    operational_transparency: 55.3
   previous_composite: 69.0
   provenance:
     agentic_access: derived
@@ -925,8 +946,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/screenshots/microsoft-azure-devops-2026-06-20T185413.png
 security:

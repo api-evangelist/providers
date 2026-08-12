@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 64.2
-  scored_at: '2026-08-10'
+  score: 60.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -55,6 +55,10 @@ asyncapis:
   name: ShipMonk Webhooks
   slug: shipmonk-webhooks-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/shipmonk-orders-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -241,7 +245,7 @@ overview: 'ShipMonk publishes 6 APIs on the [APIs.io](https://apis.io/) network,
   The ShipMonk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ShipMonk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
+  ShipMonk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
 random_paper: 61
 rate_limits:
 - limit_count: 2
@@ -249,16 +253,16 @@ rate_limits:
   slug: shipmonk-rate-limits
 score:
   band: strong
-  composite: 62.3
-  delta: -0.9
+  composite: 61.5
+  delta: -0.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 63.4
+    contract_quality: 64.6
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 76.3
-  previous_composite: 63.2
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -269,8 +273,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

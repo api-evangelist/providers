@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Facets is a platform engineering and infrastructure automation platform that unifies provisioning, deployment, and configuration into a single declarative model for governed, secure, and self-serve cl
@@ -99,18 +99,18 @@ rate_limits:
   slug: facets-rate-limits
 score:
   band: emerging
-  composite: 23.5
-  delta: 0.0
+  composite: 19.1
+  delta: -4.4
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 17.4
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 23.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facets/refs/heads/main/screenshots/facets-2026-06-20T181034.png
 security:

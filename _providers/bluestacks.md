@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: OAuth 2.0 identity API for now.gg Login. Publishers exchange an authorization code for a token and refresh_token, verify id_token/token server-side, and read user profile and session information for t
@@ -188,22 +188,27 @@ scopes:
   summary_line: 3 scopes · authorizationCode/refreshToken
 score:
   band: developing
-  composite: 50.2
+  composite: 48.9
+  delta: -1.3
   facets:
     commercial_clarity: 34.2
     contract_quality: 53.1
     developer_ergonomics: 71.7
     discoverability: 87.0
-    governance: 12.5
+    governance: 0.0
     operational_transparency: 23.7
+  previous_composite: 50.2
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Bluestacks Authentication

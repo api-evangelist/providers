@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Datasets API from A-Alpha Bio — 9 operation(s) for datasets.
@@ -26,6 +26,18 @@ apis:
   slug: a-alpha-bio-datasets-api
 artifact_total: 10
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/a-alpha-bio-atlas-datasets-overlay.yaml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/A-Alpha-Bio/alphabind/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/A-Alpha-Bio/alphabind/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -170,20 +182,20 @@ network: true
 overview: 'A-Alpha Bio publishes 1 API on the [APIs.io](https://apis.io/) network: Datasets API. Tagged areas include protein-interactions, biotechnology, drug-discovery, antibody-engineering, and synthetic-biology.
 
 
-  A-Alpha Bio''s developer surface includes signup flow, engineering blog, product news, support, authentication, CLI, and 21 more developer resources.'
+  A-Alpha Bio''s developer surface includes signup flow, engineering blog, product news, support, authentication, CLI, and 24 more developer resources.'
 random_paper: 91
 score:
   band: thin
-  composite: 41.4
-  delta: -0.9
+  composite: 39.2
+  delta: -2.2
   facets:
     commercial_clarity: 34.2
-    contract_quality: 65.9
+    contract_quality: 67.2
     developer_ergonomics: 36.4
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 42.3
+  previous_composite: 41.4
   provenance:
     conformance: derived
     contracts:
@@ -193,8 +205,14 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 31.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/a-alpha-bio/refs/heads/main/screenshots/a-alpha-bio-2026-08-07T160731.png
 security:

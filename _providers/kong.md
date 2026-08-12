@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 782
   human_in_the_loop: 122
@@ -861,6 +862,46 @@ collections:
   name: Konnect API - Go SDK
   slug: open-kong-konnect-platform-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Kong/kong/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Kong/kong/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Kong/kong/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/Kong/kong/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Kong/kong/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Kong/kong/blob/master/LICENSE
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.konghq.com/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.konghq.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://konghq.com/legal/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://konghq.com/legal/terms-of-use
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -5052,7 +5093,7 @@ overview: 'Kong publishes 132 APIs on the [APIs.io](https://apis.io/) network, i
   The Kong catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Kong''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, CLI, support, and 16 more developer resources.'
+  Kong''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, CLI, support, and 26 more developer resources.'
 plans:
 - name: Kong Plans Pricing
   plan_count: 6
@@ -5081,15 +5122,15 @@ rules:
   slug: kong-spectral-rules
 score:
   band: strong
-  composite: 59.6
-  delta: 0.0
+  composite: 59.0
+  delta: -0.6
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 68.8
+    commercial_clarity: 55.3
+    contract_quality: 61.8
     developer_ergonomics: 63.0
-    discoverability: 59.3
+    discoverability: 57.4
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 55.3
   previous_composite: 59.6
   provenance:
     agentic_access: derived
@@ -5098,8 +5139,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 132
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/screenshots/kong-2026-06-20T184130.png
 security:

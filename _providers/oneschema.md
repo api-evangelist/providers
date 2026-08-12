@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 69.6
-  scored_at: '2026-08-10'
+  score: 66.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 91
   human_in_the_loop: 0
@@ -213,6 +213,10 @@ collections:
   name: OneSchema AWS Secrets Manager AWS Secrets Manager Accounts Workspaces API
   slug: postman-oneschema-workspaces-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oneschema-aws-secrets-manager-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -379,17 +383,17 @@ overview: 'Oneschema publishes 28 APIs on the [APIs.io](https://apis.io/) networ
   The Oneschema catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Oneschema''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 30 more developer resources.'
+  Oneschema''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 31 more developer resources.'
 random_paper: 19
 score:
   band: strong
-  composite: 65.7
-  delta: 0.0
+  composite: 63.9
+  delta: -1.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 74.7
+    contract_quality: 71.9
     developer_ergonomics: 79.9
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 55.3
   previous_composite: 65.7
@@ -403,8 +407,8 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/screenshots/oneschema-2026-08-07T190340.png
 security:

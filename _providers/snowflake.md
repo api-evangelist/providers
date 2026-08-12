@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 177
   human_in_the_loop: 14
@@ -563,7 +564,7 @@ common:
 - group: docs
   title: Snowflake SQL REST API OpenAPI 3.1.0
   type: OpenAPI
-  url: openapi/snowflake-sql-rest-api.yaml
+  url: openapi/_original/snowflake-sql-rest-api.yaml
 - group: agent
   title: ''
   type: LlmsText
@@ -4182,16 +4183,16 @@ scopes:
   slug: snowflake-scopes
   summary_line: 1 scope · authorizationCode/implicit
 score:
-  band: exemplar
-  composite: 66.0
-  delta: 0.0
+  band: strong
+  composite: 61.8
+  delta: -4.2
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 77.3
+    commercial_clarity: 57.9
+    contract_quality: 78.1
     developer_ergonomics: 65.2
-    discoverability: 40.7
+    discoverability: 48.1
     governance: 58.3
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 66.0
   provenance:
     agentic_access: derived
@@ -4200,8 +4201,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 36
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/screenshots/snowflake-2026-06-20T194110.png
 security:

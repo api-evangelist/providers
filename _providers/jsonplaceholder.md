@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -62,6 +62,14 @@ collections:
   name: JSONPlaceholder REST API
   slug: open-jsonplaceholder
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/typicode/jsonplaceholder/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/typicode/jsonplaceholder/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -259,7 +267,7 @@ overview: 'JSONPlaceholder publishes 6 APIs on the [APIs.io](https://apis.io/) n
   The JSONPlaceholder catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  JSONPlaceholder''s developer surface includes getting-started guide, engineering blog, documentation, pricing, and 15 more developer resources.'
+  JSONPlaceholder''s developer surface includes getting-started guide, engineering blog, documentation, pricing, and 17 more developer resources.'
 plans:
 - name: Jsonplaceholder Plans Pricing
   plan_count: 1
@@ -288,16 +296,16 @@ rules:
   slug: jsonplaceholder-rules
 score:
   band: thin
-  composite: 39.6
-  delta: 5.4
+  composite: 39.3
+  delta: -0.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 30.1
+    contract_quality: 29.0
     developer_ergonomics: 21.7
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 34.2
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -305,9 +313,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: rising
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/screenshots/jsonplaceholder-2026-06-20T183819.png
 security:
 - kind: domain-security

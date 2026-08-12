@@ -27,10 +27,26 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/extropic-ai/thrml/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/extropic-ai/thrml/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/extropic-ai/thrml/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/extropic-ai/thrml/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -99,24 +115,30 @@ network: true
 overview: 'Extropic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Hardware, Semiconductors, and Thermodynamic Computing.
 
 
-  Extropic''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 10 more developer resources.'
+  Extropic''s developer surface includes documentation, API reference, getting-started guide, engineering blog, and 14 more developer resources.'
 random_paper: 66
 score:
   band: emerging
-  composite: 20.0
-  delta: 0.0
+  composite: 20.7
+  delta: 0.7
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 41.3
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 20.0
   provenance:
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 18.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extropic/refs/heads/main/screenshots/extropic-2026-08-07T165150.png
 security:

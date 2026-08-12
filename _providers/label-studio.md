@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 233
   human_in_the_loop: 9
@@ -267,6 +267,26 @@ collections:
   name: API Reference
   slug: open-label-studio
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/HumanSignal/label-studio/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/HumanSignal/label-studio/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/HumanSignal/label-studio/blob/develop/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/HumanSignal/label-studio/blob/develop/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/HumanSignal/label-studio/blob/develop/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -330,7 +350,7 @@ network: true
 overview: 'Label Studio publishes 74 APIs on the [APIs.io](https://apis.io/) network, including subpackage_actions API, subpackage_activityLogs API, subpackage_annotationHistory API, and 71 more. Tagged areas include AI, Annotation, Artificial Intelligence, Data Labeling, and LLM.
 
 
-  Label Studio''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  Label Studio''s developer surface includes authentication, documentation, engineering blog, and 14 more developer resources.'
 plans:
 - name: Label Studio Plans Pricing
   plan_count: 3
@@ -342,15 +362,15 @@ rate_limits:
   slug: label-studio-rate-limits
 score:
   band: thin
-  composite: 39.1
-  delta: 0.0
+  composite: 33.6
+  delta: -5.5
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 50.7
+    commercial_clarity: 36.8
+    contract_quality: 48.8
     developer_ergonomics: 26.1
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 23.7
   previous_composite: 39.1
   provenance:
     agentic_access: derived
@@ -359,9 +379,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 74
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/screenshots/label-studio-2026-06-20T184236.png
 security:
 - kind: authentication

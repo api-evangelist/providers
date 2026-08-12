@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-08-10'
+  score: 45.9
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Discover mock SaaS providers granted to your organization
@@ -50,7 +50,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/ressl-ai-platform-openapi.yml
+  url: openapi/_original/ressl-ai-platform-openapi.yml
 - group: other
   title: ''
   type: Overlay
@@ -141,14 +141,14 @@ overview: 'Ressl publishes 2 APIs on the [APIs.io](https://apis.io/) network: Pr
   Ressl''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, and 15 more developer resources.'
 random_paper: 104
 score:
-  band: developing
-  composite: 42.2
-  delta: 0.0
+  band: thin
+  composite: 40.5
+  delta: -1.7
   facets:
     commercial_clarity: 13.2
-    contract_quality: 68.2
+    contract_quality: 65.7
     developer_ergonomics: 58.7
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 42.2
@@ -161,8 +161,8 @@ score:
       total: 2
     mcp: derived
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

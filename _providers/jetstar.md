@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Jetstar API is Jetstar's direct-connect distribution channel for Registered Travel Agents and partners. It is a Navitaire New Skies (NSK) SOAP / WCF web service, not a REST product and not IATA ND
@@ -181,8 +181,8 @@ overview: 'Jetstar publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 69
 score:
   band: thin
-  composite: 33.8
-  delta: 0.0
+  composite: 35.2
+  delta: 1.4
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -193,8 +193,14 @@ score:
   previous_composite: 33.8
   provenance:
     conformance: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 43.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jetstar/refs/heads/main/screenshots/jetstar-2026-08-07T171000.png
 security:

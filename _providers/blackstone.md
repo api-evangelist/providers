@@ -10,12 +10,12 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    auth_clarity: false
+    auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
@@ -27,14 +27,14 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.2
-  scored_at: '2026-08-10'
+  score: 12.2
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
-- description: Blackstone provides institutional and individual investors with access to portfolio information, capital account statements, fund documents, and reporting through its Investor Portal. API integrations
+- description: 'Blackstone provides institutional and individual investors with access to portfolio information, capital account statements, fund documents, and reporting through its Investor Portal, which is served '
   name: Blackstone Investor Portal
   slug: blackstone-investor-portal
-artifact_total: 28
+artifact_total: 31
 common:
 - group: auth
   title: ''
@@ -55,7 +55,59 @@ common:
 - group: start
   title: ''
   type: Login
-  url: https://investor.blackstone.com
+  url: https://www.bxaccess.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.bxaccess.com/Auth/NeedHelp
+- group: company
+  title: ''
+  type: InvestorRelations
+  url: https://ir.blackstone.com
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/blackstone-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/blackstone-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/blackstone-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/blackstone-conformance.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/blackstone-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/blackstone-vulnerability-disclosure.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/blackstone-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/blackstone-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/blackstone-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/blackstone-finops.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/blackstone-jsonschema-spectral-rules.yml
 - group: commercial
   title: ''
   type: TermsOfService
@@ -76,6 +128,22 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/blackstone-vocabulary.yaml
+coverage:
+  checked: '2026-08-10'
+  detail: Blackstone runs a real GitBook developer-documentation site at docs.blackstone.com, but every path on it — including /openapi.json, /llms.txt and /robots.txt — 307s to the GitBook VA-Okta visitor-auth handshake against Blackstone's Okta tenant at login.bx.com, so no contract is readable without a Blackstone-issued identity.
+  evidence:
+  - status: 307
+    url: https://docs.blackstone.com/openapi.json
+  - status: 307
+    url: https://docs.blackstone.com/llms.txt
+  - status: 302
+    url: https://www.bxaccess.com/openapi.json
+  - status: 403
+    url: https://www.blackstone.com/robots.txt
+  - status: 200
+    url: https://auth.bx.com/identity-broker/.well-known/openid-configuration
+  reason: customer-only-docs
+  state: gated
 created: '2026-03-21'
 description: Blackstone is the world's largest alternative asset manager with over $1 trillion in assets under management across private equity, real estate, credit, and hedge fund strategies. Blackstone serves institutional investors including pension funds, sovereign wealth funds, endowments, and foundations, as well as accredited individual investors through its private wealth solutions. Technology and data platforms are central to Blackstone's investment operations and portfolio company management.
 examples:
@@ -132,7 +200,7 @@ jsonld:
   property_count: 0
   slug: blackstone-context
 layout: provider
-modified: '2026-04-21'
+modified: '2026-08-10'
 name: Blackstone
 nav: Providers
 network: true
@@ -142,7 +210,7 @@ overview: 'Blackstone publishes 1 API on the [APIs.io](https://apis.io/) network
   The Blackstone catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Blackstone''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
+  Blackstone''s developer surface includes documentation, support, authentication, engineering blog, and 19 more developer resources.'
 plans:
 - name: Blackstone Plans Pricing
   plan_count: 1
@@ -194,27 +262,42 @@ rules:
     info: 0
     warn: 5
   slug: blackstone-spectral-rules
+scopes:
+- name: Blackstone Scopes
+  scope_count: 0
+  slug: blackstone-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 39.0
-  delta: 0.0
+  band: developing
+  composite: 46.5
+  delta: 7.5
   facets:
     commercial_clarity: 63.2
     contract_quality: 29.0
-    developer_ergonomics: 10.9
-    discoverability: 59.3
-    governance: 68.8
-    operational_transparency: 21.1
+    developer_ergonomics: 26.1
+    discoverability: 87.0
+    governance: 71.9
+    operational_transparency: 31.6
   previous_composite: 39.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  provenance:
+    conformance: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/blackstone/refs/heads/main/screenshots/blackstone-2026-06-20T173341.png
 security:
+- kind: authentication
+  name: Blackstone Authentication
+  slug: blackstone-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Blackstone Domain Security
   slug: blackstone-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Blackstone Vulnerability Disclosure
+  slug: blackstone-vulnerability-disclosure
+  summary_line: disclosure policy published
 slug: blackstone
 tags:
 - Alternative Assets

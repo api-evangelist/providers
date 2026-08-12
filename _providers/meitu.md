@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Web API (OpenAPI) exposing 100+ Meitu AI vision capabilities — image generation/editing, portrait beautification, face/body analysis, cutout, virtual try-on, and image/text-to-video — via an async sub
@@ -123,8 +123,8 @@ score:
   previous_composite: 18.3
   provenance:
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meitu/refs/heads/main/screenshots/meitu-2026-08-07T172444.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Apache JMeter is a load testing and performance measurement tool for web applications, databases, FTP servers, JMS, mail protocols, and more. Provides extensible samplers, listeners, and a CLI mode fo
@@ -36,6 +36,26 @@ apis:
   slug: jmeter
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/apache/jmeter/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/apache/jmeter/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/jmeter/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/jmeter/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/jmeter/blob/master/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -79,7 +99,7 @@ network: true
 overview: 'Apache JMeter publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Java, Load Testing, Open Source, Performance Testing, and Testing.
 
 
-  Apache JMeter''s developer surface includes documentation and 6 more developer resources.'
+  Apache JMeter''s developer surface includes documentation and 11 more developer resources.'
 plans:
 - name: Jmeter Plans Pricing
   plan_count: 3
@@ -91,18 +111,18 @@ rate_limits:
   slug: jmeter-rate-limits
 score:
   band: emerging
-  composite: 20.4
-  delta: 0.0
+  composite: 16.0
+  delta: -4.4
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 20.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jmeter/refs/heads/main/screenshots/jmeter-2026-06-20T183738.png
 security:

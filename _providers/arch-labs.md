@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.4
-  scored_at: '2026-08-10'
+  score: 32.2
+  scored_at: '2026-08-11'
 api_count: 15
 apis:
 - description: The Accounts API from Arch Labs — 2 operation(s) for accounts.
@@ -76,8 +76,20 @@ apis:
 - description: The Users API from Arch Labs — 2 operation(s) for users.
   name: Arch Labs Users API
   slug: arch-labs-users-api
-artifact_total: 19
+artifact_total: 20
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/arch-labs-collect-tax-documents.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/arch-labs-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/arch-labs-client-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -162,6 +174,10 @@ created: '2026-07-17'
 description: Arch (Arch Labs, Inc.) is a private-markets infrastructure platform that centralizes the administration of alternative investments for individual investors, wealth managers, family offices, institutional allocators, CPAs, fund managers and their advisors. Acting as a "portal of portals," Arch collects and classifies investment correspondence, parses account statements and cash flows, automates capital-call and distribution workflows, tracks tax-document deadlines, and produces standardized portfolio views and AI-generated manager-update summaries across private credit, real estate, venture capital, hedge funds and private equity. Its Client API exposes holdings, investing/issuing entities, activities, cash flows, tasks, tax documents, user roles and Addepar exports, and it integrates with Addepar, Salesforce and Bipsync. Backed by Craft Ventures, Menlo Ventures, Oak HC/FT and others.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arch-labs.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: arch-labs-mcp.yml
+  slug: arch-labs-mcpyml
 modified: '2026-07-18'
 name: Arch Labs
 nav: Providers
@@ -169,17 +185,17 @@ network: true
 overview: 'Arch Labs publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Activities API, Addepar API, and 12 more. Tagged areas include Company, Fintech, Alternative Investments, Private Markets, and Wealth Management.
 
 
-  Arch Labs'' developer surface includes documentation, API reference, getting-started guide, authentication, support, signup flow, and 14 more developer resources.'
+  Arch Labs'' developer surface includes documentation, API reference, getting-started guide, authentication, support, signup flow, and 17 more developer resources.'
 random_paper: 65
 score:
   band: developing
-  composite: 48.7
-  delta: 0.0
+  composite: 47.8
+  delta: -0.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 53.9
-    developer_ergonomics: 50.0
-    discoverability: 92.6
+    contract_quality: 51.9
+    developer_ergonomics: 53.8
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 26.3
   previous_composite: 48.7
@@ -192,8 +208,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arch-labs/refs/heads/main/screenshots/arch-labs-2026-07-25T201015.png
 security:

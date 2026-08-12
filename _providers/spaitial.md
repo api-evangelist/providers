@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 59.2
-  scored_at: '2026-08-10'
+  score: 55.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -56,6 +56,10 @@ asyncapis:
   name: SpAItial Developer API Webhooks
   slug: spaitial-webhooks-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spaitial-developer-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -194,7 +198,7 @@ overview: 'SpAItial publishes 4 APIs on the [APIs.io](https://apis.io/) network,
   The SpAItial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  SpAItial''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, pricing, and 23 more developer resources.'
+  SpAItial''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, pricing, and 24 more developer resources.'
 random_paper: 43
 scopes:
 - name: Spaitial Scopes
@@ -203,13 +207,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.8
-  delta: 0.0
+  composite: 51.1
+  delta: -1.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 63.5
+    contract_quality: 61.1
     developer_ergonomics: 64.7
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 34.2
   previous_composite: 52.8
@@ -223,8 +227,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

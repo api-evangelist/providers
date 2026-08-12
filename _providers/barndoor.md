@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -102,6 +102,22 @@ collections:
   name: Barndoor Platform API
   slug: open-barndoor
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/barndoor-ai/barndoor-python-sdk/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/barndoor-ai/barndoor-python-sdk/blob/main/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/barndoor-ai/barndoor-python-sdk/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/barndoor-ai/barndoor-python-sdk/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -145,7 +161,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/barndoor-openapi.yml
+  url: openapi/_original/barndoor-openapi.yml
 - group: auth
   title: ''
   type: Authentication
@@ -573,7 +589,7 @@ overview: 'Barndoor publishes 6 APIs on the [APIs.io](https://apis.io/) network,
   The Barndoor catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Barndoor''s developer surface includes authentication, engineering blog, documentation, API reference, developer portal, signup flow, pricing, and 24 more developer resources.'
+  Barndoor''s developer surface includes authentication, engineering blog, documentation, API reference, developer portal, signup flow, pricing, and 28 more developer resources.'
 plans:
 - name: Barndoor Plans Pricing
   plan_count: 4
@@ -602,15 +618,15 @@ rules:
   slug: barndoor-spectral-rules
 score:
   band: strong
-  composite: 62.1
-  delta: 0.0
+  composite: 63.2
+  delta: 1.1
   facets:
-    commercial_clarity: 65.8
-    contract_quality: 70.4
+    commercial_clarity: 78.9
+    contract_quality: 67.8
     developer_ergonomics: 47.8
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 68.8
-    operational_transparency: 47.4
+    operational_transparency: 63.2
   previous_composite: 62.1
   provenance:
     agentic_access: derived
@@ -619,8 +635,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 42.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barndoor/refs/heads/main/screenshots/barndoor-2026-06-20T173002.png
 security:

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 27.3
-  scored_at: '2026-08-10'
+  score: 23.6
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Kudobuzz Developer API lets merchants and integration developers create customer reviews and sync customers and orders into the After Purchase Mail (APM) product for segmentation and post-purchase
@@ -36,6 +36,10 @@ apis:
   slug: kudobuzz-developer-api
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/kudobuzz/kbjs-clients/issues
 - group: company
   title: ''
   type: Website
@@ -212,7 +216,7 @@ network: true
 overview: 'Kudobuzz publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Reviews, User Generated Content, Ecommerce, and Social Proof.
 
 
-  Kudobuzz''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 33 more developer resources.'
+  Kudobuzz''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 34 more developer resources.'
 random_paper: 82
 rate_limits:
 - limit_count: 0
@@ -220,13 +224,13 @@ rate_limits:
   slug: kudobuzz-rate-limits
 score:
   band: thin
-  composite: 36.8
-  delta: 0.0
+  composite: 35.6
+  delta: -1.2
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 62.5
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 23.7
   previous_composite: 36.8
@@ -234,8 +238,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kudobuzz/refs/heads/main/screenshots/kudobuzz-2026-07-25T224319.png
 security:

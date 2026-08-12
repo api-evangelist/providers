@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -236,15 +236,15 @@ rules:
   slug: car-api-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.7
-  delta: 0.0
+  composite: 45.1
+  delta: -10.6
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 63.1
+    commercial_clarity: 60.5
+    contract_quality: 64.5
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 55.7
   provenance:
     agentic_access: derived
@@ -252,10 +252,16 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 14
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+      total: 16
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 27.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/screenshots/car-api-2026-06-20T173946.png
 security:
 - kind: authentication

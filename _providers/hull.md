@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Flat REST API for Hull's Customer Data Platform, addressing objects by ID under the /api/v1 prefix on a per-organization hullapp.io subdomain. Covers Users, Accounts, Events, Segments, organization/co
@@ -150,21 +150,21 @@ overview: 'Hull publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 89
 score:
   band: thin
-  composite: 41.2
-  delta: 0.0
+  composite: 40.1
+  delta: -1.1
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.6
     developer_ergonomics: 56.5
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 28.9
   previous_composite: 41.2
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hull/refs/heads/main/screenshots/hull-2026-07-25T221636.png
 security:

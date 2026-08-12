@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -295,11 +295,11 @@ rules:
   slug: magicbell-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 47.9
+  delta: -0.5
   facets:
     commercial_clarity: 57.9
-    contract_quality: 53.5
+    contract_quality: 51.5
     developer_ergonomics: 17.4
     discoverability: 74.1
     governance: 68.8
@@ -318,8 +318,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 22.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magicbell/refs/heads/main/screenshots/magicbell-2026-06-20T184842.png
 security:

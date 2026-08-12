@@ -11,9 +11,10 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -21,14 +22,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-10'
+  score: 46.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -44,12 +45,24 @@ apis:
 - description: The US API from Otonomo — 2 operation(s) for us.
   name: Otonomo US API
   slug: otonomo-us-api
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Otonomo Events Webhooks
   slug: otonomo-events-webhooks
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/otonomo-check-vehicle-connectivity.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/otonomo-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/otonomo-fleet-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -94,6 +107,10 @@ created: '2026-07-17'
 description: Otonomo operates a connected-vehicle data platform that aggregates, normalizes and delivers telematics and mobility data from millions of connected cars to fleets, insurers, cities and mobility developers. Its Fleet ("Personal Data for Fleets") API exposes OAuth2-secured endpoints for vehicle onboarding (VIN upload / enablement / consent), near-real-time vehicle status, historical fleet points and trips reporting, connectivity checks, an attribute explorer, custom event rules with callbacks, and a streaming interface — across separate US and EU data regions. Otonomo was acquired by Urgently (Urgent.ly) in 2023; the connected-car Fleet data API remains operational and documented on ReadMe at docs.otonomo.io. Originally surfaced as a Bessemer Venture Partners portfolio company and enriched from its live developer surface.
 image: https://otonomo.io/
 layout: provider
+mcp_servers:
+- description: ''
+  name: otonomo-mcp.yml
+  slug: otonomo-mcpyml
 modified: '2026-07-20'
 name: Otonomo
 nav: Providers
@@ -104,7 +121,7 @@ overview: 'Otonomo publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
   The Otonomo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Otonomo''s developer surface includes documentation, API reference, getting-started guide, support, and 6 more developer resources.'
+  Otonomo''s developer surface includes documentation, API reference, getting-started guide, support, and 9 more developer resources.'
 random_paper: 83
 rate_limits:
 - limit_count: 0
@@ -117,13 +134,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 34.9
-  delta: 0.0
+  composite: 33.9
+  delta: -1.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 71.3
-    developer_ergonomics: 34.8
-    discoverability: 87.0
+    contract_quality: 68.7
+    developer_ergonomics: 38.6
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 34.9
@@ -137,8 +154,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

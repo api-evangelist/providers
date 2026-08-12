@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Firecamp is an open-source API development platform for designing, testing, and documenting REST, GraphQL, and WebSocket APIs. The product itself does not publish a consumer-facing HTTP API; it is a d
@@ -36,6 +36,22 @@ apis:
   slug: firecamp
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/firecamp-dev/firecamp/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/firecamp-dev/firecamp/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/firecamp-dev/firecamp/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/firecamp-dev/firecamp/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -99,7 +115,7 @@ network: true
 overview: 'Firecamp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Client, Clients, GraphQL, GUI, and REST.
 
 
-  Firecamp''s developer surface includes documentation, pricing, engineering blog, and 8 more developer resources.'
+  Firecamp''s developer surface includes documentation, pricing, engineering blog, and 12 more developer resources.'
 plans:
 - name: Firecamp Plans Pricing
   plan_count: 3
@@ -111,18 +127,18 @@ rate_limits:
   slug: firecamp-rate-limits
 score:
   band: emerging
-  composite: 22.9
-  delta: 0.0
+  composite: 18.0
+  delta: -4.9
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 15.2
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 22.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firecamp/refs/heads/main/screenshots/firecamp-2026-06-20T181227.png
 security:

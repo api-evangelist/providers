@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -186,15 +186,15 @@ rate_limits:
   slug: hiro-rate-limits
 score:
   band: thin
-  composite: 35.4
-  delta: 0.0
+  composite: 29.1
+  delta: -6.3
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 56.4
+    commercial_clarity: 15.8
+    contract_quality: 58.1
     developer_ergonomics: 13.0
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 35.4
   provenance:
     agentic_access: derived
@@ -203,9 +203,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/screenshots/hiro-2026-06-20T182757.png
 security:
 - kind: authentication

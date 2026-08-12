@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 63.3
-  scored_at: '2026-08-10'
+  score: 59.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -230,13 +230,13 @@ overview: 'Ando publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 70
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 53.7
+  delta: 1.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 71.1
+    contract_quality: 68.5
     developer_ergonomics: 75.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
   previous_composite: 52.4
@@ -250,14 +250,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 34.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/screenshots/ando-2026-07-25T200233.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -3052,12 +3052,12 @@ scopes:
   slug: otter-scopes
   summary_line: 31 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 42.1
-  delta: 0.0
+  band: thin
+  composite: 41.9
+  delta: -0.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 28.5
+    contract_quality: 27.5
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 68.8
@@ -3070,8 +3070,8 @@ score:
       derived: 19
       marker_coverage: 100.0
       total: 19
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/screenshots/otter-2026-06-20T191236.png
 security:

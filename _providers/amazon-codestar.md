@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-10'
+  score: 39.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -92,8 +92,16 @@ apis:
 - description: 'The #X Amz Target=CodeStar 20170419.UpdateUserProfile API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.updateuserprofile.'
   name: 'Amazon CodeStar #X Amz Target=CodeStar 20170419.UpdateUserProfile API'
   slug: amazon-codestar-x-amz-target-codestar-20170419-updateuserprofile-api
-artifact_total: 277
+artifact_total: 278
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/amazon-codestar-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-codestar-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -921,6 +929,10 @@ jsonld:
   property_count: 43
   slug: amazon-codestar-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: amazon-codestar-mcp.yml
+  slug: amazon-codestar-mcpyml
 modified: '2026-06-20'
 name: Amazon CodeStar
 nav: Providers
@@ -931,7 +943,7 @@ overview: 'Amazon CodeStar publishes 18 APIs on the [APIs.io](https://apis.io/) 
   The Amazon CodeStar catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CodeStar''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 15 more developer resources.'
+  Amazon CodeStar''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 17 more developer resources.'
 random_paper: 36
 rules:
 - name: Amazon CodeStar API Rules
@@ -951,13 +963,13 @@ rules:
     warn: 14
   slug: amazon-codestar-spectral-rules
 score:
-  band: strong
-  composite: 56.9
-  delta: 0.0
+  band: developing
+  composite: 55.5
+  delta: -1.4
   facets:
     commercial_clarity: 42.1
-    contract_quality: 79.8
-    developer_ergonomics: 39.1
+    contract_quality: 72.4
+    developer_ergonomics: 41.3
     discoverability: 83.3
     governance: 80.2
     operational_transparency: 21.1
@@ -971,8 +983,8 @@ score:
       marker_coverage: 0.0
       total: 18
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codestar/refs/heads/main/screenshots/amazon-codestar-2026-07-25T200001.png
 security:

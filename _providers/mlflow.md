@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -69,6 +69,22 @@ collections:
   name: MLflow Tracking REST API
   slug: open-mlflow
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/mlflow/mlflow/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/mlflow/mlflow/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/mlflow/mlflow/blob/master/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/mlflow/mlflow/blob/master/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -140,7 +156,7 @@ network: true
 overview: 'MLflow publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Experiments API, Metrics API, and 3 more. Tagged areas include ML, MLOps, GenAI, Experiment Tracking, and Open Source.
 
 
-  MLflow''s developer surface includes authentication, developer portal, engineering blog, and 11 more developer resources.'
+  MLflow''s developer surface includes authentication, developer portal, engineering blog, and 15 more developer resources.'
 plans:
 - name: Mlflow Plans Pricing
   plan_count: 1
@@ -152,15 +168,15 @@ rate_limits:
   slug: mlflow-rate-limits
 score:
   band: thin
-  composite: 33.1
-  delta: 0.0
+  composite: 31.6
+  delta: -1.5
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 51.2
+    commercial_clarity: 13.2
+    contract_quality: 49.3
     developer_ergonomics: 21.7
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 31.6
   previous_composite: 33.1
   provenance:
     agentic_access: derived
@@ -169,8 +185,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/screenshots/mlflow-2026-06-20T185626.png
 security:

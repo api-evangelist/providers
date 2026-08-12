@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -83,6 +83,10 @@ asyncapis:
   name: AgentPhone Webhooks
   slug: agentphone-webhooks-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/agentphone-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -221,7 +225,7 @@ overview: 'AgentPhone publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
   The AgentPhone catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  AgentPhone''s developer surface includes authentication, sandbox, documentation, getting-started guide, support, pricing, signup flow, and 23 more developer resources.'
+  AgentPhone''s developer surface includes authentication, sandbox, documentation, getting-started guide, support, pricing, signup flow, and 24 more developer resources.'
 random_paper: 21
 rate_limits:
 - limit_count: 0
@@ -229,11 +233,11 @@ rate_limits:
   slug: agentphone-rate-limits
 score:
   band: developing
-  composite: 50.0
-  delta: 0.0
+  composite: 49.5
+  delta: -0.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 68.3
+    contract_quality: 65.7
     developer_ergonomics: 71.7
     discoverability: 92.6
     governance: 11.5
@@ -255,8 +259,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/screenshots/agentphone-2026-07-25T195242.png
 security:

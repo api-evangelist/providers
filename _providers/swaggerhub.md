@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -252,16 +252,16 @@ rules:
     warn: 5
   slug: swaggerhub-rules
 score:
-  band: exemplar
-  composite: 66.3
-  delta: 0.0
+  band: strong
+  composite: 57.9
+  delta: -8.4
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 67.7
+    commercial_clarity: 60.5
+    contract_quality: 65.2
     developer_ergonomics: 56.5
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 66.3
   provenance:
     agentic_access: derived
@@ -270,9 +270,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/screenshots/swaggerhub-2026-06-20T194753.png
 security:
 - kind: authentication

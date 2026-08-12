@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 33.1
-  scored_at: '2026-08-10'
+  score: 29.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -51,6 +51,10 @@ apis:
   slug: mytomorrows-v1-api
 artifact_total: 8
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mytomorrows-enterprise-search-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -150,17 +154,17 @@ network: true
 overview: 'myTomorrows publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Legacy GraphQL Proxy API, Public API, System API, and 1 more. Tagged areas include Company, Healthcare, Clinical Trials, Expanded Access, and Pharmaceuticals.
 
 
-  myTomorrows'' developer surface includes engineering blog, signup flow, and 19 more developer resources.'
+  myTomorrows'' developer surface includes engineering blog, signup flow, and 20 more developer resources.'
 random_paper: 90
 score:
   band: thin
-  composite: 36.1
-  delta: 0.0
+  composite: 34.8
+  delta: -1.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 46.5
+    contract_quality: 44.8
     developer_ergonomics: 21.2
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 36.1
@@ -180,8 +184,8 @@ score:
     regime: Health
     regime_id: health
     score: 30.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/screenshots/mytomorrows-2026-08-07T184546.png
 security:

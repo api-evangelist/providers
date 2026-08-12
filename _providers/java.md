@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 9
 apis:
 - description: Core Java SE API including fundamental classes and utilities for building Java applications, including the java.lang, java.util, java.io, and other foundational packages.
@@ -119,19 +119,19 @@ rate_limits:
   slug: java-rate-limits
 score:
   band: emerging
-  composite: 26.0
-  delta: 0.0
+  composite: 18.2
+  delta: -7.8
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 23.9
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 26.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/java/refs/heads/main/screenshots/java-2026-06-20T183701.png
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 29
@@ -149,16 +149,16 @@ rate_limits:
   name: Predictive Oncology Model And Data Clearinghouse Rate Limits
   slug: predictive-oncology-model-and-data-clearinghouse-rate-limits
 score:
-  band: thin
-  composite: 31.9
-  delta: 0.0
+  band: emerging
+  composite: 21.4
+  delta: -10.5
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 36.4
+    commercial_clarity: 28.9
+    contract_quality: 35.1
     developer_ergonomics: 8.7
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 31.9
   provenance:
     agentic_access: derived
@@ -167,9 +167,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 7.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/screenshots/predictive-oncology-model-and-data-clearinghouse-2026-06-20T192044.png
 security:
 - kind: domain-security

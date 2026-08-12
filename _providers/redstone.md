@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Public HTTP gateway that serves signed data packages and historical token prices aggregated by the RedStone oracle network. Read-only and unauthenticated; responses carry ECDSA signatures and the prov
@@ -134,20 +134,20 @@ overview: 'RedStone publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 random_paper: 56
 score:
   band: emerging
-  composite: 25.0
-  delta: 0.0
+  composite: 23.9
+  delta: -1.1
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
     developer_ergonomics: 60.9
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 25.0
   provenance:
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

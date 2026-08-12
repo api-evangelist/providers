@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The Screaming Frog SEO Spider is a desktop website crawler for Windows, macOS, and Ubuntu that performs comprehensive technical SEO audits. It crawls websites to find broken links, analyze page titles
@@ -122,20 +122,20 @@ rules:
     warn: 4
   slug: screaming-frog-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 34.0
-  delta: 0.0
+  band: emerging
+  composite: 26.2
+  delta: -7.8
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 22.6
     developer_ergonomics: 6.5
     discoverability: 59.3
     governance: 58.3
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 34.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/screenshots/screaming-frog-2026-06-20T193601.png
 security:
 - kind: domain-security

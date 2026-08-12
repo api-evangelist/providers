@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -150,13 +150,13 @@ overview: 'Bank of Melbourne publishes 5 APIs on the [APIs.io](https://apis.io/)
 random_paper: 60
 score:
   band: thin
-  composite: 32.7
-  delta: 0.0
+  composite: 30.4
+  delta: -2.3
   facets:
     commercial_clarity: 21.1
     contract_quality: 32.3
     developer_ergonomics: 23.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 18.4
   previous_composite: 32.7
@@ -170,9 +170,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 48.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 39.2
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/screenshots/bank-of-melbourne-2026-07-21T114702.png
 security:

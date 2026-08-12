@@ -27,10 +27,34 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/coral-xyz/anchor/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/coral-xyz/anchor/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/otter-sec/anchor/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/otter-sec/anchor/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/otter-sec/anchor/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/coral-xyz/anchor/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -90,22 +114,22 @@ network: true
 overview: 'Coral is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Solana, Smart Contracts, and Developer Framework.
 
 
-  Coral''s developer surface includes documentation, API reference, getting-started guide, CLI, changelog, and 7 more developer resources.'
+  Coral''s developer surface includes documentation, API reference, getting-started guide, CLI, changelog, and 13 more developer resources.'
 random_paper: 65
 score:
   band: emerging
-  composite: 17.3
-  delta: 0.0
+  composite: 18.7
+  delta: 1.4
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 47.8
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 31.6
   previous_composite: 17.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coral/refs/heads/main/screenshots/coral-2026-07-25T210413.png
 security:

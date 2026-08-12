@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -69,6 +69,22 @@ collections:
   name: Apache EventMesh Admin API
   slug: open-eventmesh-admin
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apache/eventmesh/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/apache/eventmesh/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/eventmesh/blob/develop/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -202,7 +218,7 @@ overview: 'Apache EventMesh publishes 7 APIs on the [APIs.io](https://apis.io/) 
   The Apache EventMesh catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Apache EventMesh''s developer surface includes documentation, getting-started guide, engineering blog, support, and 7 more developer resources.'
+  Apache EventMesh''s developer surface includes documentation, getting-started guide, engineering blog, support, and 11 more developer resources.'
 plans:
 - name: Apache Event Mesh Plans Pricing
   plan_count: 3
@@ -239,15 +255,15 @@ rules:
   slug: apache-event-mesh-spectral-rules
 score:
   band: developing
-  composite: 44.6
-  delta: 0.0
+  composite: 42.0
+  delta: -2.6
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 65.5
+    commercial_clarity: 15.8
+    contract_quality: 63.4
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 62.5
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 44.6
   provenance:
     agentic_access: derived
@@ -256,14 +272,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 23.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-event-mesh/refs/heads/main/screenshots/apache-event-mesh-2026-06-20T172059.png
 security:

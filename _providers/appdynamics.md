@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -419,15 +419,15 @@ rules:
   slug: appdynamics-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.2
-  delta: 0.0
+  composite: 45.8
+  delta: -8.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 67.5
+    commercial_clarity: 26.3
+    contract_quality: 65.0
     developer_ergonomics: 43.5
     discoverability: 68.5
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 54.2
   provenance:
     agentic_access: derived
@@ -436,9 +436,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/screenshots/appdynamics-2026-06-20T172314.png
 security:
 - kind: authentication

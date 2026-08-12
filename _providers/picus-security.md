@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-10'
+  score: 41.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -70,8 +70,16 @@ apis:
 - description: The Users API from Picus Security — 5 operation(s) for users.
   name: Picus Security Users API
   slug: picus-security-users-api
-artifact_total: 20
+artifact_total: 21
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/picus-security-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/picus-security-activity-logs-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -204,6 +212,10 @@ created: '2026-08-02'
 description: Picus Security is a cybersecurity company that pioneered Breach and Attack Simulation (BAS) in 2013 and now ships the Picus Security Validation Platform for Adversarial Exposure Validation (AEV) and Continuous Threat Exposure Management (CTEM). The platform continuously simulates real-world adversary techniques against network, endpoint, email and cloud controls, scores prevention and detection effectiveness, maps results to MITRE ATT&CK and the Unified Kill Chain, and returns vendor-specific mitigation signatures and validated detection rules from the Picus Mitigation Library. The Picus Customer API is a public REST API documented at apidocs.picussecurity.com and served from api.picussecurity.com, exposing simulations, simulation run results, the threat library, threat templates, agents, integrations, mitigation and detection content, exposure instance scores, users and roles, and activity logs, authorized with OAuth2-issued refresh and access tokens.
 image: https://www.picussecurity.com/hubfs/Picus_February2020/images/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: picus-security-mcp.yml
+  slug: picus-security-mcpyml
 modified: '2026-08-02'
 name: Picus Security
 nav: Providers
@@ -211,7 +223,7 @@ network: true
 overview: 'Picus Security publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Activity Logs API, Agents API, Authentication API, and 11 more. Tagged areas include cybersecurity, security-validation, breach-and-attack-simulation, adversarial-exposure-validation, and continuous-threat-exposure-management.
 
 
-  Picus Security''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 25 more developer resources.'
+  Picus Security''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 27 more developer resources.'
 random_paper: 89
 rate_limits:
 - limit_count: 2
@@ -219,16 +231,16 @@ rate_limits:
   slug: picus-security-rate-limits
 score:
   band: strong
-  composite: 56.3
-  delta: 0.6
+  composite: 56.2
+  delta: -0.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 58.0
-    developer_ergonomics: 53.8
+    contract_quality: 55.9
+    developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 71.1
-  previous_composite: 55.7
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -239,8 +251,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

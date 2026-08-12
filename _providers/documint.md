@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API for templates and documents. Authenticated via the api_key request header. Postman collection is the canonical reference.
@@ -107,19 +107,19 @@ rate_limits:
   slug: documint-rate-limits
 score:
   band: emerging
-  composite: 23.8
-  delta: 0.0
+  composite: 16.7
+  delta: -7.1
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 23.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/documint/refs/heads/main/screenshots/documint-2026-06-20T180117.png
 security:
 - kind: domain-security

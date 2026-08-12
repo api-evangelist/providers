@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 59.0
-  scored_at: '2026-08-10'
+  score: 55.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -66,6 +67,10 @@ asyncapis:
   name: Clawvisor Callbacks Webhooks
   slug: clawvisor-callbacks-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/clawvisor-gateway-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -184,15 +189,15 @@ overview: 'Clawvisor publishes 5 APIs on the [APIs.io](https://apis.io/) network
   The Clawvisor catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Clawvisor''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 18 more developer resources.'
+  Clawvisor''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 19 more developer resources.'
 random_paper: 58
 score:
   band: developing
-  composite: 54.1
-  delta: 0.0
+  composite: 53.4
+  delta: -0.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 69.3
+    contract_quality: 66.7
     developer_ergonomics: 71.7
     discoverability: 92.6
     governance: 20.8
@@ -208,8 +213,8 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/screenshots/clawvisor-2026-07-25T205527.png
 security:

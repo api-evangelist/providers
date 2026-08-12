@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 58.8
-  scored_at: '2026-08-10'
+  score: 55.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 455
   human_in_the_loop: 0
@@ -317,11 +318,11 @@ scopes:
   summary_line: 5 scopes · clientCredentials/password
 score:
   band: strong
-  composite: 59.9
-  delta: 0.0
+  composite: 56.9
+  delta: -3.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 57.1
+    contract_quality: 55.0
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 20.8
@@ -337,9 +338,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 76.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 58.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/screenshots/elation-health-2026-07-25T213054.png
 security:

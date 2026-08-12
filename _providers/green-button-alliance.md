@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: documented
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 51.8
-  scored_at: '2026-08-10'
+  score: 48.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -43,6 +44,14 @@ asyncapis:
   name: Green Button Alliance Webhooks
   slug: green-button-alliance-webhooks
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/GreenButtonAlliance/OpenAPI-Green-Button-Documentation/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/GreenButtonAlliance/OpenAPI-Green-Button-Documentation/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -271,7 +280,7 @@ overview: 'Green Button Alliance publishes 2 APIs on the [APIs.io](https://apis.
   The Green Button Alliance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Green Button Alliance''s developer surface includes authentication, code examples, sandbox, support, pricing, signup flow, documentation, and 42 more developer resources.'
+  Green Button Alliance''s developer surface includes authentication, code examples, sandbox, support, pricing, signup flow, documentation, and 44 more developer resources.'
 random_paper: 24
 rate_limits:
 - limit_count: 0
@@ -284,11 +293,11 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 55.7
-  delta: 0.0
+  composite: 53.6
+  delta: -2.1
   facets:
     commercial_clarity: 44.7
-    contract_quality: 62.7
+    contract_quality: 60.3
     developer_ergonomics: 51.6
     discoverability: 92.6
     governance: 31.3
@@ -309,9 +318,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 82.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 71.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/screenshots/green-button-alliance-2026-08-07T165838.png
 security:

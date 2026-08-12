@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: Manage Access Control List (ACL) policies for fine-grained permission control.
@@ -167,26 +167,26 @@ rules:
     warn: 11
   slug: rundeck-rules
 score:
-  band: developing
-  composite: 47.2
-  delta: -0.4
+  band: thin
+  composite: 39.7
+  delta: -7.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 63.6
+    commercial_clarity: 26.3
+    contract_quality: 64.9
     developer_ergonomics: 15.2
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 36.8
-  previous_composite: 47.6
+    operational_transparency: 13.2
+  previous_composite: 47.2
   provenance:
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+      total: 8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/rundeck/refs/heads/main/screenshots/rundeck-2026-06-20T193250.png
 security:
 - kind: domain-security

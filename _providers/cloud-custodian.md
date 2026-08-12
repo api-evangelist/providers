@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: Cloud Custodian provides rules-engine capabilities for managing cloud resources with security, compliance, and cost optimization policies.
@@ -55,6 +55,18 @@ asyncapis:
   name: Cloud Custodian c7n-mailer Notification Events
   slug: cloud-custodian-mailer-asyncapi
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/cloud-custodian/cloud-custodian/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/cloud-custodian/cloud-custodian/blob/main/SECURITY.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/cloud-custodian/cloud-custodian/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -126,7 +138,7 @@ overview: 'Cloud Custodian publishes 1 API on the [APIs.io](https://apis.io/) ne
   The Cloud Custodian catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Cloud Custodian''s developer surface includes documentation, getting-started guide, changelog, and 8 more developer resources.'
+  Cloud Custodian''s developer surface includes documentation, getting-started guide, changelog, and 11 more developer resources.'
 plans:
 - name: Cloud Custodian Plans Pricing
   plan_count: 3
@@ -154,20 +166,26 @@ rules:
     warn: 5
   slug: cloud-custodian-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.5
-  delta: 0.0
+  band: thin
+  composite: 34.9
+  delta: -9.6
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 64.2
     developer_ergonomics: 23.9
     discoverability: 64.8
     governance: 20.8
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 44.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 16.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloud-custodian/refs/heads/main/screenshots/cloud-custodian-2026-06-20T174534.png
 security:
 - kind: domain-security

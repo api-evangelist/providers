@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 4
@@ -56,6 +57,10 @@ asyncapis:
   name: Orderly Network WebSocket API
   slug: orderly-network-websocket-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/orderly-network-evm-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -190,17 +195,17 @@ overview: 'Orderly Network publishes 4 APIs on the [APIs.io](https://apis.io/) n
   The Orderly Network catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Orderly Network''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 22 more developer resources.'
+  Orderly Network''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 23 more developer resources.'
 random_paper: 84
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 47.1
+  delta: -1.4
   facets:
     commercial_clarity: 21.1
-    contract_quality: 58.8
+    contract_quality: 56.6
     developer_ergonomics: 82.1
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 48.5
@@ -220,8 +225,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/screenshots/orderly-network-2026-08-07T190918.png
 security:

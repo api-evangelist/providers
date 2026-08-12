@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
@@ -94,18 +94,18 @@ overview: 'Mountain Protocol is profiled on the [APIs.io](https://apis.io/) netw
 random_paper: 62
 score:
   band: emerging
-  composite: 19.2
-  delta: 0.0
+  composite: 18.1
+  delta: -1.1
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 19.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mountain-protocol/refs/heads/main/screenshots/mountain-protocol-2026-08-07T184342.png
 security:

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 15.3
-  scored_at: '2026-08-10'
+  score: 11.7
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Partner-facing trade-in API behind Valyuu's embedded recommerce platform. Version 1 exposes device catalog lookups (categories, brands, series, models, and model condition/attribute questions), FAQ co
@@ -103,20 +103,20 @@ overview: 'Valyuu publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 98
 score:
   band: emerging
-  composite: 17.5
-  delta: 0.0
+  composite: 16.4
+  delta: -1.1
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 19.6
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 17.5
   provenance:
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

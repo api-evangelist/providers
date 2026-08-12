@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Autofleet''s public REST API and webhook surface for its fleet and mobility optimization platform — vehicles, drivers, tasks, rides, bookings, routes and dispatch — marketed on the integration page as '
@@ -108,20 +108,20 @@ overview: 'Autofleet publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 41
 score:
   band: emerging
-  composite: 18.0
-  delta: 0.0
+  composite: 16.9
+  delta: -1.1
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 5.3
   previous_composite: 18.0
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autofleet/refs/heads/main/screenshots/autofleet-2026-08-07T161953.png
 security:

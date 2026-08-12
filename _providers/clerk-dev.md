@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 5
@@ -165,11 +165,11 @@ rate_limits:
   slug: clerk-dev-rate-limits
 score:
   band: thin
-  composite: 38.6
-  delta: 0.0
+  composite: 38.0
+  delta: -0.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 56.5
+    contract_quality: 54.4
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
@@ -182,8 +182,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clerk-dev/refs/heads/main/screenshots/clerk-dev-2026-07-25T205602.png
 security:

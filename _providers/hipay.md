@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -184,11 +185,11 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 37.2
-  delta: 0.0
+  composite: 36.7
+  delta: -0.5
   facets:
     commercial_clarity: 28.9
-    contract_quality: 57.9
+    contract_quality: 55.7
     developer_ergonomics: 34.8
     discoverability: 74.1
     governance: 0.0
@@ -207,8 +208,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/screenshots/hipay-2026-06-20T182747.png
 security:

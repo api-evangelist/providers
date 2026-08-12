@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,6 +50,22 @@ collections:
   name: Apache Flume Monitoring API
   slug: open-apache-flume-monitoring
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apache/flume/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/logging-flume/blob/trunk/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/flume/blob/trunk/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -160,7 +176,7 @@ overview: 'Apache Flume publishes 1 API on the [APIs.io](https://apis.io/) netwo
   The Apache Flume catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache Flume''s developer surface includes documentation, getting-started guide, and 7 more developer resources.'
+  Apache Flume''s developer surface includes documentation, getting-started guide, and 11 more developer resources.'
 plans:
 - name: Apache Flume Plans Pricing
   plan_count: 3
@@ -188,16 +204,16 @@ rules:
     warn: 4
   slug: apache-flume-spectral-rules
 score:
-  band: developing
-  composite: 46.5
-  delta: 0.0
+  band: thin
+  composite: 38.1
+  delta: -8.4
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 62.8
+    commercial_clarity: 15.8
+    contract_quality: 60.4
     developer_ergonomics: 19.6
     discoverability: 59.3
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 46.5
   provenance:
     agentic_access: derived
@@ -206,9 +222,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-flume/refs/heads/main/screenshots/apache-flume-2026-06-20T172058.png
 security:
 - kind: domain-security

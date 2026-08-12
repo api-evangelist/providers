@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Public REST API for Arga's testing infrastructure — provision digital twins, deploy branches/PRs into sandboxes, run browser-agent validations, save and replay tests, manage scenarios (seed data), and
@@ -164,8 +164,8 @@ score:
   provenance:
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arga-labs/refs/heads/main/screenshots/arga-labs-2026-07-25T201136.png
 security:

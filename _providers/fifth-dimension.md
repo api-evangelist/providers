@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,7 +95,7 @@ random_paper: 32
 score:
   band: emerging
   composite: 18.0
-  delta: 1.5
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 0.0
@@ -103,9 +103,11 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 16.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 18.0
+  provenance:
+    conformance: first-party
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fifth-dimension/refs/heads/main/screenshots/fifth-dimension-2026-07-25T214432.png
 security:

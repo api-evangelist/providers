@@ -24,13 +24,33 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-10'
+  score: 0.0
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/mosaicml/composer/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/mosaicml/composer/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/mosaicml/composer/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/mosaicml/composer/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/mosaicml/composer/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -98,22 +118,22 @@ network: true
 overview: 'Mosaic Ml is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Machine Learning, Artificial Intelligence, Generative AI, and Large Language Models.
 
 
-  Mosaic Ml''s developer surface includes documentation, getting-started guide, engineering blog, CLI, changelog, and 9 more developer resources.'
+  Mosaic Ml''s developer surface includes documentation, getting-started guide, engineering blog, CLI, changelog, and 14 more developer resources.'
 random_paper: 86
 score:
   band: emerging
-  composite: 18.3
-  delta: 0.0
+  composite: 17.2
+  delta: -1.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 43.5
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 18.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mosaic-ml/refs/heads/main/screenshots/mosaic-ml-2026-08-07T184316.png
 security:

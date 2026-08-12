@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-08-10'
+  score: 47.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -49,6 +49,10 @@ apis:
   slug: unblocked-documents-api
 artifact_total: 8
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/unblocked-public-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -192,15 +196,15 @@ network: true
 overview: 'Unblocked publishes 3 APIs on the [APIs.io](https://apis.io/) network: Answers API, Collections API, and Documents API. Tagged areas include Company, Developer Tools, AI, Developer Experience, and Knowledge Management.
 
 
-  Unblocked''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 25 more developer resources.'
+  Unblocked''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 26 more developer resources.'
 random_paper: 23
 score:
   band: strong
-  composite: 59.6
-  delta: 0.0
+  composite: 59.0
+  delta: -0.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 63.6
+    contract_quality: 61.2
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 20.8
@@ -216,8 +220,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

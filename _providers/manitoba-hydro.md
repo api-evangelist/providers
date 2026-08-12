@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: documented
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 20.5
-  scored_at: '2026-08-10'
+  score: 16.9
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: A hosted Esri feature service published by Manitoba Hydro's ArcGIS Online organization (org id QoeQkfdOG126FqSi, org name "Manitoba Hydro", item owner dcarpenter@hydro.mb.ca) carrying live unplanned p
@@ -210,8 +210,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 41.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/manitoba-hydro/refs/heads/main/screenshots/manitoba-hydro-2026-08-07T171956.png
 security:

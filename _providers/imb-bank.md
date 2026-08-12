@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-10'
+  score: 38.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -197,13 +197,13 @@ scopes:
   summary_line: 12 scopes
 score:
   band: developing
-  composite: 53.1
-  delta: 0.0
+  composite: 49.1
+  delta: -4.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 54.3
+    contract_quality: 52.2
     developer_ergonomics: 60.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 23.7
   previous_composite: 53.1
@@ -222,9 +222,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 77.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 59.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/screenshots/imb-bank-2026-07-21T114727.png
 security:

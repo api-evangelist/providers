@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 54.3
-  scored_at: '2026-08-10'
+  score: 50.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -62,6 +62,10 @@ asyncapis:
   name: Getpaid Webhooks
   slug: getpaid-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/getpaid-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -184,7 +188,7 @@ overview: 'GetPaid publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   The GetPaid catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  GetPaid''s developer surface includes documentation, API reference, quickstart, signup flow, support, changelog, authentication, and 19 more developer resources.'
+  GetPaid''s developer surface includes documentation, API reference, quickstart, signup flow, support, changelog, authentication, and 20 more developer resources.'
 random_paper: 38
 scopes:
 - name: Getpaid Scopes
@@ -192,12 +196,12 @@ scopes:
   slug: getpaid-scopes
   summary_line: 4 scopes · clientCredentials
 score:
-  band: strong
-  composite: 57.1
-  delta: 0.0
+  band: developing
+  composite: 53.2
+  delta: -3.9
   facets:
     commercial_clarity: 31.6
-    contract_quality: 77.1
+    contract_quality: 74.3
     developer_ergonomics: 64.7
     discoverability: 92.6
     governance: 20.8
@@ -218,9 +222,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 78.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 56.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/screenshots/getpaid-2026-07-25T215736.png
 security:

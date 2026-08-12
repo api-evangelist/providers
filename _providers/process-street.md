@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -128,6 +129,10 @@ asyncapis:
   name: Process Street Webhooks
   slug: process-street-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/process-street-public-api-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -238,17 +243,17 @@ overview: 'Process Street publishes 28 APIs on the [APIs.io](https://apis.io/) n
   The Process Street catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Process Street''s developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, signup flow, and 16 more developer resources.'
+  Process Street''s developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, signup flow, and 17 more developer resources.'
 random_paper: 83
 score:
   band: developing
-  composite: 54.7
-  delta: 0.0
+  composite: 53.0
+  delta: -1.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 70.2
+    contract_quality: 67.6
     developer_ergonomics: 51.6
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 31.6
   previous_composite: 54.7
@@ -262,8 +267,8 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

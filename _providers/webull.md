@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 57.2
-  scored_at: '2026-08-10'
+  score: 53.6
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: 'Order management across stocks, options, futures, crypto, and event contracts — place, preview, replace, cancel, batch (combo OTO/OCO/OTOCO), and algo (TWAP/VWAP/POV) orders, plus accounts, balances, '
@@ -164,13 +164,13 @@ overview: 'Webull publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 random_paper: 71
 score:
   band: thin
-  composite: 40.3
-  delta: 0.0
+  composite: 39.3
+  delta: -1.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 51.6
     developer_ergonomics: 80.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 3.1
     operational_transparency: 28.9
   previous_composite: 40.3
@@ -184,8 +184,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

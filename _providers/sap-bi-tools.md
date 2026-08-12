@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -178,6 +178,10 @@ collections:
   name: SAP BI Tools SAP BusinessObjects BI Platform RESTful Web Services
   slug: open-sap-businessobjects-bi-platform-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/SAP-samples/analytics-cloud-export-api-wrapper/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -325,19 +329,19 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/sap-analytics-cloud-api-openapi.yml
+  url: openapi/_original/sap-analytics-cloud-api-openapi.yml
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/sap-analytics-cloud-content-network-api-openapi.yml
+  url: openapi/_original/sap-analytics-cloud-content-network-api-openapi.yml
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/sap-analytics-cloud-data-export-api-openapi.yml
+  url: openapi/_original/sap-analytics-cloud-data-export-api-openapi.yml
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/sap-businessobjects-bi-platform-api-openapi.yml
+  url: openapi/_original/sap-businessobjects-bi-platform-api-openapi.yml
 - group: docs
   title: ''
   type: JSONSchema
@@ -477,7 +481,7 @@ overview: 'SAP BI Tools publishes 16 APIs on the [APIs.io](https://apis.io/) net
   The SAP BI Tools catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SAP BI Tools'' developer surface includes authentication, developer portal, getting-started guide, documentation, support, engineering blog, changelog, and 41 more developer resources.'
+  SAP BI Tools'' developer surface includes authentication, developer portal, getting-started guide, documentation, support, engineering blog, changelog, and 42 more developer resources.'
 plans:
 - name: Sap Bi Tools Plans Pricing
   plan_count: 1
@@ -511,15 +515,15 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 59.9
-  delta: 0.0
+  composite: 56.7
+  delta: -3.2
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 68.2
+    commercial_clarity: 47.4
+    contract_quality: 65.7
     developer_ergonomics: 56.5
     discoverability: 57.4
     governance: 68.8
-    operational_transparency: 57.9
+    operational_transparency: 42.1
   previous_composite: 59.9
   provenance:
     agentic_access: derived
@@ -528,8 +532,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/screenshots/sap-bi-tools-2026-06-20T193416.png
 security:

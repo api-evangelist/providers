@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 16
 apis:
 - description: The Access API from Koin — 1 operation(s) for access.
@@ -85,6 +85,10 @@ asyncapis:
   name: Koin Payments Webhooks
   slug: koin-payments-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/koin-antifraud-ato-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -231,17 +235,17 @@ overview: 'Koin publishes 16 APIs on the [APIs.io](https://apis.io/) network, in
   The Koin catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Koin''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+  Koin''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
 random_paper: 85
 score:
   band: developing
-  composite: 55.7
-  delta: 0.0
+  composite: 53.6
+  delta: -2.1
   facets:
     commercial_clarity: 44.7
-    contract_quality: 66.7
+    contract_quality: 67.9
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
   previous_composite: 55.7
@@ -259,9 +263,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 54.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 45.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/screenshots/koin-2026-07-25T224112.png
 security:

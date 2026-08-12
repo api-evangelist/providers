@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 10
 apis:
 - description: Stoplight's flexible JSON/YAML linter for creating automated style guides, with baked-in support for OpenAPI v3.1, v3.0, v2.0, Arazzo v1.0, and AsyncAPI v2.x. Spectral is the de facto reference linter
@@ -62,6 +62,22 @@ apis:
   slug: apimetrics
 artifact_total: 17
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/stoplightio/spectral/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/stoplightio/spectral/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/stoplightio/spectral/blob/develop/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/stoplightio/spectral/blob/develop/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -163,18 +179,18 @@ rules:
   slug: linting-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 20.8
-  delta: 0.0
+  composite: 22.8
+  delta: 2.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 17.7
     developer_ergonomics: 0.0
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 20.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linting/refs/heads/main/screenshots/linting-2026-06-20T184556.png
 security:

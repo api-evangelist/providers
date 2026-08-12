@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -148,15 +148,15 @@ rules:
   slug: us-department-of-commerce-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.1
-  delta: 0.0
+  composite: 30.3
+  delta: -5.8
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 64.3
+    commercial_clarity: 13.2
+    contract_quality: 61.9
     developer_ergonomics: 0.0
     discoverability: 64.8
     governance: 47.9
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 36.1
   provenance:
     agentic_access: derived
@@ -171,9 +171,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/screenshots/us-department-of-commerce-2026-06-20T200620.png
 security:
 - kind: domain-security

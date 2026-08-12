@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: OneRoster v1.1-compliant REST API for exchanging K-12 roster data—users, orgs, courses, classes, enrollments, academicSessions, demographics, and resources—between ClassLink Roster Server and third-pa
@@ -45,6 +45,10 @@ apis:
   slug: classlink-application-provisioning-api
 artifact_total: 10
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/classlinkinc/request-libraries/issues
 - group: auth
   title: ''
   type: TrustCenter
@@ -132,7 +136,7 @@ overview: 'ClassLink publishes 1 API on the [APIs.io](https://apis.io/) network:
   The ClassLink catalog on APIs.io includes 1 JSON-LD context.
 
 
-  ClassLink''s developer surface includes documentation, engineering blog, pricing, and 13 more developer resources.'
+  ClassLink''s developer surface includes documentation, engineering blog, pricing, and 14 more developer resources.'
 plans:
 - name: Classlink Plans Pricing
   plan_count: 3
@@ -154,8 +158,8 @@ score:
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 37.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/classlink/refs/heads/main/screenshots/classlink-2026-06-20T174447.png
 security:

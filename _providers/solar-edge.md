@@ -22,14 +22,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.0
-  scored_at: '2026-08-10'
+  score: 36.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,6 +65,10 @@ apis:
   slug: solar-edge-version-api
 artifact_total: 25
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/solar-edge-monitoring-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -226,7 +230,7 @@ overview: 'SolarEdge publishes 8 APIs on the [APIs.io](https://apis.io/) network
   The SolarEdge catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  SolarEdge''s developer surface includes authentication, documentation, engineering blog, pricing, API reference, support, signup flow, and 20 more developer resources.'
+  SolarEdge''s developer surface includes authentication, documentation, engineering blog, pricing, API reference, support, signup flow, and 21 more developer resources.'
 plans:
 - name: Solar Edge Plans Pricing
   plan_count: 1
@@ -247,32 +251,34 @@ rules:
   slug: solar-edge-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.9
-  delta: 16.0
+  composite: 58.1
+  delta: -2.8
   facets:
     commercial_clarity: 73.7
-    contract_quality: 69.4
-    developer_ergonomics: 50.0
-    discoverability: 92.6
-    governance: 79.2
+    contract_quality: 70.5
+    developer_ergonomics: 43.5
+    discoverability: 81.5
+    governance: 69.8
     operational_transparency: 36.8
-  previous_composite: 44.9
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 9
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: rising
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/screenshots/solar-edge-2026-06-20T194200.png
 security:
 - kind: authentication

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 64.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -117,6 +118,10 @@ collections:
   name: Dropbox Sign Account Unclaimed Draft API
   slug: postman-hellosign-unclaimed-draft-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/hellosign-openapi-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -275,7 +280,7 @@ overview: 'Dropbox Sign (HelloSign) publishes 12 APIs on the [APIs.io](https://a
   The Dropbox Sign (HelloSign) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dropbox Sign (HelloSign)''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 28 more developer resources.'
+  Dropbox Sign (HelloSign)''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
 random_paper: 37
 scopes:
 - name: Hellosign Scopes
@@ -284,13 +289,13 @@ scopes:
   summary_line: 7 scopes
 score:
   band: strong
-  composite: 65.8
-  delta: 0.0
+  composite: 64.0
+  delta: -1.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 72.9
+    contract_quality: 70.1
     developer_ergonomics: 77.7
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 63.2
   previous_composite: 65.8
@@ -304,8 +309,8 @@ score:
       total: 12
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/screenshots/hellosign-2026-07-25T220935.png
 security:

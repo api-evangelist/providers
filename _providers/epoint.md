@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 40.5
-  scored_at: '2026-08-10'
+  score: 36.9
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST payment gateway for accepting online card payments in Azerbaijan. Covers payment creation and hosted checkout, card registration/tokenization and saved-card charges, refunds and reversals, pre-au
@@ -157,14 +157,14 @@ overview: 'Epoint publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
   Epoint''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 18 more developer resources.'
 random_paper: 75
 score:
-  band: developing
-  composite: 43.0
-  delta: 0.0
+  band: thin
+  composite: 40.6
+  delta: -2.4
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
     developer_ergonomics: 60.9
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 7.9
   previous_composite: 43.0
@@ -176,9 +176,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 48.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 39.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epoint/refs/heads/main/screenshots/epoint-2026-07-25T213527.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -100,6 +100,22 @@ collections:
   name: Apache CouchDB HTTP Authentication Server API
   slug: postman-apache-couchdb-server-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apache/couchdb/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/couchdb/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/couchdb/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -436,7 +452,7 @@ overview: 'Apache CouchDB publishes 9 APIs on the [APIs.io](https://apis.io/) ne
   The Apache CouchDB catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Apache CouchDB''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, release notes, support, and 9 more developer resources.'
+  Apache CouchDB''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, release notes, support, and 13 more developer resources.'
 plans:
 - name: Apache Couchdb Plans Pricing
   plan_count: 3
@@ -472,16 +488,16 @@ rules:
     warn: 21
   slug: apache-couchdb-spectral-rules
 score:
-  band: developing
-  composite: 47.7
-  delta: 0.0
+  band: thin
+  composite: 39.5
+  delta: -8.2
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 40.1
+    commercial_clarity: 15.8
+    contract_quality: 38.6
     developer_ergonomics: 50.0
     discoverability: 59.3
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 47.7
   provenance:
     agentic_access: derived
@@ -490,9 +506,9 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/screenshots/apache-couchdb-2026-06-20T172052.png
 security:
 - kind: authentication

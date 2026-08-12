@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -67,6 +68,10 @@ apis:
   slug: algebras-ai-inc-video-api
 artifact_total: 13
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/algebras-ai-inc-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -190,15 +195,15 @@ network: true
 overview: 'Algebras AI Inc. publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Common API, Glossaries API, and 6 more. Tagged areas include Company, Translation, Localization, Internationalization, and Artificial Intelligence.
 
 
-  Algebras AI Inc.''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 20 more developer resources.'
+  Algebras AI Inc.''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
 random_paper: 47
 score:
   band: developing
-  composite: 47.4
-  delta: 0.0
+  composite: 48.9
+  delta: 1.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 56.9
+    contract_quality: 54.8
     developer_ergonomics: 80.4
     discoverability: 81.5
     governance: 11.5
@@ -214,14 +219,8 @@ score:
       total: 9
     mcp: first-party
     skills: first-party
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 36.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/screenshots/algebras-ai-inc-2026-07-25T195603.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -264,6 +264,22 @@ collections:
   name: Paypal Subscriptions Authorizations Webhooks-Lookup API
   slug: postman-paypal-webhooks-lookup-api
 common:
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://www.braintreepayments.com/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://venmo.com/
+- group: operate
+  title: ''
+  type: Community
+  url: https://developer.paypal.com/community
+- group: build
+  title: ''
+  type: SDKs
+  url: https://developer.paypal.com/sdk/ios/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -2230,7 +2246,7 @@ overview: 'PayPal publishes 37 APIs on the [APIs.io](https://apis.io/) network, 
   The PayPal catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  PayPal''s developer surface includes sandbox, changelog, authentication, documentation, pricing, engineering blog, and 19 more developer resources.'
+  PayPal''s developer surface includes sandbox, changelog, authentication, documentation, pricing, engineering blog, and 23 more developer resources.'
 plans:
 - name: Paypal Plans Pricing
   plan_count: 7
@@ -2256,15 +2272,15 @@ scopes:
   summary_line: 39 scopes · clientCredentials
 score:
   band: strong
-  composite: 63.5
-  delta: 0.0
+  composite: 59.0
+  delta: -4.5
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 66.0
-    developer_ergonomics: 41.3
-    discoverability: 59.3
+    commercial_clarity: 55.3
+    contract_quality: 63.9
+    developer_ergonomics: 52.2
+    discoverability: 66.7
     governance: 58.3
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 63.5
   provenance:
     agentic_access: derived
@@ -2279,8 +2295,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 70.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/screenshots/paypal-2026-06-20T191505.png
 security:

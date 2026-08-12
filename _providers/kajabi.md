@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 3
@@ -294,11 +294,11 @@ rules:
   slug: kajabi-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.2
-  delta: 0.0
+  composite: 46.7
+  delta: -0.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 77.5
+    contract_quality: 74.9
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
@@ -317,8 +317,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kajabi/refs/heads/main/screenshots/kajabi-2026-06-20T183859.png
 security:

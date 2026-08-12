@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Jakarta Faces specification for building component-based web user interfaces in Java applications. Defines a UI component model, state management, event handling, validation, navigation, and Facel
@@ -78,20 +78,20 @@ rate_limits:
   name: Jsf Rate Limits
   slug: jsf-rate-limits
 score:
-  band: emerging
-  composite: 20.4
-  delta: 0.0
+  band: minimal
+  composite: 12.5
+  delta: -7.9
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 20.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/jsf/refs/heads/main/screenshots/jsf-2026-06-20T183812.png
 security:
 - kind: domain-security

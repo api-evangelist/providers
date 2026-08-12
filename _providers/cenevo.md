@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 207
   human_in_the_loop: 0
@@ -269,6 +270,10 @@ asyncapis:
   name: Cenevo Labguru Webhooks
   slug: cenevo-labguru-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cenevo-labguru-v1-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -383,17 +388,17 @@ overview: 'Cenevo publishes 75 APIs on the [APIs.io](https://apis.io/) network, 
   The Cenevo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cenevo''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 17 more developer resources.'
+  Cenevo''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 18 more developer resources.'
 random_paper: 60
 score:
-  band: developing
-  composite: 42.7
-  delta: 0.0
+  band: thin
+  composite: 41.4
+  delta: -1.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 52.2
+    contract_quality: 50.3
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
   previous_composite: 42.7
@@ -413,8 +418,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cenevo/refs/heads/main/screenshots/cenevo-2026-07-25T204916.png
 security:

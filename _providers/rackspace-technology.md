@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -365,13 +365,13 @@ rules:
   slug: rackspace-technology-rules
 score:
   band: developing
-  composite: 43.0
-  delta: 0.0
+  composite: 43.5
+  delta: 0.5
   facets:
     commercial_clarity: 36.8
-    contract_quality: 28.8
+    contract_quality: 27.7
     developer_ergonomics: 54.3
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 68.8
     operational_transparency: 26.3
   previous_composite: 43.0
@@ -382,8 +382,8 @@ score:
       derived: 19
       marker_coverage: 100.0
       total: 19
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rackspace-technology/refs/heads/main/screenshots/rackspace-technology-2026-06-20T192513.png
 security:

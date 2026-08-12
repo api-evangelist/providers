@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'REST/JSON server-side API for investor accreditation, KYC/KYB/AML, identity, risk monitoring, and case management. v2 (current) authenticates with a Bearer API key; v1 (legacy) and the JavaScript SDK '
@@ -196,8 +196,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parallel-markets/refs/heads/main/screenshots/parallel-markets-2026-08-07T191421.png
 security:

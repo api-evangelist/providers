@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The Smithy Interface Definition Language (IDL) is a specification for defining API models using shapes and traits. Models can be written in the Smithy IDL syntax or the JSON AST representation. Smithy
@@ -39,6 +39,10 @@ apis:
   slug: smithy-cli
 artifact_total: 13
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/smithy-lang/smithy/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -121,7 +125,7 @@ overview: 'Smithy publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
   The Smithy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Smithy''s developer surface includes documentation, getting-started guide, code examples, engineering blog, and 7 more developer resources.'
+  Smithy''s developer surface includes documentation, getting-started guide, code examples, engineering blog, and 8 more developer resources.'
 plans:
 - name: Smithy Plans Pricing
   plan_count: 3
@@ -149,20 +153,20 @@ rules:
     warn: 3
   slug: smithy-rules
 score:
-  band: thin
-  composite: 33.2
-  delta: 0.0
+  band: emerging
+  composite: 25.4
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 12.9
     developer_ergonomics: 21.7
     discoverability: 59.3
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 33.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/smithy/refs/heads/main/screenshots/smithy-2026-06-20T194054.png
 security:
 - kind: domain-security

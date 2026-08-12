@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -74,6 +74,22 @@ collections:
   name: Contour HTTPProxy API
   slug: open-contour-httpproxy
 common:
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/projectcontour/contour/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/projectcontour/contour/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/projectcontour/contour/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/projectcontour/contour/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -303,7 +319,7 @@ overview: 'Contour publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   The Contour catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Contour''s developer surface includes getting-started guide, documentation, support, changelog, and 14 more developer resources.'
+  Contour''s developer surface includes getting-started guide, documentation, support, changelog, and 18 more developer resources.'
 plans:
 - name: Contour Plans Pricing
   plan_count: 1
@@ -339,16 +355,16 @@ rules:
     warn: 4
   slug: contour-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 45.0
-  delta: 0.0
+  band: thin
+  composite: 39.6
+  delta: -5.4
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 66.7
+    commercial_clarity: 13.2
+    contract_quality: 64.2
     developer_ergonomics: 23.9
     discoverability: 72.2
     governance: 31.3
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 45.0
   provenance:
     agentic_access: derived
@@ -357,9 +373,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/screenshots/contour-2026-06-20T174944.png
 security:
 - kind: domain-security

@@ -21,21 +21,25 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.8
-  scored_at: '2026-08-10'
+  score: 20.5
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: gRPC / Protocol Buffers API for integrating a game with LinQ Wallet services. Covers geo restriction checks by IP and coordinates, anonymous and wallet-linked user authentication, account balances, de
   name: LinQ Wallet Public API
   slug: linq-wallet-public-api
-artifact_total: 3
+artifact_total: 4
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/linqgg-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -152,6 +156,10 @@ created: '2026-07-17'
 description: LinQ is the wallet, payments and loyalty platform operated by Galactica Games, Inc. (dba Toffee) for game developers building loyalty programs, real-money gaming (RMG) and branded debit-card experiences. Games integrate a LinQ Wallet account for each player, then deposit, withdraw, transfer and reconcile funds against internal game currencies. The LinQ Wallet Public API is a gRPC / Protocol Buffers surface published on the Buf Schema Registry as buf.build/linq/linq, organised into Geo (IP and coordinate restriction checks), Auth (anonymous game sign-in and wallet-linked user sign-in), Money (accounts, balances, replenishment orders, transfers, Brazil Pix, operations history) and Sandbox (integration-test helpers) modules. Client libraries are generated from the registry for TypeScript, JavaScript and other targets, and a first-party Unity SDK handles PCI-compliant native card and Apple Pay checkout on device.
 image: https://framerusercontent.com/images/IDaPLV2CTzzUnLl1BCRzzHVprF4.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: linqgg-mcp.yml
+  slug: linqgg-mcpyml
 modified: '2026-07-19'
 name: Linq.gg
 nav: Providers
@@ -159,17 +167,17 @@ network: true
 overview: 'Linq.gg publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Payments, Wallet, and Loyalty.
 
 
-  Linq.gg''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 21 more developer resources.'
+  Linq.gg''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 22 more developer resources.'
 random_paper: 62
 score:
   band: thin
-  composite: 39.0
-  delta: 0.0
+  composite: 35.2
+  delta: -3.8
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
-    developer_ergonomics: 66.8
-    discoverability: 87.0
+    developer_ergonomics: 69.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 34.2
   previous_composite: 39.0
@@ -182,9 +190,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 68.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 46.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linqgg/refs/heads/main/screenshots/linqgg-2026-07-25T225259.png
 security:

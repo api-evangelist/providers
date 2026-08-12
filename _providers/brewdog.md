@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: documented
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 29.7
-  scored_at: '2026-08-10'
+  score: 26.1
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: BrewDog's Universal Commerce Protocol shopping service, exposed over MCP at https://brewdog.com/api/ucp/mcp and advertised by the store's own /.well-known/ucp merchant profile and /agents.md. Supports
@@ -169,13 +169,13 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 24.3
-  delta: 0.0
+  composite: 23.2
+  delta: -1.1
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 36.4
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 0.0
   previous_composite: 24.3
@@ -183,8 +183,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brewdog/refs/heads/main/screenshots/brewdog-2026-08-07T162802.png
 security:

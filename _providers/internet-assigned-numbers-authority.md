@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The IANA Protocol Registries publish the authoritative assignments for Internet protocol parameters. Bulk registry data is available as XML, CSV, and plain-text files distributed via rsync and FTP for
@@ -105,19 +105,19 @@ rules:
   slug: internet-assigned-numbers-authority-rules
 score:
   band: emerging
-  composite: 21.8
-  delta: 0.0
+  composite: 14.0
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 2.2
     discoverability: 74.1
     governance: 10.4
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 21.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/internet-assigned-numbers-authority/refs/heads/main/screenshots/internet-assigned-numbers-authority-2026-06-20T183501.png
 security:
 - kind: domain-security

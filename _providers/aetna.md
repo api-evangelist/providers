@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: FHIR R4 compliant Patient Access API providing members secure access to their health data including claims, clinical data, and coverage information. Required under CMS Interoperability and Patient Acc
@@ -153,15 +153,15 @@ rate_limits:
   slug: aetna-rate-limits
 score:
   band: thin
-  composite: 34.9
-  delta: 0.0
+  composite: 28.2
+  delta: -6.7
   facets:
-    commercial_clarity: 73.7
+    commercial_clarity: 50.0
     contract_quality: 43.2
     developer_ergonomics: 13.0
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 34.9
   regulatory:
     applies: true
@@ -169,9 +169,9 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 security:
 - kind: domain-security
   name: Aetna Domain Security

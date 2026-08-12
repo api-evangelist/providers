@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The management REST API served by the Hammerspace Anvil metadata server at the base path /mgmt/v1.2/rest. It is the programmatic control plane behind the Hammerspace GUI and admin CLI, covering shares
@@ -26,6 +26,18 @@ apis:
   slug: anvil-management-api
 artifact_total: 5
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/hammer-space/csi-plugin/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/hammer-space/csi-plugin/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/hammer-space/csi-plugin/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -149,7 +161,7 @@ network: true
 overview: 'Hammerspace publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Data Management, File Systems, and Data Orchestration.
 
 
-  Hammerspace''s developer surface includes documentation, support, engineering blog, authentication, changelog, CLI, and 21 more developer resources.'
+  Hammerspace''s developer surface includes documentation, support, engineering blog, authentication, changelog, CLI, and 24 more developer resources.'
 random_paper: 114
 scopes:
 - name: Hammerspace Scopes
@@ -171,8 +183,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hammerspace/refs/heads/main/screenshots/hammerspace-2026-08-07T165941.png
 security:

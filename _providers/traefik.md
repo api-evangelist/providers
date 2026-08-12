@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -92,6 +92,14 @@ collections:
   name: Traefik Proxy REST API
   slug: open-traefik-proxy
 common:
+- group: operate
+  title: ''
+  type: DeprecationPolicy
+  url: https://doc.traefik.io/traefik/deprecation/releases/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://traefik.io/legal/privacy-and-cookie-policy
 - group: agent
   title: ''
   type: AgenticAccess
@@ -295,7 +303,7 @@ overview: 'Traefik Labs publishes 6 APIs on the [APIs.io](https://apis.io/) netw
   The Traefik Labs catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Traefik Labs'' developer surface includes documentation, getting-started guide, pricing, engineering blog, changelog, Stack Overflow tag, and 23 more developer resources.'
+  Traefik Labs'' developer surface includes documentation, getting-started guide, pricing, engineering blog, changelog, Stack Overflow tag, and 25 more developer resources.'
 plans:
 - name: Traefik Plans Pricing
   plan_count: 5
@@ -324,15 +332,15 @@ rules:
   slug: traefik-proxy-rules
 score:
   band: developing
-  composite: 51.0
-  delta: 0.0
+  composite: 46.5
+  delta: -4.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 56.8
+    commercial_clarity: 36.8
+    contract_quality: 54.7
     developer_ergonomics: 26.1
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 36.8
   previous_composite: 51.0
   provenance:
     agentic_access: derived
@@ -341,8 +349,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/screenshots/traefik-2026-06-20T195532.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: gRPC API exposed by the EigenDA Disperser. Rollups submit raw blobs to DisperseBlob, then poll GetBlobStatus until the blob is confirmed and dispersed across the operator set. v2 adds GetBlobCommitmen
@@ -47,6 +47,22 @@ apis:
   slug: validator-node-api
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Layr-Labs/eigenda/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Layr-Labs/eigenda/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Layr-Labs/eigenda/blob/master/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Layr-Labs/eigenda/blob/master/docs/contributing.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -175,22 +191,22 @@ network: true
 overview: 'EigenDA publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain, Data Availability, Ethereum, Restaking, and EigenLayer.
 
 
-  EigenDA''s developer surface includes developer portal, documentation, engineering blog, tooling, code examples, support, and 23 more developer resources.'
+  EigenDA''s developer surface includes developer portal, documentation, engineering blog, tooling, code examples, support, and 27 more developer resources.'
 random_paper: 21
 score:
   band: emerging
-  composite: 15.0
-  delta: 0.0
+  composite: 18.4
+  delta: 3.4
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 31.6
   previous_composite: 15.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eigenda/refs/heads/main/screenshots/eigenda-2026-06-20T180522.png
 security:

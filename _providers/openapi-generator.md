@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The clients API from OpenAPI Generator — 3 operation(s) for clients.
@@ -41,6 +41,10 @@ apis:
   slug: openapi-generator-servers-api
 artifact_total: 8
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/openapi-generator-online-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -168,7 +172,7 @@ network: true
 overview: 'OpenAPI Generator publishes 2 APIs on the [APIs.io](https://apis.io/) network: Clients API and Servers API. Tagged areas include Code Generation, Documentation, Open Source, OpenAPI, and SDK.
 
 
-  OpenAPI Generator''s developer surface includes CLI, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 20 more developer resources.'
+  OpenAPI Generator''s developer surface includes CLI, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 21 more developer resources.'
 plans:
 - name: Openapi Generator Plans Pricing
   plan_count: 2
@@ -180,11 +184,11 @@ rate_limits:
   slug: openapi-generator-rate-limits
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 40.1
+  delta: 0.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 44.2
+    contract_quality: 46.3
     developer_ergonomics: 51.6
     discoverability: 75.9
     governance: 11.5
@@ -192,10 +196,15 @@ score:
   previous_composite: 39.5
   provenance:
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openapi-generator/refs/heads/main/screenshots/openapi-generator-2026-06-20T190908.png
 security:

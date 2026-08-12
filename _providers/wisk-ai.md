@@ -10,11 +10,11 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-08-10'
+  score: 30.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -207,20 +207,27 @@ rules:
     warn: 18
   slug: wisk-ai-spectral-rules
 score:
-  band: developing
-  composite: 43.7
-  delta: 16.8
+  band: thin
+  composite: 38.3
+  delta: -5.4
   facets:
     commercial_clarity: 63.2
-    contract_quality: 33.3
+    contract_quality: 11.8
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 26.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: rising
+  previous_composite: 43.7
+  provenance:
+    agentic_access: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wisk-ai/refs/heads/main/screenshots/wisk-ai-2026-06-20T201524.png
 security:
 - kind: authentication

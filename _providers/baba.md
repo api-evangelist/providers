@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,8 +70,8 @@ overview: 'Baba is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 random_paper: 42
 score:
   band: emerging
-  composite: 14.0
-  delta: 0.0
+  composite: 13.4
+  delta: -0.6
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -83,11 +83,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Insurance
-    regime_id: insurance
-    score: 21.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Health
+    regime_id: health
+    score: 17.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baba/refs/heads/main/screenshots/baba-2026-07-25T202149.png
 security:

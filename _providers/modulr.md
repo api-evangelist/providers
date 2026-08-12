@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 4
@@ -232,13 +232,13 @@ rate_limits:
   slug: modulr-rate-limits
 score:
   band: developing
-  composite: 51.1
-  delta: 0.0
+  composite: 50.8
+  delta: -0.3
   facets:
     commercial_clarity: 21.1
-    contract_quality: 64.2
+    contract_quality: 61.8
     developer_ergonomics: 75.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 65.8
   previous_composite: 51.1
@@ -250,11 +250,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 31.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Payments
+    regime_id: payments
+    score: 39.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/screenshots/modulr-2026-08-07T184038.png
 security:

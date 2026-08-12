@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -841,15 +841,15 @@ rules:
   slug: bandwidth-spectral-rules
 score:
   band: strong
-  composite: 59.8
-  delta: 0.0
+  composite: 56.8
+  delta: -3.0
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 85.1
+    commercial_clarity: 55.3
+    contract_quality: 82.4
     developer_ergonomics: 37.0
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 59.8
   provenance:
     agentic_access: derived
@@ -864,8 +864,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/screenshots/bandwidth-2026-06-20T172942.png
 security:

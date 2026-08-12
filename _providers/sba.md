@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: A microservice API providing search access to SBA.gov content including lenders, articles, documents, and personnel. The lenders endpoint constructs queries to the AWS CloudSearch domain for lenders.
@@ -143,8 +143,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sba/refs/heads/main/screenshots/sba-2026-06-20T193446.png
 security:

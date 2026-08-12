@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -74,6 +74,30 @@ collections:
   name: Helm Chart Repository API
   slug: open-helm-chart-repository
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/helm/helm/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/helm/helm/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/helm/helm/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/helm/helm/blob/main/code-of-conduct.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/helm/helm/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/helm/helm/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -170,7 +194,7 @@ overview: 'Helm publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cha
   The Helm catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Helm''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 11 more developer resources.'
+  Helm''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 17 more developer resources.'
 plans:
 - name: Helm Plans Pricing
   plan_count: 1
@@ -191,15 +215,15 @@ rules:
   slug: helm-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 43.2
+  delta: -5.8
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 67.7
+    commercial_clarity: 13.2
+    contract_quality: 65.2
     developer_ergonomics: 26.1
     discoverability: 72.2
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 36.8
   previous_composite: 49.0
   provenance:
     agentic_access: derived
@@ -208,9 +232,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/helm/refs/heads/main/screenshots/helm-2026-06-20T182629.png
 security:
 - kind: domain-security

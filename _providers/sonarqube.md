@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: Code issue search and management
@@ -197,26 +197,26 @@ rules:
     warn: 4
   slug: sonarqube-rules
 score:
-  band: strong
-  composite: 59.9
-  delta: -0.4
+  band: developing
+  composite: 52.3
+  delta: -7.6
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 69.0
+    commercial_clarity: 47.4
+    contract_quality: 70.1
     developer_ergonomics: 43.5
     discoverability: 46.3
     governance: 68.8
-    operational_transparency: 52.6
-  previous_composite: 60.3
+    operational_transparency: 28.9
+  previous_composite: 59.9
   provenance:
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+      total: 7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonarqube/refs/heads/main/screenshots/sonarqube-2026-06-20T194159.png
 security:
 - kind: domain-security

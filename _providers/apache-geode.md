@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -59,6 +59,18 @@ collections:
   name: Apache Geode REST API
   slug: open-apache-geode-rest
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/apache/geode/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/geode/blob/develop/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/geode/blob/develop/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -245,7 +257,7 @@ overview: 'Apache Geode publishes 4 APIs on the [APIs.io](https://apis.io/) netw
   The Apache Geode catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache Geode''s developer surface includes documentation, getting-started guide, engineering blog, and 7 more developer resources.'
+  Apache Geode''s developer surface includes documentation, getting-started guide, engineering blog, and 10 more developer resources.'
 plans:
 - name: Apache Geode Plans Pricing
   plan_count: 3
@@ -273,16 +285,16 @@ rules:
     warn: 8
   slug: apache-geode-spectral-rules
 score:
-  band: developing
-  composite: 47.3
-  delta: 0.0
+  band: thin
+  composite: 38.3
+  delta: -9.0
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 62.1
+    commercial_clarity: 15.8
+    contract_quality: 59.8
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 47.3
   provenance:
     agentic_access: derived
@@ -291,9 +303,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 23.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-geode/refs/heads/main/screenshots/apache-geode-2026-06-20T172059.png
 security:
 - kind: domain-security

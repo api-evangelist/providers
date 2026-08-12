@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-10'
+  score: 38.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 194
   human_in_the_loop: 3
@@ -166,6 +166,10 @@ apis:
   slug: invendor-wmslocations-api
 artifact_total: 47
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/invendor-common-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -265,7 +269,7 @@ network: true
 overview: 'Invendor publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Auth API, Barcodes API, and 39 more. Tagged areas include Company, Inventory Management, Vendor Managed Inventory, Industrial Vending, and Supply Chain.
 
 
-  Invendor''s developer surface includes authentication, documentation, engineering blog, support, signup flow, and 16 more developer resources.'
+  Invendor''s developer surface includes authentication, documentation, engineering blog, support, signup flow, and 17 more developer resources.'
 random_paper: 57
 scopes:
 - name: Invendor Scopes
@@ -274,11 +278,11 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 35.3
-  delta: 0.0
+  composite: 34.9
+  delta: -0.4
   facets:
     commercial_clarity: 34.2
-    contract_quality: 47.5
+    contract_quality: 45.7
     developer_ergonomics: 29.9
     discoverability: 92.6
     governance: 11.5
@@ -294,8 +298,8 @@ score:
       total: 42
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invendor/refs/heads/main/screenshots/invendor-2026-07-25T222735.png
 security:

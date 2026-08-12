@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: 'The Sozu Command API provides programmatic control of the Sōzu HTTP reverse proxy at runtime. External tools communicate with the Sozu main process through a secure Unix socket using a protobuf-based '
@@ -42,6 +42,10 @@ apis:
   slug: sozu-command-futures-api
 artifact_total: 14
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/sozu-proxy/sozu/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -127,7 +131,7 @@ overview: 'Sozu publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tag
   The Sozu catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Sozu''s developer surface includes documentation, release notes, and 9 more developer resources.'
+  Sozu''s developer surface includes documentation, release notes, and 10 more developer resources.'
 plans:
 - name: Sozu Plans Pricing
   plan_count: 3
@@ -148,19 +152,19 @@ rules:
   slug: sozu-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.7
-  delta: 0.0
+  composite: 31.9
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 33.9
     developer_ergonomics: 8.7
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 39.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sozu/refs/heads/main/screenshots/sozu-2026-06-20T194231.png
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 0
@@ -317,11 +317,11 @@ rules:
   slug: chatwoot-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.4
-  delta: 0.0
+  composite: 48.6
+  delta: 3.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.8
+    contract_quality: 68.5
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
@@ -333,15 +333,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 31
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 23.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+      total: 38
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/screenshots/chatwoot-2026-07-25T205121.png
 security:

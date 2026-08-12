@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 69.6
-  scored_at: '2026-08-10'
+  score: 66.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -99,6 +99,10 @@ asyncapis:
   name: Dedaluslabs Events
   slug: dedaluslabs-events
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dedaluslabs-agents-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -261,15 +265,15 @@ overview: 'Dedalus Labs publishes 16 APIs on the [APIs.io](https://apis.io/) net
   The Dedalus Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dedalus Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  Dedalus Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 random_paper: 112
 score:
   band: strong
-  composite: 59.7
-  delta: 0.0
+  composite: 59.1
+  delta: -0.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 67.4
+    contract_quality: 64.9
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
@@ -285,8 +289,8 @@ score:
       total: 16
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/screenshots/dedaluslabs-2026-07-25T211533.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -181,15 +181,15 @@ rate_limits:
   slug: fulcrum-rate-limits
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 44.8
+  delta: -7.6
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 57.7
+    commercial_clarity: 68.4
+    contract_quality: 55.5
     developer_ergonomics: 37.0
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 52.4
   provenance:
     agentic_access: derived
@@ -198,9 +198,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/screenshots/fulcrum-2026-06-20T181606.png
 security:
 - kind: authentication

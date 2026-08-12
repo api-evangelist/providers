@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -78,6 +78,10 @@ collections:
   name: OP Mainnet JSON-RPC
   slug: open-optimism
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/ethereum-optimism/optimism/blob/develop/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -152,7 +156,7 @@ overview: 'Optimism publishes 3 APIs on the [APIs.io](https://apis.io/) network:
   The Optimism catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Optimism''s developer surface includes documentation, GitHub presence, status page, engineering blog, and 9 more developer resources.'
+  Optimism''s developer surface includes documentation, GitHub presence, status page, engineering blog, and 10 more developer resources.'
 plans:
 - name: Optimism Plans Pricing
   plan_count: 1
@@ -172,14 +176,14 @@ rules:
     warn: 5
   slug: optimism-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 41.8
-  delta: 0.0
+  band: developing
+  composite: 42.8
+  delta: 1.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 68.9
-    developer_ergonomics: 10.9
-    discoverability: 74.1
+    contract_quality: 66.7
+    developer_ergonomics: 15.2
+    discoverability: 81.5
     governance: 47.9
     operational_transparency: 26.3
   previous_composite: 41.8
@@ -190,8 +194,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optimism/refs/heads/main/screenshots/optimism-2026-06-20T191109.png
 security:

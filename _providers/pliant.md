@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 52.5
-  scored_at: '2026-08-10'
+  score: 48.9
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Pliant''s Pro API enables customers to access Pliant credit card data and features programmatically — issue and manage cards, apply card controls and limits, retrieve transactions and accounting data, '
@@ -190,8 +191,8 @@ overview: 'Pliant publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 68
 score:
   band: developing
-  composite: 54.3
-  delta: 0.0
+  composite: 52.4
+  delta: -1.9
   facets:
     commercial_clarity: 42.1
     contract_quality: 51.6
@@ -209,9 +210,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 62.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 50.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

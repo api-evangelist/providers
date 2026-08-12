@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: The Ads API from Liquid M — 1 operation(s) for ads.
@@ -48,6 +48,14 @@ apis:
   slug: liquid-m-reporting-api
 artifact_total: 10
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/liquid-m-management-overlay.yaml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/liquidm/liquidm-reporting-api-client/issues
 - group: build
   title: ''
   type: GitHubOrganization
@@ -151,15 +159,15 @@ network: true
 overview: 'Liquid M publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Authentication API, Budgets API, and 2 more. Tagged areas include Company, Advertising, AdTech, Demand-Side Platform, and Programmatic Advertising.
 
 
-  Liquid M''s developer surface includes developer portal, signup flow, authentication, code examples, and 16 more developer resources.'
+  Liquid M''s developer surface includes developer portal, signup flow, authentication, code examples, and 18 more developer resources.'
 random_paper: 106
 score:
   band: thin
-  composite: 36.0
-  delta: 0.0
+  composite: 35.4
+  delta: -0.6
   facets:
     commercial_clarity: 13.2
-    contract_quality: 59.1
+    contract_quality: 56.9
     developer_ergonomics: 29.9
     discoverability: 92.6
     governance: 21.9
@@ -174,8 +182,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/screenshots/liquid-m-2026-07-25T225318.png
 security:

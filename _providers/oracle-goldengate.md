@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 7
@@ -232,6 +232,10 @@ collections:
   name: Oracle GoldenGate Veridata REST API
   slug: open-oracle-goldengate-veridata-rest-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/oracle/docker-images/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -4007,7 +4011,7 @@ overview: 'Oracle GoldenGate publishes 37 APIs on the [APIs.io](https://apis.io/
   The Oracle GoldenGate catalog on APIs.io includes 7 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Oracle GoldenGate''s developer surface includes authentication, developer portal, engineering blog, pricing, getting-started guide, documentation, signup flow, and 30 more developer resources.'
+  Oracle GoldenGate''s developer surface includes authentication, developer portal, engineering blog, pricing, getting-started guide, documentation, signup flow, and 31 more developer resources.'
 plans:
 - name: Oracle Goldengate Plans Pricing
   plan_count: 3
@@ -4035,16 +4039,16 @@ rules:
     warn: 7
   slug: oracle-goldengate-spectral-rules
 score:
-  band: exemplar
-  composite: 67.0
-  delta: 0.0
+  band: strong
+  composite: 58.5
+  delta: -8.5
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 69.7
+    commercial_clarity: 60.5
+    contract_quality: 67.1
     developer_ergonomics: 50.0
     discoverability: 68.5
     governance: 58.3
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 67.0
   provenance:
     agentic_access: derived
@@ -4053,9 +4057,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/screenshots/oracle-goldengate-2026-06-20T191134.png
 security:
 - kind: authentication

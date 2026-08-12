@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -59,6 +59,10 @@ collections:
   name: Topaz Authorizer and Directory API
   slug: open-topaz
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/aserto-dev/topaz/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -110,7 +114,7 @@ network: true
 overview: 'Topaz publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authorizer API, Directory Checks API, Directory Objects API, and 2 more. Tagged areas include Access Control, Authorization, Fine-Grained Authorization, Open Source, and RBAC.
 
 
-  Topaz''s developer surface includes documentation and 8 more developer resources.'
+  Topaz''s developer surface includes documentation and 9 more developer resources.'
 plans:
 - name: Topaz Plans Pricing
   plan_count: 2
@@ -122,11 +126,11 @@ rate_limits:
   slug: topaz-rate-limits
 score:
   band: thin
-  composite: 34.1
-  delta: 0.0
+  composite: 28.5
+  delta: -5.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 61.2
+    contract_quality: 59.0
     developer_ergonomics: 8.7
     discoverability: 64.8
     governance: 0.0
@@ -139,9 +143,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 0.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 slug: topaz
 tags:
 - Access Control

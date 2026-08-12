@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-10'
+  score: 3.6
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -102,8 +102,8 @@ overview: 'Alt is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 random_paper: 89
 score:
   band: emerging
-  composite: 17.8
-  delta: 0.0
+  composite: 18.4
+  delta: 0.6
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -112,8 +112,14 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 17.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 21.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alt/refs/heads/main/screenshots/alt-2026-08-07T161246.png
 security:

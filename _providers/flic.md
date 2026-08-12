@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -118,20 +118,20 @@ overview: 'Flic is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 random_paper: 66
 score:
   band: thin
-  composite: 36.5
-  delta: 0.0
+  composite: 35.4
+  delta: -1.1
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.6
     developer_ergonomics: 52.2
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 3.1
     operational_transparency: 13.2
   previous_composite: 36.5
   provenance:
     conformance: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flic/refs/heads/main/screenshots/flic-2026-07-25T214752.png
 security:

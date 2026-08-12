@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 361
   human_in_the_loop: 6
@@ -711,16 +711,16 @@ rules:
     warn: 4
   slug: windmill-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 62.9
-  delta: 0.0
+  band: developing
+  composite: 55.4
+  delta: -7.5
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 57.6
-    developer_ergonomics: 45.7
+    commercial_clarity: 68.4
+    contract_quality: 55.5
+    developer_ergonomics: 50.0
     discoverability: 68.5
     governance: 37.5
-    operational_transparency: 73.7
+    operational_transparency: 50.0
   previous_composite: 62.9
   provenance:
     agentic_access: derived
@@ -729,9 +729,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 59
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/screenshots/windmill-2026-06-20T201510.png
 security:
 - kind: authentication

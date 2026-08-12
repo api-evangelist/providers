@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 61.5
-  scored_at: '2026-08-10'
+  score: 57.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -77,6 +77,10 @@ arazzos:
   slug: qubiqle-sync-erp-master-data
 artifact_total: 18
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/qubiqle-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -216,7 +220,7 @@ network: true
 overview: 'Qubiqle publishes 9 APIs on the [APIs.io](https://apis.io/) network, including accounts API, batch API, catalog API, and 6 more. Tagged areas include Company, Accounts Payable, Invoicing, Payments, and Accounting.
 
 
-  Qubiqle''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, support, and 24 more developer resources.'
+  Qubiqle''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, support, and 25 more developer resources.'
 random_paper: 59
 rate_limits:
 - limit_count: 3
@@ -229,13 +233,13 @@ scopes:
   summary_line: 1 scope
 score:
   band: developing
-  composite: 55.8
-  delta: 0.0
+  composite: 54.4
+  delta: -1.4
   facets:
     commercial_clarity: 34.2
-    contract_quality: 59.3
+    contract_quality: 57.1
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 76.3
   previous_composite: 55.8
@@ -255,8 +259,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

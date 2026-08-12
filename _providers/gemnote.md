@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 22.1
-  scored_at: '2026-08-10'
+  score: 22.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,8 +47,20 @@ apis:
 - description: Orders that send a gift and optional greeting card to a recipient.
   name: Gemnote Shipments API
   slug: gemnote-shipments-api
-artifact_total: 6
+artifact_total: 7
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/gemnote-send-a-gift.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/gemnote-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/gemnote-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -101,6 +113,10 @@ created: '2026-07-17'
 description: Gemnote is a corporate gifting and swag management platform that helps businesses design, produce, warehouse, and ship custom branded merchandise and gifts worldwide. Founded in 2014 and based in Union City, California, and backed by Y Combinator, Gemnote pairs a swag management app (inventory, order tracking, e-commerce swag stores, and Shopify integration) with human design and fulfillment expertise, and is used by companies such as Reddit, Google, Airbnb, and Sephora for employee swag, new-hire kits, PR and influencer kits, event giveaways, and packaging. Gemnote also publishes a JSON:API-style REST API that lets partners list gifts and greeting cards, create shipments to recipients, and track fulfillment programmatically, with a sandbox environment for testing.
 image: https://www.gemnote.com/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: gemnote-mcp.yml
+  slug: gemnote-mcpyml
 modified: '2026-07-19'
 name: Gemnote
 nav: Providers
@@ -108,17 +124,17 @@ network: true
 overview: 'Gemnote publishes 3 APIs on the [APIs.io](https://apis.io/) network: Gifts API, Greeting Cards API, and Shipments API. Tagged areas include Company, Corporate Gifting, Swag Management, Branded Merchandise, and Fulfillment.
 
 
-  Gemnote''s developer surface includes documentation, API reference, engineering blog, pricing, support, and 7 more developer resources.'
+  Gemnote''s developer surface includes documentation, API reference, engineering blog, pricing, support, and 10 more developer resources.'
 random_paper: 55
 score:
   band: emerging
-  composite: 25.6
-  delta: 0.0
+  composite: 25.1
+  delta: -0.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 15.9
-    developer_ergonomics: 30.4
-    discoverability: 92.6
+    contract_quality: 15.3
+    developer_ergonomics: 34.2
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 25.6
@@ -132,8 +148,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/screenshots/gemnote-2026-07-25T215530.png
 security:

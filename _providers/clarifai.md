@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 247
   human_in_the_loop: 6
@@ -239,11 +239,11 @@ rules:
   slug: clarifai-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 41.6
-  delta: 0.0
+  composite: 41.2
+  delta: -0.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 40.3
+    contract_quality: 38.8
     developer_ergonomics: 10.9
     discoverability: 68.5
     governance: 58.3
@@ -256,8 +256,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/screenshots/clarifai-2026-06-20T174436.png
 security:

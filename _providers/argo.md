@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 2
@@ -94,6 +94,26 @@ collections:
   name: Argo Workflows API
   slug: open-argo-workflows
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/argoproj/argo-events/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/argoproj/argo-events/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/argoproj/argo-events/blob/master/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/argoproj/argo-events/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/argoproj/argo-events/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -666,7 +686,7 @@ overview: 'Argo publishes 13 APIs on the [APIs.io](https://apis.io/) network, in
   The Argo catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Argo''s developer surface includes authentication, documentation, engineering blog, support, and 9 more developer resources.'
+  Argo''s developer surface includes authentication, documentation, engineering blog, support, and 14 more developer resources.'
 plans:
 - name: Argo Plans Pricing
   plan_count: 3
@@ -703,15 +723,15 @@ rules:
   slug: argo-spectral-rules
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 45.3
+  delta: -4.5
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 71.6
+    commercial_clarity: 15.8
+    contract_quality: 71.2
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 62.5
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 49.8
   provenance:
     agentic_access: derived
@@ -720,8 +740,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argo/refs/heads/main/screenshots/argo-2026-06-20T172416.png
 security:

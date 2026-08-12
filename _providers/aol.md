@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -141,16 +141,16 @@ scopes:
   slug: aol-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: developing
-  composite: 44.0
-  delta: 0.0
+  band: thin
+  composite: 35.6
+  delta: -8.4
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 63.2
+    commercial_clarity: 36.8
+    contract_quality: 60.8
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 44.0
   provenance:
     agentic_access: derived
@@ -159,9 +159,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/aol/refs/heads/main/screenshots/aol-2026-06-20T172055.png
 security:
 - kind: authentication

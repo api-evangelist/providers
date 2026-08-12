@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-08-10'
+  score: 41.9
+  scored_at: '2026-08-11'
 api_count: 21
 apis:
 - description: Native database engine APIs for connecting and executing queries against SQL Server.
@@ -97,6 +97,10 @@ apis:
   slug: sql-server-powershell-module
 artifact_total: 43
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Azure/azure-rest-api-specs/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -261,7 +265,7 @@ network: true
 overview: 'Microsoft SQL Server APIs publishes 2 APIs on the [APIs.io](https://apis.io/) network: SQL Server REST API and Azure SQL Database REST API. Tagged areas include Azure SQL, Cloud Database, Data Management, Database, and Microsoft.
 
 
-  Microsoft SQL Server APIs'' developer surface includes changelog, CLI, authentication, getting-started guide, pricing, support, engineering blog, and 24 more developer resources.'
+  Microsoft SQL Server APIs'' developer surface includes changelog, CLI, authentication, getting-started guide, pricing, support, engineering blog, and 25 more developer resources.'
 plans:
 - name: Sql Server Plans Pricing
   plan_count: 3
@@ -273,22 +277,22 @@ rate_limits:
   slug: sql-server-rate-limits
 score:
   band: developing
-  composite: 51.0
-  delta: 0.0
+  composite: 43.2
+  delta: -7.8
   facets:
-    commercial_clarity: 78.9
+    commercial_clarity: 55.3
     contract_quality: 32.3
     developer_ergonomics: 52.2
     discoverability: 81.5
     governance: 3.1
-    operational_transparency: 63.2
+    operational_transparency: 39.5
   previous_composite: 51.0
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sql-server/refs/heads/main/screenshots/sql-server-2026-06-20T194427.png
 security:
 - kind: authentication

@@ -18,10 +18,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.americafirst.com/content/afcu/us/en/about/news
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://www.americafirst.com/trust
 - group: auth
   title: ''
   type: DomainSecurity
@@ -57,16 +65,16 @@ network: true
 overview: 'America First Credit Union is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Credit Union, and Consumer Banking.
 
 
-  America First Credit Union''s developer surface includes support and 5 more developer resources.'
+  America First Credit Union''s developer surface includes engineering blog, support, and 6 more developer resources.'
 random_paper: 45
 score:
-  band: minimal
-  composite: 12.4
-  delta: 0.0
+  band: emerging
+  composite: 15.0
+  delta: 2.6
   facets:
-    commercial_clarity: 21.1
+    commercial_clarity: 28.9
     contract_quality: 0.0
-    developer_ergonomics: 4.3
+    developer_ergonomics: 6.5
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
@@ -76,9 +84,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 17.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 24.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/america-first-credit-union/refs/heads/main/screenshots/america-first-credit-union-2026-07-25T200050.png
 security:

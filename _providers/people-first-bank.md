@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -168,13 +168,13 @@ overview: 'People First Bank publishes 7 APIs on the [APIs.io](https://apis.io/)
 random_paper: 75
 score:
   band: thin
-  composite: 38.4
-  delta: 0.0
+  composite: 37.0
+  delta: -1.4
   facets:
     commercial_clarity: 21.1
-    contract_quality: 54.3
+    contract_quality: 52.2
     developer_ergonomics: 56.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 38.4
@@ -194,8 +194,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/screenshots/people-first-bank-2026-07-21T114746.png
 security:

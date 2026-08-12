@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: CDN-backed hosted basemap tile API serving OpenStreetMap-derived vector tiles in MVT format. Provides Style JSON, TileJSON, and ZXY tile endpoints. Free for non-commercial use; commercial use requires
@@ -42,6 +42,10 @@ apis:
   slug: protomaps-basemap-downloads
 artifact_total: 8
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/protomaps/go-pmtiles/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -105,7 +109,7 @@ overview: 'Protomaps publishes 1 API on the [APIs.io](https://apis.io/) network:
   The Protomaps catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Protomaps'' developer surface includes documentation, engineering blog, pricing, and 7 more developer resources.'
+  Protomaps'' developer surface includes documentation, engineering blog, pricing, and 8 more developer resources.'
 plans:
 - name: Protomaps Plans Pricing
   plan_count: 4
@@ -127,8 +131,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 35.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/protomaps/refs/heads/main/screenshots/protomaps-2026-06-20T192223.png
 security:

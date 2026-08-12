@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -194,6 +195,10 @@ collections:
   name: EVE Swagger Interface
   slug: open-eve-online
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/esi/esi-docs/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -544,7 +549,7 @@ overview: 'EVE Online publishes 46 APIs on the [APIs.io](https://apis.io/) netwo
   The EVE Online catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  EVE Online''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, support, tooling, and 42 more developer resources.'
+  EVE Online''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, support, tooling, and 43 more developer resources.'
 random_paper: 82
 rules:
 - name: EVE Online API Rules
@@ -570,11 +575,11 @@ scopes:
   summary_line: 63 scopes · implicit
 score:
   band: developing
-  composite: 49.5
-  delta: 0.0
+  composite: 49.0
+  delta: -0.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 61.7
+    contract_quality: 59.4
     developer_ergonomics: 60.9
     discoverability: 59.3
     governance: 58.3
@@ -587,8 +592,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 46
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/screenshots/eve-online-2026-06-20T180855.png
 security:

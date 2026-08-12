@@ -28,10 +28,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 27
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/limitbreakinc/creator-token-standards/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/limitbreakinc/creator-token-standards/blob/main/SECURITY.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/limitbreakinc/creator-token-standards/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -147,25 +159,25 @@ network: true
 overview: 'Limit Break is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Blockchain, Smart Contracts, and Ethereum.
 
 
-  Limit Break''s developer surface includes documentation, API reference, getting-started guide, signup flow, CLI, sandbox, authentication, and 19 more developer resources.'
+  Limit Break''s developer surface includes documentation, API reference, getting-started guide, signup flow, CLI, sandbox, authentication, and 22 more developer resources.'
 random_paper: 61
 score:
   band: thin
-  composite: 30.5
-  delta: 0.0
+  composite: 29.4
+  delta: -1.1
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 71.7
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 12.5
     operational_transparency: 39.5
   previous_composite: 30.5
   provenance:
     conformance: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/limit-break/refs/heads/main/screenshots/limit-break-2026-07-25T225205.png
 security:

@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -84,6 +85,10 @@ collections:
   name: Microsoft Power Platform REST API
   slug: open-power-platform-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/microsoft/PowerPlatformConnectors/blob/dev/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -445,7 +450,7 @@ overview: 'Microsoft Power Platform APIs publishes 4 APIs on the [APIs.io](https
   The Microsoft Power Platform APIs catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Power Platform APIs'' developer surface includes authentication, documentation, engineering blog, training material, API reference, support, and 13 more developer resources.'
+  Microsoft Power Platform APIs'' developer surface includes authentication, documentation, engineering blog, training material, API reference, support, and 14 more developer resources.'
 plans:
 - name: Power Platform Plans Pricing
   plan_count: 9
@@ -478,16 +483,16 @@ scopes:
   slug: power-platform-scopes
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 61.3
-  delta: 0.0
+  band: developing
+  composite: 55.7
+  delta: -5.6
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 69.0
-    developer_ergonomics: 54.3
+    commercial_clarity: 36.8
+    contract_quality: 66.4
+    developer_ergonomics: 60.9
     discoverability: 72.2
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 61.3
   provenance:
     agentic_access: derived
@@ -496,9 +501,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 64.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/screenshots/power-platform-2026-06-20T192023.png
 security:
 - kind: authentication

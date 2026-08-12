@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: documented
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-10'
+  score: 35.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -183,13 +183,13 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 25.3
-  delta: 0.0
+  composite: 24.2
+  delta: -1.1
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
     developer_ergonomics: 41.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 12.5
     operational_transparency: 0.0
   previous_composite: 25.3
@@ -198,8 +198,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bespoken-spirits/refs/heads/main/screenshots/bespoken-spirits-2026-08-07T162314.png
 security:

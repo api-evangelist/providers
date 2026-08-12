@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -160,16 +160,16 @@ rules:
     warn: 13
   slug: apyhub-spectral-rules
 score:
-  band: developing
-  composite: 51.6
-  delta: 0.0
+  band: thin
+  composite: 40.7
+  delta: -10.9
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 77.5
+    commercial_clarity: 28.9
+    contract_quality: 74.6
     developer_ergonomics: 21.7
-    discoverability: 55.6
+    discoverability: 63.0
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 51.6
   provenance:
     agentic_access: derived
@@ -178,9 +178,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 23.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apyhub/refs/heads/main/screenshots/apyhub-2026-06-20T172345.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -156,16 +156,16 @@ rules:
     warn: 4
   slug: reown-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 43.4
-  delta: 0.0
+  band: thin
+  composite: 35.5
+  delta: -7.9
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 68.2
+    commercial_clarity: 15.8
+    contract_quality: 66.0
     developer_ergonomics: 13.0
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 41.7
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 43.4
   provenance:
     agentic_access: derived
@@ -174,9 +174,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 28.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/reown/refs/heads/main/screenshots/reown-2026-06-20T192900.png
 security:
 - kind: authentication

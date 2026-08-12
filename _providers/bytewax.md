@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Open-source Python library for building distributed stream processing dataflows. Provides bytewax.dataflow, bytewax.operators (including windowing), bytewax.inputs, bytewax.outputs, and a connectors p
@@ -42,6 +42,26 @@ apis:
   slug: platform
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/bytewax/bytewax/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/bytewax/bytewax/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/bytewax/bytewax/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/bytewax/bytewax/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/bytewax/bytewax/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -113,7 +133,7 @@ network: true
 overview: 'Bytewax publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Stream Processing, Python, Dataflow, Real-Time, and Kafka.
 
 
-  Bytewax''s developer surface includes developer portal, documentation, pricing, engineering blog, GitHub presence, code examples, and 8 more developer resources.'
+  Bytewax''s developer surface includes developer portal, documentation, pricing, engineering blog, GitHub presence, code examples, and 13 more developer resources.'
 plans:
 - name: Bytewax Plans Pricing
   plan_count: 1
@@ -125,18 +145,18 @@ rate_limits:
   slug: bytewax-rate-limits
 score:
   band: thin
-  composite: 29.0
-  delta: 0.0
+  composite: 31.1
+  delta: 2.1
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 42.1
   previous_composite: 29.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bytewax/refs/heads/main/screenshots/bytewax-2026-06-20T173827.png
 security:

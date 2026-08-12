@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: RESTful JSON tracking API that aggregates shipment data from 1,000+ global carriers with automatic carrier detection, real-time webhook push notifications, and standardized tracking event normalizatio
@@ -103,18 +103,24 @@ rate_limits:
   slug: rate-limits
 score:
   band: emerging
-  composite: 23.3
-  delta: 0.0
+  composite: 24.9
+  delta: 1.6
   facets:
-    commercial_clarity: 71.1
+    commercial_clarity: 84.2
     contract_quality: 0.0
     developer_ergonomics: 10.9
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 23.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 19.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parcel-monitor/refs/heads/main/screenshots/parcel-monitor-2026-06-20T191403.png
 security:

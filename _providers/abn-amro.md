@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The Tikkie API lets Tikkie Business customers programmatically create payment requests, send them to end-payers, and receive notifications when payments complete. Authentication uses an API token (Bus
@@ -149,8 +149,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 34.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abn-amro/refs/heads/main/screenshots/abn-amro-2026-06-20T163250.png
 security:

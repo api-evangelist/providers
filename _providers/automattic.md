@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 61.5
-  scored_at: '2026-08-10'
+  score: 57.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1218
   human_in_the_loop: 20
@@ -61,6 +62,14 @@ asyncapis:
   name: Automattic Wordpress Com Webhooks
   slug: automattic-wordpress-com-webhooks
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Automattic/akismet-api/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Automattic/akismet-api/releases
 - group: company
   title: ''
   type: Website
@@ -256,7 +265,7 @@ overview: 'Automattic publishes 7 APIs on the [APIs.io](https://apis.io/) networ
   The Automattic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Automattic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 37 more developer resources.'
+  Automattic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 39 more developer resources.'
 random_paper: 39
 scopes:
 - name: Automattic Scopes
@@ -265,11 +274,11 @@ scopes:
   summary_line: 21 scopes · authorizationCode/refreshToken/clientCredentials
 score:
   band: strong
-  composite: 56.7
-  delta: 0.0
+  composite: 56.4
+  delta: -0.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 37.0
+    contract_quality: 35.6
     developer_ergonomics: 82.1
     discoverability: 92.6
     governance: 20.8
@@ -285,8 +294,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/screenshots/automattic-2026-08-07T161958.png
 security:

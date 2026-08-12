@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: documented
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-10'
+  score: 44.8
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: The Calls API from Veritus — 2 operation(s) for calls.
@@ -43,12 +43,20 @@ apis:
 - description: The Interactions API from Veritus — 1 operation(s) for interactions.
   name: Veritus Interactions API
   slug: veritus-interactions-api
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: Outbound webhooks Veritus Agent POSTs to a subscriber-supplied URL when calls complete or drip-campaign events occur. Payloads are signed with HMAC SHA-256. Register a webhook by supplying `webhook.ur
   name: Veritus Agent Webhooks
   slug: veritus-webhooks-asyncapi
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/veritus-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/veritus-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -121,6 +129,10 @@ created: '2026-07-17'
 description: Veritus (Veritus Agent) is a San Francisco fintech (Y Combinator S2025) building compliant, voice-first AI agents for the consumer-lending lifecycle - origination, servicing, and collections. Its omnichannel platform places AI voice calls, SMS, and email to borrowers, running every contact through a built-in compliance engine (respectful hours, frequency limits, cease-and-desist, model-validation notices) before outreach. The REST API (OpenAPI 3.1, bearer auth, isolated sandbox and production environments, HMAC-signed webhooks) lets lenders, servicers, and collections agencies create customers, place compliance-checked calls, run omnichannel drip campaigns, import and analyze SMS/email interactions, and retrieve call recordings.
 image: https://veritus.com/apple-touch-icon.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: veritus-mcp.yml
+  slug: veritus-mcpyml
 modified: '2026-07-21'
 name: Veritus
 nav: Providers
@@ -131,17 +143,17 @@ overview: 'Veritus publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
   The Veritus catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Veritus'' developer surface includes documentation, signup flow, authentication, and 14 more developer resources.'
+  Veritus'' developer surface includes documentation, signup flow, authentication, and 16 more developer resources.'
 random_paper: 90
 score:
   band: developing
-  composite: 46.0
-  delta: 0.0
+  composite: 44.7
+  delta: -1.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.2
-    developer_ergonomics: 29.9
-    discoverability: 92.6
+    contract_quality: 62.7
+    developer_ergonomics: 32.1
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 23.7
   previous_composite: 46.0
@@ -154,8 +166,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -1,24 +1,25 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: flavored
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 76.1
-  scored_at: '2026-08-10'
+  score: 61.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -252,16 +253,29 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.2
+  composite: 65.5
+  delta: 0.3
   facets:
     commercial_clarity: 76.3
-    contract_quality: 51.6
+    contract_quality: 57.1
     developer_ergonomics: 80.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 71.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 65.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Lacuna Authentication

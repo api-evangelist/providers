@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,14 +23,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-08-10'
+  score: 46.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -103,12 +104,32 @@ arazzos:
 - description: Authorize, request a bucket upload URL, then upload a single file to that bucket.
   name: Backblaze Upload a File
   slug: backblaze-upload-file-workflow
-artifact_total: 175
+artifact_total: 176
 collections:
 - collection_type: postman
   name: Backblaze B2 Native API
   slug: postman-backblaze-b2-native-api
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/backblaze-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/backblaze-b2-native-api-overlay.yaml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Backblaze/b2-sdk-python/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Backblaze/b2-sdk-python/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Backblaze/b2-sdk-python/blob/master/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -714,6 +735,10 @@ jsonld:
   property_count: 68
   slug: backblaze-b2-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: backblaze-mcp.yml
+  slug: backblaze-mcpyml
 modified: '2026-06-20'
 name: Backblaze
 nav: Providers
@@ -724,7 +749,7 @@ overview: 'Backblaze publishes 6 APIs on the [APIs.io](https://apis.io/) network
   The Backblaze catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Backblaze''s developer surface includes authentication, changelog, CLI, developer portal, documentation, getting-started guide, pricing, and 40 more developer resources.'
+  Backblaze''s developer surface includes authentication, changelog, CLI, developer portal, documentation, getting-started guide, pricing, and 45 more developer resources.'
 plans:
 - name: Backblaze Plans Pricing
   plan_count: 3
@@ -753,15 +778,15 @@ rules:
   slug: backblaze-spectral-rules
 score:
   band: strong
-  composite: 62.3
-  delta: 0.0
+  composite: 56.3
+  delta: -6.0
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 25.2
-    developer_ergonomics: 71.7
-    discoverability: 74.1
+    commercial_clarity: 68.4
+    contract_quality: 24.3
+    developer_ergonomics: 73.9
+    discoverability: 63.0
     governance: 80.2
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 62.3
   provenance:
     agentic_access: derived
@@ -772,9 +797,9 @@ score:
       marker_coverage: 100.0
       total: 6
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/screenshots/backblaze-2026-07-25T202216.png
 security:
 - kind: authentication

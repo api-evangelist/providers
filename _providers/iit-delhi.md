@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: The IIT Delhi Central Library institutional repository runs on DSpace 8.0 and exposes the standard DSpace REST/HAL API at /server/api. The root endpoint is public and advertises the dspaceVersion, aut
@@ -130,8 +130,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 21.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/screenshots/iit-delhi-2026-06-20T183235.png
 security:

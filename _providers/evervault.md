@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 54.3
-  scored_at: '2026-08-10'
+  score: 50.7
+  scored_at: '2026-08-11'
 api_count: 12
 apis:
 - description: 3D Secure is a security protocol designed to prevent fraud in online card transactions. It adds an additional layer of authentication during the payment process.
@@ -110,6 +111,10 @@ collections:
   name: Evervault Webhooks API
   slug: postman-evervault-webhooks-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/evervault-openapi-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -268,15 +273,15 @@ overview: 'Evervault publishes 12 APIs on the [APIs.io](https://apis.io/) networ
   The Evervault catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Evervault''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 28 more developer resources.'
+  Evervault''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 29 more developer resources.'
 random_paper: 62
 score:
   band: strong
-  composite: 64.0
-  delta: 0.0
+  composite: 61.6
+  delta: -2.4
   facets:
     commercial_clarity: 52.6
-    contract_quality: 74.5
+    contract_quality: 71.7
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 20.8
@@ -296,9 +301,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 68.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 56.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/screenshots/evervault-2026-08-07T165228.png
 security:

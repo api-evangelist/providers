@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-08-10'
+  score: 44.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,6 +43,10 @@ apis:
   slug: 1worldsync-fetchproduct-api
 artifact_total: 6
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/1worldsync-content1-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -174,17 +178,17 @@ network: true
 overview: '1WorldSync publishes 1 API on the [APIs.io](https://apis.io/) network: FetchProduct API. Tagged areas include Company, Product Content, GDSN, Data Syndication, and Master Data.
 
 
-  1WorldSync''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, pricing, authentication, and 22 more developer resources.'
+  1WorldSync''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, pricing, authentication, and 23 more developer resources.'
 random_paper: 2
 score:
   band: developing
-  composite: 52.6
-  delta: 0.0
+  composite: 50.9
+  delta: -1.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 61.2
+    contract_quality: 59.0
     developer_ergonomics: 64.7
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 20.8
     operational_transparency: 7.9
   previous_composite: 52.6
@@ -198,8 +202,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/screenshots/1worldsync-2026-07-25T181115.png
 security:

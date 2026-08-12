@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -83,6 +83,22 @@ collections:
   name: EmailEngine API
   slug: open-emailengine
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/postalsys/emailengine/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/postalsys/emailengine/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/postalsys/emailengine/blob/master/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/postalsys/emailengine/blob/master/.github/contributing.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -146,7 +162,7 @@ network: true
 overview: 'EmailEngine publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounts API, Autoconfig API, and 10 more. Tagged areas include Email, Email API, IMAP, SMTP, and Webhooks.
 
 
-  EmailEngine''s developer surface includes documentation, API reference, engineering blog, FAQ, pricing, support, and 6 more developer resources.'
+  EmailEngine''s developer surface includes documentation, API reference, engineering blog, FAQ, pricing, support, and 10 more developer resources.'
 plans:
 - name: Emailengine Plans Pricing
   plan_count: 3
@@ -157,16 +173,16 @@ rate_limits:
   name: Emailengine Rate Limits
   slug: emailengine-rate-limits
 score:
-  band: developing
-  composite: 43.3
-  delta: 0.0
+  band: thin
+  composite: 38.5
+  delta: -4.8
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 48.8
+    commercial_clarity: 47.4
+    contract_quality: 47.0
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 39.5
+    operational_transparency: 42.1
   previous_composite: 43.3
   provenance:
     agentic_access: derived
@@ -175,8 +191,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/screenshots/emailengine-2026-06-20T180623.png
 security:

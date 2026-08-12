@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Kratos is a Go framework for building cloud-native microservices, originally created at Bilibili. It provides built-in support for HTTP and gRPC transports, service discovery, configuration management
@@ -36,6 +36,30 @@ apis:
   slug: kratos
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/go-kratos/kratos/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/go-kratos/kratos/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/go-kratos/kratos/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/go-kratos/kratos/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/go-kratos/kratos/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/go-kratos/kratos/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -94,7 +118,7 @@ overview: 'Kratos publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
   The Kratos catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Kratos'' developer surface includes documentation, getting-started guide, engineering blog, code examples, and 5 more developer resources.'
+  Kratos'' developer surface includes documentation, getting-started guide, engineering blog, code examples, and 11 more developer resources.'
 plans:
 - name: Kratos Plans Pricing
   plan_count: 3
@@ -115,18 +139,18 @@ rules:
   slug: kratos-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.4
-  delta: 0.0
+  composite: 28.0
+  delta: -4.4
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 9.7
     developer_ergonomics: 21.7
     discoverability: 59.3
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 32.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kratos/refs/heads/main/screenshots/kratos-2026-06-20T184150.png
 security:

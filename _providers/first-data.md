@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Following the Fiserv merger, legacy First Data API products are now hosted on the Fiserv developer portal. These include Commerce Hub, Payeezy, and Bolt for merchant payment acceptance, tokenization, '
@@ -95,16 +95,16 @@ rate_limits:
   name: First Data Rate Limits
   slug: first-data-rate-limits
 score:
-  band: emerging
-  composite: 15.7
-  delta: 0.0
+  band: minimal
+  composite: 11.3
+  delta: -4.4
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 15.7
   regulatory:
     applies: true
@@ -112,8 +112,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-data/refs/heads/main/screenshots/first-data-2026-06-20T181236.png
 security:

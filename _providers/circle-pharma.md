@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 33.6
-  scored_at: '2026-08-10'
+  score: 30.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'The anonymously readable WordPress REST API behind circlepharma.com. It exposes Circle Pharma press releases, publications and in-the-news items (posts), site pages, the media library, the leadership '
@@ -142,13 +142,13 @@ overview: 'Circle Pharma publishes 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 28
 score:
   band: thin
-  composite: 33.2
-  delta: 0.0
+  composite: 31.5
+  delta: -1.7
   facets:
     commercial_clarity: 21.1
-    contract_quality: 60.5
+    contract_quality: 58.2
     developer_ergonomics: 19.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 33.2
@@ -160,8 +160,14 @@ score:
       marker_coverage: 0.0
       total: 1
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 31.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/screenshots/circle-pharma-2026-08-07T163423.png
 security:

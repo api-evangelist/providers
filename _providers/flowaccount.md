@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 0
@@ -101,6 +101,10 @@ asyncapis:
   name: Flowaccount Webhooks
   slug: flowaccount-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/flowaccount-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -219,7 +223,7 @@ overview: 'FlowAccount publishes 19 APIs on the [APIs.io](https://apis.io/) netw
   The FlowAccount catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  FlowAccount''s developer surface includes documentation, getting-started guide, signup flow, pricing, engineering blog, support, changelog, and 18 more developer resources.'
+  FlowAccount''s developer surface includes documentation, getting-started guide, signup flow, pricing, engineering blog, support, changelog, and 19 more developer resources.'
 random_paper: 29
 scopes:
 - name: Flowaccount Scopes
@@ -228,13 +232,13 @@ scopes:
   summary_line: 1 scope
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 50.4
+  delta: -1.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 60.5
+    contract_quality: 58.3
     developer_ergonomics: 56.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 47.4
   previous_composite: 52.1
@@ -248,8 +252,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/screenshots/flowaccount-2026-07-25T214832.png
 security:

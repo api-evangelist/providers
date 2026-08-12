@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-08-10'
+  score: 47.5
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: 'REST API for company search, enrichment, saved searches, list management, and bulk operations, plus a full GraphQL endpoint for flexible queries across companies, people, investors, lists, and custom '
@@ -166,11 +167,11 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.2
-  delta: 0.0
+  composite: 48.8
+  delta: -0.4
   facets:
     commercial_clarity: 44.7
-    contract_quality: 45.8
+    contract_quality: 44.1
     developer_ergonomics: 66.8
     discoverability: 81.5
     governance: 20.8
@@ -185,8 +186,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harmonic-ai/refs/heads/main/screenshots/harmonic-ai-2026-07-25T220821.png
 security:

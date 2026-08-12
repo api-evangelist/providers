@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -242,10 +242,6 @@ common:
   title: ''
   type: SpectralRules
   url: rules/split-rules.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/feature-flag-management.yaml
 - group: design
   title: ''
   type: Vocabulary
@@ -453,7 +449,7 @@ overview: 'Split publishes 16 APIs on the [APIs.io](https://apis.io/) network, i
   The Split catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Split''s developer surface includes authentication, developer portal, documentation, engineering blog, and 19 more developer resources.'
+  Split''s developer surface includes authentication, developer portal, documentation, engineering blog, and 18 more developer resources.'
 plans:
 - name: Split Plans Pricing
   plan_count: 3
@@ -481,16 +477,16 @@ rules:
     warn: 5
   slug: split-rules
 score:
-  band: strong
-  composite: 59.0
-  delta: 0.0
+  band: developing
+  composite: 51.3
+  delta: -7.7
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 71.2
+    commercial_clarity: 50.0
+    contract_quality: 68.5
     developer_ergonomics: 34.8
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 59.0
   provenance:
     agentic_access: derived
@@ -499,9 +495,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/screenshots/split-2026-06-20T194330.png
 security:
 - kind: authentication

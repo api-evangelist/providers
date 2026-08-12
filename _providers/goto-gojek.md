@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -181,11 +181,11 @@ rate_limits:
   slug: goto-gojek-rate-limits
 score:
   band: thin
-  composite: 31.7
-  delta: 0.0
+  composite: 29.3
+  delta: -2.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 54.3
+    contract_quality: 52.2
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 0.0
@@ -198,8 +198,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 18.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goto-gojek/refs/heads/main/screenshots/goto-gojek-2026-06-20T182257.png
 security:

@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -648,15 +649,15 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: strong
-  composite: 60.5
-  delta: 0.0
+  composite: 56.1
+  delta: -4.4
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 74.7
-    developer_ergonomics: 56.5
+    commercial_clarity: 47.4
+    contract_quality: 72.5
+    developer_ergonomics: 63.0
     discoverability: 53.7
     governance: 41.7
-    operational_transparency: 57.9
+    operational_transparency: 42.1
   previous_composite: 60.5
   provenance:
     agentic_access: derived
@@ -665,8 +666,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/screenshots/sap-2026-06-20T193411.png
 security:

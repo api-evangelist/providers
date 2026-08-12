@@ -27,10 +27,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/extism/extism/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/extism/extism/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/extism/extism/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -106,22 +118,22 @@ network: true
 overview: 'Dylibso is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, WebAssembly, Wasm, Extensibility, and Plug-ins.
 
 
-  Dylibso''s developer surface includes documentation, getting-started guide, engineering blog, support, sandbox, changelog, and 10 more developer resources.'
+  Dylibso''s developer surface includes documentation, getting-started guide, engineering blog, support, sandbox, changelog, and 13 more developer resources.'
 random_paper: 62
 score:
   band: emerging
-  composite: 19.2
-  delta: 0.0
+  composite: 18.0
+  delta: -1.2
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 47.8
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 19.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dylibso/refs/heads/main/screenshots/dylibso-2026-07-25T212550.png
 security:

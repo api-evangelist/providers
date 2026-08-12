@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Programmatic access to trigger AI-driven incident investigations, poll investigation status and results, and read/update hierarchical team configuration. Authenticated with team or admin bearer tokens
@@ -174,13 +174,13 @@ rate_limits:
   slug: brownie-rate-limits
 score:
   band: developing
-  composite: 51.0
-  delta: 0.0
+  composite: 49.9
+  delta: -1.1
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
     developer_ergonomics: 53.8
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 55.3
   previous_composite: 51.0
@@ -188,8 +188,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brownie/refs/heads/main/screenshots/brownie-2026-07-25T203958.png
 security:

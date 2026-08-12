@@ -8,27 +8,27 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 4,
-   "shown": 4,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Beazley",
      "slug": "beazley",
      "description": "Beazley plc is a London-headquartered specialty insurer and one of the largest managing agents at Lloyd's of London, underwriting through Lloyd's syndicates alongside US admitted and surplus lines carriers and a European company platform. Its book is specialty property and casualty — cyber and technology risks (where it is a global market leader), professional indemnity, management liability and directors and officers, marine, political risk, contingency, environmental, healthcare and property. Its home market is the United Kingdom, where there is no open-insurance mandate; the only market-wide data and API modernization effort is the Lloyd's Blueprint Two programme, and Beazley sat on the closed beta group that tested Lloyd's ACORD-based Core Data Record. Unusually for a carrier, Beazley operates a real first-party developer portal at developer.beazley.com — an Azure API Management portal with self-serve account signup, a publicly browsable catalog of 14 published APIs across nine families, sandbox environments, and machine-readable OpenAPI 3.0.1 for every one of them. The APIs are partner-and-broker oriented rather than consumer facing — risk and quote data capture into Beazley's core Record of Risk systems, broker and insured marketing data, compliance validation, currency exchange, a cyber rater, and insurance-terms reference data. Every API is behind an Azure APIM subscription key and every product carries approvalRequired, so browsing and spec download are open but actually calling the gateway requires Beazley to approve the subscription. There is no ACORD, AL3 or IVANS reference anywhere in the portal or the specs, no webhook or event catalog, no GraphQL, and no bind, issue or FNOL endpoint — bind is done by brokers through the gated myBeazley quote-and-bind portal, not through the public API surface. Beazley is subject to a recommended all-cash offer from Zurich Insurance Group announced 2 March 2026.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/screenshots/beazley-2026-07-25T202607.png",
-     "score": 52.8,
+     "score": 51.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 50.0,
+      "discoverability": 81.5,
+      "contract_quality": 48.1,
       "governance": 11.5,
       "operational_transparency": 36.8,
       "developer_ergonomics": 49.5,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -58,67 +58,22 @@
      "rank": 1
     },
     {
-     "name": "PPL",
-     "slug": "ppl-london-market",
-     "description": "PPL (Placing Platform Limited) is the London Market's not-for-profit electronic placing platform, incorporated in England and Wales in 2013 and trading since the first risk was bound on the platform in July 2016. Owned collectively by the market it serves, PPL lets brokers and carriers quote, negotiate, bind and renew open-market (re)insurance risks electronically across almost all classes of business written in London, and is used by roughly 200 carriers and 200 broking firms. It is market infrastructure rather than a carrier or a broker - it writes no insurance and carries no risk - and it is one of the accredited placing platforms underpinning Lloyd's Blueprint Two, generating the Core Data Record for bound business. Its API posture is unusual for insurance and genuinely good: the PPL Next Gen API Developer Portal at developer.pplnextgen.com is publicly readable and publishes a real API catalogue of five REST collections - Organisations, Placements, Submissions, Documents and Events - each with a downloadable OpenAPI 3.0 document and a Postman collection, built on REST standards and the ACORD GRLC (Global Reinsurance and Large Commercial) data model. Actually calling the APIs is market-gated rather than self-serve: consumers must be onboarded by PPL, subscribe to LIMOSS API Common Services, be guested into the Microsoft Entra ID (Azure AD) tenant of the LIMOSS API Gateway, and register an X.509 certificate per environment. The surface covers quote and bind (submission negotiation, contract negotiation, participations, firm order) and contract issuance via the Market Reform Contract document set; there is no claims or FNOL API, and no webhook or event-push surface - the Events API is pull-based.",
-     "score": 48.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 51.4,
-      "governance": 11.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 66.8,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 71.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 49.3,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Market Bodies, Standards & Regulators",
-     "rank": 2
-    },
-    {
      "name": "Whitespace",
      "slug": "whitespace-london",
      "description": "Whitespace Software Limited is a London-based digital placing platform for the Lloyd's and London (re)insurance market, and one of only two electronic placing systems given fully recognised status by Lloyd's. Acquired by Verisk (via Sequel), Whitespace lets brokers and underwriters create, negotiate, quote, firm-order, line, sign and endorse fully digital subscription-market contracts in place of the traditional slip, across property and casualty, specialty, marine, aviation, energy and reinsurance business written in the United Kingdom and internationally. Its API posture is unusually strong for the insurance sector but only half open: the reference documentation is genuinely public and unauthenticated at apidocs.whitespace.co.uk, with a complete OpenAPI 3.0.0 description of 113 endpoints served through Swagger UI at swagger.whitespace.co.uk, yet there is no self-serve signup. Sandbox and production service tokens are issued by Whitespace Support to contracted broker, carrier and vendor organisations, are IP-allowlisted and expire within a year, so the integration surface itself is partner-gated. Whitespace is ACORD-native rather than merely ACORD-aware: it authored the JSON Market Reform Contract (JMRC) standard and donated it to ACORD for incorporation into the Global Reinsurance and Large Commercial data standards, and its Defined Data API returns contract values tagged with an ACORDGPM tagset alongside MRC headings. Event integration is delivered as per-client Azure Service Bus queues rather than webhooks, and no AsyncAPI, GraphQL or public Postman workspace is published.",
-     "score": 47.4,
+     "score": 46.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 54.1,
+      "discoverability": 75.9,
+      "contract_quality": 52.0,
       "governance": 20.8,
       "operational_transparency": 28.9,
       "developer_ergonomics": 69.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -145,52 +100,52 @@
       "dry_run_mode": false
      },
      "tier": "Market Bodies, Standards & Regulators",
-     "rank": 3
+     "rank": 2
     },
     {
-     "name": "Towers Watson",
-     "slug": "towers-watson",
-     "description": "Towers Watson was a global professional services company that provided risk management, actuarial, human capital, and investment consulting services before merging with Willis Group to form Willis Towers Watson (now WTW) in 2016. WTW provides data-driven, insight-led solutions in risk, broking, HR consulting, and benefits administration across 140+ countries. WTW's software products include the HR Portal for employee benefits communication, benefits administration systems, compensation management tools, and actuarial modeling platforms.",
-     "score": 43.7,
+     "name": "PPL",
+     "slug": "ppl-london-market",
+     "description": "PPL (Placing Platform Limited) is the London Market's not-for-profit electronic placing platform, incorporated in England and Wales in 2013 and trading since the first risk was bound on the platform in July 2016. Owned collectively by the market it serves, PPL lets brokers and carriers quote, negotiate, bind and renew open-market (re)insurance risks electronically across almost all classes of business written in London, and is used by roughly 200 carriers and 200 broking firms. It is market infrastructure rather than a carrier or a broker - it writes no insurance and carries no risk - and it is one of the accredited placing platforms underpinning Lloyd's Blueprint Two, generating the Core Data Record for bound business. Its API posture is unusual for insurance and genuinely good: the PPL Next Gen API Developer Portal at developer.pplnextgen.com is publicly readable and publishes a real API catalogue of five REST collections - Organisations, Placements, Submissions, Documents and Events - each with a downloadable OpenAPI 3.0 document and a Postman collection, built on REST standards and the ACORD GRLC (Global Reinsurance and Large Commercial) data model. Actually calling the APIs is market-gated rather than self-serve: consumers must be onboarded by PPL, subscribe to LIMOSS API Common Services, be guested into the Microsoft Entra ID (Azure AD) tenant of the LIMOSS API Gateway, and register an X.509 certificate per environment. The surface covers quote and bind (submission negotiation, contract negotiation, participations, firm order) and contract issuance via the Market Reform Contract document set; there is no claims or FNOL API, and no webhook or event-push surface - the Events API is pull-based.",
+     "score": 45.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 69.1,
-      "governance": 68.8,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 39.5
+      "discoverability": 81.5,
+      "contract_quality": 49.5,
+      "governance": 11.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 66.8,
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
-      "score": 25.8,
+      "score": 63.6,
       "matched_via": "tags"
      },
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
+     "agent_score": 45.7,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "mcp_server": false,
+      "mcp_server": "derived",
       "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
       "event_surface_described": false,
-      "agent_skills": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Brokers & Intermediaries",
-     "rank": 4
+     "tier": "Market Bodies, Standards & Regulators",
+     "rank": 3
     }
    ],
    "open": true
@@ -200,27 +155,27 @@
    "label": "Thin",
    "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 12,
-   "shown": 12,
+   "count": 13,
+   "shown": 13,
    "providers": [
     {
      "name": "Ki Insurance",
      "slug": "ki-insurance",
      "description": "Ki is the first fully digital, algorithmically driven syndicate at Lloyd's of London, launched in 2020 out of Brit with Google Cloud and University College London and capitalised with US$500m from Blackstone Tactical Opportunities and Fairfax Financial. Operating from the United Kingdom as Lloyd's Syndicate 1618, Ki writes follow-only capacity across specialty lines — property, casualty and specialty — quoting risks that a lead underwriter has already priced, in seconds rather than days, through an algorithm rather than a face-to-face negotiation in the Room. Brokers reach Ki through app.ki-insurance.com, a partner-gated single-page platform behind an Auth0 authorization-code login, and Ki announced a \"Broker API\" in May 2021 that lets partner broking platforms request quotes directly from the algorithm. That API posture is entirely partner-gated: there is no developer portal, no public reference documentation, no self-serve signup, no provider-published OpenAPI or Postman collection, and no public webhook or event catalog. What is observable is the platform API itself — Ki's own broker client ships a complete endpoint registry in its public JavaScript bundle, exposing a same-origin REST surface of roughly a hundred JSON operations across quotes, quote lines, pricing, schedules of values, slip extraction, leads, pipeline, broking houses, nominated leads and Lloyd's risk codes, all authorised with an Auth0 bearer token. API Evangelist has derived an observed OpenAPI from that bundle. Ki remains the archetype of the United Kingdom's London-market pattern: genuinely advanced machine-to-machine insurance placement infrastructure, aimed at brokers and syndicates rather than at developers, and therefore effectively invisible from the outside.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/screenshots/ki-insurance-2026-07-25T223715.png",
-     "score": 41.2,
+     "score": 40.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 65.1,
+      "contract_quality": 62.7,
       "governance": 11.5,
       "operational_transparency": 5.3,
       "developer_ergonomics": 16.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -228,7 +183,7 @@
       "score": 63.6,
       "matched_via": "tags"
      },
-     "agent_score": 38.5,
+     "agent_score": 34.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -241,12 +196,57 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
      "tier": "Underwriting AI & Submission Ingestion",
+     "rank": 4
+    },
+    {
+     "name": "Ripe Insurance",
+     "slug": "ripe-insurance",
+     "description": "Ripe Insurance Services Limited, trading as Ripe and part of Ripe Thinking Limited, is a Stockport-based United Kingdom digital Managing General Agent and specialist insurance intermediary authorised and regulated by the Financial Conduct Authority (FRN 313411). Founded in 1997 and majority-backed by Aquiline Capital Partners, Ripe underwrites and distributes niche personal and small-commercial lines direct to consumers through its own brands — Cycleplan, Golf Care, Insure4Boats, Insure4Sport and Ripe Caravans — covering caravans and motorhomes, park homes and holiday homes, photography and music equipment, valuables, shooting, golf, cycling, boats, over 400 sports, personal trainers, hair and beauty businesses, clubs and leisure organisations, and small business. It reports more than 400,000 policyholders. Ripe's API posture is honestly assessed as partner-gated with no public developer surface — there is no developer portal, no self-serve API programme, no published quote, bind, issue or FNOL API, and no ACORD reference anywhere on its estate. Its in-house platform is marketed as flexible and fast to integrate, but partnering is a business-development contact form on ripethinking.co.uk rather than a technical onboarding path. The only anonymously reachable, machine-readable API surface across the Ripe brand estate is the Umbraco CMS Content Delivery API that ships with its .NET content management system — read-only content and media, incidental infrastructure rather than an insurance product API. Its April 2026 Cycleplan ChatGPT app delivers real-time cycling quotes conversationally, but is a first-party consumer channel with no published API, MCP server, or spec.",
+     "score": 36.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 41.0,
+      "governance": 11.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 21.2,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 63.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 44.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Insurtech & Digital-Native Insurers",
      "rank": 5
     },
     {
@@ -254,19 +254,19 @@
      "slug": "instanda",
      "description": "INSTANDA is a London-headquartered no-code insurance core-systems vendor, trading as F2X Group Limited (England and Wales no. 05236974) from 70 Gracechurch Street in the City of London, a few streets from Lloyd's. Founded in 2015 by Tim Hardcastle (CEO) and Derek Hill (Group CRO), it sells a cloud-native policy administration and digital distribution platform to insurance carriers, MGAs and brokers, letting business users configure products, rating, rules, documents, agent/broker portals and direct-to-consumer journeys without writing code. Its footprint spans property and casualty, life and health, and specialty lines across the UK, EMEA, North America and APAC, and it is architected on Microsoft Azure. INSTANDA markets itself as \"API-first\" and its platform does generate per-product REST/SOAP interfaces described with Swagger or WSDL definitions, plus Event Webhooks that HTTP POST customer event notifications to a subscriber-supplied URL - but none of that contract is public. There is no first-party developer portal: developer, developers, docs and api-docs subdomains all return 404, api.instanda.com resolves but answers anonymous requests with a bare 403, and support.instanda.com is a Freshdesk login wall. The Swagger surface has been located and it is gated - design.instanda.com/swagger/index.html is a registered route that redirects to the platform log-on page, while unknown paths on the same host hard-404. What INSTANDA does publish openly is a component-level status page at status.instanda.com covering four hosting regions, and a certification set of ISO 27001:2022, SOC 2, Cyber Essentials and PCI DSS SAQ A. Quote, bind, issue and FNOL all exist as platform capabilities - the status page names Quote Engine, Referrals, Renewals, MTAs, Endorsements and Claims as monitored services - but every one of them is reachable only through a licensed tenant or a partner integration. The honest finding is a partner-gated insurance core system with no public self-serve API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/instanda/refs/heads/main/screenshots/instanda-2026-07-25T222607.png",
-     "score": 37.5,
+     "score": 36.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 51.6,
       "governance": 12.5,
       "operational_transparency": 39.5,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -296,56 +296,56 @@
      "rank": 6
     },
     {
-     "name": "Ripe Insurance",
-     "slug": "ripe-insurance",
-     "description": "Ripe Insurance Services Limited, trading as Ripe and part of Ripe Thinking Limited, is a Stockport-based United Kingdom digital Managing General Agent and specialist insurance intermediary authorised and regulated by the Financial Conduct Authority (FRN 313411). Founded in 1997 and majority-backed by Aquiline Capital Partners, Ripe underwrites and distributes niche personal and small-commercial lines direct to consumers through its own brands — Cycleplan, Golf Care, Insure4Boats, Insure4Sport and Ripe Caravans — covering caravans and motorhomes, park homes and holiday homes, photography and music equipment, valuables, shooting, golf, cycling, boats, over 400 sports, personal trainers, hair and beauty businesses, clubs and leisure organisations, and small business. It reports more than 400,000 policyholders. Ripe's API posture is honestly assessed as partner-gated with no public developer surface — there is no developer portal, no self-serve API programme, no published quote, bind, issue or FNOL API, and no ACORD reference anywhere on its estate. Its in-house platform is marketed as flexible and fast to integrate, but partnering is a business-development contact form on ripethinking.co.uk rather than a technical onboarding path. The only anonymously reachable, machine-readable API surface across the Ripe brand estate is the Umbraco CMS Content Delivery API that ships with its .NET content management system — read-only content and media, incidental infrastructure rather than an insurance product API. Its April 2026 Cycleplan ChatGPT app delivers real-time cycling quotes conversationally, but is a first-party consumer channel with no published API, MCP server, or spec.",
-     "score": 37.2,
+     "name": "Towers Watson",
+     "slug": "towers-watson",
+     "description": "Towers Watson was a global professional services company that provided risk management, actuarial, human capital, and investment consulting services before merging with Willis Group to form Willis Towers Watson (now WTW) in 2016. WTW provides data-driven, insight-led solutions in risk, broking, HR consulting, and benefits administration across 140+ countries. WTW's software products include the HR Portal for employee benefits communication, benefits administration systems, compensation management tools, and actuarial modeling platforms.",
+     "score": 36.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 42.6,
-      "governance": 11.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 21.2,
-      "commercial_clarity": 34.2
+      "discoverability": 64.8,
+      "contract_quality": 66.6,
+      "governance": 68.8,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
-      "score": 63.6,
+      "score": 25.8,
       "matched_via": "tags"
      },
-     "agent_score": 48.4,
-     "agent_band": "agent-ready",
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "mcp_server": "derived",
+      "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Insurtech & Digital-Native Insurers",
+     "tier": "Brokers & Intermediaries",
      "rank": 7
     },
     {
-     "name": "Cuvva",
-     "slug": "cuvva",
-     "description": "Cuvva is a UK insurtech that pioneered flexible, short-term car and van insurance sold entirely through its mobile apps. Founded in 2015 as the first app to sell temporary car insurance in the UK, it offers policies from one hour up to 28 days, learner-driver cover, drive-away cover for newly purchased vehicles, temporary van and motorhome insurance, and a rolling subscription product (formerly Flexi). Cuvva is FCA-authorised and has sold over 16 million policies to 1.7M+ drivers. Its engineering is built on a fleet of small single-purpose service APIs (auth, vehicle, MOT, motor-coverage, billing, promo, profile, upload, terms, notification and more), publicly documented on GitHub and secured with an in-house OAuth 2.0 implementation using JWT bearer tokens.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cuvva/refs/heads/main/screenshots/cuvva-2026-07-25T211014.png",
-     "score": 34.4,
+     "name": "Bupa",
+     "slug": "bupa",
+     "description": "Bupa is a United Kingdom headquartered international healthcare group that writes private medical insurance and also runs the clinics, dental practices, hospitals and aged-care homes that deliver the care it funds. It has no shareholders, is owned by the British United Provident Association Limited and reinvests its profits, and operates market units across the UK, Australia and New Zealand, Spain and Latin America (Sanitas, Bupa Chile), Turkiye, Poland, Hong Kong SAR, India and the Middle East, plus the Bupa Global international private medical insurance business. Its lines of business are health insurance, health provision and aged care rather than property and casualty or life, so the ACORD data standards that shape the rest of the insurance sector are absent from its published surface. Bupa's API posture is partner-gated: the group site bupa.com publishes no developer portal at all (developer, developers, docs and api subdomains do not resolve, and /developers, /api and /developer return 404), and the only first-party developer surfaces belong to market units. Bupa Australia runs a real Azure API Management developer portal at portal.api.bupa.com.au that returns HTTP 200 but lists no APIs publicly, instructing prospective consumers to contact the Bupa Integration Fabric Team to get access to API specifications; Bupa Chile runs apidoc.bupa.cl behind a Microsoft Entra ID login wall whose backend returns HTTP 401 to anonymous callers; and the Bupa Global portal host api-portal.bupaglobal.com no longer resolves. No public OpenAPI or Swagger definition, no Postman collection, no GraphQL or gRPC surface, and no event or webhook catalog could be confirmed anywhere on Bupa's public web estate as of 2026-07-25, and none of the four insurance API verbs — quote, bind, issue or FNOL — is exposed to unauthenticated developers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bupa/refs/heads/main/screenshots/bupa-2026-07-25T204111.png",
+     "score": 33.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -353,11 +353,103 @@
       "contract_quality": 0.0,
       "governance": 12.5,
       "operational_transparency": 31.6,
+      "developer_ergonomics": 52.2,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 47.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 12.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Life, Health & Benefits Insurers",
+     "rank": 8
+    },
+    {
+     "name": "Artificial Labs",
+     "slug": "artificial-labs",
+     "description": "Artificial Labs is a London-based insurance technology company building algorithmic and digital underwriting software for the specialty and reinsurance market, with the Lloyd's of London subscription market as its home ground. Founded and headquartered in the City of London at 1-3 Frederick's Place, and led by co-founders and co-CEOs David King and Johnny Bridges under chairman Martin Reith, the company sells three products to carriers, syndicates, MGAs and wholesale brokers: Smart Underwriting (a configurable lead-and-follow digital underwriting platform with appetite modelling and accept/refer/decline submission triage), Smart Placement (a broker-side placement and distribution platform) and Contract Builder (MRCv3-compliant structured digital contract creation, which powers PPL's integrated Digital Contract Capability). Named customers and partners include Apollo, PPL, BMS Group, Lockton and McGill and Partners, and the firm is an alumnus of the Lloyd's Lab accelerator. Its API posture is partner-gated and matches the London Market pattern: Artificial talks publicly and often about APIs as the connective tissue between broker PAS, carrier systems and its own platform, and describes real quote-and-bind flows in which risk data is pushed to the Artificial platform via API and a written line and rate are returned via API, but it publishes no public self-serve developer portal, no downloadable OpenAPI or Swagger definition, no public Postman collection and no public API host. api.artificial.io and developer.artificial.io do not resolve in DNS. The product documentation site at docs.artificial.io returns HTTP 200 on its landing page only, which states plainly \"To view the documentation, you must sign in\"; every product and reference path 302-redirects to an Auth0 authorization-code login at auth.artificialos.com, and docs robots.txt is Disallow all. Its GitHub organization, github.com/artificial-labs, exists but has zero public repositories. Where Artificial is genuinely and demonstrably standards-forward is ACORD: it joined the ACORD Solutions Group Licensed Integrator Partner program in October 2023, builds Contract Builder and Smart Placement on a structured data model incorporating MRCv3, ACORD GRLC and the Lloyd's Core Data Record, validates contracts pre-submission against MRCv3 and ACORD standards, and consumes the ACORD Transcriber API for automated data extraction. That is the honest shape of this record: real, working, standards-aligned insurance APIs that are invisible from outside the contractual relationship.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/screenshots/artificial-labs-2026-07-25T201337.png",
+     "score": 33.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 80.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 9.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Underwriting AI & Submission Ingestion",
+     "rank": 9
+    },
+    {
+     "name": "Cuvva",
+     "slug": "cuvva",
+     "description": "Cuvva is a UK insurtech that pioneered flexible, short-term car and van insurance sold entirely through its mobile apps. Founded in 2015 as the first app to sell temporary car insurance in the UK, it offers policies from one hour up to 28 days, learner-driver cover, drive-away cover for newly purchased vehicles, temporary van and motorhome insurance, and a rolling subscription product (formerly Flexi). Cuvva is FCA-authorised and has sold over 16 million policies to 1.7M+ drivers. Its engineering is built on a fleet of small single-purpose service APIs (auth, vehicle, MOT, motor-coverage, billing, promo, profile, upload, terms, notification and more), publicly documented on GitHub and secured with an in-house OAuth 2.0 implementation using JWT bearer tokens.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cuvva/refs/heads/main/screenshots/cuvva-2026-07-25T211014.png",
+     "score": 33.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 31.6,
       "developer_ergonomics": 45.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -384,117 +476,25 @@
       "dry_run_mode": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 8
-    },
-    {
-     "name": "Bupa",
-     "slug": "bupa",
-     "description": "Bupa is a United Kingdom headquartered international healthcare group that writes private medical insurance and also runs the clinics, dental practices, hospitals and aged-care homes that deliver the care it funds. It has no shareholders, is owned by the British United Provident Association Limited and reinvests its profits, and operates market units across the UK, Australia and New Zealand, Spain and Latin America (Sanitas, Bupa Chile), Turkiye, Poland, Hong Kong SAR, India and the Middle East, plus the Bupa Global international private medical insurance business. Its lines of business are health insurance, health provision and aged care rather than property and casualty or life, so the ACORD data standards that shape the rest of the insurance sector are absent from its published surface. Bupa's API posture is partner-gated: the group site bupa.com publishes no developer portal at all (developer, developers, docs and api subdomains do not resolve, and /developers, /api and /developer return 404), and the only first-party developer surfaces belong to market units. Bupa Australia runs a real Azure API Management developer portal at portal.api.bupa.com.au that returns HTTP 200 but lists no APIs publicly, instructing prospective consumers to contact the Bupa Integration Fabric Team to get access to API specifications; Bupa Chile runs apidoc.bupa.cl behind a Microsoft Entra ID login wall whose backend returns HTTP 401 to anonymous callers; and the Bupa Global portal host api-portal.bupaglobal.com no longer resolves. No public OpenAPI or Swagger definition, no Postman collection, no GraphQL or gRPC surface, and no event or webhook catalog could be confirmed anywhere on Bupa's public web estate as of 2026-07-25, and none of the four insurance API verbs — quote, bind, issue or FNOL — is exposed to unauthenticated developers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bupa/refs/heads/main/screenshots/bupa-2026-07-25T204111.png",
-     "score": 33.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 52.2,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 47.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 9.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Life, Health & Benefits Insurers",
-     "rank": 9
-    },
-    {
-     "name": "Artificial Labs",
-     "slug": "artificial-labs",
-     "description": "Artificial Labs is a London-based insurance technology company building algorithmic and digital underwriting software for the specialty and reinsurance market, with the Lloyd's of London subscription market as its home ground. Founded and headquartered in the City of London at 1-3 Frederick's Place, and led by co-founders and co-CEOs David King and Johnny Bridges under chairman Martin Reith, the company sells three products to carriers, syndicates, MGAs and wholesale brokers: Smart Underwriting (a configurable lead-and-follow digital underwriting platform with appetite modelling and accept/refer/decline submission triage), Smart Placement (a broker-side placement and distribution platform) and Contract Builder (MRCv3-compliant structured digital contract creation, which powers PPL's integrated Digital Contract Capability). Named customers and partners include Apollo, PPL, BMS Group, Lockton and McGill and Partners, and the firm is an alumnus of the Lloyd's Lab accelerator. Its API posture is partner-gated and matches the London Market pattern: Artificial talks publicly and often about APIs as the connective tissue between broker PAS, carrier systems and its own platform, and describes real quote-and-bind flows in which risk data is pushed to the Artificial platform via API and a written line and rate are returned via API, but it publishes no public self-serve developer portal, no downloadable OpenAPI or Swagger definition, no public Postman collection and no public API host. api.artificial.io and developer.artificial.io do not resolve in DNS. The product documentation site at docs.artificial.io returns HTTP 200 on its landing page only, which states plainly \"To view the documentation, you must sign in\"; every product and reference path 302-redirects to an Auth0 authorization-code login at auth.artificialos.com, and docs robots.txt is Disallow all. Its GitHub organization, github.com/artificial-labs, exists but has zero public repositories. Where Artificial is genuinely and demonstrably standards-forward is ACORD: it joined the ACORD Solutions Group Licensed Integrator Partner program in October 2023, builds Contract Builder and Smart Placement on a structured data model incorporating MRCv3, ACORD GRLC and the Lloyd's Core Data Record, validates contracts pre-submission against MRCv3 and ACORD standards, and consumes the ACORD Transcriber API for automated data extraction. That is the honest shape of this record: real, working, standards-aligned insurance APIs that are invisible from outside the contractual relationship.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/artificial-labs/refs/heads/main/screenshots/artificial-labs-2026-07-25T201337.png",
-     "score": 33.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 26.1,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 80.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 12.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Underwriting AI & Submission Ingestion",
      "rank": 10
     },
     {
      "name": "Zego",
      "slug": "zego",
      "description": "Zego is an FCA-regulated UK insurtech providing flexible, technology-driven motor and public-liability insurance built for the gig economy. Its telematics app (Sense) rewards safe driving, and it covers food-delivery and courier riders, private-hire and taxi drivers, van drivers, fleets, and learner drivers with monthly or annual policies. Zego works with partners such as Uber, Deliveroo, Just Eat and Amazon Flex, has served around 750,000 drivers and sold over 94 million policies. Beyond consumer products, Zego operates a RESTful Partner API (developer.zego.com, base URL api.zego.com) that lets work providers activate and deactivate insurance cover per shift, register and validate customers, enrol customers on public liability, issue fixed-term policies, and match external users to Zego customers, with signed webhooks for sign-up integration.",
-     "score": 33.3,
+     "score": 33.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 68.2,
+      "contract_quality": 65.7,
       "governance": 0.0,
       "operational_transparency": 10.5,
-      "developer_ergonomics": 15.2,
+      "developer_ergonomics": 19.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -502,19 +502,19 @@
       "score": 30.3,
       "matched_via": "tags"
      },
-     "agent_score": 21.6,
+     "agent_score": 25.5,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
-      "mcp_server": false,
+      "mcp_server": "derived",
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
       "event_surface_described": true,
-      "agent_skills": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -528,19 +528,19 @@
      "slug": "hiscox",
      "description": "Hiscox Ltd is a diversified international specialist insurance and reinsurance group with roots in the Lloyd's of London market dating to 1901, domiciled in Bermuda and listed on the London Stock Exchange, operating from 31 offices across 13 countries. Its home market is the United Kingdom, where it underwrites through three segments: Hiscox Retail (small business, professional and specialty personal lines sold direct and through brokers in the UK, Europe and the USA), Hiscox London Market (larger and more complex specialty risks written out of London for a worldwide client base, including marine, energy, aviation, specialty property and casualty, and cyber), and Hiscox Re & ILS (reinsurance and insurance-linked securities). Its API posture is partner-gated rather than public. Hiscox operates a genuine first-party developer portal at developer.hiscox.com serving its US small-business arm, and that portal publicly enumerates three active APIs - Eligibility, Quote v4 and Setup Payment - but every reference document, sandbox credential and OpenAPI/Swagger file sits behind a login that is only issued after a Hiscox Partnership Manager approves a commercial partnership. There is no self-serve signup, no downloadable specification and no public claims or FNOL API. The group does ship APIs outside that portal: Hiscox London Market launched a Cargo API for small cargo and stock throughput risks in June 2025, built in-house and distributed through broker partners as coverholders, but it has no developer portal listing, no documentation and no specification - it is announced through the newsroom and reached through a broker partnership. Authentication is OAuth 2.0 plus a partner-issued API key over TLS 1.2 only, all APIs are REST, and both XML and JSON are supported. Hiscox's most concrete open-standards footprint is ACORD rather than REST: in July 2025 ACORD and Howden announced that ACORD Standards for digital accounting and invoicing went live in the UK retail insurance market with Hiscox as the receiving insurer, responding in real time to Howden's digital invoices through the ACORD Solutions Group ADEPT (ACORD Data Exchange Platform & Translator) receiver portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hiscox/refs/heads/main/screenshots/hiscox-2026-07-25T221253.png",
-     "score": 32.9,
+     "score": 32.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 83.3,
+      "discoverability": 72.2,
       "contract_quality": 0.0,
       "governance": 12.5,
       "operational_transparency": 5.3,
       "developer_ergonomics": 58.7,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -585,8 +585,8 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -594,7 +594,7 @@
       "score": 65.2,
       "matched_via": "tags"
      },
-     "agent_score": 12.6,
+     "agent_score": 9.0,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -607,7 +607,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -631,8 +631,8 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -640,7 +640,7 @@
       "score": 41.7,
       "matched_via": "tags"
      },
-     "agent_score": 19.4,
+     "agent_score": 15.8,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -653,7 +653,7 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -666,19 +666,19 @@
      "slug": "lloyds-of-london",
      "description": "Lloyd's of London is the world's specialist insurance and reinsurance market, operating as a regulated marketplace rather than as a carrier: the Corporation of Lloyd's oversees syndicates, managing agents, brokers and coverholders who underwrite property, casualty, marine, aviation, energy, cyber, political risk and reinsurance business on a subscription basis from its home market in the United Kingdom. Its API posture reflects that role. Lloyd's is a standards and market-infrastructure publisher first — the Core Data Record (CDR), the Market Reform Contract (MRC), coverholder and delegated claims reporting standards, and Blueprint Two digital processing requirements — and its technical surface is aimed at brokers, syndicates and market vendors, not at outside developers. Lloyd's ran a public API Development Portal at developer.lloyds.com (the \"API Factory\", BETA from June 2020) that published a Base API Standard and a catalogue of three market APIs: Placing — Submission and Quote, Placing — Firm Order, and RPAC for delegated authority risk, premium and claims. That portal now redirects to www.lloyds.com and no replacement self-serve developer portal is published. Production access to the underlying London Market API gateway (https://api.londonmarketgroup.co.uk) has always been partner-gated: an organisation must be onboarded to LIMOSS Common Services, registered in the Common Services Azure Active Directory tenant, and register an X.509 certificate before it can call anything. There is no public, self-serve Lloyd's API, no public sandbox and no public downloadable specification reachable today — the honest record for this market body is documentation-and-standards-first. What Lloyd's does still operate, verified by live probe, is a genuine gated API estate: three isolated gateway environments (Sandbox, PreProd, Production), an OpenID Connect discovery document and JWKS published on each, and a routed Catastrophe Codes v1 endpoint whose unauthenticated /health meta resource answers 200 while its data resources return 401 \"Client certificate is missing\". Its most reusable public artifact is the Lloyd's Base API Standard — a normative RFC 2119 document fixing the resource model, query grammar, collection and error envelopes, versioning compatibility rules and the dual mutual-TLS + JWT security model for every API published to the market.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lloyds-of-london/refs/heads/main/screenshots/lloyds-of-london-2026-07-25T225413.png",
-     "score": 31.9,
+     "score": 30.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 83.3,
+      "discoverability": 72.2,
       "contract_quality": 0.0,
       "governance": 12.5,
       "operational_transparency": 31.6,
       "developer_ergonomics": 32.6,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -686,7 +686,7 @@
       "score": 72.7,
       "matched_via": "tags"
      },
-     "agent_score": 20.5,
+     "agent_score": 16.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -699,7 +699,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
@@ -723,8 +723,8 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -732,7 +732,7 @@
       "score": 37.9,
       "matched_via": "tags"
      },
-     "agent_score": 15.8,
+     "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -745,7 +745,7 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -780,13 +780,103 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
       "score": 71.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 9.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Insurtech & Digital-Native Insurers",
+     "rank": 17
+    },
+    {
+     "name": "Vitality",
+     "slug": "vitality-uk",
+     "description": "Vitality is a United Kingdom health and life insurer, operating as VitalityHealth and VitalityLife under the Vitality umbrella brand and owned by the South African financial services group Discovery Limited. Formed from the 2004 PruHealth joint venture with Prudential and the 2010 acquisition of Standard Life Healthcare, and rebranded to Vitality in 2014, it is the UK's third-largest private medical insurer behind Bupa and AXA, with roughly 1.9 million members and a shared-value model that prices private medical insurance, life cover and protection against member health and activity engagement. Its lines of business are private medical insurance, life insurance and protection, and workplace/employee benefits distributed through intermediaries, employee benefit consultants and bank partnerships rather than direct developer channels. Vitality's API posture is partner-gated and undocumented in public: it has modernised onto a WSO2 API Manager platform to decouple core policy and member services from front-end applications and to shorten partner onboarding, and it runs a publicly resolvable production API gateway at apis.vitality.co.uk, but it publishes no self-serve developer portal, no API reference, no OpenAPI or Swagger definitions and no public quote, bind, issue or FNOL endpoints. Credentials are issued through commercial partner onboarding and the gateway's OAuth2 client-credentials token endpoint rejects anonymous callers. There is no public ACORD, AL3 or NGDS reference for the UK entity, which is consistent with a life-and-health carrier in a market where ACORD adoption is concentrated in the London subscription market rather than in retail health and protection.",
+     "score": 25.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 15.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 63.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 12.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Life, Health & Benefits Insurers",
+     "rank": 18
+    },
+    {
+     "name": "RSA Insurance",
+     "slug": "rsa-insurance",
+     "description": "RSA Insurance is a British property and casualty insurer whose lineage runs back to the Sun Fire Office of 1710, making it one of the oldest general insurance brands in the United Kingdom. It writes commercial lines through intermediaries — property, liability, motor fleet, marine, construction, engineering and renewable energy, cyber, professional and financial lines, rail, and accident and health — alongside a residual personal lines book. RSA Insurance Group was acquired by Intact Financial Corporation in 2021, and on 6 October 2025 RSA and NIG formally rebranded to Intact Insurance across the UK, Ireland and Europe; rsainsurance.co.uk now survives as a legacy broker-tools site while corporate, investor, careers and news content has moved to intactinsurance.co.uk. RSA has no public developer portal and publishes no self-serve API. developer., developers., docs. and api. subdomains do not serve (wildcard DNS resolves but no TLS service answers), and /developers, /api, /developer, /partners, /integrations and /brokers all return HTTP 404. Every integration surface is broker-gated behind a user ID and password issued to registered intermediaries: RSA Connect (the \"Connect Intermediary Website\"), RSA Online for intermediated personal home and commercial trading, RSA Claims Online, an eFNOL commercial property claims form, the MID2 Motor Insurance Database portal, and the RSAred risk management customer portal. Machine-to-machine trading reaches RSA the way it reaches most UK carriers — through broker software houses (Acturis, Applied, Open GI, SSP, Bravo Digital Trader) and the Polaris imarket commercial e-trading hub, which lists Intact among its participating insurers and runs on Polaris Standards rather than an openly documented carrier API. No ACORD, AL3, ACORD XML, NGDS or IVANS reference appears anywhere on RSA's public site, and no Lloyd's PPL, Whitespace or Blueprint Two participation was found. This is a partner-gated carrier with no public API surface.",
+     "score": 24.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 34.8,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 45.5,
       "matched_via": "tags"
      },
      "agent_score": 12.6,
@@ -807,27 +897,27 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 17
+     "tier": "P&C / General Insurers",
+     "rank": 19
     },
     {
      "name": "Legal & General",
      "slug": "legal-and-general",
      "description": "Legal & General Group plc is a FTSE 100 United Kingdom life insurer, retirement and institutional asset manager headquartered in London and regulated by the FCA and PRA. Its lines of business are life and protection insurance (term life, critical illness, income protection), workplace and individual pensions, annuities and bulk-purchase annuity/pension risk transfer, equity release through Legal & General Home Finance, and asset management through Legal & General Investment Management. It is a life and health carrier rather than a general insurer, and it distributes almost entirely through regulated intermediaries — financial advisers, mortgage brokers and employee-benefit consultants — rather than direct-to-developer. Its API posture reflects that distribution model honestly: Legal & General publishes NO public, self-serve developer portal, no public API reference, and no downloadable OpenAPI or Swagger definition. No developer.legalandgeneral.com, developers, docs, or api subdomain resolves in DNS, and /developers, /api, /developer, /partners and /integrations all return HTTP 404 on the primary site. Every documented Legal & General API is a bilateral, partner-gated integration announced by the counterparty rather than published by Legal & General — real-time equity release quotation, KFI and application APIs wired into Iress \"The Exchange\", Air Sourcing and the Advise Wise platform, a Mortgage Club integration with Kensington Mortgages, and adviser-facing protection quote-and-apply through OLP Connect. Adviser identity and messaging run on the UK's Origo rails — Unipass digital certificates, Unipass Letter of Authority and Origo Track My Apps — which is the UK life and pensions analogue of ACORD; no ACORD, AL3, ACORD XML or NGDS reference appears anywhere in Legal & General's public surface. The only public Legal & General code is the Canopy design system on GitHub — an Apache-2.0 Angular component library shipped through GitHub Packages, with dated semver release notes, a published breaking-change policy, a repository security policy, and 84 installable agent skills (69 component best-practice skills and 15 per-major migration skills) that work with GitHub Copilot, Claude Code and Cursor. That makes Legal & General agent-native on the front end and completely closed on the API. This record exists to measure that split accurately: a large carrier whose integration surface is entirely intermediary-gated and invisible from outside a login wall.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/legal-and-general/refs/heads/main/screenshots/legal-and-general-2026-07-25T224825.png",
-     "score": 25.2,
+     "score": 24.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 12.5,
       "operational_transparency": 39.5,
       "developer_ergonomics": 13.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -854,96 +944,6 @@
       "dry_run_mode": false
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 18
-    },
-    {
-     "name": "Vitality",
-     "slug": "vitality-uk",
-     "description": "Vitality is a United Kingdom health and life insurer, operating as VitalityHealth and VitalityLife under the Vitality umbrella brand and owned by the South African financial services group Discovery Limited. Formed from the 2004 PruHealth joint venture with Prudential and the 2010 acquisition of Standard Life Healthcare, and rebranded to Vitality in 2014, it is the UK's third-largest private medical insurer behind Bupa and AXA, with roughly 1.9 million members and a shared-value model that prices private medical insurance, life cover and protection against member health and activity engagement. Its lines of business are private medical insurance, life insurance and protection, and workplace/employee benefits distributed through intermediaries, employee benefit consultants and bank partnerships rather than direct developer channels. Vitality's API posture is partner-gated and undocumented in public: it has modernised onto a WSO2 API Manager platform to decouple core policy and member services from front-end applications and to shorten partner onboarding, and it runs a publicly resolvable production API gateway at apis.vitality.co.uk, but it publishes no self-serve developer portal, no API reference, no OpenAPI or Swagger definitions and no public quote, bind, issue or FNOL endpoints. Credentials are issued through commercial partner onboarding and the gateway's OAuth2 client-credentials token endpoint rejects anonymous callers. There is no public ACORD, AL3 or NGDS reference for the UK entity, which is consistent with a life-and-health carrier in a market where ACORD adoption is concentrated in the London subscription market rather than in retail health and protection.",
-     "score": 25.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 15.2,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 63.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 16.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Life, Health & Benefits Insurers",
-     "rank": 19
-    },
-    {
-     "name": "RSA Insurance",
-     "slug": "rsa-insurance",
-     "description": "RSA Insurance is a British property and casualty insurer whose lineage runs back to the Sun Fire Office of 1710, making it one of the oldest general insurance brands in the United Kingdom. It writes commercial lines through intermediaries — property, liability, motor fleet, marine, construction, engineering and renewable energy, cyber, professional and financial lines, rail, and accident and health — alongside a residual personal lines book. RSA Insurance Group was acquired by Intact Financial Corporation in 2021, and on 6 October 2025 RSA and NIG formally rebranded to Intact Insurance across the UK, Ireland and Europe; rsainsurance.co.uk now survives as a legacy broker-tools site while corporate, investor, careers and news content has moved to intactinsurance.co.uk. RSA has no public developer portal and publishes no self-serve API. developer., developers., docs. and api. subdomains do not serve (wildcard DNS resolves but no TLS service answers), and /developers, /api, /developer, /partners, /integrations and /brokers all return HTTP 404. Every integration surface is broker-gated behind a user ID and password issued to registered intermediaries: RSA Connect (the \"Connect Intermediary Website\"), RSA Online for intermediated personal home and commercial trading, RSA Claims Online, an eFNOL commercial property claims form, the MID2 Motor Insurance Database portal, and the RSAred risk management customer portal. Machine-to-machine trading reaches RSA the way it reaches most UK carriers — through broker software houses (Acturis, Applied, Open GI, SSP, Bravo Digital Trader) and the Polaris imarket commercial e-trading hub, which lists Intact among its participating insurers and runs on Polaris Standards rather than an openly documented carrier API. No ACORD, AL3, ACORD XML, NGDS or IVANS reference appears anywhere on RSA's public site, and no Lloyd's PPL, Whitespace or Blueprint Two participation was found. This is a partner-gated carrier with no public API surface.",
-     "score": 24.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 34.8,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 45.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 9.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "P&C / General Insurers",
      "rank": 20
     },
     {
@@ -951,19 +951,19 @@
      "slug": "by-miles",
      "description": "By Miles is a London-based insurtech that pioneered pay-by-mile motor insurance in the United Kingdom, founded in 2016 for low-mileage drivers who cover under roughly 7,000 miles a year. Its single line of business is UK private motor (personal lines property and casualty), priced as a fixed annual premium covering the parked car plus a per-mile charge for the distance actually driven. Mileage is measured either by the OBD-II \"Miles Tracker\" telematics dongle or, on its \"connect\" trackerless policies, by pulling odometer data directly from the manufacturer's connected-car platform after the driver links a Tesla, Ford or Mercedes-Benz account. By Miles was acquired by Direct Line Group in April 2023 and, following Aviva's acquisition of Direct Line Group, has been wound down — it stopped quoting new business and, from 6 January 2026, stopped offering renewal quotes to existing customers. Its API posture is that of a pure API CONSUMER, not a producer: it was the first UK insurtech directly authorised by the FCA as an AISP/PISP to consume Open Banking APIs (January 2020), and it consumes OEM connected-car APIs for mileage, but it publishes no public self-serve developer portal, no reference documentation, no OpenAPI, no Postman collection and no webhook catalogue. The only integration surface is a partnerships email address and a private AWS API Gateway host serving its own mobile app, so this record is a partner-gated stub by design.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/by-miles/refs/heads/main/screenshots/by-miles-2026-07-25T204131.png",
-     "score": 23.9,
+     "score": 23.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 12.5,
       "operational_transparency": 15.8,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -997,19 +997,19 @@
      "slug": "open-gi",
      "description": "Open GI is a Worcester-headquartered insurance software house that has supplied the UK and Ireland general insurance market for more than 45 years, serving over 600 broker, MGA and insurer customers across personal and commercial lines. Its product estate spans the legacy Core policy administration system and the newer cloud Mobius platform — policy administration and client management, product management, Insurer Hosted Pricing (IHP and IHP+), Ratings, the Dynamic Pricing Tool, quote-and-buy websites, customer portals and a Partner Network of 150-plus insurers, aggregators, premium finance, payment and data-enrichment providers. Its API posture is honestly partner-gated. Mobius genuinely ships APIs — Open GI's own public release notes describe Client Checks / sanctions-check endpoints and an API-triggered custom-event call — but the Mobius Developer Portal is a customer-only surface whose URL Open GI does not publish, no developer, docs, api or partners subdomain resolves on opengi.co.uk, every /developers, /developer, /api and /partners path on the marketing site returns 404, and even the company's own API Terms of Use page is password-protected. There is no public self-serve developer portal, no downloadable OpenAPI or Swagger, no public sandbox, no published auth model and no ACORD reference anywhere on the public site; insurer connectivity is delivered through UK-market EDI messaging inside the platform and through pre-agreed Partner Network integrations rather than through an open API programme.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-gi/refs/heads/main/screenshots/open-gi-2026-08-07T190454.png",
-     "score": 22.6,
+     "score": 21.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 77.8,
+      "discoverability": 66.7,
       "contract_quality": 0.0,
       "governance": 12.5,
       "operational_transparency": 15.8,
       "developer_ergonomics": 15.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1053,8 +1053,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 26.3
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1062,7 +1062,7 @@
       "score": 39.4,
       "matched_via": "tags"
      },
-     "agent_score": 3.6,
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1075,7 +1075,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -1099,8 +1099,8 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1145,8 +1145,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1154,53 +1154,7 @@
       "score": 30.3,
       "matched_via": "tags"
      },
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "P&C / General Insurers",
-     "rank": 25
-    },
-    {
-     "name": "Convex",
-     "slug": "convex-insurance",
-     "description": "Convex Group Limited is an international specialty insurer and reinsurer founded in 2019 by Stephen Catlin and Paul Brand, headquartered in London with operations in Bermuda, Luxembourg, Guernsey and the United States. Convex writes complex commercial and specialty risk across property, casualty, marine, energy, aviation, cyber, political risk and credit, crisis management, accident and health, and equine/livestock/aquaculture, and writes property, casualty and specialty treaty reinsurance through Convex Re Limited in Bermuda and London. Convex Insurance UK Limited is authorised by the Prudential Regulation Authority and regulated by the FCA and PRA; it is a London company-market carrier rather than a Lloyd's syndicate, and it reported roughly $5.2bn of gross written premium in 2024. Convex operates a named Digital Underwriting function that publicly describes building \"a suite of insurance specific APIs\" for automated quote and bind on high-volume, low-complexity specialty books, delivered either through a Convex-hosted broker portal or by connecting Convex products into a broker's or client's existing portal via API. That API programme is real but entirely partner-gated: as of 2026-07-25 Convex publishes no public developer portal, no API reference, no OpenAPI or other machine- readable definition, no sandbox and no self-serve signup. The api.convexin.com host is live but answers every anonymous request with HTTP 401 Unauthorized, the digital.convexin.com broker application is an authenticated Unqork-hosted portal, and the Convex Quick Quote event-insurance surface is behind a broker account registration form. Integration is arranged through the Business Development team, not through documentation. No ACORD, AL3, NGDS or IVANS reference appears anywhere on Convex's public web presence.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/convex-insurance/refs/heads/main/screenshots/convex-insurance-2026-07-25T210353.png",
-     "score": 18.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 28.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
+     "agent_score": 2.7,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1214,30 +1168,30 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
+      "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "Urban Jungle",
      "slug": "urban-jungle",
      "description": "Urban Jungle Services Ltd is a London-based direct-to-consumer insurtech, founded in 2016 by Jimmy Williams and Greg Smyth to sell home insurance to \"Generation Rent\" — renters, sharers and students the traditional UK market underserves. It is an FCA-authorised intermediary (FRN 782061, company number 10414152, England and Wales) and a certified B Corp, selling contents, buildings and contents, students contents, tenants liability, landlord, home emergency and public liability cover through its own digital journey at myurbanjungle.com, and claiming over 100,000 customers. Its API posture is partner-gated and undocumented in public. Urban Jungle announced a partnership programme and quote API in 2018, positioned so lettings agents, PropTech firms, institutional landlords and eCommerce sites can serve Urban Jungle quotes inside their own apps without being directly FCA-regulated themselves, but there is no developer portal, no reference documentation, no machine- readable specification and no self-serve signup. The only route in is a partnerships email address on a marketing page. No ACORD, AL3 or NGDS reference appears anywhere on the company's site or in its front-end bundles.",
-     "score": 18.3,
+     "score": 17.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 12.5,
       "operational_transparency": 0.0,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1264,70 +1218,25 @@
       "dry_run_mode": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 27
-    },
-    {
-     "name": "Prudential plc",
-     "slug": "prudential-plc",
-     "description": "Prudential plc is a life and health insurance and asset management group incorporated in England and Wales and listed on the London, Hong Kong, Singapore and New York exchanges, with its principal operating office in Hong Kong and roots in London going back to 1848. Its home market for this profile is the United Kingdom, but its book is almost entirely Asian and African: life protection, health and medical, savings and retirement, takaful, pensions and Hong Kong Mandatory Provident Funds, plus asset management under the Eastspring brand, across Hong Kong, Singapore, Malaysia, Indonesia, the Philippines, Thailand, Vietnam, Taiwan, India, mainland China, Cambodia, Laos, Myanmar and a dozen African markets including Kenya, Uganda, Ghana, Nigeria and Zambia. It is no longer a UK retail insurer at all - the UK and Europe business was demerged as M&G plc in 2019 and the US business as Jackson Financial in 2021 - so the familiar UK \"Pru\" brands at pru.co.uk belong to M&G, not to this company. Its API posture is that there is no public API posture. Prudential plc publishes no developer portal, no API reference, no downloadable OpenAPI or Swagger document and no partner integration surface of any kind: developer, developers, docs, api, apis, partners, portal and sandbox subdomains of prudentialplc.com all fail to resolve, and /developers, /api, /developer, /partners and /integrations on the corporate site all return HTTP 404. The group's stated technology strategy is inward-facing - AI, automation, cloud and a global AI Lab running over a hundred internal use cases - and its distribution is built on tied agency forces and exclusive bancassurance partnerships with banks such as Standard Chartered, CIMB, MSB, SeABank, Bank Syariah Indonesia and UOB, which are commercial and contractual relationships rather than published API programmes. The Pulse by Prudential health and wealth app onboards health-tech and wealth-tech partners (Babylon, Tictrac, Halodoc, Smarter Health, Prive Technologies, OVO, Google Cloud) but every announcement describes the arrangement in commercial terms and none exposes a developer programme, SDK or public API. No ACORD, AL3, ACORD XML or NGDS reference was found anywhere in Prudential plc's public estate. Recorded honestly as a large carrier with a fully partner-gated, non-public integration surface. One genuine machine-readable surface does exist, and it is not an API: six of the group's market operating companies - Prudential Hong Kong, Prudential Singapore, Prudential Indonesia, Prudential Vietnam, Pru Life UK in the Philippines and Prudential BSN Takaful in Malaysia - publish real first-party llms.txt documents for grounding large language models, with Prudential Vietnam declaring a per-user-agent bot access policy for gptbot, claudebot, google-extended, perplexitybot and six other crawlers. The corporate domain publishes none. Underneath that, the group runs a visibly centralised security posture: TLS 1.3 and HSTS on every market host, and one shared PowerDMARC/PowerSPF tenant with a common aggregate-report mailbox across all seven domains, at p=reject on the corporate domain and p=quarantine in the markets, with no CAA record anywhere.",
-     "score": 17.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 39.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.6,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Life, Health & Benefits Insurers",
-     "rank": 28
+     "rank": 26
     },
     {
      "name": "Yulife",
      "slug": "yulife",
      "description": "YuLife is a London-founded (2016) technology-driven insurtech and employee benefits platform offering group life insurance, group health insurance, income protection and a gamified wellbeing app. Employees complete everyday wellness activities to earn YuCoin rewards, with access to an EAP, telemedicine and wellbeing apps such as Meditopia. A certified B Corp, YuLife insures 400k+ lives across the UK and US and sells to employers and brokers. It publishes no public developer API or portal; api.yulife.com is the internal app backend (issuer api.uk.yulife.com), and a Vanta Trust Center is at trust.yulife.com.",
-     "score": 17.3,
+     "score": 16.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 61.1,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1335,7 +1244,7 @@
       "score": 28.8,
       "matched_via": "tags"
      },
-     "agent_score": 3.6,
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1348,32 +1257,32 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
      "tier": "Employee Benefits Administration",
-     "rank": 29
+     "rank": 27
     },
     {
-     "name": "Direct Line Group",
-     "slug": "direct-line-group",
-     "description": "Direct Line Group is a United Kingdom personal-lines and small-commercial general insurance carrier, founded in 1985 as the UK's first telephone-only motor insurer and listed on the London Stock Exchange from its 2012 IPO until Aviva plc completed its GBP 3.7 billion acquisition of the group on 1 July 2025. The group underwrites motor, home, pet, travel, landlord, breakdown and small-business insurance through the Direct Line, Churchill, Privilege, Darwin, By Miles, Direct Line for Business and Green Flag brands, and is regulated in its home market by the Financial Conduct Authority and the Prudential Regulation Authority. Its distribution is direct-to-consumer via telephone and web plus price-comparison-website placement (notably through the Darwin brand), rather than through broker or agency channels; it sold its brokered commercial business (NIG and FarmWeb) to RSA in September 2023, closing the one channel that would have carried standards-based broker integration. Its API posture is accordingly closed and partner-gated: as of 25 July 2026 the corporate domain directlinegroup.co.uk returns HTTP 301 to aviva.com, there is no developer.*, developers.* or docs.* host in DNS, every consumer brand site returns 404 on /developers, /api and /partners, and the only API host that exists — api.directlinegroup.co.uk, resolving to a MuleSoft Anypoint production load balancer — serves HTTP 403 behind an expired TLS certificate and requests a client certificate during the TLS handshake. There is no public self-serve developer portal, no downloadable OpenAPI, no GraphQL, no published webhook or event catalog, no public Postman workspace, and no ACORD reference anywhere in the group's public material. Quote, bind, issue and FNOL are all consumer web and telephone journeys only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/direct-line-group/refs/heads/main/screenshots/direct-line-group-2026-07-25T212052.png",
-     "score": 15.7,
+     "name": "Convex",
+     "slug": "convex-insurance",
+     "description": "Convex Group Limited is an international specialty insurer and reinsurer founded in 2019 by Stephen Catlin and Paul Brand, headquartered in London with operations in Bermuda, Luxembourg, Guernsey and the United States. Convex writes complex commercial and specialty risk across property, casualty, marine, energy, aviation, cyber, political risk and credit, crisis management, accident and health, and equine/livestock/aquaculture, and writes property, casualty and specialty treaty reinsurance through Convex Re Limited in Bermuda and London. Convex Insurance UK Limited is authorised by the Prudential Regulation Authority and regulated by the FCA and PRA; it is a London company-market carrier rather than a Lloyd's syndicate, and it reported roughly $5.2bn of gross written premium in 2024. Convex operates a named Digital Underwriting function that publicly describes building \"a suite of insurance specific APIs\" for automated quote and bind on high-volume, low-complexity specialty books, delivered either through a Convex-hosted broker portal or by connecting Convex products into a broker's or client's existing portal via API. That API programme is real but entirely partner-gated: as of 2026-07-25 Convex publishes no public developer portal, no API reference, no OpenAPI or other machine- readable definition, no sandbox and no self-serve signup. The api.convexin.com host is live but answers every anonymous request with HTTP 401 Unauthorized, the digital.convexin.com broker application is an authenticated Unqork-hosted portal, and the Convex Quick Quote event-insurance surface is behind a broker account registration form. Integration is arranged through the Business Development team, not through documentation. No ACORD, AL3, NGDS or IVANS reference appears anywhere on Convex's public web presence.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/convex-insurance/refs/heads/main/screenshots/convex-insurance-2026-07-25T210353.png",
+     "score": 16.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 75.9,
       "contract_quality": 0.0,
-      "governance": 3.1,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 6.5,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 10.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1400,6 +1309,97 @@
       "dry_run_mode": false
      },
      "tier": "P&C / General Insurers",
+     "rank": 28
+    },
+    {
+     "name": "Prudential plc",
+     "slug": "prudential-plc",
+     "description": "Prudential plc is a life and health insurance and asset management group incorporated in England and Wales and listed on the London, Hong Kong, Singapore and New York exchanges, with its principal operating office in Hong Kong and roots in London going back to 1848. Its home market for this profile is the United Kingdom, but its book is almost entirely Asian and African: life protection, health and medical, savings and retirement, takaful, pensions and Hong Kong Mandatory Provident Funds, plus asset management under the Eastspring brand, across Hong Kong, Singapore, Malaysia, Indonesia, the Philippines, Thailand, Vietnam, Taiwan, India, mainland China, Cambodia, Laos, Myanmar and a dozen African markets including Kenya, Uganda, Ghana, Nigeria and Zambia. It is no longer a UK retail insurer at all - the UK and Europe business was demerged as M&G plc in 2019 and the US business as Jackson Financial in 2021 - so the familiar UK \"Pru\" brands at pru.co.uk belong to M&G, not to this company. Its API posture is that there is no public API posture. Prudential plc publishes no developer portal, no API reference, no downloadable OpenAPI or Swagger document and no partner integration surface of any kind: developer, developers, docs, api, apis, partners, portal and sandbox subdomains of prudentialplc.com all fail to resolve, and /developers, /api, /developer, /partners and /integrations on the corporate site all return HTTP 404. The group's stated technology strategy is inward-facing - AI, automation, cloud and a global AI Lab running over a hundred internal use cases - and its distribution is built on tied agency forces and exclusive bancassurance partnerships with banks such as Standard Chartered, CIMB, MSB, SeABank, Bank Syariah Indonesia and UOB, which are commercial and contractual relationships rather than published API programmes. The Pulse by Prudential health and wealth app onboards health-tech and wealth-tech partners (Babylon, Tictrac, Halodoc, Smarter Health, Prive Technologies, OVO, Google Cloud) but every announcement describes the arrangement in commercial terms and none exposes a developer programme, SDK or public API. No ACORD, AL3, ACORD XML or NGDS reference was found anywhere in Prudential plc's public estate. Recorded honestly as a large carrier with a fully partner-gated, non-public integration surface. One genuine machine-readable surface does exist, and it is not an API: six of the group's market operating companies - Prudential Hong Kong, Prudential Singapore, Prudential Indonesia, Prudential Vietnam, Pru Life UK in the Philippines and Prudential BSN Takaful in Malaysia - publish real first-party llms.txt documents for grounding large language models, with Prudential Vietnam declaring a per-user-agent bot access policy for gptbot, claudebot, google-extended, perplexitybot and six other crawlers. The corporate domain publishes none. Underneath that, the group runs a visibly centralised security posture: TLS 1.3 and HSTS on every market host, and one shared PowerDMARC/PowerSPF tenant with a common aggregate-report mailbox across all seven domains, at p=reject on the corporate domain and p=quarantine in the markets, with no CAA record anywhere.",
+     "score": 16.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 28.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.6,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Life, Health & Benefits Insurers",
+     "rank": 29
+    },
+    {
+     "name": "Direct Line Group",
+     "slug": "direct-line-group",
+     "description": "Direct Line Group is a United Kingdom personal-lines and small-commercial general insurance carrier, founded in 1985 as the UK's first telephone-only motor insurer and listed on the London Stock Exchange from its 2012 IPO until Aviva plc completed its GBP 3.7 billion acquisition of the group on 1 July 2025. The group underwrites motor, home, pet, travel, landlord, breakdown and small-business insurance through the Direct Line, Churchill, Privilege, Darwin, By Miles, Direct Line for Business and Green Flag brands, and is regulated in its home market by the Financial Conduct Authority and the Prudential Regulation Authority. Its distribution is direct-to-consumer via telephone and web plus price-comparison-website placement (notably through the Darwin brand), rather than through broker or agency channels; it sold its brokered commercial business (NIG and FarmWeb) to RSA in September 2023, closing the one channel that would have carried standards-based broker integration. Its API posture is accordingly closed and partner-gated: as of 25 July 2026 the corporate domain directlinegroup.co.uk returns HTTP 301 to aviva.com, there is no developer.*, developers.* or docs.* host in DNS, every consumer brand site returns 404 on /developers, /api and /partners, and the only API host that exists — api.directlinegroup.co.uk, resolving to a MuleSoft Anypoint production load balancer — serves HTTP 403 behind an expired TLS certificate and requests a client certificate during the TLS handshake. There is no public self-serve developer portal, no downloadable OpenAPI, no GraphQL, no published webhook or event catalog, no public Postman workspace, and no ACORD reference anywhere in the group's public material. Quote, bind, issue and FNOL are all consumer web and telephone journeys only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/direct-line-group/refs/heads/main/screenshots/direct-line-group-2026-07-25T212052.png",
+     "score": 15.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 3.1,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 28.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.6,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "P&C / General Insurers",
      "rank": 30
     },
     {
@@ -1407,19 +1407,19 @@
      "slug": "acturis",
      "description": "Acturis is a United Kingdom insurance software company founded in 2000 by David McDonald and Theo Duchen, operating the UK's leading multi-tenant SaaS platform for general insurance brokers, insurers and MGAs. The Acturis system covers commercial and personal lines broking, e-trade and digital distribution, policy administration, claims, document management, premium finance and accounting, and it builds and runs eight of the top ten UK insurer extranets. Acturis Group extends the platform into Germany, France and Canada (through the acquisitions of Power Broker and Brovada) and reports over 100,000 users across more than 40 countries. Its API posture is partner-gated and honestly not developer-facing: acturis.com markets an \"API-enabled platform\" and \"API capabilities\" but publishes no developer portal, no API reference, no OpenAPI or Swagger definition, and no self-serve onboarding. developer.acturis.com, developers.acturis.com, docs.acturis.com and api.acturis.com do not resolve, and /developers, /api, /developer and /integrations all return 404. Real integration happens through commercial agreements — insurer extranet and e-trade connections, the Polaris imarket digital-trading standards Acturis has traded on since 2005, and named bilateral work such as the Aviva claims Broker API launched in December 2024, which brokers enable through an Aviva Claims Service Manager or an Acturis Account Manager rather than through any public signup.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/acturis/refs/heads/main/screenshots/acturis-2026-07-25T181537.png",
-     "score": 15.1,
+     "score": 14.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 12.5,
       "operational_transparency": 0.0,
       "developer_ergonomics": 2.2,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1453,19 +1453,19 @@
      "slug": "concirrus",
      "description": "Concirrus Ltd is a London-headquartered insurtech founded in 2012 that builds AI-driven underwriting software for the specialty and commercial insurance market — marine (hull, cargo, P&I), aviation, construction, property, and political violence and terrorism. Its platform (Quest, Marine One, the Underwriting Workbench, Exposure Management, Loss Run Intelligence, and an \"Enterprise Model\" universal submission-ingestion layer) ingests broker submissions, structures the risk data, scores behavioural risk, and returns rating and exposure decisions to carriers, MGAs and brokers — much of it aimed at the Lloyd's and London subscription market. Concirrus is a vendor to insurers rather than an insurer itself, so it touches quote and rating rather than bind, issue or FNOL. Its API posture is partner-gated: marketing describes \"a modular, API first platform\" and \"seamless integration with London Market platforms\", but as of 2026-07-25 there is no public developer portal, no published API reference, no downloadable OpenAPI/Swagger, no Postman collection, and no public GraphQL or webhook catalog. Every developer and docs hostname probed (developer./developers./docs./api. on both concirrus.com and concirrus.ai) does not resolve, and every on-site developer path returns 404. Integration is obtained through a commercial engagement or the partner ecosystem programme, not self-serve signup. No ACORD, AL3, NGDS or ACORD XML reference appears anywhere on the public site. Concirrus does publish a real compliance posture: in August 2025 it announced ISO/IEC 42001 (AI management), ISO/IEC 27001 (information security) and SOC 2 certification, claiming to be the first insurtech to hold all three — though no trust center or downloadable report accompanies the announcement.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/concirrus/refs/heads/main/screenshots/concirrus-2026-07-25T210222.png",
-     "score": 15.1,
+     "score": 14.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 12.5,
       "operational_transparency": 0.0,
       "developer_ergonomics": 2.2,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1519,8 +1519,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1565,8 +1565,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1611,8 +1611,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",

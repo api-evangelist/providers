@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: 'Comprehensive list of DLA business applications used to work with the agency, including supply, contracting, distribution, disposition, fuel, and energy systems. The catalog provides links, contacts, '
@@ -107,19 +107,25 @@ rate_limits:
   slug: defense-logistics-agency-rate-limits
 score:
   band: emerging
-  composite: 22.3
-  delta: 0.0
+  composite: 15.1
+  delta: -7.2
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 22.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 18.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/defense-logistics-agency/refs/heads/main/screenshots/defense-logistics-agency-2026-06-20T175840.png
 security:
 - kind: domain-security

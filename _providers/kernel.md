@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 56.1
-  scored_at: '2026-08-10'
+  score: 52.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 15
@@ -113,6 +114,10 @@ arazzos:
   slug: kernel-browser-automate
 artifact_total: 30
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kernel-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -256,7 +261,7 @@ network: true
 overview: 'Kernel publishes 22 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Apps API, Audit Logs API, and 19 more. Tagged areas include Company, Browser Automation, Web Agents, Browser Infrastructure, and AI Agents.
 
 
-  Kernel''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, support, and 25 more developer resources.'
+  Kernel''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, support, and 26 more developer resources.'
 random_paper: 61
 scopes:
 - name: Kernel Scopes
@@ -265,13 +270,13 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 55.9
-  delta: 0.0
+  composite: 54.2
+  delta: -1.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 61.4
+    contract_quality: 59.1
     developer_ergonomics: 75.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 44.7
   previous_composite: 55.9
@@ -285,8 +290,8 @@ score:
       total: 22
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/screenshots/kernel-2026-07-25T223632.png
 security:

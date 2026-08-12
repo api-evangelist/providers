@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -182,11 +182,11 @@ rules:
   slug: pubchem-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.3
-  delta: 0.0
+  composite: 47.0
+  delta: 1.7
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 64.3
+    commercial_clarity: 63.2
+    contract_quality: 61.9
     developer_ergonomics: 15.2
     discoverability: 81.5
     governance: 58.3
@@ -205,8 +205,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pubchem/refs/heads/main/screenshots/pubchem-2026-06-20T192236.png
 security:

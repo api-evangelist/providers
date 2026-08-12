@@ -14,22 +14,22 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-08-10'
+  score: 39.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 249
   human_in_the_loop: 5
@@ -57,6 +57,22 @@ asyncapis:
   name: Heroiclabs Nakama Realtime Events
   slug: heroiclabs-nakama-realtime-events
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/heroiclabs-nakama-overlay.yaml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/heroiclabs/nakama/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/heroiclabs/nakama/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/heroiclabs/nakama/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -303,7 +319,7 @@ overview: 'Heroic Labs publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
   The Heroic Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Heroic Labs'' developer surface includes authentication, documentation, engineering blog, pricing, API reference, getting-started guide, support, and 35 more developer resources.'
+  Heroic Labs'' developer surface includes authentication, documentation, engineering blog, pricing, API reference, getting-started guide, support, and 39 more developer resources.'
 plans:
 - name: Heroiclabs Plans Pricing
   plan_count: 5
@@ -324,26 +340,29 @@ rules:
   slug: heroiclabs-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 82.8
-  delta: 30.9
+  composite: 78.8
+  delta: -4.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 68.2
-    developer_ergonomics: 87.0
-    discoverability: 92.6
+    contract_quality: 66.0
+    developer_ergonomics: 75.5
+    discoverability: 81.5
     governance: 89.6
     operational_transparency: 76.3
-  previous_composite: 51.9
+  previous_composite: 82.8
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: rising
+    mcp: derived
+    skills: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/screenshots/heroiclabs-2026-07-25T221028.png
 security:
 - kind: authentication

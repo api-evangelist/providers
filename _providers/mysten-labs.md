@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 49.1
-  scored_at: '2026-08-10'
+  score: 45.5
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The Sui full-node JSON-RPC API (OpenRPC 1.2.6) for reading objects, coins, balances, events, checkpoints, dynamic fields, and system state, and for dry-running/executing transaction blocks. 56 methods
@@ -192,13 +192,13 @@ overview: 'Mysten Labs publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 91
 score:
   band: developing
-  composite: 47.3
-  delta: 0.0
+  composite: 46.2
+  delta: -1.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 51.6
     developer_ergonomics: 82.6
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 3.1
     operational_transparency: 63.2
   previous_composite: 47.3
@@ -206,8 +206,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mysten-labs/refs/heads/main/screenshots/mysten-labs-2026-08-07T184544.png
 security:

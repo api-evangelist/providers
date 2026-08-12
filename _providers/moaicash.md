@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-10'
+  score: 0.0
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,13 +86,13 @@ overview: 'Moai.cash is profiled on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 25
 score:
   band: emerging
-  composite: 15.6
-  delta: 0.0
+  composite: 14.7
+  delta: -0.9
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 4.3
-    discoverability: 61.1
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 15.6
@@ -102,8 +102,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moaicash/refs/heads/main/screenshots/moaicash-2026-08-07T183838.png
 security:

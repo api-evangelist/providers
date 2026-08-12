@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-10'
+  score: 29.1
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Pro GraphQL API for on-chain DeFi and NFT market data — DEX trades, candles, lending markets, liquidity pools and positions, NFT collections and trades, token holders, transfers, transactions, contrac
@@ -123,13 +123,13 @@ overview: 'Parsec Finance publishes 1 API on the [APIs.io](https://apis.io/) net
 random_paper: 15
 score:
   band: thin
-  composite: 29.9
-  delta: 0.0
+  composite: 28.9
+  delta: -1.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 37.0
     developer_ergonomics: 45.1
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 5.3
   previous_composite: 29.9
@@ -143,8 +143,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

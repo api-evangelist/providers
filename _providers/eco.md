@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The Quotes V1 API from Eco — 2 operation(s) for quotes v1.
@@ -162,13 +162,13 @@ overview: 'Eco publishes 3 APIs on the [APIs.io](https://apis.io/) network: Quot
 random_paper: 79
 score:
   band: thin
-  composite: 41.9
-  delta: 0.0
+  composite: 40.5
+  delta: -1.4
   facets:
     commercial_clarity: 21.1
-    contract_quality: 46.8
+    contract_quality: 45.0
     developer_ergonomics: 75.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 41.9
@@ -187,8 +187,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/screenshots/eco-2026-07-25T212742.png
 security:

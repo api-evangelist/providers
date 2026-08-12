@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -192,11 +192,11 @@ rules:
   slug: cryptomus-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.7
-  delta: 0.0
+  composite: 47.1
+  delta: -0.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 72.6
+    contract_quality: 69.9
     developer_ergonomics: 17.4
     discoverability: 74.1
     governance: 58.3
@@ -215,8 +215,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/screenshots/cryptomus-2026-06-20T175312.png
 security:

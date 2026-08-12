@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +22,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-10'
+  score: 47.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -101,8 +102,16 @@ apis:
 - description: 'The #X Amz Target=ComputeOptimizerService.UpdateEnrollmentStatus API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.updateenrollmentstatus.'
   name: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.UpdateEnrollmentStatus API'
   slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-updateenrollmentstatus-api
-artifact_total: 688
+artifact_total: 689
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/amazon-compute-optimizer-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-compute-optimizer-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2158,6 +2167,10 @@ jsonld:
   property_count: 140
   slug: amazon-compute-optimizer-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: amazon-compute-optimizer-mcp.yml
+  slug: amazon-compute-optimizer-mcpyml
 modified: '2026-06-20'
 name: Amazon Compute Optimizer
 nav: Providers
@@ -2168,7 +2181,7 @@ overview: 'Amazon Compute Optimizer publishes 21 APIs on the [APIs.io](https://a
   The Amazon Compute Optimizer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Compute Optimizer''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 16 more developer resources.'
+  Amazon Compute Optimizer''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 18 more developer resources.'
 random_paper: 60
 rules:
 - name: Amazon Compute Optimizer API Rules
@@ -2189,12 +2202,12 @@ rules:
   slug: amazon-compute-optimizer-spectral-rules
 score:
   band: developing
-  composite: 53.8
-  delta: 0.0
+  composite: 54.8
+  delta: 1.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 75.2
-    developer_ergonomics: 41.3
+    contract_quality: 72.4
+    developer_ergonomics: 50.0
     discoverability: 59.3
     governance: 80.2
     operational_transparency: 21.1
@@ -2208,8 +2221,8 @@ score:
       marker_coverage: 0.0
       total: 21
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/screenshots/amazon-compute-optimizer-2026-07-25T200002.png
 security:

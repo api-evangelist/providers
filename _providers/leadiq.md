@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,6 +50,10 @@ collections:
   name: LeadIQ Data API
   slug: open-leadiq-data-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/leadiq/dataiq-api-specs/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -178,15 +182,15 @@ network: true
 overview: 'LeadIQ publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Sales Intelligence, B2B Data, Contact Data, Lead Generation, and Prospecting.
 
 
-  LeadIQ''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, status page, and 21 more developer resources.'
+  LeadIQ''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, status page, and 22 more developer resources.'
 random_paper: 44
 score:
   band: thin
-  composite: 37.8
-  delta: 0.0
+  composite: 37.1
+  delta: -0.7
   facets:
     commercial_clarity: 34.2
-    contract_quality: 66.7
+    contract_quality: 64.2
     developer_ergonomics: 34.8
     discoverability: 59.3
     governance: 0.0
@@ -199,8 +203,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadiq/refs/heads/main/screenshots/leadiq-2026-06-20T184350.png
 security:

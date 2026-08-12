@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 49
 apis:
 - description: The Account API from Toqio — 7 operation(s) for account.
@@ -184,6 +184,10 @@ asyncapis:
   name: Toqio Webhooks
   slug: toqio-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/toqio-accounts-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -314,7 +318,7 @@ overview: 'Toqio publishes 49 APIs on the [APIs.io](https://apis.io/) network, i
   The Toqio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Toqio''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 22 more developer resources.'
+  Toqio''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 23 more developer resources.'
 random_paper: 92
 scopes:
 - name: Toqio Scopes
@@ -323,13 +327,13 @@ scopes:
   summary_line: 3 scopes · clientCredentials/password
 score:
   band: developing
-  composite: 54.7
-  delta: 0.0
+  composite: 51.3
+  delta: -3.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 63.2
+    contract_quality: 60.9
     developer_ergonomics: 64.7
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 36.8
   previous_composite: 54.7
@@ -347,9 +351,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 75.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 62.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

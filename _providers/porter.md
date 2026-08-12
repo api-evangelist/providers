@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -66,6 +66,10 @@ collections:
   name: Porter Bundle API
   slug: open-porter-bundle
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/getporter/porter/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -145,7 +149,7 @@ overview: 'Porter publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
   The Porter catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Porter''s developer surface includes authentication, documentation, getting-started guide, engineering blog, and 9 more developer resources.'
+  Porter''s developer surface includes authentication, documentation, getting-started guide, engineering blog, and 10 more developer resources.'
 plans:
 - name: Porter Plans Pricing
   plan_count: 1
@@ -165,16 +169,16 @@ rules:
     warn: 4
   slug: porter-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 46.9
-  delta: 0.0
+  band: thin
+  composite: 41.1
+  delta: -5.8
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 67.4
+    commercial_clarity: 13.2
+    contract_quality: 64.9
     developer_ergonomics: 37.0
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 46.9
   provenance:
     agentic_access: derived
@@ -183,9 +187,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/screenshots/porter-2026-06-20T191932.png
 security:
 - kind: authentication

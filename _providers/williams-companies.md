@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 14
 common:
@@ -82,8 +82,8 @@ overview: 'Williams Companies is profiled on the [APIs.io](https://apis.io/) net
 random_paper: 14
 score:
   band: minimal
-  composite: 7.2
-  delta: 0.0
+  composite: 7.3
+  delta: 0.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -92,8 +92,14 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 8.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/williams-companies/refs/heads/main/screenshots/williams-companies-2026-06-20T201507.png
 security:

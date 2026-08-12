@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-10'
+  score: 38.1
+  scored_at: '2026-08-11'
 api_count: 11
 apis:
 - description: Scheduled times at which an assigned technician performs work for a job.
@@ -70,6 +70,10 @@ asyncapis:
   name: Dispatch Webhooks
   slug: dispatch-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dispatch-files-v1-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -192,17 +196,17 @@ overview: 'Dispatch publishes 11 APIs on the [APIs.io](https://apis.io/) network
   The Dispatch catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dispatch''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 19 more developer resources.'
+  Dispatch''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 20 more developer resources.'
 random_paper: 36
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 49.1
+  delta: -1.8
   facets:
     commercial_clarity: 34.2
-    contract_quality: 70.3
+    contract_quality: 67.6
     developer_ergonomics: 60.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 50.9
@@ -215,8 +219,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/screenshots/dispatch-2026-07-25T212107.png
 security:

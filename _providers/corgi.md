@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 6.3
-  scored_at: '2026-08-10'
+  score: 2.7
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
@@ -90,13 +90,13 @@ overview: 'Corgi is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 random_paper: 68
 score:
   band: emerging
-  composite: 17.1
-  delta: 0.0
+  composite: 16.1
+  delta: -1.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 61.1
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 17.1
@@ -106,8 +106,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 30.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corgi/refs/heads/main/screenshots/corgi-2026-07-25T210433.png
 security:

@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-08-10'
+  score: 15.8
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: A set of JSON RESTful web service APIs that provide access to product and instrument reference data for CME Group, BrokerTec, EBS, hosted partners, and CME Group-cleared markets. Supports OAuth-secure
@@ -227,15 +227,15 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: developing
-  composite: 52.7
-  delta: 0.0
+  composite: 44.0
+  delta: -8.7
   facets:
-    commercial_clarity: 73.7
+    commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 65.2
     discoverability: 83.3
     governance: 12.5
-    operational_transparency: 63.2
+    operational_transparency: 39.5
   previous_composite: 52.7
   provenance:
     conformance: first-party
@@ -244,10 +244,10 @@ score:
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 91.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+    score: 78.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/screenshots/cme-group-2026-06-20T174629.png
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -75,6 +75,10 @@ collections:
   name: CWMS Data API
   slug: open-cwms-data-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/USACE/cwms-data-api/blob/develop/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -166,7 +170,7 @@ overview: 'United States Army Corps of Engineers publishes 10 APIs on the [APIs.
   The United States Army Corps of Engineers catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  United States Army Corps of Engineers'' developer surface includes authentication, GitHub presence, and 9 more developer resources.'
+  United States Army Corps of Engineers'' developer surface includes authentication, GitHub presence, and 10 more developer resources.'
 plans:
 - name: United States Army Corps Of Engineers Plans Pricing
   plan_count: 3
@@ -194,16 +198,16 @@ rules:
     warn: 3
   slug: united-states-army-corps-of-engineers-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 44.8
-  delta: 0.0
+  band: thin
+  composite: 35.6
+  delta: -9.2
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 67.1
+    commercial_clarity: 15.8
+    contract_quality: 64.6
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 47.9
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 44.8
   provenance:
     agentic_access: derived
@@ -212,9 +216,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 31.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/screenshots/united-states-army-corps-of-engineers-2026-06-20T200046.png
 security:
 - kind: authentication

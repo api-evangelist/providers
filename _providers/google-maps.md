@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-08-10'
+  score: 45.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -1111,16 +1111,16 @@ rules:
     warn: 9
   slug: google-maps-spectral-rules
 score:
-  band: exemplar
-  composite: 66.6
-  delta: 0.0
+  band: strong
+  composite: 59.1
+  delta: -7.5
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 84.5
+    commercial_clarity: 44.7
+    contract_quality: 81.7
     developer_ergonomics: 56.5
     discoverability: 66.7
     governance: 69.8
-    operational_transparency: 42.1
+    operational_transparency: 26.3
   previous_composite: 66.6
   provenance:
     agentic_access: derived
@@ -1131,9 +1131,9 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/screenshots/google-maps-2026-06-20T182214.png
 security:
 - kind: authentication

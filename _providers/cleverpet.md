@@ -24,13 +24,25 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-10'
+  score: 0.0
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/cleverpet/hackerpet/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/CleverPet/hackerpet/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/cleverpet/hackerpet/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -106,22 +118,22 @@ network: true
 overview: 'CleverPet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pet Technology, Consumer Hardware, IoT, and Embedded.
 
 
-  CleverPet''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, and 11 more developer resources.'
+  CleverPet''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, and 14 more developer resources.'
 random_paper: 42
 score:
   band: emerging
-  composite: 23.2
-  delta: 0.0
+  composite: 22.1
+  delta: -1.1
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 47.8
-    discoverability: 61.1
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 23.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cleverpet/refs/heads/main/screenshots/cleverpet-2026-07-25T205607.png
 security:

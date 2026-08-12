@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,6 +52,10 @@ apis:
   slug: parafi-solana-api
 artifact_total: 8
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/parafi-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -147,15 +151,15 @@ network: true
 overview: 'Parafi publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Avalanche API, Ethereum API, Market API, and 1 more. Tagged areas include Company, Fintech, Blockchain, Digital Assets, and Staking.
 
 
-  Parafi''s developer surface includes documentation, API reference, getting-started guide, support, authentication, engineering blog, and 14 more developer resources.'
+  Parafi''s developer surface includes documentation, API reference, getting-started guide, support, authentication, engineering blog, and 15 more developer resources.'
 random_paper: 47
 score:
   band: thin
-  composite: 38.8
-  delta: 0.0
+  composite: 38.4
+  delta: -0.4
   facets:
     commercial_clarity: 21.1
-    contract_quality: 49.5
+    contract_quality: 47.7
     developer_ergonomics: 60.9
     discoverability: 81.5
     governance: 11.5
@@ -177,8 +181,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/screenshots/parafi-2026-08-07T191404.png
 security:

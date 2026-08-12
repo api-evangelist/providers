@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -111,6 +111,34 @@ collections:
   name: Column API
   slug: open-column
 common:
+- group: design
+  title: ''
+  type: Webhooks
+  url: https://docs.column.com/api/webhooks/
+- group: start
+  title: ''
+  type: Sandbox
+  url: https://docs.column.com/guides/sandbox-and-testing
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.column.com/api/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.column.com
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://column.com/changelog/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.column.com/guides/getting-started
+- group: start
+  title: ''
+  type: Login
+  url: https://dashboard.column.com/login
 - group: agent
   title: ''
   type: AgenticAccess
@@ -166,7 +194,7 @@ network: true
 overview: 'Column publishes 18 APIs on the [APIs.io](https://apis.io/) network, including ACH Transfers API, Wire Transfers API, International Wires API, and 15 more. Tagged areas include Fintech, Banking, BaaS, ACH, and Wires.
 
 
-  Column''s developer surface includes authentication, engineering blog, and 8 more developer resources.'
+  Column''s developer surface includes sandbox, API reference, changelog, getting-started guide, authentication, engineering blog, and 11 more developer resources.'
 plans:
 - name: Column Plans Pricing
   plan_count: 1
@@ -178,15 +206,15 @@ rate_limits:
   slug: column-rate-limits
 score:
   band: thin
-  composite: 30.8
-  delta: 0.0
+  composite: 37.2
+  delta: 6.4
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 63.9
-    developer_ergonomics: 13.0
-    discoverability: 64.8
+    commercial_clarity: 26.3
+    contract_quality: 61.8
+    developer_ergonomics: 37.0
+    discoverability: 72.2
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 44.7
   previous_composite: 30.8
   provenance:
     agentic_access: derived
@@ -201,9 +229,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: rising
 security:
 - kind: authentication
   name: Column Authentication

@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-08-10'
+  score: 42.1
+  scored_at: '2026-08-11'
 api_count: 21
 apis:
 - description: The Accounts API from Luminance — 6 operation(s) for accounts.
@@ -84,8 +84,16 @@ apis:
 - description: The Workflows API from Luminance — 4 operation(s) for workflows.
   name: Luminance Workflows API
   slug: luminance-workflows-api
-artifact_total: 26
+artifact_total: 27
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/luminance-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/luminance-public-api-v2-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -187,6 +195,10 @@ description: 'Luminance Technologies Ltd. is a UK-headquartered legal-AI company
   token endpoint, and API traffic is rate limited to 100 requests every 10 minutes.'
 image: https://api.luminance.com/img/general_resources/luminance_logos/Luminance-logo.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: luminance-mcp.yml
+  slug: luminance-mcpyml
 modified: '2026-08-04'
 name: Luminance
 nav: Providers
@@ -194,7 +206,7 @@ network: true
 overview: 'Luminance publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Annotation Source Relations API, Annotation Sources API, and 18 more. Tagged areas include Company, Legal, Artificial Intelligence, Contracts, and Contract Lifecycle Management.
 
 
-  Luminance''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 18 more developer resources.'
+  Luminance''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
 random_paper: 28
 rate_limits:
 - limit_count: 1
@@ -207,27 +219,27 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 44.5
-  delta: 0.4
+  composite: 45.4
+  delta: 0.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 45.8
-    developer_ergonomics: 42.9
+    contract_quality: 47.4
+    developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 44.1
+  previous_composite: 44.5
   provenance:
     conformance: first-party
     contracts:
-      callable: 33.3
+      callable: 62.5
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 24
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luminance/refs/heads/main/screenshots/luminance-2026-08-07T171838.png
 security:

@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-10'
+  score: 49.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 577
   human_in_the_loop: 12
@@ -232,6 +232,10 @@ collections:
   name: Plaid watchlist screening/
   slug: postman-plaid-watchlist-screening-
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/plaid-authorize-and-create-transfer.md
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -402,7 +406,7 @@ common:
   url: lifecycle/plaid-lifecycle.yml
 - group: operate
   title: ''
-  type: Deprecation
+  type: DeprecationPolicy
   url: https://plaid.com/docs/api/versioning/
 - group: design
   title: ''
@@ -422,7 +426,7 @@ common:
   url: mcp/plaid-tool-crosswalk.yml
 - group: agent
   title: ''
-  type: AgentSkill
+  type: AgentSkills
   url: skills/_index.yml
 - group: other
   title: ''
@@ -488,7 +492,7 @@ overview: 'Plaid publishes 31 APIs on the [APIs.io](https://apis.io/) network, i
   The Plaid catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Plaid''s developer surface includes documentation, engineering blog, pricing, support, sandbox, authentication, changelog, and 46 more developer resources.'
+  Plaid''s developer surface includes documentation, engineering blog, pricing, support, sandbox, authentication, changelog, and 47 more developer resources.'
 plans:
 - name: Plaid Plans Pricing
   plan_count: 3
@@ -516,16 +520,16 @@ rules:
     warn: 7
   slug: plaid-spectral-rules
 score:
-  band: exemplar
-  composite: 75.2
-  delta: 0.0
+  band: strong
+  composite: 64.1
+  delta: -11.1
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 70.8
+    commercial_clarity: 76.3
+    contract_quality: 68.5
     developer_ergonomics: 62.5
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 62.5
-    operational_transparency: 84.2
+    operational_transparency: 60.5
   previous_composite: 75.2
   provenance:
     agentic_access: derived
@@ -542,10 +546,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 63.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+    score: 43.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/screenshots/plaid-2026-06-20T161613.png
 security:
 - kind: authentication

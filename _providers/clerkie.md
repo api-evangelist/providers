@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: RESTful API marketed to lenders for integrating loan portfolios with Clerkie's recovery platform — payment arrangement recommendations, multi-currency payment processing, delinquency intervention, and
@@ -94,22 +94,27 @@ overview: 'Clerkie publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 39
 score:
   band: emerging
-  composite: 20.8
+  composite: 18.6
+  delta: -2.2
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 87.0
-    governance: 12.5
+    discoverability: 75.9
+    governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 20.8
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 29.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: domain-security
   name: Clerkie Domain Security

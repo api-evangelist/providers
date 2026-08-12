@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -161,10 +161,6 @@ common:
   title: ''
   type: SpectralRules
   url: rules/salesforce-net-zero-cloud-rules.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/carbon-accounting.yaml
 - group: docs
   title: Carbon Emission Schema
   type: JSONSchema
@@ -222,7 +218,7 @@ overview: 'Salesforce Net Zero Cloud publishes 7 APIs on the [APIs.io](https://a
   The Salesforce Net Zero Cloud catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Salesforce Net Zero Cloud''s developer surface includes authentication, engineering blog, getting-started guide, release notes, support, and 17 more developer resources.'
+  Salesforce Net Zero Cloud''s developer surface includes authentication, engineering blog, getting-started guide, release notes, support, and 16 more developer resources.'
 plans:
 - name: Salesforce Net Zero Cloud Plans Pricing
   plan_count: 1
@@ -255,16 +251,16 @@ scopes:
   slug: salesforce-net-zero-cloud-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: strong
-  composite: 59.5
-  delta: 0.0
+  band: developing
+  composite: 53.6
+  delta: -5.9
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 69.1
+    commercial_clarity: 34.2
+    contract_quality: 66.5
     developer_ergonomics: 41.3
     discoverability: 81.5
     governance: 68.8
-    operational_transparency: 57.9
+    operational_transparency: 42.1
   previous_composite: 59.5
   provenance:
     agentic_access: derived
@@ -273,9 +269,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/screenshots/salesforce-net-zero-cloud-2026-06-20T193349.png
 security:
 - kind: authentication

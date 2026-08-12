@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Kestrel AI provides an AI-native cloud incident response platform that uses autonomous agents to detect, investigate, and remediate Kubernetes and cloud infrastructure incidents. The platform monitors
@@ -139,18 +139,18 @@ rules:
   slug: kestrel-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.3
-  delta: 0.0
+  composite: 30.8
+  delta: -4.5
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 28.9
     contract_quality: 8.1
     developer_ergonomics: 10.9
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 58.3
-    operational_transparency: 78.9
+    operational_transparency: 55.3
   previous_composite: 35.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kestrel/refs/heads/main/screenshots/kestrel-2026-06-20T184039.png
 security:

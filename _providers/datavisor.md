@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: 'Real-time fraud and risk detection API surface. Customers stream user events and transactions to a DataVisor integration endpoint and receive detection results, risk scores and reason codes back. The '
@@ -117,13 +117,13 @@ overview: 'DataVisor publishes 2 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 45
 score:
   band: emerging
-  composite: 24.0
-  delta: 0.0
+  composite: 23.1
+  delta: -0.9
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 32.6
-    discoverability: 77.8
+    discoverability: 66.7
     governance: 12.5
     operational_transparency: 0.0
   previous_composite: 24.0
@@ -135,8 +135,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datavisor/refs/heads/main/screenshots/datavisor-2026-08-07T164143.png
 security:

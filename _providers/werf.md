@@ -27,10 +27,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 20
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/werf/werf/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -128,7 +132,7 @@ network: true
 overview: 'Werf is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include CI/CD, Deployment, DevOps, GitOps, and Kubernetes.
 
 
-  Werf''s developer surface includes documentation, getting-started guide, CLI, changelog, support, and 9 more developer resources.'
+  Werf''s developer surface includes documentation, getting-started guide, CLI, changelog, support, and 10 more developer resources.'
 random_paper: 88
 score:
   band: emerging
@@ -142,8 +146,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 14.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/werf/refs/heads/main/screenshots/werf-2026-06-20T201353.png
 security:

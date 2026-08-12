@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-08-10'
+  score: 39.4
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: The Authentication API from Infra — 9 operation(s) for authentication.
@@ -65,8 +65,24 @@ arazzos:
 - description: Create a user, put them in a group, and grant the group access to a destination.
   name: Onboard a user and grant destination access
   slug: infra-onboard-and-grant
-artifact_total: 13
+artifact_total: 14
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/infra-mcp.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/infrahq/infra/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/infrahq/infra/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/infrahq/infra/blob/main/CONTRIBUTING.md
 - group: company
   title: ''
   type: Website
@@ -163,6 +179,10 @@ created: '2026-07-17'
 description: 'Infra is open-source authentication and access management for infrastructure. It grants short-lived, identity-based access to Kubernetes clusters, servers, and databases by connecting an organization''s OIDC identity providers (Okta, Google, Azure AD, and others) to fine-grained grants on destination resources. Users and groups receive least-privilege roles, access keys are issued for CI/CD and API automation, and the `infra` CLI lets engineers list and switch into destinations. The project was originally added to the API Evangelist network as an 8vc portfolio lead; the hosted service at api.infrahq.com has since wound down (infrahq.com now redirects to the GitHub repository), but the source, OpenAPI spec, CLI, and Go client remain available under the Elastic License 2.0 (core) and MIT (SDK and connectors). Final release: v0.21.0.'
 image: https://avatars.githubusercontent.com/u/85984819
 layout: provider
+mcp_servers:
+- description: ''
+  name: infra-mcp.yml
+  slug: infra-mcpyml
 modified: '2026-07-19'
 name: Infra
 nav: Providers
@@ -170,7 +190,7 @@ network: true
 overview: 'Infra publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Destinations API, Grants API, and 5 more. Tagged areas include Company, Identity, Access Management, Authentication, and Authorization.
 
 
-  Infra''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, changelog, and 17 more developer resources.'
+  Infra''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, changelog, and 21 more developer resources.'
 random_paper: 64
 score:
   band: thin
@@ -178,8 +198,8 @@ score:
   delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 52.5
-    developer_ergonomics: 51.6
+    contract_quality: 50.6
+    developer_ergonomics: 53.8
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
@@ -193,8 +213,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/screenshots/infra-2026-07-25T222422.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -180,26 +180,26 @@ rate_limits:
   slug: peopledatalabs-rate-limits
 score:
   band: developing
-  composite: 53.0
-  delta: 15.2
+  composite: 53.3
+  delta: 0.3
   facets:
     commercial_clarity: 92.1
-    contract_quality: 53.6
+    contract_quality: 51.6
     developer_ergonomics: 34.8
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 37.8
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: rising
+      total: 11
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/screenshots/peopledatalabs-2026-06-20T191552.png
 security:
 - kind: authentication

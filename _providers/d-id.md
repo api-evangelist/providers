@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -240,11 +240,11 @@ rules:
   slug: d-id-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.2
-  delta: 0.0
+  composite: 59.5
+  delta: -0.7
   facets:
     commercial_clarity: 57.9
-    contract_quality: 78.3
+    contract_quality: 75.4
     developer_ergonomics: 32.6
     discoverability: 74.1
     governance: 68.8
@@ -257,8 +257,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/screenshots/d-id-2026-06-20T175418.png
 security:

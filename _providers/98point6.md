@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 6.3
-  scored_at: '2026-08-10'
+  score: 2.7
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
@@ -107,13 +107,13 @@ overview: '98point6 Technologies is profiled on the [APIs.io](https://apis.io/) 
 random_paper: 25
 score:
   band: emerging
-  composite: 19.4
-  delta: 0.0
+  composite: 17.3
+  delta: -2.1
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 12.5
     operational_transparency: 15.8
   previous_composite: 19.4
@@ -124,9 +124,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 38.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 31.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/98point6/refs/heads/main/screenshots/98point6-2026-08-07T160721.png
 security:

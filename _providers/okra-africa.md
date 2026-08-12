@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -148,11 +148,11 @@ rate_limits:
   slug: okra-africa-rate-limits
 score:
   band: thin
-  composite: 35.2
-  delta: 0.0
+  composite: 34.7
+  delta: -0.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 58.9
+    contract_quality: 56.7
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
@@ -171,8 +171,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/screenshots/okra-africa-2026-08-07T190057.png
 security:

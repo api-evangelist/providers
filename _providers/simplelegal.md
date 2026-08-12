@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-10'
+  score: 40.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -210,16 +210,16 @@ rules:
   slug: simplelegal-rules
 score:
   band: developing
-  composite: 54.2
-  delta: 5.1
+  composite: 44.7
+  delta: -9.5
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 67.2
+    commercial_clarity: 28.9
+    contract_quality: 64.7
     developer_ergonomics: 26.1
-    discoverability: 85.2
+    discoverability: 74.1
     governance: 58.3
-    operational_transparency: 47.4
-  previous_composite: 49.1
+    operational_transparency: 23.7
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     contracts:
@@ -227,9 +227,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: rising
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/screenshots/simplelegal-2026-06-20T193933.png
 security:
 - kind: authentication

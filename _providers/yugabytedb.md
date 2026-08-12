@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 571
   human_in_the_loop: 33
@@ -983,15 +984,15 @@ rules:
   slug: yugabytedb-spectral-rules
 score:
   band: strong
-  composite: 65.2
-  delta: 0.0
+  composite: 59.4
+  delta: -5.8
   facets:
-    commercial_clarity: 100.0
-    contract_quality: 22.0
-    developer_ergonomics: 84.8
-    discoverability: 68.5
+    commercial_clarity: 76.3
+    contract_quality: 21.8
+    developer_ergonomics: 91.3
+    discoverability: 75.9
     governance: 58.3
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 65.2
   provenance:
     agentic_access: derived
@@ -1000,9 +1001,9 @@ score:
       derived: 73
       marker_coverage: 100.0
       total: 73
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/yugabytedb/refs/heads/main/screenshots/yugabytedb-2026-06-20T201754.png
 security:
 - kind: authentication

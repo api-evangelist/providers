@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -102,7 +102,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/starwood-hotel-search-openapi.yml
+  url: openapi/_original/starwood-hotel-search-openapi.yml
 - group: docs
   title: ''
   type: JSONSchema
@@ -201,16 +201,16 @@ rules:
     warn: 9
   slug: starwood-hotels-and-resorts-rules
 score:
-  band: developing
-  composite: 45.2
-  delta: 0.0
+  band: thin
+  composite: 39.4
+  delta: -5.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 64.3
+    commercial_clarity: 34.2
+    contract_quality: 61.9
     developer_ergonomics: 10.9
     discoverability: 59.3
     governance: 68.8
-    operational_transparency: 21.1
+    operational_transparency: 5.3
   previous_composite: 45.2
   provenance:
     agentic_access: derived
@@ -219,9 +219,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/screenshots/starwood-hotels-and-resorts-2026-06-20T194521.png
 security:
 - kind: domain-security

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -1182,16 +1182,16 @@ rules:
     warn: 23
   slug: amazon-connect-spectral-rules
 score:
-  band: strong
-  composite: 58.6
-  delta: 0.0
+  band: developing
+  composite: 53.5
+  delta: -5.1
   facets:
-    commercial_clarity: 89.5
-    contract_quality: 39.0
+    commercial_clarity: 73.7
+    contract_quality: 37.7
     developer_ergonomics: 45.7
     discoverability: 68.5
     governance: 68.8
-    operational_transparency: 63.2
+    operational_transparency: 39.5
   previous_composite: 58.6
   provenance:
     agentic_access: derived
@@ -1200,15 +1200,9 @@ score:
       derived: 12
       marker_coverage: 100.0
       total: 12
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 50.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/screenshots/amazon-connect-2026-06-20T171608.png
 security:
 - kind: authentication

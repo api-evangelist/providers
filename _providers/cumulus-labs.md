@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: OpenAI-compatible HTTP inference gateway. One client works against every upstream provider; per-workflow routing rules pick the model, provider, and infrastructure, with a layered exact/prefix/semanti
@@ -135,8 +135,8 @@ score:
   previous_composite: 24.4
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cumulus-labs/refs/heads/main/screenshots/cumulus-labs-2026-07-25T210923.png
 security:

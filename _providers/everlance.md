@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Enterprise data API for uni-directional data transfer into Everlance: create and update user profiles, apply user attributes (team/department/division tags), assign team structure and roles, and manag'
@@ -129,8 +129,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 27.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/everlance/refs/heads/main/screenshots/everlance-2026-07-25T213731.png
 security:

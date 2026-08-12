@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 54.3
-  scored_at: '2026-08-10'
+  score: 50.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -471,11 +472,11 @@ rules:
   slug: cryptocompare-rules
 score:
   band: exemplar
-  composite: 70.0
-  delta: 0.0
+  composite: 71.6
+  delta: 1.6
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 80.4
+    commercial_clarity: 84.2
+    contract_quality: 77.8
     developer_ergonomics: 73.4
     discoverability: 87.0
     governance: 63.5
@@ -497,8 +498,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/screenshots/cryptocompare-2026-06-20T175310.png
 security:

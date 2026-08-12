@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 0
@@ -266,34 +266,6 @@ common:
   title: ''
   type: SpectralRules
   url: rules/contentstack-rules.yml
-- group: other
-  title: ''
-  type: Capability
-  url: capabilities/deliver-headless-content.yml
-- group: other
-  title: ''
-  type: Capability
-  url: capabilities/manage-stack-content.yml
-- group: other
-  title: ''
-  type: Capability
-  url: capabilities/personalize-experiences.yml
-- group: other
-  title: ''
-  type: Capability
-  url: capabilities/automate-content-workflows.yml
-- group: other
-  title: ''
-  type: Capability
-  url: capabilities/generate-brand-aligned-ai-content.yml
-- group: other
-  title: ''
-  type: Capability
-  url: capabilities/deploy-launch-frontends.yml
-- group: other
-  title: ''
-  type: Capability
-  url: capabilities/provision-users-via-scim.yml
 description: This document is a detailed reference to Contentstack’s Content Delivery API. Retrieve content from your account and deliver it to web and mobile properties.
 finops:
 - name: Contentstack Finops
@@ -622,7 +594,7 @@ overview: 'contentstack publishes 43 APIs on the [APIs.io](https://apis.io/) net
   The contentstack catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  contentstack''s developer surface includes authentication and 19 more developer resources.'
+  contentstack''s developer surface includes authentication and 12 more developer resources.'
 plans:
 - name: Contentstack Plans Pricing
   plan_count: 3
@@ -658,16 +630,16 @@ rules:
     warn: 3
   slug: contentstack-rules
 score:
-  band: developing
-  composite: 47.8
-  delta: 0.0
+  band: thin
+  composite: 39.2
+  delta: -8.6
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 80.4
+    commercial_clarity: 23.7
+    contract_quality: 77.4
     developer_ergonomics: 10.9
     discoverability: 50.0
     governance: 52.1
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 47.8
   provenance:
     agentic_access: derived
@@ -676,9 +648,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 43
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/screenshots/contentstack-2026-06-20T174935.png
 security:
 - kind: authentication

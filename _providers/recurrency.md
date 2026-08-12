@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-10'
+  score: 43.5
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Supplier product catalog retrieval, filtering and upload.
@@ -46,6 +46,10 @@ arazzos:
   slug: recurrency-procure-to-pay
 artifact_total: 9
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/recurrency-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -165,7 +169,7 @@ network: true
 overview: 'Recurrency publishes 2 APIs on the [APIs.io](https://apis.io/) network: E-Procurement API and Orders API. Tagged areas include Company, Ai Ml, ERP, Distribution, and Wholesale.
 
 
-  Recurrency''s developer surface includes documentation, authentication, sandbox, engineering blog, support, signup flow, and 20 more developer resources.'
+  Recurrency''s developer surface includes documentation, authentication, sandbox, engineering blog, support, signup flow, and 21 more developer resources.'
 random_paper: 46
 scopes:
 - name: Recurrency Scopes
@@ -174,11 +178,11 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 45.6
-  delta: 0.0
+  composite: 45.0
+  delta: -0.6
   facets:
     commercial_clarity: 34.2
-    contract_quality: 65.1
+    contract_quality: 62.7
     developer_ergonomics: 51.6
     discoverability: 87.0
     governance: 11.5
@@ -193,8 +197,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

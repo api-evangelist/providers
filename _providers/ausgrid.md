@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: documented
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 18.9
-  scored_at: '2026-08-10'
+  score: 15.3
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 7
 common:
@@ -215,14 +215,14 @@ overview: 'Ausgrid is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 55
 score:
   band: emerging
-  composite: 25.5
-  delta: 0.0
+  composite: 23.8
+  delta: -1.7
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 42.9
-    discoverability: 68.5
-    governance: 13.5
+    discoverability: 57.4
+    governance: 5.7
     operational_transparency: 10.5
   previous_composite: 25.5
   provenance:
@@ -234,8 +234,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 41.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ausgrid/refs/heads/main/screenshots/ausgrid-2026-08-07T161937.png
 security:

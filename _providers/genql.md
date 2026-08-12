@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Fully-typed TypeScript client generated from any GraphQL schema, enabling type-safe query building with IDE auto-completion, batching support, subscriptions, and zero runtime dependencies across brows
@@ -36,6 +36,22 @@ apis:
   slug: graphql-api
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/remorses/genql/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/remorses/genql/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/remorses/genql/blob/master/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/remorses/genql/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -87,7 +103,7 @@ network: true
 overview: 'Genql publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, TypeScript, Code Generation, SDK, and Developer Tools.
 
 
-  Genql''s developer surface includes documentation, changelog, and 6 more developer resources.'
+  Genql''s developer surface includes documentation, changelog, and 10 more developer resources.'
 plans:
 - name: Genql Plans Pricing
   plan_count: 3
@@ -98,20 +114,20 @@ rate_limits:
   name: Genql Rate Limits
   slug: genql-rate-limits
 score:
-  band: thin
-  composite: 32.9
-  delta: 0.0
+  band: emerging
+  composite: 25.1
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 42.0
     developer_ergonomics: 8.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 32.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/genql/refs/heads/main/screenshots/genql-2026-06-20T181736.png
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: GraphQL API for programmatic access to Labelbox platform resources including datasets, projects, labels, ontologies, and model evaluation workflows. Labelbox recommends using the Python SDK as a wrapp
@@ -39,6 +39,26 @@ apis:
   slug: labelbox-rest-api
 artifact_total: 10
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Labelbox/labelbox-python/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Labelbox/labelbox-python/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Labelbox/labelbox-python/blob/develop/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Labelbox/labelbox-python/blob/develop/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Labelbox/labelbox-python/blob/develop/LICENSE
 - group: auth
   title: ''
   type: TrustCenter
@@ -138,7 +158,7 @@ overview: 'Labelbox publishes 2 APIs on the [APIs.io](https://apis.io/) network.
   The Labelbox catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Labelbox''s developer surface includes documentation, engineering blog, pricing, and 15 more developer resources.'
+  Labelbox''s developer surface includes documentation, engineering blog, pricing, and 20 more developer resources.'
 plans:
 - name: Labelbox Plans Pricing
   plan_count: 2
@@ -150,18 +170,18 @@ rate_limits:
   slug: labelbox-rate-limits
 score:
   band: thin
-  composite: 37.3
-  delta: 0.0
+  composite: 40.7
+  delta: 3.4
   facets:
     commercial_clarity: 47.4
     contract_quality: 53.1
     developer_ergonomics: 10.9
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 42.1
+    operational_transparency: 68.4
   previous_composite: 37.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/labelbox/refs/heads/main/screenshots/labelbox-2026-06-20T184245.png
 security:

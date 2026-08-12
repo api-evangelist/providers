@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Service mesh control plane for Kubernetes that implements the Service Mesh Interface (SMI) specification, providing traffic management, security, and observability for microservices via Envoy sidecar '
@@ -36,6 +36,10 @@ apis:
   slug: open-service-mesh
 artifact_total: 5
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/openservicemesh/osm/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -67,7 +71,7 @@ network: true
 overview: 'Open Service Mesh publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Native, Envoy, Kubernetes, Microservices, and Service Mesh.
 
 
-  Open Service Mesh''s developer surface includes documentation and 3 more developer resources.'
+  Open Service Mesh''s developer surface includes documentation and 4 more developer resources.'
 plans:
 - name: Open Service Mesh Plans Pricing
   plan_count: 3
@@ -78,20 +82,20 @@ rate_limits:
   name: Open Service Mesh Rate Limits
   slug: open-service-mesh-rate-limits
 score:
-  band: emerging
-  composite: 19.7
-  delta: 0.0
+  band: minimal
+  composite: 11.9
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 19.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-service-mesh/refs/heads/main/screenshots/open-service-mesh-2026-06-20T190850.png
 security:
 - kind: domain-security

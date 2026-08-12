@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: Open-source Python framework (superduper-framework) for declaring AI models, embeddings, vector indexes, RAG pipelines, and listeners directly on top of an existing database. Apache 2.0 licensed.
@@ -51,6 +51,10 @@ apis:
   slug: agents
 artifact_total: 10
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/superduper-io/superduper/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -86,7 +90,7 @@ network: true
 overview: 'Superduper publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Framework, Vector Search, RAG, LLMs, and MLOps.
 
 
-  Superduper''s developer surface includes documentation, GitHub presence, and 3 more developer resources.'
+  Superduper''s developer surface includes documentation, GitHub presence, and 4 more developer resources.'
 plans:
 - name: Superduperdb Plans Pricing
   plan_count: 1
@@ -98,18 +102,18 @@ rate_limits:
   slug: superduperdb-rate-limits
 score:
   band: emerging
-  composite: 18.3
-  delta: 0.0
+  composite: 19.2
+  delta: 0.9
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
-    developer_ergonomics: 8.7
+    developer_ergonomics: 13.0
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 18.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superduperdb/refs/heads/main/screenshots/superduperdb-2026-06-20T194712.png
 security:

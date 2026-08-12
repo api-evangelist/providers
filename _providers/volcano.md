@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -59,6 +59,10 @@ collections:
   name: Volcano Queue API
   slug: open-volcano-queue
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/volcano-sh/volcano/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -160,7 +164,7 @@ overview: 'Volcano publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
   The Volcano catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Volcano''s developer surface includes documentation, getting-started guide, engineering blog, and 12 more developer resources.'
+  Volcano''s developer surface includes documentation, getting-started guide, engineering blog, and 13 more developer resources.'
 plans:
 - name: Volcano Plans Pricing
   plan_count: 1
@@ -188,16 +192,16 @@ rules:
     warn: 4
   slug: volcano-rules
 score:
-  band: developing
-  composite: 46.0
-  delta: 0.0
+  band: thin
+  composite: 40.2
+  delta: -5.8
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 64.3
+    commercial_clarity: 13.2
+    contract_quality: 61.9
     developer_ergonomics: 26.1
     discoverability: 72.2
     governance: 68.8
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 46.0
   provenance:
     agentic_access: derived
@@ -206,9 +210,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/volcano/refs/heads/main/screenshots/volcano-2026-06-20T201130.png
 security:
 - kind: domain-security

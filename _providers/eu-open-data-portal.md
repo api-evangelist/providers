@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -122,15 +122,15 @@ rules:
   slug: eu-open-data-portal-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.4
-  delta: 0.0
+  composite: 32.2
+  delta: -7.2
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 65.9
+    commercial_clarity: 15.8
+    contract_quality: 63.4
     developer_ergonomics: 2.2
     discoverability: 68.5
     governance: 58.3
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 39.4
   provenance:
     agentic_access: derived
@@ -145,9 +145,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/screenshots/eu-open-data-portal-2026-06-20T180843.png
 security:
 - kind: domain-security

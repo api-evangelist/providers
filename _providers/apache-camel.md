@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: The Apache Camel Java DSL provides a fluent API for defining integration routes using Enterprise Integration Patterns. Developers define RouteBuilder subclasses to connect Camel components via endpoin
@@ -45,6 +45,22 @@ apis:
   slug: apache-camel-quarkus-api
 artifact_total: 32
 common:
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/apache/camel/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/camel/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/camel/blob/main/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -152,7 +168,7 @@ network: true
 overview: 'Apache Camel publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Enterprise Integration, Integration, Messaging, and Open Source.
 
 
-  Apache Camel''s developer surface includes documentation, getting-started guide, support, changelog, FAQ, engineering blog, and 8 more developer resources.'
+  Apache Camel''s developer surface includes documentation, getting-started guide, support, changelog, FAQ, engineering blog, and 12 more developer resources.'
 plans:
 - name: Apache Camel Plans Pricing
   plan_count: 3
@@ -163,26 +179,20 @@ rate_limits:
   name: Apache Camel Rate Limits
   slug: apache-camel-rate-limits
 score:
-  band: thin
-  composite: 30.8
-  delta: 0.0
+  band: emerging
+  composite: 24.6
+  delta: -6.2
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 32.6
     discoverability: 64.8
     governance: 10.4
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 30.8
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 29.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-camel/refs/heads/main/screenshots/apache-camel-2026-06-20T172046.png
 security:
 - kind: domain-security

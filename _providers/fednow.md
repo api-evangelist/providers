@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 9.0
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Account Management API letting a participating financial institution programmatically retrieve its FedNow master account balance information. Documented on the FedLine Developer portal as one of the o
@@ -145,13 +145,13 @@ overview: 'FedNow Service publishes 5 APIs on the [APIs.io](https://apis.io/) ne
 random_paper: 63
 score:
   band: thin
-  composite: 37.2
-  delta: 0.0
+  composite: 34.3
+  delta: -2.9
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 58.7
-    discoverability: 83.3
+    discoverability: 72.2
     governance: 12.5
     operational_transparency: 31.6
   previous_composite: 37.2
@@ -162,9 +162,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 51.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 39.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fednow/refs/heads/main/screenshots/fednow-2026-07-25T214316.png
 security:

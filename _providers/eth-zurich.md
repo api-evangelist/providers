@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -146,6 +146,14 @@ apis:
   slug: eth-zurich-util-api
 artifact_total: 49
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/eth-library/opendata-apis/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/eth-library/opendata-apis/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -280,7 +288,7 @@ overview: 'ETH Zurich – Swiss Federal Institute of Technology publishes 35 API
   The ETH Zurich – Swiss Federal Institute of Technology catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  ETH Zurich – Swiss Federal Institute of Technology''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 20 more developer resources.'
+  ETH Zurich – Swiss Federal Institute of Technology''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 22 more developer resources.'
 plans:
 - name: Eth Zurich Plans Pricing
   plan_count: 2
@@ -309,11 +317,11 @@ rules:
   slug: eth-zurich-rules
 score:
   band: developing
-  composite: 44.7
-  delta: 0.0
+  composite: 44.2
+  delta: -0.5
   facets:
     commercial_clarity: 28.9
-    contract_quality: 60.3
+    contract_quality: 58.1
     developer_ergonomics: 30.4
     discoverability: 64.8
     governance: 68.8
@@ -332,8 +340,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 42.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/screenshots/eth-zurich-2026-06-20T180834.png
 security:

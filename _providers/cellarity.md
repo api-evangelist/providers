@@ -1,10 +1,10 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-08-10'
+  score: 28.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 114
   human_in_the_loop: 0
@@ -78,6 +78,10 @@ apis:
   slug: cellarity-video-api
 artifact_total: 19
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cellarity-content-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -182,26 +186,38 @@ network: true
 overview: 'Cellarity publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Case Studies API, Comments API, Discovery API, and 13 more. Tagged areas include Company, Biotechnology, Drug Discovery, Life Sciences, and Artificial Intelligence.
 
 
-  Cellarity''s developer surface includes product news, support, authentication, and 20 more developer resources.'
+  Cellarity''s developer surface includes product news, support, authentication, and 21 more developer resources.'
 random_paper: 41
 score:
-  band: thin
-  composite: 33.7
+  band: emerging
+  composite: 22.9
+  delta: -10.8
   facets:
     commercial_clarity: 21.1
-    contract_quality: 52.4
-    developer_ergonomics: 21.7
-    discoverability: 92.6
-    governance: 20.8
+    contract_quality: 14.5
+    developer_ergonomics: 16.8
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 5.3
+  previous_composite: 33.7
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 16
+      marker_coverage: 100.0
+      total: 16
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 security:
 - kind: authentication
   name: Cellarity Authentication

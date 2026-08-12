@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Card save / tokenization flows
@@ -42,7 +42,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/reachware-inc-reachpay-openapi.yml
+  url: openapi/_original/reachware-inc-reachpay-openapi.yml
 - group: other
   title: ''
   type: Overlay
@@ -146,11 +146,11 @@ overview: 'Reachware Inc. publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 random_paper: 29
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 46.0
+  delta: -2.4
   facets:
     commercial_clarity: 42.1
-    contract_quality: 63.6
+    contract_quality: 61.2
     developer_ergonomics: 60.3
     discoverability: 75.9
     governance: 20.8
@@ -170,9 +170,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 59.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 46.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

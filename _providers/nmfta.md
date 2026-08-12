@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: The Digital LTL Council's electronic bill of lading standard, version 2.1.0 — the council's first and most adopted contract. This is the standard's own specification, not any carrier's implementation.
@@ -41,6 +41,18 @@ apis:
   slug: nmfta-dsdc-ftl-in-transit-visibility-api
 artifact_total: 16
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/dsdcapis/less-than-truckload/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/dsdcapis/less-than-truckload/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/dsdcapis/less-than-truckload/blob/main/CONTRIBUTING.md
 - group: start
   title: ''
   type: Portal
@@ -128,15 +140,15 @@ network: true
 overview: 'NMFTA publishes 6 APIs on the [APIs.io](https://apis.io/) network, including DSDC LTL eBOL API, DSDC LTL Preliminary Freight Charges API, DSDC FTL eBOL API, and 3 more. Tagged areas include API Standards, DSDC, Digital FTL Council, Digital LTL Council, and Freight.
 
 
-  NMFTA''s developer surface includes developer portal, product news, and 14 more developer resources.'
+  NMFTA''s developer surface includes developer portal, product news, and 17 more developer resources.'
 random_paper: 70
 score:
   band: emerging
-  composite: 21.3
-  delta: 0.0
+  composite: 20.9
+  delta: -0.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 49.6
+    contract_quality: 47.8
     developer_ergonomics: 8.7
     discoverability: 64.8
     governance: 0.0
@@ -148,8 +160,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/screenshots/nmfta-2026-08-07T185355.png
 slug: nmfta

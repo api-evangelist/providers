@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-10'
+  score: 38.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -248,13 +248,13 @@ rate_limits:
   slug: marketdata-app-rate-limits
 score:
   band: strong
-  composite: 64.7
-  delta: 0.0
+  composite: 63.3
+  delta: -1.4
   facets:
     commercial_clarity: 84.2
-    contract_quality: 62.8
+    contract_quality: 60.4
     developer_ergonomics: 71.2
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 73.7
   previous_composite: 64.7
@@ -274,8 +274,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/screenshots/marketdata-app-2026-07-22T202452.png
 security:

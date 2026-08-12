@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: The AutoRest Core package (@autorest/core) is the central engine that orchestrates code generation from OpenAPI specifications. It handles input processing, configuration resolution, pipeline manageme
@@ -51,6 +51,14 @@ apis:
   slug: autorest-go
 artifact_total: 21
 common:
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/Azure/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Azure/autorest/blob/main/CONTRIBUTING.md
 - group: company
   title: ''
   type: Website
@@ -168,7 +176,7 @@ network: true
 overview: 'AutoRest publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, Microsoft, OpenAPI, SDK Generation, and Azure SDK.
 
 
-  AutoRest''s developer surface includes documentation, getting-started guide, release notes, API reference, support, CLI, changelog, and 14 more developer resources.'
+  AutoRest''s developer surface includes documentation, getting-started guide, release notes, API reference, support, CLI, changelog, and 16 more developer resources.'
 plans:
 - name: Autorest Plans Pricing
   plan_count: 3
@@ -180,21 +188,21 @@ rate_limits:
   slug: autorest-rate-limits
 score:
   band: thin
-  composite: 35.8
-  delta: 0.0
+  composite: 28.0
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 43.5
     discoverability: 72.2
     governance: 22.9
-    operational_transparency: 71.1
+    operational_transparency: 47.4
   previous_composite: 35.8
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/autorest/refs/heads/main/screenshots/autorest-2026-06-20T172707.png
 security:
 - kind: vulnerability-disclosure

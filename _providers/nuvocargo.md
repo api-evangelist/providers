@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,18 +70,18 @@ overview: 'Nuvocargo is profiled on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 52
 score:
   band: minimal
-  composite: 12.8
-  delta: 0.0
+  composite: 11.7
+  delta: -1.1
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 61.1
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 12.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuvocargo/refs/heads/main/screenshots/nuvocargo-2026-08-07T185806.png
 security:

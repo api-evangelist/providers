@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: Provides programmatic access to create, retrieve, and manage news snapshots based on search queries and filters. Supports analytics explain jobs and time series operations for volume estimation and tr
@@ -57,6 +57,10 @@ apis:
   slug: factiva-market-data-api
 artifact_total: 12
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/dowjones/developer-platform/issues
 - group: auth
   title: ''
   type: DomainSecurity
@@ -148,7 +152,7 @@ network: true
 overview: 'Factiva publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Snapshots API, Streams API, Extractions API, and 3 more. Tagged areas include Business Intelligence, Content Aggregation, Market Data, Media Monitoring, and News.
 
 
-  Factiva''s developer surface includes developer portal, signup flow, getting-started guide, authentication, documentation, support, engineering blog, and 12 more developer resources.'
+  Factiva''s developer surface includes developer portal, signup flow, getting-started guide, authentication, documentation, support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Factiva Plans Pricing
   plan_count: 3
@@ -160,15 +164,15 @@ rate_limits:
   slug: factiva-rate-limits
 score:
   band: thin
-  composite: 38.3
-  delta: 0.0
+  composite: 33.9
+  delta: -4.4
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 56.5
     discoverability: 72.2
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 38.3
   regulatory:
     applies: true
@@ -176,8 +180,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 43.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/screenshots/factiva-2026-06-20T181007.png
 security:

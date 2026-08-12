@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -66,6 +66,10 @@ collections:
   name: ZenRows Universal Scraper API
   slug: open-zenrows-universal-scraper
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/ZenRows/zenrows-mcp/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -202,7 +206,7 @@ overview: 'ZenRows publishes 1 API on the [APIs.io](https://apis.io/) network: U
   The ZenRows catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  ZenRows'' developer surface includes authentication, documentation, pricing, signup flow, engineering blog, status page, changelog, and 18 more developer resources.'
+  ZenRows'' developer surface includes authentication, documentation, pricing, signup flow, engineering blog, status page, changelog, and 19 more developer resources.'
 plans:
 - name: Zenrows Plans Pricing
   plan_count: 8
@@ -235,9 +239,9 @@ score:
   delta: 0.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 72.1
+    contract_quality: 69.4
     developer_ergonomics: 26.1
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 68.8
     operational_transparency: 52.6
   previous_composite: 57.5
@@ -248,8 +252,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenrows/refs/heads/main/screenshots/zenrows-2026-06-20T201820.png
 security:

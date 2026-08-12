@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 55.2
-  scored_at: '2026-08-10'
+  score: 51.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -89,6 +90,10 @@ asyncapis:
   name: Typeface Webhooks
   slug: typeface-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/typeface-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -235,7 +240,7 @@ overview: 'Typeface publishes 15 APIs on the [APIs.io](https://apis.io/) network
   The Typeface catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Typeface''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 26 more developer resources.'
+  Typeface''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 27 more developer resources.'
 random_paper: 37
 scopes:
 - name: Typeface Scopes
@@ -244,11 +249,11 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 56.6
-  delta: 0.0
+  composite: 56.0
+  delta: -0.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 66.5
+    contract_quality: 64.0
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 20.8
@@ -264,8 +269,8 @@ score:
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

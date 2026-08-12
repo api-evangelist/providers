@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 0
@@ -143,6 +144,10 @@ asyncapis:
   name: Vicai Webhooks
   slug: vicai-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/vicai-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -273,7 +278,7 @@ overview: 'Vic.ai publishes 33 APIs on the [APIs.io](https://apis.io/) network, 
   The Vic.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Vic.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
+  Vic.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
 random_paper: 60
 rate_limits:
 - limit_count: 1
@@ -281,13 +286,13 @@ rate_limits:
   slug: vicai-rate-limits
 score:
   band: developing
-  composite: 54.5
-  delta: 0.0
+  composite: 53.0
+  delta: -1.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 71.1
+    contract_quality: 68.5
     developer_ergonomics: 56.0
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 11.5
     operational_transparency: 50.0
   previous_composite: 54.5
@@ -307,8 +312,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

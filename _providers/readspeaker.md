@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: A cloud-based text-to-speech API. When using the API from within your software or application, you simply send text to the ReadSpeaker speechCloud API servers and receive audio data in the file format
@@ -103,25 +103,19 @@ rate_limits:
   slug: readspeaker-rate-limits
 score:
   band: emerging
-  composite: 22.3
-  delta: 0.0
+  composite: 15.9
+  delta: -6.4
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 15.2
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 22.3
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 13.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/readspeaker/refs/heads/main/screenshots/readspeaker-2026-06-20T192643.png
 security:
 - kind: domain-security

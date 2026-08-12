@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: documented
     rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 22.1
-  scored_at: '2026-08-10'
+  score: 21.2
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: The primary Trestle interface — a RESO Web API 2.0 / OData 4.0 endpoint that republishes MLS data mapped to the RESO Data Dictionary. The anonymously readable OData service document advertises 18 enti
@@ -33,12 +33,16 @@ apis:
 - description: Trestle's legacy Real Estate Transaction Standard interface, documented as compliant with RETS 1.8. RESO no longer updates the RETS specification, but Trestle continues to serve it for customers who c
   name: Trestle RETS
   slug: trestle-rets
-artifact_total: 10
+artifact_total: 11
 collections:
 - collection_type: postman
   name: Trestle WebAPI Demonstration
   slug: postman-trestle-webapi
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/trestle-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -196,6 +200,10 @@ description: 'Trestle is the real estate data distribution platform operated by 
   answers anonymously with a 200. But nothing behind it is reachable. The $metadata document and every entity set return 401 Bearer, and credentials are only issued after a developer registers a Technology Provider or Broker account, requests a connection to a specific multiple listing organization, and completes an e-signed data licence contract that all parties sign — a contract most MLSs will only ratify if a licensed broker or agent sponsors it or the technology provider files periodic participant reports. Trestle is RESO-certified and publicly documented, and still effectively uncallable without a signed licence. Certification is not reachability.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/corelogic.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: trestle-mcp.yml
+  slug: trestle-mcpyml
 modified: '2026-07-26'
 name: Trestle
 nav: Providers
@@ -203,7 +211,7 @@ network: true
 overview: 'Trestle publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Real Estate, United States, MLS, RESO, and Property Listings.
 
 
-  Trestle''s developer surface includes documentation, FAQ, signup flow, support, getting-started guide, API reference, engineering blog, and 31 more developer resources.'
+  Trestle''s developer surface includes documentation, FAQ, signup flow, support, getting-started guide, API reference, engineering blog, and 32 more developer resources.'
 random_paper: 75
 rate_limits:
 - limit_count: 4
@@ -216,12 +224,12 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 40.5
-  delta: 0.0
+  composite: 40.9
+  delta: 0.4
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
-    developer_ergonomics: 58.2
+    developer_ergonomics: 60.3
     discoverability: 83.3
     governance: 12.5
     operational_transparency: 81.6
@@ -230,8 +238,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

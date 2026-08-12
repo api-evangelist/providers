@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 31.5
-  scored_at: '2026-08-10'
+  score: 27.9
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: DRM, CMS, and content-monitoring API for managing rights assets, collections, and whitelists, tracking infringing copies across platforms, and running takedowns. Bearer API-key authentication; rate li
@@ -167,8 +167,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

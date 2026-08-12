@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 61.0
-  scored_at: '2026-08-10'
+  score: 57.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -104,6 +105,10 @@ asyncapis:
   name: Socket Webhooks
   slug: socket-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/socket-api-overlay.yaml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -258,7 +263,7 @@ overview: 'Socket publishes 20 APIs on the [APIs.io](https://apis.io/) network, 
   The Socket catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Socket''s developer surface includes documentation, getting-started guide, API reference, support, authentication, changelog, CLI, and 27 more developer resources.'
+  Socket''s developer surface includes documentation, getting-started guide, API reference, support, authentication, changelog, CLI, and 28 more developer resources.'
 random_paper: 69
 rate_limits:
 - limit_count: 0
@@ -270,14 +275,14 @@ scopes:
   slug: socket-scopes
   summary_line: 34 scopes
 score:
-  band: strong
-  composite: 56.1
-  delta: 0.0
+  band: developing
+  composite: 54.4
+  delta: -1.7
   facets:
     commercial_clarity: 23.7
-    contract_quality: 69.8
+    contract_quality: 67.2
     developer_ergonomics: 75.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 63.2
   previous_composite: 56.1
@@ -291,8 +296,8 @@ score:
       total: 20
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

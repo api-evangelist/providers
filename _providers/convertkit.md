@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -717,11 +717,11 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.4
-  delta: 0.0
+  composite: 51.6
+  delta: 0.2
   facets:
     commercial_clarity: 57.9
-    contract_quality: 62.6
+    contract_quality: 60.6
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
@@ -734,8 +734,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 55.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/screenshots/convertkit-2026-06-20T175000.png
 security:

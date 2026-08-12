@@ -21,21 +21,25 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-10'
+  score: 2.7
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API for the L2L Dispatch Smart Manufacturing Platform. HTTPS GET/POST/PUT/DELETE over per-tenant hosts, API-key authenticated, JSON by default (XML optional). Covers 60+ shop-floor resources incl
   name: L2L Dispatch API
   slug: l2l-dispatch-api
-artifact_total: 4
+artifact_total: 5
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/swipeguide-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -108,6 +112,10 @@ created: '2026-07-17'
 description: SwipeGuide was a frontline digital work-instruction platform for manufacturing that has since been acquired by L2L (formerly Leading2Lean); the swipeguide.com domain now 301-redirects to l2l.com. L2L operates a Connected Workforce / Connected Manufacturing Operations platform (the L2L Dispatch Smart Manufacturing Platform) spanning maintenance, production monitoring, quality, skills, and digital work instructions on the shop floor. It exposes the L2L Dispatch REST API (v1.0) for reading and writing shop-floor data — sites, areas, lines, machines, dispatches, pitches, work orders, kaizen and more — authenticated with an API key (query auth, L2LAUTH header, or POST body) plus optional HMAC-SHA512 request signing, returning JSON (default) or XML.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/swipeguide.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: swipeguide-mcp.yml
+  slug: swipeguide-mcpyml
 modified: '2026-07-21'
 name: Swipeguide
 nav: Providers
@@ -115,25 +123,25 @@ network: true
 overview: 'Swipeguide publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Manufacturing, Work Instructions, Frontline, and Shop Floor.
 
 
-  Swipeguide''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 10 more developer resources.'
+  Swipeguide''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 11 more developer resources.'
 random_paper: 34
 score:
   band: emerging
-  composite: 26.5
-  delta: 0.0
+  composite: 25.9
+  delta: -0.6
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
-    developer_ergonomics: 39.1
-    discoverability: 87.0
+    developer_ergonomics: 41.3
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 21.1
   previous_composite: 26.5
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

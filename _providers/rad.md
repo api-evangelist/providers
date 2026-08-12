@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 20.9
-  scored_at: '2026-08-10'
+  score: 17.3
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Strongly-typed GraphQL API to query and mutate the Rad TV platform — catalog (features, series, seasons, episodes, streams, miniseries), content management, uploads (TUS resumable), transcoding with A
@@ -130,8 +130,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

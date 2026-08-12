@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Moleculer is a fast, modern, and powerful microservices framework for Node.js. It provides built-in service discovery, load balancing, fault tolerance with circuit breaker, request retries, distribute
@@ -36,6 +36,30 @@ apis:
   slug: moleculer
 artifact_total: 8
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/moleculerjs/moleculer/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/moleculerjs/moleculer/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/moleculerjs/moleculer/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/moleculerjs/moleculer/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/moleculerjs/moleculer/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/moleculerjs/moleculer/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -93,7 +117,7 @@ overview: 'Moleculer publishes 1 API on the [APIs.io](https://apis.io/) network.
   The Moleculer catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Moleculer''s developer surface includes documentation, getting-started guide, code examples, and 5 more developer resources.'
+  Moleculer''s developer surface includes documentation, getting-started guide, code examples, and 11 more developer resources.'
 plans:
 - name: Moleculer Plans Pricing
   plan_count: 3
@@ -114,18 +138,18 @@ rules:
   slug: moleculer-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.6
-  delta: 0.0
+  composite: 29.9
+  delta: -3.7
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 16.1
     developer_ergonomics: 19.6
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 33.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moleculer/refs/heads/main/screenshots/moleculer-2026-06-20T185709.png
 security:

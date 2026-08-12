@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -175,6 +175,10 @@ collections:
   name: Finix Authorizations Webhooks API
   slug: postman-finix-webhooks-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/finix-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -373,21 +377,21 @@ overview: 'Finix publishes 19 APIs on the [APIs.io](https://apis.io/) network, i
   The Finix catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Finix''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 38 more developer resources.'
+  Finix''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 39 more developer resources.'
 random_paper: 78
 rate_limits:
 - limit_count: 2
   name: Finix Rate Limits
   slug: finix-rate-limits
 score:
-  band: exemplar
-  composite: 68.8
-  delta: 0.0
+  band: strong
+  composite: 64.1
+  delta: -4.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.8
+    contract_quality: 67.2
     developer_ergonomics: 79.9
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 76.3
   previous_composite: 68.8
@@ -406,9 +410,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 78.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 56.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/screenshots/finix-2026-07-25T214523.png
 security:

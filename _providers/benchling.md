@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 234
   human_in_the_loop: 0
@@ -2957,11 +2958,11 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.7
-  delta: 0.0
+  composite: 48.3
+  delta: -0.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 57.1
+    contract_quality: 55.2
     developer_ergonomics: 34.8
     discoverability: 68.5
     governance: 58.3
@@ -2980,8 +2981,8 @@ score:
     regime: Health
     regime_id: health
     score: 36.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/screenshots/benchling-2026-06-20T173135.png
 security:

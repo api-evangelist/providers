@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: HAL Sorbonne Université is the institution's open archive of scholarly publications. Its metadata is harvestable through the standards-based OAI-PMH protocol served by the central HAL infrastructure (
@@ -119,8 +119,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 21.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sorbonne/refs/heads/main/screenshots/sorbonne-2026-06-20T194214.png
 security:

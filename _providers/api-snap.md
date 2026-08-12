@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -302,12 +303,12 @@ rules:
     warn: 23
   slug: api-snap-spectral-rules
 score:
-  band: strong
-  composite: 57.7
-  delta: 0.0
+  band: developing
+  composite: 51.9
+  delta: -5.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 82.9
+    contract_quality: 79.9
     developer_ergonomics: 32.6
     discoverability: 74.1
     governance: 68.8
@@ -320,9 +321,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 23.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/screenshots/api-snap-2026-07-25T200604.png
 security:
 - kind: authentication

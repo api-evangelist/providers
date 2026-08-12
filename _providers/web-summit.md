@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The Web Summit attendee platform provides conference scheduling, attendee discovery, and networking capabilities through the Web Summit mobile app and web portal. Attendees can browse sessions, discov
@@ -149,20 +149,20 @@ rate_limits:
   name: Web Summit Rate Limits
   slug: web-summit-rate-limits
 score:
-  band: thin
-  composite: 30.1
-  delta: 0.0
+  band: emerging
+  composite: 23.0
+  delta: -7.1
   facets:
-    commercial_clarity: 71.1
+    commercial_clarity: 47.4
     contract_quality: 0.0
     developer_ergonomics: 23.9
-    discoverability: 63.0
+    discoverability: 70.4
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 30.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/web-summit/refs/heads/main/screenshots/web-summit-2026-06-20T201325.png
 security:
 - kind: domain-security

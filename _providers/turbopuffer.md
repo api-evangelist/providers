@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -78,6 +78,10 @@ collections:
   name: turbopuffer API
   slug: open-turbopuffer
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/turbopuffer/turbopuffer-python/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -153,7 +157,7 @@ network: true
 overview: 'turbopuffer publishes 1 API on the [APIs.io](https://apis.io/) network: Namespaces API. Tagged areas include Vector Search, Full-Text Search, Hybrid Search, BM25, and Serverless.
 
 
-  turbopuffer''s developer surface includes authentication, documentation, GitHub presence, pricing, engineering blog, and 10 more developer resources.'
+  turbopuffer''s developer surface includes authentication, documentation, GitHub presence, pricing, engineering blog, and 11 more developer resources.'
 plans:
 - name: Turbopuffer Plans Pricing
   plan_count: 3
@@ -165,13 +169,13 @@ rate_limits:
   slug: turbopuffer-rate-limits
 score:
   band: thin
-  composite: 41.4
-  delta: 0.0
+  composite: 41.7
+  delta: 0.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 51.2
+    contract_quality: 49.3
     developer_ergonomics: 21.7
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 41.4
@@ -182,8 +186,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turbopuffer/refs/heads/main/screenshots/turbopuffer-2026-06-20T195831.png
 security:

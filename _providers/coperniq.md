@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -128,6 +129,10 @@ asyncapis:
   name: Coperniq Webhooks
   slug: coperniq-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/coperniq-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -274,7 +279,7 @@ overview: 'Coperniq publishes 28 APIs on the [APIs.io](https://apis.io/) network
   The Coperniq catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Coperniq''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, pricing, and 25 more developer resources.'
+  Coperniq''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, pricing, and 26 more developer resources.'
 random_paper: 53
 rate_limits:
 - limit_count: 2
@@ -282,11 +287,11 @@ rate_limits:
   slug: coperniq-rate-limits
 score:
   band: developing
-  composite: 54.7
-  delta: 0.0
+  composite: 54.1
+  delta: -0.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 68.8
+    contract_quality: 66.2
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 11.5
@@ -308,8 +313,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/screenshots/coperniq-2026-07-25T210410.png
 security:

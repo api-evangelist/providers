@@ -22,14 +22,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-10'
+  score: 36.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -97,12 +97,20 @@ arazzos:
 - description: Create a realm-level role if it is missing, update it if it already exists, then read it back.
   name: Keycloak Upsert a Realm Role
   slug: keycloak-upsert-realm-role-workflow
-artifact_total: 28
+artifact_total: 29
 collections:
 - collection_type: open
   name: Keycloak Admin REST API
   slug: open-keycloak-admin-rest-api
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/keycloak-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/keycloak-admin-rest-api-overlay.yaml
 - group: design
   title: ''
   type: Arazzo
@@ -239,6 +247,10 @@ finops:
   slug: keycloak-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/keycloak.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: keycloak-mcp.yml
+  slug: keycloak-mcpyml
 modified: '2026-06-20'
 name: Keycloak
 nav: Providers
@@ -249,7 +261,7 @@ overview: 'Keycloak publishes 6 APIs on the [APIs.io](https://apis.io/) network,
   The Keycloak catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Keycloak''s developer surface includes changelog, CLI, authentication, documentation, getting-started guide, engineering blog, and 26 more developer resources.'
+  Keycloak''s developer surface includes changelog, CLI, authentication, documentation, getting-started guide, engineering blog, and 28 more developer resources.'
 plans:
 - name: Keycloak Plans Pricing
   plan_count: 3
@@ -269,16 +281,16 @@ rules:
     warn: 3
   slug: keycloak-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 56.5
-  delta: 0.0
+  band: developing
+  composite: 47.5
+  delta: -9.0
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 61.0
-    developer_ergonomics: 43.5
-    discoverability: 83.3
+    commercial_clarity: 15.8
+    contract_quality: 58.7
+    developer_ergonomics: 45.7
+    discoverability: 72.2
     governance: 79.2
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 56.5
   provenance:
     agentic_access: derived
@@ -289,9 +301,9 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/screenshots/keycloak-2026-06-20T184004.png
 security:
 - kind: authentication

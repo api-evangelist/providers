@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-10'
+  score: 38.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 149
   human_in_the_loop: 0
@@ -148,6 +148,10 @@ apis:
   slug: lanzatech-widgets-api
 artifact_total: 40
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lanzatech-wordpress-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -263,17 +267,17 @@ network: true
 overview: 'LanzaTech publishes 36 APIs on the [APIs.io](https://apis.io/) network, including block-directory API, block-patterns API, block-renderer API, and 33 more. Tagged areas include Company, Carbon Capture, Climate Tech, Sustainability, and Synthetic Biology.
 
 
-  LanzaTech''s developer surface includes engineering blog, support, YouTube channel, authentication, and 21 more developer resources.'
+  LanzaTech''s developer surface includes engineering blog, support, YouTube channel, authentication, and 22 more developer resources.'
 random_paper: 26
 score:
   band: thin
-  composite: 34.3
-  delta: 0.0
+  composite: 32.9
+  delta: -1.4
   facets:
     commercial_clarity: 21.1
-    contract_quality: 58.3
+    contract_quality: 56.1
     developer_ergonomics: 21.2
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 34.3
@@ -293,8 +297,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lanzatech/refs/heads/main/screenshots/lanzatech-2026-07-25T224527.png
 security:

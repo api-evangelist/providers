@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -145,6 +146,10 @@ collections:
   name: Runway Video Generation API
   slug: open-runway-video-generation
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/runwayml/sdk-python/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -287,7 +292,7 @@ overview: 'Runway publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
   The Runway catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Runway''s developer surface includes authentication, developer portal, documentation, engineering blog, changelog, and 15 more developer resources.'
+  Runway''s developer surface includes authentication, developer portal, documentation, engineering blog, changelog, and 16 more developer resources.'
 plans:
 - name: Runway Plans Pricing
   plan_count: 5
@@ -323,16 +328,16 @@ rules:
     warn: 11
   slug: runway-rules
 score:
-  band: strong
-  composite: 61.2
-  delta: 0.0
+  band: developing
+  composite: 55.7
+  delta: -5.5
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 78.3
-    developer_ergonomics: 43.5
-    discoverability: 64.8
+    commercial_clarity: 50.0
+    contract_quality: 75.4
+    developer_ergonomics: 50.0
+    discoverability: 72.2
     governance: 52.1
-    operational_transparency: 42.1
+    operational_transparency: 26.3
   previous_composite: 61.2
   provenance:
     agentic_access: derived
@@ -341,9 +346,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/screenshots/runway-2026-06-20T193255.png
 security:
 - kind: authentication

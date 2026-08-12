@@ -1,15 +1,16 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -17,8 +18,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 66.2
-  scored_at: '2026-08-10'
+  score: 58.8
+  scored_at: '2026-08-11'
 api_count: 27
 apis:
 - description: Official first-party Model Context Protocol server (Apache-2.0) exposing 59 read-only tools across 13 categories — IP intelligence, WHOIS, DNS, SSL, domain, weather, currency, commodity, ZIP code, scr
@@ -108,6 +109,18 @@ asyncapis:
   name: Apifreaks Api Hub For Developers Pdf Webhooks
   slug: apifreaks-api-hub-for-developers-pdf-webhooks
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/api-freaks/apifreaks-mcp/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/api-freaks/apifreaks-mcp/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/api-freaks/apifreaks-mcp/blob/main/LICENSE
 - group: start
   title: ''
   type: DeveloperPortal
@@ -267,7 +280,7 @@ overview: 'APIFreaks - API Hub for Developers publishes 26 APIs on the [APIs.io]
   The APIFreaks - API Hub for Developers catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  APIFreaks - API Hub for Developers'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+  APIFreaks - API Hub for Developers'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
 plans:
 - name: Apifreaks Api Hub For Developers Plans
   plan_count: 5
@@ -279,16 +292,28 @@ rate_limits:
   slug: apifreaks-api-hub-for-developers-rate-limits
 score:
   band: exemplar
-  composite: 69.8
+  composite: 69.0
+  delta: -0.8
   facets:
     commercial_clarity: 76.3
-    contract_quality: 67.3
-    developer_ergonomics: 84.8
+    contract_quality: 72.3
+    developer_ergonomics: 79.9
     discoverability: 87.0
-    governance: 20.8
+    governance: 11.5
     operational_transparency: 73.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 69.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 26
+    mcp: first-party
+    skills: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Apifreaks Api Hub For Developers Authentication

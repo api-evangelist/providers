@@ -22,14 +22,14 @@ agent_readiness:
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-10'
+  score: 3.2
+  scored_at: '2026-08-11'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
@@ -51,33 +51,63 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://bluewirepods.com/privacy-policy
+- group: company
+  title: ''
+  type: Blog
+  url: https://bluewirepods.com/news
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/blue-wire-llms.txt
+coverage:
+  checked: '2026-08-10'
+  detail: Blue Wire sells podcast advertising inventory and creator services from a Webflow-published marketing site; the 430-URL sitemap contains only posts, shows, team and jobs pages, and api./developer./docs.bluewirepods.com are all NXDOMAIN.
+  evidence:
+  - status: 404
+    url: https://bluewirepods.com/developers
+  - status: 404
+    url: https://bluewirepods.com/openapi.json
+  - status: 404
+    url: https://bluewirepods.com/.well-known/agent-card.json
+  - status: 200
+    url: https://bluewirepods.com/sitemap.xml
+  reason: not-a-software-company
+  state: none
 created: '2026-07-17'
 description: Blue Wire is a podcast network and monetization platform built for independent sports content creators, positioning itself as "The Monetization Engine for Sports Creators." The company provides sales, marketing, distribution, and operational support so creators can focus on producing content while Blue Wire handles ad sales and sponsorship coordination across a network of 200+ shows and 500+ creators reaching hundreds of millions of listeners. Backed by 500 Global. Blue Wire operates as a media and advertising business and does not publish a public developer API; this profile captures its company identity and domain-security posture within the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blue-wire.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-08-10'
 name: Blue Wire
 nav: Providers
 network: true
 overview: 'Blue Wire is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Podcasting, Media, Sports, and Advertising.
 
 
-  Blue Wire''s developer surface includes support and 4 more developer resources.'
+  Blue Wire''s developer surface includes support, engineering blog, and 5 more developer resources.'
+plans:
+- name: Blue Wire Plans Pricing
+  plan_count: 0
+  slug: blue-wire-plans-pricing
 random_paper: 96
+rate_limits:
+- limit_count: 0
+  name: Blue Wire Rate Limits
+  slug: blue-wire-rate-limits
 score:
   band: minimal
-  composite: 10.1
-  delta: 0.0
+  composite: 11.3
+  delta: 1.2
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
-    developer_ergonomics: 4.3
-    discoverability: 50.0
+    developer_ergonomics: 6.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 10.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blue-wire/refs/heads/main/screenshots/blue-wire-2026-07-25T203442.png
 security:

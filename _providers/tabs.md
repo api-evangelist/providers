@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 58.3
-  scored_at: '2026-08-10'
+  score: 54.7
+  scored_at: '2026-08-11'
 api_count: 23
 apis:
 - description: The Billing Terms API from Tabs — 1 operation(s) for billing terms.
@@ -102,6 +102,10 @@ apis:
   slug: tabs-revenue-api
 artifact_total: 28
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tabs-external-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -249,7 +253,7 @@ network: true
 overview: 'Tabs publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Billing Terms API, Categories API, Classes (QBO only) API, and 20 more. Tagged areas include Billing, Revenue Automation, Accounts Receivable, Revenue Recognition, and Usage-Based Billing.
 
 
-  Tabs'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 26 more developer resources.'
+  Tabs'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 27 more developer resources.'
 random_paper: 78
 rate_limits:
 - limit_count: 1
@@ -257,11 +261,11 @@ rate_limits:
   slug: tabs-rate-limits
 score:
   band: developing
-  composite: 54.5
-  delta: 0.0
+  composite: 54.0
+  delta: -0.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 55.2
+    contract_quality: 53.2
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
@@ -276,8 +280,8 @@ score:
       total: 23
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 54.7
-  scored_at: '2026-08-10'
+  score: 53.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -61,12 +61,16 @@ apis:
 - description: Embedded Banking APIs to create and manage retail customers, hub and payment accounts, savings, and ISAs on ClearBank's banking infrastructure.
   name: ClearBank Retail Embedded Banking Customers API
   slug: clearbank-retail-customers-api
-artifact_total: 16
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Clearbank Webhooks
   slug: clearbank-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/clearbank-mcp.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -240,6 +244,10 @@ description: ClearBank is a UK clearing and Banking-as-a-Service bank, founded i
   Read/Write (AISP/PISP/CBPII) APIs; its public developer surface is the token-authenticated, RSA-signed ClearBank Financial Institutions API covering GBP accounts and payments, multi-currency accounts, FX, SEPA, cross-border payments, Confirmation of Payee, customer due diligence (KYC), and embedded/retail banking, with a full simulation environment for onboarding.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: clearbank-mcp.yml
+  slug: clearbank-mcpyml
 modified: '2026-07-23'
 name: ClearBank
 nav: Providers
@@ -250,16 +258,16 @@ overview: 'ClearBank publishes 11 APIs on the [APIs.io](https://apis.io/) networ
   The ClearBank catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ClearBank''s developer surface includes authentication, sandbox, documentation, getting-started guide, API reference, engineering blog, and 36 more developer resources.'
+  ClearBank''s developer surface includes authentication, sandbox, documentation, getting-started guide, API reference, engineering blog, and 37 more developer resources.'
 random_paper: 3
 score:
   band: developing
-  composite: 46.2
-  delta: 0.0
+  composite: 46.1
+  delta: -0.1
   facets:
     commercial_clarity: 21.1
-    contract_quality: 53.7
-    developer_ergonomics: 60.3
+    contract_quality: 51.7
+    developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
@@ -280,8 +288,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 44.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/screenshots/clearbank-2026-07-25T205542.png
 security:

@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 57.7
-  scored_at: '2026-08-10'
+  score: 54.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 196
   human_in_the_loop: 0
@@ -475,6 +476,10 @@ collections:
   name: Mailchimp Transactional API
   slug: open-mailchimp-transactional-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mailchimp-marketing-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1235,7 +1240,7 @@ overview: 'Mailchimp publishes 119 APIs on the [APIs.io](https://apis.io/) netwo
   The Mailchimp catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Mailchimp''s developer surface includes changelog, sandbox, authentication, developer portal, engineering blog, pricing, support, and 47 more developer resources.'
+  Mailchimp''s developer surface includes changelog, sandbox, authentication, developer portal, engineering blog, pricing, support, and 48 more developer resources.'
 plans:
 - name: Mailchimp Plans Pricing
   plan_count: 4
@@ -1263,16 +1268,16 @@ rules:
     warn: 9
   slug: mailchimp-spectral-rules
 score:
-  band: exemplar
-  composite: 71.5
-  delta: 0.0
+  band: strong
+  composite: 64.0
+  delta: -7.5
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 73.1
+    commercial_clarity: 60.5
+    contract_quality: 74.1
     developer_ergonomics: 52.2
     discoverability: 87.0
     governance: 69.8
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 71.5
   provenance:
     agentic_access: derived
@@ -1283,9 +1288,9 @@ score:
       marker_coverage: 0.0
       total: 120
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/screenshots/mailchimp-2026-06-20T184854.png
 security:
 - kind: authentication

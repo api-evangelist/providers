@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-10'
+  score: 0.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Paystand v3 REST API for B2B payments: create and manage payments, refunds, disputes, payers, customer banks, accounts, balances, scheduled payments, transfers and withdrawals, plus the Assurety block'
@@ -140,13 +140,13 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 34.9
-  delta: 0.0
+  composite: 33.9
+  delta: -1.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 47.8
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 21.1
   previous_composite: 34.9
@@ -159,8 +159,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 45.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/screenshots/paystand-2026-08-07T191655.png
 security:

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -47,6 +48,10 @@ asyncapis:
   name: Shapeshift Unchained Webhooks
   slug: shapeshift-unchained-webhooks
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/shapeshift/unchained/blob/develop/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -177,17 +182,17 @@ overview: 'Shapeshift publishes 1 API on the [APIs.io](https://apis.io/) network
   The Shapeshift catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Shapeshift''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 21 more developer resources.'
+  Shapeshift''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 22 more developer resources.'
 random_paper: 27
 score:
   band: developing
-  composite: 47.0
-  delta: 0.0
+  composite: 45.6
+  delta: -1.4
   facets:
     commercial_clarity: 34.2
-    contract_quality: 60.8
+    contract_quality: 58.5
     developer_ergonomics: 62.5
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 47.0
@@ -207,8 +212,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

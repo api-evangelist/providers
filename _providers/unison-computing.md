@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-10'
+  score: 24.3
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The API powering the Unison Share web application, including the APIs for syncing code with UCM and browsing projects, branches, and definitions. Unison Share also acts as the OAuth2 (with PKCE) and O
@@ -36,6 +36,10 @@ apis:
   slug: unison-share-api
 artifact_total: 4
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/unisoncomputing/share-api/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -151,7 +155,7 @@ network: true
 overview: 'Unison Computing publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Programming Languages, Cloud Computing, Developer Tools, and Functional Programming.
 
 
-  Unison Computing''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
+  Unison Computing''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 19 more developer resources.'
 random_paper: 71
 score:
   band: thin
@@ -169,8 +173,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

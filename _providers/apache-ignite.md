@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 7
@@ -86,6 +86,18 @@ apis:
   slug: apache-ignite-transactions-api
 artifact_total: 160
 common:
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/ignite-3/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/ignite-3/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -543,7 +555,7 @@ overview: 'Apache Ignite publishes 13 APIs on the [APIs.io](https://apis.io/) ne
   The Apache Ignite catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache Ignite''s developer surface includes authentication, documentation, getting-started guide, and 10 more developer resources.'
+  Apache Ignite''s developer surface includes authentication, documentation, getting-started guide, and 13 more developer resources.'
 plans:
 - name: Apache Ignite Plans Pricing
   plan_count: 3
@@ -572,15 +584,15 @@ rules:
   slug: apache-ignite-spectral-rules
 score:
   band: developing
-  composite: 53.7
-  delta: 0.0
+  composite: 43.9
+  delta: -9.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 64.0
+    commercial_clarity: 26.3
+    contract_quality: 61.6
     developer_ergonomics: 30.4
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 53.7
   provenance:
     agentic_access: derived
@@ -589,9 +601,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 36.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/screenshots/apache-ignite-2026-06-20T172109.png
 security:
 - kind: authentication

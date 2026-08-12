@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 9.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: OAuth 2.0 / OpenID Connect customer-account surface exposed on the soundboks.com store domain by the Shopify Customer Accounts platform. Discovered via the standard /.well-known/openid-configuration a
@@ -88,18 +88,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 15.2
-  delta: 0.0
+  composite: 14.1
+  delta: -1.1
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 15.2
-    discoverability: 79.6
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 15.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

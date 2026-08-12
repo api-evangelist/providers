@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -66,6 +66,26 @@ collections:
   name: Marqo REST API
   slug: open-marqo
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/marqo-ai/marqo/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/marqo-ai/marqo/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/marqo-ai/marqo/blob/mainline/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/marqo-ai/marqo/blob/mainline/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/marqo-ai/marqo/blob/mainline/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -215,7 +235,7 @@ network: true
 overview: 'Marqo publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Embeddings API, Indexes API, and 4 more. Tagged areas include Vector Database, Vector Search, Multimodal, Semantic Search, and Embeddings.
 
 
-  Marqo''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, tooling, code examples, and 18 more developer resources.'
+  Marqo''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, tooling, code examples, and 23 more developer resources.'
 plans:
 - name: Marqo Plans Pricing
   plan_count: 1
@@ -227,15 +247,15 @@ rate_limits:
   slug: marqo-rate-limits
 score:
   band: thin
-  composite: 38.8
-  delta: 0.0
+  composite: 36.5
+  delta: -2.3
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 52.7
+    commercial_clarity: 23.7
+    contract_quality: 50.7
     developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 36.8
   previous_composite: 38.8
   provenance:
     agentic_access: derived
@@ -244,8 +264,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marqo/refs/heads/main/screenshots/marqo-2026-06-20T185006.png
 security:

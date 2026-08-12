@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,14 +22,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 47.3
-  scored_at: '2026-08-10'
+  score: 46.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -77,7 +78,7 @@ apis:
 - description: The Untag#resourceArn API from Amazon CodeArtifact — 1 operation(s) for untag#resourcearn.
   name: Amazon CodeArtifact Untag#resourceArn API
   slug: amazon-codeartifact-untag-resourcearn-api
-artifact_total: 485
+artifact_total: 486
 collections:
 - collection_type: postman
   name: CodeArtifact Authorization Token#domain API
@@ -119,6 +120,14 @@ collections:
   name: CodeArtifact Authorization Token#domain Untag#resourceArn API
   slug: postman-amazon-codeartifact-untag-resourcearn-api
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/amazon-codeartifact-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-codeartifact-api-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1553,6 +1562,10 @@ jsonld:
   property_count: 76
   slug: amazon-codeartifact-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: amazon-codeartifact-mcp.yml
+  slug: amazon-codeartifact-mcpyml
 modified: '2026-06-20'
 name: Amazon CodeArtifact
 nav: Providers
@@ -1563,7 +1576,7 @@ overview: 'Amazon CodeArtifact publishes 13 APIs on the [APIs.io](https://apis.i
   The Amazon CodeArtifact catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CodeArtifact''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 20 more developer resources.'
+  Amazon CodeArtifact''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 22 more developer resources.'
 random_paper: 92
 rules:
 - name: Amazon CodeArtifact API Rules
@@ -1584,12 +1597,12 @@ rules:
   slug: amazon-codeartifact-spectral-rules
 score:
   band: strong
-  composite: 63.3
-  delta: 0.0
+  composite: 63.0
+  delta: -0.3
   facets:
     commercial_clarity: 52.6
-    contract_quality: 82.9
-    developer_ergonomics: 52.2
+    contract_quality: 79.9
+    developer_ergonomics: 54.3
     discoverability: 92.6
     governance: 80.2
     operational_transparency: 21.1
@@ -1603,8 +1616,8 @@ score:
       marker_coverage: 0.0
       total: 13
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/screenshots/amazon-codeartifact-2026-07-25T195952.png
 security:

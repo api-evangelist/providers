@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -1179,15 +1179,15 @@ rules:
   slug: aerodatabox-spectral-rules
 score:
   band: developing
-  composite: 51.4
-  delta: 0.0
+  composite: 45.6
+  delta: -5.8
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 69.8
+    commercial_clarity: 44.7
+    contract_quality: 67.2
     developer_ergonomics: 17.4
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 21.1
+    operational_transparency: 5.3
   previous_composite: 51.4
   provenance:
     agentic_access: derived
@@ -1196,9 +1196,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/screenshots/aerodatabox-2026-06-20T165508.png
 security:
 - kind: domain-security

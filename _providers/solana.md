@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 46.8
-  scored_at: '2026-08-10'
+  score: 43.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -148,6 +148,10 @@ collections:
   name: Solana JSON-RPC Accounts Transactions API
   slug: postman-solana-transactions-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/anza-xyz/kit/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -259,7 +263,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/solana-rpc-api-openapi.yml
+  url: openapi/_original/solana-rpc-api-openapi.yml
 - group: other
   title: ''
   type: Overlay
@@ -452,7 +456,7 @@ overview: 'Solana publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The Solana catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Solana''s developer surface includes developer portal, documentation, getting-started guide, authentication, changelog, engineering blog, sandbox, and 56 more developer resources.'
+  Solana''s developer surface includes developer portal, documentation, getting-started guide, authentication, changelog, engineering blog, sandbox, and 57 more developer resources.'
 plans:
 - name: Solana Plans
   plan_count: 3
@@ -473,13 +477,13 @@ rules:
   slug: solana-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 71.8
-  delta: 0.0
+  composite: 70.0
+  delta: -1.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.7
+    contract_quality: 64.2
     developer_ergonomics: 76.1
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 80.2
     operational_transparency: 68.4
   previous_composite: 71.8
@@ -492,8 +496,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/screenshots/solana-2026-06-20T194144.png
 security:

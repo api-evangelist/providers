@@ -14,22 +14,22 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: documented
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 57.9
-  scored_at: '2026-08-10'
+  score: 46.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -66,12 +66,16 @@ apis:
 - description: Подписчики и их сегментационные теги.
   name: AppsMax Subscribers API
   slug: appsmax-rest-api-v1-subscribers-api
-artifact_total: 17
+artifact_total: 18
 collections:
 - collection_type: postman
   name: AppsMax REST API v1 — Quickstart
   slug: postman-appsmax-rest-api-v1-quickstart
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/appsmax-rest-api-v1-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -204,6 +208,10 @@ created: '2026-07-31'
 description: AppsMax.ru is a Russian-language SaaS platform for small business, communities and integrators, used to run customer requests, online booking, orders, mini apps, groups, channels, permitted messaging, GigaChat and integrations inside MAX and Telegram. Its developer surface is a single server-to-server REST API (v1) with a published OpenAPI 3.0.3 contract, an APIs.json index, an API Onboarding Descriptor and an llms.txt. AppsMax is not a product of, nor an official representative of, MAX, Telegram or GigaChat.
 image: https://appsmax.ru/wp-content/themes/appsmax-site/assets/img/logo-appsmax.svg
 layout: provider
+mcp_servers:
+- description: ''
+  name: appsmax-rest-api-v1-mcp.yml
+  slug: appsmax-rest-api-v1-mcpyml
 modified: '2026-08-09'
 name: AppsMax
 nav: Providers
@@ -211,7 +219,7 @@ network: true
 overview: 'AppsMax publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Access API, Applications API, Bots API, and 6 more. Tagged areas include Company, SaaS, Messaging, Business Automation, and Chatbots.
 
 
-  AppsMax''s developer surface includes authentication, API reference, engineering blog, signup flow, FAQ, code examples, and 26 more developer resources.'
+  AppsMax''s developer surface includes authentication, API reference, engineering blog, signup flow, FAQ, code examples, and 27 more developer resources.'
 plans:
 - name: Appsmax Rest Api V1 Plans
   plan_count: 5
@@ -228,22 +236,29 @@ scopes:
   summary_line: 12 scopes
 score:
   band: developing
-  composite: 49.3
+  composite: 46.4
+  delta: -2.9
   facets:
     commercial_clarity: 44.7
-    contract_quality: 53.2
-    developer_ergonomics: 43.5
-    discoverability: 92.6
-    governance: 20.8
+    contract_quality: 57.2
+    developer_ergonomics: 40.8
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 42.1
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 55.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 49.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
+    mcp: derived
+    skills: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Appsmax Rest Api V1 Authentication

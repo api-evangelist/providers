@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Single-contract API providing access to consumer and business credit reports across major bureaus (Equifax, Experian, TransUnion). Supports soft and hard credit pulls, FICO and Vantage scoring models,
@@ -93,19 +93,19 @@ rate_limits:
   slug: crs-credit-api-rate-limits
 score:
   band: emerging
-  composite: 22.0
-  delta: 0.0
+  composite: 14.1
+  delta: -7.9
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 17.4
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 22.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/crs-credit-api/refs/heads/main/screenshots/crs-credit-api-2026-06-20T175259.png
 security:
 - kind: domain-security

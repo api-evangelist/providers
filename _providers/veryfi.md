@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -286,15 +287,15 @@ rules:
   slug: veryfi-ocr-rules
 score:
   band: strong
-  composite: 59.1
-  delta: 0.0
+  composite: 56.3
+  delta: -2.8
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 74.1
-    developer_ergonomics: 50.0
-    discoverability: 64.8
+    commercial_clarity: 57.9
+    contract_quality: 71.3
+    developer_ergonomics: 56.5
+    discoverability: 72.2
     governance: 58.3
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 59.1
   provenance:
     agentic_access: derived
@@ -303,8 +304,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/screenshots/veryfi-2026-06-20T201000.png
 security:

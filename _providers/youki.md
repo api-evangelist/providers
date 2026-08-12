@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: youki is a container runtime written in Rust that implements the OCI runtime specification, providing a memory-safe and high-performance alternative to runc. It supports rootless containers, cgroups v
@@ -39,6 +39,10 @@ apis:
   slug: oci-spec-rs
 artifact_total: 101
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/youki-dev/youki/blob/main/LICENSE
 - group: docs
   title: ''
   type: Documentation
@@ -338,7 +342,7 @@ overview: 'Youki publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
   The Youki catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Youki''s developer surface includes documentation, release notes, changelog, support, and 3 more developer resources.'
+  Youki''s developer surface includes documentation, release notes, changelog, support, and 4 more developer resources.'
 plans:
 - name: Youki Plans Pricing
   plan_count: 3
@@ -359,19 +363,19 @@ rules:
   slug: youki-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.0
-  delta: 0.0
+  composite: 32.2
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 33.9
     developer_ergonomics: 13.0
     discoverability: 59.3
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 40.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 slug: youki
 solutions:
 - description: Provides a CNCF sandbox container runtime for cloud-native platforms looking to adopt a memory-safe OCI runtime under containerd or CRI-O.

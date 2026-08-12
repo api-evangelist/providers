@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Single GraphQL gateway at api.island.is wrapping internal REST microservices that power island.is applications. The gateway is authentication-gated (island.is identity server / IdS scopes) and returns
@@ -69,8 +69,8 @@ overview: 'island.is (Digital Iceland) publishes 2 APIs on the [APIs.io](https:/
 random_paper: 88
 score:
   band: minimal
-  composite: 8.6
-  delta: 0.0
+  composite: 9.0
+  delta: 0.4
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -79,8 +79,14 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 8.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 11.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/island-is/refs/heads/main/screenshots/island-is-2026-07-25T222951.png
 security:

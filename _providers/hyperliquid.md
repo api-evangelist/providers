@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -69,6 +69,22 @@ collections:
   name: Hyperliquid Info API
   slug: open-hyperliquid
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/hyperliquid-dex/hyperliquid-python-sdk/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/hyperliquid-dex/hyperliquid-python-sdk/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/hyperliquid-dex/hyperliquid-python-sdk/blob/master/SECURITY.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/hyperliquid-dex/hyperliquid-python-sdk/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -127,7 +143,7 @@ overview: 'Hyperliquid publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
   The Hyperliquid catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Hyperliquid''s developer surface includes documentation, GitHub presence, and 8 more developer resources.'
+  Hyperliquid''s developer surface includes documentation, GitHub presence, and 12 more developer resources.'
 plans:
 - name: Hyperliquid Plans Pricing
   plan_count: 1
@@ -148,15 +164,15 @@ rules:
   slug: hyperliquid-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 36.9
-  delta: 0.0
+  composite: 40.1
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
-    contract_quality: 66.2
-    developer_ergonomics: 8.7
+    contract_quality: 64.1
+    developer_ergonomics: 13.0
     discoverability: 74.1
     governance: 41.7
-    operational_transparency: 26.3
+    operational_transparency: 52.6
   previous_composite: 36.9
   provenance:
     agentic_access: derived
@@ -167,12 +183,12 @@ score:
       total: 1
   regulatory:
     applies: true
-    matched_via: weak_tags
+    matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperliquid/refs/heads/main/screenshots/hyperliquid-2026-06-20T183045.png
 security:

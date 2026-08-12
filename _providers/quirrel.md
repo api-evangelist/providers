@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Quirrel provides a JavaScript and TypeScript SDK for enqueuing, scheduling, retrying, and managing background jobs in serverless and containerized applications. The Queue API exposes methods such as e
@@ -36,6 +36,10 @@ apis:
   slug: quirrel
 artifact_total: 5
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/quirrel-dev/quirrel/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -75,7 +79,7 @@ network: true
 overview: 'Quirrel publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Tools, Job Queues, Workflow Automation, Background Jobs, and Serverless.
 
 
-  Quirrel''s developer surface includes documentation and 5 more developer resources.'
+  Quirrel''s developer surface includes documentation and 6 more developer resources.'
 plans:
 - name: Quirrel Plans Pricing
   plan_count: 3
@@ -86,20 +90,20 @@ rate_limits:
   name: Quirrel Rate Limits
   slug: quirrel-rate-limits
 score:
-  band: emerging
-  composite: 19.7
-  delta: 0.0
+  band: minimal
+  composite: 11.9
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 19.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/quirrel/refs/heads/main/screenshots/quirrel-2026-06-20T192437.png
 security:
 - kind: domain-security

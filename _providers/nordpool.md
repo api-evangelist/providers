@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -175,11 +175,11 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 47.9
-  delta: 0.0
+  composite: 47.5
+  delta: -0.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 64.2
+    contract_quality: 62.1
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 52.1
@@ -198,8 +198,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 47.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nordpool/refs/heads/main/screenshots/nordpool-2026-08-07T185517.png
 security:

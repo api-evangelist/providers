@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -1038,16 +1039,16 @@ scopes:
   slug: lightspeed-pos-scopes
   summary_line: 24 scopes · authorizationCode
 score:
-  band: thin
-  composite: 31.2
-  delta: 0.0
+  band: emerging
+  composite: 24.7
+  delta: -6.5
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 24.6
+    commercial_clarity: 13.2
+    contract_quality: 23.7
     developer_ergonomics: 13.0
     discoverability: 55.6
     governance: 58.3
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 31.2
   provenance:
     agentic_access: derived
@@ -1056,9 +1057,9 @@ score:
       derived: 21
       marker_coverage: 100.0
       total: 21
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/screenshots/lightspeed-pos-2026-06-20T184525.png
 security:
 - kind: authentication

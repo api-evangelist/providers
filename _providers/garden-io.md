@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 9
 apis:
 - description: Open-source command-line tool and engine that turns a Garden project configuration into a graph of Build, Deploy, Test, and Run actions and executes them locally or against remote Kubernetes clusters.
@@ -60,6 +60,26 @@ apis:
   slug: cloud
 artifact_total: 13
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/garden-io/garden/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/garden-io/garden/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/garden-io/garden/blob/main/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/garden-io/garden/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/garden-io/garden/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -111,7 +131,7 @@ network: true
 overview: 'Garden publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Kubernetes, Developer Tools, CI/CD, Platform Engineering, and DevOps.
 
 
-  Garden''s developer surface includes documentation, GitHub presence, and 7 more developer resources.'
+  Garden''s developer surface includes documentation, GitHub presence, and 12 more developer resources.'
 plans:
 - name: Garden Io Plans Pricing
   plan_count: 1
@@ -123,18 +143,18 @@ rate_limits:
   slug: garden-io-rate-limits
 score:
   band: emerging
-  composite: 18.3
-  delta: 0.0
+  composite: 22.5
+  delta: 4.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 52.6
   previous_composite: 18.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/garden-io/refs/heads/main/screenshots/garden-io-2026-06-20T181648.png
 security:

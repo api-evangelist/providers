@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 0
 common:
@@ -68,8 +68,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 8.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudistics-fungible/refs/heads/main/screenshots/cloudistics-fungible-2026-07-25T205702.png
 slug: cloudistics-fungible

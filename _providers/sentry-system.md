@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 51.4
-  scored_at: '2026-08-10'
+  score: 47.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 90
   human_in_the_loop: 0
@@ -337,6 +338,10 @@ collections:
   name: Sentry Users API
   slug: open-sentry-users
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sentry-system-alerts-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -755,7 +760,7 @@ overview: 'Sentry publishes 44 APIs on the [APIs.io](https://apis.io/) network, 
   The Sentry catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Sentry''s developer surface includes authentication, CLI, changelog, developer portal, documentation, getting-started guide, pricing, and 49 more developer resources.'
+  Sentry''s developer surface includes authentication, CLI, changelog, developer portal, documentation, getting-started guide, pricing, and 50 more developer resources.'
 plans:
 - name: Sentry System Plans Pricing
   plan_count: 4
@@ -781,15 +786,15 @@ scopes:
   summary_line: 26 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 78.3
-  delta: 0.0
+  composite: 69.7
+  delta: -8.6
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 79.0
+    commercial_clarity: 68.4
+    contract_quality: 76.1
     developer_ergonomics: 71.7
-    discoverability: 85.2
+    discoverability: 74.1
     governance: 69.8
-    operational_transparency: 68.4
+    operational_transparency: 52.6
   previous_composite: 78.3
   provenance:
     agentic_access: derived
@@ -800,9 +805,9 @@ score:
       marker_coverage: 0.0
       total: 44
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/sentry-system/refs/heads/main/screenshots/sentry-system-2026-06-20T193714.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The APIs.json specification defines a machine-readable JSON or YAML format for describing API operations. Unlike OpenAPI which describes the technical interface of a single API, APIs.json describes th
@@ -36,6 +36,10 @@ apis:
   slug: apis-json-specification
 artifact_total: 38
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apis-json/api-json/blob/develop/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -171,7 +175,7 @@ overview: 'APIs.json publishes 1 API on the [APIs.io](https://apis.io/) network.
   The APIs.json catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  APIs.json''s developer surface includes engineering blog, support, and 10 more developer resources.'
+  APIs.json''s developer surface includes engineering blog, support, and 11 more developer resources.'
 plans:
 - name: Apis Json Plans Pricing
   plan_count: 3
@@ -200,19 +204,19 @@ rules:
   slug: apis-json-spectral-rules
 score:
   band: thin
-  composite: 36.6
-  delta: 0.0
+  composite: 28.8
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 33.9
     developer_ergonomics: 6.5
     discoverability: 59.3
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 36.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apis-json/refs/heads/main/screenshots/apis-json-2026-06-20T172256.png
 security:
 - kind: domain-security

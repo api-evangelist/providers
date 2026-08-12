@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 19
 apis:
 - description: 'Query indexed logs against the Logz.io managed Elasticsearch / OpenSearch cluster using a request body that mirrors the upstream Elasticsearch Search API. Includes `/v1/search` for ad-hoc queries and '
@@ -507,11 +507,11 @@ rules:
   slug: logz-io-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 71.1
-  delta: 0.0
+  composite: 70.6
+  delta: -0.5
   facets:
     commercial_clarity: 92.1
-    contract_quality: 65.4
+    contract_quality: 63.3
     developer_ergonomics: 65.2
     discoverability: 74.1
     governance: 58.3
@@ -523,8 +523,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/screenshots/logz-io-2026-06-20T184702.png
 security:

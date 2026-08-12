@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Get Context Output API from Truth Systems — 1 operation(s) for get context output.
@@ -36,6 +37,10 @@ apis:
   slug: truth-systems-get-context-output-api
 artifact_total: 4
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/truth-systems-gateway-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -115,17 +120,17 @@ network: true
 overview: 'Truth Systems publishes 1 API on the [APIs.io](https://apis.io/) network: Get Context Output API. Tagged areas include Company, Artificial Intelligence, AI Governance, Hallucination Detection, and Fact Checking.
 
 
-  Truth Systems'' developer surface includes developer portal, documentation, support, authentication, and 12 more developer resources.'
+  Truth Systems'' developer surface includes developer portal, documentation, support, authentication, and 13 more developer resources.'
 random_paper: 12
 score:
   band: thin
-  composite: 31.3
-  delta: 0.0
+  composite: 29.8
+  delta: -1.5
   facets:
     commercial_clarity: 0.0
-    contract_quality: 42.6
+    contract_quality: 41.0
     developer_ergonomics: 49.5
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 31.3
@@ -138,8 +143,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

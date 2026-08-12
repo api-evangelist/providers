@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 40.5
-  scored_at: '2026-08-10'
+  score: 36.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,6 +42,10 @@ apis:
   slug: amadeus-reservations-booking-api
 artifact_total: 753
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amadeus-reservations-flight-create-orders-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2440,7 +2444,7 @@ overview: 'Amadeus Reservations publishes 1 API on the [APIs.io](https://apis.io
   The Amadeus Reservations catalog on APIs.io includes 53 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amadeus Reservations'' developer surface includes developer portal, getting-started guide, authentication, signup flow, pricing, engineering blog, FAQ, and 20 more developer resources.'
+  Amadeus Reservations'' developer surface includes developer portal, getting-started guide, authentication, signup flow, pricing, engineering blog, FAQ, and 21 more developer resources.'
 random_paper: 10
 rules:
 - name: Amadeus Reservations API Rules
@@ -2461,11 +2465,11 @@ rules:
   slug: amadeus-reservations-spectral-rules
 score:
   band: developing
-  composite: 55.1
-  delta: 0.0
+  composite: 54.6
+  delta: -0.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 57.1
+    contract_quality: 55.0
     developer_ergonomics: 54.3
     discoverability: 87.0
     governance: 80.2
@@ -2480,8 +2484,8 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/screenshots/amadeus-reservations-2026-07-25T195905.png
 security:

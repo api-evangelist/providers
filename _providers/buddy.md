@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The fastest continuous integration and continuous delivery platform
@@ -74,8 +74,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buddy/refs/heads/main/screenshots/buddy-2026-06-20T173742.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The Relay Compiler is Meta's ahead-of-time GraphQL compiler that generates optimized runtime artifacts and type-safe code for Relay applications. It processes GraphQL fragments in JavaScript/TypeScrip
@@ -39,6 +39,10 @@ apis:
   slug: relay-runtime
 artifact_total: 8
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/facebook/relay/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -102,7 +106,7 @@ overview: 'Relay Compiler publishes 2 APIs on the [APIs.io](https://apis.io/) ne
   The Relay Compiler catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Relay Compiler''s developer surface includes documentation, engineering blog, changelog, and 6 more developer resources.'
+  Relay Compiler''s developer surface includes documentation, engineering blog, changelog, and 7 more developer resources.'
 plans:
 - name: Relay Compiler Plans Pricing
   plan_count: 3
@@ -114,19 +118,19 @@ rate_limits:
   slug: relay-compiler-rate-limits
 score:
   band: emerging
-  composite: 27.3
-  delta: 0.0
+  composite: 19.5
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 12.9
     developer_ergonomics: 10.9
     discoverability: 59.3
     governance: 10.4
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 27.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/relay-compiler/refs/heads/main/screenshots/relay-compiler-2026-06-20T192823.png
 security:
 - kind: domain-security

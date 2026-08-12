@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-08-10'
+  score: 40.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,6 +53,10 @@ asyncapis:
   name: Unito Connector Webhooks
   slug: unito-connector-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/unito-embeds-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -211,17 +215,17 @@ overview: 'Unito publishes 3 APIs on the [APIs.io](https://apis.io/) network: Re
   The Unito catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Unito''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
+  Unito''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
 random_paper: 95
 score:
   band: strong
-  composite: 58.2
-  delta: 0.0
+  composite: 56.5
+  delta: -1.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 61.8
+    contract_quality: 59.5
     developer_ergonomics: 75.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 28.9
   previous_composite: 58.2
@@ -235,8 +239,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

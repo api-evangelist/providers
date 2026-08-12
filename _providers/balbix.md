@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-10'
+  score: 12.2
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Read-only REST API (v1) for programmatic access to Balbix Assets and their associated Vulnerabilities, Misconfigurations, Software Inventory, Applications and application Artifacts. Authentication is '
@@ -170,8 +170,8 @@ score:
   previous_composite: 36.4
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/balbix/refs/heads/main/screenshots/balbix-2026-08-07T162112.png
 security:

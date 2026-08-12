@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -81,6 +81,30 @@ collections:
   name: CubeFS S3-Compatible API
   slug: open-cubefs-s3-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/cubefs/cubefs/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/cubefs/cubefs/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/cubefs/cubefs/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/cubefs/cubefs/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/cubefs/cubefs/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/cubefs/cubefs/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -168,7 +192,7 @@ overview: 'CubeFS publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
   The CubeFS catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  CubeFS''s developer surface includes authentication, documentation, getting-started guide, changelog, and 11 more developer resources.'
+  CubeFS''s developer surface includes authentication, documentation, getting-started guide, changelog, and 17 more developer resources.'
 plans:
 - name: Cubefs Plans Pricing
   plan_count: 3
@@ -205,15 +229,15 @@ rules:
   slug: cubefs-s3-rules
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 45.3
+  delta: -6.3
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 64.3
+    commercial_clarity: 15.8
+    contract_quality: 61.9
     developer_ergonomics: 30.4
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 51.6
   provenance:
     agentic_access: derived
@@ -222,9 +246,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/screenshots/cubefs-2026-06-20T175330.png
 security:
 - kind: authentication

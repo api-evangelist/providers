@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,6 +55,14 @@ apis:
   slug: clojars-users-api
 artifact_total: 20
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/clojars/clojars-web/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/clojars/clojars-web/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -137,7 +145,7 @@ overview: 'Clojars publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
   The Clojars catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Clojars'' developer surface includes authentication and 8 more developer resources.'
+  Clojars'' developer surface includes authentication and 10 more developer resources.'
 plans:
 - name: Free
   plan_count: 0
@@ -158,11 +166,11 @@ rules:
   slug: clojars-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 41.0
-  delta: 0.0
+  composite: 40.4
+  delta: -0.6
   facets:
     commercial_clarity: 7.9
-    contract_quality: 67.1
+    contract_quality: 64.6
     developer_ergonomics: 10.9
     discoverability: 66.7
     governance: 58.3
@@ -175,8 +183,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clojars/refs/heads/main/screenshots/clojars-2026-06-20T174532.png
 security:

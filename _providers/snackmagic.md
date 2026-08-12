@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-10'
+  score: 41.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -53,8 +53,16 @@ apis:
 - description: User related API endpoints
   name: SnackMagic User management API
   slug: snackmagic-user-management-api
-artifact_total: 9
+artifact_total: 10
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/snackmagic-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/snackmagic-stadium-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -139,6 +147,10 @@ created: '2026-07-17'
 description: SnackMagic is a 100% customizable snack-box gifting service, now part of Stadium, that lets recipients build their own box from 500+ snacks and beverages or receive curated gifts, delivered worldwide. Companies use it for employee, client, prospect, and event gifting. SnackMagic is exposed to developers through the Stadium API (api.bystadium.com), a JSON REST API for embedding a global gift, rewards, and branded-swag catalog, placing orders funded by a pre-purchased Wallet balance, sending Stadium Shop points via treat links, and triggering webhook-automation gift orders. This profile was enriched from the provider's public OpenAPI and developer surface.
 image: https://fecdn.snackmagic.com/static/media/snackmagic-logo.b9e03ebf.svg
 layout: provider
+mcp_servers:
+- description: ''
+  name: snackmagic-mcp.yml
+  slug: snackmagic-mcpyml
 modified: '2026-07-21'
 name: SnackMagic
 nav: Providers
@@ -146,17 +158,17 @@ network: true
 overview: 'SnackMagic publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Automation management API, Order management API, and 2 more. Tagged areas include Company, Consumer, Gifting, Rewards, and Swag.
 
 
-  SnackMagic''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, engineering blog, and 13 more developer resources.'
+  SnackMagic''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, engineering blog, and 15 more developer resources.'
 random_paper: 113
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 49.7
+  delta: -1.2
   facets:
     commercial_clarity: 52.6
-    contract_quality: 65.1
-    developer_ergonomics: 53.8
-    discoverability: 92.6
+    contract_quality: 62.7
+    developer_ergonomics: 56.0
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 50.9
@@ -170,8 +182,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

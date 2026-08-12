@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 316
   human_in_the_loop: 4
@@ -239,16 +239,16 @@ rate_limits:
   name: Pulumi Rate Limits
   slug: pulumi-rate-limits
 score:
-  band: developing
-  composite: 45.5
-  delta: 0.0
+  band: thin
+  composite: 39.5
+  delta: -6.0
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 48.1
-    developer_ergonomics: 21.7
+    commercial_clarity: 60.5
+    contract_quality: 46.3
+    developer_ergonomics: 28.3
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 45.5
   provenance:
     agentic_access: derived
@@ -263,9 +263,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 39.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/screenshots/pulumi-2026-06-20T192304.png
 security:
 - kind: domain-security

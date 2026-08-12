@@ -24,13 +24,17 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-08-10'
+  score: 0.0
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/AdColony/AdColony-iOS-SDK/releases
 - group: company
   title: ''
   type: Website
@@ -79,18 +83,18 @@ overview: AdColony is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 45
 score:
   band: minimal
-  composite: 9.1
-  delta: 0.0
+  composite: 10.1
+  delta: 1.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 6.5
-    discoverability: 61.1
+    discoverability: 50.0
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 28.9
   previous_composite: 9.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adcolony/refs/heads/main/screenshots/adcolony-2026-07-25T181608.png
 security:

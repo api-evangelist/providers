@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 6.3
-  scored_at: '2026-08-10'
+  score: 2.7
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: 'JSON:API-compliant REST API for NETSCOUT Arbor Sightline (formerly SP/Peakflow), fully discoverable from the root URL /api/sp/. Exposes network traffic data, DDoS alerts, managed objects, mitigations '
@@ -38,6 +38,10 @@ apis:
   slug: arbor-edge-defense-manager-edm-api
 artifact_total: 5
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/arbor/edm-api-docs/issues
 - group: auth
   title: ''
   type: TrustCenter
@@ -110,24 +114,24 @@ network: true
 overview: 'Arbor Networks publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DDoS Protection, Network Security, Cybersecurity, and Threat Mitigation.
 
 
-  Arbor Networks'' developer surface includes documentation, API reference, and 13 more developer resources.'
+  Arbor Networks'' developer surface includes documentation, API reference, and 14 more developer resources.'
 random_paper: 80
 score:
   band: emerging
-  composite: 20.8
-  delta: 0.0
+  composite: 19.6
+  delta: -1.2
   facets:
     commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 79.6
+    discoverability: 68.5
     governance: 12.5
     operational_transparency: 15.8
   previous_composite: 20.8
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arbor-networks/refs/heads/main/screenshots/arbor-networks-2026-07-25T201002.png
 security:

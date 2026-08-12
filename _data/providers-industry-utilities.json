@@ -8,27 +8,27 @@
    "label": "Thin",
    "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 6,
-   "shown": 6,
+   "count": 2,
+   "shown": 2,
    "providers": [
     {
      "name": "CMS Energy",
      "slug": "cms-energy",
      "description": "CMS Energy is an energy holding company whose primary subsidiary is Consumers Energy, an electric and natural gas utility serving customers in Michigan. Consumers Energy participates in the Green Button Connect My Data (GBCMD) program, exposing customer-authorized energy usage data to third parties via OAuth 2.0 - typically brokered through UtilityAPI - for use in energy management, demand response, EV charging, solar, and sustainability applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/screenshots/cms-energy-2026-06-20T174637.png",
-     "score": 37.7,
+     "score": 32.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 58.3,
+      "contract_quality": 56.1,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 23.9,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -61,19 +61,19 @@
      "slug": "xcel-energy",
      "description": "Xcel Energy is a major U.S. electricity and natural gas utility holding company headquartered in Minneapolis, Minnesota, providing service to approximately 3.7 million electricity customers and 2.1 million natural gas customers across eight Midwestern and Western states: Colorado, Minnesota, Texas, New Mexico, North Dakota, South Dakota, Michigan, and Wisconsin. Xcel Energy operates a developer portal at developer-apim.aws.xcelenergy.com that organizes APIs across customer account management, billing, payments, product and service offerings, and request service. The company provides Green Button Connect My Data APIs based on the ESPI (Energy Services Provider Interface) standard developed by NAESB, enabling authorized third-party applications to access customer energy usage data via OAuth 2.0. Xcel Energy also supports IEEE 2030.5 protocol on newer Itron Gen 5 Riva smart meters for direct local-network access to real-time energy data including solar production. Beyond data APIs, Xcel Energy is a Fortune 500 company investing in clean energy, grid modernization, electric vehicle programs, demand response, and renewable energy interconnection.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/xcel-energy/refs/heads/main/screenshots/xcel-energy-2026-06-20T201656.png",
-     "score": 34.8,
+     "score": 30.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 15.3,
+      "discoverability": 81.5,
+      "contract_quality": 14.8,
       "governance": 0.0,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 23.9,
-      "commercial_clarity": 63.2
+      "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -100,25 +100,36 @@
       "dry_run_mode": false
      },
      "rank": 2
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "13 – 27.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 11,
+   "shown": 11,
+   "providers": [
     {
      "name": "Pg And E",
      "slug": "pg-and-e",
      "description": "Pacific Gas and Electric Company (PG&E) is one of the largest combined natural gas and electric energy companies in the United States, serving approximately 16 million people in northern and central California. PG&E offers the Share My Data API, a Green Button Connect My Data implementation providing customer- authorized access to energy usage interval data for both electricity and gas through RESTful web services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pg-and-e/refs/heads/main/screenshots/pg-and-e-2026-06-20T191630.png",
-     "score": 31.5,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 25.7,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 56.6,
+      "contract_quality": 54.5,
       "governance": 0.0,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -144,19 +155,19 @@
      "slug": "southern",
      "description": "Southern Company is a leading American gas and electric utility holding company headquartered in Atlanta, Georgia. Through its subsidiaries — Alabama Power, Georgia Power, Mississippi Power, Southern Natural Gas, and Southern Company Gas — it serves 9 million gas and electric utility customers across 6 states. Southern Company is a Fortune 500 company with operations spanning electricity generation, transmission, distribution, and natural gas distribution.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/southern/refs/heads/main/screenshots/southern-2026-06-20T194228.png",
-     "score": 29.3,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 24.9,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 33.9,
       "governance": 68.8,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -189,19 +200,19 @@
      "slug": "wec-energy",
      "description": "WEC Energy Group (NYSE: WEC) is one of the nation's premier energy companies, serving 4.4 million customers across Wisconsin, Illinois, Michigan, and Minnesota with electricity and natural gas service. The company operates through regional utilities including We Energies, Wisconsin Public Service, Peoples Gas, North Shore Gas, Minnesota Energy Resources, Michigan Gas Utilities, and Upper Michigan Energy Resources. WEC Energy Group offers customer-facing digital services including account management portals, mobile apps, and Green Button energy usage data access.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wec-energy/refs/heads/main/screenshots/wec-energy-2026-06-20T201339.png",
-     "score": 29.2,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 24.7,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 55.6,
       "contract_quality": 12.9,
       "governance": 68.8,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 50.0
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -234,19 +245,19 @@
      "slug": "southwest-gas",
      "description": "Southwest Gas Holdings is a natural gas distribution company that purchases, distributes, and transports natural gas for customers in Arizona, Nevada, and California. As a Fortune 1000 utility company headquartered in Las Vegas, Nevada, Southwest Gas serves over 2 million customers through its regulated utility segment and also operates Centuri Group, a full-service utility infrastructure services company.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/southwest-gas/refs/heads/main/screenshots/southwest-gas-2026-06-20T194233.png",
-     "score": 28.7,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 24.3,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 33.9,
       "governance": 68.8,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -273,36 +284,25 @@
       "dry_run_mode": false
      },
      "rank": 6
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "13 – 27.9",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 9,
-   "shown": 9,
-   "providers": [
+    },
     {
      "name": "Williams Companies",
      "slug": "williams",
      "description": "Williams Companies is a Fortune 500 energy infrastructure company that operates approximately 33,000 miles of natural gas pipeline infrastructure, moving roughly one-third of the nation's natural gas. The company's flagship Transco pipeline system spans 10,000 miles from south Texas to New York City and is the nation's largest-volume natural gas pipeline. Williams provides pipeline transportation, gathering, processing, and storage services across key natural gas supply basins and serves utilities, power generators, industrial customers, and local distribution companies across the United States.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/williams/refs/heads/main/screenshots/williams-2026-06-20T201501.png",
-     "score": 26.1,
+     "score": 21.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 17.7,
       "governance": 10.4,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 19.6,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -335,19 +335,19 @@
      "slug": "ugi",
      "description": "UGI Corporation is a Fortune 500 international energy distribution and services company headquartered in King of Prussia, Pennsylvania. UGI distributes natural gas, liquid propane, and electricity primarily through four business segments: UGI Utilities (natural gas and electric distribution in Pennsylvania), AmeriGas Propane (largest US propane marketer), Midstream and Marketing, and UGI International (European energy distribution). No public developer API has been identified; the company primarily uses EDI and utility industry standards for B2B data exchange.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ugi/refs/heads/main/screenshots/ugi-2026-06-20T195955.png",
-     "score": 24.2,
+     "score": 19.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 17.7,
       "governance": 58.3,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -376,23 +376,23 @@
      "rank": 8
     },
     {
-     "name": "AES Corporation",
-     "slug": "aes",
-     "description": "The AES Corporation is a Fortune 500 global energy company that generates and distributes electrical power. AES operates a diverse portfolio of renewable, thermal, LNG, and battery storage facilities across multiple countries, serving utilities, industrial facilities, and end users. AES is the largest global supplier of clean energy to corporations in the Americas and operates 34.7 GW globally with $12.2 billion in annual revenue. The company serves 18.7 million household equivalents through utilities in Indiana, Ohio, and El Salvador. AES also co-founded Fluence Energy, a leading energy storage and software platform company.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aes/refs/heads/main/screenshots/aes-2026-06-20T165545.png",
-     "score": 22.8,
+     "name": "Constellation Energy",
+     "slug": "constellation-energy",
+     "description": "Constellation Energy Corporation is a Fortune 500 clean-energy producer and competitive retail electricity and natural gas supplier in the United States, generating power from a fleet of nuclear, hydro, wind, and solar facilities. Constellation does not publish a public developer portal; programmatic interactions are delivered to enterprise and large commercial customers through the Energy Manager platform (account-managed onboarding, no public API specifications) and consumer interactions are handled through the My Constellation account portal. EDI 867 (usage) and 810 (invoice) remain the most common machine-to-machine integration paths and are arranged on a contract-by-contract basis.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/constellation-energy/refs/heads/main/screenshots/constellation-energy-2026-06-20T174911.png",
+     "score": 18.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
-      "developer_ergonomics": 19.6,
+      "developer_ergonomics": 4.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -421,23 +421,23 @@
      "rank": 9
     },
     {
-     "name": "Atmos Energy",
-     "slug": "atmos-energy",
-     "description": "Atmos Energy is one of the largest natural-gas-only distributors in the United States, delivering natural gas to residential, commercial, public-authority, and industrial customers across multiple states including Texas, Louisiana, Mississippi, Tennessee, Colorado, Kansas, and Virginia. The company provides online account management, a Builder Portal for developers and contractors, and digital service request capabilities for natural gas connections and meter installations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/atmos-energy/refs/heads/main/screenshots/atmos-energy-2026-06-20T172533.png",
-     "score": 21.7,
+     "name": "AES Corporation",
+     "slug": "aes",
+     "description": "The AES Corporation is a Fortune 500 global energy company that generates and distributes electrical power. AES operates a diverse portfolio of renewable, thermal, LNG, and battery storage facilities across multiple countries, serving utilities, industrial facilities, and end users. AES is the largest global supplier of clean energy to corporations in the Americas and operates 34.7 GW globally with $12.2 billion in annual revenue. The company serves 18.7 million household equivalents through utilities in Indiana, Ohio, and El Salvador. AES also co-founded Fluence Energy, a leading energy storage and software platform company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aes/refs/heads/main/screenshots/aes-2026-06-20T165545.png",
+     "score": 18.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 13.0,
-      "commercial_clarity": 50.0
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -466,23 +466,23 @@
      "rank": 10
     },
     {
-     "name": "Consolidated Edison",
-     "slug": "consolidated-edison",
-     "description": "Consolidated Edison, Inc. (Con Edison) is a Fortune 500 holding company that, through its subsidiaries, provides electric, natural gas, and steam service to customers in New York City and Westchester County. Con Edison does not publish a general-purpose developer portal; programmatic data access is delivered through the Green Button Connect My Data (GBC) program, which lets authorized third parties retrieve customer energy usage data via the NAESB Energy Services Provider Interface (ESPI) standard once the customer grants consent through Con Edison's authorization portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/screenshots/consolidated-edison-2026-07-25T210311.png",
-     "score": 20.0,
+     "name": "Atmos Energy",
+     "slug": "atmos-energy",
+     "description": "Atmos Energy is one of the largest natural-gas-only distributors in the United States, delivering natural gas to residential, commercial, public-authority, and industrial customers across multiple states including Texas, Louisiana, Mississippi, Tennessee, Colorado, Kansas, and Virginia. The company provides online account management, a Builder Portal for developers and contractors, and digital service request capabilities for natural gas connections and meter installations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/atmos-energy/refs/heads/main/screenshots/atmos-energy-2026-06-20T172533.png",
+     "score": 17.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 4.3,
-      "commercial_clarity": 50.0
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 13.0,
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -511,68 +511,23 @@
      "rank": 11
     },
     {
-     "name": "CenterPoint Energy",
-     "slug": "centerpoint-energy",
-     "description": "CenterPoint Energy is a domestic energy delivery company that provides electric transmission and distribution, natural gas distribution, and energy services operations serving residential, commercial, and industrial customers across multiple U.S. states. Developer-facing interfaces include the Smart Meter Texas (SMT) Usage History Inquiry API, Green Button Connect My Data exports for authorized third-party access to customer interval usage, and the Centerpoint Connect service API at api-portal.centerpointconnect.io used by contractor and field-service integrations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/centerpoint-energy/refs/heads/main/screenshots/centerpoint-energy-2026-06-20T174124.png",
-     "score": 19.5,
+     "name": "Consolidated Edison",
+     "slug": "consolidated-edison",
+     "description": "Consolidated Edison, Inc. (Con Edison) is a Fortune 500 holding company that, through its subsidiaries, provides electric, natural gas, and steam service to customers in New York City and Westchester County. Con Edison does not publish a general-purpose developer portal; programmatic data access is delivered through the Green Button Connect My Data (GBC) program, which lets authorized third parties retrieve customer energy usage data via the NAESB Energy Services Provider Interface (ESPI) standard once the customer grants consent through Con Edison's authorization portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/consolidated-edison/refs/heads/main/screenshots/consolidated-edison-2026-07-25T210311.png",
+     "score": 15.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 64.8,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 13.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 12
-    },
-    {
-     "name": "Constellation Energy",
-     "slug": "constellation-energy",
-     "description": "Constellation Energy Corporation is a Fortune 500 clean-energy producer and competitive retail electricity and natural gas supplier in the United States, generating power from a fleet of nuclear, hydro, wind, and solar facilities. Constellation does not publish a public developer portal; programmatic interactions are delivered to enterprise and large commercial customers through the Energy Manager platform (account-managed onboarding, no public API specifications) and consumer interactions are handled through the My Constellation account portal. EDI 867 (usage) and 810 (invoice) remain the most common machine-to-machine integration paths and are arranged on a contract-by-contract basis.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/constellation-energy/refs/heads/main/screenshots/constellation-energy-2026-06-20T174911.png",
-     "score": 18.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 4.3,
-      "commercial_clarity": 50.0
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -598,26 +553,26 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 12
     },
     {
      "name": "Ameren",
      "slug": "ameren",
      "description": "Ameren Corporation is a regulated electric and natural gas utility serving customers in Missouri and Illinois. The company provides reliable energy delivery, smart grid infrastructure, and renewable energy programs. Ameren Illinois implements the Green Button Connect My Data program (Share My Usage) based on the ESPI standard, enabling authorized third parties to access customer energy usage data. Ameren also operates a Renewables Portal for community solar generation owners and participates in grid modernization initiatives.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ameren/refs/heads/main/screenshots/ameren-2026-08-07T174227.png",
-     "score": 17.6,
+     "score": 13.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 8.7,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -643,31 +598,42 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
-    },
+     "rank": 13
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 12.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 26,
+   "shown": 26,
+   "providers": [
     {
-     "name": "Portland General Electric",
-     "slug": "portland-general-electric",
-     "description": "Portland General Electric is a major US corporation and Fortune 1000 company. The Portland General Electric API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/portland-general-electric/refs/heads/main/screenshots/portland-general-electric-2026-06-20T191939.png",
-     "score": 13.5,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "name": "CenterPoint Energy",
+     "slug": "centerpoint-energy",
+     "description": "CenterPoint Energy is a domestic energy delivery company that provides electric transmission and distribution, natural gas distribution, and energy services operations serving residential, commercial, and industrial customers across multiple U.S. states. Developer-facing interfaces include the Smart Meter Texas (SMT) Usage History Inquiry API, Green Button Connect My Data exports for authorized third-party access to customer interval usage, and the Centerpoint Connect service API at api-portal.centerpointconnect.io used by contractor and field-service integrations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/centerpoint-energy/refs/heads/main/screenshots/centerpoint-energy-2026-06-20T174124.png",
+     "score": 12.9,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 64.8,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 7.9,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 26.3
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
-      "score": 8.1,
+      "score": 13.5,
       "matched_via": "tags"
      },
      "agent_score": 3.2,
@@ -688,19 +654,8 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 12.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 24,
-   "shown": 24,
-   "providers": [
+     "rank": 14
+    },
     {
      "name": "Exelon",
      "slug": "exelon",
@@ -717,8 +672,53 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 18.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 15
+    },
+    {
+     "name": "FirstEnergy",
+     "slug": "firstenergy",
+     "description": "FirstEnergy is one of the largest investor-owned electric systems in the United States, with utilities serving customers in Ohio, Pennsylvania, New Jersey, West Virginia, Maryland, and New York. FirstEnergy does not publish a public developer portal or open API catalog. Customer energy data is shared with authorized Curtailment Service Providers and Conservation Service Providers under its Third-Party Data Access program in Pennsylvania, and bulk utility data is exchanged with state regulators and grid operators through Electronic Data Interchange (EDI) and other industry-standard interfaces.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/firstenergy/refs/heads/main/screenshots/firstenergy-2026-06-20T181242.png",
+     "score": 9.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -747,31 +747,31 @@
      "rank": 16
     },
     {
-     "name": "FirstEnergy",
-     "slug": "firstenergy",
-     "description": "FirstEnergy is one of the largest investor-owned electric systems in the United States, with utilities serving customers in Ohio, Pennsylvania, New Jersey, West Virginia, Maryland, and New York. FirstEnergy does not publish a public developer portal or open API catalog. Customer energy data is shared with authorized Curtailment Service Providers and Conservation Service Providers under its Third-Party Data Access program in Pennsylvania, and bulk utility data is exchanged with state regulators and grid operators through Electronic Data Interchange (EDI) and other industry-standard interfaces.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/firstenergy/refs/heads/main/screenshots/firstenergy-2026-06-20T181242.png",
-     "score": 9.9,
+     "name": "Portland General Electric",
+     "slug": "portland-general-electric",
+     "description": "Portland General Electric is a major US corporation and Fortune 1000 company. The Portland General Electric API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/portland-general-electric/refs/heads/main/screenshots/portland-general-electric-2026-06-20T191939.png",
+     "score": 9.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 21.1
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
-      "score": 18.9,
+      "score": 8.1,
       "matched_via": "tags"
      },
-     "agent_score": 0.0,
+     "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -781,7 +781,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -807,8 +807,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -852,8 +852,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -897,8 +897,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -942,8 +942,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -987,8 +987,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1032,8 +1032,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1077,8 +1077,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1122,8 +1122,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1166,8 +1166,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1211,8 +1211,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1256,8 +1256,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1301,8 +1301,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1346,8 +1346,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1391,8 +1391,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1435,8 +1435,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1472,8 +1472,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1509,8 +1509,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1554,8 +1554,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1592,8 +1592,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1629,8 +1629,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1666,8 +1666,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1704,8 +1704,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-08-10'
+  score: 44.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -67,6 +67,10 @@ apis:
   slug: orakl-webresponse-api
 artifact_total: 13
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/orakl-website-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -134,17 +138,17 @@ network: true
 overview: 'Orakl publishes 9 APIs on the [APIs.io](https://apis.io/) network, including CommonContent API, CustomForm API, Folder API, and 6 more. Tagged areas include Company, TechBio, Oncology, Drug Development, and Artificial Intelligence.
 
 
-  Orakl''s developer surface includes documentation, API reference, authentication, and 10 more developer resources.'
+  Orakl''s developer surface includes documentation, API reference, authentication, and 11 more developer resources.'
 random_paper: 73
 score:
   band: thin
-  composite: 34.2
-  delta: 0.0
+  composite: 32.8
+  delta: -1.4
   facets:
     commercial_clarity: 21.1
-    contract_quality: 60.1
+    contract_quality: 57.9
     developer_ergonomics: 29.9
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 34.2
@@ -164,8 +168,8 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/screenshots/orakl-2026-08-07T190829.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -80,6 +80,10 @@ apis:
   slug: val-town-vals-api
 artifact_total: 32
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/val-town/sdk/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -199,7 +203,7 @@ overview: 'Val Town publishes 11 APIs on the [APIs.io](https://apis.io/) network
   The Val Town catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Val Town''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
+  Val Town''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Val Town Plans Pricing
   plan_count: 4
@@ -220,11 +224,11 @@ rules:
   slug: val-town-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 49.1
+  delta: -0.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 60.0
+    contract_quality: 57.8
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 58.3
@@ -237,8 +241,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/screenshots/val-town-2026-06-20T200750.png
 security:

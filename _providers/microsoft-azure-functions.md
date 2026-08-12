@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 353
   human_in_the_loop: 32
@@ -151,6 +151,30 @@ collections:
   name: WebApps API Client
   slug: open-azure-functions-management-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Azure/azure-functions-host/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Azure/azure-functions-host/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Azure/azure-functions-host/blob/dev/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/Azure/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Azure/azure-functions-host/blob/dev/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Azure/azure-functions-host/blob/dev/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -638,7 +662,7 @@ overview: 'Microsoft Azure Functions publishes 22 APIs on the [APIs.io](https://
   The Microsoft Azure Functions catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Microsoft Azure Functions'' developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 32 more developer resources.'
+  Microsoft Azure Functions'' developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 38 more developer resources.'
 plans:
 - name: Microsoft Azure Functions Plans Pricing
   plan_count: 3
@@ -680,15 +704,15 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 64.7
-  delta: 0.0
+  composite: 57.7
+  delta: -7.0
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 59.2
+    commercial_clarity: 47.4
+    contract_quality: 57.0
     developer_ergonomics: 80.4
     discoverability: 74.1
     governance: 27.1
-    operational_transparency: 68.4
+    operational_transparency: 55.3
   previous_composite: 64.7
   provenance:
     agentic_access: derived
@@ -697,9 +721,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/screenshots/microsoft-azure-functions-2026-06-20T185418.png
 security:
 - kind: authentication

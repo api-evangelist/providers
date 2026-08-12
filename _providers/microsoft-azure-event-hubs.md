@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -345,16 +345,16 @@ scopes:
   slug: microsoft-azure-event-hubs-scopes
   summary_line: 1 scope · implicit
 score:
-  band: exemplar
-  composite: 70.5
-  delta: 0.0
+  band: strong
+  composite: 62.1
+  delta: -8.4
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 76.1
+    commercial_clarity: 60.5
+    contract_quality: 73.6
     developer_ergonomics: 56.5
     discoverability: 81.5
     governance: 58.3
-    operational_transparency: 63.2
+    operational_transparency: 39.5
   previous_composite: 70.5
   provenance:
     agentic_access: derived
@@ -363,9 +363,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/screenshots/microsoft-azure-event-hubs-2026-06-20T185412.png
 security:
 - kind: authentication

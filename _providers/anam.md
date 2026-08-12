@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-08-10'
+  score: 40.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -226,11 +226,11 @@ overview: 'Anam publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 65
 score:
   band: strong
-  composite: 57.9
-  delta: 0.0
+  composite: 57.5
+  delta: -0.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 62.4
+    contract_quality: 60.1
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
@@ -246,14 +246,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 56.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/screenshots/anam-2026-07-25T200152.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: The gRPC core framework defines the RPC protocol, service definition format using Protocol Buffers, and the fundamental call lifecycle including unary, server-streaming, client-streaming, and bidirect
@@ -54,6 +54,26 @@ apis:
   slug: grpc-reflection-api
 artifact_total: 12
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/grpc/grpc/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/grpc/grpc/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/grpc/grpc/blob/master/CODE-OF-CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/grpc/grpc/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/grpc/grpc/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -128,7 +148,7 @@ overview: 'gRPC publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
   The gRPC catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  gRPC''s developer surface includes documentation, getting-started guide, engineering blog, FAQ, changelog, and 9 more developer resources.'
+  gRPC''s developer surface includes documentation, getting-started guide, engineering blog, FAQ, changelog, and 14 more developer resources.'
 plans:
 - name: Grpc Plans Pricing
   plan_count: 3
@@ -149,15 +169,15 @@ rules:
   slug: grpc-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.3
-  delta: 0.0
+  composite: 44.4
+  delta: -6.9
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 66.4
+    commercial_clarity: 15.8
+    contract_quality: 64.3
     developer_ergonomics: 32.6
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 51.3
   provenance:
     contracts:
@@ -165,9 +185,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/screenshots/grpc-2026-06-20T182421.png
 security:
 - kind: domain-security

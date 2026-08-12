@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 35.4
-  scored_at: '2026-08-10'
+  score: 31.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -201,15 +201,15 @@ rate_limits:
   slug: intercontinental-exchange-rate-limits
 score:
   band: developing
-  composite: 51.7
-  delta: 0.0
+  composite: 45.9
+  delta: -5.8
   facets:
-    commercial_clarity: 65.8
-    contract_quality: 56.6
+    commercial_clarity: 50.0
+    contract_quality: 54.5
     developer_ergonomics: 34.2
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
-    operational_transparency: 42.1
+    operational_transparency: 26.3
   previous_composite: 51.7
   provenance:
     agentic_access: derived
@@ -227,9 +227,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/screenshots/intercontinental-exchange-2026-06-20T183442.png
 security:
 - kind: authentication

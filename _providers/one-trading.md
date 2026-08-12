@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Real-time WebSocket API for market data (order book, price ticks, book ticker) and, after authenticating, private trading events (order lifecycle, trades, settlement, funding payments, balance adjustm
@@ -52,6 +52,10 @@ asyncapis:
   name: One Trading WebSocket Streams API
   slug: one-trading-streams-asyncapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/one-trading-fast-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -170,17 +174,17 @@ overview: 'One Trading publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
   The One Trading catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  One Trading''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 18 more developer resources.'
+  One Trading''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 19 more developer resources.'
 random_paper: 68
 score:
   band: thin
-  composite: 38.1
-  delta: 0.0
+  composite: 37.0
+  delta: -1.1
   facets:
     commercial_clarity: 44.7
-    contract_quality: 27.0
+    contract_quality: 26.1
     developer_ergonomics: 47.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
   previous_composite: 38.1
@@ -199,8 +203,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/screenshots/one-trading-2026-08-07T190256.png
 security:

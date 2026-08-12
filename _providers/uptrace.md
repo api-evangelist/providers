@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -60,6 +60,10 @@ collections:
   name: Uptrace API
   slug: open-uptrace
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/uptrace/uptrace/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -145,7 +149,7 @@ overview: 'Uptrace publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
   The Uptrace catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Uptrace''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Uptrace''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Uptrace Plans Pricing
   plan_count: 3
@@ -174,15 +178,15 @@ rules:
   slug: uptrace-rules
 score:
   band: developing
-  composite: 50.2
-  delta: 0.0
+  composite: 42.5
+  delta: -7.7
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 69.8
+    commercial_clarity: 15.8
+    contract_quality: 67.2
     developer_ergonomics: 28.3
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 50.2
   provenance:
     agentic_access: derived
@@ -191,9 +195,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/screenshots/uptrace-2026-06-20T200501.png
 security:
 - kind: authentication

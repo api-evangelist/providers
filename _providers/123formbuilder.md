@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -82,6 +82,14 @@ collections:
   name: 123FormBuilder REST API v2
   slug: open-123formbuilder-rest-api-v2
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/123FormBuilder/123contacform-api-v1-php/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/123FormBuilder/123contacform-api-v1-php/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -363,7 +371,7 @@ overview: '123FormBuilder publishes 5 APIs on the [APIs.io](https://apis.io/) ne
   The 123FormBuilder catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  123FormBuilder''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, support, and 25 more developer resources.'
+  123FormBuilder''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, support, and 27 more developer resources.'
 plans:
 - name: 123Formbuilder Plans Pricing
   plan_count: 5
@@ -392,11 +400,11 @@ rules:
   slug: 123formbuilder-rules
 score:
   band: strong
-  composite: 65.3
-  delta: 0.0
+  composite: 64.6
+  delta: -0.7
   facets:
     commercial_clarity: 92.1
-    contract_quality: 80.6
+    contract_quality: 77.6
     developer_ergonomics: 39.1
     discoverability: 74.1
     governance: 68.8
@@ -415,8 +423,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/screenshots/123formbuilder-2026-06-20T162300.png
 security:

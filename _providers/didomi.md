@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 12
@@ -196,6 +196,14 @@ collections:
   name: Didomi API
   slug: open-didomi-platform-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/didomi/consent-string/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/didomi/consent-string/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -515,7 +523,7 @@ overview: 'Didomi publishes 32 APIs on the [APIs.io](https://apis.io/) network, 
   The Didomi catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Didomi''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, signup flow, pricing, and 45 more developer resources.'
+  Didomi''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, signup flow, pricing, and 47 more developer resources.'
 plans:
 - name: Didomi Plans Pricing
   plan_count: 5
@@ -544,11 +552,11 @@ rules:
   slug: didomi-rules
 score:
   band: exemplar
-  composite: 66.6
-  delta: 0.0
+  composite: 68.6
+  delta: 2.0
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 70.9
+    commercial_clarity: 92.1
+    contract_quality: 68.3
     developer_ergonomics: 71.7
     discoverability: 50.0
     governance: 68.8
@@ -561,8 +569,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/screenshots/didomi-2026-06-20T180026.png
 security:

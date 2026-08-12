@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-10'
+  score: 37.8
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: The Consent API from Inth — 1 operation(s) for consent.
@@ -48,6 +48,10 @@ apis:
   slug: inth-subjects-api
 artifact_total: 8
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/inth-c15t-consent-api-overlay.yaml
 - group: other
   title: ''
   type: AgentCard
@@ -187,17 +191,17 @@ network: true
 overview: 'Inth publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Consent API, Init API, Legal Documents API, and 2 more. Tagged areas include Company, Consent Management, Privacy, Cookie Consent, and GDPR.
 
 
-  Inth''s developer surface includes documentation, API reference, quickstart, pricing, engineering blog, signup flow, support, and 24 more developer resources.'
+  Inth''s developer surface includes documentation, API reference, quickstart, pricing, engineering blog, signup flow, support, and 25 more developer resources.'
 random_paper: 87
 score:
   band: developing
-  composite: 55.0
-  delta: 0.0
+  composite: 53.3
+  delta: -1.7
   facets:
     commercial_clarity: 31.6
-    contract_quality: 60.2
+    contract_quality: 57.9
     developer_ergonomics: 80.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 44.7
   previous_composite: 55.0
@@ -210,8 +214,8 @@ score:
       total: 5
     mcp: derived
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/screenshots/inth-2026-07-25T222721.png
 security:

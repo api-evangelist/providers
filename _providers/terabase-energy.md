@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: near-conformant
     agent_skills: true
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 65.1
-  scored_at: '2026-08-10'
+  score: 61.5
+  scored_at: '2026-08-11'
 api_count: 26
 apis:
 - description: Hosted Model Context Protocol server that lets Claude, ChatGPT and Cursor act on a user's own PlantPredict account — creating and running predictions, importing weather and shade scenes, browsing proj
@@ -271,28 +272,34 @@ scopes:
   slug: terabase-energy-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: developing
-  composite: 53.6
-  delta: -2.7
+  band: strong
+  composite: 56.1
+  delta: 2.5
   facets:
     commercial_clarity: 52.6
-    contract_quality: 54.1
+    contract_quality: 58.6
     developer_ergonomics: 78.3
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 56.3
+  previous_composite: 53.6
   provenance:
     conformance: first-party
     contracts:
-      callable: 50.0
+      callable: 65.4
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 26
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 63.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

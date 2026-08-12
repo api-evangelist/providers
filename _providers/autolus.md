@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 6.3
-  scored_at: '2026-08-10'
+  score: 2.7
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,13 +59,13 @@ overview: Autolus * is profiled on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 85
 score:
   band: minimal
-  composite: 6.3
-  delta: 0.0
+  composite: 5.4
+  delta: -0.9
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 61.1
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 6.3
@@ -75,8 +75,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autolus/refs/heads/main/screenshots/autolus-2026-07-25T201826.png
 security:

@@ -25,13 +25,25 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 18.9
-  scored_at: '2026-08-10'
+  score: 15.3
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 4
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/cdapio/cdap/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/cdapio/cdap/blob/develop/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/cdapio/cdap/blob/develop/CONTRIBUTING.rst
 - group: company
   title: ''
   type: Website
@@ -155,25 +167,25 @@ network: true
 overview: 'Cask Data is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Data Integration, Data Pipelines, and ETL.
 
 
-  Cask Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, sandbox, and 20 more developer resources.'
+  Cask Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, sandbox, and 23 more developer resources.'
 random_paper: 61
 score:
   band: emerging
-  composite: 24.4
-  delta: 0.0
+  composite: 23.3
+  delta: -1.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 65.2
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 3.1
     operational_transparency: 31.6
   previous_composite: 24.4
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cask-data/refs/heads/main/screenshots/cask-data-2026-07-25T204727.png
 security:

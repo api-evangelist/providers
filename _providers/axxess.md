@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: CEHRT-certified API (§ 170.315(g)(7)) for patient data selection, enabling authorized access to patient records within the Axxess EHR platform using FHIR standards.
@@ -141,8 +141,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axxess/refs/heads/main/screenshots/axxess-2026-06-20T172828.png
 security:

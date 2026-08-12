@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 1
@@ -107,6 +107,26 @@ collections:
   name: Apache Superset REST API
   slug: open-apache-superset
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apache/superset/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/apache/superset/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/superset/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/superset/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/superset/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -198,7 +218,7 @@ network: true
 overview: 'Apache Superset publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Annotation Layer API, Assets API, Async Event API, and 18 more. Tagged areas include Analytics, BI, Dashboard, Data Visualization, and SQL.
 
 
-  Apache Superset''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 6 more developer resources.'
+  Apache Superset''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 11 more developer resources.'
 plans:
 - name: Apache Superset Plans Pricing
   plan_count: 3
@@ -210,15 +230,15 @@ rate_limits:
   slug: apache-superset-rate-limits
 score:
   band: thin
-  composite: 40.3
-  delta: 0.0
+  composite: 33.5
+  delta: -6.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 39.5
+    commercial_clarity: 26.3
+    contract_quality: 38.1
     developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 47.4
+    operational_transparency: 34.2
   previous_composite: 40.3
   provenance:
     agentic_access: derived
@@ -227,9 +247,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/screenshots/apache-superset-2026-06-20T172150.png
 security:
 - kind: domain-security

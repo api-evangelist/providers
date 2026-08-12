@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -65,6 +65,26 @@ asyncapis:
   name: Hey Api Platform Webhooks
   slug: hey-api-platform-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/hey-api-platform-overlay.yaml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/hey-api/hey-api/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/hey-api/hey-api/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/hey-api/hey-api/blob/main/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/hey-api/hey-api/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -191,7 +211,7 @@ overview: 'Hey API publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   The Hey API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Hey API''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, changelog, CLI, and 20 more developer resources.'
+  Hey API''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, changelog, CLI, and 25 more developer resources.'
 plans:
 - name: Hey Api Plans Pricing
   plan_count: 3
@@ -202,24 +222,29 @@ rate_limits:
   name: Hey Api Rate Limits
   slug: hey-api-rate-limits
 score:
-  band: strong
-  composite: 56.1
-  delta: 0.1
+  band: developing
+  composite: 47.7
+  delta: -8.4
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 51.0
+    commercial_clarity: 28.9
+    contract_quality: 52.9
     developer_ergonomics: 71.2
-    discoverability: 83.3
+    discoverability: 72.2
     governance: 11.5
-    operational_transparency: 68.4
-  previous_composite: 56.0
+    operational_transparency: 44.7
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/screenshots/hey-api-2026-06-20T182713.png
 security:
 - kind: authentication

@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-10'
+  score: 31.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -50,8 +50,20 @@ apis:
 - description: Live Data API - query activity reports (Working Hours, Activity Log).
   name: ActivTrak Reports API
   slug: activtrak-reports-api
-artifact_total: 9
+artifact_total: 10
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/activtrak-bulk-import-hr-data.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/activtrak-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/activtrak-openapi-original-overlay.yaml
 - group: auth
   title: ''
   type: Authentication
@@ -128,6 +140,10 @@ created: '2026-07-17'
 description: 'ActivTrak is a workforce analytics and productivity-monitoring SaaS platform. Its Public APIs (v2) expose REST endpoints across three surfaces: the Live Data / Reports API (Working Hours and Activity Log), account administration (Clients, Consumers, and full SCIM 2.0 user and group management), and a Bulk Import HR Data Connector for CSV-driven user provisioning. Authentication is via an API key sent in the x-api-key header (a Bearer form is also accepted on some endpoints). Regional hosts are available for the United States, European Union, United Kingdom, Canada, and Australia. ActivTrak is backed by Sapphire Ventures and is profiled in the API Evangelist network.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/activtrak.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: activtrak-mcp.yml
+  slug: activtrak-mcpyml
 modified: '2026-07-17'
 name: ActivTrak
 nav: Providers
@@ -135,17 +151,17 @@ network: true
 overview: 'ActivTrak publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Administration - SCIM API, Bulk Import API, and 1 more. Tagged areas include Company, Saas, Workforce Analytics, Productivity, and Employee Monitoring.
 
 
-  ActivTrak''s developer surface includes authentication, changelog, documentation, API reference, support, engineering blog, pricing, and 11 more developer resources.'
+  ActivTrak''s developer surface includes authentication, changelog, documentation, API reference, support, engineering blog, pricing, and 14 more developer resources.'
 random_paper: 41
 score:
   band: developing
-  composite: 51.4
-  delta: 0.0
+  composite: 50.5
+  delta: -0.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 64.1
-    developer_ergonomics: 41.3
-    discoverability: 92.6
+    contract_quality: 61.8
+    developer_ergonomics: 45.1
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 50.0
   previous_composite: 51.4
@@ -159,8 +175,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/screenshots/activtrak-2026-07-25T181531.png
 security:

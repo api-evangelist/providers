@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-10'
+  score: 49.3
+  scored_at: '2026-08-11'
 api_count: 41
 apis:
 - description: The Aggregates API from Uniform — 1 operation(s) for aggregates.
@@ -160,6 +161,10 @@ asyncapis:
   name: Uniform Webhooks
   slug: uniform-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/uniform-platform-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -303,17 +308,17 @@ overview: 'Uniform publishes 41 APIs on the [APIs.io](https://apis.io/) network,
   The Uniform catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Uniform''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 24 more developer resources.'
+  Uniform''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 25 more developer resources.'
 random_paper: 72
 score:
-  band: strong
-  composite: 57.1
-  delta: 0.0
+  band: developing
+  composite: 55.4
+  delta: -1.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 53.6
+    contract_quality: 51.6
     developer_ergonomics: 75.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
   previous_composite: 57.1
@@ -326,8 +331,8 @@ score:
       total: 41
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

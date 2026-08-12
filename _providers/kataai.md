@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 9
 apis:
 - description: Login and token issuance.
@@ -102,11 +102,11 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/kataai-platform-openapi.yml
+  url: openapi/_original/kataai-platform-openapi.yml
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/kataai-nlu-prediction-openapi.yml
+  url: openapi/_original/kataai-nlu-prediction-openapi.yml
 - group: auth
   title: ''
   type: Authentication
@@ -186,11 +186,11 @@ overview: 'Kata.ai publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 39
 score:
   band: thin
-  composite: 28.6
-  delta: 0.0
+  composite: 28.4
+  delta: -0.2
   facets:
     commercial_clarity: 23.7
-    contract_quality: 14.6
+    contract_quality: 14.0
     developer_ergonomics: 49.5
     discoverability: 81.5
     governance: 11.5
@@ -205,14 +205,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 29.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/screenshots/kataai-2026-07-25T223526.png
 security:

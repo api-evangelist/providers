@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 6
@@ -263,6 +263,10 @@ asyncapis:
   name: Vivenu Webhooks
   slug: vivenu-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/vivenu-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -377,17 +381,17 @@ overview: 'vivenu publishes 73 APIs on the [APIs.io](https://apis.io/) network, 
   The vivenu catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  vivenu''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, sandbox, and 18 more developer resources.'
+  vivenu''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, sandbox, and 19 more developer resources.'
 random_paper: 89
 score:
   band: developing
-  composite: 45.9
-  delta: 0.0
+  composite: 42.6
+  delta: -3.3
   facets:
     commercial_clarity: 28.9
-    contract_quality: 64.4
+    contract_quality: 62.0
     developer_ergonomics: 47.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 45.9
@@ -406,9 +410,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 46.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 34.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

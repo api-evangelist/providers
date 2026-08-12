@@ -1,10 +1,11 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -17,8 +18,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 62.6
-  scored_at: '2026-08-10'
+  score: 52.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -175,16 +176,29 @@ rate_limits:
   slug: legal-ge-public-apis-rate-limits
 score:
   band: developing
-  composite: 46.4
+  composite: 44.6
+  delta: -1.8
   facets:
     commercial_clarity: 44.7
-    contract_quality: 47.8
-    developer_ergonomics: 47.8
-    discoverability: 87.0
-    governance: 20.8
+    contract_quality: 53.5
+    developer_ergonomics: 42.9
+    discoverability: 75.9
+    governance: 11.5
     operational_transparency: 36.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 46.4
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Legal Ge Public Apis Authentication

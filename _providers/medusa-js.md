@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -96,6 +96,18 @@ collections:
   name: Medusa Store API
   slug: open-medusa-js
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/medusajs/medusa/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/medusajs/medusa/blob/develop/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/medusajs/medusa/blob/develop/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -217,7 +229,7 @@ network: true
 overview: 'Medusa publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Carts API, Categories API, and 7 more. Tagged areas include Commerce, Headless, eCommerce, Open Source, and Node.js.
 
 
-  Medusa''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, release notes, and 9 more developer resources.'
+  Medusa''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, release notes, and 12 more developer resources.'
 plans:
 - name: Medusa Js Plans Pricing
   plan_count: 1
@@ -229,15 +241,15 @@ rate_limits:
   slug: medusa-js-rate-limits
 score:
   band: thin
-  composite: 39.9
-  delta: 0.0
+  composite: 41.5
+  delta: 1.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 50.4
+    contract_quality: 48.5
     developer_ergonomics: 32.6
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 42.1
+    operational_transparency: 52.6
   previous_composite: 39.9
   provenance:
     agentic_access: derived
@@ -246,8 +258,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medusa-js/refs/heads/main/screenshots/medusa-js-2026-06-20T185127.png
 security:

@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -18,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 15
 apis:
 - description: 'Anonymous, hosted Model Context Protocol server published by Umbra on the Canopy documentation host. Exposes six tools that let an agent enumerate the Canopy OpenAPI specs, list and search endpoints, '
@@ -68,6 +69,10 @@ apis:
   slug: umbra-thumbnail-api
 artifact_total: 20
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/umbra-admin-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -219,7 +224,7 @@ network: true
 overview: 'Umbra publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Client Credentials API, Collections API, Collect Metadata API, and 11 more. Tagged areas include Satellite Imagery, Synthetic Aperture Radar, Earth Observation, Geospatial, and Space.
 
 
-  Umbra''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+  Umbra''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 random_paper: 71
 rate_limits:
 - limit_count: 6
@@ -232,27 +237,27 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 55.3
-  delta: -1.3
+  composite: 55.7
+  delta: 0.4
   facets:
     commercial_clarity: 44.7
-    contract_quality: 56.3
+    contract_quality: 57.9
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 60.5
-  previous_composite: 56.6
+  previous_composite: 55.3
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

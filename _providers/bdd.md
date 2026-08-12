@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Cucumber is the world's most popular BDD framework, supporting Java, JavaScript, Ruby, Python, and C#. It uses Gherkin syntax for writing human-readable test scenarios and provides integrations with a
@@ -48,6 +48,26 @@ apis:
   slug: jbehave
 artifact_total: 24
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/cucumber/cucumber-jvm/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/cucumber/cucumber-jvm/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/cucumber/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/cucumber/cucumber-jvm/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/cucumber/cucumber-jvm/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -109,7 +129,7 @@ network: true
 overview: 'BDD (Behavior-Driven Development) publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automation, BDD, Software Development, Testing, and Gherkin.
 
 
-  BDD (Behavior-Driven Development)''s developer surface includes engineering blog, documentation, and 3 more developer resources.'
+  BDD (Behavior-Driven Development)''s developer surface includes engineering blog, documentation, and 8 more developer resources.'
 plans:
 - name: Bdd Plans Pricing
   plan_count: 3
@@ -121,19 +141,19 @@ rate_limits:
   slug: bdd-rate-limits
 score:
   band: emerging
-  composite: 21.3
-  delta: 0.0
+  composite: 15.6
+  delta: -5.7
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 21.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bdd/refs/heads/main/screenshots/bdd-2026-06-20T173104.png
 security:
 - kind: domain-security

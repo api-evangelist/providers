@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: 'Zilla is a stateless, cloud-native multi-protocol edge and service proxy that enables seamless access to Apache Kafka through HTTP REST, gRPC, SSE, MQTT, and WebSocket protocols. Zilla eliminates the '
@@ -42,6 +42,26 @@ apis:
   slug: zillabase
 artifact_total: 24
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/aklivity/zilla/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/aklivity/zilla/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/aklivity/zilla/blob/develop/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/aklivity/zilla/blob/develop/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/aklivity/zilla/blob/develop/.github/CONTRIBUTING.md
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -122,7 +142,7 @@ overview: 'Aklivity publishes 1 API on the [APIs.io](https://apis.io/) network: 
   The Aklivity catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Aklivity''s developer surface includes documentation, getting-started guide, pricing, engineering blog, and 6 more developer resources.'
+  Aklivity''s developer surface includes documentation, getting-started guide, pricing, engineering blog, and 11 more developer resources.'
 plans:
 - name: Aklivity Plans Pricing
   plan_count: 3
@@ -142,19 +162,19 @@ rules:
     warn: 2
   slug: aklivity-spectral-rules
 score:
-  band: developing
-  composite: 43.8
-  delta: 0.0
+  band: thin
+  composite: 39.4
+  delta: -4.4
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 59.7
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 27.1
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 43.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aklivity/refs/heads/main/screenshots/aklivity-2026-06-20T171459.png
 security:

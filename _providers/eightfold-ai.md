@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-10'
+  score: 16.0
+  scored_at: '2026-08-11'
 api_count: 9
 apis:
 - description: Core AI platform that powers candidate matching, skills inference, career-path recommendations, and internal mobility decisions across the Eightfold suite. Customer-facing APIs are made available to e
@@ -223,20 +223,24 @@ scopes:
   slug: eightfold-ai-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 44.8
-  delta: 26.0
+  band: thin
+  composite: 41.4
+  delta: -3.4
   facets:
     commercial_clarity: 68.4
     contract_quality: 0.0
-    developer_ergonomics: 67.4
-    discoverability: 92.6
+    developer_ergonomics: 56.0
+    discoverability: 81.5
     governance: 12.5
     operational_transparency: 52.6
-  previous_composite: 18.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: rising
+  previous_composite: 44.8
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eightfold-ai/refs/heads/main/screenshots/eightfold-ai-2026-07-25T213004.png
 security:
 - kind: authentication

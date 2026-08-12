@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Fluid is a CSS framework that provides a responsive grid system, UI components, and utility classes for building flexible and adaptive web layouts. It uses ITCSS architecture for its file and folder s
@@ -36,6 +36,22 @@ apis:
   slug: fluid-css-framework
 artifact_total: 4
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/fluid-framework/Fluid/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/fluid-framework/Fluid/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/fluid-framework/Fluid/blob/master/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/fluid-framework/Fluid/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -67,7 +83,7 @@ network: true
 overview: 'Fluid publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CSS Framework, Front-End, and Responsive Design.
 
 
-  Fluid''s developer surface includes documentation and 3 more developer resources.'
+  Fluid''s developer surface includes documentation and 7 more developer resources.'
 plans:
 - name: Fluid Plans Pricing
   plan_count: 3
@@ -79,19 +95,19 @@ rate_limits:
   slug: fluid-rate-limits
 score:
   band: emerging
-  composite: 19.8
-  delta: 0.0
+  composite: 14.0
+  delta: -5.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 15.2
     discoverability: 40.7
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 19.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluid/refs/heads/main/screenshots/fluid-2026-06-20T181340.png
 slug: fluid
 tags:

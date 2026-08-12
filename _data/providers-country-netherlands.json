@@ -4,39 +4,39 @@
  "limit": 1000,
  "bands": [
   {
-   "band": "exemplar",
-   "label": "Exemplar",
-   "range": "66+",
-   "blurb": "Reference-quality API operations across every facet.",
-   "count": 1,
-   "shown": 1,
+   "band": "strong",
+   "label": "Strong",
+   "range": "56 – 65.9",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 2,
+   "shown": 2,
    "providers": [
     {
      "name": "Mollie",
      "slug": "mollie",
      "description": "Mollie B.V. is a Dutch payment service provider headquartered in Amsterdam that lets businesses across Europe accept online, point-of-sale and recurring payments through a single REST API and hosted checkout. The Mollie API is an HTTP+HAL (application/hal+json) interface at api.mollie.com covering Payments, Payment Links, Refunds, Chargebacks, Captures, Customers, Mandates, Subscriptions, Methods, Sessions, Terminals, Balances, Settlements, Payouts, Invoices, Sales Invoices, Business Accounts, Transfers, Onboarding, Capabilities, Clients, Client Links, Profiles, Organizations, Permissions, Delayed Routing, Verify Payee, Wallets, Webhooks and Webhook Events. Mollie supports European payment methods including iDEAL, Bancontact, SEPA Direct Debit, Klarna, PayPal, Apple Pay, Google Pay, BLIK, Przelewy24, TWINT, Vipps, MobilePay, Swish and cards. Mollie publishes an OpenAPI 3.1 specification, official SDKs for PHP, Node/TypeScript, Python, Ruby, Go, Java and C#/.NET, an OAuth 2.0 Connect platform for marketplaces, next-gen webhook subscriptions, and a hosted Model Context Protocol server plus an official agent toolkit and Agent Skill for AI-driven integrations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/screenshots/mollie-2026-08-07T184112.png",
-     "score": 69.5,
-     "band": "exemplar",
-     "band_label": "Exemplar",
+     "score": 64.7,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 71.2,
+      "discoverability": 75.9,
+      "contract_quality": 68.5,
       "governance": 20.8,
       "operational_transparency": 55.3,
       "developer_ergonomics": 84.8,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
-      "score": 93.8,
+      "score": 71.9,
       "matched_via": "tags"
      },
-     "agent_score": 73.9,
+     "agent_score": 70.3,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -49,50 +49,39 @@
       "rate_limit_signal": false,
       "event_surface_described": true,
       "agent_skills": true,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
      "rank": 1
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "strong",
-   "label": "Strong",
-   "range": "56 – 65.9",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
+    },
     {
      "name": "KPN",
      "slug": "kpn",
      "description": "Koninklijke KPN N.V. is the incumbent telecommunications and IT provider of the Netherlands, operating the country's national fixed (copper and fibre) and mobile networks and selling telephony, broadband, television, IoT connectivity and managed IT services to consumers, businesses and — through KPN Wholesale — to other operators. In the telecom API value chain KPN sits on the network-operator side, but it is a conspicuous exception to the carrier norm: rather than routing developers exclusively through aggregators, KPN runs a genuine self-serve developer portal at developer.kpn.com where anyone can register a free account, get a client ID and secret, test in a sandbox at no cost, and see per-transaction pricing, then upgrade to production via a KRN company number or an iDIN identity check. Thirty-four OpenAPI/Swagger definitions are published anonymously downloadable under KPN's public SwaggerHub organisation, all fronted by an Apigee-style gateway at api-prd.kpn.com with OAuth 2.0 client-credentials. KPN is listed in the official CAMARA landscape as an operator and, with Odido and Vodafone under the COIN association and GSMA Open Gateway, launched CAMARA-standard fraud-prevention APIs for the Dutch market in October 2025; its SIM Swap definition points explicitly at github.com/camaraproject as its product documentation. KPN is not an Aduna shareholder and does not reach developers through that JV. Notably, KPN also resells Vonage and Apidaze CPaaS products through its own portal — the aggregator layer appearing inside the carrier's own catalogue rather than the other way round.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/screenshots/kpn-2026-08-07T171335.png",
-     "score": 63.3,
+     "score": 58.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 77.8,
-      "contract_quality": 66.1,
+      "discoverability": 66.7,
+      "contract_quality": 63.6,
       "governance": 20.8,
       "operational_transparency": 94.7,
       "developer_ergonomics": 66.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
       "regime_id": "telecommunications",
-      "score": 86.1,
+      "score": 66.7,
       "matched_via": "tags"
      },
-     "agent_score": 54.3,
+     "agent_score": 50.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -105,7 +94,7 @@
       "rate_limit_signal": "documented",
       "event_surface_described": true,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
@@ -120,8 +109,8 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 9,
-   "shown": 9,
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
      "name": "ChannelEngine",
@@ -139,10 +128,10 @@
       "developer_ergonomics": 69.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 48.9,
-     "agent_band": "agent-native",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 45.3,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
@@ -154,7 +143,7 @@
       "rate_limit_signal": "documented",
       "event_surface_described": true,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -166,19 +155,19 @@
      "slug": "payt",
      "description": "Payt (Payt B.V.) is a Netherlands-based accounts receivable management platform that automates invoice follow-up and payment collection while keeping personal contact with customers. It syncs invoices and debtor data from accounting and ERP systems, then runs the collections workflow: automated reminders, flexible payment plans, debt-collection cases, creditworthiness checks, electronic (UBL/Peppol) invoicing, a self-service debtor portal, and payment reconciliation. Payt exposes a REST Customer API (api.paytsoftware.com, v1) with OAuth 2.0 authorization, cursor pagination and incremental sync, a rich signed-webhook event surface, and bulk CSV/XML/JSON imports. Surfaced as a portfolio company of Partech and enriched into the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/screenshots/payt-2026-08-07T191658.png",
-     "score": 52.5,
+     "score": 52.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 60.5,
+      "contract_quality": 58.2,
       "governance": 20.8,
       "operational_transparency": 47.4,
       "developer_ergonomics": 56.0,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -210,19 +199,19 @@
      "name": "Telefoon",
      "slug": "telefoon",
      "description": "Telefoon is a cloud telephony and communications platform offering programmable voice, SMS, and number management APIs tailored for European markets. Built for GDPR compliance and EU regulatory requirements, Telefoon provides developers with REST APIs to build voice calling, SMS notification, number provisioning, and interactive voice response (IVR) solutions. The platform supports Dutch, Belgian, German, and broader European telecommunications infrastructure with local number availability and EU data residency.",
-     "score": 51.4,
+     "score": 46.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 66.7,
+      "contract_quality": 64.2,
       "governance": 58.3,
-      "operational_transparency": 36.8,
+      "operational_transparency": 21.1,
       "developer_ergonomics": 28.3,
-      "commercial_clarity": 60.5
+      "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -251,68 +240,23 @@
      "rank": 5
     },
     {
-     "name": "bunq",
-     "slug": "bunq",
-     "description": "bunq is a European (Dutch) neobank offering personal and business accounts across the EU. Its Public API is a REST API over HTTPS (https://api.bunq.com/v1, sandbox https://public-api.sandbox.bunq.com/v1) that lets account holders and licensed third parties read accounts, initiate SEPA and internal payments, send and answer payment requests, manage cards, export statements, upload attachments, and subscribe to event callbacks. bunq uses a distinctive multi-step handshake - installation (register an RSA public key), device-server, then session-server - after which requests are RSA-signed with X-Bunq-Client-Signature and authenticated with a session token in X-Bunq-Client-Authentication.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/screenshots/bunq-2026-06-20T173803.png",
-     "score": 46.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 63.6,
-      "governance": 0.0,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 37.0,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 27.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 6
-    },
-    {
      "name": "Wageningen University & Research",
      "slug": "wageningen-university-research",
      "description": "Wageningen University & Research (WUR) is a Dutch university and research institution based in Wageningen, Netherlands, specializing in the domain of healthy food and living environment, and ranked #100 in the QS World University Rankings 2025. Its public developer footprint centers on the agri-food research domain rather than a single central API platform: the AgroDataCube provides a token-based REST API over a large open data collection for agri-food applications, and Wageningen Food & Biobased Research (WFBR) operates an Azure API Management developer portal publishing a Food API for scientific data about food products. WUR also runs a Pure-powered Research Portal (research.wur.nl) and a public Data Portal, though documented public web-service/OAI endpoints there were not openly reachable at review time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/screenshots/wageningen-university-research-2026-06-20T201159.png",
-     "score": 45.3,
+     "score": 44.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 76.8,
+      "contract_quality": 73.9,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -338,64 +282,26 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
-    },
-    {
-     "name": "Erasmus University Rotterdam",
-     "slug": "erasmus-university-rotterdam",
-     "description": "Erasmus University Rotterdam (EUR) is a public research university in Rotterdam, the Netherlands, ranked #158 in the QS World University Rankings 2025. EUR does not operate a single consolidated public developer portal; its discoverable, programmatic surface is concentrated in scholarly and research-data infrastructure. RePub, the institutional repository, exposes a confirmed live OAI-PMH metadata feed, the EUR research data repository is hosted on Figshare (reachable via the Figshare public REST API), and the EUR & Erasmus MC research information portal runs on Pure (CRIS) with an OAI-PMH service path. Most course, timetable, identity, and administrative interfaces are gated behind institutional affiliation rather than openly documented.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/screenshots/erasmus-university-rotterdam-2026-06-20T180813.png",
-     "score": 43.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 72.1,
-      "governance": 58.3,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 41.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 8
+     "rank": 6
     },
     {
      "name": "University of Amsterdam",
      "slug": "university-of-amsterdam",
      "description": "The University of Amsterdam (Universiteit van Amsterdam, UvA) is a public research university in Amsterdam, Netherlands, ranked #43 in the QS World University Rankings 2025. Its public developer/API footprint is centered on the University Library's open-data program: a Linked Open Data platform (Triply) exposing digitized collections via REST, SPARQL, and GraphQL, plus OAI-PMH metadata-harvesting endpoints for the central catalogue, archival collection descriptions, and the Figshare-backed research data repository. UvA does not publish a unified, key-issuing public developer portal; the confirmed machine-readable interfaces are library/open-data oriented and most institutional/SIS APIs are internal or gated.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/screenshots/university-of-amsterdam-2026-06-20T200128.png",
-     "score": 43.8,
+     "score": 43.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 73.6,
+      "contract_quality": 70.9,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -421,26 +327,113 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 7
     },
     {
-     "name": "Utrecht University",
-     "slug": "utrecht",
-     "description": "Utrecht University (Universiteit Utrecht) is a public research university in Utrecht, Netherlands, ranked #105 in the QS World University Rankings 2025. Its public developer and API footprint is centered on open research infrastructure rather than a formal developer portal: the Utrecht University Library runs a DSpace institutional repository exposing publication metadata via OAI-PMH, the university maintains a large public GitHub organization (UtrechtUniversity) that publishes open-source research software, and it develops Yoda, an iRODS-based research data management platform. There is no single consolidated, self-service API developer portal; most administrative and identity systems are gated behind institutional SolisID/SSO.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/screenshots/utrecht-2026-06-20T200730.png",
-     "score": 42.5,
+     "name": "Erasmus University Rotterdam",
+     "slug": "erasmus-university-rotterdam",
+     "description": "Erasmus University Rotterdam (EUR) is a public research university in Rotterdam, the Netherlands, ranked #158 in the QS World University Rankings 2025. EUR does not operate a single consolidated public developer portal; its discoverable, programmatic surface is concentrated in scholarly and research-data infrastructure. RePub, the institutional repository, exposes a confirmed live OAI-PMH metadata feed, the EUR research data repository is hosted on Figshare (reachable via the Figshare public REST API), and the EUR & Erasmus MC research information portal runs on Pure (CRIS) with an OAI-PMH service path. Most course, timetable, identity, and administrative interfaces are gated behind institutional affiliation rather than openly documented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/screenshots/erasmus-university-rotterdam-2026-06-20T180813.png",
+     "score": 43.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 66.7,
+      "contract_quality": 69.4,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 41.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 8
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "28 – 41.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 8,
+   "shown": 8,
+   "providers": [
+    {
+     "name": "Utrecht University",
+     "slug": "utrecht",
+     "description": "Utrecht University (Universiteit Utrecht) is a public research university in Utrecht, Netherlands, ranked #105 in the QS World University Rankings 2025. Its public developer and API footprint is centered on open research infrastructure rather than a formal developer portal: the Utrecht University Library runs a DSpace institutional repository exposing publication metadata via OAI-PMH, the university maintains a large public GitHub organization (UtrechtUniversity) that publishes open-source research software, and it develops Yoda, an iRODS-based research data management platform. There is no single consolidated, self-service API developer portal; most administrative and identity systems are gated behind institutional SolisID/SSO.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/screenshots/utrecht-2026-06-20T200730.png",
+     "score": 41.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 64.2,
+      "governance": 58.3,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 9
+    },
+    {
+     "name": "Nmbrs",
+     "slug": "nmbrs",
+     "description": "Nmbrs (Visma Nmbrs) is cloud HR and payroll software for the Netherlands and Sweden, widely used by employers, accountants, and payroll service providers. Nmbrs exposes its HRIS and payroll data through a public API in two generations. The current, forward-looking interface is a REST API served from https://api.nmbrsapp.com, authenticated with OAuth 2.0 (Authorization Code flow via identityservice.nmbrs.com) plus a per-product subscription key, with granular scopes over companies, employees, employments, salaries, wage components, payruns, and absences. The older SOAP API (api.nmbrs.nl/soap/v3 - EmployeeService, CompanyService, DebtorService) remains available for existing integrations but is deprecated and scheduled to be retired on 1 March 2027, after which REST is the only supported API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/screenshots/nmbrs-2026-08-07T185352.png",
+     "score": 41.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 61.2,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -462,71 +455,23 @@
      "rank": 10
     },
     {
-     "name": "Nmbrs",
-     "slug": "nmbrs",
-     "description": "Nmbrs (Visma Nmbrs) is cloud HR and payroll software for the Netherlands and Sweden, widely used by employers, accountants, and payroll service providers. Nmbrs exposes its HRIS and payroll data through a public API in two generations. The current, forward-looking interface is a REST API served from https://api.nmbrsapp.com, authenticated with OAuth 2.0 (Authorization Code flow via identityservice.nmbrs.com) plus a per-product subscription key, with granular scopes over companies, employees, employments, salaries, wage components, payruns, and absences. The older SOAP API (api.nmbrs.nl/soap/v3 - EmployeeService, CompanyService, DebtorService) remains available for existing integrations but is deprecated and scheduled to be retired on 1 March 2027, after which REST is the only supported API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/screenshots/nmbrs-2026-08-07T185352.png",
-     "score": 42.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 63.6,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 52.6
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 11
-    }
-   ]
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "28 – 41.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 5,
-   "shown": 5,
-   "providers": [
-    {
      "name": "Eindhoven University of Technology",
      "slug": "eindhoven-university-of-technology",
      "description": "Eindhoven University of Technology (TU/e) is a research-driven public technical university in Eindhoven, Netherlands, ranked #136 in the QS World University Rankings 2025. Its public, machine-readable developer footprint centers on its Elsevier Pure research information system, which exposes the institutional research output through an OAI-PMH metadata-harvesting interface and the Pure Web Service (REST/SOAP) API. TU/e does not operate a single consolidated public developer portal; programmatic access to course, identity, and library systems is generally institution-internal or vendor-mediated, and numerous departmental research groups publish open-source code across separate GitHub organizations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/eindhoven-university-of-technology/refs/heads/main/screenshots/eindhoven-university-of-technology-2026-06-20T180525.png",
-     "score": 40.9,
+     "score": 40.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 61.6,
+      "contract_quality": 59.3,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -552,26 +497,26 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 11
     },
     {
      "name": "Vrije Universiteit Amsterdam",
      "slug": "vrije-universiteit-amsterdam",
      "description": "Vrije Universiteit Amsterdam (VU Amsterdam) is a public research university in the Netherlands, ranked #221 in the QS World University Rankings 2025. Like most universities, VU Amsterdam does not operate a centralized public developer portal. Its programmatic footprint is concentrated in research-infrastructure systems: the VU Research Portal (research.vu.nl), an Elsevier Pure instance that exposes a live OAI-PMH harvesting endpoint and a Pure REST web service, and research data published through DataverseNL. The University Library maintains an active public GitHub organization (ubvu) of open-science tooling. Most teaching, student-information, and identity systems are internal and not publicly documented.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/screenshots/vrije-universiteit-amsterdam-2026-06-20T201145.png",
-     "score": 40.0,
+     "score": 39.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 62.7,
+      "contract_quality": 60.3,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -597,6 +542,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 12
+    },
+    {
+     "name": "bunq",
+     "slug": "bunq",
+     "description": "bunq is a European (Dutch) neobank offering personal and business accounts across the EU. Its Public API is a REST API over HTTPS (https://api.bunq.com/v1, sandbox https://public-api.sandbox.bunq.com/v1) that lets account holders and licensed third parties read accounts, initiate SEPA and internal payments, send and answer payment requests, manage cards, export statements, upload attachments, and subscribe to event callbacks. bunq uses a distinctive multi-step handshake - installation (register an RSA public key), device-server, then session-server - after which requests are RSA-signed with X-Bunq-Client-Signature and authenticated with a session token in X-Bunq-Client-Authentication.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/screenshots/bunq-2026-06-20T173803.png",
+     "score": 39.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 61.2,
+      "governance": 0.0,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 37.0,
+      "commercial_clarity": 36.8
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 27.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 13
     },
     {
@@ -604,19 +594,19 @@
      "slug": "university-of-groningen",
      "description": "The University of Groningen (Rijksuniversiteit Groningen, RUG/UG) is a public research university in Groningen, Netherlands, founded in 1614 and ranked #75 in the QS World University Rankings 2025. Its public, machine-readable developer/API footprint is centered on research-output and research-data infrastructure: an OAI-PMH metadata-harvesting endpoint over its Pure CRIS research portal (OpenAIRE CERIF profile), the Elsevier Pure REST web-services API (live but API-key gated), and the shared DataverseNL data repository (Dataverse Native REST API) that serves as the UG default repository for research data and software. The University does not operate a single unified, self-service public developer portal; most institutional, SIS, timetable, and identity APIs are internal or gated. The University also maintains an official GitHub organization publishing open-source research-data and education tools.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-groningen/refs/heads/main/screenshots/university-of-groningen-2026-06-20T200155.png",
-     "score": 38.8,
+     "score": 38.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 53.7,
+      "contract_quality": 51.7,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -649,19 +639,19 @@
      "slug": "maastricht",
      "description": "Maastricht University (UM) is an international research university in Maastricht, Netherlands, known for its Problem-Based Learning model and ranked #230 in the QS World University Rankings 2025. UM does not operate a unified public developer portal; its confirmed machine-readable footprint consists of standards-based research-infrastructure interfaces rather than a productized API program. The Pure (Elsevier) current research information system at cris.maastrichtuniversity.nl exposes a live OAI-PMH endpoint serving OpenAIRE CERIF metadata, research data is published through the shared DataverseNL platform (a Dataverse instance with a public REST API), and the Maastricht University Institute of Data Science maintains an active open-source GitHub organization. Identity is federated via Shibboleth/SAML.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/maastricht/refs/heads/main/screenshots/maastricht-2026-06-20T184821.png",
-     "score": 37.7,
+     "score": 37.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 50.3,
+      "contract_quality": 48.4,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -694,19 +684,19 @@
      "slug": "gls-group",
      "description": "GLS Group (General Logistics Systems B.V.) is a European ground-based parcel and freight carrier headquartered in Amsterdam-Duivendrecht, Netherlands, and owned by International Distributions Services plc. It operates a road network of more than 120 hubs and roughly 1,600 depots across some 50 countries in Europe, the United States and Canada, moving B2B and B2C parcels up to about 32 kg plus a freight/LTL and express line, with an out-of-home ParcelShop and locker network. In the supply chain it is a last-mile and middle-mile parcel integrator: the party a shipper, e-commerce platform or shipping-API aggregator hands a consignment to for pickup, linehaul, customs clearance and delivery. Its API posture is federated and contract-bound rather than unified. The GLS Group developer portal (dev-portal.gls-group.net, run by GLS IT Services GmbH on Apigee) allows self-serve account and app registration with API keys or OAuth 2.0, but its API catalog is only visible after sign-in and \"restricted\" APIs additionally require approval by a local GLS representative. National units run their own portals — GLS Netherlands publishes an Azure API Management portal at api-portal.gls.nl whose OpenAPI 3.0.1 definitions for the Label API and the Track & Trace API are anonymously readable, but calling them still requires MyGLS credentials issued to a contracted shipper. The group-wide GLS ShipIT REST/SOAP web services are fully documented in public Doxygen reference pages, yet the base URL itself is handed out only with credentials by a customer's primary GLS contact. No industry data standard — GS1/EPCIS, UPU, DCSA, IATA ONE Record, UN/EDIFACT or ANSI X12 — is referenced anywhere in the artifacts GLS publishes; every identifier and event vocabulary is GLS-proprietary.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gls-group/refs/heads/main/screenshots/gls-group-2026-08-07T165749.png",
-     "score": 30.1,
+     "score": 29.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 53.1,
+      "contract_quality": 51.1,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 17.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 29.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -752,8 +742,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -797,8 +787,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -835,8 +825,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -873,8 +863,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -918,8 +908,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -962,8 +952,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1009,8 +999,8 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 15.8
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1054,8 +1044,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1077,28 +1067,28 @@
      "rank": 24
     },
     {
-     "name": "Leyden Labs",
-     "slug": "leyden-labs",
-     "description": "Leyden Labs is a clinical-stage biotechnology company headquartered in Leiden, The Netherlands, with a regional office in Singapore, developing intranasal antibody products that protect people against known and newly emerging respiratory viruses. Its approach pairs mucosal immunity — delivering antibodies directly into the nasal passages, the gateway respiratory viruses use to enter the body — with broad protection, by targeting conserved regions of viral proteins so a single product can cover circulating strains and future variants. Its lead program, PanFlu, is an intranasal antibody candidate in clinical trials derived from CR9114, among the most broadly neutralizing influenza antibodies identified to date. Founded in 2021 by Koenraad Wiedhaup and Ronald Brus with founding scientist Jaap Goudsmit, the company is backed by GV and the SoftBank Vision Fund alongside the European Innovation Council Fund, the European Investment Bank and Invest-NL. Leyden Labs publishes no public developer program, API, or SDK; this profile captures its public web, security and identity surface for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/leyden-labs/refs/heads/main/screenshots/leyden-labs-2026-07-25T225008.png",
-     "score": 9.9,
+     "name": "Rabobank",
+     "slug": "rabobank",
+     "description": "Rabobank is a Dutch multinational banking and financial services company organized as a cooperative with a strong focus on the food and agriculture sector. It serves retail, business, corporate, and wholesale customers in the Netherlands and operates a global Food & Agribusiness practice through Rabobank Wholesale & Rural and the Rabobank Group internationally. Rabobank publishes a developer portal at docs.developer.rabobank.com (legacy URL developer.rabobank.nl redirects there) exposing PSD2-mandated open banking APIs (Account Information, Payment Initiation, Funds Confirmation) as well as Premium / Beyond-PSD2 commercial APIs for corporate cash management and notifications, with sandbox endpoints for development and a regulated production tier under PSD2 Strong Customer Authentication. Underlying schemes are aligned with the Berlin Group NextGenPSD2 XS2A Framework.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rabobank/refs/heads/main/screenshots/rabobank-2026-06-20T192506.png",
+     "score": 9.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 74.1,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 10.5
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 12.5,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 7.6,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -1122,28 +1112,28 @@
      "rank": 25
     },
     {
-     "name": "Rabobank",
-     "slug": "rabobank",
-     "description": "Rabobank is a Dutch multinational banking and financial services company organized as a cooperative with a strong focus on the food and agriculture sector. It serves retail, business, corporate, and wholesale customers in the Netherlands and operates a global Food & Agribusiness practice through Rabobank Wholesale & Rural and the Rabobank Group internationally. Rabobank publishes a developer portal at docs.developer.rabobank.com (legacy URL developer.rabobank.nl redirects there) exposing PSD2-mandated open banking APIs (Account Information, Payment Initiation, Funds Confirmation) as well as Premium / Beyond-PSD2 commercial APIs for corporate cash management and notifications, with sandbox endpoints for development and a regulated production tier under PSD2 Strong Customer Authentication. Underlying schemes are aligned with the Berlin Group NextGenPSD2 XS2A Framework.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rabobank/refs/heads/main/screenshots/rabobank-2026-06-20T192506.png",
-     "score": 9.5,
+     "name": "Leyden Labs",
+     "slug": "leyden-labs",
+     "description": "Leyden Labs is a clinical-stage biotechnology company headquartered in Leiden, The Netherlands, with a regional office in Singapore, developing intranasal antibody products that protect people against known and newly emerging respiratory viruses. Its approach pairs mucosal immunity — delivering antibodies directly into the nasal passages, the gateway respiratory viruses use to enter the body — with broad protection, by targeting conserved regions of viral proteins so a single product can cover circulating strains and future variants. Its lead program, PanFlu, is an intranasal antibody candidate in clinical trials derived from CR9114, among the most broadly neutralizing influenza antibodies identified to date. Founded in 2021 by Koenraad Wiedhaup and Ronald Brus with founding scientist Jaap Goudsmit, the company is backed by GV and the SoftBank Vision Fund alongside the European Innovation Council Fund, the European Investment Bank and Invest-NL. Leyden Labs publishes no public developer program, API, or SDK; this profile captures its public web, security and identity surface for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/leyden-labs/refs/heads/main/screenshots/leyden-labs-2026-07-25T225008.png",
+     "score": 8.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 74.1,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 0.0
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 7.6,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 12.5,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -1182,8 +1172,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1205,43 +1195,6 @@
      "rank": 27
     },
     {
-     "name": "Baan",
-     "slug": "baan",
-     "description": "Baan (Baan Company N.V., originally The Baan Corporation) was a Dutch enterprise resource planning software vendor founded in 1978 in Barneveld, Netherlands by Jan Baan and later joined by his brother Paul Baan. Baan built one of the first genuinely component-based ERP suites, known for its Dynamic Enterprise Modeler (DEM), its Baan Tools 4GL development environment, and deep manufacturing and project-industry functionality. At its late-1990s peak Baan served roughly 3,000 customers and posted close to $700 million in revenue, making it one of the leading global ERP providers alongside SAP, Oracle and PeopleSoft. Following accounting controversy and a collapse in its share price, Baan was acquired by the British engineering group Invensys in 2000, sold on to SSA Global Technologies in 2003, and absorbed into Infor Global Solutions when Infor acquired SSA in 2006. Baan no longer exists as an operating company or an independent brand: the product line lives on as Infor LN, and the baan.com and baan.nl domains now permanently redirect to the Infor LN product page. Consequently this profile carries no first-party API surface of its own — any modern programmatic access to the Baan lineage is delivered through Infor LN REST APIs and the Infor ION API gateway on Infor's developer platform. Baan Company is listed by Battery Ventures as an exited investment.",
-     "score": 6.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 28
-    },
-    {
      "name": "Tibo Energy",
      "slug": "tibo-energy",
      "description": "Tibo Energy is an Eindhoven-based energy software company building an AI-driven Energy Management System (EMS) for commercial and industrial customers. Its SaaS platform simulates, monitors, and autonomously controls on-site energy hubs and smart grids, coordinating distributed assets such as heat pumps, EV charging stations, and battery storage to cut energy costs and emissions and to unlock additional capacity from existing infrastructure without waiting for grid upgrades. Tibo connects hardware through standard protocols such as MODBUS and OCPP via the Tibo Gateway and exchanges data with BMS, SCADA, and ERP systems through open APIs. Since launching in late 2023 it has deployed its EMS across more than 30 industrial sites and is backed by KOMPAS VC, Hitachi Ventures, SET Ventures, WEPA Ventures, and Speedinvest.",
@@ -1256,8 +1209,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1283,14 +1236,14 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "Fraudio",
      "slug": "fraudio",
      "description": "Fraudio is an Amsterdam-based payments fraud detection and financial-crime scale-up founded in 2019 by João Moura (CEO), Nathan Trousdell (COO), and team, with additional offices in London, Lisbon, and Barcelona. Fraudio delivers AI- and machine-learning-driven fraud detection as a managed service to merchant acquirers, payment service providers, card issuers, and banks, with a product line that covers card payment fraud, merchant initiated fraud, anti-money laundering, authorised push payment (APP) fraud, and money mule detection. The company markets itself as \"Generation 3\" fraud detection, advancing past rule-based (Gen 1) and bespoke per-customer ML (Gen 2) approaches by training a single centralized \"patent pending AI super brain\" on the pooled transaction history of all of its customers, claiming network-effect performance gains versus single-tenant models. Fraudio integrates with customers through a plug-and-play real-time scoring API with sub-100ms response times, configurable risk-appetite thresholds, and no upfront integration or setup cost. Customers include Viva Wallet, Silverflow, Pismo, Bancontact, Fazz, PayTabs, IXOPAY, Bold.co, SaltPay, WiPay, ePayco, and LOQR. Fraudio is ISO 27001 certified, was selected for the Visa Innovation Program (2023), is co-financed by the EU Lisboa 2030 programme, has raised roughly $3.3M seed plus a Series A round (March 2025), and counts BigStar Ventures, BYND Venture Capital, Teya, Viva Wallet, Portugal Ventures, Iberis Capital, Shilling, and CTT among its investors. There is no public developer portal, no open API reference, no public OpenAPI spec, no SDK, and no GitHub organization — the fraud-scoring API is delivered as a gated B2B integration through a commercial sales process.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fraudio/refs/heads/main/screenshots/fraudio-2026-06-20T181510.png",
-     "score": 5.8,
+     "score": 6.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1301,15 +1254,52 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 7.6,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 9.4,
       "matched_via": "tags"
      },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 29
+    },
+    {
+     "name": "Baan",
+     "slug": "baan",
+     "description": "Baan (Baan Company N.V., originally The Baan Corporation) was a Dutch enterprise resource planning software vendor founded in 1978 in Barneveld, Netherlands by Jan Baan and later joined by his brother Paul Baan. Baan built one of the first genuinely component-based ERP suites, known for its Dynamic Enterprise Modeler (DEM), its Baan Tools 4GL development environment, and deep manufacturing and project-industry functionality. At its late-1990s peak Baan served roughly 3,000 customers and posted close to $700 million in revenue, making it one of the leading global ERP providers alongside SAP, Oracle and PeopleSoft. Following accounting controversy and a collapse in its share price, Baan was acquired by the British engineering group Invensys in 2000, sold on to SSA Global Technologies in 2003, and absorbed into Infor Global Solutions when Infor acquired SSA in 2006. Baan no longer exists as an operating company or an independent brand: the product line lives on as Infor LN, and the baan.com and baan.nl domains now permanently redirect to the Infor LN product page. Consequently this profile carries no first-party API surface of its own — any modern programmatic access to the Baan lineage is delivered through Infor LN REST APIs and the Infor ION API gateway on Infor's developer platform. Baan Company is listed by Battery Ventures as an exited investment.",
+     "score": 5.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1345,8 +1335,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1383,8 +1373,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",

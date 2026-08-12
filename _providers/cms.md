@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -89,6 +89,30 @@ apis:
   slug: cms-provider-drug-coverage-api
 artifact_total: 128
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/CMSgov/bcda-app/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/CMSgov/bcda-app/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/CMSgov/bcda-app/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/CMSgov/bcda-app/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/CMSgov/bcda-app/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/CMSgov/bcda-app/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -463,7 +487,7 @@ overview: 'Centers for Medicare and Medicaid Services publishes 11 APIs on the [
   The Centers for Medicare and Medicaid Services catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Centers for Medicare and Medicaid Services'' developer surface includes authentication, developer portal, and 7 more developer resources.'
+  Centers for Medicare and Medicaid Services'' developer surface includes authentication, developer portal, and 13 more developer resources.'
 plans:
 - name: Plans
   plan_count: 4
@@ -484,15 +508,15 @@ rules:
   slug: cms-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.2
-  delta: 0.0
+  composite: 41.2
+  delta: 3.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 57.2
+    contract_quality: 57.3
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 5.3
+    operational_transparency: 31.6
   previous_composite: 38.2
   provenance:
     agentic_access: derived
@@ -507,8 +531,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/screenshots/cms-2026-06-20T174629.png
 security:

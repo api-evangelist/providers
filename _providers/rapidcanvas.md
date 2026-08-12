@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-10'
+  score: 12.6
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Bearer-token REST API behind the RapidCanvas platform and the RC CLI. All CLI interactions are HTTPS calls to https://<host>/api/... No public OpenAPI reference is published; the OAuth authorization-s
@@ -154,8 +154,8 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 30.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

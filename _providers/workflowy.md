@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-08-10'
+  score: 47.1
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Create, read, update, move, complete, and delete outline nodes.
@@ -39,6 +40,10 @@ apis:
   slug: workflowy-targets-api
 artifact_total: 5
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/workflowy-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -162,17 +167,17 @@ network: true
 overview: 'Workflowy publishes 2 APIs on the [APIs.io](https://apis.io/) network: Nodes API and Targets API. Tagged areas include Productivity, Notes, Outliner, Task Management, and Lists.
 
 
-  Workflowy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
+  Workflowy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
 random_paper: 84
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 48.1
+  delta: -1.7
   facets:
     commercial_clarity: 34.2
-    contract_quality: 64.3
+    contract_quality: 61.9
     developer_ergonomics: 60.3
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 36.8
   previous_composite: 49.8
@@ -185,8 +190,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

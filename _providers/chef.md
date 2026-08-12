@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-10'
+  score: 33.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -157,6 +157,10 @@ collections:
   name: Chef Infra Server API
   slug: open-chef-infra-server-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/chef-automate-api-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -358,7 +362,7 @@ overview: 'Chef publishes 13 APIs on the [APIs.io](https://apis.io/) network, in
   The Chef catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Chef''s developer surface includes CLI, changelog, authentication, documentation, getting-started guide, engineering blog, GitHub presence, and 34 more developer resources.'
+  Chef''s developer surface includes CLI, changelog, authentication, documentation, getting-started guide, engineering blog, GitHub presence, and 35 more developer resources.'
 plans:
 - name: Chef Plans Pricing
   plan_count: 3
@@ -378,16 +382,16 @@ rules:
     warn: 4
   slug: chef-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 63.6
-  delta: 0.0
+  band: developing
+  composite: 54.1
+  delta: -9.5
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 57.4
+    commercial_clarity: 44.7
+    contract_quality: 55.2
     developer_ergonomics: 50.0
-    discoverability: 83.3
+    discoverability: 72.2
     governance: 69.8
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 63.6
   provenance:
     agentic_access: derived
@@ -398,9 +402,9 @@ score:
       marker_coverage: 0.0
       total: 13
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/screenshots/chef-2026-06-20T174250.png
 security:
 - kind: authentication

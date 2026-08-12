@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-10'
+  score: 12.6
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The eWAY Rapid API is a versioned HTTP payments API (v47) for processing card transactions. It exposes transaction creation (Direct Connection), AccessCode-based flows (Transparent Redirect / Responsi
@@ -161,14 +161,14 @@ overview: 'eWAY publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
   eWAY''s developer surface includes documentation, API reference, pricing, engineering blog, support, signup flow, authentication, and 23 more developer resources.'
 random_paper: 90
 score:
-  band: developing
-  composite: 42.4
-  delta: 0.0
+  band: thin
+  composite: 38.2
+  delta: -4.2
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 54.3
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 47.4
   previous_composite: 42.4
@@ -179,9 +179,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 68.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 46.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eway/refs/heads/main/screenshots/eway-2026-07-25T213830.png
 security:

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,6 +50,10 @@ apis:
   slug: ezoic-purchases-api
 artifact_total: 8
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ezoic-subscriptions-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -188,17 +193,17 @@ network: true
 overview: 'ezoic publishes 3 APIs on the [APIs.io](https://apis.io/) network: Access API, Products API, and Purchases API. Tagged areas include Company, Advertising, AdTech, Publisher Monetization, and Analytics.
 
 
-  ezoic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 24 more developer resources.'
+  ezoic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 25 more developer resources.'
 random_paper: 74
 score:
   band: developing
-  composite: 54.7
-  delta: 0.0
+  composite: 53.0
+  delta: -1.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 64.9
+    contract_quality: 62.4
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
   previous_composite: 54.7
@@ -212,8 +217,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/screenshots/ezoic-2026-07-25T214052.png
 security:

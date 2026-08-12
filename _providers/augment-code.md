@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: 'Cosmos is Augment''s unified agents platform for agentic software development at organizational scale. It bundles specialized agents — Work Dispatcher (triage), PR Author (first commit through merge), '
@@ -138,18 +138,18 @@ rate_limits:
   slug: augment-code-rate-limits
 score:
   band: emerging
-  composite: 23.5
-  delta: 0.0
+  composite: 26.8
+  delta: 3.3
   facets:
-    commercial_clarity: 47.4
+    commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 23.9
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 23.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/augment-code/refs/heads/main/screenshots/augment-code-2026-06-20T172557.png
 security:

@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 59.7
-  scored_at: '2026-08-10'
+  score: 56.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 705
   human_in_the_loop: 0
@@ -2952,6 +2953,10 @@ collections:
   name: FactSet Watchlist API for Digital Portals
   slug: open-factset-watchlist-api-for-digital-portals
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/factset-concordance-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -16682,7 +16687,7 @@ overview: 'Factset publishes 447 APIs on the [APIs.io](https://apis.io/) network
   The Factset catalog on APIs.io includes 60 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Factset''s developer surface includes authentication, developer portal, getting-started guide, legal docs, API reference, support, sandbox, and 45 more developer resources.'
+  Factset''s developer surface includes authentication, developer portal, getting-started guide, legal docs, API reference, support, sandbox, and 46 more developer resources.'
 plans:
 - name: Factset Plans Pricing
   plan_count: 4
@@ -16715,16 +16720,16 @@ scopes:
   slug: factset-scopes
   summary_line: 9 scopes · clientCredentials
 score:
-  band: exemplar
-  composite: 72.8
-  delta: 0.0
+  band: strong
+  composite: 65.7
+  delta: -7.1
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 72.0
+    commercial_clarity: 50.0
+    contract_quality: 69.7
     developer_ergonomics: 88.6
     discoverability: 87.0
     governance: 80.2
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 72.8
   provenance:
     agentic_access: derived
@@ -16742,9 +16747,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/screenshots/factset-2026-06-20T181011.png
 security:
 - kind: authentication

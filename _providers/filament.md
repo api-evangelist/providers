@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Signature-authenticated REST + WebSocket order-book API for the Filament perpetual DEX on Sei. Place limit/market orders, cancel orders, manage isolated collateral, set TP/SL, read tradable assets wit
@@ -138,13 +138,13 @@ overview: 'Filament publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 36
 score:
   band: thin
-  composite: 30.8
-  delta: 0.0
+  composite: 29.8
+  delta: -1.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 49.4
     developer_ergonomics: 58.2
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 30.8
@@ -157,8 +157,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/screenshots/filament-2026-07-25T214446.png
 security:

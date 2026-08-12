@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: Anonymous proof-of-human credential. Users prove uniqueness via Orb (highest assurance), government document with NFC, or selfie liveness check (beta). Applications request a zero-knowledge proof tied
@@ -51,6 +51,10 @@ apis:
   slug: world-chain
 artifact_total: 11
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/worldcoin/idkit-js/blob/main/LICENSE
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -106,7 +110,7 @@ network: true
 overview: 'World (Worldcoin) publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Proof of Personhood, Identity, World ID, Mini Apps, and Blockchain.
 
 
-  World (Worldcoin)''s developer surface includes documentation, GitHub presence, support, and 7 more developer resources.'
+  World (Worldcoin)''s developer surface includes documentation, GitHub presence, support, and 8 more developer resources.'
 plans:
 - name: Worldcoin Plans Pricing
   plan_count: 1
@@ -128,8 +132,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 20.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldcoin/refs/heads/main/screenshots/worldcoin-2026-06-20T201620.png
 security:

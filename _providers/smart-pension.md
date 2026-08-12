@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,14 +12,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.9
-  scored_at: '2026-08-10'
+  score: 51.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 180
   human_in_the_loop: 0
@@ -475,8 +476,12 @@ apis:
 - description: The VerificationChecks API from Smart Pension — 3 operation(s) for verificationchecks.
   name: Smart Pension Verification Checks API
   slug: smart-pension-verificationchecks-api
-artifact_total: 156
+artifact_total: 157
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/smart-pension-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -618,6 +623,10 @@ description: Smart Pension is a UK defined contribution workplace pension master
   for machine-to-machine partners), with three sandboxed environments and self-serve partner registration.
 image: https://cdn.prod.website-files.com/5ce68aba5375cabb8f952335/5d8a243dcd466e77cc8dc3b6_Z-V12-Social-GeneralTile.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: smart-pension-mcp.yml
+  slug: smart-pension-mcpyml
 modified: '2026-08-05'
 name: Smart Pension
 nav: Providers
@@ -625,7 +634,7 @@ network: true
 overview: 'Smart Pension publishes 149 APIs on the [APIs.io](https://apis.io/) network, including Account Claiming API, Accounts API, Account Subaccounts Switch Plans API, and 146 more. Tagged areas include pensions, retirement, workplace-pension, auto-enrolment, and payroll.
 
 
-  Smart Pension''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+  Smart Pension''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 random_paper: 84
 rate_limits:
 - limit_count: 4
@@ -638,16 +647,16 @@ scopes:
   summary_line: 41 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 56.7
-  delta: 0.2
+  composite: 57.3
+  delta: 0.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 52.7
-    developer_ergonomics: 60.3
+    contract_quality: 53.0
+    developer_ergonomics: 62.5
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 63.2
-  previous_composite: 56.5
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -655,11 +664,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 149
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

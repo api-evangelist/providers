@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: The DOL Open Data API v4 is the Department of Labor's modernized REST API replacing the retired developer.dol.gov APIv1 and APIv2. It is served from the DOL Data Portal at dataportal.dol.gov and expos
@@ -128,10 +128,6 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/department-of-labor-vocabulary.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/department-of-labor-capabilities.yml
 created: '2024-12-03'
 description: The U.S. Department of Labor (DOL) is the federal department that fosters, promotes, and develops the welfare of wage earners, job seekers, and retirees, improves working conditions, advances opportunities for profitable employment, and assures work-related benefits and rights. DOL exposes a portfolio of public APIs and data feeds including the modernized DOL APIv4 served from the DOL Open Data Portal, the Bureau of Labor Statistics Public Data API, the DOL Enforcement Data site, and Data.gov.
 finops:
@@ -155,7 +151,7 @@ overview: 'Department of Labor publishes 5 APIs on the [APIs.io](https://apis.io
   The Department of Labor catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Department of Labor''s developer surface includes product news and 20 more developer resources.'
+  Department of Labor''s developer surface includes product news and 19 more developer resources.'
 plans:
 - name: Department Of Labor Plans Pricing
   plan_count: 3
@@ -167,15 +163,15 @@ rate_limits:
   slug: department-of-labor-rate-limits
 score:
   band: emerging
-  composite: 25.8
-  delta: 0.0
+  composite: 19.2
+  delta: -6.6
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 8.1
     developer_ergonomics: 0.0
     discoverability: 74.1
     governance: 10.4
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 25.8
   regulatory:
     applies: true
@@ -183,9 +179,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-labor/refs/heads/main/screenshots/department-of-labor-2026-06-20T175920.png
 security:
 - kind: domain-security

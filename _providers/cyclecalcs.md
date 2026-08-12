@@ -3,8 +3,8 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 66.2
-  scored_at: '2026-08-10'
+  score: 52.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -133,6 +133,10 @@ arazzos:
   slug: cyclecalcs-tonights-sky
 artifact_total: 53
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cyclecalcs-astronomy-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -325,7 +329,7 @@ network: true
 overview: 'CycleCalcs publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Apsides API, Attribution API, Conjunctions API, and 26 more. Tagged areas include Astronomy, Space, Science, Ephemeris, and Sun.
 
 
-  CycleCalcs'' developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, signup flow, and 27 more developer resources.'
+  CycleCalcs'' developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, signup flow, and 28 more developer resources.'
 plans:
 - name: Cyclecalcs Plans
   plan_count: 4
@@ -337,16 +341,29 @@ rate_limits:
   slug: cyclecalcs-rate-limits
 score:
   band: strong
-  composite: 63.2
+  composite: 62.4
+  delta: -0.8
   facets:
     commercial_clarity: 76.3
-    contract_quality: 60.5
-    developer_ergonomics: 63.0
-    discoverability: 92.6
+    contract_quality: 65.5
+    developer_ergonomics: 58.2
+    discoverability: 81.5
     governance: 31.3
     operational_transparency: 55.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 63.2
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 96.7
+      derived: 0
+      marker_coverage: 0.0
+      total: 30
+    mcp: first-party
+    skills: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Cyclecalcs Authentication

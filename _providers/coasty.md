@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 71.8
-  scored_at: '2026-08-10'
+  score: 68.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 5
@@ -275,14 +275,14 @@ rate_limits:
   name: Coasty Rate Limits
   slug: coasty-rate-limits
 score:
-  band: exemplar
-  composite: 67.4
-  delta: 0.0
+  band: strong
+  composite: 65.6
+  delta: -1.8
   facets:
     commercial_clarity: 76.3
-    contract_quality: 71.8
+    contract_quality: 69.1
     developer_ergonomics: 73.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 68.4
   previous_composite: 67.4
@@ -296,8 +296,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/screenshots/coasty-2026-07-25T205838.png
 security:

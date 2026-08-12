@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: 'Rite Aid supports Electronic Data Interchange (EDI) for vendor integration using ANSI/ASC X12 standards (versions 4010 and 5010). Supported transactions include purchase orders (850), invoices (810), '
@@ -155,16 +155,16 @@ rules:
     warn: 3
   slug: rite-aid-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 29.8
-  delta: 0.0
+  band: emerging
+  composite: 26.0
+  delta: -3.8
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 34.2
     contract_quality: 12.9
     developer_ergonomics: 0.0
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 68.8
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 29.8
   regulatory:
     applies: true
@@ -172,8 +172,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rite-aid/refs/heads/main/screenshots/rite-aid-2026-06-20T193130.png
 security:

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-10'
+  score: 35.4
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: HL7 FHIR STU3 (3.0.2) "Facade" server exposing Patients Know Best personal health record data — Patient, Appointment, Communication, Consent, DiagnosticReport, DocumentReference, Encounter, Observatio
@@ -172,7 +172,7 @@ random_paper: 99
 score:
   band: developing
   composite: 42.6
-  delta: 1.2
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 40.0
@@ -180,7 +180,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 47.4
-  previous_composite: 41.4
+  previous_composite: 42.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -191,8 +191,8 @@ score:
     regime: Health
     regime_id: health
     score: 40.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/patients-know-best/refs/heads/main/screenshots/patients-know-best-2026-08-07T191555.png
 security:

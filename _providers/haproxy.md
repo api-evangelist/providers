@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The HAProxy Data Plane API is a REST API for managing HAProxy configuration dynamically. It allows runtime configuration of frontends, backends, servers, ACLs, and other HAProxy objects without requir
@@ -42,6 +42,18 @@ apis:
   slug: haproxy-kubernetes-ingress-controller
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/haproxytech/dataplaneapi/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/haproxytech/dataplaneapi/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/haproxytech/dataplaneapi/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -97,7 +109,7 @@ network: true
 overview: 'HAProxy publishes 1 API on the [APIs.io](https://apis.io/) network: Data Plane API. Tagged areas include High Availability, Load Balancing, Networking, and Reverse Proxy.
 
 
-  HAProxy''s developer surface includes documentation, engineering blog, support, and 7 more developer resources.'
+  HAProxy''s developer surface includes documentation, engineering blog, support, and 10 more developer resources.'
 plans:
 - name: Haproxy Plans Pricing
   plan_count: 3
@@ -108,20 +120,20 @@ rate_limits:
   name: Haproxy Rate Limits
   slug: haproxy-rate-limits
 score:
-  band: thin
-  composite: 31.5
-  delta: 0.0
+  band: emerging
+  composite: 23.7
+  delta: -7.8
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 32.3
     developer_ergonomics: 15.2
     discoverability: 55.6
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 31.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/haproxy/refs/heads/main/screenshots/haproxy-2026-06-20T182509.png
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -59,6 +59,10 @@ arazzos:
   slug: minubo-trigger-etl-and-monitor
 artifact_total: 11
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/minubo-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -178,7 +182,7 @@ network: true
 overview: 'Minubo publishes 3 APIs on the [APIs.io](https://apis.io/) network: Auth API, Data API, and ETL API. Tagged areas include Company, E-Commerce, Business Intelligence, Analytics, and Retail.
 
 
-  Minubo''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 19 more developer resources.'
+  Minubo''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 20 more developer resources.'
 random_paper: 70
 rate_limits:
 - limit_count: 1
@@ -186,11 +190,11 @@ rate_limits:
   slug: minubo-rate-limits
 score:
   band: developing
-  composite: 49.3
-  delta: 0.0
+  composite: 48.8
+  delta: -0.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 59.4
+    contract_quality: 57.2
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
@@ -206,8 +210,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/screenshots/minubo-2026-08-07T173004.png
 security:

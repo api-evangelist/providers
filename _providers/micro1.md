@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: conformant
     agent_skills: true
@@ -18,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -167,11 +168,11 @@ overview: 'micro1 publishes 1 API on the [APIs.io](https://apis.io/) network: Pu
 random_paper: 7
 score:
   band: developing
-  composite: 47.9
-  delta: 0.0
+  composite: 47.3
+  delta: -0.6
   facets:
     commercial_clarity: 34.2
-    contract_quality: 65.9
+    contract_quality: 63.4
     developer_ergonomics: 67.4
     discoverability: 87.0
     governance: 11.5
@@ -187,8 +188,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/screenshots/micro1-2026-08-07T172821.png
 security:

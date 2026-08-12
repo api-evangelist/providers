@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Query API API from StarTree (Cortexdata) — 1 operation(s) for query api.
@@ -36,6 +36,10 @@ apis:
   slug: startree-cortexdata-query-api-api
 artifact_total: 5
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/startree-cortexdata-query-overlay.yaml
 - group: auth
   title: ''
   type: Authentication
@@ -151,17 +155,17 @@ network: true
 overview: 'StarTree (Cortexdata) publishes 1 API on the [APIs.io](https://apis.io/) network: Query API API. Tagged areas include Company, Ai Infrastructure, Real-Time Analytics, Apache Pinot, and OLAP.
 
 
-  StarTree (Cortexdata)''s developer surface includes authentication, changelog, documentation, API reference, support, engineering blog, pricing, and 18 more developer resources.'
+  StarTree (Cortexdata)''s developer surface includes authentication, changelog, documentation, API reference, support, engineering blog, pricing, and 19 more developer resources.'
 random_paper: 18
 score:
   band: developing
-  composite: 52.6
-  delta: 0.0
+  composite: 50.9
+  delta: -1.7
   facets:
     commercial_clarity: 52.6
-    contract_quality: 60.5
+    contract_quality: 58.2
     developer_ergonomics: 58.2
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 20.8
     operational_transparency: 31.6
   previous_composite: 52.6
@@ -174,8 +178,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

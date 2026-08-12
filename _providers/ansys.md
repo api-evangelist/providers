@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: 'Open-source Python ecosystem for Ansys products. The pyansys metapackage bundles 45+ libraries including PyMAPDL (Mechanical APDL), PyFluent (Fluent CFD), PyAEDT (Electronics Desktop / HFSS / Maxwell '
@@ -39,6 +39,26 @@ apis:
   slug: cloud
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/ansys/pyansys/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/ansys/pyansys/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/ansys/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/ansys/.github/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/ansys/pyansys/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -134,7 +154,7 @@ network: true
 overview: 'Ansys publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Simulation, Engineering, CAE, CFD, and FEA.
 
 
-  Ansys'' developer surface includes documentation, GitHub presence, engineering blog, YouTube channel, support, pricing, and 14 more developer resources.'
+  Ansys'' developer surface includes documentation, GitHub presence, engineering blog, YouTube channel, support, pricing, and 19 more developer resources.'
 plans:
 - name: Ansys Plans Pricing
   plan_count: 1
@@ -146,18 +166,18 @@ rate_limits:
   slug: ansys-rate-limits
 score:
   band: emerging
-  composite: 24.5
-  delta: 0.0
+  composite: 26.6
+  delta: 2.1
   facets:
     commercial_clarity: 47.4
     contract_quality: 0.0
     developer_ergonomics: 23.9
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 42.1
   previous_composite: 24.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansys/refs/heads/main/screenshots/ansys-2026-06-20T172024.png
 security:

@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 55.2
-  scored_at: '2026-08-10'
+  score: 51.6
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: AskNicely's remote Model Context Protocol server, exposing Ask NiceAI's tools — NPS summaries, survey responses, leaderboards and more — to external AI clients such as Claude. Served per tenant at htt
@@ -45,6 +46,10 @@ asyncapis:
   name: Asknicely Webhooks
   slug: asknicely-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/asknicely-openapi-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -191,7 +196,7 @@ overview: 'AskNicely publishes 5 APIs on the [APIs.io](https://apis.io/) network
   The AskNicely catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  AskNicely''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+  AskNicely''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
 random_paper: 35
 rate_limits:
 - limit_count: 4
@@ -204,23 +209,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 62.9
-  delta: -0.3
+  composite: 63.1
+  delta: 0.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 71.9
+    contract_quality: 73.0
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 84.2
-  previous_composite: 63.2
+  previous_composite: 62.9
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 5
     mcp: first-party
     skills: derived
   regulatory:
@@ -229,8 +234,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/screenshots/asknicely-2026-08-07T161800.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Tenant-scoped REST API for loading schemas, querying business views, extracting data to external tables, scheduling dashboard reports, and administration. Authenticated with a bearer Personal Access T
@@ -159,21 +159,21 @@ overview: 'Incorta publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 56
 score:
   band: thin
-  composite: 34.1
-  delta: 0.0
+  composite: 33.0
+  delta: -1.1
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 67.4
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 44.7
   previous_composite: 34.1
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incorta/refs/heads/main/screenshots/incorta-2026-07-25T222238.png
 security:

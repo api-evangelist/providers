@@ -4,31 +4,31 @@
  "limit": 1000,
  "bands": [
   {
-   "band": "strong",
-   "label": "Strong",
-   "range": "56 – 65.9",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 1,
-   "shown": 1,
+   "band": "developing",
+   "label": "Developing",
+   "range": "42 – 55.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "Spotify",
      "slug": "spotify",
      "description": "Spotify is the world's leading music streaming platform with 600M+ users and 100M+ tracks. The Spotify Web API enables developers to discover music and podcasts, manage Spotify libraries, control audio playback, access audio analysis, and build personalized music experiences. Authentication uses OAuth 2.0 with scopes for user-authorized access. The API underwent significant changes in February 2026 with new generic library endpoints and streamlined playlist management.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/screenshots/spotify-2026-06-20T194353.png",
-     "score": 60.7,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 52.9,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 81.0,
+      "discoverability": 81.5,
+      "contract_quality": 78.3,
       "governance": 58.3,
-      "operational_transparency": 52.6,
+      "operational_transparency": 28.9,
       "developer_ergonomics": 32.6,
-      "commercial_clarity": 63.2
+      "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 41.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -48,36 +48,25 @@
       "dry_run_mode": false
      },
      "rank": 1
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "developing",
-   "label": "Developing",
-   "range": "42 – 55.9",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 5,
-   "shown": 5,
-   "providers": [
+    },
     {
-     "name": "Riot Games",
-     "slug": "riot-games",
-     "description": "Riot Games provides a comprehensive developer platform for accessing game data across League of Legends, VALORANT, Teamfight Tactics, Legends of Runeterra, and other titles. The Riot Developer Portal offers REST APIs for match history, ranked standings, champion mastery, live spectator data, tournament management, and player account data.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/screenshots/riot-games-2026-06-20T193125.png",
-     "score": 53.7,
+     "name": "Blizzard Entertainment",
+     "slug": "blizzard-entertainment",
+     "description": "Blizzard Entertainment is an American video game developer and publisher and a subsidiary of Activision Blizzard. Blizzard exposes a Battle.net Developer Portal that provides public OAuth 2.0 protected APIs returning game data and player profile data for its major franchises including World of Warcraft, Diablo III, StarCraft II, and Hearthstone.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/screenshots/blizzard-entertainment-2026-06-20T173354.png",
+     "score": 52.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 68.9,
-      "governance": 68.8,
+      "contract_quality": 65.5,
+      "governance": 31.3,
       "operational_transparency": 36.8,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 60.5
+      "developer_ergonomics": 43.5,
+      "commercial_clarity": 57.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -99,23 +88,23 @@
      "rank": 2
     },
     {
-     "name": "Blizzard Entertainment",
-     "slug": "blizzard-entertainment",
-     "description": "Blizzard Entertainment is an American video game developer and publisher and a subsidiary of Activision Blizzard. Blizzard exposes a Battle.net Developer Portal that provides public OAuth 2.0 protected APIs returning game data and player profile data for its major franchises including World of Warcraft, Diablo III, StarCraft II, and Hearthstone.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/screenshots/blizzard-entertainment-2026-06-20T173354.png",
-     "score": 52.4,
+     "name": "Riot Games",
+     "slug": "riot-games",
+     "description": "Riot Games provides a comprehensive developer platform for accessing game data across League of Legends, VALORANT, Teamfight Tactics, Legends of Runeterra, and other titles. The Riot Developer Portal offers REST APIs for match history, ranked standings, champion mastery, live spectator data, tournament management, and player account data.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/screenshots/riot-games-2026-06-20T193125.png",
+     "score": 48.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 68.0,
-      "governance": 31.3,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 39.1,
-      "commercial_clarity": 57.9
+      "contract_quality": 66.7,
+      "governance": 68.8,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -137,61 +126,23 @@
      "rank": 3
     },
     {
-     "name": "Warner Bros. Discovery",
-     "slug": "warner-bros-discovery",
-     "description": "Warner Bros. Discovery is a leading global media and entertainment company that creates and distributes the world's most differentiated and complete portfolio of branded content across television, film, and streaming. WBD operates the Max streaming platform, Warner Bros. film studio, HBO, CNN, Discovery, TNT, TBS, and many other brands. The company provides content partner APIs for media supply chain integration and maintains open source projects through its engineering teams.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/screenshots/warner-bros-discovery-2026-06-20T201227.png",
-     "score": 48.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 76.7,
-      "governance": 58.3,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 4
-    },
-    {
      "name": "Roku",
      "slug": "roku",
      "description": "Roku is the leading TV streaming platform in the U.S., Canada, and Mexico, offering a comprehensive operating system that powers smart TVs, streaming players, and audio devices. Roku provides a robust developer program for building channel apps, monetizing through Roku Pay, integrating analytics, and controlling devices via the External Control Protocol. The platform supports both BrightScript and SceneGraph frameworks for app development, and the Nabu Cloud developer cloud for managing remote test devices and channel builds.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/screenshots/roku-2026-06-20T193206.png",
-     "score": 47.6,
+     "score": 47.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 38.3,
+      "contract_quality": 37.8,
       "governance": 68.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 52.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 39.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -210,25 +161,74 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
+     "rank": 4
     },
+    {
+     "name": "Warner Bros. Discovery",
+     "slug": "warner-bros-discovery",
+     "description": "Warner Bros. Discovery is a leading global media and entertainment company that creates and distributes the world's most differentiated and complete portfolio of branded content across television, film, and streaming. WBD operates the Max streaming platform, Warner Bros. film studio, HBO, CNN, Discovery, TNT, TBS, and many other brands. The company provides content partner APIs for media supply chain integration and maintains open source projects through its engineering teams.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/screenshots/warner-bros-discovery-2026-06-20T201227.png",
+     "score": 42.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 73.9,
+      "governance": 58.3,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 5
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "28 – 41.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 2,
+   "shown": 2,
+   "providers": [
     {
      "name": "Walt Disney",
      "slug": "walt-disney",
      "description": "The Walt Disney Company is a leading diversified international family entertainment and media enterprise with operations across media networks, parks and resorts, studio entertainment, and direct-to-consumer streaming. Disney's developer APIs and open source projects enable partners and developers to integrate Disney content, characters, and experiences into their applications.",
-     "score": 45.2,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 39.3,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 72.9,
+      "contract_quality": 70.1,
       "governance": 58.3,
-      "operational_transparency": 26.3,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 19.6,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -248,36 +248,25 @@
       "dry_run_mode": false
      },
      "rank": 6
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "28 – 41.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
+    },
     {
      "name": "Disney API",
      "slug": "disney",
      "description": "Community-maintained RESTful and GraphQL API exposing a database of 9,820+ Disney characters and the films, short films, TV shows, video games, and park attractions they appear in. The project (BSD-3-Clause) is developed in the open by Manu Castrillon at https://github.com/ManuCastrillonM/disney-api and documented at https://disneyapi.dev. The REST surface is unauthenticated and read-only. Disney and Disney characters are trademarks of The Walt Disney Company; this project is community fan-content and is not affiliated with or endorsed by Disney.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/screenshots/disney-2026-06-20T180046.png",
-     "score": 30.1,
+     "score": 32.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 23.1,
+      "contract_quality": 22.2,
       "governance": 68.8,
       "operational_transparency": 47.4,
       "developer_ergonomics": 8.7,
-      "commercial_clarity": 0.0
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 35.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -298,54 +287,17 @@
      },
      "rank": 7
     }
-   ]
+   ],
+   "open": true
   },
   {
    "band": "emerging",
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 7,
-   "shown": 7,
+   "count": 6,
+   "shown": 6,
    "providers": [
-    {
-     "name": "Netflix",
-     "slug": "netflix",
-     "description": "Netflix is a streaming entertainment service operating one of the world's largest content delivery networks. While Netflix does not publish a general public consumer API, it operates partner programs including Open Connect for ISP CDN integration and device certification programs for manufacturers embedding the Netflix application.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/netflix/refs/heads/main/screenshots/netflix-2026-06-20T190152.png",
-     "score": 25.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 43.2,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 19.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 8
-    },
     {
      "name": "Condé Nast",
      "slug": "conde-nast",
@@ -361,8 +313,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -381,30 +333,30 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 8
     },
     {
-     "name": "TelevisaUnivision (Univision Communications)",
-     "slug": "univision-communications",
-     "description": "TelevisaUnivision (formerly Univision Communications) is the world's leading Spanish-language media company, operating television networks (Univision, UniMás, TUDN, Galavisión), the ViX streaming platform, Uforia audio platform, and a suite of advanced advertising technology solutions. The company serves advertisers and media partners through programmatic ad platforms, first-party audience data, and content partnerships rather than a public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/univision-communications/refs/heads/main/screenshots/univision-communications-2026-06-20T200411.png",
-     "score": 21.8,
+     "name": "Netflix",
+     "slug": "netflix",
+     "description": "Netflix is a streaming entertainment service operating one of the world's largest content delivery networks. While Netflix does not publish a general public consumer API, it operates partner programs including Open Connect for ISP CDN integration and device certification programs for manufacturers embedding the Netflix application.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/netflix/refs/heads/main/screenshots/netflix-2026-06-20T190152.png",
+     "score": 20.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 17.7,
-      "governance": 10.4,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 28.9
+      "discoverability": 59.3,
+      "contract_quality": 43.2,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.2,
-     "agent_band": "human-only",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 19.4,
+     "agent_band": "agent-aware",
      "agent_dims": {
-      "spec_presence": false,
+      "spec_presence": true,
       "agentic_access": false,
       "mcp_server": false,
       "auth_clarity": false,
@@ -419,26 +371,63 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 10
+     "rank": 9
     },
     {
      "name": "National Hockey League",
      "slug": "national-hockey-league",
      "description": "The National Hockey League (NHL) is the premier professional ice hockey league in North America, comprised of 32 franchises across the United States and Canada. The NHL produces the Stanley Cup playoffs and is one of the major North American professional sports leagues. The NHL does not publish an officially documented developer portal; the league operates undocumented JSON endpoints used by its first-party web and mobile apps (api-web.nhle.com) and provides advanced statistics through NHL EDGE. Commercial data feeds are licensed through SMT, Sportradar, and other approved partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/screenshots/national-hockey-league-2026-06-20T190023.png",
-     "score": 19.8,
+     "score": 19.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 53.3,
+      "contract_quality": 51.3,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 18.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 10
+    },
+    {
+     "name": "Major League Baseball",
+     "slug": "major-league-baseball",
+     "description": "Major League Baseball (MLB) is the professional baseball organization of the United States and Canada, operating the National League and American League with 30 teams. MLB Advanced Media (now part of MLB) provides public stats and game data through the MLB Stats API and the legacy MLB Data (lookup service) API, used by teams, broadcasters, analysts, and a wide community of developers building stats sites, fantasy applications, and analytical tools. MLB also exposes Statcast data through Baseball Savant. There is no general-purpose self-service developer portal with terms or signup; the APIs are widely consumed but are formally intended for partner use.",
+     "score": 18.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 45.3,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 18.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -460,23 +449,23 @@
      "rank": 11
     },
     {
-     "name": "Comcast",
-     "slug": "comcast",
-     "description": "Comcast Corporation is a global media and technology company with two primary businesses, Comcast Cable (Xfinity) and NBCUniversal, providing video, internet, voice, wireless, and entertainment services to residential and business customers. Comcast publishes a public developer program centered on the Firebolt application platform for connected TV experiences, along with authentication and content ingest endpoints used by NBCUniversal media partners. The Firebolt SDK family is used by app developers to write apps once and deploy across Xfinity X1, Xfinity Flex, Sky Q, and other Comcast set-top boxes and connected devices.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/screenshots/comcast-2026-06-20T174802.png",
-     "score": 19.5,
+     "name": "TelevisaUnivision (Univision Communications)",
+     "slug": "univision-communications",
+     "description": "TelevisaUnivision (formerly Univision Communications) is the world's leading Spanish-language media company, operating television networks (Univision, UniMás, TUDN, Galavisión), the ViX streaming platform, Uforia audio platform, and a suite of advanced advertising technology solutions. The company serves advertisers and media partners through programmatic ad platforms, first-party audience data, and content partnerships rather than a public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/univision-communications/refs/heads/main/screenshots/univision-communications-2026-06-20T200411.png",
+     "score": 16.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 39.5
+      "contract_quality": 17.7,
+      "governance": 10.4,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -498,33 +487,34 @@
      "rank": 12
     },
     {
-     "name": "Major League Baseball",
-     "slug": "major-league-baseball",
-     "description": "Major League Baseball (MLB) is the professional baseball organization of the United States and Canada, operating the National League and American League with 30 teams. MLB Advanced Media (now part of MLB) provides public stats and game data through the MLB Stats API and the legacy MLB Data (lookup service) API, used by teams, broadcasters, analysts, and a wide community of developers building stats sites, fantasy applications, and analytical tools. MLB also exposes Statcast data through Baseball Savant. There is no general-purpose self-service developer portal with terms or signup; the APIs are widely consumed but are formally intended for partner use.",
-     "score": 18.7,
+     "name": "Comcast",
+     "slug": "comcast",
+     "description": "Comcast Corporation is a global media and technology company with two primary businesses, Comcast Cable (Xfinity) and NBCUniversal, providing video, internet, voice, wireless, and entertainment services to residential and business customers. Comcast publishes a public developer program centered on the Firebolt application platform for connected TV experiences, along with authentication and content ingest endpoints used by NBCUniversal media partners. The Firebolt SDK family is used by app developers to write apps once and deploy across Xfinity X1, Xfinity Flex, Sky Q, and other Comcast set-top boxes and connected devices.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/screenshots/comcast-2026-06-20T174802.png",
+     "score": 15.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 47.1,
+      "discoverability": 72.2,
+      "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 0.0
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 18.5,
-     "agent_band": "agent-aware",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
      "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
+      "spec_presence": false,
+      "agentic_access": false,
       "mcp_server": false,
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -533,25 +523,35 @@
       "dry_run_mode": false
      },
      "rank": 13
-    },
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 12.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 8,
+   "shown": 8,
+   "providers": [
     {
      "name": "AMC Networks",
      "slug": "amc-networks",
      "description": "AMC Networks is a global entertainment company that owns and operates distinctive cable television and streaming brands including AMC, BBC America, IFC, Sundance TV, and We TV, as well as the AMC+ streaming service. The company operates 33 FAST channels across 22 platforms and delivers digital advertising through its Audience+ data platform. AMC Networks provides affiliate partnership services, advertising solutions, and streaming content distribution through its network of cable and digital properties.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amc-networks/refs/heads/main/screenshots/amc-networks-2026-06-20T171857.png",
-     "score": 17.6,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 12.4,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -571,17 +571,7 @@
       "dry_run_mode": false
      },
      "rank": 14
-    }
-   ]
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 12.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 7,
-   "shown": 7,
-   "providers": [
+    },
     {
      "name": "Paramount",
      "slug": "paramount",
@@ -598,8 +588,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -636,8 +626,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -674,8 +664,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -712,8 +702,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -750,8 +740,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -787,8 +777,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -825,8 +815,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

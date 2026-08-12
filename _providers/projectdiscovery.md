@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 20
 apis:
 - description: The Asset API from ProjectDiscovery — 8 operation(s) for asset.
@@ -93,6 +93,10 @@ apis:
   slug: projectdiscovery-vulnerability-api
 artifact_total: 25
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/projectdiscovery-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -228,17 +232,17 @@ network: true
 overview: 'ProjectDiscovery publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Asset API, assets API, chaos API, and 17 more. Tagged areas include Company, Cybersecurity, Security, Vulnerability Scanning, and Attack Surface Management.
 
 
-  ProjectDiscovery''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
+  ProjectDiscovery''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 24 more developer resources.'
 random_paper: 3
 score:
   band: developing
-  composite: 55.2
-  delta: 0.0
+  composite: 53.5
+  delta: -1.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 58.2
+    contract_quality: 56.0
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 31.6
   previous_composite: 55.2
@@ -251,8 +255,8 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

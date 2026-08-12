@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 11
 apis:
 - description: The Auth Tokens API from Tollbit — 3 operation(s) for auth tokens.
@@ -70,6 +70,10 @@ asyncapis:
   name: TollBit Content Events (Webhooks)
   slug: tollbit-content-events-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tollbit-openapi-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -189,17 +193,17 @@ overview: 'Tollbit publishes 11 APIs on the [APIs.io](https://apis.io/) network,
   The Tollbit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tollbit''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 18 more developer resources.'
+  Tollbit''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 19 more developer resources.'
 random_paper: 66
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 48.6
+  delta: -1.7
   facets:
     commercial_clarity: 34.2
-    contract_quality: 64.1
+    contract_quality: 61.7
     developer_ergonomics: 80.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 50.3
@@ -212,8 +216,8 @@ score:
       total: 11
     mcp: first-party
     skills: unknown
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

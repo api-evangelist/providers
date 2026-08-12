@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -125,6 +125,10 @@ asyncapis:
   name: Justifi Webhooks
   slug: justifi-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/justifi-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -251,15 +255,15 @@ overview: 'JustiFi publishes 27 APIs on the [APIs.io](https://apis.io/) network,
   The JustiFi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  JustiFi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 20 more developer resources.'
+  JustiFi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 21 more developer resources.'
 random_paper: 70
 score:
   band: developing
-  composite: 51.4
-  delta: 0.0
+  composite: 49.0
+  delta: -2.4
   facets:
     commercial_clarity: 42.1
-    contract_quality: 60.0
+    contract_quality: 57.8
     developer_ergonomics: 71.2
     discoverability: 81.5
     governance: 20.8
@@ -280,9 +284,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 53.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 40.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/justifi/refs/heads/main/screenshots/justifi-2026-07-25T223338.png
 security:

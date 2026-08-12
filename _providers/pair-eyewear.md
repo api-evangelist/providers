@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-10'
+  score: 24.3
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Shopify-hosted Universal Commerce Protocol shopping service exposed over MCP for agent-driven catalog search, cart, and buyer-approved checkout on the Pair Eyewear storefront.
@@ -124,13 +124,13 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 25.3
-  delta: 0.0
+  composite: 24.2
+  delta: -1.1
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 41.3
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 0.0
   previous_composite: 25.3
@@ -138,8 +138,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pair-eyewear/refs/heads/main/screenshots/pair-eyewear-2026-08-07T191314.png
 security:

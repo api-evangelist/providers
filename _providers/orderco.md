@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-08-10'
+  score: 33.1
+  scored_at: '2026-08-11'
 api_count: 14
 apis:
 - description: The individual services Order.co reports health for.
@@ -65,6 +65,10 @@ apis:
   slug: orderco-vendor-stories-api
 artifact_total: 27
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/orderco-content-overlay.yaml
 - group: auth
   title: ''
   type: Authentication
@@ -203,27 +207,27 @@ network: true
 overview: 'Order.co publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Components API, Content API, Customer Stories API, and 11 more. Tagged areas include Company, Procurement, Spend Management, Accounts Payable, and Purchasing.
 
 
-  Order.co''s developer surface includes authentication, code examples, engineering blog, and 20 more developer resources.'
+  Order.co''s developer surface includes authentication, code examples, engineering blog, and 21 more developer resources.'
 random_paper: 54
 score:
-  band: thin
-  composite: 28.3
-  delta: 0.3
+  band: emerging
+  composite: 27.5
+  delta: -0.8
   facets:
     commercial_clarity: 34.2
-    contract_quality: 13.0
+    contract_quality: 13.5
     developer_ergonomics: 14.7
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 28.0
+  previous_composite: 28.3
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 2
+      derived: 14
       marker_coverage: 100.0
-      total: 2
+      total: 14
     skills: derived
   regulatory:
     applies: true
@@ -231,8 +235,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orderco/refs/heads/main/screenshots/orderco-2026-08-07T190910.png
 security:

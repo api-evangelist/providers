@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -45,6 +45,14 @@ apis:
   slug: antimetal-query-api
 artifact_total: 12
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/antimetal-external-api-overlay.yaml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/antimetal/apis/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -177,10 +185,6 @@ common:
   title: ''
   type: OAuthScopes
   url: scopes/antimetal-scopes.yml
-- group: other
-  title: ''
-  type: Protobuf
-  url: grpc/antimetal-service-agent-v1-service.proto
 - group: build
   title: ''
   type: SourceCode
@@ -201,7 +205,7 @@ network: true
 overview: 'Antimetal publishes 3 APIs on the [APIs.io](https://apis.io/) network: Artifacts API, Issues API, and Query API. Tagged areas include Company, Observability, Incident Management, Site Reliability Engineering, and Artificial Intelligence.
 
 
-  Antimetal''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 28 more developer resources.'
+  Antimetal''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 29 more developer resources.'
 random_paper: 31
 scopes:
 - name: Antimetal Scopes
@@ -210,28 +214,28 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 score:
   band: developing
-  composite: 54.5
-  delta: -0.6
+  composite: 55.5
+  delta: 1.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 54.3
+    contract_quality: 58.2
     developer_ergonomics: 65.2
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 47.4
-  previous_composite: 55.1
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 3
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/screenshots/antimetal-2026-08-07T161424.png
 security:

@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.9
-  scored_at: '2026-08-10'
+  score: 42.6
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: The Admin API from ZeroEntropy — 7 operation(s) for admin.
@@ -52,8 +52,16 @@ apis:
 - description: The Usage API from ZeroEntropy — 6 operation(s) for usage.
   name: ZeroEntropy Usage API
   slug: zeroentropy-usage-api
-artifact_total: 10
+artifact_total: 11
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/zeroentropy-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zeroentropy-openapi-overlay.yaml
 - group: build
   title: ''
   type: Packages
@@ -134,6 +142,10 @@ created: '2026-07-17'
 description: ZeroEntropy builds specialized, lightweight AI models for information retrieval and retrieval-augmented generation (RAG). Its zerank rerankers and zembed embedding models improve the accuracy of any search pipeline, and its hosted retrieval API lets developers create collections, index documents, and run relevance queries (top documents, pages, and snippets) with metadata filtering. The API is a versioned (/v1) HTTP JSON service with US and EU data-center endpoints, official Python and TypeScript SDKs, and API-key bearer authentication. ZeroEntropy is a portfolio company of Initialized Capital operating in the enterprise AI / search sector.
 image: https://zeroentropy.dev/assets/images/ze-logo.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: zeroentropy-mcp.yml
+  slug: zeroentropy-mcpyml
 modified: '2026-07-21'
 name: ZeroEntropy
 nav: Providers
@@ -141,16 +153,16 @@ network: true
 overview: 'ZeroEntropy publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Collections API, Documents API, and 4 more. Tagged areas include Company, Enterprise Saas, Artificial Intelligence, Search, and Retrieval.
 
 
-  ZeroEntropy''s developer surface includes authentication, documentation, API reference, quickstart, signup flow, pricing, engineering blog, and 12 more developer resources.'
+  ZeroEntropy''s developer surface includes authentication, documentation, API reference, quickstart, signup flow, pricing, engineering blog, and 14 more developer resources.'
 random_paper: 73
 score:
   band: developing
-  composite: 48.9
-  delta: 0.0
+  composite: 48.7
+  delta: -0.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.0
-    developer_ergonomics: 51.6
+    contract_quality: 62.5
+    developer_ergonomics: 53.8
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
@@ -164,8 +176,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

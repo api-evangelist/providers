@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: 'Stoplight Platform is a SaaS collaborative API design and documentation management tool providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, '
@@ -51,6 +51,10 @@ apis:
   slug: cli
 artifact_total: 14
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/stoplightio/prism/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -190,7 +194,7 @@ overview: 'Stoplight publishes 6 APIs on the [APIs.io](https://apis.io/) network
   The Stoplight catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Stoplight''s developer surface includes developer portal, documentation, pricing, engineering blog, support, signup flow, getting-started guide, and 20 more developer resources.'
+  Stoplight''s developer surface includes developer portal, documentation, pricing, engineering blog, support, signup flow, getting-started guide, and 21 more developer resources.'
 plans:
 - name: Stoplight Plans Pricing
   plan_count: 3
@@ -211,19 +215,19 @@ rules:
   slug: stoplight-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.0
-  delta: 0.0
+  composite: 42.2
+  delta: -7.8
   facets:
-    commercial_clarity: 84.2
+    commercial_clarity: 60.5
     contract_quality: 12.9
     developer_ergonomics: 41.3
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 63.2
+    operational_transparency: 39.5
   previous_composite: 50.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/screenshots/stoplight-2026-06-20T194601.png
 security:
 - kind: domain-security

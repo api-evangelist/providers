@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -71,6 +71,14 @@ apis:
   slug: mastercard-developer-hub-for-fdx-apis-user-apis-api
 artifact_total: 16
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Mastercard/Fdx-Mock-Auth-Server/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Mastercard/Fdx-Mock-Auth-Server/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -242,7 +250,7 @@ network: true
 overview: 'Mastercard Developer Hub for FDX APIs publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Application Check Controller API, Consent API, Data Resource APIs API, and 7 more. Tagged areas include Banking, FDX, and Open Banking.
 
 
-  Mastercard Developer Hub for FDX APIs'' developer surface includes authentication, developer portal, signup flow, FAQ, support, engineering blog, and 33 more developer resources.'
+  Mastercard Developer Hub for FDX APIs'' developer surface includes authentication, developer portal, signup flow, FAQ, support, engineering blog, and 35 more developer resources.'
 plans:
 - name: Mastercard Developer Hub For Fdx Apis Plans Pricing
   plan_count: 3
@@ -253,16 +261,16 @@ rate_limits:
   name: Mastercard Developer Hub For Fdx Apis Rate Limits
   slug: mastercard-developer-hub-for-fdx-apis-rate-limits
 score:
-  band: developing
-  composite: 45.0
-  delta: 0.0
+  band: thin
+  composite: 37.4
+  delta: -7.6
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 54.8
+    commercial_clarity: 50.0
+    contract_quality: 52.8
     developer_ergonomics: 30.4
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 0.0
-    operational_transparency: 47.4
+    operational_transparency: 23.7
   previous_composite: 45.0
   provenance:
     agentic_access: derived
@@ -276,10 +284,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 32.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+    score: 25.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastercard-developer-hub-for-fdx-apis/refs/heads/main/screenshots/mastercard-developer-hub-for-fdx-apis-2026-06-20T185022.png
 security:
 - kind: authentication

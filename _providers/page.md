@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
@@ -90,8 +90,8 @@ overview: 'Page is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 random_paper: 65
 score:
   band: emerging
-  composite: 16.5
-  delta: 0.0
+  composite: 17.3
+  delta: 0.8
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -103,11 +103,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Insurance
-    regime_id: insurance
-    score: 22.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Government & Public Sector
+    regime_id: government
+    score: 27.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/page/refs/heads/main/screenshots/page-2026-08-07T191257.png
 security:

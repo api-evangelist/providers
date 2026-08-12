@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 31
 apis:
 - description: Admission Control
@@ -180,16 +180,16 @@ rate_limits:
   name: Neuvector Rate Limits
   slug: neuvector-rate-limits
 score:
-  band: thin
-  composite: 32.0
-  delta: 0.0
+  band: emerging
+  composite: 23.7
+  delta: -8.3
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 44.2
+    commercial_clarity: 15.8
+    contract_quality: 42.6
     developer_ergonomics: 8.7
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 32.0
   provenance:
     contracts:
@@ -197,9 +197,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 31
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/neuvector/refs/heads/main/screenshots/neuvector-2026-06-20T190220.png
 security:
 - kind: domain-security

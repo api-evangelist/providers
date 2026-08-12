@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-08-10'
+  score: 40.8
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Attenuation setpoint control
@@ -48,6 +48,10 @@ apis:
   slug: nine-fives-system-api
 artifact_total: 8
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nine-fives-attenuator-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -143,17 +147,17 @@ network: true
 overview: 'Nine Fives publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Attenuator API, Firmware API, Network API, and 2 more. Tagged areas include Company, RF Test Equipment, Test and Measurement, Hardware, and IoT.
 
 
-  Nine Fives'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
+  Nine Fives'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 14 more developer resources.'
 random_paper: 84
 score:
-  band: developing
-  composite: 42.0
-  delta: 0.0
+  band: thin
+  composite: 40.4
+  delta: -1.6
   facets:
     commercial_clarity: 23.7
-    contract_quality: 52.1
+    contract_quality: 50.1
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
   previous_composite: 42.0
@@ -166,8 +170,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/screenshots/nine-fives-2026-08-07T185318.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: 'Centralized intelligent repository for agreements, surfacing contracts, parties, key dates, and metadata. Lexion offers an enterprise integration API to push contract terms and metadata into external '
@@ -112,18 +112,18 @@ rate_limits:
   slug: lexion-rate-limits
 score:
   band: emerging
-  composite: 26.1
-  delta: -0.7
+  composite: 25.9
+  delta: -0.2
   facets:
     commercial_clarity: 36.8
-    contract_quality: 29.5
+    contract_quality: 28.4
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 26.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 26.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lexion/refs/heads/main/screenshots/lexion-2026-07-25T224955.png
 security:

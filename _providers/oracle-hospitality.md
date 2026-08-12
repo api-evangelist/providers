@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-08-10'
+  score: 43.5
+  scored_at: '2026-08-11'
 api_count: 135
 apis:
 - description: 'Oracle Hospitality Distribution ARI publication message specification for distribution partners to receive in real time property restrictions/availability, rate, and inventory schedules updates, also '
@@ -426,12 +426,16 @@ apis:
 - description: Push delivery of OPERA Cloud Business Events as a GraphQL subscription over WebSocket. Each event carries the resource that changed, the event name, the old value and the new value. Subscription is pe
   name: OPERA Cloud Business Events Streaming API
   slug: opera-cloud-business-events-streaming
-artifact_total: 142
+artifact_total: 143
 asyncapis:
 - description: 'Oracle publishes no AsyncAPI document for Oracle Hospitality. This document is DERIVED, by the API Evangelist enrichment pipeline, from two real, published surfaces: (1) the six outbound Swagger 2.0 s'
   name: Oracle Hospitality event and outbound-callback surface
   slug: oracle-hospitality-outbound-asyncapi
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/oracle-hospitality-mcp.yml
 - group: auth
   title: ''
   type: Authentication
@@ -621,6 +625,10 @@ description: 'Oracle Hospitality is Oracle Corporation''s hotel and food-and-bev
   the full Oracle Hospitality Integration Platform (OHIP) developer guide openly, but there is no self-serve signup: partners must purchase Oracle Hospitality Integration Cloud Service through the Oracle Store or a CPQ form, production access requires an Oracle Partner Network reference number, and distribution channel partners additionally need an Oracle-issued global Channel Code and an Oracle Cloud Marketplace listing.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oracle.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: oracle-hospitality-mcp.yml
+  slug: oracle-hospitality-mcpyml
 modified: '2026-07-28'
 name: Oracle Hospitality
 nav: Providers
@@ -631,7 +639,7 @@ overview: 'Oracle Hospitality publishes 60 APIs on the [APIs.io](https://apis.io
   The Oracle Hospitality catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Oracle Hospitality''s developer surface includes authentication, developer portal, documentation, support, sandbox, changelog, API reference, and 39 more developer resources.'
+  Oracle Hospitality''s developer surface includes authentication, developer portal, documentation, support, sandbox, changelog, API reference, and 40 more developer resources.'
 random_paper: 29
 rate_limits:
 - limit_count: 9
@@ -644,13 +652,13 @@ scopes:
   summary_line: 1 scope · clientCredentials/password
 score:
   band: strong
-  composite: 61.7
-  delta: 0.0
+  composite: 60.5
+  delta: -1.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 61.7
-    developer_ergonomics: 64.7
-    discoverability: 77.8
+    contract_quality: 59.9
+    developer_ergonomics: 66.8
+    discoverability: 66.7
     governance: 20.8
     operational_transparency: 84.2
   previous_composite: 61.7
@@ -663,8 +671,8 @@ score:
       total: 59
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/screenshots/oracle-hospitality-2026-08-07T190821.png
 security:

@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 56.5
-  scored_at: '2026-08-10'
+  score: 52.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 2
@@ -113,6 +114,10 @@ asyncapis:
   name: Drippay Webhooks
   slug: drippay-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/drippay-openapi-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -247,15 +252,15 @@ overview: 'Drippay publishes 23 APIs on the [APIs.io](https://apis.io/) network,
   The Drippay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Drippay''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 22 more developer resources.'
+  Drippay''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 23 more developer resources.'
 random_paper: 65
 score:
-  band: strong
-  composite: 56.2
-  delta: 0.0
+  band: developing
+  composite: 55.7
+  delta: -0.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.6
+    contract_quality: 67.0
     developer_ergonomics: 64.7
     discoverability: 92.6
     governance: 11.5
@@ -277,8 +282,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drippay/refs/heads/main/screenshots/drippay-2026-07-25T212410.png
 security:

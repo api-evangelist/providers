@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 57.9
-  scored_at: '2026-08-10'
+  score: 54.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -207,6 +207,10 @@ collections:
   name: api-onboarding Account Usage Withdrawal Accounts API
   slug: postman-currencycloud-withdrawal-accounts-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/currencycloud-reference-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -365,7 +369,7 @@ overview: 'Currencycloud publishes 27 APIs on the [APIs.io](https://apis.io/) ne
   The Currencycloud catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Currencycloud''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, changelog, and 28 more developer resources.'
+  Currencycloud''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, changelog, and 29 more developer resources.'
 random_paper: 18
 rate_limits:
 - limit_count: 5
@@ -373,13 +377,13 @@ rate_limits:
   slug: currencycloud-rate-limits
 score:
   band: strong
-  composite: 58.9
-  delta: 0.0
+  composite: 57.4
+  delta: -1.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.1
+    contract_quality: 64.6
     developer_ergonomics: 71.2
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 84.2
   previous_composite: 58.9
@@ -399,8 +403,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/screenshots/currencycloud-2026-07-25T210947.png
 security:

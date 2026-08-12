@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -79,6 +79,10 @@ apis:
   slug: flipturn-vehicles-api
 artifact_total: 19
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/flipturn-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -194,7 +198,7 @@ network: true
 overview: 'Flipturn publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Access IDs API, Alerts API, Charger Health API, and 10 more. Tagged areas include Company, EV Charging, Electric Vehicles, Fleet Management, and Energy.
 
 
-  Flipturn''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 18 more developer resources.'
+  Flipturn''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 19 more developer resources.'
 random_paper: 72
 rate_limits:
 - limit_count: 2
@@ -202,11 +206,11 @@ rate_limits:
   slug: flipturn-rate-limits
 score:
   band: developing
-  composite: 51.0
-  delta: 0.0
+  composite: 50.5
+  delta: -0.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.1
+    contract_quality: 62.7
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 20.8
@@ -228,8 +232,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipturn/refs/heads/main/screenshots/flipturn-2026-07-25T214806.png
 security:

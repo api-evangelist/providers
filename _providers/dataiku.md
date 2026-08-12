@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -405,10 +405,6 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/dataiku-vocabulary.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/dataiku-capabilities.yml
 - group: design
   title: ''
   type: Rules
@@ -657,7 +653,7 @@ overview: 'Dataiku publishes 28 APIs on the [APIs.io](https://apis.io/) network,
   The Dataiku catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Dataiku''s developer surface includes authentication, getting-started guide, documentation, academy / training, pricing, engineering blog, GitHub presence, and 42 more developer resources.'
+  Dataiku''s developer surface includes authentication, getting-started guide, documentation, academy / training, pricing, engineering blog, GitHub presence, and 41 more developer resources.'
 plans:
 - name: Dataiku Plans Pricing
   plan_count: 3
@@ -686,15 +682,15 @@ rules:
   slug: dataiku-rules
 score:
   band: strong
-  composite: 62.5
-  delta: 0.0
+  composite: 56.6
+  delta: -5.9
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 67.4
+    commercial_clarity: 60.5
+    contract_quality: 64.9
     developer_ergonomics: 56.5
     discoverability: 50.0
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 62.5
   provenance:
     agentic_access: derived
@@ -703,9 +699,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/screenshots/dataiku-2026-06-20T175643.png
 security:
 - kind: authentication

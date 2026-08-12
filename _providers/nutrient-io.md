@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: Deliver rich document interactions directly in the browser including PDF rendering, annotation, form filling, and signature collection.
@@ -140,19 +140,19 @@ rate_limits:
   slug: nutrient-io-rate-limits
 score:
   band: thin
-  composite: 38.3
-  delta: 0.0
+  composite: 31.2
+  delta: -7.1
   facets:
-    commercial_clarity: 92.1
+    commercial_clarity: 68.4
     contract_quality: 0.0
     developer_ergonomics: 32.6
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 38.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutrient-io/refs/heads/main/screenshots/nutrient-io-2026-06-20T190530.png
 security:
 - kind: domain-security

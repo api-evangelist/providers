@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 9
 apis:
 - description: Provides programmatic access to Bloomberg's comprehensive financial data including pricing, reference data, fundamentals, and historical information. Content can be accessed via a REST API, SFTP, or n
@@ -60,6 +60,22 @@ apis:
   slug: bloomberg-data-license-plus-dl
 artifact_total: 35
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/bloomberg/blpapi-http/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/bloomberg/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/bloomberg/blpapi-http/blob/develop/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/bloomberg/blpapi-http/blob/develop/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -153,7 +169,7 @@ network: true
 overview: 'Bloomberg Professional Service publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Cloud, Data Management, Enterprise, and Financial Services.
 
 
-  Bloomberg Professional Service''s developer surface includes developer portal, documentation, support, and 12 more developer resources.'
+  Bloomberg Professional Service''s developer surface includes developer portal, documentation, support, and 16 more developer resources.'
 plans:
 - name: Bloomberg Professional Service Plans Pricing
   plan_count: 3
@@ -164,16 +180,16 @@ rate_limits:
   name: Bloomberg Professional Service Rate Limits
   slug: bloomberg-professional-service-rate-limits
 score:
-  band: thin
-  composite: 31.7
-  delta: 0.0
+  band: emerging
+  composite: 25.1
+  delta: -6.6
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 21.7
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 31.7
   regulatory:
     applies: true
@@ -181,9 +197,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-professional-service/refs/heads/main/screenshots/bloomberg-professional-service-2026-06-20T173510.png
 security:
 - kind: domain-security

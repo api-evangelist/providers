@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -76,6 +76,10 @@ apis:
   slug: lightup-workspaces-api
 artifact_total: 18
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lightup-dashboard-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -216,17 +220,17 @@ network: true
 overview: 'Lightup publishes 12 APIs on the [APIs.io](https://apis.io/) network, including API Credentials API, Catalogs API, Dashboard chart API, and 9 more. Tagged areas include Data Quality, Data Observability, Data Monitoring, Anomaly Detection, and Data Engineering.
 
 
-  Lightup''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
+  Lightup''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
 random_paper: 69
 score:
-  band: strong
-  composite: 56.0
-  delta: 0.0
+  band: developing
+  composite: 54.4
+  delta: -1.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 46.5
+    contract_quality: 44.7
     developer_ergonomics: 82.1
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 31.6
   previous_composite: 56.0
@@ -240,8 +244,8 @@ score:
       total: 12
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/screenshots/lightup-2026-07-25T225143.png
 security:

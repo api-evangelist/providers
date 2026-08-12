@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -101,19 +101,25 @@ overview: 'Axiom Space is profiled on the [APIs.io](https://apis.io/) network. T
   Axiom Space''s developer surface includes engineering blog, legal docs, and 14 more developer resources.'
 random_paper: 67
 score:
-  band: minimal
-  composite: 12.2
-  delta: 0.0
+  band: emerging
+  composite: 13.3
+  delta: 1.1
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 12.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 25.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axiom-space/refs/heads/main/screenshots/axiom-space-2026-08-07T162039.png
 security:

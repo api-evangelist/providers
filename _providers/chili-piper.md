@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 56.3
-  scored_at: '2026-08-10'
+  score: 52.7
+  scored_at: '2026-08-11'
 api_count: 16
 apis:
 - description: Official hosted remote MCP server for Chili Piper, served over streamable HTTP at https://fire.chilipiper.com/api/fire-edge/v1/org/mcp. Supports OAuth (Admin, browser-based) and API-key bearer authent
@@ -75,6 +76,10 @@ asyncapis:
   name: Chili Piper Webhooks
   slug: chili-piper-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/chili-piper-availability-inspector-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -229,7 +234,7 @@ overview: 'Chili Piper publishes 15 APIs on the [APIs.io](https://apis.io/) netw
   The Chili Piper catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Chili Piper''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+  Chili Piper''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 random_paper: 66
 scopes:
 - name: Chili Piper Scopes
@@ -238,16 +243,28 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.0
+  composite: 60.2
+  delta: 0.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 63.8
+    contract_quality: 68.9
     developer_ergonomics: 65.2
     discoverability: 92.6
-    governance: 20.8
+    governance: 11.5
     operational_transparency: 55.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 60.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Chili Piper Authentication

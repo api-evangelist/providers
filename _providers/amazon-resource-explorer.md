@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -242,7 +242,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/amazon-resource-explorer-openapi.yml
+  url: openapi/_original/amazon-resource-explorer-openapi.yml
 created: '2026-03-16'
 description: AWS Resource Explorer is a resource search and discovery service. With Resource Explorer, you can explore your resources across AWS Regions using an internet search-like experience. It provides a unified view of your AWS resources and helps you understand your resource inventory.
 examples:
@@ -358,16 +358,16 @@ rules:
     warn: 16
   slug: amazon-resource-explorer-spectral-rules
 score:
-  band: strong
-  composite: 61.8
-  delta: 0.0
+  band: developing
+  composite: 53.4
+  delta: -8.4
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 64.3
+    commercial_clarity: 57.9
+    contract_quality: 61.9
     developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 61.8
   provenance:
     agentic_access: derived
@@ -376,9 +376,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/screenshots/amazon-resource-explorer-2026-06-20T171809.png
 security:
 - kind: authentication

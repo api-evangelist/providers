@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -192,13 +193,13 @@ overview: 'Greenspark publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 30
 score:
   band: developing
-  composite: 51.9
-  delta: 0.0
+  composite: 50.2
+  delta: -1.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 64.4
+    contract_quality: 62.0
     developer_ergonomics: 67.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 51.9
@@ -212,8 +213,8 @@ score:
       total: 7
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/screenshots/greenspark-2026-07-25T220317.png
 security:

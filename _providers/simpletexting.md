@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -142,11 +142,11 @@ rate_limits:
   slug: simpletexting-rate-limits
 score:
   band: thin
-  composite: 32.9
-  delta: 0.0
+  composite: 32.5
+  delta: -0.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 56.7
+    contract_quality: 54.6
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
@@ -165,8 +165,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/screenshots/simpletexting-2026-06-20T193933.png
 security:

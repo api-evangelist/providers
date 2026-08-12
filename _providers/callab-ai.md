@@ -24,10 +24,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 14.4
-  scored_at: '2026-08-10'
+  score: 10.8
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Callab AI's REST API, documented at docs.callab.ai/api-reference, is organized around REST principles with predictable resource-oriented URLs, standard HTTP verbs, and standard HTTP response codes for
@@ -135,8 +135,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/callab-ai/refs/heads/main/screenshots/callab-ai-2026-07-25T204336.png
 security:

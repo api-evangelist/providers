@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 9.0
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 3
 common:
@@ -148,14 +148,14 @@ scopes:
   slug: bekhealth-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 28.9
-  delta: 0.0
+  band: emerging
+  composite: 26.9
+  delta: -2.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 17.4
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 12.5
     operational_transparency: 0.0
   previous_composite: 28.9
@@ -166,9 +166,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 66.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 58.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bekhealth/refs/heads/main/screenshots/bekhealth-2026-08-07T162257.png
 security:

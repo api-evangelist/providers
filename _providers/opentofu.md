@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: OpenTofu is a CLI-driven infrastructure-as-code tool forked from Terraform. The opentofu binary reads HashiCorp Configuration Language (HCL) configuration, plans changes, and applies them against clou
@@ -36,6 +36,10 @@ apis:
   slug: opentofu-cli
 artifact_total: 6
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/opentofu/opentofu/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -107,7 +111,7 @@ network: true
 overview: 'OpenTofu publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud, DevOps, Infrastructure as Code, and Open Source.
 
 
-  OpenTofu''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 9 more developer resources.'
+  OpenTofu''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 10 more developer resources.'
 plans:
 - name: Opentofu Plans Pricing
   plan_count: 3
@@ -119,19 +123,19 @@ rate_limits:
   slug: opentofu-rate-limits
 score:
   band: emerging
-  composite: 27.1
-  delta: 0.0
+  composite: 19.3
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 34.8
     discoverability: 40.7
     governance: 0.0
-    operational_transparency: 63.2
+    operational_transparency: 39.5
   previous_composite: 27.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentofu/refs/heads/main/screenshots/opentofu-2026-06-20T191043.png
 security:
 - kind: domain-security

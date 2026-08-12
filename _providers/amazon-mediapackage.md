@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -892,15 +892,15 @@ rules:
   slug: amazon-mediapackage-spectral-rules
 score:
   band: strong
-  composite: 61.8
-  delta: 0.0
+  composite: 56.0
+  delta: -5.8
   facets:
-    commercial_clarity: 68.4
-    contract_quality: 69.6
+    commercial_clarity: 57.9
+    contract_quality: 67.0
     developer_ergonomics: 45.7
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 61.8
   provenance:
     agentic_access: derived
@@ -909,9 +909,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/screenshots/amazon-mediapackage-2026-06-20T171746.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'The Beamer REST API provides programmatic access to changelog posts, user management, segmentation, and notification feeds. Key endpoints include unread count retrieval, post creation and management, '
@@ -119,19 +119,19 @@ rate_limits:
   slug: beamer-rate-limits
 score:
   band: emerging
-  composite: 25.9
-  delta: 0.0
+  composite: 18.1
+  delta: -7.8
   facets:
-    commercial_clarity: 47.4
+    commercial_clarity: 23.7
     contract_quality: 0.0
     developer_ergonomics: 21.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 47.4
+    operational_transparency: 23.7
   previous_composite: 25.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/beamer/refs/heads/main/screenshots/beamer-2026-06-20T173106.png
 security:
 - kind: domain-security

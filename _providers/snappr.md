@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -71,6 +71,10 @@ asyncapis:
   name: Snappr Webhooks
   slug: snappr-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/snappr-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -181,15 +185,15 @@ overview: 'Snappr publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
   The Snappr catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Snappr''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 16 more developer resources.'
+  Snappr''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 17 more developer resources.'
 random_paper: 80
 score:
   band: developing
-  composite: 53.4
-  delta: 0.0
+  composite: 52.7
+  delta: -0.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 74.8
+    contract_quality: 72.0
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
@@ -205,8 +209,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Paychex Developer Program offers a library of APIs to automate, standardize, and simplify integrations with Paychex payroll and HR services. Specifications are not published publicly; access requi
@@ -110,20 +110,20 @@ rate_limits:
   name: Paychex Rate Limits
   slug: paychex-rate-limits
 score:
-  band: thin
-  composite: 28.1
-  delta: 0.0
+  band: emerging
+  composite: 22.9
+  delta: -5.2
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 13.2
     contract_quality: 43.2
     developer_ergonomics: 10.9
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 28.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/paychex/refs/heads/main/screenshots/paychex-2026-08-07T191631.png
 security:
 - kind: domain-security

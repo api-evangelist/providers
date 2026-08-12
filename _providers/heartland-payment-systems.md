@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: The Portico Gateway is Heartland's primary payment processing API for card-not-present and ecommerce transactions, supporting authorization, capture, refund, void, recurring billing, tokenization, and
@@ -135,15 +135,15 @@ rate_limits:
   slug: heartland-payment-systems-rate-limits
 score:
   band: emerging
-  composite: 18.4
-  delta: 0.0
+  composite: 14.6
+  delta: -3.8
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 21.7
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 18.4
   regulatory:
     applies: true
@@ -151,8 +151,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heartland-payment-systems/refs/heads/main/screenshots/heartland-payment-systems-2026-06-20T182615.png
 security:

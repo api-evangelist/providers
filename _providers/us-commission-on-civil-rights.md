@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The US Commission on Civil Rights is an independent, bipartisan federal agency established in 1957 that investigates, reports on, and issues public service announcements about discrimination or denial
@@ -161,19 +161,25 @@ rules:
   slug: us-commission-on-civil-rights-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.4
-  delta: 0.0
+  composite: 30.1
+  delta: -6.3
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 29.0
     developer_ergonomics: 8.7
     discoverability: 50.0
     governance: 68.8
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 36.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 38.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-commission-on-civil-rights/refs/heads/main/screenshots/us-commission-on-civil-rights-2026-06-20T200608.png
 security:
 - kind: domain-security

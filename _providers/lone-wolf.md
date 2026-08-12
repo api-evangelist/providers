@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 58.8
-  scored_at: '2026-08-10'
+  score: 55.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 174
   human_in_the_loop: 1
@@ -310,11 +311,11 @@ scopes:
   summary_line: 14 scopes
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 51.2
+  delta: 0.7
   facets:
     commercial_clarity: 34.2
-    contract_quality: 64.6
+    contract_quality: 62.2
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
@@ -330,8 +331,14 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: weak_tags
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 58.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lone-wolf/refs/heads/main/screenshots/lone-wolf-2026-08-07T171753.png
 security:

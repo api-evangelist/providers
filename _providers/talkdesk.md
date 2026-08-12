@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: AsyncAPI 2.6 description of Talkdesk's publicly documented outbound webhook surface, covering the Events API (partner-app lifecycle), the Webhook Trigger API (Talkdesk Connections triggers for call/ag
@@ -102,8 +102,8 @@ rules:
   slug: talkdesk-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 33.3
-  delta: 0.0
+  composite: 34.3
+  delta: 1.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 54.3
@@ -112,14 +112,8 @@ score:
     governance: 47.9
     operational_transparency: 0.0
   previous_composite: 33.3
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 27.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/talkdesk/refs/heads/main/screenshots/talkdesk-2026-06-20T194911.png
 security:

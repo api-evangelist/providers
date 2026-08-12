@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -306,16 +306,16 @@ rules:
     warn: 19
   slug: absentify-spectral-rules
 score:
-  band: exemplar
-  composite: 66.3
-  delta: 0.0
+  band: strong
+  composite: 57.7
+  delta: -8.6
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 81.4
+    commercial_clarity: 55.3
+    contract_quality: 78.4
     developer_ergonomics: 34.8
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 57.9
+    operational_transparency: 34.2
   previous_composite: 66.3
   provenance:
     agentic_access: derived
@@ -324,9 +324,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/screenshots/absentify-2026-06-20T163354.png
 security:
 - kind: authentication

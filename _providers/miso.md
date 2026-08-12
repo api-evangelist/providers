@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -18,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -144,6 +145,10 @@ apis:
   slug: miso-windsolar-api
 artifact_total: 107
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/miso-data-exchange-lgi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -482,7 +487,7 @@ network: true
 overview: 'MISO publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Ace API, Admin API, Aggregated Pnode API, and 28 more. Tagged areas include Energy, United States, Electricity, Energy Markets, and Grid.
 
 
-  MISO''s developer surface includes authentication, code examples, sandbox, documentation, API reference, signup flow, getting-started guide, and 26 more developer resources.'
+  MISO''s developer surface includes authentication, code examples, sandbox, documentation, API reference, signup flow, getting-started guide, and 27 more developer resources.'
 plans:
 - name: Miso Plans
   plan_count: 5
@@ -494,24 +499,24 @@ rate_limits:
   slug: miso-rate-limits
 score:
   band: developing
-  composite: 48.9
-  delta: -0.8
+  composite: 46.5
+  delta: -2.4
   facets:
     commercial_clarity: 65.8
-    contract_quality: 32.2
+    contract_quality: 33.0
     developer_ergonomics: 62.5
-    discoverability: 77.8
+    discoverability: 66.7
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 49.7
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 66.7
-      derived: 3
-      marker_coverage: 66.7
-      total: 6
+      callable: 93.8
+      derived: 16
+      marker_coverage: 53.1
+      total: 32
     mcp: derived
     skills: derived
   regulatory:
@@ -519,9 +524,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 44.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 33.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/screenshots/miso-2026-08-07T183744.png
 security:

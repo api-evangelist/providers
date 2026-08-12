@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-10'
+  score: 24.3
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 4
 common:
@@ -124,22 +124,22 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 23.8
-  delta: 2.6
+  composite: 22.7
+  delta: -1.1
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 32.6
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 21.2
+  previous_composite: 23.8
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jubilee-tv/refs/heads/main/screenshots/jubilee-tv-2026-08-07T171053.png
 security:

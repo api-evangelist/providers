@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Token-authenticated JSON API for the Parsable Connected Worker platform. All calls are HTTP POSTs to https://api.parsable.net/api/<MODULE> carrying a `{ "method", "arguments" }` envelope and an Author
@@ -163,8 +163,8 @@ score:
   previous_composite: 30.6
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parsable/refs/heads/main/screenshots/parsable-2026-08-07T191451.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 17
 apis:
 - description: The DataSourceFields API from Templafy — 2 operation(s) for datasourcefields.
@@ -84,6 +84,10 @@ apis:
   slug: templafy-textelements-api
 artifact_total: 21
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/templafy-public-api-v3-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -203,17 +207,17 @@ network: true
 overview: 'Templafy publishes 17 APIs on the [APIs.io](https://apis.io/) network, including DataSourceFields API, DataSourceItemFields API, DataSourceItems API, and 14 more. Tagged areas include Company, Document Generation, Templates, Content Management, and Digital Asset Management.
 
 
-  Templafy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 19 more developer resources.'
+  Templafy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 20 more developer resources.'
 random_paper: 54
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 48.8
+  delta: -1.7
   facets:
     commercial_clarity: 47.4
-    contract_quality: 57.6
+    contract_quality: 55.4
     developer_ergonomics: 60.9
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 50.5
@@ -225,8 +229,8 @@ score:
       marker_coverage: 0.0
       total: 17
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

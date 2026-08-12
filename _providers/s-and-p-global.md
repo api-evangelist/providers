@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -191,16 +191,16 @@ rules:
     warn: 10
   slug: s-and-p-global-spectral-rules
 score:
-  band: developing
-  composite: 47.1
-  delta: 0.0
+  band: thin
+  composite: 39.2
+  delta: -7.9
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 65.7
+    commercial_clarity: 23.7
+    contract_quality: 63.3
     developer_ergonomics: 28.3
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 58.3
-    operational_transparency: 21.1
+    operational_transparency: 5.3
   previous_composite: 47.1
   provenance:
     agentic_access: derived
@@ -209,9 +209,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 23.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/s-and-p-global/refs/heads/main/screenshots/s-and-p-global-2026-06-20T193312.png
 security:
 - kind: authentication

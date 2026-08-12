@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -422,11 +422,11 @@ rules:
   slug: tamara-rules
 score:
   band: strong
-  composite: 59.0
-  delta: 0.0
+  composite: 60.6
+  delta: 1.6
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 72.0
+    commercial_clarity: 73.7
+    contract_quality: 69.3
     developer_ergonomics: 63.0
     discoverability: 74.1
     governance: 68.8
@@ -445,8 +445,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/screenshots/tamara-2026-06-20T194914.png
 security:

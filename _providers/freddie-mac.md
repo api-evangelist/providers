@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Suite of APIs across the mortgage lifecycle including AIM Check, Affordable Check, Property Insights, Pricing and Committing, Resolve workout decisioning, and Total MI reconciliations and claims.
@@ -111,19 +111,25 @@ rules:
   slug: freddie-mac-rules
 score:
   band: emerging
-  composite: 19.2
-  delta: 0.0
+  composite: 13.6
+  delta: -5.6
   facets:
-    commercial_clarity: 28.9
+    commercial_clarity: 13.2
     contract_quality: 0.0
     developer_ergonomics: 17.4
     discoverability: 59.3
     governance: 10.4
-    operational_transparency: 21.1
+    operational_transparency: 5.3
   previous_composite: 19.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 11.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/freddie-mac/refs/heads/main/screenshots/freddie-mac-2026-06-20T181516.png
 security:
 - kind: domain-security

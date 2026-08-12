@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -121,13 +121,13 @@ overview: 'Holded publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 44
 score:
   band: thin
-  composite: 28.9
-  delta: 0.0
+  composite: 31.7
+  delta: 2.8
   facets:
-    commercial_clarity: 10.5
-    contract_quality: 57.4
+    commercial_clarity: 23.7
+    contract_quality: 55.2
     developer_ergonomics: 21.7
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 28.9
@@ -138,8 +138,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/screenshots/holded-2026-06-20T182811.png
 security:

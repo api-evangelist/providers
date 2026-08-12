@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Making and managing bookings.
@@ -42,6 +42,10 @@ apis:
   slug: impala-rate-calendar-api
 artifact_total: 5
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/impala-hotels-overlay.yaml
 - group: auth
   title: ''
   type: Authentication
@@ -113,15 +117,15 @@ network: true
 overview: 'Impala publishes 3 APIs on the [APIs.io](https://apis.io/) network: Bookings API, Hotels API, and Rate Calendar API. Tagged areas include Company, Hotels, Travel, Booking, and Hospitality.
 
 
-  Impala''s developer surface includes authentication, sandbox, and 12 more developer resources.'
+  Impala''s developer surface includes authentication, sandbox, and 13 more developer resources.'
 random_paper: 48
 score:
   band: thin
-  composite: 30.7
-  delta: 0.0
+  composite: 30.2
+  delta: -0.5
   facets:
     commercial_clarity: 0.0
-    contract_quality: 65.6
+    contract_quality: 63.2
     developer_ergonomics: 32.1
     discoverability: 81.5
     governance: 11.5
@@ -142,8 +146,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/screenshots/impala-2026-07-25T222147.png
 security:

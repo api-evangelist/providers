@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Membrane is an AI-first integration platform that enables building product integrations using natural language. It offers 282+ pre-built packages and is compatible with AI coding assistants via MCP pr
@@ -99,19 +99,19 @@ rate_limits:
   slug: membrane-rate-limits
 score:
   band: emerging
-  composite: 26.2
-  delta: 0.0
+  composite: 19.1
+  delta: -7.1
   facets:
-    commercial_clarity: 57.9
+    commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 19.6
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 26.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/membrane/refs/heads/main/screenshots/membrane-2026-06-20T185134.png
 security:
 - kind: domain-security

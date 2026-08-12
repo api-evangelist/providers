@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 73.2
-  scored_at: '2026-08-10'
+  score: 69.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 0
@@ -156,6 +156,14 @@ collections:
   name: Dwolla API - Webhooks
   slug: postman-dwolla-webhooks
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Dwolla/dwolla-openapi/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Dwolla/dwolla-openapi/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -358,7 +366,7 @@ overview: 'Dwolla publishes 19 APIs on the [APIs.io](https://apis.io/) network, 
   The Dwolla catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dwolla''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 39 more developer resources.'
+  Dwolla''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 41 more developer resources.'
 random_paper: 63
 rate_limits:
 - limit_count: 0
@@ -366,13 +374,13 @@ rate_limits:
   slug: dwolla-rate-limits
 score:
   band: strong
-  composite: 60.3
-  delta: 0.0
+  composite: 58.8
+  delta: -1.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 70.4
+    contract_quality: 67.8
     developer_ergonomics: 79.9
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 52.6
   previous_composite: 60.3
@@ -392,8 +400,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/screenshots/dwolla-2026-07-25T212550.png
 security:

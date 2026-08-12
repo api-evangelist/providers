@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Per-instance GraphQL API for the Frontify brand management / DAM platform — discover brands, search and retrieve assets, manage metadata, collaborate on comments/annotations, browse guidelines, export
@@ -159,13 +159,13 @@ overview: 'Frontify publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 69
 score:
   band: thin
-  composite: 40.3
-  delta: 0.0
+  composite: 39.2
+  delta: -1.1
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 69.6
-    discoverability: 79.6
+    discoverability: 68.5
     governance: 12.5
     operational_transparency: 36.8
   previous_composite: 40.3
@@ -173,8 +173,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontify/refs/heads/main/screenshots/frontify-2026-07-25T215242.png
 security:

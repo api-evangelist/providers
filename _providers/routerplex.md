@@ -1,10 +1,11 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 62.6
-  scored_at: '2026-08-10'
+  score: 48.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -45,6 +46,10 @@ apis:
   slug: routerplex-responses-api
 artifact_total: 11
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/routerplex-inference-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -204,7 +209,7 @@ network: true
 overview: 'RouterPlex publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Images API, Messages API, and 2 more. Tagged areas include llm, ai, ai-gateway, inference, and model-router.
 
 
-  RouterPlex''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
+  RouterPlex''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 30 more developer resources.'
 plans:
 - name: Routerplex Plans
   plan_count: 4
@@ -216,16 +221,29 @@ rate_limits:
   slug: routerplex-rate-limits
 score:
   band: strong
-  composite: 60.0
+  composite: 58.1
+  delta: -1.9
   facets:
     commercial_clarity: 76.3
-    contract_quality: 53.6
-    developer_ergonomics: 73.9
-    discoverability: 92.6
-    governance: 20.8
+    contract_quality: 59.1
+    developer_ergonomics: 69.0
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 36.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 60.0
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
+    mcp: first-party
+    skills: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Routerplex Authentication

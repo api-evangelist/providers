@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: REST API of TUdatalib, the institutional research-data repository of TU Darmstadt, running on DSpace 8.1. The API root reports dspaceName "TUdatalib System" and exposes HAL-style endpoints for communi
@@ -134,8 +134,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 22.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/technical-university-of-darmstadt/refs/heads/main/screenshots/technical-university-of-darmstadt-2026-06-20T195009.png
 security:

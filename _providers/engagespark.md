@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.3
-  scored_at: '2026-08-10'
+  score: 34.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -59,12 +59,20 @@ apis:
 - description: The WhatsApp API from engageSPARK — 3 operation(s) for whatsapp.
   name: engageSPARK WhatsApp API
   slug: engagespark-whatsapp-api
-artifact_total: 11
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Engagespark Webhooks
   slug: engagespark-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/engagespark-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/engagespark-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -137,6 +145,10 @@ created: '2026-07-17'
 description: engageSPARK is a mobile messaging and engagement platform for reaching hard-to-reach populations in low- and middle-income countries at scale. It lets NGOs, researchers, microfinance institutions, and businesses run SMS, automated voice (IVR), WhatsApp, and pre-paid airtime top-up campaigns across 180+ countries without writing code, or programmatically through its HTTP API. The engageSPARK API (api.engagespark.com, v1) exposes token-authenticated endpoints for sending SMS, WhatsApp, and airtime top-ups, managing contacts and organizations, subscribing and unsubscribing contacts to voice and SMS campaigns, reading message and top-up history, checking organization balance, and managing files. Incoming-SMS and campaign-action webhooks let the platform push survey responses and inbound messages into external systems such as Salesforce or Qualtrics.
 image: https://www.engagespark.com/wp-content/uploads/2017/03/engagespark_logo_small.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: engagespark-mcp.yml
+  slug: engagespark-mcpyml
 modified: '2026-07-19'
 name: engageSPARK
 nav: Providers
@@ -147,16 +159,16 @@ overview: 'engageSPARK publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
   The engageSPARK catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  engageSPARK''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 10 more developer resources.'
+  engageSPARK''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
 random_paper: 0
 score:
-  band: developing
-  composite: 42.1
-  delta: 0.0
+  band: thin
+  composite: 41.9
+  delta: -0.2
   facets:
     commercial_clarity: 44.7
-    contract_quality: 73.4
-    developer_ergonomics: 42.9
+    contract_quality: 70.7
+    developer_ergonomics: 45.1
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
@@ -177,8 +189,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 19.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/screenshots/engagespark-2026-07-25T213341.png
 security:

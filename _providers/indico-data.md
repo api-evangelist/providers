@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Exchange an API token for a short-lived JWT access token
@@ -48,6 +48,10 @@ apis:
   slug: indico-data-workflows-api
 artifact_total: 9
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/indico-data-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -159,17 +163,17 @@ network: true
 overview: 'Indico Data publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Datasets API, Storage API, and 2 more. Tagged areas include Company, Intelligent Document Processing, Intelligent Process Automation, Document AI, and Machine Learning.
 
 
-  Indico Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 18 more developer resources.'
+  Indico Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 19 more developer resources.'
 random_paper: 41
 score:
   band: developing
-  composite: 52.3
-  delta: 0.0
+  composite: 49.7
+  delta: -2.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.1
+    contract_quality: 62.7
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 52.3
@@ -187,9 +191,9 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 53.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 45.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/screenshots/indico-data-2026-07-25T222311.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: REST API and Python SDK for programmatically managing annotation projects, datasets, ontologies, labels, and workflows within the Encord Annotate platform. Supports creating and retrieving projects an
@@ -39,6 +39,18 @@ apis:
   slug: encord-active-api
 artifact_total: 8
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/encord-team/encord-client-python/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/encord-team/encord-client-python/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/encord-team/encord-client-python/blob/master/LICENSE
 - group: auth
   title: ''
   type: TrustCenter
@@ -122,7 +134,7 @@ overview: 'Encord publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
   The Encord catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Encord''s developer surface includes documentation, engineering blog, pricing, and 12 more developer resources.'
+  Encord''s developer surface includes documentation, engineering blog, pricing, and 15 more developer resources.'
 plans:
 - name: Encord Plans Pricing
   plan_count: 3
@@ -134,18 +146,18 @@ rate_limits:
   slug: encord-rate-limits
 score:
   band: thin
-  composite: 29.5
-  delta: 0.0
+  composite: 31.5
+  delta: 2.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 8.1
     developer_ergonomics: 10.9
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 68.4
   previous_composite: 29.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/encord/refs/heads/main/screenshots/encord-2026-06-20T180648.png
 security:

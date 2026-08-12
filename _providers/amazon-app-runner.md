@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-10'
+  score: 32.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 2
@@ -146,8 +146,16 @@ apis:
 - description: 'The #X Amz Target=AppRunner.UpdateVpcIngressConnection API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.updatevpcingressconnection.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.UpdateVpcIngressConnection API'
   slug: amazon-app-runner-x-amz-target-apprunner-updatevpcingressconnection-api
-artifact_total: 594
+artifact_total: 595
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/amazon-app-runner-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-app-runner-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1914,6 +1922,10 @@ jsonld:
   property_count: 4
   slug: amazon-app-runner-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: amazon-app-runner-mcp.yml
+  slug: amazon-app-runner-mcpyml
 modified: '2026-06-20'
 name: Amazon App Runner
 nav: Providers
@@ -1924,7 +1936,7 @@ overview: 'Amazon App Runner publishes 36 APIs on the [APIs.io](https://apis.io/
   The Amazon App Runner catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon App Runner''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 23 more developer resources.'
+  Amazon App Runner''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 25 more developer resources.'
 random_paper: 99
 rules:
 - name: Amazon App Runner API Rules
@@ -1945,12 +1957,12 @@ rules:
   slug: amazon-app-runner-spectral-rules
 score:
   band: developing
-  composite: 54.7
-  delta: 0.0
+  composite: 55.4
+  delta: 0.7
   facets:
     commercial_clarity: 42.1
-    contract_quality: 70.7
-    developer_ergonomics: 41.3
+    contract_quality: 71.8
+    developer_ergonomics: 43.5
     discoverability: 87.0
     governance: 80.2
     operational_transparency: 15.8
@@ -1964,8 +1976,8 @@ score:
       marker_coverage: 0.0
       total: 36
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-app-runner/refs/heads/main/screenshots/amazon-app-runner-2026-07-25T195915.png
 security:

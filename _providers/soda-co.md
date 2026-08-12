@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 1
@@ -207,11 +207,11 @@ rules:
   slug: soda-co-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.3
-  delta: 0.0
+  composite: 53.6
+  delta: -0.7
   facets:
     commercial_clarity: 57.9
-    contract_quality: 68.5
+    contract_quality: 65.9
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
@@ -224,8 +224,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soda-co/refs/heads/main/screenshots/soda-co-2026-06-20T194129.png
 security:

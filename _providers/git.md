@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-10'
+  score: 30.2
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: Git command-line interface for version control operations.
@@ -111,23 +111,23 @@ rate_limits:
   name: Git Rate Limits
   slug: git-rate-limits
 score:
-  band: thin
-  composite: 35.0
-  delta: 0.0
+  band: emerging
+  composite: 27.2
+  delta: -7.8
   facets:
-    commercial_clarity: 47.4
+    commercial_clarity: 23.7
     contract_quality: 32.3
     developer_ergonomics: 17.4
     discoverability: 83.3
     governance: 12.5
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 35.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/git/refs/heads/main/screenshots/git-2026-06-20T181828.png
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -105,6 +105,10 @@ collections:
   name: GoodLeap - Developer API
   slug: postman-good-leap-developer-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/good-leap-developer-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -216,15 +220,15 @@ network: true
 overview: 'Good Leap publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Authorization & Elevation Management API, Calculate Payments API, Case (loan stipulations) Management API, and 15 more. Tagged areas include Company, Fintech, Financing, Lending, and Solar.
 
 
-  Good Leap''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 18 more developer resources.'
+  Good Leap''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 19 more developer resources.'
 random_paper: 76
 score:
   band: thin
-  composite: 41.8
-  delta: 0.0
+  composite: 41.3
+  delta: -0.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 57.1
+    contract_quality: 55.0
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
@@ -246,8 +250,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/good-leap/refs/heads/main/screenshots/good-leap-2026-07-25T220101.png
 security:

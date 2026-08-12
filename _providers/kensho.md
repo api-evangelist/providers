@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 55.9
-  scored_at: '2026-08-10'
+  score: 52.3
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: Asynchronous speech-to-text transcription API that turns audio and video into text with high accuracy. Supports batch, real-time, and human-in-the-loop transcription, multipart and remote-URL submissi
@@ -205,8 +206,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kensho/refs/heads/main/screenshots/kensho-2026-07-25T223619.png
 security:

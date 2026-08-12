@@ -11,21 +11,25 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-10'
+  score: 41.2
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Token-issuing API on the Centrica FieldOps API Management platform, published on Centrica's Azure API Management developer portal. A single POST /oauth2/token operation exchanges an OAuth2 client_cred
   name: Centrica FieldOps Identity API
   slug: centrica-fieldops-identity-api
-artifact_total: 6
+artifact_total: 7
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/centrica-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -143,6 +147,10 @@ description: 'Centrica plc is the FTSE-listed British energy and services group 
   data access requirement that does bind it is discharged by a written request answered within ten working days, not by an API. Household consumers reach their own data only through the British Gas app and account login; business customers through the Energy360 DataView portal. The single publicly reachable developer surface found is the Centrica FieldOps Azure API Management developer portal — a partner field-operations platform in its development environment — and Centrica publishes no open grid or market data of its own, leaving that to NESO, Elexon and the DNOs.'
 image: https://www.britishgas.co.uk/aem6/etc/designs/britishgas/favicons/favicon-152x152.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: centrica-mcp.yml
+  slug: centrica-mcpyml
 modified: '2026-07-27'
 name: Centrica
 nav: Providers
@@ -150,7 +158,7 @@ network: true
 overview: 'Centrica publishes 1 API on the [APIs.io](https://apis.io/) network: FieldOps Identity API. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Gas.
 
 
-  Centrica''s developer surface includes authentication, sandbox, documentation, signup flow, API reference, engineering blog, and 22 more developer resources.'
+  Centrica''s developer surface includes authentication, sandbox, documentation, signup flow, API reference, engineering blog, and 23 more developer resources.'
 plans:
 - name: Centrica Plans
   plan_count: 2
@@ -162,12 +170,12 @@ rate_limits:
   slug: centrica-rate-limits
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 48.8
+  delta: -1.7
   facets:
     commercial_clarity: 55.3
-    contract_quality: 55.0
-    developer_ergonomics: 45.1
+    contract_quality: 53.0
+    developer_ergonomics: 47.3
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 47.4
@@ -186,9 +194,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 52.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 41.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/screenshots/centrica-2026-08-07T163224.png
 security:

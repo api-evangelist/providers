@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 57.4
-  scored_at: '2026-08-10'
+  score: 53.8
+  scored_at: '2026-08-11'
 api_count: 18
 apis:
 - description: The aiTaskBuilder API from Prolific — 24 operation(s) for aitaskbuilder.
@@ -146,7 +146,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/prolific-openapi-original.yml
+  url: openapi/_original/prolific-openapi-original.yml
 - group: auth
   title: ''
   type: Authentication
@@ -240,14 +240,14 @@ overview: 'Prolific publishes 18 APIs on the [APIs.io](https://apis.io/) network
   Prolific''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
 random_paper: 44
 score:
-  band: strong
-  composite: 56.2
-  delta: 0.0
+  band: developing
+  composite: 54.4
+  delta: -1.8
   facets:
     commercial_clarity: 34.2
-    contract_quality: 68.6
+    contract_quality: 66.0
     developer_ergonomics: 82.1
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
   previous_composite: 56.2
@@ -260,8 +260,8 @@ score:
       total: 18
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

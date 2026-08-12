@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: 'Instant Notifications API for Zoho CRM. Subscribers register a channel via POST /crm/v2/actions/watch with a notify_url and a list of module/operation events (for example Leads.create, Contacts.edit, '
@@ -120,24 +120,24 @@ rules:
   slug: zoho-crm-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 35.6
-  delta: 0.2
+  composite: 38.5
+  delta: 2.9
   facets:
-    commercial_clarity: 10.5
-    contract_quality: 62.3
+    commercial_clarity: 23.7
+    contract_quality: 63.4
     developer_ergonomics: 23.9
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 5.3
-  previous_composite: 35.4
+  previous_composite: 35.6
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+      total: 2
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/screenshots/zoho-crm-2026-06-20T201938.png
 security:

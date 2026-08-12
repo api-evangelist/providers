@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 18.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'The REST API behind the Lifebit Platform (CloudOS): manage workspace projects, job queues, workflows/pipelines, Nextflow and Cromwell/WDL job submission and monitoring, interactive analysis sessions, '
@@ -36,6 +36,18 @@ apis:
   slug: cloudos-api
 artifact_total: 5
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/lifebit-ai/cloudos-cli/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/lifebit-ai/cloudos-cli/releases
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/lifebit-ai/cloudos-cli/blob/main/LICENSE
 - group: company
   title: ''
   type: Website
@@ -184,18 +196,18 @@ network: true
 overview: 'Lifebit Biotech publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Genomics, Bioinformatics, and Federated Learning.
 
 
-  Lifebit Biotech''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, YouTube channel, and 26 more developer resources.'
+  Lifebit Biotech''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, YouTube channel, and 29 more developer resources.'
 random_paper: 6
 score:
   band: thin
-  composite: 35.8
-  delta: 0.0
+  composite: 34.6
+  delta: -1.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 67.4
     discoverability: 87.0
-    governance: 12.5
+    governance: 0.0
     operational_transparency: 21.1
   previous_composite: 35.8
   provenance:
@@ -207,8 +219,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifebit-biotech/refs/heads/main/screenshots/lifebit-biotech-2026-07-25T225038.png
 security:

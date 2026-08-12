@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -287,18 +288,6 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/vantage-vocabulary.yaml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/shared/cost-management.yaml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/shared/cloud-pricing.yaml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/cloud-cost-management.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -818,7 +807,7 @@ overview: 'Vantage publishes 25 APIs on the [APIs.io](https://apis.io/) network,
   The Vantage catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Vantage''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, getting-started guide, API reference, and 29 more developer resources.'
+  Vantage''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, getting-started guide, API reference, and 26 more developer resources.'
 plans:
 - name: Vantage Plans Pricing
   plan_count: 3
@@ -846,16 +835,16 @@ rules:
     warn: 9
   slug: vantage-spectral-rules
 score:
-  band: exemplar
-  composite: 67.6
-  delta: 0.0
+  band: strong
+  composite: 59.8
+  delta: -7.8
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 81.8
+    commercial_clarity: 26.3
+    contract_quality: 78.7
     developer_ergonomics: 76.1
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 67.6
   provenance:
     agentic_access: derived
@@ -864,9 +853,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/screenshots/vantage-2026-06-20T200813.png
 security:
 - kind: authentication

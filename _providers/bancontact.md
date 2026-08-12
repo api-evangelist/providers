@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API for accepting Bancontact payments online and via QR code. Enables merchants to create payment transactions, generate QR codes, handle callbacks, and process refunds. The API is organized arou
@@ -127,25 +127,25 @@ rules:
   slug: bancontact-spectral-rules
 score:
   band: emerging
-  composite: 25.4
-  delta: 0.0
+  composite: 19.9
+  delta: -5.5
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 12.9
     developer_ergonomics: 8.7
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 37.5
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 25.4
   regulatory:
     applies: true
     matched_via: tags
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 13.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+    regime: Payments
+    regime_id: payments
+    score: 17.2
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bancontact/refs/heads/main/screenshots/bancontact-2026-06-20T172938.png
 security:
 - kind: domain-security

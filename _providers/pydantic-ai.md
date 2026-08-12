@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: conformant
     agent_skills: false
@@ -18,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 3
@@ -133,6 +134,10 @@ collections:
   name: Pydantic API Discovery Alerts Variables API
   slug: postman-pydantic-ai-variables-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/pydantic/pydantic-ai/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -270,7 +275,7 @@ overview: 'PydanticAI publishes 17 APIs on the [APIs.io](https://apis.io/) netwo
   The PydanticAI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  PydanticAI''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, and 18 more developer resources.'
+  PydanticAI''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, and 19 more developer resources.'
 plans:
 - name: Pydantic Ai Plans Pricing
   plan_count: 4
@@ -296,11 +301,11 @@ scopes:
   summary_line: 38 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.7
-  delta: 0.0
+  composite: 57.0
+  delta: -0.7
   facets:
     commercial_clarity: 57.9
-    contract_quality: 70.4
+    contract_quality: 67.8
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 58.3
@@ -313,8 +318,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/screenshots/pydantic-ai-2026-06-20T192356.png
 security:

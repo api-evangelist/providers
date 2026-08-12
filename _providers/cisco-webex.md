@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 64.4
-  scored_at: '2026-08-10'
+  score: 60.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1056
   human_in_the_loop: 204
@@ -217,6 +218,10 @@ collections:
   name: Cisco Webex Workspaces API
   slug: open-cisco-webex-workspaces
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cisco-webex-admin-audit-events-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -594,7 +599,7 @@ overview: 'Cisco Webex publishes 9 APIs on the [APIs.io](https://apis.io/) netwo
   The Cisco Webex catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Cisco Webex''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, support, and 44 more developer resources.'
+  Cisco Webex''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, support, and 45 more developer resources.'
 plans:
 - name: Cisco Webex Plans Pricing
   plan_count: 4
@@ -627,16 +632,16 @@ scopes:
   slug: cisco-webex-scopes
   summary_line: 30 scopes
 score:
-  band: exemplar
-  composite: 71.8
-  delta: 0.0
+  band: strong
+  composite: 63.2
+  delta: -8.6
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 57.4
+    commercial_clarity: 57.9
+    contract_quality: 55.3
     developer_ergonomics: 71.7
     discoverability: 92.6
     governance: 69.8
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 71.8
   provenance:
     agentic_access: derived
@@ -647,15 +652,9 @@ score:
       marker_coverage: 100.0
       total: 9
     mcp: first-party
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 73.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/screenshots/cisco-webex-2026-06-20T174405.png
 security:
 - kind: authentication

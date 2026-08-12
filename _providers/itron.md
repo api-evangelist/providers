@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -78,6 +78,14 @@ collections:
   name: Itron Starfish Data Platform API
   slug: open-starfish-data-platform
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/silverspringnetworks/starfish-js/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/silverspringnetworks/starfish-js/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -236,7 +244,7 @@ overview: 'Itron publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
   The Itron catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Itron''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, YouTube channel, and 20 more developer resources.'
+  Itron''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, YouTube channel, and 22 more developer resources.'
 plans:
 - name: Itron Plans Pricing
   plan_count: 4
@@ -265,15 +273,15 @@ rules:
   slug: starfish-data-platform-rules
 score:
   band: developing
-  composite: 47.5
-  delta: 0.0
+  composite: 51.0
+  delta: 3.5
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 69.8
+    commercial_clarity: 52.6
+    contract_quality: 67.2
     developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 36.8
+    operational_transparency: 52.6
   previous_composite: 47.5
   provenance:
     agentic_access: derived
@@ -288,8 +296,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/screenshots/itron-2026-06-20T183633.png
 security:

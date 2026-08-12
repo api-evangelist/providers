@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Single-endpoint GraphQL API (queries, mutations and websocket subscriptions) for building display, control and monitoring apps on top of Soundtrack — now-playing, playback control, device pairing, sch
@@ -170,13 +170,13 @@ overview: 'Soundtrack Your Brand publishes 1 API on the [APIs.io](https://apis.i
 random_paper: 70
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 48.6
+  delta: -1.1
   facets:
     commercial_clarity: 44.7
     contract_quality: 63.0
     developer_ergonomics: 56.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 36.8
   previous_composite: 49.7
@@ -184,8 +184,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

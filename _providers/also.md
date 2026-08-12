@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-08-10'
+  score: 39.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,6 +48,10 @@ apis:
   slug: also-search-api
 artifact_total: 12
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/also-storefront-json-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -203,7 +207,7 @@ network: true
 overview: 'Also publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Cart API, Collections API, Products API, and 1 more. Tagged areas include Company, Micromobility, Electric Vehicles, Transportation, and E-Commerce.
 
 
-  Also''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+  Also''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 random_paper: 83
 rate_limits:
 - limit_count: 0
@@ -216,16 +220,16 @@ scopes:
   summary_line: 5 scopes · authorizationCode/refreshToken/urn:ietf:params:oauth:grant-type:jwt-bearer
 score:
   band: developing
-  composite: 44.2
-  delta: -0.2
+  composite: 43.5
+  delta: -0.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 55.4
+    contract_quality: 56.9
     developer_ergonomics: 53.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 44.4
+  previous_composite: 44.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -233,11 +237,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/screenshots/also-2026-08-07T161241.png
 security:

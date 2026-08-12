@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 215
   human_in_the_loop: 1
@@ -811,6 +811,10 @@ apis:
   slug: amcs-group-zone-api
 artifact_total: 261
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amcs-group-core-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -930,17 +934,17 @@ network: true
 overview: 'AMCS Group publishes 257 APIs on the [APIs.io](https://apis.io/) network, including AccessGroup API, AccessPassHistory API, AccountBalance API, and 254 more. Tagged areas include Company, Waste Management, Recycling, Transport, and Logistics.
 
 
-  AMCS Group''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 19 more developer resources.'
+  AMCS Group''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 20 more developer resources.'
 random_paper: 94
 score:
   band: thin
-  composite: 40.8
-  delta: 0.0
+  composite: 39.5
+  delta: -1.3
   facets:
     commercial_clarity: 21.1
-    contract_quality: 42.5
+    contract_quality: 40.9
     developer_ergonomics: 73.4
-    discoverability: 74.1
+    discoverability: 63.0
     governance: 11.5
     operational_transparency: 21.1
   previous_composite: 40.8
@@ -960,8 +964,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/screenshots/amcs-group-2026-07-25T200033.png
 security:

@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-10'
+  score: 44.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,6 +36,14 @@ apis:
   slug: amber-electric-cdr-energy-api
 artifact_total: 8
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/amberelectric/public-api/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/amberelectric/public-api/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -184,7 +192,7 @@ network: true
 overview: 'Amber Electric publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Energy, Australia, Electricity, Utilities, and Consumer Data Right.
 
 
-  Amber Electric''s developer surface includes authentication, code examples, documentation, API reference, engineering blog, support, pricing, and 26 more developer resources.'
+  Amber Electric''s developer surface includes authentication, code examples, documentation, API reference, engineering blog, support, pricing, and 28 more developer resources.'
 random_paper: 15
 rate_limits:
 - limit_count: 1
@@ -197,11 +205,11 @@ scopes:
   summary_line: 16 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 51.4
-  delta: 0.0
+  composite: 48.3
+  delta: -3.1
   facets:
     commercial_clarity: 44.7
-    contract_quality: 54.0
+    contract_quality: 51.9
     developer_ergonomics: 51.6
     discoverability: 87.0
     governance: 20.8
@@ -222,9 +230,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 74.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 56.8
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/screenshots/amber-electric-2026-08-07T161314.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -185,11 +185,11 @@ rules:
   slug: triple-whale-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 57.4
-  delta: 0.0
+  composite: 56.7
+  delta: -0.7
   facets:
     commercial_clarity: 57.9
-    contract_quality: 77.5
+    contract_quality: 74.6
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 58.3
@@ -202,8 +202,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/screenshots/triple-whale-2026-06-20T195726.png
 security:

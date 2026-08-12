@@ -21,25 +21,29 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-10'
+  score: 37.6
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Accounts Payable and Receivable REST API for issuing invoices, accepting crypto and fiat payments, running payroll, and managing organizations and clients. JSON request and response bodies, Bearer
   name: Request Finance AP and AR API
   slug: request-finance-ap-and-ar-api
-artifact_total: 7
+artifact_total: 8
 asyncapis:
 - description: ''
   name: Request Webhooks
   slug: request-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/request-mcp.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -148,6 +152,10 @@ created: '2026-07-17'
 description: Request Finance is a crypto and fiat invoicing, payments, and payroll platform that lets businesses issue invoices, accept payments in crypto and fiat, pay contractors and employees, and manage accounts payable and receivable. Its Accounts Payable and Receivable (AP/AR) REST API lets developers programmatically create and send invoices, run off-chain and on-chain payroll payments, track invoice status without polling blockchains or bank accounts, manage organizations and clients, and download invoice PDFs. Invoices are settled through the Request Network protocol across many EVM chains and stablecoins, with crypto-to-fiat settlement via banking partners. The API uses Bearer authentication (API keys for quick starts, OAuth 2.0 / OIDC via Auth0 for production), real-time webhooks with HMAC-signed payloads, and a Sepolia testnet sandbox. Request Finance is backed by Balderton Capital.
 image: https://www.request.finance/
 layout: provider
+mcp_servers:
+- description: ''
+  name: request-mcp.yml
+  slug: request-mcpyml
 modified: '2026-07-20'
 name: Request Finance
 nav: Providers
@@ -158,7 +166,7 @@ overview: 'Request Finance publishes 1 API on the [APIs.io](https://apis.io/) ne
   The Request Finance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Request Finance''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 19 more developer resources.'
+  Request Finance''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 20 more developer resources.'
 random_paper: 81
 rate_limits:
 - limit_count: 3
@@ -171,13 +179,13 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 50.2
-  delta: 0.0
+  composite: 49.7
+  delta: -0.5
   facets:
     commercial_clarity: 28.9
     contract_quality: 51.6
-    developer_ergonomics: 62.5
-    discoverability: 87.0
+    developer_ergonomics: 64.7
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 68.4
   previous_composite: 50.2
@@ -191,8 +199,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 50.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

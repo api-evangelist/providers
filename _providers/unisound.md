@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 15.8
-  scored_at: '2026-08-10'
+  score: 19.4
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: 'Multi-modal MaaS API for Unisound U2 models: OpenAI-compatible chat completions and Anthropic-compatible messages for the U2 and U2-Med LLMs (streaming, function calling, structured output, context ca'
@@ -170,8 +170,8 @@ rate_limits:
   slug: unisound-rate-limits
 score:
   band: developing
-  composite: 43.8
-  delta: 0.0
+  composite: 43.3
+  delta: -0.5
   facets:
     commercial_clarity: 76.3
     contract_quality: 0.0
@@ -185,11 +185,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 34.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Health
+    regime_id: health
+    score: 31.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

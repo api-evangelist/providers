@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Apache Cordova provides a JavaScript plugin API for accessing native device capabilities (camera, GPS, file system, contacts, etc.), a CLI for project management and multi-platform builds, a plugin de
@@ -36,6 +36,18 @@ apis:
   slug: apache-cordova
 artifact_total: 36
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apache/cordova/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/cordova/blob/master/CONTRIBUTING.md
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -179,7 +191,7 @@ overview: 'Apache Cordova publishes 1 API on the [APIs.io](https://apis.io/) net
   The Apache Cordova catalog on APIs.io includes 3 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Apache Cordova''s developer surface includes developer portal, engineering blog, release notes, documentation, getting-started guide, support, Stack Overflow tag, and 7 more developer resources.'
+  Apache Cordova''s developer surface includes developer portal, engineering blog, release notes, documentation, getting-started guide, support, Stack Overflow tag, and 10 more developer resources.'
 plans:
 - name: Apache Cordova Plans Pricing
   plan_count: 3
@@ -199,20 +211,20 @@ rules:
     warn: 3
   slug: apache-cordova-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 45.7
-  delta: 0.0
+  band: thin
+  composite: 37.8
+  delta: -7.9
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 33.9
     developer_ergonomics: 41.3
     discoverability: 59.3
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 45.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/screenshots/apache-cordova-2026-06-20T172048.png
 security:
 - kind: domain-security

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 54.7
-  scored_at: '2026-08-10'
+  score: 51.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 2
@@ -68,6 +68,10 @@ asyncapis:
   name: Axle Energy Dispatch Webhooks
   slug: axle-energy-dispatch-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/axle-energy-api-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -170,17 +174,17 @@ overview: 'Axle Energy publishes 8 APIs on the [APIs.io](https://apis.io/) netwo
   The Axle Energy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Axle Energy''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 15 more developer resources.'
+  Axle Energy''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 16 more developer resources.'
 random_paper: 77
 score:
   band: thin
-  composite: 37.4
-  delta: 0.0
+  composite: 35.9
+  delta: -1.5
   facets:
     commercial_clarity: 0.0
-    contract_quality: 65.1
+    contract_quality: 62.7
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
   previous_composite: 37.4
@@ -200,8 +204,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/screenshots/axle-energy-2026-07-25T202055.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -143,16 +143,16 @@ rate_limits:
   name: Elastic Stack Rate Limits
   slug: elastic-stack-rate-limits
 score:
-  band: developing
-  composite: 45.4
-  delta: 0.0
+  band: thin
+  composite: 37.2
+  delta: -8.2
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 50.0
+    commercial_clarity: 55.3
+    contract_quality: 48.4
     developer_ergonomics: 15.2
     discoverability: 72.2
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 45.4
   provenance:
     agentic_access: derived
@@ -161,9 +161,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/elastic-stack/refs/heads/main/screenshots/elastic-stack-2026-06-20T180536.png
 security:
 - kind: domain-security

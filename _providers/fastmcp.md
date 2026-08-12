@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: The FastMCP Server is the Python entry point for exposing tools, resources, prompts, and apps to any Model Context Protocol client. Developers instantiate a `FastMCP` server object and register compon
@@ -41,6 +41,26 @@ apis:
   slug: fastmcp-cli
 artifact_total: 45
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/PrefectHQ/fastmcp/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/PrefectHQ/fastmcp/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/PrefectHQ/fastmcp/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/PrefectHQ/fastmcp/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/PrefectHQ/fastmcp/blob/main/CONTRIBUTING.md
 - group: other
   title: ''
   type: AgentCard
@@ -221,22 +241,22 @@ network: true
 overview: 'FastMCP publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include MCP, Model Context Protocol, Python, Framework, and Open Source.
 
 
-  FastMCP''s developer surface includes developer portal, getting-started guide, documentation, changelog, release notes, FAQ, and 20 more developer resources.'
+  FastMCP''s developer surface includes developer portal, getting-started guide, documentation, changelog, release notes, FAQ, and 25 more developer resources.'
 random_paper: 54
 score:
   band: emerging
-  composite: 17.1
-  delta: 0.0
+  composite: 19.3
+  delta: 2.2
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 34.8
+    developer_ergonomics: 39.1
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 31.6
   previous_composite: 17.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastmcp/refs/heads/main/screenshots/fastmcp-2026-06-20T181055.png
 security:

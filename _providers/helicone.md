@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 201
   human_in_the_loop: 1
@@ -2031,16 +2031,16 @@ rules:
     warn: 3
   slug: helicone-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 62.5
-  delta: 0.0
+  band: developing
+  composite: 55.0
+  delta: -7.5
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 46.2
+    commercial_clarity: 60.5
+    contract_quality: 44.5
     developer_ergonomics: 50.0
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 58.3
-    operational_transparency: 78.9
+    operational_transparency: 55.3
   previous_composite: 62.5
   provenance:
     agentic_access: derived
@@ -2049,9 +2049,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 33
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/helicone/refs/heads/main/screenshots/helicone-2026-06-20T182620.png
 security:
 - kind: authentication

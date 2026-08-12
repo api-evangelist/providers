@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 2
@@ -75,6 +75,10 @@ collections:
   name: Supermicro Redfish API
   slug: open-supermicro-redfish
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/supermicro/redfish/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -160,7 +164,7 @@ overview: 'Super Micro Computer publishes 10 APIs on the [APIs.io](https://apis.
   The Super Micro Computer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Super Micro Computer''s developer surface includes authentication, documentation, engineering blog, support, pricing, and 6 more developer resources.'
+  Super Micro Computer''s developer surface includes authentication, documentation, engineering blog, support, pricing, and 7 more developer resources.'
 plans:
 - name: Super Micro Computer Plans Pricing
   plan_count: 3
@@ -189,15 +193,15 @@ rules:
   slug: supermicro-redfish-rules
 score:
   band: developing
-  composite: 53.6
-  delta: 0.0
+  composite: 45.1
+  delta: -8.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 69.8
+    commercial_clarity: 26.3
+    contract_quality: 67.2
     developer_ergonomics: 34.8
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 53.6
   provenance:
     agentic_access: derived
@@ -206,9 +210,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/screenshots/super-micro-computer-2026-06-20T194706.png
 security:
 - kind: authentication

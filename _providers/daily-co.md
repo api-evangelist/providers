@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 4
@@ -94,6 +94,26 @@ collections:
   name: Daily REST API
   slug: open-daily-co
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/pipecat-ai/pipecat/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/pipecat-ai/pipecat/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/pipecat-ai/pipecat/blob/main/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/pipecat-ai/pipecat/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/pipecat-ai/pipecat/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -172,7 +192,7 @@ overview: 'Daily publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
   The Daily catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Daily''s developer surface includes authentication, documentation, pricing, engineering blog, GitHub presence, and 9 more developer resources.'
+  Daily''s developer surface includes authentication, documentation, pricing, engineering blog, GitHub presence, and 14 more developer resources.'
 plans:
 - name: Daily Co Plans Pricing
   plan_count: 5
@@ -183,16 +203,16 @@ rate_limits:
   name: Daily Co Rate Limits
   slug: daily-co-rate-limits
 score:
-  band: developing
-  composite: 46.5
-  delta: 0.0
+  band: thin
+  composite: 41.6
+  delta: -4.9
   facets:
-    commercial_clarity: 57.9
-    contract_quality: 65.5
+    commercial_clarity: 34.2
+    contract_quality: 63.4
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 55.3
   previous_composite: 46.5
   provenance:
     agentic_access: derived
@@ -201,8 +221,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/screenshots/daily-co-2026-06-20T175440.png
 security:

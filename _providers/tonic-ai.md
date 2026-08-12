@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -66,6 +66,10 @@ collections:
   name: Tonic Structural REST API
   slug: open-tonic-ai
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/TonicAI/tonic_validate/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -125,7 +129,7 @@ network: true
 overview: 'Tonic.ai publishes 3 APIs on the [APIs.io](https://apis.io/) network: Generate Data API, Table Relationships API, and Workspaces API. Tagged areas include Synthetic Data, De-Identification, Privacy, Unstructured Data, and RAG Evaluation.
 
 
-  Tonic.ai''s developer surface includes authentication, documentation, GitHub presence, and 8 more developer resources.'
+  Tonic.ai''s developer surface includes authentication, documentation, GitHub presence, and 9 more developer resources.'
 plans:
 - name: Tonic Ai Plans Pricing
   plan_count: 1
@@ -137,13 +141,13 @@ rate_limits:
   slug: tonic-ai-rate-limits
 score:
   band: thin
-  composite: 33.9
-  delta: 0.0
+  composite: 34.1
+  delta: 0.2
   facets:
     commercial_clarity: 28.9
-    contract_quality: 53.5
+    contract_quality: 51.5
     developer_ergonomics: 19.6
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 33.9
@@ -154,8 +158,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tonic-ai/refs/heads/main/screenshots/tonic-ai-2026-06-20T195451.png
 security:

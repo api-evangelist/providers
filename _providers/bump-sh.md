@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,7 +30,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -90,6 +91,22 @@ collections:
   name: Bump.sh Api Branches Versions API
   slug: postman-bump-sh-versions-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/bump-sh/cli/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/bump-sh/cli/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/bump-sh/.github/blob/main/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/bump-sh/cli/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -292,7 +309,7 @@ overview: 'Bump.sh publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
   The Bump.sh catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Bump.sh''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, changelog, signup flow, and 16 more developer resources.'
+  Bump.sh''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, changelog, signup flow, and 20 more developer resources.'
 plans:
 - name: Bump Sh Plans Pricing
   plan_count: 4
@@ -320,16 +337,16 @@ rules:
     warn: 4
   slug: bump-sh-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 57.6
-  delta: 0.0
+  band: developing
+  composite: 50.9
+  delta: -6.7
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 65.7
+    commercial_clarity: 39.5
+    contract_quality: 67.0
     developer_ergonomics: 32.6
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 47.9
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 57.6
   provenance:
     agentic_access: derived
@@ -338,9 +355,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bump-sh/refs/heads/main/screenshots/bump-sh-2026-06-20T173758.png
 security:
 - kind: authentication

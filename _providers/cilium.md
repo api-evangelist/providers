@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -81,6 +81,26 @@ collections:
   name: Cilium API
   slug: open-cilium-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/cilium/cilium/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/cilium/cilium/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/cilium/cilium/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/cilium/cilium/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/cilium/cilium/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -164,7 +184,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/cilium-api-openapi.yml
+  url: openapi/_original/cilium-api-openapi.yml
 - group: design
   title: ''
   type: Spectral
@@ -196,7 +216,7 @@ overview: 'Cilium publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
   The Cilium catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Cilium''s developer surface includes documentation, getting-started guide, engineering blog, support, changelog, YouTube channel, Stack Overflow tag, and 15 more developer resources.'
+  Cilium''s developer surface includes documentation, getting-started guide, engineering blog, support, changelog, YouTube channel, Stack Overflow tag, and 20 more developer resources.'
 plans:
 - name: Cilium Plans Pricing
   plan_count: 2
@@ -225,15 +245,15 @@ rules:
   slug: cilium-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.1
-  delta: 0.0
+  composite: 45.7
+  delta: -5.4
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 65.2
+    commercial_clarity: 34.2
+    contract_quality: 63.1
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 52.1
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 51.1
   provenance:
     agentic_access: derived
@@ -242,9 +262,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/screenshots/cilium-2026-06-20T174342.png
 security:
 - kind: domain-security

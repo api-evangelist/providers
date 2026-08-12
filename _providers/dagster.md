@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -70,6 +70,26 @@ collections:
   name: Dagster External Assets REST API
   slug: open-dagster-external-assets-rest-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/dagster-io/dagster/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/dagster-io/dagster/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/dagster-io/dagster/blob/master/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/dagster-io/dagster/blob/master/.github/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/dagster-io/dagster/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -227,7 +247,7 @@ overview: 'Dagster publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
   The Dagster catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Dagster''s developer surface includes authentication, developer portal, signup flow, documentation, API reference, getting-started guide, engineering blog, and 23 more developer resources.'
+  Dagster''s developer surface includes authentication, developer portal, signup flow, documentation, API reference, getting-started guide, engineering blog, and 28 more developer resources.'
 plans:
 - name: Dagster Plans Pricing
   plan_count: 3
@@ -256,15 +276,15 @@ rules:
   slug: dagster-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 63.3
-  delta: 0.0
+  composite: 58.2
+  delta: -5.1
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 72.1
+    commercial_clarity: 60.5
+    contract_quality: 69.4
     developer_ergonomics: 63.0
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 31.3
-    operational_transparency: 63.2
+    operational_transparency: 39.5
   previous_composite: 63.3
   provenance:
     agentic_access: derived
@@ -273,9 +293,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/screenshots/dagster-2026-06-20T175440.png
 security:
 - kind: authentication

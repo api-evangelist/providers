@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The Glia platform REST API. Serves operators, sites, engagements, queues and reporting resources over api.glia.com (US) and api.glia.eu (EU). Authentication is a bearer token minted from an API key id
@@ -32,6 +32,14 @@ apis:
   slug: glia-visitor-js-sdk
 artifact_total: 8
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/salemove/glia-functions-tools/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/salemove/glia-functions-tools/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -179,17 +187,17 @@ network: true
 overview: 'Glia publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Service, Contact Center, Banking, and Credit Unions.
 
 
-  Glia''s developer surface includes documentation, API reference, engineering blog, support, pricing, CLI, authentication, and 26 more developer resources.'
+  Glia''s developer surface includes documentation, API reference, engineering blog, support, pricing, CLI, authentication, and 28 more developer resources.'
 random_paper: 65
 score:
-  band: developing
-  composite: 42.9
-  delta: 0.0
+  band: thin
+  composite: 41.3
+  delta: -1.6
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 63.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 12.5
     operational_transparency: 47.4
   previous_composite: 42.9
@@ -199,11 +207,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 50.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 45.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glia/refs/heads/main/screenshots/glia-2026-08-07T165740.png
 security:

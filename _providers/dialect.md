@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -221,13 +222,13 @@ overview: 'Dialect publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 30
 score:
   band: developing
-  composite: 50.4
-  delta: 0.0
+  composite: 49.6
+  delta: -0.8
   facets:
     commercial_clarity: 34.2
-    contract_quality: 67.4
+    contract_quality: 64.9
     developer_ergonomics: 75.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 50.4
@@ -244,11 +245,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 34.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Payments
+    regime_id: payments
+    score: 39.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/screenshots/dialect-2026-07-25T211909.png
 security:

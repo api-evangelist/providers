@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -140,16 +140,16 @@ scopes:
   slug: surveymonkey-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: developing
-  composite: 45.3
-  delta: 0.0
+  band: thin
+  composite: 36.8
+  delta: -8.5
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 66.7
+    commercial_clarity: 23.7
+    contract_quality: 64.2
     developer_ergonomics: 13.0
     discoverability: 74.1
     governance: 41.7
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 45.3
   provenance:
     agentic_access: derived
@@ -158,9 +158,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/screenshots/surveymonkey-2026-06-20T194739.png
 security:
 - kind: authentication

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-08-10'
+  score: 36.7
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The Pkg API from Jetify — 1 operation(s) for pkg.
@@ -42,6 +42,10 @@ apis:
   slug: jetify-search-api
 artifact_total: 6
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/jetify-nixhub-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -161,17 +165,17 @@ network: true
 overview: 'Jetify publishes 3 APIs on the [APIs.io](https://apis.io/) network: Pkg API, Resolve API, and Search API. Tagged areas include Company, Enterprise, Developer Tools, Nix, and Package Management.
 
 
-  Jetify''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, CLI, authentication, and 19 more developer resources.'
+  Jetify''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, CLI, authentication, and 20 more developer resources.'
 random_paper: 71
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 44.9
+  delta: -1.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 58.1
+    contract_quality: 56.0
     developer_ergonomics: 53.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
   previous_composite: 46.6
@@ -184,8 +188,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jetify/refs/heads/main/screenshots/jetify-2026-07-25T223137.png
 security:

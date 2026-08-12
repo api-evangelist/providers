@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 6
@@ -78,6 +78,10 @@ apis:
   slug: opkey-xctest-automation-api
 artifact_total: 20
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/opkey-pcloudy-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -194,20 +198,20 @@ network: true
 overview: 'Opkey publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Apk Instrumentation API, Apk Instrumentation Apis API, App Center Api API, and 12 more. Tagged areas include Company, Testing, Test Automation, Quality Assurance, and DevOps.
 
 
-  Opkey''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 18 more developer resources.'
+  Opkey''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 19 more developer resources.'
 random_paper: 88
 score:
   band: developing
-  composite: 51.5
-  delta: -0.3
+  composite: 51.8
+  delta: 0.3
   facets:
     commercial_clarity: 52.6
-    contract_quality: 62.8
+    contract_quality: 64.2
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 51.8
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -215,11 +219,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/screenshots/opkey-2026-08-07T190728.png
 security:

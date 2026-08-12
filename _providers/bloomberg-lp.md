@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -305,11 +305,11 @@ rules:
   slug: openfigi-rules
 score:
   band: strong
-  composite: 61.3
-  delta: 0.0
+  composite: 60.7
+  delta: -0.6
   facets:
     commercial_clarity: 84.2
-    contract_quality: 75.2
+    contract_quality: 72.4
     developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 68.8
@@ -328,8 +328,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-lp/refs/heads/main/screenshots/bloomberg-lp-2026-06-20T173441.png
 security:

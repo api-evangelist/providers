@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: true
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 54.1
-  scored_at: '2026-08-10'
+  score: 39.0
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: Auth0-backed OAuth 2.0 / OpenID Connect authorization server that issues the bearer tokens the Buoy Symptom Checker API requires. Publishes anonymous RFC 8414 authorization-server metadata and OIDC di
@@ -180,22 +180,34 @@ scopes:
   summary_line: 14 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.9
+  composite: 47.8
+  delta: -1.1
   facets:
     commercial_clarity: 28.9
-    contract_quality: 54.0
-    developer_ergonomics: 67.4
+    contract_quality: 57.9
+    developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 10.5
+  previous_composite: 48.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 66.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Buoy Health Authentication

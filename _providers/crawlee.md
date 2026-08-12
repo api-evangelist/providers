@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The Crawlee JavaScript SDK is a Node.js/TypeScript library for building reliable web scrapers and crawlers. It provides a family of crawler classes - BasicCrawler, HttpCrawler, CheerioCrawler, JSDOMCr
@@ -39,6 +39,14 @@ apis:
   slug: crawlee-python-sdk
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apify/crawlee/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apify/crawlee/blob/master/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -102,7 +110,7 @@ network: true
 overview: 'Crawlee publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache 2.0, Apify, Browser Automation, Crawlers, and Harvesting.
 
 
-  Crawlee''s developer surface includes documentation, engineering blog, changelog, and 9 more developer resources.'
+  Crawlee''s developer surface includes documentation, engineering blog, changelog, and 11 more developer resources.'
 plans:
 - name: Crawlee Plans Pricing
   plan_count: 3
@@ -114,19 +122,19 @@ rate_limits:
   slug: crawlee-rate-limits
 score:
   band: emerging
-  composite: 23.7
-  delta: 0.0
+  composite: 15.9
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 15.2
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 23.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/screenshots/crawlee-2026-06-20T175215.png
 security:
 - kind: domain-security

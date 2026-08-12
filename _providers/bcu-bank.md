@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-08-10'
+  score: 37.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -205,13 +205,13 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 42.4
+  delta: -4.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 54.3
+    contract_quality: 52.2
     developer_ergonomics: 36.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 18.4
   previous_composite: 46.4
@@ -230,9 +230,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 84.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 67.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/screenshots/bcu-bank-2026-07-21T114720.png
 security:

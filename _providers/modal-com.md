@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 3
@@ -440,12 +440,12 @@ rules:
     warn: 3
   slug: modal-rules
 score:
-  band: strong
-  composite: 64.8
-  delta: 0.0
+  band: exemplar
+  composite: 66.8
+  delta: 2.0
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 65.8
+    commercial_clarity: 92.1
+    contract_quality: 63.3
     developer_ergonomics: 52.2
     discoverability: 50.0
     governance: 68.8
@@ -458,8 +458,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/screenshots/modal-com-2026-06-20T185747.png
 security:

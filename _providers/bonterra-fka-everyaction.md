@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The EveryAction 8 (EA8) / NGP VAN REST API for nonprofit and campaign CRM data — people matching, contributions, recurring commitments, disbursements, events, survey questions, activist codes, canvass
@@ -131,8 +131,8 @@ score:
   previous_composite: 20.9
   provenance:
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bonterra-fka-everyaction/refs/heads/main/screenshots/bonterra-fka-everyaction-2026-07-25T203601.png
 security:

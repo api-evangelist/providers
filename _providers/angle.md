@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 33.1
-  scored_at: '2026-08-10'
+  score: 39.4
+  scored_at: '2026-08-11'
 api_count: 20
 apis:
 - description: The Allowances API from Angle — 1 operation(s) for allowances.
@@ -91,8 +91,28 @@ apis:
 - description: The Volume API from Angle — 1 operation(s) for volume.
   name: Angle Volume API
   slug: angle-volume-api
-artifact_total: 22
+artifact_total: 23
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/angle-mcp.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/AngleProtocol/angle-core/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/AngleProtocol/angle-core/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/AngleProtocol/angle-core/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/AngleProtocol/angle-core/blob/main/LICENSE
 - group: auth
   title: ''
   type: Authentication
@@ -181,6 +201,10 @@ created: '2026-07-17'
 description: Angle (Angle Labs, Inc.) is a decentralized, over-collateralized stablecoin protocol that issued the euro-pegged EURA and dollar-pegged USDA stablecoins, along with yield-bearing staked versions of each. Its on-chain modules included the Transmuter basket-and-dynamic-fee minting system, a borrowing module for depositing collateral against stablecoin debt, a native savings system, and cross-chain liquidity infrastructure. The protocol is open source under the AngleProtocol GitHub organization and ships a TypeScript SDK for building applications on top of it. Angle has announced the end of its operations — the protocol remains fully collateralized and every USDA and EURA is redeemable 1:1 until 1 March 2027 — and the team's ongoing work has moved to Merkl. Angle exposes smart contracts and a client SDK rather than a documented public REST API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/angle.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: angle-mcp.yml
+  slug: angle-mcpyml
 modified: '2026-07-19'
 name: Angle
 nav: Providers
@@ -188,7 +212,7 @@ network: true
 overview: 'Angle publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Allowances API, Angle Protocol Data API, App API, and 17 more. Tagged areas include Company, Stablecoins, Decentralized Finance, Blockchain, and Cryptocurrency.
 
 
-  Angle''s developer surface includes authentication, documentation, and 19 more developer resources.'
+  Angle''s developer surface includes authentication, documentation, and 24 more developer resources.'
 random_paper: 55
 score:
   band: thin
@@ -196,8 +220,8 @@ score:
   delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 48.7
-    developer_ergonomics: 27.7
+    contract_quality: 46.9
+    developer_ergonomics: 29.9
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 13.2
@@ -211,8 +235,8 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/screenshots/angle-2026-07-25T200241.png
 security:

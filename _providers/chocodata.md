@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API (HTTP + JSON, API-key auth via ?api_key=) returning structured data from a catalog of sites. Endpoints include Product, Search, Universal Web Scraper, and Batch (async). Base host is api.choc
@@ -46,8 +46,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/screenshots/chocodata-2026-07-25T205249.png
 slug: chocodata

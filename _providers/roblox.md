@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: The Roblox Open Cloud API is the official external REST surface for Roblox creators, studios, and partners. It exposes universes, places, place publishing, ordered and standard data stores, memory sto
@@ -189,8 +189,8 @@ rate_limits:
   slug: roblox-rate-limits
 score:
   band: thin
-  composite: 39.9
-  delta: 0.0
+  composite: 40.6
+  delta: 0.7
   facets:
     commercial_clarity: 50.0
     contract_quality: 43.2
@@ -199,14 +199,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 39.9
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 36.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roblox/refs/heads/main/screenshots/roblox-2026-06-20T193141.png
 security:

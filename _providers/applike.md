@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-08-10'
+  score: 49.3
+  scored_at: '2026-08-11'
 api_count: 11
 apis:
 - description: Reporting API exposing the metrics behind the justtrack dashboard — acquisition tables, cohort analysis and event drill-down — as POST endpoints under /reporting/v2 (v1 also documented). Requests carr
@@ -230,26 +230,26 @@ rate_limits:
   slug: applike-rate-limits
 score:
   band: strong
-  composite: 61.6
-  delta: -1.0
+  composite: 60.9
+  delta: -0.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 64.6
+    contract_quality: 65.9
     developer_ergonomics: 60.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 73.7
-  previous_composite: 62.6
+  previous_composite: 61.6
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 7
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/applike/refs/heads/main/screenshots/applike-2026-08-07T161506.png
 security:

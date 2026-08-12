@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-10'
+  score: 42.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -190,6 +190,10 @@ collections:
   name: Microsoft Exchange Microsoft Graph People API
   slug: open-microsoft-exchange-graph-people
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/microsoft-exchange-admin-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -622,7 +626,7 @@ overview: 'Microsoft Exchange publishes 17 APIs on the [APIs.io](https://apis.io
   The Microsoft Exchange catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Microsoft Exchange''s developer surface includes authentication, changelog, CLI, sandbox, developer portal, documentation, getting-started guide, and 54 more developer resources.'
+  Microsoft Exchange''s developer surface includes authentication, changelog, CLI, sandbox, developer portal, documentation, getting-started guide, and 55 more developer resources.'
 plans:
 - name: Microsoft Exchange Plans Pricing
   plan_count: 4
@@ -648,15 +652,15 @@ scopes:
   summary_line: 18 scopes · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 75.2
-  delta: 0.0
+  composite: 66.7
+  delta: -8.5
   facets:
-    commercial_clarity: 84.2
-    contract_quality: 72.2
+    commercial_clarity: 60.5
+    contract_quality: 69.5
     developer_ergonomics: 71.7
     discoverability: 87.0
     governance: 69.8
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 75.2
   provenance:
     agentic_access: derived
@@ -667,9 +671,9 @@ score:
       marker_coverage: 0.0
       total: 17
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/screenshots/microsoft-exchange-2026-06-20T185501.png
 security:
 - kind: authentication

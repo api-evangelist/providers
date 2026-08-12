@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 12
@@ -139,6 +139,10 @@ apis:
   slug: maia-analytics-workspaces-api
 artifact_total: 37
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/maia-analytics-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -230,15 +234,15 @@ network: true
 overview: 'Maia-analytics publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Ah API, analytics API, audit-log API, and 30 more. Tagged areas include Company, Developer Tools, Geospatial, GIS, and Location Intelligence.
 
 
-  Maia-analytics'' developer surface includes documentation, API reference, authentication, and 16 more developer resources.'
+  Maia-analytics'' developer surface includes documentation, API reference, authentication, and 17 more developer resources.'
 random_paper: 29
 score:
   band: thin
-  composite: 36.6
-  delta: 0.0
+  composite: 36.1
+  delta: -0.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 54.4
+    contract_quality: 52.4
     developer_ergonomics: 29.9
     discoverability: 81.5
     governance: 11.5
@@ -254,8 +258,8 @@ score:
       total: 33
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maia-analytics/refs/heads/main/screenshots/maia-analytics-2026-07-25T225910.png
 security:

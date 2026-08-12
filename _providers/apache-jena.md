@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -55,6 +55,26 @@ apis:
   slug: apache-jena-sparql-update-api
 artifact_total: 46
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apache/jena/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/apache/jena/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/jena/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/jena/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -201,7 +221,7 @@ overview: 'Apache Jena publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
   The Apache Jena catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache Jena''s developer surface includes documentation, getting-started guide, and 9 more developer resources.'
+  Apache Jena''s developer surface includes documentation, getting-started guide, and 14 more developer resources.'
 plans:
 - name: Apache Jena Plans Pricing
   plan_count: 3
@@ -230,15 +250,15 @@ rules:
   slug: apache-jena-spectral-rules
 score:
   band: developing
-  composite: 51.0
-  delta: 0.0
+  composite: 44.0
+  delta: -7.0
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 62.0
+    commercial_clarity: 26.3
+    contract_quality: 59.7
     developer_ergonomics: 19.6
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 51.0
   provenance:
     agentic_access: derived
@@ -247,9 +267,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-jena/refs/heads/main/screenshots/apache-jena-2026-06-20T172111.png
 security:
 - kind: domain-security

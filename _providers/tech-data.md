@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -214,15 +214,15 @@ rules:
   slug: tech-data-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.2
-  delta: 0.0
+  composite: 42.6
+  delta: -8.6
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 76.0
+    commercial_clarity: 50.0
+    contract_quality: 73.1
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 31.3
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 51.2
   provenance:
     agentic_access: derived
@@ -231,9 +231,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/screenshots/tech-data-2026-06-20T195006.png
 security:
 - kind: authentication

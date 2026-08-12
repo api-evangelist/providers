@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -402,11 +402,11 @@ rules:
   slug: cellulant-rules
 score:
   band: strong
-  composite: 57.5
-  delta: 0.0
+  composite: 59.1
+  delta: 1.6
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 79.3
+    commercial_clarity: 52.6
+    contract_quality: 76.4
     developer_ergonomics: 67.4
     discoverability: 64.8
     governance: 68.8
@@ -425,8 +425,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cellulant/refs/heads/main/screenshots/cellulant-2026-06-20T174113.png
 security:

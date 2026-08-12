@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Bruno is an open-source API client for exploring and testing REST, GraphQL, and gRPC APIs. Collections are stored as plain text Bru files on the filesystem, enabling Git-based version control, team co
@@ -36,6 +36,18 @@ apis:
   slug: api-client
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/usebruno/bruno/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/usebruno/bruno/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/usebruno/bruno/blob/main/contributing.md
 - group: auth
   title: ''
   type: TrustCenter
@@ -115,7 +127,7 @@ network: true
 overview: 'Bruno publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Client, API Testing, CLI, Git, and GraphQL.
 
 
-  Bruno''s developer surface includes documentation, engineering blog, pricing, and 12 more developer resources.'
+  Bruno''s developer surface includes documentation, engineering blog, pricing, and 15 more developer resources.'
 plans:
 - name: Bruno Plans Pricing
   plan_count: 3
@@ -126,20 +138,20 @@ rate_limits:
   name: Bruno Rate Limits
   slug: bruno-rate-limits
 score:
-  band: thin
-  composite: 30.5
-  delta: 0.0
+  band: emerging
+  composite: 25.4
+  delta: -5.1
   facets:
-    commercial_clarity: 78.9
+    commercial_clarity: 55.3
     contract_quality: 0.0
     developer_ergonomics: 15.2
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 30.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/bruno/refs/heads/main/screenshots/bruno-2026-06-20T173730.png
 security:
 - kind: domain-security

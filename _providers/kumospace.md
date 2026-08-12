@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     auth_clarity: false
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-08-10'
+  score: 23.6
+  scored_at: '2026-08-11'
 api_count: 23
 apis:
 - description: The Account API from Kumospace — 6 operation(s) for account.
@@ -100,8 +100,20 @@ apis:
 - description: The Zones API from Kumospace — 5 operation(s) for zones.
   name: Kumospace Zones API
   slug: kumospace-zones-api
-artifact_total: 26
+artifact_total: 27
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/kumospace-capture-meeting.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/kumospace-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kumospace-api-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -182,6 +194,10 @@ created: '2026-07-17'
 description: Kumospace is a virtual office platform for remote and distributed teams, providing a persistent spatial workspace where colleagues move between rooms and floors, with proximity-based spatial audio and video, team chat channels, scheduled and ad-hoc meetings, recordings, transcription and meeting summaries, and calendar integrations with Google Calendar and Microsoft Outlook. Spaces are visually customizable through rooms, zones, floors, walls, furniture and music tracks, and the platform integrates presence status with Zoom and Microsoft Teams. Kumospace operates a publicly reachable REST API at api.kumospace.com, documented with a Swagger UI and an OpenAPI 3.0 description covering spaces, rooms, zones, users, invitations, chat, calendar, recordings, transcription, analytics and payments. The company is headquartered in New York and is backed by Lightspeed Venture Partners.
 image: https://content.kumospace.com/hubfs/LinkPreviewImage@2x-1.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: kumospace-mcp.yml
+  slug: kumospace-mcpyml
 modified: '2026-07-19'
 name: Kumospace
 nav: Providers
@@ -189,16 +205,16 @@ network: true
 overview: 'Kumospace publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Account API, Analytics API, Calendar API, and 20 more. Tagged areas include Company, Virtual Office, Remote Work, Collaboration, and Video Conferencing.
 
 
-  Kumospace''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
+  Kumospace''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
 random_paper: 40
 score:
   band: developing
-  composite: 45.6
-  delta: 0.0
+  composite: 45.9
+  delta: 0.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 50.1
-    developer_ergonomics: 32.6
+    contract_quality: 48.2
+    developer_ergonomics: 36.4
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 21.1
@@ -212,8 +228,8 @@ score:
       total: 23
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kumospace/refs/heads/main/screenshots/kumospace-2026-07-25T224329.png
 security:

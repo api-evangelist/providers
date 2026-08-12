@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: A suite of APIs published by the OIT Integrations Team providing access to frequently used and requested University data sourced from the Common Data Layer (CDL). Includes Person Basic Information, Cl
@@ -133,8 +133,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/screenshots/university-of-minnesota-2026-06-20T200207.png
 security:

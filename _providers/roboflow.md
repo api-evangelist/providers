@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -108,6 +108,10 @@ apis:
   slug: roboflow-yolo-world-api
 artifact_total: 33
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/roboflow-inference-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -259,7 +263,7 @@ network: true
 overview: 'Roboflow publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Clip API, Dashboard.html API, Doctr API, and 21 more. Tagged areas include Computer Vision, Machine Learning, Artificial Intelligence, Object Detection, and Image Annotation.
 
 
-  Roboflow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+  Roboflow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 random_paper: 62
 rate_limits:
 - limit_count: 3
@@ -272,23 +276,28 @@ scopes:
   summary_line: 67 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.4
-  delta: -0.5
+  composite: 59.0
+  delta: 0.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 45.4
+    contract_quality: 47.5
     developer_ergonomics: 71.7
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 68.4
-  previous_composite: 58.9
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 24
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

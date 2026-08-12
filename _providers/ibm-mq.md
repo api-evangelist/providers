@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -212,15 +212,15 @@ rules:
   slug: ibm-mq-rules
 score:
   band: developing
-  composite: 48.8
-  delta: 0.0
+  composite: 43.3
+  delta: -5.5
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 75.0
+    commercial_clarity: 26.3
+    contract_quality: 72.5
     developer_ergonomics: 28.3
     discoverability: 63.0
     governance: 52.1
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 48.8
   provenance:
     agentic_access: derived
@@ -229,15 +229,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 31.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-mq/refs/heads/main/screenshots/ibm-mq-2026-06-20T183135.png
 security:
 - kind: authentication

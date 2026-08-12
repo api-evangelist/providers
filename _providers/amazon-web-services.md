@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3518
   human_in_the_loop: 147
@@ -5550,15 +5550,15 @@ rules:
   slug: amazon-web-services-spectral-rules
 score:
   band: emerging
-  composite: 25.6
-  delta: 0.0
+  composite: 18.5
+  delta: -7.1
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 31.8
+    commercial_clarity: 15.8
+    contract_quality: 30.6
     developer_ergonomics: 2.2
     discoverability: 40.7
     governance: 20.8
-    operational_transparency: 21.1
+    operational_transparency: 5.3
   previous_composite: 25.6
   provenance:
     agentic_access: derived
@@ -5567,9 +5567,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1804
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/screenshots/amazon-web-services-2026-06-20T171845.png
 slug: amazon-web-services
 tags:

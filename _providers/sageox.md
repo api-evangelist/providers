@@ -1,9 +1,10 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: flavored
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
@@ -11,14 +12,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: verified
     rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-10'
+  score: 52.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 105
   human_in_the_loop: 3
@@ -97,8 +98,20 @@ apis:
 - description: Manage user profiles, preferences, API keys, and account settings. Preferences control notification delivery, theme, and feature opt-ins. API keys authenticate CLI and programmatic access.
   name: Sageox Users API
   slug: sageox-users-api
-artifact_total: 27
+artifact_total: 28
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/sageox-capture-a-recording.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/sageox-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sageox-openapi-overlay.yaml
 - group: other
   title: ''
   type: AgentCard
@@ -106,6 +119,10 @@ common:
 created: '2026-07-17'
 description: Sageox is a company surfaced as a portfolio company of canaan-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 layout: provider
+mcp_servers:
+- description: ''
+  name: sageox-mcp.yml
+  slug: sageox-mcpyml
 modified: '2026-07-17'
 name: Sageox
 nav: Providers
@@ -119,13 +136,13 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 22.7
-  delta: 0.0
+  composite: 23.0
+  delta: 0.3
   facets:
     commercial_clarity: 0.0
-    contract_quality: 64.5
-    developer_ergonomics: 0.0
-    discoverability: 51.9
+    contract_quality: 62.1
+    developer_ergonomics: 10.3
+    discoverability: 40.7
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 22.7
@@ -139,8 +156,8 @@ score:
       total: 23
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

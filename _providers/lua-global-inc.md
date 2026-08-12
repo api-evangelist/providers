@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 52.5
-  scored_at: '2026-08-10'
+  score: 48.9
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Consume a deployed Lua agent directly over HTTP — single-shot generation or real-time SSE streaming — with bearer API-key auth.
@@ -174,13 +175,13 @@ overview: 'Lua Global Inc publishes 1 API on the [APIs.io](https://apis.io/) net
 random_paper: 75
 score:
   band: developing
-  composite: 43.8
-  delta: 0.0
+  composite: 42.7
+  delta: -1.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 51.6
     developer_ergonomics: 73.4
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 55.3
   previous_composite: 43.8
@@ -188,8 +189,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lua-global-inc/refs/heads/main/screenshots/lua-global-inc-2026-07-25T225637.png
 security:

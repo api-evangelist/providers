@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -416,15 +416,15 @@ rules:
   slug: oracle-essbase-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.9
-  delta: 0.0
+  composite: 56.0
+  delta: -5.9
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 75.2
+    commercial_clarity: 47.4
+    contract_quality: 72.4
     developer_ergonomics: 50.0
     discoverability: 59.3
     governance: 58.3
-    operational_transparency: 57.9
+    operational_transparency: 42.1
   previous_composite: 61.9
   provenance:
     agentic_access: derived
@@ -433,9 +433,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-essbase/refs/heads/main/screenshots/oracle-essbase-2026-06-20T191127.png
 security:
 - kind: authentication

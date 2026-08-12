@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -184,12 +184,12 @@ rules:
   slug: idle-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.3
-  delta: 0.0
+  composite: 49.5
+  delta: 0.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 71.1
-    developer_ergonomics: 21.7
+    contract_quality: 68.4
+    developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 5.3
@@ -201,8 +201,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idle/refs/heads/main/screenshots/idle-2026-06-20T183210.png
 security:

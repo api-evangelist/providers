@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,10 +99,6 @@ common:
   title: ''
   type: Email
   url: mailto:support@pivotbio.com
-- group: other
-  title: ''
-  type: Phone
-  url: tel:+18774511977
 - group: company
   title: ''
   type: LinkedIn
@@ -135,7 +131,7 @@ network: true
 overview: 'Pivot Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, AgTech, Biotechnology, Synthetic Biology, and Microbial Nitrogen.
 
 
-  Pivot Bio''s developer surface includes FAQ, product news, engineering blog, developer portal, YouTube channel, and 18 more developer resources.'
+  Pivot Bio''s developer surface includes FAQ, product news, engineering blog, developer portal, YouTube channel, and 17 more developer resources.'
 random_paper: 109
 score:
   band: minimal
@@ -149,8 +145,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pivot-bio/refs/heads/main/screenshots/pivot-bio-2026-06-20T191735.png
 security:

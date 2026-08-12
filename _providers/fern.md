@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Fern transforms a single API source of truth (OpenAPI, AsyncAPI, Protobuf, OpenRPC, or the Fern Definition Language) into type-safe SDKs in nine languages, branded interactive documentation with API e
@@ -36,6 +36,22 @@ apis:
   slug: fern
 artifact_total: 54
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/fern-api/fern/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/fern-api/fern/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/fern-api/fern/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/fern-api/fern/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -290,7 +306,7 @@ overview: 'Fern publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
   The Fern catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Fern''s developer surface includes documentation, CLI, pricing, engineering blog, support, getting-started guide, signup flow, and 21 more developer resources.'
+  Fern''s developer surface includes documentation, CLI, pricing, engineering blog, support, getting-started guide, signup flow, and 25 more developer resources.'
 plans:
 - name: Fern Plans Pricing
   plan_count: 3
@@ -311,19 +327,19 @@ rules:
   slug: fern-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.8
-  delta: 0.0
+  composite: 46.0
+  delta: -7.8
   facets:
-    commercial_clarity: 100.0
+    commercial_clarity: 76.3
     contract_quality: 12.9
     developer_ergonomics: 47.8
     discoverability: 59.3
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 53.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/fern/refs/heads/main/screenshots/fern-2026-06-20T181141.png
 security:
 - kind: domain-security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: The PrestaShop Webservice API enables third-party applications to access and manage shop data through CRUD operations on 60+ resources including products, categories, orders, customers, carriers, stoc
@@ -118,8 +118,8 @@ rate_limits:
   slug: prestashop-rate-limits
 score:
   band: thin
-  composite: 37.9
-  delta: 0.0
+  composite: 33.5
+  delta: -4.4
   facets:
     commercial_clarity: 50.0
     contract_quality: 48.1
@@ -128,8 +128,14 @@ score:
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 37.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 8.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prestashop/refs/heads/main/screenshots/prestashop-2026-06-20T192052.png
 security:

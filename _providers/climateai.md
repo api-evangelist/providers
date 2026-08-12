@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 4
@@ -198,13 +198,13 @@ overview: 'ClimateAI publishes 15 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 9
 score:
   band: developing
-  composite: 43.8
-  delta: 0.0
+  composite: 42.9
+  delta: -0.9
   facets:
     commercial_clarity: 34.2
-    contract_quality: 48.7
+    contract_quality: 49.3
     developer_ergonomics: 56.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 21.9
     operational_transparency: 13.2
   previous_composite: 43.8
@@ -212,14 +212,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 50.0
+      callable: 14.3
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/screenshots/climateai-2026-08-07T163452.png
 security:

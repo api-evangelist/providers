@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Low-code iPaaS for connecting enterprise applications, automating workflows, and unifying data warehouses. Offers 200+ pre-built connectors and a drag-and-drop workflow editor.
@@ -106,20 +106,20 @@ rate_limits:
   name: Locoia Rate Limits
   slug: locoia-rate-limits
 score:
-  band: thin
-  composite: 28.4
-  delta: 0.0
+  band: emerging
+  composite: 21.4
+  delta: -7.0
   facets:
-    commercial_clarity: 63.2
+    commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 15.2
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 28.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/locoia/refs/heads/main/screenshots/locoia-2026-06-20T184640.png
 security:
 - kind: domain-security

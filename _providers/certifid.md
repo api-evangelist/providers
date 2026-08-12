@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 40.5
-  scored_at: '2026-08-10'
+  score: 36.3
+  scored_at: '2026-08-11'
 api_count: 15
 apis:
 - description: The AccountVerifications API from CertifID — 4 operation(s) for accountverifications.
@@ -66,8 +66,12 @@ apis:
 - description: The WiringInstructions API from CertifID — 1 operation(s) for wiringinstructions.
   name: CertifID Wiring Instructions API
   slug: certifid-wiringinstructions-api
-artifact_total: 18
+artifact_total: 19
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/certifid-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -180,6 +184,10 @@ created: '2026-08-09'
 description: CertifID is a wire fraud prevention, identity verification and funds protection platform for the real estate closing process, serving title agents, law firms, real estate agents, lenders and home buyers and sellers. Its products verify the identities of transaction participants, verify business and bank account ownership, securely share and confirm wiring instructions, order and verify mortgage payoffs, collect earnest money and cash-to-close payments, provide secure eSigning, and insure wires against fraud loss. CertifID exposes a public "CertifID V2 APIs" REST surface at api.certifid.com for third-party integrations, documented with a live OpenAPI 3.0.1 definition served from Swagger UI and secured with Auth0-backed OAuth 2.0.
 image: https://cdn.prod.website-files.com/60a41ae959fbb36bd6808d6e/688ce259fd22b6b6905c812d_thumbnail-homepage.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: certifid-mcp.yml
+  slug: certifid-mcpyml
 modified: '2026-08-09'
 name: CertifID
 nav: Providers
@@ -187,7 +195,7 @@ network: true
 overview: 'CertifID publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account Verifications API, Bank Lookup API, Collect Request API, and 12 more. Tagged areas include Company, Wire Fraud Prevention, Real Estate, Title Insurance, and Identity Verification.
 
 
-  CertifID''s developer surface includes API reference, authentication, changelog, signup flow, support, engineering blog, and 21 more developer resources.'
+  CertifID''s developer surface includes API reference, authentication, changelog, signup flow, support, engineering blog, and 22 more developer resources.'
 random_paper: 30
 scopes:
 - name: Certifid Scopes
@@ -196,22 +204,34 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.8
+  composite: 44.5
+  delta: -1.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 40.8
-    developer_ergonomics: 30.4
-    discoverability: 92.6
+    contract_quality: 41.5
+    developer_ergonomics: 27.7
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 36.8
+  previous_composite: 45.8
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Certifid Authentication

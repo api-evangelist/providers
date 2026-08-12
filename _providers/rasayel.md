@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -204,13 +204,13 @@ rate_limits:
   slug: rasayel-rate-limits
 score:
   band: developing
-  composite: 51.0
-  delta: 0.0
+  composite: 52.2
+  delta: 1.2
   facets:
     commercial_clarity: 44.7
-    contract_quality: 58.8
+    contract_quality: 56.6
     developer_ergonomics: 60.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 57.9
   previous_composite: 51.0
@@ -224,14 +224,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 34.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

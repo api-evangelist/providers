@@ -11,21 +11,25 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 13.7
-  scored_at: '2026-08-10'
+  score: 16.4
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The Breeze Airways NDC gateway is the airline's direct-connect distribution API for accredited travel partners. It speaks IATA Offers and Orders (NDC) 21.3 XML over HTTPS on a Navitaire-hosted gateway
   name: Breeze Airways NDC Gateway
   slug: breeze-airways-ndc-gateway
-artifact_total: 4
+artifact_total: 5
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/breeze-airways-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -130,6 +134,10 @@ created: '2026-08-01'
 description: Breeze Airways (Breeze Aviation Group, Inc.) is an American low-cost point-to-point airline headquartered in Cottonwood Heights, Utah, founded by David Neeleman and flying since May 2021. Its distribution technology surface is a partner-facing IATA NDC gateway, documented at the Breeze B2B portal (ndc.flybreeze.com), which exposes IATA Offers and Orders 21.3 XML messages — AirlineProfile, AirShopping, OfferPrice, ServiceList, SeatAvailability and OrderCreate for shopping and selling, plus OrderRetrieve, OrderQuote, OrderReshop and OrderChange for servicing — over a Navitaire-hosted, IP-allowlisted gateway secured with a per-partner Azure API Management subscription key and a 30-minute session bearer token. Access is limited to accredited travel-agency partners (OTA, TMC and US federal government) with an IATA/ARC number and an executed commercial agreement; Breeze also distributes over Amadeus and Travelport GDS and via the TravelPro agent booking portal.
 image: https://ndc.flybreeze.com/img/breeze-b2b-social-card.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: breeze-airways-mcp.yml
+  slug: breeze-airways-mcpyml
 modified: '2026-08-01'
 name: Breeze Airways
 nav: Providers
@@ -137,7 +145,7 @@ network: true
 overview: 'Breeze Airways publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Airlines, Travel, Aviation, and NDC.
 
 
-  Breeze Airways'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, changelog, and 18 more developer resources.'
+  Breeze Airways'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, changelog, and 19 more developer resources.'
 random_paper: 58
 scopes:
 - name: Breeze Airways Scopes
@@ -146,13 +154,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 33.2
-  delta: 0.0
+  composite: 32.5
+  delta: -0.7
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
-    developer_ergonomics: 60.3
-    discoverability: 87.0
+    developer_ergonomics: 62.5
+    discoverability: 75.9
     governance: 12.5
     operational_transparency: 31.6
   previous_composite: 33.2
@@ -160,8 +168,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breeze-airways/refs/heads/main/screenshots/breeze-airways-2026-08-07T162755.png
 security:

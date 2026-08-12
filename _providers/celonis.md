@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 65.1
-  scored_at: '2026-08-10'
+  score: 61.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 5
@@ -147,6 +148,10 @@ collections:
   name: OpenAPI Specification Agents - Conversation Triggers API
   slug: postman-celonis-triggers-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/celonis-knowledge-model-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -309,7 +314,7 @@ overview: 'Celonis publishes 17 APIs on the [APIs.io](https://apis.io/) network,
   The Celonis catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Celonis'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  Celonis'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 random_paper: 53
 scopes:
 - name: Celonis Scopes
@@ -318,11 +323,11 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 65.1
-  delta: 0.0
+  composite: 65.4
+  delta: 0.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.4
+    contract_quality: 69.6
     developer_ergonomics: 86.4
     discoverability: 92.6
     governance: 20.8
@@ -338,8 +343,8 @@ score:
       total: 17
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/screenshots/celonis-2026-07-25T204910.png
 security:

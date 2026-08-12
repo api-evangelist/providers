@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 12.6
-  scored_at: '2026-08-10'
+  score: 9.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Open-source NaCl-based cryptographic relay operated as asynchronous "dead drops" for end-to-end-encrypted device-to-device communication. Clients establish anonymous session keys via a proof-of-work h
@@ -36,6 +36,10 @@ apis:
   slug: vault12-zax-cryptographic-relay-api
 artifact_total: 4
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/vault12/zax/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -123,7 +127,7 @@ network: true
 overview: 'Vault12 publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Security, Backup, and Inheritance.
 
 
-  Vault12''s developer surface includes engineering blog, support, pricing, authentication, sandbox, changelog, and 13 more developer resources.'
+  Vault12''s developer surface includes engineering blog, support, pricing, authentication, sandbox, changelog, and 14 more developer resources.'
 random_paper: 75
 scopes:
 - name: Vault12 Scopes
@@ -131,9 +135,9 @@ scopes:
   slug: vault12-scopes
   summary_line: 4 scopes · authorizationCode/implicit/password/refresh_token
 score:
-  band: emerging
-  composite: 27.4
-  delta: 0.0
+  band: thin
+  composite: 31.5
+  delta: 4.1
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -144,8 +148,14 @@ score:
   previous_composite: 27.4
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 54.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

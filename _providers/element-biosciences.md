@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-10'
+  score: 38.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,6 +45,10 @@ apis:
   slug: element-biosciences-storageconnectionservice-api
 artifact_total: 10
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/element-biosciences-cloud-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -189,7 +193,7 @@ network: true
 overview: 'Element Biosciences publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Auth Service API, Execution Service API, Instrument Service API, and 2 more. Tagged areas include Company, Genomics, DNA Sequencing, Life Sciences, and Bioinformatics.
 
 
-  Element Biosciences'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 25 more developer resources.'
+  Element Biosciences'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 26 more developer resources.'
 random_paper: 94
 scopes:
 - name: Element Biosciences Scopes
@@ -198,16 +202,16 @@ scopes:
   summary_line: 12 scopes
 score:
   band: developing
-  composite: 49.8
-  delta: -0.4
+  composite: 49.2
+  delta: -0.6
   facets:
     commercial_clarity: 34.2
-    contract_quality: 61.2
+    contract_quality: 62.7
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 50.2
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -215,7 +219,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 5
     mcp: derived
     skills: derived
   regulatory:
@@ -224,8 +228,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/screenshots/element-biosciences-2026-08-07T164822.png
 security:

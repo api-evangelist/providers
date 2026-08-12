@@ -1,9 +1,9 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: flavored
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: false
+    mcp_server: true
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-10'
+  score: 56.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -106,12 +106,24 @@ apis:
 - description: Manage webhook subscriptions and inspect delivery history.
   name: Meow Webhooks API
   slug: meow-webhooks-api
-artifact_total: 31
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Meow Webhooks
   slug: meow-webhooks
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/meow-create-and-send-invoice.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/meow-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/meow-openapi-overlay.yaml
 - group: other
   title: ''
   type: AgentCard
@@ -123,6 +135,10 @@ common:
 created: '2026-07-17'
 description: 'Meow is a company surfaced as a portfolio company of qed-investors and added to the API Evangelist network as a stub for enrichment. Sector: banking. This profile is a lead awaiting the enrichment pipeline.'
 layout: provider
+mcp_servers:
+- description: ''
+  name: meow-mcp.yml
+  slug: meow-mcpyml
 modified: '2026-07-17'
 name: Meow
 nav: Providers
@@ -139,13 +155,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 26.8
-  delta: 0.0
+  composite: 25.5
+  delta: -1.3
   facets:
     commercial_clarity: 0.0
-    contract_quality: 74.0
-    developer_ergonomics: 0.0
-    discoverability: 61.1
+    contract_quality: 71.2
+    developer_ergonomics: 10.3
+    discoverability: 50.0
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 26.8
@@ -164,9 +180,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 31.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 21.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meow/refs/heads/main/screenshots/meow-2026-08-07T172630.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,6 +53,22 @@ collections:
   name: Apache Hudi Timeline Server API
   slug: open-apache-hudi-timeline
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apache/hudi/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/apache/hudi/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/apache/hudi/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -194,7 +210,7 @@ overview: 'Apache Hudi publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
   The Apache Hudi catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache Hudi''s developer surface includes documentation, getting-started guide, engineering blog, and 8 more developer resources.'
+  Apache Hudi''s developer surface includes documentation, getting-started guide, engineering blog, and 12 more developer resources.'
 plans:
 - name: Apache Hudi Plans Pricing
   plan_count: 3
@@ -222,17 +238,17 @@ rules:
     warn: 9
   slug: apache-hudi-spectral-rules
 score:
-  band: developing
-  composite: 46.3
-  delta: -1.2
+  band: thin
+  composite: 40.0
+  delta: -6.3
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 58.1
+    commercial_clarity: 15.8
+    contract_quality: 56.0
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 36.8
-  previous_composite: 47.5
+    operational_transparency: 28.9
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     contracts:
@@ -240,9 +256,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/screenshots/apache-hudi-2026-06-20T172109.png
 security:
 - kind: domain-security

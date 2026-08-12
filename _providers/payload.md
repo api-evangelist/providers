@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: Payload is a TypeScript-first headless CMS and application framework that automatically generates REST, GraphQL, and Local APIs from collection schemas, with built-in authentication, access control, a
@@ -123,25 +123,25 @@ rate_limits:
   slug: payload-rate-limits
 score:
   band: thin
-  composite: 41.9
-  delta: -0.4
+  composite: 35.3
+  delta: -6.6
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 49.6
+    commercial_clarity: 47.4
+    contract_quality: 51.5
     developer_ergonomics: 15.2
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 36.8
-  previous_composite: 42.3
+    operational_transparency: 13.2
+  previous_composite: 41.9
   provenance:
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+      total: 4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/payload/refs/heads/main/screenshots/payload-2026-06-20T191457.png
 security:
 - kind: domain-security

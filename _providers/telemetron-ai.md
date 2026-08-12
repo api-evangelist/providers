@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-10'
+  score: 46.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -52,6 +53,10 @@ apis:
   slug: telemetron-ai-ticket-api
 artifact_total: 8
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/telemetron-ai-ext-v1-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -159,17 +164,17 @@ network: true
 overview: 'Telemetron publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Customer API, Device API, Device Assignment API, and 1 more. Tagged areas include Company, Artificial Intelligence, Customer Support, Internet of Things, and Hardware.
 
 
-  Telemetron''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 17 more developer resources.'
+  Telemetron''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 18 more developer resources.'
 random_paper: 58
 score:
   band: developing
-  composite: 46.5
-  delta: 0.0
+  composite: 44.7
+  delta: -1.8
   facets:
     commercial_clarity: 34.2
-    contract_quality: 66.0
+    contract_quality: 63.5
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
   previous_composite: 46.5
@@ -183,8 +188,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

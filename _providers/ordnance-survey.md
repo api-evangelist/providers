@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -18,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -354,11 +355,11 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: exemplar
-  composite: 67.2
-  delta: 0.0
+  composite: 66.8
+  delta: -0.4
   facets:
     commercial_clarity: 76.3
-    contract_quality: 50.8
+    contract_quality: 48.9
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 20.8
@@ -380,8 +381,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 75.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/screenshots/ordnance-survey-2026-08-07T190917.png
 security:

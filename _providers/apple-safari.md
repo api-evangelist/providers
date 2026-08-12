@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 9
 apis:
 - description: API for building Safari Web Extensions that extend and customize the browsing experience.
@@ -123,19 +123,19 @@ rate_limits:
   slug: apple-safari-rate-limits
 score:
   band: emerging
-  composite: 27.0
-  delta: 0.0
+  composite: 19.2
+  delta: -7.8
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 23.9
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 47.4
+    operational_transparency: 23.7
   previous_composite: 27.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apple-safari/refs/heads/main/screenshots/apple-safari-2026-06-20T172321.png
 security:
 - kind: domain-security

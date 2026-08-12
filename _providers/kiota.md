@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 18.5
-  scored_at: '2026-08-10'
+  score: 14.9
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Kiota generates strongly-typed, lightweight API clients from OpenAPI descriptions in C#, Dart, Go, Java, PHP, Python, Ruby and TypeScript, with minimal dependencies and idiomatic code patterns, plus a
@@ -37,6 +37,22 @@ apis:
   slug: kiota
 artifact_total: 9
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/microsoft/kiota/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/microsoft/kiota/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/microsoft/kiota/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/microsoft/kiota/blob/main/CONTRIBUTING.md
 - group: company
   title: ''
   type: Website
@@ -180,7 +196,7 @@ overview: 'Kiota publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
   The Kiota catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Kiota''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 23 more developer resources.'
+  Kiota''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 27 more developer resources.'
 plans:
 - name: Kiota Plans Pricing
   plan_count: 3
@@ -200,22 +216,22 @@ rules:
     warn: 0
   slug: kiota-validation-rules
 score:
-  band: developing
-  composite: 46.2
-  delta: 0.0
+  band: thin
+  composite: 38.3
+  delta: -7.9
   facets:
-    commercial_clarity: 60.5
+    commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 65.2
     discoverability: 77.8
     governance: 33.3
-    operational_transparency: 71.1
+    operational_transparency: 47.4
   previous_composite: 46.2
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/kiota/refs/heads/main/screenshots/kiota-2026-06-20T184046.png
 security:
 - kind: authentication

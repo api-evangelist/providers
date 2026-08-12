@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: sennder offers partner-gated integration APIs that allow shippers, carriers, and TMS vendors to connect to the sennOS platform for shipment booking, dispatch, status updates, and real-time visibility.
@@ -143,8 +143,8 @@ rate_limits:
   slug: sennder-rate-limits
 score:
   band: emerging
-  composite: 23.2
-  delta: 0.0
+  composite: 22.6
+  delta: -0.6
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -153,8 +153,14 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 23.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 19.4
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sennder/refs/heads/main/screenshots/sennder-2026-06-20T193659.png
 security:

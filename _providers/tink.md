@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: REST API for retrieving end-user accounts, transactions, and balances across 3,400+ European banks via PSD2 AISP.
@@ -123,15 +123,15 @@ rate_limits:
   slug: tink-rate-limits
 score:
   band: emerging
-  composite: 22.7
-  delta: 0.0
+  composite: 18.0
+  delta: -4.7
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 23.7
     contract_quality: 0.0
     developer_ergonomics: 19.6
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 22.7
   regulatory:
     applies: true
@@ -139,8 +139,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tink/refs/heads/main/screenshots/tink-2026-06-20T195408.png
 security:

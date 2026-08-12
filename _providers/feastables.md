@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 35.6
-  scored_at: '2026-08-10'
+  score: 32.0
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Anonymous Model Context Protocol server served from the Feastables origin. Answers initialize and tools/list with no credential (probed 2026-08-01, HTTP 200) and returns five tools with full JSON Sche
@@ -158,8 +158,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/feastables/refs/heads/main/screenshots/feastables-2026-08-07T165236.png
 security:

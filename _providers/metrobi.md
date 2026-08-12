@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -177,13 +178,13 @@ overview: 'Metrobi publishes 1 API on the [APIs.io](https://apis.io/) network: D
 random_paper: 58
 score:
   band: developing
-  composite: 49.5
-  delta: 0.0
+  composite: 47.7
+  delta: -1.8
   facets:
     commercial_clarity: 44.7
-    contract_quality: 72.9
+    contract_quality: 70.1
     developer_ergonomics: 56.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 7.9
   previous_composite: 49.5
@@ -197,8 +198,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metrobi/refs/heads/main/screenshots/metrobi-2026-08-07T172751.png
 security:

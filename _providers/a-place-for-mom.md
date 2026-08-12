@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -18,18 +18,26 @@ agent_readiness:
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
-    well_known_catalog: false
+    rate_limit_signal: documented
+    spec_presence: true
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-10'
-api_count: 0
-artifact_total: 1
+  score: 28.4
+  scored_at: '2026-08-11'
+api_count: 1
+apis:
+- description: 'The integration surface of You''ve Got Leads, the senior-living CRM that is a division of A Place for Mom, Inc. The public integrations page names an "application programming interface (API)" used for '
+  name: You've Got Leads API
+  slug: a-place-for-mom-youve-got-leads-api
+artifact_total: 5
+asyncapis:
+- description: ''
+  name: A Place For Mom Webhooks
+  slug: a-place-for-mom-webhooks
 common:
 - group: company
   title: ''
@@ -59,38 +67,79 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/aplaceformom
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.aplaceformom.com/careers
 - group: agent
   title: ''
   type: LLMsTxt
   url: llms/a-place-for-mom-llms.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/a-place-for-mom-support-llms.txt
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/a-place-for-mom-webhooks.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/a-place-for-mom-lifecycle.yml
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/a-place-for-mom-domain-security.yml
+coverage:
+  checked: '2026-08-10'
+  detail: 'A Place for Mom does operate an API — its You''ve Got Leads division advertises an API and webhooks on a public page and runs a live host at api.youvegotleads.com — but every route to the contract ends at a person: youvegotleads.com/api 302s to a login, the integrations page closes with "Contact us now" to support@youvegotleads.com, and the public help center returns zero articles for "API".'
+  evidence:
+  - status: 302
+    url: https://www.youvegotleads.com/api
+  - status: 200
+    url: https://www.youvegotleads.com/ygl-Integrations
+  - status: 404
+    url: https://api.youvegotleads.com/openapi.json
+  - status: 200
+    url: https://ygl.zendesk.com/api/v2/help_center/articles/search.json?query=API
+  reason: sales-gate
+  state: gated
 created: '2026-07-17'
 description: A Place for Mom is North America's largest senior living referral service, connecting families with assisted living, memory care, independent living, home care, and other senior care options through a network of Senior Living Advisors and a large marketplace of care communities. Families use the service at no cost to search, compare, and get matched to providers, while care communities and home care agencies partner with A Place for Mom to receive and manage referral leads, respond to and moderate consumer reviews, and track billing and performance through provider-facing portals. A Place for Mom was surfaced as a portfolio company of Battery Ventures and Insight Partners and added to the API Evangelist network for enrichment. The company operates consumer-facing web properties plus provider, community-partner, reputation, and home care portals, and publishes a support knowledge base (including an llms.txt documentation index) rather than a public developer API program.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/a-place-for-mom.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-08-10'
 name: A Place for Mom
 nav: Providers
 network: true
-overview: 'A Place for Mom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Senior Living, Senior Care, Referral Marketplace, and Home Care.
+overview: 'A Place for Mom publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Senior Living, Senior Care, Referral Marketplace, and Home Care.
 
 
-  A Place for Mom''s developer surface includes support and 8 more developer resources.'
+  The A Place for Mom catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  A Place for Mom''s developer surface includes support and 12 more developer resources.'
+plans:
+- name: A Place For Mom Plans Pricing
+  plan_count: 0
+  slug: a-place-for-mom-plans-pricing
 random_paper: 13
+rate_limits:
+- limit_count: 0
+  name: A Place For Mom Rate Limits
+  slug: a-place-for-mom-rate-limits
 score:
-  band: minimal
-  composite: 12.4
-  delta: 0.0
+  band: emerging
+  composite: 26.8
+  delta: 14.4
   facets:
     commercial_clarity: 21.1
-    contract_quality: 0.0
+    contract_quality: 51.6
     developer_ergonomics: 4.3
-    discoverability: 57.4
+    discoverability: 87.0
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 13.2
   previous_composite: 12.4
   regulatory:
     applies: true
@@ -98,9 +147,9 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/a-place-for-mom/refs/heads/main/screenshots/a-place-for-mom-2026-07-25T181304.png
 security:
 - kind: domain-security

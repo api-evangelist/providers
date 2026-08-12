@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: AI Habitat simulation framework for embodied AI research, including Habitat-Sim (high-performance 3D simulator) and Habitat-Lab (modular training library). Supports navigation, manipulation, and human
@@ -232,20 +232,20 @@ rules:
     warn: 4
   slug: ai-habitat-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 34.8
-  delta: 0.0
+  band: emerging
+  composite: 27.9
+  delta: -6.9
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 17.7
-    developer_ergonomics: 23.9
+    developer_ergonomics: 28.3
     discoverability: 59.3
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 34.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ai-habitat/refs/heads/main/screenshots/ai-habitat-2026-06-20T170703.png
 security:
 - kind: domain-security

@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-10'
+  score: 45.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -533,13 +533,13 @@ scopes:
   summary_line: 42 scopes
 score:
   band: exemplar
-  composite: 71.8
-  delta: 0.0
+  composite: 72.7
+  delta: 0.9
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 70.3
+    commercial_clarity: 92.1
+    contract_quality: 67.6
     developer_ergonomics: 71.7
-    discoverability: 83.3
+    discoverability: 72.2
     governance: 80.2
     operational_transparency: 47.4
   previous_composite: 71.8
@@ -552,8 +552,8 @@ score:
       marker_coverage: 0.0
       total: 19
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/screenshots/buildkite-com-2026-06-20T173752.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 4
@@ -78,6 +78,22 @@ collections:
   name: JupyterHub REST API
   slug: open-jupyterhub-rest-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/jupyterhub/jupyterhub/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/jupyterhub/jupyterhub/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/jupyterhub/jupyterhub/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/jupyterhub/jupyterhub/blob/main/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -171,7 +187,7 @@ overview: 'JupyterHub publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
   The JupyterHub catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  JupyterHub''s developer surface includes authentication, documentation, getting-started guide, engineering blog, and 11 more developer resources.'
+  JupyterHub''s developer surface includes authentication, documentation, getting-started guide, engineering blog, and 15 more developer resources.'
 plans:
 - name: Jupyterhub Plans Pricing
   plan_count: 3
@@ -197,15 +213,15 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 43.8
+  delta: -7.1
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 69.4
+    commercial_clarity: 15.8
+    contract_quality: 66.8
     developer_ergonomics: 37.0
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 23.7
   previous_composite: 50.9
   provenance:
     agentic_access: derived
@@ -214,9 +230,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/screenshots/jupyterhub-2026-06-20T183841.png
 security:
 - kind: authentication

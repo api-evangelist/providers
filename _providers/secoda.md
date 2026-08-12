@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 31.3
-  scored_at: '2026-08-10'
+  score: 27.7
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: HTTP REST API to interact with a Secoda workspace — CRUD over catalog resources (databases, schemas, tables, columns, dashboards, charts, collections, documents, glossary/terms, tags, custom propertie
@@ -178,14 +178,14 @@ rate_limits:
   name: Secoda Rate Limits
   slug: secoda-rate-limits
 score:
-  band: developing
-  composite: 42.9
-  delta: 0.0
+  band: thin
+  composite: 41.8
+  delta: -1.1
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 62.5
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 71.1
   previous_composite: 42.9
@@ -193,8 +193,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

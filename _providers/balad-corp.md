@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-10'
+  score: 44.4
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: The APIs/Authentication API from BALAD CORP — 1 operation(s) for apis/authentication.
@@ -89,7 +89,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/balad-corp-gateway-openapi.yml
+  url: openapi/_original/balad-corp-gateway-openapi.yml
 - group: auth
   title: ''
   type: Authentication
@@ -189,13 +189,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 40.2
-  delta: 0.0
+  composite: 38.8
+  delta: -1.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 64.1
+    contract_quality: 61.7
     developer_ergonomics: 60.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
   previous_composite: 40.2
@@ -214,8 +214,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 43.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/balad-corp/refs/heads/main/screenshots/balad-corp-2026-07-25T202259.png
 security:

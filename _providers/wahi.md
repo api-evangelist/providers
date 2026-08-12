@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-08-10'
+  score: 41.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -34,8 +34,12 @@ apis:
 - description: Wahi's own real estate API, and the only machine-readable contract it authors. Discovered through https://wahi.com/.well-known/ai-plugin.json, an OpenAI-style AI plugin manifest that points at https:/
   name: Wahi Listing Search API
   slug: wahi-listing-search-api
-artifact_total: 5
+artifact_total: 6
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/wahi-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -118,6 +122,10 @@ description: 'Wahi is a Toronto-headquartered Canadian digital real estate platf
   api.prod.wahi.com/graphql with introspection disabled and robots.txt disallowing it, and the stock WordPress REST API of the marketing CMS remains anonymously callable. Wahi is overwhelmingly an API consumer rather than a producer, but not a zero.'
 image: https://wahi.com/wp-content/uploads/2022/10/wahi-logo.svg
 layout: provider
+mcp_servers:
+- description: ''
+  name: wahi-mcp.yml
+  slug: wahi-mcpyml
 modified: '2026-07-26'
 name: Wahi
 nav: Providers
@@ -125,17 +133,17 @@ network: true
 overview: 'Wahi publishes 1 API on the [APIs.io](https://apis.io/) network: Listing Search API. Tagged areas include Real Estate, Canada, Property Listings, MLS, and Valuation.
 
 
-  Wahi''s developer surface includes authentication, support, engineering blog, and 16 more developer resources.'
+  Wahi''s developer surface includes authentication, support, engineering blog, and 17 more developer resources.'
 random_paper: 77
 score:
   band: thin
-  composite: 32.3
-  delta: 0.0
+  composite: 31.3
+  delta: -1.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 47.3
-    developer_ergonomics: 19.0
-    discoverability: 87.0
+    contract_quality: 45.5
+    developer_ergonomics: 21.2
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 32.3
@@ -155,8 +163,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

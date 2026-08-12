@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-08-10'
+  score: 49.8
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 0
@@ -337,16 +338,16 @@ overview: 'Aleph Alpha publishes 37 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 41
 score:
   band: developing
-  composite: 48.6
-  delta: -0.8
+  composite: 48.5
+  delta: -0.1
   facets:
     commercial_clarity: 26.3
-    contract_quality: 52.8
+    contract_quality: 56.8
     developer_ergonomics: 82.1
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 49.4
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -354,7 +355,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 37
     mcp: first-party
     skills: derived
   regulatory:
@@ -363,8 +364,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 48.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/screenshots/aleph-alpha-2026-08-07T161154.png
 security:

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-08-10'
+  score: 42.1
+  scored_at: '2026-08-11'
 api_count: 22
 apis:
 - description: Card account associated to one of Yokoy's card programs. Only active card accounts are allowed to order new cards.
@@ -99,6 +99,10 @@ apis:
   slug: yokoy-user-api
 artifact_total: 28
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/yokoy-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -206,7 +210,7 @@ network: true
 overview: 'Yokoy publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Card account API, Company card API, Cost center API, and 19 more. Tagged areas include Company, Spend Management, Expense Management, Invoice Management, and Finance Automation.
 
 
-  Yokoy''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, and 17 more developer resources.'
+  Yokoy''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, and 18 more developer resources.'
 random_paper: 107
 scopes:
 - name: Yokoy Scopes
@@ -215,11 +219,11 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 46.9
+  delta: 0.3
   facets:
     commercial_clarity: 15.8
-    contract_quality: 57.8
+    contract_quality: 55.6
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 20.8
@@ -234,8 +238,14 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 51.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

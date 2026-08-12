@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 12
 apis:
 - description: The client-api-assessment-rest-resource API from VISO Trust (Protecht) — 7 operation(s) for client-api-assessment-rest-resource.
@@ -76,7 +76,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/viso-trust-protecht-openapi-original.json
+  url: openapi/_original/viso-trust-protecht-openapi-original.json
 - group: docs
   title: ''
   type: Documentation
@@ -183,13 +183,13 @@ overview: 'VISO Trust (Protecht) publishes 12 APIs on the [APIs.io](https://apis
 random_paper: 18
 score:
   band: developing
-  composite: 45.9
-  delta: 0.0
+  composite: 44.2
+  delta: -1.7
   facets:
     commercial_clarity: 13.2
-    contract_quality: 63.3
+    contract_quality: 60.9
     developer_ergonomics: 51.6
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 50.0
   previous_composite: 45.9
@@ -202,8 +202,8 @@ score:
       total: 12
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

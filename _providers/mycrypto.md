@@ -27,10 +27,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/MyCryptoHQ/MyCrypto/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/MyCryptoHQ/MyCrypto/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/MyCryptoHQ/MyCrypto/blob/master/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/MyCryptoHQ/MyCrypto/blob/master/.github/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/MyCryptoHQ/MyCrypto/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -66,19 +86,19 @@ network: true
 overview: 'MyCrypto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wallet, Ethereum, Blockchain, and Cryptocurrency.
 
 
-  MyCrypto''s developer surface includes documentation, support, and 4 more developer resources.'
+  MyCrypto''s developer surface includes documentation, support, and 9 more developer resources.'
 random_paper: 91
 score:
   band: minimal
-  composite: 8.5
-  delta: 0.0
+  composite: 11.4
+  delta: 2.9
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 13.0
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 31.6
   previous_composite: 8.5
   regulatory:
     applies: true
@@ -86,8 +106,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mycrypto/refs/heads/main/screenshots/mycrypto-2026-08-07T184516.png
 security:

@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     auth_clarity: false
     consent_identity: false
@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-10'
+  score: 44.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -101,12 +101,24 @@ apis:
 - description: APIs for managing webhook subscriptions. Merchants can use webhook subscriptions to receive notifications about particular events, instead of having to make API calls periodically to check their statu
   name: Wish Webhook API
   slug: wish-webhook-api
-artifact_total: 27
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Wish Webhooks
   slug: wish-webhooks
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/wish-fulfill-orders.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/wish-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/wish-marketplace-v3-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -167,6 +179,10 @@ created: '2026-07-17'
 description: 'Wish, operated by ContextLogic Inc., is a global mobile-first e-commerce marketplace that connects value-conscious consumers with merchants and manufacturers around the world, with a large share of inventory shipped direct from suppliers. The Wish Marketplace V3 API lets sellers and ERP partners programmatically manage their storefront and operations: create and update products and variations, synchronize inventory and pricing, retrieve and fulfill orders, modify tracking and shipping-carrier assignments, run bulk create/download jobs, manage support tickets, penalties and infractions, run ProductBoost and promotion campaigns, meet EU/EPR product compliance obligations, and subscribe to webhooks for real-time order and product events. Authentication is OAuth 2.0 (authorization code flow with 37 scopes) plus OpenID Connect, using bearer access tokens over HTTPS, with production and sandbox environments.'
 image: https://logo.clearbit.com/wish.com
 layout: provider
+mcp_servers:
+- description: ''
+  name: wish-mcp.yml
+  slug: wish-mcpyml
 modified: '2026-07-21'
 name: Wish
 nav: Providers
@@ -177,7 +193,7 @@ overview: 'Wish publishes 21 APIs on the [APIs.io](https://apis.io/) network, in
   The Wish catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Wish''s developer surface includes documentation, API reference, getting-started guide, signup flow, and 10 more developer resources.'
+  Wish''s developer surface includes documentation, API reference, getting-started guide, signup flow, and 13 more developer resources.'
 random_paper: 95
 rate_limits:
 - limit_count: 0
@@ -190,12 +206,12 @@ scopes:
   summary_line: 39 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.6
-  delta: 0.0
+  composite: 42.7
+  delta: -0.9
   facets:
     commercial_clarity: 34.2
-    contract_quality: 73.8
-    developer_ergonomics: 34.8
+    contract_quality: 71.0
+    developer_ergonomics: 38.6
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
@@ -210,8 +226,14 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 37.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

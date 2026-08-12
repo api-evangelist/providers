@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -77,6 +77,10 @@ collections:
   name: Logik Configurator Runtime APIs
   slug: postman-logikio-runtime
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/logikio-admin-blueprint-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -168,17 +172,17 @@ network: true
 overview: 'Logik.io publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Blueprint > Export API, Blueprint > Import API, BOM API, and 8 more. Tagged areas include Company, Sales Tech, CPQ, Configure Price Quote, and Product Configuration.
 
 
-  Logik.io''s developer surface includes documentation, API reference, authentication, sandbox, and 15 more developer resources.'
+  Logik.io''s developer surface includes documentation, API reference, authentication, sandbox, and 16 more developer resources.'
 random_paper: 54
 score:
   band: thin
-  composite: 36.7
-  delta: 0.0
+  composite: 35.1
+  delta: -1.6
   facets:
     commercial_clarity: 7.9
-    contract_quality: 58.2
+    contract_quality: 56.0
     developer_ergonomics: 40.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 5.3
   previous_composite: 36.7
@@ -192,8 +196,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/screenshots/logikio-2026-07-25T225503.png
 security:

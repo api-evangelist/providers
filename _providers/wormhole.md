@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -722,11 +722,11 @@ rules:
   slug: wormhole-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.7
-  delta: 0.0
+  composite: 41.6
+  delta: 2.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 50.1
+    contract_quality: 48.3
     developer_ergonomics: 15.2
     discoverability: 81.5
     governance: 58.3
@@ -739,14 +739,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 19.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wormhole/refs/heads/main/screenshots/wormhole-2026-06-20T201625.png
 security:

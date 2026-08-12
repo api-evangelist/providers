@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-10'
+  score: 45.0
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: The core RESTful payment API of the ACI Open Payment Platform (PAY.ON gateway). Server-to-Server integration lets merchants and PSPs run end-to-end payment workflows — preauthorization, debit, capture
@@ -36,12 +36,16 @@ apis:
 - description: The ACI Mobile SDK lets developers accept payments inside native mobile apps, wrapping the Open Payment Platform's card and alternative-payment flows with device-side tokenization and 3-D Secure suppo
   name: ACI Mobile SDK
   slug: mobile-sdk
-artifact_total: 8
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Aci Worldwide Webhooks
   slug: aci-worldwide-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://docs.aciworldwide.com/integrations/agentic/mcp-server
 - group: auth
   title: ''
   type: DomainSecurity
@@ -147,6 +151,10 @@ description: 'ACI Worldwide (NASDAQ: ACIW) is a US-headquartered payment-softwar
   Its home market is the United States, inside the deep, fragmented, API-native US payments landscape.'
 image: https://www.aciworldwide.com/wp-content/uploads/2021/05/cropped-android-chrome-512x512-1-192x192.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: mcp-server
+  slug: mcp-server
 modified: '2026-07-24'
 name: ACI Worldwide
 nav: Providers
@@ -157,17 +165,17 @@ overview: 'ACI Worldwide publishes 5 APIs on the [APIs.io](https://apis.io/) net
   The ACI Worldwide catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ACI Worldwide''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 18 more developer resources.'
+  ACI Worldwide''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 19 more developer resources.'
 random_paper: 47
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 46.3
+  delta: -2.7
   facets:
     commercial_clarity: 28.9
     contract_quality: 51.6
-    developer_ergonomics: 65.2
-    discoverability: 92.6
+    developer_ergonomics: 73.9
+    discoverability: 81.5
     governance: 12.5
     operational_transparency: 23.7
   previous_composite: 49.0
@@ -178,9 +186,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 68.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 46.9
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aci-worldwide/refs/heads/main/screenshots/aci-worldwide-2026-07-25T181458.png
 security:

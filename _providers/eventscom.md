@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -18,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 598
   human_in_the_loop: 291
@@ -373,6 +374,10 @@ asyncapis:
   name: Eventscom Webhooks
   slug: eventscom-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/eventscom-datagol-ai-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -483,32 +488,32 @@ overview: 'Events.com publishes 112 APIs on the [APIs.io](https://apis.io/) netw
   The Events.com catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Events.com''s developer surface includes API reference, support, engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
+  Events.com''s developer surface includes API reference, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
 random_paper: 52
 score:
   band: thin
-  composite: 41.3
-  delta: -1.4
+  composite: 41.5
+  delta: 0.2
   facets:
     commercial_clarity: 44.7
-    contract_quality: 54.7
+    contract_quality: 60.2
     developer_ergonomics: 34.2
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 42.7
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 33.3
+      callable: 74.8
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 115
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/screenshots/eventscom-2026-08-07T165031.png
 security:

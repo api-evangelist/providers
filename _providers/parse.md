@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-10'
+  score: 41.0
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'HTTP+JSON REST API for the Parse Platform: object CRUD and queries, users and sessions, roles, files, analytics and push. Parse Server is self-hosted, so the base URL is the operator''s own Parse Serve'
@@ -166,21 +166,21 @@ overview: 'Parse publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 75
 score:
   band: thin
-  composite: 40.3
-  delta: 0.0
+  composite: 39.2
+  delta: -1.1
   facets:
     commercial_clarity: 0.0
     contract_quality: 51.6
     developer_ergonomics: 60.9
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 47.4
   previous_composite: 40.3
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parse/refs/heads/main/screenshots/parse-2026-08-07T191458.png
 security:

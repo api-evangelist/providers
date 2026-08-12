@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-10'
+  score: 24.3
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Kubit's hosted Model Context Protocol server. Exposes five tools — getUserContext, getSchema, createReport, getRawData, and searchKubit — that let an MCP-compatible IDE or assistant explore schemas, e
@@ -36,6 +36,10 @@ apis:
   slug: mcp
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Kubit-AI/mcp-server/issues
 - group: company
   title: ''
   type: Website
@@ -175,7 +179,7 @@ network: true
 overview: 'Kubit AI, Inc. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Product Analytics, Data Warehouse, and LLM Observability.
 
 
-  Kubit AI, Inc.''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, CLI, and 24 more developer resources.'
+  Kubit AI, Inc.''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, CLI, and 25 more developer resources.'
 random_paper: 105
 scopes:
 - name: Kubit Ai Inc Scopes
@@ -198,8 +202,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubit-ai-inc/refs/heads/main/screenshots/kubit-ai-inc-2026-07-25T224318.png
 security:

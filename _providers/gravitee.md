@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: flavored
     agent_skills: false
@@ -18,7 +19,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 193
   human_in_the_loop: 11
@@ -352,6 +353,26 @@ collections:
   name: Gravitee.io APIM Management API
   slug: open-gravitee-apim
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/gravitee-io/gravitee-cockpit-connectors/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/gravitee-io/gravitee-cockpit-connectors/blob/master/CONTRIBUTING.adoc
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://www.getambassador.io/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.gravitee.io/privacy-policy
+- group: start
+  title: ''
+  type: Signup
+  url: https://eu-auth.cloud.gravitee.io/cloud/register?response_type=code&client_id=fd45d898-e621-4b12-85d8-98e621ab1237&state=aFNXUER4ZTJLeVA3cUhZblVpNnI1a0dqT0lFT3Qtd1ZjN0xUMGgyQVU2ZU1Q&redirect_uri=https%3A%2F%2Feu.cloud.gravitee.io&scope=openid+profile+email+offline_access&code_challenge=RawzckmLjFNOvDqrZUPumHbMzXRcIjRRbZFmWlbjLoA&code_challenge_method=S256&nonce=aFNXUER4ZTJLeVA3cUhZblVpNnI1a0dqT0lFT3Qtd1ZjN0xUMGgyQVU2ZU1Q&createUser=true&hubspotutk=169d02e0ddc1d02ed3202bcac0869f20
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -456,26 +477,6 @@ common:
   title: ''
   type: FinOps
   url: finops/gravitee-finops.yml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/api-gateway-operations.yaml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/traffic-observability.yaml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/mcp-publishing.yaml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/api-management.yaml
-- group: other
-  title: ''
-  type: Capabilities
-  url: capabilities/access-management.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -565,7 +566,7 @@ overview: 'Gravitee publishes 50 APIs on the [APIs.io](https://apis.io/) network
   The Gravitee catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Gravitee''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, changelog, and 26 more developer resources.'
+  Gravitee''s developer surface includes signup flow, authentication, documentation, getting-started guide, engineering blog, pricing, changelog, and 25 more developer resources.'
 plans:
 - name: Gravitee Plans Pricing
   plan_count: 9
@@ -594,15 +595,15 @@ rules:
   slug: gravitee-rules
 score:
   band: developing
-  composite: 54.7
-  delta: 0.0
+  composite: 55.5
+  delta: 0.8
   facets:
     commercial_clarity: 57.9
-    contract_quality: 57.2
+    contract_quality: 62.5
     developer_ergonomics: 50.0
-    discoverability: 50.0
+    discoverability: 75.9
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 54.7
   provenance:
     agentic_access: derived
@@ -611,8 +612,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 50
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/screenshots/gravitee-2026-06-20T182344.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: Augur is a CHAOSS reference implementation that collects data from GitHub, GitLab, mailing lists, and other community sources, and exposes a REST API for querying CHAOSS-aligned metrics on repositorie
@@ -45,6 +45,14 @@ apis:
   slug: 8knot
 artifact_total: 49
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/chaoss/augur/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/chaoss/.github/blob/main/CODE_OF_CONDUCT.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -161,7 +169,7 @@ network: true
 overview: 'CHAOSS publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Community Health, DEI, Linux Foundation, and Metrics.
 
 
-  CHAOSS''s developer surface includes documentation, GitHub presence, engineering blog, getting-started guide, YouTube channel, tooling, and 9 more developer resources.'
+  CHAOSS''s developer surface includes documentation, GitHub presence, engineering blog, getting-started guide, YouTube channel, tooling, and 11 more developer resources.'
 plans:
 - name: Chaoss Plans Pricing
   plan_count: 3
@@ -173,19 +181,25 @@ rate_limits:
   slug: chaoss-rate-limits
 score:
   band: emerging
-  composite: 24.4
-  delta: 0.0
+  composite: 15.2
+  delta: -9.2
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 24.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 7.5
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/chaoss/refs/heads/main/screenshots/chaoss-2026-06-20T174222.png
 security:
 - kind: domain-security

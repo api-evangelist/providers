@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -98,18 +98,18 @@ overview: 'Climacell is profiled on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 6
 score:
   band: emerging
-  composite: 24.0
-  delta: 0.0
+  composite: 22.9
+  delta: -1.1
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 41.3
-    discoverability: 61.1
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 24.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/climacell/refs/heads/main/screenshots/climacell-2026-07-25T205622.png
 security:

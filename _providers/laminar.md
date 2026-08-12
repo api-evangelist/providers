@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-10'
+  score: 24.3
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: Run SELECT-only ClickHouse SQL over a project's observability data via POST /v1/sql/query. Authenticates with a project API key as a bearer token, accepts a query plus typed {name:Type} parameters, an
@@ -43,6 +43,22 @@ apis:
   slug: laminar-evaluations-api
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/lmnr-ai/lmnr/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/lmnr-ai/lmnr/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/lmnr-ai/lmnr/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/lmnr-ai/lmnr/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -175,7 +191,7 @@ network: true
 overview: 'Laminar publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Observability, LLM, AI Agents, Tracing, and OpenTelemetry.
 
 
-  Laminar''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
+  Laminar''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
 plans:
 - name: Laminar Plans
   plan_count: 4
@@ -183,13 +199,13 @@ plans:
 random_paper: 44
 score:
   band: developing
-  composite: 46.9
-  delta: 0.0
+  composite: 45.8
+  delta: -1.1
   facets:
     commercial_clarity: 76.3
     contract_quality: 0.0
     developer_ergonomics: 80.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 12.5
     operational_transparency: 36.8
   previous_composite: 46.9
@@ -197,8 +213,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/screenshots/laminar-2026-07-25T224445.png
 security:

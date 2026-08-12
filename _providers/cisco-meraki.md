@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 445
   human_in_the_loop: 88
@@ -158,11 +158,11 @@ overview: 'Cisco Meraki publishes 16 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 47
 score:
   band: thin
-  composite: 30.5
-  delta: 0.0
+  composite: 29.9
+  delta: -0.6
   facets:
     commercial_clarity: 0.0
-    contract_quality: 63.6
+    contract_quality: 61.2
     developer_ergonomics: 32.6
     discoverability: 74.1
     governance: 0.0
@@ -175,8 +175,8 @@ score:
       derived: 0
       marker_coverage: 100.0
       total: 16
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/screenshots/cisco-meraki-2026-06-20T174358.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -111,6 +111,10 @@ collections:
   name: Veritas InfoScale REST Alerts Volumes API
   slug: postman-veritas-infoscale-volumes-api
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/VeritasOS/infoscale_ansible/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -303,7 +307,7 @@ overview: 'Veritas InfoScale publishes 10 APIs on the [APIs.io](https://apis.io/
   The Veritas InfoScale catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Veritas InfoScale''s developer surface includes authentication, developer portal, support, documentation, getting-started guide, training material, engineering blog, and 14 more developer resources.'
+  Veritas InfoScale''s developer surface includes authentication, developer portal, support, documentation, getting-started guide, training material, engineering blog, and 15 more developer resources.'
 plans:
 - name: Veritas Infoscale Plans Pricing
   plan_count: 1
@@ -332,15 +336,15 @@ rules:
   slug: veritas-infoscale-spectral-rules
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 45.5
+  delta: -5.4
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 30.8
+    commercial_clarity: 44.7
+    contract_quality: 29.7
     developer_ergonomics: 50.0
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 42.1
+    operational_transparency: 26.3
   previous_composite: 50.9
   provenance:
     agentic_access: derived
@@ -349,9 +353,9 @@ score:
       derived: 10
       marker_coverage: 100.0
       total: 10
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/screenshots/veritas-infoscale-2026-06-20T200933.png
 security:
 - kind: authentication

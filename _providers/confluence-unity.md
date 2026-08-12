@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 5
 common:
@@ -94,20 +94,20 @@ rate_limits:
   name: Confluence Unity Rate Limits
   slug: confluence-unity-rate-limits
 score:
-  band: emerging
-  composite: 20.1
-  delta: 0.0
+  band: minimal
+  composite: 12.2
+  delta: -7.9
   facets:
-    commercial_clarity: 52.6
+    commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 2.2
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 20.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluence-unity/refs/heads/main/screenshots/confluence-unity-2026-06-20T174856.png
 security:
 - kind: domain-security

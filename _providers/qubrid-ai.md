@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 2
@@ -194,15 +194,15 @@ rules:
   slug: qubrid-ai-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.2
-  delta: 0.0
+  composite: 46.4
+  delta: -6.8
   facets:
-    commercial_clarity: 52.6
-    contract_quality: 76.7
+    commercial_clarity: 28.9
+    contract_quality: 73.9
     developer_ergonomics: 28.3
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 58.3
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 53.2
   provenance:
     agentic_access: derived
@@ -211,9 +211,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/screenshots/qubrid-ai-2026-06-20T192419.png
 security:
 - kind: authentication

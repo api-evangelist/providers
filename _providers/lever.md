@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -297,15 +297,15 @@ rate_limits:
   slug: lever-rate-limits
 score:
   band: developing
-  composite: 53.4
-  delta: 0.0
+  composite: 45.1
+  delta: -8.3
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 60.1
+    commercial_clarity: 68.4
+    contract_quality: 58.2
     developer_ergonomics: 32.6
     discoverability: 55.6
     governance: 0.0
-    operational_transparency: 60.5
+    operational_transparency: 36.8
   previous_composite: 53.4
   provenance:
     agentic_access: derived
@@ -314,9 +314,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/lever/refs/heads/main/screenshots/lever-2026-06-20T184437.png
 security:
 - kind: authentication

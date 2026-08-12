@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -175,6 +175,18 @@ collections:
   name: Dust Workspace API
   slug: open-dust-workspace-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/dust-tt/dust/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/dust-tt/dust/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/dust-tt/dust/blob/main/SECURITY.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -455,7 +467,7 @@ overview: 'Dust publishes 14 APIs on the [APIs.io](https://apis.io/) network, in
   The Dust catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Dust''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, pricing, changelog, and 53 more developer resources.'
+  Dust''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, pricing, changelog, and 56 more developer resources.'
 plans:
 - name: Dust Plans Pricing
   plan_count: 2
@@ -476,12 +488,12 @@ rules:
   slug: dust-tt-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 72.0
-  delta: 0.0
+  composite: 74.8
+  delta: 2.8
   facets:
-    commercial_clarity: 76.3
-    contract_quality: 76.2
-    developer_ergonomics: 65.2
+    commercial_clarity: 89.5
+    contract_quality: 73.3
+    developer_ergonomics: 69.6
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 78.9
@@ -493,8 +505,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/screenshots/dust-tt-2026-06-20T180330.png
 security:

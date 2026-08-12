@@ -27,10 +27,26 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/dragonflydb/dragonfly/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/dragonflydb/dragonfly/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/dragonflydb/dragonfly/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/dragonflydb/dragonfly/blob/main/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -102,22 +118,22 @@ network: true
 overview: 'Dragonfly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Cache, Database, In-Memory, Key-Value Store, and Redis.
 
 
-  Dragonfly''s developer surface includes documentation, getting-started guide, pricing, engineering blog, FAQ, and 10 more developer resources.'
+  Dragonfly''s developer surface includes documentation, getting-started guide, pricing, engineering blog, FAQ, and 14 more developer resources.'
 random_paper: 38
 score:
   band: emerging
-  composite: 14.2
-  delta: 0.0
+  composite: 17.1
+  delta: 2.9
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
-    developer_ergonomics: 28.3
+    developer_ergonomics: 32.6
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 14.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dragonfly/refs/heads/main/screenshots/dragonfly-2026-06-20T180217.png
 security:

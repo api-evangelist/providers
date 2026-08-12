@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: Mustache is a logic-less template syntax available for HTML, config files, source code, and more. Used widely for API client SDK generation, documentation generation, and configuration templating.
@@ -51,6 +51,10 @@ apis:
   slug: yeoman
 artifact_total: 14
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/mustache/mustache/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -123,20 +127,20 @@ rules:
     warn: 3
   slug: templates-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 30.0
-  delta: 0.0
+  band: emerging
+  composite: 22.1
+  delta: -7.9
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 12.9
     developer_ergonomics: 0.0
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 31.6
+    operational_transparency: 7.9
   previous_composite: 30.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/templates/refs/heads/main/screenshots/templates-2026-06-20T195055.png
 security:
 - kind: domain-security

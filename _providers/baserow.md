@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 238
   human_in_the_loop: 10
@@ -215,6 +215,22 @@ apis:
   slug: baserow-workspaces-api
 artifact_total: 68
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/baserow/baserow/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/baserow/baserow/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/baserow/baserow/blob/develop/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/baserow/baserow/blob/develop/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -326,7 +342,7 @@ overview: 'Baserow publishes 58 APIs on the [APIs.io](https://apis.io/) network,
   The Baserow catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Baserow''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, FAQ, and 14 more developer resources.'
+  Baserow''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, FAQ, and 18 more developer resources.'
 plans:
 - name: Baserow Plans Pricing
   plan_count: 4
@@ -346,16 +362,16 @@ rules:
     warn: 5
   slug: baserow-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 55.6
-  delta: 0.0
+  band: strong
+  composite: 56.3
+  delta: 0.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.4
+    contract_quality: 63.0
     developer_ergonomics: 26.1
     discoverability: 68.5
     governance: 68.8
-    operational_transparency: 68.4
+    operational_transparency: 78.9
   previous_composite: 55.6
   provenance:
     agentic_access: derived
@@ -364,8 +380,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 58
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/screenshots/baserow-2026-06-20T173022.png
 security:

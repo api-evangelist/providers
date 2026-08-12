@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: NCKU's open data platform is built on CKAN and exposes the standard CKAN Action API. Endpoints such as /api/3/action/package_list and /api/3/action/package_show return JSON catalogs of the university'
@@ -129,8 +129,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ncku/refs/heads/main/screenshots/ncku-2026-06-20T190150.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 7
@@ -141,6 +141,10 @@ collections:
   name: PortainerCE API
   slug: open-portainer
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/portainer/portainer/blob/develop/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -212,7 +216,7 @@ network: true
 overview: 'Portainer publishes 32 APIs on the [APIs.io](https://apis.io/) network, including auth API, backup API, custom_templates API, and 29 more. Tagged areas include Container Management, Containers, Docker, and Kubernetes.
 
 
-  Portainer''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, and 9 more developer resources.'
+  Portainer''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, and 10 more developer resources.'
 plans:
 - name: Portainer Plans Pricing
   plan_count: 3
@@ -224,15 +228,15 @@ rate_limits:
   slug: portainer-rate-limits
 score:
   band: thin
-  composite: 40.3
-  delta: 0.0
+  composite: 32.7
+  delta: -7.6
   facets:
-    commercial_clarity: 50.0
-    contract_quality: 53.8
+    commercial_clarity: 26.3
+    contract_quality: 51.7
     developer_ergonomics: 32.6
-    discoverability: 55.6
+    discoverability: 63.0
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 40.3
   provenance:
     agentic_access: derived
@@ -241,9 +245,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/screenshots/portainer-2026-06-20T191931.png
 security:
 - kind: authentication

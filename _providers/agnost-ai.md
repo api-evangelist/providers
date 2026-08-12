@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-08-10'
+  score: 43.9
+  scored_at: '2026-08-11'
 api_count: 14
 apis:
 - description: Alert configuration and monitoring
@@ -75,6 +75,10 @@ apis:
   slug: agnost-ai-system-api
 artifact_total: 20
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/agnost-ai-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -217,7 +221,7 @@ network: true
 overview: 'Agnost AI publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, API Keys API, Auth API, and 11 more. Tagged areas include Company, AI Agents, Agent Analytics, Observability, and OpenTelemetry.
 
 
-  Agnost AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
+  Agnost AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
 random_paper: 87
 scopes:
 - name: Agnost Ai Scopes
@@ -226,11 +230,11 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 53.2
-  delta: 0.0
+  composite: 52.6
+  delta: -0.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 56.7
+    contract_quality: 54.6
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 20.8
@@ -245,8 +249,8 @@ score:
       total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/screenshots/agnost-ai-2026-07-25T195316.png
 security:

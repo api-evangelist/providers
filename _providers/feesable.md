@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,18 +79,18 @@ overview: 'Feesable is profiled on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 11
 score:
   band: minimal
-  composite: 12.8
-  delta: 0.0
+  composite: 11.6
+  delta: -1.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 4.3
-    discoverability: 61.1
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 12.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/feesable/refs/heads/main/screenshots/feesable-2026-07-25T214322.png
 security:

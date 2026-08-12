@@ -11,25 +11,29 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-10'
+  score: 41.2
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Anonymous, read-mostly public REST API for syndicating Bungalow's residential rental inventory. Covers markets (23 active US metros with geo bounds, timezone and rent premiums), marketable property li
   name: Bungalow API
   slug: bungalow-api
-artifact_total: 4
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Bungalow Webhooks
   slug: bungalow-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/bungalow-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -147,6 +151,10 @@ description: Bungalow is a US residential rental platform for single-family home
   partners as a richer alternative, and partners are asked to post lead-capture webhooks back to Bungalow. Active in roughly 23 markets across the United States.
 image: https://assets.bungalow.com/home-page/header/header-hero-min.png?h=630&w=1200&auto=format
 layout: provider
+mcp_servers:
+- description: ''
+  name: bungalow-mcp.yml
+  slug: bungalow-mcpyml
 modified: '2026-08-01'
 name: Bungalow
 nav: Providers
@@ -157,16 +165,16 @@ overview: 'Bungalow publishes 1 API on the [APIs.io](https://apis.io/) network. 
   The Bungalow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bungalow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
+  Bungalow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 22 more developer resources.'
 random_paper: 51
 score:
   band: developing
-  composite: 42.2
-  delta: 0.0
+  composite: 42.1
+  delta: -0.1
   facets:
     commercial_clarity: 34.2
-    contract_quality: 54.0
-    developer_ergonomics: 53.8
+    contract_quality: 52.0
+    developer_ergonomics: 56.0
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 7.9
@@ -180,8 +188,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bungalow/refs/heads/main/screenshots/bungalow-2026-08-07T162850.png
 security:

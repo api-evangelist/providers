@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: BORIS Portal is the institutional repository and research information system of the University of Bern, running DSpace 7.6.1 with the DSpace-CRIS extension. Its REST API (HAL/JSON) exposes communities
@@ -127,8 +127,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 18.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-bern/refs/heads/main/screenshots/university-of-bern-2026-06-20T200135.png
 security:

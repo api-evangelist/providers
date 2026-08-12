@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-10'
+  score: 34.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,6 +43,10 @@ apis:
   slug: synthego-order-api
 artifact_total: 5
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/synthego-order-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -142,18 +146,18 @@ network: true
 overview: 'Synthego publishes 1 API on the [APIs.io](https://apis.io/) network: Order API. Tagged areas include Company, Health Tech, Genomics, CRISPR, and Biotechnology.
 
 
-  Synthego''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 16 more developer resources.'
+  Synthego''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 17 more developer resources.'
 random_paper: 69
 score:
   band: thin
-  composite: 36.9
-  delta: 0.0
+  composite: 35.2
+  delta: -1.7
   facets:
     commercial_clarity: 28.9
-    contract_quality: 51.9
+    contract_quality: 50.0
     developer_ergonomics: 36.4
-    discoverability: 87.0
-    governance: 11.5
+    discoverability: 75.9
+    governance: 8.3
     operational_transparency: 5.3
   previous_composite: 36.9
   provenance:
@@ -172,8 +176,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

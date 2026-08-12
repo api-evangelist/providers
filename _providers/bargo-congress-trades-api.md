@@ -1,10 +1,11 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: documented
     rate_limit_signal: verified
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 64.6
-  scored_at: '2026-08-10'
+  score: 54.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -195,22 +196,35 @@ rate_limits:
   slug: bargo-congress-trades-api-rate-limits
 score:
   band: developing
-  composite: 50.1
+  composite: 49.7
+  delta: -0.4
   facets:
     commercial_clarity: 34.2
-    contract_quality: 53.5
+    contract_quality: 57.5
     developer_ergonomics: 73.9
-    discoverability: 92.6
-    governance: 20.8
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 36.8
+  previous_composite: 50.1
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
+    mcp: first-party
+    skills: first-party
   regulatory:
     applies: true
     matched_via: tags
-    regime: Securities & Market Data
-    regime_id: securities_market_data
-    score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    regime: Government & Public Sector
+    regime_id: government
+    score: 46.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Bargo Congress Trades Api Authentication

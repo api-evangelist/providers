@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 0
 artifact_total: 1
 common:
@@ -58,8 +58,8 @@ overview: 'DOT Regulations is profiled on the [APIs.io](https://apis.io/) networ
 random_paper: 61
 score:
   band: minimal
-  composite: 7.5
-  delta: 0.0
+  composite: 8.0
+  delta: 0.5
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -68,8 +68,14 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 11.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dot-regulations/refs/heads/main/screenshots/dot-regulations-2026-06-20T180159.png
 security:

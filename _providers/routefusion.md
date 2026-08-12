@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-10'
+  score: 38.1
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Routefusion''s global payments GraphQL API: users, entities, wallets, virtual accounts, beneficiaries, transfers, quotes/rates, incoming transfers, and webhooks for cross-border payouts over SWIFT, loc'
@@ -178,13 +178,13 @@ overview: 'Routefusion publishes 1 API on the [APIs.io](https://apis.io/) networ
 random_paper: 59
 score:
   band: developing
-  composite: 46.9
-  delta: 0.0
+  composite: 46.0
+  delta: -0.9
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
     developer_ergonomics: 73.4
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 36.8
   previous_composite: 46.9
@@ -198,8 +198,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

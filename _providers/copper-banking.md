@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 23.4
-  scored_at: '2026-08-10'
+  score: 19.8
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: An undocumented Model Context Protocol server operated by Copper at mcp.getcopper.com. The host publishes RFC 8414 OAuth 2.0 Authorization Server Metadata at /.well-known/oauth-authorization-server de
@@ -129,8 +129,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 59.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/copper-banking/refs/heads/main/screenshots/copper-banking-2026-08-07T163809.png
 security:

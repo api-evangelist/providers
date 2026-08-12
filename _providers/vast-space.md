@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: 'Informational product surface for Haven-1, billed as the world''s first commercial space station - a standalone crewed station designed to host four crew with 45 cubic meters of habitable volume. This '
@@ -104,18 +104,18 @@ rate_limits:
   slug: vast-space-rate-limits
 score:
   band: emerging
-  composite: 24.8
-  delta: 0.0
+  composite: 24.4
+  delta: -0.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 32.3
+    contract_quality: 30.6
     developer_ergonomics: 8.7
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 24.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/screenshots/vast-space-2026-06-20T200831.png
 security:

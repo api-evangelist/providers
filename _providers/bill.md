@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -81,6 +81,34 @@ collections:
   name: BILL v3 API
   slug: open-bill
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.bill.com/blog
+- group: design
+  title: ''
+  type: Webhooks
+  url: https://developer.bill.com/docs/webhooks
+- group: start
+  title: ''
+  type: Sandbox
+  url: https://developer.bill.com/docs/sandbox-bank-account-setup
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://developer.bill.com/changelog
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.bill.com/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.bill.com/legal/terms-of-service
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.bill.com/docs/get-started-in-production
 - group: agent
   title: ''
   type: AgenticAccess
@@ -143,7 +171,7 @@ overview: 'BILL publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
   The BILL catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  BILL''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, and 6 more developer resources.'
+  BILL''s developer surface includes engineering blog, sandbox, changelog, getting-started guide, authentication, documentation, API reference, and 12 more developer resources.'
 random_paper: 71
 rules:
 - name: BILL API Rules
@@ -155,16 +183,16 @@ rules:
     warn: 6
   slug: bill-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 35.3
-  delta: 0.0
+  band: developing
+  composite: 49.1
+  delta: 13.8
   facets:
-    commercial_clarity: 10.5
-    contract_quality: 64.2
-    developer_ergonomics: 39.1
-    discoverability: 64.8
+    commercial_clarity: 44.7
+    contract_quality: 62.1
+    developer_ergonomics: 58.7
+    discoverability: 72.2
     governance: 47.9
-    operational_transparency: 0.0
+    operational_transparency: 23.7
   previous_composite: 35.3
   provenance:
     agentic_access: derived
@@ -178,10 +206,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 18.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+    score: 31.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/bill/refs/heads/main/screenshots/bill-2026-06-20T173240.png
 security:
 - kind: authentication

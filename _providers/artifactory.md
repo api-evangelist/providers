@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 58.1
-  scored_at: '2026-08-10'
+  score: 54.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 1
@@ -463,15 +464,15 @@ rules:
   slug: artifactory-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 75.3
-  delta: 0.0
+  composite: 66.9
+  delta: -8.4
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 69.4
+    commercial_clarity: 68.4
+    contract_quality: 66.9
     developer_ergonomics: 65.2
     discoverability: 92.6
     governance: 69.8
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 75.3
   provenance:
     agentic_access: derived
@@ -482,9 +483,9 @@ score:
       marker_coverage: 0.0
       total: 17
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/screenshots/artifactory-2026-06-20T172451.png
 security:
 - kind: authentication

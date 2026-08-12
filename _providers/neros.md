@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: APEX is Neros Technologies' open, MIT-licensed plug-and-play protocol for connecting drone platforms (hosts) and payloads (devices) over a standard 10-pin connector. The core protocol is class-agnosti
@@ -26,6 +26,10 @@ apis:
   slug: apex
 artifact_total: 2
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Neros-Technologies/APEX/issues
 - group: company
   title: ''
   type: Website
@@ -109,24 +113,24 @@ network: true
 overview: 'Neros publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Drones, Unmanned Systems, and UAV.
 
 
-  Neros'' developer surface includes engineering blog, support, changelog, sandbox, and 14 more developer resources.'
+  Neros'' developer surface includes engineering blog, support, changelog, sandbox, and 15 more developer resources.'
 random_paper: 87
 score:
   band: emerging
-  composite: 19.6
-  delta: 0.0
+  composite: 18.5
+  delta: -1.1
   facets:
     commercial_clarity: 18.4
     contract_quality: 0.0
     developer_ergonomics: 19.6
-    discoverability: 77.8
+    discoverability: 66.7
     governance: 12.5
     operational_transparency: 21.1
   previous_composite: 19.6
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neros/refs/heads/main/screenshots/neros-2026-08-07T184905.png
 security:

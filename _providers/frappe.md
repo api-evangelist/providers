@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -51,6 +51,30 @@ collections:
   name: Frappe Framework REST API
   slug: open-frappe
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/frappe/frappe/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/frappe/frappe/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/frappe/frappe/blob/develop/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/frappe/frappe/blob/develop/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/frappe/frappe/blob/develop/.github/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/frappe/frappe/blob/develop/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -121,7 +145,7 @@ overview: 'Frappe publishes 2 APIs on the [APIs.io](https://apis.io/) network: M
   The Frappe catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Frappe''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  Frappe''s developer surface includes authentication, documentation, engineering blog, and 15 more developer resources.'
 plans:
 - name: Frappe Plans Pricing
   plan_count: 3
@@ -142,15 +166,15 @@ rules:
   slug: frappe-rest-rules
 score:
   band: thin
-  composite: 38.5
-  delta: 0.0
+  composite: 33.7
+  delta: -4.8
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 50.4
+    commercial_clarity: 15.8
+    contract_quality: 48.5
     developer_ergonomics: 30.4
     discoverability: 59.3
     governance: 10.4
-    operational_transparency: 36.8
+    operational_transparency: 39.5
   previous_composite: 38.5
   provenance:
     agentic_access: derived
@@ -159,8 +183,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frappe/refs/heads/main/screenshots/frappe-2026-06-20T181510.png
 security:

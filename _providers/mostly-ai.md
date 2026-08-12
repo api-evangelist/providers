@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -81,6 +81,22 @@ collections:
   name: MOSTLY AI Platform REST API
   slug: open-mostly-ai
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/mostly-ai/mostlyai/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/mostly-ai/mostlyai/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/mostly-ai/mostlyai/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/mostly-ai/mostlyai/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -144,7 +160,7 @@ network: true
 overview: 'MOSTLY AI publishes 10 APIs on the [APIs.io](https://apis.io/) network, including About API, Computes API, Connectors API, and 7 more. Tagged areas include Synthetic Data, Privacy, Tabular, Differential Privacy, and Python SDK.
 
 
-  MOSTLY AI''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 8 more developer resources.'
+  MOSTLY AI''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 12 more developer resources.'
 plans:
 - name: Mostly Ai Plans Pricing
   plan_count: 1
@@ -156,15 +172,15 @@ rate_limits:
   slug: mostly-ai-rate-limits
 score:
   band: thin
-  composite: 35.3
-  delta: 0.0
+  composite: 36.8
+  delta: 1.5
   facets:
     commercial_clarity: 28.9
-    contract_quality: 57.4
+    contract_quality: 55.2
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 42.1
   previous_composite: 35.3
   provenance:
     agentic_access: derived
@@ -173,8 +189,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/screenshots/mostly-ai-2026-06-20T185821.png
 security:

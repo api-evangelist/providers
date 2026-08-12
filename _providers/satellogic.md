@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: Unified Orders API in Aleph V2 that consolidates archive purchases and new-capture tasking into a single REST surface. Supports archive products, POI (point-of-interest) tasking, and AOI (area-of-inte
@@ -201,10 +201,10 @@ overview: 'Satellogic publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 19
 score:
   band: emerging
-  composite: 21.2
-  delta: 0.0
+  composite: 23.5
+  delta: 2.3
   facets:
-    commercial_clarity: 21.1
+    commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 41.3
     discoverability: 64.8
@@ -217,8 +217,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 30.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/satellogic/refs/heads/main/screenshots/satellogic-2026-06-20T193438.png
 security:

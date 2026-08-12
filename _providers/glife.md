@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: GraphQL API backing the Glife food-tech commerce and supply-chain platform. Exposes 535 queries, 870 mutations, and 139 subscriptions across ecommerce (customers, products, categories, orders, article
@@ -127,8 +127,8 @@ score:
   previous_composite: 25.0
   provenance:
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glife/refs/heads/main/screenshots/glife-2026-07-25T215902.png
 security:

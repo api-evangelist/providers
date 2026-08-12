@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -53,6 +53,26 @@ apis:
   slug: ibm-translate-translation-api
 artifact_total: 20
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/watson-developer-cloud/python-sdk/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/watson-developer-cloud/python-sdk/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/watson-developer-cloud/python-sdk/blob/master/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/watson-developer-cloud/python-sdk/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/watson-developer-cloud/python-sdk/blob/master/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -159,7 +179,7 @@ overview: 'IBM Language Translator publishes 4 APIs on the [APIs.io](https://api
   The IBM Language Translator catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  IBM Language Translator''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
+  IBM Language Translator''s developer surface includes authentication, documentation, engineering blog, pricing, and 16 more developer resources.'
 plans:
 - name: Ibm Translate Plans Pricing
   plan_count: 2
@@ -180,15 +200,15 @@ rules:
   slug: ibm-translate-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 53.0
+  delta: 1.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 72.5
+    contract_quality: 69.8
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 68.4
   previous_composite: 51.6
   provenance:
     agentic_access: derived
@@ -197,8 +217,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/screenshots/ibm-translate-2026-06-20T183233.png
 security:

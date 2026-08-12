@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-10'
+  score: 34.0
+  scored_at: '2026-08-11'
 api_count: 25
 apis:
 - description: The Asset Categories API from BanQu — 2 operation(s) for asset categories.
@@ -96,12 +96,16 @@ apis:
 - description: Automation workflows for custom validations on any write API actions
   name: BanQu Validation Workflows API
   slug: banqu-validation-workflows-api
-artifact_total: 28
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Banqu Webhooks
   slug: banqu-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/banqu-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -191,6 +195,10 @@ description: BanQu is a Minnetonka, Minnesota supply-chain traceability and sust
   transformations, payment adjustments, forms and form data entries, attachments, notifications, and three automation surfaces — Smart Contracts, Data Processors, and Validation Workflows.
 image: https://cdn.prod.website-files.com/639a714d409fd7284b16da02/639e8cdd882c7f42845de0fa_BanQu_Opengraph.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: banqu-mcp.yml
+  slug: banqu-mcpyml
 modified: '2026-08-06'
 name: BanQu
 nav: Providers
@@ -201,26 +209,31 @@ overview: 'BanQu publishes 25 APIs on the [APIs.io](https://apis.io/) network, i
   The BanQu catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  BanQu''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 16 more developer resources.'
+  BanQu''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 17 more developer resources.'
 random_paper: 71
 score:
   band: thin
-  composite: 37.1
-  delta: 0.8
+  composite: 36.5
+  delta: -0.6
   facets:
     commercial_clarity: 23.7
-    contract_quality: 55.4
-    developer_ergonomics: 34.2
-    discoverability: 92.6
+    contract_quality: 55.6
+    developer_ergonomics: 36.4
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 36.3
+  previous_composite: 37.1
   provenance:
     conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 25
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/screenshots/banqu-2026-08-07T162129.png
 security:

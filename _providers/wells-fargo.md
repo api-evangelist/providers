@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -69,6 +69,18 @@ collections:
   name: Wells Fargo Gateway API
   slug: open-wells-fargo-gateway-api
 common:
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.wellsfargo.com/help/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.wellsfargo.com/privacy-security/terms/
+- group: start
+  title: ''
+  type: Login
+  url: https://connect.secure.wellsfargo.com/auth/login/present?passkey=Y
 - group: agent
   title: ''
   type: AgenticAccess
@@ -170,7 +182,7 @@ overview: 'wells-fargo publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
   The wells-fargo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  wells-fargo''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  wells-fargo''s developer surface includes support, authentication, documentation, and 12 more developer resources.'
 plans:
 - name: Wells Fargo Plans Pricing
   plan_count: 1
@@ -220,15 +232,15 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 49.5
+  delta: 0.5
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 79.8
-    developer_ergonomics: 28.3
-    discoverability: 59.3
+    commercial_clarity: 36.8
+    contract_quality: 77.2
+    developer_ergonomics: 32.6
+    discoverability: 66.7
     governance: 68.8
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 49.0
   provenance:
     agentic_access: derived
@@ -237,8 +249,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/screenshots/wells-fargo-2026-06-20T201349.png
 security:

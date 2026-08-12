@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 45.0
-  scored_at: '2026-08-10'
+  score: 41.4
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API for NFT data, market analytics, aggregated trading (GoTrading), machine-learning valuations (GoPricing), and webhook notifications (Notify). Authenticates with an X-API-KEY header and is mete
@@ -150,13 +150,13 @@ overview: 'NFTgo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 78
 score:
   band: thin
-  composite: 40.5
-  delta: 0.0
+  composite: 39.6
+  delta: -0.9
   facets:
     commercial_clarity: 23.7
     contract_quality: 51.6
     developer_ergonomics: 60.9
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 28.9
   previous_composite: 40.5
@@ -169,8 +169,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nftgo/refs/heads/main/screenshots/nftgo-2026-08-07T185237.png
 security:

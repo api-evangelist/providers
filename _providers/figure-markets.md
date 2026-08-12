@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Access-controlled trading API for the Figure Markets exchange (EP3 matching engine on Provenance Blockchain) covering markets, trading, and account operations. Requires authentication; no public OpenA
@@ -90,13 +90,13 @@ overview: 'Figure Markets publishes 1 API on the [APIs.io](https://apis.io/) net
 random_paper: 54
 score:
   band: emerging
-  composite: 20.2
-  delta: 0.0
+  composite: 17.3
+  delta: -2.9
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 3.1
     operational_transparency: 5.3
   previous_composite: 20.2
@@ -107,9 +107,9 @@ score:
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 38.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 25.0
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figure-markets/refs/heads/main/screenshots/figure-markets-2026-07-25T214442.png
 security:

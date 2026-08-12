@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-08-10'
+  score: 41.7
+  scored_at: '2026-08-11'
 api_count: 23
 apis:
 - description: Official open-source Model Context Protocol server (Java) exposing 14 WhoisFreaks domain-intelligence tools to MCP-compatible AI clients. Distributed as source and as the whoisfreaks/mcp-server Docker
@@ -96,6 +96,10 @@ asyncapis:
   name: Whoisfreaks Monitoring Webhooks
   slug: whoisfreaks-monitoring-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/whoisfreaks-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -250,7 +254,7 @@ overview: 'WhoisFreaks publishes 22 APIs on the [APIs.io](https://apis.io/) netw
   The WhoisFreaks catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  WhoisFreaks'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+  WhoisFreaks'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 plans:
 - name: Whoisfreaks Plans
   plan_count: 5
@@ -262,16 +266,28 @@ rate_limits:
   slug: whoisfreaks-rate-limits
 score:
   band: exemplar
-  composite: 71.1
+  composite: 68.8
+  delta: -2.3
   facets:
     commercial_clarity: 84.2
-    contract_quality: 64.3
-    developer_ergonomics: 82.6
-    discoverability: 92.6
-    governance: 20.8
+    contract_quality: 67.8
+    developer_ergonomics: 77.7
+    discoverability: 81.5
+    governance: 11.5
     operational_transparency: 76.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 71.1
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 22
+    mcp: first-party
+    skills: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Whoisfreaks Authentication

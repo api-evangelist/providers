@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +26,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 59.2
-  scored_at: '2026-08-10'
+  score: 55.6
+  scored_at: '2026-08-11'
 api_count: 50
 apis:
 - description: The Add-ons API from Upsun — 1 operation(s) for add-ons.
@@ -517,11 +518,11 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 62.1
-  delta: 0.0
+  composite: 61.5
+  delta: -0.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 61.8
+    contract_quality: 59.5
     developer_ergonomics: 86.4
     discoverability: 87.0
     governance: 11.5
@@ -536,8 +537,8 @@ score:
       total: 50
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

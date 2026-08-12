@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: REST/JSON API backing the Estuary Flow web dashboard and flowctl CLI. Manages captures, collections, materializations, derivations, drafts, publications, tenants, and role grants. Authenticated with a
@@ -45,6 +45,18 @@ apis:
   slug: connectors
 artifact_total: 8
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/estuary/flow/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/estuary/flow/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/estuary/flow/blob/master/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -128,7 +140,7 @@ network: true
 overview: 'Estuary Flow publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Data, Streaming, Change Data Capture, CDC, and ETL.
 
 
-  Estuary Flow''s developer surface includes developer portal, documentation, signup flow, pricing, engineering blog, GitHub presence, CLI, and 10 more developer resources.'
+  Estuary Flow''s developer surface includes developer portal, documentation, signup flow, pricing, engineering blog, GitHub presence, CLI, and 13 more developer resources.'
 plans:
 - name: Estuary Flow Plans Pricing
   plan_count: 1
@@ -140,18 +152,18 @@ rate_limits:
   slug: estuary-flow-rate-limits
 score:
   band: thin
-  composite: 31.6
-  delta: 0.0
+  composite: 34.4
+  delta: 2.8
   facets:
     commercial_clarity: 73.7
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 42.1
   previous_composite: 31.6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/estuary-flow/refs/heads/main/screenshots/estuary-flow-2026-06-20T180830.png
 security:

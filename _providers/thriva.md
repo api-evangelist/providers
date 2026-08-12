@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-08-10'
+  score: 43.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -74,6 +74,10 @@ asyncapis:
   name: Thriva Webhooks
   slug: thriva-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/thriva-platform-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -204,15 +208,15 @@ overview: 'Thriva publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
   The Thriva catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Thriva''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 20 more developer resources.'
+  Thriva''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 21 more developer resources.'
 random_paper: 74
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 45.2
+  delta: -1.4
   facets:
     commercial_clarity: 34.2
-    contract_quality: 64.4
+    contract_quality: 62.0
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
@@ -233,9 +237,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 37.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 31.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

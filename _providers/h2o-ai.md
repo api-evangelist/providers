@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 259
   human_in_the_loop: 15
@@ -108,6 +108,18 @@ apis:
   slug: h2o-ai-tags-api
 artifact_total: 32
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/h2o-ai-h2ogpte-overlay.yaml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/h2oai/h2ogpte-mcp-server/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/h2oai/h2ogpte-mcp-server/releases
 - group: company
   title: ''
   type: Website
@@ -247,32 +259,32 @@ network: true
 overview: 'H2O.ai publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Admin Sessions API, Agents API, AI Assistants API, and 22 more. Tagged areas include Company, Artificial Intelligence, Machine Learning, MLOps, and Generative AI.
 
 
-  H2O.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
+  H2O.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
 random_paper: 48
 score:
   band: developing
-  composite: 53.6
-  delta: 0.3
+  composite: 54.1
+  delta: 0.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 55.5
+    contract_quality: 57.4
     developer_ergonomics: 64.7
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 53.3
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 50.0
+      callable: 96.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 25
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/screenshots/h2o-ai-2026-08-07T165917.png
 security:

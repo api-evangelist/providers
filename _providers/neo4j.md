@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-10'
+  score: 42.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -234,16 +234,16 @@ rules:
     warn: 4
   slug: neo4j-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 59.5
-  delta: 0.0
+  band: developing
+  composite: 53.2
+  delta: -6.3
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 68.5
-    developer_ergonomics: 39.1
-    discoverability: 64.8
+    commercial_clarity: 57.9
+    contract_quality: 66.0
+    developer_ergonomics: 45.7
+    discoverability: 72.2
     governance: 58.3
-    operational_transparency: 36.8
+    operational_transparency: 13.2
   previous_composite: 59.5
   provenance:
     agentic_access: derived
@@ -252,9 +252,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 security:
 - kind: authentication
   name: Neo4J Authentication

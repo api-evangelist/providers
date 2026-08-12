@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 5
 apis:
 - description: OAuth 2.0 authorization endpoint that issues bearer tokens consumed by the EchoSync Customer API and Carrier API. Existing partners request credentials via their Echo sales representative or info@echo
@@ -189,8 +189,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 23.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/echo-global-logistics/refs/heads/main/screenshots/echo-global-logistics-2026-06-20T180420.png
 security:

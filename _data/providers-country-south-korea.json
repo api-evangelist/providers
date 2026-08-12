@@ -4,10 +4,10 @@
  "limit": 1000,
  "bands": [
   {
-   "band": "exemplar",
-   "label": "Exemplar",
-   "range": "66+",
-   "blurb": "Reference-quality API operations across every facet.",
+   "band": "strong",
+   "label": "Strong",
+   "range": "56 – 65.9",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 1,
    "shown": 1,
    "providers": [
@@ -15,19 +15,19 @@
      "name": "PortOne",
      "slug": "portone",
      "description": "PortOne (formerly Iamport) is a Korea-based payment orchestration platform that lets online businesses integrate one API to reach 100+ Korean and global payment methods and PSPs. The V2 REST API (api.portone.io) covers payments, billing keys, scheduled/recurring payments, identity verification, cash receipts, B2B tax invoices, and partner settlement, with the legacy V1 API still served at api.iamport.kr.",
-     "score": 66.3,
-     "band": "exemplar",
-     "band_label": "Exemplar",
+     "score": 64.8,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 69.4,
+      "discoverability": 81.5,
+      "contract_quality": 66.8,
       "governance": 11.5,
       "operational_transparency": 84.2,
       "developer_ergonomics": 79.9,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -71,19 +71,19 @@
      "slug": "barogo",
      "description": "Barogo (바로고) is a South Korean last-mile delivery platform founded in 2014 and headquartered in Gangnam-gu, Seoul. It operates a nationwide two-wheeler dispatch network for food and goods, with rider, merchant and hub-manager apps and a store POS program, and counts McDonald's, Burger King, KFC, Krispy Kreme, Baskin Robbins and Dunkin among its clients. Its developer-facing product is Gorela (고릴라), a delivery-brokerage platform that sits between an \"order agency\" — a POS, marketplace or commerce platform that takes the customer's order — and the delivery agencies that assign riders. The Gorela API covers fare quoting and serviceability, order intake in fixed-fare and flexible-fare modes, order read/amend/cancel, store mapping, prepaid store balances, delivery-agency status and delivery zones, plus twenty callbacks pushed back to the partner as an order fans out into its child deliveries.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/barogo/refs/heads/main/screenshots/barogo-2026-08-07T162156.png",
-     "score": 50.9,
+     "score": 51.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 71.7,
+      "contract_quality": 74.0,
       "governance": 11.5,
       "operational_transparency": 13.2,
       "developer_ergonomics": 69.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 61.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -109,19 +109,19 @@
      "slug": "korbit",
      "description": "Korbit is South Korea's first cryptocurrency exchange, founded in 2013 and headquartered in Seoul, offering KRW-denominated spot trading of bitcoin, ether and other digital assets to Korean retail and institutional customers. Korbit publishes the Korbit Open API v2, a REST and WebSocket interface covering market data (tickers, orderbook, trades, candlesticks, tick-size policy), order placement and cancellation, order and trade history, balances, cryptocurrency deposit-address management and withdrawals, and KRW deposit/withdrawal push notifications. Authentication is by API key (X-KAPI-KEY) with per-request HMAC-SHA256 or ED25519 signatures, granular key permissions and optional IP allowlisting. Korbit is unusually agent-forward for an exchange: it ships an official Go CLI with a bundled MCP server and Agent Skill, a documented llms.txt, and a downloadable local sandbox that mocks the full REST and WebSocket surface for no-risk development.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/screenshots/korbit-2026-07-25T224221.png",
-     "score": 49.6,
+     "score": 48.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 74.7,
+      "discoverability": 81.5,
+      "contract_quality": 72.3,
       "governance": 11.5,
       "operational_transparency": 44.7,
       "developer_ergonomics": 77.7,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -129,7 +129,7 @@
       "score": 28.3,
       "matched_via": "tags"
      },
-     "agent_score": 65.1,
+     "agent_score": 61.5,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -142,7 +142,7 @@
       "rate_limit_signal": "documented",
       "event_surface_described": "derived",
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -150,105 +150,23 @@
      "rank": 3
     },
     {
-     "name": "SK Telecom",
-     "slug": "sk-telecom",
-     "description": "SK Telecom Co., Ltd. is South Korea's largest mobile network operator, headquartered at SK T-Tower in Jung-gu, Seoul, and the telecom arm of SK Group. It runs the country's largest 5G and LTE network, sells fixed broadband and IPTV through subsidiary SK Broadband, operates the T world retail and care channel, and has repositioned itself as an \"AI company\" around its A.X sovereign Korean LLM family, the NUGU voice assistant, and the A. (A dot) assistant. Its position in the telecom value chain is that of a facilities-based incumbent carrier: it owns the radio access network, spectrum, SIM base, and identity rails that the rest of the Korean digital economy authenticates against. Its API posture is split in an unusual way. SK Telecom does run a genuine, self-serve public developer portal — SK open API at openapi.sk.com, operated by SK Telecom Co., Ltd. — but what it publishes there is AI, big-data and mobility product APIs (speech synthesis, face recognition, congestion and floating-population analytics, video analysis), not network APIs. The legacy T developers subdomains developer.sktelecom.com and developers.sktelecom.com both resolve in DNS to 211.188.149.18 and refuse connections on port 443 — a dead developer programme with dangling hostnames. On the network-API side SK Telecom is a named CAMARA participant and appears in the CAMARA landscape as an operator, has an organisation page in GSMA's Open Gateway directory, signed a domestic MoU with KT and LG Uplus in October 2024 to standardise six network APIs through Korea's TTA, endorsed the Bridge Alliance API Exchange, and signed an MoU with Aduna through subsidiary SK telink in September 2025 — but no CAMARA endpoint (Number Verification, SIM Swap, KYC Match, Quality on Demand) is callable from any SK Telecom-operated developer portal. Developers who want SK Telecom network capability reach it through aggregators — Bridge Alliance BAEx on Singtel's Paragon platform, surfaced through Nokia's Network as Code developer portal, or Aduna — not from SK Telecom directly.",
-     "score": 44.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 56.1,
-      "governance": 11.5,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 51.6,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 43.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 59.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 4
-    },
-    {
-     "name": "Kurly",
-     "slug": "kurly",
-     "description": "Kurly (컬리, operated by The Farmers Front) is a South Korean online grocery and lifestyle commerce company, known for Market Kurly and its overnight \"dawn delivery\" (샛별배송) model built on a cold-chain fulfillment network. Kurly Logistics Services (KLS) opens that network to contracted shipper clients (화주사) as a B2B Open API spanning three service families: fulfillment (물류대행), where Kurly holds and ships the shipper's stock, covering goods master, inbound receiving, inventory and ledgers, outbound orders and fulfillment plans; delivery agency (배송대행), where the shipper ships from their own warehouse over Kurly's Nextmile last-mile network; and shared delivery tracking. Access is contract-gated — clientId and secretKey are issued only after IP allowlist registration — and Kurly states as policy that KLS does not push data to external systems, so integrations poll rather than subscribe to webhooks.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/screenshots/kurly-2026-07-25T224336.png",
-     "score": 44.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 57.4,
-      "governance": 21.9,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 13.2
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 49.3,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 5
-    },
-    {
      "name": "Bithumb",
      "slug": "bithumb",
      "description": "Bithumb is South Korea's leading cryptocurrency exchange platform offering REST and WebSocket APIs for spot trading across KRW, BTC, and USDT markets. The APIs cover market data, order management, account management, deposit and withdrawal operations, and real-time streaming for 396+ cryptocurrencies.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/screenshots/bithumb-2026-06-20T173314.png",
-     "score": 44.0,
+     "score": 43.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 58.3,
+      "contract_quality": 56.1,
       "governance": 58.3,
       "operational_transparency": 36.8,
       "developer_ergonomics": 34.8,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -274,7 +192,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 4
+    },
+    {
+     "name": "Kurly",
+     "slug": "kurly",
+     "description": "Kurly (컬리, operated by The Farmers Front) is a South Korean online grocery and lifestyle commerce company, known for Market Kurly and its overnight \"dawn delivery\" (샛별배송) model built on a cold-chain fulfillment network. Kurly Logistics Services (KLS) opens that network to contracted shipper clients (화주사) as a B2B Open API spanning three service families: fulfillment (물류대행), where Kurly holds and ships the shipper's stock, covering goods master, inbound receiving, inventory and ledgers, outbound orders and fulfillment plans; delivery agency (배송대행), where the shipper ships from their own warehouse over Kurly's Nextmile last-mile network; and shared delivery tracking. Access is contract-gated — clientId and secretKey are issued only after IP allowlist registration — and Kurly states as policy that KLS does not push data to external systems, so integrations poll rather than subscribe to webhooks.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/screenshots/kurly-2026-07-25T224336.png",
+     "score": 43.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 55.2,
+      "governance": 21.9,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 49.3,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 5
     },
     {
      "name": "Payple",
@@ -292,8 +248,8 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -319,6 +275,50 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 6
+    },
+    {
+     "name": "SK Telecom",
+     "slug": "sk-telecom",
+     "description": "SK Telecom Co., Ltd. is South Korea's largest mobile network operator, headquartered at SK T-Tower in Jung-gu, Seoul, and the telecom arm of SK Group. It runs the country's largest 5G and LTE network, sells fixed broadband and IPTV through subsidiary SK Broadband, operates the T world retail and care channel, and has repositioned itself as an \"AI company\" around its A.X sovereign Korean LLM family, the NUGU voice assistant, and the A. (A dot) assistant. Its position in the telecom value chain is that of a facilities-based incumbent carrier: it owns the radio access network, spectrum, SIM base, and identity rails that the rest of the Korean digital economy authenticates against. Its API posture is split in an unusual way. SK Telecom does run a genuine, self-serve public developer portal — SK open API at openapi.sk.com, operated by SK Telecom Co., Ltd. — but what it publishes there is AI, big-data and mobility product APIs (speech synthesis, face recognition, congestion and floating-population analytics, video analysis), not network APIs. The legacy T developers subdomains developer.sktelecom.com and developers.sktelecom.com both resolve in DNS to 211.188.149.18 and refuse connections on port 443 — a dead developer programme with dangling hostnames. On the network-API side SK Telecom is a named CAMARA participant and appears in the CAMARA landscape as an operator, has an organisation page in GSMA's Open Gateway directory, signed a domestic MoU with KT and LG Uplus in October 2024 to standardise six network APIs through Korea's TTA, endorsed the Bridge Alliance API Exchange, and signed an MoU with Aduna through subsidiary SK telink in September 2025 — but no CAMARA endpoint (Number Verification, SIM Swap, KYC Match, Quality on Demand) is callable from any SK Telecom-operated developer portal. Developers who want SK Telecom network capability reach it through aggregators — Bridge Alliance BAEx on Singtel's Paragon platform, surfaced through Nokia's Network as Code developer portal, or Aduna — not from SK Telecom directly.",
+     "score": 42.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 54.0,
+      "governance": 11.5,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 51.6,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 34.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 56.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 7
     }
    ],
@@ -337,19 +337,19 @@
      "slug": "yonsei",
      "description": "Yonsei University is a private research university in Seoul, South Korea, founded in 1885 and ranked #73 in the QS World University Rankings 2025. Its public, machine-readable footprint is limited and primarily research- and library-oriented: the Yonsei Research Information portal runs on Elsevier Pure (which exposes Pure OAI-PMH and REST endpoints, but they require credentials/IP allow-listing and return HTTP 401 publicly), and the medical library operates a DSpace 5.5 institutional repository (YUHSpace) whose RSS feed is publicly reachable while its OAI-PMH/REST paths are not currently resolvable. No official, documented public developer portal or open API was confirmed; the only related GitHub presence is a student-run Google Developer Group (gdg-yonsei), not an official institutional API organization.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/yonsei/refs/heads/main/screenshots/yonsei-2026-06-20T201758.png",
-     "score": 41.2,
+     "score": 40.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 65.5,
+      "contract_quality": 63.0,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -375,19 +375,19 @@
      "slug": "mindlogic",
      "description": "Mindlogic is a South Korean generative-AI company whose products include FactChat (a multi-LLM enterprise chat platform with Studio chatbot building, deep research, meeting notes, and image/video generation), Bliss (a persona chatbot that learns a person's voice and personality for fan engagement), and Informe (a multilingual document-grounded website chatbot). For developers, Mindlogic operates the FactChat API Gateway — a unified, OpenAI- and Anthropic-compatible LLM proxy that fronts models from OpenAI, Anthropic, Google Gemini, xAI and Perplexity behind a single API key, metered in credits, with chat completions, an OpenAI Responses pass-through, an Anthropic Messages pass-through, text-to-speech, and image/video generation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/screenshots/mindlogic-2026-08-07T172941.png",
-     "score": 38.5,
+     "score": 38.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 49.6,
+      "contract_quality": 47.8,
       "governance": 20.8,
       "operational_transparency": 0.0,
       "developer_ergonomics": 56.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 38.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -412,19 +412,19 @@
      "name": "Toss Payments",
      "slug": "toss-payments",
      "description": "Toss Payments is a South Korean payment gateway (PG) operated by Viva Republica, the company behind the Toss super-app. Its REST API lets merchants accept and manage online payments across cards, Korean easy-pay wallets (Toss Pay, KakaoPay, Naver Pay), virtual accounts, bank transfer, and mobile-phone billing. The Core API (base https://api.tosspayments.com) covers payment confirmation and cancellation, recurring billing keys, virtual account issuance, cash receipts, transaction and settlement queries, and seller payouts, with asynchronous results delivered by webhooks. Authentication is HTTP Basic using a secret API key.",
-     "score": 36.5,
+     "score": 36.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 63.6,
+      "contract_quality": 61.2,
       "governance": 0.0,
       "operational_transparency": 31.6,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -457,24 +457,24 @@
      "slug": "kakao",
      "description": "Kakao Corp. is the South Korean technology group behind KakaoTalk — the dominant mobile messenger in Korea — along with KakaoPay (payments), Kakao Bank (digital bank), KakaoMobility (taxi, navigation, parking), KakaoMap, Kakao Games, Kakao Entertainment (Melon, Kakao Webtoon, Daum), and KakaoCloud. Kakao runs its public developer platform at developers.kakao.com, exposing REST APIs for Kakao Login (OAuth 2.0), Kakao Sync, KakaoTalk Share / Message / Friend Picker / Channel, KakaoStory, KakaoNavi, KakaoMap, Local search, Daum Search, KakaoPay (PG / online easy-pay), and KoGPT generative AI. KakaoMobility and Kakao Enterprise / KakaoCloud each operate additional partner- facing developer surfaces.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/screenshots/kakao-2026-06-20T183903.png",
-     "score": 34.6,
+     "score": 34.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 60.5,
+      "contract_quality": 58.2,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 30.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 16.7,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 18.8,
       "matched_via": "tags"
      },
      "agent_score": 30.6,
@@ -502,19 +502,19 @@
      "slug": "my-real-trip",
      "description": "My Real Trip (마이리얼트립) is South Korea's largest online travel platform, founded in 2012, selling flights, stays, tours, tickets, and activities across 680+ cities in 80+ countries to roughly 5 million monthly active users. For developers it publishes a Partner API (partner-ext-api.myrealtrip.com) that lets marketing/affiliate partners search products, generate trackable MyLink short links, and pull revenue and reservation reports, secured with a Bearer API key. It also operates an official public Model Context Protocol (MCP) server that exposes real-time flight, stay, and tour/activity search to AI assistants such as Claude, Cursor, and Gemini CLI.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/my-real-trip/refs/heads/main/screenshots/my-real-trip-2026-08-07T184503.png",
-     "score": 32.8,
+     "score": 31.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 87.0,
+      "discoverability": 75.9,
       "contract_quality": 0.0,
       "governance": 3.1,
       "operational_transparency": 36.8,
       "developer_ergonomics": 60.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 27.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -542,15 +542,15 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 13,
-   "shown": 13,
+   "count": 12,
+   "shown": 12,
    "providers": [
     {
      "name": "Toss",
      "slug": "toss",
      "description": "Toss is a Korean financial super-app operated by Viva Republica that provides REST APIs for payments, banking, credit scoring, identity verification, and financial services across the Toss ecosystem. The Toss Payments platform supports card payments, virtual accounts, mobile phone billing, bank transfers, and digital wallets including TossPay, KakaoPay, NaverPay, and SamsungPay, serving over 30 million registered users across South Korea.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/toss/refs/heads/main/screenshots/toss-2026-06-20T195501.png",
-     "score": 27.0,
+     "score": 27.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -561,13 +561,13 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 7.6,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 9.4,
       "matched_via": "tags"
      },
      "agent_score": 19.4,
@@ -591,44 +591,6 @@
      "rank": 13
     },
     {
-     "name": "Coupang",
-     "slug": "coupang",
-     "description": "Coupang is a South Korean e-commerce company offering rapid delivery of a wide range of products including groceries, electronics, fashion, and household goods through its mobile app and website. Coupang exposes an Open API platform for marketplace sellers (vendors) to integrate product catalog, order, return, cancellation, settlement, and inquiry workflows.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coupang/refs/heads/main/screenshots/coupang-2026-06-20T175107.png",
-     "score": 25.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 14
-    },
-    {
      "name": "KakaoBank",
      "slug": "kakaobank",
      "description": "KakaoBank is South Korea's leading internet-only bank, offering REST APIs for account management, fund transfers, loans, credit scoring, and open banking data connectivity for the Korean market. Founded in 2016 and backed by Kakao Corp., KakaoBank serves over 26 million customers through a fully mobile and API-first digital banking platform.",
@@ -644,8 +606,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -671,7 +633,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 14
     },
     {
      "name": "Hanyang University",
@@ -689,8 +651,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -709,7 +671,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 15
     },
     {
      "name": "Pohang University of Science and Technology",
@@ -727,8 +689,46 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 16
+    },
+    {
+     "name": "Seoul National University",
+     "slug": "snu",
+     "description": "Seoul National University (SNU) is South Korea's flagship national research university, located in Seoul, and is ranked #34 in the QS World University Rankings 2025. Its primary public, machine-readable developer footprint is S-Space, the SNU Open Repository and Archive, a DSpace-based institutional repository that exposes a standards-compliant OAI-PMH 2.0 interface for metadata harvesting of theses, journal articles, and research outputs. SNU does not publish a centralized developer portal or general-purpose open-data API; most other digital services (mySNU portal, SSO, library discovery) are gated and not openly documented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/screenshots/snu-2026-06-20T194118.png",
+     "score": 18.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 12.9,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -750,23 +750,23 @@
      "rank": 17
     },
     {
-     "name": "Seoul National University",
-     "slug": "snu",
-     "description": "Seoul National University (SNU) is South Korea's flagship national research university, located in Seoul, and is ranked #34 in the QS World University Rankings 2025. Its primary public, machine-readable developer footprint is S-Space, the SNU Open Repository and Archive, a DSpace-based institutional repository that exposes a standards-compliant OAI-PMH 2.0 interface for metadata harvesting of theses, journal articles, and research outputs. SNU does not publish a centralized developer portal or general-purpose open-data API; most other digital services (mySNU portal, SSO, library discovery) are gated and not openly documented.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/screenshots/snu-2026-06-20T194118.png",
-     "score": 18.6,
+     "name": "Sungkyunkwan University",
+     "slug": "skku",
+     "description": "Sungkyunkwan University (SKKU) is a private research university in Seoul and Suwon, South Korea, with roots dating to 1398, and is ranked #123 in the QS World University Rankings 2025. Its digital footprint centers on the Kingo Portal single sign-on environment, the iCampus learning system, the university library, and the KINGO-M mobile app. As of this review SKKU publishes no public, documented developer API or open-data portal; integration and identity services (Kingo SSO, eduroam) are gated to enrolled students, faculty, and staff. Public software activity exists mainly through research-lab and student developer-community GitHub organizations rather than a central institutional developer program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skku/refs/heads/main/screenshots/skku-2026-06-20T194017.png",
+     "score": 18.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 59.3,
       "contract_quality": 12.9,
       "governance": 0.0,
-      "operational_transparency": 21.1,
+      "operational_transparency": 26.3,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -788,23 +788,67 @@
      "rank": 18
     },
     {
-     "name": "Sungkyunkwan University",
-     "slug": "skku",
-     "description": "Sungkyunkwan University (SKKU) is a private research university in Seoul and Suwon, South Korea, with roots dating to 1398, and is ranked #123 in the QS World University Rankings 2025. Its digital footprint centers on the Kingo Portal single sign-on environment, the iCampus learning system, the university library, and the KINGO-M mobile app. As of this review SKKU publishes no public, documented developer API or open-data portal; integration and identity services (Kingo SSO, eduroam) are gated to enrolled students, faculty, and staff. Public software activity exists mainly through research-lab and student developer-community GitHub organizations rather than a central institutional developer program.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skku/refs/heads/main/screenshots/skku-2026-06-20T194017.png",
-     "score": 18.4,
+     "name": "Simpatico Project",
+     "slug": "simpatico-project",
+     "description": "Simpatico Project (유쾌한프로젝트, Yukwaehan Project Co., Ltd.) is a Korean B2B mental-wellness startup, backed by 500 Global, whose product Clify (클라이피, \"Climb & Clarify\") is an AI-based integrated mental-care and Employee Assistance Program (EAP) solution for individuals and companies. Clify uses a patented multimodal algorithm to fuse Face & Voice biosignals — blood-flow changes, micro-expressions and voice characteristics — into a roughly one-minute mental-state diagnosis (stress, anxiety, depression, burnout) that it claims exceeds 90% accuracy, and rolls the results up into an organization insight dashboard for HR (company-wide mental trends, high/low-risk teams, usage). Personal mental data is processed on-device and de-identified so it is never shared with the employer, and the company states it holds ISO 27001. Product surfaces include FAV (the Face & Voice AI diagnosis engine), an EAP counseling center, and the Clify organization-insight analytics. The public presence (clify.co.kr, an imweb-built marketing and account site) exposes no developer API, OpenAPI, SDK, or webhook surface at this time.",
+     "score": 18.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 12.9,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 30.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 19
+    },
+    {
+     "name": "Coupang",
+     "slug": "coupang",
+     "description": "Coupang is a South Korean e-commerce company offering rapid delivery of a wide range of products including groceries, electronics, fashion, and household goods through its mobile app and website. Coupang exposes an Open API platform for marketplace sellers (vendors) to integrate product catalog, order, return, cancellation, settlement, and inquiry workflows.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coupang/refs/heads/main/screenshots/coupang-2026-06-20T175107.png",
+     "score": 17.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 36.8
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -823,7 +867,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Naver",
@@ -841,8 +885,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -868,43 +912,6 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
-    },
-    {
-     "name": "Simpatico Project",
-     "slug": "simpatico-project",
-     "description": "Simpatico Project (유쾌한프로젝트, Yukwaehan Project Co., Ltd.) is a Korean B2B mental-wellness startup, backed by 500 Global, whose product Clify (클라이피, \"Climb & Clarify\") is an AI-based integrated mental-care and Employee Assistance Program (EAP) solution for individuals and companies. Clify uses a patented multimodal algorithm to fuse Face & Voice biosignals — blood-flow changes, micro-expressions and voice characteristics — into a roughly one-minute mental-state diagnosis (stress, anxiety, depression, burnout) that it claims exceeds 90% accuracy, and rolls the results up into an organization insight dashboard for HR (company-wide mental trends, high/low-risk teams, usage). Personal mental data is processed on-device and de-identified so it is never shared with the employer, and the company states it holds ISO 27001. Product surfaces include FAV (the Face & Voice AI diagnosis engine), an EAP counseling center, and the Clify organization-insight analytics. The public presence (clify.co.kr, an imweb-built marketing and account site) exposes no developer API, OpenAPI, SDK, or webhook surface at this time.",
-     "score": 16.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
      "rank": 21
     },
     {
@@ -923,8 +930,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -961,8 +968,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -984,29 +991,23 @@
      "rank": 23
     },
     {
-     "name": "VCNC",
-     "slug": "vcnc",
-     "description": "VCNC is a South Korean mobile technology company behind Between, a private messaging and photo-sharing app for couples, and TADA, a ride-hailing and mobility service operating in Korea. A 500 Global portfolio company, VCNC maintains an open source presence on GitHub, including Haeinsa, a multi-row transaction library for HBase published on Maven Central. The company does not currently publish a public developer API, developer portal, or API client SDKs.",
-     "score": 14.0,
+     "name": "Newneek",
+     "slug": "newneek",
+     "description": "Newneek (뉴닉) is a South Korean knowledge and media platform that makes news and current events easy and fun to follow. Founded by Kim So-yeon and operated by Newneek Co., Ltd. from Seoul's Mapo district, the company is best known for its conversational email newsletter delivered by the mascot \"Gosuni,\" alongside a mobile app, a Slack news bot, and active social channels. Newneek is a consumer content brand rather than an API producer: it publishes no public developer portal, API documentation, or machine-readable API surface. It appears in the API Evangelist network as a 500 Global portfolio company, and this profile captures its identity and domain-security posture. Enrichment probes found no OpenAPI, well-known, OAuth, MCP, or webhook surface to harvest.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/newneek/refs/heads/main/screenshots/newneek-2026-08-07T185122.png",
+     "score": 13.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 6.5,
-      "commercial_clarity": 21.1
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 19.4,
-      "matched_via": "tags"
-     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1026,25 +1027,34 @@
       "dry_run_mode": false
      },
      "rank": 24
-    },
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 12.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 38,
+   "shown": 38,
+   "providers": [
     {
-     "name": "Newneek",
-     "slug": "newneek",
-     "description": "Newneek (뉴닉) is a South Korean knowledge and media platform that makes news and current events easy and fun to follow. Founded by Kim So-yeon and operated by Newneek Co., Ltd. from Seoul's Mapo district, the company is best known for its conversational email newsletter delivered by the mascot \"Gosuni,\" alongside a mobile app, a Slack news bot, and active social channels. Newneek is a consumer content brand rather than an API producer: it publishes no public developer portal, API documentation, or machine-readable API surface. It appears in the API Evangelist network as a 500 Global portfolio company, and this profile captures its identity and domain-security posture. Enrichment probes found no OpenAPI, well-known, OAuth, MCP, or webhook surface to harvest.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/newneek/refs/heads/main/screenshots/newneek-2026-08-07T185122.png",
-     "score": 13.1,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "name": "WE11DONE",
+     "slug": "we11done",
+     "description": "WE11DONE (pronounced \"well done\") is a Seoul-based fashion label founded in 2015 by Dami Kwon and Jessica Jung, the duo behind the Seoul concept boutique Rare Market. The brand fuses late-1990s and early-2000s streetwear and athleisure aesthetics into a globally distributed designer ready-to-wear line, sold through its own e-commerce storefront at we11-done.com and stockists worldwide. Surfaced as a consumer-sector portfolio company of hongshan and added to the API Evangelist network as a lead. An enrichment pass on 2026-07-21 confirmed the company operates a direct-to-consumer retail website but publishes no developer API surface: no developer portal, API reference, well-known metadata, or llms.txt were found.",
+     "score": 12.7,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
+      "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1064,34 +1074,24 @@
       "dry_run_mode": false
      },
      "rank": 25
-    }
-   ]
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 12.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 37,
-   "shown": 37,
-   "providers": [
+    },
     {
-     "name": "WE11DONE",
-     "slug": "we11done",
-     "description": "WE11DONE (pronounced \"well done\") is a Seoul-based fashion label founded in 2015 by Dami Kwon and Jessica Jung, the duo behind the Seoul concept boutique Rare Market. The brand fuses late-1990s and early-2000s streetwear and athleisure aesthetics into a globally distributed designer ready-to-wear line, sold through its own e-commerce storefront at we11-done.com and stockists worldwide. Surfaced as a consumer-sector portfolio company of hongshan and added to the API Evangelist network as a lead. An enrichment pass on 2026-07-21 confirmed the company operates a direct-to-consumer retail website but publishes no developer API surface: no developer portal, API reference, well-known metadata, or llms.txt were found.",
-     "score": 12.7,
+     "name": "Sankun",
+     "slug": "sankun",
+     "description": "Sankun (산군) is a South Korean construction-industry big data platform based in Seoul that aggregates and sells access to eight integrated construction databases covering roughly 280,000 construction companies, some 820,000 project sites, government e-procurement bids, contract awards, professional reputation reviews, and construction news. Alongside its web application and a construction sales CRM (Sankun Sales), the company markets a Sankun API (data.sankun.com) for programmatic access to its construction data, though public developer documentation is gated behind sales and login. Sankun is a portfolio company of 500 Global.",
+     "score": 12.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.3,
-      "commercial_clarity": 34.2
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1113,23 +1113,22 @@
      "rank": 26
     },
     {
-     "name": "KokkanLogis Co.,Ltd.",
-     "slug": "kokkanlogis-coltd",
-     "description": "KokkanLogis Co.,Ltd. (주식회사 곳간, branded KOKKAN / 도심창고 곳간) is a South Korean urban self-storage and logistics operator headquartered in Gangnam-gu, Seoul. It rents managed storage units in five sizes (S, M, L, XL, XXL, from 1.0m cubes up to 2.0 x 2.0 x 2.0m) across 22 branches in Seoul, Busan, Incheon, Gyeonggi and Chungbuk, serving households storing seasonal appliances, clothing, bedding and baby goods as well as businesses storing samples, inventory, documents and office equipment. Customers select a branch, choose a unit size, pay and manage their contract through the KOKKAN mobile apps for iOS and Android, with recurring monthly card billing through a Korean payment gateway, long-term and promotional discounting, an address-rental (주소지 임대) product, and an optional pickup service for moving stored goods. The company also runs a franchise and partnership program for operators who want to open a KOKKAN branch. It was surfaced through the 500 Global portfolio. As of this profile KokkanLogis publishes no public API, developer portal, SDK or technical documentation — the product surface is a consumer website plus native mobile apps.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kokkanlogis-coltd/refs/heads/main/screenshots/kokkanlogis-coltd-2026-07-25T224128.png",
-     "score": 12.4,
+     "name": "VCNC",
+     "slug": "vcnc",
+     "description": "VCNC is a South Korean mobile technology company behind Between, a private messaging and photo-sharing app for couples, and TADA, a ride-hailing and mobility service operating in Korea. A 500 Global portfolio company, VCNC maintains an open source presence on GitHub, including Haeinsa, a multi-row transaction library for HBase published on Maven Central. The company does not currently publish a public developer API, developer portal, or API client SDKs.",
+     "score": 11.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1151,22 +1150,23 @@
      "rank": 27
     },
     {
-     "name": "Sankun",
-     "slug": "sankun",
-     "description": "Sankun (산군) is a South Korean construction-industry big data platform based in Seoul that aggregates and sells access to eight integrated construction databases covering roughly 280,000 construction companies, some 820,000 project sites, government e-procurement bids, contract awards, professional reputation reviews, and construction news. Alongside its web application and a construction sales CRM (Sankun Sales), the company markets a Sankun API (data.sankun.com) for programmatic access to its construction data, though public developer documentation is gated behind sales and login. Sankun is a portfolio company of 500 Global.",
-     "score": 12.0,
+     "name": "KokkanLogis Co.,Ltd.",
+     "slug": "kokkanlogis-coltd",
+     "description": "KokkanLogis Co.,Ltd. (주식회사 곳간, branded KOKKAN / 도심창고 곳간) is a South Korean urban self-storage and logistics operator headquartered in Gangnam-gu, Seoul. It rents managed storage units in five sizes (S, M, L, XL, XXL, from 1.0m cubes up to 2.0 x 2.0 x 2.0m) across 22 branches in Seoul, Busan, Incheon, Gyeonggi and Chungbuk, serving households storing seasonal appliances, clothing, bedding and baby goods as well as businesses storing samples, inventory, documents and office equipment. Customers select a branch, choose a unit size, pay and manage their contract through the KOKKAN mobile apps for iOS and Android, with recurring monthly card billing through a Korean payment gateway, long-term and promotional discounting, an address-rental (주소지 임대) product, and an optional pickup service for moving stored goods. The company also runs a franchise and partnership program for operators who want to open a KOKKAN branch. It was surfaced through the 500 Global portfolio. As of this profile KokkanLogis publishes no public API, developer portal, SDK or technical documentation — the product surface is a consumer website plus native mobile apps.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kokkanlogis-coltd/refs/heads/main/screenshots/kokkanlogis-coltd-2026-07-25T224128.png",
+     "score": 11.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 23.7
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1188,44 +1188,6 @@
      "rank": 28
     },
     {
-     "name": "B612",
-     "slug": "b612",
-     "description": "B612 is a consumer selfie and beauty camera application for iOS and Android, published globally by SNOW Corporation and operated in mainland China as B612咔叽 (B612 Kaji) by Yiruike Information Technology (Beijing) Co., Ltd. The app combines a real-time beauty camera, AR stickers and scene effects, user-created and creator-published filters, and photo and video editing tools, and has been distributed through the Apple App Store and Google Play since 2014. B612 is a mobile end-user product rather than an API provider: as of this enrichment pass the company publishes no developer portal, no public API documentation, no SDKs, and no machine-readable API artifacts on any of its web properties.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/b612/refs/heads/main/screenshots/b612-2026-07-25T202145.png",
-     "score": 11.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.3,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 29
-    },
-    {
      "name": "Woowa Brothers",
      "slug": "woowa-brothers",
      "description": "Woowa Brothers is the Seoul-based technology company behind Baedal Minjok (Baemin), South Korea's leading food delivery platform, alongside B-Mart quick commerce, Baemin Connect rider services, and robotics initiatives for serving and delivery robots. A subsidiary of Delivery Hero since 2021, the company runs a strong engineering culture through its Woowahan tech blog and first-party open-source libraries on GitHub (NestJS libraries, WoowahanJS, Redis tooling), but it does not publish a public developer API or developer portal.",
@@ -1240,8 +1202,46 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
+     "agent_score": 3.6,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 29
+    },
+    {
+     "name": "B612",
+     "slug": "b612",
+     "description": "B612 is a consumer selfie and beauty camera application for iOS and Android, published globally by SNOW Corporation and operated in mainland China as B612咔叽 (B612 Kaji) by Yiruike Information Technology (Beijing) Co., Ltd. The app combines a real-time beauty camera, AR stickers and scene effects, user-created and creator-published filters, and photo and video editing tools, and has been distributed through the Apple App Store and Google Play since 2014. B612 is a mobile end-user product rather than an API provider: as of this enrichment pass the company publishes no developer portal, no public API documentation, no SDKs, and no machine-readable API artifacts on any of its web properties.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/b612/refs/heads/main/screenshots/b612-2026-07-25T202145.png",
+     "score": 10.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1278,8 +1278,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1316,8 +1316,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1354,8 +1354,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1391,8 +1391,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1429,8 +1429,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1474,8 +1474,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1511,8 +1511,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1549,8 +1549,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1594,8 +1594,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1632,8 +1632,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1655,23 +1655,23 @@
      "rank": 40
     },
     {
-     "name": "LINSOL Co.,Ltd.",
-     "slug": "linsol-coltd",
-     "description": "LINSOL Co.,Ltd. (린솔) is a safety-technology company headquartered in Daejeon, South Korea, founded as an in-house venture spun out of Hanwha Aerospace. LINSOL adapts acoustic detection techniques originally developed for defense landmine applications into commercial real-time hazard, accident, and environmental detection. Its product line includes Karang F (driving-environment detection), Karang S (precision acoustic signal transmission), SkyShield (fall detection), BR, Acoustic Eye (aerial security), and Safety Nova (smart integrated safety platform), sold into industrial safety, ESG, and defense security use cases. The company operates a Daejeon headquarters and research center plus a Goheung branch. LINSOL ships hardware and integrated platforms; as of a 2026-07-19 probe it publishes no public developer API, portal, SDK, or machine-readable specification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/linsol-coltd/refs/heads/main/screenshots/linsol-coltd-2026-07-25T225304.png",
-     "score": 7.3,
+     "name": "GeoGrid",
+     "slug": "geogrid",
+     "description": "Geogrid Co., Ltd. is a South Korean smart-building water technology company behind BLOS (\"Building Oasis\"), an integrated building-level water purification and monitoring system. BLOS delivers drinkable water from every tap using chemical-free ionization to eliminate rust, scale, and biofilm, and pairs it with real-time monitoring of water quality, usage, carbon emissions, and consumption plus predictive analytics for pipe condition, contamination risk, and filter replacement. Geogrid targets schools, hotels and resorts, public institutions, and healthcare facilities, and offers a BLOS Care membership service. The company is based at Seoul Startup Hub Seongsu, holds 21 registered patents, and has been recognized with venture certification, ESG awards, and selection as a Korean representative for WSA 2026. This profile was surfaced as a 500 Global portfolio lead and enriched from the company's public website.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/geogrid/refs/heads/main/screenshots/geogrid-2026-08-07T165645.png",
+     "score": 6.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
+      "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1693,23 +1693,23 @@
      "rank": 41
     },
     {
-     "name": "GeoGrid",
-     "slug": "geogrid",
-     "description": "Geogrid Co., Ltd. is a South Korean smart-building water technology company behind BLOS (\"Building Oasis\"), an integrated building-level water purification and monitoring system. BLOS delivers drinkable water from every tap using chemical-free ionization to eliminate rust, scale, and biofilm, and pairs it with real-time monitoring of water quality, usage, carbon emissions, and consumption plus predictive analytics for pipe condition, contamination risk, and filter replacement. Geogrid targets schools, hotels and resorts, public institutions, and healthcare facilities, and offers a BLOS Care membership service. The company is based at Seoul Startup Hub Seongsu, holds 21 registered patents, and has been recognized with venture certification, ESG awards, and selection as a Korean representative for WSA 2026. This profile was surfaced as a 500 Global portfolio lead and enriched from the company's public website.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/geogrid/refs/heads/main/screenshots/geogrid-2026-08-07T165645.png",
-     "score": 6.3,
+     "name": "LINSOL Co.,Ltd.",
+     "slug": "linsol-coltd",
+     "description": "LINSOL Co.,Ltd. (린솔) is a safety-technology company headquartered in Daejeon, South Korea, founded as an in-house venture spun out of Hanwha Aerospace. LINSOL adapts acoustic detection techniques originally developed for defense landmine applications into commercial real-time hazard, accident, and environmental detection. Its product line includes Karang F (driving-environment detection), Karang S (precision acoustic signal transmission), SkyShield (fall detection), BR, Acoustic Eye (aerial security), and Safety Nova (smart integrated safety platform), sold into industrial safety, ESG, and defense security use cases. The company operates a Daejeon headquarters and research center plus a Goheung branch. LINSOL ships hardware and integrated platforms; as of a 2026-07-19 probe it publishes no public developer API, portal, SDK, or machine-readable specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/linsol-coltd/refs/heads/main/screenshots/linsol-coltd-2026-07-25T225304.png",
+     "score": 6.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1746,8 +1746,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1783,8 +1783,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1828,8 +1828,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1866,8 +1866,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1904,8 +1904,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1942,8 +1942,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1979,8 +1979,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2017,8 +2017,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2055,8 +2055,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2092,8 +2092,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2129,8 +2129,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2166,8 +2166,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2203,8 +2203,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2240,8 +2240,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2277,8 +2277,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2314,8 +2314,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2351,8 +2351,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2388,8 +2388,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2425,8 +2425,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2462,8 +2462,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-10",
-     "schema_version": "0.9.1",
+     "scored_at": "2026-08-11",
+     "schema_version": "0.11.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",

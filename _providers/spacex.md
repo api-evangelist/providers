@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -375,11 +375,11 @@ rules:
   slug: spacex-rules
 score:
   band: thin
-  composite: 37.4
-  delta: 0.0
+  composite: 37.2
+  delta: -0.2
   facets:
     commercial_clarity: 21.1
-    contract_quality: 28.5
+    contract_quality: 27.5
     developer_ergonomics: 30.4
     discoverability: 59.3
     governance: 68.8
@@ -398,8 +398,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/screenshots/spacex-2026-06-20T194240.png
 security:

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-08-10'
+  score: 44.4
+  scored_at: '2026-08-11'
 api_count: 22
 apis:
 - description: The apps API from Replicated — 17 operation(s) for apps.
@@ -170,6 +170,10 @@ collections:
   name: Vendor API V3 apps vms API
   slug: postman-replicated-vms-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/replicated-vendor-api-v3-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -332,15 +336,15 @@ overview: 'Replicated publishes 22 APIs on the [APIs.io](https://apis.io/) netwo
   The Replicated catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Replicated''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  Replicated''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 random_paper: 9
 score:
   band: strong
-  composite: 64.4
-  delta: 0.0
+  composite: 63.7
+  delta: -0.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 70.4
+    contract_quality: 67.7
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 20.8
@@ -355,8 +359,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

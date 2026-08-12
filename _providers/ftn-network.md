@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Paid REST/JSON sports-data API providing real-time and historical data and charting for NFL, NBA, MLB, NHL, PGA, CFB, and CBB, sold across CSV, mid-tier API, and enterprise white-label plans. Access i
@@ -76,8 +76,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 8.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 slug: ftn-network
 tags:

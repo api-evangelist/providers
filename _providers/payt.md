@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -100,6 +100,10 @@ apis:
   slug: payt-vat-rates-api
 artifact_total: 25
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/payt-openapi-original-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -231,7 +235,7 @@ network: true
 overview: 'Payt publishes 20 APIs on the [APIs.io](https://apis.io/) network, including administrations API, companies API, contacts API, and 17 more. Tagged areas include Company, Applicative SaaS, Accounts Receivable, Order to Cash, and Invoicing.
 
 
-  Payt''s developer surface includes authentication, changelog, sandbox, documentation, API reference, support, engineering blog, and 22 more developer resources.'
+  Payt''s developer surface includes authentication, changelog, sandbox, documentation, API reference, support, engineering blog, and 23 more developer resources.'
 random_paper: 98
 scopes:
 - name: Payt Scopes
@@ -240,11 +244,11 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.5
-  delta: 0.0
+  composite: 52.0
+  delta: -0.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 60.5
+    contract_quality: 58.2
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 20.8
@@ -266,8 +270,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/screenshots/payt-2026-08-07T191658.png
 security:

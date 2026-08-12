@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-08-10'
+  score: 41.2
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST and WebSocket API for fixed-income reference data, evaluated pricing, order books, analytics, order/RFQ execution, and portfolio optimization.
@@ -142,13 +142,13 @@ overview: 'Moment publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 76
 score:
   band: thin
-  composite: 34.2
-  delta: 0.0
+  composite: 33.3
+  delta: -0.9
   facets:
     commercial_clarity: 0.0
     contract_quality: 51.6
     developer_ergonomics: 60.3
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 23.7
   previous_composite: 34.2
@@ -161,8 +161,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moment/refs/heads/main/screenshots/moment-2026-08-07T184119.png
 security:

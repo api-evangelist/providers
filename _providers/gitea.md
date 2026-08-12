@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 51.4
-  scored_at: '2026-08-10'
+  score: 47.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 470
   human_in_the_loop: 12
@@ -148,6 +149,30 @@ collections:
   name: Gitea API
   slug: open-gitea-rest-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/go-gitea/gitea/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/go-gitea/gitea/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/go-gitea/gitea/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/go-gitea/gitea/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/go-gitea/gitea/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/go-gitea/gitea/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -689,7 +714,7 @@ overview: 'Gitea publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
   The Gitea catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Gitea''s developer surface includes authentication, changelog, CLI, documentation, API reference, engineering blog, signup flow, and 70 more developer resources.'
+  Gitea''s developer surface includes authentication, changelog, CLI, documentation, API reference, engineering blog, signup flow, and 76 more developer resources.'
 plans:
 - name: Gitea Plans Pricing
   plan_count: 3
@@ -723,13 +748,13 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 73.0
-  delta: 0.0
+  composite: 74.5
+  delta: 1.5
   facets:
-    commercial_clarity: 86.8
-    contract_quality: 57.8
+    commercial_clarity: 100.0
+    contract_quality: 57.9
     developer_ergonomics: 67.4
-    discoverability: 77.8
+    discoverability: 66.7
     governance: 80.2
     operational_transparency: 78.9
   previous_composite: 73.0
@@ -742,8 +767,8 @@ score:
       marker_coverage: 0.0
       total: 9
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/screenshots/gitea-2026-06-20T181832.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -206,15 +206,15 @@ rate_limits:
   slug: oracle-general-ledger-rate-limits
 score:
   band: developing
-  composite: 54.8
-  delta: 0.0
+  composite: 46.4
+  delta: -8.4
   facets:
-    commercial_clarity: 73.7
-    contract_quality: 58.3
+    commercial_clarity: 50.0
+    contract_quality: 56.2
     developer_ergonomics: 45.7
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 54.8
   provenance:
     agentic_access: derived
@@ -223,9 +223,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-general-ledger/refs/heads/main/screenshots/oracle-general-ledger-2026-06-20T191133.png
 security:
 - kind: authentication

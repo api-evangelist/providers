@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: The BRICK ontology v1.4.4 defines a standardized vocabulary of building system concepts, relationships, and data model for smart building analytics. Available as RDF/OWL files, BRICK describes sensors
@@ -36,6 +36,22 @@ apis:
   slug: ontology
 artifact_total: 5
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/BrickSchema/Brick/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/BrickSchema/Brick/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/BrickSchema/Brick/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/BrickSchema/Brick/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -83,7 +99,7 @@ network: true
 overview: 'BRICK Schema publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Building Information Modeling, BIM, Smart Buildings, Ontology, and Semantic Web.
 
 
-  BRICK Schema''s developer surface includes documentation and 7 more developer resources.'
+  BRICK Schema''s developer surface includes documentation and 11 more developer resources.'
 plans:
 - name: Brick Plans Pricing
   plan_count: 3
@@ -95,19 +111,25 @@ rate_limits:
   slug: brick-rate-limits
 score:
   band: emerging
-  composite: 21.2
-  delta: 0.0
+  composite: 14.3
+  delta: -6.9
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 13.0
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 28.9
   previous_composite: 21.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 8.1
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/brick/refs/heads/main/screenshots/brick-2026-06-20T173653.png
 security:
 - kind: domain-security

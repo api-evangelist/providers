@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -55,6 +56,10 @@ apis:
   slug: cello-token-api
 artifact_total: 9
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cello-openapi-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -186,15 +191,15 @@ network: true
 overview: 'Cello publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Events API, New Users API, Referral Codes API, and 2 more. Tagged areas include Company, Referral Marketing, Affiliate Marketing, Growth, and SaaS.
 
 
-  Cello''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
+  Cello''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 23 more developer resources.'
 random_paper: 63
 score:
   band: developing
-  composite: 53.1
-  delta: 0.0
+  composite: 52.6
+  delta: -0.5
   facets:
     commercial_clarity: 52.6
-    contract_quality: 56.4
+    contract_quality: 54.3
     developer_ergonomics: 75.5
     discoverability: 81.5
     governance: 20.8
@@ -210,8 +215,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/screenshots/cello-2026-07-25T204908.png
 security:

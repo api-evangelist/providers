@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-08-10'
+  score: 39.6
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API for integrating Flywire's global payment network — one-off, recurring, pre-authorization, refund and 529 payments, checkout sessions, payors, recipients, and documents, with real-time payment
@@ -40,6 +40,10 @@ asyncapis:
   name: Flywire Payments Webhooks
   slug: flywire-payments-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.flywire.com/company/news
 - group: auth
   title: ''
   type: TrustCenter
@@ -174,16 +178,16 @@ overview: 'Flywire publishes 1 API on the [APIs.io](https://apis.io/) network. T
   The Flywire catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Flywire''s developer surface includes documentation, API reference, getting-started guide, sandbox, authentication, and 24 more developer resources.'
+  Flywire''s developer surface includes engineering blog, documentation, API reference, getting-started guide, sandbox, authentication, and 24 more developer resources.'
 random_paper: 74
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 49.4
+  delta: -1.5
   facets:
     commercial_clarity: 36.8
     contract_quality: 51.6
-    developer_ergonomics: 60.9
+    developer_ergonomics: 63.0
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 39.5
@@ -196,9 +200,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 68.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 56.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flywire/refs/heads/main/screenshots/flywire-2026-07-25T214857.png
 security:

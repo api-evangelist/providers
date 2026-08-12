@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 2
@@ -185,11 +185,11 @@ overview: 'Ardent publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 58
 score:
   band: developing
-  composite: 46.2
-  delta: 0.0
+  composite: 45.7
+  delta: -0.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 57.4
+    contract_quality: 55.3
     developer_ergonomics: 66.8
     discoverability: 81.5
     governance: 11.5
@@ -205,8 +205,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/screenshots/ardent-2026-07-25T201116.png
 security:

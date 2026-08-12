@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -102,7 +102,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/vistra-incorporations-openapi.yml
+  url: openapi/_original/vistra-incorporations-openapi.yml
 - group: docs
   title: ''
   type: JSONSchema
@@ -190,15 +190,15 @@ rules:
   slug: vistra-rules
 score:
   band: developing
-  composite: 50.4
-  delta: 0.0
+  composite: 44.5
+  delta: -5.9
   facets:
-    commercial_clarity: 47.4
-    contract_quality: 71.3
+    commercial_clarity: 31.6
+    contract_quality: 68.7
     developer_ergonomics: 26.1
     discoverability: 68.5
     governance: 68.8
-    operational_transparency: 21.1
+    operational_transparency: 5.3
   previous_composite: 50.4
   provenance:
     agentic_access: derived
@@ -207,9 +207,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/screenshots/vistra-2026-06-20T201057.png
 security:
 - kind: authentication

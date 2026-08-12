@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -195,16 +195,16 @@ scopes:
   slug: google-cloud-datastream-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: strong
-  composite: 62.7
-  delta: 0.0
+  band: developing
+  composite: 54.1
+  delta: -8.6
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 82.2
+    commercial_clarity: 47.4
+    contract_quality: 79.1
     developer_ergonomics: 47.8
     discoverability: 64.8
     governance: 41.7
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 62.7
   provenance:
     agentic_access: derived
@@ -213,9 +213,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastream/refs/heads/main/screenshots/google-cloud-datastream-2026-06-20T182105.png
 security:
 - kind: authentication

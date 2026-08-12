@@ -11,21 +11,25 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-10'
+  score: 36.9
+  scored_at: '2026-08-11'
 api_count: 0
-artifact_total: 3
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Aryaka Siem Log Streaming
   slug: aryaka-siem-log-streaming
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/aryaka-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -131,6 +135,10 @@ description: Aryaka Networks, Inc. is a San Mateo, California company that deliv
   portal (dashboards, site and policy configuration, alerting, log explorer, SLA and billing reports, order and contract management), with a companion MyAryaka Partner Portal for MSPs and telcos in the "Powered by Aryaka" program. Aryaka publishes a large public documentation portal at docs.aryaka.com and an llms.txt at the root of aryaka.com, and documents SIEM log-streaming integration with published log-attribute schemas, but as of this profiling round it publishes no public developer portal, no machine-readable API contract (OpenAPI/AsyncAPI/GraphQL), no client SDKs and no MCP or A2A agent surface — programmatic access is gated behind the MyAryaka portal.
 image: https://www.aryaka.com/wp-content/uploads/2025/03/aryaka-logo-new.jpg
 layout: provider
+mcp_servers:
+- description: ''
+  name: aryaka-mcp.yml
+  slug: aryaka-mcpyml
 modified: '2026-08-02'
 name: Aryaka
 nav: Providers
@@ -141,16 +149,16 @@ overview: 'Aryaka is profiled on the [APIs.io](https://apis.io/) network. Tagged
   The Aryaka catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Aryaka''s developer surface includes documentation, getting-started guide, support, engineering blog, FAQ, legal docs, authentication, and 18 more developer resources.'
+  Aryaka''s developer surface includes documentation, getting-started guide, support, engineering blog, FAQ, legal docs, authentication, and 19 more developer resources.'
 random_paper: 53
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 39.9
+  delta: 0.4
   facets:
     commercial_clarity: 42.1
     contract_quality: 51.6
-    developer_ergonomics: 37.0
+    developer_ergonomics: 39.1
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 15.8
@@ -164,8 +172,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aryaka/refs/heads/main/screenshots/aryaka-2026-08-07T161748.png
 security:

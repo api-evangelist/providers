@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-08-10'
+  score: 42.6
+  scored_at: '2026-08-11'
 api_count: 7
 apis:
 - description: The Assets API from Tristero — 1 operation(s) for assets.
@@ -54,6 +54,10 @@ apis:
   slug: tristero-wallets-api
 artifact_total: 10
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tristero-api-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -165,17 +169,17 @@ network: true
 overview: 'Tristero publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Margin API, Orders API, and 4 more. Tagged areas include Company, Cryptocurrency, Trading, DeFi, and Cross-Chain.
 
 
-  Tristero''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, sandbox, and 17 more developer resources.'
+  Tristero''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, sandbox, and 18 more developer resources.'
 random_paper: 80
 score:
   band: thin
-  composite: 40.9
-  delta: 0.0
+  composite: 40.3
+  delta: -0.6
   facets:
     commercial_clarity: 13.2
-    contract_quality: 61.4
+    contract_quality: 62.8
     developer_ergonomics: 69.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
   previous_composite: 40.9
@@ -194,8 +198,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

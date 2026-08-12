@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST data-integration API for Crunchtime's Inventory Management, Labor & Scheduling, and Cruise products. GET and POST operations move employees, locations, budgets, categories, products, recipes, sal
@@ -135,21 +135,21 @@ rate_limits:
   slug: crunchtime-information-systems-rate-limits
 score:
   band: thin
-  composite: 31.8
-  delta: 0.0
+  composite: 30.7
+  delta: -1.1
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 62.5
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 31.8
   provenance:
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/screenshots/crunchtime-information-systems-2026-07-25T210822.png
 security:

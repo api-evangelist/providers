@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: REST API for executing Power Query mashups and managing data transformations programmatically.
@@ -51,6 +51,10 @@ apis:
   slug: fabric-api
 artifact_total: 27
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Microsoft/DataConnectors/blob/master/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -158,7 +162,7 @@ overview: 'Power Query publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
   The Power Query catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Power Query''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, pricing, signup flow, and 8 more developer resources.'
+  Power Query''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, pricing, signup flow, and 9 more developer resources.'
 plans:
 - name: Power Query Plans Pricing
   plan_count: 3
@@ -170,19 +174,19 @@ rate_limits:
   slug: power-query-rate-limits
 score:
   band: thin
-  composite: 41.9
-  delta: 0.0
+  composite: 36.7
+  delta: -5.2
   facets:
-    commercial_clarity: 71.1
+    commercial_clarity: 60.5
     contract_quality: 17.7
     developer_ergonomics: 34.8
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 41.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/screenshots/power-query-2026-06-20T192025.png
 security:
 - kind: domain-security

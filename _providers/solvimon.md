@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 59.7
-  scored_at: '2026-08-10'
+  score: 56.1
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 287
   human_in_the_loop: 4
@@ -232,6 +232,10 @@ apis:
   slug: solvimon-workflowtriggers-api
 artifact_total: 69
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/solvimon-configuration-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -379,17 +383,17 @@ network: true
 overview: 'Solvimon publishes 64 APIs on the [APIs.io](https://apis.io/) network, including alertRules API, alerts API, apiKeys API, and 61 more. Tagged areas include Company, Fintech, Billing, Payments, and Monetization.
 
 
-  Solvimon''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 26 more developer resources.'
+  Solvimon''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 27 more developer resources.'
 random_paper: 75
 score:
   band: developing
-  composite: 52.6
-  delta: 0.0
+  composite: 51.2
+  delta: -1.4
   facets:
     commercial_clarity: 47.4
-    contract_quality: 58.4
+    contract_quality: 56.2
     developer_ergonomics: 75.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
   previous_composite: 52.6
@@ -409,8 +413,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

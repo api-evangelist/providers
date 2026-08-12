@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 42
 apis:
 - description: Agent configuration management
@@ -159,6 +159,10 @@ apis:
   slug: comet-workspaces-api
 artifact_total: 46
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/comet-opik-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -262,15 +266,15 @@ network: true
 overview: 'Comet publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Agent Configs API, Agent Insights API, Agent Insights Jobs API, and 39 more. Tagged areas include Company, Ai Enterprise Software, LLM Observability, LLMOps, and MLOps.
 
 
-  Comet''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
+  Comet''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
 random_paper: 72
 score:
   band: developing
-  composite: 53.2
-  delta: 0.0
+  composite: 52.7
+  delta: -0.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 55.3
+    contract_quality: 53.2
     developer_ergonomics: 64.7
     discoverability: 81.5
     governance: 11.5
@@ -285,8 +289,8 @@ score:
       total: 42
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/comet/refs/heads/main/screenshots/comet-2026-07-25T210115.png
 security:

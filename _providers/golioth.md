@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 0
@@ -180,6 +180,26 @@ collections:
   name: Golioth Management API
   slug: open-golioth
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/golioth/golioth-firmware-sdk/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/golioth/golioth-firmware-sdk/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/golioth/golioth-firmware-sdk/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/golioth/golioth-firmware-sdk/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/golioth/golioth-firmware-sdk/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -292,7 +312,7 @@ overview: 'Golioth publishes 33 APIs on the [APIs.io](https://apis.io/) network,
   The Golioth catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Golioth''s developer surface includes authentication, documentation, GitHub presence, developer console, engineering blog, training material, pricing, and 7 more developer resources.'
+  Golioth''s developer surface includes authentication, documentation, GitHub presence, developer console, engineering blog, training material, pricing, and 12 more developer resources.'
 plans:
 - name: Golioth Plans Pricing
   plan_count: 1
@@ -321,15 +341,15 @@ rules:
   slug: golioth-rules
 score:
   band: developing
-  composite: 44.9
-  delta: 0.0
+  composite: 48.0
+  delta: 3.1
   facets:
     commercial_clarity: 39.5
-    contract_quality: 63.8
-    developer_ergonomics: 28.3
-    discoverability: 50.0
+    contract_quality: 61.5
+    developer_ergonomics: 32.6
+    discoverability: 57.4
     governance: 58.3
-    operational_transparency: 26.3
+    operational_transparency: 42.1
   previous_composite: 44.9
   provenance:
     agentic_access: derived
@@ -338,8 +358,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 33
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/screenshots/golioth-2026-06-20T181951.png
 security:

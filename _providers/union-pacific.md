@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -212,16 +212,16 @@ rules:
     warn: 18
   slug: union-pacific-spectral-rules
 score:
-  band: thin
-  composite: 29.6
-  delta: 0.0
+  band: emerging
+  composite: 24.2
+  delta: -5.4
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 29.1
+    commercial_clarity: 13.2
+    contract_quality: 28.0
     developer_ergonomics: 0.0
     discoverability: 68.5
     governance: 58.3
-    operational_transparency: 21.1
+    operational_transparency: 5.3
   previous_composite: 29.6
   provenance:
     agentic_access: derived
@@ -230,9 +230,9 @@ score:
       derived: 8
       marker_coverage: 100.0
       total: 8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 security:
 - kind: domain-security
   name: Union Pacific Domain Security

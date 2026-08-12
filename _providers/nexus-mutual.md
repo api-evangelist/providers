@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,6 +49,22 @@ apis:
   slug: nexus-mutual-quote-api
 artifact_total: 19
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/NexusMutual/cover-router/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/NexusMutual/cover-router/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/NexusMutual/.github/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/NexusMutual/cover-router/blob/dev/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -166,7 +182,7 @@ overview: 'Nexus Mutual publishes 3 APIs on the [APIs.io](https://apis.io/) netw
   The Nexus Mutual catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Nexus Mutual''s developer surface includes documentation, engineering blog, and 14 more developer resources.'
+  Nexus Mutual''s developer surface includes documentation, engineering blog, and 18 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
@@ -187,15 +203,15 @@ rules:
   slug: nexus-mutual-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.2
-  delta: 0.0
+  composite: 45.5
+  delta: 1.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 59.0
+    contract_quality: 57.1
     developer_ergonomics: 17.4
     discoverability: 75.9
     governance: 58.3
-    operational_transparency: 31.6
+    operational_transparency: 47.4
   previous_composite: 44.2
   provenance:
     agentic_access: derived
@@ -210,8 +226,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 28.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexus-mutual/refs/heads/main/screenshots/nexus-mutual-2026-06-20T190302.png
 security:

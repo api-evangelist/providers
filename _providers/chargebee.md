@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -72,6 +72,26 @@ collections:
   name: Chargebee API v2
   slug: open-chargebee
 common:
+- group: start
+  title: ''
+  type: Sandbox
+  url: https://api-explorer.chargebee.com
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://release-notes.chargebee.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.chargebee.com/privacy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.chargebee.com/company/terms/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.chargebee.com/tutorials
 - group: agent
   title: ''
   type: AgenticAccess
@@ -182,7 +202,7 @@ overview: 'Chargebee publishes 8 APIs on the [APIs.io](https://apis.io/) network
   The Chargebee catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Chargebee''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 17 more developer resources.'
+  Chargebee''s developer surface includes sandbox, changelog, getting-started guide, authentication, documentation, API reference, pricing, and 22 more developer resources.'
 random_paper: 106
 rules:
 - name: Chargebee API Rules
@@ -195,15 +215,15 @@ rules:
   slug: chargebee-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 42.0
-  delta: 0.0
+  composite: 52.3
+  delta: 10.3
   facets:
-    commercial_clarity: 23.7
-    contract_quality: 66.7
-    developer_ergonomics: 47.8
-    discoverability: 74.1
+    commercial_clarity: 44.7
+    contract_quality: 64.2
+    developer_ergonomics: 65.2
+    discoverability: 81.5
     governance: 41.7
-    operational_transparency: 21.1
+    operational_transparency: 36.8
   previous_composite: 42.0
   provenance:
     agentic_access: derived
@@ -217,10 +237,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 18.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+    score: 31.3
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargebee/refs/heads/main/screenshots/chargebee-2026-06-20T174220.png
 security:
 - kind: authentication

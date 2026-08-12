@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: conformant
     agent_skills: derived
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 57.9
-  scored_at: '2026-08-10'
+  score: 54.3
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -112,6 +113,10 @@ asyncapis:
   name: Fieldpulse Events Webhooks
   slug: fieldpulse-events-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/fieldpulse-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -263,7 +268,7 @@ overview: 'FieldPulse publishes 25 APIs on the [APIs.io](https://apis.io/) netwo
   The FieldPulse catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  FieldPulse''s developer surface includes documentation, API reference, getting-started guide, support, pricing, changelog, authentication, and 26 more developer resources.'
+  FieldPulse''s developer surface includes documentation, API reference, getting-started guide, support, pricing, changelog, authentication, and 27 more developer resources.'
 plans:
 - name: Fieldpulse Plans
   plan_count: 3
@@ -275,16 +280,16 @@ rate_limits:
   slug: fieldpulse-rate-limits
 score:
   band: strong
-  composite: 60.3
-  delta: 0.5
+  composite: 59.3
+  delta: -1.0
   facets:
     commercial_clarity: 76.3
-    contract_quality: 68.2
+    contract_quality: 67.9
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 65.8
-  previous_composite: 59.8
+  previous_composite: 60.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -292,7 +297,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 25
     mcp: first-party
     skills: derived
   regulatory:
@@ -301,8 +306,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/screenshots/fieldpulse-2026-08-07T165250.png
 security:

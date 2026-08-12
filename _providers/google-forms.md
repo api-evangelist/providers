@@ -26,10 +26,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-08-10'
+  score: 40.5
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -85,6 +85,10 @@ collections:
   name: Google Forms Watches API
   slug: postman-google-forms-watches-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-forms-api-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -321,7 +325,7 @@ overview: 'Google Forms publishes 3 APIs on the [APIs.io](https://apis.io/) netw
   The Google Forms catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Google Forms'' developer surface includes changelog, authentication, developer console, getting-started guide, support, and 31 more developer resources.'
+  Google Forms'' developer surface includes changelog, authentication, developer console, getting-started guide, support, and 32 more developer resources.'
 plans:
 - name: Google Forms Plans Pricing
   plan_count: 3
@@ -354,16 +358,16 @@ scopes:
   slug: google-forms-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: strong
-  composite: 56.5
-  delta: 0.0
+  band: developing
+  composite: 48.4
+  delta: -8.1
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 32.2
+    commercial_clarity: 36.8
+    contract_quality: 31.0
     developer_ergonomics: 39.1
     discoverability: 100.0
     governance: 80.2
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 56.5
   provenance:
     agentic_access: derived
@@ -374,9 +378,9 @@ score:
       marker_coverage: 100.0
       total: 3
     mcp: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/screenshots/google-forms-2026-06-20T182203.png
 security:
 - kind: authentication

@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-08-10'
+  score: 46.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -50,6 +51,10 @@ apis:
   slug: trybloom-images-api
 artifact_total: 10
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/trybloom-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -177,7 +182,7 @@ network: true
 overview: 'Bloom publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Brands API, and Images API. Tagged areas include Company, Brand Management, Image Generation, Artificial Intelligence, and Agents.
 
 
-  Bloom''s developer surface includes documentation, API reference, getting-started guide, pricing, support, FAQ, authentication, and 21 more developer resources.'
+  Bloom''s developer surface includes documentation, API reference, getting-started guide, pricing, support, FAQ, authentication, and 22 more developer resources.'
 plans:
 - name: Trybloom Plans Pricing
   plan_count: 5
@@ -194,11 +199,11 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: developing
-  composite: 54.5
-  delta: 0.0
+  composite: 53.9
+  delta: -0.6
   facets:
     commercial_clarity: 76.3
-    contract_quality: 62.0
+    contract_quality: 59.7
     developer_ergonomics: 51.6
     discoverability: 92.6
     governance: 11.5
@@ -214,8 +219,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

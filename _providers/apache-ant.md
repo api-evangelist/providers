@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: 'Apache Ant provides a Java library and command-line tool for automating build processes through XML-based build files. It supports compilation, testing, packaging, and deployment of Java and non-Java '
@@ -39,6 +39,18 @@ apis:
   slug: apache-ivy
 artifact_total: 28
 common:
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/apache/ant/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/ant/blob/master/CONTRIBUTING.md
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -134,7 +146,7 @@ network: true
 overview: 'Apache Ant publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Automation, Build Tool, CI/CD, and Java.
 
 
-  Apache Ant''s developer surface includes documentation, getting-started guide, FAQ, support, changelog, and 7 more developer resources.'
+  Apache Ant''s developer surface includes documentation, getting-started guide, FAQ, support, changelog, and 10 more developer resources.'
 plans:
 - name: Apache Ant Plans Pricing
   plan_count: 3
@@ -145,20 +157,20 @@ rate_limits:
   name: Apache Ant Rate Limits
   slug: apache-ant-rate-limits
 score:
-  band: thin
-  composite: 28.8
-  delta: 0.0
+  band: emerging
+  composite: 22.4
+  delta: -6.4
   facets:
-    commercial_clarity: 50.0
+    commercial_clarity: 26.3
     contract_quality: 0.0
     developer_ergonomics: 30.4
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 28.8
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-ant/refs/heads/main/screenshots/apache-ant-2026-06-20T172039.png
 security:
 - kind: domain-security

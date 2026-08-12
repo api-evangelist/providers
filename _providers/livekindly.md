@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-10'
+  score: 28.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -69,6 +69,10 @@ apis:
   slug: livekindly-users-api
 artifact_total: 18
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/livekindly-content-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -189,7 +193,7 @@ network: true
 overview: 'LIVEKINDLY publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Brands API, Careers API, Comments API, and 9 more. Tagged areas include Company, Food and Beverage, Plant-Based, Alternative Protein, and Consumer Packaged Goods.
 
 
-  LIVEKINDLY''s developer surface includes engineering blog, product news, support, authentication, and 22 more developer resources.'
+  LIVEKINDLY''s developer surface includes engineering blog, product news, support, authentication, and 23 more developer resources.'
 random_paper: 39
 scopes:
 - name: Livekindly Scopes
@@ -198,28 +202,28 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: emerging
-  composite: 22.2
-  delta: 0.3
+  composite: 21.2
+  delta: -1.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 14.1
+    contract_quality: 14.5
     developer_ergonomics: 19.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 21.9
+  previous_composite: 22.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 12
       marker_coverage: 100.0
-      total: 1
+      total: 12
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livekindly/refs/heads/main/screenshots/livekindly-2026-08-07T171739.png
 security:

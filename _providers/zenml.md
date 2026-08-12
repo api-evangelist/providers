@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     auth_clarity: true
     consent_identity: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-08-10'
+  score: 45.9
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -127,6 +127,10 @@ collections:
   name: ZenML OSS REST API
   slug: open-zenml
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/zenml-io/zenml/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -339,7 +343,7 @@ overview: 'ZenML publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
   The ZenML catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  ZenML''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, pricing, engineering blog, and 31 more developer resources.'
+  ZenML''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, pricing, engineering blog, and 32 more developer resources.'
 plans:
 - name: Zenml Plans Pricing
   plan_count: 3
@@ -368,15 +372,15 @@ rules:
   slug: zenml-rules
 score:
   band: strong
-  composite: 65.3
-  delta: 0.0
+  composite: 58.9
+  delta: -6.4
   facets:
-    commercial_clarity: 71.1
-    contract_quality: 66.1
-    developer_ergonomics: 60.9
-    discoverability: 64.8
+    commercial_clarity: 47.4
+    contract_quality: 63.7
+    developer_ergonomics: 67.4
+    discoverability: 72.2
     governance: 58.3
-    operational_transparency: 68.4
+    operational_transparency: 44.7
   previous_composite: 65.3
   provenance:
     agentic_access: derived
@@ -385,9 +389,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenml/refs/heads/main/screenshots/zenml-2026-06-20T201813.png
 security:
 - kind: authentication

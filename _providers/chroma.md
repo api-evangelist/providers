@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -90,6 +90,14 @@ collections:
   name: Chroma Server API
   slug: open-chroma-server-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/chroma-core/chroma/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/chroma-core/chroma/releases
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -243,7 +251,7 @@ overview: 'Chroma publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The Chroma catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Chroma''s developer surface includes authentication, documentation, developer portal, pricing, engineering blog, and 20 more developer resources.'
+  Chroma''s developer surface includes authentication, documentation, developer portal, pricing, engineering blog, and 22 more developer resources.'
 plans:
 - name: Chroma Plans Pricing
   plan_count: 3
@@ -264,13 +272,13 @@ rules:
   slug: chroma-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.3
-  delta: 0.0
+  composite: 56.6
+  delta: -3.7
   facets:
-    commercial_clarity: 92.1
-    contract_quality: 72.1
-    developer_ergonomics: 34.8
-    discoverability: 64.8
+    commercial_clarity: 68.4
+    contract_quality: 69.7
+    developer_ergonomics: 39.1
+    discoverability: 72.2
     governance: 58.3
     operational_transparency: 26.3
   previous_composite: 60.3
@@ -281,8 +289,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/screenshots/chroma-2026-06-20T174327.png
 security:

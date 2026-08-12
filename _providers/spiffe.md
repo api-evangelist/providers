@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,6 +60,10 @@ collections:
   name: SPIFFE Federation Bundle Endpoint API
   slug: open-spiffe-federation
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/spiffe/spiffe/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -163,7 +167,7 @@ overview: 'SPIFFE publishes 2 APIs on the [APIs.io](https://apis.io/) network: W
   The SPIFFE catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  SPIFFE''s developer surface includes documentation, getting-started guide, engineering blog, Stack Overflow tag, and 13 more developer resources.'
+  SPIFFE''s developer surface includes documentation, getting-started guide, engineering blog, Stack Overflow tag, and 14 more developer resources.'
 plans:
 - name: Spiffe Plans Pricing
   plan_count: 3
@@ -200,15 +204,15 @@ rules:
   slug: spiffe-rules
 score:
   band: developing
-  composite: 50.6
-  delta: 0.0
+  composite: 42.2
+  delta: -8.4
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 66.2
+    commercial_clarity: 15.8
+    contract_quality: 64.1
     developer_ergonomics: 26.1
     discoverability: 72.2
     governance: 62.5
-    operational_transparency: 47.4
+    operational_transparency: 23.7
   previous_composite: 50.6
   provenance:
     agentic_access: derived
@@ -217,9 +221,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spiffe/refs/heads/main/screenshots/spiffe-2026-06-20T194311.png
 security:
 - kind: domain-security

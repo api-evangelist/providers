@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: false
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 15.3
-  scored_at: '2026-08-10'
+  score: 11.7
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'The Auth0-backed OpenID Connect tenant behind nib member sign-in, issuer https://id.nib.com.au/. It is the only nib API surface with anonymously readable, machine-readable metadata: the OIDC discovery'
@@ -158,8 +158,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 72.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nib-health-funds/refs/heads/main/screenshots/nib-health-funds-2026-08-07T185245.png
 security:

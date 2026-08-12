@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: 'HTTP API for sending any block or flow from a bot to a user via a POST request, including targeting users by attribute. Rate limited to 25 requests per second per bot. Requests are authenticated with '
@@ -150,8 +150,8 @@ rate_limits:
   slug: chatfuel-rate-limits
 score:
   band: thin
-  composite: 35.9
-  delta: 0.0
+  composite: 34.8
+  delta: -1.1
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
@@ -162,14 +162,8 @@ score:
   previous_composite: 35.9
   provenance:
     conformance: first-party
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatfuel/refs/heads/main/screenshots/chatfuel-2026-07-25T205116.png
 security:

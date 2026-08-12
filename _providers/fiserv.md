@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -139,6 +139,18 @@ collections:
   name: Fiserv CommerceHub API
   slug: open-fiserv-commercehub
 common:
+- group: operate
+  title: ''
+  type: Community
+  url: https://www.fiserv.com/en/forum
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.fiserv.com/en/about-fiserv/privacy-notice.html
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.fiserv.com/en/about-fiserv/terms-of-use.html
 - group: agent
   title: ''
   type: AgenticAccess
@@ -221,7 +233,7 @@ overview: 'Fiserv publishes 27 APIs on the [APIs.io](https://apis.io/) network, 
   The Fiserv catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Fiserv''s developer surface includes authentication, documentation, signup flow, and 9 more developer resources.'
+  Fiserv''s developer surface includes authentication, documentation, signup flow, and 12 more developer resources.'
 plans:
 - name: Fiserv Plans Pricing
   plan_count: 1
@@ -265,16 +277,16 @@ rules:
     warn: 4
   slug: fiserv-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 40.2
-  delta: 0.0
+  band: developing
+  composite: 43.9
+  delta: 3.7
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 76.1
-    developer_ergonomics: 19.6
-    discoverability: 55.6
+    commercial_clarity: 47.4
+    contract_quality: 73.7
+    developer_ergonomics: 23.9
+    discoverability: 63.0
     governance: 47.9
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 40.2
   provenance:
     agentic_access: derived
@@ -288,9 +300,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 21.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+    score: 31.6
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiserv/refs/heads/main/screenshots/fiserv-2026-06-20T181247.png
 security:

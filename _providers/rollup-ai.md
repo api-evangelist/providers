@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Rollup''s REST API for programmatic access to the hardware engineering collaboration platform. Authenticated with API keys or OAuth tokens; supports pagination and websockets. The API host resolves to '
@@ -72,8 +72,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: domain-security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: 'Full REST API for managing accounts, subscriptions, plans, add-ons, coupons, invoices, line items, transactions, shipping, tax, and webhooks across a Recurly site. Authentication is HTTP Basic with a '
@@ -35,6 +35,14 @@ apis:
   slug: v3-api
 artifact_total: 3
 common:
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://recurly.com/legal/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://recurly.com/legal/terms
 - group: auth
   title: ''
   type: TrustCenter
@@ -106,17 +114,17 @@ network: true
 overview: 'Recurly publishes 1 API on the [APIs.io](https://apis.io/) network: v3 API. Tagged areas include Subscriptions, Billing, Payments, Recurring Revenue, and Invoicing.
 
 
-  Recurly''s developer surface includes documentation, API reference, pricing, signup flow, support, engineering blog, and 9 more developer resources.'
+  Recurly''s developer surface includes documentation, API reference, pricing, signup flow, support, engineering blog, and 11 more developer resources.'
 random_paper: 78
 score:
-  band: emerging
-  composite: 25.9
-  delta: 0.0
+  band: thin
+  composite: 34.2
+  delta: 8.3
   facets:
-    commercial_clarity: 18.4
+    commercial_clarity: 52.6
     contract_quality: 32.3
     developer_ergonomics: 30.4
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 25.9
@@ -125,10 +133,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 17.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+    score: 29.7
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/recurly/refs/heads/main/screenshots/recurly-2026-06-20T192713.png
 security:
 - kind: domain-security

@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-10'
+  score: 35.4
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: An OAuth-protected Model Context Protocol server RunBuggy operates on its application host. Discovered by probe — it is not referenced from the public developer documentation. tools/list returns 401 i
@@ -45,6 +45,10 @@ asyncapis:
   name: Runbuggy Webhooks
   slug: runbuggy-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/runbuggy-authentication-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -187,7 +191,7 @@ overview: 'RunBuggy publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The RunBuggy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  RunBuggy''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 24 more developer resources.'
+  RunBuggy''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 25 more developer resources.'
 random_paper: 71
 scopes:
 - name: Runbuggy Scopes
@@ -196,27 +200,27 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 54.9
-  delta: 0.1
+  composite: 53.2
+  delta: -1.7
   facets:
     commercial_clarity: 42.1
-    contract_quality: 66.5
+    contract_quality: 64.0
     developer_ergonomics: 60.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 54.8
+  previous_composite: 54.9
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

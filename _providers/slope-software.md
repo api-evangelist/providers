@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 39.9
-  scored_at: '2026-08-10'
+  score: 36.3
+  scored_at: '2026-08-11'
 api_count: 14
 apis:
 - description: The Arrays API from Slope Software — 2 operation(s) for arrays.
@@ -203,12 +203,12 @@ overview: 'Slope Software publishes 14 APIs on the [APIs.io](https://apis.io/) n
   Slope Software''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 20 more developer resources.'
 random_paper: 75
 score:
-  band: developing
-  composite: 42.0
-  delta: 0.0
+  band: thin
+  composite: 41.6
+  delta: -0.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 50.3
+    contract_quality: 48.5
     developer_ergonomics: 40.8
     discoverability: 92.6
     governance: 20.8
@@ -229,8 +229,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 39.4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

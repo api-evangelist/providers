@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -26,10 +27,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 59.0
-  scored_at: '2026-08-10'
+  score: 55.4
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 2
@@ -126,6 +127,26 @@ collections:
   name: Hub API Endpoints
   slug: open-hugging-face-transformers
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/huggingface/transformers/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/huggingface/transformers/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/huggingface/transformers/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/huggingface/transformers/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/huggingface/transformers/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -273,7 +294,7 @@ network: true
 overview: 'Hugging Face Transformers publishes 23 APIs on the [APIs.io](https://apis.io/) network, including agentic-provisioning API, auth API, buckets API, and 20 more. Tagged areas include Artificial Intelligence, Computer Vision, Deep Learning, Machine Learning, and Natural Language Processing.
 
 
-  Hugging Face Transformers'' developer surface includes authentication, changelog, CLI, engineering blog, documentation, YouTube channel, signup flow, and 25 more developer resources.'
+  Hugging Face Transformers'' developer surface includes authentication, changelog, CLI, engineering blog, documentation, YouTube channel, signup flow, and 30 more developer resources.'
 plans:
 - name: Hugging Face Transformers Plans Pricing
   plan_count: 3
@@ -290,15 +311,15 @@ scopes:
   summary_line: 15 scopes · authorizationCode/deviceCode
 score:
   band: developing
-  composite: 48.9
-  delta: 0.0
+  composite: 45.6
+  delta: -3.3
   facets:
-    commercial_clarity: 60.5
-    contract_quality: 51.3
-    developer_ergonomics: 37.0
-    discoverability: 83.3
+    commercial_clarity: 50.0
+    contract_quality: 49.4
+    developer_ergonomics: 47.8
+    discoverability: 72.2
     governance: 11.5
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 48.9
   provenance:
     agentic_access: derived
@@ -309,8 +330,8 @@ score:
       marker_coverage: 0.0
       total: 23
     mcp: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/screenshots/hugging-face-transformers-2026-06-20T182926.png
 security:

@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-08-10'
+  score: 50.2
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -86,6 +86,10 @@ asyncapis:
   name: Sign In Enterprise Webhooks
   slug: sign-in-enterprise-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sign-in-enterprise-guest-api-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -224,7 +228,7 @@ overview: 'Sign In Enterprise publishes 14 APIs on the [APIs.io](https://apis.io
   The Sign In Enterprise catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Sign In Enterprise''s developer surface includes documentation, API reference, pricing, engineering blog, support, authentication, and 24 more developer resources.'
+  Sign In Enterprise''s developer surface includes documentation, API reference, pricing, engineering blog, support, authentication, and 25 more developer resources.'
 random_paper: 87
 scopes:
 - name: Sign In Enterprise Scopes
@@ -233,13 +237,13 @@ scopes:
   summary_line: 48 scopes · authorizationCode
 score:
   band: developing
-  composite: 53.8
-  delta: 0.0
+  composite: 52.0
+  delta: -1.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 71.6
+    contract_quality: 68.9
     developer_ergonomics: 51.6
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 13.2
   previous_composite: 53.8
@@ -253,8 +257,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

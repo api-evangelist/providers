@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Low-latency, near-time market data query API delivered as a streaming WebSockets service so clients can process arbitrarily-sized result sets frame-by-frame without pagination. Publicly documented onl
@@ -92,14 +92,14 @@ overview: 'MayStreet publishes 2 APIs on the [APIs.io](https://apis.io/) network
   MayStreet''s developer surface includes authentication, sandbox, and 8 more developer resources.'
 random_paper: 62
 score:
-  band: emerging
-  composite: 13.2
-  delta: 0.0
+  band: minimal
+  composite: 12.2
+  delta: -1.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
     developer_ergonomics: 17.4
-    discoverability: 77.8
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 13.2
@@ -109,8 +109,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maystreet/refs/heads/main/screenshots/maystreet-2026-07-22T202504.png
 security:

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 2
 apis:
 - description: Storybook is an open-source frontend workshop for building UI components and pages in isolation. Supports React, Vue, Angular, Svelte, Web Components, Ember, Preact, and more. Core features include co
@@ -39,6 +39,10 @@ apis:
   slug: storybook-mcp
 artifact_total: 13
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/storybookjs/storybook/blob/next/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -124,7 +128,7 @@ overview: 'Storybook publishes 2 APIs on the [APIs.io](https://apis.io/) network
   The Storybook catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Storybook''s developer surface includes documentation, engineering blog, release notes, YouTube channel, and 7 more developer resources.'
+  Storybook''s developer surface includes documentation, engineering blog, release notes, YouTube channel, and 8 more developer resources.'
 plans:
 - name: Storybook Plans Pricing
   plan_count: 3
@@ -144,20 +148,20 @@ rules:
     warn: 4
   slug: storybook-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 33.1
-  delta: 0.0
+  band: emerging
+  composite: 26.1
+  delta: -7.0
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 12.9
-    developer_ergonomics: 10.9
+    developer_ergonomics: 15.2
     discoverability: 59.3
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 33.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/storybook/refs/heads/main/screenshots/storybook-2026-06-20T194609.png
 security:
 - kind: domain-security

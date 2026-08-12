@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 8
 apis:
 - description: Call analytics, transcripts, keywords, and reports
@@ -61,6 +61,10 @@ asyncapis:
   name: Tenfold Webhooks
   slug: tenfold-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tenfold-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -119,17 +123,17 @@ overview: 'Tenfold publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
   The Tenfold catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tenfold''s developer surface includes API reference, documentation, authentication, and 7 more developer resources.'
+  Tenfold''s developer surface includes API reference, documentation, authentication, and 8 more developer resources.'
 random_paper: 52
 score:
   band: thin
-  composite: 31.5
-  delta: 0.0
+  composite: 34.0
+  delta: 2.5
   facets:
     commercial_clarity: 0.0
-    contract_quality: 60.9
+    contract_quality: 58.6
     developer_ergonomics: 38.6
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
   previous_composite: 31.5
@@ -142,14 +146,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 8.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

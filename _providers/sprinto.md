@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: REST API for building custom compliance, evidence, and risk workflows on Sprinto. Detailed reference is gated; access is provisioned through Sprinto support.
@@ -106,19 +106,19 @@ rate_limits:
   name: Sprinto Rate Limits
   slug: sprinto-rate-limits
 score:
-  band: emerging
-  composite: 17.1
-  delta: 0.0
+  band: minimal
+  composite: 12.7
+  delta: -4.4
   facets:
-    commercial_clarity: 36.8
+    commercial_clarity: 21.1
     contract_quality: 0.0
     developer_ergonomics: 2.2
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 10.5
   previous_composite: 17.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sprinto/refs/heads/main/screenshots/sprinto-2026-06-20T194423.png
 security:

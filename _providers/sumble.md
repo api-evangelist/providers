@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -70,6 +71,10 @@ apis:
   slug: sumble-technologies-api
 artifact_total: 15
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sumble-openapi-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -185,15 +190,15 @@ network: true
 overview: 'Sumble publishes 10 APIs on the [APIs.io](https://apis.io/) network, including contact-lists API, jobs API, organization-lists API, and 7 more. Tagged areas include Company, Account Intelligence, Sales Intelligence, Data Enrichment, and Go-To-Market.
 
 
-  Sumble''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 18 more developer resources.'
+  Sumble''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 19 more developer resources.'
 random_paper: 68
 score:
   band: developing
-  composite: 50.2
-  delta: 0.0
+  composite: 49.6
+  delta: -0.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 64.3
+    contract_quality: 61.9
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
@@ -209,8 +214,8 @@ score:
       total: 10
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

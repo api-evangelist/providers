@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Newman is the open source command-line companion for Postman that runs Postman collections from the CLI for automated API testing in CI/CD pipelines.
@@ -36,6 +36,22 @@ apis:
   slug: newman
 artifact_total: 4
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/postmanlabs/newman/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/postmanlabs/newman/blob/develop/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/postmanlabs/newman/blob/develop/.github/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/postmanlabs/newman/blob/develop/LICENSE
 - group: company
   title: ''
   type: Website
@@ -67,7 +83,7 @@ network: true
 overview: 'Newman publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Functional Testing, Testing, CLI, and Postman.
 
 
-  Newman''s developer surface includes documentation and 3 more developer resources.'
+  Newman''s developer surface includes documentation and 7 more developer resources.'
 plans:
 - name: Newman Plans Pricing
   plan_count: 3
@@ -78,20 +94,20 @@ rate_limits:
   name: Newman Rate Limits
   slug: newman-rate-limits
 score:
-  band: emerging
-  composite: 18.5
-  delta: 0.0
+  band: minimal
+  composite: 12.1
+  delta: -6.4
   facets:
-    commercial_clarity: 39.5
+    commercial_clarity: 15.8
     contract_quality: 0.0
     developer_ergonomics: 8.7
     discoverability: 40.7
     governance: 0.0
-    operational_transparency: 36.8
+    operational_transparency: 23.7
   previous_composite: 18.5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/newman/refs/heads/main/screenshots/newman-2026-06-20T190243.png
 slug: newman
 tags:

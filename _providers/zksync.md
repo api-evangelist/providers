@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 10
 apis:
 - description: JSON-RPC endpoint for zkSync Era mainnet (chain ID 324). Implements standard eth_* methods plus zks_* extensions for L1 batch info, fee estimation, bridge contracts, paymaster params, token addresses,
@@ -67,6 +67,10 @@ asyncapis:
   name: zkSync Era WebSocket JSON-RPC PubSub API
   slug: zksync-asyncapi
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/zksync-sdk/zksync-ethers/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -137,7 +141,7 @@ overview: 'zkSync publishes 1 API on the [APIs.io](https://apis.io/) network: Er
   The zkSync catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  zkSync''s developer surface includes documentation, GitHub presence, developer portal, status page, engineering blog, and 8 more developer resources.'
+  zkSync''s developer surface includes documentation, GitHub presence, developer portal, status page, engineering blog, and 9 more developer resources.'
 plans:
 - name: Zksync Plans Pricing
   plan_count: 1
@@ -158,18 +162,18 @@ rules:
   slug: zksync-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 38.9
-  delta: 0.0
+  composite: 39.8
+  delta: 0.9
   facets:
     commercial_clarity: 28.9
     contract_quality: 50.6
-    developer_ergonomics: 19.6
+    developer_ergonomics: 23.9
     discoverability: 74.1
     governance: 47.9
     operational_transparency: 26.3
   previous_composite: 38.9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zksync/refs/heads/main/screenshots/zksync-2026-06-20T201926.png
 security:

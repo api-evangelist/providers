@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-08-10'
+  score: 50.2
+  scored_at: '2026-08-11'
 api_count: 6
 apis:
 - description: 'Universal Commerce Protocol (UCP) MCP endpoint published on the Arccos Golf Shopify storefront for agent-driven commerce. An anonymous JSON-RPC tools/list returns 13 tools covering catalog search and '
@@ -203,27 +203,27 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.0
-  delta: 0.5
+  composite: 45.3
+  delta: -1.7
   facets:
     commercial_clarity: 34.2
-    contract_quality: 57.7
+    contract_quality: 55.5
     developer_ergonomics: 66.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 46.5
+  previous_composite: 47.0
   provenance:
     conformance: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arccos-golf/refs/heads/main/screenshots/arccos-golf-2026-08-07T161622.png
 security:

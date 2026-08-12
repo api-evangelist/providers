@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -93,6 +93,10 @@ collections:
   name: Cisco NX-API REST
   slug: open-cisco-nexus-nxapi-rest
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/YangModels/yang/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -555,7 +559,7 @@ overview: 'Cisco Nexus Dashboard publishes 5 APIs on the [APIs.io](https://apis.
   The Cisco Nexus Dashboard catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Cisco Nexus Dashboard''s developer surface includes authentication, engineering blog, training material, sandbox, support, code examples, and 5 more developer resources.'
+  Cisco Nexus Dashboard''s developer surface includes authentication, engineering blog, training material, sandbox, support, code examples, and 6 more developer resources.'
 plans:
 - name: Cisco Nexus Plans Pricing
   plan_count: 1
@@ -584,15 +588,15 @@ rules:
   slug: cisco-nexus-spectral-rules
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 43.5
+  delta: -6.8
   facets:
-    commercial_clarity: 28.9
-    contract_quality: 67.9
+    commercial_clarity: 13.2
+    contract_quality: 65.4
     developer_ergonomics: 32.6
     discoverability: 72.2
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 50.3
   provenance:
     agentic_access: derived
@@ -601,9 +605,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-nexus/refs/heads/main/screenshots/cisco-nexus-2026-06-20T174359.png
 security:
 - kind: authentication

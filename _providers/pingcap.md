@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -18,7 +19,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.5
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 5
@@ -126,6 +127,14 @@ apis:
   slug: pingcap-trends-api
 artifact_total: 39
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pingcap-ossinsight-overlay.yaml
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/pingcap/pytidb/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -317,7 +326,7 @@ network: true
 overview: 'PingCAP publishes 31 APIs on the [APIs.io](https://apis.io/) network, including API Key API, Audit Log API, Backup API, and 28 more. Tagged areas include distributed-sql, database, tidb, htap, and mysql-compatible.
 
 
-  PingCAP''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 37 more developer resources.'
+  PingCAP''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 39 more developer resources.'
 random_paper: 42
 rate_limits:
 - limit_count: 1
@@ -325,28 +334,28 @@ rate_limits:
   slug: pingcap-rate-limits
 score:
   band: strong
-  composite: 60.9
-  delta: -1.2
+  composite: 61.2
+  delta: 0.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 49.0
+    contract_quality: 50.1
     developer_ergonomics: 87.0
     discoverability: 77.8
     governance: 20.8
     operational_transparency: 68.4
-  previous_composite: 62.1
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 66.7
+      callable: 83.9
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 31
     mcp: first-party
     skills: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

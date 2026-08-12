@@ -21,14 +21,14 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-10'
+  score: 34.0
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,8 +53,16 @@ apis:
 - description: Discover the workspaces available to the authenticated key.
   name: Rows Workspaces API
   slug: rows-workspaces-api
-artifact_total: 10
+artifact_total: 11
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/rows-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/rows-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -163,6 +171,10 @@ created: '2026-07-17'
 description: 'Rows is an AI-powered spreadsheet that connects to live data from dozens of business tools and lets teams build reports, dashboards and lightweight data apps without leaving a familiar grid. Beyond the app, Rows ships a public REST API (base https://api.rows.com/v1) authenticated with a Bearer API key: it exposes workspaces, folders and spreadsheets for discovery, table cell and value read-write operations for moving data in and out of a sheet, and a Vision endpoint that uses AI to extract structured tabular data from image and document files. API access is included on every plan with monthly call quotas scaling from the Free tier (500 calls/month) to Enterprise. Rows is SOC 2 Type II certified and GDPR compliant with European data residency, and joined Superhuman in 2025. It was backed by Accel.'
 image: https://rows.com/favicon.ico
 layout: provider
+mcp_servers:
+- description: ''
+  name: rows-mcp.yml
+  slug: rows-mcpyml
 modified: '2026-07-21'
 name: Rows
 nav: Providers
@@ -170,16 +182,16 @@ network: true
 overview: 'Rows publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Data API, Folders API, Spreadsheets API, and 2 more. Tagged areas include Company, Productivity, Spreadsheets, Data, and No-Code.
 
 
-  Rows'' developer surface includes documentation, API reference, engineering blog, pricing, changelog, authentication, and 20 more developer resources.'
+  Rows'' developer surface includes documentation, API reference, engineering blog, pricing, changelog, authentication, and 22 more developer resources.'
 random_paper: 111
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 49.0
+  delta: -0.1
   facets:
     commercial_clarity: 47.4
-    contract_quality: 63.6
-    developer_ergonomics: 45.1
+    contract_quality: 61.2
+    developer_ergonomics: 47.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 31.6
@@ -194,8 +206,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

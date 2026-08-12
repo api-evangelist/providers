@@ -15,10 +15,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-10'
+  score: 28.6
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 0
@@ -72,6 +72,10 @@ apis:
   slug: enveda-biosciences-users-api
 artifact_total: 18
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/enveda-biosciences-content-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -192,28 +196,28 @@ network: true
 overview: 'Enveda publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Discovery API, Issues API, and 10 more. Tagged areas include Company, Biotechnology, Drug Discovery, Life Sciences, and Artificial Intelligence.
 
 
-  Enveda''s developer surface includes engineering blog, product news, support, authentication, and 22 more developer resources.'
+  Enveda''s developer surface includes engineering blog, product news, support, authentication, and 23 more developer resources.'
 random_paper: 91
 score:
   band: emerging
-  composite: 24.1
-  delta: 0.2
+  composite: 23.3
+  delta: -0.8
   facets:
     commercial_clarity: 21.1
-    contract_quality: 14.1
+    contract_quality: 14.5
     developer_ergonomics: 19.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 23.9
+  previous_composite: 24.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 13
       marker_coverage: 100.0
-      total: 1
+      total: 13
     mcp: first-party
     skills: derived
   regulatory:
@@ -222,8 +226,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enveda-biosciences/refs/heads/main/screenshots/enveda-biosciences-2026-08-07T164935.png
 security:

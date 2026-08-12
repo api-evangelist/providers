@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: The ForeignAssistance.gov Data API (OAS 3.0) is the U.S. government's flagship source for foreign assistance budgetary and financial data. It exposes spending, obligations, and disbursements across al
@@ -133,8 +133,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usaid/refs/heads/main/screenshots/usaid-2026-06-20T200640.png
 security:

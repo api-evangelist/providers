@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-10'
+  score: 38.1
+  scored_at: '2026-08-11'
 api_count: 1
 apis:
 - description: Create, retrieve, list and stop screen sharing sessions.
@@ -40,6 +40,10 @@ asyncapis:
   name: Screenleap Inc Webhooks
   slug: screenleap-inc-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/screenleap-inc-screen-sharing-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -162,17 +166,17 @@ overview: 'Screenleap Inc publishes 1 API on the [APIs.io](https://apis.io/) net
   The Screenleap Inc catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Screenleap Inc''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 19 more developer resources.'
+  Screenleap Inc''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 20 more developer resources.'
 random_paper: 25
 score:
   band: thin
-  composite: 41.4
-  delta: 0.0
+  composite: 40.0
+  delta: -1.4
   facets:
     commercial_clarity: 44.7
-    contract_quality: 25.6
+    contract_quality: 24.6
     developer_ergonomics: 56.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 11.5
     operational_transparency: 36.8
   previous_composite: 41.4
@@ -185,8 +189,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -294,16 +294,16 @@ scopes:
   slug: spotify-scopes
   summary_line: 19 scopes · authorizationCode
 score:
-  band: strong
-  composite: 60.7
-  delta: 0.0
+  band: developing
+  composite: 52.9
+  delta: -7.8
   facets:
-    commercial_clarity: 63.2
-    contract_quality: 81.0
+    commercial_clarity: 39.5
+    contract_quality: 78.3
     developer_ergonomics: 32.6
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 58.3
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 60.7
   provenance:
     agentic_access: derived
@@ -312,9 +312,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/screenshots/spotify-2026-06-20T194353.png
 security:
 - kind: authentication

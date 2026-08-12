@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -68,6 +68,10 @@ apis:
   slug: orbit-workspaces-api
 artifact_total: 55
 common:
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/orbit-love/ruby-orbit-members/blob/main/LICENSE
 - group: agent
   title: ''
   type: AgenticAccess
@@ -263,7 +267,7 @@ overview: 'Orbit publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
   The Orbit catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Orbit''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  Orbit''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Orbit Plans Pricing
   plan_count: 3
@@ -284,11 +288,11 @@ rules:
   slug: orbit-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 48.6
+  delta: -0.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 59.7
+    contract_quality: 57.5
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
@@ -301,8 +305,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

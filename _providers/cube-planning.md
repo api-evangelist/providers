@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-08-10'
+  score: 41.7
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 1
@@ -166,6 +166,10 @@ apis:
   slug: cube-planning-workflow-api
 artifact_total: 48
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cube-planning-openapi-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -277,7 +281,7 @@ network: true
 overview: 'Cube Planning publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Attributes API, Audit Trail API, and 39 more. Tagged areas include Company, FP&A, Financial Planning, Finance, and Budgeting.
 
 
-  Cube Planning''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
+  Cube Planning''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
 random_paper: 39
 scopes:
 - name: Cube Planning Scopes
@@ -286,13 +290,13 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 45.2
+  delta: -1.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 54.5
+    contract_quality: 52.5
     developer_ergonomics: 36.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 20.8
     operational_transparency: 15.8
   previous_composite: 46.8
@@ -306,8 +310,8 @@ score:
       total: 42
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cube-planning/refs/heads/main/screenshots/cube-planning-2026-07-25T210914.png
 security:

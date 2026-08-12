@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: 'JSON over HTTPS Web API for the NSE Request-for-Quote (RFQ) platform for corporate bonds and debt securities. Documented in the "RFQ - Protocol for Web API" PDF published on the NSE trading protocols '
@@ -131,13 +131,13 @@ overview: 'National Stock Exchange of India publishes 3 APIs on the [APIs.io](ht
 random_paper: 15
 score:
   band: thin
-  composite: 40.6
-  delta: 0.0
+  composite: 39.7
+  delta: -0.9
   facets:
     commercial_clarity: 31.6
     contract_quality: 51.6
     developer_ergonomics: 37.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 12.5
     operational_transparency: 23.7
   previous_composite: 40.6
@@ -149,8 +149,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-stock-exchange-of-india/refs/heads/main/screenshots/national-stock-exchange-of-india-2026-08-07T184648.png
 security:

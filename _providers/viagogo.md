@@ -11,14 +11,14 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-10'
+  score: 34.0
+  scored_at: '2026-08-11'
 api_count: 21
 apis:
 - description: The Addresses API from viagogo — 2 operation(s) for addresses.
@@ -84,12 +84,20 @@ apis:
 - description: When configuring a webhook, you can choose the topics you would like to receive payloads for. You should only subscribe to the specific topics that you plan on handling so that you can limit the numbe
   name: viagogo Topics API
   slug: viagogo-topics-api
-artifact_total: 25
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Viagogo Webhooks
   slug: viagogo-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/viagogo-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/viagogo-account-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -206,6 +214,10 @@ created: '2026-08-05'
 description: viagogo is a global online ticket marketplace for live events — concerts, sport and theatre — operating in more than 90 countries and, since the 2020 acquisition of StubHub, part of StubHub Holdings. viagogo publishes a public developer program at developer.viagogo.net covering five OAuth2-secured HTTP APIs — Catalog (events, venues, categories and instant-liquidity listing offers), Account (users, addresses, payment methods), Inventory (seller listings, listing constraints, e-tickets and shipments), Sales (sales, payments, ticket holders, transfer proof) and Webhooks (topic subscriptions) — all served from api.viagogo.net over application/hal+json with a matching sandbox.api.viagogo.net environment, official GogoKit client libraries for .NET, Python, Ruby and PHP, and machine-readable OpenAPI 3.0 definitions synced nightly from the API host into the public docs repository.
 image: https://img.vggcdn.net/img/assets/logo/viagogo_logo_apidocs.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: viagogo-mcp.yml
+  slug: viagogo-mcpyml
 modified: '2026-08-05'
 name: viagogo
 nav: Providers
@@ -216,7 +228,7 @@ overview: 'viagogo publishes 21 APIs on the [APIs.io](https://apis.io/) network,
   The viagogo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  viagogo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 21 more developer resources.'
+  viagogo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 23 more developer resources.'
 random_paper: 52
 scopes:
 - name: Viagogo Scopes
@@ -225,27 +237,27 @@ scopes:
   summary_line: 17 scopes
 score:
   band: developing
-  composite: 48.9
-  delta: -0.4
+  composite: 48.2
+  delta: -0.7
   facets:
     commercial_clarity: 34.2
-    contract_quality: 57.1
-    developer_ergonomics: 66.8
-    discoverability: 92.6
+    contract_quality: 57.2
+    developer_ergonomics: 69.0
+    discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 49.3
+  previous_composite: 48.9
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 security:
 - kind: authentication

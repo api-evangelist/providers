@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 4
 apis:
 - description: Public, anonymous identity-resolution endpoint that returns Audigent's cookieless Hadron ID (plus hadronIdv2 and the legacy haloId) for the calling browser. Called by the Prebid.js hadronIdSystem user
@@ -35,6 +35,22 @@ apis:
   slug: audigent-platform-api
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/prebid/Prebid.js/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/prebid/Prebid.js/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/prebid/Prebid.js/blob/master/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/prebid/Prebid.js/blob/master/LICENSE
 - group: company
   title: ''
   type: Website
@@ -134,24 +150,24 @@ network: true
 overview: 'Audigent publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Data, and Identity.
 
 
-  Audigent''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 16 more developer resources.'
+  Audigent''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 20 more developer resources.'
 random_paper: 37
 score:
-  band: emerging
-  composite: 27.5
-  delta: 0.0
+  band: thin
+  composite: 28.4
+  delta: 0.9
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
     developer_ergonomics: 43.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 12.5
-    operational_transparency: 13.2
+    operational_transparency: 28.9
   previous_composite: 27.5
   provenance:
     conformance: first-party
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/audigent/refs/heads/main/screenshots/audigent-2026-08-07T161917.png
 security:

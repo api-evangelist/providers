@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -56,6 +56,18 @@ collections:
   name: Spring Cloud Gateway Actuator API
   slug: open-spring-cloud-gateway-actuator
 common:
+- group: operate
+  title: ''
+  type: Support
+  url: https://spring.io/support
+- group: auth
+  title: ''
+  type: Security
+  url: https://spring.io/security
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://spring.io/quickstart
 - group: agent
   title: ''
   type: AgenticAccess
@@ -146,7 +158,7 @@ overview: 'Spring Cloud Gateway publishes 3 APIs on the [APIs.io](https://apis.i
   The Spring Cloud Gateway catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spring Cloud Gateway''s developer surface includes engineering blog, documentation, GitHub presence, release notes, Stack Overflow tag, and 8 more developer resources.'
+  Spring Cloud Gateway''s developer surface includes support, getting-started guide, engineering blog, documentation, GitHub presence, release notes, Stack Overflow tag, and 9 more developer resources.'
 plans:
 - name: Spring Cloud Gateway Plans Pricing
   plan_count: 3
@@ -175,15 +187,15 @@ rules:
   slug: spring-cloud-gateway-rules
 score:
   band: developing
-  composite: 47.2
-  delta: 0.0
+  composite: 43.2
+  delta: -4.0
   facets:
-    commercial_clarity: 39.5
-    contract_quality: 59.2
-    developer_ergonomics: 10.9
+    commercial_clarity: 15.8
+    contract_quality: 57.0
+    developer_ergonomics: 26.1
     discoverability: 72.2
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 39.5
   previous_composite: 47.2
   provenance:
     agentic_access: derived
@@ -192,8 +204,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-cloud-gateway/refs/heads/main/screenshots/spring-cloud-gateway-2026-06-20T194410.png
 security:

@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -78,6 +78,26 @@ collections:
   name: Amazon Q Business API
   slug: open-amazon-q
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/aws/amazon-q-connectjs/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/aws/amazon-q-connectjs/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/aws/amazon-q-connectjs/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/aws/amazon-q-connectjs/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/aws/amazon-q-connectjs/blob/main/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -253,7 +273,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/amazon-q-openapi.yml
+  url: openapi/_original/amazon-q-openapi.yml
 created: 2024-01-15 00:00:00+00:00
 description: Amazon Q is a generative AI-powered assistant that helps with various tasks including answering questions, generating content, and taking actions based on your enterprise data and systems. It is available in multiple product variants including Amazon Q Business for enterprise knowledge, Amazon Q Developer for software development, and Amazon Q in Connect for customer service agents.
 examples:
@@ -359,7 +379,7 @@ overview: 'Amazon Q publishes 4 APIs on the [APIs.io](https://apis.io/) network,
   The Amazon Q catalog on APIs.io includes 5 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon Q''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, FAQ, support, and 37 more developer resources.'
+  Amazon Q''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, FAQ, support, and 42 more developer resources.'
 plans:
 - name: Amazon Q Plans Pricing
   plan_count: 7
@@ -388,15 +408,15 @@ rules:
   slug: amazon-q-spectral-rules
 score:
   band: strong
-  composite: 64.7
-  delta: 0.0
+  composite: 61.0
+  delta: -3.7
   facets:
-    commercial_clarity: 78.9
-    contract_quality: 64.3
+    commercial_clarity: 68.4
+    contract_quality: 61.9
     developer_ergonomics: 56.5
     discoverability: 64.8
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 44.7
   previous_composite: 64.7
   provenance:
     agentic_access: derived
@@ -405,8 +425,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/screenshots/amazon-q-2026-06-20T171808.png
 security:

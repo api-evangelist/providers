@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: DeepEval is an open-source Python framework for evaluating LLM applications as unit tests. It ships with research-backed metrics including GEval, AnswerRelevancyMetric, FaithfulnessMetric, TaskComplet
@@ -42,6 +42,22 @@ apis:
   slug: deepteam
 artifact_total: 33
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/confident-ai/deepeval/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/confident-ai/deepeval/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/confident-ai/deepeval/blob/main/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/confident-ai/deepeval/blob/main/LICENSE
 - group: auth
   title: ''
   type: DomainSecurity
@@ -157,7 +173,7 @@ network: true
 overview: 'Confident AI publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include LLM Evaluation, Open Source, Observability, Red Teaming, and Guardrails.
 
 
-  Confident AI''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
+  Confident AI''s developer surface includes documentation, engineering blog, pricing, and 15 more developer resources.'
 plans:
 - name: Confident Ai Plans Pricing
   plan_count: 1
@@ -169,18 +185,18 @@ rate_limits:
   slug: confident-ai-rate-limits
 score:
   band: emerging
-  composite: 24.2
-  delta: 0.0
+  composite: 27.1
+  delta: 2.9
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
-    developer_ergonomics: 10.9
+    developer_ergonomics: 15.2
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 42.1
   previous_composite: 24.2
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confident-ai/refs/heads/main/screenshots/confident-ai-2026-06-20T174857.png
 security:

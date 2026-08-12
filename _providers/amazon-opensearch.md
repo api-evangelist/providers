@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-10'
+  scored_at: '2026-08-11'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 1
@@ -3108,15 +3108,15 @@ rules:
   slug: amazon-opensearch-spectral-rules
 score:
   band: strong
-  composite: 65.9
-  delta: 0.0
+  composite: 57.4
+  delta: -8.5
   facets:
-    commercial_clarity: 81.6
-    contract_quality: 74.2
+    commercial_clarity: 57.9
+    contract_quality: 71.5
     developer_ergonomics: 43.5
     discoverability: 72.2
     governance: 68.8
-    operational_transparency: 52.6
+    operational_transparency: 28.9
   previous_composite: 65.9
   provenance:
     agentic_access: derived
@@ -3125,9 +3125,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
-  trend: flat
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/screenshots/amazon-opensearch-2026-06-20T171751.png
 security:
 - kind: authentication

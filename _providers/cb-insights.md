@@ -1,9 +1,10 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     auth_clarity: true
     consent_identity: false
@@ -15,10 +16,10 @@ agent_readiness:
     openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 57.7
-  scored_at: '2026-08-10'
+  score: 50.7
+  scored_at: '2026-08-11'
 api_count: 13
 apis:
 - description: The original CB Insights REST API — 11 documented GET operations over organizations, deals (fundings, investments, portfolio exits), people, business relationships, expert collections and the credit l
@@ -62,6 +63,10 @@ apis:
   slug: cb-insights-strategymap-api
 artifact_total: 19
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/cbinsights/cbi-mcp-server/issues
 - group: auth
   title: ''
   type: DomainSecurity
@@ -221,24 +226,36 @@ network: true
 overview: 'CB Insights publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Business Relationships API, Chat CBI API, and 8 more. Tagged areas include Company, market-intelligence, private-company-data, venture-capital, and funding-data.
 
 
-  CB Insights'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+  CB Insights'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 random_paper: 71
 rate_limits:
 - limit_count: 1
   name: Cb Insights Rate Limits
   slug: cb-insights-rate-limits
 score:
-  band: strong
-  composite: 56.9
+  band: developing
+  composite: 55.3
+  delta: -1.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 51.2
-    developer_ergonomics: 67.4
-    discoverability: 92.6
+    contract_quality: 53.1
+    developer_ergonomics: 62.5
+    discoverability: 81.5
     governance: 31.3
     operational_transparency: 42.1
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  previous_composite: 56.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
+    mcp: first-party
+    skills: derived
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
+  trend: flat
 security:
 - kind: authentication
   name: Cb Insights Authentication

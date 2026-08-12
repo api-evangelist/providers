@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,10 +25,10 @@ agent_readiness:
     openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
-    well_known_catalog: true
+    well_known_catalog: false
   schema_version: 0.2
-  score: 48.9
-  scored_at: '2026-08-10'
+  score: 45.3
+  scored_at: '2026-08-11'
 api_count: 3
 apis:
 - description: 'Integrate the system of your choice (ERP, PIM, WMS, or webstore) with ChannelEngine. Synchronize product content and offers; retrieve, acknowledge and update orders, shipments, returns, cancellations '
@@ -238,8 +238,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.9.1
-  scored_at: '2026-08-10'
+  schema_version: 0.11.0
+  scored_at: '2026-08-11'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/screenshots/channelengine-2026-07-25T205043.png
 security:
