@@ -1,6 +1,6 @@
 {
- "total": 828,
- "shown": 828,
+ "total": 829,
+ "shown": 829,
  "limit": 1000,
  "bands": [
   {
@@ -31535,27 +31535,33 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 3,
-   "shown": 3,
+   "count": 4,
+   "shown": 4,
    "providers": [
+    {
+     "name": "DAZN",
+     "slug": "dazn",
+     "description": "DAZN is a global over-the-top live sports streaming service headquartered in London and owned by Access Industries. Launched in 2015 out of the former Perform Group, it streams boxing, football, MotoGP, UFC and other rights to subscribers across more than 200 countries and territories, and has expanded through the acquisitions of Eleven Group, Foxtel/Kayo Sports and ViewLift, alongside the DAZN Bet and DAZN Media brands. DAZN operates a large Node.js microservice estate on AWS and publishes open source engineering tooling (the Kopytko Roku ecosystem, dazn-lambda-powertools) from its GitHub organization, but it runs no public developer program: there is no developer portal, no API reference, and no machine-readable specification for the consumer platform APIs that power its apps.",
+     "rank": 826
+    },
     {
      "name": "Slow Ventures",
      "slug": "slow-ventures",
      "description": "Slow Ventures is a generalist early-stage venture capital firm founded in 2011 and headquartered in San Francisco, with additional offices in Boston and New York. The firm leads pre-seed and seed rounds, writing typical checks of roughly $500K to $3M (averaging around $1.75M), and explicitly rejects thematic investing in favor of backing experienced founders with deep, hard-won domain expertise and genuine conviction. Slow's thesis funds rapid, high-stakes experimentation: capital that tests a novel risk or hypothesis whose validation dramatically increases a company's value and that cannot easily be funded another way. As a generalist, Slow invests across consumer and social, fintech, SaaS and enterprise/developer tools, healthcare, crypto/web3, the creator economy, and real-world operations (SMB acceleration, buyouts/rollups, franchising). The firm runs a dedicated Creator Fund backing creator-led businesses, and has deployed roughly $800M+ across multiple fund vintages since inception. Notable investments include Pinterest, Slack, Robinhood, Nextdoor, Postmates, Opendoor, Wealthfront, Casper, PillPack, Airtable, Gusto, and Solana.",
-     "rank": 826
+     "rank": 827
     },
     {
      "name": "Social Capital",
      "slug": "social-capital",
      "description": "Social Capital is a technology investment firm founded in 2011 by Chamath Palihapitiya (a former Facebook executive) and headquartered in Palo Alto, California, with co-founders Mamoon Hamid and Ted Maidenberg. Originally a traditional venture fund that stood out by backing healthcare, financial services, education, and other hard, regulated sectors the VC community had neglected, the firm pivoted in 2018 into a technology holding company that stopped accepting outside capital and now invests from its own permanent balance sheet of roughly $2.1B, aiming to \"earn like Berkshire Hathaway and invest like the Red Cross.\" Its thesis targets multiple emerging $10T markets across deep tech commercialization, life sciences and drug discovery, the global energy transition, and creator-economy media. Chamath became known as the \"SPAC King\" for taking companies public through the Social Capital Hedosophia (IPOA-IPOF) vehicles, including Virgin Galactic, Opendoor, Clover Health, and SoFi. Notable investments include Slack, Box, SurveyMonkey, Wealthfront, Netskope, Intercom, Groq, Palmetto, Saildrone, and Relativity Space.",
-     "rank": 827
+     "rank": 828
     },
     {
      "name": "Visioconference",
      "slug": "visioconference",
      "description": "Visioconference (video conferencing) is a category of communication technology enabling real-time visual and audio communication between remote participants. This repository profiles the video conferencing API ecosystem including leading providers such as Zoom, Microsoft Teams, Google Meet, Webex, Digital Samba, VideoSDK, Daily.co, and others offering REST APIs for embedding and managing video conferencing functionality. The term \"visioconference\" is commonly used in French-speaking contexts.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/visioconference/refs/heads/main/screenshots/visioconference-2026-06-20T201051.png",
-     "rank": 828
+     "rank": 829
     }
    ]
   }

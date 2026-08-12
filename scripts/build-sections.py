@@ -31,6 +31,8 @@ import re
 
 import yaml
 
+import lib_bands
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.dirname(HERE)
 ROOT = os.path.dirname(os.path.dirname(SITE))
@@ -1016,43 +1018,14 @@ def build_rated_entry(slug, meta, scores):
 # from the same file score.rb does so the two cannot disagree again.
 SCORING_YML = os.path.join(ROOT, "api-search", "network", "_data", "scoring.yml")
 
-# Listing blurbs are written for this site and stay here; only the ranges are sourced.
-BAND_BLURBS = {
-    "exemplar":   "Reference-quality API operations across every facet.",
-    "strong":     "Solid contracts, transparent operations, and an easy start.",
-    "developing": "Real signal across most facets with visible, nameable gaps.",
-    "thin":       "Limited machine-readable signal beyond documentation a human can read.",
-    "emerging":   "More than an index entry but still mostly links rather than artifacts.",
-    "minimal":    "Index entry only; little beyond a description and a link.",
-}
-
-_BAND_LADDER_CACHE = []
+# Bands (ids, labels, ranges) come from lib_bands, which reads the rubric — see that
+# module for why no list of bands is retyped anywhere in this repo any more.
+BAND_BLURBS = lib_bands.BAND_BLURBS
 
 
 def band_ladder_from_scoring():
     """[(id, label, range, blurb), …] with ranges read from scoring.yml."""
-    if _BAND_LADDER_CACHE:
-        return _BAND_LADDER_CACHE
-    ladder = []
-    try:
-        with open(SCORING_YML, "r", encoding="utf-8") as fh:
-            bands = (yaml.safe_load(fh) or {}).get("bands") or []
-        for b in bands:
-            bid = str(b.get("id") or "")
-            if bid in BAND_BLURBS:
-                ladder.append((bid, b.get("label") or bid.title(),
-                               str(b.get("range") or ""), BAND_BLURBS[bid]))
-    except (OSError, yaml.YAMLError):
-        ladder = []
-    if len(ladder) != len(BAND_BLURBS):
-        # scoring.yml unreadable or reshaped — group without claiming a range
-        # rather than printing thresholds that may be wrong.
-        ladder = [(bid, bid.title() if bid != "developing" else "Developing", "", blurb)
-                  for bid, blurb in BAND_BLURBS.items()]
-    ladder.append(("unrated", "Not Yet Rated", "",
-                   "Providers we have not scored yet — unknown, not zero."))
-    _BAND_LADDER_CACHE.extend(ladder)
-    return _BAND_LADDER_CACHE
+    return lib_bands.band_ladder()
 
 
 def band_grouped(entries):

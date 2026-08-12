@@ -1,5 +1,5 @@
 {
- "total": 5119,
+ "total": 5123,
  "shown": 1000,
  "limit": 1000,
  "bands": [
@@ -38659,7 +38659,7 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 98,
+   "count": 102,
    "shown": 0,
    "providers": []
   }

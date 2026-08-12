@@ -1,6 +1,6 @@
 {
- "total": 675,
- "shown": 675,
+ "total": 676,
+ "shown": 676,
  "limit": 1000,
  "bands": [
   {
@@ -25851,8 +25851,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
+   "count": 2,
+   "shown": 2,
    "providers": [
     {
      "name": "Bullpen Capital",
@@ -25860,6 +25860,12 @@
      "description": "Bullpen Capital is a San Francisco-based venture capital firm founded in 2010 by Paul Martino, Duncan Davidson, and Richard Melmon that pioneered the \"post-seed\" investment category. The firm provides early-stage financing to companies that have found initial product-market fit but are overlooked by traditional investors \"for no good reason\" — deliberately backing unconventional founders and sectors that other firms dismiss. Bullpen typically writes checks in the range of roughly $1M-$5M, often stepping in between the seed and Series A rounds to help capital-efficient companies push toward a strong institutional raise. The firm invests across gaming, commerce, apps and services, health, consumer and lifestyle, fintech, and marketplaces, primarily in North America with select exposure in Latin America (notably Brazil and Mexico). With a portfolio of 90+ companies, Bullpen's notable investments include FanDuel, Namely, Classy, Braze, HomeLight, ipsy, SpotHero, Splitwise, and Wag.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bullpen-capital/refs/heads/main/screenshots/bullpen-capital-2026-07-25T204059.png",
      "rank": 675
+    },
+    {
+     "name": "DAZ 3D",
+     "slug": "daz-3d",
+     "description": "Daz 3D is a Salt Lake City based 3D content and software company best known for Daz Studio, a free figure posing, morphing and rendering application, and for the Genesis line of morphable 3D human figures. The company runs a large first-party and marketplace store of 3D characters, clothing, props and environments, publishes the DSON (Daz Scene Object Notation) JSON-based scene file format, and licenses synthetic 3D character datasets for AI training through the surface that was formerly the Tafi brand. Its developer surface is an application SDK rather than a web API: a free C++ plug-in SDK, the DAZ Script ECMAScript scripting API documented in the public Daz Documentation Center, and open-source Daz-to-Blender / Unity / Unreal / Maya / Cinema 4D / 3ds Max bridge plug-ins published on GitHub. No public REST, GraphQL or event API is published.",
+     "rank": 676
     }
    ]
   }

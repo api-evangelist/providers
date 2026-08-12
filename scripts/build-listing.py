@@ -27,6 +27,8 @@ import string
 
 import yaml
 
+import lib_bands
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.dirname(HERE)
 ROOT = os.path.dirname(os.path.dirname(SITE))
@@ -97,11 +99,11 @@ EUROPE_TAGS = {
     "Andorra", "San Marino",
 }
 
-# Six bands since rubric v0.4 — `emerging` (15–29.9) split the old `minimal`, which had
-# been the whole 0–29 range. It was missing here while band_grouped()'s ladder carried it,
-# so line ~552's `if band in band_lists` silently dropped every emerging provider from the
-# per-band export: ~6,100 providers in no band listing at all. Keep this in ladder order.
-BANDS = ["exemplar", "strong", "developing", "thin", "emerging", "minimal"]
+# Bands come from the rubric, never from a list retyped here — see scripts/lib_bands.py.
+# A hand-kept copy is what dropped all 6,142 `emerging` providers out of the per-band
+# export (BANDS is used as a FILTER below), while the second ladder in this same file
+# already knew the band existed.
+BANDS = lib_bands.band_ids()
 
 # Matches Fortune classification in apis.yml source files:
 # Fortune F1000 (rank N), Fortune 500, x-fortune:, fortune-rank:, Fortune Global N
@@ -122,14 +124,8 @@ FORTUNE_YML_RE = re.compile(
 #                           the companies it indexes, not to itself.
 NOT_FORTUNE = {"apis-io", "api-evangelist-network"}
 
-BAND_META = {
-    "exemplar":   ("Exemplar",   "Top-tier providers with comprehensive API programs, full governance, and excellent developer experience."),
-    "strong":     ("Strong",     "Well-rounded API providers with solid governance, documentation, and developer tooling."),
-    "developing": ("Developing", "API providers making good progress toward a complete and well-governed API program."),
-    "thin":       ("Thin",       "API providers with basic presence but limited governance, tooling, or documentation."),
-    "emerging":   ("Emerging",   "API providers with more than an index entry, but still mostly links rather than machine-readable artifacts."),
-    "minimal":    ("Minimal",    "API providers with minimal API program signals detected on the network."),
-}
+# Labels from the rubric, page prose from lib_bands.BAND_PAGE_DESC.
+BAND_META = lib_bands.band_meta()
 
 
 # ---------------------------------------------------------------------------
@@ -457,15 +453,11 @@ def band_grouped(entries):
     entries.sort(key=lambda e: (-e.get("score", -1), e["name"].lower()))
     for rank, e in enumerate(entries, 1):
         e["rank"] = rank
-    band_ladder = [
-        ("exemplar",   "Exemplar",   "70+",     "Reference-quality API operations across every facet."),
-        ("strong",     "Strong",     "60–69.9", "Solid contracts, transparent operations, and an easy start."),
-        ("developing", "Developing", "45–59.9", "Real signal across most facets with visible, nameable gaps."),
-        ("thin",       "Thin",       "30–44.9", "Limited machine-readable signal beyond documentation a human can read."),
-        ("emerging",   "Emerging",   "15–29.9", "More than an index entry but still mostly links rather than artifacts."),
-        ("minimal",    "Minimal",    "0–14.9",  "Index entry only; little beyond a description and a link."),
-        ("unrated",    "Not Yet Rated", "",     "Providers we have not scored yet — unknown, not zero."),
-    ]
+    # These ranges were hand-copied and drifted: this printed the pre-calibration
+    # ladder (70+, 60–69.9, 45–59.9, 30–44.9, 15–29.9) while the rubric had moved to
+    # 66+/56–65.9/42–55.9/28–41.9/13–27.9. Grouping was right, the label under it was
+    # wrong on every rated listing. Read them from the rubric.
+    band_ladder = lib_bands.band_ladder()
     groups = []
     for band, label, band_range, blurb in band_ladder:
         members = [e for e in entries if e.get("band", "unrated") == band or (band == "unrated" and "band" not in e)]

@@ -1,6 +1,6 @@
 {
- "total": 617,
- "shown": 617,
+ "total": 618,
+ "shown": 618,
  "limit": 1000,
  "bands": [
   {
@@ -24767,15 +24767,21 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
+   "count": 2,
+   "shown": 2,
    "providers": [
+    {
+     "name": "Decisiv",
+     "slug": "decisiv",
+     "description": "Decisiv is the Reston, Virginia company behind the commercial vehicle industry's Service Relationship Management (SRM) platform — a cloud service that connects fleets, asset owners, OEMs, dealers, independent service providers and component suppliers around a single service event. The platform orchestrates the whole repair lifecycle: asset registration and VIN-based identification, service requests, case creation, estimates and line items with VMRS coding, parts, labor and additional charges, technician time tasks, notes, attachments, approvals, sublet work between shops, and telematics-driven fault codes and diagnostic readings. Decisiv exposes this through the SRM Gateway APIs — four JSON:API-shaped OpenAPI 3.1 modules (Account Management, Asset Management, Service Management, Telematics) — plus the older Global Assets and Service Provider Swagger 2.0 APIs and the XML Platform API. Access is OAuth 2.0 and provisioned per account; documentation is public but credentials come through sales.",
+     "rank": 617
+    },
     {
      "name": "Energy and Utilities",
      "slug": "energy-utilities",
      "description": "Energy and Utilities is a topic profile in the API Evangelist Network cataloging the API surfaces that move data across the modern electricity, gas, and water value chain. It indexes utility data integration APIs, grid and wholesale market operator APIs, federal energy data programs, renewable energy research APIs, weather APIs that drive grid demand and solar forecasting, EV charging interoperability protocols, and the Green Button family of customer energy data standards. The repo provides a baseline catalog plus shared semantics (JSON Schema, JSON-LD, vocabulary, examples) for the meter reading / energy data point that ties every one of these surfaces together.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/energy-utilities/refs/heads/main/screenshots/energy-utilities-2026-06-20T180707.png",
-     "rank": 617
+     "rank": 618
     }
    ]
   }
