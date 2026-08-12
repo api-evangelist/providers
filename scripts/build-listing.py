@@ -97,7 +97,11 @@ EUROPE_TAGS = {
     "Andorra", "San Marino",
 }
 
-BANDS = ["exemplar", "strong", "developing", "thin", "minimal"]
+# Six bands since rubric v0.4 — `emerging` (15–29.9) split the old `minimal`, which had
+# been the whole 0–29 range. It was missing here while band_grouped()'s ladder carried it,
+# so line ~552's `if band in band_lists` silently dropped every emerging provider from the
+# per-band export: ~6,100 providers in no band listing at all. Keep this in ladder order.
+BANDS = ["exemplar", "strong", "developing", "thin", "emerging", "minimal"]
 
 # Matches Fortune classification in apis.yml source files:
 # Fortune F1000 (rank N), Fortune 500, x-fortune:, fortune-rank:, Fortune Global N
@@ -123,6 +127,7 @@ BAND_META = {
     "strong":     ("Strong",     "Well-rounded API providers with solid governance, documentation, and developer tooling."),
     "developing": ("Developing", "API providers making good progress toward a complete and well-governed API program."),
     "thin":       ("Thin",       "API providers with basic presence but limited governance, tooling, or documentation."),
+    "emerging":   ("Emerging",   "API providers with more than an index entry, but still mostly links rather than machine-readable artifacts."),
     "minimal":    ("Minimal",    "API providers with minimal API program signals detected on the network."),
 }
 
