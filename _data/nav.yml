@@ -37,6 +37,10 @@
       symbol: category
       href: https://apievangelist.com/areas/
 
+    - name: FAQ
+      symbol: help
+      href: https://faq.apievangelist.com
+
     - name: Conversations
       symbol: forum
       href: https://conversations.apievangelist.com
@@ -141,12 +145,18 @@
     - name: Regulations
       symbol: gavel
       href: https://regulations.apievangelist.com
+
     - name: Headers
       symbol: horizontal_rule
       href: https://headers.apievangelist.com/
+
     - name: Overlays
       symbol: layers
       href: https://overlays.apievangelist.com/
+
+    - name: Extensions
+      symbol: extension
+      href: https://extensions.apievangelist.com
 
     - name: Schema
       symbol: schema
